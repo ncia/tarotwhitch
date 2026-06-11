@@ -1,0 +1,21 @@
+{
+  "@@locale": "tr",
+  "navReading": "Tarot Okuması",
+  "navChat": "Tarot Sohbeti",
+  "navMeanings": "Anlamlar",
+  "readingIntroTitle": "Kaderin\nFısıltıları",
+  "readingIntroSubtitle": "Gizemli bir güç seni bekliyor...",
+  "readingIntroButton": "Kaderini Keşfet",
+  "readingSpreadTitle": "Kaderin\nAnahtarı",
+  "readingSpreadSubtitle": "Kişisel tarot okuman",
+  "readingSpreadMessageTitle": "Seni bekleyen kader...",
+  "readingSpreadMessageBody": "Hem yeni zorluklar hem de büyük ödüller getirecek beklenmedik bir yolculuğa hazırlan.",
+  "chatTitle": "Tarot Sohbeti",
+  "chatSubtitle": "Tarot'un bilgeliğini keşfet",
+  "chatName": "Emilia",
+  "chatBadge": "Tarot Sohbeti ✨",
+  "chatPlaceholder": "Sohbet arayüzü alanı",
+  "meaningsTitle": "🃏 Tarot Kartı Anlamları",
+  "meaningsSubtitle": "Tarot dünyasının derinliklerine in",
+  "meaningsPlaceholder": "Kart detay alanı"
+}

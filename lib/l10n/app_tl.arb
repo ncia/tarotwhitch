@@ -1,0 +1,21 @@
+{
+  "@@locale": "tl",
+  "navReading": "Pagbasa ng Tarot",
+  "navChat": "Tarot Chat",
+  "navMeanings": "Mga Kahulugan",
+  "readingIntroTitle": "Mga Bulong\nng Tadhana",
+  "readingIntroSubtitle": "Isang misteryosong kapangyarihan ang naghihintay sa iyo...",
+  "readingIntroButton": "Tuklasin ang iyong Tadhana",
+  "readingSpreadTitle": "Susi ng\nTadhana",
+  "readingSpreadSubtitle": "Ang iyong personal na pagbasa ng tarot",
+  "readingSpreadMessageTitle": "Ang tadhana na naghihintay sa iyo...",
+  "readingSpreadMessageBody": "Maghanda para sa isang hindi inaasahang paglalakbay na magdadala ng mga bagong hamon at malalaking gantimpala.",
+  "chatTitle": "Tarot Chat",
+  "chatSubtitle": "Tuklasin ang karunungan ng tarot",
+  "chatName": "Emilia",
+  "chatBadge": "Tarot Chat ✨",
+  "chatPlaceholder": "Lugar ng chat interface",
+  "meaningsTitle": "🃏 Mga Kahulugan ng Tarot Card",
+  "meaningsSubtitle": "Sumisid sa mundo ng tarot",
+  "meaningsPlaceholder": "Lugar ng mga detalye ng card"
+}

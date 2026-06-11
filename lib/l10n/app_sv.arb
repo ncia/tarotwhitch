@@ -1,0 +1,21 @@
+{
+  "@@locale": "sv",
+  "navReading": "Tarotläsning",
+  "navChat": "Tarot Chatt",
+  "navMeanings": "Betydelser",
+  "readingIntroTitle": "Ödets\nViskningar",
+  "readingIntroSubtitle": "En mystisk kraft väntar på dig...",
+  "readingIntroButton": "Upptäck ditt öde",
+  "readingSpreadTitle": "Ödets\nNyckel",
+  "readingSpreadSubtitle": "Din personliga tarotläsning",
+  "readingSpreadMessageTitle": "Ödet som väntar dig...",
+  "readingSpreadMessageBody": "Förbered dig på en oväntad resa som kommer att ge både nya utmaningar och stora belöningar.",
+  "chatTitle": "Tarot Chatt",
+  "chatSubtitle": "Upptäck tarotens visdom",
+  "chatName": "Emilia",
+  "chatBadge": "Tarot Chatt ✨",
+  "chatPlaceholder": "Chattgränssnittsområde",
+  "meaningsTitle": "🃏 Tarotkort Betydelser",
+  "meaningsSubtitle": "Dyk in i tarotens värld",
+  "meaningsPlaceholder": "Kortdetaljområde"
+}

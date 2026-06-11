@@ -1,0 +1,21 @@
+{
+  "@@locale": "ro",
+  "navReading": "Citire Tarot",
+  "navChat": "Chat Tarot",
+  "navMeanings": "Semnificații",
+  "readingIntroTitle": "Șoaptele\nDestinului",
+  "readingIntroSubtitle": "O putere misterioasă te așteaptă...",
+  "readingIntroButton": "Descoperă-ți destinul",
+  "readingSpreadTitle": "Cheia\nDestinului",
+  "readingSpreadSubtitle": "Citirea ta personală de tarot",
+  "readingSpreadMessageTitle": "Destinul care te așteaptă...",
+  "readingSpreadMessageBody": "Pregătește-te pentru o călătorie neașteptată care va aduce noi provocări și mari recompense.",
+  "chatTitle": "Chat Tarot",
+  "chatSubtitle": "Descoperă înțelepciunea tarotului",
+  "chatName": "Emilia",
+  "chatBadge": "Chat Tarot ✨",
+  "chatPlaceholder": "Zona interfeței de chat",
+  "meaningsTitle": "🃏 Semnificațiile Cărților de Tarot",
+  "meaningsSubtitle": "Scufundă-te în lumea tarotului",
+  "meaningsPlaceholder": "Zona de detalii a cărții"
+}

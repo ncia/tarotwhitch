@@ -1,0 +1,21 @@
+{
+  "@@locale": "th",
+  "navReading": "อ่านไพ่ทาโรต์",
+  "navChat": "แชทไพ่ทาโรต์",
+  "navMeanings": "ความหมายไพ่",
+  "readingIntroTitle": "เสียงกระซิบ\nแห่งโชคชะตา",
+  "readingIntroSubtitle": "พลังลึกลับกำลังรอคุณอยู่...",
+  "readingIntroButton": "ค้นพบโชคชะตาของคุณ",
+  "readingSpreadTitle": "กุญแจแห่ง\nโชคชะตา",
+  "readingSpreadSubtitle": "การอ่านไพ่ทาโรต์ส่วนตัวของคุณ",
+  "readingSpreadMessageTitle": "โชคชะตาที่รอคุณอยู่...",
+  "readingSpreadMessageBody": "เตรียมพร้อมสำหรับการเดินทางที่ไม่คาดคิดที่จะนำมาซึ่งความท้าทายใหม่และรางวัลอันยิ่งใหญ่",
+  "chatTitle": "แชทไพ่ทาโรต์",
+  "chatSubtitle": "ค้นพบภูมิปัญญาของไพ่ทาโรต์",
+  "chatName": "เอมิเลีย",
+  "chatBadge": "แชทไพ่ทาโรต์ ✨",
+  "chatPlaceholder": "พื้นที่แชท",
+  "meaningsTitle": "🃏 ความหมายของไพ่ทาโรต์",
+  "meaningsSubtitle": "ดำดิ่งสู่โลกแห่งไพ่ทาโรต์",
+  "meaningsPlaceholder": "พื้นที่รายละเอียดไพ่"
+}

@@ -1,0 +1,21 @@
+{
+  "@@locale": "rm",
+  "navReading": "Lecziun da Tarot",
+  "navChat": "Chat da Tarot",
+  "navMeanings": "Senzas",
+  "readingIntroTitle": "Susts\ndel Destin",
+  "readingIntroSubtitle": "In pudair misterius t'aspecta...",
+  "readingIntroButton": "Scuvra tes destin",
+  "readingSpreadTitle": "Clav dal\nDestin",
+  "readingSpreadSubtitle": "Tia lecziun persunala da tarot",
+  "readingSpreadMessageTitle": "Il destin che t'aspecta...",
+  "readingSpreadMessageBody": "Prepara't per in viadi nunspetgà che purtarà novas sfidas e grondas recumpensas.",
+  "chatTitle": "Chat da Tarot",
+  "chatSubtitle": "Scuvra la sabientscha dal tarot",
+  "chatName": "Emilia",
+  "chatBadge": "Chat da Tarot ✨",
+  "chatPlaceholder": "Zona da l'interfatscha dal chat",
+  "meaningsTitle": "🃏 Significat da las Cartas da Tarot",
+  "meaningsSubtitle": "Sfunda en il mund dal tarot",
+  "meaningsPlaceholder": "Zona dals detagls da la carta"
+}

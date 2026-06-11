@@ -1,0 +1,21 @@
+{
+  "@@locale": "vi",
+  "navReading": "Xem Bói Tarot",
+  "navChat": "Trò Chuyện Tarot",
+  "navMeanings": "Ý Nghĩa Thẻ",
+  "readingIntroTitle": "Lời Thì Thầm\nCủa Định Mệnh",
+  "readingIntroSubtitle": "Một sức mạnh bí ẩn đang chờ bạn...",
+  "readingIntroButton": "Khám Phá Định Mệnh",
+  "readingSpreadTitle": "Chìa Khóa\nĐịnh Mệnh",
+  "readingSpreadSubtitle": "Trải bài tarot cá nhân của bạn",
+  "readingSpreadMessageTitle": "Định mệnh đang chờ đón bạn...",
+  "readingSpreadMessageBody": "Hãy chuẩn bị cho một hành trình bất ngờ mang đến cả những thách thức mới và những phần thưởng tuyệt vời.",
+  "chatTitle": "Trò Chuyện Tarot",
+  "chatSubtitle": "Khám phá trí tuệ của tarot",
+  "chatName": "Emilia",
+  "chatBadge": "Trò Chuyện Tarot ✨",
+  "chatPlaceholder": "Khu vực giao diện trò chuyện",
+  "meaningsTitle": "🃏 Ý Nghĩa Thẻ Tarot",
+  "meaningsSubtitle": "Đi sâu vào thế giới tarot",
+  "meaningsPlaceholder": "Khu vực chi tiết thẻ"
+}

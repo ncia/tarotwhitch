@@ -1,0 +1,21 @@
+{
+  "@@locale": "pt",
+  "navReading": "Leitura de Tarot",
+  "navChat": "Chat de Tarot",
+  "navMeanings": "Significados",
+  "readingIntroTitle": "Sussurros do\nDestino",
+  "readingIntroSubtitle": "Um poder misterioso te espera...",
+  "readingIntroButton": "Descubra o seu destino",
+  "readingSpreadTitle": "Chave do\nDestino",
+  "readingSpreadSubtitle": "Sua leitura de tarot pessoal",
+  "readingSpreadMessageTitle": "O destino que te espera...",
+  "readingSpreadMessageBody": "Prepare-se para uma jornada inesperada que trará novos desafios e grandes recompensas.",
+  "chatTitle": "Chat de Tarot",
+  "chatSubtitle": "Descubra a sabedoria do tarot",
+  "chatName": "Emília",
+  "chatBadge": "Chat de Tarot ✨",
+  "chatPlaceholder": "Área de interface de chat",
+  "meaningsTitle": "🃏 Significado das Cartas",
+  "meaningsSubtitle": "Mergulhe no mundo do tarot",
+  "meaningsPlaceholder": "Área de detalhes das cartas"
+}

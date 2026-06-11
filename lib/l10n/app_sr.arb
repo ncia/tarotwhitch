@@ -1,0 +1,21 @@
+{
+  "@@locale": "sr",
+  "navReading": "Čitanje Tarota",
+  "navChat": "Tarot Chat",
+  "navMeanings": "Značenja",
+  "readingIntroTitle": "Šapati\nSudbine",
+  "readingIntroSubtitle": "Misteriozna moć te čeka...",
+  "readingIntroButton": "Otkrij svoju sudbinu",
+  "readingSpreadTitle": "Ključ\nSudbine",
+  "readingSpreadSubtitle": "Tvoje lično čitanje tarota",
+  "readingSpreadMessageTitle": "Sudbina koja te čeka...",
+  "readingSpreadMessageBody": "Pripremi se za neočekivano putovanje koje će doneti nove izazove i velike nagrade.",
+  "chatTitle": "Tarot Chat",
+  "chatSubtitle": "Otkrij mudrost tarota",
+  "chatName": "Emilia",
+  "chatBadge": "Tarot Chat ✨",
+  "chatPlaceholder": "Oblast interfejsa za ćaskanje",
+  "meaningsTitle": "🃏 Značenja Tarot Karata",
+  "meaningsSubtitle": "Uroni duboko u svet tarota",
+  "meaningsPlaceholder": "Oblast sa detaljima karte"
+}

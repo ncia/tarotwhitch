@@ -1,0 +1,98 @@
+Script started.
+Translating to ar...
+Error for ar on attempt 1: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+Error for ar on attempt 2: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+Error for ar on attempt 3: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+FAILED to translate ar completely.
+Translating to be...
+Error for be on attempt 1: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+Error for be on attempt 2: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+Error for be on attempt 3: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+FAILED to translate be completely.
+Script started.
+Translating to ar...
+Error for ar on attempt 1: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+Error for ar on attempt 2: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+Error for ar on attempt 3: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+FAILED to translate ar completely.
+Translating to be...
+Error for be on attempt 1: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+Error for be on attempt 2: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+Error for be on attempt 3: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+FAILED to translate be completely.
+Translating to bg...
+Error for bg on attempt 1: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+Error for bg on attempt 2: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+Error for bg on attempt 3: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+FAILED to translate bg completely.
+Translating to ca...
+Script started.
+Translating to ar...
+Success for ar
+Translating to be...
+Success for be
+Translating to bg...
+Success for bg
+Translating to ca...
+Success for ca
+Translating to cs...
+Success for cs
+Translating to da...
+Success for da
+Translating to de...
+Success for de
+Translating to el...
+Success for el
+Translating to en...
+Success for en
+Translating to es...
+Success for es
+Translating to et...
+Success for et
+Translating to fa...
+Success for fa
+Translating to fi...
+Success for fi
+Translating to fr...
+Success for fr
+Translating to hi...
+Success for hi
+Translating to hr...
+Success for hr
+Translating to hu...
+Success for hu
+Translating to hy...
+Success for hy
+Translating to id...
+Success for id
+Translating to it...
+Success for it
+Translating to ja...
+Success for ja
+Translating to lt...
+Success for lt
+Translating to lv...

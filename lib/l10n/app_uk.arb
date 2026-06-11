@@ -1,0 +1,21 @@
+{
+  "@@locale": "uk",
+  "navReading": "Читання Таро",
+  "navChat": "Таро Чат",
+  "navMeanings": "Значення",
+  "readingIntroTitle": "Шепоти\nДолі",
+  "readingIntroSubtitle": "Таємнича сила чекає на вас...",
+  "readingIntroButton": "Дізнайся свою долю",
+  "readingSpreadTitle": "Ключ\nДолі",
+  "readingSpreadSubtitle": "Ваше особисте читання таро",
+  "readingSpreadMessageTitle": "Доля, яка чекає на вас...",
+  "readingSpreadMessageBody": "Приготуйтеся до несподіваної подорожі, яка принесе як нові випробування, так і великі нагороди.",
+  "chatTitle": "Таро Чат",
+  "chatSubtitle": "Відкрийте для себе мудрість таро",
+  "chatName": "Емілія",
+  "chatBadge": "Таро Чат ✨",
+  "chatPlaceholder": "Область інтерфейсу чату",
+  "meaningsTitle": "🃏 Значення карт Таро",
+  "meaningsSubtitle": "Зануртеся у світ таро",
+  "meaningsPlaceholder": "Область деталей карти"
+}

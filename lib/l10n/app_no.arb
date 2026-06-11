@@ -1,0 +1,21 @@
+{
+  "@@locale": "no",
+  "navReading": "Tarotlesning",
+  "navChat": "Tarot Chat",
+  "navMeanings": "Betydninger",
+  "readingIntroTitle": "Skjebnens\nVisking",
+  "readingIntroSubtitle": "En mystisk makt venter på deg...",
+  "readingIntroButton": "Oppdag din skjebne",
+  "readingSpreadTitle": "Skjebnens\nNøkkel",
+  "readingSpreadSubtitle": "Din personlige tarotlesning",
+  "readingSpreadMessageTitle": "Skjebnen som venter deg...",
+  "readingSpreadMessageBody": "Forbered deg på en uventet reise som vil bringe både nye utfordringer og store belønninger.",
+  "chatTitle": "Tarot Chat",
+  "chatSubtitle": "Oppdag tarots visdom",
+  "chatName": "Emilia",
+  "chatBadge": "Tarot Chat ✨",
+  "chatPlaceholder": "Chat-grensesnitt område",
+  "meaningsTitle": "🃏 Tarotkort Betydninger",
+  "meaningsSubtitle": "Dyk ned i tarotverdenen",
+  "meaningsPlaceholder": "Kortdetalj område"
+}

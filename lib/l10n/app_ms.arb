@@ -1,0 +1,21 @@
+{
+  "@@locale": "ms",
+  "navReading": "Bacaan Tarot",
+  "navChat": "Sembang Tarot",
+  "navMeanings": "Makna",
+  "readingIntroTitle": "Bisikan\nTakdir",
+  "readingIntroSubtitle": "Kuasa misteri menanti anda...",
+  "readingIntroButton": "Temui Takdir Anda",
+  "readingSpreadTitle": "Kunci\nTakdir",
+  "readingSpreadSubtitle": "Bacaan tarot peribadi anda",
+  "readingSpreadMessageTitle": "Takdir yang menanti anda...",
+  "readingSpreadMessageBody": "Bersedia untuk perjalanan yang tidak dijangka yang akan membawa cabaran baru dan ganjaran besar.",
+  "chatTitle": "Sembang Tarot",
+  "chatSubtitle": "Temui kebijaksanaan tarot",
+  "chatName": "Emilia",
+  "chatBadge": "Sembang Tarot ✨",
+  "chatPlaceholder": "Kawasan antara muka sembang",
+  "meaningsTitle": "🃏 Makna Kad Tarot",
+  "meaningsSubtitle": "Selami dunia tarot",
+  "meaningsPlaceholder": "Kawasan butiran kad"
+}

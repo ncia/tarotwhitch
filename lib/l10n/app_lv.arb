@@ -1,0 +1,21 @@
+{
+  "@@locale": "lv",
+  "navReading": "Taro Lasīšana",
+  "navChat": "Taro Tērzēšana",
+  "navMeanings": "Nozīmes",
+  "readingIntroTitle": "Likteņa\nČuksti",
+  "readingIntroSubtitle": "Mnoslēpumains spēks tevi gaida...",
+  "readingIntroButton": "Atklāj savu likteni",
+  "readingSpreadTitle": "Likteņa\nAtslēga",
+  "readingSpreadSubtitle": "Tavs personīgais taro lasījums",
+  "readingSpreadMessageTitle": "Liktenis, kas tevi gaida...",
+  "readingSpreadMessageBody": "Sagatavojies negaidītam ceļojumam, kas nesīs gan jaunus izaicinājumus, gan lielu atalgojumu.",
+  "chatTitle": "Taro Tērzēšana",
+  "chatSubtitle": "Atklāj taro gudrību",
+  "chatName": "Emīlija",
+  "chatBadge": "Taro Tērzēšana ✨",
+  "chatPlaceholder": "Tērzēšanas interfeisa zona",
+  "meaningsTitle": "🃏 Taro Kārtis Nozīmes",
+  "meaningsSubtitle": "Ienirsti taro pasaulē",
+  "meaningsPlaceholder": "Kārts detaļu zona"
+}

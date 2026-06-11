@@ -1,0 +1,21 @@
+{
+  "@@locale": "ml",
+  "navReading": "ടാരറ്റ് വായന",
+  "navChat": "ടാരറ്റ് ചാറ്റ്",
+  "navMeanings": "അർത്ഥങ്ങൾ",
+  "readingIntroTitle": "വിധിയുടെ\nമന്ത്രങ്ങൾ",
+  "readingIntroSubtitle": "ഒരു ദുരൂഹ ശക്തി നിങ്ങളെ കാത്തിരിക്കുന്നു...",
+  "readingIntroButton": "നിങ്ങളുടെ വിധി കണ്ടെത്തുക",
+  "readingSpreadTitle": "വിധിയുടെ\nതാക്കോൽ",
+  "readingSpreadSubtitle": "നിങ്ങളുടെ വ്യക്തിഗത ടാരറ്റ് വായന",
+  "readingSpreadMessageTitle": "നിങ്ങളെ കാത്തിരിക്കുന്ന വിധി...",
+  "readingSpreadMessageBody": "പുതിയ വെല്ലുവിളികളും വലിയ പ്രതിഫലങ്ങളും നൽകുന്ന അപ്രതീക്ഷിത യാത്രയ്ക്ക് തയ്യാറാകൂ.",
+  "chatTitle": "ടാരറ്റ് ചാറ്റ്",
+  "chatSubtitle": "ടാരറ്റിന്റെ ജ്ഞാനം കണ്ടെത്തുക",
+  "chatName": "എമിലിയ",
+  "chatBadge": "ടാരറ്റ് ചാറ്റ് ✨",
+  "chatPlaceholder": "ചാറ്റ് ഇന്റർഫേസ് പ്രദേശം",
+  "meaningsTitle": "🃏 ടാരറ്റ് കാർഡ് അർത്ഥങ്ങൾ",
+  "meaningsSubtitle": "ടാരറ്റ് ലോകത്തേക്ക് ആഴത്തിൽ ഇറങ്ങുക",
+  "meaningsPlaceholder": "കാർഡ് വിശദാംശങ്ങളുടെ പ്രദേശം"
+}

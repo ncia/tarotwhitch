@@ -1,0 +1,24 @@
+{
+  "@@locale": "zh",
+  "navReading": "塔罗占卜",
+  "navChat": "塔罗咨询",
+  "navMeanings": "卡牌图鉴",
+
+  "readingIntroTitle": "命运的\n低语",
+  "readingIntroSubtitle": "神秘的力量在等待着你...",
+  "readingIntroButton": "确认命运",
+  "readingSpreadTitle": "命运的\n钥匙",
+  "readingSpreadSubtitle": "属于你的塔罗占卜",
+  "readingSpreadMessageTitle": "你未来将要迎接的命运是...",
+  "readingSpreadMessageBody": "准备好迎接一段意想不到的旅程，它将同时带来新的挑战和丰厚的回报。",
+
+  "chatTitle": "塔罗咨询",
+  "chatSubtitle": "发现塔罗的智慧",
+  "chatName": "艾米莉亚",
+  "chatBadge": "塔罗咨询 ✨",
+  "chatPlaceholder": "聊天界面区域",
+
+  "meaningsTitle": "🃏 塔罗牌的含义",
+  "meaningsSubtitle": "深入塔罗牌的世界",
+  "meaningsPlaceholder": "卡牌详细信息区域"
+}

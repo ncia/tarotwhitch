@@ -1,0 +1,21 @@
+{
+  "@@locale": "sl",
+  "navReading": "Branje Tarota",
+  "navChat": "Tarot Klepet",
+  "navMeanings": "Pomeni",
+  "readingIntroTitle": "Šepeti\nUsode",
+  "readingIntroSubtitle": "Čaka te skrivnostna moč...",
+  "readingIntroButton": "Odkrij svojo usodo",
+  "readingSpreadTitle": "Ključ\nUsode",
+  "readingSpreadSubtitle": "Tvoje osebno branje tarota",
+  "readingSpreadMessageTitle": "Usoda, ki te čaka...",
+  "readingSpreadMessageBody": "Pripravi se na nepričakovano potovanje, ki bo prineslo nove izzive in velike nagrade.",
+  "chatTitle": "Tarot Klepet",
+  "chatSubtitle": "Odkrij modrost tarota",
+  "chatName": "Emilia",
+  "chatBadge": "Tarot Klepet ✨",
+  "chatPlaceholder": "Območje vmesnika za klepet",
+  "meaningsTitle": "🃏 Pomeni Tarot Kart",
+  "meaningsSubtitle": "Potopi se v svet tarota",
+  "meaningsPlaceholder": "Območje s podrobnostmi o karti"
+}

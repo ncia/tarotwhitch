@@ -1,0 +1,21 @@
+{
+  "@@locale": "sk",
+  "navReading": "Výklad Tarotu",
+  "navChat": "Tarot Chat",
+  "navMeanings": "Významy",
+  "readingIntroTitle": "Šepoty\nOsudu",
+  "readingIntroSubtitle": "Čaká na teba tajomná sila...",
+  "readingIntroButton": "Objav svoj osud",
+  "readingSpreadTitle": "Kľúč\nOsudu",
+  "readingSpreadSubtitle": "Tvoj osobný výklad tarotu",
+  "readingSpreadMessageTitle": "Osud, ktorý ťa čaká...",
+  "readingSpreadMessageBody": "Priprav sa na nečakanú cestu, ktorá prinesie nové výzvy aj veľké odmeny.",
+  "chatTitle": "Tarot Chat",
+  "chatSubtitle": "Objav múdrosť tarotu",
+  "chatName": "Emilia",
+  "chatBadge": "Tarot Chat ✨",
+  "chatPlaceholder": "Oblasť chatovacieho rozhrania",
+  "meaningsTitle": "🃏 Významy Tarotových Kariet",
+  "meaningsSubtitle": "Ponor sa do sveta tarotu",
+  "meaningsPlaceholder": "Oblasť detailov karty"
+}

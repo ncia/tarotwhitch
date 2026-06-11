@@ -1,0 +1,21 @@
+{
+  "@@locale": "ru",
+  "navReading": "Чтение Таро",
+  "navChat": "Таро Чат",
+  "navMeanings": "Значения",
+  "readingIntroTitle": "Шепот\nСудьбы",
+  "readingIntroSubtitle": "Таинственная сила ждет вас...",
+  "readingIntroButton": "Узнай свою судьбу",
+  "readingSpreadTitle": "Ключ\nСудьбы",
+  "readingSpreadSubtitle": "Ваше личное чтение таро",
+  "readingSpreadMessageTitle": "Судьба, которая ждет вас...",
+  "readingSpreadMessageBody": "Приготовьтесь к неожиданному путешествию, которое принесет как новые испытания, так и большие награды.",
+  "chatTitle": "Таро Чат",
+  "chatSubtitle": "Откройте для себя мудрость таро",
+  "chatName": "Эмилия",
+  "chatBadge": "Таро Чат ✨",
+  "chatPlaceholder": "Область интерфейса чата",
+  "meaningsTitle": "🃏 Значения карт Таро",
+  "meaningsSubtitle": "Погрузитесь в мир таро",
+  "meaningsPlaceholder": "Область деталей карты"
+}

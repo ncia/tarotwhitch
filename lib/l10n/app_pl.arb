@@ -1,0 +1,21 @@
+{
+  "@@locale": "pl",
+  "navReading": "Czytanie Tarota",
+  "navChat": "Czat Tarota",
+  "navMeanings": "Znaczenia",
+  "readingIntroTitle": "Szepty\nPrzeznaczenia",
+  "readingIntroSubtitle": "Tajemnicza siła czeka na ciebie...",
+  "readingIntroButton": "Odkryj swoje przeznaczenie",
+  "readingSpreadTitle": "Klucz\nPrzeznaczenia",
+  "readingSpreadSubtitle": "Twój osobisty czytanie tarota",
+  "readingSpreadMessageTitle": "Przeznaczenie, które cię czeka...",
+  "readingSpreadMessageBody": "Przygotuj się na nieoczekiwaną podróż, która przyniesie nowe wyzwania i wielkie nagrody.",
+  "chatTitle": "Czat Tarota",
+  "chatSubtitle": "Odkryj mądrość tarota",
+  "chatName": "Emilia",
+  "chatBadge": "Czat Tarota ✨",
+  "chatPlaceholder": "Obszar interfejsu czatu",
+  "meaningsTitle": "🃏 Znaczenia Kart Tarota",
+  "meaningsSubtitle": "Zanurz się w świecie tarota",
+  "meaningsPlaceholder": "Obszar szczegółów karty"
+}
