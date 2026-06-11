@@ -35,7 +35,7 @@ class _ChatScreenState extends State<ChatScreen> {
     super.initState();
     // 초기 AI 메시지
     _messages.add(ChatMessage(
-      text: "안녕하세요. 저는 타로 마녀 에밀리아입니다. 우주의 기운이 당신을 이곳으로 이끌었군요. 어떤 고민이 있으신가요?",
+      text: "안녕하세요. 저는 타로 마녀 모건입니다. 우주의 기운이 당신을 이곳으로 이끌었군요. 어떤 고민이 있으신가요?",
       isUser: false,
     ));
   }
@@ -197,7 +197,7 @@ class _ChatScreenState extends State<ChatScreen> {
                     ),
                     const SizedBox(width: 12),
                     Text(
-                      '에밀리아',
+                      '모건',
                       style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold, fontSize: 18),
                     ),
                     const SizedBox(width: 16),

@@ -26,11 +26,32 @@ class AppLocalizationsDa extends AppLocalizations {
       'A single card for a quick answer or daily guidance.';
 
   @override
+  String get spreadTwoCardName => 'Two Card';
+
+  @override
+  String get spreadTwoCardDesc =>
+      'A 2-card spread to simply grasp the current situation and advice.';
+
+  @override
   String get spreadThreeCardName => 'Three Card';
 
   @override
   String get spreadThreeCardDesc =>
-      'Past, Present, and Future. Good for understanding the flow of a situation.';
+      'A 3-card spread to understand the flow of past, present, and future.';
+
+  @override
+  String get spreadFourCardName => 'Four Card';
+
+  @override
+  String get spreadFourCardDesc =>
+      'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.';
+
+  @override
+  String get spreadFiveCardName => 'Five Card';
+
+  @override
+  String get spreadFiveCardDesc =>
+      'A 5-card spread examining the core of the situation, its causes, and potential outcomes.';
 
   @override
   String get spreadCelticCrossName => 'Celtic Cross';
@@ -43,6 +64,12 @@ class AppLocalizationsDa extends AppLocalizations {
   String get positionOneCard => 'Today\'s Card';
 
   @override
+  String get positionTwoCard1 => '1. Situation';
+
+  @override
+  String get positionTwoCard2 => '2. Advice';
+
+  @override
   String get positionThreeCard1 => 'Past';
 
   @override
@@ -52,7 +79,34 @@ class AppLocalizationsDa extends AppLocalizations {
   String get positionThreeCard3 => 'Future';
 
   @override
-  String get positionCelticCross1 => '1. Present / Querent';
+  String get positionFourCard1 => '1. Problem';
+
+  @override
+  String get positionFourCard2 => '2. Cause';
+
+  @override
+  String get positionFourCard3 => '3. Advice';
+
+  @override
+  String get positionFourCard4 => '4. Outcome';
+
+  @override
+  String get positionFiveCard1 => '1. Present';
+
+  @override
+  String get positionFiveCard2 => '2. Past Influences';
+
+  @override
+  String get positionFiveCard3 => '3. Future Direction';
+
+  @override
+  String get positionFiveCard4 => '4. Core Reason';
+
+  @override
+  String get positionFiveCard5 => '5. Potential Outcome';
+
+  @override
+  String get positionCelticCross1 => '1. Present (Querent)';
 
   @override
   String get positionCelticCross2 => '2. The Challenge';

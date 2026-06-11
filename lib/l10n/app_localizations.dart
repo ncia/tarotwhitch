@@ -210,6 +210,18 @@ abstract class AppLocalizations {
   /// **'A single card for a quick answer or daily guidance.'**
   String get spreadOneCardDesc;
 
+  /// No description provided for @spreadTwoCardName.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Card'**
+  String get spreadTwoCardName;
+
+  /// No description provided for @spreadTwoCardDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'A 2-card spread to simply grasp the current situation and advice.'**
+  String get spreadTwoCardDesc;
+
   /// No description provided for @spreadThreeCardName.
   ///
   /// In en, this message translates to:
@@ -219,8 +231,32 @@ abstract class AppLocalizations {
   /// No description provided for @spreadThreeCardDesc.
   ///
   /// In en, this message translates to:
-  /// **'Past, Present, and Future. Good for understanding the flow of a situation.'**
+  /// **'A 3-card spread to understand the flow of past, present, and future.'**
   String get spreadThreeCardDesc;
+
+  /// No description provided for @spreadFourCardName.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Card'**
+  String get spreadFourCardName;
+
+  /// No description provided for @spreadFourCardDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.'**
+  String get spreadFourCardDesc;
+
+  /// No description provided for @spreadFiveCardName.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Card'**
+  String get spreadFiveCardName;
+
+  /// No description provided for @spreadFiveCardDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'A 5-card spread examining the core of the situation, its causes, and potential outcomes.'**
+  String get spreadFiveCardDesc;
 
   /// No description provided for @spreadCelticCrossName.
   ///
@@ -240,6 +276,18 @@ abstract class AppLocalizations {
   /// **'Today\'s Card'**
   String get positionOneCard;
 
+  /// No description provided for @positionTwoCard1.
+  ///
+  /// In en, this message translates to:
+  /// **'1. Situation'**
+  String get positionTwoCard1;
+
+  /// No description provided for @positionTwoCard2.
+  ///
+  /// In en, this message translates to:
+  /// **'2. Advice'**
+  String get positionTwoCard2;
+
   /// No description provided for @positionThreeCard1.
   ///
   /// In en, this message translates to:
@@ -258,10 +306,64 @@ abstract class AppLocalizations {
   /// **'Future'**
   String get positionThreeCard3;
 
+  /// No description provided for @positionFourCard1.
+  ///
+  /// In en, this message translates to:
+  /// **'1. Problem'**
+  String get positionFourCard1;
+
+  /// No description provided for @positionFourCard2.
+  ///
+  /// In en, this message translates to:
+  /// **'2. Cause'**
+  String get positionFourCard2;
+
+  /// No description provided for @positionFourCard3.
+  ///
+  /// In en, this message translates to:
+  /// **'3. Advice'**
+  String get positionFourCard3;
+
+  /// No description provided for @positionFourCard4.
+  ///
+  /// In en, this message translates to:
+  /// **'4. Outcome'**
+  String get positionFourCard4;
+
+  /// No description provided for @positionFiveCard1.
+  ///
+  /// In en, this message translates to:
+  /// **'1. Present'**
+  String get positionFiveCard1;
+
+  /// No description provided for @positionFiveCard2.
+  ///
+  /// In en, this message translates to:
+  /// **'2. Past Influences'**
+  String get positionFiveCard2;
+
+  /// No description provided for @positionFiveCard3.
+  ///
+  /// In en, this message translates to:
+  /// **'3. Future Direction'**
+  String get positionFiveCard3;
+
+  /// No description provided for @positionFiveCard4.
+  ///
+  /// In en, this message translates to:
+  /// **'4. Core Reason'**
+  String get positionFiveCard4;
+
+  /// No description provided for @positionFiveCard5.
+  ///
+  /// In en, this message translates to:
+  /// **'5. Potential Outcome'**
+  String get positionFiveCard5;
+
   /// No description provided for @positionCelticCross1.
   ///
   /// In en, this message translates to:
-  /// **'1. Present / Querent'**
+  /// **'1. Present (Querent)'**
   String get positionCelticCross1;
 
   /// No description provided for @positionCelticCross2.
@@ -399,7 +501,7 @@ abstract class AppLocalizations {
   /// No description provided for @chatName.
   ///
   /// In en, this message translates to:
-  /// **'Emilia'**
+  /// **'Morgan'**
   String get chatName;
 
   /// No description provided for @chatBadge.

@@ -17,7 +17,7 @@ class TarotAiService {
 
   Stream<String> getTarotReadingStream(String question, List<String> cards) async* {
     final prompt = '''
-당신은 신비롭고 지혜로운 타로 마녀 '에밀리아'입니다. 친절하면서도 통찰력 있는 말투를 사용하세요.
+당신은 신비롭고 지혜로운 타로 마녀 '모건'입니다. 친절하면서도 통찰력 있는 말투를 사용하세요.
 내담자(사용자)가 고민을 말하고 타로 카드 3장을 뽑았습니다.
 
 [내담자의 고민]

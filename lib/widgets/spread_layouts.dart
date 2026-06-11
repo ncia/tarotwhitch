@@ -36,8 +36,29 @@ class SpreadLayoutBuilder extends StatelessWidget {
           shuffledReversed: shuffledReversed,
         );
         break;
+      case SpreadType.twoCard:
+        layout = _TwoCardLayout(
+          selectedCardIndices: selectedCardIndices,
+          shuffledDeck: shuffledDeck,
+          shuffledReversed: shuffledReversed,
+        );
+        break;
       case SpreadType.threeCard:
         layout = _ThreeCardLayout(
+          selectedCardIndices: selectedCardIndices,
+          shuffledDeck: shuffledDeck,
+          shuffledReversed: shuffledReversed,
+        );
+        break;
+      case SpreadType.fourCard:
+        layout = _FourCardLayout(
+          selectedCardIndices: selectedCardIndices,
+          shuffledDeck: shuffledDeck,
+          shuffledReversed: shuffledReversed,
+        );
+        break;
+      case SpreadType.fiveCard:
+        layout = _FiveCardLayout(
           selectedCardIndices: selectedCardIndices,
           shuffledDeck: shuffledDeck,
           shuffledReversed: shuffledReversed,
@@ -321,6 +342,339 @@ class _ThreeCardLayout extends StatelessWidget {
           shrinkWrap: true,
           physics: const NeverScrollableScrollPhysics(),
           itemCount: 3,
+          itemBuilder: (context, index) {
+            final cardIndex = selectedCardIndices[index];
+            final card = shuffledDeck[cardIndex];
+            final isRev = shuffledReversed[cardIndex];
+            
+            return GlassContainer(
+              margin: const EdgeInsets.only(bottom: 12),
+              padding: const EdgeInsets.all(12),
+              child: Row(
+                children: [
+                  _buildCardItem(
+                    context,
+                    index: index,
+                    card: card,
+                    isRev: isRev,
+                    width: 60,
+                    height: 95,
+                  ),
+                  const SizedBox(width: 16),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          labels[index],
+                          style: const TextStyle(color: Colors.amberAccent, fontSize: 16, fontWeight: FontWeight.bold),
+                        ),
+                        const SizedBox(height: 8),
+                        Text(
+                          TarotLocalizations.getName(context, card.id),
+                          style: const TextStyle(color: Colors.white, fontSize: 18),
+                        ),
+                        Text(
+                          isRev ? "역방향 (Reversed)" : "정방향 (Upright)",
+                          style: const TextStyle(color: Colors.white70, fontSize: 14),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            );
+          },
+        ),
+      ],
+    );
+  }
+}
+
+class _FourCardLayout extends StatelessWidget {
+  final List<int> selectedCardIndices;
+  final List<TarotCardData> shuffledDeck;
+  final List<bool> shuffledReversed;
+
+  const _FourCardLayout({
+    required this.selectedCardIndices,
+    required this.shuffledDeck,
+    required this.shuffledReversed,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final labels = [
+      AppLocalizations.of(context)?.positionFourCard1 ?? '1. Problem',
+      AppLocalizations.of(context)?.positionFourCard2 ?? '2. Cause',
+      AppLocalizations.of(context)?.positionFourCard3 ?? '3. Advice',
+      AppLocalizations.of(context)?.positionFourCard4 ?? '4. Outcome',
+    ];
+
+    Widget buildMiniCard(int idx, {double width = 50, double height = 80}) {
+      final cardIndex = selectedCardIndices[idx];
+      final card = shuffledDeck[cardIndex];
+      final isRev = shuffledReversed[cardIndex];
+      return Column(
+        children: [
+          Text('\${idx + 1}', style: const TextStyle(color: Colors.amberAccent, fontSize: 12, fontWeight: FontWeight.bold)),
+          const SizedBox(height: 4),
+          _buildCardItem(context, index: idx, card: card, isRev: isRev, width: width, height: height),
+        ],
+      );
+    }
+
+    return Column(
+      children: [
+        // 상단 미니 맵 (2x2 정렬)
+        Container(
+          height: 300,
+          margin: const EdgeInsets.only(bottom: 30),
+          alignment: Alignment.center,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  buildMiniCard(0), // 1. Problem
+                  const SizedBox(width: 16),
+                  buildMiniCard(1), // 2. Cause
+                ],
+              ),
+              const SizedBox(height: 16),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  buildMiniCard(2), // 3. Advice
+                  const SizedBox(width: 16),
+                  buildMiniCard(3), // 4. Outcome
+                ],
+              ),
+            ],
+          ),
+        ),
+        // 하단 상세 리스트 뷰
+        ListView.builder(
+          shrinkWrap: true,
+          physics: const NeverScrollableScrollPhysics(),
+          itemCount: 4,
+          itemBuilder: (context, index) {
+            final cardIndex = selectedCardIndices[index];
+            final card = shuffledDeck[cardIndex];
+            final isRev = shuffledReversed[cardIndex];
+            
+            return GlassContainer(
+              margin: const EdgeInsets.only(bottom: 12),
+              padding: const EdgeInsets.all(12),
+              child: Row(
+                children: [
+                  _buildCardItem(
+                    context,
+                    index: index,
+                    card: card,
+                    isRev: isRev,
+                    width: 60,
+                    height: 95,
+                  ),
+                  const SizedBox(width: 16),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          labels[index],
+                          style: const TextStyle(color: Colors.amberAccent, fontSize: 16, fontWeight: FontWeight.bold),
+                        ),
+                        const SizedBox(height: 8),
+                        Text(
+                          TarotLocalizations.getName(context, card.id),
+                          style: const TextStyle(color: Colors.white, fontSize: 18),
+                        ),
+                        Text(
+                          isRev ? "역방향 (Reversed)" : "정방향 (Upright)",
+                          style: const TextStyle(color: Colors.white70, fontSize: 14),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            );
+          },
+        ),
+      ],
+    );
+  }
+}
+
+class _TwoCardLayout extends StatelessWidget {
+  final List<int> selectedCardIndices;
+  final List<TarotCardData> shuffledDeck;
+  final List<bool> shuffledReversed;
+
+  const _TwoCardLayout({
+    required this.selectedCardIndices,
+    required this.shuffledDeck,
+    required this.shuffledReversed,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final labels = [
+      AppLocalizations.of(context)?.positionTwoCard1 ?? '1. Situation',
+      AppLocalizations.of(context)?.positionTwoCard2 ?? '2. Advice',
+    ];
+
+    Widget buildMiniCard(int idx, {double width = 50, double height = 80}) {
+      final cardIndex = selectedCardIndices[idx];
+      final card = shuffledDeck[cardIndex];
+      final isRev = shuffledReversed[cardIndex];
+      return Column(
+        children: [
+          Text('${idx + 1}', style: const TextStyle(color: Colors.amberAccent, fontSize: 12, fontWeight: FontWeight.bold)),
+          const SizedBox(height: 4),
+          _buildCardItem(context, index: idx, card: card, isRev: isRev, width: width, height: height),
+        ],
+      );
+    }
+
+    return Column(
+      children: [
+        // 상단 미니 맵 (2장 가로 정렬)
+        Container(
+          height: 300,
+          margin: const EdgeInsets.only(bottom: 30),
+          alignment: Alignment.center,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              buildMiniCard(0),
+              const SizedBox(width: 32),
+              buildMiniCard(1),
+            ],
+          ),
+        ),
+        // 하단 상세 리스트 뷰
+        ListView.builder(
+          shrinkWrap: true,
+          physics: const NeverScrollableScrollPhysics(),
+          itemCount: 2,
+          itemBuilder: (context, index) {
+            final cardIndex = selectedCardIndices[index];
+            final card = shuffledDeck[cardIndex];
+            final isRev = shuffledReversed[index];
+            
+            return GlassContainer(
+              margin: const EdgeInsets.only(bottom: 12),
+              padding: const EdgeInsets.all(12),
+              child: Row(
+                children: [
+                  _buildCardItem(
+                    context,
+                    index: index,
+                    card: card,
+                    isRev: isRev,
+                    width: 60,
+                    height: 95,
+                  ),
+                  const SizedBox(width: 16),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          labels[index],
+                          style: const TextStyle(color: Colors.amberAccent, fontSize: 16, fontWeight: FontWeight.bold),
+                        ),
+                        const SizedBox(height: 8),
+                        Text(
+                          TarotLocalizations.getName(context, card.id),
+                          style: const TextStyle(color: Colors.white, fontSize: 18),
+                        ),
+                        Text(
+                          isRev ? "역방향 (Reversed)" : "정방향 (Upright)",
+                          style: const TextStyle(color: Colors.white70, fontSize: 14),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            );
+          },
+        ),
+      ],
+    );
+  }
+}
+
+class _FiveCardLayout extends StatelessWidget {
+  final List<int> selectedCardIndices;
+  final List<TarotCardData> shuffledDeck;
+  final List<bool> shuffledReversed;
+
+  const _FiveCardLayout({
+    required this.selectedCardIndices,
+    required this.shuffledDeck,
+    required this.shuffledReversed,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final labels = [
+      AppLocalizations.of(context)?.positionFiveCard1 ?? '1. Present',
+      AppLocalizations.of(context)?.positionFiveCard2 ?? '2. Past Influences',
+      AppLocalizations.of(context)?.positionFiveCard3 ?? '3. Future Direction',
+      AppLocalizations.of(context)?.positionFiveCard4 ?? '4. Core Reason',
+      AppLocalizations.of(context)?.positionFiveCard5 ?? '5. Potential Outcome',
+    ];
+
+    Widget buildMiniCard(int idx, {double width = 50, double height = 80}) {
+      final cardIndex = selectedCardIndices[idx];
+      final card = shuffledDeck[cardIndex];
+      final isRev = shuffledReversed[cardIndex];
+      return Column(
+        children: [
+          Text('\${idx + 1}', style: const TextStyle(color: Colors.amberAccent, fontSize: 12, fontWeight: FontWeight.bold)),
+          const SizedBox(height: 4),
+          _buildCardItem(context, index: idx, card: card, isRev: isRev, width: width, height: height),
+        ],
+      );
+    }
+
+    return Column(
+      children: [
+        // 상단 미니 맵 (십자가 정렬)
+        Container(
+          height: 300,
+          margin: const EdgeInsets.only(bottom: 30),
+          alignment: Alignment.center,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              buildMiniCard(4), // Top
+              const SizedBox(height: 8),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  buildMiniCard(1), // Left
+                  const SizedBox(width: 8),
+                  buildMiniCard(0), // Center
+                  const SizedBox(width: 8),
+                  buildMiniCard(2), // Right
+                ],
+              ),
+              const SizedBox(height: 8),
+              buildMiniCard(3), // Bottom
+            ],
+          ),
+        ),
+        // 하단 상세 리스트 뷰
+        ListView.builder(
+          shrinkWrap: true,
+          physics: const NeverScrollableScrollPhysics(),
+          itemCount: 5,
           itemBuilder: (context, index) {
             final cardIndex = selectedCardIndices[index];
             final card = shuffledDeck[cardIndex];

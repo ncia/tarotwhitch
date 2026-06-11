@@ -24,19 +24,44 @@ class AppLocalizationsKo extends AppLocalizations {
   String get spreadOneCardDesc => '간단한 질문이나 오늘의 운세를 볼 때 사용하는 1장 배열법입니다.';
 
   @override
+  String get spreadTwoCardName => '투 카드';
+
+  @override
+  String get spreadTwoCardDesc => '현재 상황과 조언을 간단하게 파악하기 좋은 2장 배열법입니다.';
+
+  @override
   String get spreadThreeCardName => '쓰리 카드';
 
   @override
   String get spreadThreeCardDesc => '과거, 현재, 미래의 흐름을 파악하기 좋은 3장 배열법입니다.';
 
   @override
-  String get spreadCelticCrossName => '켈트 십자법';
+  String get spreadFourCardName => '포 카드';
+
+  @override
+  String get spreadFourCardDesc => '문제의 원인부터 조언, 결과까지 명확하게 진단하는 4장 배열법입니다.';
+
+  @override
+  String get spreadFiveCardName => '파이브 카드';
+
+  @override
+  String get spreadFiveCardDesc =>
+      '상황의 핵심과 원인, 그리고 잠재적 결과까지 종합적으로 살펴보는 5장 배열법입니다.';
+
+  @override
+  String get spreadCelticCrossName => '켈틱 크로스';
 
   @override
   String get spreadCelticCrossDesc => '복잡한 문제의 심층 분석과 해결책을 찾는 10장 배열법입니다.';
 
   @override
   String get positionOneCard => '오늘의 카드';
+
+  @override
+  String get positionTwoCard1 => '1. 현재 상황';
+
+  @override
+  String get positionTwoCard2 => '2. 조언';
 
   @override
   String get positionThreeCard1 => '과거';
@@ -46,6 +71,33 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get positionThreeCard3 => '미래';
+
+  @override
+  String get positionFourCard1 => '1. 현재 상황 및 문제';
+
+  @override
+  String get positionFourCard2 => '2. 문제의 원인';
+
+  @override
+  String get positionFourCard3 => '3. 해결을 위한 조언';
+
+  @override
+  String get positionFourCard4 => '4. 예상되는 결과';
+
+  @override
+  String get positionFiveCard1 => '1. 현재 상황';
+
+  @override
+  String get positionFiveCard2 => '2. 과거의 영향';
+
+  @override
+  String get positionFiveCard3 => '3. 미래의 방향';
+
+  @override
+  String get positionFiveCard4 => '4. 문제의 원인';
+
+  @override
+  String get positionFiveCard5 => '5. 잠재적 결과';
 
   @override
   String get positionCelticCross1 => '1. 현재 상황 (질문자)';
@@ -118,7 +170,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get chatSubtitle => '타로의 지혜를 발견하세요';
 
   @override
-  String get chatName => '에밀리아';
+  String get chatName => '모건';
 
   @override
   String get chatBadge => '타로 상담 ✨';
