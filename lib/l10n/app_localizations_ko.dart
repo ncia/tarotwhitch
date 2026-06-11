@@ -9,6 +9,75 @@ class AppLocalizationsKo extends AppLocalizations {
   AppLocalizationsKo([String locale = 'ko']) : super(locale);
 
   @override
+  String get appTitle => '타로 점집';
+
+  @override
+  String get spreadSelectionTitle => '스프레드 선택';
+
+  @override
+  String get spreadSelectionSubtitle => '질문에 가장 알맞은 타로 배열법을 선택하세요';
+
+  @override
+  String get spreadOneCardName => '원 카드';
+
+  @override
+  String get spreadOneCardDesc => '간단한 질문이나 오늘의 운세를 볼 때 사용하는 1장 배열법입니다.';
+
+  @override
+  String get spreadThreeCardName => '쓰리 카드';
+
+  @override
+  String get spreadThreeCardDesc => '과거, 현재, 미래의 흐름을 파악하기 좋은 3장 배열법입니다.';
+
+  @override
+  String get spreadCelticCrossName => '켈트 십자법';
+
+  @override
+  String get spreadCelticCrossDesc => '복잡한 문제의 심층 분석과 해결책을 찾는 10장 배열법입니다.';
+
+  @override
+  String get positionOneCard => '오늘의 카드';
+
+  @override
+  String get positionThreeCard1 => '과거';
+
+  @override
+  String get positionThreeCard2 => '현재';
+
+  @override
+  String get positionThreeCard3 => '미래';
+
+  @override
+  String get positionCelticCross1 => '1. 현재 상황 (질문자)';
+
+  @override
+  String get positionCelticCross2 => '2. 방해 요소 (도전)';
+
+  @override
+  String get positionCelticCross3 => '3. 과거의 영향';
+
+  @override
+  String get positionCelticCross4 => '4. 가까운 미래';
+
+  @override
+  String get positionCelticCross5 => '5. 의식적 목표';
+
+  @override
+  String get positionCelticCross6 => '6. 무의식적 기저';
+
+  @override
+  String get positionCelticCross7 => '7. 본인의 태도 (조언)';
+
+  @override
+  String get positionCelticCross8 => '8. 주변 환경';
+
+  @override
+  String get positionCelticCross9 => '9. 희망과 두려움';
+
+  @override
+  String get positionCelticCross10 => '10. 최종 결과';
+
+  @override
   String get navReading => '타로 리딩';
 
   @override
@@ -16,6 +85,9 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get navMeanings => '카드 도감';
+
+  @override
+  String get navMyMenu => '내 메뉴';
 
   @override
   String get readingIntroTitle => '운명의\n속삭임';

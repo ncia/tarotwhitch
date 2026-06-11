@@ -4,6 +4,7 @@ import '../widgets/glass_container.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import 'package:flutter_tarot/l10n/tarot_localizations.dart';
 import '../data/tarot_data.dart';
+import 'card_detail_screen.dart';
 
 class MeaningsScreen extends StatelessWidget {
   const MeaningsScreen({super.key});
@@ -73,21 +74,33 @@ class MeaningsScreen extends StatelessWidget {
       itemCount: cards.length,
       itemBuilder: (context, index) {
         final card = cards[index];
-        return GlassContainer(
-          padding: const EdgeInsets.all(8),
-          borderRadius: 16,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Expanded(
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: Image.asset(
-                    card.imagePath,
-                    fit: BoxFit.cover,
+        return GestureDetector(
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => CardDetailScreen(card: card),
+              ),
+            );
+          },
+          child: GlassContainer(
+            padding: const EdgeInsets.all(8),
+            borderRadius: 16,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Expanded(
+                  child: Hero(
+                    tag: 'card_\${card.id}',
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(8),
+                      child: Image.asset(
+                        card.imagePath,
+                        fit: BoxFit.cover,
+                      ),
+                    ),
                   ),
                 ),
-              ),
               const SizedBox(height: 12),
               Text(
                 TarotLocalizations.getName(context, card.id),
@@ -124,7 +137,7 @@ class MeaningsScreen extends StatelessWidget {
               const SizedBox(height: 4),
             ],
           ),
-        );
+        ));
       },
     );
   }

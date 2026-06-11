@@ -6,16 +6,21 @@ import '../widgets/flip_card.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import 'package:flutter_tarot/l10n/tarot_localizations.dart';
 import '../data/tarot_data.dart';
+import '../data/spread_type.dart';
+import '../widgets/spread_layouts.dart';
+import 'card_detail_screen.dart';
 
 enum ReadingState { intro, picking, result }
 
 class ReadingScreen extends StatefulWidget {
   final bool isForChat;
+  final SpreadType spreadType;
   final void Function(List<String>)? onCardsPicked;
 
   const ReadingScreen({
     super.key,
     this.isForChat = false,
+    this.spreadType = SpreadType.threeCard,
     this.onCardsPicked,
   });
 
@@ -84,13 +89,13 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
   void _onCardTapped(int index) {
     if (_currentState != ReadingState.picking) return;
     if (_selectedCardIndices.contains(index)) return;
-    if (_selectedCardIndices.length >= 3) return;
+    if (_selectedCardIndices.length >= widget.spreadType.cardCount) return;
 
     setState(() {
       _selectedCardIndices.add(index);
     });
 
-    if (_selectedCardIndices.length == 3) {
+    if (_selectedCardIndices.length == widget.spreadType.cardCount) {
       Future.delayed(const Duration(milliseconds: 800), () {
         if (mounted) {
           setState(() {
@@ -112,11 +117,19 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
 
   @override
   Widget build(BuildContext context) {
-    return GradientBackground(
-      useSafeArea: false,
-      child: AnimatedSwitcher(
-        duration: const Duration(milliseconds: 800),
-        child: _buildCurrentState(),
+    return Scaffold(
+      extendBodyBehindAppBar: true,
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        iconTheme: const IconThemeData(color: Colors.white),
+      ),
+      body: GradientBackground(
+        useSafeArea: false,
+        child: AnimatedSwitcher(
+          duration: const Duration(milliseconds: 800),
+          child: _buildCurrentState(),
+        ),
       ),
     );
   }
@@ -245,9 +258,11 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text(
-                          '3장의 카드를 뽑으세요',
-                          style: Theme.of(context).textTheme.titleLarge,
+                        Expanded(
+                          child: Text(
+                            '${widget.spreadType.cardCount}장의 카드를 뽑으세요',
+                            style: Theme.of(context).textTheme.titleLarge,
+                          ),
                         ),
                         TextButton.icon(
                           onPressed: () {
@@ -269,30 +284,8 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                     ),
                   ),
                   const SizedBox(height: 20),
-                  // 슬롯 컨테이너 (정확히 slotsTopY 위치에 맞춰짐)
-                  SizedBox(
-                    height: slotHeight,
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: List.generate(3, (index) {
-                        return Container(
-                          width: slotWidth,
-                          height: slotHeight,
-                          decoration: BoxDecoration(
-                            border: Border.all(color: Colors.white30, width: 2, style: BorderStyle.solid),
-                            borderRadius: BorderRadius.circular(8),
-                            color: Colors.white10,
-                          ),
-                          child: Center(
-                            child: Text(
-                              '${index + 1}',
-                              style: const TextStyle(color: Colors.white54, fontSize: 24),
-                            ),
-                          ),
-                        );
-                      }),
-                    ),
-                  ),
+                  // 빈 슬롯은 표시하지 않고 카드 겹침 레이아웃을 사용
+                  SizedBox(height: slotHeight),
                 ],
               ),
               
@@ -306,9 +299,13 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                 double targetAngle = 0;
 
                 if (isSelected) {
-                  // 선택된 경우: 정확히 빈 슬롯의 x, y 좌표로 이동
                   targetTop = slotsTopY; 
-                  targetLeft = spacing + (selectedOrder * (slotWidth + spacing));
+                  if (widget.spreadType.cardCount <= 3) {
+                    double activeSpacing = (screenWidth - (slotWidth * widget.spreadType.cardCount)) / (widget.spreadType.cardCount + 1);
+                    targetLeft = activeSpacing + (selectedOrder * (slotWidth + activeSpacing));
+                  } else {
+                    targetLeft = (screenWidth / 2) - (slotWidth / 2) + (selectedOrder * 12);
+                  }
                   targetAngle = 0;
                 } else {
                   // 바닥에 펼쳐지는 위치 (화면 하단 기준)
@@ -404,7 +401,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
   Widget _buildResultView() {
     return SafeArea(
       key: const ValueKey('result'),
-      child: Padding(
+      child: SingleChildScrollView(
         padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 30.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -419,103 +416,49 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
               AppLocalizations.of(context)!.readingSpreadSubtitle,
               style: Theme.of(context).textTheme.bodyMedium,
             ),
-            const Spacer(),
-            
-            // 3장의 카드가 뒤집히는 뷰
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: List.generate(3, (index) {
-                final cardIndex = _selectedCardIndices[index];
-                final card = _shuffledDeck[cardIndex];
-                final isRev = _shuffledReversed[cardIndex];
-
-                return Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    FlipCardWidget(
-                      frontImagePath: card.imagePath,
-                      isReversed: isRev,
-                      backImagePath: 'assets/images/card_back.jpg',
-                      isFlipped: true, // 상태 진입 시 바로 플립 애니메이션 시작
-                      width: 90,
-                      height: 140,
-                      duration: Duration(milliseconds: 600 + (index * 200)), // 순차적으로 뒤집어짐
-                    ),
-                    const SizedBox(height: 8),
-                    SizedBox(
-                      width: 90,
-                      child: Text(
-                        TarotLocalizations.getName(context, card.id).split(" (").first,
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 12,
-                          fontWeight: FontWeight.w600,
-                        ),
-                        textAlign: TextAlign.center,
-                        maxLines: 2,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                    ),
-                  ],
-                );
-              }),
+            const SizedBox(height: 30),
+            SpreadLayoutBuilder(
+              spreadType: widget.spreadType,
+              selectedCardIndices: _selectedCardIndices,
+              shuffledDeck: _shuffledDeck,
+              shuffledReversed: _shuffledReversed,
+              isForChat: widget.isForChat,
+              onCardsPicked: widget.onCardsPicked,
             ),
-            
-            const Spacer(),
-            
-            // 결과 메시지 또는 챗봇 복귀 버튼
-            if (widget.isForChat)
-              Padding(
-                padding: const EdgeInsets.only(top: 40.0),
-                child: GestureDetector(
-                  onTap: () {
-                    if (widget.onCardsPicked != null) {
-                      final List<String> pickedInfos = [];
-                      for (int i = 0; i < 3; i++) {
-                        final cardIndex = _selectedCardIndices[i];
-                        final card = _shuffledDeck[cardIndex];
-                        final isRev = _shuffledReversed[cardIndex];
-                        pickedInfos.add('${TarotLocalizations.getName(context, card.id)} (${isRev ? "Reversed" : "Upright"})');
-                      }
-                      widget.onCardsPicked!(pickedInfos);
-                    }
-                    Navigator.of(context).pop();
-                  },
-                  child: GlassContainer(
-                    width: double.infinity,
-                    padding: const EdgeInsets.symmetric(vertical: 18),
-                    borderRadius: 30,
-                    child: Center(
-                      child: Text(
-                        '해석 듣기',
-                        style: Theme.of(context).textTheme.titleLarge?.copyWith(fontSize: 20),
-                      ),
+            const SizedBox(height: 40),
+            if (!widget.isForChat)
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  OutlinedButton(
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                    style: OutlinedButton.styleFrom(
+                      foregroundColor: Colors.white,
+                      side: const BorderSide(color: Colors.white54),
+                      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                     ),
+                    child: const Text('다른 배열법 선택'),
                   ),
-                ),
-              )
-            else
-              GlassContainer(
-                width: double.infinity,
-                padding: const EdgeInsets.all(20),
-                child: Column(
-                  children: [
-                    Text(
-                      AppLocalizations.of(context)!.readingSpreadMessageTitle,
-                      style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                        fontStyle: FontStyle.italic,
-                        color: Colors.white70,
-                      ),
+                  const SizedBox(width: 16),
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => ReadingScreen(spreadType: widget.spreadType),
+                        ),
+                      );
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.deepPurpleAccent,
+                      foregroundColor: Colors.white,
+                      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                     ),
-                    const SizedBox(height: 12),
-                    Text(
-                      AppLocalizations.of(context)!.readingSpreadMessageBody,
-                      style: Theme.of(context).textTheme.bodyMedium,
-                      textAlign: TextAlign.center,
-                    ),
-                  ],
-                ),
+                    child: const Text('다시 뽑기'),
+                  ),
+                ],
               ),
           ],
         ),

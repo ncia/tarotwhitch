@@ -9,6 +9,79 @@ class AppLocalizationsFi extends AppLocalizations {
   AppLocalizationsFi([String locale = 'fi']) : super(locale);
 
   @override
+  String get appTitle => 'Tarot Reading';
+
+  @override
+  String get spreadSelectionTitle => 'Select a Spread';
+
+  @override
+  String get spreadSelectionSubtitle =>
+      'Choose a tarot spread that fits your question';
+
+  @override
+  String get spreadOneCardName => 'One Card';
+
+  @override
+  String get spreadOneCardDesc =>
+      'A single card for a quick answer or daily guidance.';
+
+  @override
+  String get spreadThreeCardName => 'Three Card';
+
+  @override
+  String get spreadThreeCardDesc =>
+      'Past, Present, and Future. Good for understanding the flow of a situation.';
+
+  @override
+  String get spreadCelticCrossName => 'Celtic Cross';
+
+  @override
+  String get spreadCelticCrossDesc =>
+      '10 cards for an in-depth analysis of a complex problem.';
+
+  @override
+  String get positionOneCard => 'Today\'s Card';
+
+  @override
+  String get positionThreeCard1 => 'Past';
+
+  @override
+  String get positionThreeCard2 => 'Present';
+
+  @override
+  String get positionThreeCard3 => 'Future';
+
+  @override
+  String get positionCelticCross1 => '1. Present / Querent';
+
+  @override
+  String get positionCelticCross2 => '2. The Challenge';
+
+  @override
+  String get positionCelticCross3 => '3. The Past';
+
+  @override
+  String get positionCelticCross4 => '4. The Future';
+
+  @override
+  String get positionCelticCross5 => '5. Conscious';
+
+  @override
+  String get positionCelticCross6 => '6. Subconscious';
+
+  @override
+  String get positionCelticCross7 => '7. Advice';
+
+  @override
+  String get positionCelticCross8 => '8. External Influences';
+
+  @override
+  String get positionCelticCross9 => '9. Hopes and Fears';
+
+  @override
+  String get positionCelticCross10 => '10. Outcome';
+
+  @override
   String get navReading => 'Tarot-luenta';
 
   @override
@@ -16,6 +89,9 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get navMeanings => 'Merkitykset';
+
+  @override
+  String get navMyMenu => 'My Menu';
 
   @override
   String get readingIntroTitle => 'Kohtalon\nKuiskaus';

@@ -180,6 +180,144 @@ abstract class AppLocalizations {
     Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
   ];
 
+  /// No description provided for @appTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Tarot Reading'**
+  String get appTitle;
+
+  /// No description provided for @spreadSelectionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Select a Spread'**
+  String get spreadSelectionTitle;
+
+  /// No description provided for @spreadSelectionSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose a tarot spread that fits your question'**
+  String get spreadSelectionSubtitle;
+
+  /// No description provided for @spreadOneCardName.
+  ///
+  /// In en, this message translates to:
+  /// **'One Card'**
+  String get spreadOneCardName;
+
+  /// No description provided for @spreadOneCardDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'A single card for a quick answer or daily guidance.'**
+  String get spreadOneCardDesc;
+
+  /// No description provided for @spreadThreeCardName.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Card'**
+  String get spreadThreeCardName;
+
+  /// No description provided for @spreadThreeCardDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Past, Present, and Future. Good for understanding the flow of a situation.'**
+  String get spreadThreeCardDesc;
+
+  /// No description provided for @spreadCelticCrossName.
+  ///
+  /// In en, this message translates to:
+  /// **'Celtic Cross'**
+  String get spreadCelticCrossName;
+
+  /// No description provided for @spreadCelticCrossDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'10 cards for an in-depth analysis of a complex problem.'**
+  String get spreadCelticCrossDesc;
+
+  /// No description provided for @positionOneCard.
+  ///
+  /// In en, this message translates to:
+  /// **'Today\'s Card'**
+  String get positionOneCard;
+
+  /// No description provided for @positionThreeCard1.
+  ///
+  /// In en, this message translates to:
+  /// **'Past'**
+  String get positionThreeCard1;
+
+  /// No description provided for @positionThreeCard2.
+  ///
+  /// In en, this message translates to:
+  /// **'Present'**
+  String get positionThreeCard2;
+
+  /// No description provided for @positionThreeCard3.
+  ///
+  /// In en, this message translates to:
+  /// **'Future'**
+  String get positionThreeCard3;
+
+  /// No description provided for @positionCelticCross1.
+  ///
+  /// In en, this message translates to:
+  /// **'1. Present / Querent'**
+  String get positionCelticCross1;
+
+  /// No description provided for @positionCelticCross2.
+  ///
+  /// In en, this message translates to:
+  /// **'2. The Challenge'**
+  String get positionCelticCross2;
+
+  /// No description provided for @positionCelticCross3.
+  ///
+  /// In en, this message translates to:
+  /// **'3. The Past'**
+  String get positionCelticCross3;
+
+  /// No description provided for @positionCelticCross4.
+  ///
+  /// In en, this message translates to:
+  /// **'4. The Future'**
+  String get positionCelticCross4;
+
+  /// No description provided for @positionCelticCross5.
+  ///
+  /// In en, this message translates to:
+  /// **'5. Conscious'**
+  String get positionCelticCross5;
+
+  /// No description provided for @positionCelticCross6.
+  ///
+  /// In en, this message translates to:
+  /// **'6. Subconscious'**
+  String get positionCelticCross6;
+
+  /// No description provided for @positionCelticCross7.
+  ///
+  /// In en, this message translates to:
+  /// **'7. Advice'**
+  String get positionCelticCross7;
+
+  /// No description provided for @positionCelticCross8.
+  ///
+  /// In en, this message translates to:
+  /// **'8. External Influences'**
+  String get positionCelticCross8;
+
+  /// No description provided for @positionCelticCross9.
+  ///
+  /// In en, this message translates to:
+  /// **'9. Hopes and Fears'**
+  String get positionCelticCross9;
+
+  /// No description provided for @positionCelticCross10.
+  ///
+  /// In en, this message translates to:
+  /// **'10. Outcome'**
+  String get positionCelticCross10;
+
   /// No description provided for @navReading.
   ///
   /// In en, this message translates to:
@@ -189,7 +327,7 @@ abstract class AppLocalizations {
   /// No description provided for @navChat.
   ///
   /// In en, this message translates to:
-  /// **'AI Chat'**
+  /// **'Chat'**
   String get navChat;
 
   /// No description provided for @navMeanings.
@@ -197,6 +335,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Meanings'**
   String get navMeanings;
+
+  /// No description provided for @navMyMenu.
+  ///
+  /// In en, this message translates to:
+  /// **'My Menu'**
+  String get navMyMenu;
 
   /// No description provided for @readingIntroTitle.
   ///
