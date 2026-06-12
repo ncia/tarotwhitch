@@ -65,10 +65,17 @@ class _ChatScreenState extends State<ChatScreen> {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                CircleAvatar(
-                  radius: 50,
-                  backgroundColor: Colors.purpleAccent,
-                  backgroundImage: AssetImage(_selectedWitch.imagePath),
+                Container(
+                  width: 100,
+                  height: 100,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.purpleAccent,
+                    image: DecorationImage(
+                      image: AssetImage(_selectedWitch.imagePath),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
                 ),
                 const SizedBox(height: 16),
                 Text(
@@ -292,10 +299,17 @@ class _ChatScreenState extends State<ChatScreen> {
                       children: [
                         GestureDetector(
                           onTap: _showWitchProfile,
-                          child: CircleAvatar(
-                            radius: 24,
-                            backgroundColor: Colors.purpleAccent,
-                            backgroundImage: AssetImage(_selectedWitch.imagePath),
+                          child: Container(
+                            width: 48,
+                            height: 48,
+                            decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                              color: Colors.purpleAccent,
+                              image: DecorationImage(
+                                image: AssetImage(_selectedWitch.imagePath),
+                                fit: BoxFit.cover,
+                              ),
+                            ),
                           ),
                         ),
                         const SizedBox(width: 16),

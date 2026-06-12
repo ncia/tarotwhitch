@@ -55,10 +55,17 @@ class MyMenuScreen extends StatelessWidget {
               borderRadius: 20,
               child: Row(
                 children: [
-                  CircleAvatar(
-                    radius: 35,
-                    backgroundColor: Colors.indigo.shade900,
-                    backgroundImage: const AssetImage('assets/images/witch_morgan.jpg'),
+                  Container(
+                    width: 70,
+                    height: 70,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.indigo.shade900,
+                      image: const DecorationImage(
+                        image: AssetImage('assets/images/witch_morgan.jpg'),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
                   ),
                   const SizedBox(width: 20),
                   Expanded(
@@ -101,10 +108,17 @@ class MyMenuScreen extends StatelessWidget {
               borderRadius: 20,
               child: Row(
                 children: [
-                  CircleAvatar(
-                    radius: 35,
-                    backgroundColor: isLoggedIn ? Colors.indigo.shade900 : Colors.grey.shade800,
-                    backgroundImage: const AssetImage('assets/images/witch_morgan.jpg'),
+                  Container(
+                    width: 70,
+                    height: 70,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: isLoggedIn ? Colors.indigo.shade900 : Colors.grey.shade800,
+                      image: const DecorationImage(
+                        image: AssetImage('assets/images/witch_morgan.jpg'),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
                   ),
                   const SizedBox(width: 20),
                   Expanded(

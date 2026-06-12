@@ -11,7 +11,7 @@ class AudioService {
 
   bool _isBgmPlaying = false;
   bool _isMuted = false;
-  double _volume = 0.05;
+  double _volume = 0.5;
 
   bool get isMuted => _isMuted;
   double get volume => _volume;

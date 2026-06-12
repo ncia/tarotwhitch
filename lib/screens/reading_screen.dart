@@ -77,7 +77,8 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
     _shuffledDeck = List.from(tarotDeck)..shuffle();
     _shuffledReversed = List.generate(78, (_) => math.Random().nextBool());
     
-    _currentBackgroundImage = witches[math.Random().nextInt(witches.length)].imagePath;
+    final allowedWitches = witches.where((w) => w.id == 'morgan' || w.id == 'karen').toList();
+    _currentBackgroundImage = allowedWitches[math.Random().nextInt(allowedWitches.length)].imagePath;
   }
 
   @override
@@ -321,7 +322,9 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                     double activeSpacing = (screenWidth - (slotWidth * widget.spreadType.cardCount)) / (widget.spreadType.cardCount + 1);
                     targetLeft = activeSpacing + (selectedOrder * (slotWidth + activeSpacing));
                   } else {
-                    targetLeft = (screenWidth / 2) - (slotWidth / 2) + (selectedOrder * 12);
+                    double stackTotalWidth = slotWidth + (_selectedCardIndices.length - 1) * 12;
+                    double startLeft = (screenWidth / 2) - (stackTotalWidth / 2);
+                    targetLeft = startLeft + (selectedOrder * 12);
                   }
                   targetAngle = 0;
                 } else {

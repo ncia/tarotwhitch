@@ -32,7 +32,8 @@ class _ReadingIntroScreenState extends State<ReadingIntroScreen> with SingleTick
       CurvedAnimation(parent: _purpleAnimController, curve: Curves.easeInOutSine)
     );
     
-    _currentBackgroundImage = witches[math.Random().nextInt(witches.length)].imagePath;
+    final allowedWitches = witches.where((w) => w.id == 'morgan' || w.id == 'karen').toList();
+    _currentBackgroundImage = allowedWitches[math.Random().nextInt(allowedWitches.length)].imagePath;
   }
 
   @override
