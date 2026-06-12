@@ -54,6 +54,9 @@ class _ReadingIntroScreenState extends State<ReadingIntroScreen> with SingleTick
               _currentBackgroundImage,
               key: ValueKey(_currentBackgroundImage),
               fit: BoxFit.cover,
+              width: double.infinity,
+              height: double.infinity,
+              alignment: Alignment.center,
             ),
           ),
           
