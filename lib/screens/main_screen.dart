@@ -65,7 +65,7 @@ class _MainScreenState extends State<MainScreen> {
         },
         items: [
           BottomNavigationBarItem(
-            icon: const CustomImageIcon('assets/images/ic_reading.png'),
+            icon: const CustomImageIcon('assets/images/ic_meanings.png'),
             label: AppLocalizations.of(context)!.navReading,
           ),
           BottomNavigationBarItem(
@@ -77,7 +77,7 @@ class _MainScreenState extends State<MainScreen> {
             label: '타로 일기',
           ),
           BottomNavigationBarItem(
-            icon: const CustomImageIcon('assets/images/ic_meanings.png'),
+            icon: const CustomImageIcon('assets/images/ic_reading.png'),
             label: AppLocalizations.of(context)!.navMeanings,
           ),
           BottomNavigationBarItem(
