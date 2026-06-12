@@ -31,9 +31,7 @@ class _MainScreenState extends State<MainScreen> {
   void initState() {
     super.initState();
     AudioService().init().then((_) {
-      if (_currentIndex == 0) {
-        AudioService().playMysteriousBgm();
-      }
+      AudioService().playMysteriousBgm();
     });
   }
 
@@ -46,7 +44,20 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: _screens[_currentIndex],
+      body: Stack(
+        children: [
+          _screens[_currentIndex],
+          const SafeArea(
+            child: Align(
+              alignment: Alignment.topRight,
+              child: Padding(
+                padding: EdgeInsets.only(top: 16.0, right: 16.0),
+                child: AnimatedVolumeControl(),
+              ),
+            ),
+          ),
+        ],
+      ),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.black.withOpacity(0.8),
         selectedItemColor: Colors.white,
@@ -56,11 +67,6 @@ class _MainScreenState extends State<MainScreen> {
         onTap: (index) {
           setState(() {
             _currentIndex = index;
-            if (_currentIndex == 0) {
-              AudioService().resumeBgm(); // or play if stopped
-            } else {
-              AudioService().pauseBgm();
-            }
           });
         },
         items: [
@@ -86,9 +92,6 @@ class _MainScreenState extends State<MainScreen> {
           ),
         ],
       ),
-      floatingActionButton: _currentIndex == 0
-          ? const AnimatedVolumeControl()
-          : null,
     );
   }
 }

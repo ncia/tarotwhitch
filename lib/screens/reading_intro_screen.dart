@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
+import '../data/witch_data.dart';
+import 'dart:math' as math;
 
 class ReadingIntroScreen extends StatefulWidget {
   final void Function(BuildContext) onStart;
@@ -15,6 +17,7 @@ class ReadingIntroScreen extends StatefulWidget {
 class _ReadingIntroScreenState extends State<ReadingIntroScreen> with SingleTickerProviderStateMixin {
   late AnimationController _purpleAnimController;
   late Animation<double> _glowAnimation;
+  late String _currentBackgroundImage;
 
   @override
   void initState() {
@@ -28,6 +31,8 @@ class _ReadingIntroScreenState extends State<ReadingIntroScreen> with SingleTick
     _glowAnimation = Tween<double>(begin: 0.1, end: 0.6).animate(
       CurvedAnimation(parent: _purpleAnimController, curve: Curves.easeInOutSine)
     );
+    
+    _currentBackgroundImage = witches[math.Random().nextInt(witches.length)].imagePath;
   }
 
   @override
@@ -43,9 +48,13 @@ class _ReadingIntroScreenState extends State<ReadingIntroScreen> with SingleTick
         fit: StackFit.expand,
         children: [
           // 1. 배경 이미지 전체 덮기
-          Image.asset(
-            'assets/images/fortune_teller.jpg',
-            fit: BoxFit.cover,
+          AnimatedSwitcher(
+            duration: const Duration(milliseconds: 500),
+            child: Image.asset(
+              _currentBackgroundImage,
+              key: ValueKey(_currentBackgroundImage),
+              fit: BoxFit.cover,
+            ),
           ),
           
           // 2. 마녀(중앙)를 제외하고 배경 쪽에만 보라색 불빛이 숨쉬듯 빛나는 효과

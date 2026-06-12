@@ -6,6 +6,7 @@ import '../widgets/flip_card.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import 'package:flutter_tarot/l10n/tarot_localizations.dart';
 import '../data/tarot_data.dart';
+import '../data/witch_data.dart';
 import '../data/spread_type.dart';
 import '../widgets/spread_layouts.dart';
 import 'card_detail_screen.dart';
@@ -46,6 +47,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
   
   late List<TarotCardData> _shuffledDeck;
   late List<bool> _shuffledReversed;
+  late String _currentBackgroundImage;
 
   @override
   void initState() {
@@ -74,6 +76,8 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
     // 전체 덱 셔플 및 정/역방향 셔플
     _shuffledDeck = List.from(tarotDeck)..shuffle();
     _shuffledReversed = List.generate(78, (_) => math.Random().nextBool());
+    
+    _currentBackgroundImage = witches[math.Random().nextInt(witches.length)].imagePath;
   }
 
   @override
@@ -155,12 +159,18 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
       key: const ValueKey('intro'),
       children: [
         Positioned.fill(
-          child: Image.asset(
-            'assets/images/fortune_teller.jpg',
-            fit: BoxFit.cover,
-            alignment: Alignment.center,
-            errorBuilder: (context, error, stackTrace) => const Center(
-              child: Icon(Icons.error, color: Colors.white54, size: 50),
+          child: AnimatedSwitcher(
+            duration: const Duration(milliseconds: 500),
+            child: Image.asset(
+              _currentBackgroundImage,
+              key: ValueKey(_currentBackgroundImage),
+              fit: BoxFit.cover,
+              alignment: Alignment.center,
+              width: double.infinity,
+              height: double.infinity,
+              errorBuilder: (context, error, stackTrace) => const Center(
+                child: Icon(Icons.error, color: Colors.white54, size: 50),
+              ),
             ),
           ),
         ),

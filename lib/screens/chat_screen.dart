@@ -4,6 +4,7 @@ import '../widgets/glass_container.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import 'reading_screen.dart';
 import '../services/tarot_ai_service.dart';
+import '../data/witch_data.dart';
 
 class ChatMessage {
   final String text;
@@ -29,15 +30,111 @@ class _ChatScreenState extends State<ChatScreen> {
   bool _isWaitingForCards = false;
   bool _isTyping = false;
   String _currentQuestion = '';
+  Witch _selectedWitch = witches.first;
 
   @override
   void initState() {
     super.initState();
     // 초기 AI 메시지
     _messages.add(ChatMessage(
-      text: "안녕하세요. 저는 타로 마녀 모건입니다. 우주의 기운이 당신을 이곳으로 이끌었군요. 어떤 고민이 있으신가요?",
+      text: "안녕하세요. 저는 타로 마녀 ${_selectedWitch.name}입니다. 우주의 기운이 당신을 이곳으로 이끌었군요. 어떤 고민이 있으신가요?",
       isUser: false,
     ));
+  }
+
+  void _changeWitch(Witch witch) {
+    setState(() {
+      _selectedWitch = witch;
+      _messages.add(ChatMessage(
+        text: "[마녀가 ${witch.name}(으)로 교체되었습니다.]\n안녕하세요. 새로운 당신의 영적 안내자, ${witch.name}입니다. 어떤 고민이 있으신가요?",
+        isUser: false,
+      ));
+    });
+    _scrollToBottom();
+  }
+
+  void _showWitchProfile() {
+    showDialog(
+      context: context,
+      builder: (context) {
+        return Dialog(
+          backgroundColor: Colors.transparent,
+          child: GlassContainer(
+            padding: const EdgeInsets.all(24),
+            borderRadius: 24,
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                CircleAvatar(
+                  radius: 50,
+                  backgroundColor: Colors.purpleAccent,
+                  backgroundImage: AssetImage(_selectedWitch.imagePath),
+                ),
+                const SizedBox(height: 16),
+                Text(
+                  _selectedWitch.name,
+                  style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white),
+                ),
+                Text(
+                  _selectedWitch.title,
+                  style: const TextStyle(fontSize: 14, color: Colors.pinkAccent),
+                ),
+                const SizedBox(height: 24),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    _buildProfileInfo('나이', '${_selectedWitch.age}세'),
+                    _buildProfileInfo('혈액형', _selectedWitch.bloodType),
+                  ],
+                ),
+                const SizedBox(height: 16),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    _buildProfileInfo('키', _selectedWitch.height),
+                    _buildProfileInfo('몸무게', _selectedWitch.weight),
+                  ],
+                ),
+                const SizedBox(height: 24),
+                const Text(
+                  '성장 배경',
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.white),
+                ),
+                const SizedBox(height: 8),
+                Text(
+                  _selectedWitch.backgroundStory,
+                  style: const TextStyle(fontSize: 14, color: Colors.white70, height: 1.5),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 24),
+                SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: () => Navigator.pop(context),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.purple.shade700,
+                      padding: const EdgeInsets.symmetric(vertical: 12),
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+                    ),
+                    child: const Text('닫기', style: TextStyle(color: Colors.white, fontSize: 16)),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        );
+      },
+    );
+  }
+
+  Widget _buildProfileInfo(String label, String value) {
+    return Column(
+      children: [
+        Text(label, style: const TextStyle(fontSize: 12, color: Colors.white54)),
+        const SizedBox(height: 4),
+        Text(value, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.white)),
+      ],
+    );
   }
 
   @override
@@ -112,7 +209,7 @@ class _ChatScreenState extends State<ChatScreen> {
     });
     _scrollToBottom();
 
-    final stream = _aiService.getTarotReadingStream(_currentQuestion, cards);
+    final stream = _aiService.getTarotReadingStream(_currentQuestion, cards, _selectedWitch.personalityPrompt);
     
     await for (final chunk in stream) {
       if (mounted) {
@@ -185,25 +282,79 @@ class _ChatScreenState extends State<ChatScreen> {
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: GlassContainer(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-                borderRadius: 30,
-                child: Row(
+                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+                borderRadius: 20,
+                child: Column(
                   mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    const CircleAvatar(
-                      radius: 18,
-                      backgroundColor: Colors.purpleAccent,
-                      child: Icon(Icons.auto_awesome, color: Colors.white, size: 20),
+                    Row(
+                      children: [
+                        GestureDetector(
+                          onTap: _showWitchProfile,
+                          child: CircleAvatar(
+                            radius: 24,
+                            backgroundColor: Colors.purpleAccent,
+                            backgroundImage: AssetImage(_selectedWitch.imagePath),
+                          ),
+                        ),
+                        const SizedBox(width: 16),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Row(
+                                children: [
+                                  Text(
+                                    _selectedWitch.name,
+                                    style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold, fontSize: 18),
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(
+                                    _selectedWitch.title,
+                                    style: Theme.of(context).textTheme.bodySmall?.copyWith(color: Colors.pinkAccent),
+                                  ),
+                                ],
+                              ),
+                              const SizedBox(height: 4),
+                              const Text(
+                                '프로필 사진을 탭하여 상세 정보 보기',
+                                style: TextStyle(fontSize: 11, color: Colors.white54),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
                     ),
-                    const SizedBox(width: 12),
-                    Text(
-                      '모건',
-                      style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold, fontSize: 18),
-                    ),
-                    const SizedBox(width: 16),
-                    Text(
-                      '타로 마녀',
-                      style: Theme.of(context).textTheme.bodySmall?.copyWith(color: Colors.pinkAccent),
+                    const SizedBox(height: 12),
+                    Container(
+                      height: 44,
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      decoration: BoxDecoration(
+                        color: Colors.white.withOpacity(0.1),
+                        borderRadius: BorderRadius.circular(12),
+                        border: Border.all(color: Colors.white24),
+                      ),
+                      child: DropdownButtonHideUnderline(
+                        child: DropdownButton<Witch>(
+                          value: _selectedWitch,
+                          dropdownColor: Colors.deepPurple.shade900,
+                          icon: const Icon(Icons.arrow_drop_down, color: Colors.white),
+                          isExpanded: true,
+                          style: const TextStyle(color: Colors.white, fontSize: 15, fontWeight: FontWeight.bold),
+                          onChanged: (Witch? newValue) {
+                            if (newValue != null && newValue != _selectedWitch) {
+                              _changeWitch(newValue);
+                            }
+                          },
+                          items: witches.map<DropdownMenuItem<Witch>>((Witch witch) {
+                            return DropdownMenuItem<Witch>(
+                              value: witch,
+                              child: Text('${witch.name} - ${witch.title}'),
+                            );
+                          }).toList(),
+                        ),
+                      ),
                     ),
                   ],
                 ),

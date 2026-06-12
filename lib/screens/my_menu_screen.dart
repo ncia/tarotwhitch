@@ -58,7 +58,7 @@ class MyMenuScreen extends StatelessWidget {
                   CircleAvatar(
                     radius: 35,
                     backgroundColor: Colors.indigo.shade900,
-                    backgroundImage: const AssetImage('assets/images/fortune_teller.jpg'),
+                    backgroundImage: const AssetImage('assets/images/witch_morgan.jpg'),
                   ),
                   const SizedBox(width: 20),
                   Expanded(
@@ -104,7 +104,7 @@ class MyMenuScreen extends StatelessWidget {
                   CircleAvatar(
                     radius: 35,
                     backgroundColor: isLoggedIn ? Colors.indigo.shade900 : Colors.grey.shade800,
-                    backgroundImage: const AssetImage('assets/images/fortune_teller.jpg'),
+                    backgroundImage: const AssetImage('assets/images/witch_morgan.jpg'),
                   ),
                   const SizedBox(width: 20),
                   Expanded(
