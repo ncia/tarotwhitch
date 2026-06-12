@@ -563,7 +563,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
   void _shareReadingResult() {
     final buffer = StringBuffer();
     buffer.writeln('🔮 나의 타로 점괘 결과 🔮');
-    buffer.writeln('배열법: \${widget.spreadType.name}'); // You can localize spread type name if needed
+    buffer.writeln('배열법: ${widget.spreadType.name}'); // You can localize spread type name if needed
     buffer.writeln('----------------------');
 
     for (int i = 0; i < widget.spreadType.cardCount; i++) {
@@ -573,7 +573,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
       final cardName = TarotLocalizations.getName(context, card.id);
       final direction = isRev ? '역방향 (Reversed)' : '정방향 (Upright)';
       
-      buffer.writeln('\${i + 1}. $cardName ($direction)');
+      buffer.writeln('${i + 1}. $cardName ($direction)');
     }
 
     buffer.writeln('----------------------');

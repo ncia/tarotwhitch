@@ -88,7 +88,7 @@ class SpreadLayoutBuilder extends StatelessWidget {
                     final cardIndex = selectedCardIndices[i];
                     final card = shuffledDeck[cardIndex];
                     final isRev = shuffledReversed[cardIndex];
-                    pickedInfos.add('\${TarotLocalizations.getName(context, card.id)} (\${isRev ? "Reversed" : "Upright"})');
+                    pickedInfos.add('${TarotLocalizations.getName(context, card.id)} (${isRev ? "Reversed" : "Upright"})');
                   }
                   onCardsPicked!(pickedInfos);
                 }
@@ -120,6 +120,7 @@ Widget _buildCardItem(BuildContext context, {
   String? label,
   double width = 90,
   double height = 140,
+  bool showName = true,
 }) {
   return GestureDetector(
     onTap: () {
@@ -161,21 +162,23 @@ Widget _buildCardItem(BuildContext context, {
             duration: Duration(milliseconds: 600 + (index * 100)),
           ),
         ),
-        const SizedBox(height: 8),
-        SizedBox(
-          width: width,
-          child: Text(
-            TarotLocalizations.getName(context, card.id).split(" (").first,
-            style: const TextStyle(
-              color: Colors.white,
-              fontSize: 12,
-              fontWeight: FontWeight.w600,
+        if (showName) ...[
+          const SizedBox(height: 8),
+          SizedBox(
+            width: width,
+            child: Text(
+              TarotLocalizations.getName(context, card.id).split(" (").first,
+              style: const TextStyle(
+                color: Colors.white,
+                fontSize: 12,
+                fontWeight: FontWeight.w600,
+              ),
+              textAlign: TextAlign.center,
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
             ),
-            textAlign: TextAlign.center,
-            maxLines: 2,
-            overflow: TextOverflow.ellipsis,
           ),
-        ),
+        ],
       ],
     ),
   );
@@ -425,9 +428,9 @@ class _FourCardLayout extends StatelessWidget {
       final isRev = shuffledReversed[cardIndex];
       return Column(
         children: [
-          Text('\${idx + 1}', style: const TextStyle(color: Colors.amberAccent, fontSize: 12, fontWeight: FontWeight.bold)),
+          Text('${idx + 1}', style: const TextStyle(color: Colors.amberAccent, fontSize: 12, fontWeight: FontWeight.bold)),
           const SizedBox(height: 4),
-          _buildCardItem(context, index: idx, card: card, isRev: isRev, width: width, height: height),
+          _buildCardItem(context, index: idx, card: card, isRev: isRev, width: width, height: height, showName: false),
         ],
       );
     }
@@ -436,7 +439,7 @@ class _FourCardLayout extends StatelessWidget {
       children: [
         // 상단 미니 맵 (2x2 정렬)
         Container(
-          height: 300,
+          height: 340,
           margin: const EdgeInsets.only(bottom: 30),
           alignment: Alignment.center,
           child: Column(
@@ -546,7 +549,7 @@ class _TwoCardLayout extends StatelessWidget {
         children: [
           Text('${idx + 1}', style: const TextStyle(color: Colors.amberAccent, fontSize: 12, fontWeight: FontWeight.bold)),
           const SizedBox(height: 4),
-          _buildCardItem(context, index: idx, card: card, isRev: isRev, width: width, height: height),
+          _buildCardItem(context, index: idx, card: card, isRev: isRev, width: width, height: height, showName: false),
         ],
       );
     }
@@ -555,7 +558,7 @@ class _TwoCardLayout extends StatelessWidget {
       children: [
         // 상단 미니 맵 (2장 가로 정렬)
         Container(
-          height: 300,
+          height: 340,
           margin: const EdgeInsets.only(bottom: 30),
           alignment: Alignment.center,
           child: Row(
@@ -652,9 +655,9 @@ class _FiveCardLayout extends StatelessWidget {
       final isRev = shuffledReversed[cardIndex];
       return Column(
         children: [
-          Text('\${idx + 1}', style: const TextStyle(color: Colors.amberAccent, fontSize: 12, fontWeight: FontWeight.bold)),
+          Text('${idx + 1}', style: const TextStyle(color: Colors.amberAccent, fontSize: 12, fontWeight: FontWeight.bold)),
           const SizedBox(height: 4),
-          _buildCardItem(context, index: idx, card: card, isRev: isRev, width: width, height: height),
+          _buildCardItem(context, index: idx, card: card, isRev: isRev, width: width, height: height, showName: false),
         ],
       );
     }
@@ -663,7 +666,7 @@ class _FiveCardLayout extends StatelessWidget {
       children: [
         // 상단 미니 맵 (십자가 정렬)
         Container(
-          height: 300,
+          height: 340,
           margin: const EdgeInsets.only(bottom: 30),
           alignment: Alignment.center,
           child: Column(
