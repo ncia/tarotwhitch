@@ -4,6 +4,8 @@ import '../widgets/glass_container.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import 'reading_screen.dart';
 import '../services/tarot_ai_service.dart';
+import '../services/tts_service.dart';
+import '../services/economy_service.dart';
 import '../data/witch_data.dart';
 
 class ChatMessage {
@@ -26,27 +28,37 @@ class _ChatScreenState extends State<ChatScreen> {
   final ScrollController _scrollController = ScrollController();
   final List<ChatMessage> _messages = [];
   final TarotAiService _aiService = TarotAiService();
+  final TtsService _ttsService = TtsService();
   
   bool _isWaitingForCards = false;
   bool _isTyping = false;
   String _currentQuestion = '';
-  Witch _selectedWitch = witches.first;
+  late List<Witch> _witches;
+  late Witch _selectedWitch;
+  bool _isInit = false;
 
   @override
-  void initState() {
-    super.initState();
-    // 초기 AI 메시지
-    _messages.add(ChatMessage(
-      text: "안녕하세요. 저는 타로 마녀 ${_selectedWitch.name}입니다. 우주의 기운이 당신을 이곳으로 이끌었군요. 어떤 고민이 있으신가요?",
-      isUser: false,
-    ));
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    _witches = getLocalizedWitches(context);
+    if (!_isInit) {
+      _selectedWitch = _witches.first;
+      _messages.add(ChatMessage(
+        text: AppLocalizations.of(context)!.chatWitchGreeting(_selectedWitch.name),
+        isUser: false,
+      ));
+      _isInit = true;
+    } else {
+      _selectedWitch = _witches.firstWhere((w) => w.id == _selectedWitch.id);
+    }
   }
 
   void _changeWitch(Witch witch) {
+    _ttsService.stop();
     setState(() {
       _selectedWitch = witch;
       _messages.add(ChatMessage(
-        text: "[마녀가 ${witch.name}(으)로 교체되었습니다.]\n안녕하세요. 새로운 당신의 영적 안내자, ${witch.name}입니다. 어떤 고민이 있으신가요?",
+        text: AppLocalizations.of(context)!.chatWitchChanged(witch.name),
         isUser: false,
       ));
     });
@@ -90,28 +102,32 @@ class _ChatScreenState extends State<ChatScreen> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    _buildProfileInfo('나이', '${_selectedWitch.age}세'),
-                    _buildProfileInfo('혈액형', _selectedWitch.bloodType),
+                    _buildProfileInfo(AppLocalizations.of(context)!.chatProfileAge, '${_selectedWitch.age}'),
+                    _buildProfileInfo(AppLocalizations.of(context)!.chatProfileBloodType, _selectedWitch.bloodType),
                   ],
                 ),
                 const SizedBox(height: 16),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    _buildProfileInfo('키', _selectedWitch.height),
-                    _buildProfileInfo('몸무게', _selectedWitch.weight),
+                    _buildProfileInfo(AppLocalizations.of(context)!.chatProfileHeight, _selectedWitch.height),
+                    _buildProfileInfo(AppLocalizations.of(context)!.chatProfileWeight, _selectedWitch.weight),
                   ],
                 ),
                 const SizedBox(height: 24),
-                const Text(
-                  '성장 배경',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.white),
+                Text(
+                  AppLocalizations.of(context)!.chatProfileBackground,
+                  style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.white),
                 ),
                 const SizedBox(height: 8),
-                Text(
-                  _selectedWitch.backgroundStory,
-                  style: const TextStyle(fontSize: 14, color: Colors.white70, height: 1.5),
-                  textAlign: TextAlign.center,
+                Flexible(
+                  child: SingleChildScrollView(
+                    child: Text(
+                      _selectedWitch.backgroundStory,
+                      style: const TextStyle(fontSize: 14, color: Colors.white70, height: 1.5),
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
                 ),
                 const SizedBox(height: 24),
                 SizedBox(
@@ -123,7 +139,7 @@ class _ChatScreenState extends State<ChatScreen> {
                       padding: const EdgeInsets.symmetric(vertical: 12),
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
                     ),
-                    child: const Text('닫기', style: TextStyle(color: Colors.white, fontSize: 16)),
+                    child: Text(AppLocalizations.of(context)!.chatProfileClose, style: const TextStyle(color: Colors.white, fontSize: 16)),
                   ),
                 ),
               ],
@@ -146,6 +162,7 @@ class _ChatScreenState extends State<ChatScreen> {
 
   @override
   void dispose() {
+    _ttsService.stop();
     _textController.dispose();
     _scrollController.dispose();
     super.dispose();
@@ -163,9 +180,53 @@ class _ChatScreenState extends State<ChatScreen> {
     });
   }
 
-  void _sendMessage() {
+  void _sendMessage() async {
     if (_textController.text.trim().isEmpty) return;
     
+    final economy = EconomyService();
+    if (economy.coins < 1) {
+      showDialog(
+        context: context,
+        builder: (ctx) => AlertDialog(
+          backgroundColor: Colors.deepPurple.shade900,
+          title: const Text('코인 부족', style: TextStyle(color: Colors.white)),
+          content: const Text('코인이 부족합니다. 타로 상담에는 코인 1개가 필요합니다.', style: TextStyle(color: Colors.white70)),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(ctx),
+              child: const Text('확인', style: TextStyle(color: Colors.amberAccent)),
+            ),
+          ],
+        ),
+      );
+      return;
+    }
+
+    final confirm = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        backgroundColor: Colors.deepPurple.shade900,
+        title: const Text('타로 상담 진행', style: TextStyle(color: Colors.white)),
+        content: const Text('코인 1개를 소모하여 상담을 진행하시겠습니까?', style: TextStyle(color: Colors.white70)),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, false),
+            child: const Text('취소', style: TextStyle(color: Colors.white54)),
+          ),
+          ElevatedButton(
+            onPressed: () => Navigator.pop(ctx, true),
+            style: ElevatedButton.styleFrom(backgroundColor: Colors.purpleAccent),
+            child: const Text('진행', style: TextStyle(color: Colors.white)),
+          ),
+        ],
+      ),
+    );
+
+    if (confirm != true) return;
+
+    final success = await economy.deductCoin(1);
+    if (!success) return;
+
     final question = _textController.text.trim();
     setState(() {
       _messages.add(ChatMessage(text: question, isUser: true));
@@ -175,7 +236,7 @@ class _ChatScreenState extends State<ChatScreen> {
       
       // AI의 카드 뽑기 안내 메시지
       _messages.add(ChatMessage(
-        text: "당신의 고민을 우주에 전달했습니다. 마음을 담은 타로 카드를 3장 뽑아주세요.",
+        text: AppLocalizations.of(context)!.chatAskPickCards,
         isUser: false,
       ));
     });
@@ -208,7 +269,7 @@ class _ChatScreenState extends State<ChatScreen> {
   void _handleCardsPicked(List<String> cards) async {
     setState(() {
       _messages.add(ChatMessage(
-        text: "카드를 모두 뽑으셨군요. 당신이 뽑은 카드의 기운을 엮어 점괘를 읽어보겠습니다...",
+        text: AppLocalizations.of(context)!.chatReadingCards,
         isUser: false,
       ));
       _isTyping = true;
@@ -216,7 +277,7 @@ class _ChatScreenState extends State<ChatScreen> {
     });
     _scrollToBottom();
 
-    final stream = _aiService.getTarotReadingStream(_currentQuestion, cards, _selectedWitch.personalityPrompt);
+    final stream = _aiService.getTarotReadingStream(_currentQuestion, cards, _selectedWitch.personalityPrompt, Localizations.localeOf(context).languageCode);
     
     await for (final chunk in stream) {
       if (mounted) {
@@ -236,6 +297,21 @@ class _ChatScreenState extends State<ChatScreen> {
         _isTyping = false;
       });
       _scrollToBottom();
+      
+      final cleanText = _messages.last.text.replaceAll(RegExp(r'\*+'), '');
+      _ttsService.speak(_selectedWitch, cleanText, Localizations.localeOf(context).languageCode);
+
+      // 마력의 가루 지급
+      await EconomyService().addMagicDust(10);
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('마력의 가루 +10 획득! ✨', style: TextStyle(fontWeight: FontWeight.bold)),
+            backgroundColor: Colors.purple,
+            duration: Duration(seconds: 3),
+          ),
+        );
+      }
     }
   }
 
@@ -252,7 +328,7 @@ class _ChatScreenState extends State<ChatScreen> {
               padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
             ),
-            child: const Text('타로 카드 뽑기 ✨', style: TextStyle(color: Colors.white, fontSize: 16)),
+            child: Text(AppLocalizations.of(context)!.chatPickCardsButton, style: const TextStyle(color: Colors.white, fontSize: 16)),
           ),
         ),
       );
@@ -270,7 +346,7 @@ class _ChatScreenState extends State<ChatScreen> {
             bottomLeft: !message.isUser ? const Radius.circular(0) : null,
           ),
         ),
-        constraints: BoxConstraints(maxWidth: MediaQuery.of(context).size.width * 0.75),
+        // constraints removed so it can expand to full width of the parent
         child: Text(
           message.text,
           style: const TextStyle(color: Colors.white, fontSize: 15, height: 1.4),
@@ -331,9 +407,9 @@ class _ChatScreenState extends State<ChatScreen> {
                                 ],
                               ),
                               const SizedBox(height: 4),
-                              const Text(
-                                '프로필 사진을 탭하여 상세 정보 보기',
-                                style: TextStyle(fontSize: 11, color: Colors.white54),
+                              Text(
+                                AppLocalizations.of(context)!.chatProfileTapHint,
+                                style: const TextStyle(fontSize: 11, color: Colors.white54),
                               ),
                             ],
                           ),
@@ -361,7 +437,7 @@ class _ChatScreenState extends State<ChatScreen> {
                               _changeWitch(newValue);
                             }
                           },
-                          items: witches.map<DropdownMenuItem<Witch>>((Witch witch) {
+                          items: _witches.map<DropdownMenuItem<Witch>>((Witch witch) {
                             return DropdownMenuItem<Witch>(
                               value: witch,
                               child: Text('${witch.name} - ${witch.title}'),
@@ -410,7 +486,7 @@ class _ChatScreenState extends State<ChatScreen> {
                         maxLines: 4,
                         keyboardType: TextInputType.multiline,
                         decoration: InputDecoration(
-                          hintText: _isWaitingForCards ? '먼저 카드를 뽑아주세요.' : '고민을 적어보세요...',
+                          hintText: _isWaitingForCards ? AppLocalizations.of(context)!.chatHintPickCardsFirst : AppLocalizations.of(context)!.chatHintWriteConcern,
                           hintStyle: const TextStyle(color: Colors.white54),
                           border: InputBorder.none,
                           contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),

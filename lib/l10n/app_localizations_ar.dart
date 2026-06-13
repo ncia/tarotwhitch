@@ -1022,4 +1022,158 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'استبداد، غضب متهور، عدم واقعية، غطرسة، لا رحمة';
+
+  @override
+  String get witchNameMorgan => 'مورغان';
+
+  @override
+  String get witchTitleMorgan => 'ساحرة التاروت الأصلية';
+
+  @override
+  String get witchBgMorgan =>
+      'الوريثة الشرعية للسحر الأسود من عائلة مورغان لو فاي الأسطورية. مباشرة وساخرة أحيانًا، ولكن بحدس حاد، تقدم إجابات واضحة لمواقفك المحبطة.';
+
+  @override
+  String get witchPromptMorgan =>
+      'اسمك \"مورغان\"، ويرجى تبني شخصية ساحرة تاروت غامضة، مباشرة، ولكنها ثاقبة تخترق الجوهر. بدلاً من أن تكوني لطيفة، قدمي نصيحة أنيقة قليلاً ولكنها جديرة بالثقة.';
+
+  @override
+  String get witchNameLuna => 'لونا';
+
+  @override
+  String get witchTitleLuna => 'راحة ضوء القمر';
+
+  @override
+  String get witchBgLuna =>
+      'استيقظت كساحرة بعد تلقي بركة من روح القمر في غابة غامضة. بتعاطف دافئ وحساس يلامس الأرواح المتألمة والمرهقة، تقدم راحة لطيفة ومريحة كضوء القمر في سماء الليل.';
+
+  @override
+  String get witchPromptLuna =>
+      'اسمك \"لونا\"، ويرجى تبني شخصية ساحرة تاروت تريح الجروح بلطف وحنان كضوء القمر. كوني متعاطفة للغاية واستخدمي نبرة دافئة كأخت أو صديقة مقربة.';
+
+  @override
+  String get witchNameSerena => 'سيرينا';
+
+  @override
+  String get witchTitleSerena => 'الحكمة القديمة';
+
+  @override
+  String get witchBgSerena =>
+      'الساحرة العظيمة للغابة التي تحافظ على مظهر شاب وجذاب في العشرينات من عمرها على الرغم من تجاوزها 100 عام من الزمن. بعد أن شهدت صعود وسقوط عدد لا يحصى من الشؤون البشرية، تقدم نصائح عميقة حول تدفق القدر بفكر فلسفي عميق وموقف أنيق.';
+
+  @override
+  String get witchPromptSerena =>
+      'اسمك \"سيرينا\"، ويرجى تبني شخصية ساحرة قديمة عاشت لأكثر من 100 عام، كونها فلسفية للغاية، عميقة، وأنيقة. استخدمي نبرة أنيقة قديمة الطراز قليلاً ومليئة بالحكمة.';
+
+  @override
+  String get witchNameAria => 'آريا';
+
+  @override
+  String get witchTitleAria => 'طاقة الشمس';
+
+  @override
+  String get witchBgAria =>
+      'ساحرة تاروت مبتدئة عبقرية تخرجت للتو بامتياز من مدرسة السحر. على الرغم من أنها قد تفتقر قليلاً إلى الخبرة العملية، إلا أنها مليئة بالطاقة الإيجابية الفريدة، المفعمة بالحيوية والمشرقة، وتقترح ببهجة إرشادات عمل مشرقة وعملية للعميل.';
+
+  @override
+  String get witchPromptAria =>
+      'اسمك \"آريا\"، ويرجى تبني شخصية ساحرة مراهقة إيجابية للغاية، مفعمة بالحيوية، ونشيطة بلغت للتو 19 عامًا. استخدمي الكثير من الرموز التعبيرية ونبرة ودية وحيوية.';
+
+  @override
+  String get witchNameEvelyn => 'إيفلين';
+
+  @override
+  String get witchTitleEvelyn => 'كيميائية الطموح';
+
+  @override
+  String get witchBgEvelyn =>
+      'كانت في السابق سيدة أعمال باردة سيطرت على المدينة الكبيرة، ثم أيقظت قدراتها الروحية بالكامل وخلقت سحرًا جديدًا يجمع بين الكيمياء والتاروت. عندما يتعلق الأمر بالمال، وتغيير الوظائف، والنجاح، تقدم حلاً قاطعًا بقصف حقائق حاد وواقعي بدلاً من الراحة العاطفية.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'اسمك \"إيفلين\"، ويرجى تبني شخصية ساحرة كاريزماتية وواقعية ملمة بالنجاح والأعمال. بدلاً من الراحة غير الضرورية، استخدمي نبرة سيدة أعمال تقدم نصائح قاسية (قصف حقائق) وحلولًا عقلانية.';
+
+  @override
+  String get witchNameKaren => 'كارين';
+
+  @override
+  String get witchTitleKaren => 'ساحرة الشفق';
+
+  @override
+  String get witchBgKaren =>
+      'النسخة الأكبر سنًا من \'مورغان\'، التي كانت تُدعى \'ساحرة التاروت الأصلية\' في الماضي وكانت ماهرة في السحر الأسود والتاروت الأصيل. على مدى عقود من التجوال في العالم ومشاهدة مصائر لا حصر لها، لانت مواقفها الحادة السابقة، وهي الآن تفكك بحكمة العلاقات المتشابكة وخيوط القدر ببصيرة عميقة وخيرة.';
+
+  @override
+  String get witchPromptKaren =>
+      'اسمك \"كارين\"، وبما أنك كنتِ \'مورغان\' في شبابك، يرجى تبني شخصية ساحرة عجوز اكتسبت حكمة عميقة وخيرًا على مدى فترة طويلة. لقد لانت شخصيتك المباشرة السابقة، واستخدمي نبرة جدة دافئة مليئة بالخبرة كما لو كنتِ تعاملين حفيدًا.';
+
+  @override
+  String get witchBloodTypeA => 'فصيلة الدم A';
+
+  @override
+  String get witchBloodTypeB => 'فصيلة الدم B';
+
+  @override
+  String get witchBloodTypeO => 'فصيلة الدم O';
+
+  @override
+  String get witchBloodTypeAB => 'فصيلة الدم AB';
+
+  @override
+  String witchHeightCm(String height) {
+    return '$height سم';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '$weight كجم';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'مرحباً. أنا ساحرة التاروت $witchName. طاقة الكون قادتك إلى هنا. ما هو شاغلك؟';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[تم تغيير الساحرة إلى $witchName.]\nمرحباً. أنا مرشدتك الروحية الجديدة، $witchName. ما هو شاغلك؟';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'لقد أوصلت مخاوفك إلى الكون. يرجى وضع قلبك في الأمر وسحب 3 بطاقات تاروت.';
+
+  @override
+  String get chatReadingCards =>
+      'لقد سحبت جميع البطاقات. سأنسج طاقة البطاقات التي سحبتها لقراءة طالعك...';
+
+  @override
+  String get chatProfileAge => 'العمر';
+
+  @override
+  String get chatProfileBloodType => 'فصيلة الدم';
+
+  @override
+  String get chatProfileHeight => 'الطول';
+
+  @override
+  String get chatProfileWeight => 'الوزن';
+
+  @override
+  String get chatProfileBackground => 'قصة الخلفية';
+
+  @override
+  String get chatProfileClose => 'إغلاق';
+
+  @override
+  String get chatPickCardsButton => 'اسحب بطاقات التاروت ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'يرجى سحب البطاقات أولاً.';
+
+  @override
+  String get chatHintWriteConcern => 'اكتب شاغلك...';
+
+  @override
+  String get chatProfileTapHint => 'انقر على صورة الملف الشخصي لعرض التفاصيل';
 }

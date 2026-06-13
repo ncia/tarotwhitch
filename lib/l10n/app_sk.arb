@@ -251,5 +251,77 @@
   "card_reversed_wands_13": "Sebectvo, exhibicionizmus, žiarlivosť, vrtošivosť, agresivita",
   "card_name_wands_14": "Kráľ palíc (King of Wands)",
   "card_upright_wands_14": "Charizmatické vodcovstvo, vízia, inšpirácia, odvaha, podnikateľ",
-  "card_reversed_wands_14": "Diktatúra, impulzívny hnev, nereálnosť, arogancia, bezohľadnosť"
+  "card_reversed_wands_14": "Diktatúra, impulzívny hnev, nereálnosť, arogancia, bezohľadnosť",
+  "witchNameMorgan": "Morgan",
+  "witchTitleMorgan": "Pôvodná tarotová čarodejnica",
+  "witchBgMorgan": "Legitímna nástupkyňa temnej mágie po legendárnej rodine Morgan le Fay. Priama a niekedy cynická, no s ostrým vhľadom, poskytuje jasné odpovede na vaše frustrujúce situácie.",
+  "witchPromptMorgan": "Vaše meno je „Morgan“ a prosím, osvojte si osobnosť tajomnej, priamej, no bystrej tarotovej čarodejnice, ktorá preniká k podstate. Namiesto láskavosti dávajte rady, ktoré sú mierne šik, no dôveryhodné.",
+  "witchNameLuna": "Luna",
+  "witchTitleLuna": "Útecha mesačného svitu",
+  "witchBgLuna": "Prebudila sa ako čarodejnica po prijatí požehnania od mesačného ducha v tajomnom lese. S teplou a jemnou empatiou, ktorá sa dotýka zranených a vyčerpaných duší, prináša jemnú a útulnú útechu ako mesačný svit na nočnej oblohe.",
+  "witchPromptLuna": "Vaše meno je „Luna“ a prosím, osvojte si osobnosť tarotovej čarodejnice, ktorá jemne a láskavo utešuje rany ako mesačný svit. Buďte veľmi empatická a používajte teplý tón ako blízka sestra alebo priateľka.",
+  "witchNameSerena": "Serena",
+  "witchTitleSerena": "Starodávna múdrosť",
+  "witchBgSerena": "Veľká lesná čarodejnica, ktorá si udržiava mladistvý a lákavý vzhľad vo svojich 20 rokoch napriek tomu, že prekonala 100 rokov času. Bola svedkom vzostupu a pádu nespočetných ľudských záležitostí a ponúka hlboké rady o toku osudu s hlbokým filozofickým myslením a elegantným postojom.",
+  "witchPromptSerena": "Vaše meno je „Serena“ a prosím, osvojte si osobnosť starodávnej čarodejnice, ktorá žila viac ako 100 rokov, je veľmi filozofická, hlboká a elegantná. Používajte elegantný tón, ktorý je mierne staromódny a plný múdrosti.",
+  "witchNameAria": "Aria",
+  "witchTitleAria": "Slnečná energia",
+  "witchBgAria": "Geniálna nováčikovská tarotová čarodejnica, ktorá práve s vyznamenaním ukončila štúdium na magickej škole. Hoci jej možno chýba trochu praktických skúseností, je plná jedinečnej, bublinkovej a jasnej pozitívnej energie, veselo navrhujúc klientovi jasné a praktické akčné usmernenia.",
+  "witchPromptAria": "Vaše meno je „Aria“ a prosím, osvojte si osobnosť veľmi pozitívnej, bublinkovej a energickej tínedžerskej čarodejnice, ktorá práve dovŕšila 19 rokov. Používajte veľa emotikonov a priateľský, živý tón.",
+  "witchNameEvelyn": "Evelyn",
+  "witchTitleEvelyn": "Alchymistka ambícií",
+  "witchBgEvelyn": "Kedysi chladná podnikateľka, ktorá dominovala veľkému mestu, plne prebudila svoje duchovné schopnosti a vytvorila novú mágiu kombinujúcu alchýmiu a tarot. Pokiaľ ide o peniaze, zmeny zamestnania a úspech, poskytuje definitívne riešenie s ostrým a realistickým „bombardovaním faktami“ namiesto emocionálnej útechy.",
+  "witchPromptEvelyn": "Vaše meno je „Evelyn“ a prosím, osvojte si osobnosť charizmatickej a realistickej čarodejnice, ktorá sa dobre vyzná v úspechu a podnikaní. Namiesto zbytočnej útechy používajte tón kariérnej ženy, ktorá ponúka mrazivé rady (bombardovanie faktami) a racionálne riešenia.",
+  "witchNameKaren": "Karen",
+  "witchTitleKaren": "Čarodejnica súmraku",
+  "witchBgKaren": "Staršia verzia „Morgan“, ktorá bola v minulosti nazývaná „Pôvodná tarotová čarodejnica“ a bola zručná v temnej mágii a autentickom tarote. Po desaťročiach putovania svetom a sledovania nespočetných osudov sa jej kedysi ostrý postoj zjemnil a teraz múdro rozplieta prepletené vzťahy a nite osudu s hlbokým a benevolentným vhľadom.",
+  "witchPromptKaren": "Vaše meno je „Karen“ a keďže ste boli v mladosti „Morgan“, prosím, osvojte si osobnosť starej čarodejnice, ktorá si za dlhý čas získala hlbokú múdrosť a dobrotu. Vaša predtým priama osobnosť sa zaokrúhlila a používajte teplý babičkovský tón plný skúseností, akoby ste sa starali o vnúča.",
+  "witchBloodTypeA": "Typ A",
+  "witchBloodTypeB": "Typ B",
+  "witchBloodTypeO": "Typ O",
+  "witchBloodTypeAB": "Typ AB",
+  "witchHeightCm": "{height}cm",
+  "witchWeightKg": "{weight}kg",
+  "chatWitchGreeting": "Dobrý deň. Som tarotová čarodejnica {witchName}. Energia vesmíru vás sem priviedla. Aké sú vaše obavy?",
+  "chatWitchChanged": "[Čarodejnica zmenená na {witchName}.]\nDobrý deň. Som váš nový duchovný sprievodca, {witchName}. Aké sú vaše obavy?",
+  "chatAskPickCards": "Vaše obavy som odovzdala vesmíru. Prosím, vložte do toho svoje srdce a vytiahnite 3 tarotové karty.",
+  "chatReadingCards": "Vytiahli ste všetky karty. Prečítam vám osud spojením energie kariet, ktoré ste vytiahli...",
+  "chatProfileAge": "Vek",
+  "chatProfileBloodType": "Krvná skupina",
+  "chatProfileHeight": "Výška",
+  "chatProfileWeight": "Váha",
+  "chatProfileBackground": "Príbeh na pozadí",
+  "chatProfileClose": "Zavrieť",
+  "chatPickCardsButton": "Vytiahnuť tarotové karty ✨",
+  "chatHintPickCardsFirst": "Najprv prosím vytiahnite karty.",
+  "chatHintWriteConcern": "Napíšte svoju obavu...",
+  "chatProfileTapHint": "Ťuknite na profilový obrázok pre zobrazenie detailov",
+  "@witchHeightCm": {
+    "placeholders": {
+      "height": {
+        "type": "String"
+      }
+    }
+  },
+  "@witchWeightKg": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchGreeting": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchChanged": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  }
 }

@@ -13,6 +13,7 @@ import 'card_detail_screen.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:flutter_tarot/l10n/tarot_localizations.dart';
 import '../services/audio_service.dart';
+import '../services/economy_service.dart';
 import 'diary_edit_screen.dart';
 
 enum ReadingState { intro, picking, result }
@@ -48,6 +49,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
   late List<TarotCardData> _shuffledDeck;
   late List<bool> _shuffledReversed;
   late String _currentBackgroundImage;
+  bool _isInit = false;
 
   @override
   void initState() {
@@ -73,12 +75,18 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
     
     _lightningAnimController.repeat(reverse: true);
     
-    // 전체 덱 셔플 및 정/역방향 셔플
     _shuffledDeck = List.from(tarotDeck)..shuffle();
     _shuffledReversed = List.generate(78, (_) => math.Random().nextBool());
-    
-    final allowedWitches = witches.where((w) => w.id == 'morgan' || w.id == 'karen').toList();
-    _currentBackgroundImage = allowedWitches[math.Random().nextInt(allowedWitches.length)].imagePath;
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (!_isInit) {
+      final allowedWitches = getLocalizedWitches(context).where((w) => w.id == 'morgan' || w.id == 'karen').toList();
+      _currentBackgroundImage = allowedWitches[math.Random().nextInt(allowedWitches.length)].imagePath;
+      _isInit = true;
+    }
   }
 
   @override
@@ -88,7 +96,53 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
     super.dispose();
   }
 
-  void _startPicking() {
+  void _startPicking() async {
+    if (!widget.isForChat) {
+      final economy = EconomyService();
+      if (economy.coins < 1) {
+        showDialog(
+          context: context,
+          builder: (ctx) => AlertDialog(
+            backgroundColor: Colors.deepPurple.shade900,
+            title: const Text('코인 부족', style: TextStyle(color: Colors.white)),
+            content: const Text('코인이 부족합니다. 타로 리딩에는 코인 1개가 필요합니다.', style: TextStyle(color: Colors.white70)),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(ctx),
+                child: const Text('확인', style: TextStyle(color: Colors.amberAccent)),
+              ),
+            ],
+          ),
+        );
+        return;
+      }
+
+      final confirm = await showDialog<bool>(
+        context: context,
+        builder: (ctx) => AlertDialog(
+          backgroundColor: Colors.deepPurple.shade900,
+          title: const Text('타로 리딩 진행', style: TextStyle(color: Colors.white)),
+          content: const Text('코인 1개를 소모하여 리딩을 진행하시겠습니까?', style: TextStyle(color: Colors.white70)),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(ctx, false),
+              child: const Text('취소', style: TextStyle(color: Colors.white54)),
+            ),
+            ElevatedButton(
+              onPressed: () => Navigator.pop(ctx, true),
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.purpleAccent),
+              child: const Text('진행', style: TextStyle(color: Colors.white)),
+            ),
+          ],
+        ),
+      );
+
+      if (confirm != true) return;
+
+      final success = await economy.deductCoin(1);
+      if (!success) return;
+    }
+
     AudioService().playThunderSound();
     setState(() {
       _currentState = ReadingState.picking;
@@ -112,12 +166,25 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
             _showLightning = true;
           });
           
-          Future.delayed(const Duration(seconds: 3), () {
+          Future.delayed(const Duration(seconds: 3), () async {
             if (mounted) {
               setState(() {
                 _showLightning = false;
                 _currentState = ReadingState.result;
               });
+              
+              if (!widget.isForChat) {
+                await EconomyService().addMagicDust(10);
+                if (mounted) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text('마력의 가루 +10 획득! ✨', style: TextStyle(fontWeight: FontWeight.bold)),
+                      backgroundColor: Colors.purple,
+                      duration: Duration(seconds: 3),
+                    ),
+                  );
+                }
+              }
             }
           });
         }

@@ -251,5 +251,77 @@
   "card_reversed_wands_13": "Keegoisan, keinginan menunjuk-nunjuk, cemburu, berubah-ubah, pencerobohan",
   "card_name_wands_14": "King of Tongkat (King of Wands)",
   "card_upright_wands_14": "Kepimpinan berkarisma, visi, inspirasi, keberanian, usahawan",
-  "card_reversed_wands_14": "Kediktatoran, kemarahan impulsif, ketidakrealistikan, keangkuhan, tidak berhati perut"
+  "card_reversed_wands_14": "Kediktatoran, kemarahan impulsif, ketidakrealistikan, keangkuhan, tidak berhati perut",
+  "witchNameMorgan": "Morgan",
+  "witchTitleMorgan": "Ahli Sihir Tarot Asli",
+  "witchBgMorgan": "Pewaris sah sihir gelap yang mengikuti keluarga legenda Morgan le Fay. Langsung dan kadang-kadang sinis, tetapi dengan pandangan tajam, dia memberikan jawapan yang jelas kepada situasi anda yang mengecewakan.",
+  "witchPromptMorgan": "Nama anda ialah \"Morgan\", dan sila ambil persona ahli sihir tarot yang misteri, langsung, namun berwawasan yang menembusi intipati. Daripada bersikap baik hati, berikan nasihat yang sedikit bergaya namun boleh dipercayai.",
+  "witchNameLuna": "Luna",
+  "witchTitleLuna": "Kenyamanan Cahaya Bulan",
+  "witchBgLuna": "Bangkit sebagai ahli sihir setelah menerima berkat daripada roh bulan di hutan misteri. Dengan empati yang hangat dan halus yang menyentuh jiwa yang terluka dan letih, dia memberikan keselesaan yang lembut dan nyaman seperti cahaya bulan di langit malam.",
+  "witchPromptLuna": "Nama anda ialah \"Luna\", dan sila ambil persona ahli sihir tarot yang dengan lembut dan penuh kasih sayang menenangkan luka seperti cahaya bulan. Jadilah sangat empati dan gunakan nada yang hangat seperti kakak atau sahabat karib.",
+  "witchNameSerena": "Serena",
+  "witchTitleSerena": "Kebijaksanaan Purba",
+  "witchBgSerena": "Ahli sihir agung hutan yang mengekalkan penampilan muda dan menawan pada usia 20-an walaupun telah melangkaui 100 tahun masa. Setelah menyaksikan naik turunnya urusan manusia yang tidak terkira, dia menawarkan nasihat mendalam tentang aliran takdir dengan pemikiran falsafah yang mendalam dan sikap yang elegan.",
+  "witchPromptSerena": "Nama anda ialah \"Serena\", dan sila ambil persona ahli sihir purba yang telah hidup lebih dari 100 tahun, menjadi sangat falsafah, mendalam, dan elegan. Gunakan nada elegan yang sedikit kuno dan penuh kebijaksanaan.",
+  "witchNameAria": "Aria",
+  "witchTitleAria": "Tenaga Cahaya Matahari",
+  "witchBgAria": "Seorang ahli sihir tarot rookie genius yang baru sahaja lulus dengan cemerlang dari sekolah sihir. Walaupun dia mungkin kurang sedikit pengalaman praktikal, dia penuh dengan tenaga positif yang unik, ceria, dan terang, dengan gembira mencadangkan garis panduan tindakan yang cerah dan praktikal kepada pelanggan.",
+  "witchPromptAria": "Nama anda ialah \"Aria\", dan sila ambil persona ahli sihir remaja yang sangat positif, ceria, dan bertenaga yang baru berusia 19 tahun. Gunakan banyak emoji dan nada yang mesra, bersemangat.",
+  "witchNameEvelyn": "Evelyn",
+  "witchTitleEvelyn": "Ahli Alkimia Ambisi",
+  "witchBgEvelyn": "Pernah menjadi ahli perniagaan yang dingin yang mendominasi bandar besar, dia sepenuhnya membangkitkan kebolehan spiritualnya dan mencipta sihir baru yang menggabungkan alkimia dan tarot. Apabila berkaitan dengan wang, perubahan pekerjaan, dan kejayaan, dia memberikan penyelesaian yang pasti dengan pengeboman fakta yang tajam dan realistik daripada keselesaan emosi.",
+  "witchPromptEvelyn": "Nama anda ialah \"Evelyn\", dan sila ambil persona ahli sihir yang berkarisma dan realistik yang mahir dalam kejayaan dan perniagaan. Daripada keselesaan yang tidak perlu, gunakan nada seperti wanita kerjaya yang menawarkan nasihat yang menusuk tulang (pengeboman fakta) dan penyelesaian rasional.",
+  "witchNameKaren": "Karen",
+  "witchTitleKaren": "Ahli Sihir Senja",
+  "witchBgKaren": "Versi lebih tua 'Morgan', yang dipanggil 'Ahli Sihir Tarot Asli' pada masa lalu dan mahir dalam sihir gelap dan tarot asli. Selama berdekad-dekad mengembara dunia dan memerhati nasib yang tidak terkira, sikap tajamnya yang lalu telah melembut, dan dia kini dengan bijak merungkai hubungan yang terjalin dan benang-benang takdir dengan pandangan yang mendalam dan baik hati.",
+  "witchPromptKaren": "Nama anda ialah \"Karen\", dan setelah menjadi 'Morgan' di masa muda anda, sila ambil persona ahli sihir tua yang telah memperoleh kebijaksanaan dan kebaikan hati yang mendalam sepanjang masa. Personaliti anda yang sebelumnya langsung telah melembut, dan gunakan nada nenek yang hangat penuh pengalaman seolah-olah melayan cucu.",
+  "witchBloodTypeA": "Jenis A",
+  "witchBloodTypeB": "Jenis B",
+  "witchBloodTypeO": "Jenis O",
+  "witchBloodTypeAB": "Jenis AB",
+  "witchHeightCm": "{height}cm",
+  "witchWeightKg": "{weight}kg",
+  "chatWitchGreeting": "Helo. Saya Ahli Sihir Tarot {witchName}. Tenaga alam semesta telah membimbing anda ke sini. Apakah kebimbangan anda?",
+  "chatWitchChanged": "[Ahli sihir bertukar kepada {witchName}.]\nHelo. Saya adalah pembimbing rohani baharu anda, {witchName}. Apakah kebimbangan anda?",
+  "chatAskPickCards": "Saya telah menyampaikan kebimbangan anda kepada alam semesta. Sila tumpukan hati anda dan cabut 3 kad tarot.",
+  "chatReadingCards": "Anda telah mencabut semua kad. Saya akan menganyam tenaga kad yang anda cabut untuk membaca nasib anda...",
+  "chatProfileAge": "Umur",
+  "chatProfileBloodType": "Jenis Darah",
+  "chatProfileHeight": "Ketinggian",
+  "chatProfileWeight": "Berat",
+  "chatProfileBackground": "Kisah Latar Belakang",
+  "chatProfileClose": "Tutup",
+  "chatPickCardsButton": "Cabut Kad Tarot ✨",
+  "chatHintPickCardsFirst": "Sila cabut kad dahulu.",
+  "chatHintWriteConcern": "Tulis kebimbangan anda...",
+  "chatProfileTapHint": "Ketik gambar profil untuk melihat butiran",
+  "@witchHeightCm": {
+    "placeholders": {
+      "height": {
+        "type": "String"
+      }
+    }
+  },
+  "@witchWeightKg": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchGreeting": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchChanged": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  }
 }

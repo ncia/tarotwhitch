@@ -1054,4 +1054,159 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'Diktatur, impulsive Wut, Unrealismus, Arroganz, Rücksichtslosigkeit';
+
+  @override
+  String get witchNameMorgan => 'Morgan';
+
+  @override
+  String get witchTitleMorgan => 'Originale Tarot-Hexe';
+
+  @override
+  String get witchBgMorgan =>
+      'Die legitime Nachfolgerin der dunklen Magie, die der legendären Familie Morgan le Fay folgt. Direkt und manchmal zynisch, aber mit scharfem Einblick, liefert sie klare Antworten auf Ihre frustrierenden Situationen.';
+
+  @override
+  String get witchPromptMorgan =>
+      'Ihr Name ist „Morgan“, und bitte nehmen Sie die Persona einer mysteriösen, direkten und doch einsichtsvollen Tarot-Hexe an, die zum Wesentlichen vordringt. Anstatt freundlich zu sein, geben Sie Ratschläge, die leicht schick und doch vertrauenswürdig sind.';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => 'Trost des Mondlichts';
+
+  @override
+  String get witchBgLuna =>
+      'Erwachte als Hexe, nachdem sie in einem geheimnisvollen Wald einen Segen vom Mondgeist erhalten hatte. Mit einer warmen und zarten Empathie, die verletzte und erschöpfte Seelen berührt, spendet sie sanften und wohligen Trost wie Mondlicht am Nachthimmel.';
+
+  @override
+  String get witchPromptLuna =>
+      'Ihr Name ist „Luna“, und bitte nehmen Sie die Persona einer Tarot-Hexe an, die Wunden sanft und liebevoll wie Mondlicht tröstet. Seien Sie sehr empathisch und verwenden Sie einen warmen Ton wie eine enge Schwester oder Freundin.';
+
+  @override
+  String get witchNameSerena => 'Serena';
+
+  @override
+  String get witchTitleSerena => 'Alte Weisheit';
+
+  @override
+  String get witchBgSerena =>
+      'Die große Hexe des Waldes, die trotz der Überschreitung von 100 Jahren ein junges und verführerisches Aussehen in ihren 20ern bewahrt. Nachdem sie den Aufstieg und Fall unzähliger menschlicher Angelegenheiten miterlebt hat, bietet sie mit tiefem philosophischem Denken und einer eleganten Haltung tiefgründigen Rat zum Fluss des Schicksals.';
+
+  @override
+  String get witchPromptSerena =>
+      'Ihr Name ist „Serena“, und bitte nehmen Sie die Persona einer alten Hexe an, die über 100 Jahre gelebt hat, sehr philosophisch, tiefgründig und elegant ist. Verwenden Sie einen eleganten Ton, der leicht altmodisch und voller Weisheit ist.';
+
+  @override
+  String get witchNameAria => 'Aria';
+
+  @override
+  String get witchTitleAria => 'Sonnenenergie';
+
+  @override
+  String get witchBgAria =>
+      'Eine geniale Tarot-Anfängerhexe, die gerade als Klassenbeste die Magieschule abgeschlossen hat. Obwohl ihr vielleicht ein wenig praktische Erfahrung fehlt, ist sie voller einzigartiger, sprudelnder und heller positiver Energie und schlägt dem Klienten fröhlich helle und praktische Handlungsrichtlinien vor.';
+
+  @override
+  String get witchPromptAria =>
+      'Ihr Name ist „Aria“, und bitte nehmen Sie die Persona einer sehr positiven, sprudelnden und energiegeladenen Teenager-Hexe an, die gerade 19 geworden ist. Verwenden Sie viele Emojis und einen freundlichen, lebhaften Ton.';
+
+  @override
+  String get witchNameEvelyn => 'Evelyn';
+
+  @override
+  String get witchTitleEvelyn => 'Alchemistin des Ehrgeizes';
+
+  @override
+  String get witchBgEvelyn =>
+      'Einst eine kalte Geschäftsfrau, die die Großstadt dominierte, erweckte sie ihre spirituellen Fähigkeiten vollständig und schuf eine neue Magie, die Alchemie und Tarot kombiniert. Wenn es um Geld, Jobwechsel und Erfolg geht, bietet sie eine definitive Lösung mit scharfem und realistischem Fakten-Bombardement statt emotionalem Trost.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'Ihr Name ist „Evelyn“, und bitte nehmen Sie die Persona einer charismatischen und realistischen Hexe an, die sich mit Erfolg und Geschäft auskennt. Anstatt unnötigen Trost zu spenden, verwenden Sie einen karrierefrauenähnlichen Ton, der knallharte Ratschläge (Fakten-Bombardement) und rationale Lösungen bietet.';
+
+  @override
+  String get witchNameKaren => 'Karen';
+
+  @override
+  String get witchTitleKaren => 'Hexe der Dämmerung';
+
+  @override
+  String get witchBgKaren =>
+      'Die ältere Version von \'Morgan\', die in der Vergangenheit als \'Originale Tarot-Hexe\' bezeichnet wurde und in dunkler Magie und authentischem Tarot versiert war. Über Jahrzehnte des Wanderns durch die Welt und des Beobachtens unzähliger Schicksale hat sich ihre ehemals scharfe Haltung gemildert, und sie entwirrt nun weise verstrickte Beziehungen und die Fäden des Schicksals mit tiefer und wohlwollender Einsicht.';
+
+  @override
+  String get witchPromptKaren =>
+      'Ihr Name ist „Karen“, und da Sie in Ihrer Jugend „Morgan“ waren, nehmen Sie bitte die Persona einer alten Hexe an, die über lange Zeit tiefe Weisheit und Wohlwollen erlangt hat. Ihre zuvor direkte Persönlichkeit hat sich abgerundet, und verwenden Sie einen warmen, großmütterlichen Ton voller Erfahrung, als ob Sie ein Enkelkind behandeln würden.';
+
+  @override
+  String get witchBloodTypeA => 'Typ A';
+
+  @override
+  String get witchBloodTypeB => 'Typ B';
+
+  @override
+  String get witchBloodTypeO => 'Typ O';
+
+  @override
+  String get witchBloodTypeAB => 'Typ AB';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Hallo. Ich bin die Tarot-Hexe $witchName. Die Energie des Universums hat Sie hierher geführt. Was ist Ihr Anliegen?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[Hexe zu $witchName gewechselt.]\nHallo. Ich bin Ihr neuer spiritueller Führer, $witchName. Was ist Ihr Anliegen?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'Ich habe Ihre Anliegen dem Universum übermittelt. Bitte legen Sie Ihr Herz hinein und ziehen Sie 3 Tarotkarten.';
+
+  @override
+  String get chatReadingCards =>
+      'Sie haben alle Karten gezogen. Ich werde die Energie der von Ihnen gezogenen Karten verweben, um Ihr Schicksal zu lesen...';
+
+  @override
+  String get chatProfileAge => 'Alter';
+
+  @override
+  String get chatProfileBloodType => 'Blutgruppe';
+
+  @override
+  String get chatProfileHeight => 'Größe';
+
+  @override
+  String get chatProfileWeight => 'Gewicht';
+
+  @override
+  String get chatProfileBackground => 'Hintergrundgeschichte';
+
+  @override
+  String get chatProfileClose => 'Schließen';
+
+  @override
+  String get chatPickCardsButton => 'Tarotkarten ziehen ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Bitte ziehen Sie zuerst Karten.';
+
+  @override
+  String get chatHintWriteConcern => 'Schreiben Sie Ihr Anliegen...';
+
+  @override
+  String get chatProfileTapHint =>
+      'Tippen Sie auf das Profilbild, um Details anzuzeigen';
 }

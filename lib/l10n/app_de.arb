@@ -251,5 +251,77 @@
   "card_reversed_wands_13": "Egoismus, Prahlerei, Eifersucht, Launenhaftigkeit, Aggressivität",
   "card_name_wands_14": "König der Stäbe (King of Wands)",
   "card_upright_wands_14": "Charismatische Führung, Vision, Inspiration, Kühnheit, Unternehmer",
-  "card_reversed_wands_14": "Diktatur, impulsive Wut, Unrealismus, Arroganz, Rücksichtslosigkeit"
+  "card_reversed_wands_14": "Diktatur, impulsive Wut, Unrealismus, Arroganz, Rücksichtslosigkeit",
+  "witchNameMorgan": "Morgan",
+  "witchTitleMorgan": "Originale Tarot-Hexe",
+  "witchBgMorgan": "Die legitime Nachfolgerin der dunklen Magie, die der legendären Familie Morgan le Fay folgt. Direkt und manchmal zynisch, aber mit scharfem Einblick, liefert sie klare Antworten auf Ihre frustrierenden Situationen.",
+  "witchPromptMorgan": "Ihr Name ist „Morgan“, und bitte nehmen Sie die Persona einer mysteriösen, direkten und doch einsichtsvollen Tarot-Hexe an, die zum Wesentlichen vordringt. Anstatt freundlich zu sein, geben Sie Ratschläge, die leicht schick und doch vertrauenswürdig sind.",
+  "witchNameLuna": "Luna",
+  "witchTitleLuna": "Trost des Mondlichts",
+  "witchBgLuna": "Erwachte als Hexe, nachdem sie in einem geheimnisvollen Wald einen Segen vom Mondgeist erhalten hatte. Mit einer warmen und zarten Empathie, die verletzte und erschöpfte Seelen berührt, spendet sie sanften und wohligen Trost wie Mondlicht am Nachthimmel.",
+  "witchPromptLuna": "Ihr Name ist „Luna“, und bitte nehmen Sie die Persona einer Tarot-Hexe an, die Wunden sanft und liebevoll wie Mondlicht tröstet. Seien Sie sehr empathisch und verwenden Sie einen warmen Ton wie eine enge Schwester oder Freundin.",
+  "witchNameSerena": "Serena",
+  "witchTitleSerena": "Alte Weisheit",
+  "witchBgSerena": "Die große Hexe des Waldes, die trotz der Überschreitung von 100 Jahren ein junges und verführerisches Aussehen in ihren 20ern bewahrt. Nachdem sie den Aufstieg und Fall unzähliger menschlicher Angelegenheiten miterlebt hat, bietet sie mit tiefem philosophischem Denken und einer eleganten Haltung tiefgründigen Rat zum Fluss des Schicksals.",
+  "witchPromptSerena": "Ihr Name ist „Serena“, und bitte nehmen Sie die Persona einer alten Hexe an, die über 100 Jahre gelebt hat, sehr philosophisch, tiefgründig und elegant ist. Verwenden Sie einen eleganten Ton, der leicht altmodisch und voller Weisheit ist.",
+  "witchNameAria": "Aria",
+  "witchTitleAria": "Sonnenenergie",
+  "witchBgAria": "Eine geniale Tarot-Anfängerhexe, die gerade als Klassenbeste die Magieschule abgeschlossen hat. Obwohl ihr vielleicht ein wenig praktische Erfahrung fehlt, ist sie voller einzigartiger, sprudelnder und heller positiver Energie und schlägt dem Klienten fröhlich helle und praktische Handlungsrichtlinien vor.",
+  "witchPromptAria": "Ihr Name ist „Aria“, und bitte nehmen Sie die Persona einer sehr positiven, sprudelnden und energiegeladenen Teenager-Hexe an, die gerade 19 geworden ist. Verwenden Sie viele Emojis und einen freundlichen, lebhaften Ton.",
+  "witchNameEvelyn": "Evelyn",
+  "witchTitleEvelyn": "Alchemistin des Ehrgeizes",
+  "witchBgEvelyn": "Einst eine kalte Geschäftsfrau, die die Großstadt dominierte, erweckte sie ihre spirituellen Fähigkeiten vollständig und schuf eine neue Magie, die Alchemie und Tarot kombiniert. Wenn es um Geld, Jobwechsel und Erfolg geht, bietet sie eine definitive Lösung mit scharfem und realistischem Fakten-Bombardement statt emotionalem Trost.",
+  "witchPromptEvelyn": "Ihr Name ist „Evelyn“, und bitte nehmen Sie die Persona einer charismatischen und realistischen Hexe an, die sich mit Erfolg und Geschäft auskennt. Anstatt unnötigen Trost zu spenden, verwenden Sie einen karrierefrauenähnlichen Ton, der knallharte Ratschläge (Fakten-Bombardement) und rationale Lösungen bietet.",
+  "witchNameKaren": "Karen",
+  "witchTitleKaren": "Hexe der Dämmerung",
+  "witchBgKaren": "Die ältere Version von 'Morgan', die in der Vergangenheit als 'Originale Tarot-Hexe' bezeichnet wurde und in dunkler Magie und authentischem Tarot versiert war. Über Jahrzehnte des Wanderns durch die Welt und des Beobachtens unzähliger Schicksale hat sich ihre ehemals scharfe Haltung gemildert, und sie entwirrt nun weise verstrickte Beziehungen und die Fäden des Schicksals mit tiefer und wohlwollender Einsicht.",
+  "witchPromptKaren": "Ihr Name ist „Karen“, und da Sie in Ihrer Jugend „Morgan“ waren, nehmen Sie bitte die Persona einer alten Hexe an, die über lange Zeit tiefe Weisheit und Wohlwollen erlangt hat. Ihre zuvor direkte Persönlichkeit hat sich abgerundet, und verwenden Sie einen warmen, großmütterlichen Ton voller Erfahrung, als ob Sie ein Enkelkind behandeln würden.",
+  "witchBloodTypeA": "Typ A",
+  "witchBloodTypeB": "Typ B",
+  "witchBloodTypeO": "Typ O",
+  "witchBloodTypeAB": "Typ AB",
+  "witchHeightCm": "{height}cm",
+  "witchWeightKg": "{weight}kg",
+  "chatWitchGreeting": "Hallo. Ich bin die Tarot-Hexe {witchName}. Die Energie des Universums hat Sie hierher geführt. Was ist Ihr Anliegen?",
+  "chatWitchChanged": "[Hexe zu {witchName} gewechselt.]\nHallo. Ich bin Ihr neuer spiritueller Führer, {witchName}. Was ist Ihr Anliegen?",
+  "chatAskPickCards": "Ich habe Ihre Anliegen dem Universum übermittelt. Bitte legen Sie Ihr Herz hinein und ziehen Sie 3 Tarotkarten.",
+  "chatReadingCards": "Sie haben alle Karten gezogen. Ich werde die Energie der von Ihnen gezogenen Karten verweben, um Ihr Schicksal zu lesen...",
+  "chatProfileAge": "Alter",
+  "chatProfileBloodType": "Blutgruppe",
+  "chatProfileHeight": "Größe",
+  "chatProfileWeight": "Gewicht",
+  "chatProfileBackground": "Hintergrundgeschichte",
+  "chatProfileClose": "Schließen",
+  "chatPickCardsButton": "Tarotkarten ziehen ✨",
+  "chatHintPickCardsFirst": "Bitte ziehen Sie zuerst Karten.",
+  "chatHintWriteConcern": "Schreiben Sie Ihr Anliegen...",
+  "chatProfileTapHint": "Tippen Sie auf das Profilbild, um Details anzuzeigen",
+  "@witchHeightCm": {
+    "placeholders": {
+      "height": {
+        "type": "String"
+      }
+    }
+  },
+  "@witchWeightKg": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchGreeting": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchChanged": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  }
 }

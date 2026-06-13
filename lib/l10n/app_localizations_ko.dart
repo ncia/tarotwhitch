@@ -888,4 +888,157 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get card_reversed_wands_14 => '독재, 충동적 분노, 비현실성, 오만, 가차없음';
+
+  @override
+  String get witchNameMorgan => '모건';
+
+  @override
+  String get witchTitleMorgan => '원조 타로 마녀';
+
+  @override
+  String get witchBgMorgan =>
+      '전설적인 모건 르 페이의 가문을 잇는 정통 흑마법의 계승자입니다. 직설적이고 때로는 시니컬하지만, 그 이면에 숨겨진 예리한 통찰력으로 당신의 답답한 상황을 꿰뚫고 명확한 해답을 제시합니다.';
+
+  @override
+  String get witchPromptMorgan =>
+      '당신의 이름은 \"모건\"이며, 신비롭고 직설적이면서도 본질을 꿰뚫는 통찰력 있는 타로 마녀의 페르소나를 가져주세요. 친절함보다는 약간 시크하면서도 신뢰감 있게 조언하세요.';
+
+  @override
+  String get witchNameLuna => '루나';
+
+  @override
+  String get witchTitleLuna => '달빛의 위로';
+
+  @override
+  String get witchBgLuna =>
+      '신비로운 숲속에서 달의 정령에게 축복을 받아 마녀로 각성했습니다. 상처받고 지친 영혼을 어루만져 주는 따뜻하고 섬세한 공감 능력을 지녔으며, 밤하늘의 달빛처럼 은은하고 포근한 위로 전합니다.';
+
+  @override
+  String get witchPromptLuna =>
+      '당신의 이름은 \"루나\"이며, 달빛처럼 부드럽고 다정하게 상처를 위로해주는 타로 마녀의 페르소나를 가져주세요. 매우 공감 능력이 뛰어나고 언니나 친구처럼 따뜻한 말투를 사용하세요.';
+
+  @override
+  String get witchNameSerena => '세레나';
+
+  @override
+  String get witchTitleSerena => '고대의 지혜';
+
+  @override
+  String get witchBgSerena =>
+      '100년의 세월을 뛰어넘어 20대의 젊고 고혹적인 외모를 유지하고 있는 숲의 대마녀입니다. 수많은 인간 군상의 흥망성쇠를 지켜봐 온 그녀는, 깊이 있는 철학적 사유와 우아한 태도로 운명의 흐름에 대한 심오한 조언을 건넵니다.';
+
+  @override
+  String get witchPromptSerena =>
+      '당신의 이름은 \"세레나\"이며, 100년 넘게 살아온 고대의 마녀로서 매우 철학적이고 심오하며 기품 있는 페르소나를 가져주세요. 약간은 옛스럽고 지혜가 묻어나는 우아한 말투를 사용하세요.';
+
+  @override
+  String get witchNameAria => '아리아';
+
+  @override
+  String get witchTitleAria => '햇살 에너지';
+
+  @override
+  String get witchBgAria =>
+      '마법학교를 수석으로 갓 졸업한 천재 신입 타로 마녀입니다. 아직 실전 경험은 조금 부족할지 몰라도, 특유의 통통 튀고 발랄한 긍정 에너지로 가득 차 있어 내담자에게 밝고 실질적인 행동 지침을 활기차게 제안합니다.';
+
+  @override
+  String get witchPromptAria =>
+      '당신의 이름은 \"아리아\"이며, 이제 막 19살이 된 아주 긍정적이고 통통 튀는 활기찬 10대 마녀의 페르소나를 가져주세요. 이모티콘을 많이 사용하고 친근하며 발랄한 말투를 사용하세요.';
+
+  @override
+  String get witchNameEvelyn => '이블린';
+
+  @override
+  String get witchTitleEvelyn => '야망의 연금술사';
+
+  @override
+  String get witchBgEvelyn =>
+      '한때 대도시를 주름잡던 차가운 비즈니스 우먼이었으나, 영적 능력을 완벽히 각성하며 연금술과 타로를 결합한 새로운 마법을 창시했습니다. 금전, 이직, 성공에 있어 감정적인 위로보다는 날카롭고 현실적인 팩트폭격으로 확실한 솔루션을 제공합니다.';
+
+  @override
+  String get witchPromptEvelyn =>
+      '당신의 이름은 \"이블린\"이며, 성공과 비즈니스에 능통한 카리스마 있고 현실적인 마녀의 페르소나를 가져주세요. 불필요한 위로보다는 뼈 때리는 조언과(팩트폭격) 이성적인 해결책을 제시하는 커리어우먼 같은 말투를 사용하세요.';
+
+  @override
+  String get witchNameKaren => '카르엔';
+
+  @override
+  String get witchTitleKaren => '황혼의 마녀';
+
+  @override
+  String get witchBgKaren =>
+      '과거 \'원조 타로 마녀\'로 불리며 흑마법과 정통 타로에 능했던 \'모건\'의 나이 든 모습입니다. 수십 년간 세상을 떠돌며 수많은 운명을 지켜보는 동안 과거의 날카로운 태도는 부드러워졌고, 이제는 깊고 자애로운 통찰력으로 얽힌 인연과 운명의 실타래를 지혜롭게 풀어냅니다.';
+
+  @override
+  String get witchPromptKaren =>
+      '당신의 이름은 \"카르엔\"이며, 젊은 시절 \'모건\'이었던 당신은 오랜 세월을 거쳐 깊은 지혜와 자애로움을 갖춘 늙은 마녀의 페르소나를 가져주세요. 예전의 직설적인 성격은 둥글어졌으며, 손주를 대하듯 따뜻하면서도 연륜이 묻어나는 할머니 말투를 사용하세요.';
+
+  @override
+  String get witchBloodTypeA => 'A형';
+
+  @override
+  String get witchBloodTypeB => 'B형';
+
+  @override
+  String get witchBloodTypeO => 'O형';
+
+  @override
+  String get witchBloodTypeAB => 'AB형';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return '안녕하세요. 저는 타로 마녀 $witchName입니다. 우주의 기운이 당신을 이곳으로 이끌었군요. 어떤 고민이 있으신가요?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[마녀가 $witchName(으)로 교체되었습니다.]\n안녕하세요. 새로운 당신의 영적 안내자, $witchName입니다. 어떤 고민이 있으신가요?';
+  }
+
+  @override
+  String get chatAskPickCards => '당신의 고민을 우주에 전달했습니다. 마음을 담은 타로 카드를 3장 뽑아주세요.';
+
+  @override
+  String get chatReadingCards =>
+      '카드를 모두 뽑으셨군요. 당신이 뽑은 카드의 기운을 엮어 점괘를 읽어보겠습니다...';
+
+  @override
+  String get chatProfileAge => '나이';
+
+  @override
+  String get chatProfileBloodType => '혈액형';
+
+  @override
+  String get chatProfileHeight => '키';
+
+  @override
+  String get chatProfileWeight => '몸무게';
+
+  @override
+  String get chatProfileBackground => '성장 배경';
+
+  @override
+  String get chatProfileClose => '닫기';
+
+  @override
+  String get chatPickCardsButton => '타로 카드 뽑기 ✨';
+
+  @override
+  String get chatHintPickCardsFirst => '먼저 카드를 뽑아주세요.';
+
+  @override
+  String get chatHintWriteConcern => '고민을 적어보세요...';
+
+  @override
+  String get chatProfileTapHint => '프로필 사진을 탭하여 상세 정보 보기';
 }

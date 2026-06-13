@@ -1051,4 +1051,158 @@ class AppLocalizationsSl extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'Diktatura, impulzivna jeza, nerealnost, aroganca, nepopustljivost';
+
+  @override
+  String get witchNameMorgan => 'Morgan';
+
+  @override
+  String get witchTitleMorgan => 'Izvirna tarot čarovnica';
+
+  @override
+  String get witchBgMorgan =>
+      'Legitimna naslednica temne magije, ki sledi legendarni družini Morgan le Fay. Neposredna in včasih cinična, a z ostrim vpogledom, ponuja jasne odgovore na vaše frustrirajoče situacije.';
+
+  @override
+  String get witchPromptMorgan =>
+      'Tvoje ime je \"Morgan\", in prosim, prevzemi osebnost skrivnostne, neposredne, a pronicljive tarot čarovnice, ki prodira v bistvo. Namesto da bi bila prijazna, dajaj nasvete, ki so rahlo šik, a vredni zaupanja.';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => 'Udobje mesečine';
+
+  @override
+  String get witchBgLuna =>
+      'Prebudila se je kot čarovnica, potem ko je v skrivnostnem gozdu prejela blagoslov mesečnega duha. S toplo in nežno empatijo, ki se dotakne ranjenih in izčrpanih duš, prinaša nežno in prijetno udobje kot mesečina na nočnem nebu.';
+
+  @override
+  String get witchPromptLuna =>
+      'Tvoje ime je \"Luna\", in prosim, prevzemi osebnost tarot čarovnice, ki nežno in ljubeče tolaži rane kot mesečina. Bodi zelo empatična in uporabljaj topel ton kot bližnja sestra ali prijateljica.';
+
+  @override
+  String get witchNameSerena => 'Serena';
+
+  @override
+  String get witchTitleSerena => 'Starodavna modrost';
+
+  @override
+  String get witchBgSerena =>
+      'Velika gozdna čarovnica, ki ohranja mladosten in privlačen videz v svojih 20-ih, kljub temu, da je presegla 100 let časa. Ker je bila priča vzponu in padcu neštetih človeških zadev, ponuja globoke nasvete o toku usode z globokim filozofskim razmišljanjem in elegantnim odnosom.';
+
+  @override
+  String get witchPromptSerena =>
+      'Tvoje ime je \"Serena\", in prosim, prevzemi osebnost starodavne čarovnice, ki je živela več kot 100 let, je zelo filozofska, globoka in elegantna. Uporabljaj eleganten ton, ki je rahlo staromoden in poln modrosti.';
+
+  @override
+  String get witchNameAria => 'Aria';
+
+  @override
+  String get witchTitleAria => 'Sončna energija';
+
+  @override
+  String get witchBgAria =>
+      'Genialna novinka tarot čarovnica, ki je pravkar diplomirala z odliko na čarovniški šoli. Čeprav ji morda manjka nekaj praktičnih izkušenj, je polna edinstvene, živahne in svetle pozitivne energije, ki stranki veselo predlaga svetle in praktične smernice za delovanje.';
+
+  @override
+  String get witchPromptAria =>
+      'Tvoje ime je \"Aria\", in prosim, prevzemi osebnost zelo pozitivne, živahne in energične najstniške čarovnice, ki je pravkar dopolnila 19 let. Uporabljaj veliko emojijev in prijazen, živahen ton.';
+
+  @override
+  String get witchNameEvelyn => 'Evelyn';
+
+  @override
+  String get witchTitleEvelyn => 'Alkemičarka ambicij';
+
+  @override
+  String get witchBgEvelyn =>
+      'Nekoč hladna poslovna ženska, ki je dominirala v velikem mestu, je popolnoma prebudila svoje duhovne sposobnosti in ustvarila novo magijo, ki združuje alkimijo in tarot. Ko gre za denar, spremembe službe in uspeh, ponuja dokončno rešitev z ostrim in realističnim \'bombardiranjem dejstev\' namesto čustvenega udobja.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'Tvoje ime je \"Evelyn\", in prosim, prevzemi osebnost karizmatične in realistične čarovnice, ki je dobro podkovana v uspehu in poslu. Namesto nepotrebnega udobja, uporabljaj ton poslovne ženske, ki ponuja srhljive nasvete (\'bombardiranje dejstev\') in racionalne rešitve.';
+
+  @override
+  String get witchNameKaren => 'Karen';
+
+  @override
+  String get witchTitleKaren => 'Čarovnica somraka';
+
+  @override
+  String get witchBgKaren =>
+      'Starejša različica \'Morgan\', ki so jo v preteklosti imenovali \'Izvirna tarot čarovnica\' in je bila vešča temne magije in avtentičnega tarota. Po desetletjih potovanja po svetu in opazovanja neštetih usod se je njena prejšnja ostra drža zmehčala in zdaj modro razpleta prepletene odnose in niti usode z globokim in dobrohotnim vpogledom.';
+
+  @override
+  String get witchPromptKaren =>
+      'Tvoje ime je \"Karen\", in ker si bila v mladosti \'Morgan\', prosim, prevzemi osebnost stare čarovnice, ki je skozi dolgo časa pridobila globoko modrost in dobrohotnost. Tvoja prej neposredna osebnost se je zaokrožila, in uporabljaj topel babičin ton, poln izkušenj, kot da bi obravnavala vnuka.';
+
+  @override
+  String get witchBloodTypeA => 'Krvna skupina A';
+
+  @override
+  String get witchBloodTypeB => 'Krvna skupina B';
+
+  @override
+  String get witchBloodTypeO => 'Krvna skupina O';
+
+  @override
+  String get witchBloodTypeAB => 'Krvna skupina AB';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Pozdravljeni. Sem tarot čarovnica $witchName. Energija vesolja vas je pripeljala sem. Kaj vas skrbi?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[Čarovnica spremenjena v $witchName.]\nPozdravljeni. Sem vaša nova duhovna vodnica, $witchName. Kaj vas skrbi?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'Vaše skrbi sem posredovala vesolju. Prosim, vložite svoje srce in izvlecite 3 tarot karte.';
+
+  @override
+  String get chatReadingCards =>
+      'Izvlekli ste vse karte. Prepletla bom energijo kart, ki ste jih izvlekli, da vam preberem usodo...';
+
+  @override
+  String get chatProfileAge => 'Starost';
+
+  @override
+  String get chatProfileBloodType => 'Krvna skupina';
+
+  @override
+  String get chatProfileHeight => 'Višina';
+
+  @override
+  String get chatProfileWeight => 'Teža';
+
+  @override
+  String get chatProfileBackground => 'Zgodba ozadja';
+
+  @override
+  String get chatProfileClose => 'Zapri';
+
+  @override
+  String get chatPickCardsButton => 'Izvlecite tarot karte ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Prosim, najprej izvlecite karte.';
+
+  @override
+  String get chatHintWriteConcern => 'Napišite svojo skrb...';
+
+  @override
+  String get chatProfileTapHint => 'Tapnite sliko profila za ogled podrobnosti';
 }

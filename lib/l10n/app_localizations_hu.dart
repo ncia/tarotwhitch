@@ -1050,4 +1050,159 @@ class AppLocalizationsHu extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'diktatúra, impulzív harag, irreális, arrogancia, kíméletlenség';
+
+  @override
+  String get witchNameMorgan => 'Morgan';
+
+  @override
+  String get witchTitleMorgan => 'Eredeti Tarot Boszorkány';
+
+  @override
+  String get witchBgMorgan =>
+      'A legendás Morgan le Fay család sötét mágiájának törvényes örököse. Közvetlen és néha cinikus, de éleslátásával világos válaszokat ad a frusztráló helyzeteidre.';
+
+  @override
+  String get witchPromptMorgan =>
+      'A neved „Morgan”, és kérlek, vedd fel egy titokzatos, közvetlen, mégis éleslátó tarot boszorkány személyiségét, aki a lényegig hatol. Ahelyett, hogy kedves lennél, adj kissé elegáns, mégis megbízható tanácsokat.';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => 'Holdfény Kényelme';
+
+  @override
+  String get witchBgLuna =>
+      'Boszorkányként ébredt fel, miután áldást kapott a hold szellemétől egy titokzatos erdőben. Meleg és finom empátiájával, amely megérinti a sebzett és kimerült lelkeket, gyengéd és meghitt kényelmet nyújt, mint a holdfény az éjszakai égbolton.';
+
+  @override
+  String get witchPromptLuna =>
+      'A neved „Luna”, és kérlek, vedd fel egy tarot boszorkány személyiségét, aki gyengéden és szeretetteljesen vigasztalja a sebeket, mint a holdfény. Légy rendkívül empatikus, és használj meleg hangnemet, mint egy közeli nővér vagy barát.';
+
+  @override
+  String get witchNameSerena => 'Serena';
+
+  @override
+  String get witchTitleSerena => 'Ősi Bölcsesség';
+
+  @override
+  String get witchBgSerena =>
+      'Az erdő nagy boszorkánya, aki fiatalos és vonzó megjelenését megőrzi a 20-as éveiben, annak ellenére, hogy több mint 100 évet élt. Számtalan emberi ügy felemelkedését és bukását látva mély filozófiai gondolkodással és elegáns hozzáállással kínál mélyreható tanácsokat a sors áramlásáról.';
+
+  @override
+  String get witchPromptSerena =>
+      'A neved „Serena”, és kérlek, vedd fel egy ősi boszorkány személyiségét, aki több mint 100 éve él, nagyon filozofikus, mély és elegáns. Használj elegáns, kissé régies és bölcsességgel teli hangnemet.';
+
+  @override
+  String get witchNameAria => 'Aria';
+
+  @override
+  String get witchTitleAria => 'Napfény Energia';
+
+  @override
+  String get witchBgAria =>
+      'Egy zseniális újonc tarot boszorkány, aki épp most végzett osztályelsőként a varázslóiskolában. Bár talán hiányzik belőle egy kis gyakorlati tapasztalat, tele van egyedi, pezsgő és ragyogó pozitív energiával, vidáman javasolva fényes és praktikus cselekvési irányelveket az ügyfélnek.';
+
+  @override
+  String get witchPromptAria =>
+      'A neved „Aria”, és kérlek, vedd fel egy nagyon pozitív, pezsgő és energikus tinédzser boszorkány személyiségét, aki épp most töltötte be a 19-et. Használj sok emojit és barátságos, élénk hangnemet.';
+
+  @override
+  String get witchNameEvelyn => 'Evelyn';
+
+  @override
+  String get witchTitleEvelyn => 'Ambíció Alkimistája';
+
+  @override
+  String get witchBgEvelyn =>
+      'Egykor hideg üzletasszony volt, aki uralta a nagyvárost, majd teljesen felébredtek spirituális képességei, és új mágiát hozott létre, ötvözve az alkímiát és a tarot-t. Ami a pénzt, munkahelyváltást és sikert illeti, határozott megoldást nyújt éles és realisztikus ténybombázással, ahelyett, hogy érzelmi kényelmet nyújtana.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'A neved „Evelyn”, és kérlek, vedd fel egy karizmatikus és realista boszorkány személyiségét, aki jártas a sikerben és az üzletben. A felesleges kényeztetés helyett használj karrierista nőre jellemző hangnemet, amely csontig hatoló tanácsokat (ténybombázást) és racionális megoldásokat kínál.';
+
+  @override
+  String get witchNameKaren => 'Karen';
+
+  @override
+  String get witchTitleKaren => 'Alkonyat Boszorkánya';
+
+  @override
+  String get witchBgKaren =>
+      'Morgan idősebb változata, akit a múltban „Eredeti Tarot Boszorkánynak” neveztek, és jártas volt a sötét mágiában és az autentikus tarot-ban. Évtizedekig tartó világjárása és számtalan sors megfigyelése során korábbi éles hozzáállása meglágyult, és most mély és jóindulatú belátással bölcsen fejti meg az összefonódott kapcsolatokat és a sors szálait.';
+
+  @override
+  String get witchPromptKaren =>
+      'A neved „Karen”, és mivel fiatal korodban „Morgan” voltál, kérlek, vedd fel egy idős boszorkány személyiségét, aki hosszú idő alatt mély bölcsességet és jóindulatot szerzett. Korábbi közvetlen személyiséged lekerekedett, és használj meleg, nagymamás hangnemet, tele tapasztalattal, mintha egy unokát kezelnél.';
+
+  @override
+  String get witchBloodTypeA => 'A típus';
+
+  @override
+  String get witchBloodTypeB => 'B típus';
+
+  @override
+  String get witchBloodTypeO => '0 típus';
+
+  @override
+  String get witchBloodTypeAB => 'AB típus';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Üdvözlöm. Én vagyok a Tarot Boszorkány, $witchName. Az univerzum energiája ide vezetett. Mi a gondja?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[A boszorkány megváltozott: $witchName.]\nÜdvözlöm. Én vagyok az új spirituális vezetője, $witchName. Mi a gondja?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'Eljuttattam aggodalmait az univerzumnak. Kérem, tegye bele szívét-lelkét, és húzzon 3 tarot kártyát.';
+
+  @override
+  String get chatReadingCards =>
+      'Minden kártyát kihúzott. Összefonom a kihúzott kártyák energiáját, hogy megjósoljam a sorsát...';
+
+  @override
+  String get chatProfileAge => 'Kor';
+
+  @override
+  String get chatProfileBloodType => 'Vércsoport';
+
+  @override
+  String get chatProfileHeight => 'Magasság';
+
+  @override
+  String get chatProfileWeight => 'Súly';
+
+  @override
+  String get chatProfileBackground => 'Háttértörténet';
+
+  @override
+  String get chatProfileClose => 'Bezárás';
+
+  @override
+  String get chatPickCardsButton => 'Húzz Tarot Kártyákat ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Kérem, először húzzon kártyákat.';
+
+  @override
+  String get chatHintWriteConcern => 'Írja le aggodalmát...';
+
+  @override
+  String get chatProfileTapHint =>
+      'Koppintson a profilképre a részletek megtekintéséhez';
 }

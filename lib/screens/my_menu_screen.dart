@@ -156,18 +156,7 @@ class MyMenuScreen extends StatelessWidget {
                           ),
                         const SizedBox(height: 8),
                         if (isLoggedIn)
-                          Container(
-                            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                            decoration: BoxDecoration(
-                              color: user!.emailVerified ? Colors.green.withOpacity(0.2) : Colors.red.withOpacity(0.2),
-                              borderRadius: BorderRadius.circular(12),
-                              border: Border.all(color: user.emailVerified ? Colors.green : Colors.redAccent),
-                            ),
-                            child: Text(
-                              user.emailVerified ? '이메일 인증됨' : '이메일 미인증',
-                              style: TextStyle(color: user.emailVerified ? Colors.greenAccent : Colors.redAccent, fontSize: 12),
-                            ),
-                          )
+                          _EmailVerificationBadge(user: user!)
                         else
                           const Text(
                             '터치하여 회원가입 및 로그인',
@@ -263,3 +252,90 @@ class MyMenuScreen extends StatelessWidget {
     );
   }
 }
+
+class _EmailVerificationBadge extends StatefulWidget {
+  final User user;
+  const _EmailVerificationBadge({required this.user});
+
+  @override
+  State<_EmailVerificationBadge> createState() => _EmailVerificationBadgeState();
+}
+
+class _EmailVerificationBadgeState extends State<_EmailVerificationBadge> {
+  bool _isLoading = false;
+
+  @override
+  Widget build(BuildContext context) {
+    final isVerified = FirebaseAuth.instance.currentUser?.emailVerified ?? false;
+
+    return GestureDetector(
+      onTap: isVerified || _isLoading
+          ? null
+          : () async {
+              setState(() => _isLoading = true);
+              try {
+                await FirebaseAuth.instance.currentUser?.reload();
+                if (FirebaseAuth.instance.currentUser?.emailVerified == true) {
+                  if (mounted) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(content: Text('이메일 인증이 확인되었습니다! ✨')),
+                    );
+                  }
+                } else {
+                  final langCode = Localizations.localeOf(context).languageCode;
+                  await FirebaseAuth.instance.setLanguageCode(langCode);
+                  await FirebaseAuth.instance.currentUser?.sendEmailVerification();
+                  if (mounted) {
+                    showDialog(
+                      context: context,
+                      builder: (ctx) => AlertDialog(
+                        backgroundColor: Colors.deepPurple.shade900,
+                        title: const Text('인증 메일 발송', style: TextStyle(color: Colors.white)),
+                        content: const Text(
+                          '인증 메일이 발송되었습니다.\n이메일함을 확인하여 링크를 클릭한 뒤, 이 버튼을 다시 한 번 눌러주세요!',
+                          style: TextStyle(color: Colors.white70),
+                        ),
+                        actions: [
+                          TextButton(
+                            onPressed: () => Navigator.pop(ctx),
+                            child: const Text('확인', style: TextStyle(color: Colors.amberAccent)),
+                          ),
+                        ],
+                      ),
+                    );
+                  }
+                }
+              } catch (e) {
+                if (mounted) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text('너무 많은 요청이거나 오류가 발생했습니다.')),
+                  );
+                }
+              } finally {
+                if (mounted) {
+                  setState(() => _isLoading = false);
+                }
+              }
+            },
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+        decoration: BoxDecoration(
+          color: isVerified ? Colors.green.withOpacity(0.2) : Colors.red.withOpacity(0.2),
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(color: isVerified ? Colors.green : Colors.redAccent),
+        ),
+        child: _isLoading 
+            ? const SizedBox(width: 12, height: 12, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.white))
+            : Text(
+                isVerified ? '이메일 인증 완료됨' : '이메일 미인증 (터치하여 인증하기)',
+                style: TextStyle(
+                  color: isVerified ? Colors.greenAccent : Colors.redAccent, 
+                  fontSize: 12,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+      ),
+    );
+  }
+}
+

@@ -1052,4 +1052,159 @@ class AppLocalizationsCa extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'Dictadura, ira impulsiva, irrealitat, arrogància, implacabilitat';
+
+  @override
+  String get witchNameMorgan => 'Morgan';
+
+  @override
+  String get witchTitleMorgan => 'Bruixa del Tarot Original';
+
+  @override
+  String get witchBgMorgan =>
+      'La legítima successora de la màgia fosca de la llegendària família Morgana le Fay. Directa i de vegades cínica, però amb una visió aguda, ofereix respostes clares a les teves situacions frustrants.';
+
+  @override
+  String get witchPromptMorgan =>
+      'El teu nom és \"Morgan\", i si us plau, adopta la personalitat d\'una bruixa del tarot misteriosa, directa, però perspicaç que penetra fins a l\'essència. En lloc de ser amable, dóna consells lleugerament elegants però fiables.';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => 'Confort de la Llum de la Lluna';
+
+  @override
+  String get witchBgLuna =>
+      'Despertada com a bruixa després de rebre una benedicció de l\'esperit de la lluna en un bosc misteriós. Amb una empatia càlida i delicada que toca les ànimes ferides i esgotades, ofereix un confort suau i acollidor com la llum de la lluna al cel nocturn.';
+
+  @override
+  String get witchPromptLuna =>
+      'El teu nom és \"Luna\", i si us plau, adopta la personalitat d\'una bruixa del tarot que conforta suaument i afectuosament les ferides com la llum de la lluna. Sigues molt empàtica i utilitza un to càlid com el d\'una germana o amiga propera.';
+
+  @override
+  String get witchNameSerena => 'Serena';
+
+  @override
+  String get witchTitleSerena => 'Saviesa Antiga';
+
+  @override
+  String get witchBgSerena =>
+      'La gran bruixa del bosc que manté una aparença jove i seductora d\'uns 20 anys malgrat haver transcendit 100 anys de temps. Després d\'haver presenciat l\'auge i la caiguda d\'innombrables assumptes humans, ofereix consells profunds sobre el flux del destí amb un pensament filosòfic profund i una actitud elegant.';
+
+  @override
+  String get witchPromptSerena =>
+      'El teu nom és \"Serena\", i si us plau, adopta la personalitat d\'una bruixa antiga que ha viscut més de 100 anys, sent molt filosòfica, profunda i elegant. Utilitza un to elegant que sigui lleugerament antiquat i ple de saviesa.';
+
+  @override
+  String get witchNameAria => 'Aria';
+
+  @override
+  String get witchTitleAria => 'Energia Solar';
+
+  @override
+  String get witchBgAria =>
+      'Una bruixa del tarot novell genial que acaba de graduar-se amb les millors notes de l\'escola de màgia. Tot i que pot mancar una mica d\'experiència pràctica, està plena d\'una energia positiva única, alegre i brillant, suggerint amb alegria pautes d\'acció brillants i pràctiques al client.';
+
+  @override
+  String get witchPromptAria =>
+      'El teu nom és \"Aria\", i si us plau, adopta la personalitat d\'una bruixa adolescent molt positiva, alegre i enèrgica que acaba de fer 19 anys. Utilitza molts emojis i un to amable i animat.';
+
+  @override
+  String get witchNameEvelyn => 'Evelyn';
+
+  @override
+  String get witchTitleEvelyn => 'Alquimista de l\'Ambició';
+
+  @override
+  String get witchBgEvelyn =>
+      'Antigament una freda dona de negocis que dominava la gran ciutat, va despertar plenament les seves habilitats espirituals i va crear una nova màgia combinant alquímia i tarot. Quan es tracta de diners, canvis de feina i èxit, ofereix una solució definitiva amb un bombardeig de fets agut i realista en lloc de confort emocional.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'El teu nom és \"Evelyn\", i si us plau, adopta la personalitat d\'una bruixa carismàtica i realista que coneix bé l\'èxit i els negocis. En lloc de confort innecessari, utilitza un to de dona de carrera que ofereix consells esgarrifosos (bombardeig de fets) i solucions racionals.';
+
+  @override
+  String get witchNameKaren => 'Karen';
+
+  @override
+  String get witchTitleKaren => 'Bruixa del Crepuscle';
+
+  @override
+  String get witchBgKaren =>
+      'La versió més gran de \'Morgan\', que en el passat va ser anomenada la \'Bruixa del Tarot Original\' i era hàbil en màgia fosca i tarot autèntic. Després de dècades de vagar pel món i observar innombrables destins, la seva actitud anteriorment aguda s\'ha suavitzat, i ara desvetlla sàviament les relacions entrellaçades i els fils del destí amb una visió profunda i benèvola.';
+
+  @override
+  String get witchPromptKaren =>
+      'El teu nom és \"Karen\", i havent estat \'Morgan\' en la teva joventut, si us plau, adopta la personalitat d\'una bruixa vella que ha adquirit una saviesa i benevolència profundes al llarg del temps. La teva personalitat anteriorment directa s\'ha arrodonit, i utilitza un to càlid d\'àvia ple d\'experiència com si tractés un nét.';
+
+  @override
+  String get witchBloodTypeA => 'Tipus A';
+
+  @override
+  String get witchBloodTypeB => 'Tipus B';
+
+  @override
+  String get witchBloodTypeO => 'Tipus O';
+
+  @override
+  String get witchBloodTypeAB => 'Tipus AB';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Hola. Sóc la Bruixa del Tarot $witchName. L\'energia de l\'univers t\'ha guiat fins aquí. Quina és la teva preocupació?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[Bruixa canviada a $witchName.]\nHola. Sóc la teva nova guia espiritual, $witchName. Quina és la teva preocupació?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'He lliurat les teves preocupacions a l\'univers. Si us plau, posa-hi el cor i treu 3 cartes del tarot.';
+
+  @override
+  String get chatReadingCards =>
+      'Has tret totes les cartes. Teixiré l\'energia de les cartes que has tret per llegir la teva fortuna...';
+
+  @override
+  String get chatProfileAge => 'Edat';
+
+  @override
+  String get chatProfileBloodType => 'Grup sanguini';
+
+  @override
+  String get chatProfileHeight => 'Alçada';
+
+  @override
+  String get chatProfileWeight => 'Pes';
+
+  @override
+  String get chatProfileBackground => 'Història de fons';
+
+  @override
+  String get chatProfileClose => 'Tancar';
+
+  @override
+  String get chatPickCardsButton => 'Treu Cartes del Tarot ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Si us plau, treu les cartes primer.';
+
+  @override
+  String get chatHintWriteConcern => 'Escriu la teva preocupació...';
+
+  @override
+  String get chatProfileTapHint =>
+      'Toca la imatge de perfil per veure els detalls';
 }

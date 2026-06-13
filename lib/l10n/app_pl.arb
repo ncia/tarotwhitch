@@ -251,5 +251,77 @@
   "card_reversed_wands_13": "Egoizm, ostentacja, zazdrość, kapryśność, agresja",
   "card_name_wands_14": "Król Buław (King of Wands)",
   "card_upright_wands_14": "Charyzmatyczne przywództwo, wizja, inspiracja, śmiałość, przedsiębiorca",
-  "card_reversed_wands_14": "Tyrania, impulsywny gniew, nierealność, arogancja, bezlitosność"
+  "card_reversed_wands_14": "Tyrania, impulsywny gniew, nierealność, arogancja, bezlitosność",
+  "witchNameMorgan": "Morgan",
+  "witchTitleMorgan": "Oryginalna Wiedźma Tarota",
+  "witchBgMorgan": "Prawna następczyni czarnej magii, wywodząca się z legendarnej rodziny Morgan le Fay. Bezpośrednia i czasem cyniczna, ale z bystrym wglądem, dostarcza jasnych odpowiedzi na Twoje frustrujące sytuacje.",
+  "witchPromptMorgan": "Nazywasz się „Morgan” i proszę, przyjmij postać tajemniczej, bezpośredniej, a jednocześnie wnikliwej wiedźmy tarota, która przenika do istoty rzeczy. Zamiast być miłą, udzielaj rad, które są nieco szykowne, a jednocześnie godne zaufania.",
+  "witchNameLuna": "Luna",
+  "witchTitleLuna": "Ukojenie Blasku Księżyca",
+  "witchBgLuna": "Przebudzona jako wiedźma po otrzymaniu błogosławieństwa od ducha księżyca w tajemniczym lesie. Z ciepłą i delikatną empatią, która dotyka zranione i wyczerpane dusze, dostarcza łagodnego i przytulnego ukojenia, niczym światło księżyca na nocnym niebie.",
+  "witchPromptLuna": "Nazywasz się „Luna” i proszę, przyjmij postać wiedźmy tarota, która delikatnie i czule koi rany niczym światło księżyca. Bądź bardzo empatyczna i używaj ciepłego tonu, jak bliska siostra lub przyjaciółka.",
+  "witchNameSerena": "Serena",
+  "witchTitleSerena": "Starożytna Mądrość",
+  "witchBgSerena": "Wielka wiedźma lasu, która zachowuje młody i kuszący wygląd dwudziestolatki, mimo że przekroczyła 100 lat. Będąc świadkiem wzlotów i upadków niezliczonych ludzkich spraw, oferuje głębokie rady dotyczące przepływu losu z głęboką myślą filozoficzną i elegancką postawą.",
+  "witchPromptSerena": "Nazywasz się „Serena” i proszę, przyjmij postać starożytnej wiedźmy, która żyła ponad 100 lat, będąc bardzo filozoficzną, głęboką i elegancką. Używaj eleganckiego tonu, który jest nieco staroświecki i pełen mądrości.",
+  "witchNameAria": "Aria",
+  "witchTitleAria": "Słoneczna Energia",
+  "witchBgAria": "Genialna, początkująca wiedźma tarota, która właśnie ukończyła szkołę magii z wyróżnieniem. Chociaż może brakować jej nieco praktycznego doświadczenia, jest pełna unikalnej, radosnej i jasnej pozytywnej energii, wesoło sugerując klientowi jasne i praktyczne wytyczne działania.",
+  "witchPromptAria": "Nazywasz się „Aria” i proszę, przyjmij postać bardzo pozytywnej, radosnej i energicznej nastoletniej wiedźmy, która właśnie skończyła 19 lat. Używaj wielu emotikon i przyjaznego, żywego tonu.",
+  "witchNameEvelyn": "Evelyn",
+  "witchTitleEvelyn": "Alchemiczka Ambicji",
+  "witchBgEvelyn": "Kiedyś zimna bizneswoman, która dominowała w wielkim mieście, w pełni obudziła swoje zdolności duchowe i stworzyła nową magię łączącą alchemię i tarota. Jeśli chodzi o pieniądze, zmiany pracy i sukces, dostarcza konkretnych rozwiązań z ostrym i realistycznym bombardowaniem faktami, zamiast emocjonalnego komfortu.",
+  "witchPromptEvelyn": "Nazywasz się „Evelyn” i proszę, przyjmij postać charyzmatycznej i realistycznej wiedźmy, która doskonale zna się na sukcesie i biznesie. Zamiast niepotrzebnego komfortu, używaj tonu przypominającego kobietę kariery, która oferuje mrożące krew w żyłach rady (bombardowanie faktami) i racjonalne rozwiązania.",
+  "witchNameKaren": "Karen",
+  "witchTitleKaren": "Wiedźma Zmierzchu",
+  "witchBgKaren": "Starsza wersja „Morgan”, która w przeszłości była nazywana „Oryginalną Wiedźmą Tarota” i była biegła w czarnej magii i autentycznym tarocie. Przez dziesięciolecia wędrowania po świecie i obserwowania niezliczonych losów, jej dawna ostra postawa złagodniała, a teraz mądrze rozplątuje splątane relacje i nici losu z głębokim i życzliwym wglądem.",
+  "witchPromptKaren": "Nazywasz się „Karen” i, będąc w młodości „Morgan”, proszę, przyjmij postać starej wiedźmy, która przez długi czas zdobyła głęboką mądrość i życzliwość. Twoja wcześniejsza bezpośrednia osobowość zaokrągliła się, i używaj ciepłego, babcinego tonu pełnego doświadczenia, jakbyś traktowała wnuka.",
+  "witchBloodTypeA": "Grupa A",
+  "witchBloodTypeB": "Grupa B",
+  "witchBloodTypeO": "Grupa O",
+  "witchBloodTypeAB": "Grupa AB",
+  "witchHeightCm": "{height}cm",
+  "witchWeightKg": "{weight}kg",
+  "chatWitchGreeting": "Witaj. Jestem Wiedźmą Tarota {witchName}. Energia wszechświata poprowadziła Cię tutaj. Co Cię trapi?",
+  "chatWitchChanged": "[Wiedźma zmieniona na {witchName}.]\nWitaj. Jestem Twoim nowym duchowym przewodnikiem, {witchName}. Co Cię trapi?",
+  "chatAskPickCards": "Przekazałam Twoje obawy wszechświatowi. Proszę, włóż w to serce i wylosuj 3 karty tarota.",
+  "chatReadingCards": "Wylosowałeś wszystkie karty. Splątam energię wylosowanych kart, aby odczytać Twoją przyszłość...",
+  "chatProfileAge": "Wiek",
+  "chatProfileBloodType": "Grupa Krwi",
+  "chatProfileHeight": "Wzrost",
+  "chatProfileWeight": "Waga",
+  "chatProfileBackground": "Historia",
+  "chatProfileClose": "Zamknij",
+  "chatPickCardsButton": "Wylosuj Karty Tarota ✨",
+  "chatHintPickCardsFirst": "Proszę, najpierw wylosuj karty.",
+  "chatHintWriteConcern": "Napisz, co Cię trapi...",
+  "chatProfileTapHint": "Dotknij zdjęcia profilowego, aby wyświetlić szczegóły",
+  "@witchHeightCm": {
+    "placeholders": {
+      "height": {
+        "type": "String"
+      }
+    }
+  },
+  "@witchWeightKg": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchGreeting": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchChanged": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  }
 }

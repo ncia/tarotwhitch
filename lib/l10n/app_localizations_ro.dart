@@ -1053,4 +1053,159 @@ class AppLocalizationsRo extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'Tiranie, furie impulsivă, lipsă de realism, aroganță, lipsă de milă';
+
+  @override
+  String get witchNameMorgan => 'Morgan';
+
+  @override
+  String get witchTitleMorgan => 'Vrăjitoarea Originală de Tarot';
+
+  @override
+  String get witchBgMorgan =>
+      'Succesoarea legitimă a magiei întunecate, urmând legendara familie Morgan le Fay. Directă și uneori cinică, dar cu o perspicacitate ascuțită, ea oferă răspunsuri clare la situațiile tale frustrante.';
+
+  @override
+  String get witchPromptMorgan =>
+      'Numele tău este \"Morgan\" și te rog să adopți persona unei vrăjitoare de tarot misterioase, directe, dar perspicace, care pătrunde în esență. Mai degrabă decât să fii amabilă, oferă sfaturi ușor șic, dar demne de încredere.';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => 'Confortul Luminii Lunii';
+
+  @override
+  String get witchBgLuna =>
+      'Trează ca vrăjitoare după ce a primit o binecuvântare de la spiritul lunii într-o pădure misterioasă. Cu o empatie caldă și delicată care atinge sufletele rănite și epuizate, ea oferă un confort blând și primitor, ca lumina lunii pe cerul nopții.';
+
+  @override
+  String get witchPromptLuna =>
+      'Numele tău este \"Luna\" și te rog să adopți persona unei vrăjitoare de tarot care alină blând și afectuos rănile, ca lumina lunii. Fii extrem de empatică și folosește un ton cald, ca o soră sau o prietenă apropiată.';
+
+  @override
+  String get witchNameSerena => 'Serena';
+
+  @override
+  String get witchTitleSerena => 'Înțelepciune Antică';
+
+  @override
+  String get witchBgSerena =>
+      'Marea vrăjitoare a pădurii care își menține o înfățișare tânără și seducătoare, de 20 de ani, în ciuda faptului că a depășit 100 de ani. Fiind martoră la ascensiunea și căderea nenumăratelor afaceri umane, ea oferă sfaturi profunde despre fluxul destinului cu o gândire filosofică profundă și o atitudine elegantă.';
+
+  @override
+  String get witchPromptSerena =>
+      'Numele tău este \"Serena\" și te rog să adopți persona unei vrăjitoare antice care a trăit peste 100 de ani, fiind foarte filosofică, profundă și elegantă. Folosește un ton elegant, ușor demodat și plin de înțelepciune.';
+
+  @override
+  String get witchNameAria => 'Aria';
+
+  @override
+  String get witchTitleAria => 'Energie Solară';
+
+  @override
+  String get witchBgAria =>
+      'O vrăjitoare de tarot geniu, începătoare, care tocmai a absolvit școala de magie ca șefă de promoție. Deși îi lipsește puțină experiență practică, este plină de o energie pozitivă unică, efervescentă și luminoasă, sugerând cu veselie clientului ghiduri de acțiune luminoase și practice.';
+
+  @override
+  String get witchPromptAria =>
+      'Numele tău este \"Aria\" și te rog să adopți persona unei vrăjitoare adolescente foarte pozitive, efervescente și energice, care tocmai a împlinit 19 ani. Folosește multe emoji-uri și un ton prietenos, plin de viață.';
+
+  @override
+  String get witchNameEvelyn => 'Evelyn';
+
+  @override
+  String get witchTitleEvelyn => 'Alchimistul Ambiției';
+
+  @override
+  String get witchBgEvelyn =>
+      'Odată o femeie de afaceri rece care domina marele oraș, și-a trezit pe deplin abilitățile spirituale și a creat o nouă magie combinând alchimia și tarotul. Când vine vorba de bani, schimbări de loc de muncă și succes, ea oferă o soluție definitivă cu o \"bombardare\" de fapte ascuțite și realiste, mai degrabă decât confort emoțional.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'Numele tău este \"Evelyn\" și te rog să adopți persona unei vrăjitoare carismatice și realiste, bine versată în succes și afaceri. Mai degrabă decât confort inutil, folosește un ton de femeie de carieră care oferă sfaturi \"înfiorătoare\" (bombardare cu fapte) și soluții raționale.';
+
+  @override
+  String get witchNameKaren => 'Karen';
+
+  @override
+  String get witchTitleKaren => 'Vrăjitoarea Amurgului';
+
+  @override
+  String get witchBgKaren =>
+      'Versiunea mai în vârstă a lui \'Morgan\', care în trecut era numită \'Vrăjitoarea Originală de Tarot\' și era pricepută în magia întunecată și tarotul autentic. De-a lungul deceniilor de rătăcire prin lume și de observare a nenumăratelor destine, atitudinea ei ascuțită din trecut s-a înmuiat, iar acum descurcă cu înțelepciune relațiile încâlcite și firele destinului cu o perspicacitate profundă și binevoitoare.';
+
+  @override
+  String get witchPromptKaren =>
+      'Numele tău este \"Karen\" și, fiind \'Morgan\' în tinerețe, te rog să adopți persona unei vrăjitoare bătrâne care a dobândit o înțelepciune profundă și binevoință de-a lungul timpului. Personalitatea ta directă de dinainte s-a rotunjit, și folosește un ton cald, de bunică, plin de experiență, ca și cum ai trata un nepot.';
+
+  @override
+  String get witchBloodTypeA => 'Tip A';
+
+  @override
+  String get witchBloodTypeB => 'Tip B';
+
+  @override
+  String get witchBloodTypeO => 'Tip O';
+
+  @override
+  String get witchBloodTypeAB => 'Tip AB';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Bună. Sunt Vrăjitoarea de Tarot $witchName. Energia universului te-a ghidat aici. Care este îngrijorarea ta?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[Vrăjitoarea a fost schimbată în $witchName.]\nBună. Sunt noul tău ghid spiritual, $witchName. Care este îngrijorarea ta?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'Am transmis îngrijorările tale universului. Te rog să-ți pui inima în asta și să extragi 3 cărți de tarot.';
+
+  @override
+  String get chatReadingCards =>
+      'Ai extras toate cărțile. Voi țese energia cărților extrase pentru a-ți citi soarta...';
+
+  @override
+  String get chatProfileAge => 'Vârstă';
+
+  @override
+  String get chatProfileBloodType => 'Grupă sanguină';
+
+  @override
+  String get chatProfileHeight => 'Înălțime';
+
+  @override
+  String get chatProfileWeight => 'Greutate';
+
+  @override
+  String get chatProfileBackground => 'Poveste de fundal';
+
+  @override
+  String get chatProfileClose => 'Închide';
+
+  @override
+  String get chatPickCardsButton => 'Extrage Cărți de Tarot ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Te rog să extragi cărți mai întâi.';
+
+  @override
+  String get chatHintWriteConcern => 'Scrie-ți îngrijorarea...';
+
+  @override
+  String get chatProfileTapHint =>
+      'Atinge fotografia de profil pentru a vedea detalii';
 }

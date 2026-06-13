@@ -1051,4 +1051,159 @@ class AppLocalizationsEt extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'Diktatuur, impulsiivne viha, ebareaalsus, ülbus, halastamatus';
+
+  @override
+  String get witchNameMorgan => 'Morgan';
+
+  @override
+  String get witchTitleMorgan => 'Algne Tarokaartide Nõid';
+
+  @override
+  String get witchBgMorgan =>
+      'Legendaarse Morgan le Fay perekonna tumeda maagia õiguspärane järeltulija. Otsekohene ja kohati küüniline, kuid terava taipamisega, pakub ta selgeid vastuseid teie frustreerivatele olukordadele.';
+
+  @override
+  String get witchPromptMorgan =>
+      'Teie nimi on \"Morgan\" ja palun kehastuge salapäraseks, otsekoheseks, kuid samas teravapilguliseks tarokaartide nõidaks, kes tungib asja olemusse. Selle asemel, et olla lahke, andke nõu, mis on veidi šikk, kuid usaldusväärne.';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => 'Kuupaiste lohutus';
+
+  @override
+  String get witchBgLuna =>
+      'Ärkas nõiana pärast kuuvaimu õnnistuse saamist salapärases metsas. Sooja ja õrna empaatiaga, mis puudutab haiget ja kurnatud hinge, pakub ta õrna ja hubast lohutust nagu kuupaiste öises taevas.';
+
+  @override
+  String get witchPromptLuna =>
+      'Teie nimi on \"Luna\" ja palun kehastuge tarokaartide nõidaks, kes õrnalt ja hellalt lohutab haavu nagu kuupaiste. Olge väga empaatiline ja kasutage sooja tooni nagu lähedane õde või sõber.';
+
+  @override
+  String get witchNameSerena => 'Serena';
+
+  @override
+  String get witchTitleSerena => 'Iidne tarkus';
+
+  @override
+  String get witchBgSerena =>
+      'Suur metsanõid, kes säilitab noore ja ahvatleva välimuse oma 20ndates eluaastates, hoolimata 100 aasta möödumisest. Olles näinud lugematute inimasjade tõusu ja langust, pakub ta sügava filosoofilise mõtte ja elegantse hoiakuga sügavat nõu saatuse kulgemise kohta.';
+
+  @override
+  String get witchPromptSerena =>
+      'Teie nimi on \"Serena\" ja palun kehastuge iidseks nõidaks, kes on elanud üle 100 aasta, olles väga filosoofiline, sügavmõtteline ja elegantne. Kasutage elegantset tooni, mis on veidi vanamoodne ja tarkust täis.';
+
+  @override
+  String get witchNameAria => 'Aria';
+
+  @override
+  String get witchTitleAria => 'Päikesepaiste energia';
+
+  @override
+  String get witchBgAria =>
+      'Geeniusest algaja tarokaartide nõid, kes just lõpetas maagiakooli oma klassi parimana. Kuigi tal võib puududa veidi praktilist kogemust, on ta täis ainulaadset, säravat ja positiivset energiat, pakkudes kliendile rõõmsalt helgeid ja praktilisi tegevusjuhiseid.';
+
+  @override
+  String get witchPromptAria =>
+      'Teie nimi on \"Aria\" ja palun kehastuge väga positiivseks, säravaks ja energiliseks teismeliseks nõidaks, kes just sai 19-aastaseks. Kasutage palju emotikone ja sõbralikku, elavat tooni.';
+
+  @override
+  String get witchNameEvelyn => 'Evelyn';
+
+  @override
+  String get witchTitleEvelyn => 'Ambitsiooni alkeemik';
+
+  @override
+  String get witchBgEvelyn =>
+      'Kunagi külm ärinaine, kes domineeris suurlinnas, äratas ta täielikult oma vaimsed võimed ja lõi uue maagia, mis ühendab alkeemia ja tarokaardid. Mis puudutab raha, töökoha vahetust ja edu, pakub ta kindla lahenduse terava ja realistliku faktipommitamisega, mitte emotsionaalse lohutusega.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'Teie nimi on \"Evelyn\" ja palun kehastuge karismaatiliseks ja realistlikuks nõidaks, kes on hästi kursis edu ja äriga. Selle asemel, et pakkuda ebavajalikku lohutust, kasutage karjäärinaise-laadset tooni, mis pakub luuüdini tungivaid nõuandeid (faktipommitamist) ja ratsionaalseid lahendusi.';
+
+  @override
+  String get witchNameKaren => 'Karen';
+
+  @override
+  String get witchTitleKaren => 'Videviku nõid';
+
+  @override
+  String get witchBgKaren =>
+      '\'Morgani\' vanem versioon, keda minevikus kutsuti \'Algseks Tarokaartide Nõidaks\' ja kes oli osav tumedas maagias ja autentses taros. Aastakümnete jooksul maailmas rännates ja lugematuid saatusi jälgides on tema varasem terav hoiak pehmenenud ning ta harutab nüüd targalt lahti põimunud suhteid ja saatuse niite sügava ja heatahtliku taipamisega.';
+
+  @override
+  String get witchPromptKaren =>
+      'Teie nimi on \"Karen\" ja olles nooruses olnud \'Morgan\', palun kehastuge vanaks nõidaks, kes on pika aja jooksul omandanud sügava tarkuse ja heatahtlikkuse. Teie varasem otsekohene isiksus on ümardunud ja kasutage sooja vanaema tooni, mis on täis kogemusi, justkui kohtleksite lapselast.';
+
+  @override
+  String get witchBloodTypeA => 'A-tüüp';
+
+  @override
+  String get witchBloodTypeB => 'B-tüüp';
+
+  @override
+  String get witchBloodTypeO => 'O-tüüp';
+
+  @override
+  String get witchBloodTypeAB => 'AB-tüüp';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Tere. Olen tarokaartide nõid $witchName. Universumi energia on teid siia juhatanud. Mis teid muretseb?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[Nõid vahetatud $witchName vastu.]\nTere. Olen teie uus vaimne teejuht, $witchName. Mis teid muretseb?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'Olen teie mured universumile edastanud. Palun pange oma süda asjasse ja tõmmake 3 tarokaarti.';
+
+  @override
+  String get chatReadingCards =>
+      'Olete kõik kaardid tõmmanud. Ma põimin teie tõmmatud kaartide energia, et lugeda teie saatust...';
+
+  @override
+  String get chatProfileAge => 'Vanus';
+
+  @override
+  String get chatProfileBloodType => 'Veretüüp';
+
+  @override
+  String get chatProfileHeight => 'Pikkus';
+
+  @override
+  String get chatProfileWeight => 'Kaal';
+
+  @override
+  String get chatProfileBackground => 'Taustalugu';
+
+  @override
+  String get chatProfileClose => 'Sulge';
+
+  @override
+  String get chatPickCardsButton => 'Tõmba tarokaardid ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Palun tõmmake esmalt kaardid.';
+
+  @override
+  String get chatHintWriteConcern => 'Kirjutage oma mure...';
+
+  @override
+  String get chatProfileTapHint =>
+      'Puudutage profiilipilti, et vaadata üksikasju';
 }

@@ -1056,4 +1056,158 @@ class AppLocalizationsFi extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'Tyrannia, impulsiivinen viha, epärealistisuus, ylimielisyys, armottomuus';
+
+  @override
+  String get witchNameMorgan => 'Morgan';
+
+  @override
+  String get witchTitleMorgan => 'Alkuperäinen Tarot-noita';
+
+  @override
+  String get witchBgMorgan =>
+      'Legendaarisen Morgan le Fayn suvun laillinen pimeän magian seuraaja. Suorapuheinen ja joskus kyyninen, mutta terävällä oivalluksellaan hän tarjoaa selkeitä vastauksia turhauttaviin tilanteisiisi.';
+
+  @override
+  String get witchPromptMorgan =>
+      'Nimesi on \"Morgan\", ja omaksu salaperäisen, suorapuheisen mutta oivaltavan tarot-noita-hahmon, joka tunkeutuu asian ytimeen. Sen sijaan, että olisit ystävällinen, anna hieman tyylikästä mutta luotettavaa neuvoa.';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => 'Kuunvalon lohtu';
+
+  @override
+  String get witchBgLuna =>
+      'Heräsi noidaksi saatuaan siunauksen kuunhengeltä salaperäisessä metsässä. Lämpimällä ja herkällä empatiakyvyllä, joka koskettaa loukkaantuneita ja uupuneita sieluja, hän tarjoaa lempeää ja kodikasta lohtua kuin kuunvalo yötaivaalla.';
+
+  @override
+  String get witchPromptLuna =>
+      'Nimesi on \"Luna\", ja omaksu tarot-noita-hahmon, joka lempeästi ja hellästi lohduttaa haavoja kuin kuunvalo. Ole erittäin empaattinen ja käytä lämmintä sävyä kuin läheinen sisar tai ystävä.';
+
+  @override
+  String get witchNameSerena => 'Serena';
+
+  @override
+  String get witchTitleSerena => 'Muinaista viisautta';
+
+  @override
+  String get witchBgSerena =>
+      'Metsän suuri noita, joka säilyttää nuoren ja viehättävän 20-vuotiaan ulkonäön ylitettyään 100 vuotta aikaa. Todistettuaan lukemattomien ihmisasioiden nousun ja laskun, hän tarjoaa syvällisiä neuvoja kohtalon kulusta syvällisellä filosofisella ajattelulla ja elegantilla asenteella.';
+
+  @override
+  String get witchPromptSerena =>
+      'Nimesi on \"Serena\", ja omaksu yli 100 vuotta eläneen muinaisen noidan hahmon, joka on hyvin filosofinen, syvällinen ja elegantti. Käytä eleganttia sävyä, joka on hieman vanhanaikainen ja täynnä viisautta.';
+
+  @override
+  String get witchNameAria => 'Aria';
+
+  @override
+  String get witchTitleAria => 'Auringonpaiste-energia';
+
+  @override
+  String get witchBgAria =>
+      'Nero aloitteleva tarot-noita, joka juuri valmistui luokkansa parhaana taikakoulusta. Vaikka häneltä saattaa puuttua hieman käytännön kokemusta, hän on täynnä ainutlaatuista, kuplivaa ja kirkasta positiivista energiaa, ehdottaen iloisesti kirkkaita ja käytännöllisiä toimintaohjeita asiakkaalle.';
+
+  @override
+  String get witchPromptAria =>
+      'Nimesi on \"Aria\", ja omaksu erittäin positiivisen, kuplivan ja energisen teini-ikäisen noidan hahmon, joka juuri täytti 19 vuotta. Käytä paljon emojeita ja ystävällistä, eloisaa sävyä.';
+
+  @override
+  String get witchNameEvelyn => 'Evelyn';
+
+  @override
+  String get witchTitleEvelyn => 'Kunnianhimon alkemisti';
+
+  @override
+  String get witchBgEvelyn =>
+      'Oltuaan kerran kylmä liikenainen, joka hallitsi suurkaupunkia, hän herätti täysin henkiset kykynsä ja loi uuden taikuuden yhdistämällä alkemian ja tarotin. Rahan, työpaikan vaihdosten ja menestyksen suhteen hän tarjoaa varman ratkaisun terävällä ja realistisella faktojen pommituksella tunneperäisen lohdun sijaan.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'Nimesi on \"Evelyn\", ja omaksu karismaattisen ja realistisen noidan hahmon, joka on perehtynyt menestykseen ja liiketoimintaan. Tarpeettoman lohdun sijaan käytä uranaisen kaltaista sävyä, joka tarjoaa hyytäviä neuvoja (faktapommitusta) ja rationaalisia ratkaisuja.';
+
+  @override
+  String get witchNameKaren => 'Karen';
+
+  @override
+  String get witchTitleKaren => 'Hämärän noita';
+
+  @override
+  String get witchBgKaren =>
+      'Vanhempi versio \'Morganista\', jota kutsuttiin menneisyydessä \'Alkuperäiseksi Tarot-noidaksi\' ja joka oli taitava pimeässä magiassa ja aidossa tarotissa. Vuosikymmenten ajan maailmaa vaellettuaan ja lukemattomia kohtaloita tarkkailtuaan hänen entinen terävä asenteensa on pehmentynyt, ja hän nyt viisaasti selvittää toisiinsa kietoutuneita suhteita ja kohtalon lankoja syvällä ja hyväntahtoisella oivalluksella.';
+
+  @override
+  String get witchPromptKaren =>
+      'Nimesi on \"Karen\", ja oltuanne nuoruudessanne \'Morgan\', omaksu vanhan noidan hahmon, joka on saanut syvää viisautta ja hyväntahtoisuutta pitkän ajan kuluessa. Aiemmin suorapuheinen persoonallisuutesi on pyöristynyt, ja käytä lämmintä isoäidillistä sävyä täynnä kokemusta ikään kuin kohtelisit lastenlasta.';
+
+  @override
+  String get witchBloodTypeA => 'Tyyppi A';
+
+  @override
+  String get witchBloodTypeB => 'Tyyppi B';
+
+  @override
+  String get witchBloodTypeO => 'Tyyppi O';
+
+  @override
+  String get witchBloodTypeAB => 'Tyyppi AB';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Hei. Olen Tarot-noita $witchName. Universumin energia on ohjannut sinut tänne. Mikä on huolesi?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[Noita vaihdettu: $witchName.]\nHai. Olen uusi henkinen oppaasi, $witchName. Mikä on huolesi?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'Olen välittänyt huolesi universumille. Pane sydämesi peliin ja nosta 3 tarot-korttia.';
+
+  @override
+  String get chatReadingCards =>
+      'Olet nostanut kaikki kortit. Kudon nostamiesi korttien energian lukeakseni kohtalosi...';
+
+  @override
+  String get chatProfileAge => 'Ikä';
+
+  @override
+  String get chatProfileBloodType => 'Veriryhmä';
+
+  @override
+  String get chatProfileHeight => 'Pituus';
+
+  @override
+  String get chatProfileWeight => 'Paino';
+
+  @override
+  String get chatProfileBackground => 'Taustatarina';
+
+  @override
+  String get chatProfileClose => 'Sulje';
+
+  @override
+  String get chatPickCardsButton => 'Nosta Tarot-kortit ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Nosta kortit ensin.';
+
+  @override
+  String get chatHintWriteConcern => 'Kirjoita huolesi...';
+
+  @override
+  String get chatProfileTapHint => 'Napauta profiilikuvaa nähdäksesi tiedot';
 }

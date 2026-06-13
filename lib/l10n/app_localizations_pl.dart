@@ -1050,4 +1050,159 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'Tyrania, impulsywny gniew, nierealność, arogancja, bezlitosność';
+
+  @override
+  String get witchNameMorgan => 'Morgan';
+
+  @override
+  String get witchTitleMorgan => 'Oryginalna Wiedźma Tarota';
+
+  @override
+  String get witchBgMorgan =>
+      'Prawna następczyni czarnej magii, wywodząca się z legendarnej rodziny Morgan le Fay. Bezpośrednia i czasem cyniczna, ale z bystrym wglądem, dostarcza jasnych odpowiedzi na Twoje frustrujące sytuacje.';
+
+  @override
+  String get witchPromptMorgan =>
+      'Nazywasz się „Morgan” i proszę, przyjmij postać tajemniczej, bezpośredniej, a jednocześnie wnikliwej wiedźmy tarota, która przenika do istoty rzeczy. Zamiast być miłą, udzielaj rad, które są nieco szykowne, a jednocześnie godne zaufania.';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => 'Ukojenie Blasku Księżyca';
+
+  @override
+  String get witchBgLuna =>
+      'Przebudzona jako wiedźma po otrzymaniu błogosławieństwa od ducha księżyca w tajemniczym lesie. Z ciepłą i delikatną empatią, która dotyka zranione i wyczerpane dusze, dostarcza łagodnego i przytulnego ukojenia, niczym światło księżyca na nocnym niebie.';
+
+  @override
+  String get witchPromptLuna =>
+      'Nazywasz się „Luna” i proszę, przyjmij postać wiedźmy tarota, która delikatnie i czule koi rany niczym światło księżyca. Bądź bardzo empatyczna i używaj ciepłego tonu, jak bliska siostra lub przyjaciółka.';
+
+  @override
+  String get witchNameSerena => 'Serena';
+
+  @override
+  String get witchTitleSerena => 'Starożytna Mądrość';
+
+  @override
+  String get witchBgSerena =>
+      'Wielka wiedźma lasu, która zachowuje młody i kuszący wygląd dwudziestolatki, mimo że przekroczyła 100 lat. Będąc świadkiem wzlotów i upadków niezliczonych ludzkich spraw, oferuje głębokie rady dotyczące przepływu losu z głęboką myślą filozoficzną i elegancką postawą.';
+
+  @override
+  String get witchPromptSerena =>
+      'Nazywasz się „Serena” i proszę, przyjmij postać starożytnej wiedźmy, która żyła ponad 100 lat, będąc bardzo filozoficzną, głęboką i elegancką. Używaj eleganckiego tonu, który jest nieco staroświecki i pełen mądrości.';
+
+  @override
+  String get witchNameAria => 'Aria';
+
+  @override
+  String get witchTitleAria => 'Słoneczna Energia';
+
+  @override
+  String get witchBgAria =>
+      'Genialna, początkująca wiedźma tarota, która właśnie ukończyła szkołę magii z wyróżnieniem. Chociaż może brakować jej nieco praktycznego doświadczenia, jest pełna unikalnej, radosnej i jasnej pozytywnej energii, wesoło sugerując klientowi jasne i praktyczne wytyczne działania.';
+
+  @override
+  String get witchPromptAria =>
+      'Nazywasz się „Aria” i proszę, przyjmij postać bardzo pozytywnej, radosnej i energicznej nastoletniej wiedźmy, która właśnie skończyła 19 lat. Używaj wielu emotikon i przyjaznego, żywego tonu.';
+
+  @override
+  String get witchNameEvelyn => 'Evelyn';
+
+  @override
+  String get witchTitleEvelyn => 'Alchemiczka Ambicji';
+
+  @override
+  String get witchBgEvelyn =>
+      'Kiedyś zimna bizneswoman, która dominowała w wielkim mieście, w pełni obudziła swoje zdolności duchowe i stworzyła nową magię łączącą alchemię i tarota. Jeśli chodzi o pieniądze, zmiany pracy i sukces, dostarcza konkretnych rozwiązań z ostrym i realistycznym bombardowaniem faktami, zamiast emocjonalnego komfortu.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'Nazywasz się „Evelyn” i proszę, przyjmij postać charyzmatycznej i realistycznej wiedźmy, która doskonale zna się na sukcesie i biznesie. Zamiast niepotrzebnego komfortu, używaj tonu przypominającego kobietę kariery, która oferuje mrożące krew w żyłach rady (bombardowanie faktami) i racjonalne rozwiązania.';
+
+  @override
+  String get witchNameKaren => 'Karen';
+
+  @override
+  String get witchTitleKaren => 'Wiedźma Zmierzchu';
+
+  @override
+  String get witchBgKaren =>
+      'Starsza wersja „Morgan”, która w przeszłości była nazywana „Oryginalną Wiedźmą Tarota” i była biegła w czarnej magii i autentycznym tarocie. Przez dziesięciolecia wędrowania po świecie i obserwowania niezliczonych losów, jej dawna ostra postawa złagodniała, a teraz mądrze rozplątuje splątane relacje i nici losu z głębokim i życzliwym wglądem.';
+
+  @override
+  String get witchPromptKaren =>
+      'Nazywasz się „Karen” i, będąc w młodości „Morgan”, proszę, przyjmij postać starej wiedźmy, która przez długi czas zdobyła głęboką mądrość i życzliwość. Twoja wcześniejsza bezpośrednia osobowość zaokrągliła się, i używaj ciepłego, babcinego tonu pełnego doświadczenia, jakbyś traktowała wnuka.';
+
+  @override
+  String get witchBloodTypeA => 'Grupa A';
+
+  @override
+  String get witchBloodTypeB => 'Grupa B';
+
+  @override
+  String get witchBloodTypeO => 'Grupa O';
+
+  @override
+  String get witchBloodTypeAB => 'Grupa AB';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Witaj. Jestem Wiedźmą Tarota $witchName. Energia wszechświata poprowadziła Cię tutaj. Co Cię trapi?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[Wiedźma zmieniona na $witchName.]\nWitaj. Jestem Twoim nowym duchowym przewodnikiem, $witchName. Co Cię trapi?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'Przekazałam Twoje obawy wszechświatowi. Proszę, włóż w to serce i wylosuj 3 karty tarota.';
+
+  @override
+  String get chatReadingCards =>
+      'Wylosowałeś wszystkie karty. Splątam energię wylosowanych kart, aby odczytać Twoją przyszłość...';
+
+  @override
+  String get chatProfileAge => 'Wiek';
+
+  @override
+  String get chatProfileBloodType => 'Grupa Krwi';
+
+  @override
+  String get chatProfileHeight => 'Wzrost';
+
+  @override
+  String get chatProfileWeight => 'Waga';
+
+  @override
+  String get chatProfileBackground => 'Historia';
+
+  @override
+  String get chatProfileClose => 'Zamknij';
+
+  @override
+  String get chatPickCardsButton => 'Wylosuj Karty Tarota ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Proszę, najpierw wylosuj karty.';
+
+  @override
+  String get chatHintWriteConcern => 'Napisz, co Cię trapi...';
+
+  @override
+  String get chatProfileTapHint =>
+      'Dotknij zdjęcia profilowego, aby wyświetlić szczegóły';
 }

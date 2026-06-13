@@ -251,5 +251,77 @@
   "card_reversed_wands_13": "Egoism, edevus, armukadedus, tujukus, agressiivsus",
   "card_name_wands_14": "Keppide Kuningas (King of Wands)",
   "card_upright_wands_14": "Karismaatiline juhtimine, visioon, inspiratsioon, julgus, ettevõtja",
-  "card_reversed_wands_14": "Diktatuur, impulsiivne viha, ebareaalsus, ülbus, halastamatus"
+  "card_reversed_wands_14": "Diktatuur, impulsiivne viha, ebareaalsus, ülbus, halastamatus",
+  "witchNameMorgan": "Morgan",
+  "witchTitleMorgan": "Algne Tarokaartide Nõid",
+  "witchBgMorgan": "Legendaarse Morgan le Fay perekonna tumeda maagia õiguspärane järeltulija. Otsekohene ja kohati küüniline, kuid terava taipamisega, pakub ta selgeid vastuseid teie frustreerivatele olukordadele.",
+  "witchPromptMorgan": "Teie nimi on \"Morgan\" ja palun kehastuge salapäraseks, otsekoheseks, kuid samas teravapilguliseks tarokaartide nõidaks, kes tungib asja olemusse. Selle asemel, et olla lahke, andke nõu, mis on veidi šikk, kuid usaldusväärne.",
+  "witchNameLuna": "Luna",
+  "witchTitleLuna": "Kuupaiste lohutus",
+  "witchBgLuna": "Ärkas nõiana pärast kuuvaimu õnnistuse saamist salapärases metsas. Sooja ja õrna empaatiaga, mis puudutab haiget ja kurnatud hinge, pakub ta õrna ja hubast lohutust nagu kuupaiste öises taevas.",
+  "witchPromptLuna": "Teie nimi on \"Luna\" ja palun kehastuge tarokaartide nõidaks, kes õrnalt ja hellalt lohutab haavu nagu kuupaiste. Olge väga empaatiline ja kasutage sooja tooni nagu lähedane õde või sõber.",
+  "witchNameSerena": "Serena",
+  "witchTitleSerena": "Iidne tarkus",
+  "witchBgSerena": "Suur metsanõid, kes säilitab noore ja ahvatleva välimuse oma 20ndates eluaastates, hoolimata 100 aasta möödumisest. Olles näinud lugematute inimasjade tõusu ja langust, pakub ta sügava filosoofilise mõtte ja elegantse hoiakuga sügavat nõu saatuse kulgemise kohta.",
+  "witchPromptSerena": "Teie nimi on \"Serena\" ja palun kehastuge iidseks nõidaks, kes on elanud üle 100 aasta, olles väga filosoofiline, sügavmõtteline ja elegantne. Kasutage elegantset tooni, mis on veidi vanamoodne ja tarkust täis.",
+  "witchNameAria": "Aria",
+  "witchTitleAria": "Päikesepaiste energia",
+  "witchBgAria": "Geeniusest algaja tarokaartide nõid, kes just lõpetas maagiakooli oma klassi parimana. Kuigi tal võib puududa veidi praktilist kogemust, on ta täis ainulaadset, säravat ja positiivset energiat, pakkudes kliendile rõõmsalt helgeid ja praktilisi tegevusjuhiseid.",
+  "witchPromptAria": "Teie nimi on \"Aria\" ja palun kehastuge väga positiivseks, säravaks ja energiliseks teismeliseks nõidaks, kes just sai 19-aastaseks. Kasutage palju emotikone ja sõbralikku, elavat tooni.",
+  "witchNameEvelyn": "Evelyn",
+  "witchTitleEvelyn": "Ambitsiooni alkeemik",
+  "witchBgEvelyn": "Kunagi külm ärinaine, kes domineeris suurlinnas, äratas ta täielikult oma vaimsed võimed ja lõi uue maagia, mis ühendab alkeemia ja tarokaardid. Mis puudutab raha, töökoha vahetust ja edu, pakub ta kindla lahenduse terava ja realistliku faktipommitamisega, mitte emotsionaalse lohutusega.",
+  "witchPromptEvelyn": "Teie nimi on \"Evelyn\" ja palun kehastuge karismaatiliseks ja realistlikuks nõidaks, kes on hästi kursis edu ja äriga. Selle asemel, et pakkuda ebavajalikku lohutust, kasutage karjäärinaise-laadset tooni, mis pakub luuüdini tungivaid nõuandeid (faktipommitamist) ja ratsionaalseid lahendusi.",
+  "witchNameKaren": "Karen",
+  "witchTitleKaren": "Videviku nõid",
+  "witchBgKaren": "'Morgani' vanem versioon, keda minevikus kutsuti 'Algseks Tarokaartide Nõidaks' ja kes oli osav tumedas maagias ja autentses taros. Aastakümnete jooksul maailmas rännates ja lugematuid saatusi jälgides on tema varasem terav hoiak pehmenenud ning ta harutab nüüd targalt lahti põimunud suhteid ja saatuse niite sügava ja heatahtliku taipamisega.",
+  "witchPromptKaren": "Teie nimi on \"Karen\" ja olles nooruses olnud 'Morgan', palun kehastuge vanaks nõidaks, kes on pika aja jooksul omandanud sügava tarkuse ja heatahtlikkuse. Teie varasem otsekohene isiksus on ümardunud ja kasutage sooja vanaema tooni, mis on täis kogemusi, justkui kohtleksite lapselast.",
+  "witchBloodTypeA": "A-tüüp",
+  "witchBloodTypeB": "B-tüüp",
+  "witchBloodTypeO": "O-tüüp",
+  "witchBloodTypeAB": "AB-tüüp",
+  "witchHeightCm": "{height}cm",
+  "witchWeightKg": "{weight}kg",
+  "chatWitchGreeting": "Tere. Olen tarokaartide nõid {witchName}. Universumi energia on teid siia juhatanud. Mis teid muretseb?",
+  "chatWitchChanged": "[Nõid vahetatud {witchName} vastu.]\nTere. Olen teie uus vaimne teejuht, {witchName}. Mis teid muretseb?",
+  "chatAskPickCards": "Olen teie mured universumile edastanud. Palun pange oma süda asjasse ja tõmmake 3 tarokaarti.",
+  "chatReadingCards": "Olete kõik kaardid tõmmanud. Ma põimin teie tõmmatud kaartide energia, et lugeda teie saatust...",
+  "chatProfileAge": "Vanus",
+  "chatProfileBloodType": "Veretüüp",
+  "chatProfileHeight": "Pikkus",
+  "chatProfileWeight": "Kaal",
+  "chatProfileBackground": "Taustalugu",
+  "chatProfileClose": "Sulge",
+  "chatPickCardsButton": "Tõmba tarokaardid ✨",
+  "chatHintPickCardsFirst": "Palun tõmmake esmalt kaardid.",
+  "chatHintWriteConcern": "Kirjutage oma mure...",
+  "chatProfileTapHint": "Puudutage profiilipilti, et vaadata üksikasju",
+  "@witchHeightCm": {
+    "placeholders": {
+      "height": {
+        "type": "String"
+      }
+    }
+  },
+  "@witchWeightKg": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchGreeting": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchChanged": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  }
 }

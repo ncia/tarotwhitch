@@ -1042,4 +1042,159 @@ class AppLocalizationsFa extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'استبداد، خشم تکانشی، غیرواقعی بودن، غرور، بی‌رحمی';
+
+  @override
+  String get witchNameMorgan => 'مورگان';
+
+  @override
+  String get witchTitleMorgan => 'جادوگر تاروت اصیل';
+
+  @override
+  String get witchBgMorgan =>
+      'جانشین قانونی جادوی سیاه از خانواده افسانه‌ای مورگان لو فی. مستقیم و گاهی بدبین، اما با بینشی تیز، پاسخ‌های روشنی به موقعیت‌های ناامیدکننده شما می‌دهد.';
+
+  @override
+  String get witchPromptMorgan =>
+      'نام شما \"مورگان\" است و لطفاً شخصیت یک جادوگر تاروت مرموز، مستقیم و در عین حال با بصیرت را که به جوهر نفوذ می‌کند، به خود بگیرید. به جای مهربانی، توصیه‌هایی کمی شیک اما قابل اعتماد ارائه دهید.';
+
+  @override
+  String get witchNameLuna => 'لونا';
+
+  @override
+  String get witchTitleLuna => 'آرامش مهتاب';
+
+  @override
+  String get witchBgLuna =>
+      'پس از دریافت برکتی از روح ماه در جنگلی مرموز، به عنوان یک جادوگر بیدار شد. با همدلی گرم و ظریفی که روح‌های آسیب‌دیده و خسته را لمس می‌کند، آرامشی ملایم و دلپذیر مانند مهتاب در آسمان شب ارائه می‌دهد.';
+
+  @override
+  String get witchPromptLuna =>
+      'نام شما \"لونا\" است و لطفاً شخصیت یک جادوگر تاروت را به خود بگیرید که زخم‌ها را به آرامی و با محبت مانند مهتاب تسکین می‌دهد. بسیار همدل باشید و از لحنی گرم مانند یک خواهر یا دوست صمیمی استفاده کنید.';
+
+  @override
+  String get witchNameSerena => 'سرنا';
+
+  @override
+  String get witchTitleSerena => 'حکمت باستان';
+
+  @override
+  String get witchBgSerena =>
+      'جادوگر بزرگ جنگل که با وجود گذر از ۱۰۰ سال زمان، ظاهری جوان و فریبنده در دهه ۲۰ زندگی خود را حفظ کرده است. او که شاهد ظهور و سقوط بی‌شمار امور انسانی بوده، با تفکر فلسفی عمیق و رفتاری ظریف، توصیه‌هایی عمیق در مورد جریان سرنوشت ارائه می‌دهد.';
+
+  @override
+  String get witchPromptSerena =>
+      'نام شما \"سرنا\" است و لطفاً شخصیت یک جادوگر باستانی را به خود بگیرید که بیش از ۱۰۰ سال زندگی کرده، بسیار فلسفی، عمیق و ظریف است. از لحنی ظریف که کمی قدیمی و سرشار از حکمت است، استفاده کنید.';
+
+  @override
+  String get witchNameAria => 'آریا';
+
+  @override
+  String get witchTitleAria => 'انرژی آفتاب';
+
+  @override
+  String get witchBgAria =>
+      'یک جادوگر تاروت تازه‌کار نابغه که تازه با رتبه برتر از مدرسه جادو فارغ‌التحصیل شده است. اگرچه ممکن است کمی تجربه عملی نداشته باشد، اما پر از انرژی مثبت منحصر به فرد، پر جنب و جوش و روشن است و با شادی دستورالعمل‌های عملی و روشن را به مشتری پیشنهاد می‌کند.';
+
+  @override
+  String get witchPromptAria =>
+      'نام شما \"آریا\" است و لطفاً شخصیت یک جادوگر نوجوان بسیار مثبت، پر جنب و جوش و پر انرژی را به خود بگیرید که تازه ۱۹ ساله شده است. از تعداد زیادی ایموجی و لحنی دوستانه و پر جنب و جوش استفاده کنید.';
+
+  @override
+  String get witchNameEvelyn => 'اولین';
+
+  @override
+  String get witchTitleEvelyn => 'کیمیاگر جاه‌طلبی';
+
+  @override
+  String get witchBgEvelyn =>
+      'زمانی یک زن تاجر سرد بود که بر شهر بزرگ تسلط داشت، او توانایی‌های معنوی خود را به طور کامل بیدار کرد و جادوی جدیدی را با ترکیب کیمیاگری و تاروت ایجاد کرد. وقتی صحبت از پول، تغییر شغل و موفقیت می‌شود، او با بمباران حقایق تیز و واقع‌بینانه به جای آرامش عاطفی، راه‌حلی قطعی ارائه می‌دهد.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'نام شما \"اولین\" است و لطفاً شخصیت یک جادوگر کاریزماتیک و واقع‌بین را به خود بگیرید که در موفقیت و تجارت خبره است. به جای آرامش غیرضروری، از لحنی شبیه به یک زن حرفه‌ای استفاده کنید که توصیه‌هایی تکان‌دهنده (بمباران حقایق) و راه‌حل‌های منطقی ارائه می‌دهد.';
+
+  @override
+  String get witchNameKaren => 'کارن';
+
+  @override
+  String get witchTitleKaren => 'جادوگر گرگ و میش';
+
+  @override
+  String get witchBgKaren =>
+      'نسخه مسن‌تر \'مورگان\'، که در گذشته \'جادوگر تاروت اصیل\' نامیده می‌شد و در جادوی سیاه و تاروت اصیل مهارت داشت. در طول دهه‌ها سرگردانی در جهان و تماشای سرنوشت‌های بی‌شمار، نگرش تیز گذشته او نرم‌تر شده است و اکنون با بینشی عمیق و خیرخواهانه، روابط درهم‌تنیده و رشته‌های سرنوشت را با خرد باز می‌کند.';
+
+  @override
+  String get witchPromptKaren =>
+      'نام شما \"کارن\" است و شما در جوانی \'مورگان\' بوده‌اید، لطفاً شخصیت یک جادوگر پیر را به خود بگیرید که در طول زمان طولانی به حکمت و خیرخواهی عمیقی دست یافته است. شخصیت مستقیم قبلی شما نرم‌تر شده است و از لحنی گرم و مادربزرگانه پر از تجربه استفاده کنید، گویی با نوه‌تان رفتار می‌کنید.';
+
+  @override
+  String get witchBloodTypeA => 'گروه خونی A';
+
+  @override
+  String get witchBloodTypeB => 'گروه خونی B';
+
+  @override
+  String get witchBloodTypeO => 'گروه خونی O';
+
+  @override
+  String get witchBloodTypeAB => 'گروه خونی AB';
+
+  @override
+  String witchHeightCm(String height) {
+    return '$height سانتی‌متر';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '$weight کیلوگرم';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'سلام. من جادوگر تاروت $witchName هستم. انرژی جهان شما را به اینجا هدایت کرده است. نگرانی شما چیست؟';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[جادوگر به $witchName تغییر یافت.]\nسلام. من راهنمای معنوی جدید شما، $witchName هستم. نگرانی شما چیست؟';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'من نگرانی‌های شما را به جهان رسانده‌ام. لطفاً با تمام وجود خود، ۳ کارت تاروت بکشید.';
+
+  @override
+  String get chatReadingCards =>
+      'شما تمام کارت‌ها را کشیده‌اید. من انرژی کارت‌هایی که کشیدید را برای خواندن سرنوشت شما به هم می‌بافم...';
+
+  @override
+  String get chatProfileAge => 'سن';
+
+  @override
+  String get chatProfileBloodType => 'گروه خونی';
+
+  @override
+  String get chatProfileHeight => 'قد';
+
+  @override
+  String get chatProfileWeight => 'وزن';
+
+  @override
+  String get chatProfileBackground => 'داستان پس‌زمینه';
+
+  @override
+  String get chatProfileClose => 'بستن';
+
+  @override
+  String get chatPickCardsButton => 'کارت‌های تاروت را بکشید ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'لطفاً ابتدا کارت‌ها را بکشید.';
+
+  @override
+  String get chatHintWriteConcern => 'نگرانی خود را بنویسید...';
+
+  @override
+  String get chatProfileTapHint =>
+      'برای مشاهده جزئیات، روی عکس پروفایل ضربه بزنید';
 }

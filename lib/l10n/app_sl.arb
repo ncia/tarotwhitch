@@ -251,5 +251,77 @@
   "card_reversed_wands_13": "Egoizem, želja po razkazovanju, ljubosumje, muhavost, agresivnost",
   "card_name_wands_14": "Kralj palic (King of Wands)",
   "card_upright_wands_14": "Karizmatično vodstvo, vizija, navdih, drznost, podjetnik",
-  "card_reversed_wands_14": "Diktatura, impulzivna jeza, nerealnost, aroganca, nepopustljivost"
+  "card_reversed_wands_14": "Diktatura, impulzivna jeza, nerealnost, aroganca, nepopustljivost",
+  "witchNameMorgan": "Morgan",
+  "witchTitleMorgan": "Izvirna tarot čarovnica",
+  "witchBgMorgan": "Legitimna naslednica temne magije, ki sledi legendarni družini Morgan le Fay. Neposredna in včasih cinična, a z ostrim vpogledom, ponuja jasne odgovore na vaše frustrirajoče situacije.",
+  "witchPromptMorgan": "Tvoje ime je \"Morgan\", in prosim, prevzemi osebnost skrivnostne, neposredne, a pronicljive tarot čarovnice, ki prodira v bistvo. Namesto da bi bila prijazna, dajaj nasvete, ki so rahlo šik, a vredni zaupanja.",
+  "witchNameLuna": "Luna",
+  "witchTitleLuna": "Udobje mesečine",
+  "witchBgLuna": "Prebudila se je kot čarovnica, potem ko je v skrivnostnem gozdu prejela blagoslov mesečnega duha. S toplo in nežno empatijo, ki se dotakne ranjenih in izčrpanih duš, prinaša nežno in prijetno udobje kot mesečina na nočnem nebu.",
+  "witchPromptLuna": "Tvoje ime je \"Luna\", in prosim, prevzemi osebnost tarot čarovnice, ki nežno in ljubeče tolaži rane kot mesečina. Bodi zelo empatična in uporabljaj topel ton kot bližnja sestra ali prijateljica.",
+  "witchNameSerena": "Serena",
+  "witchTitleSerena": "Starodavna modrost",
+  "witchBgSerena": "Velika gozdna čarovnica, ki ohranja mladosten in privlačen videz v svojih 20-ih, kljub temu, da je presegla 100 let časa. Ker je bila priča vzponu in padcu neštetih človeških zadev, ponuja globoke nasvete o toku usode z globokim filozofskim razmišljanjem in elegantnim odnosom.",
+  "witchPromptSerena": "Tvoje ime je \"Serena\", in prosim, prevzemi osebnost starodavne čarovnice, ki je živela več kot 100 let, je zelo filozofska, globoka in elegantna. Uporabljaj eleganten ton, ki je rahlo staromoden in poln modrosti.",
+  "witchNameAria": "Aria",
+  "witchTitleAria": "Sončna energija",
+  "witchBgAria": "Genialna novinka tarot čarovnica, ki je pravkar diplomirala z odliko na čarovniški šoli. Čeprav ji morda manjka nekaj praktičnih izkušenj, je polna edinstvene, živahne in svetle pozitivne energije, ki stranki veselo predlaga svetle in praktične smernice za delovanje.",
+  "witchPromptAria": "Tvoje ime je \"Aria\", in prosim, prevzemi osebnost zelo pozitivne, živahne in energične najstniške čarovnice, ki je pravkar dopolnila 19 let. Uporabljaj veliko emojijev in prijazen, živahen ton.",
+  "witchNameEvelyn": "Evelyn",
+  "witchTitleEvelyn": "Alkemičarka ambicij",
+  "witchBgEvelyn": "Nekoč hladna poslovna ženska, ki je dominirala v velikem mestu, je popolnoma prebudila svoje duhovne sposobnosti in ustvarila novo magijo, ki združuje alkimijo in tarot. Ko gre za denar, spremembe službe in uspeh, ponuja dokončno rešitev z ostrim in realističnim 'bombardiranjem dejstev' namesto čustvenega udobja.",
+  "witchPromptEvelyn": "Tvoje ime je \"Evelyn\", in prosim, prevzemi osebnost karizmatične in realistične čarovnice, ki je dobro podkovana v uspehu in poslu. Namesto nepotrebnega udobja, uporabljaj ton poslovne ženske, ki ponuja srhljive nasvete ('bombardiranje dejstev') in racionalne rešitve.",
+  "witchNameKaren": "Karen",
+  "witchTitleKaren": "Čarovnica somraka",
+  "witchBgKaren": "Starejša različica 'Morgan', ki so jo v preteklosti imenovali 'Izvirna tarot čarovnica' in je bila vešča temne magije in avtentičnega tarota. Po desetletjih potovanja po svetu in opazovanja neštetih usod se je njena prejšnja ostra drža zmehčala in zdaj modro razpleta prepletene odnose in niti usode z globokim in dobrohotnim vpogledom.",
+  "witchPromptKaren": "Tvoje ime je \"Karen\", in ker si bila v mladosti 'Morgan', prosim, prevzemi osebnost stare čarovnice, ki je skozi dolgo časa pridobila globoko modrost in dobrohotnost. Tvoja prej neposredna osebnost se je zaokrožila, in uporabljaj topel babičin ton, poln izkušenj, kot da bi obravnavala vnuka.",
+  "witchBloodTypeA": "Krvna skupina A",
+  "witchBloodTypeB": "Krvna skupina B",
+  "witchBloodTypeO": "Krvna skupina O",
+  "witchBloodTypeAB": "Krvna skupina AB",
+  "witchHeightCm": "{height}cm",
+  "witchWeightKg": "{weight}kg",
+  "chatWitchGreeting": "Pozdravljeni. Sem tarot čarovnica {witchName}. Energija vesolja vas je pripeljala sem. Kaj vas skrbi?",
+  "chatWitchChanged": "[Čarovnica spremenjena v {witchName}.]\nPozdravljeni. Sem vaša nova duhovna vodnica, {witchName}. Kaj vas skrbi?",
+  "chatAskPickCards": "Vaše skrbi sem posredovala vesolju. Prosim, vložite svoje srce in izvlecite 3 tarot karte.",
+  "chatReadingCards": "Izvlekli ste vse karte. Prepletla bom energijo kart, ki ste jih izvlekli, da vam preberem usodo...",
+  "chatProfileAge": "Starost",
+  "chatProfileBloodType": "Krvna skupina",
+  "chatProfileHeight": "Višina",
+  "chatProfileWeight": "Teža",
+  "chatProfileBackground": "Zgodba ozadja",
+  "chatProfileClose": "Zapri",
+  "chatPickCardsButton": "Izvlecite tarot karte ✨",
+  "chatHintPickCardsFirst": "Prosim, najprej izvlecite karte.",
+  "chatHintWriteConcern": "Napišite svojo skrb...",
+  "chatProfileTapHint": "Tapnite sliko profila za ogled podrobnosti",
+  "@witchHeightCm": {
+    "placeholders": {
+      "height": {
+        "type": "String"
+      }
+    }
+  },
+  "@witchWeightKg": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchGreeting": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchChanged": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  }
 }

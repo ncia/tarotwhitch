@@ -18,6 +18,7 @@ class _ReadingIntroScreenState extends State<ReadingIntroScreen> with SingleTick
   late AnimationController _purpleAnimController;
   late Animation<double> _glowAnimation;
   late String _currentBackgroundImage;
+  bool _isInit = false;
 
   @override
   void initState() {
@@ -31,9 +32,16 @@ class _ReadingIntroScreenState extends State<ReadingIntroScreen> with SingleTick
     _glowAnimation = Tween<double>(begin: 0.1, end: 0.6).animate(
       CurvedAnimation(parent: _purpleAnimController, curve: Curves.easeInOutSine)
     );
-    
-    final allowedWitches = witches.where((w) => w.id == 'morgan' || w.id == 'karen').toList();
-    _currentBackgroundImage = allowedWitches[math.Random().nextInt(allowedWitches.length)].imagePath;
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (!_isInit) {
+      final allowedWitches = getLocalizedWitches(context).where((w) => w.id == 'morgan' || w.id == 'karen').toList();
+      _currentBackgroundImage = allowedWitches[math.Random().nextInt(allowedWitches.length)].imagePath;
+      _isInit = true;
+    }
   }
 
   @override

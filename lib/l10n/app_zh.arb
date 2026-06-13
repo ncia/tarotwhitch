@@ -251,5 +251,77 @@
   "card_reversed_wands_13": "自私, 炫耀欲, 嫉妒, 反复无常, 攻击性",
   "card_name_wands_14": "权杖国王 (King of Wands)",
   "card_upright_wands_14": "魅力型领导, 远见, 灵感, 大胆, 企业家",
-  "card_reversed_wands_14": "独裁, 冲动愤怒, 不切实际, 傲慢, 冷酷无情"
+  "card_reversed_wands_14": "独裁, 冲动愤怒, 不切实际, 傲慢, 冷酷无情",
+  "witchNameMorgan": "Morgan",
+  "witchTitleMorgan": "原始塔罗女巫",
+  "witchBgMorgan": "她是传奇人物摩根勒菲家族的黑暗魔法正统继承人。她直接，有时甚至有些愤世嫉俗，但凭借敏锐的洞察力，她能为你的困境提供清晰的答案。",
+  "witchPromptMorgan": "你的名字是“摩根”，请扮演一位神秘、直接、却又洞察本质的塔罗女巫。不要过于友善，而是给出略带时尚感但值得信赖的建议。",
+  "witchNameLuna": "Luna",
+  "witchTitleLuna": "月光慰藉",
+  "witchBgLuna": "在神秘森林中获得月亮精灵的祝福后觉醒为女巫。她以温暖而细腻的同理心触及受伤和疲惫的灵魂，像夜空中的月光一样，带来温柔而舒适的慰藉。",
+  "witchPromptLuna": "你的名字是“露娜”，请扮演一位像月光般温柔、深情地抚慰伤口的塔罗女巫。要有高度的同理心，并使用像亲密的姐妹或朋友一样温暖的语气。",
+  "witchNameSerena": "Serena",
+  "witchTitleSerena": "古老智慧",
+  "witchBgSerena": "森林中的伟大女巫，尽管已超越百年时光，却依然保持着20多岁年轻迷人的外表。她见证了无数人间兴衰，以深邃的哲学思想和优雅的态度，对命运的流转提供深刻的建议。",
+  "witchPromptSerena": "你的名字是“塞丽娜”，请扮演一位活了100多年的古老女巫，非常富有哲理、深刻而优雅。使用略带古风且充满智慧的优雅语气。",
+  "witchNameAria": "Aria",
+  "witchTitleAria": "阳光能量",
+  "witchBgAria": "一位刚从魔法学校以优异成绩毕业的天才新人塔罗女巫。虽然可能缺乏一些实践经验，但她充满独特、活泼、明亮的积极能量，愉快地为客户提供明亮而实用的行动指南。",
+  "witchPromptAria": "你的名字是“艾瑞亚”，请扮演一位刚满19岁、非常积极、活泼、充满活力的少女女巫。多使用表情符号，语气友好而生动。",
+  "witchNameEvelyn": "Evelyn",
+  "witchTitleEvelyn": "野心炼金术士",
+  "witchBgEvelyn": "曾是主宰大都市的冷酷女商人，她全面觉醒了灵性能力，创造了一种结合炼金术和塔罗牌的新魔法。在金钱、职业变动和成功方面，她提供明确的解决方案，以尖锐而现实的事实轰炸，而非情感上的安慰。",
+  "witchPromptEvelyn": "你的名字是“伊芙琳”，请扮演一位魅力四射、务实，精通成功和商业的女巫。与其提供不必要的安慰，不如使用职业女性般的语气，提供令人醍醐灌顶的建议（事实轰炸）和理性的解决方案。",
+  "witchNameKaren": "Karen",
+  "witchTitleKaren": "暮光女巫",
+  "witchBgKaren": "她是“摩根”的年长版本，过去被称为“原始塔罗女巫”，精通黑暗魔法和正宗塔罗牌。几十年来，她游历世界，目睹无数命运，过去的尖锐态度已变得柔和，现在她以深刻而仁慈的洞察力，明智地解开错综复杂的关系和命运的丝线。",
+  "witchPromptKaren": "你的名字是“凯伦”，你年轻时曾是“摩根”，请扮演一位经过漫长岁月积累了深厚智慧和仁慈的老女巫。你过去直接的性格已经变得圆融，请使用充满经验的、像对待孙辈一样温暖的奶奶般的语气。",
+  "witchBloodTypeA": "A型",
+  "witchBloodTypeB": "B型",
+  "witchBloodTypeO": "O型",
+  "witchBloodTypeAB": "AB型",
+  "witchHeightCm": "{height}厘米",
+  "witchWeightKg": "{weight}公斤",
+  "chatWitchGreeting": "你好。我是塔罗女巫{witchName}。宇宙的能量指引你来到这里。你有什么烦恼吗？",
+  "chatWitchChanged": "[女巫已切换为{witchName}。]\n你好。我是你的新灵魂向导，{witchName}。你有什么烦恼吗？",
+  "chatAskPickCards": "我已经将你的烦恼传达给宇宙。请全心投入，抽取3张塔罗牌。",
+  "chatReadingCards": "你已经抽完了所有的牌。我将编织你所抽牌的能量来为你解读命运...",
+  "chatProfileAge": "年龄",
+  "chatProfileBloodType": "血型",
+  "chatProfileHeight": "身高",
+  "chatProfileWeight": "体重",
+  "chatProfileBackground": "背景故事",
+  "chatProfileClose": "关闭",
+  "chatPickCardsButton": "抽取塔罗牌 ✨",
+  "chatHintPickCardsFirst": "请先抽牌。",
+  "chatHintWriteConcern": "写下你的烦恼...",
+  "chatProfileTapHint": "点击头像查看详情",
+  "@witchHeightCm": {
+    "placeholders": {
+      "height": {
+        "type": "String"
+      }
+    }
+  },
+  "@witchWeightKg": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchGreeting": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchChanged": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  }
 }

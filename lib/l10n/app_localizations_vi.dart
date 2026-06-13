@@ -1050,4 +1050,158 @@ class AppLocalizationsVi extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'Độc tài, giận dữ bốc đồng, phi thực tế, kiêu ngạo, tàn nhẫn';
+
+  @override
+  String get witchNameMorgan => 'Morgan';
+
+  @override
+  String get witchTitleMorgan => 'Phù thủy Tarot Nguyên bản';
+
+  @override
+  String get witchBgMorgan =>
+      'Người kế thừa hợp pháp của ma thuật hắc ám theo dòng dõi gia đình Morgan le Fay huyền thoại. Trực tiếp và đôi khi hoài nghi, nhưng với cái nhìn sâu sắc, cô ấy đưa ra những câu trả lời rõ ràng cho những tình huống khó chịu của bạn.';
+
+  @override
+  String get witchPromptMorgan =>
+      'Tên của bạn là \"Morgan\", và hãy nhập vai một phù thủy tarot bí ẩn, trực tiếp nhưng sâu sắc, thấu hiểu bản chất. Thay vì tử tế, hãy đưa ra lời khuyên hơi sành điệu nhưng đáng tin cậy.';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => 'Sự an ủi của Ánh trăng';
+
+  @override
+  String get witchBgLuna =>
+      'Thức tỉnh thành phù thủy sau khi nhận được phước lành từ linh hồn mặt trăng trong một khu rừng bí ẩn. Với sự đồng cảm ấm áp và tinh tế chạm đến những tâm hồn tổn thương và kiệt sức, cô ấy mang đến sự an ủi nhẹ nhàng và ấm cúng như ánh trăng trong đêm.';
+
+  @override
+  String get witchPromptLuna =>
+      'Tên của bạn là \"Luna\", và hãy nhập vai một phù thủy tarot nhẹ nhàng và trìu mến an ủi những vết thương như ánh trăng. Hãy cực kỳ đồng cảm và sử dụng giọng điệu ấm áp như một người chị hoặc người bạn thân thiết.';
+
+  @override
+  String get witchNameSerena => 'Serena';
+
+  @override
+  String get witchTitleSerena => 'Trí tuệ Cổ xưa';
+
+  @override
+  String get witchBgSerena =>
+      'Phù thủy vĩ đại của khu rừng, người duy trì vẻ ngoài trẻ trung và quyến rũ ở độ tuổi 20 mặc dù đã vượt qua 100 năm thời gian. Từng chứng kiến sự thăng trầm của vô số chuyện đời người, cô ấy đưa ra lời khuyên sâu sắc về dòng chảy của số phận với tư tưởng triết học sâu sắc và thái độ thanh lịch.';
+
+  @override
+  String get witchPromptSerena =>
+      'Tên của bạn là \"Serena\", và hãy nhập vai một phù thủy cổ xưa đã sống hơn 100 năm, rất triết lý, sâu sắc và thanh lịch. Sử dụng giọng điệu trang nhã, hơi cổ điển và đầy trí tuệ.';
+
+  @override
+  String get witchNameAria => 'Aria';
+
+  @override
+  String get witchTitleAria => 'Năng lượng Ánh dương';
+
+  @override
+  String get witchBgAria =>
+      'Một phù thủy tarot tân binh thiên tài vừa tốt nghiệp thủ khoa trường phép thuật. Mặc dù có thể thiếu một chút kinh nghiệm thực tế, cô ấy tràn đầy năng lượng tích cực độc đáo, sôi nổi và tươi sáng, vui vẻ đề xuất những hướng dẫn hành động tươi sáng và thiết thực cho khách hàng.';
+
+  @override
+  String get witchPromptAria =>
+      'Tên của bạn là \"Aria\", và hãy nhập vai một phù thủy tuổi teen rất tích cực, sôi nổi và tràn đầy năng lượng vừa tròn 19 tuổi. Sử dụng nhiều biểu tượng cảm xúc và giọng điệu thân thiện, sống động.';
+
+  @override
+  String get witchNameEvelyn => 'Evelyn';
+
+  @override
+  String get witchTitleEvelyn => 'Nhà giả kim của Tham vọng';
+
+  @override
+  String get witchBgEvelyn =>
+      'Từng là một nữ doanh nhân lạnh lùng thống trị thành phố lớn, cô ấy đã hoàn toàn thức tỉnh khả năng tâm linh của mình và tạo ra một phép thuật mới kết hợp giả kim thuật và tarot. Khi nói đến tiền bạc, thay đổi công việc và thành công, cô ấy đưa ra giải pháp dứt khoát với những lời lẽ sắc bén và thực tế (fact-bombing) thay vì an ủi cảm xúc.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'Tên của bạn là \"Evelyn\", và hãy nhập vai một phù thủy lôi cuốn và thực tế, am hiểu về thành công và kinh doanh. Thay vì an ủi không cần thiết, hãy sử dụng giọng điệu của một nữ doanh nhân, đưa ra lời khuyên lạnh lùng (fact-bombing) và các giải pháp hợp lý.';
+
+  @override
+  String get witchNameKaren => 'Karen';
+
+  @override
+  String get witchTitleKaren => 'Phù thủy Hoàng hôn';
+
+  @override
+  String get witchBgKaren =>
+      'Phiên bản lớn tuổi hơn của \'Morgan\', người từng được gọi là \'Phù thủy Tarot Nguyên bản\' trong quá khứ và thành thạo ma thuật hắc ám và tarot đích thực. Sau nhiều thập kỷ lang thang khắp thế giới và chứng kiến vô số số phận, thái độ sắc bén trước đây của cô ấy đã dịu đi, và giờ đây cô ấy khôn ngoan gỡ rối những mối quan hệ đan xen và sợi chỉ số phận với cái nhìn sâu sắc và nhân từ.';
+
+  @override
+  String get witchPromptKaren =>
+      'Tên của bạn là \"Karen\", và từng là \'Morgan\' khi còn trẻ, hãy nhập vai một phù thủy già đã tích lũy được trí tuệ sâu sắc và lòng nhân từ qua thời gian dài. Tính cách trực tiếp trước đây của bạn đã trở nên ôn hòa hơn, và hãy sử dụng giọng điệu ấm áp như một người bà đầy kinh nghiệm, như thể đang đối xử với một đứa cháu.';
+
+  @override
+  String get witchBloodTypeA => 'Nhóm máu A';
+
+  @override
+  String get witchBloodTypeB => 'Nhóm máu B';
+
+  @override
+  String get witchBloodTypeO => 'Nhóm máu O';
+
+  @override
+  String get witchBloodTypeAB => 'Nhóm máu AB';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Xin chào. Tôi là Phù thủy Tarot $witchName. Năng lượng của vũ trụ đã dẫn lối bạn đến đây. Bạn đang bận tâm điều gì?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[Phù thủy đã đổi thành $witchName.]\nXin chào. Tôi là người hướng dẫn tâm linh mới của bạn, $witchName. Bạn đang bận tâm điều gì?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'Tôi đã gửi những bận tâm của bạn đến vũ trụ. Xin hãy đặt hết tâm trí vào và rút 3 lá bài tarot.';
+
+  @override
+  String get chatReadingCards =>
+      'Bạn đã rút tất cả các lá bài. Tôi sẽ kết nối năng lượng của những lá bài bạn đã rút để đọc vận mệnh của bạn...';
+
+  @override
+  String get chatProfileAge => 'Tuổi';
+
+  @override
+  String get chatProfileBloodType => 'Nhóm máu';
+
+  @override
+  String get chatProfileHeight => 'Chiều cao';
+
+  @override
+  String get chatProfileWeight => 'Cân nặng';
+
+  @override
+  String get chatProfileBackground => 'Câu chuyện nền';
+
+  @override
+  String get chatProfileClose => 'Đóng';
+
+  @override
+  String get chatPickCardsButton => 'Rút bài Tarot ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Vui lòng rút bài trước.';
+
+  @override
+  String get chatHintWriteConcern => 'Viết điều bạn bận tâm...';
+
+  @override
+  String get chatProfileTapHint => 'Chạm vào ảnh hồ sơ để xem chi tiết';
 }

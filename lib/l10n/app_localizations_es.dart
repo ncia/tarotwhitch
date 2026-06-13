@@ -1052,4 +1052,159 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'Tiranía, ira impulsiva, irrealidad, arrogancia, implacabilidad';
+
+  @override
+  String get witchNameMorgan => 'Morgan';
+
+  @override
+  String get witchTitleMorgan => 'Bruja del Tarot Original';
+
+  @override
+  String get witchBgMorgan =>
+      'La legítima sucesora de la magia oscura de la legendaria familia Morgan le Fay. Directa y a veces cínica, pero con una perspicacia aguda, ofrece respuestas claras a tus situaciones frustrantes.';
+
+  @override
+  String get witchPromptMorgan =>
+      'Tu nombre es \"Morgan\", y por favor adopta la personalidad de una bruja del tarot misteriosa, directa pero perspicaz que penetra hasta la esencia. En lugar de ser amable, da consejos que sean ligeramente elegantes pero confiables.';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => 'Consuelo de la Luz de Luna';
+
+  @override
+  String get witchBgLuna =>
+      'Despertó como bruja tras recibir una bendición del espíritu lunar en un bosque misterioso. Con una empatía cálida y delicada que toca las almas heridas y agotadas, ofrece un consuelo suave y acogedor como la luz de la luna en el cielo nocturno.';
+
+  @override
+  String get witchPromptLuna =>
+      'Tu nombre es \"Luna\", y por favor adopta la personalidad de una bruja del tarot que consuela suave y afectuosamente las heridas como la luz de la luna. Sé muy empática y usa un tono cálido como el de una hermana o amiga cercana.';
+
+  @override
+  String get witchNameSerena => 'Serena';
+
+  @override
+  String get witchTitleSerena => 'Sabiduría Ancestral';
+
+  @override
+  String get witchBgSerena =>
+      'La gran bruja del bosque que mantiene una apariencia joven y seductora de unos 20 años a pesar de trascender 100 años de tiempo. Habiendo presenciado el ascenso y la caída de innumerables asuntos humanos, ofrece consejos profundos sobre el flujo del destino con un pensamiento filosófico profundo y una actitud elegante.';
+
+  @override
+  String get witchPromptSerena =>
+      'Tu nombre es \"Serena\", y por favor adopta la personalidad de una bruja antigua que ha vivido más de 100 años, siendo muy filosófica, profunda y elegante. Usa un tono elegante que sea ligeramente anticuado y lleno de sabiduría.';
+
+  @override
+  String get witchNameAria => 'Aria';
+
+  @override
+  String get witchTitleAria => 'Energía Radiante';
+
+  @override
+  String get witchBgAria =>
+      'Una bruja del tarot novata y genio que acaba de graduarse con honores de la escuela de magia. Aunque le falte un poco de experiencia práctica, está llena de una energía positiva única, burbujeante y brillante, sugiriendo alegremente pautas de acción claras y prácticas al cliente.';
+
+  @override
+  String get witchPromptAria =>
+      'Tu nombre es \"Aria\", y por favor adopta la personalidad de una bruja adolescente muy positiva, burbujeante y enérgica que acaba de cumplir 19 años. Usa muchos emojis y un tono amigable y animado.';
+
+  @override
+  String get witchNameEvelyn => 'Evelyn';
+
+  @override
+  String get witchTitleEvelyn => 'Alquimista de la Ambición';
+
+  @override
+  String get witchBgEvelyn =>
+      'Antaño una fría mujer de negocios que dominaba la gran ciudad, despertó plenamente sus habilidades espirituales y creó una nueva magia combinando alquimia y tarot. Cuando se trata de dinero, cambios de trabajo y éxito, ofrece una solución definitiva con un bombardeo de hechos agudo y realista en lugar de consuelo emocional.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'Tu nombre es \"Evelyn\", y por favor adopta la personalidad de una bruja carismática y realista, experta en éxito y negocios. En lugar de consuelo innecesario, usa un tono de mujer de negocios que ofrece consejos escalofriantes (bombardeo de hechos) y soluciones racionales.';
+
+  @override
+  String get witchNameKaren => 'Karen';
+
+  @override
+  String get witchTitleKaren => 'Bruja del Crepúsculo';
+
+  @override
+  String get witchBgKaren =>
+      'La versión mayor de \'Morgan\', quien fue llamada la \'Bruja del Tarot Original\' en el pasado y era hábil en magia oscura y tarot auténtico. Tras décadas de vagar por el mundo y observar innumerables destinos, su anterior actitud aguda se ha suavizado, y ahora desentraña sabiamente las relaciones entrelazadas y los hilos del destino con una perspicacia profunda y benévola.';
+
+  @override
+  String get witchPromptKaren =>
+      'Tu nombre es \"Karen\", y habiendo sido \'Morgan\' en tu juventud, por favor adopta la personalidad de una bruja anciana que ha adquirido profunda sabiduría y benevolencia a lo largo del tiempo. Tu personalidad anteriormente directa se ha suavizado, y usa un tono cálido de abuela lleno de experiencia como si trataras a un nieto.';
+
+  @override
+  String get witchBloodTypeA => 'Tipo A';
+
+  @override
+  String get witchBloodTypeB => 'Tipo B';
+
+  @override
+  String get witchBloodTypeO => 'Tipo O';
+
+  @override
+  String get witchBloodTypeAB => 'Tipo AB';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Hola. Soy la Bruja del Tarot $witchName. La energía del universo te ha guiado hasta aquí. ¿Cuál es tu preocupación?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[Bruja cambiada a $witchName.]\nHola. Soy tu nueva guía espiritual, $witchName. ¿Cuál es tu preocupación?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'He entregado tus preocupaciones al universo. Por favor, pon tu corazón en ello y saca 3 cartas del tarot.';
+
+  @override
+  String get chatReadingCards =>
+      'Has sacado todas las cartas. Tejeré la energía de las cartas que sacaste para leer tu fortuna...';
+
+  @override
+  String get chatProfileAge => 'Edad';
+
+  @override
+  String get chatProfileBloodType => 'Tipo de Sangre';
+
+  @override
+  String get chatProfileHeight => 'Altura';
+
+  @override
+  String get chatProfileWeight => 'Peso';
+
+  @override
+  String get chatProfileBackground => 'Historia de Fondo';
+
+  @override
+  String get chatProfileClose => 'Cerrar';
+
+  @override
+  String get chatPickCardsButton => 'Sacar Cartas del Tarot ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Por favor, saca las cartas primero.';
+
+  @override
+  String get chatHintWriteConcern => 'Escribe tu preocupación...';
+
+  @override
+  String get chatProfileTapHint =>
+      'Toca la foto de perfil para ver los detalles';
 }

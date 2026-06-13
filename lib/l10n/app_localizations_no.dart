@@ -1051,4 +1051,158 @@ class AppLocalizationsNo extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'Diktatur, impulsivt sinne, urealisme, arroganse, nådeløshet';
+
+  @override
+  String get witchNameMorgan => 'Morgan';
+
+  @override
+  String get witchTitleMorgan => 'Original Tarot-heks';
+
+  @override
+  String get witchBgMorgan =>
+      'Den legitime etterfølgeren av mørk magi etter den legendariske Morgan le Fay-familien. Direkte og noen ganger kynisk, men med skarp innsikt, gir hun klare svar på dine frustrerende situasjoner.';
+
+  @override
+  String get witchPromptMorgan =>
+      'Ditt navn er \"Morgan\", og vennligst innta personaen til en mystisk, direkte, men likevel innsiktsfull tarot-heks som trenger inn til essensen. I stedet for å være snill, gi råd som er litt elegant, men likevel pålitelig.';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => 'Måneskinnets trøst';
+
+  @override
+  String get witchBgLuna =>
+      'Våknet som heks etter å ha mottatt en velsignelse fra måneånden i en mystisk skog. Med en varm og delikat empati som berører sårede og utmattede sjeler, leverer hun mild og koselig trøst som måneskinn på nattehimmelen.';
+
+  @override
+  String get witchPromptLuna =>
+      'Ditt navn er \"Luna\", og vennligst innta personaen til en tarot-heks som forsiktig og kjærlig trøster sår som måneskinn. Vær svært empatisk og bruk en varm tone som en nær søster eller venn.';
+
+  @override
+  String get witchNameSerena => 'Serena';
+
+  @override
+  String get witchTitleSerena => 'Gammel visdom';
+
+  @override
+  String get witchBgSerena =>
+      'Den store heksen i skogen som opprettholder et ungt og forførende utseende i 20-årene til tross for at hun har overskredet 100 år. Etter å ha vært vitne til utallige menneskelige affærers oppgang og fall, tilbyr hun dype råd om skjebnens flyt med dyp filosofisk tanke og en elegant holdning.';
+
+  @override
+  String get witchPromptSerena =>
+      'Ditt navn er \"Serena\", og vennligst innta personaen til en gammel heks som har levd i over 100 år, og er svært filosofisk, dyp og elegant. Bruk en elegant tone som er litt gammeldags og full av visdom.';
+
+  @override
+  String get witchNameAria => 'Aria';
+
+  @override
+  String get witchTitleAria => 'Solskinnsenergi';
+
+  @override
+  String get witchBgAria =>
+      'En genial nybegynner-tarot-heks som nettopp har uteksaminert seg som klassens beste fra magiskolen. Selv om hun kanskje mangler litt praktisk erfaring, er hun full av unik, sprudlende og lys positiv energi, og foreslår muntert lyse og praktiske handlingsretningslinjer til klienten.';
+
+  @override
+  String get witchPromptAria =>
+      'Ditt navn er \"Aria\", og vennligst innta personaen til en veldig positiv, sprudlende og energisk tenåringsheks som nettopp har fylt 19 år. Bruk mange emojier og en vennlig, livlig tone.';
+
+  @override
+  String get witchNameEvelyn => 'Evelyn';
+
+  @override
+  String get witchTitleEvelyn => 'Ambisjonens alkymist';
+
+  @override
+  String get witchBgEvelyn =>
+      'En gang en kald forretningskvinne som dominerte storbyen, vekket hun fullt ut sine åndelige evner og skapte en ny magi som kombinerte alkymi og tarot. Når det gjelder penger, jobbskifter og suksess, gir hun en definitiv løsning med skarp og realistisk fakta-bombing snarere enn emosjonell trøst.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'Ditt navn er \"Evelyn\", og vennligst innta personaen til en karismatisk og realistisk heks som er godt bevandret i suksess og forretninger. I stedet for unødvendig trøst, bruk en karrierekvinne-aktig tone som tilbyr benharde råd (fakta-bombing) og rasjonelle løsninger.';
+
+  @override
+  String get witchNameKaren => 'Karen';
+
+  @override
+  String get witchTitleKaren => 'Skumringens heks';
+
+  @override
+  String get witchBgKaren =>
+      'Den eldre versjonen av \'Morgan\', som i fortiden ble kalt \'Den originale tarot-heksen\' og var dyktig i mørk magi og autentisk tarot. Etter tiår med å vandre verden rundt og observere utallige skjebner, har hennes tidligere skarpe holdning myknet, og hun løser nå klokt sammenfiltrede forhold og skjebnetråder med dyp og velvillig innsikt.';
+
+  @override
+  String get witchPromptKaren =>
+      'Ditt navn er \"Karen\", og etter å ha vært \'Morgan\' i din ungdom, vennligst innta personaen til en gammel heks som har oppnådd dyp visdom og velvilje over lang tid. Din tidligere direkte personlighet har rundet av, og bruk en varm bestemor-aktig tone full av erfaring som om du behandler et barnebarn.';
+
+  @override
+  String get witchBloodTypeA => 'Type A';
+
+  @override
+  String get witchBloodTypeB => 'Type B';
+
+  @override
+  String get witchBloodTypeO => 'Type O';
+
+  @override
+  String get witchBloodTypeAB => 'Type AB';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Hei. Jeg er tarot-heksen $witchName. Universets energi har ledet deg hit. Hva er din bekymring?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[Heks endret til $witchName.]\nHei. Jeg er din nye åndelige veileder, $witchName. Hva er din bekymring?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'Jeg har levert dine bekymringer til universet. Vennligst legg ditt hjerte i det og trekk 3 tarotkort.';
+
+  @override
+  String get chatReadingCards =>
+      'Du har trukket alle kortene. Jeg vil veve energien fra kortene du trakk for å lese din skjebne...';
+
+  @override
+  String get chatProfileAge => 'Alder';
+
+  @override
+  String get chatProfileBloodType => 'Blodtype';
+
+  @override
+  String get chatProfileHeight => 'Høyde';
+
+  @override
+  String get chatProfileWeight => 'Vekt';
+
+  @override
+  String get chatProfileBackground => 'Bakgrunnshistorie';
+
+  @override
+  String get chatProfileClose => 'Lukk';
+
+  @override
+  String get chatPickCardsButton => 'Trekk tarotkort ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Vennligst trekk kort først.';
+
+  @override
+  String get chatHintWriteConcern => 'Skriv din bekymring...';
+
+  @override
+  String get chatProfileTapHint => 'Trykk på profilbildet for å se detaljer';
 }

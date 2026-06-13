@@ -251,5 +251,77 @@
   "card_reversed_wands_13": "Egoizmas, pasipuikavimas, pavydas, nepastovumas, agresija",
   "card_name_wands_14": "Lazdynių Karalius (King of Wands)",
   "card_upright_wands_14": "Charizmatiška lyderystė, vizija, įkvėpimas, drąsa, verslininkas",
-  "card_reversed_wands_14": "Diktatūra, impulsyvus pyktis, nerealistiškumas, arogancija, negailestingumas"
+  "card_reversed_wands_14": "Diktatūra, impulsyvus pyktis, nerealistiškumas, arogancija, negailestingumas",
+  "witchNameMorgan": "Morgan",
+  "witchTitleMorgan": "Originali Taro Ragana",
+  "witchBgMorgan": "Legitimi tamsiosios magijos įpėdinė, sekanti legendinės Morganos le Fay šeimos pėdomis. Tiesioginė ir kartais ciniška, tačiau su aštriu įžvalgumu, ji pateikia aiškius atsakymus į jūsų varginančias situacijas.",
+  "witchPromptMorgan": "Jūsų vardas yra „Morgan“, ir prašome įkūnyti paslaptingos, tiesioginės, tačiau įžvalgios taro raganos, kuri prasiskverbia į esmę, personažą. Užuot buvusi maloni, duokite patarimų, kurie yra šiek tiek stilingi, bet patikimi.",
+  "witchNameLuna": "Luna",
+  "witchTitleLuna": "Mėnesienos paguoda",
+  "witchBgLuna": "Pabudusi kaip ragana, gavusi mėnulio dvasios palaiminimą paslaptingame miške. Su šilta ir subtilia empatija, kuri paliečia sužeistas ir išsekusias sielas, ji teikia švelnų ir jaukų paguodą, tarsi mėnesiena naktiniame danguje.",
+  "witchPromptLuna": "Jūsų vardas yra „Luna“, ir prašome įkūnyti taro raganos, kuri švelniai ir meiliai guodžia žaizdas tarsi mėnesiena, personažą. Būkite labai empatiška ir naudokite šiltą toną, tarsi artima sesuo ar draugė.",
+  "witchNameSerena": "Serena",
+  "witchTitleSerena": "Senovės išmintis",
+  "witchBgSerena": "Didžioji miško ragana, kuri išlaiko jaunatvišką ir viliojančią išvaizdą, būdama 20-ies, nepaisant to, kad peržengė 100 metų ribą. Būdama daugybės žmonių reikalų pakilimų ir nuosmukių liudininkė, ji siūlo gilius patarimus apie likimo tėkmę su gilia filosofine mintimi ir elegantiška laikysena.",
+  "witchPromptSerena": "Jūsų vardas yra „Serena“, ir prašome įkūnyti senovinės raganos, kuri gyveno daugiau nei 100 metų, personažą, būdama labai filosofiška, gili ir elegantiška. Naudokite elegantišką toną, kuris yra šiek tiek senamadiškas ir kupinas išminties.",
+  "witchNameAria": "Aria",
+  "witchTitleAria": "Saulės energija",
+  "witchBgAria": "Geniali naujokė taro ragana, ką tik baigusi magijos mokyklą su pagyrimu. Nors jai gali trūkti praktinės patirties, ji kupina unikalios, gyvybingos ir ryškios pozityvios energijos, linksmai siūlydama klientui šviesias ir praktiškas veiksmų gaires.",
+  "witchPromptAria": "Jūsų vardas yra „Aria“, ir prašome įkūnyti labai pozityvios, gyvybingos ir energingos paauglės raganos, kuriai ką tik sukako 19 metų, personažą. Naudokite daug jaustukų ir draugišką, gyvą toną.",
+  "witchNameEvelyn": "Evelyn",
+  "witchTitleEvelyn": "Ambicingumo alchemikė",
+  "witchBgEvelyn": "Kadaise šalta verslininkė, dominavusi didmiestyje, ji visiškai pažadino savo dvasinius gebėjimus ir sukūrė naują magiją, sujungiančią alchemiją ir taro. Kalbant apie pinigus, darbo pokyčius ir sėkmę, ji pateikia konkretų sprendimą su aštriu ir realistiniu faktų bombardavimu, o ne emocine paguoda.",
+  "witchPromptEvelyn": "Jūsų vardas yra „Evelyn“, ir prašome įkūnyti charizmatiškos ir realistiškos raganos, gerai išmanančios sėkmę ir verslą, personažą. Užuot teikusi nereikalingą paguodą, naudokite karjeros moters toną, siūlantį šiurpinančius patarimus (faktų bombardavimą) ir racionalių sprendimų.",
+  "witchNameKaren": "Karen",
+  "witchTitleKaren": "Sutemų ragana",
+  "witchBgKaren": "Vyresnė „Morgan“ versija, kuri anksčiau buvo vadinama „Originalia Taro Ragana“ ir buvo įgudusi tamsiojoje magijoje bei autentiškame taro. Per dešimtmečius klajojant po pasaulį ir stebint nesuskaičiuojamus likimus, jos buvęs aštrus požiūris suminkštėjo, ir dabar ji išmintingai išnarplioja susipynusius santykius ir likimo gijas su gilia ir geranoriška įžvalga.",
+  "witchPromptKaren": "Jūsų vardas yra „Karen“, ir būdama jaunystėje „Morgan“, prašome įkūnyti senos raganos, kuri per ilgą laiką įgijo gilios išminties ir geranoriškumo, personažą. Jūsų anksčiau tiesioginė asmenybė suapvalėjo, ir naudokite šiltą močiutės toną, kupiną patirties, tarsi elgtumėtės su anūku.",
+  "witchBloodTypeA": "A tipas",
+  "witchBloodTypeB": "B tipas",
+  "witchBloodTypeO": "O tipas",
+  "witchBloodTypeAB": "AB tipas",
+  "witchHeightCm": "{height}cm",
+  "witchWeightKg": "{weight}kg",
+  "chatWitchGreeting": "Sveiki. Aš esu Taro Ragana {witchName}. Visatos energija atvedė jus čia. Koks jūsų rūpestis?",
+  "chatWitchChanged": "[Ragana pakeista į {witchName}.]\nSveiki. Aš esu jūsų nauja dvasinė vadovė, {witchName}. Koks jūsų rūpestis?",
+  "chatAskPickCards": "Aš perdaviau jūsų rūpesčius visatai. Prašome įdėti savo širdį ir ištraukti 3 taro kortas.",
+  "chatReadingCards": "Jūs ištraukėte visas kortas. Aš supinsiu jūsų ištrauktų kortų energiją, kad perskaityčiau jūsų likimą...",
+  "chatProfileAge": "Amžius",
+  "chatProfileBloodType": "Kraujo grupė",
+  "chatProfileHeight": "Ūgis",
+  "chatProfileWeight": "Svoris",
+  "chatProfileBackground": "Fono istorija",
+  "chatProfileClose": "Uždaryti",
+  "chatPickCardsButton": "Traukti Taro Kortas ✨",
+  "chatHintPickCardsFirst": "Prašome pirmiausia ištraukti kortas.",
+  "chatHintWriteConcern": "Parašykite savo rūpestį...",
+  "chatProfileTapHint": "Bakstelėkite profilio nuotrauką, kad peržiūrėtumėte detales",
+  "@witchHeightCm": {
+    "placeholders": {
+      "height": {
+        "type": "String"
+      }
+    }
+  },
+  "@witchWeightKg": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchGreeting": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchChanged": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  }
 }

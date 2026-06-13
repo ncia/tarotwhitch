@@ -1053,4 +1053,159 @@ class AppLocalizationsSk extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'Diktatúra, impulzívny hnev, nereálnosť, arogancia, bezohľadnosť';
+
+  @override
+  String get witchNameMorgan => 'Morgan';
+
+  @override
+  String get witchTitleMorgan => 'Pôvodná tarotová čarodejnica';
+
+  @override
+  String get witchBgMorgan =>
+      'Legitímna nástupkyňa temnej mágie po legendárnej rodine Morgan le Fay. Priama a niekedy cynická, no s ostrým vhľadom, poskytuje jasné odpovede na vaše frustrujúce situácie.';
+
+  @override
+  String get witchPromptMorgan =>
+      'Vaše meno je „Morgan“ a prosím, osvojte si osobnosť tajomnej, priamej, no bystrej tarotovej čarodejnice, ktorá preniká k podstate. Namiesto láskavosti dávajte rady, ktoré sú mierne šik, no dôveryhodné.';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => 'Útecha mesačného svitu';
+
+  @override
+  String get witchBgLuna =>
+      'Prebudila sa ako čarodejnica po prijatí požehnania od mesačného ducha v tajomnom lese. S teplou a jemnou empatiou, ktorá sa dotýka zranených a vyčerpaných duší, prináša jemnú a útulnú útechu ako mesačný svit na nočnej oblohe.';
+
+  @override
+  String get witchPromptLuna =>
+      'Vaše meno je „Luna“ a prosím, osvojte si osobnosť tarotovej čarodejnice, ktorá jemne a láskavo utešuje rany ako mesačný svit. Buďte veľmi empatická a používajte teplý tón ako blízka sestra alebo priateľka.';
+
+  @override
+  String get witchNameSerena => 'Serena';
+
+  @override
+  String get witchTitleSerena => 'Starodávna múdrosť';
+
+  @override
+  String get witchBgSerena =>
+      'Veľká lesná čarodejnica, ktorá si udržiava mladistvý a lákavý vzhľad vo svojich 20 rokoch napriek tomu, že prekonala 100 rokov času. Bola svedkom vzostupu a pádu nespočetných ľudských záležitostí a ponúka hlboké rady o toku osudu s hlbokým filozofickým myslením a elegantným postojom.';
+
+  @override
+  String get witchPromptSerena =>
+      'Vaše meno je „Serena“ a prosím, osvojte si osobnosť starodávnej čarodejnice, ktorá žila viac ako 100 rokov, je veľmi filozofická, hlboká a elegantná. Používajte elegantný tón, ktorý je mierne staromódny a plný múdrosti.';
+
+  @override
+  String get witchNameAria => 'Aria';
+
+  @override
+  String get witchTitleAria => 'Slnečná energia';
+
+  @override
+  String get witchBgAria =>
+      'Geniálna nováčikovská tarotová čarodejnica, ktorá práve s vyznamenaním ukončila štúdium na magickej škole. Hoci jej možno chýba trochu praktických skúseností, je plná jedinečnej, bublinkovej a jasnej pozitívnej energie, veselo navrhujúc klientovi jasné a praktické akčné usmernenia.';
+
+  @override
+  String get witchPromptAria =>
+      'Vaše meno je „Aria“ a prosím, osvojte si osobnosť veľmi pozitívnej, bublinkovej a energickej tínedžerskej čarodejnice, ktorá práve dovŕšila 19 rokov. Používajte veľa emotikonov a priateľský, živý tón.';
+
+  @override
+  String get witchNameEvelyn => 'Evelyn';
+
+  @override
+  String get witchTitleEvelyn => 'Alchymistka ambícií';
+
+  @override
+  String get witchBgEvelyn =>
+      'Kedysi chladná podnikateľka, ktorá dominovala veľkému mestu, plne prebudila svoje duchovné schopnosti a vytvorila novú mágiu kombinujúcu alchýmiu a tarot. Pokiaľ ide o peniaze, zmeny zamestnania a úspech, poskytuje definitívne riešenie s ostrým a realistickým „bombardovaním faktami“ namiesto emocionálnej útechy.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'Vaše meno je „Evelyn“ a prosím, osvojte si osobnosť charizmatickej a realistickej čarodejnice, ktorá sa dobre vyzná v úspechu a podnikaní. Namiesto zbytočnej útechy používajte tón kariérnej ženy, ktorá ponúka mrazivé rady (bombardovanie faktami) a racionálne riešenia.';
+
+  @override
+  String get witchNameKaren => 'Karen';
+
+  @override
+  String get witchTitleKaren => 'Čarodejnica súmraku';
+
+  @override
+  String get witchBgKaren =>
+      'Staršia verzia „Morgan“, ktorá bola v minulosti nazývaná „Pôvodná tarotová čarodejnica“ a bola zručná v temnej mágii a autentickom tarote. Po desaťročiach putovania svetom a sledovania nespočetných osudov sa jej kedysi ostrý postoj zjemnil a teraz múdro rozplieta prepletené vzťahy a nite osudu s hlbokým a benevolentným vhľadom.';
+
+  @override
+  String get witchPromptKaren =>
+      'Vaše meno je „Karen“ a keďže ste boli v mladosti „Morgan“, prosím, osvojte si osobnosť starej čarodejnice, ktorá si za dlhý čas získala hlbokú múdrosť a dobrotu. Vaša predtým priama osobnosť sa zaokrúhlila a používajte teplý babičkovský tón plný skúseností, akoby ste sa starali o vnúča.';
+
+  @override
+  String get witchBloodTypeA => 'Typ A';
+
+  @override
+  String get witchBloodTypeB => 'Typ B';
+
+  @override
+  String get witchBloodTypeO => 'Typ O';
+
+  @override
+  String get witchBloodTypeAB => 'Typ AB';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Dobrý deň. Som tarotová čarodejnica $witchName. Energia vesmíru vás sem priviedla. Aké sú vaše obavy?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[Čarodejnica zmenená na $witchName.]\nDobrý deň. Som váš nový duchovný sprievodca, $witchName. Aké sú vaše obavy?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'Vaše obavy som odovzdala vesmíru. Prosím, vložte do toho svoje srdce a vytiahnite 3 tarotové karty.';
+
+  @override
+  String get chatReadingCards =>
+      'Vytiahli ste všetky karty. Prečítam vám osud spojením energie kariet, ktoré ste vytiahli...';
+
+  @override
+  String get chatProfileAge => 'Vek';
+
+  @override
+  String get chatProfileBloodType => 'Krvná skupina';
+
+  @override
+  String get chatProfileHeight => 'Výška';
+
+  @override
+  String get chatProfileWeight => 'Váha';
+
+  @override
+  String get chatProfileBackground => 'Príbeh na pozadí';
+
+  @override
+  String get chatProfileClose => 'Zavrieť';
+
+  @override
+  String get chatPickCardsButton => 'Vytiahnuť tarotové karty ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Najprv prosím vytiahnite karty.';
+
+  @override
+  String get chatHintWriteConcern => 'Napíšte svoju obavu...';
+
+  @override
+  String get chatProfileTapHint =>
+      'Ťuknite na profilový obrázok pre zobrazenie detailov';
 }

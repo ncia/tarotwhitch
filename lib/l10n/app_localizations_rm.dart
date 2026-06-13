@@ -1053,4 +1053,159 @@ class AppLocalizationsRm extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'Dictatura, rabia impulsiva, irealitad, arroganza, mancanza da misericordia';
+
+  @override
+  String get witchNameMorgan => 'Morgan';
+
+  @override
+  String get witchTitleMorgan => 'Stria da Tarot Originala';
+
+  @override
+  String get witchBgMorgan =>
+      'La successura legitima da la magia stgira suenter la legendara famiglia Morgan le Fay. Directa e mintgatant cinica, ma cun in\'enconuschientscha profunda, ella porscha respostas cleras a Vossas situaziuns frustrantas.';
+
+  @override
+  String get witchPromptMorgan =>
+      'Voss num è \"Morgan\", e per plaschair surpigliain la persuna d\'ina stria da tarot misteriusa, directa, ma perspicaza che penetrescha a l\'essenza. Enstagl d\'esser buna, dain cussegls che èn in pau chic ma fidels.';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => 'Confort da la Glina';
+
+  @override
+  String get witchBgLuna =>
+      'Svegliada sco stria suenter avair retschet ina benedicziun dal spiert da la glina en ina misteriusa selva. Cun in\'empatia chauda e delicata che tutga olmas blessadas e stanchentadas, ella porscha in confort dultsch e agreabel sco la glina en il tschiel da notg.';
+
+  @override
+  String get witchPromptLuna =>
+      'Voss num è \"Luna\", e per plaschair surpigliain la persuna d\'ina stria da tarot che conforta dultsch e cun affecziun blessuras sco la glina. Sii fitg empatica ed utilisai in tun chaud sco ina sora u amia stretga.';
+
+  @override
+  String get witchNameSerena => 'Serena';
+
+  @override
+  String get witchTitleSerena => 'Sapientscha Antica';
+
+  @override
+  String get witchBgSerena =>
+      'La gronda stria da la selva che mantegna in\'apparientscha giuvna ed attractiva en ses 20 onns malgrà ch\'ella ha surpassà 100 onns da temp. Avend vis l\'ascensiun e la crudada da nundumbraivels affars umans, ella porscha cussegls profunds davart il fluss dal destin cun in pensament filosofic profund ed in\'attituda eleganta.';
+
+  @override
+  String get witchPromptSerena =>
+      'Voss num è \"Serena\", e per plaschair surpigliain la persuna d\'ina stria antica che ha vivì sur 100 onns, essend fitg filosofica, profunda ed eleganta. Utilisai in tun elegant che è in pau antiquà e plain sapientscha.';
+
+  @override
+  String get witchNameAria => 'Aria';
+
+  @override
+  String get witchTitleAria => 'Energia dal Sol';
+
+  @override
+  String get witchBgAria =>
+      'Ina stria da tarot giuvna e geniala che ha gist terminà ses studi sco la meglra da sia classa da la scola da magia. Malgrà ch\'ella pudess mancar in pau d\'experientscha pratica, ella è plain energia positiva unica, vivazza e clera, proponend cun allegria directivas d\'acziun cleras e praticas al client.';
+
+  @override
+  String get witchPromptAria =>
+      'Voss num è \"Aria\", e per plaschair surpigliain la persuna d\'ina stria giuvna fitg positiva, vivazza ed energetica che ha gist fatg 19 onns. Utilisai blers emojis ed in tun amiaivel e viv.';
+
+  @override
+  String get witchNameEvelyn => 'Evelyn';
+
+  @override
+  String get witchTitleEvelyn => 'Alchimista da l\'Ambiziun';
+
+  @override
+  String get witchBgEvelyn =>
+      'Enzian ina dunna d\'affars fraida che dominava la gronda citad, ella ha sveglià cumplettamain sias abilitads spiritualas e creà ina nova magia che combina alchemia e tarot. Cura ch\'i va per daners, midaments da lavur e success, ella porscha ina schliaziun definitiva cun in \'fact-bombing\' acut e realistic enstagl da confort emoziunal.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'Voss num è \"Evelyn\", e per plaschair surpigliain la persuna d\'ina stria carismatica e realistica che è bain versada en success ed affars. Enstagl da confort nunnecessari, utilisai in tun sco ina dunna da carriera che porscha cussegls che van sut la pel (fact-bombing) e schliaziuns raziunalas.';
+
+  @override
+  String get witchNameKaren => 'Karen';
+
+  @override
+  String get witchTitleKaren => 'Stria dal Crepuschel';
+
+  @override
+  String get witchBgKaren =>
+      'La versiun pli veglia da \'Morgan\', che vegniva numnada la \'Stria da Tarot Originala\' en il passà ed era versada en magia stgira e tarot autentic. Sur decennis da viagiar il mund e d\'observar nundumbraivels destins, sia attituda acuta dal passà è sa dultschida, ed ella schlia ussa cun sapientscha relaziuns entretschadas e fils dal destin cun in\'enconuschientscha profunda e benevola.';
+
+  @override
+  String get witchPromptKaren =>
+      'Voss num è \"Karen\", e suenter esser stada \'Morgan\' en Vossa giuventetgna, per plaschair surpigliain la persuna d\'ina veglia stria che ha gudagnà sapientscha profunda e benevolenza sur in lung temp. Vossa persunalitad directiva da pli baud è sa radundada, ed utilisai in tun chaud da tatta plain experientscha sco sch\'ella tractass in nev u ina nezza.';
+
+  @override
+  String get witchBloodTypeA => 'Tip A';
+
+  @override
+  String get witchBloodTypeB => 'Tip B';
+
+  @override
+  String get witchBloodTypeO => 'Tip O';
+
+  @override
+  String get witchBloodTypeAB => 'Tip AB';
+
+  @override
+  String witchHeightCm(String height) {
+    return '$height cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '$weight kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Allegra. Jau sun la stria da Tarot $witchName. L\'energia da l\'univers Vus ha manà qua. Tge è Vossa preoccupaziun?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[Stria midada a $witchName.]\nAllegra. Jau sun Vossa nova guida spirituala, $witchName. Tge è Vossa preoccupaziun?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'Jau hai surdà Vossas preoccupaziuns a l\'univers. Per plaschair mettai Voss cor en quai e tscherni 3 cartas da tarot.';
+
+  @override
+  String get chatReadingCards =>
+      'Vus avais tschernì tut las cartas. Jau vegn a tessair l\'energia da las cartas che Vus avais tschernì per leger Vossa fortuna...';
+
+  @override
+  String get chatProfileAge => 'Età';
+
+  @override
+  String get chatProfileBloodType => 'Gruppa sanguina';
+
+  @override
+  String get chatProfileHeight => 'Autezza';
+
+  @override
+  String get chatProfileWeight => 'Pais';
+
+  @override
+  String get chatProfileBackground => 'Istorgia da fund';
+
+  @override
+  String get chatProfileClose => 'Serrar';
+
+  @override
+  String get chatPickCardsButton => 'Tschernir cartas da Tarot ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Per plaschair tscherni emprim cartas.';
+
+  @override
+  String get chatHintWriteConcern => 'Scrivai Vossa preoccupaziun...';
+
+  @override
+  String get chatProfileTapHint =>
+      'Tschappai l\'image dal profil per vesair detagls';
 }

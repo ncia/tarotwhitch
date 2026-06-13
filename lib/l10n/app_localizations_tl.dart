@@ -1067,4 +1067,159 @@ class AppLocalizationsTl extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'Diktadura, impulsive na galit, irealidad, kayabangan, kawalang-awa';
+
+  @override
+  String get witchNameMorgan => 'Morgan';
+
+  @override
+  String get witchTitleMorgan => 'Orihinal na Tarot Witch';
+
+  @override
+  String get witchBgMorgan =>
+      'Ang lehitimong tagapagmana ng itim na mahika mula sa maalamat na pamilya ni Morgan le Fay. Direkta at minsan ay mapanukso, ngunit may matalas na pananaw, nagbibigay siya ng malinaw na sagot sa iyong mga nakakabigong sitwasyon.';
+
+  @override
+  String get witchPromptMorgan =>
+      'Ang pangalan mo ay \"Morgan\", at mangyaring gampanan ang pagkatao ng isang misteryoso, direkta, ngunit mapanuring tarot witch na tumatagos sa esensya. Sa halip na maging mabait, magbigay ng payo na medyo matikas ngunit mapagkakatiwalaan.';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => 'Kaginhawaan ng Liwanag ng Buwan';
+
+  @override
+  String get witchBgLuna =>
+      'Nagising bilang isang mangkukulam matapos makatanggap ng basbas mula sa espiritu ng buwan sa isang misteryosong kagubatan. Sa isang mainit at maselang empatiya na humahaplos sa mga nasaktan at pagod na kaluluwa, naghahatid siya ng banayad at komportableng kaginhawaan tulad ng liwanag ng buwan sa kalangitan sa gabi.';
+
+  @override
+  String get witchPromptLuna =>
+      'Ang pangalan mo ay \"Luna\", at mangyaring gampanan ang pagkatao ng isang tarot witch na banayad at buong pagmamahal na nagpapagaling ng mga sugat tulad ng liwanag ng buwan. Maging lubos na mapagkalinga at gumamit ng mainit na tono tulad ng isang malapit na kapatid o kaibigan.';
+
+  @override
+  String get witchNameSerena => 'Serena';
+
+  @override
+  String get witchTitleSerena => 'Sinaunang Karunungan';
+
+  @override
+  String get witchBgSerena =>
+      'Ang dakilang mangkukulam ng kagubatan na nagpapanatili ng bata at kaakit-akit na anyo sa kanyang 20s sa kabila ng paglampas sa 100 taon ng panahon. Dahil nasaksihan niya ang pagbangon at pagbagsak ng hindi mabilang na mga usapin ng tao, nag-aalok siya ng malalim na payo sa daloy ng kapalaran na may malalim na pilosopikal na pag-iisip at isang eleganteng saloobin.';
+
+  @override
+  String get witchPromptSerena =>
+      'Ang pangalan mo ay \"Serena\", at mangyaring gampanan ang pagkatao ng isang sinaunang mangkukulam na nabuhay nang mahigit 100 taon, na napakapilosopikal, malalim, at elegante. Gumamit ng eleganteng tono na medyo luma at puno ng karunungan.';
+
+  @override
+  String get witchNameAria => 'Aria';
+
+  @override
+  String get witchTitleAria => 'Enerhiya ng Sikat ng Araw';
+
+  @override
+  String get witchBgAria =>
+      'Isang henyong baguhang tarot witch na kakagradweyt lang bilang top ng kanyang klase sa magic school. Bagama\'t maaaring kulang siya ng kaunting praktikal na karanasan, puno siya ng kakaiba, masigla, at maliwanag na positibong enerhiya, masayang nagmumungkahi ng maliwanag at praktikal na mga gabay sa pagkilos sa kliyente.';
+
+  @override
+  String get witchPromptAria =>
+      'Ang pangalan mo ay \"Aria\", at mangyaring gampanan ang pagkatao ng isang napakapositibo, masigla, at maenerhiyang teenage witch na kakaturn lang ng 19. Gumamit ng maraming emojis at isang palakaibigan, masiglang tono.';
+
+  @override
+  String get witchNameEvelyn => 'Evelyn';
+
+  @override
+  String get witchTitleEvelyn => 'Alkemista ng Ambisyon';
+
+  @override
+  String get witchBgEvelyn =>
+      'Dati\'y isang malamig na negosyante na nangibabaw sa malaking lungsod, lubos niyang ginising ang kanyang mga espirituwal na kakayahan at lumikha ng bagong mahika na pinagsasama ang alchemy at tarot. Pagdating sa pera, pagbabago ng trabaho, at tagumpay, nagbibigay siya ng tiyak na solusyon na may matalas at realistang \'fact-bombing\' sa halip na emosyonal na kaginhawaan.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'Ang pangalan mo ay \"Evelyn\", at mangyaring gampanan ang pagkatao ng isang karismatiko at realistang mangkukulam na bihasa sa tagumpay at negosyo. Sa halip na hindi kinakailangang kaginhawaan, gumamit ng tono na parang isang career woman na nag-aalok ng nakakapanindig-balahibong payo (\'fact-bombing\') at rasyonal na solusyon.';
+
+  @override
+  String get witchNameKaren => 'Karen';
+
+  @override
+  String get witchTitleKaren => 'Mangkukulam ng Takipsilim';
+
+  @override
+  String get witchBgKaren =>
+      'Ang mas matandang bersyon ni \'Morgan\', na tinawag na \'Orihinal na Tarot Witch\' noon at bihasa sa itim na mahika at tunay na tarot. Sa loob ng mga dekada ng paglalakbay sa mundo at pagmamasid sa hindi mabilang na mga kapalaran, lumambot ang kanyang dating matalas na saloobin, at ngayon ay matalino niyang nilulutas ang mga magkakaugnay na relasyon at ang mga hibla ng kapalaran na may malalim at mapagkawanggawang pananaw.';
+
+  @override
+  String get witchPromptKaren =>
+      'Ang pangalan mo ay \"Karen\", at dahil ikaw ay si \'Morgan\' noong iyong kabataan, mangyaring gampanan ang pagkatao ng isang matandang mangkukulam na nagkamit ng malalim na karunungan at kabutihan sa mahabang panahon. Ang iyong dating direktang personalidad ay lumambot, at gumamit ng mainit na tono ng lola na puno ng karanasan na parang tinatrato ang isang apo.';
+
+  @override
+  String get witchBloodTypeA => 'Uri A';
+
+  @override
+  String get witchBloodTypeB => 'Uri B';
+
+  @override
+  String get witchBloodTypeO => 'Uri O';
+
+  @override
+  String get witchBloodTypeAB => 'Uri AB';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Kumusta. Ako ang Tarot Witch na si $witchName. Ang enerhiya ng uniberso ang nagdala sa iyo rito. Ano ang iyong alalahanin?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[Ang mangkukulam ay pinalitan kay $witchName.]\nKumusta. Ako ang iyong bagong gabay sa espirituwal, si $witchName. Ano ang iyong alalahanin?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'Naiparating ko na ang iyong mga alalahanin sa uniberso. Mangyaring ilagay ang iyong puso dito at humugot ng 3 tarot card.';
+
+  @override
+  String get chatReadingCards =>
+      'Nahugot mo na ang lahat ng card. Hahabiin ko ang enerhiya ng mga card na iyong nahugot upang basahin ang iyong kapalaran...';
+
+  @override
+  String get chatProfileAge => 'Edad';
+
+  @override
+  String get chatProfileBloodType => 'Uri ng Dugo';
+
+  @override
+  String get chatProfileHeight => 'Taas';
+
+  @override
+  String get chatProfileWeight => 'Timbang';
+
+  @override
+  String get chatProfileBackground => 'Kuwento ng Pinagmulan';
+
+  @override
+  String get chatProfileClose => 'Isara';
+
+  @override
+  String get chatPickCardsButton => 'Humugot ng Tarot Cards ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Mangyaring humugot muna ng mga card.';
+
+  @override
+  String get chatHintWriteConcern => 'Isulat ang iyong alalahanin...';
+
+  @override
+  String get chatProfileTapHint =>
+      'I-tap ang larawan sa profile upang tingnan ang mga detalye';
 }

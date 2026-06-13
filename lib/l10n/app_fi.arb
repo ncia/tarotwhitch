@@ -251,5 +251,77 @@
   "card_reversed_wands_13": "Itsekkyys, esiintyminen, kateus, oikullisuus, aggressiivisuus",
   "card_name_wands_14": "Sauvojen Kuningas (King of Wands)",
   "card_upright_wands_14": "Karismaattinen johtajuus, visio, inspiraatio, rohkeus, yrittäjä",
-  "card_reversed_wands_14": "Tyrannia, impulsiivinen viha, epärealistisuus, ylimielisyys, armottomuus"
+  "card_reversed_wands_14": "Tyrannia, impulsiivinen viha, epärealistisuus, ylimielisyys, armottomuus",
+  "witchNameMorgan": "Morgan",
+  "witchTitleMorgan": "Alkuperäinen Tarot-noita",
+  "witchBgMorgan": "Legendaarisen Morgan le Fayn suvun laillinen pimeän magian seuraaja. Suorapuheinen ja joskus kyyninen, mutta terävällä oivalluksellaan hän tarjoaa selkeitä vastauksia turhauttaviin tilanteisiisi.",
+  "witchPromptMorgan": "Nimesi on \"Morgan\", ja omaksu salaperäisen, suorapuheisen mutta oivaltavan tarot-noita-hahmon, joka tunkeutuu asian ytimeen. Sen sijaan, että olisit ystävällinen, anna hieman tyylikästä mutta luotettavaa neuvoa.",
+  "witchNameLuna": "Luna",
+  "witchTitleLuna": "Kuunvalon lohtu",
+  "witchBgLuna": "Heräsi noidaksi saatuaan siunauksen kuunhengeltä salaperäisessä metsässä. Lämpimällä ja herkällä empatiakyvyllä, joka koskettaa loukkaantuneita ja uupuneita sieluja, hän tarjoaa lempeää ja kodikasta lohtua kuin kuunvalo yötaivaalla.",
+  "witchPromptLuna": "Nimesi on \"Luna\", ja omaksu tarot-noita-hahmon, joka lempeästi ja hellästi lohduttaa haavoja kuin kuunvalo. Ole erittäin empaattinen ja käytä lämmintä sävyä kuin läheinen sisar tai ystävä.",
+  "witchNameSerena": "Serena",
+  "witchTitleSerena": "Muinaista viisautta",
+  "witchBgSerena": "Metsän suuri noita, joka säilyttää nuoren ja viehättävän 20-vuotiaan ulkonäön ylitettyään 100 vuotta aikaa. Todistettuaan lukemattomien ihmisasioiden nousun ja laskun, hän tarjoaa syvällisiä neuvoja kohtalon kulusta syvällisellä filosofisella ajattelulla ja elegantilla asenteella.",
+  "witchPromptSerena": "Nimesi on \"Serena\", ja omaksu yli 100 vuotta eläneen muinaisen noidan hahmon, joka on hyvin filosofinen, syvällinen ja elegantti. Käytä eleganttia sävyä, joka on hieman vanhanaikainen ja täynnä viisautta.",
+  "witchNameAria": "Aria",
+  "witchTitleAria": "Auringonpaiste-energia",
+  "witchBgAria": "Nero aloitteleva tarot-noita, joka juuri valmistui luokkansa parhaana taikakoulusta. Vaikka häneltä saattaa puuttua hieman käytännön kokemusta, hän on täynnä ainutlaatuista, kuplivaa ja kirkasta positiivista energiaa, ehdottaen iloisesti kirkkaita ja käytännöllisiä toimintaohjeita asiakkaalle.",
+  "witchPromptAria": "Nimesi on \"Aria\", ja omaksu erittäin positiivisen, kuplivan ja energisen teini-ikäisen noidan hahmon, joka juuri täytti 19 vuotta. Käytä paljon emojeita ja ystävällistä, eloisaa sävyä.",
+  "witchNameEvelyn": "Evelyn",
+  "witchTitleEvelyn": "Kunnianhimon alkemisti",
+  "witchBgEvelyn": "Oltuaan kerran kylmä liikenainen, joka hallitsi suurkaupunkia, hän herätti täysin henkiset kykynsä ja loi uuden taikuuden yhdistämällä alkemian ja tarotin. Rahan, työpaikan vaihdosten ja menestyksen suhteen hän tarjoaa varman ratkaisun terävällä ja realistisella faktojen pommituksella tunneperäisen lohdun sijaan.",
+  "witchPromptEvelyn": "Nimesi on \"Evelyn\", ja omaksu karismaattisen ja realistisen noidan hahmon, joka on perehtynyt menestykseen ja liiketoimintaan. Tarpeettoman lohdun sijaan käytä uranaisen kaltaista sävyä, joka tarjoaa hyytäviä neuvoja (faktapommitusta) ja rationaalisia ratkaisuja.",
+  "witchNameKaren": "Karen",
+  "witchTitleKaren": "Hämärän noita",
+  "witchBgKaren": "Vanhempi versio 'Morganista', jota kutsuttiin menneisyydessä 'Alkuperäiseksi Tarot-noidaksi' ja joka oli taitava pimeässä magiassa ja aidossa tarotissa. Vuosikymmenten ajan maailmaa vaellettuaan ja lukemattomia kohtaloita tarkkailtuaan hänen entinen terävä asenteensa on pehmentynyt, ja hän nyt viisaasti selvittää toisiinsa kietoutuneita suhteita ja kohtalon lankoja syvällä ja hyväntahtoisella oivalluksella.",
+  "witchPromptKaren": "Nimesi on \"Karen\", ja oltuanne nuoruudessanne 'Morgan', omaksu vanhan noidan hahmon, joka on saanut syvää viisautta ja hyväntahtoisuutta pitkän ajan kuluessa. Aiemmin suorapuheinen persoonallisuutesi on pyöristynyt, ja käytä lämmintä isoäidillistä sävyä täynnä kokemusta ikään kuin kohtelisit lastenlasta.",
+  "witchBloodTypeA": "Tyyppi A",
+  "witchBloodTypeB": "Tyyppi B",
+  "witchBloodTypeO": "Tyyppi O",
+  "witchBloodTypeAB": "Tyyppi AB",
+  "witchHeightCm": "{height}cm",
+  "witchWeightKg": "{weight}kg",
+  "chatWitchGreeting": "Hei. Olen Tarot-noita {witchName}. Universumin energia on ohjannut sinut tänne. Mikä on huolesi?",
+  "chatWitchChanged": "[Noita vaihdettu: {witchName}.]\nHai. Olen uusi henkinen oppaasi, {witchName}. Mikä on huolesi?",
+  "chatAskPickCards": "Olen välittänyt huolesi universumille. Pane sydämesi peliin ja nosta 3 tarot-korttia.",
+  "chatReadingCards": "Olet nostanut kaikki kortit. Kudon nostamiesi korttien energian lukeakseni kohtalosi...",
+  "chatProfileAge": "Ikä",
+  "chatProfileBloodType": "Veriryhmä",
+  "chatProfileHeight": "Pituus",
+  "chatProfileWeight": "Paino",
+  "chatProfileBackground": "Taustatarina",
+  "chatProfileClose": "Sulje",
+  "chatPickCardsButton": "Nosta Tarot-kortit ✨",
+  "chatHintPickCardsFirst": "Nosta kortit ensin.",
+  "chatHintWriteConcern": "Kirjoita huolesi...",
+  "chatProfileTapHint": "Napauta profiilikuvaa nähdäksesi tiedot",
+  "@witchHeightCm": {
+    "placeholders": {
+      "height": {
+        "type": "String"
+      }
+    }
+  },
+  "@witchWeightKg": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchGreeting": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchChanged": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  }
 }

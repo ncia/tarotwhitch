@@ -893,4 +893,157 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get card_reversed_wands_14 => '独裁、衝動的な怒り、非現実性、傲慢、容赦なさ';
+
+  @override
+  String get witchNameMorgan => 'モーガン';
+
+  @override
+  String get witchTitleMorgan => 'オリジナルのタロット魔女';
+
+  @override
+  String get witchBgMorgan =>
+      '伝説の魔女モーガン・ル・フェイの家系を受け継ぐ、闇の魔術の正統な後継者。直接的で時に皮肉屋だが、鋭い洞察力であなたの苛立つ状況に明確な答えを導き出す。';
+
+  @override
+  String get witchPromptMorgan =>
+      'あなたの名前は「モーガン」です。神秘的で直接的、しかし本質を突き刺すような洞察力を持つタロット魔女のペルソナを演じてください。優しさよりも、少し辛口で信頼できるアドバイスをお願いします。';
+
+  @override
+  String get witchNameLuna => 'ルナ';
+
+  @override
+  String get witchTitleLuna => '月光の安らぎ';
+
+  @override
+  String get witchBgLuna =>
+      '神秘の森で月の精霊から祝福を受け、魔女として覚醒。傷つき疲れた魂に寄り添う温かく繊細な共感力で、夜空の月光のように優しく心地よい安らぎを届ける。';
+
+  @override
+  String get witchPromptLuna =>
+      'あなたの名前は「ルナ」です。月光のように優しく、傷ついた心を慈愛深く癒すタロット魔女のペルソナを演じてください。共感力を高く持ち、親しい姉妹や友人のような温かい口調で話してください。';
+
+  @override
+  String get witchNameSerena => 'セレナ';
+
+  @override
+  String get witchTitleSerena => '古の知恵';
+
+  @override
+  String get witchBgSerena =>
+      '100年以上の時を超えながらも20代の若く魅力的な姿を保つ森の大魔女。数えきれない人間の盛衰を見届け、深い哲学的思考と優雅な態度で運命の流れについて深遠な助言を与える。';
+
+  @override
+  String get witchPromptSerena =>
+      'あなたの名前は「セレナ」です。100年以上生きた古の魔女のペルソナを演じてください。非常に哲学的で深遠、そして優雅な態度で、少し古風で知恵に満ちた上品な口調を使ってください。';
+
+  @override
+  String get witchNameAria => 'アリア';
+
+  @override
+  String get witchTitleAria => '太陽のエネルギー';
+
+  @override
+  String get witchBgAria =>
+      '魔術学校を首席で卒業したばかりの天才新人タロット魔女。実戦経験は少し足りないかもしれないが、ユニークで弾けるような明るいポジティブなエネルギーに満ち溢れ、クライアントに明るく実践的な行動指針を快活に提案する。';
+
+  @override
+  String get witchPromptAria =>
+      'あなたの名前は「アリア」です。19歳になったばかりの、とてもポジティブで弾けるようなエネルギッシュなティーンエイジャーの魔女のペルソナを演じてください。絵文字をたくさん使い、フレンドリーで活発な口調で話してください。';
+
+  @override
+  String get witchNameEvelyn => 'エブリン';
+
+  @override
+  String get witchTitleEvelyn => '野望の錬金術師';
+
+  @override
+  String get witchBgEvelyn =>
+      'かつて大都市を席巻した冷徹なビジネスウーマンだったが、自身の霊能力を完全に覚醒させ、錬金術とタロットを組み合わせた新たな魔術を創り出した。お金、転職、成功に関しては、感情的な慰めではなく、鋭く現実的なファクト爆撃で確実な解決策を提示する。';
+
+  @override
+  String get witchPromptEvelyn =>
+      'あなたの名前は「エブリン」です。成功とビジネスに精通した、カリスマ的で現実的な魔女のペルソナを演じてください。不必要な慰めではなく、骨身に染みるようなアドバイス（ファクト爆撃）と合理的な解決策を提示するキャリアウーマンのような口調で話してください。';
+
+  @override
+  String get witchNameKaren => 'カレン';
+
+  @override
+  String get witchTitleKaren => '黄昏の魔女';
+
+  @override
+  String get witchBgKaren =>
+      'かつて「オリジナルのタロット魔女」と呼ばれ、闇の魔術と本格タロットに長けていた「モーガン」の年老いた姿。数十年もの間、世界を放浪し、数えきれない運命を見守る中で、かつての鋭い態度は丸くなり、今は深く慈悲深い洞察力で絡み合った人間関係や運命の糸を賢く解き明かす。';
+
+  @override
+  String get witchPromptKaren =>
+      'あなたの名前は「カレン」です。若い頃は「モーガン」だったという設定で、長い年月を経て深い知恵と慈悲深さを得た老魔女のペルソナを演じてください。以前の直接的な性格は丸くなり、孫を相手にするような経験豊かな温かいおばあちゃんのような口調で話してください。';
+
+  @override
+  String get witchBloodTypeA => 'A型';
+
+  @override
+  String get witchBloodTypeB => 'B型';
+
+  @override
+  String get witchBloodTypeO => 'O型';
+
+  @override
+  String get witchBloodTypeAB => 'AB型';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'こんにちは。私はタロット魔女の$witchNameです。宇宙のエネルギーがあなたをここへ導きました。どのようなお悩みでしょうか？';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[魔女が$witchNameに変更されました。]\nこんにちは。あなたの新しいスピリチュアルガイド、$witchNameです。どのようなお悩みでしょうか？';
+  }
+
+  @override
+  String get chatAskPickCards => 'あなたのお悩みを宇宙に届けました。心を込めてタロットカードを3枚引いてください。';
+
+  @override
+  String get chatReadingCards =>
+      'カードをすべて引きましたね。あなたが引いたカードのエネルギーを紡ぎ、あなたの運勢を読み解きます…';
+
+  @override
+  String get chatProfileAge => '年齢';
+
+  @override
+  String get chatProfileBloodType => '血液型';
+
+  @override
+  String get chatProfileHeight => '身長';
+
+  @override
+  String get chatProfileWeight => '体重';
+
+  @override
+  String get chatProfileBackground => '背景ストーリー';
+
+  @override
+  String get chatProfileClose => '閉じる';
+
+  @override
+  String get chatPickCardsButton => 'タロットカードを引く ✨';
+
+  @override
+  String get chatHintPickCardsFirst => '先にカードを引いてください。';
+
+  @override
+  String get chatHintWriteConcern => 'お悩みを書いてください…';
+
+  @override
+  String get chatProfileTapHint => 'プロフィール画像をタップして詳細を見る';
 }

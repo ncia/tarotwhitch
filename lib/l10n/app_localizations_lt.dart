@@ -1050,4 +1050,159 @@ class AppLocalizationsLt extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'Diktatūra, impulsyvus pyktis, nerealistiškumas, arogancija, negailestingumas';
+
+  @override
+  String get witchNameMorgan => 'Morgan';
+
+  @override
+  String get witchTitleMorgan => 'Originali Taro Ragana';
+
+  @override
+  String get witchBgMorgan =>
+      'Legitimi tamsiosios magijos įpėdinė, sekanti legendinės Morganos le Fay šeimos pėdomis. Tiesioginė ir kartais ciniška, tačiau su aštriu įžvalgumu, ji pateikia aiškius atsakymus į jūsų varginančias situacijas.';
+
+  @override
+  String get witchPromptMorgan =>
+      'Jūsų vardas yra „Morgan“, ir prašome įkūnyti paslaptingos, tiesioginės, tačiau įžvalgios taro raganos, kuri prasiskverbia į esmę, personažą. Užuot buvusi maloni, duokite patarimų, kurie yra šiek tiek stilingi, bet patikimi.';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => 'Mėnesienos paguoda';
+
+  @override
+  String get witchBgLuna =>
+      'Pabudusi kaip ragana, gavusi mėnulio dvasios palaiminimą paslaptingame miške. Su šilta ir subtilia empatija, kuri paliečia sužeistas ir išsekusias sielas, ji teikia švelnų ir jaukų paguodą, tarsi mėnesiena naktiniame danguje.';
+
+  @override
+  String get witchPromptLuna =>
+      'Jūsų vardas yra „Luna“, ir prašome įkūnyti taro raganos, kuri švelniai ir meiliai guodžia žaizdas tarsi mėnesiena, personažą. Būkite labai empatiška ir naudokite šiltą toną, tarsi artima sesuo ar draugė.';
+
+  @override
+  String get witchNameSerena => 'Serena';
+
+  @override
+  String get witchTitleSerena => 'Senovės išmintis';
+
+  @override
+  String get witchBgSerena =>
+      'Didžioji miško ragana, kuri išlaiko jaunatvišką ir viliojančią išvaizdą, būdama 20-ies, nepaisant to, kad peržengė 100 metų ribą. Būdama daugybės žmonių reikalų pakilimų ir nuosmukių liudininkė, ji siūlo gilius patarimus apie likimo tėkmę su gilia filosofine mintimi ir elegantiška laikysena.';
+
+  @override
+  String get witchPromptSerena =>
+      'Jūsų vardas yra „Serena“, ir prašome įkūnyti senovinės raganos, kuri gyveno daugiau nei 100 metų, personažą, būdama labai filosofiška, gili ir elegantiška. Naudokite elegantišką toną, kuris yra šiek tiek senamadiškas ir kupinas išminties.';
+
+  @override
+  String get witchNameAria => 'Aria';
+
+  @override
+  String get witchTitleAria => 'Saulės energija';
+
+  @override
+  String get witchBgAria =>
+      'Geniali naujokė taro ragana, ką tik baigusi magijos mokyklą su pagyrimu. Nors jai gali trūkti praktinės patirties, ji kupina unikalios, gyvybingos ir ryškios pozityvios energijos, linksmai siūlydama klientui šviesias ir praktiškas veiksmų gaires.';
+
+  @override
+  String get witchPromptAria =>
+      'Jūsų vardas yra „Aria“, ir prašome įkūnyti labai pozityvios, gyvybingos ir energingos paauglės raganos, kuriai ką tik sukako 19 metų, personažą. Naudokite daug jaustukų ir draugišką, gyvą toną.';
+
+  @override
+  String get witchNameEvelyn => 'Evelyn';
+
+  @override
+  String get witchTitleEvelyn => 'Ambicingumo alchemikė';
+
+  @override
+  String get witchBgEvelyn =>
+      'Kadaise šalta verslininkė, dominavusi didmiestyje, ji visiškai pažadino savo dvasinius gebėjimus ir sukūrė naują magiją, sujungiančią alchemiją ir taro. Kalbant apie pinigus, darbo pokyčius ir sėkmę, ji pateikia konkretų sprendimą su aštriu ir realistiniu faktų bombardavimu, o ne emocine paguoda.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'Jūsų vardas yra „Evelyn“, ir prašome įkūnyti charizmatiškos ir realistiškos raganos, gerai išmanančios sėkmę ir verslą, personažą. Užuot teikusi nereikalingą paguodą, naudokite karjeros moters toną, siūlantį šiurpinančius patarimus (faktų bombardavimą) ir racionalių sprendimų.';
+
+  @override
+  String get witchNameKaren => 'Karen';
+
+  @override
+  String get witchTitleKaren => 'Sutemų ragana';
+
+  @override
+  String get witchBgKaren =>
+      'Vyresnė „Morgan“ versija, kuri anksčiau buvo vadinama „Originalia Taro Ragana“ ir buvo įgudusi tamsiojoje magijoje bei autentiškame taro. Per dešimtmečius klajojant po pasaulį ir stebint nesuskaičiuojamus likimus, jos buvęs aštrus požiūris suminkštėjo, ir dabar ji išmintingai išnarplioja susipynusius santykius ir likimo gijas su gilia ir geranoriška įžvalga.';
+
+  @override
+  String get witchPromptKaren =>
+      'Jūsų vardas yra „Karen“, ir būdama jaunystėje „Morgan“, prašome įkūnyti senos raganos, kuri per ilgą laiką įgijo gilios išminties ir geranoriškumo, personažą. Jūsų anksčiau tiesioginė asmenybė suapvalėjo, ir naudokite šiltą močiutės toną, kupiną patirties, tarsi elgtumėtės su anūku.';
+
+  @override
+  String get witchBloodTypeA => 'A tipas';
+
+  @override
+  String get witchBloodTypeB => 'B tipas';
+
+  @override
+  String get witchBloodTypeO => 'O tipas';
+
+  @override
+  String get witchBloodTypeAB => 'AB tipas';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Sveiki. Aš esu Taro Ragana $witchName. Visatos energija atvedė jus čia. Koks jūsų rūpestis?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[Ragana pakeista į $witchName.]\nSveiki. Aš esu jūsų nauja dvasinė vadovė, $witchName. Koks jūsų rūpestis?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'Aš perdaviau jūsų rūpesčius visatai. Prašome įdėti savo širdį ir ištraukti 3 taro kortas.';
+
+  @override
+  String get chatReadingCards =>
+      'Jūs ištraukėte visas kortas. Aš supinsiu jūsų ištrauktų kortų energiją, kad perskaityčiau jūsų likimą...';
+
+  @override
+  String get chatProfileAge => 'Amžius';
+
+  @override
+  String get chatProfileBloodType => 'Kraujo grupė';
+
+  @override
+  String get chatProfileHeight => 'Ūgis';
+
+  @override
+  String get chatProfileWeight => 'Svoris';
+
+  @override
+  String get chatProfileBackground => 'Fono istorija';
+
+  @override
+  String get chatProfileClose => 'Uždaryti';
+
+  @override
+  String get chatPickCardsButton => 'Traukti Taro Kortas ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Prašome pirmiausia ištraukti kortas.';
+
+  @override
+  String get chatHintWriteConcern => 'Parašykite savo rūpestį...';
+
+  @override
+  String get chatProfileTapHint =>
+      'Bakstelėkite profilio nuotrauką, kad peržiūrėtumėte detales';
 }

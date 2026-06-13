@@ -1050,4 +1050,159 @@ class AppLocalizationsBg extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'Диктатура, импулсивен гняв, нереалистичност, арогантност, безмилостност';
+
+  @override
+  String get witchNameMorgan => 'Морган';
+
+  @override
+  String get witchTitleMorgan => 'Оригинална Таро Вещица';
+
+  @override
+  String get witchBgMorgan =>
+      'Законната наследница на тъмната магия, следваща легендарното семейство на Моргана льо Фей. Директна и понякога цинична, но с остро прозрение, тя дава ясни отговори на вашите разочароващи ситуации.';
+
+  @override
+  String get witchPromptMorgan =>
+      'Вашето име е „Морган“ и моля, приемете образа на мистериозна, пряма, но проницателна таро вещица, която прониква до същността. Вместо да бъдете мила, давайте съвети, които са леко шик, но същевременно надеждни.';
+
+  @override
+  String get witchNameLuna => 'Луна';
+
+  @override
+  String get witchTitleLuna => 'Утехата на Лунната Светлина';
+
+  @override
+  String get witchBgLuna =>
+      'Пробудена като вещица, след като е получила благословия от лунния дух в мистериозна гора. С топла и деликатна емпатия, която докосва наранени и изтощени души, тя осигурява нежна и уютна утеха като лунна светлина в нощното небе.';
+
+  @override
+  String get witchPromptLuna =>
+      'Вашето име е „Луна“ и моля, приемете образа на таро вещица, която нежно и привързано утешава рани като лунна светлина. Бъдете силно емпатична и използвайте топъл тон като близка сестра или приятелка.';
+
+  @override
+  String get witchNameSerena => 'Серена';
+
+  @override
+  String get witchTitleSerena => 'Древна Мъдрост';
+
+  @override
+  String get witchBgSerena =>
+      'Великата вещица на гората, която поддържа млад и привлекателен вид на 20 години, въпреки че е преминала 100 години време. След като е била свидетел на възхода и падението на безброй човешки дела, тя предлага дълбоки съвети относно потока на съдбата с дълбока философска мисъл и елегантно отношение.';
+
+  @override
+  String get witchPromptSerena =>
+      'Вашето име е „Серена“ и моля, приемете образа на древна вещица, живяла над 100 години, която е много философска, дълбока и елегантна. Използвайте елегантен тон, който е леко старомоден и изпълнен с мъдрост.';
+
+  @override
+  String get witchNameAria => 'Ария';
+
+  @override
+  String get witchTitleAria => 'Слънчева Енергия';
+
+  @override
+  String get witchBgAria =>
+      'Гениална начинаеща таро вещица, която току-що е завършила с отличие магическото училище. Въпреки че може да й липсва малко практически опит, тя е пълна с уникална, жизнерадостна и ярка положителна енергия, весело предлагайки на клиента ясни и практични насоки за действие.';
+
+  @override
+  String get witchPromptAria =>
+      'Вашето име е „Ария“ и моля, приемете образа на много позитивна, жизнерадостна и енергична тийнейджърка вещица, която току-що е навършила 19 години. Използвайте много емотикони и приятелски, оживен тон.';
+
+  @override
+  String get witchNameEvelyn => 'Евелин';
+
+  @override
+  String get witchTitleEvelyn => 'Алхимик на Амбицията';
+
+  @override
+  String get witchBgEvelyn =>
+      'Някога студена бизнесдама, която доминираше големия град, тя напълно пробуди своите духовни способности и създаде нова магия, комбинираща алхимия и таро. Когато става въпрос за пари, промени в работата и успех, тя предоставя окончателно решение с остри и реалистични „бомбардировки с факти“, а не емоционален комфорт.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'Вашето име е „Евелин“ и моля, приемете образа на харизматична и реалистична вещица, която е добре запозната с успеха и бизнеса. Вместо ненужен комфорт, използвайте тон на кариерна жена, който предлага смразяващи съвети („бомбардировки с факти“) и рационални решения.';
+
+  @override
+  String get witchNameKaren => 'Карен';
+
+  @override
+  String get witchTitleKaren => 'Вещица на Здрача';
+
+  @override
+  String get witchBgKaren =>
+      'По-старата версия на „Морган“, която в миналото е била наричана „Оригинална Таро Вещица“ и е била умела в тъмната магия и автентичното таро. През десетилетията на скитане по света и наблюдаване на безброй съдби, нейното предишно остро отношение е омекнало и сега тя мъдро разплита преплетени връзки и нишките на съдбата с дълбоко и доброжелателно прозрение.';
+
+  @override
+  String get witchPromptKaren =>
+      'Вашето име е „Карен“ и, бидейки „Морган“ в младостта си, моля, приемете образа на стара вещица, която е придобила дълбока мъдрост и доброжелателност през дълго време. Вашата предишна пряма личност е омекнала и използвайте топъл, бабински тон, пълен с опит, сякаш се отнасяте към внуче.';
+
+  @override
+  String get witchBloodTypeA => 'Тип А';
+
+  @override
+  String get witchBloodTypeB => 'Тип Б';
+
+  @override
+  String get witchBloodTypeO => 'Тип О';
+
+  @override
+  String get witchBloodTypeAB => 'Тип АБ';
+
+  @override
+  String witchHeightCm(String height) {
+    return '$heightсм';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '$weightкг';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Здравейте. Аз съм Таро Вещицата $witchName. Енергията на вселената ви е довела тук. Какво ви тревожи?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[Вещицата е сменена на $witchName.]\nЗдравейте. Аз съм вашият нов духовен водач, $witchName. Какво ви тревожи?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'Предадох вашите притеснения на вселената. Моля, вложете сърцето си и изтеглете 3 карти таро.';
+
+  @override
+  String get chatReadingCards =>
+      'Изтеглихте всички карти. Ще преплета енергията на изтеглените от вас карти, за да прочета вашето бъдеще...';
+
+  @override
+  String get chatProfileAge => 'Възраст';
+
+  @override
+  String get chatProfileBloodType => 'Кръвна група';
+
+  @override
+  String get chatProfileHeight => 'Височина';
+
+  @override
+  String get chatProfileWeight => 'Тегло';
+
+  @override
+  String get chatProfileBackground => 'Предистория';
+
+  @override
+  String get chatProfileClose => 'Затвори';
+
+  @override
+  String get chatPickCardsButton => 'Изтеглете Таро Карти ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Моля, първо изтеглете карти.';
+
+  @override
+  String get chatHintWriteConcern => 'Напишете вашето притеснение...';
+
+  @override
+  String get chatProfileTapHint =>
+      'Докоснете профилната снимка, за да видите подробности';
 }

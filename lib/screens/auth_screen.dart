@@ -24,6 +24,7 @@ class _AuthScreenState extends State<AuthScreen> {
   bool _isLogin = true;
   bool _isLoading = false;
   bool _isAdmin = false; // 관리자 가입 여부
+  bool _obscurePassword = true; // 비밀번호 숨김 여부
 
   @override
   void dispose() {
@@ -247,13 +248,24 @@ class _AuthScreenState extends State<AuthScreen> {
                   TextField(
                     controller: _passwordController,
                     style: const TextStyle(color: Colors.white),
-                    decoration: const InputDecoration(
+                    decoration: InputDecoration(
                       labelText: '비밀번호',
-                      labelStyle: TextStyle(color: Colors.white70),
-                      enabledBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.white30)),
-                      focusedBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
+                      labelStyle: const TextStyle(color: Colors.white70),
+                      enabledBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.white30)),
+                      focusedBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
+                      suffixIcon: IconButton(
+                        icon: Icon(
+                          _obscurePassword ? Icons.visibility_off : Icons.visibility,
+                          color: Colors.white70,
+                        ),
+                        onPressed: () {
+                          setState(() {
+                            _obscurePassword = !_obscurePassword;
+                          });
+                        },
+                      ),
                     ),
-                    obscureText: true,
+                    obscureText: _obscurePassword,
                   ),
                   const SizedBox(height: 16),
                   if (!_isLogin) ...[

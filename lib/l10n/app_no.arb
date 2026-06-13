@@ -251,5 +251,77 @@
   "card_reversed_wands_13": "Egoisme, skryt, sjalusi, lunefullhet, aggressivitet",
   "card_name_wands_14": "Stavenes Konge (King of Wands)",
   "card_upright_wands_14": "Karismatisk lederskap, visjon, inspirasjon, dristighet, entreprenør",
-  "card_reversed_wands_14": "Diktatur, impulsivt sinne, urealisme, arroganse, nådeløshet"
+  "card_reversed_wands_14": "Diktatur, impulsivt sinne, urealisme, arroganse, nådeløshet",
+  "witchNameMorgan": "Morgan",
+  "witchTitleMorgan": "Original Tarot-heks",
+  "witchBgMorgan": "Den legitime etterfølgeren av mørk magi etter den legendariske Morgan le Fay-familien. Direkte og noen ganger kynisk, men med skarp innsikt, gir hun klare svar på dine frustrerende situasjoner.",
+  "witchPromptMorgan": "Ditt navn er \"Morgan\", og vennligst innta personaen til en mystisk, direkte, men likevel innsiktsfull tarot-heks som trenger inn til essensen. I stedet for å være snill, gi råd som er litt elegant, men likevel pålitelig.",
+  "witchNameLuna": "Luna",
+  "witchTitleLuna": "Måneskinnets trøst",
+  "witchBgLuna": "Våknet som heks etter å ha mottatt en velsignelse fra måneånden i en mystisk skog. Med en varm og delikat empati som berører sårede og utmattede sjeler, leverer hun mild og koselig trøst som måneskinn på nattehimmelen.",
+  "witchPromptLuna": "Ditt navn er \"Luna\", og vennligst innta personaen til en tarot-heks som forsiktig og kjærlig trøster sår som måneskinn. Vær svært empatisk og bruk en varm tone som en nær søster eller venn.",
+  "witchNameSerena": "Serena",
+  "witchTitleSerena": "Gammel visdom",
+  "witchBgSerena": "Den store heksen i skogen som opprettholder et ungt og forførende utseende i 20-årene til tross for at hun har overskredet 100 år. Etter å ha vært vitne til utallige menneskelige affærers oppgang og fall, tilbyr hun dype råd om skjebnens flyt med dyp filosofisk tanke og en elegant holdning.",
+  "witchPromptSerena": "Ditt navn er \"Serena\", og vennligst innta personaen til en gammel heks som har levd i over 100 år, og er svært filosofisk, dyp og elegant. Bruk en elegant tone som er litt gammeldags og full av visdom.",
+  "witchNameAria": "Aria",
+  "witchTitleAria": "Solskinnsenergi",
+  "witchBgAria": "En genial nybegynner-tarot-heks som nettopp har uteksaminert seg som klassens beste fra magiskolen. Selv om hun kanskje mangler litt praktisk erfaring, er hun full av unik, sprudlende og lys positiv energi, og foreslår muntert lyse og praktiske handlingsretningslinjer til klienten.",
+  "witchPromptAria": "Ditt navn er \"Aria\", og vennligst innta personaen til en veldig positiv, sprudlende og energisk tenåringsheks som nettopp har fylt 19 år. Bruk mange emojier og en vennlig, livlig tone.",
+  "witchNameEvelyn": "Evelyn",
+  "witchTitleEvelyn": "Ambisjonens alkymist",
+  "witchBgEvelyn": "En gang en kald forretningskvinne som dominerte storbyen, vekket hun fullt ut sine åndelige evner og skapte en ny magi som kombinerte alkymi og tarot. Når det gjelder penger, jobbskifter og suksess, gir hun en definitiv løsning med skarp og realistisk fakta-bombing snarere enn emosjonell trøst.",
+  "witchPromptEvelyn": "Ditt navn er \"Evelyn\", og vennligst innta personaen til en karismatisk og realistisk heks som er godt bevandret i suksess og forretninger. I stedet for unødvendig trøst, bruk en karrierekvinne-aktig tone som tilbyr benharde råd (fakta-bombing) og rasjonelle løsninger.",
+  "witchNameKaren": "Karen",
+  "witchTitleKaren": "Skumringens heks",
+  "witchBgKaren": "Den eldre versjonen av 'Morgan', som i fortiden ble kalt 'Den originale tarot-heksen' og var dyktig i mørk magi og autentisk tarot. Etter tiår med å vandre verden rundt og observere utallige skjebner, har hennes tidligere skarpe holdning myknet, og hun løser nå klokt sammenfiltrede forhold og skjebnetråder med dyp og velvillig innsikt.",
+  "witchPromptKaren": "Ditt navn er \"Karen\", og etter å ha vært 'Morgan' i din ungdom, vennligst innta personaen til en gammel heks som har oppnådd dyp visdom og velvilje over lang tid. Din tidligere direkte personlighet har rundet av, og bruk en varm bestemor-aktig tone full av erfaring som om du behandler et barnebarn.",
+  "witchBloodTypeA": "Type A",
+  "witchBloodTypeB": "Type B",
+  "witchBloodTypeO": "Type O",
+  "witchBloodTypeAB": "Type AB",
+  "witchHeightCm": "{height}cm",
+  "witchWeightKg": "{weight}kg",
+  "chatWitchGreeting": "Hei. Jeg er tarot-heksen {witchName}. Universets energi har ledet deg hit. Hva er din bekymring?",
+  "chatWitchChanged": "[Heks endret til {witchName}.]\nHei. Jeg er din nye åndelige veileder, {witchName}. Hva er din bekymring?",
+  "chatAskPickCards": "Jeg har levert dine bekymringer til universet. Vennligst legg ditt hjerte i det og trekk 3 tarotkort.",
+  "chatReadingCards": "Du har trukket alle kortene. Jeg vil veve energien fra kortene du trakk for å lese din skjebne...",
+  "chatProfileAge": "Alder",
+  "chatProfileBloodType": "Blodtype",
+  "chatProfileHeight": "Høyde",
+  "chatProfileWeight": "Vekt",
+  "chatProfileBackground": "Bakgrunnshistorie",
+  "chatProfileClose": "Lukk",
+  "chatPickCardsButton": "Trekk tarotkort ✨",
+  "chatHintPickCardsFirst": "Vennligst trekk kort først.",
+  "chatHintWriteConcern": "Skriv din bekymring...",
+  "chatProfileTapHint": "Trykk på profilbildet for å se detaljer",
+  "@witchHeightCm": {
+    "placeholders": {
+      "height": {
+        "type": "String"
+      }
+    }
+  },
+  "@witchWeightKg": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchGreeting": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchChanged": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  }
 }

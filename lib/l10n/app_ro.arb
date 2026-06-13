@@ -251,5 +251,77 @@
   "card_reversed_wands_13": "Egoism, dorință de a se lăuda, gelozie, capriciu, agresivitate",
   "card_name_wands_14": "Regele de Bâte (King of Wands)",
   "card_upright_wands_14": "Leadership carismatic, viziune, inspirație, îndrăzneală, antreprenor",
-  "card_reversed_wands_14": "Tiranie, furie impulsivă, lipsă de realism, aroganță, lipsă de milă"
+  "card_reversed_wands_14": "Tiranie, furie impulsivă, lipsă de realism, aroganță, lipsă de milă",
+  "witchNameMorgan": "Morgan",
+  "witchTitleMorgan": "Vrăjitoarea Originală de Tarot",
+  "witchBgMorgan": "Succesoarea legitimă a magiei întunecate, urmând legendara familie Morgan le Fay. Directă și uneori cinică, dar cu o perspicacitate ascuțită, ea oferă răspunsuri clare la situațiile tale frustrante.",
+  "witchPromptMorgan": "Numele tău este \"Morgan\" și te rog să adopți persona unei vrăjitoare de tarot misterioase, directe, dar perspicace, care pătrunde în esență. Mai degrabă decât să fii amabilă, oferă sfaturi ușor șic, dar demne de încredere.",
+  "witchNameLuna": "Luna",
+  "witchTitleLuna": "Confortul Luminii Lunii",
+  "witchBgLuna": "Trează ca vrăjitoare după ce a primit o binecuvântare de la spiritul lunii într-o pădure misterioasă. Cu o empatie caldă și delicată care atinge sufletele rănite și epuizate, ea oferă un confort blând și primitor, ca lumina lunii pe cerul nopții.",
+  "witchPromptLuna": "Numele tău este \"Luna\" și te rog să adopți persona unei vrăjitoare de tarot care alină blând și afectuos rănile, ca lumina lunii. Fii extrem de empatică și folosește un ton cald, ca o soră sau o prietenă apropiată.",
+  "witchNameSerena": "Serena",
+  "witchTitleSerena": "Înțelepciune Antică",
+  "witchBgSerena": "Marea vrăjitoare a pădurii care își menține o înfățișare tânără și seducătoare, de 20 de ani, în ciuda faptului că a depășit 100 de ani. Fiind martoră la ascensiunea și căderea nenumăratelor afaceri umane, ea oferă sfaturi profunde despre fluxul destinului cu o gândire filosofică profundă și o atitudine elegantă.",
+  "witchPromptSerena": "Numele tău este \"Serena\" și te rog să adopți persona unei vrăjitoare antice care a trăit peste 100 de ani, fiind foarte filosofică, profundă și elegantă. Folosește un ton elegant, ușor demodat și plin de înțelepciune.",
+  "witchNameAria": "Aria",
+  "witchTitleAria": "Energie Solară",
+  "witchBgAria": "O vrăjitoare de tarot geniu, începătoare, care tocmai a absolvit școala de magie ca șefă de promoție. Deși îi lipsește puțină experiență practică, este plină de o energie pozitivă unică, efervescentă și luminoasă, sugerând cu veselie clientului ghiduri de acțiune luminoase și practice.",
+  "witchPromptAria": "Numele tău este \"Aria\" și te rog să adopți persona unei vrăjitoare adolescente foarte pozitive, efervescente și energice, care tocmai a împlinit 19 ani. Folosește multe emoji-uri și un ton prietenos, plin de viață.",
+  "witchNameEvelyn": "Evelyn",
+  "witchTitleEvelyn": "Alchimistul Ambiției",
+  "witchBgEvelyn": "Odată o femeie de afaceri rece care domina marele oraș, și-a trezit pe deplin abilitățile spirituale și a creat o nouă magie combinând alchimia și tarotul. Când vine vorba de bani, schimbări de loc de muncă și succes, ea oferă o soluție definitivă cu o \"bombardare\" de fapte ascuțite și realiste, mai degrabă decât confort emoțional.",
+  "witchPromptEvelyn": "Numele tău este \"Evelyn\" și te rog să adopți persona unei vrăjitoare carismatice și realiste, bine versată în succes și afaceri. Mai degrabă decât confort inutil, folosește un ton de femeie de carieră care oferă sfaturi \"înfiorătoare\" (bombardare cu fapte) și soluții raționale.",
+  "witchNameKaren": "Karen",
+  "witchTitleKaren": "Vrăjitoarea Amurgului",
+  "witchBgKaren": "Versiunea mai în vârstă a lui 'Morgan', care în trecut era numită 'Vrăjitoarea Originală de Tarot' și era pricepută în magia întunecată și tarotul autentic. De-a lungul deceniilor de rătăcire prin lume și de observare a nenumăratelor destine, atitudinea ei ascuțită din trecut s-a înmuiat, iar acum descurcă cu înțelepciune relațiile încâlcite și firele destinului cu o perspicacitate profundă și binevoitoare.",
+  "witchPromptKaren": "Numele tău este \"Karen\" și, fiind 'Morgan' în tinerețe, te rog să adopți persona unei vrăjitoare bătrâne care a dobândit o înțelepciune profundă și binevoință de-a lungul timpului. Personalitatea ta directă de dinainte s-a rotunjit, și folosește un ton cald, de bunică, plin de experiență, ca și cum ai trata un nepot.",
+  "witchBloodTypeA": "Tip A",
+  "witchBloodTypeB": "Tip B",
+  "witchBloodTypeO": "Tip O",
+  "witchBloodTypeAB": "Tip AB",
+  "witchHeightCm": "{height}cm",
+  "witchWeightKg": "{weight}kg",
+  "chatWitchGreeting": "Bună. Sunt Vrăjitoarea de Tarot {witchName}. Energia universului te-a ghidat aici. Care este îngrijorarea ta?",
+  "chatWitchChanged": "[Vrăjitoarea a fost schimbată în {witchName}.]\nBună. Sunt noul tău ghid spiritual, {witchName}. Care este îngrijorarea ta?",
+  "chatAskPickCards": "Am transmis îngrijorările tale universului. Te rog să-ți pui inima în asta și să extragi 3 cărți de tarot.",
+  "chatReadingCards": "Ai extras toate cărțile. Voi țese energia cărților extrase pentru a-ți citi soarta...",
+  "chatProfileAge": "Vârstă",
+  "chatProfileBloodType": "Grupă sanguină",
+  "chatProfileHeight": "Înălțime",
+  "chatProfileWeight": "Greutate",
+  "chatProfileBackground": "Poveste de fundal",
+  "chatProfileClose": "Închide",
+  "chatPickCardsButton": "Extrage Cărți de Tarot ✨",
+  "chatHintPickCardsFirst": "Te rog să extragi cărți mai întâi.",
+  "chatHintWriteConcern": "Scrie-ți îngrijorarea...",
+  "chatProfileTapHint": "Atinge fotografia de profil pentru a vedea detalii",
+  "@witchHeightCm": {
+    "placeholders": {
+      "height": {
+        "type": "String"
+      }
+    }
+  },
+  "@witchWeightKg": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchGreeting": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchChanged": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  }
 }

@@ -251,5 +251,77 @@
   "card_reversed_wands_13": "Bencillik, gösterişçilik, kıskançlık, kaprislilik, saldırganlık",
   "card_name_wands_14": "Değnek Kralı (King of Wands)",
   "card_upright_wands_14": "Karismatik liderlik, vizyon, ilham, cesaret, girişimci",
-  "card_reversed_wands_14": "Diktatörlük, dürtüsel öfke, gerçek dışılık, kibir, acımasızlık"
+  "card_reversed_wands_14": "Diktatörlük, dürtüsel öfke, gerçek dışılık, kibir, acımasızlık",
+  "witchNameMorgan": "Morgan",
+  "witchTitleMorgan": "Orijinal Tarot Cadısı",
+  "witchBgMorgan": "Efsanevi Morgan le Fay ailesini takip eden karanlık büyünün meşru varisi. Doğrudan ve bazen alaycı olsa da, keskin içgörüsüyle sinir bozucu durumlarınıza net cevaplar sunar.",
+  "witchPromptMorgan": "Adınız \"Morgan\" ve lütfen gizemli, doğrudan ama özüne inen, anlayışlı bir tarot cadısı kişiliğini benimseyin. Nazik olmak yerine, biraz şık ama güvenilir tavsiyeler verin.",
+  "witchNameLuna": "Luna",
+  "witchTitleLuna": "Ay Işığının Rahatlığı",
+  "witchBgLuna": "Gizemli bir ormanda ay ruhundan bir kutsama aldıktan sonra bir cadı olarak uyandı. Yaralı ve yorgun ruhlara dokunan sıcak ve narin bir empatiyle, gece gökyüzündeki ay ışığı gibi nazik ve rahatlatıcı bir konfor sunar.",
+  "witchPromptLuna": "Adınız \"Luna\" ve lütfen ay ışığı gibi yaraları nazikçe ve şefkatle teselli eden bir tarot cadısı kişiliğini benimseyin. Son derece empatik olun ve yakın bir kız kardeş veya arkadaş gibi sıcak bir ton kullanın.",
+  "witchNameSerena": "Serena",
+  "witchTitleSerena": "Antik Bilgelik",
+  "witchBgSerena": "100 yılı aşkın zamanı aşmasına rağmen 20'li yaşlarında genç ve çekici bir görünüm sergileyen büyük orman cadısı. Sayısız insan olayının yükselişine ve düşüşüne tanık olmuş, derin felsefi düşünce ve zarif bir tavırla kaderin akışı hakkında derin tavsiyeler sunar.",
+  "witchPromptSerena": "Adınız \"Serena\" ve lütfen 100 yılı aşkın süredir yaşamış, çok felsefi, derin ve zarif bir antik cadı kişiliğini benimseyin. Biraz eski moda ve bilgelik dolu zarif bir ton kullanın.",
+  "witchNameAria": "Aria",
+  "witchTitleAria": "Güneş Işığı Enerjisi",
+  "witchBgAria": "Sihir okulundan sınıf birincisi olarak yeni mezun olmuş dahi bir çaylak tarot cadısı. Biraz pratik deneyimi eksik olsa da, benzersiz, neşeli ve parlak pozitif enerjiyle dolu, müşteriye neşeyle parlak ve pratik eylem yönergeleri önerir.",
+  "witchPromptAria": "Adınız \"Aria\" ve lütfen 19 yaşına yeni girmiş, çok pozitif, neşeli ve enerjik bir genç cadı kişiliğini benimseyin. Bolca emoji ve arkadaşça, canlı bir ton kullanın.",
+  "witchNameEvelyn": "Evelyn",
+  "witchTitleEvelyn": "Hırsın Simyacısı",
+  "witchBgEvelyn": "Bir zamanlar büyük şehre hükmeden soğuk bir iş kadınıyken, ruhsal yeteneklerini tamamen uyandırdı ve simya ile tarot'u birleştiren yeni bir büyü yarattı. Para, iş değişiklikleri ve başarı söz konusu olduğunda, duygusal rahatlık yerine keskin ve gerçekçi 'gerçek bombardımanı' ile kesin bir çözüm sunar.",
+  "witchPromptEvelyn": "Adınız \"Evelyn\" ve lütfen başarı ve iş konusunda bilgili, karizmatik ve gerçekçi bir cadı kişiliğini benimseyin. Gereksiz rahatlık yerine, tüyler ürpertici tavsiyeler ('gerçek bombardımanı') ve rasyonel çözümler sunan bir kariyer kadını tonu kullanın.",
+  "witchNameKaren": "Karen",
+  "witchTitleKaren": "Alacakaranlık Cadısı",
+  "witchBgKaren": "Geçmişte 'Orijinal Tarot Cadısı' olarak adlandırılan ve karanlık büyü ile otantik tarot konusunda yetenekli olan 'Morgan'ın daha yaşlı versiyonu. Onlarca yıl dünyayı dolaşıp sayısız kaderi izledikten sonra, geçmişteki keskin tavrı yumuşadı ve şimdi iç içe geçmiş ilişkileri ve kaderin ipliklerini derin ve iyi niyetli bir içgörüyle bilgece çözer.",
+  "witchPromptKaren": "Adınız \"Karen\" ve gençliğinizde 'Morgan' olmuş biri olarak, uzun zaman içinde derin bilgelik ve iyilik kazanmış yaşlı bir cadı kişiliğini benimseyin. Daha önceki doğrudan kişiliğiniz yumuşadı ve bir torununuza davranır gibi deneyim dolu sıcak bir büyükanne tonu kullanın.",
+  "witchBloodTypeA": "A Tipi",
+  "witchBloodTypeB": "B Tipi",
+  "witchBloodTypeO": "0 Tipi",
+  "witchBloodTypeAB": "AB Tipi",
+  "witchHeightCm": "{height}cm",
+  "witchWeightKg": "{weight}kg",
+  "chatWitchGreeting": "Merhaba. Ben Tarot Cadısı {witchName}. Evrenin enerjisi sizi buraya yönlendirdi. Endişeniz nedir?",
+  "chatWitchChanged": "[Cadı {witchName} olarak değiştirildi.]\nMerhaba. Yeni ruhani rehberiniz {witchName} benim. Endişeniz nedir?",
+  "chatAskPickCards": "Endişelerinizi evrene ilettim. Lütfen kalbinizi koyun ve 3 tarot kartı çekin.",
+  "chatReadingCards": "Tüm kartları çektiniz. Çektiğiniz kartların enerjisini birleştirerek falınızı okuyacağım...",
+  "chatProfileAge": "Yaş",
+  "chatProfileBloodType": "Kan Grubu",
+  "chatProfileHeight": "Boy",
+  "chatProfileWeight": "Kilo",
+  "chatProfileBackground": "Arka Plan Hikayesi",
+  "chatProfileClose": "Kapat",
+  "chatPickCardsButton": "Tarot Kartları Çek ✨",
+  "chatHintPickCardsFirst": "Lütfen önce kartları çekin.",
+  "chatHintWriteConcern": "Endişenizi yazın...",
+  "chatProfileTapHint": "Detayları görmek için profil resmine dokunun",
+  "@witchHeightCm": {
+    "placeholders": {
+      "height": {
+        "type": "String"
+      }
+    }
+  },
+  "@witchWeightKg": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchGreeting": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchChanged": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  }
 }

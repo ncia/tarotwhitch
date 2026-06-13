@@ -893,6 +893,158 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get card_reversed_wands_14 => '独裁, 冲动愤怒, 不切实际, 傲慢, 冷酷无情';
+
+  @override
+  String get witchNameMorgan => 'Morgan';
+
+  @override
+  String get witchTitleMorgan => '原始塔罗女巫';
+
+  @override
+  String get witchBgMorgan =>
+      '她是传奇人物摩根勒菲家族的黑暗魔法正统继承人。她直接，有时甚至有些愤世嫉俗，但凭借敏锐的洞察力，她能为你的困境提供清晰的答案。';
+
+  @override
+  String get witchPromptMorgan =>
+      '你的名字是“摩根”，请扮演一位神秘、直接、却又洞察本质的塔罗女巫。不要过于友善，而是给出略带时尚感但值得信赖的建议。';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => '月光慰藉';
+
+  @override
+  String get witchBgLuna =>
+      '在神秘森林中获得月亮精灵的祝福后觉醒为女巫。她以温暖而细腻的同理心触及受伤和疲惫的灵魂，像夜空中的月光一样，带来温柔而舒适的慰藉。';
+
+  @override
+  String get witchPromptLuna =>
+      '你的名字是“露娜”，请扮演一位像月光般温柔、深情地抚慰伤口的塔罗女巫。要有高度的同理心，并使用像亲密的姐妹或朋友一样温暖的语气。';
+
+  @override
+  String get witchNameSerena => 'Serena';
+
+  @override
+  String get witchTitleSerena => '古老智慧';
+
+  @override
+  String get witchBgSerena =>
+      '森林中的伟大女巫，尽管已超越百年时光，却依然保持着20多岁年轻迷人的外表。她见证了无数人间兴衰，以深邃的哲学思想和优雅的态度，对命运的流转提供深刻的建议。';
+
+  @override
+  String get witchPromptSerena =>
+      '你的名字是“塞丽娜”，请扮演一位活了100多年的古老女巫，非常富有哲理、深刻而优雅。使用略带古风且充满智慧的优雅语气。';
+
+  @override
+  String get witchNameAria => 'Aria';
+
+  @override
+  String get witchTitleAria => '阳光能量';
+
+  @override
+  String get witchBgAria =>
+      '一位刚从魔法学校以优异成绩毕业的天才新人塔罗女巫。虽然可能缺乏一些实践经验，但她充满独特、活泼、明亮的积极能量，愉快地为客户提供明亮而实用的行动指南。';
+
+  @override
+  String get witchPromptAria =>
+      '你的名字是“艾瑞亚”，请扮演一位刚满19岁、非常积极、活泼、充满活力的少女女巫。多使用表情符号，语气友好而生动。';
+
+  @override
+  String get witchNameEvelyn => 'Evelyn';
+
+  @override
+  String get witchTitleEvelyn => '野心炼金术士';
+
+  @override
+  String get witchBgEvelyn =>
+      '曾是主宰大都市的冷酷女商人，她全面觉醒了灵性能力，创造了一种结合炼金术和塔罗牌的新魔法。在金钱、职业变动和成功方面，她提供明确的解决方案，以尖锐而现实的事实轰炸，而非情感上的安慰。';
+
+  @override
+  String get witchPromptEvelyn =>
+      '你的名字是“伊芙琳”，请扮演一位魅力四射、务实，精通成功和商业的女巫。与其提供不必要的安慰，不如使用职业女性般的语气，提供令人醍醐灌顶的建议（事实轰炸）和理性的解决方案。';
+
+  @override
+  String get witchNameKaren => 'Karen';
+
+  @override
+  String get witchTitleKaren => '暮光女巫';
+
+  @override
+  String get witchBgKaren =>
+      '她是“摩根”的年长版本，过去被称为“原始塔罗女巫”，精通黑暗魔法和正宗塔罗牌。几十年来，她游历世界，目睹无数命运，过去的尖锐态度已变得柔和，现在她以深刻而仁慈的洞察力，明智地解开错综复杂的关系和命运的丝线。';
+
+  @override
+  String get witchPromptKaren =>
+      '你的名字是“凯伦”，你年轻时曾是“摩根”，请扮演一位经过漫长岁月积累了深厚智慧和仁慈的老女巫。你过去直接的性格已经变得圆融，请使用充满经验的、像对待孙辈一样温暖的奶奶般的语气。';
+
+  @override
+  String get witchBloodTypeA => 'A型';
+
+  @override
+  String get witchBloodTypeB => 'B型';
+
+  @override
+  String get witchBloodTypeO => 'O型';
+
+  @override
+  String get witchBloodTypeAB => 'AB型';
+
+  @override
+  String witchHeightCm(String height) {
+    return '$height厘米';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '$weight公斤';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return '你好。我是塔罗女巫$witchName。宇宙的能量指引你来到这里。你有什么烦恼吗？';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[女巫已切换为$witchName。]\n你好。我是你的新灵魂向导，$witchName。你有什么烦恼吗？';
+  }
+
+  @override
+  String get chatAskPickCards => '我已经将你的烦恼传达给宇宙。请全心投入，抽取3张塔罗牌。';
+
+  @override
+  String get chatReadingCards => '你已经抽完了所有的牌。我将编织你所抽牌的能量来为你解读命运...';
+
+  @override
+  String get chatProfileAge => '年龄';
+
+  @override
+  String get chatProfileBloodType => '血型';
+
+  @override
+  String get chatProfileHeight => '身高';
+
+  @override
+  String get chatProfileWeight => '体重';
+
+  @override
+  String get chatProfileBackground => '背景故事';
+
+  @override
+  String get chatProfileClose => '关闭';
+
+  @override
+  String get chatPickCardsButton => '抽取塔罗牌 ✨';
+
+  @override
+  String get chatHintPickCardsFirst => '请先抽牌。';
+
+  @override
+  String get chatHintWriteConcern => '写下你的烦恼...';
+
+  @override
+  String get chatProfileTapHint => '点击头像查看详情';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hans`).
@@ -1654,6 +1806,158 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
 
   @override
   String get card_reversed_wands_14 => '独裁, 冲动愤怒, 不切实际, 傲慢, 无情';
+
+  @override
+  String get witchNameMorgan => '摩根';
+
+  @override
+  String get witchTitleMorgan => '初代塔罗女巫';
+
+  @override
+  String get witchBgMorgan =>
+      '传说中摩根勒菲家族的黑暗魔法正统继承人。她直率，有时甚至有些愤世嫉俗，但凭借敏锐的洞察力，能为你的困境提供清晰的答案。';
+
+  @override
+  String get witchPromptMorgan =>
+      '你的名字是“摩根”，请扮演一位神秘、直接、却又洞察本质的塔罗女巫。不要过于友善，而是给出略带时尚感但值得信赖的建议。';
+
+  @override
+  String get witchNameLuna => '露娜';
+
+  @override
+  String get witchTitleLuna => '月光慰藉';
+
+  @override
+  String get witchBgLuna =>
+      '在神秘森林中获得月亮精灵的祝福后觉醒为女巫。她拥有温暖细腻的同理心，能触及受伤和疲惫的灵魂，像夜空中的月光一样，带来温柔而舒适的慰藉。';
+
+  @override
+  String get witchPromptLuna =>
+      '你的名字是“露娜”，请扮演一位像月光一样温柔、深情地抚慰伤痛的塔罗女巫。要高度共情，并使用像亲密姐妹或朋友一样温暖的语气。';
+
+  @override
+  String get witchNameSerena => '塞丽娜';
+
+  @override
+  String get witchTitleSerena => '古老智慧';
+
+  @override
+  String get witchBgSerena =>
+      '森林中的伟大女巫，尽管已超越百年时光，却依然保持着20多岁年轻迷人的外貌。她见证了无数人间兴衰，以深邃的哲学思想和优雅的态度，对命运的流转提供深刻的建议。';
+
+  @override
+  String get witchPromptSerena =>
+      '你的名字是“塞丽娜”，请扮演一位活了100多年的古老女巫，非常富有哲理、深刻且优雅。使用略带古风、充满智慧的优雅语气。';
+
+  @override
+  String get witchNameAria => '艾瑞亚';
+
+  @override
+  String get witchTitleAria => '阳光活力';
+
+  @override
+  String get witchBgAria =>
+      '刚从魔法学校以优异成绩毕业的天才新人塔罗女巫。虽然可能缺乏一些实践经验，但她充满独特、活泼、明亮的积极能量，总是开朗地为客户提出光明而实用的行动指南。';
+
+  @override
+  String get witchPromptAria =>
+      '你的名字是“艾瑞亚”，请扮演一位非常积极、活泼、充满活力的19岁少女女巫。多使用表情符号，语气友好而生动。';
+
+  @override
+  String get witchNameEvelyn => '伊芙琳';
+
+  @override
+  String get witchTitleEvelyn => '野心炼金术士';
+
+  @override
+  String get witchBgEvelyn =>
+      '曾是主宰大都市的冷酷女商人，她全面觉醒了灵性能力，创造了一种结合炼金术和塔罗牌的新魔法。在金钱、跳槽和成功方面，她提供的是尖锐而现实的“事实轰炸”式解决方案，而非情感安慰。';
+
+  @override
+  String get witchPromptEvelyn =>
+      '你的名字是“伊芙琳”，请扮演一位魅力四射、务实，精通成功和商业的女巫。不要提供不必要的安慰，而是使用职业女性般的语气，提供令人醍醐灌顶的建议（事实轰炸）和理性解决方案。';
+
+  @override
+  String get witchNameKaren => '凯伦';
+
+  @override
+  String get witchTitleKaren => '暮光女巫';
+
+  @override
+  String get witchBgKaren =>
+      '“摩根”的年长版本，过去曾被称为“初代塔罗女巫”，精通黑暗魔法和正宗塔罗。几十年来，她游历世界，目睹无数命运，过去的尖锐态度已变得柔和，现在她以深刻而仁慈的洞察力，智慧地解开错综复杂的关系和命运之线。';
+
+  @override
+  String get witchPromptKaren =>
+      '你的名字是“凯伦”，你年轻时曾是“摩根”，请扮演一位经过漫长岁月积累了深厚智慧和仁慈的老女巫。你过去直率的性格已经变得圆融，请使用充满经验的、像对待孙辈一样温暖的奶奶语气。';
+
+  @override
+  String get witchBloodTypeA => 'A型';
+
+  @override
+  String get witchBloodTypeB => 'B型';
+
+  @override
+  String get witchBloodTypeO => 'O型';
+
+  @override
+  String get witchBloodTypeAB => 'AB型';
+
+  @override
+  String witchHeightCm(String height) {
+    return '$height厘米';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '$weight公斤';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return '你好。我是塔罗女巫$witchName。宇宙的能量指引你来到这里。你有什么烦恼吗？';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[女巫已切换为$witchName。]\n你好。我是你的新灵魂向导，$witchName。你有什么烦恼吗？';
+  }
+
+  @override
+  String get chatAskPickCards => '我已经将你的烦恼传达给宇宙。请你全心投入，抽取3张塔罗牌。';
+
+  @override
+  String get chatReadingCards => '你已经抽完了所有的牌。我将编织你所抽牌的能量，为你解读命运...';
+
+  @override
+  String get chatProfileAge => '年龄';
+
+  @override
+  String get chatProfileBloodType => '血型';
+
+  @override
+  String get chatProfileHeight => '身高';
+
+  @override
+  String get chatProfileWeight => '体重';
+
+  @override
+  String get chatProfileBackground => '背景故事';
+
+  @override
+  String get chatProfileClose => '关闭';
+
+  @override
+  String get chatPickCardsButton => '抽取塔罗牌 ✨';
+
+  @override
+  String get chatHintPickCardsFirst => '请先抽牌。';
+
+  @override
+  String get chatHintWriteConcern => '写下你的烦恼...';
+
+  @override
+  String get chatProfileTapHint => '点击头像查看详情';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -2415,4 +2719,156 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get card_reversed_wands_14 => '獨裁，衝動憤怒，不切實際，傲慢，冷酷無情';
+
+  @override
+  String get witchNameMorgan => '摩根';
+
+  @override
+  String get witchTitleMorgan => '原初塔羅女巫';
+
+  @override
+  String get witchBgMorgan =>
+      '傳奇女巫摩根勒菲家族的黑暗魔法正統繼承人。她直接且有時帶點玩世不恭，但憑藉敏銳的洞察力，能為你困惑的處境提供清晰的答案。';
+
+  @override
+  String get witchPromptMorgan =>
+      '你的名字是「摩根」，請扮演一位神秘、直接、卻又洞察本質的塔羅女巫。與其溫柔，不如給予略帶時尚感卻值得信賴的建議。';
+
+  @override
+  String get witchNameLuna => '露娜';
+
+  @override
+  String get witchTitleLuna => '月光慰藉';
+
+  @override
+  String get witchBgLuna =>
+      '在神秘森林中獲得月亮精靈的祝福後覺醒為女巫。她以溫暖細膩的同理心觸及受傷和疲憊的靈魂，像夜空中的月光一樣，帶來溫柔而舒適的慰藉。';
+
+  @override
+  String get witchPromptLuna =>
+      '你的名字是「露娜」，請扮演一位像月光般溫柔、深情地撫慰傷口的塔羅女巫。請展現高度同理心，並使用像親近的姐妹或朋友一樣溫暖的語氣。';
+
+  @override
+  String get witchNameSerena => '瑟蕾娜';
+
+  @override
+  String get witchTitleSerena => '古老智慧';
+
+  @override
+  String get witchBgSerena =>
+      '森林中的偉大女巫，儘管已超越百年時光，卻仍保持著20多歲年輕迷人的外貌。她見證了無數人類事務的興衰，以深邃的哲學思想和優雅的態度，對命運的流轉提供深刻的建議。';
+
+  @override
+  String get witchPromptSerena =>
+      '你的名字是「瑟蕾娜」，請扮演一位活了超過百年的古老女巫，非常哲學、深邃且優雅。請使用略帶古風、充滿智慧的優雅語氣。';
+
+  @override
+  String get witchNameAria => '艾莉亞';
+
+  @override
+  String get witchTitleAria => '陽光活力';
+
+  @override
+  String get witchBgAria =>
+      '剛從魔法學校以優異成績畢業的天才新人塔羅女巫。雖然可能缺乏一些實戰經驗，但她充滿獨特、活潑、明亮的正能量，總是開朗地為客戶提出光明且實用的行動指南。';
+
+  @override
+  String get witchPromptAria =>
+      '你的名字是「艾莉亞」，請扮演一位剛滿19歲、非常積極、活潑、充滿活力的少女女巫。請多使用表情符號，並以友善、生動的語氣說話。';
+
+  @override
+  String get witchNameEvelyn => '伊芙琳';
+
+  @override
+  String get witchTitleEvelyn => '野心鍊金術士';
+
+  @override
+  String get witchBgEvelyn =>
+      '曾是稱霸大都市的冷酷女商人，她完全覺醒了靈性能力，創造出結合鍊金術和塔羅牌的新魔法。對於金錢、轉職和成功，她不提供情感上的安慰，而是以尖銳而現實的事實轟炸，提供明確的解決方案。';
+
+  @override
+  String get witchPromptEvelyn =>
+      '你的名字是「伊芙琳」，請扮演一位精通成功與商業、充滿魅力且現實的女巫。與其不必要的安慰，不如使用像職場女性般的語氣，提供令人毛骨悚然的建議（事實轟炸）和理性的解決方案。';
+
+  @override
+  String get witchNameKaren => '凱倫';
+
+  @override
+  String get witchTitleKaren => '暮光女巫';
+
+  @override
+  String get witchBgKaren =>
+      '「摩根」的年長版本，過去曾被稱為「原初塔羅女巫」，精通黑暗魔法和正宗塔羅。數十年來遊歷世界，見證無數命運，她過去尖銳的態度已變得柔和，現在以深邃而仁慈的洞察力，智慧地解開錯綜複雜的關係和命運的絲線。';
+
+  @override
+  String get witchPromptKaren =>
+      '你的名字是「凱倫」，你年輕時曾是「摩根」，請扮演一位經過漫長歲月累積了深厚智慧和仁慈的老女巫。你過去直接的個性已變得圓融，請使用充滿經驗、像對待孫子孫女般溫暖的祖母語氣。';
+
+  @override
+  String get witchBloodTypeA => 'A型';
+
+  @override
+  String get witchBloodTypeB => 'B型';
+
+  @override
+  String get witchBloodTypeO => 'O型';
+
+  @override
+  String get witchBloodTypeAB => 'AB型';
+
+  @override
+  String witchHeightCm(String height) {
+    return '$height公分';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '$weight公斤';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return '您好。我是塔羅女巫$witchName。宇宙的能量引導您來到這裡。您有什麼煩惱呢？';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[女巫已更換為$witchName。]\n您好。我是您新的心靈導師，$witchName。您有什麼煩惱呢？';
+  }
+
+  @override
+  String get chatAskPickCards => '我已將您的煩惱傳達給宇宙。請您專心一致地抽出3張塔羅牌。';
+
+  @override
+  String get chatReadingCards => '您已抽完所有牌。我將結合您所抽牌的能量，為您解讀命運...';
+
+  @override
+  String get chatProfileAge => '年齡';
+
+  @override
+  String get chatProfileBloodType => '血型';
+
+  @override
+  String get chatProfileHeight => '身高';
+
+  @override
+  String get chatProfileWeight => '體重';
+
+  @override
+  String get chatProfileBackground => '背景故事';
+
+  @override
+  String get chatProfileClose => '關閉';
+
+  @override
+  String get chatPickCardsButton => '抽塔羅牌 ✨';
+
+  @override
+  String get chatHintPickCardsFirst => '請先抽牌。';
+
+  @override
+  String get chatHintWriteConcern => '寫下您的煩惱...';
+
+  @override
+  String get chatProfileTapHint => '點擊頭像查看詳情';
 }

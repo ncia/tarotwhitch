@@ -5,6 +5,7 @@ import 'meanings_screen.dart';
 import 'my_menu_screen.dart';
 import 'diary_screen.dart';
 import '../widgets/custom_image_icon.dart';
+import '../widgets/coin_widget.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import '../services/audio_service.dart';
 import '../widgets/animated_volume_control.dart';
@@ -16,7 +17,7 @@ class MainScreen extends StatefulWidget {
   State<MainScreen> createState() => _MainScreenState();
 }
 
-class _MainScreenState extends State<MainScreen> {
+class _MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
   int _currentIndex = 0;
 
   final List<Widget> _screens = [
@@ -30,6 +31,7 @@ class _MainScreenState extends State<MainScreen> {
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
     AudioService().init().then((_) {
       AudioService().playMysteriousBgm();
     });
@@ -37,8 +39,19 @@ class _MainScreenState extends State<MainScreen> {
 
   @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
     AudioService().stopBgm();
     super.dispose();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    super.didChangeAppLifecycleState(state);
+    if (state == AppLifecycleState.paused || state == AppLifecycleState.inactive) {
+      AudioService().pauseBgm();
+    } else if (state == AppLifecycleState.resumed) {
+      AudioService().resumeBgm();
+    }
   }
 
   @override
@@ -52,7 +65,13 @@ class _MainScreenState extends State<MainScreen> {
               alignment: Alignment.topRight,
               child: Padding(
                 padding: EdgeInsets.only(top: 16.0, right: 16.0),
-                child: AnimatedVolumeControl(),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    AnimatedVolumeControl(),
+                    CoinWidget(),
+                  ],
+                ),
               ),
             ),
           ),

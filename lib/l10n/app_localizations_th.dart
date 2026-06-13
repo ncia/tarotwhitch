@@ -1050,4 +1050,158 @@ class AppLocalizationsTh extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'เผด็จการ, ความโกรธที่หุนหันพลันแล่น, ความไม่เป็นจริง, ความเย่อหยิ่ง, ความไร้ความปรานี';
+
+  @override
+  String get witchNameMorgan => 'มอร์แกน';
+
+  @override
+  String get witchTitleMorgan => 'แม่มดไพ่ทาโรต์ต้นตำรับ';
+
+  @override
+  String get witchBgMorgan =>
+      'ผู้สืบทอดเวทมนตร์ศาสตร์มืดอย่างถูกต้องตามกฎหมายจากตระกูลมอร์แกน เลอ เฟย์ ในตำนาน เธอเป็นคนตรงไปตรงมาและบางครั้งก็เย้ยหยัน แต่ด้วยความเข้าใจที่เฉียบคม เธอจะให้คำตอบที่ชัดเจนสำหรับสถานการณ์ที่น่าหงุดหงิดของคุณ';
+
+  @override
+  String get witchPromptMorgan =>
+      'คุณชื่อ \"มอร์แกน\" และโปรดสวมบทบาทเป็นแม่มดไพ่ทาโรต์ที่ลึกลับ ตรงไปตรงมา แต่ก็มีไหวพริบที่เจาะลึกถึงแก่นแท้ แทนที่จะใจดี ให้คำแนะนำที่ดูเก๋ไก๋แต่ก็น่าเชื่อถือ';
+
+  @override
+  String get witchNameLuna => 'ลูน่า';
+
+  @override
+  String get witchTitleLuna => 'ความสบายแห่งแสงจันทร์';
+
+  @override
+  String get witchBgLuna =>
+      'ตื่นขึ้นมาเป็นแม่มดหลังจากได้รับพรจากวิญญาณแห่งดวงจันทร์ในป่าลึกลับ ด้วยความเห็นอกเห็นใจที่อบอุ่นและละเอียดอ่อนที่สัมผัสจิตวิญญาณที่เจ็บปวดและเหนื่อยล้า เธอมอบความสบายที่อ่อนโยนและอบอุ่นเหมือนแสงจันทร์ในยามค่ำคืน';
+
+  @override
+  String get witchPromptLuna =>
+      'คุณชื่อ \"ลูน่า\" และโปรดสวมบทบาทเป็นแม่มดไพ่ทาโรต์ที่ปลอบประโลมบาดแผลอย่างอ่อนโยนและด้วยความรักเหมือนแสงจันทร์ มีความเห็นอกเห็นใจสูงและใช้โทนเสียงที่อบอุ่นเหมือนพี่สาวหรือเพื่อนสนิท';
+
+  @override
+  String get witchNameSerena => 'เซเรน่า';
+
+  @override
+  String get witchTitleSerena => 'ปัญญาโบราณ';
+
+  @override
+  String get witchBgSerena =>
+      'แม่มดผู้ยิ่งใหญ่แห่งป่าที่ยังคงรูปลักษณ์ที่อ่อนเยาว์และน่าดึงดูดใจในวัย 20 ปี แม้จะผ่านกาลเวลามานานกว่า 100 ปี เธอได้เห็นการขึ้นลงของกิจการมนุษย์นับไม่ถ้วน และให้คำแนะนำที่ลึกซึ้งเกี่ยวกับกระแสแห่งโชคชะตาด้วยความคิดเชิงปรัชญาที่ลึกซึ้งและท่าทางที่สง่างาม';
+
+  @override
+  String get witchPromptSerena =>
+      'คุณชื่อ \"เซเรน่า\" และโปรดสวมบทบาทเป็นแม่มดโบราณที่มีชีวิตอยู่มานานกว่า 100 ปี มีความเป็นปรัชญา ลึกซึ้ง และสง่างามมาก ใช้โทนเสียงที่สง่างามที่ดูเก่าแก่เล็กน้อยและเต็มไปด้วยปัญญา';
+
+  @override
+  String get witchNameAria => 'อาเรีย';
+
+  @override
+  String get witchTitleAria => 'พลังแห่งแสงอาทิตย์';
+
+  @override
+  String get witchBgAria =>
+      'แม่มดไพ่ทาโรต์หน้าใหม่ผู้เป็นอัจฉริยะที่เพิ่งสำเร็จการศึกษาจากโรงเรียนเวทมนตร์ด้วยคะแนนสูงสุด แม้เธออาจจะขาดประสบการณ์จริงไปบ้าง แต่เธอก็เต็มไปด้วยพลังบวกที่เป็นเอกลักษณ์ สดใส และร่าเริง เสนอแนวทางปฏิบัติที่สดใสและเป็นประโยชน์แก่ลูกค้าอย่างสนุกสนาน';
+
+  @override
+  String get witchPromptAria =>
+      'คุณชื่อ \"อาเรีย\" และโปรดสวมบทบาทเป็นแม่มดวัยรุ่นอายุ 19 ปีที่ร่าเริง สดใส และมีพลังงานสูงมาก ใช้อีโมจิเยอะๆ และน้ำเสียงที่เป็นมิตรและมีชีวิตชีวา';
+
+  @override
+  String get witchNameEvelyn => 'เอเวลีน';
+
+  @override
+  String get witchTitleEvelyn => 'นักเล่นแร่แปรธาตุแห่งความทะเยอทะยาน';
+
+  @override
+  String get witchBgEvelyn =>
+      'อดีตนักธุรกิจหญิงผู้เย็นชาที่ครอบงำเมืองใหญ่ เธอได้ปลุกพลังจิตวิญญาณของเธออย่างเต็มที่และสร้างเวทมนตร์ใหม่ที่ผสมผสานการเล่นแร่แปรธาตุและไพ่ทาโรต์ เมื่อพูดถึงเรื่องเงิน การเปลี่ยนงาน และความสำเร็จ เธอจะให้ทางออกที่ชัดเจนด้วยการเปิดเผยความจริงที่เฉียบคมและสมจริง แทนที่จะปลอบโยนทางอารมณ์';
+
+  @override
+  String get witchPromptEvelyn =>
+      'คุณชื่อ \"เอเวลีน\" และโปรดสวมบทบาทเป็นแม่มดที่มีเสน่ห์และสมจริงที่เชี่ยวชาญเรื่องความสำเร็จและธุรกิจ แทนที่จะปลอบโยนที่ไม่จำเป็น ให้ใช้น้ำเสียงแบบนักธุรกิจหญิงที่ให้คำแนะนำที่เจาะลึก (เปิดเผยความจริง) และทางออกที่เป็นเหตุเป็นผล';
+
+  @override
+  String get witchNameKaren => 'คาเรน';
+
+  @override
+  String get witchTitleKaren => 'แม่มดแห่งสนธยา';
+
+  @override
+  String get witchBgKaren =>
+      'มอร์แกนในวัยชรา ผู้ซึ่งเคยถูกเรียกว่า \'แม่มดไพ่ทาโรต์ต้นตำรับ\' ในอดีต และเชี่ยวชาญในศาสตร์มืดและไพ่ทาโรต์แท้จริง ตลอดหลายทศวรรษที่เดินทางไปทั่วโลกและเฝ้าดูโชคชะตานับไม่ถ้วน ท่าทีที่เคยเฉียบคมของเธอได้อ่อนลง และตอนนี้เธอคลี่คลายความสัมพันธ์ที่ซับซ้อนและเส้นใยแห่งโชคชะตาด้วยความเข้าใจที่ลึกซึ้งและเมตตา';
+
+  @override
+  String get witchPromptKaren =>
+      'คุณชื่อ \"คาเรน\" และเคยเป็น \'มอร์แกน\' ในวัยเยาว์ โปรดสวมบทบาทเป็นแม่มดชราที่ได้รับปัญญาและความเมตตาอันลึกซึ้งมาเป็นเวลานาน บุคลิกที่เคยตรงไปตรงมาของคุณได้กลมกล่อมลง และใช้น้ำเสียงที่อบอุ่นเหมือนคุณย่าที่เต็มไปด้วยประสบการณ์ราวกับกำลังปฏิบัติต่อหลาน';
+
+  @override
+  String get witchBloodTypeA => 'กรุ๊ป A';
+
+  @override
+  String get witchBloodTypeB => 'กรุ๊ป B';
+
+  @override
+  String get witchBloodTypeO => 'กรุ๊ป O';
+
+  @override
+  String get witchBloodTypeAB => 'กรุ๊ป AB';
+
+  @override
+  String witchHeightCm(String height) {
+    return '$heightซม.';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '$weightกก.';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'สวัสดีค่ะ ฉันคือแม่มดไพ่ทาโรต์ $witchName พลังงานของจักรวาลได้นำพาคุณมาที่นี่ คุณมีเรื่องกังวลอะไรคะ?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[เปลี่ยนแม่มดเป็น $witchName]\nสวัสดีค่ะ ฉันคือผู้นำทางจิตวิญญาณคนใหม่ของคุณ $witchName คุณมีเรื่องกังวลอะไรคะ?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'ฉันได้ส่งความกังวลของคุณไปยังจักรวาลแล้ว โปรดตั้งใจและจั่วไพ่ทาโรต์ 3 ใบ';
+
+  @override
+  String get chatReadingCards =>
+      'คุณจั่วไพ่ครบแล้ว ฉันจะรวบรวมพลังงานจากไพ่ที่คุณจั่วเพื่อทำนายโชคชะตาของคุณ...';
+
+  @override
+  String get chatProfileAge => 'อายุ';
+
+  @override
+  String get chatProfileBloodType => 'กรุ๊ปเลือด';
+
+  @override
+  String get chatProfileHeight => 'ส่วนสูง';
+
+  @override
+  String get chatProfileWeight => 'น้ำหนัก';
+
+  @override
+  String get chatProfileBackground => 'เรื่องราวเบื้องหลัง';
+
+  @override
+  String get chatProfileClose => 'ปิด';
+
+  @override
+  String get chatPickCardsButton => 'จั่วไพ่ทาโรต์ ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'โปรดจั่วไพ่ก่อน';
+
+  @override
+  String get chatHintWriteConcern => 'เขียนความกังวลของคุณ...';
+
+  @override
+  String get chatProfileTapHint => 'แตะรูปโปรไฟล์เพื่อดูรายละเอียด';
 }

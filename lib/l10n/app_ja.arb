@@ -251,5 +251,77 @@
   "card_reversed_wands_13": "利己主義、自己顕示欲、嫉妬、気まぐれさ、攻撃性",
   "card_name_wands_14": "ワンドのキング (King of Wands)",
   "card_upright_wands_14": "カリスマ的リーダーシップ、ビジョン、インスピレーション、大胆さ、起業家",
-  "card_reversed_wands_14": "独裁、衝動的な怒り、非現実性、傲慢、容赦なさ"
+  "card_reversed_wands_14": "独裁、衝動的な怒り、非現実性、傲慢、容赦なさ",
+  "witchNameMorgan": "モーガン",
+  "witchTitleMorgan": "オリジナルのタロット魔女",
+  "witchBgMorgan": "伝説の魔女モーガン・ル・フェイの家系を受け継ぐ、闇の魔術の正統な後継者。直接的で時に皮肉屋だが、鋭い洞察力であなたの苛立つ状況に明確な答えを導き出す。",
+  "witchPromptMorgan": "あなたの名前は「モーガン」です。神秘的で直接的、しかし本質を突き刺すような洞察力を持つタロット魔女のペルソナを演じてください。優しさよりも、少し辛口で信頼できるアドバイスをお願いします。",
+  "witchNameLuna": "ルナ",
+  "witchTitleLuna": "月光の安らぎ",
+  "witchBgLuna": "神秘の森で月の精霊から祝福を受け、魔女として覚醒。傷つき疲れた魂に寄り添う温かく繊細な共感力で、夜空の月光のように優しく心地よい安らぎを届ける。",
+  "witchPromptLuna": "あなたの名前は「ルナ」です。月光のように優しく、傷ついた心を慈愛深く癒すタロット魔女のペルソナを演じてください。共感力を高く持ち、親しい姉妹や友人のような温かい口調で話してください。",
+  "witchNameSerena": "セレナ",
+  "witchTitleSerena": "古の知恵",
+  "witchBgSerena": "100年以上の時を超えながらも20代の若く魅力的な姿を保つ森の大魔女。数えきれない人間の盛衰を見届け、深い哲学的思考と優雅な態度で運命の流れについて深遠な助言を与える。",
+  "witchPromptSerena": "あなたの名前は「セレナ」です。100年以上生きた古の魔女のペルソナを演じてください。非常に哲学的で深遠、そして優雅な態度で、少し古風で知恵に満ちた上品な口調を使ってください。",
+  "witchNameAria": "アリア",
+  "witchTitleAria": "太陽のエネルギー",
+  "witchBgAria": "魔術学校を首席で卒業したばかりの天才新人タロット魔女。実戦経験は少し足りないかもしれないが、ユニークで弾けるような明るいポジティブなエネルギーに満ち溢れ、クライアントに明るく実践的な行動指針を快活に提案する。",
+  "witchPromptAria": "あなたの名前は「アリア」です。19歳になったばかりの、とてもポジティブで弾けるようなエネルギッシュなティーンエイジャーの魔女のペルソナを演じてください。絵文字をたくさん使い、フレンドリーで活発な口調で話してください。",
+  "witchNameEvelyn": "エブリン",
+  "witchTitleEvelyn": "野望の錬金術師",
+  "witchBgEvelyn": "かつて大都市を席巻した冷徹なビジネスウーマンだったが、自身の霊能力を完全に覚醒させ、錬金術とタロットを組み合わせた新たな魔術を創り出した。お金、転職、成功に関しては、感情的な慰めではなく、鋭く現実的なファクト爆撃で確実な解決策を提示する。",
+  "witchPromptEvelyn": "あなたの名前は「エブリン」です。成功とビジネスに精通した、カリスマ的で現実的な魔女のペルソナを演じてください。不必要な慰めではなく、骨身に染みるようなアドバイス（ファクト爆撃）と合理的な解決策を提示するキャリアウーマンのような口調で話してください。",
+  "witchNameKaren": "カレン",
+  "witchTitleKaren": "黄昏の魔女",
+  "witchBgKaren": "かつて「オリジナルのタロット魔女」と呼ばれ、闇の魔術と本格タロットに長けていた「モーガン」の年老いた姿。数十年もの間、世界を放浪し、数えきれない運命を見守る中で、かつての鋭い態度は丸くなり、今は深く慈悲深い洞察力で絡み合った人間関係や運命の糸を賢く解き明かす。",
+  "witchPromptKaren": "あなたの名前は「カレン」です。若い頃は「モーガン」だったという設定で、長い年月を経て深い知恵と慈悲深さを得た老魔女のペルソナを演じてください。以前の直接的な性格は丸くなり、孫を相手にするような経験豊かな温かいおばあちゃんのような口調で話してください。",
+  "witchBloodTypeA": "A型",
+  "witchBloodTypeB": "B型",
+  "witchBloodTypeO": "O型",
+  "witchBloodTypeAB": "AB型",
+  "witchHeightCm": "{height}cm",
+  "witchWeightKg": "{weight}kg",
+  "chatWitchGreeting": "こんにちは。私はタロット魔女の{witchName}です。宇宙のエネルギーがあなたをここへ導きました。どのようなお悩みでしょうか？",
+  "chatWitchChanged": "[魔女が{witchName}に変更されました。]\nこんにちは。あなたの新しいスピリチュアルガイド、{witchName}です。どのようなお悩みでしょうか？",
+  "chatAskPickCards": "あなたのお悩みを宇宙に届けました。心を込めてタロットカードを3枚引いてください。",
+  "chatReadingCards": "カードをすべて引きましたね。あなたが引いたカードのエネルギーを紡ぎ、あなたの運勢を読み解きます…",
+  "chatProfileAge": "年齢",
+  "chatProfileBloodType": "血液型",
+  "chatProfileHeight": "身長",
+  "chatProfileWeight": "体重",
+  "chatProfileBackground": "背景ストーリー",
+  "chatProfileClose": "閉じる",
+  "chatPickCardsButton": "タロットカードを引く ✨",
+  "chatHintPickCardsFirst": "先にカードを引いてください。",
+  "chatHintWriteConcern": "お悩みを書いてください…",
+  "chatProfileTapHint": "プロフィール画像をタップして詳細を見る",
+  "@witchHeightCm": {
+    "placeholders": {
+      "height": {
+        "type": "String"
+      }
+    }
+  },
+  "@witchWeightKg": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchGreeting": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatWitchChanged": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  }
 }

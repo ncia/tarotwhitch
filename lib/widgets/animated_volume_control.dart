@@ -23,8 +23,8 @@ class _AnimatedVolumeControlState extends State<AnimatedVolumeControl> {
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 200),
         curve: Curves.easeInOut,
-        height: 48,
-        width: _isHovered ? 160 : 48,
+        height: 38,
+        width: _isHovered ? 160 : 38,
         decoration: BoxDecoration(
           color: Colors.black.withOpacity(0.5),
           borderRadius: BorderRadius.circular(24),
@@ -67,8 +67,8 @@ class _AnimatedVolumeControlState extends State<AnimatedVolumeControl> {
                 });
               },
               child: Container(
-                width: 46,
-                height: 46,
+                width: 36,
+                height: 36,
                 alignment: Alignment.center,
                 decoration: const BoxDecoration(
                   shape: BoxShape.circle,

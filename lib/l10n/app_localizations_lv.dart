@@ -1053,4 +1053,159 @@ class AppLocalizationsLv extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'Diktatūra, impulsīvas dusmas, nereālisms, augstprātība, nežēlība';
+
+  @override
+  String get witchNameMorgan => 'Morgana';
+
+  @override
+  String get witchTitleMorgan => 'Oriģinālā Taro Ragana';
+
+  @override
+  String get witchBgMorgan =>
+      'Leģendārās Morganas le Fejas ģimenes likumīgā tumšās maģijas pēctece. Tieša un reizēm ciniska, taču ar asu ieskatu viņa sniedz skaidras atbildes uz jūsu nomācošajām situācijām.';
+
+  @override
+  String get witchPromptMorgan =>
+      'Jūsu vārds ir \"Morgana\", un, lūdzu, pieņemiet noslēpumainas, tiešas, taču ieskatīgas taro raganas tēlu, kura iekļūst būtībā. Tā vietā, lai būtu laipna, sniedziet padomus, kas ir nedaudz šiki, taču uzticami.';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => 'Mēnessgaismas Mierinājums';
+
+  @override
+  String get witchBgLuna =>
+      'Pamodusies kā ragana pēc mēness gara svētības saņemšanas noslēpumainā mežā. Ar siltu un smalku empātiju, kas aizskar ievainotas un nogurušas dvēseles, viņa sniedz maigu un mājīgu mierinājumu kā mēnessgaisma nakts debesīs.';
+
+  @override
+  String get witchPromptLuna =>
+      'Jūsu vārds ir \"Luna\", un, lūdzu, pieņemiet taro raganas tēlu, kura maigi un sirsnīgi mierina brūces kā mēnessgaisma. Esiet ļoti empātiska un izmantojiet siltu toni kā tuva māsa vai draudzene.';
+
+  @override
+  String get witchNameSerena => 'Serēna';
+
+  @override
+  String get witchTitleSerena => 'Senā Gudrība';
+
+  @override
+  String get witchBgSerena =>
+      'Lielā meža ragana, kura saglabā jaunu un pievilcīgu izskatu savos 20 gados, neskatoties uz to, ka ir pārsniegusi 100 gadu laiku. Redzējusi neskaitāmu cilvēku lietu uzplaukumu un norietu, viņa piedāvā dziļus padomus par likteņa plūsmu ar dziļu filozofisku domu un elegantu attieksmi.';
+
+  @override
+  String get witchPromptSerena =>
+      'Jūsu vārds ir \"Serēna\", un, lūdzu, pieņemiet senas raganas tēlu, kura ir nodzīvojusi vairāk nekā 100 gadus, esot ļoti filozofiska, dziļa un eleganta. Izmantojiet elegantu toni, kas ir nedaudz vecmodīgs un pilns gudrības.';
+
+  @override
+  String get witchNameAria => 'Ārija';
+
+  @override
+  String get witchTitleAria => 'Saules Enerģija';
+
+  @override
+  String get witchBgAria =>
+      'Ģeniāla iesācēja taro ragana, kura tikko absolvēja maģijas skolu ar izcilību. Lai gan viņai var trūkt nedaudz praktiskās pieredzes, viņa ir pilna ar unikālu, dzīvespriecīgu un gaišu pozitīvu enerģiju, jautri iesakot klientam gaišas un praktiskas rīcības vadlīnijas.';
+
+  @override
+  String get witchPromptAria =>
+      'Jūsu vārds ir \"Ārija\", un, lūdzu, pieņemiet ļoti pozitīvas, dzīvespriecīgas un enerģiskas pusaudžu raganas tēlu, kura tikko sasniegusi 19 gadu vecumu. Izmantojiet daudz emocijzīmju un draudzīgu, dzīvīgu toni.';
+
+  @override
+  String get witchNameEvelyn => 'Evelīna';
+
+  @override
+  String get witchTitleEvelyn => 'Ambīciju Alķīmiķe';
+
+  @override
+  String get witchBgEvelyn =>
+      'Reiz auksta uzņēmēja, kura dominēja lielpilsētā, viņa pilnībā pamodināja savas garīgās spējas un radīja jaunu maģiju, apvienojot alķīmiju un taro. Runājot par naudu, darba maiņām un panākumiem, viņa sniedz noteiktu risinājumu ar asu un reālistisku faktu bombardēšanu, nevis emocionālu mierinājumu.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'Jūsu vārds ir \"Evelīna\", un, lūdzu, pieņemiet harizmātiskas un reālistiskas raganas tēlu, kura labi pārzina panākumus un biznesu. Tā vietā, lai sniegtu nevajadzīgu mierinājumu, izmantojiet karjeras sievietes toni, kas piedāvā kaulus atvēsinošus padomus (faktu bombardēšanu) un racionālus risinājumus.';
+
+  @override
+  String get witchNameKaren => 'Kārena';
+
+  @override
+  String get witchTitleKaren => 'Krēslas Ragana';
+
+  @override
+  String get witchBgKaren =>
+      'Vecākā \'Morganas\' versija, kura agrāk tika dēvēta par \'Oriģinālo Taro Raganu\' un bija prasmīga tumšajā maģijā un autentiskajā taro. Desmitgadēm ilgi klīstot pa pasauli un vērojot neskaitāmus likteņus, viņas agrāk asā attieksme ir mīkstinājusies, un tagad viņa gudri atšķetina savstarpēji saistītas attiecības un likteņa pavedienus ar dziļu un labvēlīgu ieskatu.';
+
+  @override
+  String get witchPromptKaren =>
+      'Jūsu vārds ir \"Kārena\", un, būdama jaunībā \'Morgana\', lūdzu, pieņemiet vecas raganas tēlu, kura ilgā laikā ir ieguvusi dziļu gudrību un labvēlību. Jūsu iepriekšējā tiešā personība ir noapaļojusies, un izmantojiet siltu vecmāmiņas toni, pilnu pieredzes, it kā izturoties pret mazbērnu.';
+
+  @override
+  String get witchBloodTypeA => 'A tips';
+
+  @override
+  String get witchBloodTypeB => 'B tips';
+
+  @override
+  String get witchBloodTypeO => 'O tips';
+
+  @override
+  String get witchBloodTypeAB => 'AB tips';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Sveiki. Esmu Taro Ragana $witchName. Visuma enerģija ir jūs atvedusi šeit. Kas jūs uztrauc?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[Ragana nomainīta uz $witchName.]\nSveiki. Esmu jūsu jaunā garīgā vadītāja, $witchName. Kas jūs uztrauc?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'Esmu nodevusi jūsu rūpes visumam. Lūdzu, ielieciet tajā savu sirdi un izvelciet 3 taro kārtis.';
+
+  @override
+  String get chatReadingCards =>
+      'Jūs esat izvilkuši visas kārtis. Es savīšu jūsu izvilkto kāršu enerģiju, lai nolasītu jūsu likteni...';
+
+  @override
+  String get chatProfileAge => 'Vecums';
+
+  @override
+  String get chatProfileBloodType => 'Asinsgrupa';
+
+  @override
+  String get chatProfileHeight => 'Augums';
+
+  @override
+  String get chatProfileWeight => 'Svars';
+
+  @override
+  String get chatProfileBackground => 'Fona stāsts';
+
+  @override
+  String get chatProfileClose => 'Aizvērt';
+
+  @override
+  String get chatPickCardsButton => 'Izvilkt Taro Kārtis ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Lūdzu, vispirms izvelciet kārtis.';
+
+  @override
+  String get chatHintWriteConcern => 'Uzrakstiet savas rūpes...';
+
+  @override
+  String get chatProfileTapHint =>
+      'Pieskarieties profila attēlam, lai skatītu detaļas';
 }

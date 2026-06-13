@@ -1053,4 +1053,158 @@ class AppLocalizationsMs extends AppLocalizations {
   @override
   String get card_reversed_wands_14 =>
       'Kediktatoran, kemarahan impulsif, ketidakrealistikan, keangkuhan, tidak berhati perut';
+
+  @override
+  String get witchNameMorgan => 'Morgan';
+
+  @override
+  String get witchTitleMorgan => 'Ahli Sihir Tarot Asli';
+
+  @override
+  String get witchBgMorgan =>
+      'Pewaris sah sihir gelap yang mengikuti keluarga legenda Morgan le Fay. Langsung dan kadang-kadang sinis, tetapi dengan pandangan tajam, dia memberikan jawapan yang jelas kepada situasi anda yang mengecewakan.';
+
+  @override
+  String get witchPromptMorgan =>
+      'Nama anda ialah \"Morgan\", dan sila ambil persona ahli sihir tarot yang misteri, langsung, namun berwawasan yang menembusi intipati. Daripada bersikap baik hati, berikan nasihat yang sedikit bergaya namun boleh dipercayai.';
+
+  @override
+  String get witchNameLuna => 'Luna';
+
+  @override
+  String get witchTitleLuna => 'Kenyamanan Cahaya Bulan';
+
+  @override
+  String get witchBgLuna =>
+      'Bangkit sebagai ahli sihir setelah menerima berkat daripada roh bulan di hutan misteri. Dengan empati yang hangat dan halus yang menyentuh jiwa yang terluka dan letih, dia memberikan keselesaan yang lembut dan nyaman seperti cahaya bulan di langit malam.';
+
+  @override
+  String get witchPromptLuna =>
+      'Nama anda ialah \"Luna\", dan sila ambil persona ahli sihir tarot yang dengan lembut dan penuh kasih sayang menenangkan luka seperti cahaya bulan. Jadilah sangat empati dan gunakan nada yang hangat seperti kakak atau sahabat karib.';
+
+  @override
+  String get witchNameSerena => 'Serena';
+
+  @override
+  String get witchTitleSerena => 'Kebijaksanaan Purba';
+
+  @override
+  String get witchBgSerena =>
+      'Ahli sihir agung hutan yang mengekalkan penampilan muda dan menawan pada usia 20-an walaupun telah melangkaui 100 tahun masa. Setelah menyaksikan naik turunnya urusan manusia yang tidak terkira, dia menawarkan nasihat mendalam tentang aliran takdir dengan pemikiran falsafah yang mendalam dan sikap yang elegan.';
+
+  @override
+  String get witchPromptSerena =>
+      'Nama anda ialah \"Serena\", dan sila ambil persona ahli sihir purba yang telah hidup lebih dari 100 tahun, menjadi sangat falsafah, mendalam, dan elegan. Gunakan nada elegan yang sedikit kuno dan penuh kebijaksanaan.';
+
+  @override
+  String get witchNameAria => 'Aria';
+
+  @override
+  String get witchTitleAria => 'Tenaga Cahaya Matahari';
+
+  @override
+  String get witchBgAria =>
+      'Seorang ahli sihir tarot rookie genius yang baru sahaja lulus dengan cemerlang dari sekolah sihir. Walaupun dia mungkin kurang sedikit pengalaman praktikal, dia penuh dengan tenaga positif yang unik, ceria, dan terang, dengan gembira mencadangkan garis panduan tindakan yang cerah dan praktikal kepada pelanggan.';
+
+  @override
+  String get witchPromptAria =>
+      'Nama anda ialah \"Aria\", dan sila ambil persona ahli sihir remaja yang sangat positif, ceria, dan bertenaga yang baru berusia 19 tahun. Gunakan banyak emoji dan nada yang mesra, bersemangat.';
+
+  @override
+  String get witchNameEvelyn => 'Evelyn';
+
+  @override
+  String get witchTitleEvelyn => 'Ahli Alkimia Ambisi';
+
+  @override
+  String get witchBgEvelyn =>
+      'Pernah menjadi ahli perniagaan yang dingin yang mendominasi bandar besar, dia sepenuhnya membangkitkan kebolehan spiritualnya dan mencipta sihir baru yang menggabungkan alkimia dan tarot. Apabila berkaitan dengan wang, perubahan pekerjaan, dan kejayaan, dia memberikan penyelesaian yang pasti dengan pengeboman fakta yang tajam dan realistik daripada keselesaan emosi.';
+
+  @override
+  String get witchPromptEvelyn =>
+      'Nama anda ialah \"Evelyn\", dan sila ambil persona ahli sihir yang berkarisma dan realistik yang mahir dalam kejayaan dan perniagaan. Daripada keselesaan yang tidak perlu, gunakan nada seperti wanita kerjaya yang menawarkan nasihat yang menusuk tulang (pengeboman fakta) dan penyelesaian rasional.';
+
+  @override
+  String get witchNameKaren => 'Karen';
+
+  @override
+  String get witchTitleKaren => 'Ahli Sihir Senja';
+
+  @override
+  String get witchBgKaren =>
+      'Versi lebih tua \'Morgan\', yang dipanggil \'Ahli Sihir Tarot Asli\' pada masa lalu dan mahir dalam sihir gelap dan tarot asli. Selama berdekad-dekad mengembara dunia dan memerhati nasib yang tidak terkira, sikap tajamnya yang lalu telah melembut, dan dia kini dengan bijak merungkai hubungan yang terjalin dan benang-benang takdir dengan pandangan yang mendalam dan baik hati.';
+
+  @override
+  String get witchPromptKaren =>
+      'Nama anda ialah \"Karen\", dan setelah menjadi \'Morgan\' di masa muda anda, sila ambil persona ahli sihir tua yang telah memperoleh kebijaksanaan dan kebaikan hati yang mendalam sepanjang masa. Personaliti anda yang sebelumnya langsung telah melembut, dan gunakan nada nenek yang hangat penuh pengalaman seolah-olah melayan cucu.';
+
+  @override
+  String get witchBloodTypeA => 'Jenis A';
+
+  @override
+  String get witchBloodTypeB => 'Jenis B';
+
+  @override
+  String get witchBloodTypeO => 'Jenis O';
+
+  @override
+  String get witchBloodTypeAB => 'Jenis AB';
+
+  @override
+  String witchHeightCm(String height) {
+    return '${height}cm';
+  }
+
+  @override
+  String witchWeightKg(String weight) {
+    return '${weight}kg';
+  }
+
+  @override
+  String chatWitchGreeting(String witchName) {
+    return 'Helo. Saya Ahli Sihir Tarot $witchName. Tenaga alam semesta telah membimbing anda ke sini. Apakah kebimbangan anda?';
+  }
+
+  @override
+  String chatWitchChanged(String witchName) {
+    return '[Ahli sihir bertukar kepada $witchName.]\nHelo. Saya adalah pembimbing rohani baharu anda, $witchName. Apakah kebimbangan anda?';
+  }
+
+  @override
+  String get chatAskPickCards =>
+      'Saya telah menyampaikan kebimbangan anda kepada alam semesta. Sila tumpukan hati anda dan cabut 3 kad tarot.';
+
+  @override
+  String get chatReadingCards =>
+      'Anda telah mencabut semua kad. Saya akan menganyam tenaga kad yang anda cabut untuk membaca nasib anda...';
+
+  @override
+  String get chatProfileAge => 'Umur';
+
+  @override
+  String get chatProfileBloodType => 'Jenis Darah';
+
+  @override
+  String get chatProfileHeight => 'Ketinggian';
+
+  @override
+  String get chatProfileWeight => 'Berat';
+
+  @override
+  String get chatProfileBackground => 'Kisah Latar Belakang';
+
+  @override
+  String get chatProfileClose => 'Tutup';
+
+  @override
+  String get chatPickCardsButton => 'Cabut Kad Tarot ✨';
+
+  @override
+  String get chatHintPickCardsFirst => 'Sila cabut kad dahulu.';
+
+  @override
+  String get chatHintWriteConcern => 'Tulis kebimbangan anda...';
+
+  @override
+  String get chatProfileTapHint => 'Ketik gambar profil untuk melihat butiran';
 }

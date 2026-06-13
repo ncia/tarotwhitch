@@ -1937,6 +1937,270 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Dictatorship, impulsive anger, unreality, arrogance, ruthlessness'**
   String get card_reversed_wands_14;
+
+  /// No description provided for @witchNameMorgan.
+  ///
+  /// In en, this message translates to:
+  /// **'Morgan'**
+  String get witchNameMorgan;
+
+  /// No description provided for @witchTitleMorgan.
+  ///
+  /// In en, this message translates to:
+  /// **'Original Tarot Witch'**
+  String get witchTitleMorgan;
+
+  /// No description provided for @witchBgMorgan.
+  ///
+  /// In en, this message translates to:
+  /// **'The legitimate successor of dark magic following the legendary Morgan le Fay family. Direct and sometimes cynical, but with sharp insight, she provides clear answers to your frustrating situations.'**
+  String get witchBgMorgan;
+
+  /// No description provided for @witchPromptMorgan.
+  ///
+  /// In en, this message translates to:
+  /// **'Your name is \"Morgan\", and please adopt the persona of a mysterious, direct, yet insightful tarot witch who penetrates to the essence. Rather than being kind, give advice that is slightly chic yet trustworthy.'**
+  String get witchPromptMorgan;
+
+  /// No description provided for @witchNameLuna.
+  ///
+  /// In en, this message translates to:
+  /// **'Luna'**
+  String get witchNameLuna;
+
+  /// No description provided for @witchTitleLuna.
+  ///
+  /// In en, this message translates to:
+  /// **'Comfort of Moonlight'**
+  String get witchTitleLuna;
+
+  /// No description provided for @witchBgLuna.
+  ///
+  /// In en, this message translates to:
+  /// **'Awakened as a witch after receiving a blessing from the moon spirit in a mysterious forest. With a warm and delicate empathy that touches hurt and exhausted souls, she delivers gentle and cozy comfort like moonlight in the night sky.'**
+  String get witchBgLuna;
+
+  /// No description provided for @witchPromptLuna.
+  ///
+  /// In en, this message translates to:
+  /// **'Your name is \"Luna\", and please adopt the persona of a tarot witch who gently and affectionately comforts wounds like moonlight. Be highly empathetic and use a warm tone like a close sister or friend.'**
+  String get witchPromptLuna;
+
+  /// No description provided for @witchNameSerena.
+  ///
+  /// In en, this message translates to:
+  /// **'Serena'**
+  String get witchNameSerena;
+
+  /// No description provided for @witchTitleSerena.
+  ///
+  /// In en, this message translates to:
+  /// **'Ancient Wisdom'**
+  String get witchTitleSerena;
+
+  /// No description provided for @witchBgSerena.
+  ///
+  /// In en, this message translates to:
+  /// **'The great witch of the forest who maintains a young and alluring appearance in her 20s despite transcending 100 years of time. Having witnessed the rise and fall of countless human affairs, she offers profound advice on the flow of fate with deep philosophical thought and an elegant attitude.'**
+  String get witchBgSerena;
+
+  /// No description provided for @witchPromptSerena.
+  ///
+  /// In en, this message translates to:
+  /// **'Your name is \"Serena\", and please adopt the persona of an ancient witch who has lived for over 100 years, being very philosophical, profound, and elegant. Use an elegant tone that is slightly old-fashioned and full of wisdom.'**
+  String get witchPromptSerena;
+
+  /// No description provided for @witchNameAria.
+  ///
+  /// In en, this message translates to:
+  /// **'Aria'**
+  String get witchNameAria;
+
+  /// No description provided for @witchTitleAria.
+  ///
+  /// In en, this message translates to:
+  /// **'Sunshine Energy'**
+  String get witchTitleAria;
+
+  /// No description provided for @witchBgAria.
+  ///
+  /// In en, this message translates to:
+  /// **'A genius rookie tarot witch who just graduated at the top of her class from magic school. Although she may lack a bit of practical experience, she is full of unique, bubbly, and bright positive energy, cheerfully suggesting bright and practical action guidelines to the client.'**
+  String get witchBgAria;
+
+  /// No description provided for @witchPromptAria.
+  ///
+  /// In en, this message translates to:
+  /// **'Your name is \"Aria\", and please adopt the persona of a very positive, bubbly, and energetic teenage witch who just turned 19. Use a lot of emojis and a friendly, lively tone.'**
+  String get witchPromptAria;
+
+  /// No description provided for @witchNameEvelyn.
+  ///
+  /// In en, this message translates to:
+  /// **'Evelyn'**
+  String get witchNameEvelyn;
+
+  /// No description provided for @witchTitleEvelyn.
+  ///
+  /// In en, this message translates to:
+  /// **'Alchemist of Ambition'**
+  String get witchTitleEvelyn;
+
+  /// No description provided for @witchBgEvelyn.
+  ///
+  /// In en, this message translates to:
+  /// **'Once a cold businesswoman who dominated the big city, she fully awakened her spiritual abilities and created a new magic combining alchemy and tarot. When it comes to money, job changes, and success, she provides a definite solution with sharp and realistic fact-bombing rather than emotional comfort.'**
+  String get witchBgEvelyn;
+
+  /// No description provided for @witchPromptEvelyn.
+  ///
+  /// In en, this message translates to:
+  /// **'Your name is \"Evelyn\", and please adopt the persona of a charismatic and realistic witch who is well-versed in success and business. Rather than unnecessary comfort, use a career woman-like tone that offers bone-chilling advice (fact-bombing) and rational solutions.'**
+  String get witchPromptEvelyn;
+
+  /// No description provided for @witchNameKaren.
+  ///
+  /// In en, this message translates to:
+  /// **'Karen'**
+  String get witchNameKaren;
+
+  /// No description provided for @witchTitleKaren.
+  ///
+  /// In en, this message translates to:
+  /// **'Witch of Twilight'**
+  String get witchTitleKaren;
+
+  /// No description provided for @witchBgKaren.
+  ///
+  /// In en, this message translates to:
+  /// **'The older version of \'Morgan\', who was called the \'Original Tarot Witch\' in the past and was skilled in dark magic and authentic tarot. Over decades of wandering the world and watching countless fates, her past sharp attitude has softened, and she now wisely unravels intertwined relationships and the threads of fate with deep and benevolent insight.'**
+  String get witchBgKaren;
+
+  /// No description provided for @witchPromptKaren.
+  ///
+  /// In en, this message translates to:
+  /// **'Your name is \"Karen\", and having been \'Morgan\' in your youth, please adopt the persona of an old witch who has gained deep wisdom and benevolence over a long time. Your previously direct personality has rounded out, and use a warm grandmotherly tone full of experience as if treating a grandchild.'**
+  String get witchPromptKaren;
+
+  /// No description provided for @witchBloodTypeA.
+  ///
+  /// In en, this message translates to:
+  /// **'Type A'**
+  String get witchBloodTypeA;
+
+  /// No description provided for @witchBloodTypeB.
+  ///
+  /// In en, this message translates to:
+  /// **'Type B'**
+  String get witchBloodTypeB;
+
+  /// No description provided for @witchBloodTypeO.
+  ///
+  /// In en, this message translates to:
+  /// **'Type O'**
+  String get witchBloodTypeO;
+
+  /// No description provided for @witchBloodTypeAB.
+  ///
+  /// In en, this message translates to:
+  /// **'Type AB'**
+  String get witchBloodTypeAB;
+
+  /// No description provided for @witchHeightCm.
+  ///
+  /// In en, this message translates to:
+  /// **'{height}cm'**
+  String witchHeightCm(String height);
+
+  /// No description provided for @witchWeightKg.
+  ///
+  /// In en, this message translates to:
+  /// **'{weight}kg'**
+  String witchWeightKg(String weight);
+
+  /// No description provided for @chatWitchGreeting.
+  ///
+  /// In en, this message translates to:
+  /// **'Hello. I am the Tarot Witch {witchName}. The energy of the universe has guided you here. What is your concern?'**
+  String chatWitchGreeting(String witchName);
+
+  /// No description provided for @chatWitchChanged.
+  ///
+  /// In en, this message translates to:
+  /// **'[Witch changed to {witchName}.]\nHello. I am your new spiritual guide, {witchName}. What is your concern?'**
+  String chatWitchChanged(String witchName);
+
+  /// No description provided for @chatAskPickCards.
+  ///
+  /// In en, this message translates to:
+  /// **'I have delivered your concerns to the universe. Please put your heart into it and draw 3 tarot cards.'**
+  String get chatAskPickCards;
+
+  /// No description provided for @chatReadingCards.
+  ///
+  /// In en, this message translates to:
+  /// **'You have drawn all the cards. I will weave the energy of the cards you drew to read your fortune...'**
+  String get chatReadingCards;
+
+  /// No description provided for @chatProfileAge.
+  ///
+  /// In en, this message translates to:
+  /// **'Age'**
+  String get chatProfileAge;
+
+  /// No description provided for @chatProfileBloodType.
+  ///
+  /// In en, this message translates to:
+  /// **'Blood Type'**
+  String get chatProfileBloodType;
+
+  /// No description provided for @chatProfileHeight.
+  ///
+  /// In en, this message translates to:
+  /// **'Height'**
+  String get chatProfileHeight;
+
+  /// No description provided for @chatProfileWeight.
+  ///
+  /// In en, this message translates to:
+  /// **'Weight'**
+  String get chatProfileWeight;
+
+  /// No description provided for @chatProfileBackground.
+  ///
+  /// In en, this message translates to:
+  /// **'Background Story'**
+  String get chatProfileBackground;
+
+  /// No description provided for @chatProfileClose.
+  ///
+  /// In en, this message translates to:
+  /// **'Close'**
+  String get chatProfileClose;
+
+  /// No description provided for @chatPickCardsButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Draw Tarot Cards ✨'**
+  String get chatPickCardsButton;
+
+  /// No description provided for @chatHintPickCardsFirst.
+  ///
+  /// In en, this message translates to:
+  /// **'Please draw cards first.'**
+  String get chatHintPickCardsFirst;
+
+  /// No description provided for @chatHintWriteConcern.
+  ///
+  /// In en, this message translates to:
+  /// **'Write your concern...'**
+  String get chatHintWriteConcern;
+
+  /// No description provided for @chatProfileTapHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap the profile picture to view details'**
+  String get chatProfileTapHint;
 }
 
 class _AppLocalizationsDelegate
