@@ -658,24 +658,19 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                         side: const BorderSide(color: Colors.white54),
                         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
                       ),
-                      child: const Text('다른 배열법 선택'),
+                      child: const Text('스프레드 선택'),
                     ),
                     const SizedBox(width: 12),
                     ElevatedButton(
                       onPressed: () {
-                        Navigator.pushReplacement(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => ReadingScreen(spreadType: widget.spreadType),
-                          ),
-                        );
+                        Navigator.popUntil(context, (route) => route.isFirst);
                       },
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.deepPurpleAccent,
                         foregroundColor: Colors.white,
                         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
                       ),
-                      child: const Text('다시 뽑기'),
+                      child: const Text('다른 마녀 선택'),
                     ),
                     const SizedBox(width: 12),
                     ElevatedButton(
