@@ -185,7 +185,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get chatPlaceholder => 'Khu vực giao diện trò chuyện';
 
   @override
-  String get meaningsTitle => '🃏 Ý Nghĩa Thẻ Tarot';
+  String get meaningsTitle => 'Ý Nghĩa Thẻ Tarot';
 
   @override
   String get meaningsSubtitle => 'Đi sâu vào thế giới tarot';

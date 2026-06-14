@@ -185,7 +185,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get chatPlaceholder => 'Sohbet arayüzü alanı';
 
   @override
-  String get meaningsTitle => '🃏 Tarot Kartı Anlamları';
+  String get meaningsTitle => 'Tarot Kartı Anlamları';
 
   @override
   String get meaningsSubtitle => 'Tarot dünyasının derinliklerine in';

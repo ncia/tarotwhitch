@@ -185,7 +185,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get chatPlaceholder => 'Chattgränssnittsområde';
 
   @override
-  String get meaningsTitle => '🃏 Tarotkort Betydelser';
+  String get meaningsTitle => 'Tarotkort Betydelser';
 
   @override
   String get meaningsSubtitle => 'Dyk in i tarotens värld';

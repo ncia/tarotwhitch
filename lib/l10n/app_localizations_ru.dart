@@ -185,7 +185,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get chatPlaceholder => 'Область интерфейса чата';
 
   @override
-  String get meaningsTitle => '🃏 Значения карт Таро';
+  String get meaningsTitle => 'Значения карт Таро';
 
   @override
   String get meaningsSubtitle => 'Погрузитесь в мир таро';

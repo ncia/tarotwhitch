@@ -185,7 +185,7 @@ class AppLocalizationsEl extends AppLocalizations {
   String get chatPlaceholder => 'Περιοχή διεπαφής συνομιλίας';
 
   @override
-  String get meaningsTitle => '🃏 Ερμηνείες Καρτών Ταρώ';
+  String get meaningsTitle => 'Ερμηνείες Καρτών Ταρώ';
 
   @override
   String get meaningsSubtitle => 'Βυθίσου στον κόσμο των ταρώ';

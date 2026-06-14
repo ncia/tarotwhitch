@@ -186,7 +186,7 @@ class AppLocalizationsMl extends AppLocalizations {
   String get chatPlaceholder => 'ചാറ്റ് ഇന്റർഫേസ് പ്രദേശം';
 
   @override
-  String get meaningsTitle => '🃏 ടാരറ്റ് കാർഡ് അർത്ഥങ്ങൾ';
+  String get meaningsTitle => 'ടാരറ്റ് കാർഡ് അർത്ഥങ്ങൾ';
 
   @override
   String get meaningsSubtitle => 'ടാരറ്റ് ലോകത്തേക്ക് ആഴത്തിൽ ഇറങ്ങുക';

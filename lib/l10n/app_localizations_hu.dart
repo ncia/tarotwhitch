@@ -185,7 +185,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get chatPlaceholder => 'Chat felület területe';
 
   @override
-  String get meaningsTitle => '🃏 Tarot Kártyák Jelentései';
+  String get meaningsTitle => 'Tarot Kártyák Jelentései';
 
   @override
   String get meaningsSubtitle => 'Merülj el a tarot világában';

@@ -185,7 +185,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get chatPlaceholder => 'منطقة واجهة الدردشة';
 
   @override
-  String get meaningsTitle => '🃏 معاني بطاقات التاروت';
+  String get meaningsTitle => 'معاني بطاقات التاروت';
 
   @override
   String get meaningsSubtitle => 'تعمق في عالم التاروت';

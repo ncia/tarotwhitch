@@ -187,7 +187,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get chatPlaceholder => 'चैट इंटरफ़ेस क्षेत्र';
 
   @override
-  String get meaningsTitle => '🃏 टैरो कार्ड का अर्थ';
+  String get meaningsTitle => 'टैरो कार्ड का अर्थ';
 
   @override
   String get meaningsSubtitle => 'टैरो की दुनिया में गहराई से गोता लगाएँ';

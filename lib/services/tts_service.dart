@@ -102,8 +102,8 @@ class TtsService {
         
         // Save to temp file to avoid BytesSource crash on Windows
         final tempDir = await getTemporaryDirectory();
-        // Ensure consistent path separators on Windows
-        final String safePath = '${tempDir.path}\\tts_temp_${DateTime.now().millisecondsSinceEpoch}.mp3'.replaceAll('/', '\\');
+        // Use Platform.pathSeparator for cross-platform compatibility
+        final String safePath = '${tempDir.path}${Platform.pathSeparator}tts_temp_${DateTime.now().millisecondsSinceEpoch}.mp3';
         final tempFile = File(safePath);
         await tempFile.writeAsBytes(audioBytes);
         

@@ -185,7 +185,7 @@ class AppLocalizationsEt extends AppLocalizations {
   String get chatPlaceholder => 'Vestluse liidese ala';
 
   @override
-  String get meaningsTitle => '🃏 Taro Kaartide Tähendused';
+  String get meaningsTitle => 'Taro Kaartide Tähendused';
 
   @override
   String get meaningsSubtitle => 'Sukeldu taro maailma';

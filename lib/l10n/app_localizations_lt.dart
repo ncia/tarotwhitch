@@ -185,7 +185,7 @@ class AppLocalizationsLt extends AppLocalizations {
   String get chatPlaceholder => 'Pokalbių sąsajos sritis';
 
   @override
-  String get meaningsTitle => '🃏 Taro Kortų Reikšmės';
+  String get meaningsTitle => 'Taro Kortų Reikšmės';
 
   @override
   String get meaningsSubtitle => 'Pasinerk į taro pasaulį';

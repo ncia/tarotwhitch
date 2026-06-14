@@ -185,7 +185,7 @@ class AppLocalizationsNo extends AppLocalizations {
   String get chatPlaceholder => 'Chat-grensesnitt område';
 
   @override
-  String get meaningsTitle => '🃏 Tarotkort Betydninger';
+  String get meaningsTitle => 'Tarotkort Betydninger';
 
   @override
   String get meaningsSubtitle => 'Dyk ned i tarotverdenen';

@@ -184,7 +184,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get chatPlaceholder => '聊天界面区域';
 
   @override
-  String get meaningsTitle => '🃏 塔罗牌的含义';
+  String get meaningsTitle => '塔罗牌的含义';
 
   @override
   String get meaningsSubtitle => '深入塔罗牌的世界';
@@ -1097,7 +1097,7 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
   String get chatPlaceholder => '聊天界面区域';
 
   @override
-  String get meaningsTitle => '🃏 塔罗牌的含义';
+  String get meaningsTitle => '塔罗牌的含义';
 
   @override
   String get meaningsSubtitle => '深入塔罗牌的世界';
@@ -2010,7 +2010,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get chatPlaceholder => '聊天介面區域';
 
   @override
-  String get meaningsTitle => '🃏 塔羅牌的含義';
+  String get meaningsTitle => '塔羅牌的含義';
 
   @override
   String get meaningsSubtitle => '深入塔羅牌的世界';

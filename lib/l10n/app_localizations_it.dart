@@ -185,7 +185,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get chatPlaceholder => 'Area interfaccia chat';
 
   @override
-  String get meaningsTitle => '🃏 Significati delle Carte';
+  String get meaningsTitle => 'Significati delle Carte';
 
   @override
   String get meaningsSubtitle => 'Immergiti nel mondo dei tarocchi';

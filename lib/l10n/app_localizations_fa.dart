@@ -185,7 +185,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get chatPlaceholder => 'منطقه رابط چت';
 
   @override
-  String get meaningsTitle => '🃏 معانی کارت‌های تاروت';
+  String get meaningsTitle => 'معانی کارت‌های تاروت';
 
   @override
   String get meaningsSubtitle => 'غوطه ور شدن در دنیای تاروت';

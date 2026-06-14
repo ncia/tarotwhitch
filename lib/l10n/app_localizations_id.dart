@@ -185,7 +185,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get chatPlaceholder => 'Area antarmuka obrolan';
 
   @override
-  String get meaningsTitle => '🃏 Makna Kartu Tarot';
+  String get meaningsTitle => 'Makna Kartu Tarot';
 
   @override
   String get meaningsSubtitle => 'Selami dunia tarot lebih dalam';

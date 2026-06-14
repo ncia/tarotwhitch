@@ -185,7 +185,7 @@ class AppLocalizationsLv extends AppLocalizations {
   String get chatPlaceholder => 'Tērzēšanas interfeisa zona';
 
   @override
-  String get meaningsTitle => '🃏 Taro Kārtis Nozīmes';
+  String get meaningsTitle => 'Taro Kārtis Nozīmes';
 
   @override
   String get meaningsSubtitle => 'Ienirsti taro pasaulē';

@@ -185,7 +185,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get chatPlaceholder => 'Oblasť chatovacieho rozhrania';
 
   @override
-  String get meaningsTitle => '🃏 Významy Tarotových Kariet';
+  String get meaningsTitle => 'Významy Tarotových Kariet';
 
   @override
   String get meaningsSubtitle => 'Ponor sa do sveta tarotu';

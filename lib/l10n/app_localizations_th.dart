@@ -185,7 +185,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get chatPlaceholder => 'พื้นที่แชท';
 
   @override
-  String get meaningsTitle => '🃏 ความหมายของไพ่ทาโรต์';
+  String get meaningsTitle => 'ความหมายของไพ่ทาโรต์';
 
   @override
   String get meaningsSubtitle => 'ดำดิ่งสู่โลกแห่งไพ่ทาโรต์';

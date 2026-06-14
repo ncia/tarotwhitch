@@ -185,7 +185,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get chatPlaceholder => 'Keskustelukäyttöliittymäalue';
 
   @override
-  String get meaningsTitle => '🃏 Tarot-korttien Merkitykset';
+  String get meaningsTitle => 'Tarot-korttien Merkitykset';
 
   @override
   String get meaningsSubtitle => 'Sukella tarotin maailmaan';

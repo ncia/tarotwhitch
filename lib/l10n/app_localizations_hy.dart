@@ -186,7 +186,7 @@ class AppLocalizationsHy extends AppLocalizations {
   String get chatPlaceholder => 'Զրույցի ինտերֆեյսի տարածք';
 
   @override
-  String get meaningsTitle => '🃏 Տարո Քարտերի Իմաստներ';
+  String get meaningsTitle => 'Տարո Քարտերի Իմաստներ';
 
   @override
   String get meaningsSubtitle => 'Սուզվիր տարոյի աշխարհի մեջ';

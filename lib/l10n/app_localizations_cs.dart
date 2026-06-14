@@ -185,7 +185,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get chatPlaceholder => 'Oblast chatovacího rozhraní';
 
   @override
-  String get meaningsTitle => '🃏 Významy Tarotových Karet';
+  String get meaningsTitle => 'Významy Tarotových Karet';
 
   @override
   String get meaningsSubtitle => 'Ponoř se do světa tarotu';

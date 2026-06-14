@@ -179,7 +179,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get chatPlaceholder => '채팅 인터페이스 영역';
 
   @override
-  String get meaningsTitle => '🃏 타로 카드의 의미';
+  String get meaningsTitle => '타로 카드의 의미';
 
   @override
   String get meaningsSubtitle => '타로 카드의 깊은 세계로';

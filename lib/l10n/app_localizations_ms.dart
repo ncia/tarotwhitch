@@ -185,7 +185,7 @@ class AppLocalizationsMs extends AppLocalizations {
   String get chatPlaceholder => 'Kawasan antara muka sembang';
 
   @override
-  String get meaningsTitle => '🃏 Makna Kad Tarot';
+  String get meaningsTitle => 'Makna Kad Tarot';
 
   @override
   String get meaningsSubtitle => 'Selami dunia tarot';

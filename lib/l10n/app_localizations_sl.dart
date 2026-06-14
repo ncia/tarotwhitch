@@ -185,7 +185,7 @@ class AppLocalizationsSl extends AppLocalizations {
   String get chatPlaceholder => 'Območje vmesnika za klepet';
 
   @override
-  String get meaningsTitle => '🃏 Pomeni Tarot Kart';
+  String get meaningsTitle => 'Pomeni Tarot Kart';
 
   @override
   String get meaningsSubtitle => 'Potopi se v svet tarota';

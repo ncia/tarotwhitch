@@ -184,7 +184,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get chatPlaceholder => 'チャットインターフェース領域';
 
   @override
-  String get meaningsTitle => '🃏 タロットカードの意味';
+  String get meaningsTitle => 'タロットカードの意味';
 
   @override
   String get meaningsSubtitle => 'タロットカードの深い世界へ';

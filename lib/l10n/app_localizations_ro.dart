@@ -185,7 +185,7 @@ class AppLocalizationsRo extends AppLocalizations {
   String get chatPlaceholder => 'Zona interfeței de chat';
 
   @override
-  String get meaningsTitle => '🃏 Semnificațiile Cărților de Tarot';
+  String get meaningsTitle => 'Semnificațiile Cărților de Tarot';
 
   @override
   String get meaningsSubtitle => 'Scufundă-te în lumea tarotului';

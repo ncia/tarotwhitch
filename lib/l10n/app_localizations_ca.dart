@@ -185,7 +185,7 @@ class AppLocalizationsCa extends AppLocalizations {
   String get chatPlaceholder => 'Àrea d\'interfície de xat';
 
   @override
-  String get meaningsTitle => '🃏 Significat de les Cartes de Tarot';
+  String get meaningsTitle => 'Significat de les Cartes de Tarot';
 
   @override
   String get meaningsSubtitle => 'Submergeix-te en el món del tarot';
