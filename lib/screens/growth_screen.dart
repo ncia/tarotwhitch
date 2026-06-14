@@ -30,9 +30,13 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
+        toolbarHeight: 80,
         backgroundColor: Colors.transparent,
         elevation: 0,
-        title: const Text('성장 콘텐츠', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
+        title: const Padding(
+          padding: EdgeInsets.only(top: 20.0),
+          child: Text('성장 콘텐츠', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
+        ),
         centerTitle: true,
         bottom: TabBar(
           controller: _tabController,

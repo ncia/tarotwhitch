@@ -125,7 +125,7 @@ class _ReadingIntroScreenState extends State<ReadingIntroScreen> with SingleTick
               children: [
                 // Witch Selector
                 Padding(
-                  padding: const EdgeInsets.all(16.0),
+                  padding: const EdgeInsets.fromLTRB(16, 60, 16, 16),
                   child: GlassContainer(
                     padding: const EdgeInsets.all(16),
                     borderRadius: 20,

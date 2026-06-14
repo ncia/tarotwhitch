@@ -80,7 +80,7 @@ class DiaryScreen extends StatelessWidget {
         child: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.all(20.0),
+              padding: const EdgeInsets.fromLTRB(20, 60, 20, 20),
               child: Stack(
                 alignment: Alignment.center,
                 children: [
@@ -117,52 +117,58 @@ class DiaryScreen extends StatelessWidget {
                       padding: const EdgeInsets.all(16),
                       borderRadius: 16,
                       child: Row(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          _buildDiaryThumbnails(diary),
-                          const SizedBox(width: 16),
-                          Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  DateFormat('yyyy.MM.dd HH:mm').format(diary.date),
-                                  style: const TextStyle(color: Colors.amberAccent, fontSize: 12),
-                                ),
-                                const SizedBox(height: 4),
-                                Row(
+                            children: [
+                              _buildDiaryThumbnails(diary),
+                              const SizedBox(width: 16),
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
+                                    Row(
+                                      children: [
+                                        Text(
+                                          DateFormat('yyyy.MM.dd HH:mm').format(diary.date),
+                                          style: const TextStyle(color: Colors.amberAccent, fontSize: 12),
+                                        ),
+                                        const SizedBox(width: 8),
+                                        Text(
+                                          _getTimeAgo(diary.date),
+                                          style: const TextStyle(color: Colors.white54, fontSize: 11),
+                                        ),
+                                      ],
+                                    ),
+                                    const SizedBox(height: 4),
                                     Text(
-                                      TarotLocalizations.getName(context, card.id),
-                                      style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16),
+                                      '${diary.spreadType == '타로 상담' ? '타로 상담' : '타로 리딩'} - ${TarotLocalizations.getName(context, card.id)}${diary.cardIds.length > 1 ? ' 외 ${diary.cardIds.length - 1}장' : ''}',
+                                      style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 14),
+                                    ),
+                                    const SizedBox(height: 8),
+                                    if (diary.myNote.isNotEmpty && diary.myNote != '타로 리딩')
+                                      Container(
+                                        width: double.infinity,
+                                        padding: const EdgeInsets.all(8),
+                                        margin: const EdgeInsets.only(bottom: 8),
+                                        decoration: BoxDecoration(
+                                          color: Colors.black26,
+                                          borderRadius: BorderRadius.circular(8),
+                                        ),
+                                        child: Text(
+                                          'Q: ${diary.myNote}',
+                                          style: const TextStyle(color: Colors.white70, fontSize: 12, fontStyle: FontStyle.italic),
+                                          maxLines: 2,
+                                          overflow: TextOverflow.ellipsis,
+                                        ),
+                                      ),
+                                    Text(
+                                      diary.resultText.isNotEmpty ? diary.resultText : (diary.cardMeanings.isNotEmpty ? diary.cardMeanings.join('\n') : ''),
+                                      style: const TextStyle(color: Colors.white, fontSize: 13, height: 1.4),
+                                      maxLines: 4,
+                                      overflow: TextOverflow.ellipsis,
                                     ),
                                   ],
                                 ),
-                                const SizedBox(height: 8),
-                                Container(
-                                  padding: const EdgeInsets.all(8),
-                                  decoration: BoxDecoration(
-                                    color: Colors.black26,
-                                    borderRadius: BorderRadius.circular(8),
-                                  ),
-                                  child: Text(
-                                    'Q: ${diary.resultText}',
-                                    style: const TextStyle(color: Colors.white70, fontSize: 12, fontStyle: FontStyle.italic),
-                                    maxLines: 1,
-                                    overflow: TextOverflow.ellipsis,
-                                  ),
-                                ),
-                                const SizedBox(height: 8),
-                                Text(
-                                  diary.myNote,
-                                  style: const TextStyle(color: Colors.white, fontSize: 14, height: 1.4),
-                                  maxLines: 2,
-                                  overflow: TextOverflow.ellipsis,
-                                ),
-                              ],
-                            ),
-                          ),
-                        ],
+                              ),
+                            ],
                       ),
                     ),
                   );
@@ -234,7 +240,7 @@ class DiaryScreen extends StatelessWidget {
         child: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.all(20.0),
+              padding: const EdgeInsets.fromLTRB(20, 60, 20, 20),
               child: Stack(
                 alignment: Alignment.center,
                 children: [
@@ -289,28 +295,52 @@ class DiaryScreen extends StatelessWidget {
                           padding: const EdgeInsets.all(16),
                           borderRadius: 16,
                           child: Row(
-                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                          _buildDiaryThumbnails(diary),
+                              _buildDiaryThumbnails(diary),
                               const SizedBox(width: 16),
                               Expanded(
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Text(
-                                      DateFormat('yyyy.MM.dd HH:mm').format(diary.date),
-                                      style: const TextStyle(color: Colors.amberAccent, fontSize: 12),
+                                    Row(
+                                      children: [
+                                        Text(
+                                          DateFormat('yyyy.MM.dd HH:mm').format(diary.date),
+                                          style: const TextStyle(color: Colors.amberAccent, fontSize: 12),
+                                        ),
+                                        const SizedBox(width: 8),
+                                        Text(
+                                          _getTimeAgo(diary.date),
+                                          style: const TextStyle(color: Colors.white54, fontSize: 11),
+                                        ),
+                                      ],
                                     ),
                                     const SizedBox(height: 4),
                                     Text(
-                                      TarotLocalizations.getName(context, card.id),
-                                      style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16),
+                                      '${diary.spreadType == '타로 상담' ? '타로 상담' : '타로 리딩'} - ${TarotLocalizations.getName(context, card.id)}${diary.cardIds.length > 1 ? ' 외 ${diary.cardIds.length - 1}장' : ''}',
+                                      style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 14),
                                     ),
                                     const SizedBox(height: 8),
+                                    if (diary.myNote.isNotEmpty && diary.myNote != '타로 리딩')
+                                      Container(
+                                        width: double.infinity,
+                                        padding: const EdgeInsets.all(8),
+                                        margin: const EdgeInsets.only(bottom: 8),
+                                        decoration: BoxDecoration(
+                                          color: Colors.black26,
+                                          borderRadius: BorderRadius.circular(8),
+                                        ),
+                                        child: Text(
+                                          'Q: ${diary.myNote}',
+                                          style: const TextStyle(color: Colors.white70, fontSize: 12, fontStyle: FontStyle.italic),
+                                          maxLines: 2,
+                                          overflow: TextOverflow.ellipsis,
+                                        ),
+                                      ),
                                     Text(
-                                      diary.myNote,
-                                      style: const TextStyle(color: Colors.white70, fontSize: 14),
-                                      maxLines: 2,
+                                      diary.resultText.isNotEmpty ? diary.resultText : (diary.cardMeanings.isNotEmpty ? diary.cardMeanings.join('\n') : ''),
+                                      style: const TextStyle(color: Colors.white, fontSize: 13, height: 1.4),
+                                      maxLines: 4,
                                       overflow: TextOverflow.ellipsis,
                                     ),
                                   ],
@@ -366,5 +396,20 @@ class DiaryScreen extends StatelessWidget {
         }),
       ),
     );
+  }
+
+  String _getTimeAgo(DateTime date) {
+    final now = DateTime.now();
+    final difference = now.difference(date);
+
+    if (difference.inDays > 0) {
+      return '${difference.inDays}일 전';
+    } else if (difference.inHours > 0) {
+      return '${difference.inHours}시간 전';
+    } else if (difference.inMinutes > 0) {
+      return '${difference.inMinutes}분 전';
+    } else {
+      return '방금 전';
+    }
   }
 }

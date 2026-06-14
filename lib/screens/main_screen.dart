@@ -4,6 +4,7 @@ import 'chat_screen.dart';
 import 'meanings_screen.dart';
 import 'my_menu_screen.dart';
 import 'diary_screen.dart';
+import 'growth_screen.dart';
 import '../widgets/custom_image_icon.dart';
 import '../widgets/coin_widget.dart';
 import '../widgets/magic_dust_widget.dart';
@@ -26,6 +27,7 @@ class _MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
     const ChatScreen(),
     const DiaryScreen(),
     const MeaningsScreen(),
+    const GrowthScreen(),
     const MyMenuScreen(),
   ];
 
@@ -106,6 +108,11 @@ class _MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
           BottomNavigationBarItem(
             icon: const CustomImageIcon('assets/images/ic_reading.png'),
             label: AppLocalizations.of(context)!.navMeanings,
+          ),
+          const BottomNavigationBarItem(
+            icon: Icon(Icons.storefront_outlined, size: 24),
+            activeIcon: Icon(Icons.storefront, size: 24),
+            label: '상점',
           ),
           BottomNavigationBarItem(
             icon: const CustomImageIcon('assets/images/ic_account.png'),

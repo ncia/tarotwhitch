@@ -7,6 +7,8 @@ import '../services/tarot_ai_service.dart';
 import '../services/tts_service.dart';
 import '../services/economy_service.dart';
 import '../data/witch_data.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class ChatMessage {
   final String text;
@@ -301,6 +303,9 @@ class _ChatScreenState extends State<ChatScreen> {
       final cleanText = _messages.last.text.replaceAll(RegExp(r'\*+'), '');
       _ttsService.speak(_selectedWitch, cleanText, Localizations.localeOf(context).languageCode);
 
+      // 다이어리 자동 저장
+      _autoSaveDiary(cards, cleanText);
+
       // 마력의 가루 지급
       await EconomyService().addMagicDust(10);
       if (mounted) {
@@ -312,6 +317,31 @@ class _ChatScreenState extends State<ChatScreen> {
           ),
         );
       }
+    }
+  }
+
+  void _autoSaveDiary(List<String> pickedCards, String cleanText) async {
+    try {
+      final user = FirebaseAuth.instance.currentUser;
+      if (user != null) {
+        await FirebaseFirestore.instance
+            .collection('users')
+            .doc(user.uid)
+            .collection('diaries')
+            .add({
+          'cardId': pickedCards.isNotEmpty ? pickedCards[0] : '',
+          'spreadType': '타로 상담',
+          'myNote': _currentQuestion,
+          'resultText': cleanText,
+          'date': FieldValue.serverTimestamp(),
+          'cardIds': pickedCards,
+          'cardReversals': List.generate(pickedCards.length, (_) => false), // 현재 채팅에서는 역방향 지원 미구현이므로 전부 false
+          'positionLabels': List.generate(pickedCards.length, (i) => '포지션 ${i + 1}'),
+          'cardMeanings': List.generate(pickedCards.length, (_) => ''), // 의미는 상담 내용 안에 포함됨
+        });
+      }
+    } catch (e) {
+      debugPrint('Error auto-saving diary: $e');
     }
   }
 
@@ -363,7 +393,7 @@ class _ChatScreenState extends State<ChatScreen> {
           children: [
             // Header
             Padding(
-              padding: const EdgeInsets.all(16.0),
+              padding: const EdgeInsets.fromLTRB(16, 60, 16, 16),
               child: GlassContainer(
                 padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
                 borderRadius: 20,

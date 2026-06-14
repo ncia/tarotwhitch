@@ -23,6 +23,8 @@ import '../data/witch_data.dart';
 import '../services/tarot_ai_service.dart';
 import '../services/tarot_ai_service.dart';
 import '../services/tts_service.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import '../widgets/witch_profile_dialog.dart';
 
 enum ReadingState { intro, picking, result }
@@ -248,6 +250,62 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
       // 마크다운 제거
       String cleanText = _aiReadingText.replaceAll(RegExp(r'[*#]+'), '').trim();
       _ttsService.speakLongText(widget.selectedWitch!, cleanText, Localizations.localeOf(context).languageCode);
+
+      // 다이어리 자동 저장
+      _autoSaveDiary(pickedCards, cleanText);
+    }
+  }
+
+  void _autoSaveDiary(List<String> pickedCards, String cleanText) async {
+    try {
+      final user = FirebaseAuth.instance.currentUser;
+      if (user != null) {
+        List<bool> reversals = [];
+        List<String> labels = [];
+        List<String> meanings = [];
+        
+        List<String> spreadLabels = [];
+        if (widget.spreadType.name == 'oneCard') {
+          spreadLabels = ['오늘의 점괘'];
+        } else if (widget.spreadType.name == 'threeCard') {
+          spreadLabels = ['1. 과거', '2. 현재', '3. 미래'];
+        } else if (widget.spreadType.name == 'fourCard') {
+          spreadLabels = ['1. 현재 상황 및 문제', '2. 문제의 원인', '3. 해결을 위한 조언', '4. 예상되는 결과'];
+        } else if (widget.spreadType.name == 'fiveCard') {
+          spreadLabels = ['1. 현재', '2. 과거', '3. 미래', '4. 원인', '5. 잠재력'];
+        } else if (widget.spreadType.name == 'celticCross') {
+          spreadLabels = ['1. 현재 상황', '2. 방해물', '3. 무의식', '4. 과거', '5. 의식적 목표', '6. 가까운 미래', '7. 태도', '8. 외부 환경', '9. 희망과 두려움', '10. 최종 결과'];
+        } else if (widget.spreadType.name == 'hexagram') {
+          spreadLabels = ['1. 과거', '2. 현재', '3. 미래', '4. 조언', '5. 주변 환경', '6. 결과'];
+        } else {
+          spreadLabels = List.generate(widget.spreadType.cardCount, (i) => '포지션 ${i + 1}');
+        }
+        
+        for (int i = 0; i < widget.spreadType.cardCount; i++) {
+          final idx = _selectedCardIndices[i];
+          reversals.add(_shuffledReversed[idx]);
+          labels.add(spreadLabels.length > i ? spreadLabels[i] : '포지션 ${i + 1}');
+          meanings.add(!_shuffledReversed[idx] ? _shuffledDeck[idx].uprightDesc : _shuffledDeck[idx].reversedDesc);
+        }
+
+        await FirebaseFirestore.instance
+            .collection('users')
+            .doc(user.uid)
+            .collection('diaries')
+            .add({
+          'cardId': pickedCards.isNotEmpty ? pickedCards[0] : '',
+          'spreadType': widget.spreadType.name,
+          'myNote': '타로 리딩',
+          'resultText': cleanText,
+          'date': FieldValue.serverTimestamp(),
+          'cardIds': pickedCards,
+          'cardReversals': reversals,
+          'positionLabels': labels,
+          'cardMeanings': meanings,
+        });
+      }
+    } catch (e) {
+      debugPrint('Error auto-saving diary: $e');
     }
   }
 
@@ -660,7 +718,6 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                       ),
                       child: const Text('스프레드 선택'),
                     ),
-                    const SizedBox(width: 12),
                     ElevatedButton(
                       onPressed: () {
                         Navigator.popUntil(context, (route) => route.isFirst);
@@ -671,60 +728,6 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
                       ),
                       child: const Text('다른 마녀 선택'),
-                    ),
-                    const SizedBox(width: 12),
-                    ElevatedButton(
-                      onPressed: () {
-                        List<TarotCardData> cards = [];
-                        List<bool> reversals = [];
-                        List<String> labels = [];
-                        List<String> meanings = [];
-                        
-                        // Spread-specific labels
-                        List<String> spreadLabels = [];
-                        if (widget.spreadType.name == 'oneCard') {
-                          spreadLabels = ['오늘의 점괘'];
-                        } else if (widget.spreadType.name == 'threeCard') {
-                          spreadLabels = ['1. 과거', '2. 현재', '3. 미래'];
-                        } else if (widget.spreadType.name == 'fourCard') {
-                          spreadLabels = ['1. 현재 상황 및 문제', '2. 문제의 원인', '3. 해결을 위한 조언', '4. 예상되는 결과'];
-                        } else if (widget.spreadType.name == 'fiveCard') {
-                          spreadLabels = ['1. 현재', '2. 과거', '3. 미래', '4. 원인', '5. 잠재력'];
-                        } else if (widget.spreadType.name == 'celticCross') {
-                          spreadLabels = ['1. 현재 상황', '2. 방해물', '3. 무의식', '4. 과거', '5. 의식적 목표', '6. 가까운 미래', '7. 태도', '8. 외부 환경', '9. 희망과 두려움', '10. 최종 결과'];
-                        } else if (widget.spreadType.name == 'hexagram') {
-                          spreadLabels = ['1. 과거', '2. 현재', '3. 미래', '4. 조언', '5. 주변 환경', '6. 결과'];
-                        } else {
-                          spreadLabels = List.generate(widget.spreadType.cardCount, (i) => '포지션 ${i + 1}');
-                        }
-                        
-                        for (int i = 0; i < widget.spreadType.cardCount; i++) {
-                          final idx = _selectedCardIndices[i];
-                          cards.add(_shuffledDeck[idx]);
-                          reversals.add(_shuffledReversed[idx]);
-                          labels.add(spreadLabels.length > i ? spreadLabels[i] : '포지션 ${i + 1}');
-                          meanings.add(!_shuffledReversed[idx] ? _shuffledDeck[idx].uprightDesc : _shuffledDeck[idx].reversedDesc);
-                        }
-
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => DiaryEditScreen(
-                              cards: cards,
-                              cardReversals: reversals,
-                              positionLabels: labels,
-                              cardMeanings: meanings,
-                              spreadType: widget.spreadType.name,
-                            ),
-                          ),
-                        );
-                      },
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.pinkAccent,
-                        foregroundColor: Colors.white,
-                        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-                      ),
-                      child: const Text('일기에 저장하기', style: TextStyle(fontWeight: FontWeight.bold)),
                     ),
                   ],
                 ),

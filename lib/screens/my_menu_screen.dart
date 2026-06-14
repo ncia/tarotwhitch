@@ -33,7 +33,7 @@ class MyMenuScreen extends StatelessWidget {
 
   Widget _buildMenuList(BuildContext context, {required bool isFirebaseInitialized, required bool isLoggedIn, User? user}) {
     return ListView(
-      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 30),
+      padding: const EdgeInsets.fromLTRB(24, 60, 24, 30),
       children: [
         Text(
           AppLocalizations.of(context)?.navMyMenu ?? '내 정보',
