@@ -5,6 +5,7 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:path_provider/path_provider.dart';
 import 'dart:io';
 import 'package:flutter/foundation.dart' show kIsWeb;
+import 'package:wakelock_plus/wakelock_plus.dart';
 import '../data/witch_data.dart';
 import 'audio_service.dart';
 
@@ -28,6 +29,7 @@ class TtsService {
 
   Future<void> speak(Witch witch, String text, String localeCode) async {
     stop();
+    WakelockPlus.enable();
     _currentWitch = witch;
     _textQueue.add(text);
     _playNextInQueue();
@@ -35,6 +37,7 @@ class TtsService {
 
   Future<void> speakLongText(Witch witch, String text, String localeCode) async {
     stop();
+    WakelockPlus.enable();
     _currentWitch = witch;
     
     // Split into paragraphs to respect API limits and provide natural pauses
@@ -60,12 +63,14 @@ class TtsService {
     if (AudioService().isMuted || AudioService().volume == 0) {
       _textQueue.clear();
       _isPlaying = false;
+      WakelockPlus.disable();
       AudioService().resumeBgm();
       return;
     }
 
     if (_textQueue.isEmpty) {
       _isPlaying = false;
+      WakelockPlus.disable();
       AudioService().resumeBgm();
       return;
     }
@@ -134,6 +139,7 @@ class TtsService {
     _textQueue.clear();
     _isPlaying = false;
     _audioPlayer.stop();
+    WakelockPlus.disable();
     AudioService().resumeBgm();
   }
 }
