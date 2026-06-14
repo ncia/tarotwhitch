@@ -398,26 +398,33 @@ class DiaryScreen extends StatelessWidget {
     );
   }
   Widget _buildDiaryThumbnails(TarotDiary diary) {
+    const double targetWidth = 120.0;
+    const double cardWidth = 60.0;
+    const double cardHeight = 90.0;
+
     if (diary.cardIds.length <= 1) {
       final cardId = diary.cardIds.isNotEmpty ? diary.cardIds.first : diary.cardId;
       final card = tarotDeck.firstWhere((c) => c.id == cardId, orElse: () => tarotDeck.first);
-      return ClipRRect(
-        borderRadius: BorderRadius.circular(8),
-        child: Image.asset(card.imagePath, width: 60, height: 90, fit: BoxFit.cover),
+      return SizedBox(
+        width: targetWidth,
+        height: cardHeight,
+        child: Align(
+          alignment: Alignment.centerLeft,
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(8),
+            child: Image.asset(card.imagePath, width: cardWidth, height: cardHeight, fit: BoxFit.cover),
+          ),
+        ),
       );
     }
 
     final displayCount = diary.cardIds.length;
-    
-    // 기본 간격은 15.0, 하지만 카드가 많아지면 겹치는 간격을 좁혀서 최대 가로폭이 120.0을 넘지 않게 조절
-    double offset = 15.0;
-    if (displayCount > 4) {
-      offset = 60.0 / (displayCount - 1);
-    }
+    final maxAvailableOffsetWidth = targetWidth - cardWidth;
+    final double offset = maxAvailableOffsetWidth / (displayCount - 1);
 
     return SizedBox(
-      width: 60.0 + (displayCount - 1) * offset,
-      height: 90,
+      width: targetWidth,
+      height: cardHeight,
       child: Stack(
         children: List.generate(displayCount, (index) {
           final cardId = diary.cardIds[index];
@@ -433,7 +440,7 @@ class DiaryScreen extends StatelessWidget {
               ),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(8),
-                child: Image.asset(card.imagePath, width: 60, height: 90, fit: BoxFit.cover),
+                child: Image.asset(card.imagePath, width: cardWidth, height: cardHeight, fit: BoxFit.cover),
               ),
             ),
           );
