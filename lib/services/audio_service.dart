@@ -1,4 +1,5 @@
 import 'package:audioplayers/audioplayers.dart';
+import 'tts_service.dart';
 
 class AudioService {
   static final AudioService _instance = AudioService._internal();
@@ -89,6 +90,7 @@ class AudioService {
     _isMuted = !_isMuted;
     if (_isMuted) {
       await _bgmPlayer.setVolume(0.0);
+      TtsService().stop();
     } else {
       await _bgmPlayer.setVolume(_volume);
     }

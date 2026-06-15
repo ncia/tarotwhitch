@@ -409,7 +409,7 @@ class DiaryScreen extends StatelessWidget {
         width: targetWidth,
         height: cardHeight,
         child: Align(
-          alignment: Alignment.centerLeft,
+          alignment: Alignment.center,
           child: ClipRRect(
             borderRadius: BorderRadius.circular(8),
             child: Image.asset(card.imagePath, width: cardWidth, height: cardHeight, fit: BoxFit.cover),
