@@ -112,8 +112,9 @@ class _WorldTreeTabState extends State<_WorldTreeTab> {
         final progress = (exp % 50) / 50.0;
 
         return Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text('세계수 레벨 $level', style: Theme.of(context).textTheme.displayLarge),
               const SizedBox(height: 20),
@@ -153,6 +154,7 @@ class _WorldTreeTabState extends State<_WorldTreeTab> {
                 ),
               ),
             ],
+          ),
           ),
         );
       },
@@ -196,8 +198,9 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
         final dust = EconomyService().magicDust;
 
         return Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
             children: [
               GlassContainer(
                 padding: const EdgeInsets.all(16),
@@ -251,6 +254,7 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
                 ),
               ),
             ],
+          ),
           ),
         );
       },
