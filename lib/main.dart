@@ -151,7 +151,7 @@ class TarotApp extends StatelessWidget {
           ],
         );
       },
-      home: const MainScreen(),
+      home: MainScreen(),
     );
   }
 }

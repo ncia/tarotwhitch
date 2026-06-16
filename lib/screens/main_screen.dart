@@ -12,16 +12,26 @@ import '../widgets/magic_dust_widget.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import '../services/audio_service.dart';
 import '../widgets/top_floating_icons.dart';
+import '../widgets/shared_bottom_nav_bar.dart';
+
+final GlobalKey<MainScreenState> mainScreenKey = GlobalKey<MainScreenState>();
 
 class MainScreen extends StatefulWidget {
-  const MainScreen({super.key});
+  MainScreen({Key? key}) : super(key: key ?? mainScreenKey);
 
   @override
-  State<MainScreen> createState() => _MainScreenState();
+  State<MainScreen> createState() => MainScreenState();
 }
 
-class _MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
+class MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
   int _currentIndex = 0;
+  int get currentIndex => _currentIndex;
+
+  void switchTab(int index) {
+    setState(() {
+      _currentIndex = index;
+    });
+  }
 
   final List<Widget> _screens = [
     const ReadingTabNavigator(),
@@ -65,39 +75,9 @@ class _MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
           _screens[_currentIndex],
         ],
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: Colors.black.withOpacity(0.8),
-        selectedItemColor: Colors.white,
-        unselectedItemColor: Colors.white54,
-        type: BottomNavigationBarType.fixed,
+      bottomNavigationBar: SharedBottomNavBar(
         currentIndex: _currentIndex,
-        onTap: (index) {
-          setState(() {
-            _currentIndex = index;
-          });
-        },
-        items: [
-          BottomNavigationBarItem(
-            icon: const CustomImageIcon('assets/images/ic_meanings.png'),
-            label: AppLocalizations.of(context)!.navReading,
-          ),
-          BottomNavigationBarItem(
-            icon: const CustomImageIcon('assets/images/ic_chat.png'),
-            label: AppLocalizations.of(context)!.navChat,
-          ),
-          BottomNavigationBarItem(
-            icon: const CustomImageIcon('assets/images/ic_diary.png'),
-            label: '타로 일기',
-          ),
-          BottomNavigationBarItem(
-            icon: const CustomImageIcon('assets/images/ic_reading.png'),
-            label: AppLocalizations.of(context)!.navMeanings,
-          ),
-          BottomNavigationBarItem(
-            icon: const CustomImageIcon('assets/images/ic_account.png'),
-            label: AppLocalizations.of(context)!.navMyMenu,
-          ),
-        ],
+        onTap: switchTab,
       ),
     );
   }

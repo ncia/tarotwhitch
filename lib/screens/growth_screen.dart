@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
 import '../services/economy_service.dart';
+import '../widgets/shared_bottom_nav_bar.dart';
+import 'main_screen.dart';
 
 class GrowthScreen extends StatefulWidget {
   const GrowthScreen({super.key});
@@ -28,20 +30,6 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      extendBodyBehindAppBar: true,
-      appBar: PreferredSize(
-        preferredSize: const Size.fromHeight(kToolbarHeight + 65),
-        child: Column(
-          children: [
-            const SizedBox(height: 65),
-            AppBar(
-              backgroundColor: Colors.transparent,
-              elevation: 0,
-              iconTheme: const IconThemeData(color: Colors.white),
-            ),
-          ],
-        ),
-      ),
       body: Stack(
         children: [
           GradientBackground(
@@ -49,23 +37,36 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
               child: Column(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(16, 80, 16, 10),
+                    padding: const EdgeInsets.fromLTRB(16, 60, 16, 10),
                     child: Column(
                       children: [
-                        const Text(
-                          '성장',
-                          textAlign: TextAlign.center,
-                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 32),
-                        ),
-                        const SizedBox(height: 24),
+
                         TabBar(
                           controller: _tabController,
                           indicatorColor: Colors.amberAccent,
                           labelColor: Colors.amberAccent,
                           unselectedLabelColor: Colors.white54,
                           tabs: const [
-                            Tab(text: '수정구 강화', icon: Icon(Icons.lens_blur)),
-                            Tab(text: '세계수 키우기', icon: Icon(Icons.park)),
+                            Tab(
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Icon(Icons.lens_blur),
+                                  SizedBox(width: 8),
+                                  Text('수정구 강화'),
+                                ],
+                              ),
+                            ),
+                            Tab(
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Icon(Icons.park),
+                                  SizedBox(width: 8),
+                                  Text('세계수 키우기'),
+                                ],
+                              ),
+                            ),
                           ],
                         ),
                       ],
@@ -85,6 +86,13 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
             ),
           ),
         ],
+      ),
+      bottomNavigationBar: SharedBottomNavBar(
+        currentIndex: mainScreenKey.currentState?.currentIndex ?? 0,
+        onTap: (index) {
+          mainScreenKey.currentState?.switchTab(index);
+          Navigator.popUntil(context, (route) => route.isFirst);
+        },
       ),
     );
   }
@@ -124,10 +132,14 @@ class _WorldTreeTabState extends State<_WorldTreeTab> {
         final level = (exp / 50).floor() + 1;
         final progress = (exp % 50) / 50.0;
 
-        return Center(
-          child: SingleChildScrollView(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
+        return LayoutBuilder(
+          builder: (context, constraints) {
+            return SingleChildScrollView(
+              child: ConstrainedBox(
+                constraints: BoxConstraints(minHeight: constraints.maxHeight),
+                child: Center(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text('세계수 레벨 $level', style: Theme.of(context).textTheme.displayLarge),
               const SizedBox(height: 20),
@@ -167,8 +179,11 @@ class _WorldTreeTabState extends State<_WorldTreeTab> {
                 ),
               ),
             ],
-          ),
-          ),
+                  ),
+                ),
+              ),
+            );
+          },
         );
       },
     );
@@ -210,10 +225,14 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
         final level = EconomyService().crystalBallExp + 1;
         final dust = EconomyService().magicDust;
 
-        return Center(
-          child: SingleChildScrollView(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
+        return LayoutBuilder(
+          builder: (context, constraints) {
+            return SingleChildScrollView(
+              child: ConstrainedBox(
+                constraints: BoxConstraints(minHeight: constraints.maxHeight),
+                child: Center(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
             children: [
               GlassContainer(
                 padding: const EdgeInsets.all(16),
@@ -226,33 +245,11 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
               const SizedBox(height: 40),
               Text('신비의 수정구 레벨 $level', style: Theme.of(context).textTheme.displayLarge),
               const SizedBox(height: 30),
-              Container(
-                width: 200,
-                height: 200,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  gradient: RadialGradient(
-                    colors: [
-                      Colors.purpleAccent.withOpacity(0.5 + (level * 0.05).clamp(0.0, 0.5)),
-                      Colors.deepPurple.withOpacity(0.8),
-                      Colors.transparent,
-                    ],
-                  ),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.purpleAccent.withOpacity(0.4 + (level * 0.05).clamp(0.0, 0.6)),
-                      blurRadius: 40 + (level * 5).toDouble(),
-                      spreadRadius: 10 + (level * 2).toDouble(),
-                    ),
-                  ],
-                ),
-                child: Center(
-                  child: Icon(
-                    Icons.lens_blur,
-                    size: 120,
-                    color: Colors.white.withOpacity(0.8),
-                  ),
-                ),
+              Image.asset(
+                'assets/images/crystal_ball.png',
+                width: 300,
+                height: 300,
+                fit: BoxFit.contain,
               ),
               const SizedBox(height: 60),
               ElevatedButton.icon(
@@ -267,8 +264,11 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
                 ),
               ),
             ],
-          ),
-          ),
+                  ),
+                ),
+              ),
+            );
+          },
         );
       },
     );
