@@ -583,23 +583,29 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
               },
             ),
           ),
-          // 번개 이미지
+          // 수정구(번개) 이미지 (크기 반으로 축소)
           Positioned.fill(
-            child: AnimatedBuilder(
-              animation: _lightningAnimController,
-              builder: (context, child) {
-                return Opacity(
-                  opacity: 0.6 + (_lightningAnimController.value * 0.4),
-                  child: Container(
-                    decoration: const BoxDecoration(
-                      image: DecorationImage(
-                        image: AssetImage('assets/images/lightning2.jpg'),
-                        fit: BoxFit.cover,
+            child: Center(
+              child: FractionallySizedBox(
+                widthFactor: 0.5,
+                heightFactor: 0.5,
+                child: AnimatedBuilder(
+                  animation: _lightningAnimController,
+                  builder: (context, child) {
+                    return Opacity(
+                      opacity: 0.6 + (_lightningAnimController.value * 0.4),
+                      child: Container(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage('assets/images/lighting.webp'),
+                            fit: BoxFit.contain,
+                          ),
+                        ),
                       ),
-                    ),
-                  ),
-                );
-              },
+                    );
+                  },
+                ),
+              ),
             ),
           ),
         ],

@@ -264,33 +264,7 @@ class _AuthScreenState extends State<AuthScreen> {
                     obscureText: _obscurePassword,
                   ),
                   const SizedBox(height: 16),
-                  if (!_isLogin) ...[
-                    Theme(
-                      data: Theme.of(context).copyWith(
-                        unselectedWidgetColor: Colors.white54,
-                      ),
-                      child: Material(
-                        color: Colors.transparent,
-                        child: CheckboxListTile(
-                          title: const Text(
-                            '관리자 계정으로 가입하기',
-                            style: TextStyle(color: Colors.white),
-                          ),
-                          value: _isAdmin,
-                          onChanged: (bool? value) {
-                            setState(() {
-                              _isAdmin = value ?? false;
-                            });
-                          },
-                          activeColor: Colors.deepPurpleAccent,
-                          checkColor: Colors.amberAccent,
-                          contentPadding: EdgeInsets.zero,
-                          controlAffinity: ListTileControlAffinity.leading,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(height: 16),
-                  ],
+
                   if (_isLoading)
                     const CircularProgressIndicator(color: Colors.amberAccent)
                   else
