@@ -8,13 +8,14 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:wakelock_plus/wakelock_plus.dart';
 import '../data/witch_data.dart';
 import 'audio_service.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class TtsService {
   static final TtsService _instance = TtsService._internal();
   factory TtsService() => _instance;
 
   final AudioPlayer _audioPlayer = AudioPlayer();
-  final String _apiKey = 'sk_ka15z2n9phv842hw1fvt0b634fb8cesaj1czhfm4cv0';
+  String get _apiKey => dotenv.env['SPEECHIFY_API_KEY'] ?? '';
   final String _baseUrl = 'https://api.speechify.ai/v1/audio/speech';
   
   final List<String> _textQueue = [];

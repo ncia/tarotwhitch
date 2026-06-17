@@ -65,7 +65,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
   
   late List<TarotCardData> _shuffledDeck;
   late List<bool> _shuffledReversed;
-  late String _currentBackgroundImage;
+  Witch? _activeWitch;
   bool _isInit = false;
   
   final TarotAiService _aiService = TarotAiService();
@@ -106,10 +106,10 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
     super.didChangeDependencies();
     if (!_isInit) {
       if (widget.selectedWitch != null) {
-        _currentBackgroundImage = widget.selectedWitch!.imagePath;
+        _activeWitch = widget.selectedWitch;
       } else {
         final allowedWitches = getLocalizedWitches(context).where((w) => w.id == 'morgan' || w.id == 'karen').toList();
-        _currentBackgroundImage = allowedWitches[math.Random().nextInt(allowedWitches.length)].imagePath;
+        _activeWitch = allowedWitches[math.Random().nextInt(allowedWitches.length)];
       }
       _isInit = true;
     }
@@ -349,8 +349,8 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
           child: AnimatedSwitcher(
             duration: const Duration(milliseconds: 500),
             child: Image.asset(
-              _currentBackgroundImage,
-              key: ValueKey(_currentBackgroundImage),
+              _activeWitch?.imagePath ?? 'assets/images/witch_morgan.jpg',
+              key: ValueKey(_activeWitch?.imagePath ?? 'assets/images/witch_morgan.jpg'),
               fit: BoxFit.cover,
               alignment: Alignment.center,
               width: double.infinity,
