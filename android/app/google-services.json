@@ -12,7 +12,20 @@
           "package_name": "com.example.flutter_tarot"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "794860272588-k3nu0fu98lm7u619sk8fntnscfjn96en.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_tarot",
+            "certificate_hash": "338a107c02370473f59db3f94eb261cc24ce6bb3"
+          }
+        },
+        {
+          "client_id": "794860272588-18nm3n51g81v7h8cfafhdu27o8onslk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDtibt--mUIKJa2BDqrPBjwzWnqdwwaoGE"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794860272588-18nm3n51g81v7h8cfafhdu27o8onslk3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "794860272588-jknpcnnt1r5ttv708786nrqvvf2rfleb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterTarot"
+              }
+            }
+          ]
         }
       }
     }

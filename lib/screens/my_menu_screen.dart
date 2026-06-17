@@ -6,6 +6,7 @@ import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import 'auth_screen.dart'; // AuthScreen 임포트 추가
+import 'package:firebase_messaging/firebase_messaging.dart';
 
 class MyMenuScreen extends StatelessWidget {
   const MyMenuScreen({super.key});
@@ -179,7 +180,7 @@ class MyMenuScreen extends StatelessWidget {
         
         const SizedBox(height: 20),
         _buildSectionTitle('앱 설정'),
-        _buildMenuItem(Icons.volume_up_outlined, '사운드 및 알림', 'BGM, 효과음 설정'),
+        if (isLoggedIn && user != null) _PushSettingsTile(userId: user.uid),
         _buildMenuItem(Icons.language, '언어 설정', '한국어'),
         _buildMenuItem(Icons.dark_mode_outlined, '테마 설정', '다크/라이트 모드'),
         
@@ -244,6 +245,106 @@ class MyMenuScreen extends StatelessWidget {
                 : null,
             trailing: const Icon(Icons.chevron_right, color: Colors.white54),
             onTap: onTap ?? () {},
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _PushSettingsTile extends StatefulWidget {
+  final String userId;
+  const _PushSettingsTile({required this.userId});
+
+  @override
+  State<_PushSettingsTile> createState() => _PushSettingsTileState();
+}
+
+class _PushSettingsTileState extends State<_PushSettingsTile> {
+  bool _pushEnabled = false;
+  bool _isLoading = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadPushSetting();
+  }
+
+  Future<void> _loadPushSetting() async {
+    try {
+      final doc = await FirebaseFirestore.instance.collection('users').doc(widget.userId).get();
+      if (doc.exists) {
+        setState(() {
+          _pushEnabled = doc.data()?['pushEnabled'] ?? false;
+        });
+      }
+    } catch (e) {
+      debugPrint('푸시 설정 로드 오류: $e');
+    } finally {
+      setState(() => _isLoading = false);
+    }
+  }
+
+  Future<void> _togglePush(bool value) async {
+    setState(() {
+      _pushEnabled = value;
+      _isLoading = true;
+    });
+
+    try {
+      if (value) {
+        // 권한 요청 (iOS 등의 경우 여기서 창이 뜹니다)
+        await FirebaseMessaging.instance.requestPermission();
+      }
+      await FirebaseFirestore.instance.collection('users').doc(widget.userId).update({
+        'pushEnabled': value,
+      });
+    } catch (e) {
+      debugPrint('푸시 설정 업데이트 오류: $e');
+      setState(() => _pushEnabled = !value); // 롤백
+    } finally {
+      setState(() => _isLoading = false);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: const EdgeInsets.only(bottom: 12),
+      child: GlassContainer(
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        borderRadius: 16,
+        child: Material(
+          color: Colors.transparent,
+          child: ListTile(
+            contentPadding: EdgeInsets.zero,
+            leading: Container(
+              padding: const EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                color: Colors.deepPurpleAccent.withOpacity(0.3),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: const Icon(Icons.notifications_active_outlined, color: Colors.amberAccent),
+            ),
+            title: const Text(
+              '푸시 알림 수신',
+              style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w500),
+            ),
+            subtitle: Text(
+              '새로운 운세 및 이벤트 알림',
+              style: TextStyle(color: Colors.white.withOpacity(0.6), fontSize: 12),
+            ),
+            trailing: _isLoading
+                ? const SizedBox(
+                    width: 24,
+                    height: 24,
+                    child: CircularProgressIndicator(strokeWidth: 2, color: Colors.amberAccent),
+                  )
+                : Switch(
+                    value: _pushEnabled,
+                    onChanged: _togglePush,
+                    activeColor: Colors.amberAccent,
+                  ),
           ),
         ),
       ),

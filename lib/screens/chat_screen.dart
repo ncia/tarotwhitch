@@ -350,6 +350,7 @@ class _ChatScreenState extends State<ChatScreen> {
           'myNote': _currentQuestion,
           'resultText': cleanText,
           'date': FieldValue.serverTimestamp(),
+          'expiresAt': Timestamp.fromDate(DateTime.now().add(const Duration(days: 365 * 3))), // 3년 뒤 개별 데이터 자동 파기
           'cardIds': pickedCards,
           'cardReversals': List.generate(pickedCards.length, (_) => false), // 현재 채팅에서는 역방향 지원 미구현이므로 전부 false
           'positionLabels': List.generate(pickedCards.length, (i) => '포지션 ${i + 1}'),

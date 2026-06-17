@@ -299,6 +299,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
           'myNote': '타로 리딩',
           'resultText': cleanText,
           'date': FieldValue.serverTimestamp(),
+          'expiresAt': Timestamp.fromDate(DateTime.now().add(const Duration(days: 365 * 3))), // 3년 뒤 개별 데이터 자동 파기
           'cardIds': pickedCards,
           'cardReversals': reversals,
           'positionLabels': labels,

@@ -6,7 +6,7 @@ import 'package:flutter_tarot/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'theme/app_theme.dart';
 import 'screens/main_screen.dart';
 import 'services/economy_service.dart';
@@ -36,6 +36,16 @@ void main() async {
 
     if (auth.currentUser == null) {
       await auth.signInAnonymously();
+    } else if (!auth.currentUser!.isAnonymous) {
+      // 일반 회원인 경우 앱 구동(접속) 시 최근 접속일과 자동 삭제 예정일(1년 뒤) 갱신
+      try {
+        await FirebaseFirestore.instance.collection('users').doc(auth.currentUser!.uid).update({
+          'lastLoginAt': FieldValue.serverTimestamp(),
+          'deleteEligibleAt': Timestamp.fromDate(DateTime.now().add(const Duration(days: 365))),
+        });
+      } catch (e) {
+        debugPrint('접속 기록 갱신 실패 (신규 가입 직후일 수 있음): $e');
+      }
     }
     await EconomyService().initializeNewUser();
   } catch (e) {

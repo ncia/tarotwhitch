@@ -9,6 +9,7 @@ import '../data/nickname_data.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:flutter/foundation.dart' show kIsWeb, defaultTargetPlatform, TargetPlatform;
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 
 class AuthScreen extends StatefulWidget {
   final bool isInline;
@@ -26,7 +27,8 @@ class _AuthScreenState extends State<AuthScreen> {
   bool _isLoading = false;
   bool _isAdmin = false; // 관리자 가입 여부
   bool _obscurePassword = true; // 비밀번호 숨김 여부
-  bool _agreedToTerms = false; // 약관 동의 여부
+  bool _agreedToTerms = false; // 약관 동의 여부 (기본 체크 해제)
+  bool _agreedToPush = false; // 마케팅/푸시 알림 동의 여부 (기본 체크 해제)
   bool _keepLoggedIn = true; // 자동 로그인 유지 여부
 
   @override
@@ -72,7 +74,37 @@ class _AuthScreenState extends State<AuthScreen> {
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(context),
-              child: const Text('동의 후 닫기', style: TextStyle(color: Colors.amberAccent)),
+              child: const Text('닫기', style: TextStyle(color: Colors.amberAccent)),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  void _showPushTermsDialog() {
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          backgroundColor: Colors.grey[900],
+          title: const Text('이벤트 및 마케팅 알림 수신 동의', style: TextStyle(color: Colors.white, fontSize: 18)),
+          content: const SingleChildScrollView(
+            child: Text(
+              '제1조 (목적)\n'
+              '본 동의는 타로마녀 서비스가 사용자에게 유익한 이벤트, 프로모션, 새로운 운세 업데이트 등의 광고성 정보를 푸시 알림으로 전송하기 위함입니다.\n\n'
+              '제2조 (수신 철회)\n'
+              '사용자는 본 수신 동의를 언제든지 앱 내 [내 메뉴 > 앱 설정]에서 철회할 수 있습니다. 동의를 철회하더라도 서비스의 기본 기능(필수 서비스)은 정상적으로 이용 가능합니다.\n\n'
+              '제3조 (알림의 내용)\n'
+              '전송되는 알림에는 앱 내 특별 할인 혜택, 기간 한정 이벤트, 맞춤형 운세 추천 등 광고 및 마케팅 성격의 내용이 포함될 수 있습니다.\n\n'
+              '위 내용은 사용자의 선택적 동의 사항이며, 미동의 시에도 타로 서비스 이용에는 불이익이 없습니다.',
+              style: TextStyle(color: Colors.white70, height: 1.5, fontSize: 13),
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('닫기', style: TextStyle(color: Colors.amberAccent)),
             ),
           ],
         );
@@ -127,8 +159,16 @@ class _AuthScreenState extends State<AuthScreen> {
             'email': user.email,
             'nickname': '$prefix $suffix',
             'role': 'user',
+            'pushEnabled': _agreedToPush,
             'createdAt': FieldValue.serverTimestamp(),
+            'lastLoginAt': FieldValue.serverTimestamp(),
+            'deleteEligibleAt': Timestamp.fromDate(DateTime.now().add(const Duration(days: 365))), // 1년 뒤 삭제 대상
+            'retentionExpiresAt': Timestamp.fromDate(DateTime.now().add(const Duration(days: 365 * 3))), // 3년 뒤 영구 파기
           });
+          
+          if (_agreedToPush) {
+            await FirebaseMessaging.instance.requestPermission();
+          }
         }
         
         // 로그인 성공 시 유지 여부 저장
@@ -225,8 +265,16 @@ class _AuthScreenState extends State<AuthScreen> {
             'email': user.email,
             'nickname': _nicknameController.text.trim(),
             'role': _isAdmin ? 'admin' : 'user', // 관리자 여부에 따라 role 부여
+            'pushEnabled': _agreedToPush,
             'createdAt': FieldValue.serverTimestamp(),
+            'lastLoginAt': FieldValue.serverTimestamp(),
+            'deleteEligibleAt': Timestamp.fromDate(DateTime.now().add(const Duration(days: 365))), // 1년 뒤 자동 삭제 대상
+            'retentionExpiresAt': Timestamp.fromDate(DateTime.now().add(const Duration(days: 365 * 3))), // 3년 뒤 완전 파기
           });
+          
+          if (_agreedToPush) {
+            await FirebaseMessaging.instance.requestPermission();
+          }
           
           // 인증 메일 발송
           await user.sendEmailVerification();
@@ -383,6 +431,37 @@ class _AuthScreenState extends State<AuthScreen> {
                         ),
                         TextButton(
                           onPressed: _showTermsDialog,
+                          style: TextButton.styleFrom(
+                            padding: const EdgeInsets.symmetric(horizontal: 4),
+                            minimumSize: Size.zero,
+                          ),
+                          child: const Text('[내용 보기]', style: TextStyle(color: Colors.amberAccent, fontSize: 12)),
+                        ),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        Checkbox(
+                          value: _agreedToPush,
+                          onChanged: (val) {
+                            setState(() => _agreedToPush = val ?? false);
+                          },
+                          activeColor: Colors.amberAccent,
+                          checkColor: Colors.black,
+                        ),
+                        Expanded(
+                          child: GestureDetector(
+                            onTap: () {
+                              setState(() => _agreedToPush = !_agreedToPush);
+                            },
+                            child: const Text(
+                              '새로운 운세 및 이벤트 알림 수신에 동의합니다. (선택)',
+                              style: TextStyle(color: Colors.white70, fontSize: 13),
+                            ),
+                          ),
+                        ),
+                        TextButton(
+                          onPressed: _showPushTermsDialog,
                           style: TextButton.styleFrom(
                             padding: const EdgeInsets.symmetric(horizontal: 4),
                             minimumSize: Size.zero,
