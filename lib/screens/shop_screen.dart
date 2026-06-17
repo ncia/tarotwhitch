@@ -6,6 +6,7 @@ import '../widgets/shared_bottom_nav_bar.dart';
 import '../services/theme_manager.dart';
 import '../services/economy_service.dart';
 import 'main_screen.dart';
+import 'package:flutter_tarot/l10n/app_localizations.dart';
 
 class ShopScreen extends StatelessWidget {
   const ShopScreen({super.key});
@@ -27,23 +28,23 @@ class ShopScreen extends StatelessWidget {
                       child: Column(
                         children: [
                           Text(
-                            '상점',
+                            AppLocalizations.of(context)!.shopTitle,
                             textAlign: TextAlign.center,
                             style: Theme.of(context).textTheme.displayLarge,
                           ),
                           const SizedBox(height: 8),
                           Text(
-                            '코인과 테마를 구매하세요',
+                            AppLocalizations.of(context)!.shopSubtitle,
                             style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: Colors.white70),
                           ),
                           const SizedBox(height: 24),
-                          const TabBar(
+                          TabBar(
                             indicatorColor: Colors.amberAccent,
                             labelColor: Colors.amberAccent,
                             unselectedLabelColor: Colors.white54,
                             tabs: [
-                              Tab(text: '코인'),
-                              Tab(text: '테마'),
+                              Tab(text: AppLocalizations.of(context)!.shopTabCoin),
+                              Tab(text: AppLocalizations.of(context)!.shopTabTheme),
                             ],
                           ),
                         ],
@@ -146,7 +147,7 @@ class ShopScreen extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {
                   ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(content: Text('${pkg['coins']} 코인 결제 기능은 준비 중입니다.')),
+                    SnackBar(content: Text(AppLocalizations.of(context)!.shopCoinNotReady(pkg['coins']))),
                   );
                 },
                 style: ElevatedButton.styleFrom(
@@ -157,7 +158,7 @@ class ShopScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(12),
                   ),
                 ),
-                child: const Text('결제', style: TextStyle(fontWeight: FontWeight.bold)),
+                child: Text(AppLocalizations.of(context)!.shopPayButton, style: const TextStyle(fontWeight: FontWeight.bold)),
               ),
             ],
           ),
@@ -270,25 +271,27 @@ class ShopScreen extends StatelessWidget {
         final bool hasMagicBook = unlockedThemes.contains('assets/images/theme/magic_book.png');
         final bool hasBlackCat = unlockedThemes.contains('assets/images/theme/black_cat.png');
         
+        final l10n = AppLocalizations.of(context)!;
+        
         final List<Map<String, dynamic>> skinPackages = [
           {
-            'name': '마법책',
-            'price': hasMagicBook ? '보유중' : '10 코인',
+            'name': l10n.themeMagicBook,
+            'price': hasMagicBook ? l10n.shopOwned : l10n.shopCoinPrice(10),
             'cost': 10,
             'image': 'assets/images/theme/magic_book.png',
             'isTheme': true,
           },
           {
-            'name': '검은 고양이',
-            'price': hasBlackCat ? '보유중' : '10 코인',
+            'name': l10n.themeBlackCat,
+            'price': hasBlackCat ? l10n.shopOwned : l10n.shopCoinPrice(10),
             'cost': 10,
             'image': 'assets/images/theme/black_cat.png',
             'isTheme': true,
           },
-          {'name': '원조 클래식 덱', 'price': '보유중', 'color': Colors.blueGrey},
-          {'name': '황금 태양 덱', 'price': '100 코인', 'color': Colors.amber},
-          {'name': '칠흑의 심연 덱', 'price': '150 코인', 'color': Colors.deepPurple},
-          {'name': '봄의 정령 덱', 'price': '120 코인', 'color': Colors.lightGreen},
+          {'name': AppLocalizations.of(context)!.themeOriginalDeck, 'price': l10n.shopOwned, 'color': Colors.blueGrey},
+          {'name': AppLocalizations.of(context)!.themeGoldenSunDeck, 'price': l10n.shopCoinPrice(100), 'color': Colors.amber},
+          {'name': AppLocalizations.of(context)!.themeDarkAbyssDeck, 'price': l10n.shopCoinPrice(150), 'color': Colors.deepPurple},
+          {'name': AppLocalizations.of(context)!.themeSpringSpiritDeck, 'price': l10n.shopCoinPrice(120), 'color': Colors.lightGreen},
         ];
 
         return GridView.builder(
@@ -343,9 +346,9 @@ class ShopScreen extends StatelessWidget {
                   const SizedBox(height: 8),
                   ElevatedButton(
                     onPressed: () async {
-                      if (skin['price'] == '보유중') {
+                      if (skin['price'] == l10n.shopOwned) {
                         ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(content: Text('이미 보유하고 있습니다. 테마 설정에서 적용해보세요!')),
+                          SnackBar(content: Text(l10n.shopAlreadyOwned)),
                         );
                         return;
                       }
@@ -357,15 +360,15 @@ class ShopScreen extends StatelessWidget {
                           builder: (context) {
                             return AlertDialog(
                               backgroundColor: const Color(0xFF2D1B4E),
-                              title: const Text('테마 구매', style: TextStyle(color: Colors.white)),
+                              title: Text(l10n.shopThemePurchaseTitle, style: const TextStyle(color: Colors.white)),
                               content: Text(
-                                '${skin['name']} 테마를 $cost 코인으로 구매하시겠습니까?',
+                                l10n.shopThemePurchaseContent(skin['name'], cost),
                                 style: const TextStyle(color: Colors.white70),
                               ),
                               actions: [
                                 TextButton(
                                   onPressed: () => Navigator.of(context).pop(false),
-                                  child: const Text('취소', style: TextStyle(color: Colors.white60)),
+                                  child: Text(l10n.shopCancel, style: const TextStyle(color: Colors.white60)),
                                 ),
                                 ElevatedButton(
                                   onPressed: () => Navigator.of(context).pop(true),
@@ -373,7 +376,7 @@ class ShopScreen extends StatelessWidget {
                                     backgroundColor: Colors.amber.shade700,
                                     foregroundColor: Colors.white,
                                   ),
-                                  child: const Text('구매'),
+                                  child: Text(l10n.shopPurchase),
                                 ),
                               ],
                             );
@@ -387,25 +390,25 @@ class ShopScreen extends StatelessWidget {
                             await ThemeManager.instance.unlockTheme(skin['image']);
                             if (context.mounted) {
                               ScaffoldMessenger.of(context).showSnackBar(
-                                SnackBar(content: Text('${skin['name']} 구매 성공! 테마 설정에서 확인하세요.')),
+                                SnackBar(content: Text(l10n.shopPurchaseSuccess(skin['name']))),
                               );
                             }
                           } else {
                             if (context.mounted) {
                               ScaffoldMessenger.of(context).showSnackBar(
-                                const SnackBar(content: Text('코인이 부족합니다.')),
+                                SnackBar(content: Text(l10n.shopNotEnoughCoins)),
                               );
                             }
                           }
                         }
                       } else {
                         ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(content: Text('${skin['name']} 구매/적용 기능은 준비 중입니다.')),
+                          SnackBar(content: Text(l10n.shopThemeNotReady(skin['name']))),
                         );
                       }
                     },
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: skin['price'] == '보유중' ? Colors.white24 : Colors.amber.shade700,
+                      backgroundColor: skin['price'] == l10n.shopOwned ? Colors.white24 : Colors.amber.shade700,
                       foregroundColor: Colors.white,
                       minimumSize: const Size(double.infinity, 32),
                       shape: RoundedRectangleBorder(

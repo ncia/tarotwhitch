@@ -28,7 +28,7 @@ class SharedBottomNavBar extends StatelessWidget {
         ),
         BottomNavigationBarItem(
           icon: const CustomImageIcon('assets/images/ic_diary.png'),
-          label: '타로 일기',
+          label: AppLocalizations.of(context)!.navDiary,
         ),
         BottomNavigationBarItem(
           icon: const CustomImageIcon('assets/images/ic_reading.png'),

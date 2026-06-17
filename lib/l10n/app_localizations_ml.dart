@@ -9,131 +9,131 @@ class AppLocalizationsMl extends AppLocalizations {
   AppLocalizationsMl([String locale = 'ml']) : super(locale);
 
   @override
-  String get appTitle => 'Tarot Reading';
+  String get appTitle => 'ടാരറ്റ് വായന';
 
   @override
-  String get spreadSelectionTitle => 'Select a Spread';
+  String get spreadSelectionTitle => 'ഒരു സ്പ്രെഡ് തിരഞ്ഞെടുക്കുക';
 
   @override
   String get spreadSelectionSubtitle =>
-      'Choose a tarot spread that fits your question';
+      'നിങ്ങളുടെ ചോദ്യത്തിന് അനുയോജ്യമായ ഒരു ടാരറ്റ് സ്‌പ്രെഡ് തിരഞ്ഞെടുക്കുക';
 
   @override
-  String get spreadOneCardName => 'One Card';
+  String get spreadOneCardName => 'ഒരു കാർഡ്';
 
   @override
   String get spreadOneCardDesc =>
-      'A single card for a quick answer or daily guidance.';
+      'പെട്ടെന്നുള്ള ഉത്തരത്തിനോ ദൈനംദിന മാർഗനിർദേശത്തിനോ ഉള്ള ഒരൊറ്റ കാർഡ്.';
 
   @override
-  String get spreadTwoCardName => 'Two Card';
+  String get spreadTwoCardName => 'രണ്ട് കാർഡ്';
 
   @override
   String get spreadTwoCardDesc =>
-      'A 2-card spread to simply grasp the current situation and advice.';
+      'നിലവിലെ സാഹചര്യവും ഉപദേശവും മനസ്സിലാക്കാൻ 2-കാർഡ് സ്‌പ്രെഡ്.';
 
   @override
-  String get spreadThreeCardName => 'Three Card';
+  String get spreadThreeCardName => 'മൂന്ന് കാർഡ്';
 
   @override
   String get spreadThreeCardDesc =>
-      'A 3-card spread to understand the flow of past, present, and future.';
+      'ഭൂതകാലത്തിൻ്റെയും വർത്തമാനത്തിൻ്റെയും ഭാവിയുടെയും ഒഴുക്ക് മനസ്സിലാക്കാൻ 3-കാർഡ് സ്‌പ്രെഡ്.';
 
   @override
-  String get spreadFourCardName => 'Four Card';
+  String get spreadFourCardName => 'നാല് കാർഡ്';
 
   @override
   String get spreadFourCardDesc =>
-      'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.';
+      'ഒരു പ്രശ്നത്തിൻ്റെ കാരണം വ്യക്തമായി കണ്ടുപിടിക്കാനും ഉപദേശം നേടാനും ഫലം കാണാനും 4-കാർഡ് സ്പ്രെഡ്.';
 
   @override
-  String get spreadFiveCardName => 'Five Card';
+  String get spreadFiveCardName => 'അഞ്ച് കാർഡ്';
 
   @override
   String get spreadFiveCardDesc =>
-      'A 5-card spread examining the core of the situation, its causes, and potential outcomes.';
+      'സാഹചര്യത്തിൻ്റെ കാതൽ, അതിൻ്റെ കാരണങ്ങൾ, സാധ്യതയുള്ള ഫലങ്ങൾ എന്നിവ പരിശോധിക്കുന്ന 5-കാർഡ് സ്‌പ്രെഡ്.';
 
   @override
-  String get spreadCelticCrossName => 'Celtic Cross';
+  String get spreadCelticCrossName => 'കെൽറ്റിക് ക്രോസ്';
 
   @override
   String get spreadCelticCrossDesc =>
-      '10 cards for an in-depth analysis of a complex problem.';
+      'സങ്കീർണ്ണമായ ഒരു പ്രശ്നത്തിൻ്റെ ആഴത്തിലുള്ള വിശകലനത്തിനായി 10 കാർഡുകൾ.';
 
   @override
-  String get positionOneCard => 'Today\'s Card';
+  String get positionOneCard => 'ഇന്നത്തെ കാർഡ്';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '1. സാഹചര്യം';
 
   @override
-  String get positionTwoCard2 => '2. Advice';
+  String get positionTwoCard2 => '2. ഉപദേശം';
 
   @override
-  String get positionThreeCard1 => 'Past';
+  String get positionThreeCard1 => 'കഴിഞ്ഞത്';
 
   @override
-  String get positionThreeCard2 => 'Present';
+  String get positionThreeCard2 => 'അവതരിപ്പിക്കുക';
 
   @override
-  String get positionThreeCard3 => 'Future';
+  String get positionThreeCard3 => 'ഭാവി';
 
   @override
-  String get positionFourCard1 => '1. Problem';
+  String get positionFourCard1 => '1. പ്രശ്നം';
 
   @override
-  String get positionFourCard2 => '2. Cause';
+  String get positionFourCard2 => '2. കാരണം';
 
   @override
-  String get positionFourCard3 => '3. Advice';
+  String get positionFourCard3 => '3. ഉപദേശം';
 
   @override
-  String get positionFourCard4 => '4. Outcome';
+  String get positionFourCard4 => '4. ഫലം';
 
   @override
-  String get positionFiveCard1 => '1. Present';
+  String get positionFiveCard1 => '1. അവതരിപ്പിക്കുക';
 
   @override
-  String get positionFiveCard2 => '2. Past Influences';
+  String get positionFiveCard2 => '2. കഴിഞ്ഞ സ്വാധീനങ്ങൾ';
 
   @override
-  String get positionFiveCard3 => '3. Future Direction';
+  String get positionFiveCard3 => '3. ഭാവി ദിശ';
 
   @override
-  String get positionFiveCard4 => '4. Core Reason';
+  String get positionFiveCard4 => '4. പ്രധാന കാരണം';
 
   @override
-  String get positionFiveCard5 => '5. Potential Outcome';
+  String get positionFiveCard5 => '5. സാധ്യതയുള്ള ഫലം';
 
   @override
-  String get positionCelticCross1 => '1. Present (Querent)';
+  String get positionCelticCross1 => '1. നിലവിലുള്ളത് (Querent)';
 
   @override
-  String get positionCelticCross2 => '2. The Challenge';
+  String get positionCelticCross2 => '2. വെല്ലുവിളി';
 
   @override
-  String get positionCelticCross3 => '3. The Past';
+  String get positionCelticCross3 => '3. ഭൂതകാലം';
 
   @override
-  String get positionCelticCross4 => '4. The Future';
+  String get positionCelticCross4 => '4. ഭാവി';
 
   @override
-  String get positionCelticCross5 => '5. Conscious';
+  String get positionCelticCross5 => '5. ബോധം';
 
   @override
-  String get positionCelticCross6 => '6. Subconscious';
+  String get positionCelticCross6 => '6. ഉപബോധമനസ്സ്';
 
   @override
-  String get positionCelticCross7 => '7. Advice';
+  String get positionCelticCross7 => '7. ഉപദേശം';
 
   @override
-  String get positionCelticCross8 => '8. External Influences';
+  String get positionCelticCross8 => '8. ബാഹ്യ സ്വാധീനം';
 
   @override
-  String get positionCelticCross9 => '9. Hopes and Fears';
+  String get positionCelticCross9 => '9. പ്രതീക്ഷകളും ഭയവും';
 
   @override
-  String get positionCelticCross10 => '10. Outcome';
+  String get positionCelticCross10 => '10. ഫലം';
 
   @override
   String get navReading => 'ടാരറ്റ് വായന';
@@ -142,10 +142,10 @@ class AppLocalizationsMl extends AppLocalizations {
   String get navChat => 'ടാരറ്റ് ചാറ്റ്';
 
   @override
-  String get navMeanings => 'അർത്ഥങ്ങൾ';
+  String get navMeanings => 'കാർഡ് അർത്ഥം';
 
   @override
-  String get navMyMenu => 'My Menu';
+  String get navMyMenu => 'എൻ്റെ മെനു';
 
   @override
   String get readingIntroTitle => 'വിധിയുടെ\nമന്ത്രങ്ങൾ';
@@ -1212,4 +1212,1720 @@ class AppLocalizationsMl extends AppLocalizations {
   @override
   String get chatProfileTapHint =>
       'വിശദാംശങ്ങൾ കാണാൻ പ്രൊഫൈൽ ചിത്രത്തിൽ ടാപ്പ് ചെയ്യുക';
+
+  @override
+  String get themeName1 => 'തീം 1';
+
+  @override
+  String get themeName2 => 'തീം 2';
+
+  @override
+  String get themeName3 => 'തീം 3';
+
+  @override
+  String get themeMagicBook => 'മാന്ത്രിക പുസ്തകം';
+
+  @override
+  String get themeBlackCat => 'കറുത്ത പൂച്ച';
+
+  @override
+  String get themeEmptyPaidThemes => 'കടയിൽ തീമുകൾ വാങ്ങുക\nഈ ഇടം നിറയ്ക്കാൻ!';
+
+  @override
+  String get shopThemePurchaseTitle => 'വാങ്ങൽ തീം';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return '$skinName നാണയങ്ങൾക്കായി നിങ്ങൾക്ക് $cost തീം വാങ്ങണോ?';
+  }
+
+  @override
+  String get shopCancel => 'റദ്ദാക്കുക';
+
+  @override
+  String get shopPurchase => 'വാങ്ങുക';
+
+  @override
+  String get shopAlreadyOwned =>
+      'ഇതിനകം ഉടമസ്ഥതയിലുള്ളത്. തീം ക്രമീകരണങ്ങളിൽ ഇത് പ്രയോഗിക്കാൻ ശ്രമിക്കുക!';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return '$skinName വിജയകരമായി വാങ്ങി! തീം ക്രമീകരണങ്ങൾ പരിശോധിക്കുക.';
+  }
+
+  @override
+  String get shopNotEnoughCoins => 'ആവശ്യത്തിന് നാണയമില്ല.';
+
+  @override
+  String get shopOwned => 'ഉടമസ്ഥതയിലുള്ളത്';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost നാണയങ്ങൾ';
+  }
+
+  @override
+  String get navDiary => 'ടാരറ്റ് ഡയറി';
+
+  @override
+  String get myMenuFirebaseNotConnected => 'ഫയർബേസ് ബന്ധിപ്പിച്ചിട്ടില്ല';
+
+  @override
+  String get myMenuWindowsSetupNeeded =>
+      'വിൻഡോസ് സജ്ജീകരണം ആവശ്യമാണ് (പ്രിവ്യൂ)';
+
+  @override
+  String get myMenuTouchToViewLogin => 'ലോഗിൻ യുഐ കാണാൻ ടാപ്പ് ചെയ്യുക';
+
+  @override
+  String get myMenuNoName => 'പേരില്ല';
+
+  @override
+  String get myMenuPleaseLogin => 'ദയവായി ലോഗിൻ ചെയ്യുക';
+
+  @override
+  String get myMenuTouchToSignupLogin =>
+      'സൈൻ അപ്പ് ചെയ്യാനും ലോഗിൻ ചെയ്യാനും ടാപ്പ് ചെയ്യുക';
+
+  @override
+  String get myMenuSectionMyRecords => 'എൻ്റെ രേഖകൾ';
+
+  @override
+  String get myMenuDiaryStorage => 'ഡയറി സംഭരണം';
+
+  @override
+  String get myMenuCheckSavedDiary =>
+      'നിങ്ങളുടെ സംരക്ഷിച്ച ഡയറികൾ പരിശോധിക്കുക.';
+
+  @override
+  String get myMenuFavoriteCards => 'പ്രിയപ്പെട്ട കാർഡുകൾ';
+
+  @override
+  String get myMenuMyFavoriteCardsList =>
+      'എൻ്റെ പ്രിയപ്പെട്ട കാർഡുകളുടെ ലിസ്റ്റ്';
+
+  @override
+  String get myMenuSectionAppSettings => 'ആപ്പ് ക്രമീകരണങ്ങൾ';
+
+  @override
+  String get myMenuPushNotifications => 'പുഷ് അറിയിപ്പുകൾ';
+
+  @override
+  String get myMenuPushNotificationsDesc => 'പുതിയ ജാതകങ്ങളും സംഭവങ്ങളും';
+
+  @override
+  String get myMenuLanguageSettings => 'ഭാഷാ ക്രമീകരണങ്ങൾ';
+
+  @override
+  String get myMenuThemeSettings => 'തീം ക്രമീകരണങ്ങൾ';
+
+  @override
+  String get myMenuChangeBackground => 'പശ്ചാത്തല ചിത്രം മാറ്റുക';
+
+  @override
+  String get myMenuSectionCustomerSupport => 'ഉപഭോക്തൃ പിന്തുണ';
+
+  @override
+  String get myMenuFaq => 'പതിവുചോദ്യങ്ങൾ';
+
+  @override
+  String get myMenuAppInfo => 'ആപ്പ് വിവരം';
+
+  @override
+  String get myMenuSectionAccountManagement => 'അക്കൗണ്ട് മാനേജ്മെൻ്റ്';
+
+  @override
+  String get myMenuLogout => 'ലോഗ് ഔട്ട് ചെയ്യുക';
+
+  @override
+  String get myMenuLogoutDesc =>
+      'നിലവിലെ ഉപകരണത്തിൽ നിന്ന് ലോഗ് ഔട്ട് ചെയ്യുക.';
+
+  @override
+  String get myMenuEmailVerifiedMsg => 'ഇമെയിൽ പരിശോധന സ്ഥിരീകരിച്ചു! ✨';
+
+  @override
+  String get myMenuEmailSendTitle => 'സ്ഥിരീകരണ ഇമെയിൽ അയയ്ക്കുക';
+
+  @override
+  String get myMenuEmailSendContent =>
+      'സ്ഥിരീകരണ ഇമെയിൽ അയച്ചു.\nദയവായി നിങ്ങളുടെ ഇൻബോക്സ് പരിശോധിക്കുക, ലിങ്കിൽ ക്ലിക്ക് ചെയ്യുക, ഈ ബട്ടൺ വീണ്ടും അമർത്തുക!';
+
+  @override
+  String get myMenuConfirm => 'സ്ഥിരീകരിക്കുക';
+
+  @override
+  String get myMenuEmailErrorMsg =>
+      'വളരെയധികം അഭ്യർത്ഥനകൾ അല്ലെങ്കിൽ ഒരു പിശക് സംഭവിച്ചു.';
+
+  @override
+  String get myMenuEmailVerified => 'ഇമെയിൽ പരിശോധിച്ചു';
+
+  @override
+  String get myMenuEmailNotVerified =>
+      'ഇമെയിൽ പരിശോധിച്ചുറപ്പിച്ചിട്ടില്ല (സ്ഥിരീകരിക്കാൻ ടാപ്പ് ചെയ്യുക)';
+
+  @override
+  String get languageSystemDefault => 'സിസ്റ്റം ഡിഫോൾട്ട്';
+
+  @override
+  String get shopTitle => 'കട';
+
+  @override
+  String get shopSubtitle => 'നാണയങ്ങളും തീമുകളും വാങ്ങുക';
+
+  @override
+  String get shopTabCoin => 'നാണയം';
+
+  @override
+  String get shopTabTheme => 'തീം';
+
+  @override
+  String get shopPayButton => 'പണം നൽകുക';
+
+  @override
+  String get themeOriginalDeck => 'യഥാർത്ഥ ക്ലാസിക് ഡെക്ക്';
+
+  @override
+  String get themeGoldenSunDeck => 'ഗോൾഡൻ സൺ ഡെക്ക്';
+
+  @override
+  String get themeDarkAbyssDeck => 'ഇരുണ്ട അബിസ് ഡെക്ക്';
+
+  @override
+  String get themeSpringSpiritDeck => 'സ്പ്രിംഗ് സ്പിരിറ്റ് ഡെക്ക്';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return '$coins നാണയങ്ങൾക്കുള്ള പേയ്‌മെൻ്റ് ഉടൻ വരുന്നു.';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return '$name എന്നതിനായുള്ള വാങ്ങൽ/അപേക്ഷ ഉടൻ വരുന്നു.';
+  }
+
+  @override
+  String get readingIntroSelectWitch =>
+      'നിങ്ങളുടെ വിധി കാണാൻ ഒരു മന്ത്രവാദിനിയെ തിരഞ്ഞെടുക്കുക';
+
+  @override
+  String get readingIntroGreeting =>
+      'എന്ത് വിധിയാണ് നമ്മൾ നോക്കേണ്ടത്?\nനിങ്ങളുടെ ഭാവിയെക്കുറിച്ച് എനിക്ക് ജിജ്ഞാസയുണ്ട്.';
+
+  @override
+  String get readingIntroStart => 'സ്പ്രെഡ് തിരഞ്ഞെടുക്കുക';
+
+  @override
+  String get tabMajorArcana => 'മേജർ അർക്കാന';
+
+  @override
+  String get tabMinorArcana => 'മൈനർ അർക്കാന';
+
+  @override
+  String get nicknamePrefix0 => 'നിഗൂഢവിദ്യ';
+
+  @override
+  String get nicknamePrefix1 => 'ശാന്തമായ';
+
+  @override
+  String get nicknamePrefix2 => 'വിശുദ്ധമായ';
+
+  @override
+  String get nicknamePrefix3 => 'ഇരുണ്ട്';
+
+  @override
+  String get nicknamePrefix4 => 'തിളങ്ങുന്നു';
+
+  @override
+  String get nicknamePrefix5 => 'മങ്ങിയ';
+
+  @override
+  String get nicknamePrefix6 => 'ചൂട്';
+
+  @override
+  String get nicknamePrefix7 => 'ആകർഷകമായ';
+
+  @override
+  String get nicknamePrefix8 => 'ക്രൂരമായ';
+
+  @override
+  String get nicknamePrefix9 => 'ശുദ്ധമായ';
+
+  @override
+  String get nicknamePrefix10 => 'കഠിനമായ';
+
+  @override
+  String get nicknamePrefix11 => 'മൃദുവായ';
+
+  @override
+  String get nicknamePrefix12 => 'മനോഹരം';
+
+  @override
+  String get nicknamePrefix13 => 'വിചിത്രമായ';
+
+  @override
+  String get nicknamePrefix14 => 'വലിയ';
+
+  @override
+  String get nicknamePrefix15 => 'ചീഞ്ഞളിഞ്ഞ';
+
+  @override
+  String get nicknamePrefix16 => 'ശാശ്വതമായ';
+
+  @override
+  String get nicknamePrefix17 => 'മറന്നു';
+
+  @override
+  String get nicknamePrefix18 => 'മിടുക്കൻ';
+
+  @override
+  String get nicknamePrefix19 => 'ദുഃഖം';
+
+  @override
+  String get nicknamePrefix20 => 'സന്തോഷം';
+
+  @override
+  String get nicknamePrefix21 => 'സ്വപ്നതുല്യമായ';
+
+  @override
+  String get nicknamePrefix22 => 'വീണു';
+
+  @override
+  String get nicknamePrefix23 => 'ശുദ്ധമായ വെള്ള';
+
+  @override
+  String get nicknamePrefix24 => 'ജെറ്റ് കറുപ്പ്';
+
+  @override
+  String get nicknamePrefix25 => 'രക്തരൂക്ഷിതമായ';
+
+  @override
+  String get nicknamePrefix26 => 'ചാരനിറത്തിലുള്ള';
+
+  @override
+  String get nicknamePrefix27 => 'സ്വർണ്ണനിറമുള്ള';
+
+  @override
+  String get nicknamePrefix28 => 'അർജൻ്റ്';
+
+  @override
+  String get nicknamePrefix29 => 'നീല';
+
+  @override
+  String get nicknamePrefix30 => 'ചുവപ്പ്';
+
+  @override
+  String get nicknamePrefix31 => 'മഞ്ഞ';
+
+  @override
+  String get nicknamePrefix32 => 'കറുപ്പ്';
+
+  @override
+  String get nicknamePrefix33 => 'വെള്ള';
+
+  @override
+  String get nicknamePrefix34 => 'സുതാര്യമായ';
+
+  @override
+  String get nicknamePrefix35 => 'ഏകാന്തമായ';
+
+  @override
+  String get nicknamePrefix36 => 'ശബ്ദായമാനമായ';
+
+  @override
+  String get nicknamePrefix37 => 'നിശബ്ദം';
+
+  @override
+  String get nicknamePrefix38 => 'ചൂട്';
+
+  @override
+  String get nicknamePrefix39 => 'തണുത്തുറഞ്ഞ';
+
+  @override
+  String get nicknamePrefix40 => 'ഏകാന്തമായ';
+
+  @override
+  String get nicknamePrefix41 => 'ഏകാന്തമായ';
+
+  @override
+  String get nicknamePrefix42 => 'സന്തോഷം';
+
+  @override
+  String get nicknamePrefix43 => 'സന്തോഷം';
+
+  @override
+  String get nicknamePrefix44 => 'മ്ലാനമായ';
+
+  @override
+  String get nicknamePrefix45 => 'നിരാശനായ';
+
+  @override
+  String get nicknamePrefix46 => 'പ്രതീക്ഷയുള്ള';
+
+  @override
+  String get nicknamePrefix47 => 'മിന്നുന്ന';
+
+  @override
+  String get nicknamePrefix48 => 'സന്ധ്യ';
+
+  @override
+  String get nicknamePrefix49 => 'അർദ്ധരാത്രി';
+
+  @override
+  String get nicknamePrefix50 => 'വിജനമായ';
+
+  @override
+  String get nicknamePrefix51 => 'രഹസ്യം';
+
+  @override
+  String get nicknamePrefix52 => 'രഹസ്യം';
+
+  @override
+  String get nicknamePrefix53 => 'പവിത്രമായ';
+
+  @override
+  String get nicknamePrefix54 => 'അശുദ്ധമായ';
+
+  @override
+  String get nicknamePrefix55 => 'ശ്രേഷ്ഠമായ';
+
+  @override
+  String get nicknamePrefix56 => 'എളിമയുള്ള';
+
+  @override
+  String get nicknamePrefix57 => 'ജ്ഞാനി';
+
+  @override
+  String get nicknamePrefix58 => 'വിഡ്ഢിത്തം';
+
+  @override
+  String get nicknamePrefix59 => 'കഠിനമായ';
+
+  @override
+  String get nicknamePrefix60 => 'ദുർബലമായ';
+
+  @override
+  String get nicknamePrefix61 => 'ധീരൻ';
+
+  @override
+  String get nicknamePrefix62 => 'ദയനീയമായി';
+
+  @override
+  String get nicknamePrefix63 => 'അകലെ';
+
+  @override
+  String get nicknamePrefix64 => 'സമീപം';
+
+  @override
+  String get nicknamePrefix65 => 'അകന്നു പോകുന്നു';
+
+  @override
+  String get nicknamePrefix66 => 'വരാനിരിക്കുന്ന';
+
+  @override
+  String get nicknamePrefix67 => 'അപ്രത്യക്ഷമാകുന്നു';
+
+  @override
+  String get nicknamePrefix68 => 'ഉദയം';
+
+  @override
+  String get nicknamePrefix69 => 'ഉണർന്നു';
+
+  @override
+  String get nicknamePrefix70 => 'ഉറങ്ങുന്നു';
+
+  @override
+  String get nicknamePrefix71 => 'സ്വപ്നം കാണുന്നു';
+
+  @override
+  String get nicknamePrefix72 => 'അലഞ്ഞുതിരിയുന്നു';
+
+  @override
+  String get nicknamePrefix73 => 'അലഞ്ഞുതിരിയുന്നു';
+
+  @override
+  String get nicknamePrefix74 => 'താമസിക്കുന്നത്';
+
+  @override
+  String get nicknamePrefix75 => 'വിടുന്നു';
+
+  @override
+  String get nicknamePrefix76 => 'തിരികെ വരുന്നു';
+
+  @override
+  String get nicknamePrefix77 => 'കാത്തിരിക്കുന്നു';
+
+  @override
+  String get nicknamePrefix78 => 'ഇതിനായി തിരയുന്നു';
+
+  @override
+  String get nicknamePrefix79 => 'നിഗൂഢമായ';
+
+  @override
+  String get nicknamePrefix80 => 'തുറന്നുകാട്ടി';
+
+  @override
+  String get nicknamePrefix81 => 'ഉപേക്ഷിച്ചു';
+
+  @override
+  String get nicknamePrefix82 => 'തിരഞ്ഞെടുത്തു';
+
+  @override
+  String get nicknamePrefix83 => 'അനുഗ്രഹിക്കപ്പെട്ടു';
+
+  @override
+  String get nicknamePrefix84 => 'ശപിച്ചു';
+
+  @override
+  String get nicknamePrefix85 => 'സ്നേഹിച്ചു';
+
+  @override
+  String get nicknamePrefix86 => 'വെറുക്കുന്നു';
+
+  @override
+  String get nicknamePrefix87 => 'ഓർക്കുക';
+
+  @override
+  String get nicknamePrefix88 => 'വിസ്മൃതിയുള്ള';
+
+  @override
+  String get nicknamePrefix89 => 'നക്ഷത്രവെളിച്ചം';
+
+  @override
+  String get nicknamePrefix90 => 'ചന്ദ്രപ്രകാശം';
+
+  @override
+  String get nicknamePrefix91 => 'സൂര്യപ്രകാശത്തിൻ്റെ';
+
+  @override
+  String get nicknamePrefix92 => 'കോസ്മിക്';
+
+  @override
+  String get nicknamePrefix93 => 'ഭൂമിയുടെ';
+
+  @override
+  String get nicknamePrefix94 => 'കടലിൻ്റെ';
+
+  @override
+  String get nicknamePrefix95 => 'സ്വർഗ്ഗീയമായ';
+
+  @override
+  String get nicknamePrefix96 => 'മേഘങ്ങളുടെ';
+
+  @override
+  String get nicknamePrefix97 => 'കാറ്റിൻ്റെ';
+
+  @override
+  String get nicknamePrefix98 => 'മഴ';
+
+  @override
+  String get nicknamePrefix99 => 'കണ്ണിൻ്റെ';
+
+  @override
+  String get nicknamePrefix100 => 'മഞ്ഞുമൂടിയ';
+
+  @override
+  String get nicknamePrefix101 => 'അഗ്നിജ്വാല';
+
+  @override
+  String get nicknamePrefix102 => 'വെള്ളം';
+
+  @override
+  String get nicknamePrefix103 => 'മൺപാത്രം';
+
+  @override
+  String get nicknamePrefix104 => 'മരം';
+
+  @override
+  String get nicknamePrefix105 => 'വനം';
+
+  @override
+  String get nicknamePrefix106 => 'പർവതപ്രദേശങ്ങൾ';
+
+  @override
+  String get nicknamePrefix107 => 'പ്രഭാഷണം';
+
+  @override
+  String get nicknamePrefix108 => 'തടാകത്തിൻ്റെ';
+
+  @override
+  String get nicknamePrefix109 => 'സമയത്തിൻ്റെ';
+
+  @override
+  String get nicknamePrefix110 => 'സ്ഥലത്തിൻ്റെ';
+
+  @override
+  String get nicknamePrefix111 => 'മാനം';
+
+  @override
+  String get nicknamePrefix112 => 'നിർഭാഗ്യകരമായ';
+
+  @override
+  String get nicknamePrefix113 => 'നിർഭാഗ്യകരമായ';
+
+  @override
+  String get nicknamePrefix114 => 'അത്ഭുതകരമായ';
+
+  @override
+  String get nicknamePrefix115 => 'മാന്ത്രികമായ';
+
+  @override
+  String get nicknamePrefix116 => 'പുരാണകഥ';
+
+  @override
+  String get nicknamePrefix117 => 'ഐതിഹാസികമായ';
+
+  @override
+  String get nicknamePrefix118 => 'സത്യത്തിൻ്റെ';
+
+  @override
+  String get nicknamePrefix119 => 'തെറ്റായ';
+
+  @override
+  String get nicknamePrefix120 => 'ഫാൻ്റസി';
+
+  @override
+  String get nicknamePrefix121 => 'സ്വപ്നം';
+
+  @override
+  String get nicknamePrefix122 => 'പേടിസ്വപ്നം';
+
+  @override
+  String get nicknamePrefix123 => 'നാശം';
+
+  @override
+  String get nicknamePrefix124 => 'സൃഷ്ടിയുടെ';
+
+  @override
+  String get nicknamePrefix125 => 'ജീവിതത്തിൻ്റെ';
+
+  @override
+  String get nicknamePrefix126 => 'മരണത്തിൻ്റെ';
+
+  @override
+  String get nicknamePrefix127 => 'ആത്മാവ്';
+
+  @override
+  String get nicknamePrefix128 => 'ശാരീരികമായ';
+
+  @override
+  String get nicknamePrefix129 => 'യുക്തിയുടെ';
+
+  @override
+  String get nicknamePrefix130 => 'വൈകാരികമായ';
+
+  @override
+  String get nicknamePrefix131 => 'സ്നേഹത്തിൻ്റെ';
+
+  @override
+  String get nicknamePrefix132 => 'വെറുപ്പിൻ്റെ';
+
+  @override
+  String get nicknamePrefix133 => 'ദുഃഖത്തിൻ്റെ';
+
+  @override
+  String get nicknamePrefix134 => 'സന്തോഷത്തിൻ്റെ';
+
+  @override
+  String get nicknamePrefix135 => 'ദേഷ്യം';
+
+  @override
+  String get nicknamePrefix136 => 'സമാധാനത്തിൻ്റെ';
+
+  @override
+  String get nicknamePrefix137 => 'യുദ്ധത്തിൻ്റെ';
+
+  @override
+  String get nicknamePrefix138 => 'കുഴപ്പം';
+
+  @override
+  String get nicknamePrefix139 => 'ചിട്ടയായ';
+
+  @override
+  String get nicknamePrefix140 => 'പ്രകാശത്തിൻ്റെ';
+
+  @override
+  String get nicknamePrefix141 => 'ഇരുണ്ട്';
+
+  @override
+  String get nicknamePrefix142 => 'സന്ധ്യ';
+
+  @override
+  String get nicknamePrefix143 => 'പ്രഭാതം';
+
+  @override
+  String get nicknamePrefix144 => 'ഉച്ച';
+
+  @override
+  String get nicknamePrefix145 => 'അർദ്ധരാത്രി';
+
+  @override
+  String get nicknamePrefix146 => 'കഴിഞ്ഞത്';
+
+  @override
+  String get nicknamePrefix147 => 'ഹാജർ';
+
+  @override
+  String get nicknamePrefix148 => 'ഭാവി';
+
+  @override
+  String get nicknamePrefix149 => 'ഉത്ഭവം';
+
+  @override
+  String get nicknamePrefix150 => 'അപ്പോക്കലിപ്റ്റിക്';
+
+  @override
+  String get nicknamePrefix151 => 'അനന്തമായ';
+
+  @override
+  String get nicknamePrefix152 => 'പരിമിതമായ';
+
+  @override
+  String get nicknamePrefix153 => 'നിശബ്ദം';
+
+  @override
+  String get nicknamePrefix154 => 'ഒച്ചയുടെ';
+
+  @override
+  String get nicknamePrefix155 => 'പാടുന്നു';
+
+  @override
+  String get nicknamePrefix156 => 'നൃത്തം';
+
+  @override
+  String get nicknamePrefix157 => 'കരയുന്നു';
+
+  @override
+  String get nicknamePrefix158 => 'പുഞ്ചിരിക്കുന്നു';
+
+  @override
+  String get nicknamePrefix159 => 'മന്ത്രിക്കുന്നു';
+
+  @override
+  String get nicknamePrefix160 => 'കരയുന്നു';
+
+  @override
+  String get nicknamePrefix161 => 'പ്രാർത്ഥിക്കുന്നു';
+
+  @override
+  String get nicknamePrefix162 => 'യാചിക്കുന്നു';
+
+  @override
+  String get nicknamePrefix163 => 'ആജ്ഞാപിക്കുന്നു';
+
+  @override
+  String get nicknamePrefix164 => 'വിധേയത്വമുള്ള';
+
+  @override
+  String get nicknamePrefix165 => 'ഭരിക്കുന്നത്';
+
+  @override
+  String get nicknamePrefix166 => 'സേവിക്കുന്നു';
+
+  @override
+  String get nicknamePrefix167 => 'വഴികാട്ടുന്നു';
+
+  @override
+  String get nicknamePrefix168 => 'അനുഗമിക്കൽ';
+
+  @override
+  String get nicknamePrefix169 => 'പഠിപ്പിക്കുന്നു';
+
+  @override
+  String get nicknamePrefix170 => 'പഠിക്കുന്നു';
+
+  @override
+  String get nicknamePrefix171 => 'ഓർമ്മയുടെ';
+
+  @override
+  String get nicknamePrefix172 => 'ഓർമ്മകളുടെ';
+
+  @override
+  String get nicknamePrefix173 => 'മുറിവുകളുടെ';
+
+  @override
+  String get nicknamePrefix174 => 'സൗഖ്യമാക്കൽ';
+
+  @override
+  String get nicknamePrefix175 => 'വിഷം';
+
+  @override
+  String get nicknamePrefix176 => 'മരുന്ന്';
+
+  @override
+  String get nicknamePrefix177 => 'സ്വാഗതം';
+
+  @override
+  String get nicknamePrefix178 => 'പദാർത്ഥത്തിൻ്റെ';
+
+  @override
+  String get nicknamePrefix179 => 'അനുയോജ്യമായ';
+
+  @override
+  String get nicknamePrefix180 => 'യഥാർത്ഥമായ';
+
+  @override
+  String get nicknamePrefix181 => 'സാങ്കൽപ്പിക';
+
+  @override
+  String get nicknamePrefix182 => 'സ്വാഭാവികം';
+
+  @override
+  String get nicknamePrefix183 => 'കൃത്രിമ';
+
+  @override
+  String get nicknamePrefix184 => 'തുടക്കത്തിൽ';
+
+  @override
+  String get nicknamePrefix185 => 'നിത്യത';
+
+  @override
+  String get nicknamePrefix186 => 'നിമിഷത്തിൻ്റെ';
+
+  @override
+  String get nicknamePrefix187 => 'ക്ഷണികമായ';
+
+  @override
+  String get nicknamePrefix188 => 'ശാശ്വതമായ';
+
+  @override
+  String get nicknamePrefix189 => 'മാറ്റത്തിൻ്റെ';
+
+  @override
+  String get nicknamePrefix190 => 'ഇപ്പോഴും';
+
+  @override
+  String get nicknamePrefix191 => 'ഒഴുകുന്നു';
+
+  @override
+  String get nicknamePrefix192 => 'ഇടിച്ചുവീഴ്ത്തുക';
+
+  @override
+  String get nicknamePrefix193 => 'ജ്വലിക്കുന്ന';
+
+  @override
+  String get nicknamePrefix194 => 'തണുപ്പിക്കുന്നു';
+
+  @override
+  String get nicknamePrefix195 => 'പൂക്കുന്നു';
+
+  @override
+  String get nicknamePrefix196 => 'വാടിപ്പോകുന്നു';
+
+  @override
+  String get nicknamePrefix197 => 'വളർന്നുകൊണ്ടിരിക്കുന്ന';
+
+  @override
+  String get nicknamePrefix198 => 'മരിക്കുന്നു';
+
+  @override
+  String get nicknamePrefix199 => 'ശ്വസനം';
+
+  @override
+  String get nicknamePrefix200 => 'ശ്വാസം മുട്ടിക്കുന്നു';
+
+  @override
+  String get nicknameSuffix0 => 'പ്രവാചകൻ';
+
+  @override
+  String get nicknameSuffix1 => 'മാന്ത്രികൻ';
+
+  @override
+  String get nicknameSuffix2 => 'മന്ത്രവാദിനി';
+
+  @override
+  String get nicknameSuffix3 => 'ലേഖനം';
+
+  @override
+  String get nicknameSuffix4 => 'യോദ്ധാവ്';
+
+  @override
+  String get nicknameSuffix5 => 'വില്ലാളി';
+
+  @override
+  String get nicknameSuffix6 => 'കള്ളൻ';
+
+  @override
+  String get nicknameSuffix7 => 'കൊലയാളി';
+
+  @override
+  String get nicknameSuffix8 => 'പാലഡിൻ';
+
+  @override
+  String get nicknameSuffix9 => 'പുരോഹിതൻ';
+
+  @override
+  String get nicknameSuffix10 => 'പുരോഹിതൻ';
+
+  @override
+  String get nicknameSuffix11 => 'സന്യാസി';
+
+  @override
+  String get nicknameSuffix12 => 'പവ്വൌ';
+
+  @override
+  String get nicknameSuffix13 => 'ആൽക്കെമിസ്റ്റ്';
+
+  @override
+  String get nicknameSuffix14 => 'നെക്രോമാൻസർ';
+
+  @override
+  String get nicknameSuffix15 => 'ആത്മവിദ്യ';
+
+  @override
+  String get nicknameSuffix16 => 'വിളിക്കുന്നയാൾ';
+
+  @override
+  String get nicknameSuffix17 => 'മായാവാദി';
+
+  @override
+  String get nicknameSuffix18 => 'രോഗശാന്തിക്കാരൻ';
+
+  @override
+  String get nicknameSuffix19 => 'ജ്ഞാനി';
+
+  @override
+  String get nicknameSuffix20 => 'പണ്ഡിതൻ';
+
+  @override
+  String get nicknameSuffix21 => 'ഗവേഷകൻ';
+
+  @override
+  String get nicknameSuffix22 => 'പര്യവേക്ഷകൻ';
+
+  @override
+  String get nicknameSuffix23 => 'സഞ്ചാരി';
+
+  @override
+  String get nicknameSuffix24 => 'അലഞ്ഞുതിരിയുന്നവൻ';
+
+  @override
+  String get nicknameSuffix25 => 'അലഞ്ഞുതിരിയുന്നവൻ';
+
+  @override
+  String get nicknameSuffix26 => 'തീർത്ഥാടകൻ';
+
+  @override
+  String get nicknameSuffix27 => 'അന്വേഷകൻ';
+
+  @override
+  String get nicknameSuffix28 => 'നിരീക്ഷകൻ';
+
+  @override
+  String get nicknameSuffix29 => 'റെക്കോർഡർ';
+
+  @override
+  String get nicknameSuffix30 => 'ആശയവിനിമയക്കാരൻ';
+
+  @override
+  String get nicknameSuffix31 => 'ട്യൂട്ടലാർ';
+
+  @override
+  String get nicknameSuffix32 => 'വാർഡൻ';
+
+  @override
+  String get nicknameSuffix33 => 'കാവൽ';
+
+  @override
+  String get nicknameSuffix34 => 'ഗേറ്റ് കീപ്പർ';
+
+  @override
+  String get nicknameSuffix35 => 'ജഡ്ജി';
+
+  @override
+  String get nicknameSuffix36 => 'ജാമ്യക്കാരൻ';
+
+  @override
+  String get nicknameSuffix37 => 'ഗവർണർ';
+
+  @override
+  String get nicknameSuffix38 => 'ഭരണാധികാരി';
+
+  @override
+  String get nicknameSuffix39 => 'രാജാവ്';
+
+  @override
+  String get nicknameSuffix40 => 'രാജ്ഞി';
+
+  @override
+  String get nicknameSuffix41 => 'ചക്രവർത്തി';
+
+  @override
+  String get nicknameSuffix42 => 'ചക്രവർത്തി';
+
+  @override
+  String get nicknameSuffix43 => 'കുലീനത';
+
+  @override
+  String get nicknameSuffix44 => 'സ്ഥിര താമസം';
+
+  @override
+  String get nicknameSuffix45 => 'നൈറ്റ് കമാൻഡർ';
+
+  @override
+  String get nicknameSuffix46 => 'കൂലിപ്പണിക്കാരൻ';
+
+  @override
+  String get nicknameSuffix47 => 'കടൽക്കൊള്ളക്കാരൻ';
+
+  @override
+  String get nicknameSuffix48 => 'കള്ളൻ';
+
+  @override
+  String get nicknameSuffix49 => 'വഞ്ചന';
+
+  @override
+  String get nicknameSuffix50 => 'തമാശക്കാരൻ';
+
+  @override
+  String get nicknameSuffix51 => 'വിഡ്ഢി';
+
+  @override
+  String get nicknameSuffix52 => 'സന്യാസി';
+
+  @override
+  String get nicknameSuffix53 => 'മതഭ്രാന്തൻ';
+
+  @override
+  String get nicknameSuffix54 => 'ഒറ്റിക്കൊടുക്കുന്നവൻ';
+
+  @override
+  String get nicknameSuffix55 => 'രാജ്യദ്രോഹി';
+
+  @override
+  String get nicknameSuffix56 => 'നായകൻ';
+
+  @override
+  String get nicknameSuffix57 => 'സേവർ';
+
+  @override
+  String get nicknameSuffix58 => 'വിമോചകൻ';
+
+  @override
+  String get nicknameSuffix59 => 'നശിപ്പിക്കുന്നവൻ';
+
+  @override
+  String get nicknameSuffix60 => 'സ്രഷ്ടാവ്';
+
+  @override
+  String get nicknameSuffix61 => 'ദൈവം';
+
+  @override
+  String get nicknameSuffix62 => 'ദേവത';
+
+  @override
+  String get nicknameSuffix63 => 'മാലാഖ';
+
+  @override
+  String get nicknameSuffix64 => 'പിശാച്';
+
+  @override
+  String get nicknameSuffix65 => 'സർക്കാർ ഓർഡിനൻസ്';
+
+  @override
+  String get nicknameSuffix66 => 'ഫെയറി';
+
+  @override
+  String get nicknameSuffix67 => 'രാക്ഷസൻ';
+
+  @override
+  String get nicknameSuffix68 => 'രാക്ഷസ മൃഗം';
+
+  @override
+  String get nicknameSuffix69 => 'ഡ്രാഗൺ';
+
+  @override
+  String get nicknameSuffix70 => 'പ്രേതം';
+
+  @override
+  String get nicknameSuffix71 => 'തണൽ';
+
+  @override
+  String get nicknameSuffix72 => 'മരിക്കാത്ത';
+
+  @override
+  String get nicknameSuffix73 => 'വാമ്പയർ';
+
+  @override
+  String get nicknameSuffix74 => 'ചെന്നായ';
+
+  @override
+  String get nicknameSuffix75 => 'മത്സ്യകന്യക';
+
+  @override
+  String get nicknameSuffix76 => 'സൈറൺ';
+
+  @override
+  String get nicknameSuffix77 => 'നിംഫ്';
+
+  @override
+  String get nicknameSuffix78 => 'ഗോബ്ലിൻ';
+
+  @override
+  String get nicknameSuffix79 => 'ഓക്ക്';
+
+  @override
+  String get nicknameSuffix80 => 'ട്രോൾ';
+
+  @override
+  String get nicknameSuffix81 => 'കുട്ടിച്ചാത്തൻ';
+
+  @override
+  String get nicknameSuffix82 => 'കുള്ളൻ';
+
+  @override
+  String get nicknameSuffix83 => 'ഭീമൻ';
+
+  @override
+  String get nicknameSuffix84 => 'പോസ്റ്റ്മാർക്ക്';
+
+  @override
+  String get nicknameSuffix85 => 'മനുഷ്യൻ';
+
+  @override
+  String get nicknameSuffix86 => 'തടവുകാരൻ';
+
+  @override
+  String get nicknameSuffix87 => 'ഒപ്പ്';
+
+  @override
+  String get nicknameSuffix88 => 'മത്സ്യത്തൊഴിലാളി';
+
+  @override
+  String get nicknameSuffix89 => 'ജീവനക്കാരൻ';
+
+  @override
+  String get nicknameSuffix90 => 'ദുരാത്മാവ്';
+
+  @override
+  String get nicknameSuffix91 => 'സുര';
+
+  @override
+  String get nicknameSuffix92 => 'നരകം';
+
+  @override
+  String get nicknameSuffix93 => 'സ്വർഗ്ഗം';
+
+  @override
+  String get nicknameSuffix94 => 'അധോലോകം';
+
+  @override
+  String get nicknameSuffix95 => 'മറുലോകം';
+
+  @override
+  String get nicknameSuffix96 => 'അഗാധം';
+
+  @override
+  String get nicknameSuffix97 => 'കുഴപ്പം';
+
+  @override
+  String get nicknameSuffix98 => 'ഓർഡർ';
+
+  @override
+  String get nicknameSuffix99 => 'വെളിച്ചം';
+
+  @override
+  String get nicknameSuffix100 => 'ഇരുണ്ട്';
+
+  @override
+  String get nicknamePrefix201 => 'മിടുക്കൻ';
+
+  @override
+  String get nicknamePrefix202 => 'സൂക്ഷ്മമായ';
+
+  @override
+  String get nicknamePrefix203 => 'മൂടൽമഞ്ഞ്';
+
+  @override
+  String get nicknamePrefix204 => 'തളർന്നു വീഴുന്നു';
+
+  @override
+  String get nicknamePrefix205 => 'സുതാര്യമായ';
+
+  @override
+  String get nicknamePrefix206 => 'തളർന്നു വീഴുന്നു';
+
+  @override
+  String get nicknamePrefix207 => 'മിന്നുന്ന';
+
+  @override
+  String get nicknamePrefix208 => 'വിചിത്രമായ';
+
+  @override
+  String get nicknamePrefix209 => 'വിചിത്രമായ';
+
+  @override
+  String get nicknamePrefix210 => 'പ്രത്യേകം';
+
+  @override
+  String get nicknamePrefix211 => 'കുലീനമായ';
+
+  @override
+  String get nicknamePrefix212 => 'ശുദ്ധമായ';
+
+  @override
+  String get nicknamePrefix213 => 'വീണു';
+
+  @override
+  String get nicknamePrefix214 => 'ഏകാന്തമായ';
+
+  @override
+  String get nicknamePrefix215 => 'ഏകാന്തമായ';
+
+  @override
+  String get nicknamePrefix216 => 'വിജനമായ';
+
+  @override
+  String get nicknamePrefix217 => 'അകലെ';
+
+  @override
+  String get nicknamePrefix218 => 'കഠിനമായ';
+
+  @override
+  String get nicknamePrefix219 => 'നിഷ്കരുണം';
+
+  @override
+  String get nicknamePrefix220 => 'ക്രൂരമായ';
+
+  @override
+  String get nicknamePrefix221 => 'വലിയ';
+
+  @override
+  String get nicknamePrefix222 => 'കഠിനമായ';
+
+  @override
+  String get nicknamePrefix223 => 'ഉറച്ച';
+
+  @override
+  String get nicknamePrefix224 => 'കുറ്റകരമായ';
+
+  @override
+  String get nicknamePrefix225 => 'വേഗം';
+
+  @override
+  String get nicknamePrefix226 => 'പതുക്കെ';
+
+  @override
+  String get nicknamePrefix227 => 'നിശബ്ദതയിൽ';
+
+  @override
+  String get nicknamePrefix228 => 'കുഴപ്പത്തിൽ';
+
+  @override
+  String get nicknamePrefix229 => 'ഓർമ്മയിൽ';
+
+  @override
+  String get nicknamePrefix230 => 'സാങ്കൽപ്പിക';
+
+  @override
+  String get nicknamePrefix231 => 'നിശബ്ദം';
+
+  @override
+  String get nicknamePrefix232 => 'മന്ത്രിക്കുന്നു';
+
+  @override
+  String get nicknamePrefix233 => 'പാടുന്നു';
+
+  @override
+  String get nicknamePrefix234 => 'നൃത്തം';
+
+  @override
+  String get nicknamePrefix235 => 'കരയുന്നു';
+
+  @override
+  String get nicknamePrefix236 => 'പുഞ്ചിരിക്കുന്നു';
+
+  @override
+  String get nicknamePrefix237 => 'പരിഹസിക്കുന്നു';
+
+  @override
+  String get nicknamePrefix238 => 'ആലോചിക്കുന്നു';
+
+  @override
+  String get nicknamePrefix239 => 'അലഞ്ഞുതിരിയുന്നു';
+
+  @override
+  String get nicknamePrefix240 => 'അലഞ്ഞുതിരിയുന്നു';
+
+  @override
+  String get nicknamePrefix241 => 'ഉണരുക';
+
+  @override
+  String get nicknamePrefix242 => 'ഉറങ്ങുന്നു';
+
+  @override
+  String get nicknamePrefix243 => 'സ്വപ്നം കാണുന്നു';
+
+  @override
+  String get nicknamePrefix244 => 'ദിവാസ്വപ്നം കാണുന്നു';
+
+  @override
+  String get nicknamePrefix245 => 'ഭ്രമാത്മകമായ';
+
+  @override
+  String get nicknamePrefix246 => 'പ്രാർത്ഥിക്കുന്നു';
+
+  @override
+  String get nicknamePrefix247 => 'ആത്മാർത്ഥമായി';
+
+  @override
+  String get nicknamePrefix248 => 'ദുഃഖകരമായ';
+
+  @override
+  String get nicknamePrefix249 => 'ദയനീയമായ';
+
+  @override
+  String get nicknamePrefix250 => 'ഉദാത്തമായ';
+
+  @override
+  String get nicknamePrefix251 => 'ദുഷ്ടൻ';
+
+  @override
+  String get nicknamePrefix252 => 'അർത്ഥമാക്കുന്നത്';
+
+  @override
+  String get nicknamePrefix253 => 'അഹങ്കാരി';
+
+  @override
+  String get nicknamePrefix254 => 'എളിമയുള്ള';
+
+  @override
+  String get nicknamePrefix255 => 'ഇഷ്ടം';
+
+  @override
+  String get nicknamePrefix256 => 'ചൂട്';
+
+  @override
+  String get nicknamePrefix257 => 'തണുത്ത';
+
+  @override
+  String get nicknamePrefix258 => 'തണുത്തു';
+
+  @override
+  String get nicknamePrefix259 => 'വിചിത്രമായ';
+
+  @override
+  String get nicknamePrefix260 => 'അസാമാന്യമായ';
+
+  @override
+  String get nicknamePrefix261 => 'റാപ്റ്റ്';
+
+  @override
+  String get nicknamePrefix262 => 'ആകർഷകമായ';
+
+  @override
+  String get nicknamePrefix263 => 'തലകറക്കം';
+
+  @override
+  String get nicknamePrefix264 => 'മധുരമുള്ള';
+
+  @override
+  String get nicknamePrefix265 => 'കയ്പേറിയ';
+
+  @override
+  String get nicknamePrefix266 => 'കയ്പേറിയ';
+
+  @override
+  String get nicknamePrefix267 => 'മുള്ളുകൊണ്ടുള്ള';
+
+  @override
+  String get nicknamePrefix268 => 'മൂർച്ചയുള്ള';
+
+  @override
+  String get nicknamePrefix269 => 'മുഷിഞ്ഞ';
+
+  @override
+  String get nicknamePrefix270 => 'കഠിനമായ';
+
+  @override
+  String get nicknamePrefix271 => 'മൃദുവായ';
+
+  @override
+  String get nicknamePrefix272 => 'സുഖപ്രദമായ';
+
+  @override
+  String get nicknamePrefix273 => 'സുഖപ്രദമായ';
+
+  @override
+  String get nicknamePrefix274 => 'അപകടകരമായ';
+
+  @override
+  String get nicknamePrefix275 => 'അസ്വസ്ഥത';
+
+  @override
+  String get nicknamePrefix276 => 'ശാന്തം';
+
+  @override
+  String get nicknamePrefix277 => 'ശാന്തം';
+
+  @override
+  String get nicknamePrefix278 => 'മയക്കം';
+
+  @override
+  String get nicknamePrefix279 => 'വിരസത';
+
+  @override
+  String get nicknamePrefix280 => 'വികാരാധീനമായ';
+
+  @override
+  String get nicknamePrefix281 => 'നിസ്സംഗത';
+
+  @override
+  String get nicknamePrefix282 => 'ശാന്തമായ';
+
+  @override
+  String get nicknamePrefix283 => 'അക്രമാസക്തമായ';
+
+  @override
+  String get nicknamePrefix284 => 'ഉഗ്രമായ';
+
+  @override
+  String get nicknamePrefix285 => 'ഭ്രാന്തൻ';
+
+  @override
+  String get nicknamePrefix286 => 'ഭ്രാന്തനായി';
+
+  @override
+  String get nicknamePrefix287 => 'യുക്തിസഹമായ';
+
+  @override
+  String get nicknamePrefix288 => 'വൈകാരികമായ';
+
+  @override
+  String get nicknamePrefix289 => 'തണുത്ത തലയുള്ള';
+
+  @override
+  String get nicknamePrefix290 => 'വിവേകമുള്ള';
+
+  @override
+  String get nicknamePrefix291 => 'വിഡ്ഢിത്തം';
+
+  @override
+  String get nicknamePrefix292 => 'നിരപരാധി';
+
+  @override
+  String get nicknamePrefix293 => 'തന്ത്രശാലി';
+
+  @override
+  String get nicknamePrefix294 => 'സർപ്പം';
+
+  @override
+  String get nicknamePrefix295 => 'ശുദ്ധമായ വെള്ള';
+
+  @override
+  String get nicknamePrefix296 => 'ജെറ്റ് കറുപ്പ്';
+
+  @override
+  String get nicknamePrefix297 => 'സ്വർണ്ണനിറമുള്ള';
+
+  @override
+  String get nicknamePrefix298 => 'അർജൻ്റ്';
+
+  @override
+  String get nicknamePrefix299 => 'രക്തരൂക്ഷിതമായ';
+
+  @override
+  String get nicknameSuffix101 => 'അന്വേഷകൻ';
+
+  @override
+  String get nicknameSuffix102 => 'തീർത്ഥാടകൻ';
+
+  @override
+  String get nicknameSuffix103 => 'അലഞ്ഞുതിരിയുന്നവൻ';
+
+  @override
+  String get nicknameSuffix104 => 'സന്യാസി';
+
+  @override
+  String get nicknameSuffix105 => 'ഏഥൻ';
+
+  @override
+  String get nicknameSuffix106 => 'രാജ്യദ്രോഹി';
+
+  @override
+  String get nicknameSuffix107 => 'പയനിയർ';
+
+  @override
+  String get nicknameSuffix108 => 'ജേതാവ്';
+
+  @override
+  String get nicknameSuffix109 => 'ഭരണാധികാരി';
+
+  @override
+  String get nicknameSuffix110 => 'ഓർക്കസ്ട്രേറ്റർ';
+
+  @override
+  String get nicknameSuffix111 => 'ട്യൂട്ടലാർ';
+
+  @override
+  String get nicknameSuffix112 => 'നിരീക്ഷകൻ';
+
+  @override
+  String get nicknameSuffix113 => 'നിരീക്ഷകൻ';
+
+  @override
+  String get nicknameSuffix114 => 'റെക്കോർഡർ';
+
+  @override
+  String get nicknameSuffix115 => 'ആശയവിനിമയക്കാരൻ';
+
+  @override
+  String get nicknameSuffix116 => 'വഴികാട്ടി';
+
+  @override
+  String get nicknameSuffix117 => 'നേതാവ്';
+
+  @override
+  String get nicknameSuffix118 => 'സേവർ';
+
+  @override
+  String get nicknameSuffix119 => 'നശിപ്പിക്കുന്നവൻ';
+
+  @override
+  String get nicknameSuffix120 => 'സ്രഷ്ടാവ്';
+
+  @override
+  String get nicknameSuffix121 => 'തണൽ';
+
+  @override
+  String get nicknameSuffix122 => 'പ്രേതം';
+
+  @override
+  String get nicknameSuffix123 => 'പ്രേതം';
+
+  @override
+  String get nicknameSuffix124 => 'ദുരാത്മാവ്';
+
+  @override
+  String get nicknameSuffix125 => 'സർക്കാർ ഓർഡിനൻസ്';
+
+  @override
+  String get nicknameSuffix126 => 'ഫെയറി';
+
+  @override
+  String get nicknameSuffix127 => 'രാക്ഷസ മൃഗം';
+
+  @override
+  String get nicknameSuffix128 => 'വിശുദ്ധജലം';
+
+  @override
+  String get nicknameSuffix129 => 'റീഫണ്ട്';
+
+  @override
+  String get nicknameSuffix130 => 'ഷിൻസു';
+
+  @override
+  String get nicknameSuffix131 => 'പരീക്ഷ';
+
+  @override
+  String get nicknameSuffix132 => 'ലേഖനം';
+
+  @override
+  String get nicknameSuffix133 => 'വില്ലാളി';
+
+  @override
+  String get nicknameSuffix134 => 'കള്ളൻ';
+
+  @override
+  String get nicknameSuffix135 => 'കൊലയാളി';
+
+  @override
+  String get nicknameSuffix136 => 'മാന്ത്രികൻ';
+
+  @override
+  String get nicknameSuffix137 => 'പവ്വൌ';
+
+  @override
+  String get nicknameSuffix138 => 'ആൽക്കെമിസ്റ്റ്';
+
+  @override
+  String get nicknameSuffix139 => 'നെക്രോമാൻസർ';
+
+  @override
+  String get nicknameSuffix140 => 'പുരോഹിതൻ';
+
+  @override
+  String get nicknameSuffix141 => 'പണ്ഡിതൻ';
+
+  @override
+  String get nicknameSuffix142 => 'ഗവേഷകൻ';
+
+  @override
+  String get nicknameSuffix143 => 'പര്യവേക്ഷകൻ';
+
+  @override
+  String get nicknameSuffix144 => 'സഞ്ചാരി';
+
+  @override
+  String get nicknameSuffix145 => 'കലാകാരൻ';
+
+  @override
+  String get nicknameSuffix146 => 'തമാശക്കാരൻ';
+
+  @override
+  String get nicknameSuffix147 => 'ബാർഡ്';
+
+  @override
+  String get nicknameSuffix148 => 'വ്യാപാരി';
+
+  @override
+  String get nicknameSuffix149 => 'കരകൗശലക്കാരൻ';
+
+  @override
+  String get nicknameSuffix150 => 'കർഷകൻ';
+
+  @override
+  String get nicknameSuffix151 => 'കാക്ക';
+
+  @override
+  String get nicknameSuffix152 => 'മൂങ്ങ';
+
+  @override
+  String get nicknameSuffix153 => 'മൂങ്ങ';
+
+  @override
+  String get nicknameSuffix154 => 'കഴുകൻ';
+
+  @override
+  String get nicknameSuffix155 => 'പരുന്ത്';
+
+  @override
+  String get nicknameSuffix156 => 'ചെന്നായ';
+
+  @override
+  String get nicknameSuffix157 => 'കുറുക്കൻ';
+
+  @override
+  String get nicknameSuffix158 => 'കരടി';
+
+  @override
+  String get nicknameSuffix159 => 'സിംഹം';
+
+  @override
+  String get nicknameSuffix160 => 'കടുവ';
+
+  @override
+  String get nicknameSuffix161 => 'പുള്ളിപ്പുലി';
+
+  @override
+  String get nicknameSuffix162 => 'കറുത്ത പാന്തർ';
+
+  @override
+  String get nicknameSuffix163 => 'സാൽസോപ്പ്';
+
+  @override
+  String get nicknameSuffix164 => 'പൂച്ച';
+
+  @override
+  String get nicknameSuffix165 => 'പട്ടിക്കുട്ടി';
+
+  @override
+  String get nicknameSuffix166 => 'പാമ്പ്';
+
+  @override
+  String get nicknameSuffix167 => 'പല്ലി';
+
+  @override
+  String get nicknameSuffix168 => 'ആമ';
+
+  @override
+  String get nicknameSuffix169 => 'മുതല';
+
+  @override
+  String get nicknameSuffix170 => 'ഡ്രാഗൺ';
+
+  @override
+  String get nicknameSuffix171 => 'യൂണികോൺ';
+
+  @override
+  String get nicknameSuffix172 => 'പെഗാസസ്';
+
+  @override
+  String get nicknameSuffix173 => 'ഗ്രിഫൺ';
+
+  @override
+  String get nicknameSuffix174 => 'ഗാർഗോയിൽ';
+
+  @override
+  String get nicknameSuffix175 => 'ഗോബ്ലിൻ';
+
+  @override
+  String get nicknameSuffix176 => 'ഓക്ക്';
+
+  @override
+  String get nicknameSuffix177 => 'ട്രോൾ';
+
+  @override
+  String get nicknameSuffix178 => 'ആഗര്';
+
+  @override
+  String get nicknameSuffix179 => 'ചെളി';
+
+  @override
+  String get nicknameSuffix180 => 'അസ്ഥികൂടം';
+
+  @override
+  String get nicknameSuffix181 => 'സോമ്പി';
+
+  @override
+  String get nicknameSuffix182 => 'പിശാച്';
+
+  @override
+  String get nicknameSuffix183 => 'വാമ്പയർ';
+
+  @override
+  String get nicknameSuffix184 => 'ചെന്നായ';
+
+  @override
+  String get nicknameSuffix185 => 'മിനോട്ടോർ';
+
+  @override
+  String get nicknameSuffix186 => 'സെൻ്റോർ';
+
+  @override
+  String get nicknameSuffix187 => 'ഹാർപ്പി';
+
+  @override
+  String get nicknameSuffix188 => 'സൈറൺ';
+
+  @override
+  String get nicknameSuffix189 => 'ക്രാക്കൻ';
+
+  @override
+  String get nicknameSuffix190 => 'ലെവിയതൻ';
+
+  @override
+  String get nicknameSuffix191 => 'കത്തി';
+
+  @override
+  String get nicknameSuffix192 => 'കവചം';
+
+  @override
+  String get nicknameSuffix193 => 'ജാലകം';
+
+  @override
+  String get nicknameSuffix194 => 'വില്ല്';
+
+  @override
+  String get nicknameSuffix195 => 'ചൂരൽ';
+
+  @override
+  String get nicknameSuffix196 => 'മോതിരം';
+
+  @override
+  String get nicknameSuffix197 => 'മാല';
+
+  @override
+  String get nicknameSuffix198 => 'കിരീടം';
+
+  @override
+  String get nicknameSuffix199 => 'ഹോളി ഗ്രെയ്ൽ';
+
+  @override
+  String get themeFree => 'സൗജന്യ തീം';
+
+  @override
+  String get themePaid => 'പണമടച്ചുള്ള തീം';
 }

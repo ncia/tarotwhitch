@@ -9,143 +9,143 @@ class AppLocalizationsVi extends AppLocalizations {
   AppLocalizationsVi([String locale = 'vi']) : super(locale);
 
   @override
-  String get appTitle => 'Tarot Reading';
+  String get appTitle => 'Đọc bài tarot';
 
   @override
-  String get spreadSelectionTitle => 'Select a Spread';
+  String get spreadSelectionTitle => 'Chọn một mức chênh lệch';
 
   @override
   String get spreadSelectionSubtitle =>
-      'Choose a tarot spread that fits your question';
+      'Chọn một trải bài tarot phù hợp với câu hỏi của bạn';
 
   @override
-  String get spreadOneCardName => 'One Card';
+  String get spreadOneCardName => 'Một thẻ';
 
   @override
   String get spreadOneCardDesc =>
-      'A single card for a quick answer or daily guidance.';
+      'Một thẻ duy nhất cho câu trả lời nhanh hoặc hướng dẫn hàng ngày.';
 
   @override
-  String get spreadTwoCardName => 'Two Card';
+  String get spreadTwoCardName => 'Hai thẻ';
 
   @override
   String get spreadTwoCardDesc =>
-      'A 2-card spread to simply grasp the current situation and advice.';
+      'Trải bài 2 lá để đơn giản nắm bắt tình hình hiện tại và lời khuyên.';
 
   @override
-  String get spreadThreeCardName => 'Three Card';
+  String get spreadThreeCardName => 'Ba thẻ';
 
   @override
   String get spreadThreeCardDesc =>
-      'A 3-card spread to understand the flow of past, present, and future.';
+      'Trải bài 3 lá để hiểu dòng chảy của quá khứ, hiện tại và tương lai.';
 
   @override
-  String get spreadFourCardName => 'Four Card';
+  String get spreadFourCardName => 'Bốn lá bài';
 
   @override
   String get spreadFourCardDesc =>
-      'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.';
+      'Trải bài 4 lá để chẩn đoán rõ ràng nguyên nhân của vấn đề, nhận lời khuyên và xem kết quả.';
 
   @override
-  String get spreadFiveCardName => 'Five Card';
+  String get spreadFiveCardName => 'Năm lá bài';
 
   @override
   String get spreadFiveCardDesc =>
-      'A 5-card spread examining the core of the situation, its causes, and potential outcomes.';
+      'Trải bài 5 lá bài kiểm tra cốt lõi của tình huống, nguyên nhân của nó và kết quả có thể xảy ra.';
 
   @override
-  String get spreadCelticCrossName => 'Celtic Cross';
+  String get spreadCelticCrossName => 'Thánh giá Celtic';
 
   @override
   String get spreadCelticCrossDesc =>
-      '10 cards for an in-depth analysis of a complex problem.';
+      '10 thẻ để phân tích chuyên sâu một vấn đề phức tạp.';
 
   @override
-  String get positionOneCard => 'Today\'s Card';
+  String get positionOneCard => 'Thẻ hôm nay';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '1. Tình huống';
 
   @override
-  String get positionTwoCard2 => '2. Advice';
+  String get positionTwoCard2 => '2. Lời khuyên';
 
   @override
-  String get positionThreeCard1 => 'Past';
+  String get positionThreeCard1 => 'Quá khứ';
 
   @override
-  String get positionThreeCard2 => 'Present';
+  String get positionThreeCard2 => 'Hiện tại';
 
   @override
-  String get positionThreeCard3 => 'Future';
+  String get positionThreeCard3 => 'Tương lai';
 
   @override
-  String get positionFourCard1 => '1. Problem';
+  String get positionFourCard1 => '1. Vấn đề';
 
   @override
-  String get positionFourCard2 => '2. Cause';
+  String get positionFourCard2 => '2. Nguyên nhân';
 
   @override
-  String get positionFourCard3 => '3. Advice';
+  String get positionFourCard3 => '3. Lời khuyên';
 
   @override
-  String get positionFourCard4 => '4. Outcome';
+  String get positionFourCard4 => '4. Kết quả';
 
   @override
-  String get positionFiveCard1 => '1. Present';
+  String get positionFiveCard1 => '1. Hiện tại';
 
   @override
-  String get positionFiveCard2 => '2. Past Influences';
+  String get positionFiveCard2 => '2. Những ảnh hưởng trong quá khứ';
 
   @override
-  String get positionFiveCard3 => '3. Future Direction';
+  String get positionFiveCard3 => '3. Định hướng tương lai';
 
   @override
-  String get positionFiveCard4 => '4. Core Reason';
+  String get positionFiveCard4 => '4. Lý do cốt lõi';
 
   @override
-  String get positionFiveCard5 => '5. Potential Outcome';
+  String get positionFiveCard5 => '5. Kết quả tiềm năng';
 
   @override
-  String get positionCelticCross1 => '1. Present (Querent)';
+  String get positionCelticCross1 => '1. Hiện tại (Querent)';
 
   @override
-  String get positionCelticCross2 => '2. The Challenge';
+  String get positionCelticCross2 => '2. Thử thách';
 
   @override
-  String get positionCelticCross3 => '3. The Past';
+  String get positionCelticCross3 => '3. Quá khứ';
 
   @override
-  String get positionCelticCross4 => '4. The Future';
+  String get positionCelticCross4 => '4. Tương lai';
 
   @override
-  String get positionCelticCross5 => '5. Conscious';
+  String get positionCelticCross5 => '5. Ý thức';
 
   @override
-  String get positionCelticCross6 => '6. Subconscious';
+  String get positionCelticCross6 => '6. Tiềm thức';
 
   @override
-  String get positionCelticCross7 => '7. Advice';
+  String get positionCelticCross7 => '7. Lời khuyên';
 
   @override
-  String get positionCelticCross8 => '8. External Influences';
+  String get positionCelticCross8 => '8. Ảnh hưởng bên ngoài';
 
   @override
-  String get positionCelticCross9 => '9. Hopes and Fears';
+  String get positionCelticCross9 => '9. Hy vọng và sợ hãi';
 
   @override
-  String get positionCelticCross10 => '10. Outcome';
+  String get positionCelticCross10 => '10. Kết quả';
 
   @override
-  String get navReading => 'Xem Bói Tarot';
+  String get navReading => 'đọc bài tarot';
 
   @override
-  String get navChat => 'Trò Chuyện Tarot';
+  String get navChat => 'trò chuyện tarot';
 
   @override
-  String get navMeanings => 'Ý Nghĩa Thẻ';
+  String get navMeanings => 'ý nghĩa thẻ';
 
   @override
-  String get navMyMenu => 'My Menu';
+  String get navMyMenu => 'thực đơn của tôi';
 
   @override
   String get readingIntroTitle => 'Lời Thì Thầm\nCủa Định Mệnh';
@@ -1204,4 +1204,1716 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get chatProfileTapHint => 'Chạm vào ảnh hồ sơ để xem chi tiết';
+
+  @override
+  String get themeName1 => 'Chủ đề 1';
+
+  @override
+  String get themeName2 => 'Chủ đề 2';
+
+  @override
+  String get themeName3 => 'Chủ đề 3';
+
+  @override
+  String get themeMagicBook => 'Cuốn sách ma thuật';
+
+  @override
+  String get themeBlackCat => 'Mèo đen';
+
+  @override
+  String get themeEmptyPaidThemes =>
+      'Mua chủ đề trong cửa hàng\nđể lấp đầy không gian này!';
+
+  @override
+  String get shopThemePurchaseTitle => 'Mua chủ đề';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return 'Bạn có muốn mua chủ đề $skinName với giá $cost xu không?';
+  }
+
+  @override
+  String get shopCancel => 'Hủy bỏ';
+
+  @override
+  String get shopPurchase => 'Mua';
+
+  @override
+  String get shopAlreadyOwned =>
+      'Đã sở hữu rồi. Hãy thử áp dụng nó trong cài đặt chủ đề!';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return '$skinName đã mua thành công! Kiểm tra cài đặt chủ đề.';
+  }
+
+  @override
+  String get shopNotEnoughCoins => 'Không đủ xu.';
+
+  @override
+  String get shopOwned => 'Sở hữu';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost xu';
+  }
+
+  @override
+  String get navDiary => 'nhật ký tarot';
+
+  @override
+  String get myMenuFirebaseNotConnected => 'Firebase không được kết nối';
+
+  @override
+  String get myMenuWindowsSetupNeeded => 'Cần thiết lập Windows (Xem trước)';
+
+  @override
+  String get myMenuTouchToViewLogin =>
+      'Nhấn để xem Giao diện người dùng đăng nhập';
+
+  @override
+  String get myMenuNoName => 'Không Tên';
+
+  @override
+  String get myMenuPleaseLogin => 'Vui lòng đăng nhập';
+
+  @override
+  String get myMenuTouchToSignupLogin => 'Nhấn để đăng ký và đăng nhập';
+
+  @override
+  String get myMenuSectionMyRecords => 'Hồ sơ của tôi';
+
+  @override
+  String get myMenuDiaryStorage => 'Lưu trữ nhật ký';
+
+  @override
+  String get myMenuCheckSavedDiary => 'Kiểm tra nhật ký đã lưu của bạn.';
+
+  @override
+  String get myMenuFavoriteCards => 'Thẻ yêu thích';
+
+  @override
+  String get myMenuMyFavoriteCardsList => 'Danh sách các thẻ yêu thích của tôi';
+
+  @override
+  String get myMenuSectionAppSettings => 'Cài đặt ứng dụng';
+
+  @override
+  String get myMenuPushNotifications => 'Thông báo đẩy';
+
+  @override
+  String get myMenuPushNotificationsDesc => 'Tử vi và sự kiện mới';
+
+  @override
+  String get myMenuLanguageSettings => 'Cài đặt ngôn ngữ';
+
+  @override
+  String get myMenuThemeSettings => 'Cài đặt chủ đề';
+
+  @override
+  String get myMenuChangeBackground => 'Thay đổi hình nền';
+
+  @override
+  String get myMenuSectionCustomerSupport => 'Hỗ trợ khách hàng';
+
+  @override
+  String get myMenuFaq => 'Câu hỏi thường gặp';
+
+  @override
+  String get myMenuAppInfo => 'Thông tin ứng dụng';
+
+  @override
+  String get myMenuSectionAccountManagement => 'Quản lý tài khoản';
+
+  @override
+  String get myMenuLogout => 'Đăng xuất';
+
+  @override
+  String get myMenuLogoutDesc => 'Đăng xuất khỏi thiết bị hiện tại.';
+
+  @override
+  String get myMenuEmailVerifiedMsg => 'Xác minh email đã được xác nhận! ✨';
+
+  @override
+  String get myMenuEmailSendTitle => 'Gửi email xác minh';
+
+  @override
+  String get myMenuEmailSendContent =>
+      'Email xác minh đã được gửi.\nVui lòng kiểm tra hộp thư đến của bạn, nhấp vào liên kết và nhấn nút này một lần nữa!';
+
+  @override
+  String get myMenuConfirm => 'Xác nhận';
+
+  @override
+  String get myMenuEmailErrorMsg => 'Có quá nhiều yêu cầu hoặc đã xảy ra lỗi.';
+
+  @override
+  String get myMenuEmailVerified => 'Email đã được xác minh';
+
+  @override
+  String get myMenuEmailNotVerified =>
+      'Email chưa được xác minh (Nhấn để xác minh)';
+
+  @override
+  String get languageSystemDefault => 'Mặc định hệ thống';
+
+  @override
+  String get shopTitle => 'Cửa hàng';
+
+  @override
+  String get shopSubtitle => 'Mua xu và chủ đề';
+
+  @override
+  String get shopTabCoin => 'đồng xu';
+
+  @override
+  String get shopTabTheme => 'chủ đề';
+
+  @override
+  String get shopPayButton => 'Chi trả';
+
+  @override
+  String get themeOriginalDeck => 'Bộ bài cổ điển gốc';
+
+  @override
+  String get themeGoldenSunDeck => 'Sàn Mặt Trời Vàng';
+
+  @override
+  String get themeDarkAbyssDeck => 'Bộ bài vực thẳm bóng tối';
+
+  @override
+  String get themeSpringSpiritDeck => 'Bộ bài Thần Xuân';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return 'Sắp có khoản thanh toán cho $coins xu.';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return 'Sắp có giao dịch mua/đăng ký cho $name.';
+  }
+
+  @override
+  String get readingIntroSelectWitch =>
+      'Chọn một phù thủy để xem vận mệnh của bạn';
+
+  @override
+  String get readingIntroGreeting =>
+      'Chúng ta sẽ xem xét vận mệnh nào?\nTôi tò mò về tương lai của bạn.';
+
+  @override
+  String get readingIntroStart => 'Chọn mức chênh lệch';
+
+  @override
+  String get tabMajorArcana => 'Bộ ẩn chính';
+
+  @override
+  String get tabMinorArcana => 'Ẩn phụ';
+
+  @override
+  String get nicknamePrefix0 => 'huyền bí';
+
+  @override
+  String get nicknamePrefix1 => 'thanh thản';
+
+  @override
+  String get nicknamePrefix2 => 'thánh thiện';
+
+  @override
+  String get nicknamePrefix3 => 'tối tăm';
+
+  @override
+  String get nicknamePrefix4 => 'tỏa sáng';
+
+  @override
+  String get nicknamePrefix5 => 'ảm đạm';
+
+  @override
+  String get nicknamePrefix6 => 'nóng';
+
+  @override
+  String get nicknamePrefix7 => 'lôi cuốn';
+
+  @override
+  String get nicknamePrefix8 => 'tàn nhẫn';
+
+  @override
+  String get nicknamePrefix9 => 'nguyên chất';
+
+  @override
+  String get nicknamePrefix10 => 'thô ráp';
+
+  @override
+  String get nicknamePrefix11 => 'mềm mại';
+
+  @override
+  String get nicknamePrefix12 => 'xinh đẹp';
+
+  @override
+  String get nicknamePrefix13 => 'kỳ quặc';
+
+  @override
+  String get nicknamePrefix14 => 'to lớn';
+
+  @override
+  String get nicknamePrefix15 => 'tồi tàn';
+
+  @override
+  String get nicknamePrefix16 => 'vĩnh cửu';
+
+  @override
+  String get nicknamePrefix17 => 'bị lãng quên';
+
+  @override
+  String get nicknamePrefix18 => 'xuất sắc';
+
+  @override
+  String get nicknamePrefix19 => 'buồn';
+
+  @override
+  String get nicknamePrefix20 => 'vui mừng';
+
+  @override
+  String get nicknamePrefix21 => 'mộng mơ';
+
+  @override
+  String get nicknamePrefix22 => 'rơi';
+
+  @override
+  String get nicknamePrefix23 => 'màu trắng tinh khiết';
+
+  @override
+  String get nicknamePrefix24 => 'màu đen tuyền';
+
+  @override
+  String get nicknamePrefix25 => 'đẫm máu';
+
+  @override
+  String get nicknamePrefix26 => 'hơi xám';
+
+  @override
+  String get nicknamePrefix27 => 'vàng';
+
+  @override
+  String get nicknamePrefix28 => 'màu argentina';
+
+  @override
+  String get nicknamePrefix29 => 'màu xanh da trời';
+
+  @override
+  String get nicknamePrefix30 => 'màu đỏ';
+
+  @override
+  String get nicknamePrefix31 => 'màu vàng';
+
+  @override
+  String get nicknamePrefix32 => 'đen';
+
+  @override
+  String get nicknamePrefix33 => 'trắng';
+
+  @override
+  String get nicknamePrefix34 => 'trong suốt';
+
+  @override
+  String get nicknamePrefix35 => 'cô đơn';
+
+  @override
+  String get nicknamePrefix36 => 'ồn ào';
+
+  @override
+  String get nicknamePrefix37 => 'im lặng';
+
+  @override
+  String get nicknamePrefix38 => 'ấm';
+
+  @override
+  String get nicknamePrefix39 => 'băng giá';
+
+  @override
+  String get nicknamePrefix40 => 'đơn độc';
+
+  @override
+  String get nicknamePrefix41 => 'cô đơn';
+
+  @override
+  String get nicknamePrefix42 => 'vui mừng';
+
+  @override
+  String get nicknamePrefix43 => 'vui mừng';
+
+  @override
+  String get nicknamePrefix44 => 'ảm đạm';
+
+  @override
+  String get nicknamePrefix45 => 'tuyệt vọng';
+
+  @override
+  String get nicknamePrefix46 => 'hy vọng';
+
+  @override
+  String get nicknamePrefix47 => 'rực rỡ';
+
+  @override
+  String get nicknamePrefix48 => 'sẫm màu';
+
+  @override
+  String get nicknamePrefix49 => 'nửa đêm';
+
+  @override
+  String get nicknamePrefix50 => 'hoang vắng';
+
+  @override
+  String get nicknamePrefix51 => 'bí mật';
+
+  @override
+  String get nicknamePrefix52 => 'bí mật';
+
+  @override
+  String get nicknamePrefix53 => 'thiêng liêng';
+
+  @override
+  String get nicknamePrefix54 => 'báng bổ';
+
+  @override
+  String get nicknamePrefix55 => 'thượng đẳng';
+
+  @override
+  String get nicknamePrefix56 => 'khiêm tốn';
+
+  @override
+  String get nicknamePrefix57 => 'khôn ngoan';
+
+  @override
+  String get nicknamePrefix58 => 'ngu si';
+
+  @override
+  String get nicknamePrefix59 => 'khó';
+
+  @override
+  String get nicknamePrefix60 => 'yếu đuối';
+
+  @override
+  String get nicknamePrefix61 => 'can đảm';
+
+  @override
+  String get nicknamePrefix62 => 'hèn hạ';
+
+  @override
+  String get nicknamePrefix63 => 'Xa xôi';
+
+  @override
+  String get nicknamePrefix64 => 'gần';
+
+  @override
+  String get nicknamePrefix65 => 'di chuyển đi';
+
+  @override
+  String get nicknamePrefix66 => 'đang tới';
+
+  @override
+  String get nicknamePrefix67 => 'biến mất';
+
+  @override
+  String get nicknamePrefix68 => 'nổi lên';
+
+  @override
+  String get nicknamePrefix69 => 'thức tỉnh';
+
+  @override
+  String get nicknamePrefix70 => 'ngủ';
+
+  @override
+  String get nicknamePrefix71 => 'đang mơ';
+
+  @override
+  String get nicknamePrefix72 => 'lang thang';
+
+  @override
+  String get nicknamePrefix73 => 'lang thang';
+
+  @override
+  String get nicknamePrefix74 => 'ở lại';
+
+  @override
+  String get nicknamePrefix75 => 'rời đi';
+
+  @override
+  String get nicknamePrefix76 => 'quay trở lại';
+
+  @override
+  String get nicknamePrefix77 => 'chờ';
+
+  @override
+  String get nicknamePrefix78 => 'đang tìm kiếm';
+
+  @override
+  String get nicknamePrefix79 => 'khó hiểu';
+
+  @override
+  String get nicknamePrefix80 => 'để lộ ra';
+
+  @override
+  String get nicknamePrefix81 => 'bị bỏ rơi';
+
+  @override
+  String get nicknamePrefix82 => 'đã chọn';
+
+  @override
+  String get nicknamePrefix83 => 'may mắn';
+
+  @override
+  String get nicknamePrefix84 => 'bị nguyền rủa';
+
+  @override
+  String get nicknamePrefix85 => 'yêu';
+
+  @override
+  String get nicknamePrefix86 => 'ghét';
+
+  @override
+  String get nicknamePrefix87 => 'nhớ';
+
+  @override
+  String get nicknamePrefix88 => 'quên';
+
+  @override
+  String get nicknamePrefix89 => 'ánh sao';
+
+  @override
+  String get nicknamePrefix90 => 'ánh trăng';
+
+  @override
+  String get nicknamePrefix91 => 'của ánh sáng mặt trời';
+
+  @override
+  String get nicknamePrefix92 => 'vũ trụ';
+
+  @override
+  String get nicknamePrefix93 => 'của trái đất';
+
+  @override
+  String get nicknamePrefix94 => 'của biển';
+
+  @override
+  String get nicknamePrefix95 => 'thiên đường';
+
+  @override
+  String get nicknamePrefix96 => 'của những đám mây';
+
+  @override
+  String get nicknamePrefix97 => 'của gió';
+
+  @override
+  String get nicknamePrefix98 => 'cơn mưa';
+
+  @override
+  String get nicknamePrefix99 => 'của mắt';
+
+  @override
+  String get nicknamePrefix100 => 'băng giá';
+
+  @override
+  String get nicknamePrefix101 => 'bốc lửa';
+
+  @override
+  String get nicknamePrefix102 => 'Nước';
+
+  @override
+  String get nicknamePrefix103 => 'đất nung';
+
+  @override
+  String get nicknamePrefix104 => 'bằng gỗ';
+
+  @override
+  String get nicknamePrefix105 => 'rừng';
+
+  @override
+  String get nicknamePrefix106 => 'miền núi';
+
+  @override
+  String get nicknamePrefix107 => 'bài giảng';
+
+  @override
+  String get nicknamePrefix108 => 'của hồ';
+
+  @override
+  String get nicknamePrefix109 => 'thời gian';
+
+  @override
+  String get nicknamePrefix110 => 'không gian';
+
+  @override
+  String get nicknamePrefix111 => 'kích thước';
+
+  @override
+  String get nicknamePrefix112 => 'định mệnh';
+
+  @override
+  String get nicknamePrefix113 => 'định mệnh';
+
+  @override
+  String get nicknamePrefix114 => 'kỳ diệu';
+
+  @override
+  String get nicknamePrefix115 => 'huyền diệu';
+
+  @override
+  String get nicknamePrefix116 => 'thần thoại';
+
+  @override
+  String get nicknamePrefix117 => 'huyền thoại';
+
+  @override
+  String get nicknamePrefix118 => 'sự thật';
+
+  @override
+  String get nicknamePrefix119 => 'SAI';
+
+  @override
+  String get nicknamePrefix120 => 'tưởng tượng';
+
+  @override
+  String get nicknamePrefix121 => 'mơ';
+
+  @override
+  String get nicknamePrefix122 => 'cơn ác mộng';
+
+  @override
+  String get nicknamePrefix123 => 'sự đổ nát';
+
+  @override
+  String get nicknamePrefix124 => 'của sự sáng tạo';
+
+  @override
+  String get nicknamePrefix125 => 'của cuộc sống';
+
+  @override
+  String get nicknamePrefix126 => 'cái chết';
+
+  @override
+  String get nicknamePrefix127 => 'linh hồn';
+
+  @override
+  String get nicknamePrefix128 => 'thuộc vật chất';
+
+  @override
+  String get nicknamePrefix129 => 'lý do';
+
+  @override
+  String get nicknamePrefix130 => 'xúc động';
+
+  @override
+  String get nicknamePrefix131 => 'của tình yêu';
+
+  @override
+  String get nicknamePrefix132 => 'sự ghét bỏ';
+
+  @override
+  String get nicknamePrefix133 => 'nỗi buồn';
+
+  @override
+  String get nicknamePrefix134 => 'niềm vui';
+
+  @override
+  String get nicknamePrefix135 => 'tức giận';
+
+  @override
+  String get nicknamePrefix136 => 'hòa bình';
+
+  @override
+  String get nicknamePrefix137 => 'chiến tranh';
+
+  @override
+  String get nicknamePrefix138 => 'sự hỗn loạn';
+
+  @override
+  String get nicknamePrefix139 => 'có trật tự';
+
+  @override
+  String get nicknamePrefix140 => 'ánh sáng';
+
+  @override
+  String get nicknamePrefix141 => 'tối tăm';
+
+  @override
+  String get nicknamePrefix142 => 'chạng vạng';
+
+  @override
+  String get nicknamePrefix143 => 'bình minh';
+
+  @override
+  String get nicknamePrefix144 => 'buổi trưa';
+
+  @override
+  String get nicknamePrefix145 => 'nửa đêm';
+
+  @override
+  String get nicknamePrefix146 => 'quá khứ';
+
+  @override
+  String get nicknamePrefix147 => 'hiện tại';
+
+  @override
+  String get nicknamePrefix148 => 'tương lai';
+
+  @override
+  String get nicknamePrefix149 => 'nguồn gốc';
+
+  @override
+  String get nicknamePrefix150 => 'ngày tận thế';
+
+  @override
+  String get nicknamePrefix151 => 'vô hạn';
+
+  @override
+  String get nicknamePrefix152 => 'hữu hạn';
+
+  @override
+  String get nicknamePrefix153 => 'im lặng';
+
+  @override
+  String get nicknamePrefix154 => 'tiếng ồn';
+
+  @override
+  String get nicknamePrefix155 => 'ca hát';
+
+  @override
+  String get nicknamePrefix156 => 'khiêu vũ';
+
+  @override
+  String get nicknamePrefix157 => 'khóc';
+
+  @override
+  String get nicknamePrefix158 => 'mỉm cười';
+
+  @override
+  String get nicknamePrefix159 => 'thì thầm';
+
+  @override
+  String get nicknamePrefix160 => 'khóc';
+
+  @override
+  String get nicknamePrefix161 => 'cầu nguyện';
+
+  @override
+  String get nicknamePrefix162 => 'cầu xin';
+
+  @override
+  String get nicknamePrefix163 => 'chỉ huy';
+
+  @override
+  String get nicknamePrefix164 => 'phục tùng';
+
+  @override
+  String get nicknamePrefix165 => 'cầm quyền';
+
+  @override
+  String get nicknamePrefix166 => 'phục vụ';
+
+  @override
+  String get nicknamePrefix167 => 'hướng dẫn';
+
+  @override
+  String get nicknamePrefix168 => 'đi kèm';
+
+  @override
+  String get nicknamePrefix169 => 'giảng dạy';
+
+  @override
+  String get nicknamePrefix170 => 'học hỏi';
+
+  @override
+  String get nicknamePrefix171 => 'ký ức';
+
+  @override
+  String get nicknamePrefix172 => 'của những kỷ niệm';
+
+  @override
+  String get nicknamePrefix173 => 'vết thương';
+
+  @override
+  String get nicknamePrefix174 => 'đang lành lại';
+
+  @override
+  String get nicknamePrefix175 => 'chất độc';
+
+  @override
+  String get nicknamePrefix176 => 'thuốc';
+
+  @override
+  String get nicknamePrefix177 => 'Chào mừng';
+
+  @override
+  String get nicknamePrefix178 => 'chất';
+
+  @override
+  String get nicknamePrefix179 => 'lý tưởng';
+
+  @override
+  String get nicknamePrefix180 => 'thực tế';
+
+  @override
+  String get nicknamePrefix181 => 'tưởng tượng';
+
+  @override
+  String get nicknamePrefix182 => 'tự nhiên';
+
+  @override
+  String get nicknamePrefix183 => 'nhân tạo';
+
+  @override
+  String get nicknamePrefix184 => 'lúc đầu';
+
+  @override
+  String get nicknamePrefix185 => 'vĩnh cửu';
+
+  @override
+  String get nicknamePrefix186 => 'của thời điểm này';
+
+  @override
+  String get nicknamePrefix187 => 'thoáng qua';
+
+  @override
+  String get nicknamePrefix188 => 'vĩnh cửu';
+
+  @override
+  String get nicknamePrefix189 => 'sự thay đổi';
+
+  @override
+  String get nicknamePrefix190 => 'vẫn';
+
+  @override
+  String get nicknamePrefix191 => 'chảy';
+
+  @override
+  String get nicknamePrefix192 => 'tóm tắt';
+
+  @override
+  String get nicknamePrefix193 => 'rực sáng';
+
+  @override
+  String get nicknamePrefix194 => 'hạ nhiệt';
+
+  @override
+  String get nicknamePrefix195 => 'nở hoa';
+
+  @override
+  String get nicknamePrefix196 => 'héo mòn';
+
+  @override
+  String get nicknamePrefix197 => 'lớn lên';
+
+  @override
+  String get nicknamePrefix198 => 'sắp chết';
+
+  @override
+  String get nicknamePrefix199 => 'thở';
+
+  @override
+  String get nicknamePrefix200 => 'ngột ngạt';
+
+  @override
+  String get nicknameSuffix0 => 'nhà tiên tri';
+
+  @override
+  String get nicknameSuffix1 => 'thuật sĩ';
+
+  @override
+  String get nicknameSuffix2 => 'phù thủy';
+
+  @override
+  String get nicknameSuffix3 => 'bài báo';
+
+  @override
+  String get nicknameSuffix4 => 'chiến binh';
+
+  @override
+  String get nicknameSuffix5 => 'Cung thủ';
+
+  @override
+  String get nicknameSuffix6 => 'tên trộm';
+
+  @override
+  String get nicknameSuffix7 => 'sát thủ';
+
+  @override
+  String get nicknameSuffix8 => 'hiệp sĩ';
+
+  @override
+  String get nicknameSuffix9 => 'linh mục';
+
+  @override
+  String get nicknameSuffix10 => 'nữ tư tế';
+
+  @override
+  String get nicknameSuffix11 => 'nhà sư';
+
+  @override
+  String get nicknameSuffix12 => 'ôi chao';
+
+  @override
+  String get nicknameSuffix13 => 'nhà giả kim';
+
+  @override
+  String get nicknameSuffix14 => 'thầy gọi hồn';
+
+  @override
+  String get nicknameSuffix15 => 'nhà thông linh học';
+
+  @override
+  String get nicknameSuffix16 => 'người triệu hồi';
+
+  @override
+  String get nicknameSuffix17 => 'người ảo tưởng';
+
+  @override
+  String get nicknameSuffix18 => 'người chữa bệnh';
+
+  @override
+  String get nicknameSuffix19 => 'người khôn ngoan';
+
+  @override
+  String get nicknameSuffix20 => 'học giả';
+
+  @override
+  String get nicknameSuffix21 => 'nhà nghiên cứu';
+
+  @override
+  String get nicknameSuffix22 => 'nhà thám hiểm';
+
+  @override
+  String get nicknameSuffix23 => 'du khách';
+
+  @override
+  String get nicknameSuffix24 => 'kẻ lang thang';
+
+  @override
+  String get nicknameSuffix25 => 'kẻ lang thang';
+
+  @override
+  String get nicknameSuffix26 => 'người hành hương';
+
+  @override
+  String get nicknameSuffix27 => 'người tìm kiếm';
+
+  @override
+  String get nicknameSuffix28 => 'người quan sát';
+
+  @override
+  String get nicknameSuffix29 => 'máy ghi âm';
+
+  @override
+  String get nicknameSuffix30 => 'người giao tiếp';
+
+  @override
+  String get nicknameSuffix31 => 'gia sư';
+
+  @override
+  String get nicknameSuffix32 => 'cai ngục';
+
+  @override
+  String get nicknameSuffix33 => 'canh gác';
+
+  @override
+  String get nicknameSuffix34 => 'người gác cổng';
+
+  @override
+  String get nicknameSuffix35 => 'phán xét';
+
+  @override
+  String get nicknameSuffix36 => 'thừa phát lại';
+
+  @override
+  String get nicknameSuffix37 => 'thống đốc';
+
+  @override
+  String get nicknameSuffix38 => 'cái thước kẻ';
+
+  @override
+  String get nicknameSuffix39 => 'nhà vua';
+
+  @override
+  String get nicknameSuffix40 => 'nữ hoàng';
+
+  @override
+  String get nicknameSuffix41 => 'hoàng đế';
+
+  @override
+  String get nicknameSuffix42 => 'hoàng hậu';
+
+  @override
+  String get nicknameSuffix43 => 'quý tộc';
+
+  @override
+  String get nicknameSuffix44 => 'thường trú';
+
+  @override
+  String get nicknameSuffix45 => 'chỉ huy hiệp sĩ';
+
+  @override
+  String get nicknameSuffix46 => 'lính đánh thuê';
+
+  @override
+  String get nicknameSuffix47 => 'cướp biển';
+
+  @override
+  String get nicknameSuffix48 => 'tên trộm';
+
+  @override
+  String get nicknameSuffix49 => 'gian lận';
+
+  @override
+  String get nicknameSuffix50 => 'gã hề';
+
+  @override
+  String get nicknameSuffix51 => 'ngu xuẩn';
+
+  @override
+  String get nicknameSuffix52 => 'ẩn sĩ';
+
+  @override
+  String get nicknameSuffix53 => 'dị giáo';
+
+  @override
+  String get nicknameSuffix54 => 'kẻ phản bội';
+
+  @override
+  String get nicknameSuffix55 => 'kẻ phản bội';
+
+  @override
+  String get nicknameSuffix56 => 'anh hùng';
+
+  @override
+  String get nicknameSuffix57 => 'tiết kiệm';
+
+  @override
+  String get nicknameSuffix58 => 'người giải phóng';
+
+  @override
+  String get nicknameSuffix59 => 'kẻ hủy diệt';
+
+  @override
+  String get nicknameSuffix60 => 'người sáng tạo';
+
+  @override
+  String get nicknameSuffix61 => 'chúa';
+
+  @override
+  String get nicknameSuffix62 => 'nữ thần';
+
+  @override
+  String get nicknameSuffix63 => 'thiên thần';
+
+  @override
+  String get nicknameSuffix64 => 'ma quỷ';
+
+  @override
+  String get nicknameSuffix65 => 'sắc lệnh của chính phủ';
+
+  @override
+  String get nicknameSuffix66 => 'tiên';
+
+  @override
+  String get nicknameSuffix67 => 'quái vật';
+
+  @override
+  String get nicknameSuffix68 => 'quái thú';
+
+  @override
+  String get nicknameSuffix69 => 'rồng';
+
+  @override
+  String get nicknameSuffix70 => 'bóng ma';
+
+  @override
+  String get nicknameSuffix71 => 'bóng râm';
+
+  @override
+  String get nicknameSuffix72 => 'xác sống';
+
+  @override
+  String get nicknameSuffix73 => 'ma cà rồng';
+
+  @override
+  String get nicknameSuffix74 => 'người sói';
+
+  @override
+  String get nicknameSuffix75 => 'nàng tiên cá';
+
+  @override
+  String get nicknameSuffix76 => 'còi báo động';
+
+  @override
+  String get nicknameSuffix77 => 'nữ thần';
+
+  @override
+  String get nicknameSuffix78 => 'yêu tinh';
+
+  @override
+  String get nicknameSuffix79 => 'cây sồi';
+
+  @override
+  String get nicknameSuffix80 => 'troll';
+
+  @override
+  String get nicknameSuffix81 => 'yêu tinh';
+
+  @override
+  String get nicknameSuffix82 => 'người lùn';
+
+  @override
+  String get nicknameSuffix83 => 'người khổng lồ';
+
+  @override
+  String get nicknameSuffix84 => 'dấu bưu điện';
+
+  @override
+  String get nicknameSuffix85 => 'con người';
+
+  @override
+  String get nicknameSuffix86 => 'tù nhân';
+
+  @override
+  String get nicknameSuffix87 => 'chữ ký';
+
+  @override
+  String get nicknameSuffix88 => 'Ngư ông';
+
+  @override
+  String get nicknameSuffix89 => 'người lao động';
+
+  @override
+  String get nicknameSuffix90 => 'linh hồn ác quỷ';
+
+  @override
+  String get nicknameSuffix91 => 'Sura';
+
+  @override
+  String get nicknameSuffix92 => 'địa ngục';
+
+  @override
+  String get nicknameSuffix93 => 'thiên đường';
+
+  @override
+  String get nicknameSuffix94 => 'thế giới ngầm';
+
+  @override
+  String get nicknameSuffix95 => 'Thế giới khác';
+
+  @override
+  String get nicknameSuffix96 => 'vực thẳm';
+
+  @override
+  String get nicknameSuffix97 => 'sự hỗn loạn';
+
+  @override
+  String get nicknameSuffix98 => 'đặt hàng';
+
+  @override
+  String get nicknameSuffix99 => 'ánh sáng';
+
+  @override
+  String get nicknameSuffix100 => 'tối tăm';
+
+  @override
+  String get nicknamePrefix201 => 'xuất sắc';
+
+  @override
+  String get nicknamePrefix202 => 'tinh tế';
+
+  @override
+  String get nicknamePrefix203 => 'mơ hồ';
+
+  @override
+  String get nicknamePrefix204 => 'ngất xỉu';
+
+  @override
+  String get nicknamePrefix205 => 'trong suốt';
+
+  @override
+  String get nicknamePrefix206 => 'ngất xỉu';
+
+  @override
+  String get nicknamePrefix207 => 'rực rỡ';
+
+  @override
+  String get nicknamePrefix208 => 'kỳ quặc';
+
+  @override
+  String get nicknamePrefix209 => 'riêng';
+
+  @override
+  String get nicknamePrefix210 => 'đặc biệt';
+
+  @override
+  String get nicknamePrefix211 => 'cao quý';
+
+  @override
+  String get nicknamePrefix212 => 'nguyên chất';
+
+  @override
+  String get nicknamePrefix213 => 'rơi';
+
+  @override
+  String get nicknamePrefix214 => 'cô đơn';
+
+  @override
+  String get nicknamePrefix215 => 'cô đơn';
+
+  @override
+  String get nicknamePrefix216 => 'hoang vắng';
+
+  @override
+  String get nicknamePrefix217 => 'Xa xôi';
+
+  @override
+  String get nicknamePrefix218 => 'thô ráp';
+
+  @override
+  String get nicknamePrefix219 => 'tàn nhẫn';
+
+  @override
+  String get nicknamePrefix220 => 'tàn nhẫn';
+
+  @override
+  String get nicknamePrefix221 => 'to lớn';
+
+  @override
+  String get nicknamePrefix222 => 'khó';
+
+  @override
+  String get nicknamePrefix223 => 'vững chãi';
+
+  @override
+  String get nicknamePrefix224 => 'quanh co';
+
+  @override
+  String get nicknamePrefix225 => 'nhanh';
+
+  @override
+  String get nicknamePrefix226 => 'chậm';
+
+  @override
+  String get nicknamePrefix227 => 'trong im lặng';
+
+  @override
+  String get nicknamePrefix228 => 'trong sự hỗn loạn';
+
+  @override
+  String get nicknamePrefix229 => 'trong ký ức';
+
+  @override
+  String get nicknamePrefix230 => 'tưởng tượng';
+
+  @override
+  String get nicknamePrefix231 => 'im lặng';
+
+  @override
+  String get nicknamePrefix232 => 'thì thầm';
+
+  @override
+  String get nicknamePrefix233 => 'ca hát';
+
+  @override
+  String get nicknamePrefix234 => 'khiêu vũ';
+
+  @override
+  String get nicknamePrefix235 => 'thổn thức';
+
+  @override
+  String get nicknamePrefix236 => 'mỉm cười';
+
+  @override
+  String get nicknamePrefix237 => 'chế giễu';
+
+  @override
+  String get nicknamePrefix238 => 'đang suy ngẫm';
+
+  @override
+  String get nicknamePrefix239 => 'lang thang';
+
+  @override
+  String get nicknamePrefix240 => 'lang thang';
+
+  @override
+  String get nicknamePrefix241 => 'thức giấc';
+
+  @override
+  String get nicknamePrefix242 => 'ngủ';
+
+  @override
+  String get nicknamePrefix243 => 'đang mơ';
+
+  @override
+  String get nicknamePrefix244 => 'mơ mộng';
+
+  @override
+  String get nicknamePrefix245 => 'hoang tưởng';
+
+  @override
+  String get nicknamePrefix246 => 'cầu nguyện';
+
+  @override
+  String get nicknamePrefix247 => 'nghiêm trang';
+
+  @override
+  String get nicknamePrefix248 => 'buồn bã';
+
+  @override
+  String get nicknamePrefix249 => 'khổ sở';
+
+  @override
+  String get nicknamePrefix250 => 'tuyệt vời';
+
+  @override
+  String get nicknamePrefix251 => 'độc ác';
+
+  @override
+  String get nicknamePrefix252 => 'nghĩa là';
+
+  @override
+  String get nicknamePrefix253 => 'kiêu ngạo';
+
+  @override
+  String get nicknamePrefix254 => 'khiêm tốn';
+
+  @override
+  String get nicknamePrefix255 => 'ngây thơ';
+
+  @override
+  String get nicknamePrefix256 => 'ấm';
+
+  @override
+  String get nicknamePrefix257 => 'mát mẻ';
+
+  @override
+  String get nicknamePrefix258 => 'lạnh lẽo';
+
+  @override
+  String get nicknamePrefix259 => 'kỳ quái';
+
+  @override
+  String get nicknamePrefix260 => 'kỳ lạ';
+
+  @override
+  String get nicknamePrefix261 => 'say mê';
+
+  @override
+  String get nicknamePrefix262 => 'lôi cuốn';
+
+  @override
+  String get nicknamePrefix263 => 'choáng váng';
+
+  @override
+  String get nicknamePrefix264 => 'ngọt ngào';
+
+  @override
+  String get nicknamePrefix265 => 'vị đắng';
+
+  @override
+  String get nicknamePrefix266 => 'cay đắng';
+
+  @override
+  String get nicknamePrefix267 => 'có gai';
+
+  @override
+  String get nicknamePrefix268 => 'sắc';
+
+  @override
+  String get nicknamePrefix269 => 'đần độn';
+
+  @override
+  String get nicknamePrefix270 => 'thô ráp';
+
+  @override
+  String get nicknamePrefix271 => 'mềm mại';
+
+  @override
+  String get nicknamePrefix272 => 'ấm áp';
+
+  @override
+  String get nicknamePrefix273 => 'thoải mái';
+
+  @override
+  String get nicknamePrefix274 => 'bấp bênh';
+
+  @override
+  String get nicknamePrefix275 => 'khó chịu';
+
+  @override
+  String get nicknamePrefix276 => 'điềm tĩnh';
+
+  @override
+  String get nicknamePrefix277 => 'điềm tĩnh';
+
+  @override
+  String get nicknamePrefix278 => 'buồn ngủ';
+
+  @override
+  String get nicknamePrefix279 => 'chán';
+
+  @override
+  String get nicknamePrefix280 => 'say đắm';
+
+  @override
+  String get nicknamePrefix281 => 'thờ ơ';
+
+  @override
+  String get nicknamePrefix282 => 'yên tĩnh';
+
+  @override
+  String get nicknamePrefix283 => 'hung bạo';
+
+  @override
+  String get nicknamePrefix284 => 'mạnh mẽ';
+
+  @override
+  String get nicknamePrefix285 => 'điên';
+
+  @override
+  String get nicknamePrefix286 => 'phát điên';
+
+  @override
+  String get nicknamePrefix287 => 'hợp lý';
+
+  @override
+  String get nicknamePrefix288 => 'xúc động';
+
+  @override
+  String get nicknamePrefix289 => 'lạnh lùng';
+
+  @override
+  String get nicknamePrefix290 => 'hợp lý';
+
+  @override
+  String get nicknamePrefix291 => 'ngu si';
+
+  @override
+  String get nicknamePrefix292 => 'vô tội';
+
+  @override
+  String get nicknamePrefix293 => 'xảo quyệt';
+
+  @override
+  String get nicknamePrefix294 => 'ngoằn ngoèo';
+
+  @override
+  String get nicknamePrefix295 => 'màu trắng tinh khiết';
+
+  @override
+  String get nicknamePrefix296 => 'màu đen tuyền';
+
+  @override
+  String get nicknamePrefix297 => 'vàng';
+
+  @override
+  String get nicknamePrefix298 => 'màu argentina';
+
+  @override
+  String get nicknamePrefix299 => 'đẫm máu';
+
+  @override
+  String get nicknameSuffix101 => 'người tìm kiếm';
+
+  @override
+  String get nicknameSuffix102 => 'người hành hương';
+
+  @override
+  String get nicknameSuffix103 => 'kẻ lang thang';
+
+  @override
+  String get nicknameSuffix104 => 'ẩn sĩ';
+
+  @override
+  String get nicknameSuffix105 => 'Ethan';
+
+  @override
+  String get nicknameSuffix106 => 'kẻ phản bội';
+
+  @override
+  String get nicknameSuffix107 => 'người tiên phong';
+
+  @override
+  String get nicknameSuffix108 => 'kẻ chinh phục';
+
+  @override
+  String get nicknameSuffix109 => 'cái thước kẻ';
+
+  @override
+  String get nicknameSuffix110 => 'người điều khiển dàn nhạc';
+
+  @override
+  String get nicknameSuffix111 => 'gia sư';
+
+  @override
+  String get nicknameSuffix112 => 'người quan sát';
+
+  @override
+  String get nicknameSuffix113 => 'người quan sát';
+
+  @override
+  String get nicknameSuffix114 => 'máy ghi âm';
+
+  @override
+  String get nicknameSuffix115 => 'người giao tiếp';
+
+  @override
+  String get nicknameSuffix116 => 'hướng dẫn';
+
+  @override
+  String get nicknameSuffix117 => 'lãnh đạo';
+
+  @override
+  String get nicknameSuffix118 => 'tiết kiệm';
+
+  @override
+  String get nicknameSuffix119 => 'kẻ hủy diệt';
+
+  @override
+  String get nicknameSuffix120 => 'người sáng tạo';
+
+  @override
+  String get nicknameSuffix121 => 'bóng râm';
+
+  @override
+  String get nicknameSuffix122 => 'bóng ma';
+
+  @override
+  String get nicknameSuffix123 => 'bóng ma';
+
+  @override
+  String get nicknameSuffix124 => 'linh hồn ác quỷ';
+
+  @override
+  String get nicknameSuffix125 => 'sắc lệnh của chính phủ';
+
+  @override
+  String get nicknameSuffix126 => 'tiên';
+
+  @override
+  String get nicknameSuffix127 => 'quái thú';
+
+  @override
+  String get nicknameSuffix128 => 'nước thánh';
+
+  @override
+  String get nicknameSuffix129 => 'đền bù';
+
+  @override
+  String get nicknameSuffix130 => 'Shinsu';
+
+  @override
+  String get nicknameSuffix131 => 'Bài kiểm tra';
+
+  @override
+  String get nicknameSuffix132 => 'bài báo';
+
+  @override
+  String get nicknameSuffix133 => 'Cung thủ';
+
+  @override
+  String get nicknameSuffix134 => 'tên trộm';
+
+  @override
+  String get nicknameSuffix135 => 'sát thủ';
+
+  @override
+  String get nicknameSuffix136 => 'thuật sĩ';
+
+  @override
+  String get nicknameSuffix137 => 'ôi chao';
+
+  @override
+  String get nicknameSuffix138 => 'nhà giả kim';
+
+  @override
+  String get nicknameSuffix139 => 'thầy gọi hồn';
+
+  @override
+  String get nicknameSuffix140 => 'linh mục';
+
+  @override
+  String get nicknameSuffix141 => 'học giả';
+
+  @override
+  String get nicknameSuffix142 => 'nhà nghiên cứu';
+
+  @override
+  String get nicknameSuffix143 => 'nhà thám hiểm';
+
+  @override
+  String get nicknameSuffix144 => 'du khách';
+
+  @override
+  String get nicknameSuffix145 => 'nghệ sĩ';
+
+  @override
+  String get nicknameSuffix146 => 'gã hề';
+
+  @override
+  String get nicknameSuffix147 => 'thi nhân';
+
+  @override
+  String get nicknameSuffix148 => 'thương gia';
+
+  @override
+  String get nicknameSuffix149 => 'thợ thủ công';
+
+  @override
+  String get nicknameSuffix150 => 'nông dân';
+
+  @override
+  String get nicknameSuffix151 => 'con quạ';
+
+  @override
+  String get nicknameSuffix152 => 'con cú';
+
+  @override
+  String get nicknameSuffix153 => 'con cú';
+
+  @override
+  String get nicknameSuffix154 => 'chim ưng';
+
+  @override
+  String get nicknameSuffix155 => 'chim ưng';
+
+  @override
+  String get nicknameSuffix156 => 'chó sói';
+
+  @override
+  String get nicknameSuffix157 => 'cáo';
+
+  @override
+  String get nicknameSuffix158 => 'con gấu';
+
+  @override
+  String get nicknameSuffix159 => 'con sư tử';
+
+  @override
+  String get nicknameSuffix160 => 'con hổ';
+
+  @override
+  String get nicknameSuffix161 => 'beo';
+
+  @override
+  String get nicknameSuffix162 => 'báo đen';
+
+  @override
+  String get nicknameSuffix163 => 'Salsssop';
+
+  @override
+  String get nicknameSuffix164 => 'con mèo';
+
+  @override
+  String get nicknameSuffix165 => 'cún con';
+
+  @override
+  String get nicknameSuffix166 => 'rắn';
+
+  @override
+  String get nicknameSuffix167 => 'thằn lằn';
+
+  @override
+  String get nicknameSuffix168 => 'con rùa';
+
+  @override
+  String get nicknameSuffix169 => 'cá sấu';
+
+  @override
+  String get nicknameSuffix170 => 'rồng';
+
+  @override
+  String get nicknameSuffix171 => 'kỳ lân';
+
+  @override
+  String get nicknameSuffix172 => 'Pegasus';
+
+  @override
+  String get nicknameSuffix173 => 'giống chim ưng';
+
+  @override
+  String get nicknameSuffix174 => 'tượng đầu thú';
+
+  @override
+  String get nicknameSuffix175 => 'yêu tinh';
+
+  @override
+  String get nicknameSuffix176 => 'cây sồi';
+
+  @override
+  String get nicknameSuffix177 => 'troll';
+
+  @override
+  String get nicknameSuffix178 => 'mũi khoan';
+
+  @override
+  String get nicknameSuffix179 => 'nhớt';
+
+  @override
+  String get nicknameSuffix180 => 'bộ xương';
+
+  @override
+  String get nicknameSuffix181 => 'xác sống';
+
+  @override
+  String get nicknameSuffix182 => 'ma cà rồng';
+
+  @override
+  String get nicknameSuffix183 => 'ma cà rồng';
+
+  @override
+  String get nicknameSuffix184 => 'người sói';
+
+  @override
+  String get nicknameSuffix185 => 'minotaur';
+
+  @override
+  String get nicknameSuffix186 => 'nhân mã';
+
+  @override
+  String get nicknameSuffix187 => 'yêu quái';
+
+  @override
+  String get nicknameSuffix188 => 'còi báo động';
+
+  @override
+  String get nicknameSuffix189 => 'Kraken';
+
+  @override
+  String get nicknameSuffix190 => 'Leviathan';
+
+  @override
+  String get nicknameSuffix191 => 'dao';
+
+  @override
+  String get nicknameSuffix192 => 'cái khiên';
+
+  @override
+  String get nicknameSuffix193 => 'cửa sổ';
+
+  @override
+  String get nicknameSuffix194 => 'cây cung';
+
+  @override
+  String get nicknameSuffix195 => 'mía';
+
+  @override
+  String get nicknameSuffix196 => 'nhẫn';
+
+  @override
+  String get nicknameSuffix197 => 'vòng cổ';
+
+  @override
+  String get nicknameSuffix198 => 'vương miện';
+
+  @override
+  String get nicknameSuffix199 => 'Chén Thánh';
+
+  @override
+  String get themeFree => 'Chủ đề miễn phí';
+
+  @override
+  String get themePaid => 'Chủ đề trả phí';
 }

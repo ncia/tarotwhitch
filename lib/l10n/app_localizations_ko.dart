@@ -1041,4 +1041,1710 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get chatProfileTapHint => '프로필 사진을 탭하여 상세 정보 보기';
+
+  @override
+  String get themeName1 => '테마 1';
+
+  @override
+  String get themeName2 => '테마 2';
+
+  @override
+  String get themeName3 => '테마 3';
+
+  @override
+  String get themeMagicBook => '마법책';
+
+  @override
+  String get themeBlackCat => '검은 고양이';
+
+  @override
+  String get themeEmptyPaidThemes => '상점에서 테마를 구매하여\n이곳을 채워보세요!';
+
+  @override
+  String get shopThemePurchaseTitle => '테마 구매';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return '$skinName 테마를 $cost 코인으로 구매하시겠습니까?';
+  }
+
+  @override
+  String get shopCancel => '취소';
+
+  @override
+  String get shopPurchase => '구매';
+
+  @override
+  String get shopAlreadyOwned => '이미 보유하고 있습니다. 테마 설정에서 적용해보세요!';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return '$skinName 구매 성공! 테마 설정에서 확인하세요.';
+  }
+
+  @override
+  String get shopNotEnoughCoins => '코인이 부족합니다.';
+
+  @override
+  String get shopOwned => '보유중';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost 코인';
+  }
+
+  @override
+  String get navDiary => '타로 일기';
+
+  @override
+  String get myMenuFirebaseNotConnected => '파이어베이스 미연결';
+
+  @override
+  String get myMenuWindowsSetupNeeded => 'Windows 설정 필요 (미리보기)';
+
+  @override
+  String get myMenuTouchToViewLogin => '터치하여 로그인 화면 UI 보기';
+
+  @override
+  String get myMenuNoName => '이름 없음';
+
+  @override
+  String get myMenuPleaseLogin => '로그인해주세요';
+
+  @override
+  String get myMenuTouchToSignupLogin => '터치하여 회원가입 및 로그인';
+
+  @override
+  String get myMenuSectionMyRecords => '나의 기록';
+
+  @override
+  String get myMenuDiaryStorage => '타로 일기 보관함';
+
+  @override
+  String get myMenuCheckSavedDiary => '저장된 일기를 확인하세요.';
+
+  @override
+  String get myMenuFavoriteCards => '즐겨찾는 카드';
+
+  @override
+  String get myMenuMyFavoriteCardsList => '내가 가장 좋아하는 카드 목록';
+
+  @override
+  String get myMenuSectionAppSettings => '앱 설정';
+
+  @override
+  String get myMenuPushNotifications => '푸시 알림 수신';
+
+  @override
+  String get myMenuPushNotificationsDesc => '새로운 운세 및 이벤트 알림';
+
+  @override
+  String get myMenuLanguageSettings => '언어 설정';
+
+  @override
+  String get myMenuThemeSettings => '테마 설정';
+
+  @override
+  String get myMenuChangeBackground => '배경 이미지 변경';
+
+  @override
+  String get myMenuSectionCustomerSupport => '고객 지원';
+
+  @override
+  String get myMenuFaq => '자주 묻는 질문 (FAQ)';
+
+  @override
+  String get myMenuAppInfo => '앱 정보';
+
+  @override
+  String get myMenuSectionAccountManagement => '계정 관리';
+
+  @override
+  String get myMenuLogout => '로그아웃';
+
+  @override
+  String get myMenuLogoutDesc => '현재 기기에서 로그아웃합니다.';
+
+  @override
+  String get myMenuEmailVerifiedMsg => '이메일 인증이 확인되었습니다! ✨';
+
+  @override
+  String get myMenuEmailSendTitle => '인증 메일 발송';
+
+  @override
+  String get myMenuEmailSendContent =>
+      '인증 메일이 발송되었습니다.\n이메일함을 확인하여 링크를 클릭한 뒤, 이 버튼을 다시 한 번 눌러주세요!';
+
+  @override
+  String get myMenuConfirm => '확인';
+
+  @override
+  String get myMenuEmailErrorMsg => '너무 많은 요청이거나 오류가 발생했습니다.';
+
+  @override
+  String get myMenuEmailVerified => '이메일 인증 완료됨';
+
+  @override
+  String get myMenuEmailNotVerified => '이메일 미인증 (터치하여 인증하기)';
+
+  @override
+  String get languageSystemDefault => '기본값 (시스템 설정)';
+
+  @override
+  String get shopTitle => '상점';
+
+  @override
+  String get shopSubtitle => '코인과 테마를 구매하세요';
+
+  @override
+  String get shopTabCoin => '코인';
+
+  @override
+  String get shopTabTheme => '테마';
+
+  @override
+  String get shopPayButton => '결제';
+
+  @override
+  String get themeOriginalDeck => '원조 클래식 덱';
+
+  @override
+  String get themeGoldenSunDeck => '황금 태양 덱';
+
+  @override
+  String get themeDarkAbyssDeck => '칠흑의 심연 덱';
+
+  @override
+  String get themeSpringSpiritDeck => '봄의 정령 덱';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return '$coins 코인 결제 기능은 준비 중입니다.';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return '$name 구매/적용 기능은 준비 중입니다.';
+  }
+
+  @override
+  String get readingIntroSelectWitch => '마녀를 선택해 운명을 확인하세요';
+
+  @override
+  String get readingIntroGreeting => '어떤 운명을 들여다볼까요?\n당신의 미래가 궁금하군요.';
+
+  @override
+  String get readingIntroStart => '배열법 선택하기';
+
+  @override
+  String get tabMajorArcana => '메이저 아르카나';
+
+  @override
+  String get tabMinorArcana => '마이너 아르카나';
+
+  @override
+  String get nicknamePrefix0 => '신비한';
+
+  @override
+  String get nicknamePrefix1 => '고요한';
+
+  @override
+  String get nicknamePrefix2 => '거룩한';
+
+  @override
+  String get nicknamePrefix3 => '어두운';
+
+  @override
+  String get nicknamePrefix4 => '빛나는';
+
+  @override
+  String get nicknamePrefix5 => '차가운';
+
+  @override
+  String get nicknamePrefix6 => '뜨거운';
+
+  @override
+  String get nicknamePrefix7 => '매혹적인';
+
+  @override
+  String get nicknamePrefix8 => '잔혹한';
+
+  @override
+  String get nicknamePrefix9 => '순수한';
+
+  @override
+  String get nicknamePrefix10 => '거친';
+
+  @override
+  String get nicknamePrefix11 => '부드러운';
+
+  @override
+  String get nicknamePrefix12 => '아름다운';
+
+  @override
+  String get nicknamePrefix13 => '기묘한';
+
+  @override
+  String get nicknamePrefix14 => '위대한';
+
+  @override
+  String get nicknamePrefix15 => '초라한';
+
+  @override
+  String get nicknamePrefix16 => '영원한';
+
+  @override
+  String get nicknamePrefix17 => '잊혀진';
+
+  @override
+  String get nicknamePrefix18 => '찬란한';
+
+  @override
+  String get nicknamePrefix19 => '슬픈';
+
+  @override
+  String get nicknamePrefix20 => '기쁜';
+
+  @override
+  String get nicknamePrefix21 => '몽환적인';
+
+  @override
+  String get nicknamePrefix22 => '타락한';
+
+  @override
+  String get nicknamePrefix23 => '순백의';
+
+  @override
+  String get nicknamePrefix24 => '칠흑의';
+
+  @override
+  String get nicknamePrefix25 => '핏빛의';
+
+  @override
+  String get nicknamePrefix26 => '잿빛의';
+
+  @override
+  String get nicknamePrefix27 => '황금빛';
+
+  @override
+  String get nicknamePrefix28 => '은빛';
+
+  @override
+  String get nicknamePrefix29 => '푸른';
+
+  @override
+  String get nicknamePrefix30 => '붉은';
+
+  @override
+  String get nicknamePrefix31 => '노란';
+
+  @override
+  String get nicknamePrefix32 => '검은';
+
+  @override
+  String get nicknamePrefix33 => '하얀';
+
+  @override
+  String get nicknamePrefix34 => '투명한';
+
+  @override
+  String get nicknamePrefix35 => '고독한';
+
+  @override
+  String get nicknamePrefix36 => '시끄러운';
+
+  @override
+  String get nicknamePrefix37 => '조용한';
+
+  @override
+  String get nicknamePrefix38 => '따뜻한';
+
+  @override
+  String get nicknamePrefix39 => '싸늘한';
+
+  @override
+  String get nicknamePrefix40 => '외로운';
+
+  @override
+  String get nicknamePrefix41 => '쓸쓸한';
+
+  @override
+  String get nicknamePrefix42 => '즐거운';
+
+  @override
+  String get nicknamePrefix43 => '행복한';
+
+  @override
+  String get nicknamePrefix44 => '우울한';
+
+  @override
+  String get nicknamePrefix45 => '절망적인';
+
+  @override
+  String get nicknamePrefix46 => '희망찬';
+
+  @override
+  String get nicknamePrefix47 => '눈부신';
+
+  @override
+  String get nicknamePrefix48 => '어스름한';
+
+  @override
+  String get nicknamePrefix49 => '캄캄한';
+
+  @override
+  String get nicknamePrefix50 => '적막한';
+
+  @override
+  String get nicknamePrefix51 => '은밀한';
+
+  @override
+  String get nicknamePrefix52 => '비밀스러운';
+
+  @override
+  String get nicknamePrefix53 => '성스러운';
+
+  @override
+  String get nicknamePrefix54 => '불경한';
+
+  @override
+  String get nicknamePrefix55 => '오만한';
+
+  @override
+  String get nicknamePrefix56 => '겸손한';
+
+  @override
+  String get nicknamePrefix57 => '지혜로운';
+
+  @override
+  String get nicknamePrefix58 => '어리석은';
+
+  @override
+  String get nicknamePrefix59 => '강인한';
+
+  @override
+  String get nicknamePrefix60 => '나약한';
+
+  @override
+  String get nicknamePrefix61 => '용감한';
+
+  @override
+  String get nicknamePrefix62 => '비겁한';
+
+  @override
+  String get nicknamePrefix63 => '아득한';
+
+  @override
+  String get nicknamePrefix64 => '가까운';
+
+  @override
+  String get nicknamePrefix65 => '멀어지는';
+
+  @override
+  String get nicknamePrefix66 => '다가오는';
+
+  @override
+  String get nicknamePrefix67 => '사라지는';
+
+  @override
+  String get nicknamePrefix68 => '나타나는';
+
+  @override
+  String get nicknamePrefix69 => '깨어난';
+
+  @override
+  String get nicknamePrefix70 => '잠든';
+
+  @override
+  String get nicknamePrefix71 => '꿈꾸는';
+
+  @override
+  String get nicknamePrefix72 => '헤매는';
+
+  @override
+  String get nicknamePrefix73 => '방황하는';
+
+  @override
+  String get nicknamePrefix74 => '머무는';
+
+  @override
+  String get nicknamePrefix75 => '떠나는';
+
+  @override
+  String get nicknamePrefix76 => '돌아오는';
+
+  @override
+  String get nicknamePrefix77 => '기다리는';
+
+  @override
+  String get nicknamePrefix78 => '찾는';
+
+  @override
+  String get nicknamePrefix79 => '숨은';
+
+  @override
+  String get nicknamePrefix80 => '드러난';
+
+  @override
+  String get nicknamePrefix81 => '버려진';
+
+  @override
+  String get nicknamePrefix82 => '선택된';
+
+  @override
+  String get nicknamePrefix83 => '축복받은';
+
+  @override
+  String get nicknamePrefix84 => '저주받은';
+
+  @override
+  String get nicknamePrefix85 => '사랑받는';
+
+  @override
+  String get nicknamePrefix86 => '미움받는';
+
+  @override
+  String get nicknamePrefix87 => '기억하는';
+
+  @override
+  String get nicknamePrefix88 => '망각하는';
+
+  @override
+  String get nicknamePrefix89 => '별빛의';
+
+  @override
+  String get nicknamePrefix90 => '달빛의';
+
+  @override
+  String get nicknamePrefix91 => '햇빛의';
+
+  @override
+  String get nicknamePrefix92 => '우주의';
+
+  @override
+  String get nicknamePrefix93 => '대지의';
+
+  @override
+  String get nicknamePrefix94 => '바다의';
+
+  @override
+  String get nicknamePrefix95 => '하늘의';
+
+  @override
+  String get nicknamePrefix96 => '구름의';
+
+  @override
+  String get nicknamePrefix97 => '바람의';
+
+  @override
+  String get nicknamePrefix98 => '비의';
+
+  @override
+  String get nicknamePrefix99 => '눈의';
+
+  @override
+  String get nicknamePrefix100 => '얼음의';
+
+  @override
+  String get nicknamePrefix101 => '불의';
+
+  @override
+  String get nicknamePrefix102 => '물의';
+
+  @override
+  String get nicknamePrefix103 => '흙의';
+
+  @override
+  String get nicknamePrefix104 => '나무의';
+
+  @override
+  String get nicknamePrefix105 => '숲의';
+
+  @override
+  String get nicknamePrefix106 => '산의';
+
+  @override
+  String get nicknamePrefix107 => '강의';
+
+  @override
+  String get nicknamePrefix108 => '호수의';
+
+  @override
+  String get nicknamePrefix109 => '시간의';
+
+  @override
+  String get nicknamePrefix110 => '공간의';
+
+  @override
+  String get nicknamePrefix111 => '차원의';
+
+  @override
+  String get nicknamePrefix112 => '운명의';
+
+  @override
+  String get nicknamePrefix113 => '숙명의';
+
+  @override
+  String get nicknamePrefix114 => '기적의';
+
+  @override
+  String get nicknamePrefix115 => '마법의';
+
+  @override
+  String get nicknamePrefix116 => '신화의';
+
+  @override
+  String get nicknamePrefix117 => '전설의';
+
+  @override
+  String get nicknamePrefix118 => '진실의';
+
+  @override
+  String get nicknamePrefix119 => '거짓의';
+
+  @override
+  String get nicknamePrefix120 => '환상의';
+
+  @override
+  String get nicknamePrefix121 => '꿈의';
+
+  @override
+  String get nicknamePrefix122 => '악몽의';
+
+  @override
+  String get nicknamePrefix123 => '파멸의';
+
+  @override
+  String get nicknamePrefix124 => '창조의';
+
+  @override
+  String get nicknamePrefix125 => '생명의';
+
+  @override
+  String get nicknamePrefix126 => '죽음의';
+
+  @override
+  String get nicknamePrefix127 => '영혼의';
+
+  @override
+  String get nicknamePrefix128 => '육체의';
+
+  @override
+  String get nicknamePrefix129 => '이성의';
+
+  @override
+  String get nicknamePrefix130 => '감정의';
+
+  @override
+  String get nicknamePrefix131 => '사랑의';
+
+  @override
+  String get nicknamePrefix132 => '증오의';
+
+  @override
+  String get nicknamePrefix133 => '슬픔의';
+
+  @override
+  String get nicknamePrefix134 => '기쁨의';
+
+  @override
+  String get nicknamePrefix135 => '분노의';
+
+  @override
+  String get nicknamePrefix136 => '평화의';
+
+  @override
+  String get nicknamePrefix137 => '전쟁의';
+
+  @override
+  String get nicknamePrefix138 => '혼돈의';
+
+  @override
+  String get nicknamePrefix139 => '질서의';
+
+  @override
+  String get nicknamePrefix140 => '빛의';
+
+  @override
+  String get nicknamePrefix141 => '어둠의';
+
+  @override
+  String get nicknamePrefix142 => '황혼의';
+
+  @override
+  String get nicknamePrefix143 => '새벽의';
+
+  @override
+  String get nicknamePrefix144 => '정오의';
+
+  @override
+  String get nicknamePrefix145 => '자정의';
+
+  @override
+  String get nicknamePrefix146 => '과거의';
+
+  @override
+  String get nicknamePrefix147 => '현재의';
+
+  @override
+  String get nicknamePrefix148 => '미래의';
+
+  @override
+  String get nicknamePrefix149 => '기원의';
+
+  @override
+  String get nicknamePrefix150 => '종말의';
+
+  @override
+  String get nicknamePrefix151 => '무한의';
+
+  @override
+  String get nicknamePrefix152 => '유한의';
+
+  @override
+  String get nicknamePrefix153 => '침묵의';
+
+  @override
+  String get nicknamePrefix154 => '소음의';
+
+  @override
+  String get nicknamePrefix155 => '노래하는';
+
+  @override
+  String get nicknamePrefix156 => '춤추는';
+
+  @override
+  String get nicknamePrefix157 => '우는';
+
+  @override
+  String get nicknamePrefix158 => '웃는';
+
+  @override
+  String get nicknamePrefix159 => '속삭이는';
+
+  @override
+  String get nicknamePrefix160 => '외치는';
+
+  @override
+  String get nicknamePrefix161 => '기도하는';
+
+  @override
+  String get nicknamePrefix162 => '간청하는';
+
+  @override
+  String get nicknamePrefix163 => '명령하는';
+
+  @override
+  String get nicknamePrefix164 => '복종하는';
+
+  @override
+  String get nicknamePrefix165 => '지배하는';
+
+  @override
+  String get nicknamePrefix166 => '섬기는';
+
+  @override
+  String get nicknamePrefix167 => '인도하는';
+
+  @override
+  String get nicknamePrefix168 => '따르는';
+
+  @override
+  String get nicknamePrefix169 => '가르치는';
+
+  @override
+  String get nicknamePrefix170 => '배우는';
+
+  @override
+  String get nicknamePrefix171 => '기억의';
+
+  @override
+  String get nicknamePrefix172 => '추억의';
+
+  @override
+  String get nicknamePrefix173 => '상처의';
+
+  @override
+  String get nicknamePrefix174 => '치유의';
+
+  @override
+  String get nicknamePrefix175 => '독의';
+
+  @override
+  String get nicknamePrefix176 => '약의';
+
+  @override
+  String get nicknamePrefix177 => '환영의';
+
+  @override
+  String get nicknamePrefix178 => '실체의';
+
+  @override
+  String get nicknamePrefix179 => '이상의';
+
+  @override
+  String get nicknamePrefix180 => '현실의';
+
+  @override
+  String get nicknamePrefix181 => '가상의';
+
+  @override
+  String get nicknamePrefix182 => '자연의';
+
+  @override
+  String get nicknamePrefix183 => '인공의';
+
+  @override
+  String get nicknamePrefix184 => '태초의';
+
+  @override
+  String get nicknamePrefix185 => '영겁의';
+
+  @override
+  String get nicknamePrefix186 => '순간의';
+
+  @override
+  String get nicknamePrefix187 => '찰나의';
+
+  @override
+  String get nicknamePrefix188 => '영속의';
+
+  @override
+  String get nicknamePrefix189 => '변화의';
+
+  @override
+  String get nicknamePrefix190 => '정지의';
+
+  @override
+  String get nicknamePrefix191 => '흐르는';
+
+  @override
+  String get nicknamePrefix192 => '멈춘';
+
+  @override
+  String get nicknamePrefix193 => '타오르는';
+
+  @override
+  String get nicknamePrefix194 => '식어가는';
+
+  @override
+  String get nicknamePrefix195 => '피어나는';
+
+  @override
+  String get nicknamePrefix196 => '시드는';
+
+  @override
+  String get nicknamePrefix197 => '자라나는';
+
+  @override
+  String get nicknamePrefix198 => '죽어가는';
+
+  @override
+  String get nicknamePrefix199 => '숨쉬는';
+
+  @override
+  String get nicknamePrefix200 => '질식하는';
+
+  @override
+  String get nicknameSuffix0 => '예언자';
+
+  @override
+  String get nicknameSuffix1 => '마법사';
+
+  @override
+  String get nicknameSuffix2 => '마녀';
+
+  @override
+  String get nicknameSuffix3 => '기사';
+
+  @override
+  String get nicknameSuffix4 => '전사';
+
+  @override
+  String get nicknameSuffix5 => '궁수';
+
+  @override
+  String get nicknameSuffix6 => '도적';
+
+  @override
+  String get nicknameSuffix7 => '암살자';
+
+  @override
+  String get nicknameSuffix8 => '성기사';
+
+  @override
+  String get nicknameSuffix9 => '사제';
+
+  @override
+  String get nicknameSuffix10 => '여사제';
+
+  @override
+  String get nicknameSuffix11 => '수도사';
+
+  @override
+  String get nicknameSuffix12 => '주술사';
+
+  @override
+  String get nicknameSuffix13 => '연금술사';
+
+  @override
+  String get nicknameSuffix14 => '강령술사';
+
+  @override
+  String get nicknameSuffix15 => '정령사';
+
+  @override
+  String get nicknameSuffix16 => '소환사';
+
+  @override
+  String get nicknameSuffix17 => '환술사';
+
+  @override
+  String get nicknameSuffix18 => '치유사';
+
+  @override
+  String get nicknameSuffix19 => '현자';
+
+  @override
+  String get nicknameSuffix20 => '학자';
+
+  @override
+  String get nicknameSuffix21 => '연구자';
+
+  @override
+  String get nicknameSuffix22 => '탐험가';
+
+  @override
+  String get nicknameSuffix23 => '여행자';
+
+  @override
+  String get nicknameSuffix24 => '방랑자';
+
+  @override
+  String get nicknameSuffix25 => '유랑자';
+
+  @override
+  String get nicknameSuffix26 => '순례자';
+
+  @override
+  String get nicknameSuffix27 => '구도자';
+
+  @override
+  String get nicknameSuffix28 => '관찰자';
+
+  @override
+  String get nicknameSuffix29 => '기록자';
+
+  @override
+  String get nicknameSuffix30 => '전달자';
+
+  @override
+  String get nicknameSuffix31 => '수호자';
+
+  @override
+  String get nicknameSuffix32 => '파수꾼';
+
+  @override
+  String get nicknameSuffix33 => '경비병';
+
+  @override
+  String get nicknameSuffix34 => '문지기';
+
+  @override
+  String get nicknameSuffix35 => '심판관';
+
+  @override
+  String get nicknameSuffix36 => '집행관';
+
+  @override
+  String get nicknameSuffix37 => '통치자';
+
+  @override
+  String get nicknameSuffix38 => '지배자';
+
+  @override
+  String get nicknameSuffix39 => '왕';
+
+  @override
+  String get nicknameSuffix40 => '여왕';
+
+  @override
+  String get nicknameSuffix41 => '황제';
+
+  @override
+  String get nicknameSuffix42 => '여제';
+
+  @override
+  String get nicknameSuffix43 => '귀족';
+
+  @override
+  String get nicknameSuffix44 => '영주';
+
+  @override
+  String get nicknameSuffix45 => '기사단장';
+
+  @override
+  String get nicknameSuffix46 => '용병';
+
+  @override
+  String get nicknameSuffix47 => '해적';
+
+  @override
+  String get nicknameSuffix48 => '도둑';
+
+  @override
+  String get nicknameSuffix49 => '사기꾼';
+
+  @override
+  String get nicknameSuffix50 => '광대';
+
+  @override
+  String get nicknameSuffix51 => '바보';
+
+  @override
+  String get nicknameSuffix52 => '은둔자';
+
+  @override
+  String get nicknameSuffix53 => '이단자';
+
+  @override
+  String get nicknameSuffix54 => '배신자';
+
+  @override
+  String get nicknameSuffix55 => '반역자';
+
+  @override
+  String get nicknameSuffix56 => '영웅';
+
+  @override
+  String get nicknameSuffix57 => '구원자';
+
+  @override
+  String get nicknameSuffix58 => '해방자';
+
+  @override
+  String get nicknameSuffix59 => '파괴자';
+
+  @override
+  String get nicknameSuffix60 => '창조자';
+
+  @override
+  String get nicknameSuffix61 => '신';
+
+  @override
+  String get nicknameSuffix62 => '여신';
+
+  @override
+  String get nicknameSuffix63 => '천사';
+
+  @override
+  String get nicknameSuffix64 => '악마';
+
+  @override
+  String get nicknameSuffix65 => '정령';
+
+  @override
+  String get nicknameSuffix66 => '요정';
+
+  @override
+  String get nicknameSuffix67 => '괴물';
+
+  @override
+  String get nicknameSuffix68 => '마수';
+
+  @override
+  String get nicknameSuffix69 => '드래곤';
+
+  @override
+  String get nicknameSuffix70 => '유령';
+
+  @override
+  String get nicknameSuffix71 => '망령';
+
+  @override
+  String get nicknameSuffix72 => '언데드';
+
+  @override
+  String get nicknameSuffix73 => '흡혈귀';
+
+  @override
+  String get nicknameSuffix74 => '늑대인간';
+
+  @override
+  String get nicknameSuffix75 => '인어';
+
+  @override
+  String get nicknameSuffix76 => '세이렌';
+
+  @override
+  String get nicknameSuffix77 => '님프';
+
+  @override
+  String get nicknameSuffix78 => '고블린';
+
+  @override
+  String get nicknameSuffix79 => '오크';
+
+  @override
+  String get nicknameSuffix80 => '트롤';
+
+  @override
+  String get nicknameSuffix81 => '엘프';
+
+  @override
+  String get nicknameSuffix82 => '드워프';
+
+  @override
+  String get nicknameSuffix83 => '거인';
+
+  @override
+  String get nicknameSuffix84 => '소인';
+
+  @override
+  String get nicknameSuffix85 => '인간';
+
+  @override
+  String get nicknameSuffix86 => '수인';
+
+  @override
+  String get nicknameSuffix87 => '조인';
+
+  @override
+  String get nicknameSuffix88 => '어인';
+
+  @override
+  String get nicknameSuffix89 => '용인';
+
+  @override
+  String get nicknameSuffix90 => '악령';
+
+  @override
+  String get nicknameSuffix91 => '수라';
+
+  @override
+  String get nicknameSuffix92 => '나락';
+
+  @override
+  String get nicknameSuffix93 => '천상';
+
+  @override
+  String get nicknameSuffix94 => '명계';
+
+  @override
+  String get nicknameSuffix95 => '이계';
+
+  @override
+  String get nicknameSuffix96 => '심연';
+
+  @override
+  String get nicknameSuffix97 => '혼돈';
+
+  @override
+  String get nicknameSuffix98 => '질서';
+
+  @override
+  String get nicknameSuffix99 => '빛';
+
+  @override
+  String get nicknameSuffix100 => '어둠';
+
+  @override
+  String get nicknamePrefix201 => '찬란한';
+
+  @override
+  String get nicknamePrefix202 => '은은한';
+
+  @override
+  String get nicknamePrefix203 => '아스라한';
+
+  @override
+  String get nicknamePrefix204 => '아련한';
+
+  @override
+  String get nicknamePrefix205 => '투명한';
+
+  @override
+  String get nicknamePrefix206 => '희미한';
+
+  @override
+  String get nicknamePrefix207 => '눈부신';
+
+  @override
+  String get nicknamePrefix208 => '기묘한';
+
+  @override
+  String get nicknamePrefix209 => '독특한';
+
+  @override
+  String get nicknamePrefix210 => '특별한';
+
+  @override
+  String get nicknamePrefix211 => '고귀한';
+
+  @override
+  String get nicknamePrefix212 => '순수한';
+
+  @override
+  String get nicknamePrefix213 => '타락한';
+
+  @override
+  String get nicknamePrefix214 => '고독한';
+
+  @override
+  String get nicknamePrefix215 => '쓸쓸한';
+
+  @override
+  String get nicknamePrefix216 => '적막한';
+
+  @override
+  String get nicknamePrefix217 => '아득한';
+
+  @override
+  String get nicknamePrefix218 => '가혹한';
+
+  @override
+  String get nicknamePrefix219 => '냉혹한';
+
+  @override
+  String get nicknamePrefix220 => '잔인한';
+
+  @override
+  String get nicknamePrefix221 => '위대한';
+
+  @override
+  String get nicknamePrefix222 => '강인한';
+
+  @override
+  String get nicknamePrefix223 => '굳건한';
+
+  @override
+  String get nicknamePrefix224 => '유연한';
+
+  @override
+  String get nicknamePrefix225 => '재빠른';
+
+  @override
+  String get nicknamePrefix226 => '느릿한';
+
+  @override
+  String get nicknamePrefix227 => '고요속의';
+
+  @override
+  String get nicknamePrefix228 => '혼돈속의';
+
+  @override
+  String get nicknamePrefix229 => '기억속의';
+
+  @override
+  String get nicknamePrefix230 => '상상속의';
+
+  @override
+  String get nicknamePrefix231 => '침묵하는';
+
+  @override
+  String get nicknamePrefix232 => '속삭이는';
+
+  @override
+  String get nicknamePrefix233 => '노래하는';
+
+  @override
+  String get nicknamePrefix234 => '춤추는';
+
+  @override
+  String get nicknamePrefix235 => '흐느끼는';
+
+  @override
+  String get nicknamePrefix236 => '미소짓는';
+
+  @override
+  String get nicknamePrefix237 => '비웃는';
+
+  @override
+  String get nicknamePrefix238 => '관조하는';
+
+  @override
+  String get nicknamePrefix239 => '방황하는';
+
+  @override
+  String get nicknamePrefix240 => '헤매는';
+
+  @override
+  String get nicknamePrefix241 => '깨어있는';
+
+  @override
+  String get nicknamePrefix242 => '잠든';
+
+  @override
+  String get nicknamePrefix243 => '꿈꾸는';
+
+  @override
+  String get nicknamePrefix244 => '몽상하는';
+
+  @override
+  String get nicknamePrefix245 => '망상하는';
+
+  @override
+  String get nicknamePrefix246 => '기도하는';
+
+  @override
+  String get nicknamePrefix247 => '간절한';
+
+  @override
+  String get nicknamePrefix248 => '애절한';
+
+  @override
+  String get nicknamePrefix249 => '처절한';
+
+  @override
+  String get nicknamePrefix250 => '숭고한';
+
+  @override
+  String get nicknamePrefix251 => '사악한';
+
+  @override
+  String get nicknamePrefix252 => '비열한';
+
+  @override
+  String get nicknamePrefix253 => '거만한';
+
+  @override
+  String get nicknamePrefix254 => '겸손한';
+
+  @override
+  String get nicknamePrefix255 => '다정한';
+
+  @override
+  String get nicknamePrefix256 => '따뜻한';
+
+  @override
+  String get nicknamePrefix257 => '서늘한';
+
+  @override
+  String get nicknamePrefix258 => '오싹한';
+
+  @override
+  String get nicknamePrefix259 => '기괴한';
+
+  @override
+  String get nicknamePrefix260 => '섬뜩한';
+
+  @override
+  String get nicknamePrefix261 => '황홀한';
+
+  @override
+  String get nicknamePrefix262 => '매혹적인';
+
+  @override
+  String get nicknamePrefix263 => '아찔한';
+
+  @override
+  String get nicknamePrefix264 => '달콤한';
+
+  @override
+  String get nicknamePrefix265 => '쌉싸름한';
+
+  @override
+  String get nicknamePrefix266 => '씁쓸한';
+
+  @override
+  String get nicknamePrefix267 => '가시돋친';
+
+  @override
+  String get nicknamePrefix268 => '날카로운';
+
+  @override
+  String get nicknamePrefix269 => '무딘';
+
+  @override
+  String get nicknamePrefix270 => '거친';
+
+  @override
+  String get nicknamePrefix271 => '부드러운';
+
+  @override
+  String get nicknamePrefix272 => '포근한';
+
+  @override
+  String get nicknamePrefix273 => '안락한';
+
+  @override
+  String get nicknamePrefix274 => '위태로운';
+
+  @override
+  String get nicknamePrefix275 => '불안한';
+
+  @override
+  String get nicknamePrefix276 => '평온한';
+
+  @override
+  String get nicknamePrefix277 => '안온한';
+
+  @override
+  String get nicknamePrefix278 => '나른한';
+
+  @override
+  String get nicknamePrefix279 => '권태로운';
+
+  @override
+  String get nicknamePrefix280 => '열정적인';
+
+  @override
+  String get nicknamePrefix281 => '무심한';
+
+  @override
+  String get nicknamePrefix282 => '차분한';
+
+  @override
+  String get nicknamePrefix283 => '격렬한';
+
+  @override
+  String get nicknamePrefix284 => '맹렬한';
+
+  @override
+  String get nicknamePrefix285 => '광적인';
+
+  @override
+  String get nicknamePrefix286 => '미쳐버린';
+
+  @override
+  String get nicknamePrefix287 => '이성적인';
+
+  @override
+  String get nicknamePrefix288 => '감성적인';
+
+  @override
+  String get nicknamePrefix289 => '냉철한';
+
+  @override
+  String get nicknamePrefix290 => '현명한';
+
+  @override
+  String get nicknamePrefix291 => '어리석은';
+
+  @override
+  String get nicknamePrefix292 => '순진한';
+
+  @override
+  String get nicknamePrefix293 => '교활한';
+
+  @override
+  String get nicknamePrefix294 => '음흉한';
+
+  @override
+  String get nicknamePrefix295 => '순백의';
+
+  @override
+  String get nicknamePrefix296 => '칠흑의';
+
+  @override
+  String get nicknamePrefix297 => '황금빛';
+
+  @override
+  String get nicknamePrefix298 => '은빛';
+
+  @override
+  String get nicknamePrefix299 => '핏빛';
+
+  @override
+  String get nicknameSuffix101 => '구도자';
+
+  @override
+  String get nicknameSuffix102 => '순례자';
+
+  @override
+  String get nicknameSuffix103 => '방랑자';
+
+  @override
+  String get nicknameSuffix104 => '은둔자';
+
+  @override
+  String get nicknameSuffix105 => '이단아';
+
+  @override
+  String get nicknameSuffix106 => '반역자';
+
+  @override
+  String get nicknameSuffix107 => '개척자';
+
+  @override
+  String get nicknameSuffix108 => '정복자';
+
+  @override
+  String get nicknameSuffix109 => '지배자';
+
+  @override
+  String get nicknameSuffix110 => '조율자';
+
+  @override
+  String get nicknameSuffix111 => '수호자';
+
+  @override
+  String get nicknameSuffix112 => '감시자';
+
+  @override
+  String get nicknameSuffix113 => '관찰자';
+
+  @override
+  String get nicknameSuffix114 => '기록자';
+
+  @override
+  String get nicknameSuffix115 => '전달자';
+
+  @override
+  String get nicknameSuffix116 => '안내자';
+
+  @override
+  String get nicknameSuffix117 => '인도자';
+
+  @override
+  String get nicknameSuffix118 => '구원자';
+
+  @override
+  String get nicknameSuffix119 => '파괴자';
+
+  @override
+  String get nicknameSuffix120 => '창조자';
+
+  @override
+  String get nicknameSuffix121 => '망령';
+
+  @override
+  String get nicknameSuffix122 => '유령';
+
+  @override
+  String get nicknameSuffix123 => '원혼';
+
+  @override
+  String get nicknameSuffix124 => '악령';
+
+  @override
+  String get nicknameSuffix125 => '정령';
+
+  @override
+  String get nicknameSuffix126 => '요정';
+
+  @override
+  String get nicknameSuffix127 => '마수';
+
+  @override
+  String get nicknameSuffix128 => '성수';
+
+  @override
+  String get nicknameSuffix129 => '환수';
+
+  @override
+  String get nicknameSuffix130 => '신수';
+
+  @override
+  String get nicknameSuffix131 => '검사';
+
+  @override
+  String get nicknameSuffix132 => '기사';
+
+  @override
+  String get nicknameSuffix133 => '궁수';
+
+  @override
+  String get nicknameSuffix134 => '도적';
+
+  @override
+  String get nicknameSuffix135 => '암살자';
+
+  @override
+  String get nicknameSuffix136 => '마법사';
+
+  @override
+  String get nicknameSuffix137 => '주술사';
+
+  @override
+  String get nicknameSuffix138 => '연금술사';
+
+  @override
+  String get nicknameSuffix139 => '강령술사';
+
+  @override
+  String get nicknameSuffix140 => '사제';
+
+  @override
+  String get nicknameSuffix141 => '학자';
+
+  @override
+  String get nicknameSuffix142 => '연구자';
+
+  @override
+  String get nicknameSuffix143 => '탐험가';
+
+  @override
+  String get nicknameSuffix144 => '여행가';
+
+  @override
+  String get nicknameSuffix145 => '예술가';
+
+  @override
+  String get nicknameSuffix146 => '광대';
+
+  @override
+  String get nicknameSuffix147 => '음유시인';
+
+  @override
+  String get nicknameSuffix148 => '상인';
+
+  @override
+  String get nicknameSuffix149 => '장인';
+
+  @override
+  String get nicknameSuffix150 => '농부';
+
+  @override
+  String get nicknameSuffix151 => '까마귀';
+
+  @override
+  String get nicknameSuffix152 => '부엉이';
+
+  @override
+  String get nicknameSuffix153 => '올빼미';
+
+  @override
+  String get nicknameSuffix154 => '독수리';
+
+  @override
+  String get nicknameSuffix155 => '매';
+
+  @override
+  String get nicknameSuffix156 => '늑대';
+
+  @override
+  String get nicknameSuffix157 => '여우';
+
+  @override
+  String get nicknameSuffix158 => '곰';
+
+  @override
+  String get nicknameSuffix159 => '사자';
+
+  @override
+  String get nicknameSuffix160 => '호랑이';
+
+  @override
+  String get nicknameSuffix161 => '표범';
+
+  @override
+  String get nicknameSuffix162 => '흑표범';
+
+  @override
+  String get nicknameSuffix163 => '살쏅';
+
+  @override
+  String get nicknameSuffix164 => '고양이';
+
+  @override
+  String get nicknameSuffix165 => '강아지';
+
+  @override
+  String get nicknameSuffix166 => '뱀';
+
+  @override
+  String get nicknameSuffix167 => '도마뱀';
+
+  @override
+  String get nicknameSuffix168 => '거북이';
+
+  @override
+  String get nicknameSuffix169 => '악어';
+
+  @override
+  String get nicknameSuffix170 => '용';
+
+  @override
+  String get nicknameSuffix171 => '유니콘';
+
+  @override
+  String get nicknameSuffix172 => '페가수스';
+
+  @override
+  String get nicknameSuffix173 => '그리폰';
+
+  @override
+  String get nicknameSuffix174 => '가고일';
+
+  @override
+  String get nicknameSuffix175 => '고블린';
+
+  @override
+  String get nicknameSuffix176 => '오크';
+
+  @override
+  String get nicknameSuffix177 => '트롤';
+
+  @override
+  String get nicknameSuffix178 => '오거';
+
+  @override
+  String get nicknameSuffix179 => '슬라임';
+
+  @override
+  String get nicknameSuffix180 => '스켈레톤';
+
+  @override
+  String get nicknameSuffix181 => '좀비';
+
+  @override
+  String get nicknameSuffix182 => '구울';
+
+  @override
+  String get nicknameSuffix183 => '뱀파이어';
+
+  @override
+  String get nicknameSuffix184 => '웨어울프';
+
+  @override
+  String get nicknameSuffix185 => '미노타우로스';
+
+  @override
+  String get nicknameSuffix186 => '켄타우로스';
+
+  @override
+  String get nicknameSuffix187 => '하피';
+
+  @override
+  String get nicknameSuffix188 => '세이렌';
+
+  @override
+  String get nicknameSuffix189 => '크라켄';
+
+  @override
+  String get nicknameSuffix190 => '레비아탄';
+
+  @override
+  String get nicknameSuffix191 => '검';
+
+  @override
+  String get nicknameSuffix192 => '방패';
+
+  @override
+  String get nicknameSuffix193 => '창';
+
+  @override
+  String get nicknameSuffix194 => '활';
+
+  @override
+  String get nicknameSuffix195 => '지팡이';
+
+  @override
+  String get nicknameSuffix196 => '반지';
+
+  @override
+  String get nicknameSuffix197 => '목걸이';
+
+  @override
+  String get nicknameSuffix198 => '왕관';
+
+  @override
+  String get nicknameSuffix199 => '성배';
+
+  @override
+  String get themeFree => '무료 테마';
+
+  @override
+  String get themePaid => '유료 테마';
 }

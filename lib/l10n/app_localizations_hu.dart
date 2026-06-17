@@ -9,143 +9,143 @@ class AppLocalizationsHu extends AppLocalizations {
   AppLocalizationsHu([String locale = 'hu']) : super(locale);
 
   @override
-  String get appTitle => 'Tarot Reading';
+  String get appTitle => 'Tarot olvasás';
 
   @override
-  String get spreadSelectionTitle => 'Select a Spread';
+  String get spreadSelectionTitle => 'Válasszon egy szórást';
 
   @override
   String get spreadSelectionSubtitle =>
-      'Choose a tarot spread that fits your question';
+      'Válassz a kérdésednek megfelelő tarot-krémet';
 
   @override
-  String get spreadOneCardName => 'One Card';
+  String get spreadOneCardName => 'Egy kártya';
 
   @override
   String get spreadOneCardDesc =>
-      'A single card for a quick answer or daily guidance.';
+      'Egyetlen kártya a gyors válaszhoz vagy napi útmutatáshoz.';
 
   @override
-  String get spreadTwoCardName => 'Two Card';
+  String get spreadTwoCardName => 'Két kártya';
 
   @override
   String get spreadTwoCardDesc =>
-      'A 2-card spread to simply grasp the current situation and advice.';
+      'Egy 2 kártyás kiosztás, hogy egyszerűen megértse az aktuális helyzetet és tanácsokat.';
 
   @override
-  String get spreadThreeCardName => 'Three Card';
+  String get spreadThreeCardName => 'Három kártya';
 
   @override
   String get spreadThreeCardDesc =>
-      'A 3-card spread to understand the flow of past, present, and future.';
+      'Egy 3 lapból álló szétterítés a múlt, jelen és jövő áramlásának megértéséhez.';
 
   @override
-  String get spreadFourCardName => 'Four Card';
+  String get spreadFourCardName => 'Négy kártya';
 
   @override
   String get spreadFourCardDesc =>
-      'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.';
+      'Egy 4 kártyás kiosztás, amely egyértelműen diagnosztizálja a probléma okát, tanácsot kér és láthatja az eredményt.';
 
   @override
-  String get spreadFiveCardName => 'Five Card';
+  String get spreadFiveCardName => 'Öt kártya';
 
   @override
   String get spreadFiveCardDesc =>
-      'A 5-card spread examining the core of the situation, its causes, and potential outcomes.';
+      'Egy 5 kártyás kiosztás, amely megvizsgálja a helyzet lényegét, okait és lehetséges következményeit.';
 
   @override
-  String get spreadCelticCrossName => 'Celtic Cross';
+  String get spreadCelticCrossName => 'kelta kereszt';
 
   @override
   String get spreadCelticCrossDesc =>
-      '10 cards for an in-depth analysis of a complex problem.';
+      '10 kártya egy összetett probléma mélyreható elemzéséhez.';
 
   @override
-  String get positionOneCard => 'Today\'s Card';
+  String get positionOneCard => 'A mai kártya';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '1. Helyzet';
 
   @override
-  String get positionTwoCard2 => '2. Advice';
+  String get positionTwoCard2 => '2. Tanács';
 
   @override
-  String get positionThreeCard1 => 'Past';
+  String get positionThreeCard1 => 'Elmúlt';
 
   @override
-  String get positionThreeCard2 => 'Present';
+  String get positionThreeCard2 => 'Jelenlegi';
 
   @override
-  String get positionThreeCard3 => 'Future';
+  String get positionThreeCard3 => 'Jövőbeli';
 
   @override
-  String get positionFourCard1 => '1. Problem';
+  String get positionFourCard1 => '1. Probléma';
 
   @override
-  String get positionFourCard2 => '2. Cause';
+  String get positionFourCard2 => '2. Ok';
 
   @override
-  String get positionFourCard3 => '3. Advice';
+  String get positionFourCard3 => '3. Tanács';
 
   @override
-  String get positionFourCard4 => '4. Outcome';
+  String get positionFourCard4 => '4. Eredmény';
 
   @override
-  String get positionFiveCard1 => '1. Present';
+  String get positionFiveCard1 => '1. Jelen';
 
   @override
-  String get positionFiveCard2 => '2. Past Influences';
+  String get positionFiveCard2 => '2. Múltbeli hatások';
 
   @override
-  String get positionFiveCard3 => '3. Future Direction';
+  String get positionFiveCard3 => '3. Jövő iránya';
 
   @override
-  String get positionFiveCard4 => '4. Core Reason';
+  String get positionFiveCard4 => '4. Alapvető ok';
 
   @override
-  String get positionFiveCard5 => '5. Potential Outcome';
+  String get positionFiveCard5 => '5. Lehetséges eredmény';
 
   @override
-  String get positionCelticCross1 => '1. Present (Querent)';
+  String get positionCelticCross1 => '1. Jelen (Querens)';
 
   @override
-  String get positionCelticCross2 => '2. The Challenge';
+  String get positionCelticCross2 => '2. A kihívás';
 
   @override
-  String get positionCelticCross3 => '3. The Past';
+  String get positionCelticCross3 => '3. A múlt';
 
   @override
-  String get positionCelticCross4 => '4. The Future';
+  String get positionCelticCross4 => '4. A jövő';
 
   @override
-  String get positionCelticCross5 => '5. Conscious';
+  String get positionCelticCross5 => '5. Tudatos';
 
   @override
-  String get positionCelticCross6 => '6. Subconscious';
+  String get positionCelticCross6 => '6. Tudatalatti';
 
   @override
-  String get positionCelticCross7 => '7. Advice';
+  String get positionCelticCross7 => '7. Tanács';
 
   @override
-  String get positionCelticCross8 => '8. External Influences';
+  String get positionCelticCross8 => '8. Külső hatások';
 
   @override
-  String get positionCelticCross9 => '9. Hopes and Fears';
+  String get positionCelticCross9 => '9. Remények és félelmek';
 
   @override
-  String get positionCelticCross10 => '10. Outcome';
+  String get positionCelticCross10 => '10. Eredmény';
 
   @override
-  String get navReading => 'Tarot Olvasás';
+  String get navReading => 'tarot olvasás';
 
   @override
-  String get navChat => 'Tarot Chat';
+  String get navChat => 'tarot chat';
 
   @override
-  String get navMeanings => 'Jelentések';
+  String get navMeanings => 'kártya jelentése';
 
   @override
-  String get navMyMenu => 'My Menu';
+  String get navMyMenu => 'az én menüm';
 
   @override
   String get readingIntroTitle => 'A Sors\nSuttogása';
@@ -1205,4 +1205,1718 @@ class AppLocalizationsHu extends AppLocalizations {
   @override
   String get chatProfileTapHint =>
       'Koppintson a profilképre a részletek megtekintéséhez';
+
+  @override
+  String get themeName1 => '1. téma';
+
+  @override
+  String get themeName2 => '2. téma';
+
+  @override
+  String get themeName3 => '3. téma';
+
+  @override
+  String get themeMagicBook => 'Varázskönyv';
+
+  @override
+  String get themeBlackCat => 'Fekete macska';
+
+  @override
+  String get themeEmptyPaidThemes =>
+      'Vásároljon témákat az üzletben\nhogy betöltse ezt a teret!';
+
+  @override
+  String get shopThemePurchaseTitle => 'Vásárlási téma';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return 'Szeretné megvásárolni a $skinName témát $cost érméért?';
+  }
+
+  @override
+  String get shopCancel => 'Mégse';
+
+  @override
+  String get shopPurchase => 'Vásárlás';
+
+  @override
+  String get shopAlreadyOwned =>
+      'Már birtokolt. Próbálja meg alkalmazni a témabeállításokban!';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return '$skinName sikeresen megvásárolta! Ellenőrizze a témabeállításokat.';
+  }
+
+  @override
+  String get shopNotEnoughCoins => 'Nincs elég érme.';
+
+  @override
+  String get shopOwned => 'Tulajdonos';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost érme';
+  }
+
+  @override
+  String get navDiary => 'tarot napló';
+
+  @override
+  String get myMenuFirebaseNotConnected => 'A Firebase nincs csatlakoztatva';
+
+  @override
+  String get myMenuWindowsSetupNeeded =>
+      'Windows telepítés szükséges (előnézet)';
+
+  @override
+  String get myMenuTouchToViewLogin =>
+      'Koppintson a bejelentkezési felület megtekintéséhez';
+
+  @override
+  String get myMenuNoName => 'Nincs név';
+
+  @override
+  String get myMenuPleaseLogin => 'Kérjük, jelentkezzen be';
+
+  @override
+  String get myMenuTouchToSignupLogin =>
+      'Koppintson a regisztrációhoz és bejelentkezéshez';
+
+  @override
+  String get myMenuSectionMyRecords => 'Saját rekordok';
+
+  @override
+  String get myMenuDiaryStorage => 'Naplótárolás';
+
+  @override
+  String get myMenuCheckSavedDiary => 'Ellenőrizze elmentett naplóit.';
+
+  @override
+  String get myMenuFavoriteCards => 'Kedvenc kártyák';
+
+  @override
+  String get myMenuMyFavoriteCardsList => 'Kedvenc kártyáim listája';
+
+  @override
+  String get myMenuSectionAppSettings => 'Alkalmazásbeállítások';
+
+  @override
+  String get myMenuPushNotifications => 'Push értesítések';
+
+  @override
+  String get myMenuPushNotificationsDesc => 'Új horoszkópok és események';
+
+  @override
+  String get myMenuLanguageSettings => 'Nyelvi beállítások';
+
+  @override
+  String get myMenuThemeSettings => 'Téma beállításai';
+
+  @override
+  String get myMenuChangeBackground => 'Háttérkép módosítása';
+
+  @override
+  String get myMenuSectionCustomerSupport => 'Ügyfélszolgálat';
+
+  @override
+  String get myMenuFaq => 'GYIK';
+
+  @override
+  String get myMenuAppInfo => 'Alkalmazásinformáció';
+
+  @override
+  String get myMenuSectionAccountManagement => 'Számlakezelés';
+
+  @override
+  String get myMenuLogout => 'Jelentkezzen ki';
+
+  @override
+  String get myMenuLogoutDesc => 'Jelentkezzen ki az aktuális eszközről.';
+
+  @override
+  String get myMenuEmailVerifiedMsg => 'E-mail ellenőrzés megerősítve! ✨';
+
+  @override
+  String get myMenuEmailSendTitle => 'Ellenőrző e-mail küldése';
+
+  @override
+  String get myMenuEmailSendContent =>
+      'Az ellenőrző e-mailt elküldtük.\nKérjük, ellenőrizze postafiókját, kattintson a linkre, és nyomja meg újra ezt a gombot!';
+
+  @override
+  String get myMenuConfirm => 'Erősítse meg';
+
+  @override
+  String get myMenuEmailErrorMsg => 'Túl sok kérés vagy hiba történt.';
+
+  @override
+  String get myMenuEmailVerified => 'E-mail ellenőrizve';
+
+  @override
+  String get myMenuEmailNotVerified =>
+      'Az e-mail-cím nem ellenőrizve (Érintse meg az ellenőrzéshez)';
+
+  @override
+  String get languageSystemDefault => 'Rendszer alapértelmezett';
+
+  @override
+  String get shopTitle => 'Üzlet';
+
+  @override
+  String get shopSubtitle => 'Vásároljon érméket és témákat';
+
+  @override
+  String get shopTabCoin => 'Érme';
+
+  @override
+  String get shopTabTheme => 'Téma';
+
+  @override
+  String get shopPayButton => 'Fizetés';
+
+  @override
+  String get themeOriginalDeck => 'Eredeti Classic Deck';
+
+  @override
+  String get themeGoldenSunDeck => 'Golden Sun Deck';
+
+  @override
+  String get themeDarkAbyssDeck => 'Dark Abyss Deck';
+
+  @override
+  String get themeSpringSpiritDeck => 'Spring Spirit Deck';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return 'Hamarosan fizet $coins érmékért.';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return 'A(z) $name vásárlása/jelentkezése hamarosan elérhető.';
+  }
+
+  @override
+  String get readingIntroSelectWitch =>
+      'Válasszon ki egy boszorkányt, hogy lássa a sorsát';
+
+  @override
+  String get readingIntroGreeting =>
+      'Milyen sors elé nézünk?\nKíváncsi vagyok a jövődre.';
+
+  @override
+  String get readingIntroStart => 'Válassza a Spread lehetőséget';
+
+  @override
+  String get tabMajorArcana => 'Major Arcana';
+
+  @override
+  String get tabMinorArcana => 'Kisebb Arkánum';
+
+  @override
+  String get nicknamePrefix0 => 'okkult';
+
+  @override
+  String get nicknamePrefix1 => 'derűs';
+
+  @override
+  String get nicknamePrefix2 => 'szent';
+
+  @override
+  String get nicknamePrefix3 => 'sötét';
+
+  @override
+  String get nicknamePrefix4 => 'csillogó';
+
+  @override
+  String get nicknamePrefix5 => 'sivár';
+
+  @override
+  String get nicknamePrefix6 => 'forró';
+
+  @override
+  String get nicknamePrefix7 => 'elbűvölő';
+
+  @override
+  String get nicknamePrefix8 => 'kegyetlen';
+
+  @override
+  String get nicknamePrefix9 => 'tiszta';
+
+  @override
+  String get nicknamePrefix10 => 'durva';
+
+  @override
+  String get nicknamePrefix11 => 'puha';
+
+  @override
+  String get nicknamePrefix12 => 'gyönyörű';
+
+  @override
+  String get nicknamePrefix13 => 'furcsa';
+
+  @override
+  String get nicknamePrefix14 => 'nagy';
+
+  @override
+  String get nicknamePrefix15 => 'kopott';
+
+  @override
+  String get nicknamePrefix16 => 'örök';
+
+  @override
+  String get nicknamePrefix17 => 'elfelejtett';
+
+  @override
+  String get nicknamePrefix18 => 'ragyogó';
+
+  @override
+  String get nicknamePrefix19 => 'szomorú';
+
+  @override
+  String get nicknamePrefix20 => 'boldog';
+
+  @override
+  String get nicknamePrefix21 => 'álmodozó';
+
+  @override
+  String get nicknamePrefix22 => 'elesett';
+
+  @override
+  String get nicknamePrefix23 => 'tiszta fehér';
+
+  @override
+  String get nicknamePrefix24 => 'koromfekete';
+
+  @override
+  String get nicknamePrefix25 => 'véres';
+
+  @override
+  String get nicknamePrefix26 => 'szürkés';
+
+  @override
+  String get nicknamePrefix27 => 'aranysárga';
+
+  @override
+  String get nicknamePrefix28 => 'ezüst';
+
+  @override
+  String get nicknamePrefix29 => 'kék';
+
+  @override
+  String get nicknamePrefix30 => 'piros';
+
+  @override
+  String get nicknamePrefix31 => 'sárga';
+
+  @override
+  String get nicknamePrefix32 => 'fekete';
+
+  @override
+  String get nicknamePrefix33 => 'fehér';
+
+  @override
+  String get nicknamePrefix34 => 'átlátszó';
+
+  @override
+  String get nicknamePrefix35 => 'magányos';
+
+  @override
+  String get nicknamePrefix36 => 'zajos';
+
+  @override
+  String get nicknamePrefix37 => 'csendes';
+
+  @override
+  String get nicknamePrefix38 => 'meleg';
+
+  @override
+  String get nicknamePrefix39 => 'fagyos';
+
+  @override
+  String get nicknamePrefix40 => 'magányos';
+
+  @override
+  String get nicknamePrefix41 => 'magányos';
+
+  @override
+  String get nicknamePrefix42 => 'boldog';
+
+  @override
+  String get nicknamePrefix43 => 'boldog';
+
+  @override
+  String get nicknamePrefix44 => 'komor';
+
+  @override
+  String get nicknamePrefix45 => 'kétségbeesett';
+
+  @override
+  String get nicknamePrefix46 => 'bizakodó';
+
+  @override
+  String get nicknamePrefix47 => 'kápráztató';
+
+  @override
+  String get nicknamePrefix48 => 'homályos';
+
+  @override
+  String get nicknamePrefix49 => 'éjfél';
+
+  @override
+  String get nicknamePrefix50 => 'elhagyatott';
+
+  @override
+  String get nicknamePrefix51 => 'titkos';
+
+  @override
+  String get nicknamePrefix52 => 'titkos';
+
+  @override
+  String get nicknamePrefix53 => 'szent';
+
+  @override
+  String get nicknamePrefix54 => 'profán';
+
+  @override
+  String get nicknamePrefix55 => 'felsőbbrendű';
+
+  @override
+  String get nicknamePrefix56 => 'szerény';
+
+  @override
+  String get nicknamePrefix57 => 'bölcs';
+
+  @override
+  String get nicknamePrefix58 => 'bolond';
+
+  @override
+  String get nicknamePrefix59 => 'kemény';
+
+  @override
+  String get nicknamePrefix60 => 'gyenge';
+
+  @override
+  String get nicknamePrefix61 => 'bátor';
+
+  @override
+  String get nicknamePrefix62 => 'hitvány';
+
+  @override
+  String get nicknamePrefix63 => 'Távoli';
+
+  @override
+  String get nicknamePrefix64 => 'közel';
+
+  @override
+  String get nicknamePrefix65 => 'távolodni';
+
+  @override
+  String get nicknamePrefix66 => 'közelgő';
+
+  @override
+  String get nicknamePrefix67 => 'eltűnőben';
+
+  @override
+  String get nicknamePrefix68 => 'felbukkanó';
+
+  @override
+  String get nicknamePrefix69 => 'felébresztett';
+
+  @override
+  String get nicknamePrefix70 => 'alvó';
+
+  @override
+  String get nicknamePrefix71 => 'álmodozás';
+
+  @override
+  String get nicknamePrefix72 => 'vándorlás';
+
+  @override
+  String get nicknamePrefix73 => 'vándorlás';
+
+  @override
+  String get nicknamePrefix74 => 'tartózkodás';
+
+  @override
+  String get nicknamePrefix75 => 'kilépő';
+
+  @override
+  String get nicknamePrefix76 => 'jön vissza';
+
+  @override
+  String get nicknamePrefix77 => 'várakozás';
+
+  @override
+  String get nicknamePrefix78 => 'keres';
+
+  @override
+  String get nicknamePrefix79 => 'rejtélyes';
+
+  @override
+  String get nicknamePrefix80 => 'kitett';
+
+  @override
+  String get nicknamePrefix81 => 'elhagyatott';
+
+  @override
+  String get nicknamePrefix82 => 'kiválasztott';
+
+  @override
+  String get nicknamePrefix83 => 'áldott';
+
+  @override
+  String get nicknamePrefix84 => 'átkozott';
+
+  @override
+  String get nicknamePrefix85 => 'szeretett';
+
+  @override
+  String get nicknamePrefix86 => 'gyűlölt';
+
+  @override
+  String get nicknamePrefix87 => 'emlékezz';
+
+  @override
+  String get nicknamePrefix88 => 'feledékeny';
+
+  @override
+  String get nicknamePrefix89 => 'csillagfény';
+
+  @override
+  String get nicknamePrefix90 => 'holdfény';
+
+  @override
+  String get nicknamePrefix91 => 'a napfény';
+
+  @override
+  String get nicknamePrefix92 => 'kozmikus';
+
+  @override
+  String get nicknamePrefix93 => 'a földről';
+
+  @override
+  String get nicknamePrefix94 => 'a tengerről';
+
+  @override
+  String get nicknamePrefix95 => 'mennyei';
+
+  @override
+  String get nicknamePrefix96 => 'of the clouds';
+
+  @override
+  String get nicknamePrefix97 => 'of the wind';
+
+  @override
+  String get nicknamePrefix98 => 'eső';
+
+  @override
+  String get nicknamePrefix99 => 'a szem';
+
+  @override
+  String get nicknamePrefix100 => 'jeges';
+
+  @override
+  String get nicknamePrefix101 => 'tüzes';
+
+  @override
+  String get nicknamePrefix102 => 'víz';
+
+  @override
+  String get nicknamePrefix103 => 'földi';
+
+  @override
+  String get nicknamePrefix104 => 'fa';
+
+  @override
+  String get nicknamePrefix105 => 'erdő';
+
+  @override
+  String get nicknamePrefix106 => 'hegyvidéki';
+
+  @override
+  String get nicknamePrefix107 => 'előadás';
+
+  @override
+  String get nicknamePrefix108 => 'a tóról';
+
+  @override
+  String get nicknamePrefix109 => 'az idő';
+
+  @override
+  String get nicknamePrefix110 => 'a tér';
+
+  @override
+  String get nicknamePrefix111 => 'dimenzió';
+
+  @override
+  String get nicknamePrefix112 => 'végzetes';
+
+  @override
+  String get nicknamePrefix113 => 'végzetes';
+
+  @override
+  String get nicknamePrefix114 => 'csodálatos';
+
+  @override
+  String get nicknamePrefix115 => 'mágikus';
+
+  @override
+  String get nicknamePrefix116 => 'mitikus';
+
+  @override
+  String get nicknamePrefix117 => 'legendás';
+
+  @override
+  String get nicknamePrefix118 => 'az igazságról';
+
+  @override
+  String get nicknamePrefix119 => 'hamis';
+
+  @override
+  String get nicknamePrefix120 => 'fantázia';
+
+  @override
+  String get nicknamePrefix121 => 'álom';
+
+  @override
+  String get nicknamePrefix122 => 'lidércnyomás';
+
+  @override
+  String get nicknamePrefix123 => 'rom';
+
+  @override
+  String get nicknamePrefix124 => 'a teremtésé';
+
+  @override
+  String get nicknamePrefix125 => 'az élet';
+
+  @override
+  String get nicknamePrefix126 => 'a halálé';
+
+  @override
+  String get nicknamePrefix127 => 'lélek';
+
+  @override
+  String get nicknamePrefix128 => 'fizikai';
+
+  @override
+  String get nicknamePrefix129 => 'az ész';
+
+  @override
+  String get nicknamePrefix130 => 'érzelmi';
+
+  @override
+  String get nicknamePrefix131 => 'a szerelemről';
+
+  @override
+  String get nicknamePrefix132 => 'a gyűlölettől';
+
+  @override
+  String get nicknamePrefix133 => 'a szomorúságtól';
+
+  @override
+  String get nicknamePrefix134 => 'az örömtől';
+
+  @override
+  String get nicknamePrefix135 => 'dühös';
+
+  @override
+  String get nicknamePrefix136 => 'a béke';
+
+  @override
+  String get nicknamePrefix137 => 'a háborúról';
+
+  @override
+  String get nicknamePrefix138 => 'káosz';
+
+  @override
+  String get nicknamePrefix139 => 'szabályos';
+
+  @override
+  String get nicknamePrefix140 => 'a fény';
+
+  @override
+  String get nicknamePrefix141 => 'sötét';
+
+  @override
+  String get nicknamePrefix142 => 'szürkület';
+
+  @override
+  String get nicknamePrefix143 => 'hajnal';
+
+  @override
+  String get nicknamePrefix144 => 'dél';
+
+  @override
+  String get nicknamePrefix145 => 'éjfél';
+
+  @override
+  String get nicknamePrefix146 => 'elmúlt';
+
+  @override
+  String get nicknamePrefix147 => 'jelenlegi';
+
+  @override
+  String get nicknamePrefix148 => 'jövőbeli';
+
+  @override
+  String get nicknamePrefix149 => 'származású';
+
+  @override
+  String get nicknamePrefix150 => 'apokaliptikus';
+
+  @override
+  String get nicknamePrefix151 => 'végtelen';
+
+  @override
+  String get nicknamePrefix152 => 'véges';
+
+  @override
+  String get nicknamePrefix153 => 'csendes';
+
+  @override
+  String get nicknamePrefix154 => 'a zajtól';
+
+  @override
+  String get nicknamePrefix155 => 'éneklés';
+
+  @override
+  String get nicknamePrefix156 => 'tánc';
+
+  @override
+  String get nicknamePrefix157 => 'síró';
+
+  @override
+  String get nicknamePrefix158 => 'mosolyogva';
+
+  @override
+  String get nicknamePrefix159 => 'suttogó';
+
+  @override
+  String get nicknamePrefix160 => 'síró';
+
+  @override
+  String get nicknamePrefix161 => 'imádkozás';
+
+  @override
+  String get nicknamePrefix162 => 'könyörgő';
+
+  @override
+  String get nicknamePrefix163 => 'parancsoló';
+
+  @override
+  String get nicknamePrefix164 => 'alázatos';
+
+  @override
+  String get nicknamePrefix165 => 'uralkodó';
+
+  @override
+  String get nicknamePrefix166 => 'szolgáló';
+
+  @override
+  String get nicknamePrefix167 => 'irányító';
+
+  @override
+  String get nicknamePrefix168 => 'kísérő';
+
+  @override
+  String get nicknamePrefix169 => 'tanítás';
+
+  @override
+  String get nicknamePrefix170 => 'tanulás';
+
+  @override
+  String get nicknamePrefix171 => 'az emlékezés';
+
+  @override
+  String get nicknamePrefix172 => 'az emlékek';
+
+  @override
+  String get nicknamePrefix173 => 'a sebektől';
+
+  @override
+  String get nicknamePrefix174 => 'gyógyító';
+
+  @override
+  String get nicknamePrefix175 => 'mérgező';
+
+  @override
+  String get nicknamePrefix176 => 'gyógyszer';
+
+  @override
+  String get nicknamePrefix177 => 'üdvözlöm';
+
+  @override
+  String get nicknamePrefix178 => 'az anyag';
+
+  @override
+  String get nicknamePrefix179 => 'ideál';
+
+  @override
+  String get nicknamePrefix180 => 'igazi';
+
+  @override
+  String get nicknamePrefix181 => 'képzeletbeli';
+
+  @override
+  String get nicknamePrefix182 => 'természetes';
+
+  @override
+  String get nicknamePrefix183 => 'mesterséges';
+
+  @override
+  String get nicknamePrefix184 => 'az elején';
+
+  @override
+  String get nicknamePrefix185 => 'örökkévalóság';
+
+  @override
+  String get nicknamePrefix186 => 'a pillanat';
+
+  @override
+  String get nicknamePrefix187 => 'múló';
+
+  @override
+  String get nicknamePrefix188 => 'örök';
+
+  @override
+  String get nicknamePrefix189 => 'a változásról';
+
+  @override
+  String get nicknamePrefix190 => 'még mindig';
+
+  @override
+  String get nicknamePrefix191 => 'folyó';
+
+  @override
+  String get nicknamePrefix192 => 'lepusztult';
+
+  @override
+  String get nicknamePrefix193 => 'lángoló';
+
+  @override
+  String get nicknamePrefix194 => 'lehűlés';
+
+  @override
+  String get nicknamePrefix195 => 'virágzó';
+
+  @override
+  String get nicknamePrefix196 => 'hervadó';
+
+  @override
+  String get nicknamePrefix197 => 'felnőni';
+
+  @override
+  String get nicknamePrefix198 => 'haldokló';
+
+  @override
+  String get nicknamePrefix199 => 'lélegző';
+
+  @override
+  String get nicknamePrefix200 => 'fullasztó';
+
+  @override
+  String get nicknameSuffix0 => 'próféta';
+
+  @override
+  String get nicknameSuffix1 => 'varázsló';
+
+  @override
+  String get nicknameSuffix2 => 'boszorkány';
+
+  @override
+  String get nicknameSuffix3 => 'cikk';
+
+  @override
+  String get nicknameSuffix4 => 'harcos';
+
+  @override
+  String get nicknameSuffix5 => 'Íjász';
+
+  @override
+  String get nicknameSuffix6 => 'tolvaj';
+
+  @override
+  String get nicknameSuffix7 => 'orgyilkos';
+
+  @override
+  String get nicknameSuffix8 => 'levente';
+
+  @override
+  String get nicknameSuffix9 => 'pap';
+
+  @override
+  String get nicknameSuffix10 => 'papnő';
+
+  @override
+  String get nicknameSuffix11 => 'szerzetes';
+
+  @override
+  String get nicknameSuffix12 => 'kuruzsol';
+
+  @override
+  String get nicknameSuffix13 => 'alkimista';
+
+  @override
+  String get nicknameSuffix14 => 'nekromanta';
+
+  @override
+  String get nicknameSuffix15 => 'spiritiszta';
+
+  @override
+  String get nicknameSuffix16 => 'idéző';
+
+  @override
+  String get nicknameSuffix17 => 'bűvész';
+
+  @override
+  String get nicknameSuffix18 => 'gyógyító';
+
+  @override
+  String get nicknameSuffix19 => 'bölcs ember';
+
+  @override
+  String get nicknameSuffix20 => 'tudós';
+
+  @override
+  String get nicknameSuffix21 => 'kutató';
+
+  @override
+  String get nicknameSuffix22 => 'felfedező';
+
+  @override
+  String get nicknameSuffix23 => 'utazó';
+
+  @override
+  String get nicknameSuffix24 => 'csavargó';
+
+  @override
+  String get nicknameSuffix25 => 'csavargó';
+
+  @override
+  String get nicknameSuffix26 => 'zarándok';
+
+  @override
+  String get nicknameSuffix27 => 'kereső';
+
+  @override
+  String get nicknameSuffix28 => 'megfigyelő';
+
+  @override
+  String get nicknameSuffix29 => 'felvevő';
+
+  @override
+  String get nicknameSuffix30 => 'kommunikátor';
+
+  @override
+  String get nicknameSuffix31 => 'gyámmester';
+
+  @override
+  String get nicknameSuffix32 => 'gondnok';
+
+  @override
+  String get nicknameSuffix33 => 'őr';
+
+  @override
+  String get nicknameSuffix34 => 'portás';
+
+  @override
+  String get nicknameSuffix35 => 'bíró';
+
+  @override
+  String get nicknameSuffix36 => 'végrehajtó';
+
+  @override
+  String get nicknameSuffix37 => 'kormányzó';
+
+  @override
+  String get nicknameSuffix38 => 'uralkodó';
+
+  @override
+  String get nicknameSuffix39 => 'király';
+
+  @override
+  String get nicknameSuffix40 => 'királynő';
+
+  @override
+  String get nicknameSuffix41 => 'császár';
+
+  @override
+  String get nicknameSuffix42 => 'császárnő';
+
+  @override
+  String get nicknameSuffix43 => 'nemesség';
+
+  @override
+  String get nicknameSuffix44 => 'állandó lakhely';
+
+  @override
+  String get nicknameSuffix45 => 'lovag parancsnoka';
+
+  @override
+  String get nicknameSuffix46 => 'zsoldos';
+
+  @override
+  String get nicknameSuffix47 => 'kalóz';
+
+  @override
+  String get nicknameSuffix48 => 'tolvaj';
+
+  @override
+  String get nicknameSuffix49 => 'csalás';
+
+  @override
+  String get nicknameSuffix50 => 'udvari bolond';
+
+  @override
+  String get nicknameSuffix51 => 'bolond';
+
+  @override
+  String get nicknameSuffix52 => 'remete';
+
+  @override
+  String get nicknameSuffix53 => 'eretnek';
+
+  @override
+  String get nicknameSuffix54 => 'áruló';
+
+  @override
+  String get nicknameSuffix55 => 'áruló';
+
+  @override
+  String get nicknameSuffix56 => 'hős';
+
+  @override
+  String get nicknameSuffix57 => 'megmentő';
+
+  @override
+  String get nicknameSuffix58 => 'felszabadító';
+
+  @override
+  String get nicknameSuffix59 => 'romboló';
+
+  @override
+  String get nicknameSuffix60 => 'Teremtő';
+
+  @override
+  String get nicknameSuffix61 => 'Isten';
+
+  @override
+  String get nicknameSuffix62 => 'istennő';
+
+  @override
+  String get nicknameSuffix63 => 'angyal';
+
+  @override
+  String get nicknameSuffix64 => 'ördög';
+
+  @override
+  String get nicknameSuffix65 => 'kormányrendelet';
+
+  @override
+  String get nicknameSuffix66 => 'tündér';
+
+  @override
+  String get nicknameSuffix67 => 'szörnyeteg';
+
+  @override
+  String get nicknameSuffix68 => 'démon fenevad';
+
+  @override
+  String get nicknameSuffix69 => 'sárkány';
+
+  @override
+  String get nicknameSuffix70 => 'szellem';
+
+  @override
+  String get nicknameSuffix71 => 'árnyék';
+
+  @override
+  String get nicknameSuffix72 => 'élőhalottak';
+
+  @override
+  String get nicknameSuffix73 => 'vámpír';
+
+  @override
+  String get nicknameSuffix74 => 'farkasember';
+
+  @override
+  String get nicknameSuffix75 => 'sellő';
+
+  @override
+  String get nicknameSuffix76 => 'sziréna';
+
+  @override
+  String get nicknameSuffix77 => 'nimfa';
+
+  @override
+  String get nicknameSuffix78 => 'kobold';
+
+  @override
+  String get nicknameSuffix79 => 'tölgy';
+
+  @override
+  String get nicknameSuffix80 => 'manó';
+
+  @override
+  String get nicknameSuffix81 => 'manó';
+
+  @override
+  String get nicknameSuffix82 => 'törpe';
+
+  @override
+  String get nicknameSuffix83 => 'óriás';
+
+  @override
+  String get nicknameSuffix84 => 'postabélyegző';
+
+  @override
+  String get nicknameSuffix85 => 'emberi lény';
+
+  @override
+  String get nicknameSuffix86 => 'fogoly';
+
+  @override
+  String get nicknameSuffix87 => 'aláírás';
+
+  @override
+  String get nicknameSuffix88 => 'Fishman';
+
+  @override
+  String get nicknameSuffix89 => 'munkavállaló';
+
+  @override
+  String get nicknameSuffix90 => 'gonosz szellem';
+
+  @override
+  String get nicknameSuffix91 => 'Sura';
+
+  @override
+  String get nicknameSuffix92 => 'pokol';
+
+  @override
+  String get nicknameSuffix93 => 'ég';
+
+  @override
+  String get nicknameSuffix94 => 'alvilág';
+
+  @override
+  String get nicknameSuffix95 => 'Másvilág';
+
+  @override
+  String get nicknameSuffix96 => 'szakadék';
+
+  @override
+  String get nicknameSuffix97 => 'káosz';
+
+  @override
+  String get nicknameSuffix98 => 'rendelés';
+
+  @override
+  String get nicknameSuffix99 => 'fény';
+
+  @override
+  String get nicknameSuffix100 => 'sötét';
+
+  @override
+  String get nicknamePrefix201 => 'ragyogó';
+
+  @override
+  String get nicknamePrefix202 => 'apró';
+
+  @override
+  String get nicknamePrefix203 => 'ködös';
+
+  @override
+  String get nicknamePrefix204 => 'elájul';
+
+  @override
+  String get nicknamePrefix205 => 'átlátszó';
+
+  @override
+  String get nicknamePrefix206 => 'elájul';
+
+  @override
+  String get nicknamePrefix207 => 'kápráztató';
+
+  @override
+  String get nicknamePrefix208 => 'furcsa';
+
+  @override
+  String get nicknamePrefix209 => 'különös';
+
+  @override
+  String get nicknamePrefix210 => 'különleges';
+
+  @override
+  String get nicknamePrefix211 => 'nemes';
+
+  @override
+  String get nicknamePrefix212 => 'tiszta';
+
+  @override
+  String get nicknamePrefix213 => 'elesett';
+
+  @override
+  String get nicknamePrefix214 => 'magányos';
+
+  @override
+  String get nicknamePrefix215 => 'magányos';
+
+  @override
+  String get nicknamePrefix216 => 'elhagyatott';
+
+  @override
+  String get nicknamePrefix217 => 'Távoli';
+
+  @override
+  String get nicknamePrefix218 => 'durva';
+
+  @override
+  String get nicknamePrefix219 => 'könyörtelen';
+
+  @override
+  String get nicknamePrefix220 => 'kegyetlen';
+
+  @override
+  String get nicknamePrefix221 => 'nagy';
+
+  @override
+  String get nicknamePrefix222 => 'kemény';
+
+  @override
+  String get nicknamePrefix223 => 'cég';
+
+  @override
+  String get nicknamePrefix224 => 'kanyargós';
+
+  @override
+  String get nicknamePrefix225 => 'gyors';
+
+  @override
+  String get nicknamePrefix226 => 'lassú';
+
+  @override
+  String get nicknamePrefix227 => 'csendben';
+
+  @override
+  String get nicknamePrefix228 => 'káoszban';
+
+  @override
+  String get nicknamePrefix229 => 'az emlékezetben';
+
+  @override
+  String get nicknamePrefix230 => 'képzeletbeli';
+
+  @override
+  String get nicknamePrefix231 => 'csendes';
+
+  @override
+  String get nicknamePrefix232 => 'suttogó';
+
+  @override
+  String get nicknamePrefix233 => 'éneklés';
+
+  @override
+  String get nicknamePrefix234 => 'tánc';
+
+  @override
+  String get nicknamePrefix235 => 'zokogás';
+
+  @override
+  String get nicknamePrefix236 => 'mosolyogva';
+
+  @override
+  String get nicknamePrefix237 => 'gúnyolódni';
+
+  @override
+  String get nicknamePrefix238 => 'szemlélve';
+
+  @override
+  String get nicknamePrefix239 => 'vándorlás';
+
+  @override
+  String get nicknamePrefix240 => 'vándorlás';
+
+  @override
+  String get nicknamePrefix241 => 'ébren';
+
+  @override
+  String get nicknamePrefix242 => 'alvó';
+
+  @override
+  String get nicknamePrefix243 => 'álmodozás';
+
+  @override
+  String get nicknamePrefix244 => 'ábrándozás';
+
+  @override
+  String get nicknamePrefix245 => 'káprázatos';
+
+  @override
+  String get nicknamePrefix246 => 'imádkozás';
+
+  @override
+  String get nicknamePrefix247 => 'komoly';
+
+  @override
+  String get nicknamePrefix248 => 'szomorú';
+
+  @override
+  String get nicknamePrefix249 => 'nyomorult';
+
+  @override
+  String get nicknamePrefix250 => 'fenséges';
+
+  @override
+  String get nicknamePrefix251 => 'gonosz';
+
+  @override
+  String get nicknamePrefix252 => 'átlagos';
+
+  @override
+  String get nicknamePrefix253 => 'arrogáns';
+
+  @override
+  String get nicknamePrefix254 => 'szerény';
+
+  @override
+  String get nicknamePrefix255 => 'szereti';
+
+  @override
+  String get nicknamePrefix256 => 'meleg';
+
+  @override
+  String get nicknamePrefix257 => 'hűvös';
+
+  @override
+  String get nicknamePrefix258 => 'hűvös';
+
+  @override
+  String get nicknamePrefix259 => 'bizarr';
+
+  @override
+  String get nicknamePrefix260 => 'rejtélyes';
+
+  @override
+  String get nicknamePrefix261 => 'elbűvölt';
+
+  @override
+  String get nicknamePrefix262 => 'elbűvölő';
+
+  @override
+  String get nicknamePrefix263 => 'szédítő';
+
+  @override
+  String get nicknamePrefix264 => 'édeskés';
+
+  @override
+  String get nicknamePrefix265 => 'keserű';
+
+  @override
+  String get nicknamePrefix266 => 'kesernyés';
+
+  @override
+  String get nicknamePrefix267 => 'szálkás kalász';
+
+  @override
+  String get nicknamePrefix268 => 'éles';
+
+  @override
+  String get nicknamePrefix269 => 'unalmas';
+
+  @override
+  String get nicknamePrefix270 => 'durva';
+
+  @override
+  String get nicknamePrefix271 => 'puha';
+
+  @override
+  String get nicknamePrefix272 => 'kényelmes';
+
+  @override
+  String get nicknamePrefix273 => 'kényelmes';
+
+  @override
+  String get nicknamePrefix274 => 'bizonytalan';
+
+  @override
+  String get nicknamePrefix275 => 'kényelmetlen';
+
+  @override
+  String get nicknamePrefix276 => 'nyugodt';
+
+  @override
+  String get nicknamePrefix277 => 'nyugodt';
+
+  @override
+  String get nicknamePrefix278 => 'álmos';
+
+  @override
+  String get nicknamePrefix279 => 'unott';
+
+  @override
+  String get nicknamePrefix280 => 'szenvedélyes';
+
+  @override
+  String get nicknamePrefix281 => 'nemtörődöm';
+
+  @override
+  String get nicknamePrefix282 => 'nyugodt';
+
+  @override
+  String get nicknamePrefix283 => 'erőszakos';
+
+  @override
+  String get nicknamePrefix284 => 'vad';
+
+  @override
+  String get nicknamePrefix285 => 'őrült';
+
+  @override
+  String get nicknamePrefix286 => 'megőrült';
+
+  @override
+  String get nicknamePrefix287 => 'racionális';
+
+  @override
+  String get nicknamePrefix288 => 'érzelmi';
+
+  @override
+  String get nicknamePrefix289 => 'hideg fejjel';
+
+  @override
+  String get nicknamePrefix290 => 'érzékeny';
+
+  @override
+  String get nicknamePrefix291 => 'bolond';
+
+  @override
+  String get nicknamePrefix292 => 'ártatlan';
+
+  @override
+  String get nicknamePrefix293 => 'ravasz';
+
+  @override
+  String get nicknamePrefix294 => 'szerpentin';
+
+  @override
+  String get nicknamePrefix295 => 'tiszta fehér';
+
+  @override
+  String get nicknamePrefix296 => 'koromfekete';
+
+  @override
+  String get nicknamePrefix297 => 'aranysárga';
+
+  @override
+  String get nicknamePrefix298 => 'ezüst';
+
+  @override
+  String get nicknamePrefix299 => 'véres';
+
+  @override
+  String get nicknameSuffix101 => 'kereső';
+
+  @override
+  String get nicknameSuffix102 => 'zarándok';
+
+  @override
+  String get nicknameSuffix103 => 'csavargó';
+
+  @override
+  String get nicknameSuffix104 => 'remete';
+
+  @override
+  String get nicknameSuffix105 => 'Ethan';
+
+  @override
+  String get nicknameSuffix106 => 'áruló';
+
+  @override
+  String get nicknameSuffix107 => 'úttörő';
+
+  @override
+  String get nicknameSuffix108 => 'hódító';
+
+  @override
+  String get nicknameSuffix109 => 'uralkodó';
+
+  @override
+  String get nicknameSuffix110 => 'hangszerelő';
+
+  @override
+  String get nicknameSuffix111 => 'gyámmester';
+
+  @override
+  String get nicknameSuffix112 => 'megfigyelő';
+
+  @override
+  String get nicknameSuffix113 => 'megfigyelő';
+
+  @override
+  String get nicknameSuffix114 => 'felvevő';
+
+  @override
+  String get nicknameSuffix115 => 'kommunikátor';
+
+  @override
+  String get nicknameSuffix116 => 'útmutató';
+
+  @override
+  String get nicknameSuffix117 => 'vezető';
+
+  @override
+  String get nicknameSuffix118 => 'megmentő';
+
+  @override
+  String get nicknameSuffix119 => 'romboló';
+
+  @override
+  String get nicknameSuffix120 => 'Teremtő';
+
+  @override
+  String get nicknameSuffix121 => 'árnyék';
+
+  @override
+  String get nicknameSuffix122 => 'szellem';
+
+  @override
+  String get nicknameSuffix123 => 'szellem';
+
+  @override
+  String get nicknameSuffix124 => 'gonosz szellem';
+
+  @override
+  String get nicknameSuffix125 => 'kormányrendelet';
+
+  @override
+  String get nicknameSuffix126 => 'tündér';
+
+  @override
+  String get nicknameSuffix127 => 'démon fenevad';
+
+  @override
+  String get nicknameSuffix128 => 'szenteltvíz';
+
+  @override
+  String get nicknameSuffix129 => 'visszatérítés';
+
+  @override
+  String get nicknameSuffix130 => 'Shinsu';
+
+  @override
+  String get nicknameSuffix131 => 'teszt';
+
+  @override
+  String get nicknameSuffix132 => 'cikk';
+
+  @override
+  String get nicknameSuffix133 => 'Íjász';
+
+  @override
+  String get nicknameSuffix134 => 'tolvaj';
+
+  @override
+  String get nicknameSuffix135 => 'orgyilkos';
+
+  @override
+  String get nicknameSuffix136 => 'varázsló';
+
+  @override
+  String get nicknameSuffix137 => 'kuruzsol';
+
+  @override
+  String get nicknameSuffix138 => 'alkimista';
+
+  @override
+  String get nicknameSuffix139 => 'nekromanta';
+
+  @override
+  String get nicknameSuffix140 => 'pap';
+
+  @override
+  String get nicknameSuffix141 => 'tudós';
+
+  @override
+  String get nicknameSuffix142 => 'kutató';
+
+  @override
+  String get nicknameSuffix143 => 'felfedező';
+
+  @override
+  String get nicknameSuffix144 => 'utazó';
+
+  @override
+  String get nicknameSuffix145 => 'művész';
+
+  @override
+  String get nicknameSuffix146 => 'udvari bolond';
+
+  @override
+  String get nicknameSuffix147 => 'dalnok';
+
+  @override
+  String get nicknameSuffix148 => 'kereskedő';
+
+  @override
+  String get nicknameSuffix149 => 'kézműves';
+
+  @override
+  String get nicknameSuffix150 => 'paraszt';
+
+  @override
+  String get nicknameSuffix151 => 'varjú';
+
+  @override
+  String get nicknameSuffix152 => 'bagoly';
+
+  @override
+  String get nicknameSuffix153 => 'bagoly';
+
+  @override
+  String get nicknameSuffix154 => 'sas';
+
+  @override
+  String get nicknameSuffix155 => 'sólyom';
+
+  @override
+  String get nicknameSuffix156 => 'farkas';
+
+  @override
+  String get nicknameSuffix157 => 'róka';
+
+  @override
+  String get nicknameSuffix158 => 'medve';
+
+  @override
+  String get nicknameSuffix159 => 'oroszlán';
+
+  @override
+  String get nicknameSuffix160 => 'tigris';
+
+  @override
+  String get nicknameSuffix161 => 'leopárd';
+
+  @override
+  String get nicknameSuffix162 => 'fekete párduc';
+
+  @override
+  String get nicknameSuffix163 => 'Salsssop';
+
+  @override
+  String get nicknameSuffix164 => 'macska';
+
+  @override
+  String get nicknameSuffix165 => 'kölyökkutya';
+
+  @override
+  String get nicknameSuffix166 => 'kígyó';
+
+  @override
+  String get nicknameSuffix167 => 'gyík';
+
+  @override
+  String get nicknameSuffix168 => 'teknősbéka';
+
+  @override
+  String get nicknameSuffix169 => 'krokodil';
+
+  @override
+  String get nicknameSuffix170 => 'sárkány';
+
+  @override
+  String get nicknameSuffix171 => 'egyszarvú';
+
+  @override
+  String get nicknameSuffix172 => 'Pegazus';
+
+  @override
+  String get nicknameSuffix173 => 'griffon';
+
+  @override
+  String get nicknameSuffix174 => 'vízköpő';
+
+  @override
+  String get nicknameSuffix175 => 'kobold';
+
+  @override
+  String get nicknameSuffix176 => 'tölgy';
+
+  @override
+  String get nicknameSuffix177 => 'manó';
+
+  @override
+  String get nicknameSuffix178 => 'fúró';
+
+  @override
+  String get nicknameSuffix179 => 'iszap';
+
+  @override
+  String get nicknameSuffix180 => 'csontváz';
+
+  @override
+  String get nicknameSuffix181 => 'zombi';
+
+  @override
+  String get nicknameSuffix182 => 'vámpír';
+
+  @override
+  String get nicknameSuffix183 => 'vámpír';
+
+  @override
+  String get nicknameSuffix184 => 'farkasember';
+
+  @override
+  String get nicknameSuffix185 => 'minotaurusz';
+
+  @override
+  String get nicknameSuffix186 => 'kentaur';
+
+  @override
+  String get nicknameSuffix187 => 'hárpia';
+
+  @override
+  String get nicknameSuffix188 => 'sziréna';
+
+  @override
+  String get nicknameSuffix189 => 'Kraken';
+
+  @override
+  String get nicknameSuffix190 => 'Leviatán';
+
+  @override
+  String get nicknameSuffix191 => 'kés';
+
+  @override
+  String get nicknameSuffix192 => 'pajzs';
+
+  @override
+  String get nicknameSuffix193 => 'ablak';
+
+  @override
+  String get nicknameSuffix194 => 'íj';
+
+  @override
+  String get nicknameSuffix195 => 'nád';
+
+  @override
+  String get nicknameSuffix196 => 'gyűrű';
+
+  @override
+  String get nicknameSuffix197 => 'nyaklánc';
+
+  @override
+  String get nicknameSuffix198 => 'korona';
+
+  @override
+  String get nicknameSuffix199 => 'Szent Grál';
+
+  @override
+  String get themeFree => 'Ingyenes téma';
+
+  @override
+  String get themePaid => 'Fizetett téma';
 }

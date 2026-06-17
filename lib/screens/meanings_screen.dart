@@ -35,13 +35,13 @@ class MeaningsScreen extends StatelessWidget {
                       style: Theme.of(context).textTheme.bodyMedium,
                     ),
                     const SizedBox(height: 16),
-                    const TabBar(
+                    TabBar(
                       indicatorColor: Colors.white,
                       labelColor: Colors.white,
                       unselectedLabelColor: Colors.white54,
                       tabs: [
-                        Tab(text: '메이저 아르카나'),
-                        Tab(text: '마이너 아르카나'),
+                        Tab(text: AppLocalizations.of(context)!.tabMajorArcana),
+                        Tab(text: AppLocalizations.of(context)!.tabMinorArcana),
                       ],
                     ),
                   ],

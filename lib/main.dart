@@ -14,6 +14,7 @@ import 'widgets/top_floating_icons.dart';
 import 'screens/shop_screen.dart';
 import 'screens/growth_screen.dart';
 import 'services/theme_manager.dart';
+import 'services/language_manager.dart';
 
 final GlobalKey<NavigatorState> globalNavigatorKey = GlobalKey<NavigatorState>();
 
@@ -54,6 +55,7 @@ void main() async {
   }
 
   await ThemeManager.instance.init();
+  await LanguageManager.instance.init();
 
   runApp(const TarotApp());
 }
@@ -63,82 +65,88 @@ class TarotApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: '타로마녀',
-      debugShowCheckedModeBanner: false,
-      theme: AppTheme.darkTheme,
-      localizationsDelegates: const [
-        AppLocalizations.delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
-      ],
-      supportedLocales: const [
-        Locale('en'), // English
-        Locale('ko'), // Korean
-        Locale('ja'), // Japanese
-        Locale('zh'), // Chinese
-        Locale('es'), // Spanish
-        Locale('fr'), // French
-        Locale('de'), // German
-        Locale('ru'), // Russian
-        Locale('pt'), // Portuguese
-        Locale('it'), // Italian
-        Locale('th'), // Thai
-        Locale('vi'), // Vietnamese
-        Locale('hi'), // Hindi
-        Locale('id'), // Indonesian
-        Locale('ar'), // Arabic
-        Locale('be'), // Belarusian
-        Locale('bg'), // Bulgarian
-        Locale('ca'), // Catalan
-        Locale('cs'), // Czech
-        Locale('da'), // Danish
-        Locale('el'), // Greek
-        Locale('et'), // Estonian
-        Locale('fa'), // Persian
-        Locale('fi'), // Finnish
-        Locale('hr'), // Croatian
-        Locale('hu'), // Hungarian
-        Locale('hy'), // Armenian
-        Locale('lt'), // Lithuanian
-        Locale('lv'), // Latvian
-        Locale('ms'), // Malay
-        Locale('no'), // Norwegian
-        Locale('pl'), // Polish
-        Locale('rm'), // Romansh
-        Locale('ro'), // Romanian
-        Locale('sk'), // Slovak
-        Locale('sl'), // Slovenian
-        Locale('sr'), // Serbian
-        Locale('sv'), // Swedish
-        Locale('tl'), // Filipino/Tagalog
-        Locale('tr'), // Turkish
-        Locale('uk'), // Ukrainian
-        Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hans'), // Chinese Simplified
-        Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'), // Chinese Traditional
-        Locale('ml'), // Malayalam
-      ],
-      localeResolutionCallback: (locale, supportedLocales) {
-        if (locale == null) return const Locale('en');
-        // 1. 완벽 일치 (언어 + 스크립트)
-        for (var supportedLocale in supportedLocales) {
-          if (supportedLocale.languageCode == locale.languageCode &&
-              supportedLocale.scriptCode == locale.scriptCode) {
-            return supportedLocale;
-          }
-        }
-        // 2. 언어 코드만 일치
-        for (var supportedLocale in supportedLocales) {
-          if (supportedLocale.languageCode == locale.languageCode) {
-            return supportedLocale;
-          }
-        }
-        // 3. 일치하는 언어가 없으면 기본값(영어) 사용
-        return const Locale('en');
+    return ValueListenableBuilder<Locale?>(
+      valueListenable: LanguageManager.instance.localeNotifier,
+      builder: (context, currentLocale, _) {
+        return MaterialApp(
+          title: '타로마녀',
+          debugShowCheckedModeBanner: false,
+          theme: AppTheme.darkTheme,
+          locale: currentLocale,
+          localizationsDelegates: const [
+            AppLocalizations.delegate,
+            GlobalMaterialLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+          ],
+          supportedLocales: const [
+            Locale('en'), // English
+            Locale('ko'), // Korean
+            Locale('ja'), // Japanese
+            Locale('zh'), // Chinese
+            Locale('es'), // Spanish
+            Locale('fr'), // French
+            Locale('de'), // German
+            Locale('ru'), // Russian
+            Locale('pt'), // Portuguese
+            Locale('it'), // Italian
+            Locale('th'), // Thai
+            Locale('vi'), // Vietnamese
+            Locale('hi'), // Hindi
+            Locale('id'), // Indonesian
+            Locale('ar'), // Arabic
+            Locale('be'), // Belarusian
+            Locale('bg'), // Bulgarian
+            Locale('ca'), // Catalan
+            Locale('cs'), // Czech
+            Locale('da'), // Danish
+            Locale('el'), // Greek
+            Locale('et'), // Estonian
+            Locale('fa'), // Persian
+            Locale('fi'), // Finnish
+            Locale('hr'), // Croatian
+            Locale('hu'), // Hungarian
+            Locale('hy'), // Armenian
+            Locale('lt'), // Lithuanian
+            Locale('lv'), // Latvian
+            Locale('ms'), // Malay
+            Locale('no'), // Norwegian
+            Locale('pl'), // Polish
+            Locale('rm'), // Romansh
+            Locale('ro'), // Romanian
+            Locale('sk'), // Slovak
+            Locale('sl'), // Slovenian
+            Locale('sr'), // Serbian
+            Locale('sv'), // Swedish
+            Locale('tl'), // Filipino/Tagalog
+            Locale('tr'), // Turkish
+            Locale('uk'), // Ukrainian
+            Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hans'), // Chinese Simplified
+            Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'), // Chinese Traditional
+            Locale('ml'), // Malayalam
+          ],
+          localeResolutionCallback: (locale, supportedLocales) {
+            if (locale == null) return const Locale('en');
+            // 1. 완벽 일치 (언어 + 스크립트)
+            for (var supportedLocale in supportedLocales) {
+              if (supportedLocale.languageCode == locale.languageCode &&
+                  supportedLocale.scriptCode == locale.scriptCode) {
+                return supportedLocale;
+              }
+            }
+            // 2. 언어 코드만 일치
+            for (var supportedLocale in supportedLocales) {
+              if (supportedLocale.languageCode == locale.languageCode) {
+                return supportedLocale;
+              }
+            }
+            // 3. 일치하는 언어가 없으면 기본값(영어) 사용
+            return const Locale('en');
+          },
+          navigatorKey: globalNavigatorKey,
+          home: MainScreen(),
+        );
       },
-      navigatorKey: globalNavigatorKey,
-      home: MainScreen(),
     );
   }
 }

@@ -170,9 +170,9 @@ class _ReadingIntroScreenState extends State<ReadingIntroScreen> with SingleTick
                                     ],
                                   ),
                                   const SizedBox(height: 4),
-                                  const Text(
-                                    '마녀를 선택해 운명을 확인하세요',
-                                    style: TextStyle(fontSize: 11, color: Colors.white54),
+                                  Text(
+                                    AppLocalizations.of(context)!.readingIntroSelectWitch,
+                                    style: const TextStyle(fontSize: 11, color: Colors.white54),
                                   ),
                                 ],
                               ),
@@ -222,7 +222,7 @@ class _ReadingIntroScreenState extends State<ReadingIntroScreen> with SingleTick
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20.0),
                   child: Text(
-                    '어떤 운명을 들여다볼까요?\n당신의 미래가 궁금하군요.',
+                    AppLocalizations.of(context)!.readingIntroGreeting,
                     style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                       color: Colors.white.withOpacity(0.9),
                       fontSize: 20,
@@ -266,9 +266,9 @@ class _ReadingIntroScreenState extends State<ReadingIntroScreen> with SingleTick
                         ]
                       ),
                       alignment: Alignment.center,
-                      child: const Text(
-                        '배열법 선택하기',
-                        style: TextStyle(
+                      child: Text(
+                        AppLocalizations.of(context)!.readingIntroStart,
+                        style: const TextStyle(
                           fontSize: 18, 
                           color: Colors.white,
                           fontWeight: FontWeight.bold,

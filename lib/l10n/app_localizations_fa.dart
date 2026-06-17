@@ -9,143 +9,141 @@ class AppLocalizationsFa extends AppLocalizations {
   AppLocalizationsFa([String locale = 'fa']) : super(locale);
 
   @override
-  String get appTitle => 'Tarot Reading';
+  String get appTitle => 'خواندن تاروت';
 
   @override
-  String get spreadSelectionTitle => 'Select a Spread';
+  String get spreadSelectionTitle => 'یک Spread را انتخاب کنید';
 
   @override
   String get spreadSelectionSubtitle =>
-      'Choose a tarot spread that fits your question';
+      'یک اسپرد تاروت متناسب با سوال شما انتخاب کنید';
 
   @override
-  String get spreadOneCardName => 'One Card';
+  String get spreadOneCardName => 'یک کارت';
 
   @override
-  String get spreadOneCardDesc =>
-      'A single card for a quick answer or daily guidance.';
+  String get spreadOneCardDesc => 'یک کارت برای پاسخ سریع یا راهنمایی روزانه.';
 
   @override
-  String get spreadTwoCardName => 'Two Card';
+  String get spreadTwoCardName => 'دو کارت';
 
   @override
-  String get spreadTwoCardDesc =>
-      'A 2-card spread to simply grasp the current situation and advice.';
+  String get spreadTwoCardDesc => 'یک پخش 2 کارتی برای درک وضعیت فعلی و توصیه.';
 
   @override
-  String get spreadThreeCardName => 'Three Card';
+  String get spreadThreeCardName => 'سه کارت';
 
   @override
   String get spreadThreeCardDesc =>
-      'A 3-card spread to understand the flow of past, present, and future.';
+      'پخش 3 کارتی برای درک جریان گذشته، حال و آینده.';
 
   @override
-  String get spreadFourCardName => 'Four Card';
+  String get spreadFourCardName => 'چهار کارت';
 
   @override
   String get spreadFourCardDesc =>
-      'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.';
+      'پخش 4 کارتی برای تشخیص واضح علت مشکل، دریافت مشاوره و دیدن نتیجه.';
 
   @override
-  String get spreadFiveCardName => 'Five Card';
+  String get spreadFiveCardName => 'پنج کارت';
 
   @override
   String get spreadFiveCardDesc =>
-      'A 5-card spread examining the core of the situation, its causes, and potential outcomes.';
+      'پخش 5 کارتی که هسته موقعیت، علل آن و نتایج بالقوه را بررسی می کند.';
 
   @override
-  String get spreadCelticCrossName => 'Celtic Cross';
+  String get spreadCelticCrossName => 'صلیب سلتیک';
 
   @override
   String get spreadCelticCrossDesc =>
-      '10 cards for an in-depth analysis of a complex problem.';
+      '10 کارت برای تجزیه و تحلیل عمیق یک مشکل پیچیده.';
 
   @override
-  String get positionOneCard => 'Today\'s Card';
+  String get positionOneCard => 'کارت امروز';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '1. موقعیت';
 
   @override
-  String get positionTwoCard2 => '2. Advice';
+  String get positionTwoCard2 => '2. مشاوره';
 
   @override
-  String get positionThreeCard1 => 'Past';
+  String get positionThreeCard1 => 'گذشته';
 
   @override
-  String get positionThreeCard2 => 'Present';
+  String get positionThreeCard2 => 'حاضر شود';
 
   @override
-  String get positionThreeCard3 => 'Future';
+  String get positionThreeCard3 => 'آینده';
 
   @override
-  String get positionFourCard1 => '1. Problem';
+  String get positionFourCard1 => '1. مشکل';
 
   @override
-  String get positionFourCard2 => '2. Cause';
+  String get positionFourCard2 => '2. علت';
 
   @override
-  String get positionFourCard3 => '3. Advice';
+  String get positionFourCard3 => '3. مشاوره';
 
   @override
-  String get positionFourCard4 => '4. Outcome';
+  String get positionFourCard4 => '4. نتیجه';
 
   @override
-  String get positionFiveCard1 => '1. Present';
+  String get positionFiveCard1 => '1. ارائه';
 
   @override
-  String get positionFiveCard2 => '2. Past Influences';
+  String get positionFiveCard2 => '2. تأثیرات گذشته';
 
   @override
-  String get positionFiveCard3 => '3. Future Direction';
+  String get positionFiveCard3 => '3. جهت آینده';
 
   @override
-  String get positionFiveCard4 => '4. Core Reason';
+  String get positionFiveCard4 => '4. دلیل اصلی';
 
   @override
-  String get positionFiveCard5 => '5. Potential Outcome';
+  String get positionFiveCard5 => '5. نتیجه بالقوه';
 
   @override
-  String get positionCelticCross1 => '1. Present (Querent)';
+  String get positionCelticCross1 => '1. حال (Querent)';
 
   @override
-  String get positionCelticCross2 => '2. The Challenge';
+  String get positionCelticCross2 => '2. چالش';
 
   @override
-  String get positionCelticCross3 => '3. The Past';
+  String get positionCelticCross3 => '3. گذشته';
 
   @override
-  String get positionCelticCross4 => '4. The Future';
+  String get positionCelticCross4 => '4. آینده';
 
   @override
-  String get positionCelticCross5 => '5. Conscious';
+  String get positionCelticCross5 => '5. هوشیار';
 
   @override
-  String get positionCelticCross6 => '6. Subconscious';
+  String get positionCelticCross6 => '6. ناخودآگاه';
 
   @override
-  String get positionCelticCross7 => '7. Advice';
+  String get positionCelticCross7 => '7. مشاوره';
 
   @override
-  String get positionCelticCross8 => '8. External Influences';
+  String get positionCelticCross8 => '8. تأثیرات بیرونی';
 
   @override
-  String get positionCelticCross9 => '9. Hopes and Fears';
+  String get positionCelticCross9 => '9. امیدها و ترس ها';
 
   @override
-  String get positionCelticCross10 => '10. Outcome';
+  String get positionCelticCross10 => '10. نتیجه';
 
   @override
-  String get navReading => 'فال تاروت';
+  String get navReading => 'تاروت خواندن';
 
   @override
   String get navChat => 'چت تاروت';
 
   @override
-  String get navMeanings => 'معانی';
+  String get navMeanings => 'معنی کارت';
 
   @override
-  String get navMyMenu => 'My Menu';
+  String get navMyMenu => 'منوی من';
 
   @override
   String get readingIntroTitle => 'نجواهای\nسرنوشت';
@@ -1197,4 +1195,1718 @@ class AppLocalizationsFa extends AppLocalizations {
   @override
   String get chatProfileTapHint =>
       'برای مشاهده جزئیات، روی عکس پروفایل ضربه بزنید';
+
+  @override
+  String get themeName1 => 'موضوع 1';
+
+  @override
+  String get themeName2 => 'تم 2';
+
+  @override
+  String get themeName3 => 'موضوع 3';
+
+  @override
+  String get themeMagicBook => 'کتاب جادو';
+
+  @override
+  String get themeBlackCat => 'گربه سیاه';
+
+  @override
+  String get themeEmptyPaidThemes =>
+      'تم ها را در فروشگاه خریداری کنید\nبرای پر کردن این فضا!';
+
+  @override
+  String get shopThemePurchaseTitle => 'خرید تم';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return 'آیا می خواهید طرح زمینه $skinName را برای سکه های $cost خریداری کنید؟';
+  }
+
+  @override
+  String get shopCancel => 'لغو کنید';
+
+  @override
+  String get shopPurchase => 'خرید';
+
+  @override
+  String get shopAlreadyOwned =>
+      'قبلاً متعلق به سعی کنید آن را در تنظیمات تم اعمال کنید!';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return '$skinName با موفقیت خریداری شد! تنظیمات تم را بررسی کنید.';
+  }
+
+  @override
+  String get shopNotEnoughCoins => 'سکه کافی نیست';
+
+  @override
+  String get shopOwned => 'متعلق به';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost سکه';
+  }
+
+  @override
+  String get navDiary => 'دفتر خاطرات تاروت';
+
+  @override
+  String get myMenuFirebaseNotConnected => 'Firebase متصل نیست';
+
+  @override
+  String get myMenuWindowsSetupNeeded => 'نصب ویندوز مورد نیاز است (پیش نمایش)';
+
+  @override
+  String get myMenuTouchToViewLogin =>
+      'برای مشاهده رابط کاربری ورود به سیستم ضربه بزنید';
+
+  @override
+  String get myMenuNoName => 'بدون نام';
+
+  @override
+  String get myMenuPleaseLogin => 'لطفا وارد شوید';
+
+  @override
+  String get myMenuTouchToSignupLogin =>
+      'برای ثبت نام و ورود به سیستم ضربه بزنید';
+
+  @override
+  String get myMenuSectionMyRecords => 'سوابق من';
+
+  @override
+  String get myMenuDiaryStorage => 'ذخیره سازی خاطرات';
+
+  @override
+  String get myMenuCheckSavedDiary => 'خاطرات ذخیره شده خود را بررسی کنید.';
+
+  @override
+  String get myMenuFavoriteCards => 'کارت های مورد علاقه';
+
+  @override
+  String get myMenuMyFavoriteCardsList => 'لیست کارت های مورد علاقه من';
+
+  @override
+  String get myMenuSectionAppSettings => 'تنظیمات برنامه';
+
+  @override
+  String get myMenuPushNotifications => 'Push Notifications';
+
+  @override
+  String get myMenuPushNotificationsDesc => 'طالع بینی و رویدادهای جدید';
+
+  @override
+  String get myMenuLanguageSettings => 'تنظیمات زبان';
+
+  @override
+  String get myMenuThemeSettings => 'تنظیمات تم';
+
+  @override
+  String get myMenuChangeBackground => 'تغییر تصویر پس زمینه';
+
+  @override
+  String get myMenuSectionCustomerSupport => 'پشتیبانی مشتری';
+
+  @override
+  String get myMenuFaq => 'سوالات متداول';
+
+  @override
+  String get myMenuAppInfo => 'اطلاعات برنامه';
+
+  @override
+  String get myMenuSectionAccountManagement => 'مدیریت حساب';
+
+  @override
+  String get myMenuLogout => 'از سیستم خارج شوید';
+
+  @override
+  String get myMenuLogoutDesc => 'از دستگاه فعلی خارج شوید.';
+
+  @override
+  String get myMenuEmailVerifiedMsg => 'تایید ایمیل تایید شد! ✨';
+
+  @override
+  String get myMenuEmailSendTitle => 'ارسال ایمیل تایید';
+
+  @override
+  String get myMenuEmailSendContent =>
+      'ایمیل تایید ارسال شد.\nلطفا صندوق ورودی خود را بررسی کنید، روی پیوند کلیک کنید و دوباره این دکمه را فشار دهید!';
+
+  @override
+  String get myMenuConfirm => 'تایید کنید';
+
+  @override
+  String get myMenuEmailErrorMsg =>
+      'درخواست های بسیار زیاد یا خطایی رخ داده است.';
+
+  @override
+  String get myMenuEmailVerified => 'ایمیل تایید شد';
+
+  @override
+  String get myMenuEmailNotVerified =>
+      'ایمیل تأیید نشده است (برای تأیید ضربه بزنید)';
+
+  @override
+  String get languageSystemDefault => 'پیش فرض سیستم';
+
+  @override
+  String get shopTitle => 'خرید کنید';
+
+  @override
+  String get shopSubtitle => 'خرید سکه و تم';
+
+  @override
+  String get shopTabCoin => 'سکه';
+
+  @override
+  String get shopTabTheme => 'موضوع';
+
+  @override
+  String get shopPayButton => 'پرداخت کنید';
+
+  @override
+  String get themeOriginalDeck => 'دک کلاسیک اصلی';
+
+  @override
+  String get themeGoldenSunDeck => 'عرشه خورشید طلایی';
+
+  @override
+  String get themeDarkAbyssDeck => 'عرشه تاریک ابیس';
+
+  @override
+  String get themeSpringSpiritDeck => 'عرشه روح بهار';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return 'پرداخت $coins سکه به زودی انجام می شود.';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return 'خرید / درخواست برای $name به زودی ارائه می شود.';
+  }
+
+  @override
+  String get readingIntroSelectWitch =>
+      'یک جادوگر را برای دیدن سرنوشت خود انتخاب کنید';
+
+  @override
+  String get readingIntroGreeting =>
+      'به چه سرنوشتی نگاه کنیم؟\nمن در مورد آینده شما کنجکاو هستم.';
+
+  @override
+  String get readingIntroStart => 'Spread را انتخاب کنید';
+
+  @override
+  String get tabMajorArcana => 'سرگرد آرکانا';
+
+  @override
+  String get tabMinorArcana => 'آرکانای کوچک';
+
+  @override
+  String get nicknamePrefix0 => 'غیبی';
+
+  @override
+  String get nicknamePrefix1 => 'آرام';
+
+  @override
+  String get nicknamePrefix2 => 'مقدس';
+
+  @override
+  String get nicknamePrefix3 => 'تاریک';
+
+  @override
+  String get nicknamePrefix4 => 'درخشان';
+
+  @override
+  String get nicknamePrefix5 => 'تاریک';
+
+  @override
+  String get nicknamePrefix6 => 'داغ';
+
+  @override
+  String get nicknamePrefix7 => 'جذاب';
+
+  @override
+  String get nicknamePrefix8 => 'بی رحمانه';
+
+  @override
+  String get nicknamePrefix9 => 'خالص';
+
+  @override
+  String get nicknamePrefix10 => 'خشن';
+
+  @override
+  String get nicknamePrefix11 => 'نرم';
+
+  @override
+  String get nicknamePrefix12 => 'زیبا';
+
+  @override
+  String get nicknamePrefix13 => 'عجیب و غریب';
+
+  @override
+  String get nicknamePrefix14 => 'بزرگ';
+
+  @override
+  String get nicknamePrefix15 => 'کهنه';
+
+  @override
+  String get nicknamePrefix16 => 'ابدی';
+
+  @override
+  String get nicknamePrefix17 => 'فراموش شده';
+
+  @override
+  String get nicknamePrefix18 => 'درخشان';
+
+  @override
+  String get nicknamePrefix19 => 'غمگین';
+
+  @override
+  String get nicknamePrefix20 => 'خوشحالم';
+
+  @override
+  String get nicknamePrefix21 => 'رویایی';
+
+  @override
+  String get nicknamePrefix22 => 'افتاده';
+
+  @override
+  String get nicknamePrefix23 => 'سفید خالص';
+
+  @override
+  String get nicknamePrefix24 => 'جت سیاه';
+
+  @override
+  String get nicknamePrefix25 => 'خونین';
+
+  @override
+  String get nicknamePrefix26 => 'مایل به خاکستری';
+
+  @override
+  String get nicknamePrefix27 => 'طلایی';
+
+  @override
+  String get nicknamePrefix28 => 'آرجنت';
+
+  @override
+  String get nicknamePrefix29 => 'آبی';
+
+  @override
+  String get nicknamePrefix30 => 'قرمز';
+
+  @override
+  String get nicknamePrefix31 => 'زرد';
+
+  @override
+  String get nicknamePrefix32 => 'سیاه';
+
+  @override
+  String get nicknamePrefix33 => 'سفید';
+
+  @override
+  String get nicknamePrefix34 => 'شفاف';
+
+  @override
+  String get nicknamePrefix35 => 'تنها';
+
+  @override
+  String get nicknamePrefix36 => 'پر سر و صدا';
+
+  @override
+  String get nicknamePrefix37 => 'ساکت';
+
+  @override
+  String get nicknamePrefix38 => 'گرم';
+
+  @override
+  String get nicknamePrefix39 => 'یخ زده';
+
+  @override
+  String get nicknamePrefix40 => 'انفرادی';
+
+  @override
+  String get nicknamePrefix41 => 'تنها';
+
+  @override
+  String get nicknamePrefix42 => 'خوشحال';
+
+  @override
+  String get nicknamePrefix43 => 'خوشحال';
+
+  @override
+  String get nicknamePrefix44 => 'غمگین';
+
+  @override
+  String get nicknamePrefix45 => 'ناامید';
+
+  @override
+  String get nicknamePrefix46 => 'امیدوار کننده';
+
+  @override
+  String get nicknamePrefix47 => 'خیره کننده';
+
+  @override
+  String get nicknamePrefix48 => 'تاریک';
+
+  @override
+  String get nicknamePrefix49 => 'نیمه شب';
+
+  @override
+  String get nicknamePrefix50 => 'متروک';
+
+  @override
+  String get nicknamePrefix51 => 'راز';
+
+  @override
+  String get nicknamePrefix52 => 'راز';
+
+  @override
+  String get nicknamePrefix53 => 'مقدس';
+
+  @override
+  String get nicknamePrefix54 => 'ناسزا';
+
+  @override
+  String get nicknamePrefix55 => 'برتر';
+
+  @override
+  String get nicknamePrefix56 => 'متواضع';
+
+  @override
+  String get nicknamePrefix57 => 'عاقل';
+
+  @override
+  String get nicknamePrefix58 => 'احمقانه';
+
+  @override
+  String get nicknamePrefix59 => 'سخت';
+
+  @override
+  String get nicknamePrefix60 => 'ضعیف';
+
+  @override
+  String get nicknamePrefix61 => 'شجاع';
+
+  @override
+  String get nicknamePrefix62 => 'افتضاح';
+
+  @override
+  String get nicknamePrefix63 => 'دور';
+
+  @override
+  String get nicknamePrefix64 => 'نزدیک';
+
+  @override
+  String get nicknamePrefix65 => 'دور شدن';
+
+  @override
+  String get nicknamePrefix66 => 'پیش رو';
+
+  @override
+  String get nicknamePrefix67 => 'ناپدید شدن';
+
+  @override
+  String get nicknamePrefix68 => 'اورژانسی';
+
+  @override
+  String get nicknamePrefix69 => 'بیدار شد';
+
+  @override
+  String get nicknamePrefix70 => 'خوابیده';
+
+  @override
+  String get nicknamePrefix71 => 'خواب دیدن';
+
+  @override
+  String get nicknamePrefix72 => 'سرگردان';
+
+  @override
+  String get nicknamePrefix73 => 'سرگردان';
+
+  @override
+  String get nicknamePrefix74 => 'ماندن';
+
+  @override
+  String get nicknamePrefix75 => 'ترک کردن';
+
+  @override
+  String get nicknamePrefix76 => 'برگشتن';
+
+  @override
+  String get nicknamePrefix77 => 'در انتظار';
+
+  @override
+  String get nicknamePrefix78 => 'به دنبال';
+
+  @override
+  String get nicknamePrefix79 => 'مرموز';
+
+  @override
+  String get nicknamePrefix80 => 'در معرض';
+
+  @override
+  String get nicknamePrefix81 => 'رها شده است';
+
+  @override
+  String get nicknamePrefix82 => 'انتخاب شده است';
+
+  @override
+  String get nicknamePrefix83 => 'مبارک';
+
+  @override
+  String get nicknamePrefix84 => 'نفرین شده';
+
+  @override
+  String get nicknamePrefix85 => 'دوست داشت';
+
+  @override
+  String get nicknamePrefix86 => 'منفور';
+
+  @override
+  String get nicknamePrefix87 => 'به یاد داشته باشید';
+
+  @override
+  String get nicknamePrefix88 => 'غافل';
+
+  @override
+  String get nicknamePrefix89 => 'نور ستاره';
+
+  @override
+  String get nicknamePrefix90 => 'مهتاب';
+
+  @override
+  String get nicknamePrefix91 => 'از نور خورشید';
+
+  @override
+  String get nicknamePrefix92 => 'کیهانی';
+
+  @override
+  String get nicknamePrefix93 => 'از زمین';
+
+  @override
+  String get nicknamePrefix94 => 'از دریا';
+
+  @override
+  String get nicknamePrefix95 => 'بهشتی';
+
+  @override
+  String get nicknamePrefix96 => 'از ابرها';
+
+  @override
+  String get nicknamePrefix97 => 'از باد';
+
+  @override
+  String get nicknamePrefix98 => 'باران';
+
+  @override
+  String get nicknamePrefix99 => 'از چشم';
+
+  @override
+  String get nicknamePrefix100 => 'یخی';
+
+  @override
+  String get nicknamePrefix101 => 'آتشین';
+
+  @override
+  String get nicknamePrefix102 => 'آب';
+
+  @override
+  String get nicknamePrefix103 => 'خاکی';
+
+  @override
+  String get nicknamePrefix104 => 'چوبی';
+
+  @override
+  String get nicknamePrefix105 => 'جنگل';
+
+  @override
+  String get nicknamePrefix106 => 'کوهستانی';
+
+  @override
+  String get nicknamePrefix107 => 'سخنرانی';
+
+  @override
+  String get nicknamePrefix108 => 'از دریاچه';
+
+  @override
+  String get nicknamePrefix109 => 'از زمان';
+
+  @override
+  String get nicknamePrefix110 => 'از فضا';
+
+  @override
+  String get nicknamePrefix111 => 'بعد';
+
+  @override
+  String get nicknamePrefix112 => 'سرنوشت ساز';
+
+  @override
+  String get nicknamePrefix113 => 'سرنوشت ساز';
+
+  @override
+  String get nicknamePrefix114 => 'معجزه آسا';
+
+  @override
+  String get nicknamePrefix115 => 'جادویی';
+
+  @override
+  String get nicknamePrefix116 => 'اسطوره ای';
+
+  @override
+  String get nicknamePrefix117 => 'افسانه ای';
+
+  @override
+  String get nicknamePrefix118 => 'از حقیقت';
+
+  @override
+  String get nicknamePrefix119 => 'نادرست';
+
+  @override
+  String get nicknamePrefix120 => 'فانتزی';
+
+  @override
+  String get nicknamePrefix121 => 'رویا';
+
+  @override
+  String get nicknamePrefix122 => 'کابوس';
+
+  @override
+  String get nicknamePrefix123 => 'خراب کردن';
+
+  @override
+  String get nicknamePrefix124 => 'خلقت';
+
+  @override
+  String get nicknamePrefix125 => 'از زندگی';
+
+  @override
+  String get nicknamePrefix126 => 'از مرگ';
+
+  @override
+  String get nicknamePrefix127 => 'روح';
+
+  @override
+  String get nicknamePrefix128 => 'فیزیکی';
+
+  @override
+  String get nicknamePrefix129 => 'از عقل';
+
+  @override
+  String get nicknamePrefix130 => 'احساسی';
+
+  @override
+  String get nicknamePrefix131 => 'از عشق';
+
+  @override
+  String get nicknamePrefix132 => 'از نفرت';
+
+  @override
+  String get nicknamePrefix133 => 'از غم و اندوه';
+
+  @override
+  String get nicknamePrefix134 => 'از شادی';
+
+  @override
+  String get nicknamePrefix135 => 'عصبانی';
+
+  @override
+  String get nicknamePrefix136 => 'از صلح';
+
+  @override
+  String get nicknamePrefix137 => 'از جنگ';
+
+  @override
+  String get nicknamePrefix138 => 'هرج و مرج';
+
+  @override
+  String get nicknamePrefix139 => 'منظم';
+
+  @override
+  String get nicknamePrefix140 => 'از نور';
+
+  @override
+  String get nicknamePrefix141 => 'تاریک';
+
+  @override
+  String get nicknamePrefix142 => 'گرگ و میش';
+
+  @override
+  String get nicknamePrefix143 => 'سپیده دم';
+
+  @override
+  String get nicknamePrefix144 => 'ظهر';
+
+  @override
+  String get nicknamePrefix145 => 'نیمه شب';
+
+  @override
+  String get nicknamePrefix146 => 'گذشته';
+
+  @override
+  String get nicknamePrefix147 => 'حاضر';
+
+  @override
+  String get nicknamePrefix148 => 'آینده';
+
+  @override
+  String get nicknamePrefix149 => 'مبدأ';
+
+  @override
+  String get nicknamePrefix150 => 'آخرالزمانی';
+
+  @override
+  String get nicknamePrefix151 => 'بی نهایت';
+
+  @override
+  String get nicknamePrefix152 => 'متناهی';
+
+  @override
+  String get nicknamePrefix153 => 'ساکت';
+
+  @override
+  String get nicknamePrefix154 => 'از سر و صدا';
+
+  @override
+  String get nicknamePrefix155 => 'آواز خواندن';
+
+  @override
+  String get nicknamePrefix156 => 'رقصیدن';
+
+  @override
+  String get nicknamePrefix157 => 'گریه کردن';
+
+  @override
+  String get nicknamePrefix158 => 'لبخند زدن';
+
+  @override
+  String get nicknamePrefix159 => 'زمزمه کردن';
+
+  @override
+  String get nicknamePrefix160 => 'گریه کردن';
+
+  @override
+  String get nicknamePrefix161 => 'دعا کردن';
+
+  @override
+  String get nicknamePrefix162 => 'التماس کردن';
+
+  @override
+  String get nicknamePrefix163 => 'فرمان دادن';
+
+  @override
+  String get nicknamePrefix164 => 'مطیع';
+
+  @override
+  String get nicknamePrefix165 => 'حکم می کند';
+
+  @override
+  String get nicknamePrefix166 => 'خدمت کردن';
+
+  @override
+  String get nicknamePrefix167 => 'هدایت کردن';
+
+  @override
+  String get nicknamePrefix168 => 'همراه';
+
+  @override
+  String get nicknamePrefix169 => 'تدریس';
+
+  @override
+  String get nicknamePrefix170 => 'یادگیری';
+
+  @override
+  String get nicknamePrefix171 => 'از حافظه';
+
+  @override
+  String get nicknamePrefix172 => 'از خاطرات';
+
+  @override
+  String get nicknamePrefix173 => 'از زخم ها';
+
+  @override
+  String get nicknamePrefix174 => 'التیام‌بخش';
+
+  @override
+  String get nicknamePrefix175 => 'سمی';
+
+  @override
+  String get nicknamePrefix176 => 'دارو';
+
+  @override
+  String get nicknamePrefix177 => 'خوش آمدید';
+
+  @override
+  String get nicknamePrefix178 => 'از ماده';
+
+  @override
+  String get nicknamePrefix179 => 'ایده آل';
+
+  @override
+  String get nicknamePrefix180 => 'واقعی';
+
+  @override
+  String get nicknamePrefix181 => 'خیالی';
+
+  @override
+  String get nicknamePrefix182 => 'طبیعی';
+
+  @override
+  String get nicknamePrefix183 => 'مصنوعی';
+
+  @override
+  String get nicknamePrefix184 => 'در آغاز';
+
+  @override
+  String get nicknamePrefix185 => 'ابدیت';
+
+  @override
+  String get nicknamePrefix186 => 'از لحظه';
+
+  @override
+  String get nicknamePrefix187 => 'زودگذر';
+
+  @override
+  String get nicknamePrefix188 => 'ابدی';
+
+  @override
+  String get nicknamePrefix189 => 'از تغییر';
+
+  @override
+  String get nicknamePrefix190 => 'هنوز';
+
+  @override
+  String get nicknamePrefix191 => 'جاری';
+
+  @override
+  String get nicknamePrefix192 => 'خلاصه';
+
+  @override
+  String get nicknamePrefix193 => 'شعله ور';
+
+  @override
+  String get nicknamePrefix194 => 'خنک شدن';
+
+  @override
+  String get nicknamePrefix195 => 'شکوفه دادن';
+
+  @override
+  String get nicknamePrefix196 => 'پژمرده شدن';
+
+  @override
+  String get nicknamePrefix197 => 'بزرگ شدن';
+
+  @override
+  String get nicknamePrefix198 => 'در حال مرگ';
+
+  @override
+  String get nicknamePrefix199 => 'نفس کشیدن';
+
+  @override
+  String get nicknamePrefix200 => 'خفه کننده';
+
+  @override
+  String get nicknameSuffix0 => 'پیامبر';
+
+  @override
+  String get nicknameSuffix1 => 'جادوگر';
+
+  @override
+  String get nicknameSuffix2 => 'جادوگر';
+
+  @override
+  String get nicknameSuffix3 => 'مقاله';
+
+  @override
+  String get nicknameSuffix4 => 'جنگجو';
+
+  @override
+  String get nicknameSuffix5 => 'کماندار';
+
+  @override
+  String get nicknameSuffix6 => 'دزد';
+
+  @override
+  String get nicknameSuffix7 => 'قاتل';
+
+  @override
+  String get nicknameSuffix8 => 'پالادین';
+
+  @override
+  String get nicknameSuffix9 => 'کشیش';
+
+  @override
+  String get nicknameSuffix10 => 'کشیش';
+
+  @override
+  String get nicknameSuffix11 => 'راهب';
+
+  @override
+  String get nicknameSuffix12 => 'وای';
+
+  @override
+  String get nicknameSuffix13 => 'کیمیاگر';
+
+  @override
+  String get nicknameSuffix14 => 'نکرومانسر';
+
+  @override
+  String get nicknameSuffix15 => 'ارواح';
+
+  @override
+  String get nicknameSuffix16 => 'احضار کننده';
+
+  @override
+  String get nicknameSuffix17 => 'توهم گرا';
+
+  @override
+  String get nicknameSuffix18 => 'شفا دهنده';
+
+  @override
+  String get nicknameSuffix19 => 'مرد عاقل';
+
+  @override
+  String get nicknameSuffix20 => 'محقق';
+
+  @override
+  String get nicknameSuffix21 => 'محقق';
+
+  @override
+  String get nicknameSuffix22 => 'کاوشگر';
+
+  @override
+  String get nicknameSuffix23 => 'مسافر';
+
+  @override
+  String get nicknameSuffix24 => 'ولگرد';
+
+  @override
+  String get nicknameSuffix25 => 'ولگرد';
+
+  @override
+  String get nicknameSuffix26 => 'زائر';
+
+  @override
+  String get nicknameSuffix27 => 'جوینده';
+
+  @override
+  String get nicknameSuffix28 => 'ناظر';
+
+  @override
+  String get nicknameSuffix29 => 'ضبط کننده';
+
+  @override
+  String get nicknameSuffix30 => 'ارتباط دهنده';
+
+  @override
+  String get nicknameSuffix31 => 'سرپرست';
+
+  @override
+  String get nicknameSuffix32 => 'نگهبان';
+
+  @override
+  String get nicknameSuffix33 => 'نگهبان';
+
+  @override
+  String get nicknameSuffix34 => 'دروازه بان';
+
+  @override
+  String get nicknameSuffix35 => 'قضاوت کنید';
+
+  @override
+  String get nicknameSuffix36 => 'ضابط';
+
+  @override
+  String get nicknameSuffix37 => 'فرماندار';
+
+  @override
+  String get nicknameSuffix38 => 'حاکم';
+
+  @override
+  String get nicknameSuffix39 => 'پادشاه';
+
+  @override
+  String get nicknameSuffix40 => 'ملکه';
+
+  @override
+  String get nicknameSuffix41 => 'امپراتور';
+
+  @override
+  String get nicknameSuffix42 => 'ملکه';
+
+  @override
+  String get nicknameSuffix43 => 'اشرافیت';
+
+  @override
+  String get nicknameSuffix44 => 'اقامت دائم';
+
+  @override
+  String get nicknameSuffix45 => 'فرمانده شوالیه';
+
+  @override
+  String get nicknameSuffix46 => 'مزدور';
+
+  @override
+  String get nicknameSuffix47 => 'دزد دریایی';
+
+  @override
+  String get nicknameSuffix48 => 'دزد';
+
+  @override
+  String get nicknameSuffix49 => 'تقلب';
+
+  @override
+  String get nicknameSuffix50 => 'شوخی';
+
+  @override
+  String get nicknameSuffix51 => 'احمق';
+
+  @override
+  String get nicknameSuffix52 => 'گوشه نشین';
+
+  @override
+  String get nicknameSuffix53 => 'بدعت گذار';
+
+  @override
+  String get nicknameSuffix54 => 'خیانتکار';
+
+  @override
+  String get nicknameSuffix55 => 'خائن';
+
+  @override
+  String get nicknameSuffix56 => 'قهرمان';
+
+  @override
+  String get nicknameSuffix57 => 'پس انداز';
+
+  @override
+  String get nicknameSuffix58 => 'رهایی بخش';
+
+  @override
+  String get nicknameSuffix59 => 'ناوشکن';
+
+  @override
+  String get nicknameSuffix60 => 'خالق';
+
+  @override
+  String get nicknameSuffix61 => 'خدا';
+
+  @override
+  String get nicknameSuffix62 => 'الهه';
+
+  @override
+  String get nicknameSuffix63 => 'فرشته';
+
+  @override
+  String get nicknameSuffix64 => 'شیطان';
+
+  @override
+  String get nicknameSuffix65 => 'فرمان دولتی';
+
+  @override
+  String get nicknameSuffix66 => 'پری';
+
+  @override
+  String get nicknameSuffix67 => 'هیولا';
+
+  @override
+  String get nicknameSuffix68 => 'جانور شیطان';
+
+  @override
+  String get nicknameSuffix69 => 'اژدها';
+
+  @override
+  String get nicknameSuffix70 => 'روح';
+
+  @override
+  String get nicknameSuffix71 => 'سایه';
+
+  @override
+  String get nicknameSuffix72 => 'مرده';
+
+  @override
+  String get nicknameSuffix73 => 'خون آشام';
+
+  @override
+  String get nicknameSuffix74 => 'گرگینه';
+
+  @override
+  String get nicknameSuffix75 => 'پری دریایی';
+
+  @override
+  String get nicknameSuffix76 => 'آژیر';
+
+  @override
+  String get nicknameSuffix77 => 'پوره';
+
+  @override
+  String get nicknameSuffix78 => 'جن';
+
+  @override
+  String get nicknameSuffix79 => 'بلوط';
+
+  @override
+  String get nicknameSuffix80 => 'ترول';
+
+  @override
+  String get nicknameSuffix81 => 'جن';
+
+  @override
+  String get nicknameSuffix82 => 'کوتوله';
+
+  @override
+  String get nicknameSuffix83 => 'غول';
+
+  @override
+  String get nicknameSuffix84 => 'مهر پست';
+
+  @override
+  String get nicknameSuffix85 => 'انسان';
+
+  @override
+  String get nicknameSuffix86 => 'زندانی';
+
+  @override
+  String get nicknameSuffix87 => 'امضا';
+
+  @override
+  String get nicknameSuffix88 => 'ماهیگیر';
+
+  @override
+  String get nicknameSuffix89 => 'کارمند';
+
+  @override
+  String get nicknameSuffix90 => 'روح شیطانی';
+
+  @override
+  String get nicknameSuffix91 => 'سوره';
+
+  @override
+  String get nicknameSuffix92 => 'جهنم';
+
+  @override
+  String get nicknameSuffix93 => 'بهشت';
+
+  @override
+  String get nicknameSuffix94 => 'عالم اموات';
+
+  @override
+  String get nicknameSuffix95 => 'جهان دیگر';
+
+  @override
+  String get nicknameSuffix96 => 'پرتگاه';
+
+  @override
+  String get nicknameSuffix97 => 'هرج و مرج';
+
+  @override
+  String get nicknameSuffix98 => 'سفارش دهید';
+
+  @override
+  String get nicknameSuffix99 => 'نور';
+
+  @override
+  String get nicknameSuffix100 => 'تاریک';
+
+  @override
+  String get nicknamePrefix201 => 'درخشان';
+
+  @override
+  String get nicknamePrefix202 => 'ظریف';
+
+  @override
+  String get nicknamePrefix203 => 'مه آلود';
+
+  @override
+  String get nicknamePrefix204 => 'غش کردن';
+
+  @override
+  String get nicknamePrefix205 => 'شفاف';
+
+  @override
+  String get nicknamePrefix206 => 'غش کردن';
+
+  @override
+  String get nicknamePrefix207 => 'خیره کننده';
+
+  @override
+  String get nicknamePrefix208 => 'عجیب و غریب';
+
+  @override
+  String get nicknamePrefix209 => 'عجیب و غریب';
+
+  @override
+  String get nicknamePrefix210 => 'خاص';
+
+  @override
+  String get nicknamePrefix211 => 'نجیب';
+
+  @override
+  String get nicknamePrefix212 => 'خالص';
+
+  @override
+  String get nicknamePrefix213 => 'افتاده';
+
+  @override
+  String get nicknamePrefix214 => 'تنها';
+
+  @override
+  String get nicknamePrefix215 => 'تنها';
+
+  @override
+  String get nicknamePrefix216 => 'متروک';
+
+  @override
+  String get nicknamePrefix217 => 'دور';
+
+  @override
+  String get nicknamePrefix218 => 'خشن';
+
+  @override
+  String get nicknamePrefix219 => 'بی رحم';
+
+  @override
+  String get nicknamePrefix220 => 'بی رحمانه';
+
+  @override
+  String get nicknamePrefix221 => 'بزرگ';
+
+  @override
+  String get nicknamePrefix222 => 'سخت';
+
+  @override
+  String get nicknamePrefix223 => 'محکم';
+
+  @override
+  String get nicknamePrefix224 => 'سینوسی';
+
+  @override
+  String get nicknamePrefix225 => 'سریع';
+
+  @override
+  String get nicknamePrefix226 => 'کند';
+
+  @override
+  String get nicknamePrefix227 => 'در سکوت';
+
+  @override
+  String get nicknamePrefix228 => 'در هرج و مرج';
+
+  @override
+  String get nicknamePrefix229 => 'در حافظه';
+
+  @override
+  String get nicknamePrefix230 => 'خیالی';
+
+  @override
+  String get nicknamePrefix231 => 'ساکت';
+
+  @override
+  String get nicknamePrefix232 => 'زمزمه کردن';
+
+  @override
+  String get nicknamePrefix233 => 'آواز خواندن';
+
+  @override
+  String get nicknamePrefix234 => 'رقصیدن';
+
+  @override
+  String get nicknamePrefix235 => 'گریه کردن';
+
+  @override
+  String get nicknamePrefix236 => 'لبخند زدن';
+
+  @override
+  String get nicknamePrefix237 => 'تمسخر';
+
+  @override
+  String get nicknamePrefix238 => 'در حال تعمق';
+
+  @override
+  String get nicknamePrefix239 => 'سرگردان';
+
+  @override
+  String get nicknamePrefix240 => 'سرگردان';
+
+  @override
+  String get nicknamePrefix241 => 'بیدار';
+
+  @override
+  String get nicknamePrefix242 => 'خوابیده';
+
+  @override
+  String get nicknamePrefix243 => 'خواب دیدن';
+
+  @override
+  String get nicknamePrefix244 => 'خیال پردازی';
+
+  @override
+  String get nicknamePrefix245 => 'متوهم';
+
+  @override
+  String get nicknamePrefix246 => 'دعا کردن';
+
+  @override
+  String get nicknamePrefix247 => 'جدی';
+
+  @override
+  String get nicknamePrefix248 => 'غمگین';
+
+  @override
+  String get nicknamePrefix249 => 'بدبخت';
+
+  @override
+  String get nicknamePrefix250 => 'عالی';
+
+  @override
+  String get nicknamePrefix251 => 'شریر';
+
+  @override
+  String get nicknamePrefix252 => 'معنی';
+
+  @override
+  String get nicknamePrefix253 => 'مغرور';
+
+  @override
+  String get nicknamePrefix254 => 'متواضع';
+
+  @override
+  String get nicknamePrefix255 => 'دوست داشتنی';
+
+  @override
+  String get nicknamePrefix256 => 'گرم';
+
+  @override
+  String get nicknamePrefix257 => 'باحال';
+
+  @override
+  String get nicknamePrefix258 => 'سرد';
+
+  @override
+  String get nicknamePrefix259 => 'عجیب و غریب';
+
+  @override
+  String get nicknamePrefix260 => 'غیر معمول';
+
+  @override
+  String get nicknamePrefix261 => 'تسخیر کردن';
+
+  @override
+  String get nicknamePrefix262 => 'جذاب';
+
+  @override
+  String get nicknamePrefix263 => 'سرگیجه آور';
+
+  @override
+  String get nicknamePrefix264 => 'شیرین';
+
+  @override
+  String get nicknamePrefix265 => 'تلخ';
+
+  @override
+  String get nicknamePrefix266 => 'تلخ';
+
+  @override
+  String get nicknamePrefix267 => 'خاردار';
+
+  @override
+  String get nicknamePrefix268 => 'تیز';
+
+  @override
+  String get nicknamePrefix269 => 'کسل کننده';
+
+  @override
+  String get nicknamePrefix270 => 'خشن';
+
+  @override
+  String get nicknamePrefix271 => 'نرم';
+
+  @override
+  String get nicknamePrefix272 => 'دنج';
+
+  @override
+  String get nicknamePrefix273 => 'راحت';
+
+  @override
+  String get nicknamePrefix274 => 'پرمخاطره';
+
+  @override
+  String get nicknamePrefix275 => 'ناآرام';
+
+  @override
+  String get nicknamePrefix276 => 'آرام';
+
+  @override
+  String get nicknamePrefix277 => 'آرام';
+
+  @override
+  String get nicknamePrefix278 => 'خواب آلود';
+
+  @override
+  String get nicknamePrefix279 => 'بی حوصله';
+
+  @override
+  String get nicknamePrefix280 => 'پرشور';
+
+  @override
+  String get nicknamePrefix281 => 'بی تعارف';
+
+  @override
+  String get nicknamePrefix282 => 'آرام';
+
+  @override
+  String get nicknamePrefix283 => 'خشونت آمیز';
+
+  @override
+  String get nicknamePrefix284 => 'شدید';
+
+  @override
+  String get nicknamePrefix285 => 'دیوانه';
+
+  @override
+  String get nicknamePrefix286 => 'دیوانه شده';
+
+  @override
+  String get nicknamePrefix287 => 'منطقی';
+
+  @override
+  String get nicknamePrefix288 => 'احساسی';
+
+  @override
+  String get nicknamePrefix289 => 'خونسرد';
+
+  @override
+  String get nicknamePrefix290 => 'معقول';
+
+  @override
+  String get nicknamePrefix291 => 'احمقانه';
+
+  @override
+  String get nicknamePrefix292 => 'بی گناه';
+
+  @override
+  String get nicknamePrefix293 => 'حیله گری';
+
+  @override
+  String get nicknamePrefix294 => 'مارپیچ';
+
+  @override
+  String get nicknamePrefix295 => 'سفید خالص';
+
+  @override
+  String get nicknamePrefix296 => 'جت سیاه';
+
+  @override
+  String get nicknamePrefix297 => 'طلایی';
+
+  @override
+  String get nicknamePrefix298 => 'آرجنت';
+
+  @override
+  String get nicknamePrefix299 => 'خونین';
+
+  @override
+  String get nicknameSuffix101 => 'جوینده';
+
+  @override
+  String get nicknameSuffix102 => 'زائر';
+
+  @override
+  String get nicknameSuffix103 => 'ولگرد';
+
+  @override
+  String get nicknameSuffix104 => 'گوشه نشین';
+
+  @override
+  String get nicknameSuffix105 => 'اتان';
+
+  @override
+  String get nicknameSuffix106 => 'خائن';
+
+  @override
+  String get nicknameSuffix107 => 'پیشگام';
+
+  @override
+  String get nicknameSuffix108 => 'فاتح';
+
+  @override
+  String get nicknameSuffix109 => 'حاکم';
+
+  @override
+  String get nicknameSuffix110 => 'ارکستراتور';
+
+  @override
+  String get nicknameSuffix111 => 'سرپرست';
+
+  @override
+  String get nicknameSuffix112 => 'ناظر';
+
+  @override
+  String get nicknameSuffix113 => 'ناظر';
+
+  @override
+  String get nicknameSuffix114 => 'ضبط کننده';
+
+  @override
+  String get nicknameSuffix115 => 'ارتباط دهنده';
+
+  @override
+  String get nicknameSuffix116 => 'راهنمای';
+
+  @override
+  String get nicknameSuffix117 => 'رهبر';
+
+  @override
+  String get nicknameSuffix118 => 'پس انداز';
+
+  @override
+  String get nicknameSuffix119 => 'ناوشکن';
+
+  @override
+  String get nicknameSuffix120 => 'خالق';
+
+  @override
+  String get nicknameSuffix121 => 'سایه';
+
+  @override
+  String get nicknameSuffix122 => 'روح';
+
+  @override
+  String get nicknameSuffix123 => 'روح';
+
+  @override
+  String get nicknameSuffix124 => 'روح شیطانی';
+
+  @override
+  String get nicknameSuffix125 => 'فرمان دولتی';
+
+  @override
+  String get nicknameSuffix126 => 'پری';
+
+  @override
+  String get nicknameSuffix127 => 'جانور شیطان';
+
+  @override
+  String get nicknameSuffix128 => 'آب مقدس';
+
+  @override
+  String get nicknameSuffix129 => 'بازپرداخت';
+
+  @override
+  String get nicknameSuffix130 => 'شینسو';
+
+  @override
+  String get nicknameSuffix131 => 'تست کنید';
+
+  @override
+  String get nicknameSuffix132 => 'مقاله';
+
+  @override
+  String get nicknameSuffix133 => 'کماندار';
+
+  @override
+  String get nicknameSuffix134 => 'دزد';
+
+  @override
+  String get nicknameSuffix135 => 'قاتل';
+
+  @override
+  String get nicknameSuffix136 => 'جادوگر';
+
+  @override
+  String get nicknameSuffix137 => 'وای';
+
+  @override
+  String get nicknameSuffix138 => 'کیمیاگر';
+
+  @override
+  String get nicknameSuffix139 => 'نکرومانسر';
+
+  @override
+  String get nicknameSuffix140 => 'کشیش';
+
+  @override
+  String get nicknameSuffix141 => 'محقق';
+
+  @override
+  String get nicknameSuffix142 => 'محقق';
+
+  @override
+  String get nicknameSuffix143 => 'کاوشگر';
+
+  @override
+  String get nicknameSuffix144 => 'مسافر';
+
+  @override
+  String get nicknameSuffix145 => 'هنرمند';
+
+  @override
+  String get nicknameSuffix146 => 'شوخی';
+
+  @override
+  String get nicknameSuffix147 => 'بارد';
+
+  @override
+  String get nicknameSuffix148 => 'تاجر';
+
+  @override
+  String get nicknameSuffix149 => 'صنعتگر';
+
+  @override
+  String get nicknameSuffix150 => 'دهقان';
+
+  @override
+  String get nicknameSuffix151 => 'کلاغ';
+
+  @override
+  String get nicknameSuffix152 => 'جغد';
+
+  @override
+  String get nicknameSuffix153 => 'جغد';
+
+  @override
+  String get nicknameSuffix154 => 'عقاب';
+
+  @override
+  String get nicknameSuffix155 => 'شاهین';
+
+  @override
+  String get nicknameSuffix156 => 'گرگ';
+
+  @override
+  String get nicknameSuffix157 => 'روباه';
+
+  @override
+  String get nicknameSuffix158 => 'خرس';
+
+  @override
+  String get nicknameSuffix159 => 'شیر';
+
+  @override
+  String get nicknameSuffix160 => 'ببر';
+
+  @override
+  String get nicknameSuffix161 => 'پلنگ';
+
+  @override
+  String get nicknameSuffix162 => 'پلنگ سیاه';
+
+  @override
+  String get nicknameSuffix163 => 'سالسوپ';
+
+  @override
+  String get nicknameSuffix164 => 'گربه';
+
+  @override
+  String get nicknameSuffix165 => 'توله سگ';
+
+  @override
+  String get nicknameSuffix166 => 'مار';
+
+  @override
+  String get nicknameSuffix167 => 'مارمولک';
+
+  @override
+  String get nicknameSuffix168 => 'لاک پشت';
+
+  @override
+  String get nicknameSuffix169 => 'تمساح';
+
+  @override
+  String get nicknameSuffix170 => 'اژدها';
+
+  @override
+  String get nicknameSuffix171 => 'اسب شاخدار';
+
+  @override
+  String get nicknameSuffix172 => 'پگاسوس';
+
+  @override
+  String get nicknameSuffix173 => 'گریفون';
+
+  @override
+  String get nicknameSuffix174 => 'غرغره';
+
+  @override
+  String get nicknameSuffix175 => 'جن';
+
+  @override
+  String get nicknameSuffix176 => 'بلوط';
+
+  @override
+  String get nicknameSuffix177 => 'ترول';
+
+  @override
+  String get nicknameSuffix178 => 'مارپیچ';
+
+  @override
+  String get nicknameSuffix179 => 'لجن';
+
+  @override
+  String get nicknameSuffix180 => 'اسکلت';
+
+  @override
+  String get nicknameSuffix181 => 'زامبی';
+
+  @override
+  String get nicknameSuffix182 => 'غول';
+
+  @override
+  String get nicknameSuffix183 => 'خون آشام';
+
+  @override
+  String get nicknameSuffix184 => 'گرگینه';
+
+  @override
+  String get nicknameSuffix185 => 'مینوتور';
+
+  @override
+  String get nicknameSuffix186 => 'سنتور';
+
+  @override
+  String get nicknameSuffix187 => 'هارپی';
+
+  @override
+  String get nicknameSuffix188 => 'آژیر';
+
+  @override
+  String get nicknameSuffix189 => 'کراکن';
+
+  @override
+  String get nicknameSuffix190 => 'لویاتان';
+
+  @override
+  String get nicknameSuffix191 => 'چاقو';
+
+  @override
+  String get nicknameSuffix192 => 'سپر';
+
+  @override
+  String get nicknameSuffix193 => 'پنجره';
+
+  @override
+  String get nicknameSuffix194 => 'تعظیم';
+
+  @override
+  String get nicknameSuffix195 => 'عصا';
+
+  @override
+  String get nicknameSuffix196 => 'حلقه';
+
+  @override
+  String get nicknameSuffix197 => 'گردن بند';
+
+  @override
+  String get nicknameSuffix198 => 'تاج';
+
+  @override
+  String get nicknameSuffix199 => 'جام مقدس';
+
+  @override
+  String get themeFree => 'تم رایگان';
+
+  @override
+  String get themePaid => 'تم پولی';
 }

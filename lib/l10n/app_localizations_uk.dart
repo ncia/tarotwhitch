@@ -9,143 +9,143 @@ class AppLocalizationsUk extends AppLocalizations {
   AppLocalizationsUk([String locale = 'uk']) : super(locale);
 
   @override
-  String get appTitle => 'Tarot Reading';
+  String get appTitle => 'Читання Таро';
 
   @override
-  String get spreadSelectionTitle => 'Select a Spread';
+  String get spreadSelectionTitle => 'Виберіть спред';
 
   @override
   String get spreadSelectionSubtitle =>
-      'Choose a tarot spread that fits your question';
+      'Виберіть розкладку таро, яка відповідає вашому питанню';
 
   @override
-  String get spreadOneCardName => 'One Card';
+  String get spreadOneCardName => 'Одна картка';
 
   @override
   String get spreadOneCardDesc =>
-      'A single card for a quick answer or daily guidance.';
+      'Одна картка для швидкої відповіді або щоденних вказівок.';
 
   @override
-  String get spreadTwoCardName => 'Two Card';
+  String get spreadTwoCardName => 'Дві карти';
 
   @override
   String get spreadTwoCardDesc =>
-      'A 2-card spread to simply grasp the current situation and advice.';
+      'Спред із двох карт, щоб просто зрозуміти поточну ситуацію та поради.';
 
   @override
-  String get spreadThreeCardName => 'Three Card';
+  String get spreadThreeCardName => 'Три карти';
 
   @override
   String get spreadThreeCardDesc =>
-      'A 3-card spread to understand the flow of past, present, and future.';
+      'Розклад із трьох карт, щоб зрозуміти потік минулого, теперішнього та майбутнього.';
 
   @override
-  String get spreadFourCardName => 'Four Card';
+  String get spreadFourCardName => 'Чотири карти';
 
   @override
   String get spreadFourCardDesc =>
-      'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.';
+      'Розкид із 4 карт, щоб чітко визначити причину проблеми, отримати пораду та побачити результат.';
 
   @override
-  String get spreadFiveCardName => 'Five Card';
+  String get spreadFiveCardName => 'П\'ять карток';
 
   @override
   String get spreadFiveCardDesc =>
-      'A 5-card spread examining the core of the situation, its causes, and potential outcomes.';
+      'Спред із 5 карток, що розглядає суть ситуації, її причини та можливі наслідки.';
 
   @override
-  String get spreadCelticCrossName => 'Celtic Cross';
+  String get spreadCelticCrossName => 'Кельтський хрест';
 
   @override
   String get spreadCelticCrossDesc =>
-      '10 cards for an in-depth analysis of a complex problem.';
+      '10 карток для поглибленого розбору складної проблеми.';
 
   @override
-  String get positionOneCard => 'Today\'s Card';
+  String get positionOneCard => 'Сьогоднішня листівка';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '1. Ситуація';
 
   @override
-  String get positionTwoCard2 => '2. Advice';
+  String get positionTwoCard2 => '2. Порада';
 
   @override
-  String get positionThreeCard1 => 'Past';
+  String get positionThreeCard1 => 'минуле';
 
   @override
-  String get positionThreeCard2 => 'Present';
+  String get positionThreeCard2 => 'присутній';
 
   @override
-  String get positionThreeCard3 => 'Future';
+  String get positionThreeCard3 => 'майбутнє';
 
   @override
-  String get positionFourCard1 => '1. Problem';
+  String get positionFourCard1 => '1. Проблема';
 
   @override
-  String get positionFourCard2 => '2. Cause';
+  String get positionFourCard2 => '2. Причина';
 
   @override
-  String get positionFourCard3 => '3. Advice';
+  String get positionFourCard3 => '3. Порада';
 
   @override
-  String get positionFourCard4 => '4. Outcome';
+  String get positionFourCard4 => '4. Підсумок';
 
   @override
-  String get positionFiveCard1 => '1. Present';
+  String get positionFiveCard1 => '1. Присутній';
 
   @override
-  String get positionFiveCard2 => '2. Past Influences';
+  String get positionFiveCard2 => '2. Вплив минулого';
 
   @override
-  String get positionFiveCard3 => '3. Future Direction';
+  String get positionFiveCard3 => '3. Майбутній напрямок';
 
   @override
-  String get positionFiveCard4 => '4. Core Reason';
+  String get positionFiveCard4 => '4. Основна причина';
 
   @override
-  String get positionFiveCard5 => '5. Potential Outcome';
+  String get positionFiveCard5 => '5. Потенційний результат';
 
   @override
-  String get positionCelticCross1 => '1. Present (Querent)';
+  String get positionCelticCross1 => '1. Теперішній (Querent)';
 
   @override
-  String get positionCelticCross2 => '2. The Challenge';
+  String get positionCelticCross2 => '2. Виклик';
 
   @override
-  String get positionCelticCross3 => '3. The Past';
+  String get positionCelticCross3 => '3. Минуле';
 
   @override
-  String get positionCelticCross4 => '4. The Future';
+  String get positionCelticCross4 => '4. Майбутнє';
 
   @override
-  String get positionCelticCross5 => '5. Conscious';
+  String get positionCelticCross5 => '5. Свідомий';
 
   @override
-  String get positionCelticCross6 => '6. Subconscious';
+  String get positionCelticCross6 => '6. Підсвідомість';
 
   @override
-  String get positionCelticCross7 => '7. Advice';
+  String get positionCelticCross7 => '7. Порада';
 
   @override
-  String get positionCelticCross8 => '8. External Influences';
+  String get positionCelticCross8 => '8. Зовнішні впливи';
 
   @override
-  String get positionCelticCross9 => '9. Hopes and Fears';
+  String get positionCelticCross9 => '9. Надії та страхи';
 
   @override
-  String get positionCelticCross10 => '10. Outcome';
+  String get positionCelticCross10 => '10. Підсумок';
 
   @override
-  String get navReading => 'Читання Таро';
+  String get navReading => 'читання таро';
 
   @override
-  String get navChat => 'Таро Чат';
+  String get navChat => 'чат Таро';
 
   @override
-  String get navMeanings => 'Значення';
+  String get navMeanings => 'значення карти';
 
   @override
-  String get navMyMenu => 'My Menu';
+  String get navMyMenu => 'моє меню';
 
   @override
   String get readingIntroTitle => 'Шепоти\nДолі';
@@ -1208,4 +1208,1720 @@ class AppLocalizationsUk extends AppLocalizations {
   @override
   String get chatProfileTapHint =>
       'Натисніть на зображення профілю, щоб переглянути деталі';
+
+  @override
+  String get themeName1 => 'Тема 1';
+
+  @override
+  String get themeName2 => 'Тема 2';
+
+  @override
+  String get themeName3 => 'Тема 3';
+
+  @override
+  String get themeMagicBook => 'Чарівна книга';
+
+  @override
+  String get themeBlackCat => 'Чорний кіт';
+
+  @override
+  String get themeEmptyPaidThemes =>
+      'Купуйте теми в магазині\nщоб заповнити цей простір!';
+
+  @override
+  String get shopThemePurchaseTitle => 'Тема покупки';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return 'Бажаєте придбати тему $skinName за монети $cost?';
+  }
+
+  @override
+  String get shopCancel => 'Скасувати';
+
+  @override
+  String get shopPurchase => 'Купівля';
+
+  @override
+  String get shopAlreadyOwned =>
+      'Вже у власності. Спробуйте застосувати це в налаштуваннях теми!';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return '$skinName успішно придбано! Перевірте налаштування теми.';
+  }
+
+  @override
+  String get shopNotEnoughCoins => 'Недостатньо монет.';
+
+  @override
+  String get shopOwned => 'У власності';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost монет';
+  }
+
+  @override
+  String get navDiary => 'щоденник таро';
+
+  @override
+  String get myMenuFirebaseNotConnected => 'Firebase не підключено';
+
+  @override
+  String get myMenuWindowsSetupNeeded =>
+      'Потрібна установка Windows (попередній перегляд)';
+
+  @override
+  String get myMenuTouchToViewLogin =>
+      'Торкніться, щоб переглянути інтерфейс входу';
+
+  @override
+  String get myMenuNoName => 'Без імені';
+
+  @override
+  String get myMenuPleaseLogin => 'Будь ласка, увійдіть';
+
+  @override
+  String get myMenuTouchToSignupLogin =>
+      'Натисніть, щоб зареєструватися та увійти';
+
+  @override
+  String get myMenuSectionMyRecords => 'Мої записи';
+
+  @override
+  String get myMenuDiaryStorage => 'Зберігання щоденника';
+
+  @override
+  String get myMenuCheckSavedDiary => 'Перевірте свої збережені щоденники.';
+
+  @override
+  String get myMenuFavoriteCards => 'Улюблені картки';
+
+  @override
+  String get myMenuMyFavoriteCardsList => 'Список моїх улюблених листівок';
+
+  @override
+  String get myMenuSectionAppSettings => 'Налаштування програми';
+
+  @override
+  String get myMenuPushNotifications => 'Push-сповіщення';
+
+  @override
+  String get myMenuPushNotificationsDesc => 'Нові гороскопи та події';
+
+  @override
+  String get myMenuLanguageSettings => 'Налаштування мови';
+
+  @override
+  String get myMenuThemeSettings => 'Налаштування теми';
+
+  @override
+  String get myMenuChangeBackground => 'Змінити фонове зображення';
+
+  @override
+  String get myMenuSectionCustomerSupport => 'Підтримка клієнтів';
+
+  @override
+  String get myMenuFaq => 'FAQ';
+
+  @override
+  String get myMenuAppInfo => 'Інформація про додаток';
+
+  @override
+  String get myMenuSectionAccountManagement => 'Управління обліковим записом';
+
+  @override
+  String get myMenuLogout => 'Вийти';
+
+  @override
+  String get myMenuLogoutDesc => 'Вийти з поточного пристрою.';
+
+  @override
+  String get myMenuEmailVerifiedMsg =>
+      'Підтвердження електронної пошти підтверджено! ✨';
+
+  @override
+  String get myMenuEmailSendTitle =>
+      'Надіслати електронний лист для підтвердження';
+
+  @override
+  String get myMenuEmailSendContent =>
+      'Електронний лист для підтвердження надіслано.\nБудь ласка, перевірте свою поштову скриньку, натисніть посилання та натисніть цю кнопку ще раз!';
+
+  @override
+  String get myMenuConfirm => 'Підтвердити';
+
+  @override
+  String get myMenuEmailErrorMsg => 'Забагато запитів або сталася помилка.';
+
+  @override
+  String get myMenuEmailVerified => 'Електронна адреса підтверджена';
+
+  @override
+  String get myMenuEmailNotVerified =>
+      'Електронна адреса не підтверджена (натисніть, щоб підтвердити)';
+
+  @override
+  String get languageSystemDefault => 'Системне за замовчуванням';
+
+  @override
+  String get shopTitle => 'Магазин';
+
+  @override
+  String get shopSubtitle => 'Придбайте монети та теми';
+
+  @override
+  String get shopTabCoin => 'Монета';
+
+  @override
+  String get shopTabTheme => 'Тема';
+
+  @override
+  String get shopPayButton => 'платити';
+
+  @override
+  String get themeOriginalDeck => 'Оригінальна класична колода';
+
+  @override
+  String get themeGoldenSunDeck => 'Golden Sun Deck';
+
+  @override
+  String get themeDarkAbyssDeck => 'Темна безодня колода';
+
+  @override
+  String get themeSpringSpiritDeck => 'Весняний дух колоди';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return 'Платіж за $coins монет незабаром відбудеться.';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return 'Придбати/подати заявку на $name буде незабаром.';
+  }
+
+  @override
+  String get readingIntroSelectWitch =>
+      'Виберіть відьму, щоб побачити свою долю';
+
+  @override
+  String get readingIntroGreeting =>
+      'На яку долю зазирнемо?\nМені цікаво твоє майбутнє.';
+
+  @override
+  String get readingIntroStart => 'Виберіть Розповсюдити';
+
+  @override
+  String get tabMajorArcana => 'Старші Аркани';
+
+  @override
+  String get tabMinorArcana => 'Молодші Аркани';
+
+  @override
+  String get nicknamePrefix0 => 'окультний';
+
+  @override
+  String get nicknamePrefix1 => 'безтурботний';
+
+  @override
+  String get nicknamePrefix2 => 'святий';
+
+  @override
+  String get nicknamePrefix3 => 'темний';
+
+  @override
+  String get nicknamePrefix4 => 'сяючий';
+
+  @override
+  String get nicknamePrefix5 => 'похмурий';
+
+  @override
+  String get nicknamePrefix6 => 'гарячий';
+
+  @override
+  String get nicknamePrefix7 => 'захоплюючий';
+
+  @override
+  String get nicknamePrefix8 => 'жорстокий';
+
+  @override
+  String get nicknamePrefix9 => 'чистий';
+
+  @override
+  String get nicknamePrefix10 => 'суворий';
+
+  @override
+  String get nicknamePrefix11 => 'м\'який';
+
+  @override
+  String get nicknamePrefix12 => 'красива';
+
+  @override
+  String get nicknamePrefix13 => 'дивно';
+
+  @override
+  String get nicknamePrefix14 => 'великий';
+
+  @override
+  String get nicknamePrefix15 => 'пошарпаний';
+
+  @override
+  String get nicknamePrefix16 => 'вічний';
+
+  @override
+  String get nicknamePrefix17 => 'забутий';
+
+  @override
+  String get nicknamePrefix18 => 'блискучий';
+
+  @override
+  String get nicknamePrefix19 => 'сумний';
+
+  @override
+  String get nicknamePrefix20 => 'радий';
+
+  @override
+  String get nicknamePrefix21 => 'мрійливий';
+
+  @override
+  String get nicknamePrefix22 => 'впав';
+
+  @override
+  String get nicknamePrefix23 => 'чистий білий';
+
+  @override
+  String get nicknamePrefix24 => 'чорний як смуга';
+
+  @override
+  String get nicknamePrefix25 => 'кривавий';
+
+  @override
+  String get nicknamePrefix26 => 'сіруватий';
+
+  @override
+  String get nicknamePrefix27 => 'золотий';
+
+  @override
+  String get nicknamePrefix28 => 'срібний';
+
+  @override
+  String get nicknamePrefix29 => 'блакитний';
+
+  @override
+  String get nicknamePrefix30 => 'червоний';
+
+  @override
+  String get nicknamePrefix31 => 'жовтий';
+
+  @override
+  String get nicknamePrefix32 => 'чорний';
+
+  @override
+  String get nicknamePrefix33 => 'білий';
+
+  @override
+  String get nicknamePrefix34 => 'прозорий';
+
+  @override
+  String get nicknamePrefix35 => 'самотній';
+
+  @override
+  String get nicknamePrefix36 => 'шумно';
+
+  @override
+  String get nicknamePrefix37 => 'тихий';
+
+  @override
+  String get nicknamePrefix38 => 'теплий';
+
+  @override
+  String get nicknamePrefix39 => 'морозний';
+
+  @override
+  String get nicknamePrefix40 => 'поодинокий';
+
+  @override
+  String get nicknamePrefix41 => 'самотній';
+
+  @override
+  String get nicknamePrefix42 => 'щасливий';
+
+  @override
+  String get nicknamePrefix43 => 'щасливий';
+
+  @override
+  String get nicknamePrefix44 => 'похмурий';
+
+  @override
+  String get nicknamePrefix45 => 'відчайдушний';
+
+  @override
+  String get nicknamePrefix46 => 'обнадійливий';
+
+  @override
+  String get nicknamePrefix47 => 'сліпуче';
+
+  @override
+  String get nicknamePrefix48 => 'сутінковий';
+
+  @override
+  String get nicknamePrefix49 => 'опівночі';
+
+  @override
+  String get nicknamePrefix50 => 'спустошений';
+
+  @override
+  String get nicknamePrefix51 => 'секрет';
+
+  @override
+  String get nicknamePrefix52 => 'секрет';
+
+  @override
+  String get nicknamePrefix53 => 'священний';
+
+  @override
+  String get nicknamePrefix54 => 'профанний';
+
+  @override
+  String get nicknamePrefix55 => 'начальник';
+
+  @override
+  String get nicknamePrefix56 => 'скромний';
+
+  @override
+  String get nicknamePrefix57 => 'мудрий';
+
+  @override
+  String get nicknamePrefix58 => 'дурний';
+
+  @override
+  String get nicknamePrefix59 => 'жорсткий';
+
+  @override
+  String get nicknamePrefix60 => 'слабкий';
+
+  @override
+  String get nicknamePrefix61 => 'хоробрий';
+
+  @override
+  String get nicknamePrefix62 => 'підло';
+
+  @override
+  String get nicknamePrefix63 => 'Віддалений';
+
+  @override
+  String get nicknamePrefix64 => 'поблизу';
+
+  @override
+  String get nicknamePrefix65 => 'віддаляючись';
+
+  @override
+  String get nicknamePrefix66 => 'зустрічний';
+
+  @override
+  String get nicknamePrefix67 => 'зникнення';
+
+  @override
+  String get nicknamePrefix68 => 'емерджентний';
+
+  @override
+  String get nicknamePrefix69 => 'прокинувся';
+
+  @override
+  String get nicknamePrefix70 => 'спить';
+
+  @override
+  String get nicknamePrefix71 => 'мріяти';
+
+  @override
+  String get nicknamePrefix72 => 'блукання';
+
+  @override
+  String get nicknamePrefix73 => 'блукання';
+
+  @override
+  String get nicknamePrefix74 => 'залишаючись';
+
+  @override
+  String get nicknamePrefix75 => 'виїжджаючи';
+
+  @override
+  String get nicknamePrefix76 => 'повертаючись';
+
+  @override
+  String get nicknamePrefix77 => 'очікування';
+
+  @override
+  String get nicknamePrefix78 => 'шукаєш';
+
+  @override
+  String get nicknamePrefix79 => 'загадковий';
+
+  @override
+  String get nicknamePrefix80 => 'піддається';
+
+  @override
+  String get nicknamePrefix81 => 'покинутий';
+
+  @override
+  String get nicknamePrefix82 => 'вибрано';
+
+  @override
+  String get nicknamePrefix83 => 'благословенний';
+
+  @override
+  String get nicknamePrefix84 => 'проклятий';
+
+  @override
+  String get nicknamePrefix85 => 'любив';
+
+  @override
+  String get nicknamePrefix86 => 'ненавидів';
+
+  @override
+  String get nicknamePrefix87 => 'запам\'ятати';
+
+  @override
+  String get nicknamePrefix88 => 'забутий';
+
+  @override
+  String get nicknamePrefix89 => 'світло зірок';
+
+  @override
+  String get nicknamePrefix90 => 'місячне світло';
+
+  @override
+  String get nicknamePrefix91 => 'сонячного світла';
+
+  @override
+  String get nicknamePrefix92 => 'космічний';
+
+  @override
+  String get nicknamePrefix93 => 'землі';
+
+  @override
+  String get nicknamePrefix94 => 'моря';
+
+  @override
+  String get nicknamePrefix95 => 'небесний';
+
+  @override
+  String get nicknamePrefix96 => 'з хмар';
+
+  @override
+  String get nicknamePrefix97 => 'вітру';
+
+  @override
+  String get nicknamePrefix98 => 'дощ';
+
+  @override
+  String get nicknamePrefix99 => 'ока';
+
+  @override
+  String get nicknamePrefix100 => 'крижаний';
+
+  @override
+  String get nicknamePrefix101 => 'вогненний';
+
+  @override
+  String get nicknamePrefix102 => 'води';
+
+  @override
+  String get nicknamePrefix103 => 'земляний';
+
+  @override
+  String get nicknamePrefix104 => 'дерев\'яний';
+
+  @override
+  String get nicknamePrefix105 => 'ліс';
+
+  @override
+  String get nicknamePrefix106 => 'гірський';
+
+  @override
+  String get nicknamePrefix107 => 'лекція';
+
+  @override
+  String get nicknamePrefix108 => 'озера';
+
+  @override
+  String get nicknamePrefix109 => 'часу';
+
+  @override
+  String get nicknamePrefix110 => 'простору';
+
+  @override
+  String get nicknamePrefix111 => 'вимір';
+
+  @override
+  String get nicknamePrefix112 => 'доленосний';
+
+  @override
+  String get nicknamePrefix113 => 'доленосний';
+
+  @override
+  String get nicknamePrefix114 => 'чудесний';
+
+  @override
+  String get nicknamePrefix115 => 'магічний';
+
+  @override
+  String get nicknamePrefix116 => 'міфічний';
+
+  @override
+  String get nicknamePrefix117 => 'легендарний';
+
+  @override
+  String get nicknamePrefix118 => 'правди';
+
+  @override
+  String get nicknamePrefix119 => 'помилковий';
+
+  @override
+  String get nicknamePrefix120 => 'фантазія';
+
+  @override
+  String get nicknamePrefix121 => 'мрія';
+
+  @override
+  String get nicknamePrefix122 => 'кошмар';
+
+  @override
+  String get nicknamePrefix123 => 'руїна';
+
+  @override
+  String get nicknamePrefix124 => 'створення';
+
+  @override
+  String get nicknamePrefix125 => 'життя';
+
+  @override
+  String get nicknamePrefix126 => 'смерті';
+
+  @override
+  String get nicknamePrefix127 => 'душа';
+
+  @override
+  String get nicknamePrefix128 => 'фізичний';
+
+  @override
+  String get nicknamePrefix129 => 'розуму';
+
+  @override
+  String get nicknamePrefix130 => 'емоційний';
+
+  @override
+  String get nicknamePrefix131 => 'любові';
+
+  @override
+  String get nicknamePrefix132 => 'ненависті';
+
+  @override
+  String get nicknamePrefix133 => 'смутку';
+
+  @override
+  String get nicknamePrefix134 => 'радості';
+
+  @override
+  String get nicknamePrefix135 => 'злий';
+
+  @override
+  String get nicknamePrefix136 => 'миру';
+
+  @override
+  String get nicknamePrefix137 => 'війни';
+
+  @override
+  String get nicknamePrefix138 => 'хаос';
+
+  @override
+  String get nicknamePrefix139 => 'упорядкований';
+
+  @override
+  String get nicknamePrefix140 => 'світла';
+
+  @override
+  String get nicknamePrefix141 => 'темний';
+
+  @override
+  String get nicknamePrefix142 => 'сутінки';
+
+  @override
+  String get nicknamePrefix143 => 'світанок';
+
+  @override
+  String get nicknamePrefix144 => 'полудень';
+
+  @override
+  String get nicknamePrefix145 => 'опівночі';
+
+  @override
+  String get nicknamePrefix146 => 'минуле';
+
+  @override
+  String get nicknamePrefix147 => 'присутній';
+
+  @override
+  String get nicknamePrefix148 => 'майбутнє';
+
+  @override
+  String get nicknamePrefix149 => 'походження';
+
+  @override
+  String get nicknamePrefix150 => 'апокаліптичний';
+
+  @override
+  String get nicknamePrefix151 => 'нескінченний';
+
+  @override
+  String get nicknamePrefix152 => 'кінцевий';
+
+  @override
+  String get nicknamePrefix153 => 'мовчазний';
+
+  @override
+  String get nicknamePrefix154 => 'шуму';
+
+  @override
+  String get nicknamePrefix155 => 'спів';
+
+  @override
+  String get nicknamePrefix156 => 'танці';
+
+  @override
+  String get nicknamePrefix157 => 'плаче';
+
+  @override
+  String get nicknamePrefix158 => 'посміхаючись';
+
+  @override
+  String get nicknamePrefix159 => 'шепіт';
+
+  @override
+  String get nicknamePrefix160 => 'плаче';
+
+  @override
+  String get nicknamePrefix161 => 'молячись';
+
+  @override
+  String get nicknamePrefix162 => 'благаючи';
+
+  @override
+  String get nicknamePrefix163 => 'наказовий';
+
+  @override
+  String get nicknamePrefix164 => 'покірний';
+
+  @override
+  String get nicknamePrefix165 => 'правляча';
+
+  @override
+  String get nicknamePrefix166 => 'подача';
+
+  @override
+  String get nicknamePrefix167 => 'направляючий';
+
+  @override
+  String get nicknamePrefix168 => 'супроводжуючий';
+
+  @override
+  String get nicknamePrefix169 => 'навчання';
+
+  @override
+  String get nicknamePrefix170 => 'навчання';
+
+  @override
+  String get nicknamePrefix171 => 'пам\'яті';
+
+  @override
+  String get nicknamePrefix172 => 'спогадів';
+
+  @override
+  String get nicknamePrefix173 => 'ран';
+
+  @override
+  String get nicknamePrefix174 => 'загоєння';
+
+  @override
+  String get nicknamePrefix175 => 'отруйні';
+
+  @override
+  String get nicknamePrefix176 => 'ліки';
+
+  @override
+  String get nicknamePrefix177 => 'Ласкаво просимо';
+
+  @override
+  String get nicknamePrefix178 => 'речовини';
+
+  @override
+  String get nicknamePrefix179 => 'ідеал';
+
+  @override
+  String get nicknamePrefix180 => 'справжній';
+
+  @override
+  String get nicknamePrefix181 => 'уявний';
+
+  @override
+  String get nicknamePrefix182 => 'природний';
+
+  @override
+  String get nicknamePrefix183 => 'штучні';
+
+  @override
+  String get nicknamePrefix184 => 'на початку';
+
+  @override
+  String get nicknamePrefix185 => 'вічність';
+
+  @override
+  String get nicknamePrefix186 => 'моменту';
+
+  @override
+  String get nicknamePrefix187 => 'швидкоплинний';
+
+  @override
+  String get nicknamePrefix188 => 'вічний';
+
+  @override
+  String get nicknamePrefix189 => 'змін';
+
+  @override
+  String get nicknamePrefix190 => 'досі';
+
+  @override
+  String get nicknamePrefix191 => 'тече';
+
+  @override
+  String get nicknamePrefix192 => 'виклад';
+
+  @override
+  String get nicknamePrefix193 => 'палаючий';
+
+  @override
+  String get nicknamePrefix194 => 'охолодження';
+
+  @override
+  String get nicknamePrefix195 => 'квітучий';
+
+  @override
+  String get nicknamePrefix196 => 'в\'янення';
+
+  @override
+  String get nicknamePrefix197 => 'дорослішання';
+
+  @override
+  String get nicknamePrefix198 => 'вмираючий';
+
+  @override
+  String get nicknamePrefix199 => 'дихання';
+
+  @override
+  String get nicknamePrefix200 => 'задушливий';
+
+  @override
+  String get nicknameSuffix0 => 'пророк';
+
+  @override
+  String get nicknameSuffix1 => 'майстер';
+
+  @override
+  String get nicknameSuffix2 => 'відьма';
+
+  @override
+  String get nicknameSuffix3 => 'стаття';
+
+  @override
+  String get nicknameSuffix4 => 'воїн';
+
+  @override
+  String get nicknameSuffix5 => 'лучник';
+
+  @override
+  String get nicknameSuffix6 => 'злодій';
+
+  @override
+  String get nicknameSuffix7 => 'вбивця';
+
+  @override
+  String get nicknameSuffix8 => 'паладин';
+
+  @override
+  String get nicknameSuffix9 => 'священик';
+
+  @override
+  String get nicknameSuffix10 => 'жриця';
+
+  @override
+  String get nicknameSuffix11 => 'чернець';
+
+  @override
+  String get nicknameSuffix12 => 'вау вау';
+
+  @override
+  String get nicknameSuffix13 => 'алхімік';
+
+  @override
+  String get nicknameSuffix14 => 'некромант';
+
+  @override
+  String get nicknameSuffix15 => 'спіритист';
+
+  @override
+  String get nicknameSuffix16 => 'призовник';
+
+  @override
+  String get nicknameSuffix17 => 'ілюзіоніст';
+
+  @override
+  String get nicknameSuffix18 => 'цілитель';
+
+  @override
+  String get nicknameSuffix19 => 'мудра людина';
+
+  @override
+  String get nicknameSuffix20 => 'вчений';
+
+  @override
+  String get nicknameSuffix21 => 'дослідник';
+
+  @override
+  String get nicknameSuffix22 => 'провідник';
+
+  @override
+  String get nicknameSuffix23 => 'мандрівник';
+
+  @override
+  String get nicknameSuffix24 => 'бродяга';
+
+  @override
+  String get nicknameSuffix25 => 'бродяга';
+
+  @override
+  String get nicknameSuffix26 => 'паломник';
+
+  @override
+  String get nicknameSuffix27 => 'шукач';
+
+  @override
+  String get nicknameSuffix28 => 'спостерігач';
+
+  @override
+  String get nicknameSuffix29 => 'диктофон';
+
+  @override
+  String get nicknameSuffix30 => 'комунікатор';
+
+  @override
+  String get nicknameSuffix31 => 'опікунський';
+
+  @override
+  String get nicknameSuffix32 => 'наглядач';
+
+  @override
+  String get nicknameSuffix33 => 'сторожовий';
+
+  @override
+  String get nicknameSuffix34 => 'воротар';
+
+  @override
+  String get nicknameSuffix35 => 'судити';
+
+  @override
+  String get nicknameSuffix36 => 'судовий виконавець';
+
+  @override
+  String get nicknameSuffix37 => 'губернатор';
+
+  @override
+  String get nicknameSuffix38 => 'лінійка';
+
+  @override
+  String get nicknameSuffix39 => 'король';
+
+  @override
+  String get nicknameSuffix40 => 'королева';
+
+  @override
+  String get nicknameSuffix41 => 'імператор';
+
+  @override
+  String get nicknameSuffix42 => 'імператриця';
+
+  @override
+  String get nicknameSuffix43 => 'дворянство';
+
+  @override
+  String get nicknameSuffix44 => 'постійне місце проживання';
+
+  @override
+  String get nicknameSuffix45 => 'лицар полководець';
+
+  @override
+  String get nicknameSuffix46 => 'найманець';
+
+  @override
+  String get nicknameSuffix47 => 'пірат';
+
+  @override
+  String get nicknameSuffix48 => 'злодій';
+
+  @override
+  String get nicknameSuffix49 => 'шахрайство';
+
+  @override
+  String get nicknameSuffix50 => 'блазень';
+
+  @override
+  String get nicknameSuffix51 => 'дурень';
+
+  @override
+  String get nicknameSuffix52 => 'відлюдник';
+
+  @override
+  String get nicknameSuffix53 => 'єретик';
+
+  @override
+  String get nicknameSuffix54 => 'зрадник';
+
+  @override
+  String get nicknameSuffix55 => 'зрадник';
+
+  @override
+  String get nicknameSuffix56 => 'герой';
+
+  @override
+  String get nicknameSuffix57 => 'заставка';
+
+  @override
+  String get nicknameSuffix58 => 'визволитель';
+
+  @override
+  String get nicknameSuffix59 => 'руйнівник';
+
+  @override
+  String get nicknameSuffix60 => 'творець';
+
+  @override
+  String get nicknameSuffix61 => 'бог';
+
+  @override
+  String get nicknameSuffix62 => 'богиня';
+
+  @override
+  String get nicknameSuffix63 => 'ангел';
+
+  @override
+  String get nicknameSuffix64 => 'диявол';
+
+  @override
+  String get nicknameSuffix65 => 'урядова постанова';
+
+  @override
+  String get nicknameSuffix66 => 'фея';
+
+  @override
+  String get nicknameSuffix67 => 'монстр';
+
+  @override
+  String get nicknameSuffix68 => 'демон звір';
+
+  @override
+  String get nicknameSuffix69 => 'дракон';
+
+  @override
+  String get nicknameSuffix70 => 'привид';
+
+  @override
+  String get nicknameSuffix71 => 'відтінок';
+
+  @override
+  String get nicknameSuffix72 => 'нежить';
+
+  @override
+  String get nicknameSuffix73 => 'вампір';
+
+  @override
+  String get nicknameSuffix74 => 'перевертень';
+
+  @override
+  String get nicknameSuffix75 => 'русалка';
+
+  @override
+  String get nicknameSuffix76 => 'сирена';
+
+  @override
+  String get nicknameSuffix77 => 'німфа';
+
+  @override
+  String get nicknameSuffix78 => 'гоблін';
+
+  @override
+  String get nicknameSuffix79 => 'дуб';
+
+  @override
+  String get nicknameSuffix80 => 'троль';
+
+  @override
+  String get nicknameSuffix81 => 'ельф';
+
+  @override
+  String get nicknameSuffix82 => 'карлик';
+
+  @override
+  String get nicknameSuffix83 => 'гігант';
+
+  @override
+  String get nicknameSuffix84 => 'поштовий штемпель';
+
+  @override
+  String get nicknameSuffix85 => 'людська істота';
+
+  @override
+  String get nicknameSuffix86 => 'в\'язень';
+
+  @override
+  String get nicknameSuffix87 => 'підпис';
+
+  @override
+  String get nicknameSuffix88 => 'Фішман';
+
+  @override
+  String get nicknameSuffix89 => 'працівник';
+
+  @override
+  String get nicknameSuffix90 => 'злий дух';
+
+  @override
+  String get nicknameSuffix91 => 'Сура';
+
+  @override
+  String get nicknameSuffix92 => 'пекло';
+
+  @override
+  String get nicknameSuffix93 => 'небо';
+
+  @override
+  String get nicknameSuffix94 => 'злочинний світ';
+
+  @override
+  String get nicknameSuffix95 => 'Потойбічний';
+
+  @override
+  String get nicknameSuffix96 => 'безодня';
+
+  @override
+  String get nicknameSuffix97 => 'хаос';
+
+  @override
+  String get nicknameSuffix98 => 'порядок';
+
+  @override
+  String get nicknameSuffix99 => 'світло';
+
+  @override
+  String get nicknameSuffix100 => 'темний';
+
+  @override
+  String get nicknamePrefix201 => 'блискучий';
+
+  @override
+  String get nicknamePrefix202 => 'тонкий';
+
+  @override
+  String get nicknamePrefix203 => 'туманний';
+
+  @override
+  String get nicknamePrefix204 => 'непритомніти';
+
+  @override
+  String get nicknamePrefix205 => 'прозорий';
+
+  @override
+  String get nicknamePrefix206 => 'непритомніти';
+
+  @override
+  String get nicknamePrefix207 => 'сліпуче';
+
+  @override
+  String get nicknamePrefix208 => 'дивно';
+
+  @override
+  String get nicknamePrefix209 => 'своєрідний';
+
+  @override
+  String get nicknamePrefix210 => 'спеціальні';
+
+  @override
+  String get nicknamePrefix211 => 'шляхетний';
+
+  @override
+  String get nicknamePrefix212 => 'чистий';
+
+  @override
+  String get nicknamePrefix213 => 'впав';
+
+  @override
+  String get nicknamePrefix214 => 'самотній';
+
+  @override
+  String get nicknamePrefix215 => 'самотній';
+
+  @override
+  String get nicknamePrefix216 => 'спустошений';
+
+  @override
+  String get nicknamePrefix217 => 'Віддалений';
+
+  @override
+  String get nicknamePrefix218 => 'суворий';
+
+  @override
+  String get nicknamePrefix219 => 'безжальний';
+
+  @override
+  String get nicknamePrefix220 => 'жорстокий';
+
+  @override
+  String get nicknamePrefix221 => 'великий';
+
+  @override
+  String get nicknamePrefix222 => 'жорсткий';
+
+  @override
+  String get nicknamePrefix223 => 'фірма';
+
+  @override
+  String get nicknamePrefix224 => 'звивистий';
+
+  @override
+  String get nicknamePrefix225 => 'швидкий';
+
+  @override
+  String get nicknamePrefix226 => 'повільний';
+
+  @override
+  String get nicknamePrefix227 => 'в тиші';
+
+  @override
+  String get nicknamePrefix228 => 'в хаосі';
+
+  @override
+  String get nicknamePrefix229 => 'в пам\'яті';
+
+  @override
+  String get nicknamePrefix230 => 'уявний';
+
+  @override
+  String get nicknamePrefix231 => 'мовчазний';
+
+  @override
+  String get nicknamePrefix232 => 'шепіт';
+
+  @override
+  String get nicknamePrefix233 => 'спів';
+
+  @override
+  String get nicknamePrefix234 => 'танці';
+
+  @override
+  String get nicknamePrefix235 => 'ридання';
+
+  @override
+  String get nicknamePrefix236 => 'посміхаючись';
+
+  @override
+  String get nicknamePrefix237 => 'насмішкуватий';
+
+  @override
+  String get nicknamePrefix238 => 'споглядаючи';
+
+  @override
+  String get nicknamePrefix239 => 'блукання';
+
+  @override
+  String get nicknamePrefix240 => 'блукання';
+
+  @override
+  String get nicknamePrefix241 => 'прокинутися';
+
+  @override
+  String get nicknamePrefix242 => 'спить';
+
+  @override
+  String get nicknamePrefix243 => 'мріяти';
+
+  @override
+  String get nicknamePrefix244 => 'мріяти';
+
+  @override
+  String get nicknamePrefix245 => 'маревний';
+
+  @override
+  String get nicknamePrefix246 => 'молячись';
+
+  @override
+  String get nicknamePrefix247 => 'серйозно';
+
+  @override
+  String get nicknamePrefix248 => 'скорботний';
+
+  @override
+  String get nicknamePrefix249 => 'жалюгідний';
+
+  @override
+  String get nicknamePrefix250 => 'піднесений';
+
+  @override
+  String get nicknamePrefix251 => 'злий';
+
+  @override
+  String get nicknamePrefix252 => 'означає';
+
+  @override
+  String get nicknamePrefix253 => 'зарозумілий';
+
+  @override
+  String get nicknamePrefix254 => 'скромний';
+
+  @override
+  String get nicknamePrefix255 => 'любити';
+
+  @override
+  String get nicknamePrefix256 => 'теплий';
+
+  @override
+  String get nicknamePrefix257 => 'круто';
+
+  @override
+  String get nicknamePrefix258 => 'прохолодний';
+
+  @override
+  String get nicknamePrefix259 => 'химерний';
+
+  @override
+  String get nicknamePrefix260 => 'дивний';
+
+  @override
+  String get nicknamePrefix261 => 'захоплений';
+
+  @override
+  String get nicknamePrefix262 => 'захоплюючий';
+
+  @override
+  String get nicknamePrefix263 => 'запаморочливий';
+
+  @override
+  String get nicknamePrefix264 => 'солодкуватий';
+
+  @override
+  String get nicknamePrefix265 => 'гіркий';
+
+  @override
+  String get nicknamePrefix266 => 'гіркуватий';
+
+  @override
+  String get nicknamePrefix267 => 'колючий';
+
+  @override
+  String get nicknamePrefix268 => 'різкий';
+
+  @override
+  String get nicknamePrefix269 => 'тупий';
+
+  @override
+  String get nicknamePrefix270 => 'суворий';
+
+  @override
+  String get nicknamePrefix271 => 'м\'який';
+
+  @override
+  String get nicknamePrefix272 => 'затишний';
+
+  @override
+  String get nicknamePrefix273 => 'комфортно';
+
+  @override
+  String get nicknamePrefix274 => 'ненадійний';
+
+  @override
+  String get nicknamePrefix275 => 'непросто';
+
+  @override
+  String get nicknamePrefix276 => 'спокійний';
+
+  @override
+  String get nicknamePrefix277 => 'спокійний';
+
+  @override
+  String get nicknamePrefix278 => 'сонливий';
+
+  @override
+  String get nicknamePrefix279 => 'нудно';
+
+  @override
+  String get nicknamePrefix280 => 'пристрасний';
+
+  @override
+  String get nicknamePrefix281 => 'безтурботний';
+
+  @override
+  String get nicknamePrefix282 => 'спокійний';
+
+  @override
+  String get nicknamePrefix283 => 'жорстокий';
+
+  @override
+  String get nicknamePrefix284 => 'лютий';
+
+  @override
+  String get nicknamePrefix285 => 'божевільний';
+
+  @override
+  String get nicknamePrefix286 => 'збожеволів';
+
+  @override
+  String get nicknamePrefix287 => 'раціональний';
+
+  @override
+  String get nicknamePrefix288 => 'емоційний';
+
+  @override
+  String get nicknamePrefix289 => 'холоднокровний';
+
+  @override
+  String get nicknamePrefix290 => 'розумний';
+
+  @override
+  String get nicknamePrefix291 => 'дурний';
+
+  @override
+  String get nicknamePrefix292 => 'невинний';
+
+  @override
+  String get nicknamePrefix293 => 'хитрий';
+
+  @override
+  String get nicknamePrefix294 => 'серпантин';
+
+  @override
+  String get nicknamePrefix295 => 'чистий білий';
+
+  @override
+  String get nicknamePrefix296 => 'чорний як смуга';
+
+  @override
+  String get nicknamePrefix297 => 'золотий';
+
+  @override
+  String get nicknamePrefix298 => 'срібний';
+
+  @override
+  String get nicknamePrefix299 => 'кривавий';
+
+  @override
+  String get nicknameSuffix101 => 'seeker';
+
+  @override
+  String get nicknameSuffix102 => 'pilgrim';
+
+  @override
+  String get nicknameSuffix103 => 'vagabond';
+
+  @override
+  String get nicknameSuffix104 => 'hermit';
+
+  @override
+  String get nicknameSuffix105 => 'Ethan';
+
+  @override
+  String get nicknameSuffix106 => 'traitor';
+
+  @override
+  String get nicknameSuffix107 => 'pioneer';
+
+  @override
+  String get nicknameSuffix108 => 'conqueror';
+
+  @override
+  String get nicknameSuffix109 => 'лінійка';
+
+  @override
+  String get nicknameSuffix110 => 'orchestrator';
+
+  @override
+  String get nicknameSuffix111 => 'tutelar';
+
+  @override
+  String get nicknameSuffix112 => 'observer';
+
+  @override
+  String get nicknameSuffix113 => 'observer';
+
+  @override
+  String get nicknameSuffix114 => 'recorder';
+
+  @override
+  String get nicknameSuffix115 => 'communicator';
+
+  @override
+  String get nicknameSuffix116 => 'керівництво';
+
+  @override
+  String get nicknameSuffix117 => 'leader';
+
+  @override
+  String get nicknameSuffix118 => 'saver';
+
+  @override
+  String get nicknameSuffix119 => 'destroyer';
+
+  @override
+  String get nicknameSuffix120 => 'creator';
+
+  @override
+  String get nicknameSuffix121 => 'shade';
+
+  @override
+  String get nicknameSuffix122 => 'ghost';
+
+  @override
+  String get nicknameSuffix123 => 'ghost';
+
+  @override
+  String get nicknameSuffix124 => 'evil spirit';
+
+  @override
+  String get nicknameSuffix125 => 'government ordinance';
+
+  @override
+  String get nicknameSuffix126 => 'fairy';
+
+  @override
+  String get nicknameSuffix127 => 'demon beast';
+
+  @override
+  String get nicknameSuffix128 => 'holy water';
+
+  @override
+  String get nicknameSuffix129 => 'відшкодування';
+
+  @override
+  String get nicknameSuffix130 => 'Shinsu';
+
+  @override
+  String get nicknameSuffix131 => 'тест';
+
+  @override
+  String get nicknameSuffix132 => 'article';
+
+  @override
+  String get nicknameSuffix133 => 'Archer';
+
+  @override
+  String get nicknameSuffix134 => 'злодій';
+
+  @override
+  String get nicknameSuffix135 => 'assassin';
+
+  @override
+  String get nicknameSuffix136 => 'wizard';
+
+  @override
+  String get nicknameSuffix137 => 'powwow';
+
+  @override
+  String get nicknameSuffix138 => 'alchemist';
+
+  @override
+  String get nicknameSuffix139 => 'necromancer';
+
+  @override
+  String get nicknameSuffix140 => 'priest';
+
+  @override
+  String get nicknameSuffix141 => 'scholar';
+
+  @override
+  String get nicknameSuffix142 => 'дослідник';
+
+  @override
+  String get nicknameSuffix143 => 'explorer';
+
+  @override
+  String get nicknameSuffix144 => 'traveler';
+
+  @override
+  String get nicknameSuffix145 => 'artist';
+
+  @override
+  String get nicknameSuffix146 => 'jester';
+
+  @override
+  String get nicknameSuffix147 => 'bard';
+
+  @override
+  String get nicknameSuffix148 => 'merchant';
+
+  @override
+  String get nicknameSuffix149 => 'craftsman';
+
+  @override
+  String get nicknameSuffix150 => 'peasant';
+
+  @override
+  String get nicknameSuffix151 => 'ворона';
+
+  @override
+  String get nicknameSuffix152 => 'owl';
+
+  @override
+  String get nicknameSuffix153 => 'owl';
+
+  @override
+  String get nicknameSuffix154 => 'eagle';
+
+  @override
+  String get nicknameSuffix155 => 'hawk';
+
+  @override
+  String get nicknameSuffix156 => 'вовк';
+
+  @override
+  String get nicknameSuffix157 => 'лисиця';
+
+  @override
+  String get nicknameSuffix158 => 'bear';
+
+  @override
+  String get nicknameSuffix159 => 'lion';
+
+  @override
+  String get nicknameSuffix160 => 'tiger';
+
+  @override
+  String get nicknameSuffix161 => 'leopard';
+
+  @override
+  String get nicknameSuffix162 => 'black panther';
+
+  @override
+  String get nicknameSuffix163 => 'Salsssop';
+
+  @override
+  String get nicknameSuffix164 => 'кішка';
+
+  @override
+  String get nicknameSuffix165 => 'puppy';
+
+  @override
+  String get nicknameSuffix166 => 'змія';
+
+  @override
+  String get nicknameSuffix167 => 'lizard';
+
+  @override
+  String get nicknameSuffix168 => 'черепаха';
+
+  @override
+  String get nicknameSuffix169 => 'crocodile';
+
+  @override
+  String get nicknameSuffix170 => 'dragon';
+
+  @override
+  String get nicknameSuffix171 => 'unicorn';
+
+  @override
+  String get nicknameSuffix172 => 'Pegasus';
+
+  @override
+  String get nicknameSuffix173 => 'griffon';
+
+  @override
+  String get nicknameSuffix174 => 'gargoyle';
+
+  @override
+  String get nicknameSuffix175 => 'goblin';
+
+  @override
+  String get nicknameSuffix176 => 'oak';
+
+  @override
+  String get nicknameSuffix177 => 'troll';
+
+  @override
+  String get nicknameSuffix178 => 'auger';
+
+  @override
+  String get nicknameSuffix179 => 'слиз';
+
+  @override
+  String get nicknameSuffix180 => 'skeleton';
+
+  @override
+  String get nicknameSuffix181 => 'zombi';
+
+  @override
+  String get nicknameSuffix182 => 'упир';
+
+  @override
+  String get nicknameSuffix183 => 'vampire';
+
+  @override
+  String get nicknameSuffix184 => 'werewolf';
+
+  @override
+  String get nicknameSuffix185 => 'minotaur';
+
+  @override
+  String get nicknameSuffix186 => 'centaur';
+
+  @override
+  String get nicknameSuffix187 => 'harpy';
+
+  @override
+  String get nicknameSuffix188 => 'siren';
+
+  @override
+  String get nicknameSuffix189 => 'Kraken';
+
+  @override
+  String get nicknameSuffix190 => 'leviathan';
+
+  @override
+  String get nicknameSuffix191 => 'knife';
+
+  @override
+  String get nicknameSuffix192 => 'shield';
+
+  @override
+  String get nicknameSuffix193 => 'вікно';
+
+  @override
+  String get nicknameSuffix194 => 'bow';
+
+  @override
+  String get nicknameSuffix195 => 'cane';
+
+  @override
+  String get nicknameSuffix196 => 'ring';
+
+  @override
+  String get nicknameSuffix197 => 'necklace';
+
+  @override
+  String get nicknameSuffix198 => 'crown';
+
+  @override
+  String get nicknameSuffix199 => 'Holy Grail';
+
+  @override
+  String get themeFree => 'Free Theme';
+
+  @override
+  String get themePaid => 'Paid Theme';
 }

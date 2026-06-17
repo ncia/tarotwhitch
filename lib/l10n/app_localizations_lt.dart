@@ -9,143 +9,143 @@ class AppLocalizationsLt extends AppLocalizations {
   AppLocalizationsLt([String locale = 'lt']) : super(locale);
 
   @override
-  String get appTitle => 'Tarot Reading';
+  String get appTitle => 'Taro skaitymas';
 
   @override
-  String get spreadSelectionTitle => 'Select a Spread';
+  String get spreadSelectionTitle => 'Pasirinkite sklaidą';
 
   @override
   String get spreadSelectionSubtitle =>
-      'Choose a tarot spread that fits your question';
+      'Pasirinkite taro užtepimą, atitinkantį jūsų klausimą';
 
   @override
-  String get spreadOneCardName => 'One Card';
+  String get spreadOneCardName => 'Viena kortelė';
 
   @override
   String get spreadOneCardDesc =>
-      'A single card for a quick answer or daily guidance.';
+      'Viena kortelė greitam atsakymui arba kasdieniam patarimui.';
 
   @override
-  String get spreadTwoCardName => 'Two Card';
+  String get spreadTwoCardName => 'Dvi kortelės';
 
   @override
   String get spreadTwoCardDesc =>
-      'A 2-card spread to simply grasp the current situation and advice.';
+      'Dviejų kortelių išplatinimas, skirtas tiesiog suvokti esamą situaciją ir patarimus.';
 
   @override
-  String get spreadThreeCardName => 'Three Card';
+  String get spreadThreeCardName => 'Trys kort';
 
   @override
   String get spreadThreeCardDesc =>
-      'A 3-card spread to understand the flow of past, present, and future.';
+      'Išskleista 3 kortelių, kad suprastų praeities, dabarties ir ateities tėkmę.';
 
   @override
-  String get spreadFourCardName => 'Four Card';
+  String get spreadFourCardName => 'Keturios kortelės';
 
   @override
   String get spreadFourCardDesc =>
-      'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.';
+      'Išskleiskite 4 korteles, kad aiškiai diagnozuotumėte problemos priežastį, gautumėte patarimų ir pamatytumėte rezultatą.';
 
   @override
-  String get spreadFiveCardName => 'Five Card';
+  String get spreadFiveCardName => 'Penkios kortelės';
 
   @override
   String get spreadFiveCardDesc =>
-      'A 5-card spread examining the core of the situation, its causes, and potential outcomes.';
+      '5 kortelių sklaida, nagrinėjanti situacijos esmę, priežastis ir galimus padarinius.';
 
   @override
-  String get spreadCelticCrossName => 'Celtic Cross';
+  String get spreadCelticCrossName => 'Keltų kryžius';
 
   @override
   String get spreadCelticCrossDesc =>
-      '10 cards for an in-depth analysis of a complex problem.';
+      '10 kortelių, skirtų išsamiai sudėtingos problemos analizei.';
 
   @override
-  String get positionOneCard => 'Today\'s Card';
+  String get positionOneCard => 'Šiandienos kortelė';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '1. Situacija';
 
   @override
-  String get positionTwoCard2 => '2. Advice';
+  String get positionTwoCard2 => '2. Patarimas';
 
   @override
-  String get positionThreeCard1 => 'Past';
+  String get positionThreeCard1 => 'Praeitis';
 
   @override
-  String get positionThreeCard2 => 'Present';
+  String get positionThreeCard2 => 'Pateikti';
 
   @override
-  String get positionThreeCard3 => 'Future';
+  String get positionThreeCard3 => 'Ateitis';
 
   @override
-  String get positionFourCard1 => '1. Problem';
+  String get positionFourCard1 => '1. Problema';
 
   @override
-  String get positionFourCard2 => '2. Cause';
+  String get positionFourCard2 => '2. Priežastis';
 
   @override
-  String get positionFourCard3 => '3. Advice';
+  String get positionFourCard3 => '3. Patarimas';
 
   @override
-  String get positionFourCard4 => '4. Outcome';
+  String get positionFourCard4 => '4. Rezultatas';
 
   @override
-  String get positionFiveCard1 => '1. Present';
+  String get positionFiveCard1 => '1. Pateikti';
 
   @override
-  String get positionFiveCard2 => '2. Past Influences';
+  String get positionFiveCard2 => '2. Praeities įtaka';
 
   @override
-  String get positionFiveCard3 => '3. Future Direction';
+  String get positionFiveCard3 => '3. Ateities kryptis';
 
   @override
-  String get positionFiveCard4 => '4. Core Reason';
+  String get positionFiveCard4 => '4. Pagrindinė priežastis';
 
   @override
-  String get positionFiveCard5 => '5. Potential Outcome';
+  String get positionFiveCard5 => '5. Galimas rezultatas';
 
   @override
-  String get positionCelticCross1 => '1. Present (Querent)';
+  String get positionCelticCross1 => '1. Dabartis (Quentinė)';
 
   @override
-  String get positionCelticCross2 => '2. The Challenge';
+  String get positionCelticCross2 => '2. Iššūkis';
 
   @override
-  String get positionCelticCross3 => '3. The Past';
+  String get positionCelticCross3 => '3. Praeitis';
 
   @override
-  String get positionCelticCross4 => '4. The Future';
+  String get positionCelticCross4 => '4. Ateitis';
 
   @override
-  String get positionCelticCross5 => '5. Conscious';
+  String get positionCelticCross5 => '5. Sąmoningas';
 
   @override
-  String get positionCelticCross6 => '6. Subconscious';
+  String get positionCelticCross6 => '6. Pasąmonė';
 
   @override
-  String get positionCelticCross7 => '7. Advice';
+  String get positionCelticCross7 => '7. Patarimas';
 
   @override
-  String get positionCelticCross8 => '8. External Influences';
+  String get positionCelticCross8 => '8. Išorinės įtakos';
 
   @override
-  String get positionCelticCross9 => '9. Hopes and Fears';
+  String get positionCelticCross9 => '9. Viltys ir baimės';
 
   @override
-  String get positionCelticCross10 => '10. Outcome';
+  String get positionCelticCross10 => '10. Rezultatas';
 
   @override
-  String get navReading => 'Taro Skaitymas';
+  String get navReading => 'taro skaitymas';
 
   @override
-  String get navChat => 'Taro Pokalbis';
+  String get navChat => 'taro pokalbis';
 
   @override
-  String get navMeanings => 'Reikšmės';
+  String get navMeanings => 'kortelės prasmė';
 
   @override
-  String get navMyMenu => 'My Menu';
+  String get navMyMenu => 'mano meniu';
 
   @override
   String get readingIntroTitle => 'Likimo\nŠnabždesiai';
@@ -1205,4 +1205,1719 @@ class AppLocalizationsLt extends AppLocalizations {
   @override
   String get chatProfileTapHint =>
       'Bakstelėkite profilio nuotrauką, kad peržiūrėtumėte detales';
+
+  @override
+  String get themeName1 => '1 tema';
+
+  @override
+  String get themeName2 => '2 tema';
+
+  @override
+  String get themeName3 => '3 tema';
+
+  @override
+  String get themeMagicBook => 'Magiška knyga';
+
+  @override
+  String get themeBlackCat => 'Juoda katė';
+
+  @override
+  String get themeEmptyPaidThemes =>
+      'Pirkite temas parduotuvėje\nužpildyti šią erdvę!';
+
+  @override
+  String get shopThemePurchaseTitle => 'Pirkimo tema';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return 'Ar norite įsigyti temą $skinName už $cost monetas?';
+  }
+
+  @override
+  String get shopCancel => 'Atšaukti';
+
+  @override
+  String get shopPurchase => 'Pirkimas';
+
+  @override
+  String get shopAlreadyOwned =>
+      'Jau priklauso. Pabandykite jį pritaikyti temos nustatymuose!';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return '$skinName sėkmingai įsigytas! Patikrinkite temos nustatymus.';
+  }
+
+  @override
+  String get shopNotEnoughCoins => 'Nepakanka monetų.';
+
+  @override
+  String get shopOwned => 'Priklauso';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost monetos';
+  }
+
+  @override
+  String get navDiary => 'taro dienoraštis';
+
+  @override
+  String get myMenuFirebaseNotConnected => '„Firebase“ neprijungta';
+
+  @override
+  String get myMenuWindowsSetupNeeded => 'Reikia „Windows“ sąrankos (peržiūra)';
+
+  @override
+  String get myMenuTouchToViewLogin =>
+      'Bakstelėkite, kad peržiūrėtumėte prisijungimo vartotojo sąsają';
+
+  @override
+  String get myMenuNoName => 'Nėra Vardo';
+
+  @override
+  String get myMenuPleaseLogin => 'Prašome prisijungti';
+
+  @override
+  String get myMenuTouchToSignupLogin =>
+      'Bakstelėkite norėdami užsiregistruoti ir prisijungti';
+
+  @override
+  String get myMenuSectionMyRecords => 'Mano įrašai';
+
+  @override
+  String get myMenuDiaryStorage => 'Dienoraščio saugykla';
+
+  @override
+  String get myMenuCheckSavedDiary => 'Patikrinkite išsaugotus dienoraščius.';
+
+  @override
+  String get myMenuFavoriteCards => 'Mėgstamiausios kortelės';
+
+  @override
+  String get myMenuMyFavoriteCardsList => 'Mano mėgstamiausių kortelių sąrašas';
+
+  @override
+  String get myMenuSectionAppSettings => 'Programos nustatymai';
+
+  @override
+  String get myMenuPushNotifications => 'Push pranešimai';
+
+  @override
+  String get myMenuPushNotificationsDesc => 'Nauji horoskopai ir įvykiai';
+
+  @override
+  String get myMenuLanguageSettings => 'Kalbos nustatymai';
+
+  @override
+  String get myMenuThemeSettings => 'Temos nustatymai';
+
+  @override
+  String get myMenuChangeBackground => 'Pakeiskite fono paveikslėlį';
+
+  @override
+  String get myMenuSectionCustomerSupport => 'Pagalba klientams';
+
+  @override
+  String get myMenuFaq => 'DUK';
+
+  @override
+  String get myMenuAppInfo => 'Programos informacija';
+
+  @override
+  String get myMenuSectionAccountManagement => 'Sąskaitos valdymas';
+
+  @override
+  String get myMenuLogout => 'Atsijungti';
+
+  @override
+  String get myMenuLogoutDesc => 'Atsijunkite nuo dabartinio įrenginio.';
+
+  @override
+  String get myMenuEmailVerifiedMsg =>
+      'El. pašto patvirtinimas patvirtintas! ✨';
+
+  @override
+  String get myMenuEmailSendTitle => 'Siųsti patvirtinimo el. laišką';
+
+  @override
+  String get myMenuEmailSendContent =>
+      'Patvirtinimo el. laiškas išsiųstas.\nPatikrinkite savo pašto dėžutę, spustelėkite nuorodą ir dar kartą paspauskite šį mygtuką!';
+
+  @override
+  String get myMenuConfirm => 'Patvirtinti';
+
+  @override
+  String get myMenuEmailErrorMsg =>
+      'Įvyko per daug užklausų arba įvyko klaida.';
+
+  @override
+  String get myMenuEmailVerified => 'Patvirtintas el. paštas';
+
+  @override
+  String get myMenuEmailNotVerified =>
+      'El. paštas nepatvirtintas (palieskite, kad patvirtintumėte)';
+
+  @override
+  String get languageSystemDefault => 'Numatytoji sistema';
+
+  @override
+  String get shopTitle => 'Parduotuvė';
+
+  @override
+  String get shopSubtitle => 'Įsigykite monetų ir temų';
+
+  @override
+  String get shopTabCoin => 'Moneta';
+
+  @override
+  String get shopTabTheme => 'tema';
+
+  @override
+  String get shopPayButton => 'Mokėti';
+
+  @override
+  String get themeOriginalDeck => 'Originalus klasikinis denis';
+
+  @override
+  String get themeGoldenSunDeck => 'Auksinis saulės denis';
+
+  @override
+  String get themeDarkAbyssDeck => 'Tamsios bedugnės denis';
+
+  @override
+  String get themeSpringSpiritDeck => 'Pavasario dvasios denis';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return 'Netrukus bus apmokėta už $coins monetas.';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return 'Netrukus bus galima įsigyti $name / pateikti paraišką.';
+  }
+
+  @override
+  String get readingIntroSelectWitch =>
+      'Pasirinkite raganą, kad pamatytumėte savo likimą';
+
+  @override
+  String get readingIntroGreeting =>
+      'Į kokį likimą žiūrėsime?\nMan įdomu tavo ateitis.';
+
+  @override
+  String get readingIntroStart => 'Pasirinkite Skleisti';
+
+  @override
+  String get tabMajorArcana => 'Major Arcana';
+
+  @override
+  String get tabMinorArcana => 'Minor Arcana';
+
+  @override
+  String get nicknamePrefix0 => 'okultinis';
+
+  @override
+  String get nicknamePrefix1 => 'ramus';
+
+  @override
+  String get nicknamePrefix2 => 'šventas';
+
+  @override
+  String get nicknamePrefix3 => 'tamsus';
+
+  @override
+  String get nicknamePrefix4 => 'šviečianti';
+
+  @override
+  String get nicknamePrefix5 => 'niūrus';
+
+  @override
+  String get nicknamePrefix6 => 'karšta';
+
+  @override
+  String get nicknamePrefix7 => 'žavinga';
+
+  @override
+  String get nicknamePrefix8 => 'žiaurus';
+
+  @override
+  String get nicknamePrefix9 => 'grynas';
+
+  @override
+  String get nicknamePrefix10 => 'atšiaurus';
+
+  @override
+  String get nicknamePrefix11 => 'minkštas';
+
+  @override
+  String get nicknamePrefix12 => 'gražus';
+
+  @override
+  String get nicknamePrefix13 => 'keista';
+
+  @override
+  String get nicknamePrefix14 => 'didelis';
+
+  @override
+  String get nicknamePrefix15 => 'nuskuręs';
+
+  @override
+  String get nicknamePrefix16 => 'amžinas';
+
+  @override
+  String get nicknamePrefix17 => 'pamiršta';
+
+  @override
+  String get nicknamePrefix18 => 'puikus';
+
+  @override
+  String get nicknamePrefix19 => 'liūdna';
+
+  @override
+  String get nicknamePrefix20 => 'džiaugiuosi';
+
+  @override
+  String get nicknamePrefix21 => 'svajingas';
+
+  @override
+  String get nicknamePrefix22 => 'nukritęs';
+
+  @override
+  String get nicknamePrefix23 => 'gryna balta';
+
+  @override
+  String get nicknamePrefix24 => 'juodos spalvos';
+
+  @override
+  String get nicknamePrefix25 => 'kruvinas';
+
+  @override
+  String get nicknamePrefix26 => 'pilkšvos spalvos';
+
+  @override
+  String get nicknamePrefix27 => 'auksinis';
+
+  @override
+  String get nicknamePrefix28 => 'argentiškas';
+
+  @override
+  String get nicknamePrefix29 => 'mėlyna';
+
+  @override
+  String get nicknamePrefix30 => 'raudona';
+
+  @override
+  String get nicknamePrefix31 => 'geltona';
+
+  @override
+  String get nicknamePrefix32 => 'juodas';
+
+  @override
+  String get nicknamePrefix33 => 'baltas';
+
+  @override
+  String get nicknamePrefix34 => 'skaidrus';
+
+  @override
+  String get nicknamePrefix35 => 'vienišas';
+
+  @override
+  String get nicknamePrefix36 => 'triukšminga';
+
+  @override
+  String get nicknamePrefix37 => 'tylus';
+
+  @override
+  String get nicknamePrefix38 => 'šiltas';
+
+  @override
+  String get nicknamePrefix39 => 'apšalęs';
+
+  @override
+  String get nicknamePrefix40 => 'vienišas';
+
+  @override
+  String get nicknamePrefix41 => 'vienišas';
+
+  @override
+  String get nicknamePrefix42 => 'laimingas';
+
+  @override
+  String get nicknamePrefix43 => 'laimingas';
+
+  @override
+  String get nicknamePrefix44 => 'niūrus';
+
+  @override
+  String get nicknamePrefix45 => 'beviltiškas';
+
+  @override
+  String get nicknamePrefix46 => 'tikintis';
+
+  @override
+  String get nicknamePrefix47 => 'apakinti';
+
+  @override
+  String get nicknamePrefix48 => 'sutemus';
+
+  @override
+  String get nicknamePrefix49 => 'vidurnaktį';
+
+  @override
+  String get nicknamePrefix50 => 'apleistas';
+
+  @override
+  String get nicknamePrefix51 => 'paslaptis';
+
+  @override
+  String get nicknamePrefix52 => 'paslaptis';
+
+  @override
+  String get nicknamePrefix53 => 'šventa';
+
+  @override
+  String get nicknamePrefix54 => 'profaniškas';
+
+  @override
+  String get nicknamePrefix55 => 'pranašesnis';
+
+  @override
+  String get nicknamePrefix56 => 'kuklus';
+
+  @override
+  String get nicknamePrefix57 => 'išmintingas';
+
+  @override
+  String get nicknamePrefix58 => 'kvailas';
+
+  @override
+  String get nicknamePrefix59 => 'kietas';
+
+  @override
+  String get nicknamePrefix60 => 'silpnas';
+
+  @override
+  String get nicknamePrefix61 => 'drąsus';
+
+  @override
+  String get nicknamePrefix62 => 'šlykštus';
+
+  @override
+  String get nicknamePrefix63 => 'Tolimas';
+
+  @override
+  String get nicknamePrefix64 => 'šalia';
+
+  @override
+  String get nicknamePrefix65 => 'tolsta';
+
+  @override
+  String get nicknamePrefix66 => 'artėjantis';
+
+  @override
+  String get nicknamePrefix67 => 'dingsta';
+
+  @override
+  String get nicknamePrefix68 => 'atsirandantis';
+
+  @override
+  String get nicknamePrefix69 => 'pažadintas';
+
+  @override
+  String get nicknamePrefix70 => 'miega';
+
+  @override
+  String get nicknamePrefix71 => 'sapnuoti';
+
+  @override
+  String get nicknamePrefix72 => 'klajojantys';
+
+  @override
+  String get nicknamePrefix73 => 'klajojantys';
+
+  @override
+  String get nicknamePrefix74 => 'pasilikti';
+
+  @override
+  String get nicknamePrefix75 => 'paliekant';
+
+  @override
+  String get nicknamePrefix76 => 'grįžtant';
+
+  @override
+  String get nicknamePrefix77 => 'laukimas';
+
+  @override
+  String get nicknamePrefix78 => 'ieško';
+
+  @override
+  String get nicknamePrefix79 => 'paslaptingas';
+
+  @override
+  String get nicknamePrefix80 => 'atidengtas';
+
+  @override
+  String get nicknamePrefix81 => 'apleistas';
+
+  @override
+  String get nicknamePrefix82 => 'pasirinktas';
+
+  @override
+  String get nicknamePrefix83 => 'palaimintas';
+
+  @override
+  String get nicknamePrefix84 => 'prakeiktas';
+
+  @override
+  String get nicknamePrefix85 => 'mylėjo';
+
+  @override
+  String get nicknamePrefix86 => 'nekentė';
+
+  @override
+  String get nicknamePrefix87 => 'prisiminti';
+
+  @override
+  String get nicknamePrefix88 => 'užsimiršęs';
+
+  @override
+  String get nicknamePrefix89 => 'žvaigždžių šviesa';
+
+  @override
+  String get nicknamePrefix90 => 'mėnulio šviesa';
+
+  @override
+  String get nicknamePrefix91 => 'saulės šviesos';
+
+  @override
+  String get nicknamePrefix92 => 'kosminis';
+
+  @override
+  String get nicknamePrefix93 => 'žemės';
+
+  @override
+  String get nicknamePrefix94 => 'jūros';
+
+  @override
+  String get nicknamePrefix95 => 'dangiškas';
+
+  @override
+  String get nicknamePrefix96 => 'debesų';
+
+  @override
+  String get nicknamePrefix97 => 'vėjo';
+
+  @override
+  String get nicknamePrefix98 => 'lietus';
+
+  @override
+  String get nicknamePrefix99 => 'akies';
+
+  @override
+  String get nicknamePrefix100 => 'ledinis';
+
+  @override
+  String get nicknamePrefix101 => 'ugningas';
+
+  @override
+  String get nicknamePrefix102 => 'vandens';
+
+  @override
+  String get nicknamePrefix103 => 'moliniai';
+
+  @override
+  String get nicknamePrefix104 => 'medinis';
+
+  @override
+  String get nicknamePrefix105 => 'miškas';
+
+  @override
+  String get nicknamePrefix106 => 'kalnuotas';
+
+  @override
+  String get nicknamePrefix107 => 'paskaita';
+
+  @override
+  String get nicknamePrefix108 => 'ežero';
+
+  @override
+  String get nicknamePrefix109 => 'laiko';
+
+  @override
+  String get nicknamePrefix110 => 'erdvės';
+
+  @override
+  String get nicknamePrefix111 => 'matmuo';
+
+  @override
+  String get nicknamePrefix112 => 'lemtingas';
+
+  @override
+  String get nicknamePrefix113 => 'lemtingas';
+
+  @override
+  String get nicknamePrefix114 => 'stebuklinga';
+
+  @override
+  String get nicknamePrefix115 => 'magiškas';
+
+  @override
+  String get nicknamePrefix116 => 'mitinis';
+
+  @override
+  String get nicknamePrefix117 => 'legendinis';
+
+  @override
+  String get nicknamePrefix118 => 'tiesos';
+
+  @override
+  String get nicknamePrefix119 => 'klaidinga';
+
+  @override
+  String get nicknamePrefix120 => 'fantazija';
+
+  @override
+  String get nicknamePrefix121 => 'svajonė';
+
+  @override
+  String get nicknamePrefix122 => 'košmaras';
+
+  @override
+  String get nicknamePrefix123 => 'griuvėsiai';
+
+  @override
+  String get nicknamePrefix124 => 'kūrybos';
+
+  @override
+  String get nicknamePrefix125 => 'gyvenimo';
+
+  @override
+  String get nicknamePrefix126 => 'mirties';
+
+  @override
+  String get nicknamePrefix127 => 'siela';
+
+  @override
+  String get nicknamePrefix128 => 'fizinis';
+
+  @override
+  String get nicknamePrefix129 => 'priežasties';
+
+  @override
+  String get nicknamePrefix130 => 'emocingas';
+
+  @override
+  String get nicknamePrefix131 => 'meilės';
+
+  @override
+  String get nicknamePrefix132 => 'neapykantos';
+
+  @override
+  String get nicknamePrefix133 => 'liūdesio';
+
+  @override
+  String get nicknamePrefix134 => 'džiaugsmo';
+
+  @override
+  String get nicknamePrefix135 => 'piktas';
+
+  @override
+  String get nicknamePrefix136 => 'ramybės';
+
+  @override
+  String get nicknamePrefix137 => 'karo';
+
+  @override
+  String get nicknamePrefix138 => 'chaosas';
+
+  @override
+  String get nicknamePrefix139 => 'tvarkingas';
+
+  @override
+  String get nicknamePrefix140 => 'šviesos';
+
+  @override
+  String get nicknamePrefix141 => 'tamsus';
+
+  @override
+  String get nicknamePrefix142 => 'prieblanda';
+
+  @override
+  String get nicknamePrefix143 => 'aušra';
+
+  @override
+  String get nicknamePrefix144 => 'vidurdienį';
+
+  @override
+  String get nicknamePrefix145 => 'vidurnaktį';
+
+  @override
+  String get nicknamePrefix146 => 'praeityje';
+
+  @override
+  String get nicknamePrefix147 => 'pateikti';
+
+  @override
+  String get nicknamePrefix148 => 'ateities';
+
+  @override
+  String get nicknamePrefix149 => 'kilmės';
+
+  @override
+  String get nicknamePrefix150 => 'apokaliptinė';
+
+  @override
+  String get nicknamePrefix151 => 'begalinis';
+
+  @override
+  String get nicknamePrefix152 => 'baigtinis';
+
+  @override
+  String get nicknamePrefix153 => 'tyli';
+
+  @override
+  String get nicknamePrefix154 => 'triukšmo';
+
+  @override
+  String get nicknamePrefix155 => 'dainavimas';
+
+  @override
+  String get nicknamePrefix156 => 'šokiai';
+
+  @override
+  String get nicknamePrefix157 => 'verksmas';
+
+  @override
+  String get nicknamePrefix158 => 'šypsodamasis';
+
+  @override
+  String get nicknamePrefix159 => 'šnabždėdamas';
+
+  @override
+  String get nicknamePrefix160 => 'verksmas';
+
+  @override
+  String get nicknamePrefix161 => 'meldžiantis';
+
+  @override
+  String get nicknamePrefix162 => 'maldaujantis';
+
+  @override
+  String get nicknamePrefix163 => 'įsakmiai';
+
+  @override
+  String get nicknamePrefix164 => 'paklusnus';
+
+  @override
+  String get nicknamePrefix165 => 'nutarimą';
+
+  @override
+  String get nicknamePrefix166 => 'patiekimas';
+
+  @override
+  String get nicknamePrefix167 => 'vadovaujantis';
+
+  @override
+  String get nicknamePrefix168 => 'lydintis';
+
+  @override
+  String get nicknamePrefix169 => 'mokymas';
+
+  @override
+  String get nicknamePrefix170 => 'mokymasis';
+
+  @override
+  String get nicknamePrefix171 => 'atminties';
+
+  @override
+  String get nicknamePrefix172 => 'prisiminimų';
+
+  @override
+  String get nicknamePrefix173 => 'žaizdų';
+
+  @override
+  String get nicknamePrefix174 => 'gijimas';
+
+  @override
+  String get nicknamePrefix175 => 'nuodingas';
+
+  @override
+  String get nicknamePrefix176 => 'vaistas';
+
+  @override
+  String get nicknamePrefix177 => 'sveiki atvykę';
+
+  @override
+  String get nicknamePrefix178 => 'medžiagos';
+
+  @override
+  String get nicknamePrefix179 => 'idealus';
+
+  @override
+  String get nicknamePrefix180 => 'tikras';
+
+  @override
+  String get nicknamePrefix181 => 'įsivaizduojamas';
+
+  @override
+  String get nicknamePrefix182 => 'natūralus';
+
+  @override
+  String get nicknamePrefix183 => 'dirbtinis';
+
+  @override
+  String get nicknamePrefix184 => 'pradžioje';
+
+  @override
+  String get nicknamePrefix185 => 'amžinybė';
+
+  @override
+  String get nicknamePrefix186 => 'akimirkos';
+
+  @override
+  String get nicknamePrefix187 => 'trumpalaikis';
+
+  @override
+  String get nicknamePrefix188 => 'amžinas';
+
+  @override
+  String get nicknamePrefix189 => 'pokyčių';
+
+  @override
+  String get nicknamePrefix190 => 'vis dar';
+
+  @override
+  String get nicknamePrefix191 => 'teka';
+
+  @override
+  String get nicknamePrefix192 => 'apleistas';
+
+  @override
+  String get nicknamePrefix193 => 'liepsnojantis';
+
+  @override
+  String get nicknamePrefix194 => 'atvėsus';
+
+  @override
+  String get nicknamePrefix195 => 'žydintys';
+
+  @override
+  String get nicknamePrefix196 => 'vytantis';
+
+  @override
+  String get nicknamePrefix197 => 'auga';
+
+  @override
+  String get nicknamePrefix198 => 'miršta';
+
+  @override
+  String get nicknamePrefix199 => 'kvėpavimas';
+
+  @override
+  String get nicknamePrefix200 => 'dusinantis';
+
+  @override
+  String get nicknameSuffix0 => 'pranašas';
+
+  @override
+  String get nicknameSuffix1 => 'vedlys';
+
+  @override
+  String get nicknameSuffix2 => 'ragana';
+
+  @override
+  String get nicknameSuffix3 => 'straipsnis';
+
+  @override
+  String get nicknameSuffix4 => 'karys';
+
+  @override
+  String get nicknameSuffix5 => 'Lankininkas';
+
+  @override
+  String get nicknameSuffix6 => 'vagis';
+
+  @override
+  String get nicknameSuffix7 => 'žudikas';
+
+  @override
+  String get nicknameSuffix8 => 'paladinas';
+
+  @override
+  String get nicknameSuffix9 => 'kunigas';
+
+  @override
+  String get nicknameSuffix10 => 'kunigė';
+
+  @override
+  String get nicknameSuffix11 => 'vienuolis';
+
+  @override
+  String get nicknameSuffix12 => 'powwow';
+
+  @override
+  String get nicknameSuffix13 => 'alchemikas';
+
+  @override
+  String get nicknameSuffix14 => 'nekromantas';
+
+  @override
+  String get nicknameSuffix15 => 'spiritistas';
+
+  @override
+  String get nicknameSuffix16 => 'šaukiamasis';
+
+  @override
+  String get nicknameSuffix17 => 'iliuzionistas';
+
+  @override
+  String get nicknameSuffix18 => 'gydytojas';
+
+  @override
+  String get nicknameSuffix19 => 'išmintingas žmogus';
+
+  @override
+  String get nicknameSuffix20 => 'mokslininkas';
+
+  @override
+  String get nicknameSuffix21 => 'tyrinėtojas';
+
+  @override
+  String get nicknameSuffix22 => 'tyrinėtojas';
+
+  @override
+  String get nicknameSuffix23 => 'keliautojas';
+
+  @override
+  String get nicknameSuffix24 => 'valkata';
+
+  @override
+  String get nicknameSuffix25 => 'valkata';
+
+  @override
+  String get nicknameSuffix26 => 'piligrimas';
+
+  @override
+  String get nicknameSuffix27 => 'ieškotojas';
+
+  @override
+  String get nicknameSuffix28 => 'stebėtojas';
+
+  @override
+  String get nicknameSuffix29 => 'įrašymo įrenginys';
+
+  @override
+  String get nicknameSuffix30 => 'komunikatorius';
+
+  @override
+  String get nicknameSuffix31 => 'globėjas';
+
+  @override
+  String get nicknameSuffix32 => 'prižiūrėtojas';
+
+  @override
+  String get nicknameSuffix33 => 'sargybinis';
+
+  @override
+  String get nicknameSuffix34 => 'vartų sargas';
+
+  @override
+  String get nicknameSuffix35 => 'teisėjas';
+
+  @override
+  String get nicknameSuffix36 => 'antstolis';
+
+  @override
+  String get nicknameSuffix37 => 'gubernatorius';
+
+  @override
+  String get nicknameSuffix38 => 'valdovas';
+
+  @override
+  String get nicknameSuffix39 => 'karalius';
+
+  @override
+  String get nicknameSuffix40 => 'karalienė';
+
+  @override
+  String get nicknameSuffix41 => 'imperatorius';
+
+  @override
+  String get nicknameSuffix42 => 'imperatorienė';
+
+  @override
+  String get nicknameSuffix43 => 'bajorai';
+
+  @override
+  String get nicknameSuffix44 => 'nuolatinė gyvenamoji vieta';
+
+  @override
+  String get nicknameSuffix45 => 'riterio vadas';
+
+  @override
+  String get nicknameSuffix46 => 'samdinys';
+
+  @override
+  String get nicknameSuffix47 => 'piratas';
+
+  @override
+  String get nicknameSuffix48 => 'vagis';
+
+  @override
+  String get nicknameSuffix49 => 'sukčiavimas';
+
+  @override
+  String get nicknameSuffix50 => 'juokdarys';
+
+  @override
+  String get nicknameSuffix51 => 'kvailys';
+
+  @override
+  String get nicknameSuffix52 => 'atsiskyrėlis';
+
+  @override
+  String get nicknameSuffix53 => 'eretikas';
+
+  @override
+  String get nicknameSuffix54 => 'išdavikas';
+
+  @override
+  String get nicknameSuffix55 => 'išdavikas';
+
+  @override
+  String get nicknameSuffix56 => 'herojus';
+
+  @override
+  String get nicknameSuffix57 => 'taupytojas';
+
+  @override
+  String get nicknameSuffix58 => 'išvaduotojas';
+
+  @override
+  String get nicknameSuffix59 => 'naikintojas';
+
+  @override
+  String get nicknameSuffix60 => 'kūrėjas';
+
+  @override
+  String get nicknameSuffix61 => 'dievas';
+
+  @override
+  String get nicknameSuffix62 => 'deivė';
+
+  @override
+  String get nicknameSuffix63 => 'angelas';
+
+  @override
+  String get nicknameSuffix64 => 'velnias';
+
+  @override
+  String get nicknameSuffix65 => 'vyriausybės potvarkis';
+
+  @override
+  String get nicknameSuffix66 => 'fėja';
+
+  @override
+  String get nicknameSuffix67 => 'pabaisa';
+
+  @override
+  String get nicknameSuffix68 => 'demonas žvėris';
+
+  @override
+  String get nicknameSuffix69 => 'drakonas';
+
+  @override
+  String get nicknameSuffix70 => 'vaiduoklis';
+
+  @override
+  String get nicknameSuffix71 => 'šešėlis';
+
+  @override
+  String get nicknameSuffix72 => 'negyvi';
+
+  @override
+  String get nicknameSuffix73 => 'vampyras';
+
+  @override
+  String get nicknameSuffix74 => 'vilkolakis';
+
+  @override
+  String get nicknameSuffix75 => 'undinė';
+
+  @override
+  String get nicknameSuffix76 => 'sirena';
+
+  @override
+  String get nicknameSuffix77 => 'nimfa';
+
+  @override
+  String get nicknameSuffix78 => 'goblinas';
+
+  @override
+  String get nicknameSuffix79 => 'ąžuolas';
+
+  @override
+  String get nicknameSuffix80 => 'trolis';
+
+  @override
+  String get nicknameSuffix81 => 'elfas';
+
+  @override
+  String get nicknameSuffix82 => 'nykštukas';
+
+  @override
+  String get nicknameSuffix83 => 'milžinas';
+
+  @override
+  String get nicknameSuffix84 => 'pašto antspaudas';
+
+  @override
+  String get nicknameSuffix85 => 'žmogus';
+
+  @override
+  String get nicknameSuffix86 => 'kalinys';
+
+  @override
+  String get nicknameSuffix87 => 'parašas';
+
+  @override
+  String get nicknameSuffix88 => 'Žuvis';
+
+  @override
+  String get nicknameSuffix89 => 'darbuotojas';
+
+  @override
+  String get nicknameSuffix90 => 'piktoji dvasia';
+
+  @override
+  String get nicknameSuffix91 => 'Sura';
+
+  @override
+  String get nicknameSuffix92 => 'pragaras';
+
+  @override
+  String get nicknameSuffix93 => 'rojus';
+
+  @override
+  String get nicknameSuffix94 => 'požemio pasaulis';
+
+  @override
+  String get nicknameSuffix95 => 'anapusinis pasaulis';
+
+  @override
+  String get nicknameSuffix96 => 'bedugnė';
+
+  @override
+  String get nicknameSuffix97 => 'chaosas';
+
+  @override
+  String get nicknameSuffix98 => 'tvarka';
+
+  @override
+  String get nicknameSuffix99 => 'šviesos';
+
+  @override
+  String get nicknameSuffix100 => 'tamsus';
+
+  @override
+  String get nicknamePrefix201 => 'puikus';
+
+  @override
+  String get nicknamePrefix202 => 'subtilus';
+
+  @override
+  String get nicknamePrefix203 => 'miglotas';
+
+  @override
+  String get nicknamePrefix204 => 'nualpti';
+
+  @override
+  String get nicknamePrefix205 => 'skaidrus';
+
+  @override
+  String get nicknamePrefix206 => 'nualpti';
+
+  @override
+  String get nicknamePrefix207 => 'apakinti';
+
+  @override
+  String get nicknamePrefix208 => 'keista';
+
+  @override
+  String get nicknamePrefix209 => 'savitas';
+
+  @override
+  String get nicknamePrefix210 => 'ypatingas';
+
+  @override
+  String get nicknamePrefix211 => 'kilnus';
+
+  @override
+  String get nicknamePrefix212 => 'grynas';
+
+  @override
+  String get nicknamePrefix213 => 'nukritęs';
+
+  @override
+  String get nicknamePrefix214 => 'lone';
+
+  @override
+  String get nicknamePrefix215 => 'vienišas';
+
+  @override
+  String get nicknamePrefix216 => 'apleistas';
+
+  @override
+  String get nicknamePrefix217 => 'Tolimas';
+
+  @override
+  String get nicknamePrefix218 => 'atšiaurus';
+
+  @override
+  String get nicknamePrefix219 => 'negailestingas';
+
+  @override
+  String get nicknamePrefix220 => 'žiaurus';
+
+  @override
+  String get nicknamePrefix221 => 'didelis';
+
+  @override
+  String get nicknamePrefix222 => 'kietas';
+
+  @override
+  String get nicknamePrefix223 => 'tvirta';
+
+  @override
+  String get nicknamePrefix224 => 'vingiuotas';
+
+  @override
+  String get nicknamePrefix225 => 'greitai';
+
+  @override
+  String get nicknamePrefix226 => 'lėtas';
+
+  @override
+  String get nicknamePrefix227 => 'tyloje';
+
+  @override
+  String get nicknamePrefix228 => 'chaose';
+
+  @override
+  String get nicknamePrefix229 => 'atmintyje';
+
+  @override
+  String get nicknamePrefix230 => 'įsivaizduojamas';
+
+  @override
+  String get nicknamePrefix231 => 'tyli';
+
+  @override
+  String get nicknamePrefix232 => 'šnabždėdamas';
+
+  @override
+  String get nicknamePrefix233 => 'dainavimas';
+
+  @override
+  String get nicknamePrefix234 => 'šokiai';
+
+  @override
+  String get nicknamePrefix235 => 'verkdamas';
+
+  @override
+  String get nicknamePrefix236 => 'šypsodamasis';
+
+  @override
+  String get nicknamePrefix237 => 'pašaipiai';
+
+  @override
+  String get nicknamePrefix238 => 'apmąstydamas';
+
+  @override
+  String get nicknamePrefix239 => 'klajojantys';
+
+  @override
+  String get nicknamePrefix240 => 'klajojantys';
+
+  @override
+  String get nicknamePrefix241 => 'pabudęs';
+
+  @override
+  String get nicknamePrefix242 => 'miega';
+
+  @override
+  String get nicknamePrefix243 => 'sapnuoti';
+
+  @override
+  String get nicknamePrefix244 => 'daydreaming';
+
+  @override
+  String get nicknamePrefix245 => 'kliedesinis';
+
+  @override
+  String get nicknamePrefix246 => 'meldžiantis';
+
+  @override
+  String get nicknamePrefix247 => 'rimtai';
+
+  @override
+  String get nicknamePrefix248 => 'liūdnas';
+
+  @override
+  String get nicknamePrefix249 => 'apgailėtinas';
+
+  @override
+  String get nicknamePrefix250 => 'didinga';
+
+  @override
+  String get nicknamePrefix251 => 'nedoras';
+
+  @override
+  String get nicknamePrefix252 => 'reiškia';
+
+  @override
+  String get nicknamePrefix253 => 'arogantiškas';
+
+  @override
+  String get nicknamePrefix254 => 'kuklus';
+
+  @override
+  String get nicknamePrefix255 => 'mėgstu';
+
+  @override
+  String get nicknamePrefix256 => 'šiltas';
+
+  @override
+  String get nicknamePrefix257 => 'kietas';
+
+  @override
+  String get nicknamePrefix258 => 'vėsoka';
+
+  @override
+  String get nicknamePrefix259 => 'keista';
+
+  @override
+  String get nicknamePrefix260 => 'keista';
+
+  @override
+  String get nicknamePrefix261 => 'sužavėtas';
+
+  @override
+  String get nicknamePrefix262 => 'žavinga';
+
+  @override
+  String get nicknamePrefix263 => 'svaiginantis';
+
+  @override
+  String get nicknamePrefix264 => 'saldus';
+
+  @override
+  String get nicknamePrefix265 => 'kartūs';
+
+  @override
+  String get nicknamePrefix266 => 'kartokas';
+
+  @override
+  String get nicknamePrefix267 => 'spygliuotas';
+
+  @override
+  String get nicknamePrefix268 => 'aštrus';
+
+  @override
+  String get nicknamePrefix269 => 'nuobodu';
+
+  @override
+  String get nicknamePrefix270 => 'atšiaurus';
+
+  @override
+  String get nicknamePrefix271 => 'minkštas';
+
+  @override
+  String get nicknamePrefix272 => 'jaukus';
+
+  @override
+  String get nicknamePrefix273 => 'patogus';
+
+  @override
+  String get nicknamePrefix274 => 'nesaugus';
+
+  @override
+  String get nicknamePrefix275 => 'neramus';
+
+  @override
+  String get nicknamePrefix276 => 'ramus';
+
+  @override
+  String get nicknamePrefix277 => 'ramus';
+
+  @override
+  String get nicknamePrefix278 => 'mieguistas';
+
+  @override
+  String get nicknamePrefix279 => 'nuobodu';
+
+  @override
+  String get nicknamePrefix280 => 'aistringas';
+
+  @override
+  String get nicknamePrefix281 => 'neatsargus';
+
+  @override
+  String get nicknamePrefix282 => 'ramus';
+
+  @override
+  String get nicknamePrefix283 => 'smurtinis';
+
+  @override
+  String get nicknamePrefix284 => 'nuožmus';
+
+  @override
+  String get nicknamePrefix285 => 'pamišusi';
+
+  @override
+  String get nicknamePrefix286 => 'išprotėjo';
+
+  @override
+  String get nicknamePrefix287 => 'racionalus';
+
+  @override
+  String get nicknamePrefix288 => 'emocingas';
+
+  @override
+  String get nicknamePrefix289 => 'šalto proto';
+
+  @override
+  String get nicknamePrefix290 => 'protingas';
+
+  @override
+  String get nicknamePrefix291 => 'kvailas';
+
+  @override
+  String get nicknamePrefix292 => 'nekaltas';
+
+  @override
+  String get nicknamePrefix293 => 'gudrus';
+
+  @override
+  String get nicknamePrefix294 => 'serpantinas';
+
+  @override
+  String get nicknamePrefix295 => 'gryna balta';
+
+  @override
+  String get nicknamePrefix296 => 'juodos spalvos';
+
+  @override
+  String get nicknamePrefix297 => 'auksinis';
+
+  @override
+  String get nicknamePrefix298 => 'argentiškas';
+
+  @override
+  String get nicknamePrefix299 => 'kruvinas';
+
+  @override
+  String get nicknameSuffix101 => 'ieškotojas';
+
+  @override
+  String get nicknameSuffix102 => 'piligrimas';
+
+  @override
+  String get nicknameSuffix103 => 'valkata';
+
+  @override
+  String get nicknameSuffix104 => 'atsiskyrėlis';
+
+  @override
+  String get nicknameSuffix105 => 'Etanas';
+
+  @override
+  String get nicknameSuffix106 => 'išdavikas';
+
+  @override
+  String get nicknameSuffix107 => 'pionierius';
+
+  @override
+  String get nicknameSuffix108 => 'užkariautojas';
+
+  @override
+  String get nicknameSuffix109 => 'valdovas';
+
+  @override
+  String get nicknameSuffix110 => 'orkestrantas';
+
+  @override
+  String get nicknameSuffix111 => 'globėjas';
+
+  @override
+  String get nicknameSuffix112 => 'stebėtojas';
+
+  @override
+  String get nicknameSuffix113 => 'stebėtojas';
+
+  @override
+  String get nicknameSuffix114 => 'įrašymo įrenginys';
+
+  @override
+  String get nicknameSuffix115 => 'komunikatorius';
+
+  @override
+  String get nicknameSuffix116 => 'vadovas';
+
+  @override
+  String get nicknameSuffix117 => 'lyderis';
+
+  @override
+  String get nicknameSuffix118 => 'taupytojas';
+
+  @override
+  String get nicknameSuffix119 => 'naikintojas';
+
+  @override
+  String get nicknameSuffix120 => 'kūrėjas';
+
+  @override
+  String get nicknameSuffix121 => 'šešėlis';
+
+  @override
+  String get nicknameSuffix122 => 'vaiduoklis';
+
+  @override
+  String get nicknameSuffix123 => 'vaiduoklis';
+
+  @override
+  String get nicknameSuffix124 => 'piktoji dvasia';
+
+  @override
+  String get nicknameSuffix125 => 'vyriausybės potvarkis';
+
+  @override
+  String get nicknameSuffix126 => 'fėja';
+
+  @override
+  String get nicknameSuffix127 => 'demonas žvėris';
+
+  @override
+  String get nicknameSuffix128 => 'šventas vanduo';
+
+  @override
+  String get nicknameSuffix129 => 'grąžinti pinigus';
+
+  @override
+  String get nicknameSuffix130 => 'Shinsu';
+
+  @override
+  String get nicknameSuffix131 => 'bandymas';
+
+  @override
+  String get nicknameSuffix132 => 'straipsnis';
+
+  @override
+  String get nicknameSuffix133 => 'Lankininkas';
+
+  @override
+  String get nicknameSuffix134 => 'vagis';
+
+  @override
+  String get nicknameSuffix135 => 'žudikas';
+
+  @override
+  String get nicknameSuffix136 => 'vedlys';
+
+  @override
+  String get nicknameSuffix137 => 'powwow';
+
+  @override
+  String get nicknameSuffix138 => 'alchemikas';
+
+  @override
+  String get nicknameSuffix139 => 'nekromantas';
+
+  @override
+  String get nicknameSuffix140 => 'kunigas';
+
+  @override
+  String get nicknameSuffix141 => 'mokslininkas';
+
+  @override
+  String get nicknameSuffix142 => 'tyrinėtojas';
+
+  @override
+  String get nicknameSuffix143 => 'tyrinėtojas';
+
+  @override
+  String get nicknameSuffix144 => 'keliautojas';
+
+  @override
+  String get nicknameSuffix145 => 'menininkas';
+
+  @override
+  String get nicknameSuffix146 => 'juokdarys';
+
+  @override
+  String get nicknameSuffix147 => 'bardas';
+
+  @override
+  String get nicknameSuffix148 => 'pirklys';
+
+  @override
+  String get nicknameSuffix149 => 'amatininkas';
+
+  @override
+  String get nicknameSuffix150 => 'valstietis';
+
+  @override
+  String get nicknameSuffix151 => 'varna';
+
+  @override
+  String get nicknameSuffix152 => 'pelėda';
+
+  @override
+  String get nicknameSuffix153 => 'pelėda';
+
+  @override
+  String get nicknameSuffix154 => 'erelis';
+
+  @override
+  String get nicknameSuffix155 => 'vanagas';
+
+  @override
+  String get nicknameSuffix156 => 'vilkas';
+
+  @override
+  String get nicknameSuffix157 => 'lapė';
+
+  @override
+  String get nicknameSuffix158 => 'lokys';
+
+  @override
+  String get nicknameSuffix159 => 'liūtas';
+
+  @override
+  String get nicknameSuffix160 => 'tigras';
+
+  @override
+  String get nicknameSuffix161 => 'leopardas';
+
+  @override
+  String get nicknameSuffix162 => 'juodoji pantera';
+
+  @override
+  String get nicknameSuffix163 => 'Salssop';
+
+  @override
+  String get nicknameSuffix164 => 'katė';
+
+  @override
+  String get nicknameSuffix165 => 'šuniukas';
+
+  @override
+  String get nicknameSuffix166 => 'gyvatė';
+
+  @override
+  String get nicknameSuffix167 => 'driežas';
+
+  @override
+  String get nicknameSuffix168 => 'vėžlys';
+
+  @override
+  String get nicknameSuffix169 => 'krokodilas';
+
+  @override
+  String get nicknameSuffix170 => 'drakonas';
+
+  @override
+  String get nicknameSuffix171 => 'vienaragis';
+
+  @override
+  String get nicknameSuffix172 => 'Pegasas';
+
+  @override
+  String get nicknameSuffix173 => 'grifonas';
+
+  @override
+  String get nicknameSuffix174 => 'gargoyle';
+
+  @override
+  String get nicknameSuffix175 => 'goblinas';
+
+  @override
+  String get nicknameSuffix176 => 'ąžuolas';
+
+  @override
+  String get nicknameSuffix177 => 'trolis';
+
+  @override
+  String get nicknameSuffix178 => 'sraigtas';
+
+  @override
+  String get nicknameSuffix179 => 'gleivės';
+
+  @override
+  String get nicknameSuffix180 => 'skeletas';
+
+  @override
+  String get nicknameSuffix181 => 'zombis';
+
+  @override
+  String get nicknameSuffix182 => 'vaiduoklis';
+
+  @override
+  String get nicknameSuffix183 => 'vampyras';
+
+  @override
+  String get nicknameSuffix184 => 'vilkolakis';
+
+  @override
+  String get nicknameSuffix185 => 'minotauras';
+
+  @override
+  String get nicknameSuffix186 => 'kentauras';
+
+  @override
+  String get nicknameSuffix187 => 'harpija';
+
+  @override
+  String get nicknameSuffix188 => 'sirena';
+
+  @override
+  String get nicknameSuffix189 => 'Krakenas';
+
+  @override
+  String get nicknameSuffix190 => 'leviatanas';
+
+  @override
+  String get nicknameSuffix191 => 'peilis';
+
+  @override
+  String get nicknameSuffix192 => 'skydas';
+
+  @override
+  String get nicknameSuffix193 => 'langas';
+
+  @override
+  String get nicknameSuffix194 => 'lankas';
+
+  @override
+  String get nicknameSuffix195 => 'cukranendrių';
+
+  @override
+  String get nicknameSuffix196 => 'žiedas';
+
+  @override
+  String get nicknameSuffix197 => 'karoliai';
+
+  @override
+  String get nicknameSuffix198 => 'karūną';
+
+  @override
+  String get nicknameSuffix199 => 'Šventasis Gralis';
+
+  @override
+  String get themeFree => 'Nemokama tema';
+
+  @override
+  String get themePaid => 'Mokama tema';
 }

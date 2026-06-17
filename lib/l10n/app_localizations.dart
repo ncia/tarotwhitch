@@ -2201,6 +2201,3396 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Tap the profile picture to view details'**
   String get chatProfileTapHint;
+
+  /// No description provided for @themeName1.
+  ///
+  /// In en, this message translates to:
+  /// **'Theme 1'**
+  String get themeName1;
+
+  /// No description provided for @themeName2.
+  ///
+  /// In en, this message translates to:
+  /// **'Theme 2'**
+  String get themeName2;
+
+  /// No description provided for @themeName3.
+  ///
+  /// In en, this message translates to:
+  /// **'Theme 3'**
+  String get themeName3;
+
+  /// No description provided for @themeMagicBook.
+  ///
+  /// In en, this message translates to:
+  /// **'Magic Book'**
+  String get themeMagicBook;
+
+  /// No description provided for @themeBlackCat.
+  ///
+  /// In en, this message translates to:
+  /// **'Black Cat'**
+  String get themeBlackCat;
+
+  /// No description provided for @themeEmptyPaidThemes.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase themes in the shop\nto fill this space!'**
+  String get themeEmptyPaidThemes;
+
+  /// No description provided for @shopThemePurchaseTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase Theme'**
+  String get shopThemePurchaseTitle;
+
+  /// No description provided for @shopThemePurchaseContent.
+  ///
+  /// In en, this message translates to:
+  /// **'Do you want to purchase the {skinName} theme for {cost} coins?'**
+  String shopThemePurchaseContent(String skinName, int cost);
+
+  /// No description provided for @shopCancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get shopCancel;
+
+  /// No description provided for @shopPurchase.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase'**
+  String get shopPurchase;
+
+  /// No description provided for @shopAlreadyOwned.
+  ///
+  /// In en, this message translates to:
+  /// **'Already owned. Try applying it in theme settings!'**
+  String get shopAlreadyOwned;
+
+  /// No description provided for @shopPurchaseSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'{skinName} purchased successfully! Check theme settings.'**
+  String shopPurchaseSuccess(String skinName);
+
+  /// No description provided for @shopNotEnoughCoins.
+  ///
+  /// In en, this message translates to:
+  /// **'Not enough coins.'**
+  String get shopNotEnoughCoins;
+
+  /// No description provided for @shopOwned.
+  ///
+  /// In en, this message translates to:
+  /// **'Owned'**
+  String get shopOwned;
+
+  /// No description provided for @shopCoinPrice.
+  ///
+  /// In en, this message translates to:
+  /// **'{cost} coins'**
+  String shopCoinPrice(int cost);
+
+  /// No description provided for @navDiary.
+  ///
+  /// In en, this message translates to:
+  /// **'Tarot Diary'**
+  String get navDiary;
+
+  /// No description provided for @myMenuFirebaseNotConnected.
+  ///
+  /// In en, this message translates to:
+  /// **'Firebase Not Connected'**
+  String get myMenuFirebaseNotConnected;
+
+  /// No description provided for @myMenuWindowsSetupNeeded.
+  ///
+  /// In en, this message translates to:
+  /// **'Windows Setup Needed (Preview)'**
+  String get myMenuWindowsSetupNeeded;
+
+  /// No description provided for @myMenuTouchToViewLogin.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap to view Login UI'**
+  String get myMenuTouchToViewLogin;
+
+  /// No description provided for @myMenuNoName.
+  ///
+  /// In en, this message translates to:
+  /// **'No Name'**
+  String get myMenuNoName;
+
+  /// No description provided for @myMenuPleaseLogin.
+  ///
+  /// In en, this message translates to:
+  /// **'Please Log In'**
+  String get myMenuPleaseLogin;
+
+  /// No description provided for @myMenuTouchToSignupLogin.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap to Sign Up & Log In'**
+  String get myMenuTouchToSignupLogin;
+
+  /// No description provided for @myMenuSectionMyRecords.
+  ///
+  /// In en, this message translates to:
+  /// **'My Records'**
+  String get myMenuSectionMyRecords;
+
+  /// No description provided for @myMenuDiaryStorage.
+  ///
+  /// In en, this message translates to:
+  /// **'Diary Storage'**
+  String get myMenuDiaryStorage;
+
+  /// No description provided for @myMenuCheckSavedDiary.
+  ///
+  /// In en, this message translates to:
+  /// **'Check your saved diaries.'**
+  String get myMenuCheckSavedDiary;
+
+  /// No description provided for @myMenuFavoriteCards.
+  ///
+  /// In en, this message translates to:
+  /// **'Favorite Cards'**
+  String get myMenuFavoriteCards;
+
+  /// No description provided for @myMenuMyFavoriteCardsList.
+  ///
+  /// In en, this message translates to:
+  /// **'List of my favorite cards'**
+  String get myMenuMyFavoriteCardsList;
+
+  /// No description provided for @myMenuSectionAppSettings.
+  ///
+  /// In en, this message translates to:
+  /// **'App Settings'**
+  String get myMenuSectionAppSettings;
+
+  /// No description provided for @myMenuPushNotifications.
+  ///
+  /// In en, this message translates to:
+  /// **'Push Notifications'**
+  String get myMenuPushNotifications;
+
+  /// No description provided for @myMenuPushNotificationsDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'New horoscopes and events'**
+  String get myMenuPushNotificationsDesc;
+
+  /// No description provided for @myMenuLanguageSettings.
+  ///
+  /// In en, this message translates to:
+  /// **'Language Settings'**
+  String get myMenuLanguageSettings;
+
+  /// No description provided for @myMenuThemeSettings.
+  ///
+  /// In en, this message translates to:
+  /// **'Theme Settings'**
+  String get myMenuThemeSettings;
+
+  /// No description provided for @myMenuChangeBackground.
+  ///
+  /// In en, this message translates to:
+  /// **'Change background image'**
+  String get myMenuChangeBackground;
+
+  /// No description provided for @myMenuSectionCustomerSupport.
+  ///
+  /// In en, this message translates to:
+  /// **'Customer Support'**
+  String get myMenuSectionCustomerSupport;
+
+  /// No description provided for @myMenuFaq.
+  ///
+  /// In en, this message translates to:
+  /// **'FAQ'**
+  String get myMenuFaq;
+
+  /// No description provided for @myMenuAppInfo.
+  ///
+  /// In en, this message translates to:
+  /// **'App Info'**
+  String get myMenuAppInfo;
+
+  /// No description provided for @myMenuSectionAccountManagement.
+  ///
+  /// In en, this message translates to:
+  /// **'Account Management'**
+  String get myMenuSectionAccountManagement;
+
+  /// No description provided for @myMenuLogout.
+  ///
+  /// In en, this message translates to:
+  /// **'Log Out'**
+  String get myMenuLogout;
+
+  /// No description provided for @myMenuLogoutDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Log out from the current device.'**
+  String get myMenuLogoutDesc;
+
+  /// No description provided for @myMenuEmailVerifiedMsg.
+  ///
+  /// In en, this message translates to:
+  /// **'Email verification confirmed! ✨'**
+  String get myMenuEmailVerifiedMsg;
+
+  /// No description provided for @myMenuEmailSendTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Send Verification Email'**
+  String get myMenuEmailSendTitle;
+
+  /// No description provided for @myMenuEmailSendContent.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification email has been sent.\nPlease check your inbox, click the link, and press this button again!'**
+  String get myMenuEmailSendContent;
+
+  /// No description provided for @myMenuConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm'**
+  String get myMenuConfirm;
+
+  /// No description provided for @myMenuEmailErrorMsg.
+  ///
+  /// In en, this message translates to:
+  /// **'Too many requests or an error occurred.'**
+  String get myMenuEmailErrorMsg;
+
+  /// No description provided for @myMenuEmailVerified.
+  ///
+  /// In en, this message translates to:
+  /// **'Email Verified'**
+  String get myMenuEmailVerified;
+
+  /// No description provided for @myMenuEmailNotVerified.
+  ///
+  /// In en, this message translates to:
+  /// **'Email Not Verified (Tap to verify)'**
+  String get myMenuEmailNotVerified;
+
+  /// No description provided for @languageSystemDefault.
+  ///
+  /// In en, this message translates to:
+  /// **'System Default'**
+  String get languageSystemDefault;
+
+  /// No description provided for @shopTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Shop'**
+  String get shopTitle;
+
+  /// No description provided for @shopSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase Coins and Themes'**
+  String get shopSubtitle;
+
+  /// No description provided for @shopTabCoin.
+  ///
+  /// In en, this message translates to:
+  /// **'Coin'**
+  String get shopTabCoin;
+
+  /// No description provided for @shopTabTheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Theme'**
+  String get shopTabTheme;
+
+  /// No description provided for @shopPayButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay'**
+  String get shopPayButton;
+
+  /// No description provided for @themeOriginalDeck.
+  ///
+  /// In en, this message translates to:
+  /// **'Original Classic Deck'**
+  String get themeOriginalDeck;
+
+  /// No description provided for @themeGoldenSunDeck.
+  ///
+  /// In en, this message translates to:
+  /// **'Golden Sun Deck'**
+  String get themeGoldenSunDeck;
+
+  /// No description provided for @themeDarkAbyssDeck.
+  ///
+  /// In en, this message translates to:
+  /// **'Dark Abyss Deck'**
+  String get themeDarkAbyssDeck;
+
+  /// No description provided for @themeSpringSpiritDeck.
+  ///
+  /// In en, this message translates to:
+  /// **'Spring Spirit Deck'**
+  String get themeSpringSpiritDeck;
+
+  /// No description provided for @shopCoinNotReady.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment for {coins} coins is coming soon.'**
+  String shopCoinNotReady(int coins);
+
+  /// No description provided for @shopThemeNotReady.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase/apply for {name} is coming soon.'**
+  String shopThemeNotReady(String name);
+
+  /// No description provided for @readingIntroSelectWitch.
+  ///
+  /// In en, this message translates to:
+  /// **'Select a witch to see your destiny'**
+  String get readingIntroSelectWitch;
+
+  /// No description provided for @readingIntroGreeting.
+  ///
+  /// In en, this message translates to:
+  /// **'What destiny shall we look into?\nI am curious about your future.'**
+  String get readingIntroGreeting;
+
+  /// No description provided for @readingIntroStart.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Spread'**
+  String get readingIntroStart;
+
+  /// No description provided for @tabMajorArcana.
+  ///
+  /// In en, this message translates to:
+  /// **'Major Arcana'**
+  String get tabMajorArcana;
+
+  /// No description provided for @tabMinorArcana.
+  ///
+  /// In en, this message translates to:
+  /// **'Minor Arcana'**
+  String get tabMinorArcana;
+
+  /// No description provided for @nicknamePrefix0.
+  ///
+  /// In en, this message translates to:
+  /// **'occult'**
+  String get nicknamePrefix0;
+
+  /// No description provided for @nicknamePrefix1.
+  ///
+  /// In en, this message translates to:
+  /// **'serene'**
+  String get nicknamePrefix1;
+
+  /// No description provided for @nicknamePrefix2.
+  ///
+  /// In en, this message translates to:
+  /// **'holy'**
+  String get nicknamePrefix2;
+
+  /// No description provided for @nicknamePrefix3.
+  ///
+  /// In en, this message translates to:
+  /// **'dark'**
+  String get nicknamePrefix3;
+
+  /// No description provided for @nicknamePrefix4.
+  ///
+  /// In en, this message translates to:
+  /// **'shining'**
+  String get nicknamePrefix4;
+
+  /// No description provided for @nicknamePrefix5.
+  ///
+  /// In en, this message translates to:
+  /// **'bleak'**
+  String get nicknamePrefix5;
+
+  /// No description provided for @nicknamePrefix6.
+  ///
+  /// In en, this message translates to:
+  /// **'hot'**
+  String get nicknamePrefix6;
+
+  /// No description provided for @nicknamePrefix7.
+  ///
+  /// In en, this message translates to:
+  /// **'fascinating'**
+  String get nicknamePrefix7;
+
+  /// No description provided for @nicknamePrefix8.
+  ///
+  /// In en, this message translates to:
+  /// **'cruel'**
+  String get nicknamePrefix8;
+
+  /// No description provided for @nicknamePrefix9.
+  ///
+  /// In en, this message translates to:
+  /// **'pure'**
+  String get nicknamePrefix9;
+
+  /// No description provided for @nicknamePrefix10.
+  ///
+  /// In en, this message translates to:
+  /// **'harsh'**
+  String get nicknamePrefix10;
+
+  /// No description provided for @nicknamePrefix11.
+  ///
+  /// In en, this message translates to:
+  /// **'soft'**
+  String get nicknamePrefix11;
+
+  /// No description provided for @nicknamePrefix12.
+  ///
+  /// In en, this message translates to:
+  /// **'beautiful'**
+  String get nicknamePrefix12;
+
+  /// No description provided for @nicknamePrefix13.
+  ///
+  /// In en, this message translates to:
+  /// **'weird'**
+  String get nicknamePrefix13;
+
+  /// No description provided for @nicknamePrefix14.
+  ///
+  /// In en, this message translates to:
+  /// **'big'**
+  String get nicknamePrefix14;
+
+  /// No description provided for @nicknamePrefix15.
+  ///
+  /// In en, this message translates to:
+  /// **'shabby'**
+  String get nicknamePrefix15;
+
+  /// No description provided for @nicknamePrefix16.
+  ///
+  /// In en, this message translates to:
+  /// **'eternal'**
+  String get nicknamePrefix16;
+
+  /// No description provided for @nicknamePrefix17.
+  ///
+  /// In en, this message translates to:
+  /// **'forgotten'**
+  String get nicknamePrefix17;
+
+  /// No description provided for @nicknamePrefix18.
+  ///
+  /// In en, this message translates to:
+  /// **'brilliant'**
+  String get nicknamePrefix18;
+
+  /// No description provided for @nicknamePrefix19.
+  ///
+  /// In en, this message translates to:
+  /// **'sad'**
+  String get nicknamePrefix19;
+
+  /// No description provided for @nicknamePrefix20.
+  ///
+  /// In en, this message translates to:
+  /// **'glad'**
+  String get nicknamePrefix20;
+
+  /// No description provided for @nicknamePrefix21.
+  ///
+  /// In en, this message translates to:
+  /// **'dreamy'**
+  String get nicknamePrefix21;
+
+  /// No description provided for @nicknamePrefix22.
+  ///
+  /// In en, this message translates to:
+  /// **'fallen'**
+  String get nicknamePrefix22;
+
+  /// No description provided for @nicknamePrefix23.
+  ///
+  /// In en, this message translates to:
+  /// **'pure white'**
+  String get nicknamePrefix23;
+
+  /// No description provided for @nicknamePrefix24.
+  ///
+  /// In en, this message translates to:
+  /// **'jet black'**
+  String get nicknamePrefix24;
+
+  /// No description provided for @nicknamePrefix25.
+  ///
+  /// In en, this message translates to:
+  /// **'bloody'**
+  String get nicknamePrefix25;
+
+  /// No description provided for @nicknamePrefix26.
+  ///
+  /// In en, this message translates to:
+  /// **'grayish'**
+  String get nicknamePrefix26;
+
+  /// No description provided for @nicknamePrefix27.
+  ///
+  /// In en, this message translates to:
+  /// **'golden'**
+  String get nicknamePrefix27;
+
+  /// No description provided for @nicknamePrefix28.
+  ///
+  /// In en, this message translates to:
+  /// **'argent'**
+  String get nicknamePrefix28;
+
+  /// No description provided for @nicknamePrefix29.
+  ///
+  /// In en, this message translates to:
+  /// **'blue'**
+  String get nicknamePrefix29;
+
+  /// No description provided for @nicknamePrefix30.
+  ///
+  /// In en, this message translates to:
+  /// **'red'**
+  String get nicknamePrefix30;
+
+  /// No description provided for @nicknamePrefix31.
+  ///
+  /// In en, this message translates to:
+  /// **'yellow'**
+  String get nicknamePrefix31;
+
+  /// No description provided for @nicknamePrefix32.
+  ///
+  /// In en, this message translates to:
+  /// **'black'**
+  String get nicknamePrefix32;
+
+  /// No description provided for @nicknamePrefix33.
+  ///
+  /// In en, this message translates to:
+  /// **'white'**
+  String get nicknamePrefix33;
+
+  /// No description provided for @nicknamePrefix34.
+  ///
+  /// In en, this message translates to:
+  /// **'transparent'**
+  String get nicknamePrefix34;
+
+  /// No description provided for @nicknamePrefix35.
+  ///
+  /// In en, this message translates to:
+  /// **'lone'**
+  String get nicknamePrefix35;
+
+  /// No description provided for @nicknamePrefix36.
+  ///
+  /// In en, this message translates to:
+  /// **'noisy'**
+  String get nicknamePrefix36;
+
+  /// No description provided for @nicknamePrefix37.
+  ///
+  /// In en, this message translates to:
+  /// **'quiet'**
+  String get nicknamePrefix37;
+
+  /// No description provided for @nicknamePrefix38.
+  ///
+  /// In en, this message translates to:
+  /// **'warm'**
+  String get nicknamePrefix38;
+
+  /// No description provided for @nicknamePrefix39.
+  ///
+  /// In en, this message translates to:
+  /// **'frosty'**
+  String get nicknamePrefix39;
+
+  /// No description provided for @nicknamePrefix40.
+  ///
+  /// In en, this message translates to:
+  /// **'solitary'**
+  String get nicknamePrefix40;
+
+  /// No description provided for @nicknamePrefix41.
+  ///
+  /// In en, this message translates to:
+  /// **'lonesome'**
+  String get nicknamePrefix41;
+
+  /// No description provided for @nicknamePrefix42.
+  ///
+  /// In en, this message translates to:
+  /// **'happy'**
+  String get nicknamePrefix42;
+
+  /// No description provided for @nicknamePrefix43.
+  ///
+  /// In en, this message translates to:
+  /// **'happy'**
+  String get nicknamePrefix43;
+
+  /// No description provided for @nicknamePrefix44.
+  ///
+  /// In en, this message translates to:
+  /// **'gloomy'**
+  String get nicknamePrefix44;
+
+  /// No description provided for @nicknamePrefix45.
+  ///
+  /// In en, this message translates to:
+  /// **'desperate'**
+  String get nicknamePrefix45;
+
+  /// No description provided for @nicknamePrefix46.
+  ///
+  /// In en, this message translates to:
+  /// **'hopeful'**
+  String get nicknamePrefix46;
+
+  /// No description provided for @nicknamePrefix47.
+  ///
+  /// In en, this message translates to:
+  /// **'dazzling'**
+  String get nicknamePrefix47;
+
+  /// No description provided for @nicknamePrefix48.
+  ///
+  /// In en, this message translates to:
+  /// **'dusky'**
+  String get nicknamePrefix48;
+
+  /// No description provided for @nicknamePrefix49.
+  ///
+  /// In en, this message translates to:
+  /// **'midnight'**
+  String get nicknamePrefix49;
+
+  /// No description provided for @nicknamePrefix50.
+  ///
+  /// In en, this message translates to:
+  /// **'desolate'**
+  String get nicknamePrefix50;
+
+  /// No description provided for @nicknamePrefix51.
+  ///
+  /// In en, this message translates to:
+  /// **'secret'**
+  String get nicknamePrefix51;
+
+  /// No description provided for @nicknamePrefix52.
+  ///
+  /// In en, this message translates to:
+  /// **'secret'**
+  String get nicknamePrefix52;
+
+  /// No description provided for @nicknamePrefix53.
+  ///
+  /// In en, this message translates to:
+  /// **'sacred'**
+  String get nicknamePrefix53;
+
+  /// No description provided for @nicknamePrefix54.
+  ///
+  /// In en, this message translates to:
+  /// **'profane'**
+  String get nicknamePrefix54;
+
+  /// No description provided for @nicknamePrefix55.
+  ///
+  /// In en, this message translates to:
+  /// **'superior'**
+  String get nicknamePrefix55;
+
+  /// No description provided for @nicknamePrefix56.
+  ///
+  /// In en, this message translates to:
+  /// **'modest'**
+  String get nicknamePrefix56;
+
+  /// No description provided for @nicknamePrefix57.
+  ///
+  /// In en, this message translates to:
+  /// **'wise'**
+  String get nicknamePrefix57;
+
+  /// No description provided for @nicknamePrefix58.
+  ///
+  /// In en, this message translates to:
+  /// **'foolish'**
+  String get nicknamePrefix58;
+
+  /// No description provided for @nicknamePrefix59.
+  ///
+  /// In en, this message translates to:
+  /// **'tough'**
+  String get nicknamePrefix59;
+
+  /// No description provided for @nicknamePrefix60.
+  ///
+  /// In en, this message translates to:
+  /// **'weak'**
+  String get nicknamePrefix60;
+
+  /// No description provided for @nicknamePrefix61.
+  ///
+  /// In en, this message translates to:
+  /// **'brave'**
+  String get nicknamePrefix61;
+
+  /// No description provided for @nicknamePrefix62.
+  ///
+  /// In en, this message translates to:
+  /// **'dastardly'**
+  String get nicknamePrefix62;
+
+  /// No description provided for @nicknamePrefix63.
+  ///
+  /// In en, this message translates to:
+  /// **'Distant'**
+  String get nicknamePrefix63;
+
+  /// No description provided for @nicknamePrefix64.
+  ///
+  /// In en, this message translates to:
+  /// **'near'**
+  String get nicknamePrefix64;
+
+  /// No description provided for @nicknamePrefix65.
+  ///
+  /// In en, this message translates to:
+  /// **'moving away'**
+  String get nicknamePrefix65;
+
+  /// No description provided for @nicknamePrefix66.
+  ///
+  /// In en, this message translates to:
+  /// **'oncoming'**
+  String get nicknamePrefix66;
+
+  /// No description provided for @nicknamePrefix67.
+  ///
+  /// In en, this message translates to:
+  /// **'disappearing'**
+  String get nicknamePrefix67;
+
+  /// No description provided for @nicknamePrefix68.
+  ///
+  /// In en, this message translates to:
+  /// **'emergent'**
+  String get nicknamePrefix68;
+
+  /// No description provided for @nicknamePrefix69.
+  ///
+  /// In en, this message translates to:
+  /// **'awakened'**
+  String get nicknamePrefix69;
+
+  /// No description provided for @nicknamePrefix70.
+  ///
+  /// In en, this message translates to:
+  /// **'asleep'**
+  String get nicknamePrefix70;
+
+  /// No description provided for @nicknamePrefix71.
+  ///
+  /// In en, this message translates to:
+  /// **'dreaming'**
+  String get nicknamePrefix71;
+
+  /// No description provided for @nicknamePrefix72.
+  ///
+  /// In en, this message translates to:
+  /// **'wandering'**
+  String get nicknamePrefix72;
+
+  /// No description provided for @nicknamePrefix73.
+  ///
+  /// In en, this message translates to:
+  /// **'wandering'**
+  String get nicknamePrefix73;
+
+  /// No description provided for @nicknamePrefix74.
+  ///
+  /// In en, this message translates to:
+  /// **'staying'**
+  String get nicknamePrefix74;
+
+  /// No description provided for @nicknamePrefix75.
+  ///
+  /// In en, this message translates to:
+  /// **'leaving'**
+  String get nicknamePrefix75;
+
+  /// No description provided for @nicknamePrefix76.
+  ///
+  /// In en, this message translates to:
+  /// **'coming back'**
+  String get nicknamePrefix76;
+
+  /// No description provided for @nicknamePrefix77.
+  ///
+  /// In en, this message translates to:
+  /// **'waiting'**
+  String get nicknamePrefix77;
+
+  /// No description provided for @nicknamePrefix78.
+  ///
+  /// In en, this message translates to:
+  /// **'looking for'**
+  String get nicknamePrefix78;
+
+  /// No description provided for @nicknamePrefix79.
+  ///
+  /// In en, this message translates to:
+  /// **'cryptic'**
+  String get nicknamePrefix79;
+
+  /// No description provided for @nicknamePrefix80.
+  ///
+  /// In en, this message translates to:
+  /// **'exposed'**
+  String get nicknamePrefix80;
+
+  /// No description provided for @nicknamePrefix81.
+  ///
+  /// In en, this message translates to:
+  /// **'abandoned'**
+  String get nicknamePrefix81;
+
+  /// No description provided for @nicknamePrefix82.
+  ///
+  /// In en, this message translates to:
+  /// **'selected'**
+  String get nicknamePrefix82;
+
+  /// No description provided for @nicknamePrefix83.
+  ///
+  /// In en, this message translates to:
+  /// **'blessed'**
+  String get nicknamePrefix83;
+
+  /// No description provided for @nicknamePrefix84.
+  ///
+  /// In en, this message translates to:
+  /// **'cursed'**
+  String get nicknamePrefix84;
+
+  /// No description provided for @nicknamePrefix85.
+  ///
+  /// In en, this message translates to:
+  /// **'loved'**
+  String get nicknamePrefix85;
+
+  /// No description provided for @nicknamePrefix86.
+  ///
+  /// In en, this message translates to:
+  /// **'hated'**
+  String get nicknamePrefix86;
+
+  /// No description provided for @nicknamePrefix87.
+  ///
+  /// In en, this message translates to:
+  /// **'remember'**
+  String get nicknamePrefix87;
+
+  /// No description provided for @nicknamePrefix88.
+  ///
+  /// In en, this message translates to:
+  /// **'oblivious'**
+  String get nicknamePrefix88;
+
+  /// No description provided for @nicknamePrefix89.
+  ///
+  /// In en, this message translates to:
+  /// **'starlight'**
+  String get nicknamePrefix89;
+
+  /// No description provided for @nicknamePrefix90.
+  ///
+  /// In en, this message translates to:
+  /// **'moonlight'**
+  String get nicknamePrefix90;
+
+  /// No description provided for @nicknamePrefix91.
+  ///
+  /// In en, this message translates to:
+  /// **'of sunlight'**
+  String get nicknamePrefix91;
+
+  /// No description provided for @nicknamePrefix92.
+  ///
+  /// In en, this message translates to:
+  /// **'cosmic'**
+  String get nicknamePrefix92;
+
+  /// No description provided for @nicknamePrefix93.
+  ///
+  /// In en, this message translates to:
+  /// **'of the earth'**
+  String get nicknamePrefix93;
+
+  /// No description provided for @nicknamePrefix94.
+  ///
+  /// In en, this message translates to:
+  /// **'of the sea'**
+  String get nicknamePrefix94;
+
+  /// No description provided for @nicknamePrefix95.
+  ///
+  /// In en, this message translates to:
+  /// **'heavenly'**
+  String get nicknamePrefix95;
+
+  /// No description provided for @nicknamePrefix96.
+  ///
+  /// In en, this message translates to:
+  /// **'of the clouds'**
+  String get nicknamePrefix96;
+
+  /// No description provided for @nicknamePrefix97.
+  ///
+  /// In en, this message translates to:
+  /// **'of the wind'**
+  String get nicknamePrefix97;
+
+  /// No description provided for @nicknamePrefix98.
+  ///
+  /// In en, this message translates to:
+  /// **'rain'**
+  String get nicknamePrefix98;
+
+  /// No description provided for @nicknamePrefix99.
+  ///
+  /// In en, this message translates to:
+  /// **'of the eye'**
+  String get nicknamePrefix99;
+
+  /// No description provided for @nicknamePrefix100.
+  ///
+  /// In en, this message translates to:
+  /// **'icy'**
+  String get nicknamePrefix100;
+
+  /// No description provided for @nicknamePrefix101.
+  ///
+  /// In en, this message translates to:
+  /// **'fiery'**
+  String get nicknamePrefix101;
+
+  /// No description provided for @nicknamePrefix102.
+  ///
+  /// In en, this message translates to:
+  /// **'water'**
+  String get nicknamePrefix102;
+
+  /// No description provided for @nicknamePrefix103.
+  ///
+  /// In en, this message translates to:
+  /// **'earthen'**
+  String get nicknamePrefix103;
+
+  /// No description provided for @nicknamePrefix104.
+  ///
+  /// In en, this message translates to:
+  /// **'wooden'**
+  String get nicknamePrefix104;
+
+  /// No description provided for @nicknamePrefix105.
+  ///
+  /// In en, this message translates to:
+  /// **'forest'**
+  String get nicknamePrefix105;
+
+  /// No description provided for @nicknamePrefix106.
+  ///
+  /// In en, this message translates to:
+  /// **'mountainous'**
+  String get nicknamePrefix106;
+
+  /// No description provided for @nicknamePrefix107.
+  ///
+  /// In en, this message translates to:
+  /// **'lecture'**
+  String get nicknamePrefix107;
+
+  /// No description provided for @nicknamePrefix108.
+  ///
+  /// In en, this message translates to:
+  /// **'of the lake'**
+  String get nicknamePrefix108;
+
+  /// No description provided for @nicknamePrefix109.
+  ///
+  /// In en, this message translates to:
+  /// **'of time'**
+  String get nicknamePrefix109;
+
+  /// No description provided for @nicknamePrefix110.
+  ///
+  /// In en, this message translates to:
+  /// **'of space'**
+  String get nicknamePrefix110;
+
+  /// No description provided for @nicknamePrefix111.
+  ///
+  /// In en, this message translates to:
+  /// **'dimension'**
+  String get nicknamePrefix111;
+
+  /// No description provided for @nicknamePrefix112.
+  ///
+  /// In en, this message translates to:
+  /// **'fateful'**
+  String get nicknamePrefix112;
+
+  /// No description provided for @nicknamePrefix113.
+  ///
+  /// In en, this message translates to:
+  /// **'fateful'**
+  String get nicknamePrefix113;
+
+  /// No description provided for @nicknamePrefix114.
+  ///
+  /// In en, this message translates to:
+  /// **'miraculous'**
+  String get nicknamePrefix114;
+
+  /// No description provided for @nicknamePrefix115.
+  ///
+  /// In en, this message translates to:
+  /// **'magical'**
+  String get nicknamePrefix115;
+
+  /// No description provided for @nicknamePrefix116.
+  ///
+  /// In en, this message translates to:
+  /// **'mythical'**
+  String get nicknamePrefix116;
+
+  /// No description provided for @nicknamePrefix117.
+  ///
+  /// In en, this message translates to:
+  /// **'legendary'**
+  String get nicknamePrefix117;
+
+  /// No description provided for @nicknamePrefix118.
+  ///
+  /// In en, this message translates to:
+  /// **'of truth'**
+  String get nicknamePrefix118;
+
+  /// No description provided for @nicknamePrefix119.
+  ///
+  /// In en, this message translates to:
+  /// **'false'**
+  String get nicknamePrefix119;
+
+  /// No description provided for @nicknamePrefix120.
+  ///
+  /// In en, this message translates to:
+  /// **'fantasy'**
+  String get nicknamePrefix120;
+
+  /// No description provided for @nicknamePrefix121.
+  ///
+  /// In en, this message translates to:
+  /// **'dream'**
+  String get nicknamePrefix121;
+
+  /// No description provided for @nicknamePrefix122.
+  ///
+  /// In en, this message translates to:
+  /// **'nightmare'**
+  String get nicknamePrefix122;
+
+  /// No description provided for @nicknamePrefix123.
+  ///
+  /// In en, this message translates to:
+  /// **'ruin'**
+  String get nicknamePrefix123;
+
+  /// No description provided for @nicknamePrefix124.
+  ///
+  /// In en, this message translates to:
+  /// **'of creation'**
+  String get nicknamePrefix124;
+
+  /// No description provided for @nicknamePrefix125.
+  ///
+  /// In en, this message translates to:
+  /// **'of life'**
+  String get nicknamePrefix125;
+
+  /// No description provided for @nicknamePrefix126.
+  ///
+  /// In en, this message translates to:
+  /// **'of death'**
+  String get nicknamePrefix126;
+
+  /// No description provided for @nicknamePrefix127.
+  ///
+  /// In en, this message translates to:
+  /// **'soul'**
+  String get nicknamePrefix127;
+
+  /// No description provided for @nicknamePrefix128.
+  ///
+  /// In en, this message translates to:
+  /// **'physical'**
+  String get nicknamePrefix128;
+
+  /// No description provided for @nicknamePrefix129.
+  ///
+  /// In en, this message translates to:
+  /// **'of reason'**
+  String get nicknamePrefix129;
+
+  /// No description provided for @nicknamePrefix130.
+  ///
+  /// In en, this message translates to:
+  /// **'emotional'**
+  String get nicknamePrefix130;
+
+  /// No description provided for @nicknamePrefix131.
+  ///
+  /// In en, this message translates to:
+  /// **'of love'**
+  String get nicknamePrefix131;
+
+  /// No description provided for @nicknamePrefix132.
+  ///
+  /// In en, this message translates to:
+  /// **'of hate'**
+  String get nicknamePrefix132;
+
+  /// No description provided for @nicknamePrefix133.
+  ///
+  /// In en, this message translates to:
+  /// **'of sadness'**
+  String get nicknamePrefix133;
+
+  /// No description provided for @nicknamePrefix134.
+  ///
+  /// In en, this message translates to:
+  /// **'of joy'**
+  String get nicknamePrefix134;
+
+  /// No description provided for @nicknamePrefix135.
+  ///
+  /// In en, this message translates to:
+  /// **'angry'**
+  String get nicknamePrefix135;
+
+  /// No description provided for @nicknamePrefix136.
+  ///
+  /// In en, this message translates to:
+  /// **'of peace'**
+  String get nicknamePrefix136;
+
+  /// No description provided for @nicknamePrefix137.
+  ///
+  /// In en, this message translates to:
+  /// **'of war'**
+  String get nicknamePrefix137;
+
+  /// No description provided for @nicknamePrefix138.
+  ///
+  /// In en, this message translates to:
+  /// **'chaos'**
+  String get nicknamePrefix138;
+
+  /// No description provided for @nicknamePrefix139.
+  ///
+  /// In en, this message translates to:
+  /// **'orderly'**
+  String get nicknamePrefix139;
+
+  /// No description provided for @nicknamePrefix140.
+  ///
+  /// In en, this message translates to:
+  /// **'of light'**
+  String get nicknamePrefix140;
+
+  /// No description provided for @nicknamePrefix141.
+  ///
+  /// In en, this message translates to:
+  /// **'dark'**
+  String get nicknamePrefix141;
+
+  /// No description provided for @nicknamePrefix142.
+  ///
+  /// In en, this message translates to:
+  /// **'twilight'**
+  String get nicknamePrefix142;
+
+  /// No description provided for @nicknamePrefix143.
+  ///
+  /// In en, this message translates to:
+  /// **'dawn'**
+  String get nicknamePrefix143;
+
+  /// No description provided for @nicknamePrefix144.
+  ///
+  /// In en, this message translates to:
+  /// **'noon'**
+  String get nicknamePrefix144;
+
+  /// No description provided for @nicknamePrefix145.
+  ///
+  /// In en, this message translates to:
+  /// **'midnight'**
+  String get nicknamePrefix145;
+
+  /// No description provided for @nicknamePrefix146.
+  ///
+  /// In en, this message translates to:
+  /// **'past'**
+  String get nicknamePrefix146;
+
+  /// No description provided for @nicknamePrefix147.
+  ///
+  /// In en, this message translates to:
+  /// **'present'**
+  String get nicknamePrefix147;
+
+  /// No description provided for @nicknamePrefix148.
+  ///
+  /// In en, this message translates to:
+  /// **'future'**
+  String get nicknamePrefix148;
+
+  /// No description provided for @nicknamePrefix149.
+  ///
+  /// In en, this message translates to:
+  /// **'of origin'**
+  String get nicknamePrefix149;
+
+  /// No description provided for @nicknamePrefix150.
+  ///
+  /// In en, this message translates to:
+  /// **'apocalyptic'**
+  String get nicknamePrefix150;
+
+  /// No description provided for @nicknamePrefix151.
+  ///
+  /// In en, this message translates to:
+  /// **'infinite'**
+  String get nicknamePrefix151;
+
+  /// No description provided for @nicknamePrefix152.
+  ///
+  /// In en, this message translates to:
+  /// **'finite'**
+  String get nicknamePrefix152;
+
+  /// No description provided for @nicknamePrefix153.
+  ///
+  /// In en, this message translates to:
+  /// **'silent'**
+  String get nicknamePrefix153;
+
+  /// No description provided for @nicknamePrefix154.
+  ///
+  /// In en, this message translates to:
+  /// **'of noise'**
+  String get nicknamePrefix154;
+
+  /// No description provided for @nicknamePrefix155.
+  ///
+  /// In en, this message translates to:
+  /// **'singing'**
+  String get nicknamePrefix155;
+
+  /// No description provided for @nicknamePrefix156.
+  ///
+  /// In en, this message translates to:
+  /// **'dancing'**
+  String get nicknamePrefix156;
+
+  /// No description provided for @nicknamePrefix157.
+  ///
+  /// In en, this message translates to:
+  /// **'crying'**
+  String get nicknamePrefix157;
+
+  /// No description provided for @nicknamePrefix158.
+  ///
+  /// In en, this message translates to:
+  /// **'smiling'**
+  String get nicknamePrefix158;
+
+  /// No description provided for @nicknamePrefix159.
+  ///
+  /// In en, this message translates to:
+  /// **'whispering'**
+  String get nicknamePrefix159;
+
+  /// No description provided for @nicknamePrefix160.
+  ///
+  /// In en, this message translates to:
+  /// **'crying'**
+  String get nicknamePrefix160;
+
+  /// No description provided for @nicknamePrefix161.
+  ///
+  /// In en, this message translates to:
+  /// **'praying'**
+  String get nicknamePrefix161;
+
+  /// No description provided for @nicknamePrefix162.
+  ///
+  /// In en, this message translates to:
+  /// **'pleading'**
+  String get nicknamePrefix162;
+
+  /// No description provided for @nicknamePrefix163.
+  ///
+  /// In en, this message translates to:
+  /// **'commanding'**
+  String get nicknamePrefix163;
+
+  /// No description provided for @nicknamePrefix164.
+  ///
+  /// In en, this message translates to:
+  /// **'submissive'**
+  String get nicknamePrefix164;
+
+  /// No description provided for @nicknamePrefix165.
+  ///
+  /// In en, this message translates to:
+  /// **'ruling'**
+  String get nicknamePrefix165;
+
+  /// No description provided for @nicknamePrefix166.
+  ///
+  /// In en, this message translates to:
+  /// **'serving'**
+  String get nicknamePrefix166;
+
+  /// No description provided for @nicknamePrefix167.
+  ///
+  /// In en, this message translates to:
+  /// **'guiding'**
+  String get nicknamePrefix167;
+
+  /// No description provided for @nicknamePrefix168.
+  ///
+  /// In en, this message translates to:
+  /// **'accompanying'**
+  String get nicknamePrefix168;
+
+  /// No description provided for @nicknamePrefix169.
+  ///
+  /// In en, this message translates to:
+  /// **'teaching'**
+  String get nicknamePrefix169;
+
+  /// No description provided for @nicknamePrefix170.
+  ///
+  /// In en, this message translates to:
+  /// **'learning'**
+  String get nicknamePrefix170;
+
+  /// No description provided for @nicknamePrefix171.
+  ///
+  /// In en, this message translates to:
+  /// **'of memory'**
+  String get nicknamePrefix171;
+
+  /// No description provided for @nicknamePrefix172.
+  ///
+  /// In en, this message translates to:
+  /// **'of memories'**
+  String get nicknamePrefix172;
+
+  /// No description provided for @nicknamePrefix173.
+  ///
+  /// In en, this message translates to:
+  /// **'of wounds'**
+  String get nicknamePrefix173;
+
+  /// No description provided for @nicknamePrefix174.
+  ///
+  /// In en, this message translates to:
+  /// **'healing'**
+  String get nicknamePrefix174;
+
+  /// No description provided for @nicknamePrefix175.
+  ///
+  /// In en, this message translates to:
+  /// **'poisonous'**
+  String get nicknamePrefix175;
+
+  /// No description provided for @nicknamePrefix176.
+  ///
+  /// In en, this message translates to:
+  /// **'medicine'**
+  String get nicknamePrefix176;
+
+  /// No description provided for @nicknamePrefix177.
+  ///
+  /// In en, this message translates to:
+  /// **'welcome'**
+  String get nicknamePrefix177;
+
+  /// No description provided for @nicknamePrefix178.
+  ///
+  /// In en, this message translates to:
+  /// **'of substance'**
+  String get nicknamePrefix178;
+
+  /// No description provided for @nicknamePrefix179.
+  ///
+  /// In en, this message translates to:
+  /// **'ideal'**
+  String get nicknamePrefix179;
+
+  /// No description provided for @nicknamePrefix180.
+  ///
+  /// In en, this message translates to:
+  /// **'real'**
+  String get nicknamePrefix180;
+
+  /// No description provided for @nicknamePrefix181.
+  ///
+  /// In en, this message translates to:
+  /// **'imaginary'**
+  String get nicknamePrefix181;
+
+  /// No description provided for @nicknamePrefix182.
+  ///
+  /// In en, this message translates to:
+  /// **'natural'**
+  String get nicknamePrefix182;
+
+  /// No description provided for @nicknamePrefix183.
+  ///
+  /// In en, this message translates to:
+  /// **'artificial'**
+  String get nicknamePrefix183;
+
+  /// No description provided for @nicknamePrefix184.
+  ///
+  /// In en, this message translates to:
+  /// **'in the beginning'**
+  String get nicknamePrefix184;
+
+  /// No description provided for @nicknamePrefix185.
+  ///
+  /// In en, this message translates to:
+  /// **'eternity'**
+  String get nicknamePrefix185;
+
+  /// No description provided for @nicknamePrefix186.
+  ///
+  /// In en, this message translates to:
+  /// **'of the moment'**
+  String get nicknamePrefix186;
+
+  /// No description provided for @nicknamePrefix187.
+  ///
+  /// In en, this message translates to:
+  /// **'fleeting'**
+  String get nicknamePrefix187;
+
+  /// No description provided for @nicknamePrefix188.
+  ///
+  /// In en, this message translates to:
+  /// **'eternal'**
+  String get nicknamePrefix188;
+
+  /// No description provided for @nicknamePrefix189.
+  ///
+  /// In en, this message translates to:
+  /// **'of change'**
+  String get nicknamePrefix189;
+
+  /// No description provided for @nicknamePrefix190.
+  ///
+  /// In en, this message translates to:
+  /// **'still'**
+  String get nicknamePrefix190;
+
+  /// No description provided for @nicknamePrefix191.
+  ///
+  /// In en, this message translates to:
+  /// **'flowing'**
+  String get nicknamePrefix191;
+
+  /// No description provided for @nicknamePrefix192.
+  ///
+  /// In en, this message translates to:
+  /// **'rundown'**
+  String get nicknamePrefix192;
+
+  /// No description provided for @nicknamePrefix193.
+  ///
+  /// In en, this message translates to:
+  /// **'blazing'**
+  String get nicknamePrefix193;
+
+  /// No description provided for @nicknamePrefix194.
+  ///
+  /// In en, this message translates to:
+  /// **'cooling down'**
+  String get nicknamePrefix194;
+
+  /// No description provided for @nicknamePrefix195.
+  ///
+  /// In en, this message translates to:
+  /// **'blooming'**
+  String get nicknamePrefix195;
+
+  /// No description provided for @nicknamePrefix196.
+  ///
+  /// In en, this message translates to:
+  /// **'withering'**
+  String get nicknamePrefix196;
+
+  /// No description provided for @nicknamePrefix197.
+  ///
+  /// In en, this message translates to:
+  /// **'growing up'**
+  String get nicknamePrefix197;
+
+  /// No description provided for @nicknamePrefix198.
+  ///
+  /// In en, this message translates to:
+  /// **'dying'**
+  String get nicknamePrefix198;
+
+  /// No description provided for @nicknamePrefix199.
+  ///
+  /// In en, this message translates to:
+  /// **'breathing'**
+  String get nicknamePrefix199;
+
+  /// No description provided for @nicknamePrefix200.
+  ///
+  /// In en, this message translates to:
+  /// **'suffocating'**
+  String get nicknamePrefix200;
+
+  /// No description provided for @nicknameSuffix0.
+  ///
+  /// In en, this message translates to:
+  /// **'prophet'**
+  String get nicknameSuffix0;
+
+  /// No description provided for @nicknameSuffix1.
+  ///
+  /// In en, this message translates to:
+  /// **'wizard'**
+  String get nicknameSuffix1;
+
+  /// No description provided for @nicknameSuffix2.
+  ///
+  /// In en, this message translates to:
+  /// **'witch'**
+  String get nicknameSuffix2;
+
+  /// No description provided for @nicknameSuffix3.
+  ///
+  /// In en, this message translates to:
+  /// **'article'**
+  String get nicknameSuffix3;
+
+  /// No description provided for @nicknameSuffix4.
+  ///
+  /// In en, this message translates to:
+  /// **'warrior'**
+  String get nicknameSuffix4;
+
+  /// No description provided for @nicknameSuffix5.
+  ///
+  /// In en, this message translates to:
+  /// **'Archer'**
+  String get nicknameSuffix5;
+
+  /// No description provided for @nicknameSuffix6.
+  ///
+  /// In en, this message translates to:
+  /// **'thief'**
+  String get nicknameSuffix6;
+
+  /// No description provided for @nicknameSuffix7.
+  ///
+  /// In en, this message translates to:
+  /// **'assassin'**
+  String get nicknameSuffix7;
+
+  /// No description provided for @nicknameSuffix8.
+  ///
+  /// In en, this message translates to:
+  /// **'paladin'**
+  String get nicknameSuffix8;
+
+  /// No description provided for @nicknameSuffix9.
+  ///
+  /// In en, this message translates to:
+  /// **'priest'**
+  String get nicknameSuffix9;
+
+  /// No description provided for @nicknameSuffix10.
+  ///
+  /// In en, this message translates to:
+  /// **'priestess'**
+  String get nicknameSuffix10;
+
+  /// No description provided for @nicknameSuffix11.
+  ///
+  /// In en, this message translates to:
+  /// **'monk'**
+  String get nicknameSuffix11;
+
+  /// No description provided for @nicknameSuffix12.
+  ///
+  /// In en, this message translates to:
+  /// **'powwow'**
+  String get nicknameSuffix12;
+
+  /// No description provided for @nicknameSuffix13.
+  ///
+  /// In en, this message translates to:
+  /// **'alchemist'**
+  String get nicknameSuffix13;
+
+  /// No description provided for @nicknameSuffix14.
+  ///
+  /// In en, this message translates to:
+  /// **'necromancer'**
+  String get nicknameSuffix14;
+
+  /// No description provided for @nicknameSuffix15.
+  ///
+  /// In en, this message translates to:
+  /// **'spiritist'**
+  String get nicknameSuffix15;
+
+  /// No description provided for @nicknameSuffix16.
+  ///
+  /// In en, this message translates to:
+  /// **'summoner'**
+  String get nicknameSuffix16;
+
+  /// No description provided for @nicknameSuffix17.
+  ///
+  /// In en, this message translates to:
+  /// **'illusionist'**
+  String get nicknameSuffix17;
+
+  /// No description provided for @nicknameSuffix18.
+  ///
+  /// In en, this message translates to:
+  /// **'healer'**
+  String get nicknameSuffix18;
+
+  /// No description provided for @nicknameSuffix19.
+  ///
+  /// In en, this message translates to:
+  /// **'wise man'**
+  String get nicknameSuffix19;
+
+  /// No description provided for @nicknameSuffix20.
+  ///
+  /// In en, this message translates to:
+  /// **'scholar'**
+  String get nicknameSuffix20;
+
+  /// No description provided for @nicknameSuffix21.
+  ///
+  /// In en, this message translates to:
+  /// **'researcher'**
+  String get nicknameSuffix21;
+
+  /// No description provided for @nicknameSuffix22.
+  ///
+  /// In en, this message translates to:
+  /// **'explorer'**
+  String get nicknameSuffix22;
+
+  /// No description provided for @nicknameSuffix23.
+  ///
+  /// In en, this message translates to:
+  /// **'traveler'**
+  String get nicknameSuffix23;
+
+  /// No description provided for @nicknameSuffix24.
+  ///
+  /// In en, this message translates to:
+  /// **'vagabond'**
+  String get nicknameSuffix24;
+
+  /// No description provided for @nicknameSuffix25.
+  ///
+  /// In en, this message translates to:
+  /// **'vagabond'**
+  String get nicknameSuffix25;
+
+  /// No description provided for @nicknameSuffix26.
+  ///
+  /// In en, this message translates to:
+  /// **'pilgrim'**
+  String get nicknameSuffix26;
+
+  /// No description provided for @nicknameSuffix27.
+  ///
+  /// In en, this message translates to:
+  /// **'seeker'**
+  String get nicknameSuffix27;
+
+  /// No description provided for @nicknameSuffix28.
+  ///
+  /// In en, this message translates to:
+  /// **'observer'**
+  String get nicknameSuffix28;
+
+  /// No description provided for @nicknameSuffix29.
+  ///
+  /// In en, this message translates to:
+  /// **'recorder'**
+  String get nicknameSuffix29;
+
+  /// No description provided for @nicknameSuffix30.
+  ///
+  /// In en, this message translates to:
+  /// **'communicator'**
+  String get nicknameSuffix30;
+
+  /// No description provided for @nicknameSuffix31.
+  ///
+  /// In en, this message translates to:
+  /// **'tutelar'**
+  String get nicknameSuffix31;
+
+  /// No description provided for @nicknameSuffix32.
+  ///
+  /// In en, this message translates to:
+  /// **'warden'**
+  String get nicknameSuffix32;
+
+  /// No description provided for @nicknameSuffix33.
+  ///
+  /// In en, this message translates to:
+  /// **'guard'**
+  String get nicknameSuffix33;
+
+  /// No description provided for @nicknameSuffix34.
+  ///
+  /// In en, this message translates to:
+  /// **'gatekeeper'**
+  String get nicknameSuffix34;
+
+  /// No description provided for @nicknameSuffix35.
+  ///
+  /// In en, this message translates to:
+  /// **'judge'**
+  String get nicknameSuffix35;
+
+  /// No description provided for @nicknameSuffix36.
+  ///
+  /// In en, this message translates to:
+  /// **'bailiff'**
+  String get nicknameSuffix36;
+
+  /// No description provided for @nicknameSuffix37.
+  ///
+  /// In en, this message translates to:
+  /// **'governor'**
+  String get nicknameSuffix37;
+
+  /// No description provided for @nicknameSuffix38.
+  ///
+  /// In en, this message translates to:
+  /// **'ruler'**
+  String get nicknameSuffix38;
+
+  /// No description provided for @nicknameSuffix39.
+  ///
+  /// In en, this message translates to:
+  /// **'king'**
+  String get nicknameSuffix39;
+
+  /// No description provided for @nicknameSuffix40.
+  ///
+  /// In en, this message translates to:
+  /// **'queen'**
+  String get nicknameSuffix40;
+
+  /// No description provided for @nicknameSuffix41.
+  ///
+  /// In en, this message translates to:
+  /// **'emperor'**
+  String get nicknameSuffix41;
+
+  /// No description provided for @nicknameSuffix42.
+  ///
+  /// In en, this message translates to:
+  /// **'empress'**
+  String get nicknameSuffix42;
+
+  /// No description provided for @nicknameSuffix43.
+  ///
+  /// In en, this message translates to:
+  /// **'nobility'**
+  String get nicknameSuffix43;
+
+  /// No description provided for @nicknameSuffix44.
+  ///
+  /// In en, this message translates to:
+  /// **'permanent residence'**
+  String get nicknameSuffix44;
+
+  /// No description provided for @nicknameSuffix45.
+  ///
+  /// In en, this message translates to:
+  /// **'knight commander'**
+  String get nicknameSuffix45;
+
+  /// No description provided for @nicknameSuffix46.
+  ///
+  /// In en, this message translates to:
+  /// **'mercenary'**
+  String get nicknameSuffix46;
+
+  /// No description provided for @nicknameSuffix47.
+  ///
+  /// In en, this message translates to:
+  /// **'pirate'**
+  String get nicknameSuffix47;
+
+  /// No description provided for @nicknameSuffix48.
+  ///
+  /// In en, this message translates to:
+  /// **'thief'**
+  String get nicknameSuffix48;
+
+  /// No description provided for @nicknameSuffix49.
+  ///
+  /// In en, this message translates to:
+  /// **'fraud'**
+  String get nicknameSuffix49;
+
+  /// No description provided for @nicknameSuffix50.
+  ///
+  /// In en, this message translates to:
+  /// **'jester'**
+  String get nicknameSuffix50;
+
+  /// No description provided for @nicknameSuffix51.
+  ///
+  /// In en, this message translates to:
+  /// **'fool'**
+  String get nicknameSuffix51;
+
+  /// No description provided for @nicknameSuffix52.
+  ///
+  /// In en, this message translates to:
+  /// **'hermit'**
+  String get nicknameSuffix52;
+
+  /// No description provided for @nicknameSuffix53.
+  ///
+  /// In en, this message translates to:
+  /// **'heretic'**
+  String get nicknameSuffix53;
+
+  /// No description provided for @nicknameSuffix54.
+  ///
+  /// In en, this message translates to:
+  /// **'betrayer'**
+  String get nicknameSuffix54;
+
+  /// No description provided for @nicknameSuffix55.
+  ///
+  /// In en, this message translates to:
+  /// **'traitor'**
+  String get nicknameSuffix55;
+
+  /// No description provided for @nicknameSuffix56.
+  ///
+  /// In en, this message translates to:
+  /// **'hero'**
+  String get nicknameSuffix56;
+
+  /// No description provided for @nicknameSuffix57.
+  ///
+  /// In en, this message translates to:
+  /// **'saver'**
+  String get nicknameSuffix57;
+
+  /// No description provided for @nicknameSuffix58.
+  ///
+  /// In en, this message translates to:
+  /// **'liberator'**
+  String get nicknameSuffix58;
+
+  /// No description provided for @nicknameSuffix59.
+  ///
+  /// In en, this message translates to:
+  /// **'destroyer'**
+  String get nicknameSuffix59;
+
+  /// No description provided for @nicknameSuffix60.
+  ///
+  /// In en, this message translates to:
+  /// **'creator'**
+  String get nicknameSuffix60;
+
+  /// No description provided for @nicknameSuffix61.
+  ///
+  /// In en, this message translates to:
+  /// **'god'**
+  String get nicknameSuffix61;
+
+  /// No description provided for @nicknameSuffix62.
+  ///
+  /// In en, this message translates to:
+  /// **'goddess'**
+  String get nicknameSuffix62;
+
+  /// No description provided for @nicknameSuffix63.
+  ///
+  /// In en, this message translates to:
+  /// **'angel'**
+  String get nicknameSuffix63;
+
+  /// No description provided for @nicknameSuffix64.
+  ///
+  /// In en, this message translates to:
+  /// **'devil'**
+  String get nicknameSuffix64;
+
+  /// No description provided for @nicknameSuffix65.
+  ///
+  /// In en, this message translates to:
+  /// **'government ordinance'**
+  String get nicknameSuffix65;
+
+  /// No description provided for @nicknameSuffix66.
+  ///
+  /// In en, this message translates to:
+  /// **'fairy'**
+  String get nicknameSuffix66;
+
+  /// No description provided for @nicknameSuffix67.
+  ///
+  /// In en, this message translates to:
+  /// **'monster'**
+  String get nicknameSuffix67;
+
+  /// No description provided for @nicknameSuffix68.
+  ///
+  /// In en, this message translates to:
+  /// **'demon beast'**
+  String get nicknameSuffix68;
+
+  /// No description provided for @nicknameSuffix69.
+  ///
+  /// In en, this message translates to:
+  /// **'dragon'**
+  String get nicknameSuffix69;
+
+  /// No description provided for @nicknameSuffix70.
+  ///
+  /// In en, this message translates to:
+  /// **'ghost'**
+  String get nicknameSuffix70;
+
+  /// No description provided for @nicknameSuffix71.
+  ///
+  /// In en, this message translates to:
+  /// **'shade'**
+  String get nicknameSuffix71;
+
+  /// No description provided for @nicknameSuffix72.
+  ///
+  /// In en, this message translates to:
+  /// **'undead'**
+  String get nicknameSuffix72;
+
+  /// No description provided for @nicknameSuffix73.
+  ///
+  /// In en, this message translates to:
+  /// **'vampire'**
+  String get nicknameSuffix73;
+
+  /// No description provided for @nicknameSuffix74.
+  ///
+  /// In en, this message translates to:
+  /// **'werewolf'**
+  String get nicknameSuffix74;
+
+  /// No description provided for @nicknameSuffix75.
+  ///
+  /// In en, this message translates to:
+  /// **'mermaid'**
+  String get nicknameSuffix75;
+
+  /// No description provided for @nicknameSuffix76.
+  ///
+  /// In en, this message translates to:
+  /// **'siren'**
+  String get nicknameSuffix76;
+
+  /// No description provided for @nicknameSuffix77.
+  ///
+  /// In en, this message translates to:
+  /// **'nymph'**
+  String get nicknameSuffix77;
+
+  /// No description provided for @nicknameSuffix78.
+  ///
+  /// In en, this message translates to:
+  /// **'goblin'**
+  String get nicknameSuffix78;
+
+  /// No description provided for @nicknameSuffix79.
+  ///
+  /// In en, this message translates to:
+  /// **'oak'**
+  String get nicknameSuffix79;
+
+  /// No description provided for @nicknameSuffix80.
+  ///
+  /// In en, this message translates to:
+  /// **'troll'**
+  String get nicknameSuffix80;
+
+  /// No description provided for @nicknameSuffix81.
+  ///
+  /// In en, this message translates to:
+  /// **'elf'**
+  String get nicknameSuffix81;
+
+  /// No description provided for @nicknameSuffix82.
+  ///
+  /// In en, this message translates to:
+  /// **'dwarf'**
+  String get nicknameSuffix82;
+
+  /// No description provided for @nicknameSuffix83.
+  ///
+  /// In en, this message translates to:
+  /// **'giant'**
+  String get nicknameSuffix83;
+
+  /// No description provided for @nicknameSuffix84.
+  ///
+  /// In en, this message translates to:
+  /// **'postmark'**
+  String get nicknameSuffix84;
+
+  /// No description provided for @nicknameSuffix85.
+  ///
+  /// In en, this message translates to:
+  /// **'human being'**
+  String get nicknameSuffix85;
+
+  /// No description provided for @nicknameSuffix86.
+  ///
+  /// In en, this message translates to:
+  /// **'prisoner'**
+  String get nicknameSuffix86;
+
+  /// No description provided for @nicknameSuffix87.
+  ///
+  /// In en, this message translates to:
+  /// **'signature'**
+  String get nicknameSuffix87;
+
+  /// No description provided for @nicknameSuffix88.
+  ///
+  /// In en, this message translates to:
+  /// **'Fishman'**
+  String get nicknameSuffix88;
+
+  /// No description provided for @nicknameSuffix89.
+  ///
+  /// In en, this message translates to:
+  /// **'employee'**
+  String get nicknameSuffix89;
+
+  /// No description provided for @nicknameSuffix90.
+  ///
+  /// In en, this message translates to:
+  /// **'evil spirit'**
+  String get nicknameSuffix90;
+
+  /// No description provided for @nicknameSuffix91.
+  ///
+  /// In en, this message translates to:
+  /// **'Sura'**
+  String get nicknameSuffix91;
+
+  /// No description provided for @nicknameSuffix92.
+  ///
+  /// In en, this message translates to:
+  /// **'hell'**
+  String get nicknameSuffix92;
+
+  /// No description provided for @nicknameSuffix93.
+  ///
+  /// In en, this message translates to:
+  /// **'heaven'**
+  String get nicknameSuffix93;
+
+  /// No description provided for @nicknameSuffix94.
+  ///
+  /// In en, this message translates to:
+  /// **'underworld'**
+  String get nicknameSuffix94;
+
+  /// No description provided for @nicknameSuffix95.
+  ///
+  /// In en, this message translates to:
+  /// **'Otherworld'**
+  String get nicknameSuffix95;
+
+  /// No description provided for @nicknameSuffix96.
+  ///
+  /// In en, this message translates to:
+  /// **'abyss'**
+  String get nicknameSuffix96;
+
+  /// No description provided for @nicknameSuffix97.
+  ///
+  /// In en, this message translates to:
+  /// **'chaos'**
+  String get nicknameSuffix97;
+
+  /// No description provided for @nicknameSuffix98.
+  ///
+  /// In en, this message translates to:
+  /// **'order'**
+  String get nicknameSuffix98;
+
+  /// No description provided for @nicknameSuffix99.
+  ///
+  /// In en, this message translates to:
+  /// **'light'**
+  String get nicknameSuffix99;
+
+  /// No description provided for @nicknameSuffix100.
+  ///
+  /// In en, this message translates to:
+  /// **'dark'**
+  String get nicknameSuffix100;
+
+  /// No description provided for @nicknamePrefix201.
+  ///
+  /// In en, this message translates to:
+  /// **'brilliant'**
+  String get nicknamePrefix201;
+
+  /// No description provided for @nicknamePrefix202.
+  ///
+  /// In en, this message translates to:
+  /// **'subtle'**
+  String get nicknamePrefix202;
+
+  /// No description provided for @nicknamePrefix203.
+  ///
+  /// In en, this message translates to:
+  /// **'hazy'**
+  String get nicknamePrefix203;
+
+  /// No description provided for @nicknamePrefix204.
+  ///
+  /// In en, this message translates to:
+  /// **'faint'**
+  String get nicknamePrefix204;
+
+  /// No description provided for @nicknamePrefix205.
+  ///
+  /// In en, this message translates to:
+  /// **'transparent'**
+  String get nicknamePrefix205;
+
+  /// No description provided for @nicknamePrefix206.
+  ///
+  /// In en, this message translates to:
+  /// **'faint'**
+  String get nicknamePrefix206;
+
+  /// No description provided for @nicknamePrefix207.
+  ///
+  /// In en, this message translates to:
+  /// **'dazzling'**
+  String get nicknamePrefix207;
+
+  /// No description provided for @nicknamePrefix208.
+  ///
+  /// In en, this message translates to:
+  /// **'weird'**
+  String get nicknamePrefix208;
+
+  /// No description provided for @nicknamePrefix209.
+  ///
+  /// In en, this message translates to:
+  /// **'peculiar'**
+  String get nicknamePrefix209;
+
+  /// No description provided for @nicknamePrefix210.
+  ///
+  /// In en, this message translates to:
+  /// **'special'**
+  String get nicknamePrefix210;
+
+  /// No description provided for @nicknamePrefix211.
+  ///
+  /// In en, this message translates to:
+  /// **'noble'**
+  String get nicknamePrefix211;
+
+  /// No description provided for @nicknamePrefix212.
+  ///
+  /// In en, this message translates to:
+  /// **'pure'**
+  String get nicknamePrefix212;
+
+  /// No description provided for @nicknamePrefix213.
+  ///
+  /// In en, this message translates to:
+  /// **'fallen'**
+  String get nicknamePrefix213;
+
+  /// No description provided for @nicknamePrefix214.
+  ///
+  /// In en, this message translates to:
+  /// **'lone'**
+  String get nicknamePrefix214;
+
+  /// No description provided for @nicknamePrefix215.
+  ///
+  /// In en, this message translates to:
+  /// **'lonesome'**
+  String get nicknamePrefix215;
+
+  /// No description provided for @nicknamePrefix216.
+  ///
+  /// In en, this message translates to:
+  /// **'desolate'**
+  String get nicknamePrefix216;
+
+  /// No description provided for @nicknamePrefix217.
+  ///
+  /// In en, this message translates to:
+  /// **'Distant'**
+  String get nicknamePrefix217;
+
+  /// No description provided for @nicknamePrefix218.
+  ///
+  /// In en, this message translates to:
+  /// **'harsh'**
+  String get nicknamePrefix218;
+
+  /// No description provided for @nicknamePrefix219.
+  ///
+  /// In en, this message translates to:
+  /// **'ruthless'**
+  String get nicknamePrefix219;
+
+  /// No description provided for @nicknamePrefix220.
+  ///
+  /// In en, this message translates to:
+  /// **'cruel'**
+  String get nicknamePrefix220;
+
+  /// No description provided for @nicknamePrefix221.
+  ///
+  /// In en, this message translates to:
+  /// **'big'**
+  String get nicknamePrefix221;
+
+  /// No description provided for @nicknamePrefix222.
+  ///
+  /// In en, this message translates to:
+  /// **'tough'**
+  String get nicknamePrefix222;
+
+  /// No description provided for @nicknamePrefix223.
+  ///
+  /// In en, this message translates to:
+  /// **'firm'**
+  String get nicknamePrefix223;
+
+  /// No description provided for @nicknamePrefix224.
+  ///
+  /// In en, this message translates to:
+  /// **'sinuous'**
+  String get nicknamePrefix224;
+
+  /// No description provided for @nicknamePrefix225.
+  ///
+  /// In en, this message translates to:
+  /// **'quick'**
+  String get nicknamePrefix225;
+
+  /// No description provided for @nicknamePrefix226.
+  ///
+  /// In en, this message translates to:
+  /// **'slow'**
+  String get nicknamePrefix226;
+
+  /// No description provided for @nicknamePrefix227.
+  ///
+  /// In en, this message translates to:
+  /// **'in silence'**
+  String get nicknamePrefix227;
+
+  /// No description provided for @nicknamePrefix228.
+  ///
+  /// In en, this message translates to:
+  /// **'in chaos'**
+  String get nicknamePrefix228;
+
+  /// No description provided for @nicknamePrefix229.
+  ///
+  /// In en, this message translates to:
+  /// **'in memory'**
+  String get nicknamePrefix229;
+
+  /// No description provided for @nicknamePrefix230.
+  ///
+  /// In en, this message translates to:
+  /// **'imaginary'**
+  String get nicknamePrefix230;
+
+  /// No description provided for @nicknamePrefix231.
+  ///
+  /// In en, this message translates to:
+  /// **'silent'**
+  String get nicknamePrefix231;
+
+  /// No description provided for @nicknamePrefix232.
+  ///
+  /// In en, this message translates to:
+  /// **'whispering'**
+  String get nicknamePrefix232;
+
+  /// No description provided for @nicknamePrefix233.
+  ///
+  /// In en, this message translates to:
+  /// **'singing'**
+  String get nicknamePrefix233;
+
+  /// No description provided for @nicknamePrefix234.
+  ///
+  /// In en, this message translates to:
+  /// **'dancing'**
+  String get nicknamePrefix234;
+
+  /// No description provided for @nicknamePrefix235.
+  ///
+  /// In en, this message translates to:
+  /// **'sobbing'**
+  String get nicknamePrefix235;
+
+  /// No description provided for @nicknamePrefix236.
+  ///
+  /// In en, this message translates to:
+  /// **'smiling'**
+  String get nicknamePrefix236;
+
+  /// No description provided for @nicknamePrefix237.
+  ///
+  /// In en, this message translates to:
+  /// **'mocking'**
+  String get nicknamePrefix237;
+
+  /// No description provided for @nicknamePrefix238.
+  ///
+  /// In en, this message translates to:
+  /// **'contemplating'**
+  String get nicknamePrefix238;
+
+  /// No description provided for @nicknamePrefix239.
+  ///
+  /// In en, this message translates to:
+  /// **'wandering'**
+  String get nicknamePrefix239;
+
+  /// No description provided for @nicknamePrefix240.
+  ///
+  /// In en, this message translates to:
+  /// **'wandering'**
+  String get nicknamePrefix240;
+
+  /// No description provided for @nicknamePrefix241.
+  ///
+  /// In en, this message translates to:
+  /// **'awake'**
+  String get nicknamePrefix241;
+
+  /// No description provided for @nicknamePrefix242.
+  ///
+  /// In en, this message translates to:
+  /// **'asleep'**
+  String get nicknamePrefix242;
+
+  /// No description provided for @nicknamePrefix243.
+  ///
+  /// In en, this message translates to:
+  /// **'dreaming'**
+  String get nicknamePrefix243;
+
+  /// No description provided for @nicknamePrefix244.
+  ///
+  /// In en, this message translates to:
+  /// **'daydreaming'**
+  String get nicknamePrefix244;
+
+  /// No description provided for @nicknamePrefix245.
+  ///
+  /// In en, this message translates to:
+  /// **'delusional'**
+  String get nicknamePrefix245;
+
+  /// No description provided for @nicknamePrefix246.
+  ///
+  /// In en, this message translates to:
+  /// **'praying'**
+  String get nicknamePrefix246;
+
+  /// No description provided for @nicknamePrefix247.
+  ///
+  /// In en, this message translates to:
+  /// **'earnest'**
+  String get nicknamePrefix247;
+
+  /// No description provided for @nicknamePrefix248.
+  ///
+  /// In en, this message translates to:
+  /// **'sorrowful'**
+  String get nicknamePrefix248;
+
+  /// No description provided for @nicknamePrefix249.
+  ///
+  /// In en, this message translates to:
+  /// **'miserable'**
+  String get nicknamePrefix249;
+
+  /// No description provided for @nicknamePrefix250.
+  ///
+  /// In en, this message translates to:
+  /// **'sublime'**
+  String get nicknamePrefix250;
+
+  /// No description provided for @nicknamePrefix251.
+  ///
+  /// In en, this message translates to:
+  /// **'wicked'**
+  String get nicknamePrefix251;
+
+  /// No description provided for @nicknamePrefix252.
+  ///
+  /// In en, this message translates to:
+  /// **'mean'**
+  String get nicknamePrefix252;
+
+  /// No description provided for @nicknamePrefix253.
+  ///
+  /// In en, this message translates to:
+  /// **'arrogant'**
+  String get nicknamePrefix253;
+
+  /// No description provided for @nicknamePrefix254.
+  ///
+  /// In en, this message translates to:
+  /// **'modest'**
+  String get nicknamePrefix254;
+
+  /// No description provided for @nicknamePrefix255.
+  ///
+  /// In en, this message translates to:
+  /// **'fond'**
+  String get nicknamePrefix255;
+
+  /// No description provided for @nicknamePrefix256.
+  ///
+  /// In en, this message translates to:
+  /// **'warm'**
+  String get nicknamePrefix256;
+
+  /// No description provided for @nicknamePrefix257.
+  ///
+  /// In en, this message translates to:
+  /// **'cool'**
+  String get nicknamePrefix257;
+
+  /// No description provided for @nicknamePrefix258.
+  ///
+  /// In en, this message translates to:
+  /// **'chilly'**
+  String get nicknamePrefix258;
+
+  /// No description provided for @nicknamePrefix259.
+  ///
+  /// In en, this message translates to:
+  /// **'bizarre'**
+  String get nicknamePrefix259;
+
+  /// No description provided for @nicknamePrefix260.
+  ///
+  /// In en, this message translates to:
+  /// **'uncanny'**
+  String get nicknamePrefix260;
+
+  /// No description provided for @nicknamePrefix261.
+  ///
+  /// In en, this message translates to:
+  /// **'rapt'**
+  String get nicknamePrefix261;
+
+  /// No description provided for @nicknamePrefix262.
+  ///
+  /// In en, this message translates to:
+  /// **'fascinating'**
+  String get nicknamePrefix262;
+
+  /// No description provided for @nicknamePrefix263.
+  ///
+  /// In en, this message translates to:
+  /// **'dizzying'**
+  String get nicknamePrefix263;
+
+  /// No description provided for @nicknamePrefix264.
+  ///
+  /// In en, this message translates to:
+  /// **'sweetish'**
+  String get nicknamePrefix264;
+
+  /// No description provided for @nicknamePrefix265.
+  ///
+  /// In en, this message translates to:
+  /// **'bitter'**
+  String get nicknamePrefix265;
+
+  /// No description provided for @nicknamePrefix266.
+  ///
+  /// In en, this message translates to:
+  /// **'bitterish'**
+  String get nicknamePrefix266;
+
+  /// No description provided for @nicknamePrefix267.
+  ///
+  /// In en, this message translates to:
+  /// **'barbed'**
+  String get nicknamePrefix267;
+
+  /// No description provided for @nicknamePrefix268.
+  ///
+  /// In en, this message translates to:
+  /// **'sharp'**
+  String get nicknamePrefix268;
+
+  /// No description provided for @nicknamePrefix269.
+  ///
+  /// In en, this message translates to:
+  /// **'dull'**
+  String get nicknamePrefix269;
+
+  /// No description provided for @nicknamePrefix270.
+  ///
+  /// In en, this message translates to:
+  /// **'harsh'**
+  String get nicknamePrefix270;
+
+  /// No description provided for @nicknamePrefix271.
+  ///
+  /// In en, this message translates to:
+  /// **'soft'**
+  String get nicknamePrefix271;
+
+  /// No description provided for @nicknamePrefix272.
+  ///
+  /// In en, this message translates to:
+  /// **'cozy'**
+  String get nicknamePrefix272;
+
+  /// No description provided for @nicknamePrefix273.
+  ///
+  /// In en, this message translates to:
+  /// **'comfortable'**
+  String get nicknamePrefix273;
+
+  /// No description provided for @nicknamePrefix274.
+  ///
+  /// In en, this message translates to:
+  /// **'precarious'**
+  String get nicknamePrefix274;
+
+  /// No description provided for @nicknamePrefix275.
+  ///
+  /// In en, this message translates to:
+  /// **'uneasy'**
+  String get nicknamePrefix275;
+
+  /// No description provided for @nicknamePrefix276.
+  ///
+  /// In en, this message translates to:
+  /// **'calm'**
+  String get nicknamePrefix276;
+
+  /// No description provided for @nicknamePrefix277.
+  ///
+  /// In en, this message translates to:
+  /// **'calm'**
+  String get nicknamePrefix277;
+
+  /// No description provided for @nicknamePrefix278.
+  ///
+  /// In en, this message translates to:
+  /// **'drowsy'**
+  String get nicknamePrefix278;
+
+  /// No description provided for @nicknamePrefix279.
+  ///
+  /// In en, this message translates to:
+  /// **'bored'**
+  String get nicknamePrefix279;
+
+  /// No description provided for @nicknamePrefix280.
+  ///
+  /// In en, this message translates to:
+  /// **'passionate'**
+  String get nicknamePrefix280;
+
+  /// No description provided for @nicknamePrefix281.
+  ///
+  /// In en, this message translates to:
+  /// **'nonchalant'**
+  String get nicknamePrefix281;
+
+  /// No description provided for @nicknamePrefix282.
+  ///
+  /// In en, this message translates to:
+  /// **'tranquil'**
+  String get nicknamePrefix282;
+
+  /// No description provided for @nicknamePrefix283.
+  ///
+  /// In en, this message translates to:
+  /// **'violent'**
+  String get nicknamePrefix283;
+
+  /// No description provided for @nicknamePrefix284.
+  ///
+  /// In en, this message translates to:
+  /// **'fierce'**
+  String get nicknamePrefix284;
+
+  /// No description provided for @nicknamePrefix285.
+  ///
+  /// In en, this message translates to:
+  /// **'crazy'**
+  String get nicknamePrefix285;
+
+  /// No description provided for @nicknamePrefix286.
+  ///
+  /// In en, this message translates to:
+  /// **'gone crazy'**
+  String get nicknamePrefix286;
+
+  /// No description provided for @nicknamePrefix287.
+  ///
+  /// In en, this message translates to:
+  /// **'rational'**
+  String get nicknamePrefix287;
+
+  /// No description provided for @nicknamePrefix288.
+  ///
+  /// In en, this message translates to:
+  /// **'emotional'**
+  String get nicknamePrefix288;
+
+  /// No description provided for @nicknamePrefix289.
+  ///
+  /// In en, this message translates to:
+  /// **'cool-headed'**
+  String get nicknamePrefix289;
+
+  /// No description provided for @nicknamePrefix290.
+  ///
+  /// In en, this message translates to:
+  /// **'sensible'**
+  String get nicknamePrefix290;
+
+  /// No description provided for @nicknamePrefix291.
+  ///
+  /// In en, this message translates to:
+  /// **'foolish'**
+  String get nicknamePrefix291;
+
+  /// No description provided for @nicknamePrefix292.
+  ///
+  /// In en, this message translates to:
+  /// **'innocent'**
+  String get nicknamePrefix292;
+
+  /// No description provided for @nicknamePrefix293.
+  ///
+  /// In en, this message translates to:
+  /// **'cunning'**
+  String get nicknamePrefix293;
+
+  /// No description provided for @nicknamePrefix294.
+  ///
+  /// In en, this message translates to:
+  /// **'serpentine'**
+  String get nicknamePrefix294;
+
+  /// No description provided for @nicknamePrefix295.
+  ///
+  /// In en, this message translates to:
+  /// **'pure white'**
+  String get nicknamePrefix295;
+
+  /// No description provided for @nicknamePrefix296.
+  ///
+  /// In en, this message translates to:
+  /// **'jet black'**
+  String get nicknamePrefix296;
+
+  /// No description provided for @nicknamePrefix297.
+  ///
+  /// In en, this message translates to:
+  /// **'golden'**
+  String get nicknamePrefix297;
+
+  /// No description provided for @nicknamePrefix298.
+  ///
+  /// In en, this message translates to:
+  /// **'argent'**
+  String get nicknamePrefix298;
+
+  /// No description provided for @nicknamePrefix299.
+  ///
+  /// In en, this message translates to:
+  /// **'bloody'**
+  String get nicknamePrefix299;
+
+  /// No description provided for @nicknameSuffix101.
+  ///
+  /// In en, this message translates to:
+  /// **'seeker'**
+  String get nicknameSuffix101;
+
+  /// No description provided for @nicknameSuffix102.
+  ///
+  /// In en, this message translates to:
+  /// **'pilgrim'**
+  String get nicknameSuffix102;
+
+  /// No description provided for @nicknameSuffix103.
+  ///
+  /// In en, this message translates to:
+  /// **'vagabond'**
+  String get nicknameSuffix103;
+
+  /// No description provided for @nicknameSuffix104.
+  ///
+  /// In en, this message translates to:
+  /// **'hermit'**
+  String get nicknameSuffix104;
+
+  /// No description provided for @nicknameSuffix105.
+  ///
+  /// In en, this message translates to:
+  /// **'Ethan'**
+  String get nicknameSuffix105;
+
+  /// No description provided for @nicknameSuffix106.
+  ///
+  /// In en, this message translates to:
+  /// **'traitor'**
+  String get nicknameSuffix106;
+
+  /// No description provided for @nicknameSuffix107.
+  ///
+  /// In en, this message translates to:
+  /// **'pioneer'**
+  String get nicknameSuffix107;
+
+  /// No description provided for @nicknameSuffix108.
+  ///
+  /// In en, this message translates to:
+  /// **'conqueror'**
+  String get nicknameSuffix108;
+
+  /// No description provided for @nicknameSuffix109.
+  ///
+  /// In en, this message translates to:
+  /// **'ruler'**
+  String get nicknameSuffix109;
+
+  /// No description provided for @nicknameSuffix110.
+  ///
+  /// In en, this message translates to:
+  /// **'orchestrator'**
+  String get nicknameSuffix110;
+
+  /// No description provided for @nicknameSuffix111.
+  ///
+  /// In en, this message translates to:
+  /// **'tutelar'**
+  String get nicknameSuffix111;
+
+  /// No description provided for @nicknameSuffix112.
+  ///
+  /// In en, this message translates to:
+  /// **'observer'**
+  String get nicknameSuffix112;
+
+  /// No description provided for @nicknameSuffix113.
+  ///
+  /// In en, this message translates to:
+  /// **'observer'**
+  String get nicknameSuffix113;
+
+  /// No description provided for @nicknameSuffix114.
+  ///
+  /// In en, this message translates to:
+  /// **'recorder'**
+  String get nicknameSuffix114;
+
+  /// No description provided for @nicknameSuffix115.
+  ///
+  /// In en, this message translates to:
+  /// **'communicator'**
+  String get nicknameSuffix115;
+
+  /// No description provided for @nicknameSuffix116.
+  ///
+  /// In en, this message translates to:
+  /// **'guide'**
+  String get nicknameSuffix116;
+
+  /// No description provided for @nicknameSuffix117.
+  ///
+  /// In en, this message translates to:
+  /// **'leader'**
+  String get nicknameSuffix117;
+
+  /// No description provided for @nicknameSuffix118.
+  ///
+  /// In en, this message translates to:
+  /// **'saver'**
+  String get nicknameSuffix118;
+
+  /// No description provided for @nicknameSuffix119.
+  ///
+  /// In en, this message translates to:
+  /// **'destroyer'**
+  String get nicknameSuffix119;
+
+  /// No description provided for @nicknameSuffix120.
+  ///
+  /// In en, this message translates to:
+  /// **'creator'**
+  String get nicknameSuffix120;
+
+  /// No description provided for @nicknameSuffix121.
+  ///
+  /// In en, this message translates to:
+  /// **'shade'**
+  String get nicknameSuffix121;
+
+  /// No description provided for @nicknameSuffix122.
+  ///
+  /// In en, this message translates to:
+  /// **'ghost'**
+  String get nicknameSuffix122;
+
+  /// No description provided for @nicknameSuffix123.
+  ///
+  /// In en, this message translates to:
+  /// **'ghost'**
+  String get nicknameSuffix123;
+
+  /// No description provided for @nicknameSuffix124.
+  ///
+  /// In en, this message translates to:
+  /// **'evil spirit'**
+  String get nicknameSuffix124;
+
+  /// No description provided for @nicknameSuffix125.
+  ///
+  /// In en, this message translates to:
+  /// **'government ordinance'**
+  String get nicknameSuffix125;
+
+  /// No description provided for @nicknameSuffix126.
+  ///
+  /// In en, this message translates to:
+  /// **'fairy'**
+  String get nicknameSuffix126;
+
+  /// No description provided for @nicknameSuffix127.
+  ///
+  /// In en, this message translates to:
+  /// **'demon beast'**
+  String get nicknameSuffix127;
+
+  /// No description provided for @nicknameSuffix128.
+  ///
+  /// In en, this message translates to:
+  /// **'holy water'**
+  String get nicknameSuffix128;
+
+  /// No description provided for @nicknameSuffix129.
+  ///
+  /// In en, this message translates to:
+  /// **'refund'**
+  String get nicknameSuffix129;
+
+  /// No description provided for @nicknameSuffix130.
+  ///
+  /// In en, this message translates to:
+  /// **'Shinsu'**
+  String get nicknameSuffix130;
+
+  /// No description provided for @nicknameSuffix131.
+  ///
+  /// In en, this message translates to:
+  /// **'test'**
+  String get nicknameSuffix131;
+
+  /// No description provided for @nicknameSuffix132.
+  ///
+  /// In en, this message translates to:
+  /// **'article'**
+  String get nicknameSuffix132;
+
+  /// No description provided for @nicknameSuffix133.
+  ///
+  /// In en, this message translates to:
+  /// **'Archer'**
+  String get nicknameSuffix133;
+
+  /// No description provided for @nicknameSuffix134.
+  ///
+  /// In en, this message translates to:
+  /// **'thief'**
+  String get nicknameSuffix134;
+
+  /// No description provided for @nicknameSuffix135.
+  ///
+  /// In en, this message translates to:
+  /// **'assassin'**
+  String get nicknameSuffix135;
+
+  /// No description provided for @nicknameSuffix136.
+  ///
+  /// In en, this message translates to:
+  /// **'wizard'**
+  String get nicknameSuffix136;
+
+  /// No description provided for @nicknameSuffix137.
+  ///
+  /// In en, this message translates to:
+  /// **'powwow'**
+  String get nicknameSuffix137;
+
+  /// No description provided for @nicknameSuffix138.
+  ///
+  /// In en, this message translates to:
+  /// **'alchemist'**
+  String get nicknameSuffix138;
+
+  /// No description provided for @nicknameSuffix139.
+  ///
+  /// In en, this message translates to:
+  /// **'necromancer'**
+  String get nicknameSuffix139;
+
+  /// No description provided for @nicknameSuffix140.
+  ///
+  /// In en, this message translates to:
+  /// **'priest'**
+  String get nicknameSuffix140;
+
+  /// No description provided for @nicknameSuffix141.
+  ///
+  /// In en, this message translates to:
+  /// **'scholar'**
+  String get nicknameSuffix141;
+
+  /// No description provided for @nicknameSuffix142.
+  ///
+  /// In en, this message translates to:
+  /// **'researcher'**
+  String get nicknameSuffix142;
+
+  /// No description provided for @nicknameSuffix143.
+  ///
+  /// In en, this message translates to:
+  /// **'explorer'**
+  String get nicknameSuffix143;
+
+  /// No description provided for @nicknameSuffix144.
+  ///
+  /// In en, this message translates to:
+  /// **'traveler'**
+  String get nicknameSuffix144;
+
+  /// No description provided for @nicknameSuffix145.
+  ///
+  /// In en, this message translates to:
+  /// **'artist'**
+  String get nicknameSuffix145;
+
+  /// No description provided for @nicknameSuffix146.
+  ///
+  /// In en, this message translates to:
+  /// **'jester'**
+  String get nicknameSuffix146;
+
+  /// No description provided for @nicknameSuffix147.
+  ///
+  /// In en, this message translates to:
+  /// **'bard'**
+  String get nicknameSuffix147;
+
+  /// No description provided for @nicknameSuffix148.
+  ///
+  /// In en, this message translates to:
+  /// **'merchant'**
+  String get nicknameSuffix148;
+
+  /// No description provided for @nicknameSuffix149.
+  ///
+  /// In en, this message translates to:
+  /// **'craftsman'**
+  String get nicknameSuffix149;
+
+  /// No description provided for @nicknameSuffix150.
+  ///
+  /// In en, this message translates to:
+  /// **'peasant'**
+  String get nicknameSuffix150;
+
+  /// No description provided for @nicknameSuffix151.
+  ///
+  /// In en, this message translates to:
+  /// **'crow'**
+  String get nicknameSuffix151;
+
+  /// No description provided for @nicknameSuffix152.
+  ///
+  /// In en, this message translates to:
+  /// **'owl'**
+  String get nicknameSuffix152;
+
+  /// No description provided for @nicknameSuffix153.
+  ///
+  /// In en, this message translates to:
+  /// **'owl'**
+  String get nicknameSuffix153;
+
+  /// No description provided for @nicknameSuffix154.
+  ///
+  /// In en, this message translates to:
+  /// **'eagle'**
+  String get nicknameSuffix154;
+
+  /// No description provided for @nicknameSuffix155.
+  ///
+  /// In en, this message translates to:
+  /// **'hawk'**
+  String get nicknameSuffix155;
+
+  /// No description provided for @nicknameSuffix156.
+  ///
+  /// In en, this message translates to:
+  /// **'wolf'**
+  String get nicknameSuffix156;
+
+  /// No description provided for @nicknameSuffix157.
+  ///
+  /// In en, this message translates to:
+  /// **'fox'**
+  String get nicknameSuffix157;
+
+  /// No description provided for @nicknameSuffix158.
+  ///
+  /// In en, this message translates to:
+  /// **'bear'**
+  String get nicknameSuffix158;
+
+  /// No description provided for @nicknameSuffix159.
+  ///
+  /// In en, this message translates to:
+  /// **'lion'**
+  String get nicknameSuffix159;
+
+  /// No description provided for @nicknameSuffix160.
+  ///
+  /// In en, this message translates to:
+  /// **'tiger'**
+  String get nicknameSuffix160;
+
+  /// No description provided for @nicknameSuffix161.
+  ///
+  /// In en, this message translates to:
+  /// **'leopard'**
+  String get nicknameSuffix161;
+
+  /// No description provided for @nicknameSuffix162.
+  ///
+  /// In en, this message translates to:
+  /// **'black panther'**
+  String get nicknameSuffix162;
+
+  /// No description provided for @nicknameSuffix163.
+  ///
+  /// In en, this message translates to:
+  /// **'Salsssop'**
+  String get nicknameSuffix163;
+
+  /// No description provided for @nicknameSuffix164.
+  ///
+  /// In en, this message translates to:
+  /// **'cat'**
+  String get nicknameSuffix164;
+
+  /// No description provided for @nicknameSuffix165.
+  ///
+  /// In en, this message translates to:
+  /// **'puppy'**
+  String get nicknameSuffix165;
+
+  /// No description provided for @nicknameSuffix166.
+  ///
+  /// In en, this message translates to:
+  /// **'snake'**
+  String get nicknameSuffix166;
+
+  /// No description provided for @nicknameSuffix167.
+  ///
+  /// In en, this message translates to:
+  /// **'lizard'**
+  String get nicknameSuffix167;
+
+  /// No description provided for @nicknameSuffix168.
+  ///
+  /// In en, this message translates to:
+  /// **'turtle'**
+  String get nicknameSuffix168;
+
+  /// No description provided for @nicknameSuffix169.
+  ///
+  /// In en, this message translates to:
+  /// **'crocodile'**
+  String get nicknameSuffix169;
+
+  /// No description provided for @nicknameSuffix170.
+  ///
+  /// In en, this message translates to:
+  /// **'dragon'**
+  String get nicknameSuffix170;
+
+  /// No description provided for @nicknameSuffix171.
+  ///
+  /// In en, this message translates to:
+  /// **'unicorn'**
+  String get nicknameSuffix171;
+
+  /// No description provided for @nicknameSuffix172.
+  ///
+  /// In en, this message translates to:
+  /// **'Pegasus'**
+  String get nicknameSuffix172;
+
+  /// No description provided for @nicknameSuffix173.
+  ///
+  /// In en, this message translates to:
+  /// **'griffon'**
+  String get nicknameSuffix173;
+
+  /// No description provided for @nicknameSuffix174.
+  ///
+  /// In en, this message translates to:
+  /// **'gargoyle'**
+  String get nicknameSuffix174;
+
+  /// No description provided for @nicknameSuffix175.
+  ///
+  /// In en, this message translates to:
+  /// **'goblin'**
+  String get nicknameSuffix175;
+
+  /// No description provided for @nicknameSuffix176.
+  ///
+  /// In en, this message translates to:
+  /// **'oak'**
+  String get nicknameSuffix176;
+
+  /// No description provided for @nicknameSuffix177.
+  ///
+  /// In en, this message translates to:
+  /// **'troll'**
+  String get nicknameSuffix177;
+
+  /// No description provided for @nicknameSuffix178.
+  ///
+  /// In en, this message translates to:
+  /// **'auger'**
+  String get nicknameSuffix178;
+
+  /// No description provided for @nicknameSuffix179.
+  ///
+  /// In en, this message translates to:
+  /// **'slime'**
+  String get nicknameSuffix179;
+
+  /// No description provided for @nicknameSuffix180.
+  ///
+  /// In en, this message translates to:
+  /// **'skeleton'**
+  String get nicknameSuffix180;
+
+  /// No description provided for @nicknameSuffix181.
+  ///
+  /// In en, this message translates to:
+  /// **'zombi'**
+  String get nicknameSuffix181;
+
+  /// No description provided for @nicknameSuffix182.
+  ///
+  /// In en, this message translates to:
+  /// **'ghoul'**
+  String get nicknameSuffix182;
+
+  /// No description provided for @nicknameSuffix183.
+  ///
+  /// In en, this message translates to:
+  /// **'vampire'**
+  String get nicknameSuffix183;
+
+  /// No description provided for @nicknameSuffix184.
+  ///
+  /// In en, this message translates to:
+  /// **'werewolf'**
+  String get nicknameSuffix184;
+
+  /// No description provided for @nicknameSuffix185.
+  ///
+  /// In en, this message translates to:
+  /// **'minotaur'**
+  String get nicknameSuffix185;
+
+  /// No description provided for @nicknameSuffix186.
+  ///
+  /// In en, this message translates to:
+  /// **'centaur'**
+  String get nicknameSuffix186;
+
+  /// No description provided for @nicknameSuffix187.
+  ///
+  /// In en, this message translates to:
+  /// **'harpy'**
+  String get nicknameSuffix187;
+
+  /// No description provided for @nicknameSuffix188.
+  ///
+  /// In en, this message translates to:
+  /// **'siren'**
+  String get nicknameSuffix188;
+
+  /// No description provided for @nicknameSuffix189.
+  ///
+  /// In en, this message translates to:
+  /// **'Kraken'**
+  String get nicknameSuffix189;
+
+  /// No description provided for @nicknameSuffix190.
+  ///
+  /// In en, this message translates to:
+  /// **'leviathan'**
+  String get nicknameSuffix190;
+
+  /// No description provided for @nicknameSuffix191.
+  ///
+  /// In en, this message translates to:
+  /// **'knife'**
+  String get nicknameSuffix191;
+
+  /// No description provided for @nicknameSuffix192.
+  ///
+  /// In en, this message translates to:
+  /// **'shield'**
+  String get nicknameSuffix192;
+
+  /// No description provided for @nicknameSuffix193.
+  ///
+  /// In en, this message translates to:
+  /// **'window'**
+  String get nicknameSuffix193;
+
+  /// No description provided for @nicknameSuffix194.
+  ///
+  /// In en, this message translates to:
+  /// **'bow'**
+  String get nicknameSuffix194;
+
+  /// No description provided for @nicknameSuffix195.
+  ///
+  /// In en, this message translates to:
+  /// **'cane'**
+  String get nicknameSuffix195;
+
+  /// No description provided for @nicknameSuffix196.
+  ///
+  /// In en, this message translates to:
+  /// **'ring'**
+  String get nicknameSuffix196;
+
+  /// No description provided for @nicknameSuffix197.
+  ///
+  /// In en, this message translates to:
+  /// **'necklace'**
+  String get nicknameSuffix197;
+
+  /// No description provided for @nicknameSuffix198.
+  ///
+  /// In en, this message translates to:
+  /// **'crown'**
+  String get nicknameSuffix198;
+
+  /// No description provided for @nicknameSuffix199.
+  ///
+  /// In en, this message translates to:
+  /// **'Holy Grail'**
+  String get nicknameSuffix199;
+
+  /// No description provided for @themeFree.
+  ///
+  /// In en, this message translates to:
+  /// **'Free Theme'**
+  String get themeFree;
+
+  /// No description provided for @themePaid.
+  ///
+  /// In en, this message translates to:
+  /// **'Paid Theme'**
+  String get themePaid;
 }
 
 class _AppLocalizationsDelegate

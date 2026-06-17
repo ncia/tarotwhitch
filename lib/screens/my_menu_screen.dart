@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import '../data/nickname_localizations.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -10,6 +12,8 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import '../widgets/profile_edit_dialog.dart';
 import 'main_screen.dart';
 import 'theme_selection_screen.dart';
+import 'language_selection_screen.dart';
+import '../services/language_manager.dart';
 
 class MyMenuScreen extends StatelessWidget {
   const MyMenuScreen({super.key});
@@ -77,19 +81,19 @@ class MyMenuScreen extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const Text(
-                          '파이어베이스 미연결',
-                          style: TextStyle(color: Colors.redAccent, fontSize: 18, fontWeight: FontWeight.bold),
+                        Text(
+                          AppLocalizations.of(context)!.myMenuFirebaseNotConnected,
+                          style: const TextStyle(color: Colors.redAccent, fontSize: 18, fontWeight: FontWeight.bold),
                         ),
                         const SizedBox(height: 4),
-                        const Text(
-                          'Windows 설정 필요 (미리보기)',
-                          style: TextStyle(color: Colors.white54, fontSize: 12),
+                        Text(
+                          AppLocalizations.of(context)!.myMenuWindowsSetupNeeded,
+                          style: const TextStyle(color: Colors.white54, fontSize: 12),
                         ),
                         const SizedBox(height: 8),
-                        const Text(
-                          '터치하여 로그인 화면 UI 보기',
-                          style: TextStyle(color: Colors.amberAccent, fontSize: 12),
+                        Text(
+                          AppLocalizations.of(context)!.myMenuTouchToViewLogin,
+                          style: const TextStyle(color: Colors.amberAccent, fontSize: 12),
                         ),
                       ],
                     ),
@@ -102,11 +106,25 @@ class MyMenuScreen extends StatelessWidget {
           StreamBuilder<DocumentSnapshot>(
             stream: FirebaseFirestore.instance.collection('users').doc(user!.uid).snapshots(),
             builder: (context, docSnapshot) {
-              String displayName = user.email ?? '이름 없음';
+              String displayName = user.email ?? AppLocalizations.of(context)!.myMenuNoName;
               String profileImage = 'assets/images/witch_morgan.jpg';
+              bool isCustomNickname = true;
+              int? prefixIndex;
+              int? suffixIndex;
+
               if (docSnapshot.hasData && docSnapshot.data!.exists) {
                 final data = docSnapshot.data!.data() as Map<String, dynamic>;
-                displayName = data['nickname'] ?? displayName;
+                isCustomNickname = data['isCustomNickname'] ?? true;
+                prefixIndex = data['nicknamePrefixIndex'];
+                suffixIndex = data['nicknameSuffixIndex'];
+                
+                if (!isCustomNickname && prefixIndex != null && suffixIndex != null) {
+                  final prefix = NicknameLocalizations.getPrefix(context, prefixIndex);
+                  final suffix = NicknameLocalizations.getSuffix(context, suffixIndex);
+                  displayName = '$prefix $suffix';
+                } else {
+                  displayName = data['nickname'] ?? displayName;
+                }
                 profileImage = data['profileImage'] ?? profileImage;
               }
               
@@ -156,6 +174,9 @@ class MyMenuScreen extends StatelessWidget {
                               user: user,
                               currentNickname: displayName,
                               currentProfileImage: profileImage,
+                              isCustomNickname: isCustomNickname,
+                              nicknamePrefixIndex: prefixIndex,
+                              nicknameSuffixIndex: suffixIndex,
                             ),
                           );
                         },
@@ -201,19 +222,19 @@ class MyMenuScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(width: 20),
-                  const Expanded(
+                  Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          '로그인해주세요',
-                          style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
+                          AppLocalizations.of(context)!.myMenuPleaseLogin,
+                          style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
                           overflow: TextOverflow.ellipsis,
                         ),
-                        SizedBox(height: 12),
+                        const SizedBox(height: 12),
                         Text(
-                          '터치하여 회원가입 및 로그인',
-                          style: TextStyle(color: Colors.amberAccent, fontSize: 12),
+                          AppLocalizations.of(context)!.myMenuTouchToSignupLogin,
+                          style: const TextStyle(color: Colors.amberAccent, fontSize: 12),
                         ),
                       ],
                     ),
@@ -224,29 +245,56 @@ class MyMenuScreen extends StatelessWidget {
           ),
         const SizedBox(height: 30),
         // Menu Items
-        _buildSectionTitle('나의 기록'),
-        _buildMenuItem(Icons.history_edu, '타로 일기 보관함', '저장된 일기를 확인하세요.', onTap: () {
+        _buildSectionTitle(AppLocalizations.of(context)!.myMenuSectionMyRecords),
+        _buildMenuItem(Icons.history_edu, AppLocalizations.of(context)!.myMenuDiaryStorage, AppLocalizations.of(context)!.myMenuCheckSavedDiary, onTap: () {
           mainScreenKey.currentState?.switchTab(2);
         }),
-        _buildMenuItem(Icons.star_border, '즐겨찾는 카드', '내가 가장 좋아하는 카드 목록'),
+        _buildMenuItem(Icons.star_border, AppLocalizations.of(context)!.myMenuFavoriteCards, AppLocalizations.of(context)!.myMenuMyFavoriteCardsList),
         
         const SizedBox(height: 20),
-        _buildSectionTitle('앱 설정'),
+        _buildSectionTitle(AppLocalizations.of(context)!.myMenuSectionAppSettings),
         if (isLoggedIn && user != null) _PushSettingsTile(userId: user.uid),
-        _buildMenuItem(Icons.language, '언어 설정', '한국어'),
-        _buildMenuItem(Icons.dark_mode_outlined, '테마 설정', '배경 이미지 변경', onTap: () {
+        
+        ValueListenableBuilder<Locale?>(
+          valueListenable: LanguageManager.instance.localeNotifier,
+          builder: (context, locale, _) {
+            String subtitle = AppLocalizations.of(context)!.languageSystemDefault;
+            if (locale != null) {
+              final match = LanguageSelectionScreen.supportedLanguages.where((lang) => 
+                  lang['code'] == locale.languageCode && 
+                  lang['script'] == locale.scriptCode
+              ).toList();
+              if (match.isNotEmpty) {
+                subtitle = match.first['name'];
+              }
+            }
+            return _buildMenuItem(
+              Icons.language, 
+              AppLocalizations.of(context)!.myMenuLanguageSettings, 
+              subtitle,
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const LanguageSelectionScreen()),
+                );
+              },
+            );
+          },
+        ),
+
+        _buildMenuItem(Icons.dark_mode_outlined, AppLocalizations.of(context)!.myMenuThemeSettings, AppLocalizations.of(context)!.myMenuChangeBackground, onTap: () {
           Navigator.pushNamed(context, '/theme_selection');
         }),
         
         const SizedBox(height: 20),
-        _buildSectionTitle('고객 지원'),
-        _buildMenuItem(Icons.help_outline, '자주 묻는 질문 (FAQ)', null),
-        _buildMenuItem(Icons.info_outline, '앱 정보', '버전 1.0.0'),
+        _buildSectionTitle(AppLocalizations.of(context)!.myMenuSectionCustomerSupport),
+        _buildMenuItem(Icons.help_outline, AppLocalizations.of(context)!.myMenuFaq, null),
+        _buildMenuItem(Icons.info_outline, AppLocalizations.of(context)!.myMenuAppInfo, '버전 1.0.0'),
         
         if (isLoggedIn) ...[
           const SizedBox(height: 20),
-          _buildSectionTitle('계정 관리'),
-          _buildMenuItem(Icons.logout, '로그아웃', '현재 기기에서 로그아웃합니다.', onTap: () async {
+          _buildSectionTitle(AppLocalizations.of(context)!.myMenuSectionAccountManagement),
+          _buildMenuItem(Icons.logout, AppLocalizations.of(context)!.myMenuLogout, AppLocalizations.of(context)!.myMenuLogoutDesc, onTap: () async {
             await FirebaseAuth.instance.signOut();
           }),
         ],
@@ -380,12 +428,12 @@ class _PushSettingsTileState extends State<_PushSettingsTile> {
               ),
               child: const Icon(Icons.notifications_active_outlined, color: Colors.amberAccent),
             ),
-            title: const Text(
-              '푸시 알림 수신',
-              style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w500),
+            title: Text(
+              AppLocalizations.of(context)!.myMenuPushNotifications,
+              style: const TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w500),
             ),
             subtitle: Text(
-              '새로운 운세 및 이벤트 알림',
+              AppLocalizations.of(context)!.myMenuPushNotificationsDesc,
               style: TextStyle(color: Colors.white.withOpacity(0.6), fontSize: 12),
             ),
             trailing: _isLoading
@@ -431,7 +479,7 @@ class _EmailVerificationBadgeState extends State<_EmailVerificationBadge> {
                 if (FirebaseAuth.instance.currentUser?.emailVerified == true) {
                   if (mounted) {
                     ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(content: Text('이메일 인증이 확인되었습니다! ✨')),
+                      SnackBar(content: Text(AppLocalizations.of(context)!.myMenuEmailVerifiedMsg)),
                     );
                   }
                 } else {
@@ -443,15 +491,15 @@ class _EmailVerificationBadgeState extends State<_EmailVerificationBadge> {
                       context: context,
                       builder: (ctx) => AlertDialog(
                         backgroundColor: Colors.deepPurple.shade900,
-                        title: const Text('인증 메일 발송', style: TextStyle(color: Colors.white)),
-                        content: const Text(
-                          '인증 메일이 발송되었습니다.\n이메일함을 확인하여 링크를 클릭한 뒤, 이 버튼을 다시 한 번 눌러주세요!',
-                          style: TextStyle(color: Colors.white70),
+                        title: Text(AppLocalizations.of(context)!.myMenuEmailSendTitle, style: const TextStyle(color: Colors.white)),
+                        content: Text(
+                          AppLocalizations.of(context)!.myMenuEmailSendContent,
+                          style: const TextStyle(color: Colors.white70),
                         ),
                         actions: [
                           TextButton(
                             onPressed: () => Navigator.pop(ctx),
-                            child: const Text('확인', style: TextStyle(color: Colors.amberAccent)),
+                            child: Text(AppLocalizations.of(context)!.myMenuConfirm, style: const TextStyle(color: Colors.amberAccent)),
                           ),
                         ],
                       ),
@@ -461,7 +509,7 @@ class _EmailVerificationBadgeState extends State<_EmailVerificationBadge> {
               } catch (e) {
                 if (mounted) {
                   ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(content: Text('너무 많은 요청이거나 오류가 발생했습니다.')),
+                    SnackBar(content: Text(AppLocalizations.of(context)!.myMenuEmailErrorMsg)),
                   );
                 }
               } finally {
@@ -480,7 +528,7 @@ class _EmailVerificationBadgeState extends State<_EmailVerificationBadge> {
         child: _isLoading 
             ? const SizedBox(width: 12, height: 12, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.white))
             : Text(
-                isVerified ? '이메일 인증 완료됨' : '이메일 미인증 (터치하여 인증하기)',
+                isVerified ? AppLocalizations.of(context)!.myMenuEmailVerified : AppLocalizations.of(context)!.myMenuEmailNotVerified,
                 style: TextStyle(
                   color: isVerified ? Colors.greenAccent : Colors.redAccent, 
                   fontSize: 12,

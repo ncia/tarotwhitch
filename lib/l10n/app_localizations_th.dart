@@ -9,143 +9,141 @@ class AppLocalizationsTh extends AppLocalizations {
   AppLocalizationsTh([String locale = 'th']) : super(locale);
 
   @override
-  String get appTitle => 'Tarot Reading';
+  String get appTitle => 'การอ่านไพ่ยิปซี';
 
   @override
-  String get spreadSelectionTitle => 'Select a Spread';
+  String get spreadSelectionTitle => 'เลือกสเปรด';
 
   @override
-  String get spreadSelectionSubtitle =>
-      'Choose a tarot spread that fits your question';
+  String get spreadSelectionSubtitle => 'เลือกไพ่ทาโร่ที่เหมาะกับคำถามของคุณ';
 
   @override
-  String get spreadOneCardName => 'One Card';
+  String get spreadOneCardName => 'การ์ดใบเดียว';
 
   @override
-  String get spreadOneCardDesc =>
-      'A single card for a quick answer or daily guidance.';
+  String get spreadOneCardDesc => 'บัตรใบเดียวสำหรับคำตอบด่วนหรือคำแนะนำรายวัน';
 
   @override
-  String get spreadTwoCardName => 'Two Card';
+  String get spreadTwoCardName => 'การ์ดสองใบ';
 
   @override
   String get spreadTwoCardDesc =>
-      'A 2-card spread to simply grasp the current situation and advice.';
+      'ไพ่ 2 ใบเพื่อเข้าใจสถานการณ์และคำแนะนำในปัจจุบัน';
 
   @override
-  String get spreadThreeCardName => 'Three Card';
+  String get spreadThreeCardName => 'การ์ดสามใบ';
 
   @override
   String get spreadThreeCardDesc =>
-      'A 3-card spread to understand the flow of past, present, and future.';
+      'ไพ่ 3 ใบเพื่อทำความเข้าใจกระแสของอดีต ปัจจุบัน และอนาคต';
 
   @override
-  String get spreadFourCardName => 'Four Card';
+  String get spreadFourCardName => 'โฟร์การ์ด';
 
   @override
   String get spreadFourCardDesc =>
-      'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.';
+      'ไพ่ 4 ใบเพื่อวินิจฉัยสาเหตุของปัญหาอย่างชัดเจน รับคำแนะนำ และดูผลลัพธ์';
 
   @override
-  String get spreadFiveCardName => 'Five Card';
+  String get spreadFiveCardName => 'ห้าการ์ด';
 
   @override
   String get spreadFiveCardDesc =>
-      'A 5-card spread examining the core of the situation, its causes, and potential outcomes.';
+      'ไพ่ 5 ใบเพื่อตรวจสอบแก่นแท้ของสถานการณ์ สาเหตุ และผลลัพธ์ที่อาจเกิดขึ้น';
 
   @override
-  String get spreadCelticCrossName => 'Celtic Cross';
+  String get spreadCelticCrossName => 'เซลติกครอส';
 
   @override
   String get spreadCelticCrossDesc =>
-      '10 cards for an in-depth analysis of a complex problem.';
+      'การ์ด 10 ใบสำหรับการวิเคราะห์เชิงลึกของปัญหาที่ซับซ้อน';
 
   @override
-  String get positionOneCard => 'Today\'s Card';
+  String get positionOneCard => 'การ์ดวันนี้';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '1. สถานการณ์';
 
   @override
-  String get positionTwoCard2 => '2. Advice';
+  String get positionTwoCard2 => '2. คำแนะนำ';
 
   @override
-  String get positionThreeCard1 => 'Past';
+  String get positionThreeCard1 => 'อดีต';
 
   @override
-  String get positionThreeCard2 => 'Present';
+  String get positionThreeCard2 => 'ปัจจุบัน';
 
   @override
-  String get positionThreeCard3 => 'Future';
+  String get positionThreeCard3 => 'อนาคต';
 
   @override
-  String get positionFourCard1 => '1. Problem';
+  String get positionFourCard1 => '1. ปัญหา';
 
   @override
-  String get positionFourCard2 => '2. Cause';
+  String get positionFourCard2 => '2. สาเหตุ';
 
   @override
-  String get positionFourCard3 => '3. Advice';
+  String get positionFourCard3 => '3. คำแนะนำ';
 
   @override
-  String get positionFourCard4 => '4. Outcome';
+  String get positionFourCard4 => '4. ผลลัพธ์';
 
   @override
-  String get positionFiveCard1 => '1. Present';
+  String get positionFiveCard1 => '1. ปัจจุบัน';
 
   @override
-  String get positionFiveCard2 => '2. Past Influences';
+  String get positionFiveCard2 => '2. อิทธิพลในอดีต';
 
   @override
-  String get positionFiveCard3 => '3. Future Direction';
+  String get positionFiveCard3 => '3. ทิศทางในอนาคต';
 
   @override
-  String get positionFiveCard4 => '4. Core Reason';
+  String get positionFiveCard4 => '4. เหตุผลหลัก';
 
   @override
-  String get positionFiveCard5 => '5. Potential Outcome';
+  String get positionFiveCard5 => '5. ผลลัพธ์ที่เป็นไปได้';
 
   @override
-  String get positionCelticCross1 => '1. Present (Querent)';
+  String get positionCelticCross1 => '1. ปัจจุบัน (Querent)';
 
   @override
-  String get positionCelticCross2 => '2. The Challenge';
+  String get positionCelticCross2 => '2. ความท้าทาย';
 
   @override
-  String get positionCelticCross3 => '3. The Past';
+  String get positionCelticCross3 => '3. อดีต';
 
   @override
-  String get positionCelticCross4 => '4. The Future';
+  String get positionCelticCross4 => '4. อนาคต';
 
   @override
-  String get positionCelticCross5 => '5. Conscious';
+  String get positionCelticCross5 => '5. มีสติ';
 
   @override
-  String get positionCelticCross6 => '6. Subconscious';
+  String get positionCelticCross6 => '6. จิตใต้สำนึก';
 
   @override
-  String get positionCelticCross7 => '7. Advice';
+  String get positionCelticCross7 => '7. คำแนะนำ';
 
   @override
-  String get positionCelticCross8 => '8. External Influences';
+  String get positionCelticCross8 => '8. อิทธิพลภายนอก';
 
   @override
-  String get positionCelticCross9 => '9. Hopes and Fears';
+  String get positionCelticCross9 => '9. ความหวังและความกลัว';
 
   @override
-  String get positionCelticCross10 => '10. Outcome';
+  String get positionCelticCross10 => '10. ผลลัพธ์';
 
   @override
-  String get navReading => 'อ่านไพ่ทาโรต์';
+  String get navReading => 'การอ่านไพ่ยิปซี';
 
   @override
-  String get navChat => 'แชทไพ่ทาโรต์';
+  String get navChat => 'ไพ่ทาโรต์แชท';
 
   @override
-  String get navMeanings => 'ความหมายไพ่';
+  String get navMeanings => 'ความหมายของการ์ด';
 
   @override
-  String get navMyMenu => 'My Menu';
+  String get navMyMenu => 'เมนูของฉัน';
 
   @override
   String get readingIntroTitle => 'เสียงกระซิบ\nแห่งโชคชะตา';
@@ -862,7 +860,7 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get card_reversed_swords_11 =>
-      'Rashness, impatience, cynicism, baseless rumors, rudeness';
+      'ความหุนหันพลันแล่น ความไม่อดทน ความเห็นถากถางดูถูก ข่าวลือที่ไม่มีมูล ความหยาบคาย';
 
   @override
   String get card_name_swords_12 => 'อัศวินดาบ (Knight of Swords)';
@@ -1204,4 +1202,1714 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get chatProfileTapHint => 'แตะรูปโปรไฟล์เพื่อดูรายละเอียด';
+
+  @override
+  String get themeName1 => 'ธีม 1';
+
+  @override
+  String get themeName2 => 'ธีม 2';
+
+  @override
+  String get themeName3 => 'ธีม 3';
+
+  @override
+  String get themeMagicBook => 'หนังสือเวทย์มนตร์';
+
+  @override
+  String get themeBlackCat => 'แมวดำ';
+
+  @override
+  String get themeEmptyPaidThemes =>
+      'ซื้อธีมในร้านค้า\nเพื่อเติมเต็มพื้นที่นี้!';
+
+  @override
+  String get shopThemePurchaseTitle => 'ซื้อธีม';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return 'คุณต้องการซื้อธีม $skinName ด้วยราคา $cost เหรียญหรือไม่?';
+  }
+
+  @override
+  String get shopCancel => 'ยกเลิก';
+
+  @override
+  String get shopPurchase => 'ซื้อ';
+
+  @override
+  String get shopAlreadyOwned => 'เป็นเจ้าของแล้ว ลองนำไปใช้ในการตั้งค่าธีม!';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return 'ซื้อ $skinName สำเร็จแล้ว! ตรวจสอบการตั้งค่าธีม';
+  }
+
+  @override
+  String get shopNotEnoughCoins => 'เหรียญไม่พอ..';
+
+  @override
+  String get shopOwned => 'เป็นเจ้าของ';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost เหรียญ';
+  }
+
+  @override
+  String get navDiary => 'ไดอารี่ไพ่ทาโรต์';
+
+  @override
+  String get myMenuFirebaseNotConnected => 'ไม่ได้เชื่อมต่อ Firebase';
+
+  @override
+  String get myMenuWindowsSetupNeeded =>
+      'จำเป็นต้องติดตั้ง Windows (ดูตัวอย่าง)';
+
+  @override
+  String get myMenuTouchToViewLogin => 'แตะเพื่อดู UI การเข้าสู่ระบบ';
+
+  @override
+  String get myMenuNoName => 'ไม่มีชื่อ';
+
+  @override
+  String get myMenuPleaseLogin => 'กรุณาเข้าสู่ระบบ';
+
+  @override
+  String get myMenuTouchToSignupLogin => 'แตะเพื่อลงทะเบียนและเข้าสู่ระบบ';
+
+  @override
+  String get myMenuSectionMyRecords => 'บันทึกของฉัน';
+
+  @override
+  String get myMenuDiaryStorage => 'ที่เก็บไดอารี่';
+
+  @override
+  String get myMenuCheckSavedDiary => 'ตรวจสอบไดอารี่ที่บันทึกไว้ของคุณ';
+
+  @override
+  String get myMenuFavoriteCards => 'การ์ดใบโปรด';
+
+  @override
+  String get myMenuMyFavoriteCardsList => 'รายชื่อการ์ดที่ฉันชอบ';
+
+  @override
+  String get myMenuSectionAppSettings => 'การตั้งค่าแอพ';
+
+  @override
+  String get myMenuPushNotifications => 'การแจ้งเตือนแบบพุช';
+
+  @override
+  String get myMenuPushNotificationsDesc => 'ดวงชะตาและเหตุการณ์ใหม่';
+
+  @override
+  String get myMenuLanguageSettings => 'การตั้งค่าภาษา';
+
+  @override
+  String get myMenuThemeSettings => 'การตั้งค่าธีม';
+
+  @override
+  String get myMenuChangeBackground => 'เปลี่ยนภาพพื้นหลัง';
+
+  @override
+  String get myMenuSectionCustomerSupport => 'การสนับสนุนลูกค้า';
+
+  @override
+  String get myMenuFaq => 'คำถามที่พบบ่อย';
+
+  @override
+  String get myMenuAppInfo => 'ข้อมูลแอพ';
+
+  @override
+  String get myMenuSectionAccountManagement => 'การจัดการบัญชี';
+
+  @override
+  String get myMenuLogout => 'ออกจากระบบ';
+
+  @override
+  String get myMenuLogoutDesc => 'ออกจากระบบจากอุปกรณ์ปัจจุบัน';
+
+  @override
+  String get myMenuEmailVerifiedMsg => 'ยืนยันอีเมลแล้ว! ✨';
+
+  @override
+  String get myMenuEmailSendTitle => 'ส่งอีเมลยืนยัน';
+
+  @override
+  String get myMenuEmailSendContent =>
+      'ส่งอีเมลยืนยันแล้ว\nโปรดตรวจสอบกล่องจดหมายของคุณ คลิกลิงก์ และกดปุ่มนี้อีกครั้ง!';
+
+  @override
+  String get myMenuConfirm => 'ยืนยัน';
+
+  @override
+  String get myMenuEmailErrorMsg => 'มีคำขอมากเกินไปหรือมีข้อผิดพลาดเกิดขึ้น';
+
+  @override
+  String get myMenuEmailVerified => 'ยืนยันอีเมลแล้ว';
+
+  @override
+  String get myMenuEmailNotVerified =>
+      'อีเมลไม่ได้รับการยืนยัน (แตะเพื่อยืนยัน)';
+
+  @override
+  String get languageSystemDefault => 'ค่าเริ่มต้นของระบบ';
+
+  @override
+  String get shopTitle => 'ร้านค้า';
+
+  @override
+  String get shopSubtitle => 'ซื้อเหรียญและธีม';
+
+  @override
+  String get shopTabCoin => 'เหรียญ';
+
+  @override
+  String get shopTabTheme => 'ธีม';
+
+  @override
+  String get shopPayButton => 'จ่าย';
+
+  @override
+  String get themeOriginalDeck => 'เด็คคลาสสิคดั้งเดิม';
+
+  @override
+  String get themeGoldenSunDeck => 'โกลเด้นซันเด็ค';
+
+  @override
+  String get themeDarkAbyssDeck => 'เด็ค Abyss แห่งความมืด';
+
+  @override
+  String get themeSpringSpiritDeck => 'เด็ควิญญาณแห่งฤดูใบไม้ผลิ';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return 'การชำระเงินสำหรับ $coins เหรียญในเร็วๆ นี้';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return 'การซื้อ/สมัคร $name จะมาเร็วๆ นี้';
+  }
+
+  @override
+  String get readingIntroSelectWitch => 'เลือกแม่มดเพื่อดูชะตากรรมของคุณ';
+
+  @override
+  String get readingIntroGreeting =>
+      'เราจะดูชะตากรรมอะไร?\nฉันอยากรู้เกี่ยวกับอนาคตของคุณ';
+
+  @override
+  String get readingIntroStart => 'เลือกสเปรด';
+
+  @override
+  String get tabMajorArcana => 'พันตรีอาร์คานา';
+
+  @override
+  String get tabMinorArcana => 'ไมเนอร์อาร์คานา';
+
+  @override
+  String get nicknamePrefix0 => 'ลึกลับ';
+
+  @override
+  String get nicknamePrefix1 => 'เงียบสงบ';
+
+  @override
+  String get nicknamePrefix2 => 'ศักดิ์สิทธิ์';
+
+  @override
+  String get nicknamePrefix3 => 'มืด';
+
+  @override
+  String get nicknamePrefix4 => 'ส่องแสง';
+
+  @override
+  String get nicknamePrefix5 => 'เยือกเย็น';
+
+  @override
+  String get nicknamePrefix6 => 'ร้อน';
+
+  @override
+  String get nicknamePrefix7 => 'น่าหลงใหล';
+
+  @override
+  String get nicknamePrefix8 => 'โหดร้าย';
+
+  @override
+  String get nicknamePrefix9 => 'บริสุทธิ์';
+
+  @override
+  String get nicknamePrefix10 => 'รุนแรง';
+
+  @override
+  String get nicknamePrefix11 => 'อ่อนนุ่ม';
+
+  @override
+  String get nicknamePrefix12 => 'สวย';
+
+  @override
+  String get nicknamePrefix13 => 'แปลก';
+
+  @override
+  String get nicknamePrefix14 => 'ใหญ่';
+
+  @override
+  String get nicknamePrefix15 => 'โทรม';
+
+  @override
+  String get nicknamePrefix16 => 'นิรันดร์';
+
+  @override
+  String get nicknamePrefix17 => 'ลืม';
+
+  @override
+  String get nicknamePrefix18 => 'ฉลาดหลักแหลม';
+
+  @override
+  String get nicknamePrefix19 => 'เศร้า';
+
+  @override
+  String get nicknamePrefix20 => 'ยินดี';
+
+  @override
+  String get nicknamePrefix21 => 'เหมือนฝัน';
+
+  @override
+  String get nicknamePrefix22 => 'ล้มลง';
+
+  @override
+  String get nicknamePrefix23 => 'ขาวบริสุทธิ์';
+
+  @override
+  String get nicknamePrefix24 => 'สีดำเจ็ทแบล็ค';
+
+  @override
+  String get nicknamePrefix25 => 'เปื้อนเลือด';
+
+  @override
+  String get nicknamePrefix26 => 'สีเทา';
+
+  @override
+  String get nicknamePrefix27 => 'ทอง';
+
+  @override
+  String get nicknamePrefix28 => 'เงิน';
+
+  @override
+  String get nicknamePrefix29 => 'สีฟ้า';
+
+  @override
+  String get nicknamePrefix30 => 'สีแดง';
+
+  @override
+  String get nicknamePrefix31 => 'สีเหลือง';
+
+  @override
+  String get nicknamePrefix32 => 'สีดำ';
+
+  @override
+  String get nicknamePrefix33 => 'สีขาว';
+
+  @override
+  String get nicknamePrefix34 => 'โปร่งใส';
+
+  @override
+  String get nicknamePrefix35 => 'คนเดียว';
+
+  @override
+  String get nicknamePrefix36 => 'เสียงดัง';
+
+  @override
+  String get nicknamePrefix37 => 'เงียบ';
+
+  @override
+  String get nicknamePrefix38 => 'อบอุ่น';
+
+  @override
+  String get nicknamePrefix39 => 'หนาวจัด';
+
+  @override
+  String get nicknamePrefix40 => 'โดดเดี่ยว';
+
+  @override
+  String get nicknamePrefix41 => 'เหงา';
+
+  @override
+  String get nicknamePrefix42 => 'มีความสุข';
+
+  @override
+  String get nicknamePrefix43 => 'มีความสุข';
+
+  @override
+  String get nicknamePrefix44 => 'มืดมน';
+
+  @override
+  String get nicknamePrefix45 => 'หมดหวัง';
+
+  @override
+  String get nicknamePrefix46 => 'มีความหวัง';
+
+  @override
+  String get nicknamePrefix47 => 'พราว';
+
+  @override
+  String get nicknamePrefix48 => 'มืดครึ้ม';
+
+  @override
+  String get nicknamePrefix49 => 'เที่ยงคืน';
+
+  @override
+  String get nicknamePrefix50 => 'รกร้าง';
+
+  @override
+  String get nicknamePrefix51 => 'ความลับ';
+
+  @override
+  String get nicknamePrefix52 => 'ความลับ';
+
+  @override
+  String get nicknamePrefix53 => 'ศักดิ์สิทธิ์';
+
+  @override
+  String get nicknamePrefix54 => 'ดูหมิ่น';
+
+  @override
+  String get nicknamePrefix55 => 'เหนือกว่า';
+
+  @override
+  String get nicknamePrefix56 => 'เจียมเนื้อเจียมตัว';
+
+  @override
+  String get nicknamePrefix57 => 'ฉลาด';
+
+  @override
+  String get nicknamePrefix58 => 'โง่';
+
+  @override
+  String get nicknamePrefix59 => 'ยาก';
+
+  @override
+  String get nicknamePrefix60 => 'อ่อนแอ';
+
+  @override
+  String get nicknamePrefix61 => 'กล้าหาญ';
+
+  @override
+  String get nicknamePrefix62 => 'ขี้ขลาดตาขาว';
+
+  @override
+  String get nicknamePrefix63 => 'ห่างไกล';
+
+  @override
+  String get nicknamePrefix64 => 'ใกล้';
+
+  @override
+  String get nicknamePrefix65 => 'ย้ายออกไป';
+
+  @override
+  String get nicknamePrefix66 => 'กำลังมา';
+
+  @override
+  String get nicknamePrefix67 => 'หายไป';
+
+  @override
+  String get nicknamePrefix68 => 'ฉุกเฉิน';
+
+  @override
+  String get nicknamePrefix69 => 'ตื่นขึ้น';
+
+  @override
+  String get nicknamePrefix70 => 'นอนหลับ';
+
+  @override
+  String get nicknamePrefix71 => 'ฝัน';
+
+  @override
+  String get nicknamePrefix72 => 'หลงทาง';
+
+  @override
+  String get nicknamePrefix73 => 'หลงทาง';
+
+  @override
+  String get nicknamePrefix74 => 'อยู่';
+
+  @override
+  String get nicknamePrefix75 => 'ออกไป';
+
+  @override
+  String get nicknamePrefix76 => 'กำลังจะกลับมา';
+
+  @override
+  String get nicknamePrefix77 => 'ซึ่งรอคอย';
+
+  @override
+  String get nicknamePrefix78 => 'กำลังมองหา';
+
+  @override
+  String get nicknamePrefix79 => 'เป็นความลับ';
+
+  @override
+  String get nicknamePrefix80 => 'ถูกเปิดเผย';
+
+  @override
+  String get nicknamePrefix81 => 'ถูกทอดทิ้ง';
+
+  @override
+  String get nicknamePrefix82 => 'เลือกแล้ว';
+
+  @override
+  String get nicknamePrefix83 => 'ได้รับพร';
+
+  @override
+  String get nicknamePrefix84 => 'ถูกสาป';
+
+  @override
+  String get nicknamePrefix85 => 'รัก';
+
+  @override
+  String get nicknamePrefix86 => 'เกลียด';
+
+  @override
+  String get nicknamePrefix87 => 'จดจำ';
+
+  @override
+  String get nicknamePrefix88 => 'ลืมเลือน';
+
+  @override
+  String get nicknamePrefix89 => 'แสงดาว';
+
+  @override
+  String get nicknamePrefix90 => 'แสงจันทร์';
+
+  @override
+  String get nicknamePrefix91 => 'ของแสงแดด';
+
+  @override
+  String get nicknamePrefix92 => 'จักรวาล';
+
+  @override
+  String get nicknamePrefix93 => 'ของโลก';
+
+  @override
+  String get nicknamePrefix94 => 'ของทะเล';
+
+  @override
+  String get nicknamePrefix95 => 'สวรรค์';
+
+  @override
+  String get nicknamePrefix96 => 'ของเมฆ';
+
+  @override
+  String get nicknamePrefix97 => 'ของลม';
+
+  @override
+  String get nicknamePrefix98 => 'ฝน';
+
+  @override
+  String get nicknamePrefix99 => 'ของดวงตา';
+
+  @override
+  String get nicknamePrefix100 => 'น้ำแข็ง';
+
+  @override
+  String get nicknamePrefix101 => 'คะนอง';
+
+  @override
+  String get nicknamePrefix102 => 'น้ำ';
+
+  @override
+  String get nicknamePrefix103 => 'ดิน';
+
+  @override
+  String get nicknamePrefix104 => 'ทำด้วยไม้';
+
+  @override
+  String get nicknamePrefix105 => 'ป่า';
+
+  @override
+  String get nicknamePrefix106 => 'ภูเขา';
+
+  @override
+  String get nicknamePrefix107 => 'การบรรยาย';
+
+  @override
+  String get nicknamePrefix108 => 'ของทะเลสาบ';
+
+  @override
+  String get nicknamePrefix109 => 'ของเวลา';
+
+  @override
+  String get nicknamePrefix110 => 'ของพื้นที่';
+
+  @override
+  String get nicknamePrefix111 => 'มิติ';
+
+  @override
+  String get nicknamePrefix112 => 'เป็นเวรเป็นกรรม';
+
+  @override
+  String get nicknamePrefix113 => 'เป็นเวรเป็นกรรม';
+
+  @override
+  String get nicknamePrefix114 => 'ปาฏิหาริย์';
+
+  @override
+  String get nicknamePrefix115 => 'ขลัง';
+
+  @override
+  String get nicknamePrefix116 => 'เป็นตำนาน';
+
+  @override
+  String get nicknamePrefix117 => 'ตำนาน';
+
+  @override
+  String get nicknamePrefix118 => 'ของความจริง';
+
+  @override
+  String get nicknamePrefix119 => 'เท็จ';
+
+  @override
+  String get nicknamePrefix120 => 'แฟนตาซี';
+
+  @override
+  String get nicknamePrefix121 => 'ฝัน';
+
+  @override
+  String get nicknamePrefix122 => 'ฝันร้าย';
+
+  @override
+  String get nicknamePrefix123 => 'ทำลาย';
+
+  @override
+  String get nicknamePrefix124 => 'ของการสร้างสรรค์';
+
+  @override
+  String get nicknamePrefix125 => 'ของชีวิต';
+
+  @override
+  String get nicknamePrefix126 => 'แห่งความตาย';
+
+  @override
+  String get nicknamePrefix127 => 'วิญญาณ';
+
+  @override
+  String get nicknamePrefix128 => 'ทางกายภาพ';
+
+  @override
+  String get nicknamePrefix129 => 'ของเหตุผล';
+
+  @override
+  String get nicknamePrefix130 => 'ทางอารมณ์';
+
+  @override
+  String get nicknamePrefix131 => 'ของความรัก';
+
+  @override
+  String get nicknamePrefix132 => 'แห่งความเกลียดชัง';
+
+  @override
+  String get nicknamePrefix133 => 'ของความโศกเศร้า';
+
+  @override
+  String get nicknamePrefix134 => 'ของความสุข';
+
+  @override
+  String get nicknamePrefix135 => 'โกรธ';
+
+  @override
+  String get nicknamePrefix136 => 'แห่งสันติภาพ';
+
+  @override
+  String get nicknamePrefix137 => 'ของสงคราม';
+
+  @override
+  String get nicknamePrefix138 => 'ความวุ่นวาย';
+
+  @override
+  String get nicknamePrefix139 => 'เป็นระเบียบเรียบร้อย';
+
+  @override
+  String get nicknamePrefix140 => 'ของแสง';
+
+  @override
+  String get nicknamePrefix141 => 'มืด';
+
+  @override
+  String get nicknamePrefix142 => 'พลบค่ำ';
+
+  @override
+  String get nicknamePrefix143 => 'รุ่งอรุณ';
+
+  @override
+  String get nicknamePrefix144 => 'กลางวัน';
+
+  @override
+  String get nicknamePrefix145 => 'เที่ยงคืน';
+
+  @override
+  String get nicknamePrefix146 => 'อดีต';
+
+  @override
+  String get nicknamePrefix147 => 'ปัจจุบัน';
+
+  @override
+  String get nicknamePrefix148 => 'อนาคต';
+
+  @override
+  String get nicknamePrefix149 => 'ต้นกำเนิด';
+
+  @override
+  String get nicknamePrefix150 => 'สันทราย';
+
+  @override
+  String get nicknamePrefix151 => 'ไม่มีที่สิ้นสุด';
+
+  @override
+  String get nicknamePrefix152 => 'มีจำกัด';
+
+  @override
+  String get nicknamePrefix153 => 'เงียบ';
+
+  @override
+  String get nicknamePrefix154 => 'ของเสียงรบกวน';
+
+  @override
+  String get nicknamePrefix155 => 'ร้องเพลง';
+
+  @override
+  String get nicknamePrefix156 => 'การเต้นรำ';
+
+  @override
+  String get nicknamePrefix157 => 'ร้องไห้';
+
+  @override
+  String get nicknamePrefix158 => 'ยิ้ม';
+
+  @override
+  String get nicknamePrefix159 => 'กระซิบ';
+
+  @override
+  String get nicknamePrefix160 => 'ร้องไห้';
+
+  @override
+  String get nicknamePrefix161 => 'อธิษฐาน';
+
+  @override
+  String get nicknamePrefix162 => 'อ้อนวอน';
+
+  @override
+  String get nicknamePrefix163 => 'ผู้บังคับบัญชา';
+
+  @override
+  String get nicknamePrefix164 => 'ยอมจำนน';
+
+  @override
+  String get nicknamePrefix165 => 'การพิจารณาคดี';
+
+  @override
+  String get nicknamePrefix166 => 'เสิร์ฟ';
+
+  @override
+  String get nicknamePrefix167 => 'แนวทาง';
+
+  @override
+  String get nicknamePrefix168 => 'ที่มาพร้อมกับ';
+
+  @override
+  String get nicknamePrefix169 => 'การสอน';
+
+  @override
+  String get nicknamePrefix170 => 'การเรียนรู้';
+
+  @override
+  String get nicknamePrefix171 => 'ของหน่วยความจำ';
+
+  @override
+  String get nicknamePrefix172 => 'ของความทรงจำ';
+
+  @override
+  String get nicknamePrefix173 => 'ของบาดแผล';
+
+  @override
+  String get nicknamePrefix174 => 'การรักษา';
+
+  @override
+  String get nicknamePrefix175 => 'เป็นพิษ';
+
+  @override
+  String get nicknamePrefix176 => 'ยา';
+
+  @override
+  String get nicknamePrefix177 => 'ยินดีต้อนรับ';
+
+  @override
+  String get nicknamePrefix178 => 'ของสาร';
+
+  @override
+  String get nicknamePrefix179 => 'ในอุดมคติ';
+
+  @override
+  String get nicknamePrefix180 => 'จริง';
+
+  @override
+  String get nicknamePrefix181 => 'จินตภาพ';
+
+  @override
+  String get nicknamePrefix182 => 'เป็นธรรมชาติ';
+
+  @override
+  String get nicknamePrefix183 => 'เทียม';
+
+  @override
+  String get nicknamePrefix184 => 'ในการเริ่มต้น';
+
+  @override
+  String get nicknamePrefix185 => 'นิรันดร์';
+
+  @override
+  String get nicknamePrefix186 => 'ของช่วงเวลา';
+
+  @override
+  String get nicknamePrefix187 => 'หายวับไป';
+
+  @override
+  String get nicknamePrefix188 => 'นิรันดร์';
+
+  @override
+  String get nicknamePrefix189 => 'ของการเปลี่ยนแปลง';
+
+  @override
+  String get nicknamePrefix190 => 'นิ่ง';
+
+  @override
+  String get nicknamePrefix191 => 'ไหล';
+
+  @override
+  String get nicknamePrefix192 => 'บทสรุป';
+
+  @override
+  String get nicknamePrefix193 => 'สว่าง';
+
+  @override
+  String get nicknamePrefix194 => 'เย็นลง';
+
+  @override
+  String get nicknamePrefix195 => 'กำลังเบ่งบาน';
+
+  @override
+  String get nicknamePrefix196 => 'เหี่ยวเฉา';
+
+  @override
+  String get nicknamePrefix197 => 'เติบโตขึ้นมา';
+
+  @override
+  String get nicknamePrefix198 => 'กำลังจะตาย';
+
+  @override
+  String get nicknamePrefix199 => 'การหายใจ';
+
+  @override
+  String get nicknamePrefix200 => 'หายใจไม่ออก';
+
+  @override
+  String get nicknameSuffix0 => 'ศาสดาพยากรณ์';
+
+  @override
+  String get nicknameSuffix1 => 'ตัวช่วยสร้าง';
+
+  @override
+  String get nicknameSuffix2 => 'แม่มด';
+
+  @override
+  String get nicknameSuffix3 => 'บทความ';
+
+  @override
+  String get nicknameSuffix4 => 'นักรบ';
+
+  @override
+  String get nicknameSuffix5 => 'อาร์เชอร์';
+
+  @override
+  String get nicknameSuffix6 => 'ขโมย';
+
+  @override
+  String get nicknameSuffix7 => 'นักฆ่า';
+
+  @override
+  String get nicknameSuffix8 => 'พาลาดิน';
+
+  @override
+  String get nicknameSuffix9 => 'นักบวช';
+
+  @override
+  String get nicknameSuffix10 => 'นักบวชหญิง';
+
+  @override
+  String get nicknameSuffix11 => 'พระภิกษุ';
+
+  @override
+  String get nicknameSuffix12 => 'ว้าว';
+
+  @override
+  String get nicknameSuffix13 => 'นักเล่นแร่แปรธาตุ';
+
+  @override
+  String get nicknameSuffix14 => 'หมอผี';
+
+  @override
+  String get nicknameSuffix15 => 'ผู้นับถือผี';
+
+  @override
+  String get nicknameSuffix16 => 'ผู้อัญเชิญ';
+
+  @override
+  String get nicknameSuffix17 => 'นักเล่นกลลวงตา';
+
+  @override
+  String get nicknameSuffix18 => 'ผู้รักษา';
+
+  @override
+  String get nicknameSuffix19 => 'คนฉลาด';
+
+  @override
+  String get nicknameSuffix20 => 'นักวิชาการ';
+
+  @override
+  String get nicknameSuffix21 => 'นักวิจัย';
+
+  @override
+  String get nicknameSuffix22 => 'นักสำรวจ';
+
+  @override
+  String get nicknameSuffix23 => 'นักเดินทาง';
+
+  @override
+  String get nicknameSuffix24 => 'คนพเนจร';
+
+  @override
+  String get nicknameSuffix25 => 'คนพเนจร';
+
+  @override
+  String get nicknameSuffix26 => 'ผู้แสวงบุญ';
+
+  @override
+  String get nicknameSuffix27 => 'ผู้แสวงหา';
+
+  @override
+  String get nicknameSuffix28 => 'ผู้สังเกตการณ์';
+
+  @override
+  String get nicknameSuffix29 => 'เครื่องบันทึก';
+
+  @override
+  String get nicknameSuffix30 => 'นักสื่อสาร';
+
+  @override
+  String get nicknameSuffix31 => 'ผู้ดูแล';
+
+  @override
+  String get nicknameSuffix32 => 'ผู้คุม';
+
+  @override
+  String get nicknameSuffix33 => 'อารักขา';
+
+  @override
+  String get nicknameSuffix34 => 'คนเฝ้าประตู';
+
+  @override
+  String get nicknameSuffix35 => 'ผู้พิพากษา';
+
+  @override
+  String get nicknameSuffix36 => 'ปลัดอำเภอ';
+
+  @override
+  String get nicknameSuffix37 => 'ผู้ว่าราชการจังหวัด';
+
+  @override
+  String get nicknameSuffix38 => 'ไม้บรรทัด';
+
+  @override
+  String get nicknameSuffix39 => 'กษัตริย์';
+
+  @override
+  String get nicknameSuffix40 => 'ราชินี';
+
+  @override
+  String get nicknameSuffix41 => 'จักรพรรดิ';
+
+  @override
+  String get nicknameSuffix42 => 'จักรพรรดินี';
+
+  @override
+  String get nicknameSuffix43 => 'ขุนนาง';
+
+  @override
+  String get nicknameSuffix44 => 'ถิ่นที่อยู่ถาวร';
+
+  @override
+  String get nicknameSuffix45 => 'ผู้บัญชาการอัศวิน';
+
+  @override
+  String get nicknameSuffix46 => 'ทหารรับจ้าง';
+
+  @override
+  String get nicknameSuffix47 => 'โจรสลัด';
+
+  @override
+  String get nicknameSuffix48 => 'ขโมย';
+
+  @override
+  String get nicknameSuffix49 => 'การฉ้อโกง';
+
+  @override
+  String get nicknameSuffix50 => 'ตัวตลก';
+
+  @override
+  String get nicknameSuffix51 => 'คนโง่';
+
+  @override
+  String get nicknameSuffix52 => 'ฤาษี';
+
+  @override
+  String get nicknameSuffix53 => 'คนนอกรีต';
+
+  @override
+  String get nicknameSuffix54 => 'betrayer';
+
+  @override
+  String get nicknameSuffix55 => 'คนทรยศ';
+
+  @override
+  String get nicknameSuffix56 => 'ฮีโร่';
+
+  @override
+  String get nicknameSuffix57 => 'ประหยัด';
+
+  @override
+  String get nicknameSuffix58 => 'liberator';
+
+  @override
+  String get nicknameSuffix59 => 'เรือพิฆาต';
+
+  @override
+  String get nicknameSuffix60 => 'ผู้สร้าง';
+
+  @override
+  String get nicknameSuffix61 => 'พระเจ้า';
+
+  @override
+  String get nicknameSuffix62 => 'เทพธิดา';
+
+  @override
+  String get nicknameSuffix63 => 'นางฟ้า';
+
+  @override
+  String get nicknameSuffix64 => 'ปีศาจ';
+
+  @override
+  String get nicknameSuffix65 => 'คำสั่งของรัฐบาล';
+
+  @override
+  String get nicknameSuffix66 => 'นางฟ้า';
+
+  @override
+  String get nicknameSuffix67 => 'สัตว์ประหลาด';
+
+  @override
+  String get nicknameSuffix68 => 'สัตว์ปีศาจ';
+
+  @override
+  String get nicknameSuffix69 => 'มังกร';
+
+  @override
+  String get nicknameSuffix70 => 'ผี';
+
+  @override
+  String get nicknameSuffix71 => 'ร่มเงา';
+
+  @override
+  String get nicknameSuffix72 => 'ไม่ตาย';
+
+  @override
+  String get nicknameSuffix73 => 'แวมไพร์';
+
+  @override
+  String get nicknameSuffix74 => 'มนุษย์หมาป่า';
+
+  @override
+  String get nicknameSuffix75 => 'เงือก';
+
+  @override
+  String get nicknameSuffix76 => 'ไซเรน';
+
+  @override
+  String get nicknameSuffix77 => 'ผีสางเทวดา';
+
+  @override
+  String get nicknameSuffix78 => 'ผี';
+
+  @override
+  String get nicknameSuffix79 => 'ต้นโอ๊ก';
+
+  @override
+  String get nicknameSuffix80 => 'โทรลล์';
+
+  @override
+  String get nicknameSuffix81 => 'เอลฟ์';
+
+  @override
+  String get nicknameSuffix82 => 'แคระ';
+
+  @override
+  String get nicknameSuffix83 => 'ยักษ์';
+
+  @override
+  String get nicknameSuffix84 => 'ตราประทับไปรษณีย์';
+
+  @override
+  String get nicknameSuffix85 => 'มนุษย์';
+
+  @override
+  String get nicknameSuffix86 => 'นักโทษ';
+
+  @override
+  String get nicknameSuffix87 => 'ลายเซ็น';
+
+  @override
+  String get nicknameSuffix88 => 'ฟิชแมน';
+
+  @override
+  String get nicknameSuffix89 => 'พนักงาน';
+
+  @override
+  String get nicknameSuffix90 => 'วิญญาณชั่วร้าย';
+
+  @override
+  String get nicknameSuffix91 => 'สุระ';
+
+  @override
+  String get nicknameSuffix92 => 'นรก';
+
+  @override
+  String get nicknameSuffix93 => 'สวรรค์';
+
+  @override
+  String get nicknameSuffix94 => 'นรก';
+
+  @override
+  String get nicknameSuffix95 => 'โลกอื่น';
+
+  @override
+  String get nicknameSuffix96 => 'เหว';
+
+  @override
+  String get nicknameSuffix97 => 'ความวุ่นวาย';
+
+  @override
+  String get nicknameSuffix98 => 'คำสั่ง';
+
+  @override
+  String get nicknameSuffix99 => 'แสงสว่าง';
+
+  @override
+  String get nicknameSuffix100 => 'มืด';
+
+  @override
+  String get nicknamePrefix201 => 'ฉลาดหลักแหลม';
+
+  @override
+  String get nicknamePrefix202 => 'บอบบาง';
+
+  @override
+  String get nicknamePrefix203 => 'หมอก';
+
+  @override
+  String get nicknamePrefix204 => 'เป็นลม';
+
+  @override
+  String get nicknamePrefix205 => 'โปร่งใส';
+
+  @override
+  String get nicknamePrefix206 => 'เป็นลม';
+
+  @override
+  String get nicknamePrefix207 => 'พราว';
+
+  @override
+  String get nicknamePrefix208 => 'แปลก';
+
+  @override
+  String get nicknamePrefix209 => 'แปลกประหลาด';
+
+  @override
+  String get nicknamePrefix210 => 'พิเศษ';
+
+  @override
+  String get nicknamePrefix211 => 'มีเกียรติ';
+
+  @override
+  String get nicknamePrefix212 => 'บริสุทธิ์';
+
+  @override
+  String get nicknamePrefix213 => 'ล้มลง';
+
+  @override
+  String get nicknamePrefix214 => 'คนเดียว';
+
+  @override
+  String get nicknamePrefix215 => 'เหงา';
+
+  @override
+  String get nicknamePrefix216 => 'รกร้าง';
+
+  @override
+  String get nicknamePrefix217 => 'ห่างไกล';
+
+  @override
+  String get nicknamePrefix218 => 'รุนแรง';
+
+  @override
+  String get nicknamePrefix219 => 'โหดเหี้ยม';
+
+  @override
+  String get nicknamePrefix220 => 'โหดร้าย';
+
+  @override
+  String get nicknamePrefix221 => 'ใหญ่';
+
+  @override
+  String get nicknamePrefix222 => 'ยาก';
+
+  @override
+  String get nicknamePrefix223 => 'บริษัท';
+
+  @override
+  String get nicknamePrefix224 => 'คดเคี้ยว';
+
+  @override
+  String get nicknamePrefix225 => 'เร็ว';
+
+  @override
+  String get nicknamePrefix226 => 'ช้า';
+
+  @override
+  String get nicknamePrefix227 => 'ในความเงียบ';
+
+  @override
+  String get nicknamePrefix228 => 'ในความสับสนวุ่นวาย';
+
+  @override
+  String get nicknamePrefix229 => 'ในความทรงจำ';
+
+  @override
+  String get nicknamePrefix230 => 'จินตภาพ';
+
+  @override
+  String get nicknamePrefix231 => 'เงียบ';
+
+  @override
+  String get nicknamePrefix232 => 'กระซิบ';
+
+  @override
+  String get nicknamePrefix233 => 'ร้องเพลง';
+
+  @override
+  String get nicknamePrefix234 => 'การเต้นรำ';
+
+  @override
+  String get nicknamePrefix235 => 'สะอื้น';
+
+  @override
+  String get nicknamePrefix236 => 'ยิ้ม';
+
+  @override
+  String get nicknamePrefix237 => 'ล้อเลียน';
+
+  @override
+  String get nicknamePrefix238 => 'ใคร่ครวญ';
+
+  @override
+  String get nicknamePrefix239 => 'หลงทาง';
+
+  @override
+  String get nicknamePrefix240 => 'หลงทาง';
+
+  @override
+  String get nicknamePrefix241 => 'ตื่น';
+
+  @override
+  String get nicknamePrefix242 => 'นอนหลับ';
+
+  @override
+  String get nicknamePrefix243 => 'ฝัน';
+
+  @override
+  String get nicknamePrefix244 => 'ฝันกลางวัน';
+
+  @override
+  String get nicknamePrefix245 => 'หลงผิด';
+
+  @override
+  String get nicknamePrefix246 => 'อธิษฐาน';
+
+  @override
+  String get nicknamePrefix247 => 'จริงจัง';
+
+  @override
+  String get nicknamePrefix248 => 'เศร้าโศก';
+
+  @override
+  String get nicknamePrefix249 => 'น่าเวทนา';
+
+  @override
+  String get nicknamePrefix250 => 'ประเสริฐ';
+
+  @override
+  String get nicknamePrefix251 => 'ชั่วร้าย';
+
+  @override
+  String get nicknamePrefix252 => 'หมายถึง';
+
+  @override
+  String get nicknamePrefix253 => 'หยิ่ง';
+
+  @override
+  String get nicknamePrefix254 => 'เจียมเนื้อเจียมตัว';
+
+  @override
+  String get nicknamePrefix255 => 'รัก';
+
+  @override
+  String get nicknamePrefix256 => 'อบอุ่น';
+
+  @override
+  String get nicknamePrefix257 => 'เย็น';
+
+  @override
+  String get nicknamePrefix258 => 'หนาว';
+
+  @override
+  String get nicknamePrefix259 => 'แปลกประหลาด';
+
+  @override
+  String get nicknamePrefix260 => 'แปลกประหลาด';
+
+  @override
+  String get nicknamePrefix261 => 'แร็พ';
+
+  @override
+  String get nicknamePrefix262 => 'น่าหลงใหล';
+
+  @override
+  String get nicknamePrefix263 => 'เวียนหัว';
+
+  @override
+  String get nicknamePrefix264 => 'หอมหวาน';
+
+  @override
+  String get nicknamePrefix265 => 'ขม';
+
+  @override
+  String get nicknamePrefix266 => 'ขมขื่น';
+
+  @override
+  String get nicknamePrefix267 => 'มีหนาม';
+
+  @override
+  String get nicknamePrefix268 => 'คม';
+
+  @override
+  String get nicknamePrefix269 => 'น่าเบื่อ';
+
+  @override
+  String get nicknamePrefix270 => 'รุนแรง';
+
+  @override
+  String get nicknamePrefix271 => 'อ่อนนุ่ม';
+
+  @override
+  String get nicknamePrefix272 => 'อบอุ่นสบาย';
+
+  @override
+  String get nicknamePrefix273 => 'สะดวกสบาย';
+
+  @override
+  String get nicknamePrefix274 => 'ล่อแหลม';
+
+  @override
+  String get nicknamePrefix275 => 'ไม่สบายใจ';
+
+  @override
+  String get nicknamePrefix276 => 'เงียบสงบ';
+
+  @override
+  String get nicknamePrefix277 => 'เงียบสงบ';
+
+  @override
+  String get nicknamePrefix278 => 'ง่วงนอน';
+
+  @override
+  String get nicknamePrefix279 => 'เบื่อ';
+
+  @override
+  String get nicknamePrefix280 => 'หลงใหล';
+
+  @override
+  String get nicknamePrefix281 => 'ไม่เมินเฉย';
+
+  @override
+  String get nicknamePrefix282 => 'เงียบสงบ';
+
+  @override
+  String get nicknamePrefix283 => 'รุนแรง';
+
+  @override
+  String get nicknamePrefix284 => 'ดุร้าย';
+
+  @override
+  String get nicknamePrefix285 => 'คลั่งไคล้';
+
+  @override
+  String get nicknamePrefix286 => 'บ้าไปแล้ว';
+
+  @override
+  String get nicknamePrefix287 => 'มีเหตุผล';
+
+  @override
+  String get nicknamePrefix288 => 'ทางอารมณ์';
+
+  @override
+  String get nicknamePrefix289 => 'ใจเย็น';
+
+  @override
+  String get nicknamePrefix290 => 'สมเหตุสมผล';
+
+  @override
+  String get nicknamePrefix291 => 'โง่';
+
+  @override
+  String get nicknamePrefix292 => 'ผู้บริสุทธิ์';
+
+  @override
+  String get nicknamePrefix293 => 'ฉลาดแกมโกง';
+
+  @override
+  String get nicknamePrefix294 => 'คดเคี้ยว';
+
+  @override
+  String get nicknamePrefix295 => 'ขาวบริสุทธิ์';
+
+  @override
+  String get nicknamePrefix296 => 'สีดำเจ็ทแบล็ค';
+
+  @override
+  String get nicknamePrefix297 => 'ทอง';
+
+  @override
+  String get nicknamePrefix298 => 'เงิน';
+
+  @override
+  String get nicknamePrefix299 => 'เปื้อนเลือด';
+
+  @override
+  String get nicknameSuffix101 => 'ผู้แสวงหา';
+
+  @override
+  String get nicknameSuffix102 => 'ผู้แสวงบุญ';
+
+  @override
+  String get nicknameSuffix103 => 'คนพเนจร';
+
+  @override
+  String get nicknameSuffix104 => 'ฤาษี';
+
+  @override
+  String get nicknameSuffix105 => 'อีธาน';
+
+  @override
+  String get nicknameSuffix106 => 'คนทรยศ';
+
+  @override
+  String get nicknameSuffix107 => 'ผู้บุกเบิก';
+
+  @override
+  String get nicknameSuffix108 => 'ผู้พิชิต';
+
+  @override
+  String get nicknameSuffix109 => 'ไม้บรรทัด';
+
+  @override
+  String get nicknameSuffix110 => 'ออร์เคสตรา';
+
+  @override
+  String get nicknameSuffix111 => 'ผู้ดูแล';
+
+  @override
+  String get nicknameSuffix112 => 'ผู้สังเกตการณ์';
+
+  @override
+  String get nicknameSuffix113 => 'ผู้สังเกตการณ์';
+
+  @override
+  String get nicknameSuffix114 => 'เครื่องบันทึก';
+
+  @override
+  String get nicknameSuffix115 => 'นักสื่อสาร';
+
+  @override
+  String get nicknameSuffix116 => 'แนะนำ';
+
+  @override
+  String get nicknameSuffix117 => 'ผู้นำ';
+
+  @override
+  String get nicknameSuffix118 => 'ประหยัด';
+
+  @override
+  String get nicknameSuffix119 => 'เรือพิฆาต';
+
+  @override
+  String get nicknameSuffix120 => 'ผู้สร้าง';
+
+  @override
+  String get nicknameSuffix121 => 'ร่มเงา';
+
+  @override
+  String get nicknameSuffix122 => 'ผี';
+
+  @override
+  String get nicknameSuffix123 => 'ผี';
+
+  @override
+  String get nicknameSuffix124 => 'วิญญาณชั่วร้าย';
+
+  @override
+  String get nicknameSuffix125 => 'คำสั่งของรัฐบาล';
+
+  @override
+  String get nicknameSuffix126 => 'นางฟ้า';
+
+  @override
+  String get nicknameSuffix127 => 'สัตว์ปีศาจ';
+
+  @override
+  String get nicknameSuffix128 => 'น้ำศักดิ์สิทธิ์';
+
+  @override
+  String get nicknameSuffix129 => 'คืนเงิน';
+
+  @override
+  String get nicknameSuffix130 => 'ชินซู';
+
+  @override
+  String get nicknameSuffix131 => 'ทดสอบ';
+
+  @override
+  String get nicknameSuffix132 => 'บทความ';
+
+  @override
+  String get nicknameSuffix133 => 'อาร์เชอร์';
+
+  @override
+  String get nicknameSuffix134 => 'ขโมย';
+
+  @override
+  String get nicknameSuffix135 => 'นักฆ่า';
+
+  @override
+  String get nicknameSuffix136 => 'ตัวช่วยสร้าง';
+
+  @override
+  String get nicknameSuffix137 => 'ว้าว';
+
+  @override
+  String get nicknameSuffix138 => 'นักเล่นแร่แปรธาตุ';
+
+  @override
+  String get nicknameSuffix139 => 'หมอผี';
+
+  @override
+  String get nicknameSuffix140 => 'นักบวช';
+
+  @override
+  String get nicknameSuffix141 => 'นักวิชาการ';
+
+  @override
+  String get nicknameSuffix142 => 'นักวิจัย';
+
+  @override
+  String get nicknameSuffix143 => 'นักสำรวจ';
+
+  @override
+  String get nicknameSuffix144 => 'นักเดินทาง';
+
+  @override
+  String get nicknameSuffix145 => 'ศิลปิน';
+
+  @override
+  String get nicknameSuffix146 => 'ตัวตลก';
+
+  @override
+  String get nicknameSuffix147 => 'กวี';
+
+  @override
+  String get nicknameSuffix148 => 'พ่อค้า';
+
+  @override
+  String get nicknameSuffix149 => 'ช่างฝีมือ';
+
+  @override
+  String get nicknameSuffix150 => 'ชาวนา';
+
+  @override
+  String get nicknameSuffix151 => 'อีกา';
+
+  @override
+  String get nicknameSuffix152 => 'นกฮูก';
+
+  @override
+  String get nicknameSuffix153 => 'นกฮูก';
+
+  @override
+  String get nicknameSuffix154 => 'นกอินทรี';
+
+  @override
+  String get nicknameSuffix155 => 'เหยี่ยว';
+
+  @override
+  String get nicknameSuffix156 => 'หมาป่า';
+
+  @override
+  String get nicknameSuffix157 => 'สุนัขจิ้งจอก';
+
+  @override
+  String get nicknameSuffix158 => 'หมี';
+
+  @override
+  String get nicknameSuffix159 => 'สิงโต';
+
+  @override
+  String get nicknameSuffix160 => 'เสือ';
+
+  @override
+  String get nicknameSuffix161 => 'เสือดาว';
+
+  @override
+  String get nicknameSuffix162 => 'เสือดำ';
+
+  @override
+  String get nicknameSuffix163 => 'ซาลส์สป';
+
+  @override
+  String get nicknameSuffix164 => 'แมว';
+
+  @override
+  String get nicknameSuffix165 => 'ลูกสุนัข';
+
+  @override
+  String get nicknameSuffix166 => 'งู';
+
+  @override
+  String get nicknameSuffix167 => 'กิ้งก่า';
+
+  @override
+  String get nicknameSuffix168 => 'เต่า';
+
+  @override
+  String get nicknameSuffix169 => 'จระเข้';
+
+  @override
+  String get nicknameSuffix170 => 'มังกร';
+
+  @override
+  String get nicknameSuffix171 => 'ยูนิคอร์น';
+
+  @override
+  String get nicknameSuffix172 => 'เพกาซัส';
+
+  @override
+  String get nicknameSuffix173 => 'แร้ง';
+
+  @override
+  String get nicknameSuffix174 => 'กอบลิน';
+
+  @override
+  String get nicknameSuffix175 => 'ผี';
+
+  @override
+  String get nicknameSuffix176 => 'ต้นโอ๊ก';
+
+  @override
+  String get nicknameSuffix177 => 'โทรลล์';
+
+  @override
+  String get nicknameSuffix178 => 'สว่าน';
+
+  @override
+  String get nicknameSuffix179 => 'เมือก';
+
+  @override
+  String get nicknameSuffix180 => 'โครงกระดูก';
+
+  @override
+  String get nicknameSuffix181 => 'ซอมบี้';
+
+  @override
+  String get nicknameSuffix182 => 'ปอบ';
+
+  @override
+  String get nicknameSuffix183 => 'แวมไพร์';
+
+  @override
+  String get nicknameSuffix184 => 'มนุษย์หมาป่า';
+
+  @override
+  String get nicknameSuffix185 => 'มิโนทอร์';
+
+  @override
+  String get nicknameSuffix186 => 'เซนทอร์';
+
+  @override
+  String get nicknameSuffix187 => 'ฮาร์ปี้';
+
+  @override
+  String get nicknameSuffix188 => 'ไซเรน';
+
+  @override
+  String get nicknameSuffix189 => 'คราเคน';
+
+  @override
+  String get nicknameSuffix190 => 'เลวีอาธาน';
+
+  @override
+  String get nicknameSuffix191 => 'มีด';
+
+  @override
+  String get nicknameSuffix192 => 'โล่';
+
+  @override
+  String get nicknameSuffix193 => 'หน้าต่าง';
+
+  @override
+  String get nicknameSuffix194 => 'โค้งคำนับ';
+
+  @override
+  String get nicknameSuffix195 => 'อ้อย';
+
+  @override
+  String get nicknameSuffix196 => 'แหวน';
+
+  @override
+  String get nicknameSuffix197 => 'สร้อยคอ';
+
+  @override
+  String get nicknameSuffix198 => 'มงกุฎ';
+
+  @override
+  String get nicknameSuffix199 => 'จอกศักดิ์สิทธิ์';
+
+  @override
+  String get themeFree => 'ธีมฟรี';
+
+  @override
+  String get themePaid => 'ธีมที่ต้องชำระเงิน';
 }

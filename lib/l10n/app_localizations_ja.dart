@@ -9,143 +9,137 @@ class AppLocalizationsJa extends AppLocalizations {
   AppLocalizationsJa([String locale = 'ja']) : super(locale);
 
   @override
-  String get appTitle => 'Tarot Reading';
+  String get appTitle => 'タロット占い';
 
   @override
-  String get spreadSelectionTitle => 'Select a Spread';
+  String get spreadSelectionTitle => 'スプレッドを選択する';
 
   @override
-  String get spreadSelectionSubtitle =>
-      'Choose a tarot spread that fits your question';
+  String get spreadSelectionSubtitle => 'あなたの質問に合ったタロットスプレッドを選択してください';
 
   @override
-  String get spreadOneCardName => 'One Card';
+  String get spreadOneCardName => 'カード 1 枚';
 
   @override
-  String get spreadOneCardDesc =>
-      'A single card for a quick answer or daily guidance.';
+  String get spreadOneCardDesc => '1 枚のカードで簡単な答えや日常のガイダンスが得られます。';
 
   @override
-  String get spreadTwoCardName => 'Two Card';
+  String get spreadTwoCardName => 'ツーカード';
 
   @override
-  String get spreadTwoCardDesc =>
-      'A 2-card spread to simply grasp the current situation and advice.';
+  String get spreadTwoCardDesc => 'シンプルに現状把握とアドバイスができる見開き2枚。';
 
   @override
-  String get spreadThreeCardName => 'Three Card';
+  String get spreadThreeCardName => 'スリーカード';
 
   @override
-  String get spreadThreeCardDesc =>
-      'A 3-card spread to understand the flow of past, present, and future.';
+  String get spreadThreeCardDesc => '過去・現在・未来の流れがわかる3枚のカード見開き。';
 
   @override
-  String get spreadFourCardName => 'Four Card';
+  String get spreadFourCardName => 'フォーカード';
 
   @override
   String get spreadFourCardDesc =>
-      'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.';
+      '問題の原因を明確に診断し、アドバイスを得て、結果を確認するための 4 枚のカードのスプレッド。';
 
   @override
-  String get spreadFiveCardName => 'Five Card';
+  String get spreadFiveCardName => 'ファイブカード';
 
   @override
-  String get spreadFiveCardDesc =>
-      'A 5-card spread examining the core of the situation, its causes, and potential outcomes.';
+  String get spreadFiveCardDesc => '状況の核心、その原因、潜在的な結果を調べる 5 枚のカードの見開き。';
 
   @override
-  String get spreadCelticCrossName => 'Celtic Cross';
+  String get spreadCelticCrossName => 'ケルト十字';
 
   @override
-  String get spreadCelticCrossDesc =>
-      '10 cards for an in-depth analysis of a complex problem.';
+  String get spreadCelticCrossDesc => '複雑な問題を詳細に分析するための 10 枚のカード。';
 
   @override
-  String get positionOneCard => 'Today\'s Card';
+  String get positionOneCard => '今日のカード';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '1. 状況';
 
   @override
-  String get positionTwoCard2 => '2. Advice';
+  String get positionTwoCard2 => '2. アドバイス';
 
   @override
-  String get positionThreeCard1 => 'Past';
+  String get positionThreeCard1 => '過去';
 
   @override
-  String get positionThreeCard2 => 'Present';
+  String get positionThreeCard2 => '現在';
 
   @override
-  String get positionThreeCard3 => 'Future';
+  String get positionThreeCard3 => '未来';
 
   @override
-  String get positionFourCard1 => '1. Problem';
+  String get positionFourCard1 => '1. 問題点';
 
   @override
-  String get positionFourCard2 => '2. Cause';
+  String get positionFourCard2 => '2. 原因';
 
   @override
-  String get positionFourCard3 => '3. Advice';
+  String get positionFourCard3 => '3. アドバイス';
 
   @override
-  String get positionFourCard4 => '4. Outcome';
+  String get positionFourCard4 => '4. 結果';
 
   @override
-  String get positionFiveCard1 => '1. Present';
+  String get positionFiveCard1 => '1. プレゼント';
 
   @override
-  String get positionFiveCard2 => '2. Past Influences';
+  String get positionFiveCard2 => '2. 過去の影響';
 
   @override
-  String get positionFiveCard3 => '3. Future Direction';
+  String get positionFiveCard3 => '3. 今後の方向性';
 
   @override
-  String get positionFiveCard4 => '4. Core Reason';
+  String get positionFiveCard4 => '4. 核心的な理由';
 
   @override
-  String get positionFiveCard5 => '5. Potential Outcome';
+  String get positionFiveCard5 => '5. 潜在的な結果';
 
   @override
-  String get positionCelticCross1 => '1. Present (Querent)';
+  String get positionCelticCross1 => '1. プレゼント（質問者）';
 
   @override
-  String get positionCelticCross2 => '2. The Challenge';
+  String get positionCelticCross2 => '2. 挑戦';
 
   @override
-  String get positionCelticCross3 => '3. The Past';
+  String get positionCelticCross3 => '3. 過去';
 
   @override
-  String get positionCelticCross4 => '4. The Future';
+  String get positionCelticCross4 => '4. 未来';
 
   @override
-  String get positionCelticCross5 => '5. Conscious';
+  String get positionCelticCross5 => '5. 意識的';
 
   @override
-  String get positionCelticCross6 => '6. Subconscious';
+  String get positionCelticCross6 => '6. 潜在意識';
 
   @override
-  String get positionCelticCross7 => '7. Advice';
+  String get positionCelticCross7 => '7. アドバイス';
 
   @override
-  String get positionCelticCross8 => '8. External Influences';
+  String get positionCelticCross8 => '8. 外部の影響';
 
   @override
-  String get positionCelticCross9 => '9. Hopes and Fears';
+  String get positionCelticCross9 => '9. 希望と恐怖';
 
   @override
-  String get positionCelticCross10 => '10. Outcome';
+  String get positionCelticCross10 => '10. 結果';
 
   @override
-  String get navReading => 'タロット占い';
+  String get navReading => '太郎リーディング';
 
   @override
-  String get navChat => 'タロット相談';
+  String get navChat => 'タロットチャット';
 
   @override
-  String get navMeanings => 'カード図鑑';
+  String get navMeanings => 'カードの意味';
 
   @override
-  String get navMyMenu => 'My Menu';
+  String get navMyMenu => 'マイメニュー';
 
   @override
   String get readingIntroTitle => '運命の\n囁き';
@@ -1046,4 +1040,1710 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get chatProfileTapHint => 'プロフィール画像をタップして詳細を見る';
+
+  @override
+  String get themeName1 => 'テーマ1';
+
+  @override
+  String get themeName2 => 'テーマ2';
+
+  @override
+  String get themeName3 => 'テーマ3';
+
+  @override
+  String get themeMagicBook => '魔法の本';
+
+  @override
+  String get themeBlackCat => '黒猫';
+
+  @override
+  String get themeEmptyPaidThemes => 'ショップでテーマを購入する\nこのスペースを埋めるために！';
+
+  @override
+  String get shopThemePurchaseTitle => 'テーマを購入する';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return '$skinName テーマを $cost コインで購入しますか?';
+  }
+
+  @override
+  String get shopCancel => 'キャンセル';
+
+  @override
+  String get shopPurchase => '購入';
+
+  @override
+  String get shopAlreadyOwned => 'すでに所有しています。テーマ設定に適用してみてください。';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return '$skinName は正常に購入されました。テーマの設定を確認してください。';
+  }
+
+  @override
+  String get shopNotEnoughCoins => 'コインが足りません。';
+
+  @override
+  String get shopOwned => '所有';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost コイン';
+  }
+
+  @override
+  String get navDiary => '太郎日記';
+
+  @override
+  String get myMenuFirebaseNotConnected => 'Firebaseが接続されていません';
+
+  @override
+  String get myMenuWindowsSetupNeeded => 'Windows セットアップが必要 (プレビュー)';
+
+  @override
+  String get myMenuTouchToViewLogin => 'タップしてログイン UI を表示します';
+
+  @override
+  String get myMenuNoName => 'ノーネーム';
+
+  @override
+  String get myMenuPleaseLogin => 'ログインしてください';
+
+  @override
+  String get myMenuTouchToSignupLogin => 'タップしてサインアップしてログインします';
+
+  @override
+  String get myMenuSectionMyRecords => '私の記録';
+
+  @override
+  String get myMenuDiaryStorage => 'ダイアリーストレージ';
+
+  @override
+  String get myMenuCheckSavedDiary => '保存した日記を確認してください。';
+
+  @override
+  String get myMenuFavoriteCards => 'お気に入りのカード';
+
+  @override
+  String get myMenuMyFavoriteCardsList => '私の好きなカードリスト';
+
+  @override
+  String get myMenuSectionAppSettings => 'アプリの設定';
+
+  @override
+  String get myMenuPushNotifications => 'プッシュ通知';
+
+  @override
+  String get myMenuPushNotificationsDesc => '新しい星占いとイベント';
+
+  @override
+  String get myMenuLanguageSettings => '言語設定';
+
+  @override
+  String get myMenuThemeSettings => 'テーマの設定';
+
+  @override
+  String get myMenuChangeBackground => '背景画像を変更する';
+
+  @override
+  String get myMenuSectionCustomerSupport => 'カスタマーサポート';
+
+  @override
+  String get myMenuFaq => 'よくある質問';
+
+  @override
+  String get myMenuAppInfo => 'アプリ情報';
+
+  @override
+  String get myMenuSectionAccountManagement => 'アカウント管理';
+
+  @override
+  String get myMenuLogout => 'ログアウト';
+
+  @override
+  String get myMenuLogoutDesc => '現在のデバイスからログアウトします。';
+
+  @override
+  String get myMenuEmailVerifiedMsg => 'メール認証を確認しました！ ✨';
+
+  @override
+  String get myMenuEmailSendTitle => '確認メールを送信する';
+
+  @override
+  String get myMenuEmailSendContent =>
+      '確認メールが送信されました。\n受信箱を確認し、リンクをクリックして、このボタンをもう一度押してください。';
+
+  @override
+  String get myMenuConfirm => '確認する';
+
+  @override
+  String get myMenuEmailErrorMsg => 'リクエストが多すぎるか、エラーが発生しました。';
+
+  @override
+  String get myMenuEmailVerified => 'メール認証済み';
+
+  @override
+  String get myMenuEmailNotVerified => 'メールが認証されていません (タップして確認します)';
+
+  @override
+  String get languageSystemDefault => 'システムのデフォルト';
+
+  @override
+  String get shopTitle => '店';
+
+  @override
+  String get shopSubtitle => 'コインとテーマを購入する';
+
+  @override
+  String get shopTabCoin => 'コイン';
+
+  @override
+  String get shopTabTheme => 'テーマ';
+
+  @override
+  String get shopPayButton => '支払う';
+
+  @override
+  String get themeOriginalDeck => 'オリジナルクラシックデッキ';
+
+  @override
+  String get themeGoldenSunDeck => 'ゴールデンサンデッキ';
+
+  @override
+  String get themeDarkAbyssDeck => 'ダークアビスデッキ';
+
+  @override
+  String get themeSpringSpiritDeck => '春の精霊デッキ';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return '$coins コインの支払いがまもなく始まります。';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return '$name の購入/申し込みはまもなく開始されます。';
+  }
+
+  @override
+  String get readingIntroSelectWitch => 'あなたの運命を見るために魔女を選択してください';
+
+  @override
+  String get readingIntroGreeting => 'どのような運命を覗いてみましょうか？\nあなたの将来が気になります。';
+
+  @override
+  String get readingIntroStart => 'スプレッドを選択';
+
+  @override
+  String get tabMajorArcana => '大アルカナ';
+
+  @override
+  String get tabMinorArcana => '小アルカナ';
+
+  @override
+  String get nicknamePrefix0 => 'オカルト';
+
+  @override
+  String get nicknamePrefix1 => '穏やかな';
+
+  @override
+  String get nicknamePrefix2 => '聖なる';
+
+  @override
+  String get nicknamePrefix3 => '暗い';
+
+  @override
+  String get nicknamePrefix4 => 'シャイニング';
+
+  @override
+  String get nicknamePrefix5 => '暗い';
+
+  @override
+  String get nicknamePrefix6 => '熱い';
+
+  @override
+  String get nicknamePrefix7 => '魅力的な';
+
+  @override
+  String get nicknamePrefix8 => '残酷な';
+
+  @override
+  String get nicknamePrefix9 => '純粋な';
+
+  @override
+  String get nicknamePrefix10 => 'ひどい';
+
+  @override
+  String get nicknamePrefix11 => '柔らかい';
+
+  @override
+  String get nicknamePrefix12 => '美しい';
+
+  @override
+  String get nicknamePrefix13 => '奇妙な';
+
+  @override
+  String get nicknamePrefix14 => '大きい';
+
+  @override
+  String get nicknamePrefix15 => 'みすぼらしい';
+
+  @override
+  String get nicknamePrefix16 => '永遠の';
+
+  @override
+  String get nicknamePrefix17 => '忘れられた';
+
+  @override
+  String get nicknamePrefix18 => '素晴らしい';
+
+  @override
+  String get nicknamePrefix19 => '悲しい';
+
+  @override
+  String get nicknamePrefix20 => '嬉しい';
+
+  @override
+  String get nicknamePrefix21 => '夢のような';
+
+  @override
+  String get nicknamePrefix22 => '落ちた';
+
+  @override
+  String get nicknamePrefix23 => '真っ白な';
+
+  @override
+  String get nicknamePrefix24 => '漆黒';
+
+  @override
+  String get nicknamePrefix25 => '血まみれの';
+
+  @override
+  String get nicknamePrefix26 => '灰色がかった';
+
+  @override
+  String get nicknamePrefix27 => 'ゴールデン';
+
+  @override
+  String get nicknamePrefix28 => 'アージェント';
+
+  @override
+  String get nicknamePrefix29 => '青';
+
+  @override
+  String get nicknamePrefix30 => '赤';
+
+  @override
+  String get nicknamePrefix31 => '黄色';
+
+  @override
+  String get nicknamePrefix32 => '黒';
+
+  @override
+  String get nicknamePrefix33 => '白';
+
+  @override
+  String get nicknamePrefix34 => '透明';
+
+  @override
+  String get nicknamePrefix35 => '孤独な';
+
+  @override
+  String get nicknamePrefix36 => 'うるさい';
+
+  @override
+  String get nicknamePrefix37 => '静かな';
+
+  @override
+  String get nicknamePrefix38 => '暖かい';
+
+  @override
+  String get nicknamePrefix39 => '冷ややかな';
+
+  @override
+  String get nicknamePrefix40 => '孤独な';
+
+  @override
+  String get nicknamePrefix41 => '寂しい';
+
+  @override
+  String get nicknamePrefix42 => 'ハッピー';
+
+  @override
+  String get nicknamePrefix43 => 'ハッピー';
+
+  @override
+  String get nicknamePrefix44 => '暗い';
+
+  @override
+  String get nicknamePrefix45 => '絶望的な';
+
+  @override
+  String get nicknamePrefix46 => '希望に満ちた';
+
+  @override
+  String get nicknamePrefix47 => '眩しい';
+
+  @override
+  String get nicknamePrefix48 => '薄暗い';
+
+  @override
+  String get nicknamePrefix49 => '夜中';
+
+  @override
+  String get nicknamePrefix50 => '荒涼とした';
+
+  @override
+  String get nicknamePrefix51 => '秘密';
+
+  @override
+  String get nicknamePrefix52 => '秘密';
+
+  @override
+  String get nicknamePrefix53 => '神聖';
+
+  @override
+  String get nicknamePrefix54 => '冒涜的な';
+
+  @override
+  String get nicknamePrefix55 => '優れた';
+
+  @override
+  String get nicknamePrefix56 => '控えめ';
+
+  @override
+  String get nicknamePrefix57 => '賢い';
+
+  @override
+  String get nicknamePrefix58 => '愚かな';
+
+  @override
+  String get nicknamePrefix59 => '厳しい';
+
+  @override
+  String get nicknamePrefix60 => '弱い';
+
+  @override
+  String get nicknamePrefix61 => '勇敢な';
+
+  @override
+  String get nicknamePrefix62 => '卑劣に';
+
+  @override
+  String get nicknamePrefix63 => '遠い';
+
+  @override
+  String get nicknamePrefix64 => '近く';
+
+  @override
+  String get nicknamePrefix65 => '遠ざかる';
+
+  @override
+  String get nicknamePrefix66 => '近づいてくる';
+
+  @override
+  String get nicknamePrefix67 => '消えていく';
+
+  @override
+  String get nicknamePrefix68 => '緊急の';
+
+  @override
+  String get nicknamePrefix69 => '目覚めた';
+
+  @override
+  String get nicknamePrefix70 => '眠っている';
+
+  @override
+  String get nicknamePrefix71 => '夢';
+
+  @override
+  String get nicknamePrefix72 => '放浪する';
+
+  @override
+  String get nicknamePrefix73 => '放浪する';
+
+  @override
+  String get nicknamePrefix74 => '滞在';
+
+  @override
+  String get nicknamePrefix75 => '出発する';
+
+  @override
+  String get nicknamePrefix76 => '戻ってくる';
+
+  @override
+  String get nicknamePrefix77 => '待っている';
+
+  @override
+  String get nicknamePrefix78 => '探している';
+
+  @override
+  String get nicknamePrefix79 => '不可解な';
+
+  @override
+  String get nicknamePrefix80 => '露出';
+
+  @override
+  String get nicknamePrefix81 => '放棄された';
+
+  @override
+  String get nicknamePrefix82 => '選択された';
+
+  @override
+  String get nicknamePrefix83 => '祝福された';
+
+  @override
+  String get nicknamePrefix84 => '呪われた';
+
+  @override
+  String get nicknamePrefix85 => '愛された';
+
+  @override
+  String get nicknamePrefix86 => '嫌われた';
+
+  @override
+  String get nicknamePrefix87 => '覚えて';
+
+  @override
+  String get nicknamePrefix88 => '気づかない';
+
+  @override
+  String get nicknamePrefix89 => 'スターライト';
+
+  @override
+  String get nicknamePrefix90 => '月光';
+
+  @override
+  String get nicknamePrefix91 => '太陽光の';
+
+  @override
+  String get nicknamePrefix92 => '宇宙的な';
+
+  @override
+  String get nicknamePrefix93 => '地球の';
+
+  @override
+  String get nicknamePrefix94 => '海の';
+
+  @override
+  String get nicknamePrefix95 => '天';
+
+  @override
+  String get nicknamePrefix96 => '雲の';
+
+  @override
+  String get nicknamePrefix97 => '風の';
+
+  @override
+  String get nicknamePrefix98 => '雨';
+
+  @override
+  String get nicknamePrefix99 => '目の';
+
+  @override
+  String get nicknamePrefix100 => '氷っぽい';
+
+  @override
+  String get nicknamePrefix101 => '燃えるような';
+
+  @override
+  String get nicknamePrefix102 => '水';
+
+  @override
+  String get nicknamePrefix103 => '土製の';
+
+  @override
+  String get nicknamePrefix104 => '木製';
+
+  @override
+  String get nicknamePrefix105 => '森';
+
+  @override
+  String get nicknamePrefix106 => '山岳地帯';
+
+  @override
+  String get nicknamePrefix107 => '講義';
+
+  @override
+  String get nicknamePrefix108 => '湖の';
+
+  @override
+  String get nicknamePrefix109 => '時間の';
+
+  @override
+  String get nicknamePrefix110 => '宇宙の';
+
+  @override
+  String get nicknamePrefix111 => '寸法';
+
+  @override
+  String get nicknamePrefix112 => '運命的な';
+
+  @override
+  String get nicknamePrefix113 => '運命的な';
+
+  @override
+  String get nicknamePrefix114 => '奇跡的な';
+
+  @override
+  String get nicknamePrefix115 => '魔法の';
+
+  @override
+  String get nicknamePrefix116 => '神話的な';
+
+  @override
+  String get nicknamePrefix117 => '伝説の';
+
+  @override
+  String get nicknamePrefix118 => '真実の';
+
+  @override
+  String get nicknamePrefix119 => '間違い';
+
+  @override
+  String get nicknamePrefix120 => 'ファンタジー';
+
+  @override
+  String get nicknamePrefix121 => '夢';
+
+  @override
+  String get nicknamePrefix122 => '悪夢';
+
+  @override
+  String get nicknamePrefix123 => '台無しにする';
+
+  @override
+  String get nicknamePrefix124 => '創造の';
+
+  @override
+  String get nicknamePrefix125 => '人生の';
+
+  @override
+  String get nicknamePrefix126 => '死の';
+
+  @override
+  String get nicknamePrefix127 => '魂';
+
+  @override
+  String get nicknamePrefix128 => '物理的な';
+
+  @override
+  String get nicknamePrefix129 => '理性の';
+
+  @override
+  String get nicknamePrefix130 => '感情的';
+
+  @override
+  String get nicknamePrefix131 => '愛の';
+
+  @override
+  String get nicknamePrefix132 => '憎しみの';
+
+  @override
+  String get nicknamePrefix133 => '悲しみの';
+
+  @override
+  String get nicknamePrefix134 => '喜びの';
+
+  @override
+  String get nicknamePrefix135 => '怒り';
+
+  @override
+  String get nicknamePrefix136 => '平和の';
+
+  @override
+  String get nicknamePrefix137 => '戦争の';
+
+  @override
+  String get nicknamePrefix138 => 'カオス';
+
+  @override
+  String get nicknamePrefix139 => '秩序ある';
+
+  @override
+  String get nicknamePrefix140 => '光の';
+
+  @override
+  String get nicknamePrefix141 => '暗い';
+
+  @override
+  String get nicknamePrefix142 => 'トワイライト';
+
+  @override
+  String get nicknamePrefix143 => '夜明け';
+
+  @override
+  String get nicknamePrefix144 => '正午';
+
+  @override
+  String get nicknamePrefix145 => '夜中';
+
+  @override
+  String get nicknamePrefix146 => '過去';
+
+  @override
+  String get nicknamePrefix147 => '現在';
+
+  @override
+  String get nicknamePrefix148 => '未来';
+
+  @override
+  String get nicknamePrefix149 => '起源の';
+
+  @override
+  String get nicknamePrefix150 => '黙示録的な';
+
+  @override
+  String get nicknamePrefix151 => '無限';
+
+  @override
+  String get nicknamePrefix152 => '有限な';
+
+  @override
+  String get nicknamePrefix153 => '静けさ';
+
+  @override
+  String get nicknamePrefix154 => '騒音の';
+
+  @override
+  String get nicknamePrefix155 => '歌う';
+
+  @override
+  String get nicknamePrefix156 => 'ダンシング';
+
+  @override
+  String get nicknamePrefix157 => '泣いている';
+
+  @override
+  String get nicknamePrefix158 => '笑顔';
+
+  @override
+  String get nicknamePrefix159 => 'ささやき声';
+
+  @override
+  String get nicknamePrefix160 => '泣いている';
+
+  @override
+  String get nicknamePrefix161 => '祈る';
+
+  @override
+  String get nicknamePrefix162 => '懇願する';
+
+  @override
+  String get nicknamePrefix163 => '命令する';
+
+  @override
+  String get nicknamePrefix164 => '従順な';
+
+  @override
+  String get nicknamePrefix165 => '裁定';
+
+  @override
+  String get nicknamePrefix166 => '奉仕する';
+
+  @override
+  String get nicknamePrefix167 => '導く';
+
+  @override
+  String get nicknamePrefix168 => '付随の';
+
+  @override
+  String get nicknamePrefix169 => '教える';
+
+  @override
+  String get nicknamePrefix170 => '学ぶ';
+
+  @override
+  String get nicknamePrefix171 => '記憶の';
+
+  @override
+  String get nicknamePrefix172 => '思い出の';
+
+  @override
+  String get nicknamePrefix173 => '傷の';
+
+  @override
+  String get nicknamePrefix174 => 'ヒーリング';
+
+  @override
+  String get nicknamePrefix175 => '有毒';
+
+  @override
+  String get nicknamePrefix176 => '薬';
+
+  @override
+  String get nicknamePrefix177 => 'いらっしゃいませ';
+
+  @override
+  String get nicknamePrefix178 => '物質の';
+
+  @override
+  String get nicknamePrefix179 => '理想的';
+
+  @override
+  String get nicknamePrefix180 => '本物';
+
+  @override
+  String get nicknamePrefix181 => '想像上の';
+
+  @override
+  String get nicknamePrefix182 => '自然';
+
+  @override
+  String get nicknamePrefix183 => '人工的な';
+
+  @override
+  String get nicknamePrefix184 => '初めに';
+
+  @override
+  String get nicknamePrefix185 => '永遠';
+
+  @override
+  String get nicknamePrefix186 => '今の';
+
+  @override
+  String get nicknamePrefix187 => 'つかの間の';
+
+  @override
+  String get nicknamePrefix188 => '永遠の';
+
+  @override
+  String get nicknamePrefix189 => '変化の';
+
+  @override
+  String get nicknamePrefix190 => 'まだ';
+
+  @override
+  String get nicknamePrefix191 => '流れる';
+
+  @override
+  String get nicknamePrefix192 => '流れ落ちる';
+
+  @override
+  String get nicknamePrefix193 => '燃えるような';
+
+  @override
+  String get nicknamePrefix194 => 'クールダウン';
+
+  @override
+  String get nicknamePrefix195 => '咲く';
+
+  @override
+  String get nicknamePrefix196 => '枯れる';
+
+  @override
+  String get nicknamePrefix197 => '育つ';
+
+  @override
+  String get nicknamePrefix198 => '死ぬ';
+
+  @override
+  String get nicknamePrefix199 => '呼吸';
+
+  @override
+  String get nicknamePrefix200 => '窒息する';
+
+  @override
+  String get nicknameSuffix0 => '預言者';
+
+  @override
+  String get nicknameSuffix1 => 'ウィザード';
+
+  @override
+  String get nicknameSuffix2 => '魔女';
+
+  @override
+  String get nicknameSuffix3 => '記事';
+
+  @override
+  String get nicknameSuffix4 => '戦士';
+
+  @override
+  String get nicknameSuffix5 => '射手';
+
+  @override
+  String get nicknameSuffix6 => '泥棒';
+
+  @override
+  String get nicknameSuffix7 => '暗殺者';
+
+  @override
+  String get nicknameSuffix8 => 'パラディン';
+
+  @override
+  String get nicknameSuffix9 => '祭司';
+
+  @override
+  String get nicknameSuffix10 => '巫女';
+
+  @override
+  String get nicknameSuffix11 => 'モンク';
+
+  @override
+  String get nicknameSuffix12 => 'パウワウ';
+
+  @override
+  String get nicknameSuffix13 => '錬金術師';
+
+  @override
+  String get nicknameSuffix14 => 'ネクロマンサー';
+
+  @override
+  String get nicknameSuffix15 => '心霊術師';
+
+  @override
+  String get nicknameSuffix16 => '召喚者';
+
+  @override
+  String get nicknameSuffix17 => '奇術師';
+
+  @override
+  String get nicknameSuffix18 => 'ヒーラー';
+
+  @override
+  String get nicknameSuffix19 => '賢者';
+
+  @override
+  String get nicknameSuffix20 => '学者';
+
+  @override
+  String get nicknameSuffix21 => '研究者';
+
+  @override
+  String get nicknameSuffix22 => 'エクスプローラ';
+
+  @override
+  String get nicknameSuffix23 => '旅行者';
+
+  @override
+  String get nicknameSuffix24 => '放浪者';
+
+  @override
+  String get nicknameSuffix25 => '放浪者';
+
+  @override
+  String get nicknameSuffix26 => '巡礼者';
+
+  @override
+  String get nicknameSuffix27 => '探求者';
+
+  @override
+  String get nicknameSuffix28 => '観察者';
+
+  @override
+  String get nicknameSuffix29 => 'レコーダー';
+
+  @override
+  String get nicknameSuffix30 => 'コミュニケーター';
+
+  @override
+  String get nicknameSuffix31 => '教師';
+
+  @override
+  String get nicknameSuffix32 => '監視員';
+
+  @override
+  String get nicknameSuffix33 => 'ガード';
+
+  @override
+  String get nicknameSuffix34 => '門番';
+
+  @override
+  String get nicknameSuffix35 => '裁判官';
+
+  @override
+  String get nicknameSuffix36 => '執行官';
+
+  @override
+  String get nicknameSuffix37 => '知事';
+
+  @override
+  String get nicknameSuffix38 => 'ルーラー';
+
+  @override
+  String get nicknameSuffix39 => '王';
+
+  @override
+  String get nicknameSuffix40 => '女王';
+
+  @override
+  String get nicknameSuffix41 => '天皇';
+
+  @override
+  String get nicknameSuffix42 => '皇后';
+
+  @override
+  String get nicknameSuffix43 => '貴族';
+
+  @override
+  String get nicknameSuffix44 => '永住権';
+
+  @override
+  String get nicknameSuffix45 => '騎士団長';
+
+  @override
+  String get nicknameSuffix46 => '傭兵';
+
+  @override
+  String get nicknameSuffix47 => '海賊';
+
+  @override
+  String get nicknameSuffix48 => '泥棒';
+
+  @override
+  String get nicknameSuffix49 => '詐欺';
+
+  @override
+  String get nicknameSuffix50 => '道化師';
+
+  @override
+  String get nicknameSuffix51 => 'バカ';
+
+  @override
+  String get nicknameSuffix52 => '隠者';
+
+  @override
+  String get nicknameSuffix53 => '異端者';
+
+  @override
+  String get nicknameSuffix54 => '裏切り者';
+
+  @override
+  String get nicknameSuffix55 => '裏切り者';
+
+  @override
+  String get nicknameSuffix56 => 'ヒーロー';
+
+  @override
+  String get nicknameSuffix57 => 'セーバー';
+
+  @override
+  String get nicknameSuffix58 => '解放者';
+
+  @override
+  String get nicknameSuffix59 => '駆逐艦';
+
+  @override
+  String get nicknameSuffix60 => 'クリエイター';
+
+  @override
+  String get nicknameSuffix61 => '神';
+
+  @override
+  String get nicknameSuffix62 => '女神';
+
+  @override
+  String get nicknameSuffix63 => '天使';
+
+  @override
+  String get nicknameSuffix64 => '悪魔';
+
+  @override
+  String get nicknameSuffix65 => '政令';
+
+  @override
+  String get nicknameSuffix66 => '妖精';
+
+  @override
+  String get nicknameSuffix67 => 'モンスター';
+
+  @override
+  String get nicknameSuffix68 => '魔獣';
+
+  @override
+  String get nicknameSuffix69 => 'ドラゴン';
+
+  @override
+  String get nicknameSuffix70 => 'おばけ';
+
+  @override
+  String get nicknameSuffix71 => 'シェード';
+
+  @override
+  String get nicknameSuffix72 => 'アンデッド';
+
+  @override
+  String get nicknameSuffix73 => '吸血鬼';
+
+  @override
+  String get nicknameSuffix74 => '狼男';
+
+  @override
+  String get nicknameSuffix75 => 'マーメイド';
+
+  @override
+  String get nicknameSuffix76 => 'サイレン';
+
+  @override
+  String get nicknameSuffix77 => 'ニンフ';
+
+  @override
+  String get nicknameSuffix78 => 'ゴブリン';
+
+  @override
+  String get nicknameSuffix79 => 'オーク';
+
+  @override
+  String get nicknameSuffix80 => 'トロル';
+
+  @override
+  String get nicknameSuffix81 => 'エルフ';
+
+  @override
+  String get nicknameSuffix82 => 'ドワーフ';
+
+  @override
+  String get nicknameSuffix83 => '巨人';
+
+  @override
+  String get nicknameSuffix84 => '消印';
+
+  @override
+  String get nicknameSuffix85 => '人間';
+
+  @override
+  String get nicknameSuffix86 => '囚人';
+
+  @override
+  String get nicknameSuffix87 => 'サイン';
+
+  @override
+  String get nicknameSuffix88 => 'フィッシュマン';
+
+  @override
+  String get nicknameSuffix89 => '従業員';
+
+  @override
+  String get nicknameSuffix90 => '悪霊';
+
+  @override
+  String get nicknameSuffix91 => 'スーラ';
+
+  @override
+  String get nicknameSuffix92 => '地獄';
+
+  @override
+  String get nicknameSuffix93 => '天国';
+
+  @override
+  String get nicknameSuffix94 => '冥界';
+
+  @override
+  String get nicknameSuffix95 => '異世界';
+
+  @override
+  String get nicknameSuffix96 => '深淵';
+
+  @override
+  String get nicknameSuffix97 => 'カオス';
+
+  @override
+  String get nicknameSuffix98 => '注文';
+
+  @override
+  String get nicknameSuffix99 => 'ライト';
+
+  @override
+  String get nicknameSuffix100 => '暗い';
+
+  @override
+  String get nicknamePrefix201 => '素晴らしい';
+
+  @override
+  String get nicknamePrefix202 => '微妙';
+
+  @override
+  String get nicknamePrefix203 => 'かすんでいる';
+
+  @override
+  String get nicknamePrefix204 => 'かすかな';
+
+  @override
+  String get nicknamePrefix205 => '透明';
+
+  @override
+  String get nicknamePrefix206 => 'かすかな';
+
+  @override
+  String get nicknamePrefix207 => '眩しい';
+
+  @override
+  String get nicknamePrefix208 => '奇妙な';
+
+  @override
+  String get nicknamePrefix209 => '奇妙な';
+
+  @override
+  String get nicknamePrefix210 => '特別';
+
+  @override
+  String get nicknamePrefix211 => 'ノーブル';
+
+  @override
+  String get nicknamePrefix212 => '純粋な';
+
+  @override
+  String get nicknamePrefix213 => '落ちた';
+
+  @override
+  String get nicknamePrefix214 => '孤独な';
+
+  @override
+  String get nicknamePrefix215 => '寂しい';
+
+  @override
+  String get nicknamePrefix216 => '荒涼とした';
+
+  @override
+  String get nicknamePrefix217 => '遠い';
+
+  @override
+  String get nicknamePrefix218 => 'ひどい';
+
+  @override
+  String get nicknamePrefix219 => '無慈悲な';
+
+  @override
+  String get nicknamePrefix220 => '残酷な';
+
+  @override
+  String get nicknamePrefix221 => '大きい';
+
+  @override
+  String get nicknamePrefix222 => '厳しい';
+
+  @override
+  String get nicknamePrefix223 => '固い';
+
+  @override
+  String get nicknamePrefix224 => '曲がりくねった';
+
+  @override
+  String get nicknamePrefix225 => '素早い';
+
+  @override
+  String get nicknamePrefix226 => '遅い';
+
+  @override
+  String get nicknamePrefix227 => '沈黙の中で';
+
+  @override
+  String get nicknamePrefix228 => 'in chaos';
+
+  @override
+  String get nicknamePrefix229 => '記憶の中で';
+
+  @override
+  String get nicknamePrefix230 => '想像上の';
+
+  @override
+  String get nicknamePrefix231 => '静けさ';
+
+  @override
+  String get nicknamePrefix232 => 'ささやき声';
+
+  @override
+  String get nicknamePrefix233 => '歌う';
+
+  @override
+  String get nicknamePrefix234 => 'ダンシング';
+
+  @override
+  String get nicknamePrefix235 => 'すすり泣く';
+
+  @override
+  String get nicknamePrefix236 => '笑顔';
+
+  @override
+  String get nicknamePrefix237 => '嘲笑する';
+
+  @override
+  String get nicknamePrefix238 => '熟考している';
+
+  @override
+  String get nicknamePrefix239 => '放浪する';
+
+  @override
+  String get nicknamePrefix240 => '放浪する';
+
+  @override
+  String get nicknamePrefix241 => '起きている';
+
+  @override
+  String get nicknamePrefix242 => '眠っている';
+
+  @override
+  String get nicknamePrefix243 => '夢';
+
+  @override
+  String get nicknamePrefix244 => '空想する';
+
+  @override
+  String get nicknamePrefix245 => '妄想的な';
+
+  @override
+  String get nicknamePrefix246 => '祈る';
+
+  @override
+  String get nicknamePrefix247 => '真剣な';
+
+  @override
+  String get nicknamePrefix248 => '悲しい';
+
+  @override
+  String get nicknamePrefix249 => '惨めな';
+
+  @override
+  String get nicknamePrefix250 => '崇高な';
+
+  @override
+  String get nicknamePrefix251 => '邪悪な';
+
+  @override
+  String get nicknamePrefix252 => '平均';
+
+  @override
+  String get nicknamePrefix253 => '傲慢';
+
+  @override
+  String get nicknamePrefix254 => '控えめ';
+
+  @override
+  String get nicknamePrefix255 => '好きな';
+
+  @override
+  String get nicknamePrefix256 => '暖かい';
+
+  @override
+  String get nicknamePrefix257 => 'いいね';
+
+  @override
+  String get nicknamePrefix258 => '肌寒い';
+
+  @override
+  String get nicknamePrefix259 => '奇妙な';
+
+  @override
+  String get nicknamePrefix260 => '不気味な';
+
+  @override
+  String get nicknamePrefix261 => '夢中になる';
+
+  @override
+  String get nicknamePrefix262 => '魅力的な';
+
+  @override
+  String get nicknamePrefix263 => 'めまいがする';
+
+  @override
+  String get nicknamePrefix264 => 'sweetish';
+
+  @override
+  String get nicknamePrefix265 => '苦い';
+
+  @override
+  String get nicknamePrefix266 => 'bitterish';
+
+  @override
+  String get nicknamePrefix267 => 'barbed';
+
+  @override
+  String get nicknamePrefix268 => 'シャープ';
+
+  @override
+  String get nicknamePrefix269 => '鈍い';
+
+  @override
+  String get nicknamePrefix270 => 'ひどい';
+
+  @override
+  String get nicknamePrefix271 => '柔らかい';
+
+  @override
+  String get nicknamePrefix272 => '居心地の良い';
+
+  @override
+  String get nicknamePrefix273 => '快適';
+
+  @override
+  String get nicknamePrefix274 => '不安定な';
+
+  @override
+  String get nicknamePrefix275 => '不安な';
+
+  @override
+  String get nicknamePrefix276 => '落ち着いた';
+
+  @override
+  String get nicknamePrefix277 => '落ち着いた';
+
+  @override
+  String get nicknamePrefix278 => '眠い';
+
+  @override
+  String get nicknamePrefix279 => '退屈';
+
+  @override
+  String get nicknamePrefix280 => '情熱的な';
+
+  @override
+  String get nicknamePrefix281 => '何気ない';
+
+  @override
+  String get nicknamePrefix282 => '静かな';
+
+  @override
+  String get nicknamePrefix283 => '暴力的な';
+
+  @override
+  String get nicknamePrefix284 => '激しい';
+
+  @override
+  String get nicknamePrefix285 => 'クレイジー';
+
+  @override
+  String get nicknamePrefix286 => '気が狂った';
+
+  @override
+  String get nicknamePrefix287 => 'ラショナル';
+
+  @override
+  String get nicknamePrefix288 => '感情的';
+
+  @override
+  String get nicknamePrefix289 => '冷静な';
+
+  @override
+  String get nicknamePrefix290 => '賢明な';
+
+  @override
+  String get nicknamePrefix291 => '愚かな';
+
+  @override
+  String get nicknamePrefix292 => '無実の';
+
+  @override
+  String get nicknamePrefix293 => '狡猾な';
+
+  @override
+  String get nicknamePrefix294 => '蛇紋岩の';
+
+  @override
+  String get nicknamePrefix295 => '真っ白な';
+
+  @override
+  String get nicknamePrefix296 => '漆黒';
+
+  @override
+  String get nicknamePrefix297 => 'ゴールデン';
+
+  @override
+  String get nicknamePrefix298 => 'アージェント';
+
+  @override
+  String get nicknamePrefix299 => '血まみれの';
+
+  @override
+  String get nicknameSuffix101 => '探求者';
+
+  @override
+  String get nicknameSuffix102 => '巡礼者';
+
+  @override
+  String get nicknameSuffix103 => '放浪者';
+
+  @override
+  String get nicknameSuffix104 => '隠者';
+
+  @override
+  String get nicknameSuffix105 => 'イーサン';
+
+  @override
+  String get nicknameSuffix106 => '裏切り者';
+
+  @override
+  String get nicknameSuffix107 => '開拓';
+
+  @override
+  String get nicknameSuffix108 => '征服者';
+
+  @override
+  String get nicknameSuffix109 => 'ルーラー';
+
+  @override
+  String get nicknameSuffix110 => 'オーケストレーター';
+
+  @override
+  String get nicknameSuffix111 => '教師';
+
+  @override
+  String get nicknameSuffix112 => '観察者';
+
+  @override
+  String get nicknameSuffix113 => '観察者';
+
+  @override
+  String get nicknameSuffix114 => 'レコーダー';
+
+  @override
+  String get nicknameSuffix115 => 'コミュニケーター';
+
+  @override
+  String get nicknameSuffix116 => 'ガイド';
+
+  @override
+  String get nicknameSuffix117 => 'リーダー';
+
+  @override
+  String get nicknameSuffix118 => 'セーバー';
+
+  @override
+  String get nicknameSuffix119 => '駆逐艦';
+
+  @override
+  String get nicknameSuffix120 => 'クリエイター';
+
+  @override
+  String get nicknameSuffix121 => 'シェード';
+
+  @override
+  String get nicknameSuffix122 => 'おばけ';
+
+  @override
+  String get nicknameSuffix123 => 'おばけ';
+
+  @override
+  String get nicknameSuffix124 => '悪霊';
+
+  @override
+  String get nicknameSuffix125 => '政令';
+
+  @override
+  String get nicknameSuffix126 => '妖精';
+
+  @override
+  String get nicknameSuffix127 => '魔獣';
+
+  @override
+  String get nicknameSuffix128 => '聖水';
+
+  @override
+  String get nicknameSuffix129 => '返金';
+
+  @override
+  String get nicknameSuffix130 => 'シンス';
+
+  @override
+  String get nicknameSuffix131 => 'テスト';
+
+  @override
+  String get nicknameSuffix132 => '記事';
+
+  @override
+  String get nicknameSuffix133 => '射手';
+
+  @override
+  String get nicknameSuffix134 => '泥棒';
+
+  @override
+  String get nicknameSuffix135 => '暗殺者';
+
+  @override
+  String get nicknameSuffix136 => 'ウィザード';
+
+  @override
+  String get nicknameSuffix137 => 'パウワウ';
+
+  @override
+  String get nicknameSuffix138 => '錬金術師';
+
+  @override
+  String get nicknameSuffix139 => 'ネクロマンサー';
+
+  @override
+  String get nicknameSuffix140 => '祭司';
+
+  @override
+  String get nicknameSuffix141 => '学者';
+
+  @override
+  String get nicknameSuffix142 => '研究者';
+
+  @override
+  String get nicknameSuffix143 => 'エクスプローラ';
+
+  @override
+  String get nicknameSuffix144 => '旅行者';
+
+  @override
+  String get nicknameSuffix145 => 'アーティスト';
+
+  @override
+  String get nicknameSuffix146 => '道化師';
+
+  @override
+  String get nicknameSuffix147 => '吟遊詩人';
+
+  @override
+  String get nicknameSuffix148 => '商人';
+
+  @override
+  String get nicknameSuffix149 => '職人';
+
+  @override
+  String get nicknameSuffix150 => '農民';
+
+  @override
+  String get nicknameSuffix151 => 'カラス';
+
+  @override
+  String get nicknameSuffix152 => 'フクロウ';
+
+  @override
+  String get nicknameSuffix153 => 'フクロウ';
+
+  @override
+  String get nicknameSuffix154 => 'イーグル';
+
+  @override
+  String get nicknameSuffix155 => '鷹';
+
+  @override
+  String get nicknameSuffix156 => '狼';
+
+  @override
+  String get nicknameSuffix157 => 'キツネ';
+
+  @override
+  String get nicknameSuffix158 => 'クマ';
+
+  @override
+  String get nicknameSuffix159 => 'ライオン';
+
+  @override
+  String get nicknameSuffix160 => '虎';
+
+  @override
+  String get nicknameSuffix161 => 'ヒョウ';
+
+  @override
+  String get nicknameSuffix162 => 'ブラックパンサー';
+
+  @override
+  String get nicknameSuffix163 => 'サルソップ';
+
+  @override
+  String get nicknameSuffix164 => '猫';
+
+  @override
+  String get nicknameSuffix165 => '子犬';
+
+  @override
+  String get nicknameSuffix166 => '蛇';
+
+  @override
+  String get nicknameSuffix167 => 'トカゲ';
+
+  @override
+  String get nicknameSuffix168 => 'カメ';
+
+  @override
+  String get nicknameSuffix169 => 'クロコダイル';
+
+  @override
+  String get nicknameSuffix170 => 'ドラゴン';
+
+  @override
+  String get nicknameSuffix171 => 'ユニコーン';
+
+  @override
+  String get nicknameSuffix172 => 'ペガサス';
+
+  @override
+  String get nicknameSuffix173 => 'グリフォン';
+
+  @override
+  String get nicknameSuffix174 => 'ガーゴイル';
+
+  @override
+  String get nicknameSuffix175 => 'ゴブリン';
+
+  @override
+  String get nicknameSuffix176 => 'オーク';
+
+  @override
+  String get nicknameSuffix177 => 'トロル';
+
+  @override
+  String get nicknameSuffix178 => 'オーガー';
+
+  @override
+  String get nicknameSuffix179 => 'スライム';
+
+  @override
+  String get nicknameSuffix180 => 'スケルトン';
+
+  @override
+  String get nicknameSuffix181 => 'ゾンビ';
+
+  @override
+  String get nicknameSuffix182 => 'グール';
+
+  @override
+  String get nicknameSuffix183 => '吸血鬼';
+
+  @override
+  String get nicknameSuffix184 => '狼男';
+
+  @override
+  String get nicknameSuffix185 => 'ミノタウロス';
+
+  @override
+  String get nicknameSuffix186 => 'ケンタウロス';
+
+  @override
+  String get nicknameSuffix187 => 'ハーピー';
+
+  @override
+  String get nicknameSuffix188 => 'サイレン';
+
+  @override
+  String get nicknameSuffix189 => 'クラーケン';
+
+  @override
+  String get nicknameSuffix190 => 'リヴァイアサン';
+
+  @override
+  String get nicknameSuffix191 => 'ナイフ';
+
+  @override
+  String get nicknameSuffix192 => 'シールド';
+
+  @override
+  String get nicknameSuffix193 => 'ウィンドウ';
+
+  @override
+  String get nicknameSuffix194 => '弓';
+
+  @override
+  String get nicknameSuffix195 => '杖';
+
+  @override
+  String get nicknameSuffix196 => '指輪';
+
+  @override
+  String get nicknameSuffix197 => 'ネックレス';
+
+  @override
+  String get nicknameSuffix198 => 'クラウン';
+
+  @override
+  String get nicknameSuffix199 => '聖杯';
+
+  @override
+  String get themeFree => '無料のテーマ';
+
+  @override
+  String get themePaid => '有料テーマ';
 }

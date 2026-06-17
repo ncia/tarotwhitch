@@ -9,143 +9,143 @@ class AppLocalizationsRo extends AppLocalizations {
   AppLocalizationsRo([String locale = 'ro']) : super(locale);
 
   @override
-  String get appTitle => 'Tarot Reading';
+  String get appTitle => 'Citirea tarotului';
 
   @override
-  String get spreadSelectionTitle => 'Select a Spread';
+  String get spreadSelectionTitle => 'Selectați un Spread';
 
   @override
   String get spreadSelectionSubtitle =>
-      'Choose a tarot spread that fits your question';
+      'Alegeți o extensie de tarot care se potrivește întrebării dvs';
 
   @override
-  String get spreadOneCardName => 'One Card';
+  String get spreadOneCardName => 'O singură carte';
 
   @override
   String get spreadOneCardDesc =>
-      'A single card for a quick answer or daily guidance.';
+      'Un singur card pentru un răspuns rapid sau îndrumare zilnică.';
 
   @override
-  String get spreadTwoCardName => 'Two Card';
+  String get spreadTwoCardName => 'Două cărți';
 
   @override
   String get spreadTwoCardDesc =>
-      'A 2-card spread to simply grasp the current situation and advice.';
+      'Un distribuitor de 2 cărți pentru a înțelege pur și simplu situația actuală și sfaturi.';
 
   @override
-  String get spreadThreeCardName => 'Three Card';
+  String get spreadThreeCardName => 'Trei cărți';
 
   @override
   String get spreadThreeCardDesc =>
-      'A 3-card spread to understand the flow of past, present, and future.';
+      'O distribuție de 3 cărți pentru a înțelege fluxul trecutului, prezentului și viitorului.';
 
   @override
-  String get spreadFourCardName => 'Four Card';
+  String get spreadFourCardName => 'Patru cărți';
 
   @override
   String get spreadFourCardDesc =>
-      'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.';
+      'O distribuție de 4 cărți pentru a diagnostica clar cauza unei probleme, pentru a obține sfaturi și pentru a vedea rezultatul.';
 
   @override
-  String get spreadFiveCardName => 'Five Card';
+  String get spreadFiveCardName => 'Cinci cărți';
 
   @override
   String get spreadFiveCardDesc =>
-      'A 5-card spread examining the core of the situation, its causes, and potential outcomes.';
+      'O distribuție de 5 cărți care examinează miezul situației, cauzele și potențialele rezultate.';
 
   @override
-  String get spreadCelticCrossName => 'Celtic Cross';
+  String get spreadCelticCrossName => 'Crucea Celtică';
 
   @override
   String get spreadCelticCrossDesc =>
-      '10 cards for an in-depth analysis of a complex problem.';
+      '10 carduri pentru o analiză aprofundată a unei probleme complexe.';
 
   @override
-  String get positionOneCard => 'Today\'s Card';
+  String get positionOneCard => 'Cardul de azi';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '1. Situație';
 
   @override
-  String get positionTwoCard2 => '2. Advice';
+  String get positionTwoCard2 => '2. Sfaturi';
 
   @override
-  String get positionThreeCard1 => 'Past';
+  String get positionThreeCard1 => 'Trecut';
 
   @override
-  String get positionThreeCard2 => 'Present';
+  String get positionThreeCard2 => 'Prezent';
 
   @override
-  String get positionThreeCard3 => 'Future';
+  String get positionThreeCard3 => 'Viitor';
 
   @override
-  String get positionFourCard1 => '1. Problem';
+  String get positionFourCard1 => '1. Problemă';
 
   @override
-  String get positionFourCard2 => '2. Cause';
+  String get positionFourCard2 => '2. Cauza';
 
   @override
-  String get positionFourCard3 => '3. Advice';
+  String get positionFourCard3 => '3. Sfaturi';
 
   @override
-  String get positionFourCard4 => '4. Outcome';
+  String get positionFourCard4 => '4. Rezultat';
 
   @override
-  String get positionFiveCard1 => '1. Present';
+  String get positionFiveCard1 => '1. Prezent';
 
   @override
-  String get positionFiveCard2 => '2. Past Influences';
+  String get positionFiveCard2 => '2. Influențe din trecut';
 
   @override
-  String get positionFiveCard3 => '3. Future Direction';
+  String get positionFiveCard3 => '3. Direcția viitoare';
 
   @override
-  String get positionFiveCard4 => '4. Core Reason';
+  String get positionFiveCard4 => '4. Motivul de bază';
 
   @override
-  String get positionFiveCard5 => '5. Potential Outcome';
+  String get positionFiveCard5 => '5. Rezultat potențial';
 
   @override
-  String get positionCelticCross1 => '1. Present (Querent)';
+  String get positionCelticCross1 => '1. Prezent (Querent)';
 
   @override
-  String get positionCelticCross2 => '2. The Challenge';
+  String get positionCelticCross2 => '2. Provocarea';
 
   @override
-  String get positionCelticCross3 => '3. The Past';
+  String get positionCelticCross3 => '3. Trecutul';
 
   @override
-  String get positionCelticCross4 => '4. The Future';
+  String get positionCelticCross4 => '4. Viitorul';
 
   @override
-  String get positionCelticCross5 => '5. Conscious';
+  String get positionCelticCross5 => '5. Conștient';
 
   @override
-  String get positionCelticCross6 => '6. Subconscious';
+  String get positionCelticCross6 => '6. Subconștient';
 
   @override
-  String get positionCelticCross7 => '7. Advice';
+  String get positionCelticCross7 => '7. Sfaturi';
 
   @override
-  String get positionCelticCross8 => '8. External Influences';
+  String get positionCelticCross8 => '8. Influențe externe';
 
   @override
-  String get positionCelticCross9 => '9. Hopes and Fears';
+  String get positionCelticCross9 => '9. Speranțe și temeri';
 
   @override
-  String get positionCelticCross10 => '10. Outcome';
+  String get positionCelticCross10 => '10. Rezultat';
 
   @override
-  String get navReading => 'Citire Tarot';
+  String get navReading => 'citirea tarotului';
 
   @override
-  String get navChat => 'Chat Tarot';
+  String get navChat => 'chat de tarot';
 
   @override
-  String get navMeanings => 'Semnificații';
+  String get navMeanings => 'sensul cardului';
 
   @override
-  String get navMyMenu => 'My Menu';
+  String get navMyMenu => 'meniul meu';
 
   @override
   String get readingIntroTitle => 'Șoaptele\nDestinului';
@@ -1208,4 +1208,1720 @@ class AppLocalizationsRo extends AppLocalizations {
   @override
   String get chatProfileTapHint =>
       'Atinge fotografia de profil pentru a vedea detalii';
+
+  @override
+  String get themeName1 => 'Tema 1';
+
+  @override
+  String get themeName2 => 'Tema 2';
+
+  @override
+  String get themeName3 => 'Tema 3';
+
+  @override
+  String get themeMagicBook => 'Cartea Magică';
+
+  @override
+  String get themeBlackCat => 'Pisica Neagră';
+
+  @override
+  String get themeEmptyPaidThemes =>
+      'Cumpărați teme din magazin\npentru a umple acest spațiu!';
+
+  @override
+  String get shopThemePurchaseTitle => 'Tema de achiziție';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return 'Doriți să cumpărați tema $skinName pentru monede $cost?';
+  }
+
+  @override
+  String get shopCancel => 'Anula';
+
+  @override
+  String get shopPurchase => 'Cumpărare';
+
+  @override
+  String get shopAlreadyOwned =>
+      'Deja deținut. Încercați să îl aplicați în setările temei!';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return '$skinName a fost achiziționat cu succes! Verificați setările temei.';
+  }
+
+  @override
+  String get shopNotEnoughCoins => 'Nu sunt suficiente monede.';
+
+  @override
+  String get shopOwned => 'Deținut';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost monede';
+  }
+
+  @override
+  String get navDiary => 'jurnal de tarot';
+
+  @override
+  String get myMenuFirebaseNotConnected => 'Firebase nu este conectat';
+
+  @override
+  String get myMenuWindowsSetupNeeded =>
+      'Este necesară configurarea Windows (previzualizare)';
+
+  @override
+  String get myMenuTouchToViewLogin =>
+      'Atingeți pentru a vizualiza interfața de conectare';
+
+  @override
+  String get myMenuNoName => 'Fără Nume';
+
+  @override
+  String get myMenuPleaseLogin => 'Vă rugăm să vă conectați';
+
+  @override
+  String get myMenuTouchToSignupLogin =>
+      'Atingeți pentru a vă înscrie și autentifica';
+
+  @override
+  String get myMenuSectionMyRecords => 'Înregistrările mele';
+
+  @override
+  String get myMenuDiaryStorage => 'Depozitare jurnal';
+
+  @override
+  String get myMenuCheckSavedDiary => 'Verificați jurnalele salvate.';
+
+  @override
+  String get myMenuFavoriteCards => 'Cărți preferate';
+
+  @override
+  String get myMenuMyFavoriteCardsList => 'Lista cărților mele preferate';
+
+  @override
+  String get myMenuSectionAppSettings => 'Setările aplicației';
+
+  @override
+  String get myMenuPushNotifications => 'Notificări push';
+
+  @override
+  String get myMenuPushNotificationsDesc => 'Noi horoscoape și evenimente';
+
+  @override
+  String get myMenuLanguageSettings => 'Setări de limbă';
+
+  @override
+  String get myMenuThemeSettings => 'Setări teme';
+
+  @override
+  String get myMenuChangeBackground => 'Schimbați imaginea de fundal';
+
+  @override
+  String get myMenuSectionCustomerSupport => 'Asistență pentru clienți';
+
+  @override
+  String get myMenuFaq => 'FAQ';
+
+  @override
+  String get myMenuAppInfo => 'Informații despre aplicație';
+
+  @override
+  String get myMenuSectionAccountManagement => 'Managementul contului';
+
+  @override
+  String get myMenuLogout => 'Deconectați-vă';
+
+  @override
+  String get myMenuLogoutDesc => 'Deconectați-vă de la dispozitivul curent.';
+
+  @override
+  String get myMenuEmailVerifiedMsg =>
+      'Verificarea e-mailului a fost confirmată! ✨';
+
+  @override
+  String get myMenuEmailSendTitle => 'Trimite e-mail de verificare';
+
+  @override
+  String get myMenuEmailSendContent =>
+      'E-mailul de verificare a fost trimis.\nVerificați-vă căsuța de e-mail, faceți clic pe link și apăsați din nou acest buton!';
+
+  @override
+  String get myMenuConfirm => 'Confirma';
+
+  @override
+  String get myMenuEmailErrorMsg =>
+      'Au apărut prea multe solicitări sau o eroare.';
+
+  @override
+  String get myMenuEmailVerified => 'E-mail verificat';
+
+  @override
+  String get myMenuEmailNotVerified =>
+      'E-mail neverificat (atingeți pentru a verifica)';
+
+  @override
+  String get languageSystemDefault => 'Implicit sistem';
+
+  @override
+  String get shopTitle => 'Magazin';
+
+  @override
+  String get shopSubtitle => 'Cumpărați monede și teme';
+
+  @override
+  String get shopTabCoin => 'Monedă';
+
+  @override
+  String get shopTabTheme => 'Temă';
+
+  @override
+  String get shopPayButton => 'Plată';
+
+  @override
+  String get themeOriginalDeck => 'Deck clasic original';
+
+  @override
+  String get themeGoldenSunDeck => 'Golden Sun Deck';
+
+  @override
+  String get themeDarkAbyssDeck => 'Punctul Dark Abyss';
+
+  @override
+  String get themeSpringSpiritDeck => 'Spring Spirit Deck';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return 'Plata pentru $coins monede va veni în curând.';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return 'Achiziționarea/solicitarea pentru $name va veni în curând.';
+  }
+
+  @override
+  String get readingIntroSelectWitch =>
+      'Alegeți o vrăjitoare pentru a vă vedea destinul';
+
+  @override
+  String get readingIntroGreeting =>
+      'În ce destin să ne uităm?\nSunt curios de viitorul tău.';
+
+  @override
+  String get readingIntroStart => 'Selectați Spread';
+
+  @override
+  String get tabMajorArcana => 'Arcane majore';
+
+  @override
+  String get tabMinorArcana => 'Arcane minore';
+
+  @override
+  String get nicknamePrefix0 => 'ocult';
+
+  @override
+  String get nicknamePrefix1 => 'senin';
+
+  @override
+  String get nicknamePrefix2 => 'sfânt';
+
+  @override
+  String get nicknamePrefix3 => 'întuneric';
+
+  @override
+  String get nicknamePrefix4 => 'strălucitor';
+
+  @override
+  String get nicknamePrefix5 => 'sumbru';
+
+  @override
+  String get nicknamePrefix6 => 'fierbinte';
+
+  @override
+  String get nicknamePrefix7 => 'fascinant';
+
+  @override
+  String get nicknamePrefix8 => 'crud';
+
+  @override
+  String get nicknamePrefix9 => 'pur';
+
+  @override
+  String get nicknamePrefix10 => 'aspru';
+
+  @override
+  String get nicknamePrefix11 => 'moale';
+
+  @override
+  String get nicknamePrefix12 => 'frumos';
+
+  @override
+  String get nicknamePrefix13 => 'ciudat';
+
+  @override
+  String get nicknamePrefix14 => 'mare';
+
+  @override
+  String get nicknamePrefix15 => 'ponosit';
+
+  @override
+  String get nicknamePrefix16 => 'eternal';
+
+  @override
+  String get nicknamePrefix17 => 'uitat';
+
+  @override
+  String get nicknamePrefix18 => 'genial';
+
+  @override
+  String get nicknamePrefix19 => 'trist';
+
+  @override
+  String get nicknamePrefix20 => 'bucuros';
+
+  @override
+  String get nicknamePrefix21 => 'dreamy';
+
+  @override
+  String get nicknamePrefix22 => 'căzut';
+
+  @override
+  String get nicknamePrefix23 => 'alb pur';
+
+  @override
+  String get nicknamePrefix24 => 'negru jet';
+
+  @override
+  String get nicknamePrefix25 => 'sângeros';
+
+  @override
+  String get nicknamePrefix26 => 'cenușiu';
+
+  @override
+  String get nicknamePrefix27 => 'de aur';
+
+  @override
+  String get nicknamePrefix28 => 'argent';
+
+  @override
+  String get nicknamePrefix29 => 'albastru';
+
+  @override
+  String get nicknamePrefix30 => 'roşu';
+
+  @override
+  String get nicknamePrefix31 => 'galben';
+
+  @override
+  String get nicknamePrefix32 => 'negru';
+
+  @override
+  String get nicknamePrefix33 => 'alb';
+
+  @override
+  String get nicknamePrefix34 => 'transparent';
+
+  @override
+  String get nicknamePrefix35 => 'singuratic';
+
+  @override
+  String get nicknamePrefix36 => 'zgomotos';
+
+  @override
+  String get nicknamePrefix37 => 'linişti';
+
+  @override
+  String get nicknamePrefix38 => 'cald';
+
+  @override
+  String get nicknamePrefix39 => 'frosty';
+
+  @override
+  String get nicknamePrefix40 => 'solitar';
+
+  @override
+  String get nicknamePrefix41 => 'singur';
+
+  @override
+  String get nicknamePrefix42 => 'fericit';
+
+  @override
+  String get nicknamePrefix43 => 'fericit';
+
+  @override
+  String get nicknamePrefix44 => 'sumbru';
+
+  @override
+  String get nicknamePrefix45 => 'disperat';
+
+  @override
+  String get nicknamePrefix46 => 'plin de speranță';
+
+  @override
+  String get nicknamePrefix47 => 'orbitor';
+
+  @override
+  String get nicknamePrefix48 => 'dusky';
+
+  @override
+  String get nicknamePrefix49 => 'miezul nopţii';
+
+  @override
+  String get nicknamePrefix50 => 'pustii';
+
+  @override
+  String get nicknamePrefix51 => 'secret';
+
+  @override
+  String get nicknamePrefix52 => 'secret';
+
+  @override
+  String get nicknamePrefix53 => 'sacru';
+
+  @override
+  String get nicknamePrefix54 => 'profan';
+
+  @override
+  String get nicknamePrefix55 => 'superior';
+
+  @override
+  String get nicknamePrefix56 => 'modest';
+
+  @override
+  String get nicknamePrefix57 => 'înţelept';
+
+  @override
+  String get nicknamePrefix58 => 'prostesc';
+
+  @override
+  String get nicknamePrefix59 => 'greu';
+
+  @override
+  String get nicknamePrefix60 => 'slab';
+
+  @override
+  String get nicknamePrefix61 => 'curajos';
+
+  @override
+  String get nicknamePrefix62 => 'mişelesc';
+
+  @override
+  String get nicknamePrefix63 => 'Îndepărtat';
+
+  @override
+  String get nicknamePrefix64 => 'aproape';
+
+  @override
+  String get nicknamePrefix65 => 'moving away';
+
+  @override
+  String get nicknamePrefix66 => 'care se apropie';
+
+  @override
+  String get nicknamePrefix67 => 'dispărând';
+
+  @override
+  String get nicknamePrefix68 => 'emergente';
+
+  @override
+  String get nicknamePrefix69 => 'trezit';
+
+  @override
+  String get nicknamePrefix70 => 'adormit';
+
+  @override
+  String get nicknamePrefix71 => 'visând';
+
+  @override
+  String get nicknamePrefix72 => 'rătăcire';
+
+  @override
+  String get nicknamePrefix73 => 'rătăcire';
+
+  @override
+  String get nicknamePrefix74 => 'rămânând';
+
+  @override
+  String get nicknamePrefix75 => 'leaving';
+
+  @override
+  String get nicknamePrefix76 => 'revenind';
+
+  @override
+  String get nicknamePrefix77 => 'aşteptare';
+
+  @override
+  String get nicknamePrefix78 => 'căuta';
+
+  @override
+  String get nicknamePrefix79 => 'criptic';
+
+  @override
+  String get nicknamePrefix80 => 'expus';
+
+  @override
+  String get nicknamePrefix81 => 'abandonat';
+
+  @override
+  String get nicknamePrefix82 => 'selectat';
+
+  @override
+  String get nicknamePrefix83 => 'binecuvântat';
+
+  @override
+  String get nicknamePrefix84 => 'blestemat';
+
+  @override
+  String get nicknamePrefix85 => 'iubit';
+
+  @override
+  String get nicknamePrefix86 => 'urât';
+
+  @override
+  String get nicknamePrefix87 => 'amintește-ți';
+
+  @override
+  String get nicknamePrefix88 => 'neglijent';
+
+  @override
+  String get nicknamePrefix89 => 'lumina stelelor';
+
+  @override
+  String get nicknamePrefix90 => 'lumina lunii';
+
+  @override
+  String get nicknamePrefix91 => 'de lumina soarelui';
+
+  @override
+  String get nicknamePrefix92 => 'cosmic';
+
+  @override
+  String get nicknamePrefix93 => 'a pământului';
+
+  @override
+  String get nicknamePrefix94 => 'a marii';
+
+  @override
+  String get nicknamePrefix95 => 'ceresc';
+
+  @override
+  String get nicknamePrefix96 => 'a norilor';
+
+  @override
+  String get nicknamePrefix97 => 'a vântului';
+
+  @override
+  String get nicknamePrefix98 => 'ploaie';
+
+  @override
+  String get nicknamePrefix99 => 'a ochiului';
+
+  @override
+  String get nicknamePrefix100 => 'înghețată';
+
+  @override
+  String get nicknamePrefix101 => 'de foc';
+
+  @override
+  String get nicknamePrefix102 => 'apă';
+
+  @override
+  String get nicknamePrefix103 => 'de lut';
+
+  @override
+  String get nicknamePrefix104 => 'de lemn';
+
+  @override
+  String get nicknamePrefix105 => 'pădure';
+
+  @override
+  String get nicknamePrefix106 => 'muntos';
+
+  @override
+  String get nicknamePrefix107 => 'curs';
+
+  @override
+  String get nicknamePrefix108 => 'a lacului';
+
+  @override
+  String get nicknamePrefix109 => 'de timp';
+
+  @override
+  String get nicknamePrefix110 => 'de spatiu';
+
+  @override
+  String get nicknamePrefix111 => 'dimensiune';
+
+  @override
+  String get nicknamePrefix112 => 'fatidic';
+
+  @override
+  String get nicknamePrefix113 => 'fatidic';
+
+  @override
+  String get nicknamePrefix114 => 'miraculos';
+
+  @override
+  String get nicknamePrefix115 => 'magic';
+
+  @override
+  String get nicknamePrefix116 => 'mitic';
+
+  @override
+  String get nicknamePrefix117 => 'legendar';
+
+  @override
+  String get nicknamePrefix118 => 'a adevărului';
+
+  @override
+  String get nicknamePrefix119 => 'fals';
+
+  @override
+  String get nicknamePrefix120 => 'fantezie';
+
+  @override
+  String get nicknamePrefix121 => 'vis';
+
+  @override
+  String get nicknamePrefix122 => 'coşmar';
+
+  @override
+  String get nicknamePrefix123 => 'ruina';
+
+  @override
+  String get nicknamePrefix124 => 'a creaţiei';
+
+  @override
+  String get nicknamePrefix125 => 'a vieţii';
+
+  @override
+  String get nicknamePrefix126 => 'de moarte';
+
+  @override
+  String get nicknamePrefix127 => 'suflet';
+
+  @override
+  String get nicknamePrefix128 => 'fizic';
+
+  @override
+  String get nicknamePrefix129 => 'a raţiunii';
+
+  @override
+  String get nicknamePrefix130 => 'emoţional';
+
+  @override
+  String get nicknamePrefix131 => 'a iubirii';
+
+  @override
+  String get nicknamePrefix132 => 'de ură';
+
+  @override
+  String get nicknamePrefix133 => 'de tristete';
+
+  @override
+  String get nicknamePrefix134 => 'de bucurie';
+
+  @override
+  String get nicknamePrefix135 => 'supărat';
+
+  @override
+  String get nicknamePrefix136 => 'de pace';
+
+  @override
+  String get nicknamePrefix137 => 'de război';
+
+  @override
+  String get nicknamePrefix138 => 'haos';
+
+  @override
+  String get nicknamePrefix139 => 'ordonat';
+
+  @override
+  String get nicknamePrefix140 => 'de lumină';
+
+  @override
+  String get nicknamePrefix141 => 'întuneric';
+
+  @override
+  String get nicknamePrefix142 => 'amurg';
+
+  @override
+  String get nicknamePrefix143 => 'zori';
+
+  @override
+  String get nicknamePrefix144 => 'amiază';
+
+  @override
+  String get nicknamePrefix145 => 'miezul nopţii';
+
+  @override
+  String get nicknamePrefix146 => 'trecut';
+
+  @override
+  String get nicknamePrefix147 => 'prezent';
+
+  @override
+  String get nicknamePrefix148 => 'viitor';
+
+  @override
+  String get nicknamePrefix149 => 'de origine';
+
+  @override
+  String get nicknamePrefix150 => 'apocaliptic';
+
+  @override
+  String get nicknamePrefix151 => 'infinit';
+
+  @override
+  String get nicknamePrefix152 => 'finit';
+
+  @override
+  String get nicknamePrefix153 => 'tăcut';
+
+  @override
+  String get nicknamePrefix154 => 'de zgomot';
+
+  @override
+  String get nicknamePrefix155 => 'cântând';
+
+  @override
+  String get nicknamePrefix156 => 'dans';
+
+  @override
+  String get nicknamePrefix157 => 'plângând';
+
+  @override
+  String get nicknamePrefix158 => 'zâmbitor';
+
+  @override
+  String get nicknamePrefix159 => 'şoptind';
+
+  @override
+  String get nicknamePrefix160 => 'plângând';
+
+  @override
+  String get nicknamePrefix161 => 'rugându-se';
+
+  @override
+  String get nicknamePrefix162 => 'implorând';
+
+  @override
+  String get nicknamePrefix163 => 'poruncind';
+
+  @override
+  String get nicknamePrefix164 => 'supus';
+
+  @override
+  String get nicknamePrefix165 => 'domnind';
+
+  @override
+  String get nicknamePrefix166 => 'servire';
+
+  @override
+  String get nicknamePrefix167 => 'îndrumător';
+
+  @override
+  String get nicknamePrefix168 => 'însoțitor';
+
+  @override
+  String get nicknamePrefix169 => 'predare';
+
+  @override
+  String get nicknamePrefix170 => 'învăţare';
+
+  @override
+  String get nicknamePrefix171 => 'a memoriei';
+
+  @override
+  String get nicknamePrefix172 => 'a amintirilor';
+
+  @override
+  String get nicknamePrefix173 => 'de răni';
+
+  @override
+  String get nicknamePrefix174 => 'vindecare';
+
+  @override
+  String get nicknamePrefix175 => 'otrăvitoare';
+
+  @override
+  String get nicknamePrefix176 => 'medicament';
+
+  @override
+  String get nicknamePrefix177 => 'Bun venit';
+
+  @override
+  String get nicknamePrefix178 => 'de substanţă';
+
+  @override
+  String get nicknamePrefix179 => 'ideal';
+
+  @override
+  String get nicknamePrefix180 => 'real';
+
+  @override
+  String get nicknamePrefix181 => 'imaginar';
+
+  @override
+  String get nicknamePrefix182 => 'natural';
+
+  @override
+  String get nicknamePrefix183 => 'artificial';
+
+  @override
+  String get nicknamePrefix184 => 'la început';
+
+  @override
+  String get nicknamePrefix185 => 'eternitate';
+
+  @override
+  String get nicknamePrefix186 => 'a momentului';
+
+  @override
+  String get nicknamePrefix187 => 'trecătoare';
+
+  @override
+  String get nicknamePrefix188 => 'etern';
+
+  @override
+  String get nicknamePrefix189 => 'de schimbare';
+
+  @override
+  String get nicknamePrefix190 => 'încă';
+
+  @override
+  String get nicknamePrefix191 => 'curgere';
+
+  @override
+  String get nicknamePrefix192 => 'dărâma';
+
+  @override
+  String get nicknamePrefix193 => 'aprins';
+
+  @override
+  String get nicknamePrefix194 => 'racind';
+
+  @override
+  String get nicknamePrefix195 => 'înflorit';
+
+  @override
+  String get nicknamePrefix196 => 'ofilind';
+
+  @override
+  String get nicknamePrefix197 => 'creștere';
+
+  @override
+  String get nicknamePrefix198 => 'moarte';
+
+  @override
+  String get nicknamePrefix199 => 'respiraţie';
+
+  @override
+  String get nicknamePrefix200 => 'sufocant';
+
+  @override
+  String get nicknameSuffix0 => 'profet';
+
+  @override
+  String get nicknameSuffix1 => 'vrăjitor';
+
+  @override
+  String get nicknameSuffix2 => 'vrăjitoare';
+
+  @override
+  String get nicknameSuffix3 => 'articol';
+
+  @override
+  String get nicknameSuffix4 => 'războinic';
+
+  @override
+  String get nicknameSuffix5 => 'Arcaş';
+
+  @override
+  String get nicknameSuffix6 => 'hoţ';
+
+  @override
+  String get nicknameSuffix7 => 'asasin';
+
+  @override
+  String get nicknameSuffix8 => 'paladin';
+
+  @override
+  String get nicknameSuffix9 => 'preot';
+
+  @override
+  String get nicknameSuffix10 => 'preoteasă';
+
+  @override
+  String get nicknameSuffix11 => 'călugăr';
+
+  @override
+  String get nicknameSuffix12 => 'powwow';
+
+  @override
+  String get nicknameSuffix13 => 'alchimist';
+
+  @override
+  String get nicknameSuffix14 => 'necromant';
+
+  @override
+  String get nicknameSuffix15 => 'spiritist';
+
+  @override
+  String get nicknameSuffix16 => 'invocator';
+
+  @override
+  String get nicknameSuffix17 => 'iluzionist';
+
+  @override
+  String get nicknameSuffix18 => 'vindecător';
+
+  @override
+  String get nicknameSuffix19 => 'om înțelept';
+
+  @override
+  String get nicknameSuffix20 => 'savant';
+
+  @override
+  String get nicknameSuffix21 => 'cercetător';
+
+  @override
+  String get nicknameSuffix22 => 'explorator';
+
+  @override
+  String get nicknameSuffix23 => 'călător';
+
+  @override
+  String get nicknameSuffix24 => 'vagabond';
+
+  @override
+  String get nicknameSuffix25 => 'vagabond';
+
+  @override
+  String get nicknameSuffix26 => 'pelerin';
+
+  @override
+  String get nicknameSuffix27 => 'căutător';
+
+  @override
+  String get nicknameSuffix28 => 'observator';
+
+  @override
+  String get nicknameSuffix29 => 'recorder';
+
+  @override
+  String get nicknameSuffix30 => 'comunicator';
+
+  @override
+  String get nicknameSuffix31 => 'tutelar';
+
+  @override
+  String get nicknameSuffix32 => 'director';
+
+  @override
+  String get nicknameSuffix33 => 'paznic';
+
+  @override
+  String get nicknameSuffix34 => 'portarul';
+
+  @override
+  String get nicknameSuffix35 => 'judecător';
+
+  @override
+  String get nicknameSuffix36 => 'executorul judecătoresc';
+
+  @override
+  String get nicknameSuffix37 => 'guvernator';
+
+  @override
+  String get nicknameSuffix38 => 'riglă';
+
+  @override
+  String get nicknameSuffix39 => 'rege';
+
+  @override
+  String get nicknameSuffix40 => 'regină';
+
+  @override
+  String get nicknameSuffix41 => 'împărat';
+
+  @override
+  String get nicknameSuffix42 => 'împărăteasă';
+
+  @override
+  String get nicknameSuffix43 => 'nobleţe';
+
+  @override
+  String get nicknameSuffix44 => 'resedinta permanenta';
+
+  @override
+  String get nicknameSuffix45 => 'cavaler comandant';
+
+  @override
+  String get nicknameSuffix46 => 'mercenar';
+
+  @override
+  String get nicknameSuffix47 => 'pirat';
+
+  @override
+  String get nicknameSuffix48 => 'hoţ';
+
+  @override
+  String get nicknameSuffix49 => 'fraudă';
+
+  @override
+  String get nicknameSuffix50 => 'bufon';
+
+  @override
+  String get nicknameSuffix51 => 'prost';
+
+  @override
+  String get nicknameSuffix52 => 'pustnic';
+
+  @override
+  String get nicknameSuffix53 => 'eretic';
+
+  @override
+  String get nicknameSuffix54 => 'trădător';
+
+  @override
+  String get nicknameSuffix55 => 'trădător';
+
+  @override
+  String get nicknameSuffix56 => 'erou';
+
+  @override
+  String get nicknameSuffix57 => 'economisitor';
+
+  @override
+  String get nicknameSuffix58 => 'eliberator';
+
+  @override
+  String get nicknameSuffix59 => 'distrugător';
+
+  @override
+  String get nicknameSuffix60 => 'creator';
+
+  @override
+  String get nicknameSuffix61 => 'dumnezeu';
+
+  @override
+  String get nicknameSuffix62 => 'zeiţă';
+
+  @override
+  String get nicknameSuffix63 => 'înger';
+
+  @override
+  String get nicknameSuffix64 => 'diavol';
+
+  @override
+  String get nicknameSuffix65 => 'ordonanta guvernamentala';
+
+  @override
+  String get nicknameSuffix66 => 'zână';
+
+  @override
+  String get nicknameSuffix67 => 'monstru';
+
+  @override
+  String get nicknameSuffix68 => 'fiară demon';
+
+  @override
+  String get nicknameSuffix69 => 'dragon';
+
+  @override
+  String get nicknameSuffix70 => 'fantomă';
+
+  @override
+  String get nicknameSuffix71 => 'umbră';
+
+  @override
+  String get nicknameSuffix72 => 'strigoi';
+
+  @override
+  String get nicknameSuffix73 => 'vampir';
+
+  @override
+  String get nicknameSuffix74 => 'vârcolac';
+
+  @override
+  String get nicknameSuffix75 => 'sirenă';
+
+  @override
+  String get nicknameSuffix76 => 'sirenă';
+
+  @override
+  String get nicknameSuffix77 => 'nimfă';
+
+  @override
+  String get nicknameSuffix78 => 'elf';
+
+  @override
+  String get nicknameSuffix79 => 'stejar';
+
+  @override
+  String get nicknameSuffix80 => 'revenire';
+
+  @override
+  String get nicknameSuffix81 => 'elf';
+
+  @override
+  String get nicknameSuffix82 => 'pitic';
+
+  @override
+  String get nicknameSuffix83 => 'gigant';
+
+  @override
+  String get nicknameSuffix84 => 'timbru poștal';
+
+  @override
+  String get nicknameSuffix85 => 'fiinţă umană';
+
+  @override
+  String get nicknameSuffix86 => 'prizonier';
+
+  @override
+  String get nicknameSuffix87 => 'semnătură';
+
+  @override
+  String get nicknameSuffix88 => 'Omul Pește';
+
+  @override
+  String get nicknameSuffix89 => 'angajat';
+
+  @override
+  String get nicknameSuffix90 => 'spiritul rău';
+
+  @override
+  String get nicknameSuffix91 => 'Sura';
+
+  @override
+  String get nicknameSuffix92 => 'iad';
+
+  @override
+  String get nicknameSuffix93 => 'cer';
+
+  @override
+  String get nicknameSuffix94 => 'lumea interlopă';
+
+  @override
+  String get nicknameSuffix95 => 'Cealaltă lume';
+
+  @override
+  String get nicknameSuffix96 => 'abis';
+
+  @override
+  String get nicknameSuffix97 => 'haos';
+
+  @override
+  String get nicknameSuffix98 => 'comanda';
+
+  @override
+  String get nicknameSuffix99 => 'aprinde';
+
+  @override
+  String get nicknameSuffix100 => 'întuneric';
+
+  @override
+  String get nicknamePrefix201 => 'genial';
+
+  @override
+  String get nicknamePrefix202 => 'subtil';
+
+  @override
+  String get nicknamePrefix203 => 'tulbure';
+
+  @override
+  String get nicknamePrefix204 => 'slab';
+
+  @override
+  String get nicknamePrefix205 => 'transparent';
+
+  @override
+  String get nicknamePrefix206 => 'slab';
+
+  @override
+  String get nicknamePrefix207 => 'orbitor';
+
+  @override
+  String get nicknamePrefix208 => 'ciudat';
+
+  @override
+  String get nicknamePrefix209 => 'ciudat';
+
+  @override
+  String get nicknamePrefix210 => 'special';
+
+  @override
+  String get nicknamePrefix211 => 'nobil';
+
+  @override
+  String get nicknamePrefix212 => 'pur';
+
+  @override
+  String get nicknamePrefix213 => 'căzut';
+
+  @override
+  String get nicknamePrefix214 => 'singuratic';
+
+  @override
+  String get nicknamePrefix215 => 'singur';
+
+  @override
+  String get nicknamePrefix216 => 'pustii';
+
+  @override
+  String get nicknamePrefix217 => 'Îndepărtat';
+
+  @override
+  String get nicknamePrefix218 => 'aspru';
+
+  @override
+  String get nicknamePrefix219 => 'nemilos';
+
+  @override
+  String get nicknamePrefix220 => 'crud';
+
+  @override
+  String get nicknamePrefix221 => 'mare';
+
+  @override
+  String get nicknamePrefix222 => 'greu';
+
+  @override
+  String get nicknamePrefix223 => 'fermă';
+
+  @override
+  String get nicknamePrefix224 => 'sinuos';
+
+  @override
+  String get nicknamePrefix225 => 'rapid';
+
+  @override
+  String get nicknamePrefix226 => 'lent';
+
+  @override
+  String get nicknamePrefix227 => 'în tăcere';
+
+  @override
+  String get nicknamePrefix228 => 'în haos';
+
+  @override
+  String get nicknamePrefix229 => 'în memorie';
+
+  @override
+  String get nicknamePrefix230 => 'imaginar';
+
+  @override
+  String get nicknamePrefix231 => 'tăcut';
+
+  @override
+  String get nicknamePrefix232 => 'şoptind';
+
+  @override
+  String get nicknamePrefix233 => 'cântând';
+
+  @override
+  String get nicknamePrefix234 => 'dans';
+
+  @override
+  String get nicknamePrefix235 => 'suspinând';
+
+  @override
+  String get nicknamePrefix236 => 'zâmbitor';
+
+  @override
+  String get nicknamePrefix237 => 'batjocoritor';
+
+  @override
+  String get nicknamePrefix238 => 'contempland';
+
+  @override
+  String get nicknamePrefix239 => 'rătăcire';
+
+  @override
+  String get nicknamePrefix240 => 'rătăcire';
+
+  @override
+  String get nicknamePrefix241 => 'treaz';
+
+  @override
+  String get nicknamePrefix242 => 'adormit';
+
+  @override
+  String get nicknamePrefix243 => 'visând';
+
+  @override
+  String get nicknamePrefix244 => 'visând cu ochii deschiși';
+
+  @override
+  String get nicknamePrefix245 => 'delirante';
+
+  @override
+  String get nicknamePrefix246 => 'rugându-se';
+
+  @override
+  String get nicknamePrefix247 => 'zelos';
+
+  @override
+  String get nicknamePrefix248 => 'întristată';
+
+  @override
+  String get nicknamePrefix249 => 'mizerabil';
+
+  @override
+  String get nicknamePrefix250 => 'sublim';
+
+  @override
+  String get nicknamePrefix251 => 'rău';
+
+  @override
+  String get nicknamePrefix252 => 'medie';
+
+  @override
+  String get nicknamePrefix253 => 'arogant';
+
+  @override
+  String get nicknamePrefix254 => 'modest';
+
+  @override
+  String get nicknamePrefix255 => 'pasionat';
+
+  @override
+  String get nicknamePrefix256 => 'cald';
+
+  @override
+  String get nicknamePrefix257 => 'rece';
+
+  @override
+  String get nicknamePrefix258 => 'rece';
+
+  @override
+  String get nicknamePrefix259 => 'bizar';
+
+  @override
+  String get nicknamePrefix260 => 'ciudat';
+
+  @override
+  String get nicknamePrefix261 => 'răpită';
+
+  @override
+  String get nicknamePrefix262 => 'fascinant';
+
+  @override
+  String get nicknamePrefix263 => 'amețitoare';
+
+  @override
+  String get nicknamePrefix264 => 'dulceag';
+
+  @override
+  String get nicknamePrefix265 => 'amar';
+
+  @override
+  String get nicknamePrefix266 => 'amarnic';
+
+  @override
+  String get nicknamePrefix267 => 'ghimpate';
+
+  @override
+  String get nicknamePrefix268 => 'ascuțit';
+
+  @override
+  String get nicknamePrefix269 => 'plictisitoare';
+
+  @override
+  String get nicknamePrefix270 => 'aspru';
+
+  @override
+  String get nicknamePrefix271 => 'moale';
+
+  @override
+  String get nicknamePrefix272 => 'confortabil';
+
+  @override
+  String get nicknamePrefix273 => 'confortabil';
+
+  @override
+  String get nicknamePrefix274 => 'precar';
+
+  @override
+  String get nicknamePrefix275 => 'neliniştit';
+
+  @override
+  String get nicknamePrefix276 => 'calm';
+
+  @override
+  String get nicknamePrefix277 => 'calm';
+
+  @override
+  String get nicknamePrefix278 => 'somnolent';
+
+  @override
+  String get nicknamePrefix279 => 'plictisit';
+
+  @override
+  String get nicknamePrefix280 => 'pasionat';
+
+  @override
+  String get nicknamePrefix281 => 'nonşalant';
+
+  @override
+  String get nicknamePrefix282 => 'liniştit';
+
+  @override
+  String get nicknamePrefix283 => 'violent';
+
+  @override
+  String get nicknamePrefix284 => 'feroce';
+
+  @override
+  String get nicknamePrefix285 => 'nebun';
+
+  @override
+  String get nicknamePrefix286 => 'înnebunit';
+
+  @override
+  String get nicknamePrefix287 => 'raţional';
+
+  @override
+  String get nicknamePrefix288 => 'emoţional';
+
+  @override
+  String get nicknamePrefix289 => 'cu capul rece';
+
+  @override
+  String get nicknamePrefix290 => 'sensibil';
+
+  @override
+  String get nicknamePrefix291 => 'prostesc';
+
+  @override
+  String get nicknamePrefix292 => 'nevinovat';
+
+  @override
+  String get nicknamePrefix293 => 'viclean';
+
+  @override
+  String get nicknamePrefix294 => 'serpentină';
+
+  @override
+  String get nicknamePrefix295 => 'alb pur';
+
+  @override
+  String get nicknamePrefix296 => 'negru jet';
+
+  @override
+  String get nicknamePrefix297 => 'de aur';
+
+  @override
+  String get nicknamePrefix298 => 'argent';
+
+  @override
+  String get nicknamePrefix299 => 'sângeros';
+
+  @override
+  String get nicknameSuffix101 => 'căutător';
+
+  @override
+  String get nicknameSuffix102 => 'pelerin';
+
+  @override
+  String get nicknameSuffix103 => 'vagabond';
+
+  @override
+  String get nicknameSuffix104 => 'pustnic';
+
+  @override
+  String get nicknameSuffix105 => 'Ethan';
+
+  @override
+  String get nicknameSuffix106 => 'trădător';
+
+  @override
+  String get nicknameSuffix107 => 'pionier';
+
+  @override
+  String get nicknameSuffix108 => 'cuceritor';
+
+  @override
+  String get nicknameSuffix109 => 'riglă';
+
+  @override
+  String get nicknameSuffix110 => 'orchestrator';
+
+  @override
+  String get nicknameSuffix111 => 'tutelar';
+
+  @override
+  String get nicknameSuffix112 => 'observator';
+
+  @override
+  String get nicknameSuffix113 => 'observator';
+
+  @override
+  String get nicknameSuffix114 => 'recorder';
+
+  @override
+  String get nicknameSuffix115 => 'comunicator';
+
+  @override
+  String get nicknameSuffix116 => 'ghid';
+
+  @override
+  String get nicknameSuffix117 => 'lider';
+
+  @override
+  String get nicknameSuffix118 => 'economisitor';
+
+  @override
+  String get nicknameSuffix119 => 'distrugător';
+
+  @override
+  String get nicknameSuffix120 => 'creator';
+
+  @override
+  String get nicknameSuffix121 => 'umbră';
+
+  @override
+  String get nicknameSuffix122 => 'fantomă';
+
+  @override
+  String get nicknameSuffix123 => 'fantomă';
+
+  @override
+  String get nicknameSuffix124 => 'spiritul rău';
+
+  @override
+  String get nicknameSuffix125 => 'ordonanta guvernamentala';
+
+  @override
+  String get nicknameSuffix126 => 'zână';
+
+  @override
+  String get nicknameSuffix127 => 'fiară demon';
+
+  @override
+  String get nicknameSuffix128 => 'apa sfintita';
+
+  @override
+  String get nicknameSuffix129 => 'restituire';
+
+  @override
+  String get nicknameSuffix130 => 'Shinsu';
+
+  @override
+  String get nicknameSuffix131 => 'test';
+
+  @override
+  String get nicknameSuffix132 => 'articol';
+
+  @override
+  String get nicknameSuffix133 => 'Arcaş';
+
+  @override
+  String get nicknameSuffix134 => 'hoţ';
+
+  @override
+  String get nicknameSuffix135 => 'asasin';
+
+  @override
+  String get nicknameSuffix136 => 'vrăjitor';
+
+  @override
+  String get nicknameSuffix137 => 'powwow';
+
+  @override
+  String get nicknameSuffix138 => 'alchimist';
+
+  @override
+  String get nicknameSuffix139 => 'necromant';
+
+  @override
+  String get nicknameSuffix140 => 'preot';
+
+  @override
+  String get nicknameSuffix141 => 'savant';
+
+  @override
+  String get nicknameSuffix142 => 'cercetător';
+
+  @override
+  String get nicknameSuffix143 => 'explorator';
+
+  @override
+  String get nicknameSuffix144 => 'călător';
+
+  @override
+  String get nicknameSuffix145 => 'artist';
+
+  @override
+  String get nicknameSuffix146 => 'bufon';
+
+  @override
+  String get nicknameSuffix147 => 'bard';
+
+  @override
+  String get nicknameSuffix148 => 'comerciant';
+
+  @override
+  String get nicknameSuffix149 => 'artizan';
+
+  @override
+  String get nicknameSuffix150 => 'ţăran';
+
+  @override
+  String get nicknameSuffix151 => 'cioară';
+
+  @override
+  String get nicknameSuffix152 => 'bufniţă';
+
+  @override
+  String get nicknameSuffix153 => 'bufniţă';
+
+  @override
+  String get nicknameSuffix154 => 'vultur';
+
+  @override
+  String get nicknameSuffix155 => 'şoim';
+
+  @override
+  String get nicknameSuffix156 => 'lup';
+
+  @override
+  String get nicknameSuffix157 => 'vulpe';
+
+  @override
+  String get nicknameSuffix158 => 'urs';
+
+  @override
+  String get nicknameSuffix159 => 'leu';
+
+  @override
+  String get nicknameSuffix160 => 'tigru';
+
+  @override
+  String get nicknameSuffix161 => 'leopard';
+
+  @override
+  String get nicknameSuffix162 => 'pantera neagră';
+
+  @override
+  String get nicknameSuffix163 => 'Salsssop';
+
+  @override
+  String get nicknameSuffix164 => 'pisică';
+
+  @override
+  String get nicknameSuffix165 => 'catelus';
+
+  @override
+  String get nicknameSuffix166 => 'şarpe';
+
+  @override
+  String get nicknameSuffix167 => 'şopârlă';
+
+  @override
+  String get nicknameSuffix168 => 'broasca testoasa';
+
+  @override
+  String get nicknameSuffix169 => 'crocodil';
+
+  @override
+  String get nicknameSuffix170 => 'dragon';
+
+  @override
+  String get nicknameSuffix171 => 'inorog';
+
+  @override
+  String get nicknameSuffix172 => 'Pegasus';
+
+  @override
+  String get nicknameSuffix173 => 'grifon';
+
+  @override
+  String get nicknameSuffix174 => 'garguila';
+
+  @override
+  String get nicknameSuffix175 => 'elf';
+
+  @override
+  String get nicknameSuffix176 => 'stejar';
+
+  @override
+  String get nicknameSuffix177 => 'revenire';
+
+  @override
+  String get nicknameSuffix178 => 'melc';
+
+  @override
+  String get nicknameSuffix179 => 'slime';
+
+  @override
+  String get nicknameSuffix180 => 'schelet';
+
+  @override
+  String get nicknameSuffix181 => 'zombi';
+
+  @override
+  String get nicknameSuffix182 => 'vampir';
+
+  @override
+  String get nicknameSuffix183 => 'vampir';
+
+  @override
+  String get nicknameSuffix184 => 'vârcolac';
+
+  @override
+  String get nicknameSuffix185 => 'minotaur';
+
+  @override
+  String get nicknameSuffix186 => 'centaur';
+
+  @override
+  String get nicknameSuffix187 => 'harpie';
+
+  @override
+  String get nicknameSuffix188 => 'sirenă';
+
+  @override
+  String get nicknameSuffix189 => 'Kraken';
+
+  @override
+  String get nicknameSuffix190 => 'leviatan';
+
+  @override
+  String get nicknameSuffix191 => 'cuţit';
+
+  @override
+  String get nicknameSuffix192 => 'scut';
+
+  @override
+  String get nicknameSuffix193 => 'fereastră';
+
+  @override
+  String get nicknameSuffix194 => 'arc';
+
+  @override
+  String get nicknameSuffix195 => 'trestie de zahăr';
+
+  @override
+  String get nicknameSuffix196 => 'inel';
+
+  @override
+  String get nicknameSuffix197 => 'colier';
+
+  @override
+  String get nicknameSuffix198 => 'coroană';
+
+  @override
+  String get nicknameSuffix199 => 'Sfântul Graal';
+
+  @override
+  String get themeFree => 'Tema gratuită';
+
+  @override
+  String get themePaid => 'Tema plătită';
 }

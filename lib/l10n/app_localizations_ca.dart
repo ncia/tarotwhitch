@@ -9,74 +9,74 @@ class AppLocalizationsCa extends AppLocalizations {
   AppLocalizationsCa([String locale = 'ca']) : super(locale);
 
   @override
-  String get appTitle => 'Tarot Reading';
+  String get appTitle => 'Lectura del tarot';
 
   @override
-  String get spreadSelectionTitle => 'Select a Spread';
+  String get spreadSelectionTitle => 'Seleccioneu un Spread';
 
   @override
   String get spreadSelectionSubtitle =>
-      'Choose a tarot spread that fits your question';
+      'Trieu una extensió de tarot que s\'adapti a la vostra pregunta';
 
   @override
-  String get spreadOneCardName => 'One Card';
+  String get spreadOneCardName => 'Una targeta';
 
   @override
   String get spreadOneCardDesc =>
-      'A single card for a quick answer or daily guidance.';
+      'Una única targeta per a una resposta ràpida o orientació diària.';
 
   @override
-  String get spreadTwoCardName => 'Two Card';
+  String get spreadTwoCardName => 'Dues cartes';
 
   @override
   String get spreadTwoCardDesc =>
-      'A 2-card spread to simply grasp the current situation and advice.';
+      'Una extensió de 2 targetes per entendre simplement la situació i els consells actuals.';
 
   @override
-  String get spreadThreeCardName => 'Three Card';
+  String get spreadThreeCardName => 'Tres cartes';
 
   @override
   String get spreadThreeCardDesc =>
-      'A 3-card spread to understand the flow of past, present, and future.';
+      'Una difusió de 3 targetes per entendre el flux del passat, el present i el futur.';
 
   @override
-  String get spreadFourCardName => 'Four Card';
+  String get spreadFourCardName => 'Quatre Cartes';
 
   @override
   String get spreadFourCardDesc =>
-      'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.';
+      'Una difusió de 4 targetes per diagnosticar clarament la causa d\'un problema, obtenir consell i veure\'n el resultat.';
 
   @override
-  String get spreadFiveCardName => 'Five Card';
+  String get spreadFiveCardName => 'Cinc cartes';
 
   @override
   String get spreadFiveCardDesc =>
-      'A 5-card spread examining the core of the situation, its causes, and potential outcomes.';
+      'Una difusió de 5 targetes que examina el nucli de la situació, les seves causes i els possibles resultats.';
 
   @override
-  String get spreadCelticCrossName => 'Celtic Cross';
+  String get spreadCelticCrossName => 'Creu Celta';
 
   @override
   String get spreadCelticCrossDesc =>
-      '10 cards for an in-depth analysis of a complex problem.';
+      '10 cartes per a una anàlisi en profunditat d\'un problema complex.';
 
   @override
-  String get positionOneCard => 'Today\'s Card';
+  String get positionOneCard => 'Targeta d\'avui';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '1. Situació';
 
   @override
-  String get positionTwoCard2 => '2. Advice';
+  String get positionTwoCard2 => '2. Assessorament';
 
   @override
-  String get positionThreeCard1 => 'Past';
+  String get positionThreeCard1 => 'Passat';
 
   @override
   String get positionThreeCard2 => 'Present';
 
   @override
-  String get positionThreeCard3 => 'Future';
+  String get positionThreeCard3 => 'Futur';
 
   @override
   String get positionFourCard1 => '1. Problem';
@@ -118,7 +118,7 @@ class AppLocalizationsCa extends AppLocalizations {
   String get positionCelticCross4 => '4. The Future';
 
   @override
-  String get positionCelticCross5 => '5. Conscious';
+  String get positionCelticCross5 => '5. Conscient';
 
   @override
   String get positionCelticCross6 => '6. Subconscious';
@@ -136,16 +136,16 @@ class AppLocalizationsCa extends AppLocalizations {
   String get positionCelticCross10 => '10. Outcome';
 
   @override
-  String get navReading => 'Lectura de Tarot';
+  String get navReading => 'lectura del tarot';
 
   @override
-  String get navChat => 'Xat de Tarot';
+  String get navChat => 'xat de tarot';
 
   @override
-  String get navMeanings => 'Significats';
+  String get navMeanings => 'significat de la targeta';
 
   @override
-  String get navMyMenu => 'My Menu';
+  String get navMyMenu => 'el meu menú';
 
   @override
   String get readingIntroTitle => 'Xiuxiueigs del\nDestí';
@@ -1207,4 +1207,1722 @@ class AppLocalizationsCa extends AppLocalizations {
   @override
   String get chatProfileTapHint =>
       'Toca la imatge de perfil per veure els detalls';
+
+  @override
+  String get themeName1 => 'Theme 1';
+
+  @override
+  String get themeName2 => 'Tema 2';
+
+  @override
+  String get themeName3 => 'Theme 3';
+
+  @override
+  String get themeMagicBook => 'Magic Book';
+
+  @override
+  String get themeBlackCat => 'Black Cat';
+
+  @override
+  String get themeEmptyPaidThemes =>
+      'Compra temes a la botiga\nto fill this space!';
+
+  @override
+  String get shopThemePurchaseTitle => 'Purchase Theme';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return 'Vols comprar el tema $skinName per monedes de $cost?';
+  }
+
+  @override
+  String get shopCancel => 'Cancel·la';
+
+  @override
+  String get shopPurchase => 'Compra';
+
+  @override
+  String get shopAlreadyOwned =>
+      'Ja en posseeix. Proveu d\'aplicar-lo a la configuració del tema!';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return '$skinName s\'ha comprat correctament! Comproveu la configuració del tema.';
+  }
+
+  @override
+  String get shopNotEnoughCoins => 'No hi ha prou monedes.';
+
+  @override
+  String get shopOwned => 'Propietat';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost monedes';
+  }
+
+  @override
+  String get navDiary => 'diari del tarot';
+
+  @override
+  String get myMenuFirebaseNotConnected => 'Firebase no connectat';
+
+  @override
+  String get myMenuWindowsSetupNeeded =>
+      'Necessita configuració de Windows (visualització prèvia)';
+
+  @override
+  String get myMenuTouchToViewLogin =>
+      'Toqueu per veure la interfície d\'usuari d\'inici de sessió';
+
+  @override
+  String get myMenuNoName => 'Sense Nom';
+
+  @override
+  String get myMenuPleaseLogin => 'Si us plau, inicieu sessió';
+
+  @override
+  String get myMenuTouchToSignupLogin =>
+      'Toqueu per registrar-vos i iniciar sessió';
+
+  @override
+  String get myMenuSectionMyRecords => 'Els meus registres';
+
+  @override
+  String get myMenuDiaryStorage => 'Emmagatzematge del diari';
+
+  @override
+  String get myMenuCheckSavedDiary => 'Comproveu els vostres diaris guardats.';
+
+  @override
+  String get myMenuFavoriteCards => 'Targetes preferides';
+
+  @override
+  String get myMenuMyFavoriteCardsList =>
+      'Llista de les meves cartes preferides';
+
+  @override
+  String get myMenuSectionAppSettings => 'Configuració de l\'aplicació';
+
+  @override
+  String get myMenuPushNotifications => 'Notificacions push';
+
+  @override
+  String get myMenuPushNotificationsDesc => 'Nous horòscops i esdeveniments';
+
+  @override
+  String get myMenuLanguageSettings => 'Configuració d\'idioma';
+
+  @override
+  String get myMenuThemeSettings => 'Configuració del tema';
+
+  @override
+  String get myMenuChangeBackground => 'Canvia la imatge de fons';
+
+  @override
+  String get myMenuSectionCustomerSupport => 'Atenció al client';
+
+  @override
+  String get myMenuFaq => 'Preguntes freqüents';
+
+  @override
+  String get myMenuAppInfo => 'Informació de l\'aplicació';
+
+  @override
+  String get myMenuSectionAccountManagement => 'Gestió de comptes';
+
+  @override
+  String get myMenuLogout => 'Tanca la sessió';
+
+  @override
+  String get myMenuLogoutDesc => 'Tanqueu la sessió del dispositiu actual.';
+
+  @override
+  String get myMenuEmailVerifiedMsg =>
+      'Verificació del correu electrònic confirmada! ✨';
+
+  @override
+  String get myMenuEmailSendTitle =>
+      'Envia un correu electrònic de verificació';
+
+  @override
+  String get myMenuEmailSendContent =>
+      'S\'ha enviat un correu electrònic de verificació.\nSi us plau, comproveu la vostra safata d\'entrada, feu clic a l\'enllaç i torneu a prémer aquest botó!';
+
+  @override
+  String get myMenuConfirm => 'Confirmeu';
+
+  @override
+  String get myMenuEmailErrorMsg =>
+      'S\'han produït massa sol·licituds o un error.';
+
+  @override
+  String get myMenuEmailVerified => 'Correu electrònic verificat';
+
+  @override
+  String get myMenuEmailNotVerified =>
+      'Correu electrònic no verificat (toqueu per verificar)';
+
+  @override
+  String get languageSystemDefault => 'Sistema per defecte';
+
+  @override
+  String get shopTitle => 'Botiga';
+
+  @override
+  String get shopSubtitle => 'Compra monedes i temes';
+
+  @override
+  String get shopTabCoin => 'Moneda';
+
+  @override
+  String get shopTabTheme => 'Tema';
+
+  @override
+  String get shopPayButton => 'Pagar';
+
+  @override
+  String get themeOriginalDeck => 'Taula clàssica original';
+
+  @override
+  String get themeGoldenSunDeck => 'Solàrium daurat';
+
+  @override
+  String get themeDarkAbyssDeck => 'Baralla Dark Abyss';
+
+  @override
+  String get themeSpringSpiritDeck => 'Spring Spirit Deck';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return 'El pagament de $coins monedes es farà aviat.';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return 'La compra/sol·licitud de $name arribarà aviat.';
+  }
+
+  @override
+  String get readingIntroSelectWitch =>
+      'Selecciona una bruixa per veure el teu destí';
+
+  @override
+  String get readingIntroGreeting =>
+      'Quin destí mirarem?\nTinc curiositat pel teu futur.';
+
+  @override
+  String get readingIntroStart => 'Seleccioneu Spread';
+
+  @override
+  String get tabMajorArcana => 'Arcans Majors';
+
+  @override
+  String get tabMinorArcana => 'Arcans menors';
+
+  @override
+  String get nicknamePrefix0 => 'ocult';
+
+  @override
+  String get nicknamePrefix1 => 'serena';
+
+  @override
+  String get nicknamePrefix2 => 'sant';
+
+  @override
+  String get nicknamePrefix3 => 'fosc';
+
+  @override
+  String get nicknamePrefix4 => 'brillant';
+
+  @override
+  String get nicknamePrefix5 => 'desolador';
+
+  @override
+  String get nicknamePrefix6 => 'calent';
+
+  @override
+  String get nicknamePrefix7 => 'fascinant';
+
+  @override
+  String get nicknamePrefix8 => 'cruel';
+
+  @override
+  String get nicknamePrefix9 => 'pur';
+
+  @override
+  String get nicknamePrefix10 => 'dur';
+
+  @override
+  String get nicknamePrefix11 => 'suau';
+
+  @override
+  String get nicknamePrefix12 => 'bonic';
+
+  @override
+  String get nicknamePrefix13 => 'estrany';
+
+  @override
+  String get nicknamePrefix14 => 'gran';
+
+  @override
+  String get nicknamePrefix15 => 'cutre';
+
+  @override
+  String get nicknamePrefix16 => 'etern';
+
+  @override
+  String get nicknamePrefix17 => 'oblidat';
+
+  @override
+  String get nicknamePrefix18 => 'brillant';
+
+  @override
+  String get nicknamePrefix19 => 'trist';
+
+  @override
+  String get nicknamePrefix20 => 'content';
+
+  @override
+  String get nicknamePrefix21 => 'somiadora';
+
+  @override
+  String get nicknamePrefix22 => 'caigut';
+
+  @override
+  String get nicknamePrefix23 => 'blanc pur';
+
+  @override
+  String get nicknamePrefix24 => 'negre azabaça';
+
+  @override
+  String get nicknamePrefix25 => 'sagnant';
+
+  @override
+  String get nicknamePrefix26 => 'grisenc';
+
+  @override
+  String get nicknamePrefix27 => 'daurat';
+
+  @override
+  String get nicknamePrefix28 => 'argent';
+
+  @override
+  String get nicknamePrefix29 => 'blau';
+
+  @override
+  String get nicknamePrefix30 => 'vermell';
+
+  @override
+  String get nicknamePrefix31 => 'groc';
+
+  @override
+  String get nicknamePrefix32 => 'negre';
+
+  @override
+  String get nicknamePrefix33 => 'blanc';
+
+  @override
+  String get nicknamePrefix34 => 'transparent';
+
+  @override
+  String get nicknamePrefix35 => 'solitària';
+
+  @override
+  String get nicknamePrefix36 => 'sorollós';
+
+  @override
+  String get nicknamePrefix37 => 'tranquil';
+
+  @override
+  String get nicknamePrefix38 => 'càlid';
+
+  @override
+  String get nicknamePrefix39 => 'gelada';
+
+  @override
+  String get nicknamePrefix40 => 'solitari';
+
+  @override
+  String get nicknamePrefix41 => 'solitària';
+
+  @override
+  String get nicknamePrefix42 => 'feliç';
+
+  @override
+  String get nicknamePrefix43 => 'feliç';
+
+  @override
+  String get nicknamePrefix44 => 'ombrívol';
+
+  @override
+  String get nicknamePrefix45 => 'desesperada';
+
+  @override
+  String get nicknamePrefix46 => 'esperançador';
+
+  @override
+  String get nicknamePrefix47 => 'enlluernador';
+
+  @override
+  String get nicknamePrefix48 => 'fosc';
+
+  @override
+  String get nicknamePrefix49 => 'mitjanit';
+
+  @override
+  String get nicknamePrefix50 => 'desolada';
+
+  @override
+  String get nicknamePrefix51 => 'secret';
+
+  @override
+  String get nicknamePrefix52 => 'secret';
+
+  @override
+  String get nicknamePrefix53 => 'sagrat';
+
+  @override
+  String get nicknamePrefix54 => 'profana';
+
+  @override
+  String get nicknamePrefix55 => 'superior';
+
+  @override
+  String get nicknamePrefix56 => 'modest';
+
+  @override
+  String get nicknamePrefix57 => 'savi';
+
+  @override
+  String get nicknamePrefix58 => 'ximple';
+
+  @override
+  String get nicknamePrefix59 => 'dur';
+
+  @override
+  String get nicknamePrefix60 => 'feble';
+
+  @override
+  String get nicknamePrefix61 => 'valent';
+
+  @override
+  String get nicknamePrefix62 => 'miserable';
+
+  @override
+  String get nicknamePrefix63 => 'Llunyà';
+
+  @override
+  String get nicknamePrefix64 => 'prop';
+
+  @override
+  String get nicknamePrefix65 => 'allunyant-se';
+
+  @override
+  String get nicknamePrefix66 => 's\'acosta';
+
+  @override
+  String get nicknamePrefix67 => 'desapareixent';
+
+  @override
+  String get nicknamePrefix68 => 'emergent';
+
+  @override
+  String get nicknamePrefix69 => 'despertat';
+
+  @override
+  String get nicknamePrefix70 => 'adormit';
+
+  @override
+  String get nicknamePrefix71 => 'somiant';
+
+  @override
+  String get nicknamePrefix72 => 'errant';
+
+  @override
+  String get nicknamePrefix73 => 'errant';
+
+  @override
+  String get nicknamePrefix74 => 'quedar-se';
+
+  @override
+  String get nicknamePrefix75 => 'marxant';
+
+  @override
+  String get nicknamePrefix76 => 'tornant';
+
+  @override
+  String get nicknamePrefix77 => 'esperant';
+
+  @override
+  String get nicknamePrefix78 => 'buscant';
+
+  @override
+  String get nicknamePrefix79 => 'críptic';
+
+  @override
+  String get nicknamePrefix80 => 'exposat';
+
+  @override
+  String get nicknamePrefix81 => 'abandonat';
+
+  @override
+  String get nicknamePrefix82 => 'seleccionat';
+
+  @override
+  String get nicknamePrefix83 => 'beneït';
+
+  @override
+  String get nicknamePrefix84 => 'maleït';
+
+  @override
+  String get nicknamePrefix85 => 'estimat';
+
+  @override
+  String get nicknamePrefix86 => 'odiat';
+
+  @override
+  String get nicknamePrefix87 => 'recorda';
+
+  @override
+  String get nicknamePrefix88 => 'inconscient';
+
+  @override
+  String get nicknamePrefix89 => 'llum de les estrelles';
+
+  @override
+  String get nicknamePrefix90 => 'clar de lluna';
+
+  @override
+  String get nicknamePrefix91 => 'de la llum solar';
+
+  @override
+  String get nicknamePrefix92 => 'còsmic';
+
+  @override
+  String get nicknamePrefix93 => 'de la terra';
+
+  @override
+  String get nicknamePrefix94 => 'del mar';
+
+  @override
+  String get nicknamePrefix95 => 'celestial';
+
+  @override
+  String get nicknamePrefix96 => 'dels núvols';
+
+  @override
+  String get nicknamePrefix97 => 'del vent';
+
+  @override
+  String get nicknamePrefix98 => 'pluja';
+
+  @override
+  String get nicknamePrefix99 => 'de l\'ull';
+
+  @override
+  String get nicknamePrefix100 => 'gelada';
+
+  @override
+  String get nicknamePrefix101 => 'ardent';
+
+  @override
+  String get nicknamePrefix102 => 'aigua';
+
+  @override
+  String get nicknamePrefix103 => 'terra';
+
+  @override
+  String get nicknamePrefix104 => 'fusta';
+
+  @override
+  String get nicknamePrefix105 => 'bosc';
+
+  @override
+  String get nicknamePrefix106 => 'muntanyosa';
+
+  @override
+  String get nicknamePrefix107 => 'conferència';
+
+  @override
+  String get nicknamePrefix108 => 'del llac';
+
+  @override
+  String get nicknamePrefix109 => 'del temps';
+
+  @override
+  String get nicknamePrefix110 => 'de l\'espai';
+
+  @override
+  String get nicknamePrefix111 => 'dimensió';
+
+  @override
+  String get nicknamePrefix112 => 'fatídic';
+
+  @override
+  String get nicknamePrefix113 => 'fatídic';
+
+  @override
+  String get nicknamePrefix114 => 'miraculós';
+
+  @override
+  String get nicknamePrefix115 => 'màgic';
+
+  @override
+  String get nicknamePrefix116 => 'mític';
+
+  @override
+  String get nicknamePrefix117 => 'llegendari';
+
+  @override
+  String get nicknamePrefix118 => 'de la veritat';
+
+  @override
+  String get nicknamePrefix119 => 'fals';
+
+  @override
+  String get nicknamePrefix120 => 'fantasia';
+
+  @override
+  String get nicknamePrefix121 => 'somni';
+
+  @override
+  String get nicknamePrefix122 => 'malson';
+
+  @override
+  String get nicknamePrefix123 => 'ruïna';
+
+  @override
+  String get nicknamePrefix124 => 'de la creació';
+
+  @override
+  String get nicknamePrefix125 => 'de la vida';
+
+  @override
+  String get nicknamePrefix126 => 'de la mort';
+
+  @override
+  String get nicknamePrefix127 => 'ànima';
+
+  @override
+  String get nicknamePrefix128 => 'físic';
+
+  @override
+  String get nicknamePrefix129 => 'de la raó';
+
+  @override
+  String get nicknamePrefix130 => 'emocional';
+
+  @override
+  String get nicknamePrefix131 => 'd\'amor';
+
+  @override
+  String get nicknamePrefix132 => 'd\'odi';
+
+  @override
+  String get nicknamePrefix133 => 'de tristesa';
+
+  @override
+  String get nicknamePrefix134 => 'd\'alegria';
+
+  @override
+  String get nicknamePrefix135 => 'enfadat';
+
+  @override
+  String get nicknamePrefix136 => 'de pau';
+
+  @override
+  String get nicknamePrefix137 => 'de guerra';
+
+  @override
+  String get nicknamePrefix138 => 'caos';
+
+  @override
+  String get nicknamePrefix139 => 'ordenada';
+
+  @override
+  String get nicknamePrefix140 => 'de llum';
+
+  @override
+  String get nicknamePrefix141 => 'fosc';
+
+  @override
+  String get nicknamePrefix142 => 'crepuscle';
+
+  @override
+  String get nicknamePrefix143 => 'alba';
+
+  @override
+  String get nicknamePrefix144 => 'migdia';
+
+  @override
+  String get nicknamePrefix145 => 'mitjanit';
+
+  @override
+  String get nicknamePrefix146 => 'passat';
+
+  @override
+  String get nicknamePrefix147 => 'present';
+
+  @override
+  String get nicknamePrefix148 => 'futur';
+
+  @override
+  String get nicknamePrefix149 => 'd\'origen';
+
+  @override
+  String get nicknamePrefix150 => 'apocalíptic';
+
+  @override
+  String get nicknamePrefix151 => 'infinit';
+
+  @override
+  String get nicknamePrefix152 => 'finit';
+
+  @override
+  String get nicknamePrefix153 => 'en silenci';
+
+  @override
+  String get nicknamePrefix154 => 'de soroll';
+
+  @override
+  String get nicknamePrefix155 => 'cantant';
+
+  @override
+  String get nicknamePrefix156 => 'ballant';
+
+  @override
+  String get nicknamePrefix157 => 'plorant';
+
+  @override
+  String get nicknamePrefix158 => 'somrient';
+
+  @override
+  String get nicknamePrefix159 => 'xiuxiuejant';
+
+  @override
+  String get nicknamePrefix160 => 'plorant';
+
+  @override
+  String get nicknamePrefix161 => 'pregant';
+
+  @override
+  String get nicknamePrefix162 => 'suplicant';
+
+  @override
+  String get nicknamePrefix163 => 'manant';
+
+  @override
+  String get nicknamePrefix164 => 'submisos';
+
+  @override
+  String get nicknamePrefix165 => 'sentència';
+
+  @override
+  String get nicknamePrefix166 => 'servir';
+
+  @override
+  String get nicknamePrefix167 => 'guiant';
+
+  @override
+  String get nicknamePrefix168 => 'acompanyant';
+
+  @override
+  String get nicknamePrefix169 => 'l\'ensenyament';
+
+  @override
+  String get nicknamePrefix170 => 'aprenentatge';
+
+  @override
+  String get nicknamePrefix171 => 'de memòria';
+
+  @override
+  String get nicknamePrefix172 => 'de records';
+
+  @override
+  String get nicknamePrefix173 => 'de ferides';
+
+  @override
+  String get nicknamePrefix174 => 'curació';
+
+  @override
+  String get nicknamePrefix175 => 'verinós';
+
+  @override
+  String get nicknamePrefix176 => 'medicament';
+
+  @override
+  String get nicknamePrefix177 => 'benvinguts';
+
+  @override
+  String get nicknamePrefix178 => 'de substància';
+
+  @override
+  String get nicknamePrefix179 => 'ideal';
+
+  @override
+  String get nicknamePrefix180 => 'real';
+
+  @override
+  String get nicknamePrefix181 => 'imaginari';
+
+  @override
+  String get nicknamePrefix182 => 'natural';
+
+  @override
+  String get nicknamePrefix183 => 'artificial';
+
+  @override
+  String get nicknamePrefix184 => 'al principi';
+
+  @override
+  String get nicknamePrefix185 => 'eternitat';
+
+  @override
+  String get nicknamePrefix186 => 'del moment';
+
+  @override
+  String get nicknamePrefix187 => 'fugaç';
+
+  @override
+  String get nicknamePrefix188 => 'etern';
+
+  @override
+  String get nicknamePrefix189 => 'de canvi';
+
+  @override
+  String get nicknamePrefix190 => 'encara';
+
+  @override
+  String get nicknamePrefix191 => 'fluint';
+
+  @override
+  String get nicknamePrefix192 => 'desgast';
+
+  @override
+  String get nicknamePrefix193 => 'ardent';
+
+  @override
+  String get nicknamePrefix194 => 'refredant-se';
+
+  @override
+  String get nicknamePrefix195 => 'florint';
+
+  @override
+  String get nicknamePrefix196 => 'marceixent';
+
+  @override
+  String get nicknamePrefix197 => 'creixent';
+
+  @override
+  String get nicknamePrefix198 => 'morint';
+
+  @override
+  String get nicknamePrefix199 => 'la respiració';
+
+  @override
+  String get nicknamePrefix200 => 'sufocant';
+
+  @override
+  String get nicknameSuffix0 => 'profeta';
+
+  @override
+  String get nicknameSuffix1 => 'assistent';
+
+  @override
+  String get nicknameSuffix2 => 'bruixa';
+
+  @override
+  String get nicknameSuffix3 => 'article';
+
+  @override
+  String get nicknameSuffix4 => 'guerrer';
+
+  @override
+  String get nicknameSuffix5 => 'Arquer';
+
+  @override
+  String get nicknameSuffix6 => 'lladre';
+
+  @override
+  String get nicknameSuffix7 => 'assassí';
+
+  @override
+  String get nicknameSuffix8 => 'paladí';
+
+  @override
+  String get nicknameSuffix9 => 'sacerdot';
+
+  @override
+  String get nicknameSuffix10 => 'sacerdotessa';
+
+  @override
+  String get nicknameSuffix11 => 'monjo';
+
+  @override
+  String get nicknameSuffix12 => 'powow';
+
+  @override
+  String get nicknameSuffix13 => 'alquimista';
+
+  @override
+  String get nicknameSuffix14 => 'nigromant';
+
+  @override
+  String get nicknameSuffix15 => 'espiritista';
+
+  @override
+  String get nicknameSuffix16 => 'invocador';
+
+  @override
+  String get nicknameSuffix17 => 'il·lusionista';
+
+  @override
+  String get nicknameSuffix18 => 'curandero';
+
+  @override
+  String get nicknameSuffix19 => 'home savi';
+
+  @override
+  String get nicknameSuffix20 => 'erudit';
+
+  @override
+  String get nicknameSuffix21 => 'investigador';
+
+  @override
+  String get nicknameSuffix22 => 'explorador';
+
+  @override
+  String get nicknameSuffix23 => 'viatger';
+
+  @override
+  String get nicknameSuffix24 => 'vagabund';
+
+  @override
+  String get nicknameSuffix25 => 'vagabund';
+
+  @override
+  String get nicknameSuffix26 => 'pelegrí';
+
+  @override
+  String get nicknameSuffix27 => 'cercador';
+
+  @override
+  String get nicknameSuffix28 => 'observador';
+
+  @override
+  String get nicknameSuffix29 => 'gravadora';
+
+  @override
+  String get nicknameSuffix30 => 'comunicador';
+
+  @override
+  String get nicknameSuffix31 => 'tutelar';
+
+  @override
+  String get nicknameSuffix32 => 'guardià';
+
+  @override
+  String get nicknameSuffix33 => 'guàrdia';
+
+  @override
+  String get nicknameSuffix34 => 'porter';
+
+  @override
+  String get nicknameSuffix35 => 'jutge';
+
+  @override
+  String get nicknameSuffix36 => 'agutzil';
+
+  @override
+  String get nicknameSuffix37 => 'governador';
+
+  @override
+  String get nicknameSuffix38 => 'governant';
+
+  @override
+  String get nicknameSuffix39 => 'rei';
+
+  @override
+  String get nicknameSuffix40 => 'reina';
+
+  @override
+  String get nicknameSuffix41 => 'emperador';
+
+  @override
+  String get nicknameSuffix42 => 'emperadriu';
+
+  @override
+  String get nicknameSuffix43 => 'noblesa';
+
+  @override
+  String get nicknameSuffix44 => 'residència permanent';
+
+  @override
+  String get nicknameSuffix45 => 'cavaller comandant';
+
+  @override
+  String get nicknameSuffix46 => 'mercenari';
+
+  @override
+  String get nicknameSuffix47 => 'pirata';
+
+  @override
+  String get nicknameSuffix48 => 'lladre';
+
+  @override
+  String get nicknameSuffix49 => 'frau';
+
+  @override
+  String get nicknameSuffix50 => 'bufó';
+
+  @override
+  String get nicknameSuffix51 => 'ximple';
+
+  @override
+  String get nicknameSuffix52 => 'ermità';
+
+  @override
+  String get nicknameSuffix53 => 'heretge';
+
+  @override
+  String get nicknameSuffix54 => 'traïdor';
+
+  @override
+  String get nicknameSuffix55 => 'traïdor';
+
+  @override
+  String get nicknameSuffix56 => 'heroi';
+
+  @override
+  String get nicknameSuffix57 => 'estalviador';
+
+  @override
+  String get nicknameSuffix58 => 'alliberador';
+
+  @override
+  String get nicknameSuffix59 => 'destructor';
+
+  @override
+  String get nicknameSuffix60 => 'creador';
+
+  @override
+  String get nicknameSuffix61 => 'déu';
+
+  @override
+  String get nicknameSuffix62 => 'deessa';
+
+  @override
+  String get nicknameSuffix63 => 'àngel';
+
+  @override
+  String get nicknameSuffix64 => 'diable';
+
+  @override
+  String get nicknameSuffix65 => 'ordenança governamental';
+
+  @override
+  String get nicknameSuffix66 => 'fada';
+
+  @override
+  String get nicknameSuffix67 => 'monstre';
+
+  @override
+  String get nicknameSuffix68 => 'bèstia dimoni';
+
+  @override
+  String get nicknameSuffix69 => 'drac';
+
+  @override
+  String get nicknameSuffix70 => 'fantasma';
+
+  @override
+  String get nicknameSuffix71 => 'ombra';
+
+  @override
+  String get nicknameSuffix72 => 'no morts';
+
+  @override
+  String get nicknameSuffix73 => 'vampir';
+
+  @override
+  String get nicknameSuffix74 => 'home llop';
+
+  @override
+  String get nicknameSuffix75 => 'sirena';
+
+  @override
+  String get nicknameSuffix76 => 'sirena';
+
+  @override
+  String get nicknameSuffix77 => 'nimfa';
+
+  @override
+  String get nicknameSuffix78 => 'follet';
+
+  @override
+  String get nicknameSuffix79 => 'roure';
+
+  @override
+  String get nicknameSuffix80 => 'troll';
+
+  @override
+  String get nicknameSuffix81 => 'elf';
+
+  @override
+  String get nicknameSuffix82 => 'nan';
+
+  @override
+  String get nicknameSuffix83 => 'gegant';
+
+  @override
+  String get nicknameSuffix84 => 'segell postal';
+
+  @override
+  String get nicknameSuffix85 => 'ésser humà';
+
+  @override
+  String get nicknameSuffix86 => 'presoner';
+
+  @override
+  String get nicknameSuffix87 => 'signatura';
+
+  @override
+  String get nicknameSuffix88 => 'Home peix';
+
+  @override
+  String get nicknameSuffix89 => 'empleat';
+
+  @override
+  String get nicknameSuffix90 => 'mal esperit';
+
+  @override
+  String get nicknameSuffix91 => 'Sura';
+
+  @override
+  String get nicknameSuffix92 => 'l\'infern';
+
+  @override
+  String get nicknameSuffix93 => 'el cel';
+
+  @override
+  String get nicknameSuffix94 => 'inframón';
+
+  @override
+  String get nicknameSuffix95 => 'Un altre món';
+
+  @override
+  String get nicknameSuffix96 => 'avenc';
+
+  @override
+  String get nicknameSuffix97 => 'caos';
+
+  @override
+  String get nicknameSuffix98 => 'ordre';
+
+  @override
+  String get nicknameSuffix99 => 'llum';
+
+  @override
+  String get nicknameSuffix100 => 'fosc';
+
+  @override
+  String get nicknamePrefix201 => 'brillant';
+
+  @override
+  String get nicknamePrefix202 => 'subtil';
+
+  @override
+  String get nicknamePrefix203 => 'borrosa';
+
+  @override
+  String get nicknamePrefix204 => 'desmaiar';
+
+  @override
+  String get nicknamePrefix205 => 'transparent';
+
+  @override
+  String get nicknamePrefix206 => 'desmaiar';
+
+  @override
+  String get nicknamePrefix207 => 'enlluernador';
+
+  @override
+  String get nicknamePrefix208 => 'estrany';
+
+  @override
+  String get nicknamePrefix209 => 'peculiar';
+
+  @override
+  String get nicknamePrefix210 => 'especial';
+
+  @override
+  String get nicknamePrefix211 => 'noble';
+
+  @override
+  String get nicknamePrefix212 => 'pur';
+
+  @override
+  String get nicknamePrefix213 => 'caigut';
+
+  @override
+  String get nicknamePrefix214 => 'solitària';
+
+  @override
+  String get nicknamePrefix215 => 'solitària';
+
+  @override
+  String get nicknamePrefix216 => 'desolada';
+
+  @override
+  String get nicknamePrefix217 => 'Llunyà';
+
+  @override
+  String get nicknamePrefix218 => 'dur';
+
+  @override
+  String get nicknamePrefix219 => 'despietat';
+
+  @override
+  String get nicknamePrefix220 => 'cruel';
+
+  @override
+  String get nicknamePrefix221 => 'gran';
+
+  @override
+  String get nicknamePrefix222 => 'dur';
+
+  @override
+  String get nicknamePrefix223 => 'ferm';
+
+  @override
+  String get nicknamePrefix224 => 'sinuós';
+
+  @override
+  String get nicknamePrefix225 => 'ràpid';
+
+  @override
+  String get nicknamePrefix226 => 'lent';
+
+  @override
+  String get nicknamePrefix227 => 'en silenci';
+
+  @override
+  String get nicknamePrefix228 => 'en el caos';
+
+  @override
+  String get nicknamePrefix229 => 'a la memòria';
+
+  @override
+  String get nicknamePrefix230 => 'imaginari';
+
+  @override
+  String get nicknamePrefix231 => 'en silenci';
+
+  @override
+  String get nicknamePrefix232 => 'xiuxiuejant';
+
+  @override
+  String get nicknamePrefix233 => 'cantant';
+
+  @override
+  String get nicknamePrefix234 => 'ballant';
+
+  @override
+  String get nicknamePrefix235 => 'plorant';
+
+  @override
+  String get nicknamePrefix236 => 'somrient';
+
+  @override
+  String get nicknamePrefix237 => 'burlant';
+
+  @override
+  String get nicknamePrefix238 => 'contemplant';
+
+  @override
+  String get nicknamePrefix239 => 'errant';
+
+  @override
+  String get nicknamePrefix240 => 'errant';
+
+  @override
+  String get nicknamePrefix241 => 'despert';
+
+  @override
+  String get nicknamePrefix242 => 'adormit';
+
+  @override
+  String get nicknamePrefix243 => 'somiant';
+
+  @override
+  String get nicknamePrefix244 => 'somiant despert';
+
+  @override
+  String get nicknamePrefix245 => 'delirant';
+
+  @override
+  String get nicknamePrefix246 => 'pregant';
+
+  @override
+  String get nicknamePrefix247 => 'seriós';
+
+  @override
+  String get nicknamePrefix248 => 'trista';
+
+  @override
+  String get nicknamePrefix249 => 'miserable';
+
+  @override
+  String get nicknamePrefix250 => 'sublim';
+
+  @override
+  String get nicknamePrefix251 => 'malvat';
+
+  @override
+  String get nicknamePrefix252 => 'vol dir';
+
+  @override
+  String get nicknamePrefix253 => 'arrogant';
+
+  @override
+  String get nicknamePrefix254 => 'modest';
+
+  @override
+  String get nicknamePrefix255 => 'aficionat';
+
+  @override
+  String get nicknamePrefix256 => 'càlid';
+
+  @override
+  String get nicknamePrefix257 => 'fresc';
+
+  @override
+  String get nicknamePrefix258 => 'fred';
+
+  @override
+  String get nicknamePrefix259 => 'estrany';
+
+  @override
+  String get nicknamePrefix260 => 'estrany';
+
+  @override
+  String get nicknamePrefix261 => 'embadalit';
+
+  @override
+  String get nicknamePrefix262 => 'fascinant';
+
+  @override
+  String get nicknamePrefix263 => 'vertiginós';
+
+  @override
+  String get nicknamePrefix264 => 'dolça';
+
+  @override
+  String get nicknamePrefix265 => 'amarg';
+
+  @override
+  String get nicknamePrefix266 => 'amarg';
+
+  @override
+  String get nicknamePrefix267 => 'pues';
+
+  @override
+  String get nicknamePrefix268 => 'agut';
+
+  @override
+  String get nicknamePrefix269 => 'avorrit';
+
+  @override
+  String get nicknamePrefix270 => 'dur';
+
+  @override
+  String get nicknamePrefix271 => 'suau';
+
+  @override
+  String get nicknamePrefix272 => 'acollidor';
+
+  @override
+  String get nicknamePrefix273 => 'còmode';
+
+  @override
+  String get nicknamePrefix274 => 'precari';
+
+  @override
+  String get nicknamePrefix275 => 'incòmode';
+
+  @override
+  String get nicknamePrefix276 => 'calma';
+
+  @override
+  String get nicknamePrefix277 => 'calma';
+
+  @override
+  String get nicknamePrefix278 => 'adormit';
+
+  @override
+  String get nicknamePrefix279 => 'avorrit';
+
+  @override
+  String get nicknamePrefix280 => 'apassionat';
+
+  @override
+  String get nicknamePrefix281 => 'indiferent';
+
+  @override
+  String get nicknamePrefix282 => 'tranquil';
+
+  @override
+  String get nicknamePrefix283 => 'violents';
+
+  @override
+  String get nicknamePrefix284 => 'ferotge';
+
+  @override
+  String get nicknamePrefix285 => 'boig';
+
+  @override
+  String get nicknamePrefix286 => 'tornat boig';
+
+  @override
+  String get nicknamePrefix287 => 'racional';
+
+  @override
+  String get nicknamePrefix288 => 'emocional';
+
+  @override
+  String get nicknamePrefix289 => 'amb el cap fred';
+
+  @override
+  String get nicknamePrefix290 => 'sensata';
+
+  @override
+  String get nicknamePrefix291 => 'ximple';
+
+  @override
+  String get nicknamePrefix292 => 'innocent';
+
+  @override
+  String get nicknamePrefix293 => 'astúcia';
+
+  @override
+  String get nicknamePrefix294 => 'serpentina';
+
+  @override
+  String get nicknamePrefix295 => 'blanc pur';
+
+  @override
+  String get nicknamePrefix296 => 'negre azabaça';
+
+  @override
+  String get nicknamePrefix297 => 'daurat';
+
+  @override
+  String get nicknamePrefix298 => 'argent';
+
+  @override
+  String get nicknamePrefix299 => 'sagnant';
+
+  @override
+  String get nicknameSuffix101 => 'cercador';
+
+  @override
+  String get nicknameSuffix102 => 'pelegrí';
+
+  @override
+  String get nicknameSuffix103 => 'vagabund';
+
+  @override
+  String get nicknameSuffix104 => 'ermità';
+
+  @override
+  String get nicknameSuffix105 => 'Ethan';
+
+  @override
+  String get nicknameSuffix106 => 'traïdor';
+
+  @override
+  String get nicknameSuffix107 => 'pionera';
+
+  @override
+  String get nicknameSuffix108 => 'conqueridor';
+
+  @override
+  String get nicknameSuffix109 => 'governant';
+
+  @override
+  String get nicknameSuffix110 => 'orquestrador';
+
+  @override
+  String get nicknameSuffix111 => 'tutelar';
+
+  @override
+  String get nicknameSuffix112 => 'observador';
+
+  @override
+  String get nicknameSuffix113 => 'observador';
+
+  @override
+  String get nicknameSuffix114 => 'gravadora';
+
+  @override
+  String get nicknameSuffix115 => 'comunicador';
+
+  @override
+  String get nicknameSuffix116 => 'guia';
+
+  @override
+  String get nicknameSuffix117 => 'líder';
+
+  @override
+  String get nicknameSuffix118 => 'estalviador';
+
+  @override
+  String get nicknameSuffix119 => 'destructor';
+
+  @override
+  String get nicknameSuffix120 => 'creador';
+
+  @override
+  String get nicknameSuffix121 => 'ombra';
+
+  @override
+  String get nicknameSuffix122 => 'fantasma';
+
+  @override
+  String get nicknameSuffix123 => 'fantasma';
+
+  @override
+  String get nicknameSuffix124 => 'mal esperit';
+
+  @override
+  String get nicknameSuffix125 => 'ordenança governamental';
+
+  @override
+  String get nicknameSuffix126 => 'fada';
+
+  @override
+  String get nicknameSuffix127 => 'bèstia dimoni';
+
+  @override
+  String get nicknameSuffix128 => 'aigua beneïda';
+
+  @override
+  String get nicknameSuffix129 => 'reemborsament';
+
+  @override
+  String get nicknameSuffix130 => 'Shinsu';
+
+  @override
+  String get nicknameSuffix131 => 'prova';
+
+  @override
+  String get nicknameSuffix132 => 'article';
+
+  @override
+  String get nicknameSuffix133 => 'Arquer';
+
+  @override
+  String get nicknameSuffix134 => 'lladre';
+
+  @override
+  String get nicknameSuffix135 => 'assassí';
+
+  @override
+  String get nicknameSuffix136 => 'assistent';
+
+  @override
+  String get nicknameSuffix137 => 'powow';
+
+  @override
+  String get nicknameSuffix138 => 'alquimista';
+
+  @override
+  String get nicknameSuffix139 => 'nigromant';
+
+  @override
+  String get nicknameSuffix140 => 'sacerdot';
+
+  @override
+  String get nicknameSuffix141 => 'erudit';
+
+  @override
+  String get nicknameSuffix142 => 'investigador';
+
+  @override
+  String get nicknameSuffix143 => 'explorador';
+
+  @override
+  String get nicknameSuffix144 => 'viatger';
+
+  @override
+  String get nicknameSuffix145 => 'artista';
+
+  @override
+  String get nicknameSuffix146 => 'bufó';
+
+  @override
+  String get nicknameSuffix147 => 'bard';
+
+  @override
+  String get nicknameSuffix148 => 'comerciant';
+
+  @override
+  String get nicknameSuffix149 => 'artesà';
+
+  @override
+  String get nicknameSuffix150 => 'pagès';
+
+  @override
+  String get nicknameSuffix151 => 'corb';
+
+  @override
+  String get nicknameSuffix152 => 'mussol';
+
+  @override
+  String get nicknameSuffix153 => 'mussol';
+
+  @override
+  String get nicknameSuffix154 => 'àguila';
+
+  @override
+  String get nicknameSuffix155 => 'falcó';
+
+  @override
+  String get nicknameSuffix156 => 'llop';
+
+  @override
+  String get nicknameSuffix157 => 'guineu';
+
+  @override
+  String get nicknameSuffix158 => 'ós';
+
+  @override
+  String get nicknameSuffix159 => 'lleó';
+
+  @override
+  String get nicknameSuffix160 => 'tigre';
+
+  @override
+  String get nicknameSuffix161 => 'lleopard';
+
+  @override
+  String get nicknameSuffix162 => 'pantera negra';
+
+  @override
+  String get nicknameSuffix163 => 'Salsssop';
+
+  @override
+  String get nicknameSuffix164 => 'gat';
+
+  @override
+  String get nicknameSuffix165 => 'cadell';
+
+  @override
+  String get nicknameSuffix166 => 'serp';
+
+  @override
+  String get nicknameSuffix167 => 'sargantana';
+
+  @override
+  String get nicknameSuffix168 => 'tortuga';
+
+  @override
+  String get nicknameSuffix169 => 'cocodril';
+
+  @override
+  String get nicknameSuffix170 => 'drac';
+
+  @override
+  String get nicknameSuffix171 => 'unicorn';
+
+  @override
+  String get nicknameSuffix172 => 'Pegàs';
+
+  @override
+  String get nicknameSuffix173 => 'grifó';
+
+  @override
+  String get nicknameSuffix174 => 'gàrgola';
+
+  @override
+  String get nicknameSuffix175 => 'follet';
+
+  @override
+  String get nicknameSuffix176 => 'roure';
+
+  @override
+  String get nicknameSuffix177 => 'troll';
+
+  @override
+  String get nicknameSuffix178 => 'barrena';
+
+  @override
+  String get nicknameSuffix179 => 'llim';
+
+  @override
+  String get nicknameSuffix180 => 'esquelet';
+
+  @override
+  String get nicknameSuffix181 => 'zombi';
+
+  @override
+  String get nicknameSuffix182 => 'ghoul';
+
+  @override
+  String get nicknameSuffix183 => 'vampir';
+
+  @override
+  String get nicknameSuffix184 => 'home llop';
+
+  @override
+  String get nicknameSuffix185 => 'minotaure';
+
+  @override
+  String get nicknameSuffix186 => 'centaure';
+
+  @override
+  String get nicknameSuffix187 => 'harpia';
+
+  @override
+  String get nicknameSuffix188 => 'sirena';
+
+  @override
+  String get nicknameSuffix189 => 'Kraken';
+
+  @override
+  String get nicknameSuffix190 => 'leviatà';
+
+  @override
+  String get nicknameSuffix191 => 'ganivet';
+
+  @override
+  String get nicknameSuffix192 => 'escut';
+
+  @override
+  String get nicknameSuffix193 => 'finestra';
+
+  @override
+  String get nicknameSuffix194 => 'arc';
+
+  @override
+  String get nicknameSuffix195 => 'canya';
+
+  @override
+  String get nicknameSuffix196 => 'anell';
+
+  @override
+  String get nicknameSuffix197 => 'collaret';
+
+  @override
+  String get nicknameSuffix198 => 'corona';
+
+  @override
+  String get nicknameSuffix199 => 'Sant Grial';
+
+  @override
+  String get themeFree => 'Tema lliure';
+
+  @override
+  String get themePaid => 'Tema de pagament';
 }

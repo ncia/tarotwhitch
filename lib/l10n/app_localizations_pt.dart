@@ -9,143 +9,143 @@ class AppLocalizationsPt extends AppLocalizations {
   AppLocalizationsPt([String locale = 'pt']) : super(locale);
 
   @override
-  String get appTitle => 'Tarot Reading';
+  String get appTitle => 'Leitura de Tarô';
 
   @override
-  String get spreadSelectionTitle => 'Select a Spread';
+  String get spreadSelectionTitle => 'Selecione um spread';
 
   @override
   String get spreadSelectionSubtitle =>
-      'Choose a tarot spread that fits your question';
+      'Escolha uma distribuição de tarô que se adapte à sua pergunta';
 
   @override
-  String get spreadOneCardName => 'One Card';
+  String get spreadOneCardName => 'Um cartão';
 
   @override
   String get spreadOneCardDesc =>
-      'A single card for a quick answer or daily guidance.';
+      'Um único cartão para uma resposta rápida ou orientação diária.';
 
   @override
-  String get spreadTwoCardName => 'Two Card';
+  String get spreadTwoCardName => 'Duas cartas';
 
   @override
   String get spreadTwoCardDesc =>
-      'A 2-card spread to simply grasp the current situation and advice.';
+      'Um spread de 2 cartas para simplesmente compreender a situação atual e conselhos.';
 
   @override
-  String get spreadThreeCardName => 'Three Card';
+  String get spreadThreeCardName => 'Três cartas';
 
   @override
   String get spreadThreeCardDesc =>
-      'A 3-card spread to understand the flow of past, present, and future.';
+      'Um spread de 3 cartas para compreender o fluxo do passado, presente e futuro.';
 
   @override
-  String get spreadFourCardName => 'Four Card';
+  String get spreadFourCardName => 'Quatro Cartas';
 
   @override
   String get spreadFourCardDesc =>
-      'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.';
+      'Uma distribuição de 4 cartas para diagnosticar claramente a causa de um problema, obter conselhos e ver o resultado.';
 
   @override
-  String get spreadFiveCardName => 'Five Card';
+  String get spreadFiveCardName => 'Cinco Cartas';
 
   @override
   String get spreadFiveCardDesc =>
-      'A 5-card spread examining the core of the situation, its causes, and potential outcomes.';
+      'Uma distribuição de 5 cartas que examina o cerne da situação, suas causas e resultados potenciais.';
 
   @override
-  String get spreadCelticCrossName => 'Celtic Cross';
+  String get spreadCelticCrossName => 'Cruz Celta';
 
   @override
   String get spreadCelticCrossDesc =>
-      '10 cards for an in-depth analysis of a complex problem.';
+      '10 cartas para uma análise aprofundada de um problema complexo.';
 
   @override
-  String get positionOneCard => 'Today\'s Card';
+  String get positionOneCard => 'Cartão de hoje';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '1. Situação';
 
   @override
-  String get positionTwoCard2 => '2. Advice';
+  String get positionTwoCard2 => '2. Conselho';
 
   @override
-  String get positionThreeCard1 => 'Past';
+  String get positionThreeCard1 => 'Passado';
 
   @override
-  String get positionThreeCard2 => 'Present';
+  String get positionThreeCard2 => 'Presente';
 
   @override
-  String get positionThreeCard3 => 'Future';
+  String get positionThreeCard3 => 'Futuro';
 
   @override
-  String get positionFourCard1 => '1. Problem';
+  String get positionFourCard1 => '1. Problema';
 
   @override
-  String get positionFourCard2 => '2. Cause';
+  String get positionFourCard2 => '2. Causa';
 
   @override
-  String get positionFourCard3 => '3. Advice';
+  String get positionFourCard3 => '3. Conselho';
 
   @override
-  String get positionFourCard4 => '4. Outcome';
+  String get positionFourCard4 => '4. Resultado';
 
   @override
-  String get positionFiveCard1 => '1. Present';
+  String get positionFiveCard1 => '1. Presente';
 
   @override
-  String get positionFiveCard2 => '2. Past Influences';
+  String get positionFiveCard2 => '2. Influências passadas';
 
   @override
-  String get positionFiveCard3 => '3. Future Direction';
+  String get positionFiveCard3 => '3. Direção Futura';
 
   @override
-  String get positionFiveCard4 => '4. Core Reason';
+  String get positionFiveCard4 => '4. Razão Central';
 
   @override
-  String get positionFiveCard5 => '5. Potential Outcome';
+  String get positionFiveCard5 => '5. Resultado potencial';
 
   @override
-  String get positionCelticCross1 => '1. Present (Querent)';
+  String get positionCelticCross1 => '1. Presente (consulente)';
 
   @override
-  String get positionCelticCross2 => '2. The Challenge';
+  String get positionCelticCross2 => '2. O Desafio';
 
   @override
-  String get positionCelticCross3 => '3. The Past';
+  String get positionCelticCross3 => '3. O Passado';
 
   @override
-  String get positionCelticCross4 => '4. The Future';
+  String get positionCelticCross4 => '4. O Futuro';
 
   @override
-  String get positionCelticCross5 => '5. Conscious';
+  String get positionCelticCross5 => '5. Consciente';
 
   @override
-  String get positionCelticCross6 => '6. Subconscious';
+  String get positionCelticCross6 => '6. Subconsciente';
 
   @override
-  String get positionCelticCross7 => '7. Advice';
+  String get positionCelticCross7 => '7. Conselhos';
 
   @override
-  String get positionCelticCross8 => '8. External Influences';
+  String get positionCelticCross8 => '8. Influências Externas';
 
   @override
-  String get positionCelticCross9 => '9. Hopes and Fears';
+  String get positionCelticCross9 => '9. Esperanças e medos';
 
   @override
-  String get positionCelticCross10 => '10. Outcome';
+  String get positionCelticCross10 => '10. Resultado';
 
   @override
-  String get navReading => 'Leitura de Tarot';
+  String get navReading => 'leitura de tarô';
 
   @override
-  String get navChat => 'Chat de Tarot';
+  String get navChat => 'bate-papo de tarô';
 
   @override
-  String get navMeanings => 'Significados';
+  String get navMeanings => 'significado do cartão';
 
   @override
-  String get navMyMenu => 'My Menu';
+  String get navMyMenu => 'meu cardápio';
 
   @override
   String get readingIntroTitle => 'Sussurros do\nDestino';
@@ -1206,4 +1206,1717 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get chatProfileTapHint =>
       'Toque na foto de perfil para ver os detalhes';
+
+  @override
+  String get themeName1 => 'Tema 1';
+
+  @override
+  String get themeName2 => 'Tema 2';
+
+  @override
+  String get themeName3 => 'Tema 3';
+
+  @override
+  String get themeMagicBook => 'Livro Mágico';
+
+  @override
+  String get themeBlackCat => 'Gato preto';
+
+  @override
+  String get themeEmptyPaidThemes =>
+      'Compre temas na loja\npara preencher este espaço!';
+
+  @override
+  String get shopThemePurchaseTitle => 'Tema de compra';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return 'Quer comprar o tema $skinName por $cost moedas?';
+  }
+
+  @override
+  String get shopCancel => 'Cancelar';
+
+  @override
+  String get shopPurchase => 'Comprar';
+
+  @override
+  String get shopAlreadyOwned =>
+      'Já possuído. Tente aplicá-lo nas configurações do tema!';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return '$skinName comprado com sucesso! Verifique as configurações do tema.';
+  }
+
+  @override
+  String get shopNotEnoughCoins => 'Não há moedas suficientes.';
+
+  @override
+  String get shopOwned => 'Controlado';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost moedas';
+  }
+
+  @override
+  String get navDiary => 'diário de tarô';
+
+  @override
+  String get myMenuFirebaseNotConnected => 'Firebase não conectado';
+
+  @override
+  String get myMenuWindowsSetupNeeded =>
+      'Configuração do Windows necessária (visualização)';
+
+  @override
+  String get myMenuTouchToViewLogin => 'Toque para visualizar a IU de login';
+
+  @override
+  String get myMenuNoName => 'Sem nome';
+
+  @override
+  String get myMenuPleaseLogin => 'Por favor faça login';
+
+  @override
+  String get myMenuTouchToSignupLogin =>
+      'Toque para se inscrever e fazer login';
+
+  @override
+  String get myMenuSectionMyRecords => 'Meus registros';
+
+  @override
+  String get myMenuDiaryStorage => 'Armazenamento de diário';
+
+  @override
+  String get myMenuCheckSavedDiary => 'Verifique seus diários salvos.';
+
+  @override
+  String get myMenuFavoriteCards => 'Cartões favoritos';
+
+  @override
+  String get myMenuMyFavoriteCardsList => 'Lista das minhas cartas favoritas';
+
+  @override
+  String get myMenuSectionAppSettings => 'Configurações do aplicativo';
+
+  @override
+  String get myMenuPushNotifications => 'Notificações push';
+
+  @override
+  String get myMenuPushNotificationsDesc => 'Novos horóscopos e eventos';
+
+  @override
+  String get myMenuLanguageSettings => 'Configurações de idioma';
+
+  @override
+  String get myMenuThemeSettings => 'Configurações de tema';
+
+  @override
+  String get myMenuChangeBackground => 'Alterar imagem de fundo';
+
+  @override
+  String get myMenuSectionCustomerSupport => 'Suporte ao Cliente';
+
+  @override
+  String get myMenuFaq => 'Perguntas frequentes';
+
+  @override
+  String get myMenuAppInfo => 'Informações do aplicativo';
+
+  @override
+  String get myMenuSectionAccountManagement => 'Gerenciamento de contas';
+
+  @override
+  String get myMenuLogout => 'Sair';
+
+  @override
+  String get myMenuLogoutDesc => 'Saia do dispositivo atual.';
+
+  @override
+  String get myMenuEmailVerifiedMsg => 'Verificação de e-mail confirmada! ✨';
+
+  @override
+  String get myMenuEmailSendTitle => 'Enviar e-mail de verificação';
+
+  @override
+  String get myMenuEmailSendContent =>
+      'O e-mail de verificação foi enviado.\nVerifique sua caixa de entrada, clique no link e pressione este botão novamente!';
+
+  @override
+  String get myMenuConfirm => 'Confirmar';
+
+  @override
+  String get myMenuEmailErrorMsg => 'Muitas solicitações ou ocorreu um erro.';
+
+  @override
+  String get myMenuEmailVerified => 'E-mail verificado';
+
+  @override
+  String get myMenuEmailNotVerified =>
+      'E-mail não verificado (toque para verificar)';
+
+  @override
+  String get languageSystemDefault => 'Padrão do sistema';
+
+  @override
+  String get shopTitle => 'Comprar';
+
+  @override
+  String get shopSubtitle => 'Compre moedas e temas';
+
+  @override
+  String get shopTabCoin => 'Moeda';
+
+  @override
+  String get shopTabTheme => 'Tema';
+
+  @override
+  String get shopPayButton => 'Pagar';
+
+  @override
+  String get themeOriginalDeck => 'Deck Clássico Original';
+
+  @override
+  String get themeGoldenSunDeck => 'Deck Solar Dourado';
+
+  @override
+  String get themeDarkAbyssDeck => 'Deck do Abismo Sombrio';
+
+  @override
+  String get themeSpringSpiritDeck => 'Deck do Espírito da Primavera';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return 'O pagamento por $coins moedas estará disponível em breve.';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return 'A compra/solicitação de $name estará disponível em breve.';
+  }
+
+  @override
+  String get readingIntroSelectWitch =>
+      'Selecione uma bruxa para ver seu destino';
+
+  @override
+  String get readingIntroGreeting =>
+      'Que destino devemos investigar?\nEstou curioso sobre o seu futuro.';
+
+  @override
+  String get readingIntroStart => 'Selecione Espalhar';
+
+  @override
+  String get tabMajorArcana => 'Arcanos Maiores';
+
+  @override
+  String get tabMinorArcana => 'Arcanos Menores';
+
+  @override
+  String get nicknamePrefix0 => 'oculto';
+
+  @override
+  String get nicknamePrefix1 => 'sereno';
+
+  @override
+  String get nicknamePrefix2 => 'sagrado';
+
+  @override
+  String get nicknamePrefix3 => 'escuro';
+
+  @override
+  String get nicknamePrefix4 => 'brilhando';
+
+  @override
+  String get nicknamePrefix5 => 'sombrio';
+
+  @override
+  String get nicknamePrefix6 => 'quente';
+
+  @override
+  String get nicknamePrefix7 => 'fascinante';
+
+  @override
+  String get nicknamePrefix8 => 'cruel';
+
+  @override
+  String get nicknamePrefix9 => 'puro';
+
+  @override
+  String get nicknamePrefix10 => 'severo';
+
+  @override
+  String get nicknamePrefix11 => 'macio';
+
+  @override
+  String get nicknamePrefix12 => 'lindo';
+
+  @override
+  String get nicknamePrefix13 => 'esquisito';
+
+  @override
+  String get nicknamePrefix14 => 'grande';
+
+  @override
+  String get nicknamePrefix15 => 'gasto';
+
+  @override
+  String get nicknamePrefix16 => 'eterno';
+
+  @override
+  String get nicknamePrefix17 => 'esquecido';
+
+  @override
+  String get nicknamePrefix18 => 'brilhante';
+
+  @override
+  String get nicknamePrefix19 => 'triste';
+
+  @override
+  String get nicknamePrefix20 => 'alegre';
+
+  @override
+  String get nicknamePrefix21 => 'sonhador';
+
+  @override
+  String get nicknamePrefix22 => 'caído';
+
+  @override
+  String get nicknamePrefix23 => 'branco puro';
+
+  @override
+  String get nicknamePrefix24 => 'preto azeviche';
+
+  @override
+  String get nicknamePrefix25 => 'sangrento';
+
+  @override
+  String get nicknamePrefix26 => 'acinzentado';
+
+  @override
+  String get nicknamePrefix27 => 'dourado';
+
+  @override
+  String get nicknamePrefix28 => 'argento';
+
+  @override
+  String get nicknamePrefix29 => 'azul';
+
+  @override
+  String get nicknamePrefix30 => 'vermelho';
+
+  @override
+  String get nicknamePrefix31 => 'amarelo';
+
+  @override
+  String get nicknamePrefix32 => 'preto';
+
+  @override
+  String get nicknamePrefix33 => 'branco';
+
+  @override
+  String get nicknamePrefix34 => 'transparente';
+
+  @override
+  String get nicknamePrefix35 => 'solitário';
+
+  @override
+  String get nicknamePrefix36 => 'barulhento';
+
+  @override
+  String get nicknamePrefix37 => 'quieto';
+
+  @override
+  String get nicknamePrefix38 => 'esquentar';
+
+  @override
+  String get nicknamePrefix39 => 'gelado';
+
+  @override
+  String get nicknamePrefix40 => 'solitário';
+
+  @override
+  String get nicknamePrefix41 => 'solitário';
+
+  @override
+  String get nicknamePrefix42 => 'feliz';
+
+  @override
+  String get nicknamePrefix43 => 'feliz';
+
+  @override
+  String get nicknamePrefix44 => 'sombrio';
+
+  @override
+  String get nicknamePrefix45 => 'desesperado';
+
+  @override
+  String get nicknamePrefix46 => 'esperançoso';
+
+  @override
+  String get nicknamePrefix47 => 'deslumbrante';
+
+  @override
+  String get nicknamePrefix48 => 'escuro';
+
+  @override
+  String get nicknamePrefix49 => 'meia-noite';
+
+  @override
+  String get nicknamePrefix50 => 'desolado';
+
+  @override
+  String get nicknamePrefix51 => 'segredo';
+
+  @override
+  String get nicknamePrefix52 => 'segredo';
+
+  @override
+  String get nicknamePrefix53 => 'sagrado';
+
+  @override
+  String get nicknamePrefix54 => 'profano';
+
+  @override
+  String get nicknamePrefix55 => 'superior';
+
+  @override
+  String get nicknamePrefix56 => 'modesto';
+
+  @override
+  String get nicknamePrefix57 => 'sábio';
+
+  @override
+  String get nicknamePrefix58 => 'tolice';
+
+  @override
+  String get nicknamePrefix59 => 'difícil';
+
+  @override
+  String get nicknamePrefix60 => 'fraco';
+
+  @override
+  String get nicknamePrefix61 => 'corajoso';
+
+  @override
+  String get nicknamePrefix62 => 'covarde';
+
+  @override
+  String get nicknamePrefix63 => 'Distante';
+
+  @override
+  String get nicknamePrefix64 => 'aproximar';
+
+  @override
+  String get nicknamePrefix65 => 'afastando-se';
+
+  @override
+  String get nicknamePrefix66 => 'se aproximando';
+
+  @override
+  String get nicknamePrefix67 => 'desaparecendo';
+
+  @override
+  String get nicknamePrefix68 => 'emergente';
+
+  @override
+  String get nicknamePrefix69 => 'desperto';
+
+  @override
+  String get nicknamePrefix70 => 'dormindo';
+
+  @override
+  String get nicknamePrefix71 => 'sonhando';
+
+  @override
+  String get nicknamePrefix72 => 'vagando';
+
+  @override
+  String get nicknamePrefix73 => 'vagando';
+
+  @override
+  String get nicknamePrefix74 => 'ficar';
+
+  @override
+  String get nicknamePrefix75 => 'saindo';
+
+  @override
+  String get nicknamePrefix76 => 'voltando';
+
+  @override
+  String get nicknamePrefix77 => 'esperando';
+
+  @override
+  String get nicknamePrefix78 => 'procurando';
+
+  @override
+  String get nicknamePrefix79 => 'enigmático';
+
+  @override
+  String get nicknamePrefix80 => 'expor';
+
+  @override
+  String get nicknamePrefix81 => 'abandonado';
+
+  @override
+  String get nicknamePrefix82 => 'selecionado';
+
+  @override
+  String get nicknamePrefix83 => 'abençoado';
+
+  @override
+  String get nicknamePrefix84 => 'amaldiçoado';
+
+  @override
+  String get nicknamePrefix85 => 'amado';
+
+  @override
+  String get nicknamePrefix86 => 'odiado';
+
+  @override
+  String get nicknamePrefix87 => 'lembrar';
+
+  @override
+  String get nicknamePrefix88 => 'alheio';
+
+  @override
+  String get nicknamePrefix89 => 'luz das estrelas';
+
+  @override
+  String get nicknamePrefix90 => 'luar';
+
+  @override
+  String get nicknamePrefix91 => 'da luz solar';
+
+  @override
+  String get nicknamePrefix92 => 'cósmico';
+
+  @override
+  String get nicknamePrefix93 => 'da terra';
+
+  @override
+  String get nicknamePrefix94 => 'do mar';
+
+  @override
+  String get nicknamePrefix95 => 'celestial';
+
+  @override
+  String get nicknamePrefix96 => 'das nuvens';
+
+  @override
+  String get nicknamePrefix97 => 'do vento';
+
+  @override
+  String get nicknamePrefix98 => 'chuva';
+
+  @override
+  String get nicknamePrefix99 => 'do olho';
+
+  @override
+  String get nicknamePrefix100 => 'gelado';
+
+  @override
+  String get nicknamePrefix101 => 'ardente';
+
+  @override
+  String get nicknamePrefix102 => 'água';
+
+  @override
+  String get nicknamePrefix103 => 'de barro';
+
+  @override
+  String get nicknamePrefix104 => 'de madeira';
+
+  @override
+  String get nicknamePrefix105 => 'floresta';
+
+  @override
+  String get nicknamePrefix106 => 'montanhoso';
+
+  @override
+  String get nicknamePrefix107 => 'palestra';
+
+  @override
+  String get nicknamePrefix108 => 'do lago';
+
+  @override
+  String get nicknamePrefix109 => 'de tempo';
+
+  @override
+  String get nicknamePrefix110 => 'do espaço';
+
+  @override
+  String get nicknamePrefix111 => 'dimensão';
+
+  @override
+  String get nicknamePrefix112 => 'fatídico';
+
+  @override
+  String get nicknamePrefix113 => 'fatídico';
+
+  @override
+  String get nicknamePrefix114 => 'milagroso';
+
+  @override
+  String get nicknamePrefix115 => 'mágico';
+
+  @override
+  String get nicknamePrefix116 => 'mítico';
+
+  @override
+  String get nicknamePrefix117 => 'lendário';
+
+  @override
+  String get nicknamePrefix118 => 'da verdade';
+
+  @override
+  String get nicknamePrefix119 => 'falso';
+
+  @override
+  String get nicknamePrefix120 => 'fantasia';
+
+  @override
+  String get nicknamePrefix121 => 'sonhar';
+
+  @override
+  String get nicknamePrefix122 => 'pesadelo';
+
+  @override
+  String get nicknamePrefix123 => 'ruína';
+
+  @override
+  String get nicknamePrefix124 => 'da criação';
+
+  @override
+  String get nicknamePrefix125 => 'da vida';
+
+  @override
+  String get nicknamePrefix126 => 'da morte';
+
+  @override
+  String get nicknamePrefix127 => 'alma';
+
+  @override
+  String get nicknamePrefix128 => 'físico';
+
+  @override
+  String get nicknamePrefix129 => 'da razão';
+
+  @override
+  String get nicknamePrefix130 => 'emocional';
+
+  @override
+  String get nicknamePrefix131 => 'de amor';
+
+  @override
+  String get nicknamePrefix132 => 'de ódio';
+
+  @override
+  String get nicknamePrefix133 => 'de tristeza';
+
+  @override
+  String get nicknamePrefix134 => 'de alegria';
+
+  @override
+  String get nicknamePrefix135 => 'nervoso';
+
+  @override
+  String get nicknamePrefix136 => 'de paz';
+
+  @override
+  String get nicknamePrefix137 => 'da guerra';
+
+  @override
+  String get nicknamePrefix138 => 'caos';
+
+  @override
+  String get nicknamePrefix139 => 'ordenado';
+
+  @override
+  String get nicknamePrefix140 => 'de luz';
+
+  @override
+  String get nicknamePrefix141 => 'escuro';
+
+  @override
+  String get nicknamePrefix142 => 'crepúsculo';
+
+  @override
+  String get nicknamePrefix143 => 'alvorecer';
+
+  @override
+  String get nicknamePrefix144 => 'meio-dia';
+
+  @override
+  String get nicknamePrefix145 => 'meia-noite';
+
+  @override
+  String get nicknamePrefix146 => 'passado';
+
+  @override
+  String get nicknamePrefix147 => 'presente';
+
+  @override
+  String get nicknamePrefix148 => 'futuro';
+
+  @override
+  String get nicknamePrefix149 => 'de origem';
+
+  @override
+  String get nicknamePrefix150 => 'apocalíptico';
+
+  @override
+  String get nicknamePrefix151 => 'infinito';
+
+  @override
+  String get nicknamePrefix152 => 'finito';
+
+  @override
+  String get nicknamePrefix153 => 'silencioso';
+
+  @override
+  String get nicknamePrefix154 => 'de ruído';
+
+  @override
+  String get nicknamePrefix155 => 'cantoria';
+
+  @override
+  String get nicknamePrefix156 => 'dança';
+
+  @override
+  String get nicknamePrefix157 => 'choro';
+
+  @override
+  String get nicknamePrefix158 => 'sorrindo';
+
+  @override
+  String get nicknamePrefix159 => 'sussurrando';
+
+  @override
+  String get nicknamePrefix160 => 'choro';
+
+  @override
+  String get nicknamePrefix161 => 'orando';
+
+  @override
+  String get nicknamePrefix162 => 'implorando';
+
+  @override
+  String get nicknamePrefix163 => 'comandando';
+
+  @override
+  String get nicknamePrefix164 => 'submisso';
+
+  @override
+  String get nicknamePrefix165 => 'decisão';
+
+  @override
+  String get nicknamePrefix166 => 'servindo';
+
+  @override
+  String get nicknamePrefix167 => 'guiando';
+
+  @override
+  String get nicknamePrefix168 => 'acompanhante';
+
+  @override
+  String get nicknamePrefix169 => 'ensino';
+
+  @override
+  String get nicknamePrefix170 => 'aprendizado';
+
+  @override
+  String get nicknamePrefix171 => 'de memória';
+
+  @override
+  String get nicknamePrefix172 => 'de memórias';
+
+  @override
+  String get nicknamePrefix173 => 'de feridas';
+
+  @override
+  String get nicknamePrefix174 => 'cura';
+
+  @override
+  String get nicknamePrefix175 => 'venenoso';
+
+  @override
+  String get nicknamePrefix176 => 'medicamento';
+
+  @override
+  String get nicknamePrefix177 => 'Bem-vindo';
+
+  @override
+  String get nicknamePrefix178 => 'de substância';
+
+  @override
+  String get nicknamePrefix179 => 'ideal';
+
+  @override
+  String get nicknamePrefix180 => 'real';
+
+  @override
+  String get nicknamePrefix181 => 'imaginário';
+
+  @override
+  String get nicknamePrefix182 => 'natural';
+
+  @override
+  String get nicknamePrefix183 => 'artificial';
+
+  @override
+  String get nicknamePrefix184 => 'no começo';
+
+  @override
+  String get nicknamePrefix185 => 'eternidade';
+
+  @override
+  String get nicknamePrefix186 => 'do momento';
+
+  @override
+  String get nicknamePrefix187 => 'fugaz';
+
+  @override
+  String get nicknamePrefix188 => 'eterno';
+
+  @override
+  String get nicknamePrefix189 => 'de mudança';
+
+  @override
+  String get nicknamePrefix190 => 'ainda';
+
+  @override
+  String get nicknamePrefix191 => 'fluindo';
+
+  @override
+  String get nicknamePrefix192 => 'atropelar';
+
+  @override
+  String get nicknamePrefix193 => 'ardente';
+
+  @override
+  String get nicknamePrefix194 => 'esfriando';
+
+  @override
+  String get nicknamePrefix195 => 'florescendo';
+
+  @override
+  String get nicknamePrefix196 => 'murchando';
+
+  @override
+  String get nicknamePrefix197 => 'crescendo';
+
+  @override
+  String get nicknamePrefix198 => 'morrendo';
+
+  @override
+  String get nicknamePrefix199 => 'respirando';
+
+  @override
+  String get nicknamePrefix200 => 'sufocante';
+
+  @override
+  String get nicknameSuffix0 => 'profeta';
+
+  @override
+  String get nicknameSuffix1 => 'mago';
+
+  @override
+  String get nicknameSuffix2 => 'bruxa';
+
+  @override
+  String get nicknameSuffix3 => 'artigo';
+
+  @override
+  String get nicknameSuffix4 => 'guerreiro';
+
+  @override
+  String get nicknameSuffix5 => 'Arqueiro';
+
+  @override
+  String get nicknameSuffix6 => 'ladrão';
+
+  @override
+  String get nicknameSuffix7 => 'assassino';
+
+  @override
+  String get nicknameSuffix8 => 'paladino';
+
+  @override
+  String get nicknameSuffix9 => 'padre';
+
+  @override
+  String get nicknameSuffix10 => 'sacerdotisa';
+
+  @override
+  String get nicknameSuffix11 => 'monge';
+
+  @override
+  String get nicknameSuffix12 => 'pow-ow';
+
+  @override
+  String get nicknameSuffix13 => 'alquimista';
+
+  @override
+  String get nicknameSuffix14 => 'necromante';
+
+  @override
+  String get nicknameSuffix15 => 'espírita';
+
+  @override
+  String get nicknameSuffix16 => 'invocador';
+
+  @override
+  String get nicknameSuffix17 => 'ilusionista';
+
+  @override
+  String get nicknameSuffix18 => 'curador';
+
+  @override
+  String get nicknameSuffix19 => 'homem sábio';
+
+  @override
+  String get nicknameSuffix20 => 'estudioso';
+
+  @override
+  String get nicknameSuffix21 => 'pesquisador';
+
+  @override
+  String get nicknameSuffix22 => 'explorador';
+
+  @override
+  String get nicknameSuffix23 => 'viajante';
+
+  @override
+  String get nicknameSuffix24 => 'vagabundo';
+
+  @override
+  String get nicknameSuffix25 => 'vagabundo';
+
+  @override
+  String get nicknameSuffix26 => 'peregrino';
+
+  @override
+  String get nicknameSuffix27 => 'buscador';
+
+  @override
+  String get nicknameSuffix28 => 'observador';
+
+  @override
+  String get nicknameSuffix29 => 'gravador';
+
+  @override
+  String get nicknameSuffix30 => 'comunicador';
+
+  @override
+  String get nicknameSuffix31 => 'tutelar';
+
+  @override
+  String get nicknameSuffix32 => 'diretor';
+
+  @override
+  String get nicknameSuffix33 => 'guarda';
+
+  @override
+  String get nicknameSuffix34 => 'porteiro';
+
+  @override
+  String get nicknameSuffix35 => 'juiz';
+
+  @override
+  String get nicknameSuffix36 => 'oficial de justiça';
+
+  @override
+  String get nicknameSuffix37 => 'governador';
+
+  @override
+  String get nicknameSuffix38 => 'governante';
+
+  @override
+  String get nicknameSuffix39 => 'rei';
+
+  @override
+  String get nicknameSuffix40 => 'rainha';
+
+  @override
+  String get nicknameSuffix41 => 'imperador';
+
+  @override
+  String get nicknameSuffix42 => 'imperatriz';
+
+  @override
+  String get nicknameSuffix43 => 'nobreza';
+
+  @override
+  String get nicknameSuffix44 => 'residência permanente';
+
+  @override
+  String get nicknameSuffix45 => 'comandante cavaleiro';
+
+  @override
+  String get nicknameSuffix46 => 'mercenário';
+
+  @override
+  String get nicknameSuffix47 => 'pirata';
+
+  @override
+  String get nicknameSuffix48 => 'ladrão';
+
+  @override
+  String get nicknameSuffix49 => 'fraude';
+
+  @override
+  String get nicknameSuffix50 => 'bobo da corte';
+
+  @override
+  String get nicknameSuffix51 => 'enganar';
+
+  @override
+  String get nicknameSuffix52 => 'eremita';
+
+  @override
+  String get nicknameSuffix53 => 'herege';
+
+  @override
+  String get nicknameSuffix54 => 'traidor';
+
+  @override
+  String get nicknameSuffix55 => 'traidor';
+
+  @override
+  String get nicknameSuffix56 => 'herói';
+
+  @override
+  String get nicknameSuffix57 => 'protetor';
+
+  @override
+  String get nicknameSuffix58 => 'libertador';
+
+  @override
+  String get nicknameSuffix59 => 'destruidor';
+
+  @override
+  String get nicknameSuffix60 => 'criador';
+
+  @override
+  String get nicknameSuffix61 => 'Deus';
+
+  @override
+  String get nicknameSuffix62 => 'deusa';
+
+  @override
+  String get nicknameSuffix63 => 'anjo';
+
+  @override
+  String get nicknameSuffix64 => 'diabo';
+
+  @override
+  String get nicknameSuffix65 => 'decreto governamental';
+
+  @override
+  String get nicknameSuffix66 => 'fada';
+
+  @override
+  String get nicknameSuffix67 => 'monstro';
+
+  @override
+  String get nicknameSuffix68 => 'besta demoníaca';
+
+  @override
+  String get nicknameSuffix69 => 'dragão';
+
+  @override
+  String get nicknameSuffix70 => 'fantasma';
+
+  @override
+  String get nicknameSuffix71 => 'sombra';
+
+  @override
+  String get nicknameSuffix72 => 'morto-vivo';
+
+  @override
+  String get nicknameSuffix73 => 'vampiro';
+
+  @override
+  String get nicknameSuffix74 => 'lobisomem';
+
+  @override
+  String get nicknameSuffix75 => 'sereia';
+
+  @override
+  String get nicknameSuffix76 => 'sirene';
+
+  @override
+  String get nicknameSuffix77 => 'ninfa';
+
+  @override
+  String get nicknameSuffix78 => 'duende';
+
+  @override
+  String get nicknameSuffix79 => 'carvalho';
+
+  @override
+  String get nicknameSuffix80 => 'trollar';
+
+  @override
+  String get nicknameSuffix81 => 'duende';
+
+  @override
+  String get nicknameSuffix82 => 'anão';
+
+  @override
+  String get nicknameSuffix83 => 'gigante';
+
+  @override
+  String get nicknameSuffix84 => 'carimbo postal';
+
+  @override
+  String get nicknameSuffix85 => 'ser humano';
+
+  @override
+  String get nicknameSuffix86 => 'prisioneiro';
+
+  @override
+  String get nicknameSuffix87 => 'assinatura';
+
+  @override
+  String get nicknameSuffix88 => 'Homem-peixe';
+
+  @override
+  String get nicknameSuffix89 => 'funcionário';
+
+  @override
+  String get nicknameSuffix90 => 'espírito maligno';
+
+  @override
+  String get nicknameSuffix91 => 'Surata';
+
+  @override
+  String get nicknameSuffix92 => 'inferno';
+
+  @override
+  String get nicknameSuffix93 => 'paraíso';
+
+  @override
+  String get nicknameSuffix94 => 'submundo';
+
+  @override
+  String get nicknameSuffix95 => 'Outro mundo';
+
+  @override
+  String get nicknameSuffix96 => 'abismo';
+
+  @override
+  String get nicknameSuffix97 => 'caos';
+
+  @override
+  String get nicknameSuffix98 => 'ordem';
+
+  @override
+  String get nicknameSuffix99 => 'luz';
+
+  @override
+  String get nicknameSuffix100 => 'escuro';
+
+  @override
+  String get nicknamePrefix201 => 'brilhante';
+
+  @override
+  String get nicknamePrefix202 => 'sutil';
+
+  @override
+  String get nicknamePrefix203 => 'nebuloso';
+
+  @override
+  String get nicknamePrefix204 => 'desmaiar';
+
+  @override
+  String get nicknamePrefix205 => 'transparente';
+
+  @override
+  String get nicknamePrefix206 => 'desmaiar';
+
+  @override
+  String get nicknamePrefix207 => 'deslumbrante';
+
+  @override
+  String get nicknamePrefix208 => 'esquisito';
+
+  @override
+  String get nicknamePrefix209 => 'peculiar';
+
+  @override
+  String get nicknamePrefix210 => 'especial';
+
+  @override
+  String get nicknamePrefix211 => 'nobre';
+
+  @override
+  String get nicknamePrefix212 => 'puro';
+
+  @override
+  String get nicknamePrefix213 => 'caído';
+
+  @override
+  String get nicknamePrefix214 => 'solitário';
+
+  @override
+  String get nicknamePrefix215 => 'solitário';
+
+  @override
+  String get nicknamePrefix216 => 'desolado';
+
+  @override
+  String get nicknamePrefix217 => 'Distante';
+
+  @override
+  String get nicknamePrefix218 => 'severo';
+
+  @override
+  String get nicknamePrefix219 => 'impiedoso';
+
+  @override
+  String get nicknamePrefix220 => 'cruel';
+
+  @override
+  String get nicknamePrefix221 => 'grande';
+
+  @override
+  String get nicknamePrefix222 => 'difícil';
+
+  @override
+  String get nicknamePrefix223 => 'empresa';
+
+  @override
+  String get nicknamePrefix224 => 'sinuoso';
+
+  @override
+  String get nicknamePrefix225 => 'rápido';
+
+  @override
+  String get nicknamePrefix226 => 'lento';
+
+  @override
+  String get nicknamePrefix227 => 'em silêncio';
+
+  @override
+  String get nicknamePrefix228 => 'no caos';
+
+  @override
+  String get nicknamePrefix229 => 'na memória';
+
+  @override
+  String get nicknamePrefix230 => 'imaginário';
+
+  @override
+  String get nicknamePrefix231 => 'silencioso';
+
+  @override
+  String get nicknamePrefix232 => 'sussurrando';
+
+  @override
+  String get nicknamePrefix233 => 'cantoria';
+
+  @override
+  String get nicknamePrefix234 => 'dança';
+
+  @override
+  String get nicknamePrefix235 => 'soluçando';
+
+  @override
+  String get nicknamePrefix236 => 'sorrindo';
+
+  @override
+  String get nicknamePrefix237 => 'mocking';
+
+  @override
+  String get nicknamePrefix238 => 'contemplando';
+
+  @override
+  String get nicknamePrefix239 => 'vagando';
+
+  @override
+  String get nicknamePrefix240 => 'vagando';
+
+  @override
+  String get nicknamePrefix241 => 'acordado';
+
+  @override
+  String get nicknamePrefix242 => 'dormindo';
+
+  @override
+  String get nicknamePrefix243 => 'sonhando';
+
+  @override
+  String get nicknamePrefix244 => 'sonhando acordado';
+
+  @override
+  String get nicknamePrefix245 => 'delirante';
+
+  @override
+  String get nicknamePrefix246 => 'orando';
+
+  @override
+  String get nicknamePrefix247 => 'sério';
+
+  @override
+  String get nicknamePrefix248 => 'triste';
+
+  @override
+  String get nicknamePrefix249 => 'miserável';
+
+  @override
+  String get nicknamePrefix250 => 'sublime';
+
+  @override
+  String get nicknamePrefix251 => 'malvado';
+
+  @override
+  String get nicknamePrefix252 => 'significar';
+
+  @override
+  String get nicknamePrefix253 => 'arrogante';
+
+  @override
+  String get nicknamePrefix254 => 'modesto';
+
+  @override
+  String get nicknamePrefix255 => 'apaixonado';
+
+  @override
+  String get nicknamePrefix256 => 'esquentar';
+
+  @override
+  String get nicknamePrefix257 => 'legal';
+
+  @override
+  String get nicknamePrefix258 => 'frio';
+
+  @override
+  String get nicknamePrefix259 => 'bizarro';
+
+  @override
+  String get nicknamePrefix260 => 'estranho';
+
+  @override
+  String get nicknamePrefix261 => 'arrebatado';
+
+  @override
+  String get nicknamePrefix262 => 'fascinante';
+
+  @override
+  String get nicknamePrefix263 => 'vertiginoso';
+
+  @override
+  String get nicknamePrefix264 => 'adocicado';
+
+  @override
+  String get nicknamePrefix265 => 'amargo';
+
+  @override
+  String get nicknamePrefix266 => 'amargo';
+
+  @override
+  String get nicknamePrefix267 => 'barbed';
+
+  @override
+  String get nicknamePrefix268 => 'afiado';
+
+  @override
+  String get nicknamePrefix269 => 'chato';
+
+  @override
+  String get nicknamePrefix270 => 'severo';
+
+  @override
+  String get nicknamePrefix271 => 'macio';
+
+  @override
+  String get nicknamePrefix272 => 'aconchegante';
+
+  @override
+  String get nicknamePrefix273 => 'confortável';
+
+  @override
+  String get nicknamePrefix274 => 'precário';
+
+  @override
+  String get nicknamePrefix275 => 'inquieto';
+
+  @override
+  String get nicknamePrefix276 => 'calma';
+
+  @override
+  String get nicknamePrefix277 => 'calma';
+
+  @override
+  String get nicknamePrefix278 => 'sonolento';
+
+  @override
+  String get nicknamePrefix279 => 'entediado';
+
+  @override
+  String get nicknamePrefix280 => 'apaixonado';
+
+  @override
+  String get nicknamePrefix281 => 'indiferente';
+
+  @override
+  String get nicknamePrefix282 => 'tranquilo';
+
+  @override
+  String get nicknamePrefix283 => 'violento';
+
+  @override
+  String get nicknamePrefix284 => 'feroz';
+
+  @override
+  String get nicknamePrefix285 => 'louco';
+
+  @override
+  String get nicknamePrefix286 => 'enlouqueceu';
+
+  @override
+  String get nicknamePrefix287 => 'racional';
+
+  @override
+  String get nicknamePrefix288 => 'emocional';
+
+  @override
+  String get nicknamePrefix289 => 'cabeça fria';
+
+  @override
+  String get nicknamePrefix290 => 'sensato';
+
+  @override
+  String get nicknamePrefix291 => 'tolice';
+
+  @override
+  String get nicknamePrefix292 => 'inocente';
+
+  @override
+  String get nicknamePrefix293 => 'ardiloso';
+
+  @override
+  String get nicknamePrefix294 => 'serpentina';
+
+  @override
+  String get nicknamePrefix295 => 'branco puro';
+
+  @override
+  String get nicknamePrefix296 => 'preto azeviche';
+
+  @override
+  String get nicknamePrefix297 => 'dourado';
+
+  @override
+  String get nicknamePrefix298 => 'argento';
+
+  @override
+  String get nicknamePrefix299 => 'sangrento';
+
+  @override
+  String get nicknameSuffix101 => 'buscador';
+
+  @override
+  String get nicknameSuffix102 => 'peregrino';
+
+  @override
+  String get nicknameSuffix103 => 'vagabundo';
+
+  @override
+  String get nicknameSuffix104 => 'eremita';
+
+  @override
+  String get nicknameSuffix105 => 'Ethan';
+
+  @override
+  String get nicknameSuffix106 => 'traidor';
+
+  @override
+  String get nicknameSuffix107 => 'pioneiro';
+
+  @override
+  String get nicknameSuffix108 => 'conquistador';
+
+  @override
+  String get nicknameSuffix109 => 'governante';
+
+  @override
+  String get nicknameSuffix110 => 'orquestrador';
+
+  @override
+  String get nicknameSuffix111 => 'tutelar';
+
+  @override
+  String get nicknameSuffix112 => 'observador';
+
+  @override
+  String get nicknameSuffix113 => 'observador';
+
+  @override
+  String get nicknameSuffix114 => 'gravador';
+
+  @override
+  String get nicknameSuffix115 => 'comunicador';
+
+  @override
+  String get nicknameSuffix116 => 'guia';
+
+  @override
+  String get nicknameSuffix117 => 'líder';
+
+  @override
+  String get nicknameSuffix118 => 'protetor';
+
+  @override
+  String get nicknameSuffix119 => 'destruidor';
+
+  @override
+  String get nicknameSuffix120 => 'criador';
+
+  @override
+  String get nicknameSuffix121 => 'sombra';
+
+  @override
+  String get nicknameSuffix122 => 'fantasma';
+
+  @override
+  String get nicknameSuffix123 => 'fantasma';
+
+  @override
+  String get nicknameSuffix124 => 'espírito maligno';
+
+  @override
+  String get nicknameSuffix125 => 'decreto governamental';
+
+  @override
+  String get nicknameSuffix126 => 'fada';
+
+  @override
+  String get nicknameSuffix127 => 'demon beast';
+
+  @override
+  String get nicknameSuffix128 => 'água benta';
+
+  @override
+  String get nicknameSuffix129 => 'reembolso';
+
+  @override
+  String get nicknameSuffix130 => 'Shinsu';
+
+  @override
+  String get nicknameSuffix131 => 'teste';
+
+  @override
+  String get nicknameSuffix132 => 'artigo';
+
+  @override
+  String get nicknameSuffix133 => 'Arqueiro';
+
+  @override
+  String get nicknameSuffix134 => 'ladrão';
+
+  @override
+  String get nicknameSuffix135 => 'assassino';
+
+  @override
+  String get nicknameSuffix136 => 'mago';
+
+  @override
+  String get nicknameSuffix137 => 'pow-ow';
+
+  @override
+  String get nicknameSuffix138 => 'alquimista';
+
+  @override
+  String get nicknameSuffix139 => 'necromante';
+
+  @override
+  String get nicknameSuffix140 => 'padre';
+
+  @override
+  String get nicknameSuffix141 => 'estudioso';
+
+  @override
+  String get nicknameSuffix142 => 'pesquisador';
+
+  @override
+  String get nicknameSuffix143 => 'explorador';
+
+  @override
+  String get nicknameSuffix144 => 'viajante';
+
+  @override
+  String get nicknameSuffix145 => 'artista';
+
+  @override
+  String get nicknameSuffix146 => 'bobo da corte';
+
+  @override
+  String get nicknameSuffix147 => 'bardo';
+
+  @override
+  String get nicknameSuffix148 => 'comerciante';
+
+  @override
+  String get nicknameSuffix149 => 'artesão';
+
+  @override
+  String get nicknameSuffix150 => 'camponês';
+
+  @override
+  String get nicknameSuffix151 => 'corvo';
+
+  @override
+  String get nicknameSuffix152 => 'coruja';
+
+  @override
+  String get nicknameSuffix153 => 'coruja';
+
+  @override
+  String get nicknameSuffix154 => 'águia';
+
+  @override
+  String get nicknameSuffix155 => 'falcão';
+
+  @override
+  String get nicknameSuffix156 => 'lobo';
+
+  @override
+  String get nicknameSuffix157 => 'raposa';
+
+  @override
+  String get nicknameSuffix158 => 'urso';
+
+  @override
+  String get nicknameSuffix159 => 'leão';
+
+  @override
+  String get nicknameSuffix160 => 'tigre';
+
+  @override
+  String get nicknameSuffix161 => 'leopardo';
+
+  @override
+  String get nicknameSuffix162 => 'pantera negra';
+
+  @override
+  String get nicknameSuffix163 => 'Salssop';
+
+  @override
+  String get nicknameSuffix164 => 'gato';
+
+  @override
+  String get nicknameSuffix165 => 'filhote de cachorro';
+
+  @override
+  String get nicknameSuffix166 => 'cobra';
+
+  @override
+  String get nicknameSuffix167 => 'lagarto';
+
+  @override
+  String get nicknameSuffix168 => 'tartaruga';
+
+  @override
+  String get nicknameSuffix169 => 'crocodilo';
+
+  @override
+  String get nicknameSuffix170 => 'dragão';
+
+  @override
+  String get nicknameSuffix171 => 'unicórnio';
+
+  @override
+  String get nicknameSuffix172 => 'Pégaso';
+
+  @override
+  String get nicknameSuffix173 => 'grifo';
+
+  @override
+  String get nicknameSuffix174 => 'gárgula';
+
+  @override
+  String get nicknameSuffix175 => 'duende';
+
+  @override
+  String get nicknameSuffix176 => 'carvalho';
+
+  @override
+  String get nicknameSuffix177 => 'trollar';
+
+  @override
+  String get nicknameSuffix178 => 'trado';
+
+  @override
+  String get nicknameSuffix179 => 'limo';
+
+  @override
+  String get nicknameSuffix180 => 'esqueleto';
+
+  @override
+  String get nicknameSuffix181 => 'zumbi';
+
+  @override
+  String get nicknameSuffix182 => 'carniçal';
+
+  @override
+  String get nicknameSuffix183 => 'vampiro';
+
+  @override
+  String get nicknameSuffix184 => 'lobisomem';
+
+  @override
+  String get nicknameSuffix185 => 'minotauro';
+
+  @override
+  String get nicknameSuffix186 => 'centauro';
+
+  @override
+  String get nicknameSuffix187 => 'harpia';
+
+  @override
+  String get nicknameSuffix188 => 'sirene';
+
+  @override
+  String get nicknameSuffix189 => 'Kraken';
+
+  @override
+  String get nicknameSuffix190 => 'leviatã';
+
+  @override
+  String get nicknameSuffix191 => 'faca';
+
+  @override
+  String get nicknameSuffix192 => 'escudo';
+
+  @override
+  String get nicknameSuffix193 => 'janela';
+
+  @override
+  String get nicknameSuffix194 => 'arco';
+
+  @override
+  String get nicknameSuffix195 => 'cana';
+
+  @override
+  String get nicknameSuffix196 => 'anel';
+
+  @override
+  String get nicknameSuffix197 => 'colar';
+
+  @override
+  String get nicknameSuffix198 => 'coroa';
+
+  @override
+  String get nicknameSuffix199 => 'Santo Graal';
+
+  @override
+  String get themeFree => 'Tema grátis';
+
+  @override
+  String get themePaid => 'Tema pago';
 }

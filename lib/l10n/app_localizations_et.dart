@@ -9,143 +9,142 @@ class AppLocalizationsEt extends AppLocalizations {
   AppLocalizationsEt([String locale = 'et']) : super(locale);
 
   @override
-  String get appTitle => 'Tarot Reading';
+  String get appTitle => 'Taro lugemine';
 
   @override
-  String get spreadSelectionTitle => 'Select a Spread';
+  String get spreadSelectionTitle => 'Valige levi';
 
   @override
-  String get spreadSelectionSubtitle =>
-      'Choose a tarot spread that fits your question';
+  String get spreadSelectionSubtitle => 'Valige oma küsimusele vastav tarot';
 
   @override
-  String get spreadOneCardName => 'One Card';
+  String get spreadOneCardName => 'Üks kaart';
 
   @override
   String get spreadOneCardDesc =>
-      'A single card for a quick answer or daily guidance.';
+      'Üks kaart kiireks vastuseks või igapäevaseks juhendamiseks.';
 
   @override
-  String get spreadTwoCardName => 'Two Card';
+  String get spreadTwoCardName => 'Kaks kaarti';
 
   @override
   String get spreadTwoCardDesc =>
-      'A 2-card spread to simply grasp the current situation and advice.';
+      'Kahest kaardist koosnev jaotus, et lihtsalt mõista hetkeolukorda ja nõuandeid.';
 
   @override
-  String get spreadThreeCardName => 'Three Card';
+  String get spreadThreeCardName => 'Kolm kaarti';
 
   @override
   String get spreadThreeCardDesc =>
-      'A 3-card spread to understand the flow of past, present, and future.';
+      'Kolmest kaardist koosnev kaart, et mõista mineviku, oleviku ja tuleviku voogu.';
 
   @override
-  String get spreadFourCardName => 'Four Card';
+  String get spreadFourCardName => 'Neli kaarti';
 
   @override
   String get spreadFourCardDesc =>
-      'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.';
+      'Neljast kaardist koosnev levi, mis võimaldab selgelt diagnoosida probleemi põhjust, saada nõu ja näha tulemust.';
 
   @override
-  String get spreadFiveCardName => 'Five Card';
+  String get spreadFiveCardName => 'Viis kaarti';
 
   @override
   String get spreadFiveCardDesc =>
-      'A 5-card spread examining the core of the situation, its causes, and potential outcomes.';
+      'Viiest kaardist koosnev jaotus, mis uurib olukorra tuuma, selle põhjuseid ja võimalikke tagajärgi.';
 
   @override
-  String get spreadCelticCrossName => 'Celtic Cross';
+  String get spreadCelticCrossName => 'Keldi rist';
 
   @override
   String get spreadCelticCrossDesc =>
-      '10 cards for an in-depth analysis of a complex problem.';
+      '10 kaarti keeruka probleemi süvaanalüüsiks.';
 
   @override
-  String get positionOneCard => 'Today\'s Card';
+  String get positionOneCard => 'Tänane kaart';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '1. Olukord';
 
   @override
-  String get positionTwoCard2 => '2. Advice';
+  String get positionTwoCard2 => '2. Nõuanded';
 
   @override
-  String get positionThreeCard1 => 'Past';
+  String get positionThreeCard1 => 'Minevik';
 
   @override
-  String get positionThreeCard2 => 'Present';
+  String get positionThreeCard2 => 'kohal';
 
   @override
-  String get positionThreeCard3 => 'Future';
+  String get positionThreeCard3 => 'Tulevik';
 
   @override
-  String get positionFourCard1 => '1. Problem';
+  String get positionFourCard1 => '1. Probleem';
 
   @override
-  String get positionFourCard2 => '2. Cause';
+  String get positionFourCard2 => '2. Põhjus';
 
   @override
-  String get positionFourCard3 => '3. Advice';
+  String get positionFourCard3 => '3. Nõuanded';
 
   @override
-  String get positionFourCard4 => '4. Outcome';
+  String get positionFourCard4 => '4. Tulemus';
 
   @override
-  String get positionFiveCard1 => '1. Present';
+  String get positionFiveCard1 => '1. Kohal';
 
   @override
-  String get positionFiveCard2 => '2. Past Influences';
+  String get positionFiveCard2 => '2. Mineviku mõjud';
 
   @override
-  String get positionFiveCard3 => '3. Future Direction';
+  String get positionFiveCard3 => '3. Tuleviku suund';
 
   @override
-  String get positionFiveCard4 => '4. Core Reason';
+  String get positionFiveCard4 => '4. Põhipõhjus';
 
   @override
-  String get positionFiveCard5 => '5. Potential Outcome';
+  String get positionFiveCard5 => '5. Võimalik tulemus';
 
   @override
-  String get positionCelticCross1 => '1. Present (Querent)';
+  String get positionCelticCross1 => '1. Olevik (Querents)';
 
   @override
-  String get positionCelticCross2 => '2. The Challenge';
+  String get positionCelticCross2 => '2. Väljakutse';
 
   @override
-  String get positionCelticCross3 => '3. The Past';
+  String get positionCelticCross3 => '3. Minevik';
 
   @override
-  String get positionCelticCross4 => '4. The Future';
+  String get positionCelticCross4 => '4. Tulevik';
 
   @override
-  String get positionCelticCross5 => '5. Conscious';
+  String get positionCelticCross5 => '5. Teadlik';
 
   @override
-  String get positionCelticCross6 => '6. Subconscious';
+  String get positionCelticCross6 => '6. Alateadvus';
 
   @override
-  String get positionCelticCross7 => '7. Advice';
+  String get positionCelticCross7 => '7. Nõuanded';
 
   @override
-  String get positionCelticCross8 => '8. External Influences';
+  String get positionCelticCross8 => '8. Välised mõjud';
 
   @override
-  String get positionCelticCross9 => '9. Hopes and Fears';
+  String get positionCelticCross9 => '9. Lootused ja hirmud';
 
   @override
-  String get positionCelticCross10 => '10. Outcome';
+  String get positionCelticCross10 => '10. Tulemus';
 
   @override
-  String get navReading => 'Taro lugemine';
+  String get navReading => 'taro lugemine';
 
   @override
-  String get navChat => 'Taro vestlus';
+  String get navChat => 'tarot vestlus';
 
   @override
-  String get navMeanings => 'Tähendused';
+  String get navMeanings => 'kaardi tähendus';
 
   @override
-  String get navMyMenu => 'My Menu';
+  String get navMyMenu => 'minu menüü';
 
   @override
   String get readingIntroTitle => 'Saatuse\nSosistused';
@@ -1206,4 +1205,1718 @@ class AppLocalizationsEt extends AppLocalizations {
   @override
   String get chatProfileTapHint =>
       'Puudutage profiilipilti, et vaadata üksikasju';
+
+  @override
+  String get themeName1 => '1. teema';
+
+  @override
+  String get themeName2 => '2. teema';
+
+  @override
+  String get themeName3 => '3. teema';
+
+  @override
+  String get themeMagicBook => 'Maagiline raamat';
+
+  @override
+  String get themeBlackCat => 'Must Kass';
+
+  @override
+  String get themeEmptyPaidThemes =>
+      'Purchase themes in the shop\nselle ruumi täitmiseks!';
+
+  @override
+  String get shopThemePurchaseTitle => 'Ostu teema';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return 'Kas soovite osta teema $skinName $cost mündi eest?';
+  }
+
+  @override
+  String get shopCancel => 'Tühista';
+
+  @override
+  String get shopPurchase => 'ostma';
+
+  @override
+  String get shopAlreadyOwned =>
+      'Juba omatud. Proovige seda teema seadetes rakendada!';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return '$skinName ostmine õnnestus! Kontrollige teema seadeid.';
+  }
+
+  @override
+  String get shopNotEnoughCoins => 'Pole piisavalt münte.';
+
+  @override
+  String get shopOwned => 'Omanduses';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost münti';
+  }
+
+  @override
+  String get navDiary => 'taro päevik';
+
+  @override
+  String get myMenuFirebaseNotConnected => 'Firebase pole ühendatud';
+
+  @override
+  String get myMenuWindowsSetupNeeded =>
+      'Vajalik Windowsi häälestus (eelvaade)';
+
+  @override
+  String get myMenuTouchToViewLogin =>
+      'Toksake sisselogimisliidese vaatamiseks';
+
+  @override
+  String get myMenuNoName => 'Nimeta';
+
+  @override
+  String get myMenuPleaseLogin => 'Palun logi sisse';
+
+  @override
+  String get myMenuTouchToSignupLogin =>
+      'Registreerumiseks ja sisselogimiseks puudutage';
+
+  @override
+  String get myMenuSectionMyRecords => 'Minu rekordid';
+
+  @override
+  String get myMenuDiaryStorage => 'Päeviku säilitamine';
+
+  @override
+  String get myMenuCheckSavedDiary => 'Kontrollige oma salvestatud päevikuid.';
+
+  @override
+  String get myMenuFavoriteCards => 'Lemmikkaardid';
+
+  @override
+  String get myMenuMyFavoriteCardsList => 'Minu lemmikkaartide nimekiri';
+
+  @override
+  String get myMenuSectionAppSettings => 'Rakenduse seaded';
+
+  @override
+  String get myMenuPushNotifications => 'Tõukemärguanded';
+
+  @override
+  String get myMenuPushNotificationsDesc => 'Uued horoskoobid ja sündmused';
+
+  @override
+  String get myMenuLanguageSettings => 'Keeleseaded';
+
+  @override
+  String get myMenuThemeSettings => 'Teema seaded';
+
+  @override
+  String get myMenuChangeBackground => 'Muutke taustpilti';
+
+  @override
+  String get myMenuSectionCustomerSupport => 'Klienditugi';
+
+  @override
+  String get myMenuFaq => 'KKK';
+
+  @override
+  String get myMenuAppInfo => 'Rakenduse teave';
+
+  @override
+  String get myMenuSectionAccountManagement => 'Kontohaldus';
+
+  @override
+  String get myMenuLogout => 'Logi välja';
+
+  @override
+  String get myMenuLogoutDesc => 'Logige praegusest seadmest välja.';
+
+  @override
+  String get myMenuEmailVerifiedMsg => 'E-posti kinnitus kinnitatud! ✨';
+
+  @override
+  String get myMenuEmailSendTitle => 'Saatke kinnitusmeil';
+
+  @override
+  String get myMenuEmailSendContent =>
+      'Kinnitusmeil on saadetud.\nKontrollige oma postkasti, klõpsake lingil ja vajutage seda nuppu uuesti!';
+
+  @override
+  String get myMenuConfirm => 'Kinnita';
+
+  @override
+  String get myMenuEmailErrorMsg =>
+      'Ilmnes liiga palju taotlusi või tekkis viga.';
+
+  @override
+  String get myMenuEmailVerified => 'E-post kinnitatud';
+
+  @override
+  String get myMenuEmailNotVerified =>
+      'E-post pole kinnitatud (puudutage kinnitamiseks)';
+
+  @override
+  String get languageSystemDefault => 'Süsteemi vaikeseade';
+
+  @override
+  String get shopTitle => 'Pood';
+
+  @override
+  String get shopSubtitle => 'Ostke münte ja teemasid';
+
+  @override
+  String get shopTabCoin => 'Münt';
+
+  @override
+  String get shopTabTheme => 'Teema';
+
+  @override
+  String get shopPayButton => 'Maksa';
+
+  @override
+  String get themeOriginalDeck => 'Algne klassikaline tekk';
+
+  @override
+  String get themeGoldenSunDeck => 'Kuldne päikesetekk';
+
+  @override
+  String get themeDarkAbyssDeck => 'Dark Abyss tekk';
+
+  @override
+  String get themeSpringSpiritDeck => 'Spring Spiriti tekk';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return 'Peagi saabub $coins mündi eest tasumine.';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return 'Ostmine/taotluse esitamine $name on peagi saadaval.';
+  }
+
+  @override
+  String get readingIntroSelectWitch => 'Valige nõid, et näha oma saatust';
+
+  @override
+  String get readingIntroGreeting =>
+      'Millise saatuse ette vaatame?\nMind huvitab teie tulevik.';
+
+  @override
+  String get readingIntroStart => 'Valige Spread';
+
+  @override
+  String get tabMajorArcana => 'Major Arcana';
+
+  @override
+  String get tabMinorArcana => 'Väike arkaan';
+
+  @override
+  String get nicknamePrefix0 => 'okultism';
+
+  @override
+  String get nicknamePrefix1 => 'rahulik';
+
+  @override
+  String get nicknamePrefix2 => 'püha';
+
+  @override
+  String get nicknamePrefix3 => 'tume';
+
+  @override
+  String get nicknamePrefix4 => 'särav';
+
+  @override
+  String get nicknamePrefix5 => 'sünge';
+
+  @override
+  String get nicknamePrefix6 => 'kuum';
+
+  @override
+  String get nicknamePrefix7 => 'paeluv';
+
+  @override
+  String get nicknamePrefix8 => 'julm';
+
+  @override
+  String get nicknamePrefix9 => 'puhas';
+
+  @override
+  String get nicknamePrefix10 => 'karm';
+
+  @override
+  String get nicknamePrefix11 => 'pehme';
+
+  @override
+  String get nicknamePrefix12 => 'ilus';
+
+  @override
+  String get nicknamePrefix13 => 'imelik';
+
+  @override
+  String get nicknamePrefix14 => 'suur';
+
+  @override
+  String get nicknamePrefix15 => 'räbal';
+
+  @override
+  String get nicknamePrefix16 => 'igavene';
+
+  @override
+  String get nicknamePrefix17 => 'unustatud';
+
+  @override
+  String get nicknamePrefix18 => 'geniaalne';
+
+  @override
+  String get nicknamePrefix19 => 'kurb';
+
+  @override
+  String get nicknamePrefix20 => 'rõõmus';
+
+  @override
+  String get nicknamePrefix21 => 'unistav';
+
+  @override
+  String get nicknamePrefix22 => 'langenud';
+
+  @override
+  String get nicknamePrefix23 => 'puhas valge';
+
+  @override
+  String get nicknamePrefix24 => 'süsimusta';
+
+  @override
+  String get nicknamePrefix25 => 'verine';
+
+  @override
+  String get nicknamePrefix26 => 'hallikas';
+
+  @override
+  String get nicknamePrefix27 => 'kuldne';
+
+  @override
+  String get nicknamePrefix28 => 'argentne';
+
+  @override
+  String get nicknamePrefix29 => 'sinine';
+
+  @override
+  String get nicknamePrefix30 => 'punane';
+
+  @override
+  String get nicknamePrefix31 => 'kollane';
+
+  @override
+  String get nicknamePrefix32 => 'must';
+
+  @override
+  String get nicknamePrefix33 => 'valge';
+
+  @override
+  String get nicknamePrefix34 => 'läbipaistev';
+
+  @override
+  String get nicknamePrefix35 => 'üksik';
+
+  @override
+  String get nicknamePrefix36 => 'lärmakas';
+
+  @override
+  String get nicknamePrefix37 => 'vaikne';
+
+  @override
+  String get nicknamePrefix38 => 'soe';
+
+  @override
+  String get nicknamePrefix39 => 'härmas';
+
+  @override
+  String get nicknamePrefix40 => 'üksildane';
+
+  @override
+  String get nicknamePrefix41 => 'üksildane';
+
+  @override
+  String get nicknamePrefix42 => 'õnnelik';
+
+  @override
+  String get nicknamePrefix43 => 'õnnelik';
+
+  @override
+  String get nicknamePrefix44 => 'sünge';
+
+  @override
+  String get nicknamePrefix45 => 'meeleheitel';
+
+  @override
+  String get nicknamePrefix46 => 'lootusrikas';
+
+  @override
+  String get nicknamePrefix47 => 'pimestav';
+
+  @override
+  String get nicknamePrefix48 => 'hämar';
+
+  @override
+  String get nicknamePrefix49 => 'südaöö';
+
+  @override
+  String get nicknamePrefix50 => 'mahajäetud';
+
+  @override
+  String get nicknamePrefix51 => 'saladus';
+
+  @override
+  String get nicknamePrefix52 => 'saladus';
+
+  @override
+  String get nicknamePrefix53 => 'püha';
+
+  @override
+  String get nicknamePrefix54 => 'profaanne';
+
+  @override
+  String get nicknamePrefix55 => 'ülemus';
+
+  @override
+  String get nicknamePrefix56 => 'tagasihoidlik';
+
+  @override
+  String get nicknamePrefix57 => 'tark';
+
+  @override
+  String get nicknamePrefix58 => 'rumal';
+
+  @override
+  String get nicknamePrefix59 => 'karm';
+
+  @override
+  String get nicknamePrefix60 => 'nõrk';
+
+  @override
+  String get nicknamePrefix61 => 'julge';
+
+  @override
+  String get nicknamePrefix62 => 'räpane';
+
+  @override
+  String get nicknamePrefix63 => 'Kaugele';
+
+  @override
+  String get nicknamePrefix64 => 'lähedal';
+
+  @override
+  String get nicknamePrefix65 => 'eemaldudes';
+
+  @override
+  String get nicknamePrefix66 => 'vastutulev';
+
+  @override
+  String get nicknamePrefix67 => 'kaduma';
+
+  @override
+  String get nicknamePrefix68 => 'esilekerkiv';
+
+  @override
+  String get nicknamePrefix69 => 'äratanud';
+
+  @override
+  String get nicknamePrefix70 => 'magama jäänud';
+
+  @override
+  String get nicknamePrefix71 => 'unistades';
+
+  @override
+  String get nicknamePrefix72 => 'ekslemine';
+
+  @override
+  String get nicknamePrefix73 => 'ekslemine';
+
+  @override
+  String get nicknamePrefix74 => 'viibimine';
+
+  @override
+  String get nicknamePrefix75 => 'lahkudes';
+
+  @override
+  String get nicknamePrefix76 => 'tagasi tulles';
+
+  @override
+  String get nicknamePrefix77 => 'ootamas';
+
+  @override
+  String get nicknamePrefix78 => 'otsin';
+
+  @override
+  String get nicknamePrefix79 => 'salapärane';
+
+  @override
+  String get nicknamePrefix80 => 'paljastatud';
+
+  @override
+  String get nicknamePrefix81 => 'mahajäetud';
+
+  @override
+  String get nicknamePrefix82 => 'valitud';
+
+  @override
+  String get nicknamePrefix83 => 'õnnistatud';
+
+  @override
+  String get nicknamePrefix84 => 'neetud';
+
+  @override
+  String get nicknamePrefix85 => 'armastatud';
+
+  @override
+  String get nicknamePrefix86 => 'vihatud';
+
+  @override
+  String get nicknamePrefix87 => 'mäleta';
+
+  @override
+  String get nicknamePrefix88 => 'unustav';
+
+  @override
+  String get nicknamePrefix89 => 'tähevalgus';
+
+  @override
+  String get nicknamePrefix90 => 'kuuvalgus';
+
+  @override
+  String get nicknamePrefix91 => 'päikesevalgusest';
+
+  @override
+  String get nicknamePrefix92 => 'kosmiline';
+
+  @override
+  String get nicknamePrefix93 => 'maast';
+
+  @override
+  String get nicknamePrefix94 => 'merest';
+
+  @override
+  String get nicknamePrefix95 => 'taevalik';
+
+  @override
+  String get nicknamePrefix96 => 'pilvedest';
+
+  @override
+  String get nicknamePrefix97 => 'tuulest';
+
+  @override
+  String get nicknamePrefix98 => 'vihma';
+
+  @override
+  String get nicknamePrefix99 => 'silmast';
+
+  @override
+  String get nicknamePrefix100 => 'icy';
+
+  @override
+  String get nicknamePrefix101 => 'fiery';
+
+  @override
+  String get nicknamePrefix102 => 'water';
+
+  @override
+  String get nicknamePrefix103 => 'earthen';
+
+  @override
+  String get nicknamePrefix104 => 'wooden';
+
+  @override
+  String get nicknamePrefix105 => 'forest';
+
+  @override
+  String get nicknamePrefix106 => 'mountainous';
+
+  @override
+  String get nicknamePrefix107 => 'lecture';
+
+  @override
+  String get nicknamePrefix108 => 'of the lake';
+
+  @override
+  String get nicknamePrefix109 => 'of time';
+
+  @override
+  String get nicknamePrefix110 => 'of space';
+
+  @override
+  String get nicknamePrefix111 => 'dimension';
+
+  @override
+  String get nicknamePrefix112 => 'fateful';
+
+  @override
+  String get nicknamePrefix113 => 'fateful';
+
+  @override
+  String get nicknamePrefix114 => 'miraculous';
+
+  @override
+  String get nicknamePrefix115 => 'magical';
+
+  @override
+  String get nicknamePrefix116 => 'mythical';
+
+  @override
+  String get nicknamePrefix117 => 'legendary';
+
+  @override
+  String get nicknamePrefix118 => 'of truth';
+
+  @override
+  String get nicknamePrefix119 => 'false';
+
+  @override
+  String get nicknamePrefix120 => 'fantasy';
+
+  @override
+  String get nicknamePrefix121 => 'dream';
+
+  @override
+  String get nicknamePrefix122 => 'nightmare';
+
+  @override
+  String get nicknamePrefix123 => 'ruin';
+
+  @override
+  String get nicknamePrefix124 => 'of creation';
+
+  @override
+  String get nicknamePrefix125 => 'of life';
+
+  @override
+  String get nicknamePrefix126 => 'of death';
+
+  @override
+  String get nicknamePrefix127 => 'soul';
+
+  @override
+  String get nicknamePrefix128 => 'physical';
+
+  @override
+  String get nicknamePrefix129 => 'of reason';
+
+  @override
+  String get nicknamePrefix130 => 'emotional';
+
+  @override
+  String get nicknamePrefix131 => 'of love';
+
+  @override
+  String get nicknamePrefix132 => 'of hate';
+
+  @override
+  String get nicknamePrefix133 => 'of sadness';
+
+  @override
+  String get nicknamePrefix134 => 'of joy';
+
+  @override
+  String get nicknamePrefix135 => 'angry';
+
+  @override
+  String get nicknamePrefix136 => 'of peace';
+
+  @override
+  String get nicknamePrefix137 => 'of war';
+
+  @override
+  String get nicknamePrefix138 => 'chaos';
+
+  @override
+  String get nicknamePrefix139 => 'orderly';
+
+  @override
+  String get nicknamePrefix140 => 'of light';
+
+  @override
+  String get nicknamePrefix141 => 'dark';
+
+  @override
+  String get nicknamePrefix142 => 'twilight';
+
+  @override
+  String get nicknamePrefix143 => 'dawn';
+
+  @override
+  String get nicknamePrefix144 => 'noon';
+
+  @override
+  String get nicknamePrefix145 => 'midnight';
+
+  @override
+  String get nicknamePrefix146 => 'past';
+
+  @override
+  String get nicknamePrefix147 => 'present';
+
+  @override
+  String get nicknamePrefix148 => 'future';
+
+  @override
+  String get nicknamePrefix149 => 'of origin';
+
+  @override
+  String get nicknamePrefix150 => 'apocalyptic';
+
+  @override
+  String get nicknamePrefix151 => 'infinite';
+
+  @override
+  String get nicknamePrefix152 => 'finite';
+
+  @override
+  String get nicknamePrefix153 => 'silent';
+
+  @override
+  String get nicknamePrefix154 => 'of noise';
+
+  @override
+  String get nicknamePrefix155 => 'singing';
+
+  @override
+  String get nicknamePrefix156 => 'dancing';
+
+  @override
+  String get nicknamePrefix157 => 'crying';
+
+  @override
+  String get nicknamePrefix158 => 'smiling';
+
+  @override
+  String get nicknamePrefix159 => 'whispering';
+
+  @override
+  String get nicknamePrefix160 => 'crying';
+
+  @override
+  String get nicknamePrefix161 => 'praying';
+
+  @override
+  String get nicknamePrefix162 => 'pleading';
+
+  @override
+  String get nicknamePrefix163 => 'commanding';
+
+  @override
+  String get nicknamePrefix164 => 'submissive';
+
+  @override
+  String get nicknamePrefix165 => 'ruling';
+
+  @override
+  String get nicknamePrefix166 => 'serving';
+
+  @override
+  String get nicknamePrefix167 => 'guiding';
+
+  @override
+  String get nicknamePrefix168 => 'accompanying';
+
+  @override
+  String get nicknamePrefix169 => 'teaching';
+
+  @override
+  String get nicknamePrefix170 => 'learning';
+
+  @override
+  String get nicknamePrefix171 => 'of memory';
+
+  @override
+  String get nicknamePrefix172 => 'of memories';
+
+  @override
+  String get nicknamePrefix173 => 'of wounds';
+
+  @override
+  String get nicknamePrefix174 => 'healing';
+
+  @override
+  String get nicknamePrefix175 => 'poisonous';
+
+  @override
+  String get nicknamePrefix176 => 'medicine';
+
+  @override
+  String get nicknamePrefix177 => 'welcome';
+
+  @override
+  String get nicknamePrefix178 => 'of substance';
+
+  @override
+  String get nicknamePrefix179 => 'ideal';
+
+  @override
+  String get nicknamePrefix180 => 'real';
+
+  @override
+  String get nicknamePrefix181 => 'imaginary';
+
+  @override
+  String get nicknamePrefix182 => 'natural';
+
+  @override
+  String get nicknamePrefix183 => 'artificial';
+
+  @override
+  String get nicknamePrefix184 => 'in the beginning';
+
+  @override
+  String get nicknamePrefix185 => 'eternity';
+
+  @override
+  String get nicknamePrefix186 => 'of the moment';
+
+  @override
+  String get nicknamePrefix187 => 'fleeting';
+
+  @override
+  String get nicknamePrefix188 => 'eternal';
+
+  @override
+  String get nicknamePrefix189 => 'of change';
+
+  @override
+  String get nicknamePrefix190 => 'still';
+
+  @override
+  String get nicknamePrefix191 => 'flowing';
+
+  @override
+  String get nicknamePrefix192 => 'rundown';
+
+  @override
+  String get nicknamePrefix193 => 'blazing';
+
+  @override
+  String get nicknamePrefix194 => 'cooling down';
+
+  @override
+  String get nicknamePrefix195 => 'blooming';
+
+  @override
+  String get nicknamePrefix196 => 'withering';
+
+  @override
+  String get nicknamePrefix197 => 'growing up';
+
+  @override
+  String get nicknamePrefix198 => 'dying';
+
+  @override
+  String get nicknamePrefix199 => 'breathing';
+
+  @override
+  String get nicknamePrefix200 => 'suffocating';
+
+  @override
+  String get nicknameSuffix0 => 'prophet';
+
+  @override
+  String get nicknameSuffix1 => 'wizard';
+
+  @override
+  String get nicknameSuffix2 => 'witch';
+
+  @override
+  String get nicknameSuffix3 => 'article';
+
+  @override
+  String get nicknameSuffix4 => 'warrior';
+
+  @override
+  String get nicknameSuffix5 => 'Archer';
+
+  @override
+  String get nicknameSuffix6 => 'thief';
+
+  @override
+  String get nicknameSuffix7 => 'assassin';
+
+  @override
+  String get nicknameSuffix8 => 'paladin';
+
+  @override
+  String get nicknameSuffix9 => 'priest';
+
+  @override
+  String get nicknameSuffix10 => 'priestess';
+
+  @override
+  String get nicknameSuffix11 => 'monk';
+
+  @override
+  String get nicknameSuffix12 => 'powwow';
+
+  @override
+  String get nicknameSuffix13 => 'alchemist';
+
+  @override
+  String get nicknameSuffix14 => 'necromancer';
+
+  @override
+  String get nicknameSuffix15 => 'spiritist';
+
+  @override
+  String get nicknameSuffix16 => 'summoner';
+
+  @override
+  String get nicknameSuffix17 => 'illusionist';
+
+  @override
+  String get nicknameSuffix18 => 'healer';
+
+  @override
+  String get nicknameSuffix19 => 'wise man';
+
+  @override
+  String get nicknameSuffix20 => 'scholar';
+
+  @override
+  String get nicknameSuffix21 => 'researcher';
+
+  @override
+  String get nicknameSuffix22 => 'explorer';
+
+  @override
+  String get nicknameSuffix23 => 'traveler';
+
+  @override
+  String get nicknameSuffix24 => 'vagabond';
+
+  @override
+  String get nicknameSuffix25 => 'vagabond';
+
+  @override
+  String get nicknameSuffix26 => 'pilgrim';
+
+  @override
+  String get nicknameSuffix27 => 'seeker';
+
+  @override
+  String get nicknameSuffix28 => 'observer';
+
+  @override
+  String get nicknameSuffix29 => 'recorder';
+
+  @override
+  String get nicknameSuffix30 => 'communicator';
+
+  @override
+  String get nicknameSuffix31 => 'tutelar';
+
+  @override
+  String get nicknameSuffix32 => 'warden';
+
+  @override
+  String get nicknameSuffix33 => 'guard';
+
+  @override
+  String get nicknameSuffix34 => 'gatekeeper';
+
+  @override
+  String get nicknameSuffix35 => 'judge';
+
+  @override
+  String get nicknameSuffix36 => 'bailiff';
+
+  @override
+  String get nicknameSuffix37 => 'governor';
+
+  @override
+  String get nicknameSuffix38 => 'ruler';
+
+  @override
+  String get nicknameSuffix39 => 'king';
+
+  @override
+  String get nicknameSuffix40 => 'queen';
+
+  @override
+  String get nicknameSuffix41 => 'emperor';
+
+  @override
+  String get nicknameSuffix42 => 'empress';
+
+  @override
+  String get nicknameSuffix43 => 'nobility';
+
+  @override
+  String get nicknameSuffix44 => 'permanent residence';
+
+  @override
+  String get nicknameSuffix45 => 'knight commander';
+
+  @override
+  String get nicknameSuffix46 => 'mercenary';
+
+  @override
+  String get nicknameSuffix47 => 'pirate';
+
+  @override
+  String get nicknameSuffix48 => 'thief';
+
+  @override
+  String get nicknameSuffix49 => 'fraud';
+
+  @override
+  String get nicknameSuffix50 => 'jester';
+
+  @override
+  String get nicknameSuffix51 => 'fool';
+
+  @override
+  String get nicknameSuffix52 => 'hermit';
+
+  @override
+  String get nicknameSuffix53 => 'heretic';
+
+  @override
+  String get nicknameSuffix54 => 'betrayer';
+
+  @override
+  String get nicknameSuffix55 => 'traitor';
+
+  @override
+  String get nicknameSuffix56 => 'hero';
+
+  @override
+  String get nicknameSuffix57 => 'saver';
+
+  @override
+  String get nicknameSuffix58 => 'liberator';
+
+  @override
+  String get nicknameSuffix59 => 'destroyer';
+
+  @override
+  String get nicknameSuffix60 => 'creator';
+
+  @override
+  String get nicknameSuffix61 => 'god';
+
+  @override
+  String get nicknameSuffix62 => 'goddess';
+
+  @override
+  String get nicknameSuffix63 => 'angel';
+
+  @override
+  String get nicknameSuffix64 => 'devil';
+
+  @override
+  String get nicknameSuffix65 => 'government ordinance';
+
+  @override
+  String get nicknameSuffix66 => 'fairy';
+
+  @override
+  String get nicknameSuffix67 => 'monster';
+
+  @override
+  String get nicknameSuffix68 => 'demon beast';
+
+  @override
+  String get nicknameSuffix69 => 'dragon';
+
+  @override
+  String get nicknameSuffix70 => 'ghost';
+
+  @override
+  String get nicknameSuffix71 => 'shade';
+
+  @override
+  String get nicknameSuffix72 => 'undead';
+
+  @override
+  String get nicknameSuffix73 => 'vampire';
+
+  @override
+  String get nicknameSuffix74 => 'werewolf';
+
+  @override
+  String get nicknameSuffix75 => 'mermaid';
+
+  @override
+  String get nicknameSuffix76 => 'siren';
+
+  @override
+  String get nicknameSuffix77 => 'nymph';
+
+  @override
+  String get nicknameSuffix78 => 'goblin';
+
+  @override
+  String get nicknameSuffix79 => 'oak';
+
+  @override
+  String get nicknameSuffix80 => 'troll';
+
+  @override
+  String get nicknameSuffix81 => 'elf';
+
+  @override
+  String get nicknameSuffix82 => 'dwarf';
+
+  @override
+  String get nicknameSuffix83 => 'giant';
+
+  @override
+  String get nicknameSuffix84 => 'postmark';
+
+  @override
+  String get nicknameSuffix85 => 'human being';
+
+  @override
+  String get nicknameSuffix86 => 'prisoner';
+
+  @override
+  String get nicknameSuffix87 => 'signature';
+
+  @override
+  String get nicknameSuffix88 => 'Fishman';
+
+  @override
+  String get nicknameSuffix89 => 'employee';
+
+  @override
+  String get nicknameSuffix90 => 'evil spirit';
+
+  @override
+  String get nicknameSuffix91 => 'Sura';
+
+  @override
+  String get nicknameSuffix92 => 'hell';
+
+  @override
+  String get nicknameSuffix93 => 'heaven';
+
+  @override
+  String get nicknameSuffix94 => 'underworld';
+
+  @override
+  String get nicknameSuffix95 => 'Otherworld';
+
+  @override
+  String get nicknameSuffix96 => 'abyss';
+
+  @override
+  String get nicknameSuffix97 => 'chaos';
+
+  @override
+  String get nicknameSuffix98 => 'order';
+
+  @override
+  String get nicknameSuffix99 => 'light';
+
+  @override
+  String get nicknameSuffix100 => 'dark';
+
+  @override
+  String get nicknamePrefix201 => 'brilliant';
+
+  @override
+  String get nicknamePrefix202 => 'subtle';
+
+  @override
+  String get nicknamePrefix203 => 'hazy';
+
+  @override
+  String get nicknamePrefix204 => 'faint';
+
+  @override
+  String get nicknamePrefix205 => 'transparent';
+
+  @override
+  String get nicknamePrefix206 => 'faint';
+
+  @override
+  String get nicknamePrefix207 => 'dazzling';
+
+  @override
+  String get nicknamePrefix208 => 'weird';
+
+  @override
+  String get nicknamePrefix209 => 'peculiar';
+
+  @override
+  String get nicknamePrefix210 => 'special';
+
+  @override
+  String get nicknamePrefix211 => 'noble';
+
+  @override
+  String get nicknamePrefix212 => 'pure';
+
+  @override
+  String get nicknamePrefix213 => 'fallen';
+
+  @override
+  String get nicknamePrefix214 => 'lone';
+
+  @override
+  String get nicknamePrefix215 => 'lonesome';
+
+  @override
+  String get nicknamePrefix216 => 'desolate';
+
+  @override
+  String get nicknamePrefix217 => 'Distant';
+
+  @override
+  String get nicknamePrefix218 => 'harsh';
+
+  @override
+  String get nicknamePrefix219 => 'ruthless';
+
+  @override
+  String get nicknamePrefix220 => 'cruel';
+
+  @override
+  String get nicknamePrefix221 => 'big';
+
+  @override
+  String get nicknamePrefix222 => 'tough';
+
+  @override
+  String get nicknamePrefix223 => 'firm';
+
+  @override
+  String get nicknamePrefix224 => 'sinuous';
+
+  @override
+  String get nicknamePrefix225 => 'quick';
+
+  @override
+  String get nicknamePrefix226 => 'slow';
+
+  @override
+  String get nicknamePrefix227 => 'in silence';
+
+  @override
+  String get nicknamePrefix228 => 'in chaos';
+
+  @override
+  String get nicknamePrefix229 => 'in memory';
+
+  @override
+  String get nicknamePrefix230 => 'imaginary';
+
+  @override
+  String get nicknamePrefix231 => 'silent';
+
+  @override
+  String get nicknamePrefix232 => 'whispering';
+
+  @override
+  String get nicknamePrefix233 => 'singing';
+
+  @override
+  String get nicknamePrefix234 => 'dancing';
+
+  @override
+  String get nicknamePrefix235 => 'sobbing';
+
+  @override
+  String get nicknamePrefix236 => 'smiling';
+
+  @override
+  String get nicknamePrefix237 => 'mocking';
+
+  @override
+  String get nicknamePrefix238 => 'contemplating';
+
+  @override
+  String get nicknamePrefix239 => 'wandering';
+
+  @override
+  String get nicknamePrefix240 => 'wandering';
+
+  @override
+  String get nicknamePrefix241 => 'awake';
+
+  @override
+  String get nicknamePrefix242 => 'asleep';
+
+  @override
+  String get nicknamePrefix243 => 'dreaming';
+
+  @override
+  String get nicknamePrefix244 => 'daydreaming';
+
+  @override
+  String get nicknamePrefix245 => 'delusional';
+
+  @override
+  String get nicknamePrefix246 => 'praying';
+
+  @override
+  String get nicknamePrefix247 => 'earnest';
+
+  @override
+  String get nicknamePrefix248 => 'sorrowful';
+
+  @override
+  String get nicknamePrefix249 => 'miserable';
+
+  @override
+  String get nicknamePrefix250 => 'sublime';
+
+  @override
+  String get nicknamePrefix251 => 'wicked';
+
+  @override
+  String get nicknamePrefix252 => 'mean';
+
+  @override
+  String get nicknamePrefix253 => 'arrogant';
+
+  @override
+  String get nicknamePrefix254 => 'modest';
+
+  @override
+  String get nicknamePrefix255 => 'fond';
+
+  @override
+  String get nicknamePrefix256 => 'warm';
+
+  @override
+  String get nicknamePrefix257 => 'cool';
+
+  @override
+  String get nicknamePrefix258 => 'chilly';
+
+  @override
+  String get nicknamePrefix259 => 'bizarre';
+
+  @override
+  String get nicknamePrefix260 => 'uncanny';
+
+  @override
+  String get nicknamePrefix261 => 'rapt';
+
+  @override
+  String get nicknamePrefix262 => 'fascinating';
+
+  @override
+  String get nicknamePrefix263 => 'dizzying';
+
+  @override
+  String get nicknamePrefix264 => 'sweetish';
+
+  @override
+  String get nicknamePrefix265 => 'bitter';
+
+  @override
+  String get nicknamePrefix266 => 'bitterish';
+
+  @override
+  String get nicknamePrefix267 => 'barbed';
+
+  @override
+  String get nicknamePrefix268 => 'sharp';
+
+  @override
+  String get nicknamePrefix269 => 'dull';
+
+  @override
+  String get nicknamePrefix270 => 'harsh';
+
+  @override
+  String get nicknamePrefix271 => 'soft';
+
+  @override
+  String get nicknamePrefix272 => 'cozy';
+
+  @override
+  String get nicknamePrefix273 => 'comfortable';
+
+  @override
+  String get nicknamePrefix274 => 'precarious';
+
+  @override
+  String get nicknamePrefix275 => 'uneasy';
+
+  @override
+  String get nicknamePrefix276 => 'calm';
+
+  @override
+  String get nicknamePrefix277 => 'calm';
+
+  @override
+  String get nicknamePrefix278 => 'drowsy';
+
+  @override
+  String get nicknamePrefix279 => 'bored';
+
+  @override
+  String get nicknamePrefix280 => 'passionate';
+
+  @override
+  String get nicknamePrefix281 => 'nonchalant';
+
+  @override
+  String get nicknamePrefix282 => 'tranquil';
+
+  @override
+  String get nicknamePrefix283 => 'violent';
+
+  @override
+  String get nicknamePrefix284 => 'fierce';
+
+  @override
+  String get nicknamePrefix285 => 'crazy';
+
+  @override
+  String get nicknamePrefix286 => 'gone crazy';
+
+  @override
+  String get nicknamePrefix287 => 'rational';
+
+  @override
+  String get nicknamePrefix288 => 'emotional';
+
+  @override
+  String get nicknamePrefix289 => 'cool-headed';
+
+  @override
+  String get nicknamePrefix290 => 'sensible';
+
+  @override
+  String get nicknamePrefix291 => 'foolish';
+
+  @override
+  String get nicknamePrefix292 => 'innocent';
+
+  @override
+  String get nicknamePrefix293 => 'cunning';
+
+  @override
+  String get nicknamePrefix294 => 'serpentine';
+
+  @override
+  String get nicknamePrefix295 => 'pure white';
+
+  @override
+  String get nicknamePrefix296 => 'jet black';
+
+  @override
+  String get nicknamePrefix297 => 'golden';
+
+  @override
+  String get nicknamePrefix298 => 'argent';
+
+  @override
+  String get nicknamePrefix299 => 'verine';
+
+  @override
+  String get nicknameSuffix101 => 'otsija';
+
+  @override
+  String get nicknameSuffix102 => 'palverändur';
+
+  @override
+  String get nicknameSuffix103 => 'hulkur';
+
+  @override
+  String get nicknameSuffix104 => 'erak';
+
+  @override
+  String get nicknameSuffix105 => 'Ethan';
+
+  @override
+  String get nicknameSuffix106 => 'reetur';
+
+  @override
+  String get nicknameSuffix107 => 'pioneer';
+
+  @override
+  String get nicknameSuffix108 => 'vallutaja';
+
+  @override
+  String get nicknameSuffix109 => 'joonlaud';
+
+  @override
+  String get nicknameSuffix110 => 'orkestrant';
+
+  @override
+  String get nicknameSuffix111 => 'eestkostja';
+
+  @override
+  String get nicknameSuffix112 => 'vaatleja';
+
+  @override
+  String get nicknameSuffix113 => 'vaatleja';
+
+  @override
+  String get nicknameSuffix114 => 'salvesti';
+
+  @override
+  String get nicknameSuffix115 => 'suhtleja';
+
+  @override
+  String get nicknameSuffix116 => 'juhend';
+
+  @override
+  String get nicknameSuffix117 => 'juht';
+
+  @override
+  String get nicknameSuffix118 => 'säästja';
+
+  @override
+  String get nicknameSuffix119 => 'hävitaja';
+
+  @override
+  String get nicknameSuffix120 => 'looja';
+
+  @override
+  String get nicknameSuffix121 => 'varju';
+
+  @override
+  String get nicknameSuffix122 => 'kummitus';
+
+  @override
+  String get nicknameSuffix123 => 'kummitus';
+
+  @override
+  String get nicknameSuffix124 => 'kuri vaim';
+
+  @override
+  String get nicknameSuffix125 => 'valitsuse määrus';
+
+  @override
+  String get nicknameSuffix126 => 'haldjas';
+
+  @override
+  String get nicknameSuffix127 => 'deemon metsaline';
+
+  @override
+  String get nicknameSuffix128 => 'püha vesi';
+
+  @override
+  String get nicknameSuffix129 => 'tagasimakse';
+
+  @override
+  String get nicknameSuffix130 => 'Shinsu';
+
+  @override
+  String get nicknameSuffix131 => 'test';
+
+  @override
+  String get nicknameSuffix132 => 'artiklit';
+
+  @override
+  String get nicknameSuffix133 => 'Ambur';
+
+  @override
+  String get nicknameSuffix134 => 'varas';
+
+  @override
+  String get nicknameSuffix135 => 'palgamõrvar';
+
+  @override
+  String get nicknameSuffix136 => 'viisard';
+
+  @override
+  String get nicknameSuffix137 => 'wow';
+
+  @override
+  String get nicknameSuffix138 => 'alkeemik';
+
+  @override
+  String get nicknameSuffix139 => 'nekrut';
+
+  @override
+  String get nicknameSuffix140 => 'preester';
+
+  @override
+  String get nicknameSuffix141 => 'õpetlane';
+
+  @override
+  String get nicknameSuffix142 => 'uurija';
+
+  @override
+  String get nicknameSuffix143 => 'uurija';
+
+  @override
+  String get nicknameSuffix144 => 'reisija';
+
+  @override
+  String get nicknameSuffix145 => 'kunstnik';
+
+  @override
+  String get nicknameSuffix146 => 'naljamees';
+
+  @override
+  String get nicknameSuffix147 => 'bard';
+
+  @override
+  String get nicknameSuffix148 => 'kaupmees';
+
+  @override
+  String get nicknameSuffix149 => 'käsitööline';
+
+  @override
+  String get nicknameSuffix150 => 'talupoeg';
+
+  @override
+  String get nicknameSuffix151 => 'vares';
+
+  @override
+  String get nicknameSuffix152 => 'öökull';
+
+  @override
+  String get nicknameSuffix153 => 'öökull';
+
+  @override
+  String get nicknameSuffix154 => 'kotkas';
+
+  @override
+  String get nicknameSuffix155 => 'kull';
+
+  @override
+  String get nicknameSuffix156 => 'hunt';
+
+  @override
+  String get nicknameSuffix157 => 'rebane';
+
+  @override
+  String get nicknameSuffix158 => 'karu';
+
+  @override
+  String get nicknameSuffix159 => 'lõvi';
+
+  @override
+  String get nicknameSuffix160 => 'tiiger';
+
+  @override
+  String get nicknameSuffix161 => 'leopard';
+
+  @override
+  String get nicknameSuffix162 => 'must panter';
+
+  @override
+  String get nicknameSuffix163 => 'Salsssop';
+
+  @override
+  String get nicknameSuffix164 => 'kass';
+
+  @override
+  String get nicknameSuffix165 => 'kutsikas';
+
+  @override
+  String get nicknameSuffix166 => 'madu';
+
+  @override
+  String get nicknameSuffix167 => 'sisalik';
+
+  @override
+  String get nicknameSuffix168 => 'kilpkonn';
+
+  @override
+  String get nicknameSuffix169 => 'krokodill';
+
+  @override
+  String get nicknameSuffix170 => 'draakon';
+
+  @override
+  String get nicknameSuffix171 => 'ükssarvik';
+
+  @override
+  String get nicknameSuffix172 => 'Pegasus';
+
+  @override
+  String get nicknameSuffix173 => 'grifoon';
+
+  @override
+  String get nicknameSuffix174 => 'gargoyle';
+
+  @override
+  String get nicknameSuffix175 => 'goblin';
+
+  @override
+  String get nicknameSuffix176 => 'tamm';
+
+  @override
+  String get nicknameSuffix177 => 'troll';
+
+  @override
+  String get nicknameSuffix178 => 'tigu';
+
+  @override
+  String get nicknameSuffix179 => 'lima';
+
+  @override
+  String get nicknameSuffix180 => 'skelett';
+
+  @override
+  String get nicknameSuffix181 => 'zombi';
+
+  @override
+  String get nicknameSuffix182 => 'kummitus';
+
+  @override
+  String get nicknameSuffix183 => 'vampiir';
+
+  @override
+  String get nicknameSuffix184 => 'libahunt';
+
+  @override
+  String get nicknameSuffix185 => 'minotaurus';
+
+  @override
+  String get nicknameSuffix186 => 'kentaur';
+
+  @override
+  String get nicknameSuffix187 => 'harpy';
+
+  @override
+  String get nicknameSuffix188 => 'sireen';
+
+  @override
+  String get nicknameSuffix189 => 'Kraken';
+
+  @override
+  String get nicknameSuffix190 => 'leviatan';
+
+  @override
+  String get nicknameSuffix191 => 'nuga';
+
+  @override
+  String get nicknameSuffix192 => 'kilp';
+
+  @override
+  String get nicknameSuffix193 => 'aken';
+
+  @override
+  String get nicknameSuffix194 => 'vibu';
+
+  @override
+  String get nicknameSuffix195 => 'kepp';
+
+  @override
+  String get nicknameSuffix196 => 'ring';
+
+  @override
+  String get nicknameSuffix197 => 'kaelakee';
+
+  @override
+  String get nicknameSuffix198 => 'kroon';
+
+  @override
+  String get nicknameSuffix199 => 'Püha Graal';
+
+  @override
+  String get themeFree => 'Tasuta teema';
+
+  @override
+  String get themePaid => 'Tasuline teema';
 }

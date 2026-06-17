@@ -9,143 +9,136 @@ class AppLocalizationsZh extends AppLocalizations {
   AppLocalizationsZh([String locale = 'zh']) : super(locale);
 
   @override
-  String get appTitle => 'Tarot Reading';
+  String get appTitle => '塔罗占卜';
 
   @override
-  String get spreadSelectionTitle => 'Select a Spread';
+  String get spreadSelectionTitle => '选择价差';
 
   @override
-  String get spreadSelectionSubtitle =>
-      'Choose a tarot spread that fits your question';
+  String get spreadSelectionSubtitle => '选择适合您问题的塔罗牌排列';
 
   @override
-  String get spreadOneCardName => 'One Card';
+  String get spreadOneCardName => '一卡';
 
   @override
-  String get spreadOneCardDesc =>
-      'A single card for a quick answer or daily guidance.';
+  String get spreadOneCardDesc => '一张卡片即可提供快速答案或日常指导。';
 
   @override
-  String get spreadTwoCardName => 'Two Card';
+  String get spreadTwoCardName => '两张卡';
 
   @override
-  String get spreadTwoCardDesc =>
-      'A 2-card spread to simply grasp the current situation and advice.';
+  String get spreadTwoCardDesc => '一张2张牌传播，简单掌握现状和建议。';
 
   @override
-  String get spreadThreeCardName => 'Three Card';
+  String get spreadThreeCardName => '三卡';
 
   @override
-  String get spreadThreeCardDesc =>
-      'A 3-card spread to understand the flow of past, present, and future.';
+  String get spreadThreeCardDesc => '通过三张牌展开来了解过去、现在和未来的流程。';
 
   @override
-  String get spreadFourCardName => 'Four Card';
+  String get spreadFourCardName => '四卡';
 
   @override
-  String get spreadFourCardDesc =>
-      'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.';
+  String get spreadFourCardDesc => '一张四张卡片可以清楚地诊断问题的原因、获取建议并查看结果。';
 
   @override
-  String get spreadFiveCardName => 'Five Card';
+  String get spreadFiveCardName => '五卡';
 
   @override
-  String get spreadFiveCardDesc =>
-      'A 5-card spread examining the core of the situation, its causes, and potential outcomes.';
+  String get spreadFiveCardDesc => '一张 5 张卡片，检查情况的核心、原因和潜在结果。';
 
   @override
-  String get spreadCelticCrossName => 'Celtic Cross';
+  String get spreadCelticCrossName => '凯尔特十字';
 
   @override
-  String get spreadCelticCrossDesc =>
-      '10 cards for an in-depth analysis of a complex problem.';
+  String get spreadCelticCrossDesc => '10 张卡片，用于深入分析复杂问题。';
 
   @override
-  String get positionOneCard => 'Today\'s Card';
+  String get positionOneCard => '今日卡';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '一、情况';
 
   @override
-  String get positionTwoCard2 => '2. Advice';
+  String get positionTwoCard2 => '2.建议';
 
   @override
-  String get positionThreeCard1 => 'Past';
+  String get positionThreeCard1 => '过去的';
 
   @override
-  String get positionThreeCard2 => 'Present';
+  String get positionThreeCard2 => '展示';
 
   @override
-  String get positionThreeCard3 => 'Future';
+  String get positionThreeCard3 => '未来';
 
   @override
-  String get positionFourCard1 => '1. Problem';
+  String get positionFourCard1 => '1. 问题';
 
   @override
-  String get positionFourCard2 => '2. Cause';
+  String get positionFourCard2 => '2. 原因';
 
   @override
-  String get positionFourCard3 => '3. Advice';
+  String get positionFourCard3 => '3.建议';
 
   @override
-  String get positionFourCard4 => '4. Outcome';
+  String get positionFourCard4 => '4. 结果';
 
   @override
-  String get positionFiveCard1 => '1. Present';
+  String get positionFiveCard1 => '1. 礼物';
 
   @override
-  String get positionFiveCard2 => '2. Past Influences';
+  String get positionFiveCard2 => '2. 过去的影响';
 
   @override
-  String get positionFiveCard3 => '3. Future Direction';
+  String get positionFiveCard3 => '3. 未来发展方向';
 
   @override
-  String get positionFiveCard4 => '4. Core Reason';
+  String get positionFiveCard4 => '4. 核心原因';
 
   @override
-  String get positionFiveCard5 => '5. Potential Outcome';
+  String get positionFiveCard5 => '5. 潜在结果';
 
   @override
-  String get positionCelticCross1 => '1. Present (Querent)';
+  String get positionCelticCross1 => '1. 现在（询问者）';
 
   @override
-  String get positionCelticCross2 => '2. The Challenge';
+  String get positionCelticCross2 => '2. 挑战';
 
   @override
-  String get positionCelticCross3 => '3. The Past';
+  String get positionCelticCross3 => '3. 过去';
 
   @override
-  String get positionCelticCross4 => '4. The Future';
+  String get positionCelticCross4 => '4. 未来';
 
   @override
-  String get positionCelticCross5 => '5. Conscious';
+  String get positionCelticCross5 => '5.有意识';
 
   @override
-  String get positionCelticCross6 => '6. Subconscious';
+  String get positionCelticCross6 => '6.潜意识';
 
   @override
-  String get positionCelticCross7 => '7. Advice';
+  String get positionCelticCross7 => '7. 建议';
 
   @override
-  String get positionCelticCross8 => '8. External Influences';
+  String get positionCelticCross8 => '8. 外部影响';
 
   @override
-  String get positionCelticCross9 => '9. Hopes and Fears';
+  String get positionCelticCross9 => '9.希望与恐惧';
 
   @override
-  String get positionCelticCross10 => '10. Outcome';
+  String get positionCelticCross10 => '10. 结果';
 
   @override
-  String get navReading => '塔罗占卜';
+  String get navReading => '塔罗牌占卜';
 
   @override
-  String get navChat => '塔罗咨询';
+  String get navChat => '塔罗牌聊天';
 
   @override
-  String get navMeanings => '卡牌图鉴';
+  String get navMeanings => '卡片意义';
 
   @override
-  String get navMyMenu => 'My Menu';
+  String get navMyMenu => '我的菜单';
 
   @override
   String get readingIntroTitle => '命运的\n低语';
@@ -1045,6 +1038,1711 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get chatProfileTapHint => '点击头像查看详情';
+
+  @override
+  String get themeName1 => '主题1';
+
+  @override
+  String get themeName2 => '主题2';
+
+  @override
+  String get themeName3 => '主题3';
+
+  @override
+  String get themeMagicBook => '魔法书';
+
+  @override
+  String get themeBlackCat => '黑猫';
+
+  @override
+  String get themeEmptyPaidThemes => '在商店购买主题\n来填补这个空间！';
+
+  @override
+  String get shopThemePurchaseTitle => '购买主题';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return '您想用 $skinName 枚硬币购买 $cost 主题吗？';
+  }
+
+  @override
+  String get shopCancel => '取消';
+
+  @override
+  String get shopPurchase => '购买';
+
+  @override
+  String get shopAlreadyOwned => '已经拥有了。尝试在主题设置中应用它！';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return '$skinName购买成功！检查主题设置。';
+  }
+
+  @override
+  String get shopNotEnoughCoins => '金币不够。';
+
+  @override
+  String get shopOwned => '拥有';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost币';
+  }
+
+  @override
+  String get navDiary => '塔罗日记';
+
+  @override
+  String get myMenuFirebaseNotConnected => 'Firebase 未连接';
+
+  @override
+  String get myMenuWindowsSetupNeeded => '需要 Windows 设置（预览版）';
+
+  @override
+  String get myMenuTouchToViewLogin => '点击查看登录界面';
+
+  @override
+  String get myMenuNoName => '无名';
+
+  @override
+  String get myMenuPleaseLogin => '请登录';
+
+  @override
+  String get myMenuTouchToSignupLogin => '点击注册并登录';
+
+  @override
+  String get myMenuSectionMyRecords => '我的记录';
+
+  @override
+  String get myMenuDiaryStorage => '日记存储';
+
+  @override
+  String get myMenuCheckSavedDiary => '检查您保存的日记。';
+
+  @override
+  String get myMenuFavoriteCards => '最喜欢的卡片';
+
+  @override
+  String get myMenuMyFavoriteCardsList => '我最喜欢的卡片列表';
+
+  @override
+  String get myMenuSectionAppSettings => '应用程序设置';
+
+  @override
+  String get myMenuPushNotifications => '推送通知';
+
+  @override
+  String get myMenuPushNotificationsDesc => '新的星座和事件';
+
+  @override
+  String get myMenuLanguageSettings => '语言设置';
+
+  @override
+  String get myMenuThemeSettings => '主题设置';
+
+  @override
+  String get myMenuChangeBackground => '更改背景图片';
+
+  @override
+  String get myMenuSectionCustomerSupport => '客户支持';
+
+  @override
+  String get myMenuFaq => '常问问题';
+
+  @override
+  String get myMenuAppInfo => '应用程序信息';
+
+  @override
+  String get myMenuSectionAccountManagement => '账户管理';
+
+  @override
+  String get myMenuLogout => '退出';
+
+  @override
+  String get myMenuLogoutDesc => '从当前设备注销。';
+
+  @override
+  String get myMenuEmailVerifiedMsg => '邮箱验证已确认！ ✨';
+
+  @override
+  String get myMenuEmailSendTitle => '发送验证邮件';
+
+  @override
+  String get myMenuEmailSendContent => '验证电子邮件已发送。\n请检查您的收件箱，单击链接，然后再次按此按钮！';
+
+  @override
+  String get myMenuConfirm => '确认';
+
+  @override
+  String get myMenuEmailErrorMsg => '请求过多或发生错误。';
+
+  @override
+  String get myMenuEmailVerified => '电子邮件已验证';
+
+  @override
+  String get myMenuEmailNotVerified => '电子邮件未验证（点击以验证）';
+
+  @override
+  String get languageSystemDefault => '系统默认值';
+
+  @override
+  String get shopTitle => '店铺';
+
+  @override
+  String get shopSubtitle => '购买金币和主题';
+
+  @override
+  String get shopTabCoin => '硬币';
+
+  @override
+  String get shopTabTheme => '主题';
+
+  @override
+  String get shopPayButton => '支付';
+
+  @override
+  String get themeOriginalDeck => '原创经典套牌';
+
+  @override
+  String get themeGoldenSunDeck => '金色阳光甲板';
+
+  @override
+  String get themeDarkAbyssDeck => '黑暗深渊甲板';
+
+  @override
+  String get themeSpringSpiritDeck => '春之精灵甲板';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return '$coins 硬币的付款即将到来。';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return '购买/申请$name即将推出。';
+  }
+
+  @override
+  String get readingIntroSelectWitch => '选择一个女巫来看看你的命运';
+
+  @override
+  String get readingIntroGreeting => '我们该追寻怎样的命运？\n我对你的未来很好奇。';
+
+  @override
+  String get readingIntroStart => '选择点差';
+
+  @override
+  String get tabMajorArcana => '大阿卡纳';
+
+  @override
+  String get tabMinorArcana => '小阿卡纳';
+
+  @override
+  String get nicknamePrefix0 => '神秘的';
+
+  @override
+  String get nicknamePrefix1 => '安详';
+
+  @override
+  String get nicknamePrefix2 => '圣';
+
+  @override
+  String get nicknamePrefix3 => '黑暗的';
+
+  @override
+  String get nicknamePrefix4 => '灼灼';
+
+  @override
+  String get nicknamePrefix5 => '苍凉';
+
+  @override
+  String get nicknamePrefix6 => '热的';
+
+  @override
+  String get nicknamePrefix7 => '迷人';
+
+  @override
+  String get nicknamePrefix8 => '残忍的';
+
+  @override
+  String get nicknamePrefix9 => '纯的';
+
+  @override
+  String get nicknamePrefix10 => '残酷的';
+
+  @override
+  String get nicknamePrefix11 => '柔软的';
+
+  @override
+  String get nicknamePrefix12 => '美丽的';
+
+  @override
+  String get nicknamePrefix13 => '诡异的';
+
+  @override
+  String get nicknamePrefix14 => '大的';
+
+  @override
+  String get nicknamePrefix15 => '破旧';
+
+  @override
+  String get nicknamePrefix16 => '永恒';
+
+  @override
+  String get nicknamePrefix17 => '忘记了';
+
+  @override
+  String get nicknamePrefix18 => '杰出的';
+
+  @override
+  String get nicknamePrefix19 => '伤心';
+
+  @override
+  String get nicknamePrefix20 => '高兴的';
+
+  @override
+  String get nicknamePrefix21 => '梦幻般的';
+
+  @override
+  String get nicknamePrefix22 => '堕落';
+
+  @override
+  String get nicknamePrefix23 => '纯白色';
+
+  @override
+  String get nicknamePrefix24 => '乌黑';
+
+  @override
+  String get nicknamePrefix25 => '血腥';
+
+  @override
+  String get nicknamePrefix26 => '呈灰色的';
+
+  @override
+  String get nicknamePrefix27 => '金的';
+
+  @override
+  String get nicknamePrefix28 => '银色';
+
+  @override
+  String get nicknamePrefix29 => '蓝色的';
+
+  @override
+  String get nicknamePrefix30 => '红色的';
+
+  @override
+  String get nicknamePrefix31 => '黄色的';
+
+  @override
+  String get nicknamePrefix32 => '黑色的';
+
+  @override
+  String get nicknamePrefix33 => '白色的';
+
+  @override
+  String get nicknamePrefix34 => '透明的';
+
+  @override
+  String get nicknamePrefix35 => '孤独的';
+
+  @override
+  String get nicknamePrefix36 => '嘈杂';
+
+  @override
+  String get nicknamePrefix37 => '安静的';
+
+  @override
+  String get nicknamePrefix38 => '温暖的';
+
+  @override
+  String get nicknamePrefix39 => '冷淡的';
+
+  @override
+  String get nicknamePrefix40 => '孤';
+
+  @override
+  String get nicknamePrefix41 => '寂寞';
+
+  @override
+  String get nicknamePrefix42 => '快乐的';
+
+  @override
+  String get nicknamePrefix43 => '快乐的';
+
+  @override
+  String get nicknamePrefix44 => '阴沉';
+
+  @override
+  String get nicknamePrefix45 => '绝望的';
+
+  @override
+  String get nicknamePrefix46 => '充满希望的';
+
+  @override
+  String get nicknamePrefix47 => '令人眼花缭乱';
+
+  @override
+  String get nicknamePrefix48 => '昏暗';
+
+  @override
+  String get nicknamePrefix49 => '午夜';
+
+  @override
+  String get nicknamePrefix50 => '荒凉';
+
+  @override
+  String get nicknamePrefix51 => '秘密';
+
+  @override
+  String get nicknamePrefix52 => '秘密';
+
+  @override
+  String get nicknamePrefix53 => '神圣';
+
+  @override
+  String get nicknamePrefix54 => '亵渎的';
+
+  @override
+  String get nicknamePrefix55 => '优越的';
+
+  @override
+  String get nicknamePrefix56 => '谦虚的';
+
+  @override
+  String get nicknamePrefix57 => '明智的';
+
+  @override
+  String get nicknamePrefix58 => '愚蠢的';
+
+  @override
+  String get nicknamePrefix59 => '艰难的';
+
+  @override
+  String get nicknamePrefix60 => '虚弱的';
+
+  @override
+  String get nicknamePrefix61 => '勇敢的';
+
+  @override
+  String get nicknamePrefix62 => '卑鄙地';
+
+  @override
+  String get nicknamePrefix63 => '遥远';
+
+  @override
+  String get nicknamePrefix64 => '靠近';
+
+  @override
+  String get nicknamePrefix65 => '搬走';
+
+  @override
+  String get nicknamePrefix66 => '迎面而来的';
+
+  @override
+  String get nicknamePrefix67 => '消失';
+
+  @override
+  String get nicknamePrefix68 => '涌现的';
+
+  @override
+  String get nicknamePrefix69 => '被唤醒';
+
+  @override
+  String get nicknamePrefix70 => '睡着了';
+
+  @override
+  String get nicknamePrefix71 => '做梦';
+
+  @override
+  String get nicknamePrefix72 => '徘徊';
+
+  @override
+  String get nicknamePrefix73 => '徘徊';
+
+  @override
+  String get nicknamePrefix74 => '停留';
+
+  @override
+  String get nicknamePrefix75 => '离开';
+
+  @override
+  String get nicknamePrefix76 => '回来';
+
+  @override
+  String get nicknamePrefix77 => '等待';
+
+  @override
+  String get nicknamePrefix78 => '寻找';
+
+  @override
+  String get nicknamePrefix79 => '神秘的';
+
+  @override
+  String get nicknamePrefix80 => '裸露';
+
+  @override
+  String get nicknamePrefix81 => '弃';
+
+  @override
+  String get nicknamePrefix82 => '已选择';
+
+  @override
+  String get nicknamePrefix83 => '有福的';
+
+  @override
+  String get nicknamePrefix84 => '被诅咒的';
+
+  @override
+  String get nicknamePrefix85 => '爱过';
+
+  @override
+  String get nicknamePrefix86 => '讨厌的';
+
+  @override
+  String get nicknamePrefix87 => '记住';
+
+  @override
+  String get nicknamePrefix88 => '健忘的';
+
+  @override
+  String get nicknamePrefix89 => '星光';
+
+  @override
+  String get nicknamePrefix90 => '月光';
+
+  @override
+  String get nicknamePrefix91 => '阳光的';
+
+  @override
+  String get nicknamePrefix92 => '宇宙的';
+
+  @override
+  String get nicknamePrefix93 => '地球的';
+
+  @override
+  String get nicknamePrefix94 => '海的';
+
+  @override
+  String get nicknamePrefix95 => '天上';
+
+  @override
+  String get nicknamePrefix96 => '云的';
+
+  @override
+  String get nicknamePrefix97 => '风的';
+
+  @override
+  String get nicknamePrefix98 => '雨';
+
+  @override
+  String get nicknamePrefix99 => '眼睛的';
+
+  @override
+  String get nicknamePrefix100 => '冰冷的';
+
+  @override
+  String get nicknamePrefix101 => '火热';
+
+  @override
+  String get nicknamePrefix102 => '水';
+
+  @override
+  String get nicknamePrefix103 => '土制的';
+
+  @override
+  String get nicknamePrefix104 => '木制的';
+
+  @override
+  String get nicknamePrefix105 => '森林';
+
+  @override
+  String get nicknamePrefix106 => '多山';
+
+  @override
+  String get nicknamePrefix107 => '演讲';
+
+  @override
+  String get nicknamePrefix108 => '湖的';
+
+  @override
+  String get nicknamePrefix109 => '时间的';
+
+  @override
+  String get nicknamePrefix110 => '空间的';
+
+  @override
+  String get nicknamePrefix111 => '方面';
+
+  @override
+  String get nicknamePrefix112 => '命运攸关的';
+
+  @override
+  String get nicknamePrefix113 => '命运攸关的';
+
+  @override
+  String get nicknamePrefix114 => '神奇';
+
+  @override
+  String get nicknamePrefix115 => '神奇';
+
+  @override
+  String get nicknamePrefix116 => '神话';
+
+  @override
+  String get nicknamePrefix117 => '传奇的';
+
+  @override
+  String get nicknamePrefix118 => '真理的';
+
+  @override
+  String get nicknamePrefix119 => '错误的';
+
+  @override
+  String get nicknamePrefix120 => '幻想';
+
+  @override
+  String get nicknamePrefix121 => '梦';
+
+  @override
+  String get nicknamePrefix122 => '恶梦';
+
+  @override
+  String get nicknamePrefix123 => '废墟';
+
+  @override
+  String get nicknamePrefix124 => '创造的';
+
+  @override
+  String get nicknamePrefix125 => '生命的';
+
+  @override
+  String get nicknamePrefix126 => '死亡的';
+
+  @override
+  String get nicknamePrefix127 => '灵魂';
+
+  @override
+  String get nicknamePrefix128 => '身体的';
+
+  @override
+  String get nicknamePrefix129 => '有理有据';
+
+  @override
+  String get nicknamePrefix130 => '情绪化的';
+
+  @override
+  String get nicknamePrefix131 => '爱的';
+
+  @override
+  String get nicknamePrefix132 => '仇恨的';
+
+  @override
+  String get nicknamePrefix133 => '悲伤的';
+
+  @override
+  String get nicknamePrefix134 => '喜悦的';
+
+  @override
+  String get nicknamePrefix135 => '生气的';
+
+  @override
+  String get nicknamePrefix136 => '和平的';
+
+  @override
+  String get nicknamePrefix137 => '战争的';
+
+  @override
+  String get nicknamePrefix138 => '混乱';
+
+  @override
+  String get nicknamePrefix139 => '秩序';
+
+  @override
+  String get nicknamePrefix140 => '光的';
+
+  @override
+  String get nicknamePrefix141 => '黑暗的';
+
+  @override
+  String get nicknamePrefix142 => '暮';
+
+  @override
+  String get nicknamePrefix143 => '黎明';
+
+  @override
+  String get nicknamePrefix144 => '中午';
+
+  @override
+  String get nicknamePrefix145 => '午夜';
+
+  @override
+  String get nicknamePrefix146 => '过去的';
+
+  @override
+  String get nicknamePrefix147 => '展示';
+
+  @override
+  String get nicknamePrefix148 => '未来';
+
+  @override
+  String get nicknamePrefix149 => '原产地';
+
+  @override
+  String get nicknamePrefix150 => '世界末日的';
+
+  @override
+  String get nicknamePrefix151 => '无限';
+
+  @override
+  String get nicknamePrefix152 => '有限';
+
+  @override
+  String get nicknamePrefix153 => '沉默的';
+
+  @override
+  String get nicknamePrefix154 => '噪音的';
+
+  @override
+  String get nicknamePrefix155 => '歌唱';
+
+  @override
+  String get nicknamePrefix156 => '跳舞';
+
+  @override
+  String get nicknamePrefix157 => '哭';
+
+  @override
+  String get nicknamePrefix158 => '微笑着';
+
+  @override
+  String get nicknamePrefix159 => '耳语';
+
+  @override
+  String get nicknamePrefix160 => '哭';
+
+  @override
+  String get nicknamePrefix161 => '祈祷';
+
+  @override
+  String get nicknamePrefix162 => '恳求';
+
+  @override
+  String get nicknamePrefix163 => '发号施令';
+
+  @override
+  String get nicknamePrefix164 => '顺从的';
+
+  @override
+  String get nicknamePrefix165 => '裁决';
+
+  @override
+  String get nicknamePrefix166 => '服务';
+
+  @override
+  String get nicknamePrefix167 => '指导';
+
+  @override
+  String get nicknamePrefix168 => '随同';
+
+  @override
+  String get nicknamePrefix169 => '教学';
+
+  @override
+  String get nicknamePrefix170 => '学习';
+
+  @override
+  String get nicknamePrefix171 => '记忆的';
+
+  @override
+  String get nicknamePrefix172 => '回忆的';
+
+  @override
+  String get nicknamePrefix173 => '伤口的';
+
+  @override
+  String get nicknamePrefix174 => '康复';
+
+  @override
+  String get nicknamePrefix175 => '有毒';
+
+  @override
+  String get nicknamePrefix176 => '药品';
+
+  @override
+  String get nicknamePrefix177 => '欢迎';
+
+  @override
+  String get nicknamePrefix178 => '物质的';
+
+  @override
+  String get nicknamePrefix179 => '理想的';
+
+  @override
+  String get nicknamePrefix180 => '真实的';
+
+  @override
+  String get nicknamePrefix181 => '假想';
+
+  @override
+  String get nicknamePrefix182 => '自然的';
+
+  @override
+  String get nicknamePrefix183 => '人造的';
+
+  @override
+  String get nicknamePrefix184 => '一开始';
+
+  @override
+  String get nicknamePrefix185 => '永恒';
+
+  @override
+  String get nicknamePrefix186 => '此刻';
+
+  @override
+  String get nicknamePrefix187 => '稍纵即逝的';
+
+  @override
+  String get nicknamePrefix188 => '永恒';
+
+  @override
+  String get nicknamePrefix189 => '变化的';
+
+  @override
+  String get nicknamePrefix190 => '仍然';
+
+  @override
+  String get nicknamePrefix191 => '流动的';
+
+  @override
+  String get nicknamePrefix192 => '撞倒';
+
+  @override
+  String get nicknamePrefix193 => '炽烈';
+
+  @override
+  String get nicknamePrefix194 => '冷却下来';
+
+  @override
+  String get nicknamePrefix195 => '盛开';
+
+  @override
+  String get nicknamePrefix196 => '枯萎';
+
+  @override
+  String get nicknamePrefix197 => '成长';
+
+  @override
+  String get nicknamePrefix198 => '垂死';
+
+  @override
+  String get nicknamePrefix199 => '呼吸';
+
+  @override
+  String get nicknamePrefix200 => '令人窒息的';
+
+  @override
+  String get nicknameSuffix0 => '先知';
+
+  @override
+  String get nicknameSuffix1 => '向导';
+
+  @override
+  String get nicknameSuffix2 => '巫婆';
+
+  @override
+  String get nicknameSuffix3 => '文章';
+
+  @override
+  String get nicknameSuffix4 => '战士';
+
+  @override
+  String get nicknameSuffix5 => '射手';
+
+  @override
+  String get nicknameSuffix6 => '贼';
+
+  @override
+  String get nicknameSuffix7 => '刺客';
+
+  @override
+  String get nicknameSuffix8 => '圣骑士';
+
+  @override
+  String get nicknameSuffix9 => '牧师';
+
+  @override
+  String get nicknameSuffix10 => '女祭司';
+
+  @override
+  String get nicknameSuffix11 => '僧';
+
+  @override
+  String get nicknameSuffix12 => '哇';
+
+  @override
+  String get nicknameSuffix13 => '炼金术士';
+
+  @override
+  String get nicknameSuffix14 => '死灵法师';
+
+  @override
+  String get nicknameSuffix15 => '通灵师';
+
+  @override
+  String get nicknameSuffix16 => '召唤师';
+
+  @override
+  String get nicknameSuffix17 => '魔术师';
+
+  @override
+  String get nicknameSuffix18 => '治疗师';
+
+  @override
+  String get nicknameSuffix19 => '智者';
+
+  @override
+  String get nicknameSuffix20 => '学者';
+
+  @override
+  String get nicknameSuffix21 => '研究员';
+
+  @override
+  String get nicknameSuffix22 => '探险家';
+
+  @override
+  String get nicknameSuffix23 => '游客';
+
+  @override
+  String get nicknameSuffix24 => '流浪汉';
+
+  @override
+  String get nicknameSuffix25 => '流浪汉';
+
+  @override
+  String get nicknameSuffix26 => '朝圣';
+
+  @override
+  String get nicknameSuffix27 => '探索者';
+
+  @override
+  String get nicknameSuffix28 => '观察者';
+
+  @override
+  String get nicknameSuffix29 => '录音机';
+
+  @override
+  String get nicknameSuffix30 => '通讯器';
+
+  @override
+  String get nicknameSuffix31 => '监护人';
+
+  @override
+  String get nicknameSuffix32 => '典狱长';
+
+  @override
+  String get nicknameSuffix33 => '警卫';
+
+  @override
+  String get nicknameSuffix34 => '看门人';
+
+  @override
+  String get nicknameSuffix35 => '法官';
+
+  @override
+  String get nicknameSuffix36 => '执达主任';
+
+  @override
+  String get nicknameSuffix37 => '州长';
+
+  @override
+  String get nicknameSuffix38 => '统治者';
+
+  @override
+  String get nicknameSuffix39 => '国王';
+
+  @override
+  String get nicknameSuffix40 => '女王';
+
+  @override
+  String get nicknameSuffix41 => '皇帝';
+
+  @override
+  String get nicknameSuffix42 => '皇后';
+
+  @override
+  String get nicknameSuffix43 => '贵族';
+
+  @override
+  String get nicknameSuffix44 => '永久居留权';
+
+  @override
+  String get nicknameSuffix45 => '骑士指挥官';
+
+  @override
+  String get nicknameSuffix46 => '雇佣兵';
+
+  @override
+  String get nicknameSuffix47 => '海盗';
+
+  @override
+  String get nicknameSuffix48 => '贼';
+
+  @override
+  String get nicknameSuffix49 => '欺诈罪';
+
+  @override
+  String get nicknameSuffix50 => '小丑';
+
+  @override
+  String get nicknameSuffix51 => '傻子';
+
+  @override
+  String get nicknameSuffix52 => '隐士';
+
+  @override
+  String get nicknameSuffix53 => '异教徒';
+
+  @override
+  String get nicknameSuffix54 => '背叛者';
+
+  @override
+  String get nicknameSuffix55 => '叛徒';
+
+  @override
+  String get nicknameSuffix56 => '英雄';
+
+  @override
+  String get nicknameSuffix57 => '储蓄者';
+
+  @override
+  String get nicknameSuffix58 => '救星';
+
+  @override
+  String get nicknameSuffix59 => '驱逐舰';
+
+  @override
+  String get nicknameSuffix60 => '创造者';
+
+  @override
+  String get nicknameSuffix61 => '上帝';
+
+  @override
+  String get nicknameSuffix62 => '女神';
+
+  @override
+  String get nicknameSuffix63 => '天使';
+
+  @override
+  String get nicknameSuffix64 => '魔鬼';
+
+  @override
+  String get nicknameSuffix65 => '政府法令';
+
+  @override
+  String get nicknameSuffix66 => '仙女';
+
+  @override
+  String get nicknameSuffix67 => '怪物';
+
+  @override
+  String get nicknameSuffix68 => '妖兽';
+
+  @override
+  String get nicknameSuffix69 => '龙';
+
+  @override
+  String get nicknameSuffix70 => '鬼';
+
+  @override
+  String get nicknameSuffix71 => '阴影';
+
+  @override
+  String get nicknameSuffix72 => '不死族';
+
+  @override
+  String get nicknameSuffix73 => '吸血鬼';
+
+  @override
+  String get nicknameSuffix74 => '狼人';
+
+  @override
+  String get nicknameSuffix75 => '美人鱼';
+
+  @override
+  String get nicknameSuffix76 => '警笛';
+
+  @override
+  String get nicknameSuffix77 => '若虫';
+
+  @override
+  String get nicknameSuffix78 => '妖精';
+
+  @override
+  String get nicknameSuffix79 => '橡木';
+
+  @override
+  String get nicknameSuffix80 => '巨魔';
+
+  @override
+  String get nicknameSuffix81 => '小精灵';
+
+  @override
+  String get nicknameSuffix82 => '矮人';
+
+  @override
+  String get nicknameSuffix83 => '巨大的';
+
+  @override
+  String get nicknameSuffix84 => '邮戳';
+
+  @override
+  String get nicknameSuffix85 => '人';
+
+  @override
+  String get nicknameSuffix86 => '囚犯';
+
+  @override
+  String get nicknameSuffix87 => '签名';
+
+  @override
+  String get nicknameSuffix88 => '菲什曼';
+
+  @override
+  String get nicknameSuffix89 => '员工';
+
+  @override
+  String get nicknameSuffix90 => '邪灵';
+
+  @override
+  String get nicknameSuffix91 => '苏拉';
+
+  @override
+  String get nicknameSuffix92 => '地狱';
+
+  @override
+  String get nicknameSuffix93 => '天堂';
+
+  @override
+  String get nicknameSuffix94 => '地狱';
+
+  @override
+  String get nicknameSuffix95 => '异世界';
+
+  @override
+  String get nicknameSuffix96 => '深渊';
+
+  @override
+  String get nicknameSuffix97 => '混乱';
+
+  @override
+  String get nicknameSuffix98 => '命令';
+
+  @override
+  String get nicknameSuffix99 => '光';
+
+  @override
+  String get nicknameSuffix100 => '黑暗的';
+
+  @override
+  String get nicknamePrefix201 => '杰出的';
+
+  @override
+  String get nicknamePrefix202 => '微妙的';
+
+  @override
+  String get nicknamePrefix203 => '朦胧';
+
+  @override
+  String get nicknamePrefix204 => '头晕的';
+
+  @override
+  String get nicknamePrefix205 => '透明的';
+
+  @override
+  String get nicknamePrefix206 => '头晕的';
+
+  @override
+  String get nicknamePrefix207 => '令人眼花缭乱';
+
+  @override
+  String get nicknamePrefix208 => '诡异的';
+
+  @override
+  String get nicknamePrefix209 => '奇特';
+
+  @override
+  String get nicknamePrefix210 => '特别的';
+
+  @override
+  String get nicknamePrefix211 => '高贵';
+
+  @override
+  String get nicknamePrefix212 => '纯的';
+
+  @override
+  String get nicknamePrefix213 => '堕落';
+
+  @override
+  String get nicknamePrefix214 => '孤独的';
+
+  @override
+  String get nicknamePrefix215 => '寂寞';
+
+  @override
+  String get nicknamePrefix216 => '荒凉';
+
+  @override
+  String get nicknamePrefix217 => '遥远';
+
+  @override
+  String get nicknamePrefix218 => '残酷的';
+
+  @override
+  String get nicknamePrefix219 => '无情';
+
+  @override
+  String get nicknamePrefix220 => '残忍的';
+
+  @override
+  String get nicknamePrefix221 => '大的';
+
+  @override
+  String get nicknamePrefix222 => '艰难的';
+
+  @override
+  String get nicknamePrefix223 => '公司';
+
+  @override
+  String get nicknamePrefix224 => '蜿蜒的';
+
+  @override
+  String get nicknamePrefix225 => '快的';
+
+  @override
+  String get nicknamePrefix226 => '慢的';
+
+  @override
+  String get nicknamePrefix227 => '在沉默中';
+
+  @override
+  String get nicknamePrefix228 => '混乱中';
+
+  @override
+  String get nicknamePrefix229 => '记忆中';
+
+  @override
+  String get nicknamePrefix230 => '假想';
+
+  @override
+  String get nicknamePrefix231 => '沉默的';
+
+  @override
+  String get nicknamePrefix232 => '耳语';
+
+  @override
+  String get nicknamePrefix233 => '歌唱';
+
+  @override
+  String get nicknamePrefix234 => '跳舞';
+
+  @override
+  String get nicknamePrefix235 => '抽泣';
+
+  @override
+  String get nicknamePrefix236 => '微笑着';
+
+  @override
+  String get nicknamePrefix237 => '嘲笑';
+
+  @override
+  String get nicknamePrefix238 => '沉思';
+
+  @override
+  String get nicknamePrefix239 => '徘徊';
+
+  @override
+  String get nicknamePrefix240 => '徘徊';
+
+  @override
+  String get nicknamePrefix241 => '醒';
+
+  @override
+  String get nicknamePrefix242 => '睡着了';
+
+  @override
+  String get nicknamePrefix243 => '做梦';
+
+  @override
+  String get nicknamePrefix244 => '做白日梦';
+
+  @override
+  String get nicknamePrefix245 => '妄想的';
+
+  @override
+  String get nicknamePrefix246 => '祈祷';
+
+  @override
+  String get nicknamePrefix247 => '认真';
+
+  @override
+  String get nicknamePrefix248 => '悲伤';
+
+  @override
+  String get nicknamePrefix249 => '悲惨的';
+
+  @override
+  String get nicknamePrefix250 => '升华';
+
+  @override
+  String get nicknamePrefix251 => '邪恶';
+
+  @override
+  String get nicknamePrefix252 => '意思是';
+
+  @override
+  String get nicknamePrefix253 => '傲慢的';
+
+  @override
+  String get nicknamePrefix254 => '谦虚的';
+
+  @override
+  String get nicknamePrefix255 => '喜欢';
+
+  @override
+  String get nicknamePrefix256 => '温暖的';
+
+  @override
+  String get nicknamePrefix257 => '凉爽的';
+
+  @override
+  String get nicknamePrefix258 => '寒冷';
+
+  @override
+  String get nicknamePrefix259 => '奇异的';
+
+  @override
+  String get nicknamePrefix260 => '不可思议的';
+
+  @override
+  String get nicknamePrefix261 => '全神贯注';
+
+  @override
+  String get nicknamePrefix262 => '迷人';
+
+  @override
+  String get nicknamePrefix263 => '令人目眩的';
+
+  @override
+  String get nicknamePrefix264 => '甜甜的';
+
+  @override
+  String get nicknamePrefix265 => '苦的';
+
+  @override
+  String get nicknamePrefix266 => '苦涩的';
+
+  @override
+  String get nicknamePrefix267 => '有刺的';
+
+  @override
+  String get nicknamePrefix268 => '锋利的';
+
+  @override
+  String get nicknamePrefix269 => '乏味的';
+
+  @override
+  String get nicknamePrefix270 => '残酷的';
+
+  @override
+  String get nicknamePrefix271 => '柔软的';
+
+  @override
+  String get nicknamePrefix272 => '舒适';
+
+  @override
+  String get nicknamePrefix273 => '舒服的';
+
+  @override
+  String get nicknamePrefix274 => '不稳定的';
+
+  @override
+  String get nicknamePrefix275 => '不安';
+
+  @override
+  String get nicknamePrefix276 => '冷静的';
+
+  @override
+  String get nicknamePrefix277 => '冷静的';
+
+  @override
+  String get nicknamePrefix278 => '昏昏欲睡';
+
+  @override
+  String get nicknamePrefix279 => '无聊的';
+
+  @override
+  String get nicknamePrefix280 => '热情的';
+
+  @override
+  String get nicknamePrefix281 => '漫不经心的';
+
+  @override
+  String get nicknamePrefix282 => '宁静';
+
+  @override
+  String get nicknamePrefix283 => '暴力';
+
+  @override
+  String get nicknamePrefix284 => '凶猛的';
+
+  @override
+  String get nicknamePrefix285 => '疯狂的';
+
+  @override
+  String get nicknamePrefix286 => '疯了';
+
+  @override
+  String get nicknamePrefix287 => '合理的';
+
+  @override
+  String get nicknamePrefix288 => '情绪化的';
+
+  @override
+  String get nicknamePrefix289 => '冷静的';
+
+  @override
+  String get nicknamePrefix290 => '明智的';
+
+  @override
+  String get nicknamePrefix291 => '愚蠢的';
+
+  @override
+  String get nicknamePrefix292 => '清白的';
+
+  @override
+  String get nicknamePrefix293 => '狡猾';
+
+  @override
+  String get nicknamePrefix294 => '蛇纹石';
+
+  @override
+  String get nicknamePrefix295 => '纯白色';
+
+  @override
+  String get nicknamePrefix296 => '乌黑';
+
+  @override
+  String get nicknamePrefix297 => '金的';
+
+  @override
+  String get nicknamePrefix298 => '银色';
+
+  @override
+  String get nicknamePrefix299 => '血腥';
+
+  @override
+  String get nicknameSuffix101 => '探索者';
+
+  @override
+  String get nicknameSuffix102 => '朝圣';
+
+  @override
+  String get nicknameSuffix103 => '流浪汉';
+
+  @override
+  String get nicknameSuffix104 => '隐士';
+
+  @override
+  String get nicknameSuffix105 => '伊森';
+
+  @override
+  String get nicknameSuffix106 => '叛徒';
+
+  @override
+  String get nicknameSuffix107 => '先锋';
+
+  @override
+  String get nicknameSuffix108 => '征服者';
+
+  @override
+  String get nicknameSuffix109 => '统治者';
+
+  @override
+  String get nicknameSuffix110 => '协调者';
+
+  @override
+  String get nicknameSuffix111 => '监护人';
+
+  @override
+  String get nicknameSuffix112 => '观察者';
+
+  @override
+  String get nicknameSuffix113 => '观察者';
+
+  @override
+  String get nicknameSuffix114 => '录音机';
+
+  @override
+  String get nicknameSuffix115 => '通讯器';
+
+  @override
+  String get nicknameSuffix116 => '指导';
+
+  @override
+  String get nicknameSuffix117 => '领导者';
+
+  @override
+  String get nicknameSuffix118 => '储蓄者';
+
+  @override
+  String get nicknameSuffix119 => '驱逐舰';
+
+  @override
+  String get nicknameSuffix120 => '创造者';
+
+  @override
+  String get nicknameSuffix121 => '阴影';
+
+  @override
+  String get nicknameSuffix122 => '鬼';
+
+  @override
+  String get nicknameSuffix123 => '鬼';
+
+  @override
+  String get nicknameSuffix124 => '邪灵';
+
+  @override
+  String get nicknameSuffix125 => '政府法令';
+
+  @override
+  String get nicknameSuffix126 => '仙女';
+
+  @override
+  String get nicknameSuffix127 => '妖兽';
+
+  @override
+  String get nicknameSuffix128 => '圣水';
+
+  @override
+  String get nicknameSuffix129 => '退款';
+
+  @override
+  String get nicknameSuffix130 => '信水';
+
+  @override
+  String get nicknameSuffix131 => '测试';
+
+  @override
+  String get nicknameSuffix132 => '文章';
+
+  @override
+  String get nicknameSuffix133 => '射手';
+
+  @override
+  String get nicknameSuffix134 => '贼';
+
+  @override
+  String get nicknameSuffix135 => '刺客';
+
+  @override
+  String get nicknameSuffix136 => '向导';
+
+  @override
+  String get nicknameSuffix137 => '哇';
+
+  @override
+  String get nicknameSuffix138 => '炼金术士';
+
+  @override
+  String get nicknameSuffix139 => '死灵法师';
+
+  @override
+  String get nicknameSuffix140 => '牧师';
+
+  @override
+  String get nicknameSuffix141 => '学者';
+
+  @override
+  String get nicknameSuffix142 => '研究员';
+
+  @override
+  String get nicknameSuffix143 => '探险家';
+
+  @override
+  String get nicknameSuffix144 => '游客';
+
+  @override
+  String get nicknameSuffix145 => '艺术家';
+
+  @override
+  String get nicknameSuffix146 => '小丑';
+
+  @override
+  String get nicknameSuffix147 => '诗人';
+
+  @override
+  String get nicknameSuffix148 => '商人';
+
+  @override
+  String get nicknameSuffix149 => '工匠';
+
+  @override
+  String get nicknameSuffix150 => '农民';
+
+  @override
+  String get nicknameSuffix151 => '乌鸦';
+
+  @override
+  String get nicknameSuffix152 => '猫头鹰';
+
+  @override
+  String get nicknameSuffix153 => '猫头鹰';
+
+  @override
+  String get nicknameSuffix154 => '鹰';
+
+  @override
+  String get nicknameSuffix155 => '鹰';
+
+  @override
+  String get nicknameSuffix156 => '狼';
+
+  @override
+  String get nicknameSuffix157 => '狐狸';
+
+  @override
+  String get nicknameSuffix158 => '熊';
+
+  @override
+  String get nicknameSuffix159 => '狮子';
+
+  @override
+  String get nicknameSuffix160 => '老虎';
+
+  @override
+  String get nicknameSuffix161 => '豹';
+
+  @override
+  String get nicknameSuffix162 => '黑豹';
+
+  @override
+  String get nicknameSuffix163 => '莎草';
+
+  @override
+  String get nicknameSuffix164 => '猫';
+
+  @override
+  String get nicknameSuffix165 => '小狗';
+
+  @override
+  String get nicknameSuffix166 => '蛇';
+
+  @override
+  String get nicknameSuffix167 => '蜥蜴';
+
+  @override
+  String get nicknameSuffix168 => '龟';
+
+  @override
+  String get nicknameSuffix169 => '鳄鱼';
+
+  @override
+  String get nicknameSuffix170 => '龙';
+
+  @override
+  String get nicknameSuffix171 => '独角兽';
+
+  @override
+  String get nicknameSuffix172 => '飞马座';
+
+  @override
+  String get nicknameSuffix173 => '狮鹫';
+
+  @override
+  String get nicknameSuffix174 => '石像鬼';
+
+  @override
+  String get nicknameSuffix175 => '妖精';
+
+  @override
+  String get nicknameSuffix176 => '橡木';
+
+  @override
+  String get nicknameSuffix177 => '巨魔';
+
+  @override
+  String get nicknameSuffix178 => '螺旋钻';
+
+  @override
+  String get nicknameSuffix179 => '粘液';
+
+  @override
+  String get nicknameSuffix180 => '骨骼';
+
+  @override
+  String get nicknameSuffix181 => '僵尸';
+
+  @override
+  String get nicknameSuffix182 => '食尸鬼';
+
+  @override
+  String get nicknameSuffix183 => '吸血鬼';
+
+  @override
+  String get nicknameSuffix184 => '狼人';
+
+  @override
+  String get nicknameSuffix185 => '牛头怪';
+
+  @override
+  String get nicknameSuffix186 => '半人马座';
+
+  @override
+  String get nicknameSuffix187 => '鹰身女妖';
+
+  @override
+  String get nicknameSuffix188 => '警笛';
+
+  @override
+  String get nicknameSuffix189 => '克拉肯';
+
+  @override
+  String get nicknameSuffix190 => '利维坦';
+
+  @override
+  String get nicknameSuffix191 => '刀';
+
+  @override
+  String get nicknameSuffix192 => '盾';
+
+  @override
+  String get nicknameSuffix193 => '窗户';
+
+  @override
+  String get nicknameSuffix194 => '弓';
+
+  @override
+  String get nicknameSuffix195 => '甘蔗';
+
+  @override
+  String get nicknameSuffix196 => '戒指';
+
+  @override
+  String get nicknameSuffix197 => '项链';
+
+  @override
+  String get nicknameSuffix198 => '王冠';
+
+  @override
+  String get nicknameSuffix199 => '圣杯';
+
+  @override
+  String get themeFree => '免费主题';
+
+  @override
+  String get themePaid => '付费主题';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hans`).
@@ -1052,13 +2750,136 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
   AppLocalizationsZhHans() : super('zh_Hans');
 
   @override
-  String get navReading => '塔罗占卜';
+  String get appTitle => '塔罗占卜';
 
   @override
-  String get navChat => '塔罗咨询';
+  String get spreadSelectionTitle => '选择价差';
 
   @override
-  String get navMeanings => '卡牌图鉴';
+  String get spreadSelectionSubtitle => '选择适合您问题的塔罗牌排列';
+
+  @override
+  String get spreadOneCardName => '一卡';
+
+  @override
+  String get spreadOneCardDesc => '一张卡片即可提供快速答案或日常指导。';
+
+  @override
+  String get spreadTwoCardName => '两张卡';
+
+  @override
+  String get spreadTwoCardDesc => '一张2张牌传播，简单掌握现状和建议。';
+
+  @override
+  String get spreadThreeCardName => '三卡';
+
+  @override
+  String get spreadThreeCardDesc => '通过三张牌展开来了解过去、现在和未来的流程。';
+
+  @override
+  String get spreadFourCardName => '四卡';
+
+  @override
+  String get spreadFourCardDesc => '一张四张卡片可以清楚地诊断问题的原因、获取建议并查看结果。';
+
+  @override
+  String get spreadFiveCardName => '五卡';
+
+  @override
+  String get spreadFiveCardDesc => '一张 5 张卡片，检查情况的核心、原因和潜在结果。';
+
+  @override
+  String get spreadCelticCrossName => '凯尔特十字';
+
+  @override
+  String get spreadCelticCrossDesc => '10 张卡片，用于深入分析复杂问题。';
+
+  @override
+  String get positionOneCard => '今日卡';
+
+  @override
+  String get positionTwoCard1 => '一、情况';
+
+  @override
+  String get positionTwoCard2 => '2.建议';
+
+  @override
+  String get positionThreeCard1 => '过去的';
+
+  @override
+  String get positionThreeCard2 => '展示';
+
+  @override
+  String get positionThreeCard3 => '未来';
+
+  @override
+  String get positionFourCard1 => '1. 问题';
+
+  @override
+  String get positionFourCard2 => '2. 原因';
+
+  @override
+  String get positionFourCard3 => '3.建议';
+
+  @override
+  String get positionFourCard4 => '4. 结果';
+
+  @override
+  String get positionFiveCard1 => '1. 礼物';
+
+  @override
+  String get positionFiveCard2 => '2. 过去的影响';
+
+  @override
+  String get positionFiveCard3 => '3. 未来发展方向';
+
+  @override
+  String get positionFiveCard4 => '4. 核心原因';
+
+  @override
+  String get positionFiveCard5 => '5. 潜在结果';
+
+  @override
+  String get positionCelticCross1 => '1. 现在（询问者）';
+
+  @override
+  String get positionCelticCross2 => '2. 挑战';
+
+  @override
+  String get positionCelticCross3 => '3. 过去';
+
+  @override
+  String get positionCelticCross4 => '4. 未来';
+
+  @override
+  String get positionCelticCross5 => '5.有意识';
+
+  @override
+  String get positionCelticCross6 => '6.潜意识';
+
+  @override
+  String get positionCelticCross7 => '7. 建议';
+
+  @override
+  String get positionCelticCross8 => '8. 外部影响';
+
+  @override
+  String get positionCelticCross9 => '9.希望与恐惧';
+
+  @override
+  String get positionCelticCross10 => '10. 结果';
+
+  @override
+  String get navReading => '塔罗牌占卜';
+
+  @override
+  String get navChat => '塔罗牌聊天';
+
+  @override
+  String get navMeanings => '卡片意义';
+
+  @override
+  String get navMyMenu => '我的菜单';
 
   @override
   String get readingIntroTitle => '命运的\n低语';
@@ -1958,6 +3779,1711 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
 
   @override
   String get chatProfileTapHint => '点击头像查看详情';
+
+  @override
+  String get themeName1 => '主题1';
+
+  @override
+  String get themeName2 => '主题2';
+
+  @override
+  String get themeName3 => '主题3';
+
+  @override
+  String get themeMagicBook => '魔法书';
+
+  @override
+  String get themeBlackCat => '黑猫';
+
+  @override
+  String get themeEmptyPaidThemes => '在商店购买主题\n来填补这个空间！';
+
+  @override
+  String get shopThemePurchaseTitle => '购买主题';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return '您想用 $skinName 枚硬币购买 $cost 主题吗？';
+  }
+
+  @override
+  String get shopCancel => '取消';
+
+  @override
+  String get shopPurchase => '购买';
+
+  @override
+  String get shopAlreadyOwned => '已经拥有了。尝试在主题设置中应用它！';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return '$skinName购买成功！检查主题设置。';
+  }
+
+  @override
+  String get shopNotEnoughCoins => '金币不够。';
+
+  @override
+  String get shopOwned => '拥有';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost币';
+  }
+
+  @override
+  String get navDiary => '塔罗日记';
+
+  @override
+  String get myMenuFirebaseNotConnected => 'Firebase 未连接';
+
+  @override
+  String get myMenuWindowsSetupNeeded => '需要 Windows 设置（预览版）';
+
+  @override
+  String get myMenuTouchToViewLogin => '点击查看登录界面';
+
+  @override
+  String get myMenuNoName => '无名';
+
+  @override
+  String get myMenuPleaseLogin => '请登录';
+
+  @override
+  String get myMenuTouchToSignupLogin => '点击注册并登录';
+
+  @override
+  String get myMenuSectionMyRecords => '我的记录';
+
+  @override
+  String get myMenuDiaryStorage => '日记存储';
+
+  @override
+  String get myMenuCheckSavedDiary => '检查您保存的日记。';
+
+  @override
+  String get myMenuFavoriteCards => '最喜欢的卡片';
+
+  @override
+  String get myMenuMyFavoriteCardsList => '我最喜欢的卡片列表';
+
+  @override
+  String get myMenuSectionAppSettings => '应用程序设置';
+
+  @override
+  String get myMenuPushNotifications => '推送通知';
+
+  @override
+  String get myMenuPushNotificationsDesc => '新的星座和事件';
+
+  @override
+  String get myMenuLanguageSettings => '语言设置';
+
+  @override
+  String get myMenuThemeSettings => '主题设置';
+
+  @override
+  String get myMenuChangeBackground => '更改背景图片';
+
+  @override
+  String get myMenuSectionCustomerSupport => '客户支持';
+
+  @override
+  String get myMenuFaq => '常问问题';
+
+  @override
+  String get myMenuAppInfo => '应用程序信息';
+
+  @override
+  String get myMenuSectionAccountManagement => '账户管理';
+
+  @override
+  String get myMenuLogout => '退出';
+
+  @override
+  String get myMenuLogoutDesc => '从当前设备注销。';
+
+  @override
+  String get myMenuEmailVerifiedMsg => '邮箱验证已确认！ ✨';
+
+  @override
+  String get myMenuEmailSendTitle => '发送验证邮件';
+
+  @override
+  String get myMenuEmailSendContent => '验证电子邮件已发送。\n请检查您的收件箱，单击链接，然后再次按此按钮！';
+
+  @override
+  String get myMenuConfirm => '确认';
+
+  @override
+  String get myMenuEmailErrorMsg => '请求过多或发生错误。';
+
+  @override
+  String get myMenuEmailVerified => '电子邮件已验证';
+
+  @override
+  String get myMenuEmailNotVerified => '电子邮件未验证（点击以验证）';
+
+  @override
+  String get languageSystemDefault => '系统默认值';
+
+  @override
+  String get shopTitle => '店铺';
+
+  @override
+  String get shopSubtitle => '购买金币和主题';
+
+  @override
+  String get shopTabCoin => '硬币';
+
+  @override
+  String get shopTabTheme => '主题';
+
+  @override
+  String get shopPayButton => '支付';
+
+  @override
+  String get themeOriginalDeck => '原创经典套牌';
+
+  @override
+  String get themeGoldenSunDeck => '金色阳光甲板';
+
+  @override
+  String get themeDarkAbyssDeck => '黑暗深渊甲板';
+
+  @override
+  String get themeSpringSpiritDeck => '春之精灵甲板';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return '$coins 硬币的付款即将到来。';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return '购买/申请$name即将推出。';
+  }
+
+  @override
+  String get readingIntroSelectWitch => '选择一个女巫来看看你的命运';
+
+  @override
+  String get readingIntroGreeting => '我们该追寻怎样的命运？\n我对你的未来很好奇。';
+
+  @override
+  String get readingIntroStart => '选择点差';
+
+  @override
+  String get tabMajorArcana => '大阿卡纳';
+
+  @override
+  String get tabMinorArcana => '小阿卡纳';
+
+  @override
+  String get nicknamePrefix0 => '神秘的';
+
+  @override
+  String get nicknamePrefix1 => '安详';
+
+  @override
+  String get nicknamePrefix2 => '圣';
+
+  @override
+  String get nicknamePrefix3 => '黑暗的';
+
+  @override
+  String get nicknamePrefix4 => '灼灼';
+
+  @override
+  String get nicknamePrefix5 => '苍凉';
+
+  @override
+  String get nicknamePrefix6 => '热的';
+
+  @override
+  String get nicknamePrefix7 => '迷人';
+
+  @override
+  String get nicknamePrefix8 => '残忍的';
+
+  @override
+  String get nicknamePrefix9 => '纯的';
+
+  @override
+  String get nicknamePrefix10 => '残酷的';
+
+  @override
+  String get nicknamePrefix11 => '柔软的';
+
+  @override
+  String get nicknamePrefix12 => '美丽的';
+
+  @override
+  String get nicknamePrefix13 => '诡异的';
+
+  @override
+  String get nicknamePrefix14 => '大的';
+
+  @override
+  String get nicknamePrefix15 => '破旧';
+
+  @override
+  String get nicknamePrefix16 => '永恒';
+
+  @override
+  String get nicknamePrefix17 => '忘记了';
+
+  @override
+  String get nicknamePrefix18 => '杰出的';
+
+  @override
+  String get nicknamePrefix19 => '伤心';
+
+  @override
+  String get nicknamePrefix20 => '高兴的';
+
+  @override
+  String get nicknamePrefix21 => '梦幻般的';
+
+  @override
+  String get nicknamePrefix22 => '堕落';
+
+  @override
+  String get nicknamePrefix23 => '纯白色';
+
+  @override
+  String get nicknamePrefix24 => '乌黑';
+
+  @override
+  String get nicknamePrefix25 => '血腥';
+
+  @override
+  String get nicknamePrefix26 => '呈灰色的';
+
+  @override
+  String get nicknamePrefix27 => '金的';
+
+  @override
+  String get nicknamePrefix28 => '银色';
+
+  @override
+  String get nicknamePrefix29 => '蓝色的';
+
+  @override
+  String get nicknamePrefix30 => '红色的';
+
+  @override
+  String get nicknamePrefix31 => '黄色的';
+
+  @override
+  String get nicknamePrefix32 => '黑色的';
+
+  @override
+  String get nicknamePrefix33 => '白色的';
+
+  @override
+  String get nicknamePrefix34 => '透明的';
+
+  @override
+  String get nicknamePrefix35 => '孤独的';
+
+  @override
+  String get nicknamePrefix36 => '嘈杂';
+
+  @override
+  String get nicknamePrefix37 => '安静的';
+
+  @override
+  String get nicknamePrefix38 => '温暖的';
+
+  @override
+  String get nicknamePrefix39 => '冷淡的';
+
+  @override
+  String get nicknamePrefix40 => '孤';
+
+  @override
+  String get nicknamePrefix41 => '寂寞';
+
+  @override
+  String get nicknamePrefix42 => '快乐的';
+
+  @override
+  String get nicknamePrefix43 => '快乐的';
+
+  @override
+  String get nicknamePrefix44 => '阴沉';
+
+  @override
+  String get nicknamePrefix45 => '绝望的';
+
+  @override
+  String get nicknamePrefix46 => '充满希望的';
+
+  @override
+  String get nicknamePrefix47 => '令人眼花缭乱';
+
+  @override
+  String get nicknamePrefix48 => '昏暗';
+
+  @override
+  String get nicknamePrefix49 => '午夜';
+
+  @override
+  String get nicknamePrefix50 => '荒凉';
+
+  @override
+  String get nicknamePrefix51 => '秘密';
+
+  @override
+  String get nicknamePrefix52 => '秘密';
+
+  @override
+  String get nicknamePrefix53 => '神圣';
+
+  @override
+  String get nicknamePrefix54 => '亵渎的';
+
+  @override
+  String get nicknamePrefix55 => '优越的';
+
+  @override
+  String get nicknamePrefix56 => '谦虚的';
+
+  @override
+  String get nicknamePrefix57 => '明智的';
+
+  @override
+  String get nicknamePrefix58 => '愚蠢的';
+
+  @override
+  String get nicknamePrefix59 => '艰难的';
+
+  @override
+  String get nicknamePrefix60 => '虚弱的';
+
+  @override
+  String get nicknamePrefix61 => '勇敢的';
+
+  @override
+  String get nicknamePrefix62 => '卑鄙地';
+
+  @override
+  String get nicknamePrefix63 => '遥远';
+
+  @override
+  String get nicknamePrefix64 => '靠近';
+
+  @override
+  String get nicknamePrefix65 => '搬走';
+
+  @override
+  String get nicknamePrefix66 => '迎面而来的';
+
+  @override
+  String get nicknamePrefix67 => '消失';
+
+  @override
+  String get nicknamePrefix68 => '涌现的';
+
+  @override
+  String get nicknamePrefix69 => '被唤醒';
+
+  @override
+  String get nicknamePrefix70 => '睡着了';
+
+  @override
+  String get nicknamePrefix71 => '做梦';
+
+  @override
+  String get nicknamePrefix72 => '徘徊';
+
+  @override
+  String get nicknamePrefix73 => '徘徊';
+
+  @override
+  String get nicknamePrefix74 => '停留';
+
+  @override
+  String get nicknamePrefix75 => '离开';
+
+  @override
+  String get nicknamePrefix76 => '回来';
+
+  @override
+  String get nicknamePrefix77 => '等待';
+
+  @override
+  String get nicknamePrefix78 => '寻找';
+
+  @override
+  String get nicknamePrefix79 => '神秘的';
+
+  @override
+  String get nicknamePrefix80 => '裸露';
+
+  @override
+  String get nicknamePrefix81 => '弃';
+
+  @override
+  String get nicknamePrefix82 => '已选择';
+
+  @override
+  String get nicknamePrefix83 => '有福的';
+
+  @override
+  String get nicknamePrefix84 => '被诅咒的';
+
+  @override
+  String get nicknamePrefix85 => '爱过';
+
+  @override
+  String get nicknamePrefix86 => '讨厌的';
+
+  @override
+  String get nicknamePrefix87 => '记住';
+
+  @override
+  String get nicknamePrefix88 => '健忘的';
+
+  @override
+  String get nicknamePrefix89 => '星光';
+
+  @override
+  String get nicknamePrefix90 => '月光';
+
+  @override
+  String get nicknamePrefix91 => '阳光的';
+
+  @override
+  String get nicknamePrefix92 => '宇宙的';
+
+  @override
+  String get nicknamePrefix93 => '地球的';
+
+  @override
+  String get nicknamePrefix94 => '海的';
+
+  @override
+  String get nicknamePrefix95 => '天上';
+
+  @override
+  String get nicknamePrefix96 => '云的';
+
+  @override
+  String get nicknamePrefix97 => '风的';
+
+  @override
+  String get nicknamePrefix98 => '雨';
+
+  @override
+  String get nicknamePrefix99 => '眼睛的';
+
+  @override
+  String get nicknamePrefix100 => '冰冷的';
+
+  @override
+  String get nicknamePrefix101 => '火热';
+
+  @override
+  String get nicknamePrefix102 => '水';
+
+  @override
+  String get nicknamePrefix103 => '土制的';
+
+  @override
+  String get nicknamePrefix104 => '木制的';
+
+  @override
+  String get nicknamePrefix105 => '森林';
+
+  @override
+  String get nicknamePrefix106 => '多山';
+
+  @override
+  String get nicknamePrefix107 => '演讲';
+
+  @override
+  String get nicknamePrefix108 => '湖的';
+
+  @override
+  String get nicknamePrefix109 => '时间的';
+
+  @override
+  String get nicknamePrefix110 => '空间的';
+
+  @override
+  String get nicknamePrefix111 => '方面';
+
+  @override
+  String get nicknamePrefix112 => '命运攸关的';
+
+  @override
+  String get nicknamePrefix113 => '命运攸关的';
+
+  @override
+  String get nicknamePrefix114 => '神奇';
+
+  @override
+  String get nicknamePrefix115 => '神奇';
+
+  @override
+  String get nicknamePrefix116 => '神话';
+
+  @override
+  String get nicknamePrefix117 => '传奇的';
+
+  @override
+  String get nicknamePrefix118 => '真理的';
+
+  @override
+  String get nicknamePrefix119 => '错误的';
+
+  @override
+  String get nicknamePrefix120 => '幻想';
+
+  @override
+  String get nicknamePrefix121 => '梦';
+
+  @override
+  String get nicknamePrefix122 => '恶梦';
+
+  @override
+  String get nicknamePrefix123 => '废墟';
+
+  @override
+  String get nicknamePrefix124 => '创造的';
+
+  @override
+  String get nicknamePrefix125 => '生命的';
+
+  @override
+  String get nicknamePrefix126 => '死亡的';
+
+  @override
+  String get nicknamePrefix127 => '灵魂';
+
+  @override
+  String get nicknamePrefix128 => '身体的';
+
+  @override
+  String get nicknamePrefix129 => '有理有据';
+
+  @override
+  String get nicknamePrefix130 => '情绪化的';
+
+  @override
+  String get nicknamePrefix131 => '爱的';
+
+  @override
+  String get nicknamePrefix132 => '仇恨的';
+
+  @override
+  String get nicknamePrefix133 => '悲伤的';
+
+  @override
+  String get nicknamePrefix134 => '喜悦的';
+
+  @override
+  String get nicknamePrefix135 => '生气的';
+
+  @override
+  String get nicknamePrefix136 => '和平的';
+
+  @override
+  String get nicknamePrefix137 => '战争的';
+
+  @override
+  String get nicknamePrefix138 => '混乱';
+
+  @override
+  String get nicknamePrefix139 => '秩序';
+
+  @override
+  String get nicknamePrefix140 => '光的';
+
+  @override
+  String get nicknamePrefix141 => '黑暗的';
+
+  @override
+  String get nicknamePrefix142 => '暮';
+
+  @override
+  String get nicknamePrefix143 => '黎明';
+
+  @override
+  String get nicknamePrefix144 => '中午';
+
+  @override
+  String get nicknamePrefix145 => '午夜';
+
+  @override
+  String get nicknamePrefix146 => '过去的';
+
+  @override
+  String get nicknamePrefix147 => '展示';
+
+  @override
+  String get nicknamePrefix148 => '未来';
+
+  @override
+  String get nicknamePrefix149 => '原产地';
+
+  @override
+  String get nicknamePrefix150 => '世界末日的';
+
+  @override
+  String get nicknamePrefix151 => '无限';
+
+  @override
+  String get nicknamePrefix152 => '有限';
+
+  @override
+  String get nicknamePrefix153 => '沉默的';
+
+  @override
+  String get nicknamePrefix154 => '噪音的';
+
+  @override
+  String get nicknamePrefix155 => '歌唱';
+
+  @override
+  String get nicknamePrefix156 => '跳舞';
+
+  @override
+  String get nicknamePrefix157 => '哭';
+
+  @override
+  String get nicknamePrefix158 => '微笑着';
+
+  @override
+  String get nicknamePrefix159 => '耳语';
+
+  @override
+  String get nicknamePrefix160 => '哭';
+
+  @override
+  String get nicknamePrefix161 => '祈祷';
+
+  @override
+  String get nicknamePrefix162 => '恳求';
+
+  @override
+  String get nicknamePrefix163 => '发号施令';
+
+  @override
+  String get nicknamePrefix164 => '顺从的';
+
+  @override
+  String get nicknamePrefix165 => '裁决';
+
+  @override
+  String get nicknamePrefix166 => '服务';
+
+  @override
+  String get nicknamePrefix167 => '指导';
+
+  @override
+  String get nicknamePrefix168 => '随同';
+
+  @override
+  String get nicknamePrefix169 => '教学';
+
+  @override
+  String get nicknamePrefix170 => '学习';
+
+  @override
+  String get nicknamePrefix171 => '记忆的';
+
+  @override
+  String get nicknamePrefix172 => '回忆的';
+
+  @override
+  String get nicknamePrefix173 => '伤口的';
+
+  @override
+  String get nicknamePrefix174 => '康复';
+
+  @override
+  String get nicknamePrefix175 => '有毒';
+
+  @override
+  String get nicknamePrefix176 => '药品';
+
+  @override
+  String get nicknamePrefix177 => '欢迎';
+
+  @override
+  String get nicknamePrefix178 => '物质的';
+
+  @override
+  String get nicknamePrefix179 => '理想的';
+
+  @override
+  String get nicknamePrefix180 => '真实的';
+
+  @override
+  String get nicknamePrefix181 => '假想';
+
+  @override
+  String get nicknamePrefix182 => '自然的';
+
+  @override
+  String get nicknamePrefix183 => '人造的';
+
+  @override
+  String get nicknamePrefix184 => '一开始';
+
+  @override
+  String get nicknamePrefix185 => '永恒';
+
+  @override
+  String get nicknamePrefix186 => '此刻';
+
+  @override
+  String get nicknamePrefix187 => '稍纵即逝的';
+
+  @override
+  String get nicknamePrefix188 => '永恒';
+
+  @override
+  String get nicknamePrefix189 => '变化的';
+
+  @override
+  String get nicknamePrefix190 => '仍然';
+
+  @override
+  String get nicknamePrefix191 => '流动的';
+
+  @override
+  String get nicknamePrefix192 => '撞倒';
+
+  @override
+  String get nicknamePrefix193 => '炽烈';
+
+  @override
+  String get nicknamePrefix194 => '冷却下来';
+
+  @override
+  String get nicknamePrefix195 => '盛开';
+
+  @override
+  String get nicknamePrefix196 => '枯萎';
+
+  @override
+  String get nicknamePrefix197 => '成长';
+
+  @override
+  String get nicknamePrefix198 => '垂死';
+
+  @override
+  String get nicknamePrefix199 => '呼吸';
+
+  @override
+  String get nicknamePrefix200 => '令人窒息的';
+
+  @override
+  String get nicknameSuffix0 => '先知';
+
+  @override
+  String get nicknameSuffix1 => '向导';
+
+  @override
+  String get nicknameSuffix2 => '巫婆';
+
+  @override
+  String get nicknameSuffix3 => '文章';
+
+  @override
+  String get nicknameSuffix4 => '战士';
+
+  @override
+  String get nicknameSuffix5 => '射手';
+
+  @override
+  String get nicknameSuffix6 => '贼';
+
+  @override
+  String get nicknameSuffix7 => '刺客';
+
+  @override
+  String get nicknameSuffix8 => '圣骑士';
+
+  @override
+  String get nicknameSuffix9 => '牧师';
+
+  @override
+  String get nicknameSuffix10 => '女祭司';
+
+  @override
+  String get nicknameSuffix11 => '僧';
+
+  @override
+  String get nicknameSuffix12 => '哇';
+
+  @override
+  String get nicknameSuffix13 => '炼金术士';
+
+  @override
+  String get nicknameSuffix14 => '死灵法师';
+
+  @override
+  String get nicknameSuffix15 => '通灵师';
+
+  @override
+  String get nicknameSuffix16 => '召唤师';
+
+  @override
+  String get nicknameSuffix17 => '魔术师';
+
+  @override
+  String get nicknameSuffix18 => '治疗师';
+
+  @override
+  String get nicknameSuffix19 => '智者';
+
+  @override
+  String get nicknameSuffix20 => '学者';
+
+  @override
+  String get nicknameSuffix21 => '研究员';
+
+  @override
+  String get nicknameSuffix22 => '探险家';
+
+  @override
+  String get nicknameSuffix23 => '游客';
+
+  @override
+  String get nicknameSuffix24 => '流浪汉';
+
+  @override
+  String get nicknameSuffix25 => '流浪汉';
+
+  @override
+  String get nicknameSuffix26 => '朝圣';
+
+  @override
+  String get nicknameSuffix27 => '探索者';
+
+  @override
+  String get nicknameSuffix28 => '观察者';
+
+  @override
+  String get nicknameSuffix29 => '录音机';
+
+  @override
+  String get nicknameSuffix30 => '通讯器';
+
+  @override
+  String get nicknameSuffix31 => '监护人';
+
+  @override
+  String get nicknameSuffix32 => '典狱长';
+
+  @override
+  String get nicknameSuffix33 => '警卫';
+
+  @override
+  String get nicknameSuffix34 => '看门人';
+
+  @override
+  String get nicknameSuffix35 => '法官';
+
+  @override
+  String get nicknameSuffix36 => '执达主任';
+
+  @override
+  String get nicknameSuffix37 => '州长';
+
+  @override
+  String get nicknameSuffix38 => '统治者';
+
+  @override
+  String get nicknameSuffix39 => '国王';
+
+  @override
+  String get nicknameSuffix40 => '女王';
+
+  @override
+  String get nicknameSuffix41 => '皇帝';
+
+  @override
+  String get nicknameSuffix42 => '皇后';
+
+  @override
+  String get nicknameSuffix43 => '贵族';
+
+  @override
+  String get nicknameSuffix44 => '永久居留权';
+
+  @override
+  String get nicknameSuffix45 => '骑士指挥官';
+
+  @override
+  String get nicknameSuffix46 => '雇佣兵';
+
+  @override
+  String get nicknameSuffix47 => '海盗';
+
+  @override
+  String get nicknameSuffix48 => '贼';
+
+  @override
+  String get nicknameSuffix49 => '欺诈罪';
+
+  @override
+  String get nicknameSuffix50 => '小丑';
+
+  @override
+  String get nicknameSuffix51 => '傻子';
+
+  @override
+  String get nicknameSuffix52 => '隐士';
+
+  @override
+  String get nicknameSuffix53 => '异教徒';
+
+  @override
+  String get nicknameSuffix54 => '背叛者';
+
+  @override
+  String get nicknameSuffix55 => '叛徒';
+
+  @override
+  String get nicknameSuffix56 => '英雄';
+
+  @override
+  String get nicknameSuffix57 => '储蓄者';
+
+  @override
+  String get nicknameSuffix58 => '救星';
+
+  @override
+  String get nicknameSuffix59 => '驱逐舰';
+
+  @override
+  String get nicknameSuffix60 => '创造者';
+
+  @override
+  String get nicknameSuffix61 => '上帝';
+
+  @override
+  String get nicknameSuffix62 => '女神';
+
+  @override
+  String get nicknameSuffix63 => '天使';
+
+  @override
+  String get nicknameSuffix64 => '魔鬼';
+
+  @override
+  String get nicknameSuffix65 => '政府法令';
+
+  @override
+  String get nicknameSuffix66 => '仙女';
+
+  @override
+  String get nicknameSuffix67 => '怪物';
+
+  @override
+  String get nicknameSuffix68 => '妖兽';
+
+  @override
+  String get nicknameSuffix69 => '龙';
+
+  @override
+  String get nicknameSuffix70 => '鬼';
+
+  @override
+  String get nicknameSuffix71 => '阴影';
+
+  @override
+  String get nicknameSuffix72 => '不死族';
+
+  @override
+  String get nicknameSuffix73 => '吸血鬼';
+
+  @override
+  String get nicknameSuffix74 => '狼人';
+
+  @override
+  String get nicknameSuffix75 => '美人鱼';
+
+  @override
+  String get nicknameSuffix76 => '警笛';
+
+  @override
+  String get nicknameSuffix77 => '若虫';
+
+  @override
+  String get nicknameSuffix78 => '妖精';
+
+  @override
+  String get nicknameSuffix79 => '橡木';
+
+  @override
+  String get nicknameSuffix80 => '巨魔';
+
+  @override
+  String get nicknameSuffix81 => '小精灵';
+
+  @override
+  String get nicknameSuffix82 => '矮人';
+
+  @override
+  String get nicknameSuffix83 => '巨大的';
+
+  @override
+  String get nicknameSuffix84 => '邮戳';
+
+  @override
+  String get nicknameSuffix85 => '人';
+
+  @override
+  String get nicknameSuffix86 => '囚犯';
+
+  @override
+  String get nicknameSuffix87 => '签名';
+
+  @override
+  String get nicknameSuffix88 => '菲什曼';
+
+  @override
+  String get nicknameSuffix89 => '员工';
+
+  @override
+  String get nicknameSuffix90 => '邪灵';
+
+  @override
+  String get nicknameSuffix91 => '苏拉';
+
+  @override
+  String get nicknameSuffix92 => '地狱';
+
+  @override
+  String get nicknameSuffix93 => '天堂';
+
+  @override
+  String get nicknameSuffix94 => '地狱';
+
+  @override
+  String get nicknameSuffix95 => '异世界';
+
+  @override
+  String get nicknameSuffix96 => '深渊';
+
+  @override
+  String get nicknameSuffix97 => '混乱';
+
+  @override
+  String get nicknameSuffix98 => '命令';
+
+  @override
+  String get nicknameSuffix99 => '光';
+
+  @override
+  String get nicknameSuffix100 => '黑暗的';
+
+  @override
+  String get nicknamePrefix201 => '杰出的';
+
+  @override
+  String get nicknamePrefix202 => '微妙的';
+
+  @override
+  String get nicknamePrefix203 => '朦胧';
+
+  @override
+  String get nicknamePrefix204 => '头晕的';
+
+  @override
+  String get nicknamePrefix205 => '透明的';
+
+  @override
+  String get nicknamePrefix206 => '头晕的';
+
+  @override
+  String get nicknamePrefix207 => '令人眼花缭乱';
+
+  @override
+  String get nicknamePrefix208 => '诡异的';
+
+  @override
+  String get nicknamePrefix209 => '奇特';
+
+  @override
+  String get nicknamePrefix210 => '特别的';
+
+  @override
+  String get nicknamePrefix211 => '高贵';
+
+  @override
+  String get nicknamePrefix212 => '纯的';
+
+  @override
+  String get nicknamePrefix213 => '堕落';
+
+  @override
+  String get nicknamePrefix214 => '孤独的';
+
+  @override
+  String get nicknamePrefix215 => '寂寞';
+
+  @override
+  String get nicknamePrefix216 => '荒凉';
+
+  @override
+  String get nicknamePrefix217 => '遥远';
+
+  @override
+  String get nicknamePrefix218 => '残酷的';
+
+  @override
+  String get nicknamePrefix219 => '无情';
+
+  @override
+  String get nicknamePrefix220 => '残忍的';
+
+  @override
+  String get nicknamePrefix221 => '大的';
+
+  @override
+  String get nicknamePrefix222 => '艰难的';
+
+  @override
+  String get nicknamePrefix223 => '公司';
+
+  @override
+  String get nicknamePrefix224 => '蜿蜒的';
+
+  @override
+  String get nicknamePrefix225 => '快的';
+
+  @override
+  String get nicknamePrefix226 => '慢的';
+
+  @override
+  String get nicknamePrefix227 => '在沉默中';
+
+  @override
+  String get nicknamePrefix228 => '混乱中';
+
+  @override
+  String get nicknamePrefix229 => '记忆中';
+
+  @override
+  String get nicknamePrefix230 => '假想';
+
+  @override
+  String get nicknamePrefix231 => '沉默的';
+
+  @override
+  String get nicknamePrefix232 => '耳语';
+
+  @override
+  String get nicknamePrefix233 => '歌唱';
+
+  @override
+  String get nicknamePrefix234 => '跳舞';
+
+  @override
+  String get nicknamePrefix235 => '抽泣';
+
+  @override
+  String get nicknamePrefix236 => '微笑着';
+
+  @override
+  String get nicknamePrefix237 => '嘲笑';
+
+  @override
+  String get nicknamePrefix238 => '沉思';
+
+  @override
+  String get nicknamePrefix239 => '徘徊';
+
+  @override
+  String get nicknamePrefix240 => '徘徊';
+
+  @override
+  String get nicknamePrefix241 => '醒';
+
+  @override
+  String get nicknamePrefix242 => '睡着了';
+
+  @override
+  String get nicknamePrefix243 => '做梦';
+
+  @override
+  String get nicknamePrefix244 => '做白日梦';
+
+  @override
+  String get nicknamePrefix245 => '妄想的';
+
+  @override
+  String get nicknamePrefix246 => '祈祷';
+
+  @override
+  String get nicknamePrefix247 => '认真';
+
+  @override
+  String get nicknamePrefix248 => '悲伤';
+
+  @override
+  String get nicknamePrefix249 => '悲惨的';
+
+  @override
+  String get nicknamePrefix250 => '升华';
+
+  @override
+  String get nicknamePrefix251 => '邪恶';
+
+  @override
+  String get nicknamePrefix252 => '意思是';
+
+  @override
+  String get nicknamePrefix253 => '傲慢的';
+
+  @override
+  String get nicknamePrefix254 => '谦虚的';
+
+  @override
+  String get nicknamePrefix255 => '喜欢';
+
+  @override
+  String get nicknamePrefix256 => '温暖的';
+
+  @override
+  String get nicknamePrefix257 => '凉爽的';
+
+  @override
+  String get nicknamePrefix258 => '寒冷';
+
+  @override
+  String get nicknamePrefix259 => '奇异的';
+
+  @override
+  String get nicknamePrefix260 => '不可思议的';
+
+  @override
+  String get nicknamePrefix261 => '全神贯注';
+
+  @override
+  String get nicknamePrefix262 => '迷人';
+
+  @override
+  String get nicknamePrefix263 => '令人目眩的';
+
+  @override
+  String get nicknamePrefix264 => '甜甜的';
+
+  @override
+  String get nicknamePrefix265 => '苦的';
+
+  @override
+  String get nicknamePrefix266 => '苦涩的';
+
+  @override
+  String get nicknamePrefix267 => '有刺的';
+
+  @override
+  String get nicknamePrefix268 => '锋利的';
+
+  @override
+  String get nicknamePrefix269 => '乏味的';
+
+  @override
+  String get nicknamePrefix270 => '残酷的';
+
+  @override
+  String get nicknamePrefix271 => '柔软的';
+
+  @override
+  String get nicknamePrefix272 => '舒适';
+
+  @override
+  String get nicknamePrefix273 => '舒服的';
+
+  @override
+  String get nicknamePrefix274 => '不稳定的';
+
+  @override
+  String get nicknamePrefix275 => '不安';
+
+  @override
+  String get nicknamePrefix276 => '冷静的';
+
+  @override
+  String get nicknamePrefix277 => '冷静的';
+
+  @override
+  String get nicknamePrefix278 => '昏昏欲睡';
+
+  @override
+  String get nicknamePrefix279 => '无聊的';
+
+  @override
+  String get nicknamePrefix280 => '热情的';
+
+  @override
+  String get nicknamePrefix281 => '漫不经心的';
+
+  @override
+  String get nicknamePrefix282 => '宁静';
+
+  @override
+  String get nicknamePrefix283 => '暴力';
+
+  @override
+  String get nicknamePrefix284 => '凶猛的';
+
+  @override
+  String get nicknamePrefix285 => '疯狂的';
+
+  @override
+  String get nicknamePrefix286 => '疯了';
+
+  @override
+  String get nicknamePrefix287 => '合理的';
+
+  @override
+  String get nicknamePrefix288 => '情绪化的';
+
+  @override
+  String get nicknamePrefix289 => '冷静的';
+
+  @override
+  String get nicknamePrefix290 => '明智的';
+
+  @override
+  String get nicknamePrefix291 => '愚蠢的';
+
+  @override
+  String get nicknamePrefix292 => '清白的';
+
+  @override
+  String get nicknamePrefix293 => '狡猾';
+
+  @override
+  String get nicknamePrefix294 => '蛇纹石';
+
+  @override
+  String get nicknamePrefix295 => '纯白色';
+
+  @override
+  String get nicknamePrefix296 => '乌黑';
+
+  @override
+  String get nicknamePrefix297 => '金的';
+
+  @override
+  String get nicknamePrefix298 => '银色';
+
+  @override
+  String get nicknamePrefix299 => '血腥';
+
+  @override
+  String get nicknameSuffix101 => '探索者';
+
+  @override
+  String get nicknameSuffix102 => '朝圣';
+
+  @override
+  String get nicknameSuffix103 => '流浪汉';
+
+  @override
+  String get nicknameSuffix104 => '隐士';
+
+  @override
+  String get nicknameSuffix105 => '伊森';
+
+  @override
+  String get nicknameSuffix106 => '叛徒';
+
+  @override
+  String get nicknameSuffix107 => '先锋';
+
+  @override
+  String get nicknameSuffix108 => '征服者';
+
+  @override
+  String get nicknameSuffix109 => '统治者';
+
+  @override
+  String get nicknameSuffix110 => '协调者';
+
+  @override
+  String get nicknameSuffix111 => '监护人';
+
+  @override
+  String get nicknameSuffix112 => '观察者';
+
+  @override
+  String get nicknameSuffix113 => '观察者';
+
+  @override
+  String get nicknameSuffix114 => '录音机';
+
+  @override
+  String get nicknameSuffix115 => '通讯器';
+
+  @override
+  String get nicknameSuffix116 => '指导';
+
+  @override
+  String get nicknameSuffix117 => '领导者';
+
+  @override
+  String get nicknameSuffix118 => '储蓄者';
+
+  @override
+  String get nicknameSuffix119 => '驱逐舰';
+
+  @override
+  String get nicknameSuffix120 => '创造者';
+
+  @override
+  String get nicknameSuffix121 => '阴影';
+
+  @override
+  String get nicknameSuffix122 => '鬼';
+
+  @override
+  String get nicknameSuffix123 => '鬼';
+
+  @override
+  String get nicknameSuffix124 => '邪灵';
+
+  @override
+  String get nicknameSuffix125 => '政府法令';
+
+  @override
+  String get nicknameSuffix126 => '仙女';
+
+  @override
+  String get nicknameSuffix127 => '妖兽';
+
+  @override
+  String get nicknameSuffix128 => '圣水';
+
+  @override
+  String get nicknameSuffix129 => '退款';
+
+  @override
+  String get nicknameSuffix130 => '信水';
+
+  @override
+  String get nicknameSuffix131 => '测试';
+
+  @override
+  String get nicknameSuffix132 => '文章';
+
+  @override
+  String get nicknameSuffix133 => '射手';
+
+  @override
+  String get nicknameSuffix134 => '贼';
+
+  @override
+  String get nicknameSuffix135 => '刺客';
+
+  @override
+  String get nicknameSuffix136 => '向导';
+
+  @override
+  String get nicknameSuffix137 => '哇';
+
+  @override
+  String get nicknameSuffix138 => '炼金术士';
+
+  @override
+  String get nicknameSuffix139 => '死灵法师';
+
+  @override
+  String get nicknameSuffix140 => '牧师';
+
+  @override
+  String get nicknameSuffix141 => '学者';
+
+  @override
+  String get nicknameSuffix142 => '研究员';
+
+  @override
+  String get nicknameSuffix143 => '探险家';
+
+  @override
+  String get nicknameSuffix144 => '游客';
+
+  @override
+  String get nicknameSuffix145 => '艺术家';
+
+  @override
+  String get nicknameSuffix146 => '小丑';
+
+  @override
+  String get nicknameSuffix147 => '诗人';
+
+  @override
+  String get nicknameSuffix148 => '商人';
+
+  @override
+  String get nicknameSuffix149 => '工匠';
+
+  @override
+  String get nicknameSuffix150 => '农民';
+
+  @override
+  String get nicknameSuffix151 => '乌鸦';
+
+  @override
+  String get nicknameSuffix152 => '猫头鹰';
+
+  @override
+  String get nicknameSuffix153 => '猫头鹰';
+
+  @override
+  String get nicknameSuffix154 => '鹰';
+
+  @override
+  String get nicknameSuffix155 => '鹰';
+
+  @override
+  String get nicknameSuffix156 => '狼';
+
+  @override
+  String get nicknameSuffix157 => '狐狸';
+
+  @override
+  String get nicknameSuffix158 => '熊';
+
+  @override
+  String get nicknameSuffix159 => '狮子';
+
+  @override
+  String get nicknameSuffix160 => '老虎';
+
+  @override
+  String get nicknameSuffix161 => '豹';
+
+  @override
+  String get nicknameSuffix162 => '黑豹';
+
+  @override
+  String get nicknameSuffix163 => '莎草';
+
+  @override
+  String get nicknameSuffix164 => '猫';
+
+  @override
+  String get nicknameSuffix165 => '小狗';
+
+  @override
+  String get nicknameSuffix166 => '蛇';
+
+  @override
+  String get nicknameSuffix167 => '蜥蜴';
+
+  @override
+  String get nicknameSuffix168 => '龟';
+
+  @override
+  String get nicknameSuffix169 => '鳄鱼';
+
+  @override
+  String get nicknameSuffix170 => '龙';
+
+  @override
+  String get nicknameSuffix171 => '独角兽';
+
+  @override
+  String get nicknameSuffix172 => '飞马座';
+
+  @override
+  String get nicknameSuffix173 => '狮鹫';
+
+  @override
+  String get nicknameSuffix174 => '石像鬼';
+
+  @override
+  String get nicknameSuffix175 => '妖精';
+
+  @override
+  String get nicknameSuffix176 => '橡木';
+
+  @override
+  String get nicknameSuffix177 => '巨魔';
+
+  @override
+  String get nicknameSuffix178 => '螺旋钻';
+
+  @override
+  String get nicknameSuffix179 => '粘液';
+
+  @override
+  String get nicknameSuffix180 => '骨骼';
+
+  @override
+  String get nicknameSuffix181 => '僵尸';
+
+  @override
+  String get nicknameSuffix182 => '食尸鬼';
+
+  @override
+  String get nicknameSuffix183 => '吸血鬼';
+
+  @override
+  String get nicknameSuffix184 => '狼人';
+
+  @override
+  String get nicknameSuffix185 => '牛头怪';
+
+  @override
+  String get nicknameSuffix186 => '半人马座';
+
+  @override
+  String get nicknameSuffix187 => '鹰身女妖';
+
+  @override
+  String get nicknameSuffix188 => '警笛';
+
+  @override
+  String get nicknameSuffix189 => '克拉肯';
+
+  @override
+  String get nicknameSuffix190 => '利维坦';
+
+  @override
+  String get nicknameSuffix191 => '刀';
+
+  @override
+  String get nicknameSuffix192 => '盾';
+
+  @override
+  String get nicknameSuffix193 => '窗户';
+
+  @override
+  String get nicknameSuffix194 => '弓';
+
+  @override
+  String get nicknameSuffix195 => '甘蔗';
+
+  @override
+  String get nicknameSuffix196 => '戒指';
+
+  @override
+  String get nicknameSuffix197 => '项链';
+
+  @override
+  String get nicknameSuffix198 => '王冠';
+
+  @override
+  String get nicknameSuffix199 => '圣杯';
+
+  @override
+  String get themeFree => '免费主题';
+
+  @override
+  String get themePaid => '付费主题';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -1965,13 +5491,136 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   AppLocalizationsZhHant() : super('zh_Hant');
 
   @override
-  String get navReading => '塔羅占卜';
+  String get appTitle => '塔羅占卜';
 
   @override
-  String get navChat => '塔羅諮詢';
+  String get spreadSelectionTitle => '選擇價差';
 
   @override
-  String get navMeanings => '卡牌圖鑑';
+  String get spreadSelectionSubtitle => '選擇適合您問題的塔羅牌排列';
+
+  @override
+  String get spreadOneCardName => '一卡';
+
+  @override
+  String get spreadOneCardDesc => '一張卡片即可提供快速答案或日常指導。';
+
+  @override
+  String get spreadTwoCardName => '兩張卡';
+
+  @override
+  String get spreadTwoCardDesc => '一張2張牌傳播，簡單掌握現況與建議。';
+
+  @override
+  String get spreadThreeCardName => '三卡';
+
+  @override
+  String get spreadThreeCardDesc => '透過三張牌展開來了解過去、現在和未來的流程。';
+
+  @override
+  String get spreadFourCardName => '四卡';
+
+  @override
+  String get spreadFourCardDesc => '一張四張卡片可以清楚診斷問題的原因、取得建議並查看結果。';
+
+  @override
+  String get spreadFiveCardName => '五卡';
+
+  @override
+  String get spreadFiveCardDesc => '一張 5 張卡片，檢視情況的核心、原因和潛在結果。';
+
+  @override
+  String get spreadCelticCrossName => '凱爾特十字';
+
+  @override
+  String get spreadCelticCrossDesc => '10 張卡片，用於深入分析複雜問題。';
+
+  @override
+  String get positionOneCard => '今日卡';
+
+  @override
+  String get positionTwoCard1 => '一、情況';
+
+  @override
+  String get positionTwoCard2 => '2.建議';
+
+  @override
+  String get positionThreeCard1 => '過去的';
+
+  @override
+  String get positionThreeCard2 => '展示';
+
+  @override
+  String get positionThreeCard3 => '未來';
+
+  @override
+  String get positionFourCard1 => '1. 問題';
+
+  @override
+  String get positionFourCard2 => '2. 原因';
+
+  @override
+  String get positionFourCard3 => '3.建議';
+
+  @override
+  String get positionFourCard4 => '4. 結果';
+
+  @override
+  String get positionFiveCard1 => '1. 禮物';
+
+  @override
+  String get positionFiveCard2 => '2. 過去的影響';
+
+  @override
+  String get positionFiveCard3 => '3. 未來發展方向';
+
+  @override
+  String get positionFiveCard4 => '4. 核心原因';
+
+  @override
+  String get positionFiveCard5 => '5. 潛在結果';
+
+  @override
+  String get positionCelticCross1 => '1. 現在（詢問者）';
+
+  @override
+  String get positionCelticCross2 => '2. 挑戰';
+
+  @override
+  String get positionCelticCross3 => '3. 過去';
+
+  @override
+  String get positionCelticCross4 => '4. 未來';
+
+  @override
+  String get positionCelticCross5 => '5.有意識';
+
+  @override
+  String get positionCelticCross6 => '6.潛意識';
+
+  @override
+  String get positionCelticCross7 => '7. 建議';
+
+  @override
+  String get positionCelticCross8 => '8. 外部影響';
+
+  @override
+  String get positionCelticCross9 => '9.希望與恐懼';
+
+  @override
+  String get positionCelticCross10 => '10. 結果';
+
+  @override
+  String get navReading => '塔羅牌占卜';
+
+  @override
+  String get navChat => '塔羅牌聊天';
+
+  @override
+  String get navMeanings => '卡片意義';
+
+  @override
+  String get navMyMenu => '我的菜單';
 
   @override
   String get readingIntroTitle => '命運的\n低語';
@@ -2871,4 +6520,1709 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get chatProfileTapHint => '點擊頭像查看詳情';
+
+  @override
+  String get themeName1 => '主題1';
+
+  @override
+  String get themeName2 => '主題2';
+
+  @override
+  String get themeName3 => '主題3';
+
+  @override
+  String get themeMagicBook => '魔法書';
+
+  @override
+  String get themeBlackCat => '黑貓';
+
+  @override
+  String get themeEmptyPaidThemes => '在商店購買主題\n來填補這個空間！';
+
+  @override
+  String get shopThemePurchaseTitle => '購買主題';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return '您想用 $skinName 枚硬幣購買 $cost 主題嗎？';
+  }
+
+  @override
+  String get shopCancel => '取消';
+
+  @override
+  String get shopPurchase => '購買';
+
+  @override
+  String get shopAlreadyOwned => '已經擁有了。嘗試在主題設定中應用它！';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return '$skinName購買成功！檢查主題設定。';
+  }
+
+  @override
+  String get shopNotEnoughCoins => '金幣不夠。';
+
+  @override
+  String get shopOwned => '擁有';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost幣';
+  }
+
+  @override
+  String get navDiary => '塔羅日記';
+
+  @override
+  String get myMenuFirebaseNotConnected => 'Firebase 未連接';
+
+  @override
+  String get myMenuWindowsSetupNeeded => '需要 Windows 設定（預覽版）';
+
+  @override
+  String get myMenuTouchToViewLogin => '點擊查看登入介面';
+
+  @override
+  String get myMenuNoName => '無名';
+
+  @override
+  String get myMenuPleaseLogin => '請登入';
+
+  @override
+  String get myMenuTouchToSignupLogin => '點擊註冊並登入';
+
+  @override
+  String get myMenuSectionMyRecords => '我的記錄';
+
+  @override
+  String get myMenuDiaryStorage => '日記存儲';
+
+  @override
+  String get myMenuCheckSavedDiary => '檢查您已儲存的日記。';
+
+  @override
+  String get myMenuFavoriteCards => '最喜歡的卡片';
+
+  @override
+  String get myMenuMyFavoriteCardsList => '我最喜歡的卡片列表';
+
+  @override
+  String get myMenuSectionAppSettings => '應用程式設定';
+
+  @override
+  String get myMenuPushNotifications => '推播通知';
+
+  @override
+  String get myMenuPushNotificationsDesc => '新的星座和事件';
+
+  @override
+  String get myMenuLanguageSettings => '語言設定';
+
+  @override
+  String get myMenuThemeSettings => '主題設定';
+
+  @override
+  String get myMenuChangeBackground => '更改背景圖片';
+
+  @override
+  String get myMenuSectionCustomerSupport => '客戶支援';
+
+  @override
+  String get myMenuFaq => '常問問題';
+
+  @override
+  String get myMenuAppInfo => '應用程式訊息';
+
+  @override
+  String get myMenuSectionAccountManagement => '帳戶管理';
+
+  @override
+  String get myMenuLogout => '退出';
+
+  @override
+  String get myMenuLogoutDesc => '從目前設備註銷。';
+
+  @override
+  String get myMenuEmailVerifiedMsg => '邮箱验证已确认！ ✨';
+
+  @override
+  String get myMenuEmailSendTitle => '發送驗證郵件';
+
+  @override
+  String get myMenuEmailSendContent => '驗證電子郵件已傳送。\n請檢查您的收件箱，點擊鏈接，然後再次按此按鈕！';
+
+  @override
+  String get myMenuConfirm => '確認';
+
+  @override
+  String get myMenuEmailErrorMsg => 'Too many requests or an error occurred.';
+
+  @override
+  String get myMenuEmailVerified => '電子郵件已驗證';
+
+  @override
+  String get myMenuEmailNotVerified => 'Email Not Verified (Tap to verify)';
+
+  @override
+  String get languageSystemDefault => '系統預設值';
+
+  @override
+  String get shopTitle => '店鋪';
+
+  @override
+  String get shopSubtitle => '購買金幣和主題';
+
+  @override
+  String get shopTabCoin => '硬幣';
+
+  @override
+  String get shopTabTheme => '主題';
+
+  @override
+  String get shopPayButton => '支付';
+
+  @override
+  String get themeOriginalDeck => '原創經典套牌';
+
+  @override
+  String get themeGoldenSunDeck => '金色陽光甲板';
+
+  @override
+  String get themeDarkAbyssDeck => '黑暗深淵甲板';
+
+  @override
+  String get themeSpringSpiritDeck => '春之精靈甲板';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return '$coins 硬幣的付款即將到來。';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return '購買/申請$name即將推出。';
+  }
+
+  @override
+  String get readingIntroSelectWitch => '選擇一個女巫來看看你的命運';
+
+  @override
+  String get readingIntroGreeting => '我們該追尋怎樣的命運？\n我對你的未來很好奇。';
+
+  @override
+  String get readingIntroStart => '選擇點差';
+
+  @override
+  String get tabMajorArcana => '大阿卡納';
+
+  @override
+  String get tabMinorArcana => '小阿卡納';
+
+  @override
+  String get nicknamePrefix0 => '神秘的';
+
+  @override
+  String get nicknamePrefix1 => '安詳';
+
+  @override
+  String get nicknamePrefix2 => '聖';
+
+  @override
+  String get nicknamePrefix3 => '黑暗的';
+
+  @override
+  String get nicknamePrefix4 => '灼灼';
+
+  @override
+  String get nicknamePrefix5 => '蒼涼';
+
+  @override
+  String get nicknamePrefix6 => '熱的';
+
+  @override
+  String get nicknamePrefix7 => '迷人';
+
+  @override
+  String get nicknamePrefix8 => '殘忍的';
+
+  @override
+  String get nicknamePrefix9 => '純的';
+
+  @override
+  String get nicknamePrefix10 => '殘酷的';
+
+  @override
+  String get nicknamePrefix11 => '柔軟的';
+
+  @override
+  String get nicknamePrefix12 => '美麗的';
+
+  @override
+  String get nicknamePrefix13 => '詭異的';
+
+  @override
+  String get nicknamePrefix14 => '大的';
+
+  @override
+  String get nicknamePrefix15 => '破舊';
+
+  @override
+  String get nicknamePrefix16 => '永恆';
+
+  @override
+  String get nicknamePrefix17 => '忘記了';
+
+  @override
+  String get nicknamePrefix18 => '傑出的';
+
+  @override
+  String get nicknamePrefix19 => '傷心';
+
+  @override
+  String get nicknamePrefix20 => '高興的';
+
+  @override
+  String get nicknamePrefix21 => '夢幻般的';
+
+  @override
+  String get nicknamePrefix22 => '墮落';
+
+  @override
+  String get nicknamePrefix23 => '純白色';
+
+  @override
+  String get nicknamePrefix24 => '烏黑';
+
+  @override
+  String get nicknamePrefix25 => '血腥';
+
+  @override
+  String get nicknamePrefix26 => '呈灰色的';
+
+  @override
+  String get nicknamePrefix27 => '金的';
+
+  @override
+  String get nicknamePrefix28 => '銀色';
+
+  @override
+  String get nicknamePrefix29 => '藍色的';
+
+  @override
+  String get nicknamePrefix30 => '紅色的';
+
+  @override
+  String get nicknamePrefix31 => '黃色的';
+
+  @override
+  String get nicknamePrefix32 => '黑色的';
+
+  @override
+  String get nicknamePrefix33 => '白色的';
+
+  @override
+  String get nicknamePrefix34 => '透明的';
+
+  @override
+  String get nicknamePrefix35 => '孤獨的';
+
+  @override
+  String get nicknamePrefix36 => '吵雜';
+
+  @override
+  String get nicknamePrefix37 => '安靜的';
+
+  @override
+  String get nicknamePrefix38 => '溫暖的';
+
+  @override
+  String get nicknamePrefix39 => '冷淡的';
+
+  @override
+  String get nicknamePrefix40 => '孤';
+
+  @override
+  String get nicknamePrefix41 => '寂寞';
+
+  @override
+  String get nicknamePrefix42 => '快樂的';
+
+  @override
+  String get nicknamePrefix43 => '快樂的';
+
+  @override
+  String get nicknamePrefix44 => '陰沉';
+
+  @override
+  String get nicknamePrefix45 => '絕望的';
+
+  @override
+  String get nicknamePrefix46 => '充滿希望的';
+
+  @override
+  String get nicknamePrefix47 => '令人眼花撩亂';
+
+  @override
+  String get nicknamePrefix48 => '昏暗';
+
+  @override
+  String get nicknamePrefix49 => '午夜';
+
+  @override
+  String get nicknamePrefix50 => '荒涼';
+
+  @override
+  String get nicknamePrefix51 => '秘密';
+
+  @override
+  String get nicknamePrefix52 => '秘密';
+
+  @override
+  String get nicknamePrefix53 => '神聖';
+
+  @override
+  String get nicknamePrefix54 => '褻瀆的';
+
+  @override
+  String get nicknamePrefix55 => '優越的';
+
+  @override
+  String get nicknamePrefix56 => '謙虛的';
+
+  @override
+  String get nicknamePrefix57 => '明智的';
+
+  @override
+  String get nicknamePrefix58 => '愚蠢的';
+
+  @override
+  String get nicknamePrefix59 => '艱難的';
+
+  @override
+  String get nicknamePrefix60 => '虛弱的';
+
+  @override
+  String get nicknamePrefix61 => '勇敢的';
+
+  @override
+  String get nicknamePrefix62 => '卑鄙地';
+
+  @override
+  String get nicknamePrefix63 => '遙遠';
+
+  @override
+  String get nicknamePrefix64 => '靠近';
+
+  @override
+  String get nicknamePrefix65 => '搬走';
+
+  @override
+  String get nicknamePrefix66 => '迎面而來的';
+
+  @override
+  String get nicknamePrefix67 => '消失';
+
+  @override
+  String get nicknamePrefix68 => '湧現的';
+
+  @override
+  String get nicknamePrefix69 => '被喚醒';
+
+  @override
+  String get nicknamePrefix70 => '睡著了';
+
+  @override
+  String get nicknamePrefix71 => '做夢';
+
+  @override
+  String get nicknamePrefix72 => '徘徊';
+
+  @override
+  String get nicknamePrefix73 => '徘徊';
+
+  @override
+  String get nicknamePrefix74 => '停留';
+
+  @override
+  String get nicknamePrefix75 => '離開';
+
+  @override
+  String get nicknamePrefix76 => '回來';
+
+  @override
+  String get nicknamePrefix77 => '等待';
+
+  @override
+  String get nicknamePrefix78 => '尋找';
+
+  @override
+  String get nicknamePrefix79 => '神秘的';
+
+  @override
+  String get nicknamePrefix80 => '裸露';
+
+  @override
+  String get nicknamePrefix81 => '棄';
+
+  @override
+  String get nicknamePrefix82 => '已選擇';
+
+  @override
+  String get nicknamePrefix83 => '有福的';
+
+  @override
+  String get nicknamePrefix84 => '被詛咒的';
+
+  @override
+  String get nicknamePrefix85 => '愛過';
+
+  @override
+  String get nicknamePrefix86 => '討厭的';
+
+  @override
+  String get nicknamePrefix87 => '記住';
+
+  @override
+  String get nicknamePrefix88 => '健忘的';
+
+  @override
+  String get nicknamePrefix89 => '星光';
+
+  @override
+  String get nicknamePrefix90 => '月光';
+
+  @override
+  String get nicknamePrefix91 => '陽光的';
+
+  @override
+  String get nicknamePrefix92 => '宇宙的';
+
+  @override
+  String get nicknamePrefix93 => '地球的';
+
+  @override
+  String get nicknamePrefix94 => '海的';
+
+  @override
+  String get nicknamePrefix95 => '天上';
+
+  @override
+  String get nicknamePrefix96 => '雲的';
+
+  @override
+  String get nicknamePrefix97 => '風的';
+
+  @override
+  String get nicknamePrefix98 => '雨';
+
+  @override
+  String get nicknamePrefix99 => '眼睛的';
+
+  @override
+  String get nicknamePrefix100 => '冰冷的';
+
+  @override
+  String get nicknamePrefix101 => '火熱';
+
+  @override
+  String get nicknamePrefix102 => '水';
+
+  @override
+  String get nicknamePrefix103 => '土製的';
+
+  @override
+  String get nicknamePrefix104 => '木製的';
+
+  @override
+  String get nicknamePrefix105 => '森林';
+
+  @override
+  String get nicknamePrefix106 => '多山';
+
+  @override
+  String get nicknamePrefix107 => '演講';
+
+  @override
+  String get nicknamePrefix108 => '湖的';
+
+  @override
+  String get nicknamePrefix109 => '時間的';
+
+  @override
+  String get nicknamePrefix110 => '空間的';
+
+  @override
+  String get nicknamePrefix111 => '方面';
+
+  @override
+  String get nicknamePrefix112 => '命運攸關的';
+
+  @override
+  String get nicknamePrefix113 => '命運攸關的';
+
+  @override
+  String get nicknamePrefix114 => '神奇';
+
+  @override
+  String get nicknamePrefix115 => '神奇';
+
+  @override
+  String get nicknamePrefix116 => '神話';
+
+  @override
+  String get nicknamePrefix117 => '傳奇的';
+
+  @override
+  String get nicknamePrefix118 => '真理的';
+
+  @override
+  String get nicknamePrefix119 => '錯誤的';
+
+  @override
+  String get nicknamePrefix120 => '幻想';
+
+  @override
+  String get nicknamePrefix121 => '夢';
+
+  @override
+  String get nicknamePrefix122 => '惡夢';
+
+  @override
+  String get nicknamePrefix123 => '廢墟';
+
+  @override
+  String get nicknamePrefix124 => '創造的';
+
+  @override
+  String get nicknamePrefix125 => '生命的';
+
+  @override
+  String get nicknamePrefix126 => '死亡的';
+
+  @override
+  String get nicknamePrefix127 => '靈魂';
+
+  @override
+  String get nicknamePrefix128 => '身體的';
+
+  @override
+  String get nicknamePrefix129 => '有理有據';
+
+  @override
+  String get nicknamePrefix130 => '情緒化的';
+
+  @override
+  String get nicknamePrefix131 => '愛的';
+
+  @override
+  String get nicknamePrefix132 => '仇恨的';
+
+  @override
+  String get nicknamePrefix133 => '悲傷的';
+
+  @override
+  String get nicknamePrefix134 => '喜悅的';
+
+  @override
+  String get nicknamePrefix135 => '生氣的';
+
+  @override
+  String get nicknamePrefix136 => '和平的';
+
+  @override
+  String get nicknamePrefix137 => '戰爭的';
+
+  @override
+  String get nicknamePrefix138 => '混亂';
+
+  @override
+  String get nicknamePrefix139 => '秩序';
+
+  @override
+  String get nicknamePrefix140 => '光的';
+
+  @override
+  String get nicknamePrefix141 => '黑暗的';
+
+  @override
+  String get nicknamePrefix142 => '暮';
+
+  @override
+  String get nicknamePrefix143 => '黎明';
+
+  @override
+  String get nicknamePrefix144 => '中午';
+
+  @override
+  String get nicknamePrefix145 => '午夜';
+
+  @override
+  String get nicknamePrefix146 => '過去的';
+
+  @override
+  String get nicknamePrefix147 => '展示';
+
+  @override
+  String get nicknamePrefix148 => '未來';
+
+  @override
+  String get nicknamePrefix149 => '原產地';
+
+  @override
+  String get nicknamePrefix150 => '世界末日的';
+
+  @override
+  String get nicknamePrefix151 => '無限';
+
+  @override
+  String get nicknamePrefix152 => '有限';
+
+  @override
+  String get nicknamePrefix153 => '沉默的';
+
+  @override
+  String get nicknamePrefix154 => '噪音的';
+
+  @override
+  String get nicknamePrefix155 => '歌唱';
+
+  @override
+  String get nicknamePrefix156 => '跳舞';
+
+  @override
+  String get nicknamePrefix157 => '哭';
+
+  @override
+  String get nicknamePrefix158 => '微笑著';
+
+  @override
+  String get nicknamePrefix159 => '耳語';
+
+  @override
+  String get nicknamePrefix160 => '哭';
+
+  @override
+  String get nicknamePrefix161 => '祈禱';
+
+  @override
+  String get nicknamePrefix162 => '懇求';
+
+  @override
+  String get nicknamePrefix163 => '發號施令';
+
+  @override
+  String get nicknamePrefix164 => '順從的';
+
+  @override
+  String get nicknamePrefix165 => '裁決';
+
+  @override
+  String get nicknamePrefix166 => '服務';
+
+  @override
+  String get nicknamePrefix167 => '指導';
+
+  @override
+  String get nicknamePrefix168 => '隨同';
+
+  @override
+  String get nicknamePrefix169 => '教學';
+
+  @override
+  String get nicknamePrefix170 => '學習';
+
+  @override
+  String get nicknamePrefix171 => '記憶的';
+
+  @override
+  String get nicknamePrefix172 => '回憶的';
+
+  @override
+  String get nicknamePrefix173 => '傷口的';
+
+  @override
+  String get nicknamePrefix174 => '治癒';
+
+  @override
+  String get nicknamePrefix175 => '有毒';
+
+  @override
+  String get nicknamePrefix176 => '藥物';
+
+  @override
+  String get nicknamePrefix177 => '歡迎';
+
+  @override
+  String get nicknamePrefix178 => '物質的';
+
+  @override
+  String get nicknamePrefix179 => '理想的';
+
+  @override
+  String get nicknamePrefix180 => '真實的';
+
+  @override
+  String get nicknamePrefix181 => '假想';
+
+  @override
+  String get nicknamePrefix182 => '自然的';
+
+  @override
+  String get nicknamePrefix183 => '人造的';
+
+  @override
+  String get nicknamePrefix184 => '一開始';
+
+  @override
+  String get nicknamePrefix185 => '永恆';
+
+  @override
+  String get nicknamePrefix186 => '此刻';
+
+  @override
+  String get nicknamePrefix187 => '稍縱即逝的';
+
+  @override
+  String get nicknamePrefix188 => '永恆';
+
+  @override
+  String get nicknamePrefix189 => '變化的';
+
+  @override
+  String get nicknamePrefix190 => '仍然';
+
+  @override
+  String get nicknamePrefix191 => '流動的';
+
+  @override
+  String get nicknamePrefix192 => '撞倒';
+
+  @override
+  String get nicknamePrefix193 => '熾烈';
+
+  @override
+  String get nicknamePrefix194 => '冷卻下來';
+
+  @override
+  String get nicknamePrefix195 => '盛開';
+
+  @override
+  String get nicknamePrefix196 => '枯萎';
+
+  @override
+  String get nicknamePrefix197 => '成長';
+
+  @override
+  String get nicknamePrefix198 => '垂死';
+
+  @override
+  String get nicknamePrefix199 => '呼吸';
+
+  @override
+  String get nicknamePrefix200 => '令人窒息的';
+
+  @override
+  String get nicknameSuffix0 => '先知';
+
+  @override
+  String get nicknameSuffix1 => '嚮導';
+
+  @override
+  String get nicknameSuffix2 => '巫婆';
+
+  @override
+  String get nicknameSuffix3 => '文章';
+
+  @override
+  String get nicknameSuffix4 => '戰士';
+
+  @override
+  String get nicknameSuffix5 => '射手';
+
+  @override
+  String get nicknameSuffix6 => '賊';
+
+  @override
+  String get nicknameSuffix7 => '刺客';
+
+  @override
+  String get nicknameSuffix8 => '聖騎士';
+
+  @override
+  String get nicknameSuffix9 => '牧師';
+
+  @override
+  String get nicknameSuffix10 => '女祭司';
+
+  @override
+  String get nicknameSuffix11 => '僧侶';
+
+  @override
+  String get nicknameSuffix12 => '哇';
+
+  @override
+  String get nicknameSuffix13 => '煉金術士';
+
+  @override
+  String get nicknameSuffix14 => '死靈法師';
+
+  @override
+  String get nicknameSuffix15 => '通靈師';
+
+  @override
+  String get nicknameSuffix16 => '召喚師';
+
+  @override
+  String get nicknameSuffix17 => '魔術師';
+
+  @override
+  String get nicknameSuffix18 => '治療師';
+
+  @override
+  String get nicknameSuffix19 => '智者';
+
+  @override
+  String get nicknameSuffix20 => '學者';
+
+  @override
+  String get nicknameSuffix21 => '研究員';
+
+  @override
+  String get nicknameSuffix22 => '探險家';
+
+  @override
+  String get nicknameSuffix23 => '遊客';
+
+  @override
+  String get nicknameSuffix24 => '流浪漢';
+
+  @override
+  String get nicknameSuffix25 => '流浪漢';
+
+  @override
+  String get nicknameSuffix26 => '朝聖';
+
+  @override
+  String get nicknameSuffix27 => '探索者';
+
+  @override
+  String get nicknameSuffix28 => '觀察者';
+
+  @override
+  String get nicknameSuffix29 => '錄音機';
+
+  @override
+  String get nicknameSuffix30 => '通訊器';
+
+  @override
+  String get nicknameSuffix31 => '監護人';
+
+  @override
+  String get nicknameSuffix32 => '典獄長';
+
+  @override
+  String get nicknameSuffix33 => '警衛';
+
+  @override
+  String get nicknameSuffix34 => '看門人';
+
+  @override
+  String get nicknameSuffix35 => '法官';
+
+  @override
+  String get nicknameSuffix36 => '執達主任';
+
+  @override
+  String get nicknameSuffix37 => '州長';
+
+  @override
+  String get nicknameSuffix38 => '統治者';
+
+  @override
+  String get nicknameSuffix39 => '國王';
+
+  @override
+  String get nicknameSuffix40 => '女王';
+
+  @override
+  String get nicknameSuffix41 => '皇帝';
+
+  @override
+  String get nicknameSuffix42 => '皇后';
+
+  @override
+  String get nicknameSuffix43 => '貴族';
+
+  @override
+  String get nicknameSuffix44 => '永久居留權';
+
+  @override
+  String get nicknameSuffix45 => '騎士指揮官';
+
+  @override
+  String get nicknameSuffix46 => '傭兵';
+
+  @override
+  String get nicknameSuffix47 => '海盜';
+
+  @override
+  String get nicknameSuffix48 => '賊';
+
+  @override
+  String get nicknameSuffix49 => '詐欺罪';
+
+  @override
+  String get nicknameSuffix50 => '小丑';
+
+  @override
+  String get nicknameSuffix51 => '傻子';
+
+  @override
+  String get nicknameSuffix52 => '隱士';
+
+  @override
+  String get nicknameSuffix53 => '異教徒';
+
+  @override
+  String get nicknameSuffix54 => '背叛者';
+
+  @override
+  String get nicknameSuffix55 => '叛徒';
+
+  @override
+  String get nicknameSuffix56 => '英雄';
+
+  @override
+  String get nicknameSuffix57 => '儲蓄者';
+
+  @override
+  String get nicknameSuffix58 => '救星';
+
+  @override
+  String get nicknameSuffix59 => '驅逐艦';
+
+  @override
+  String get nicknameSuffix60 => '創造者';
+
+  @override
+  String get nicknameSuffix61 => '上帝';
+
+  @override
+  String get nicknameSuffix62 => '女神';
+
+  @override
+  String get nicknameSuffix63 => '天使';
+
+  @override
+  String get nicknameSuffix64 => '魔鬼';
+
+  @override
+  String get nicknameSuffix65 => '政府法令';
+
+  @override
+  String get nicknameSuffix66 => '仙女';
+
+  @override
+  String get nicknameSuffix67 => '怪物';
+
+  @override
+  String get nicknameSuffix68 => '妖獸';
+
+  @override
+  String get nicknameSuffix69 => '龍';
+
+  @override
+  String get nicknameSuffix70 => '鬼';
+
+  @override
+  String get nicknameSuffix71 => '陰影';
+
+  @override
+  String get nicknameSuffix72 => '不死族';
+
+  @override
+  String get nicknameSuffix73 => '吸血鬼';
+
+  @override
+  String get nicknameSuffix74 => '狼人';
+
+  @override
+  String get nicknameSuffix75 => '美人魚';
+
+  @override
+  String get nicknameSuffix76 => '警笛';
+
+  @override
+  String get nicknameSuffix77 => '若蟲';
+
+  @override
+  String get nicknameSuffix78 => '妖精';
+
+  @override
+  String get nicknameSuffix79 => '橡木';
+
+  @override
+  String get nicknameSuffix80 => '巨魔';
+
+  @override
+  String get nicknameSuffix81 => '小精靈';
+
+  @override
+  String get nicknameSuffix82 => '矮人';
+
+  @override
+  String get nicknameSuffix83 => '巨大的';
+
+  @override
+  String get nicknameSuffix84 => '郵戳';
+
+  @override
+  String get nicknameSuffix85 => '人';
+
+  @override
+  String get nicknameSuffix86 => '囚犯';
+
+  @override
+  String get nicknameSuffix87 => '簽名';
+
+  @override
+  String get nicknameSuffix88 => '菲什曼';
+
+  @override
+  String get nicknameSuffix89 => '員工';
+
+  @override
+  String get nicknameSuffix90 => '邪靈';
+
+  @override
+  String get nicknameSuffix91 => '蘇拉';
+
+  @override
+  String get nicknameSuffix92 => '地獄';
+
+  @override
+  String get nicknameSuffix93 => '天堂';
+
+  @override
+  String get nicknameSuffix94 => '地獄';
+
+  @override
+  String get nicknameSuffix95 => '異世界';
+
+  @override
+  String get nicknameSuffix96 => '深淵';
+
+  @override
+  String get nicknameSuffix97 => '混亂';
+
+  @override
+  String get nicknameSuffix98 => '命令';
+
+  @override
+  String get nicknameSuffix99 => '光';
+
+  @override
+  String get nicknameSuffix100 => '黑暗的';
+
+  @override
+  String get nicknamePrefix201 => '傑出的';
+
+  @override
+  String get nicknamePrefix202 => '微妙的';
+
+  @override
+  String get nicknamePrefix203 => '朦朧';
+
+  @override
+  String get nicknamePrefix204 => '頭暈的';
+
+  @override
+  String get nicknamePrefix205 => '透明的';
+
+  @override
+  String get nicknamePrefix206 => '頭暈的';
+
+  @override
+  String get nicknamePrefix207 => '令人眼花撩亂';
+
+  @override
+  String get nicknamePrefix208 => '詭異的';
+
+  @override
+  String get nicknamePrefix209 => '奇特';
+
+  @override
+  String get nicknamePrefix210 => '特別的';
+
+  @override
+  String get nicknamePrefix211 => '高貴';
+
+  @override
+  String get nicknamePrefix212 => '純的';
+
+  @override
+  String get nicknamePrefix213 => '墮落';
+
+  @override
+  String get nicknamePrefix214 => '孤獨的';
+
+  @override
+  String get nicknamePrefix215 => '寂寞';
+
+  @override
+  String get nicknamePrefix216 => '荒涼';
+
+  @override
+  String get nicknamePrefix217 => '遙遠';
+
+  @override
+  String get nicknamePrefix218 => '殘酷的';
+
+  @override
+  String get nicknamePrefix219 => '無情';
+
+  @override
+  String get nicknamePrefix220 => '殘忍的';
+
+  @override
+  String get nicknamePrefix221 => '大的';
+
+  @override
+  String get nicknamePrefix222 => '艱難的';
+
+  @override
+  String get nicknamePrefix223 => '公司';
+
+  @override
+  String get nicknamePrefix224 => '蜿蜒的';
+
+  @override
+  String get nicknamePrefix225 => '快的';
+
+  @override
+  String get nicknamePrefix226 => '慢的';
+
+  @override
+  String get nicknamePrefix227 => '在沉默中';
+
+  @override
+  String get nicknamePrefix228 => '混亂中';
+
+  @override
+  String get nicknamePrefix229 => '記憶中';
+
+  @override
+  String get nicknamePrefix230 => '假想';
+
+  @override
+  String get nicknamePrefix231 => '沉默的';
+
+  @override
+  String get nicknamePrefix232 => '耳語';
+
+  @override
+  String get nicknamePrefix233 => '歌唱';
+
+  @override
+  String get nicknamePrefix234 => '跳舞';
+
+  @override
+  String get nicknamePrefix235 => '抽泣';
+
+  @override
+  String get nicknamePrefix236 => '微笑著';
+
+  @override
+  String get nicknamePrefix237 => '嘲笑';
+
+  @override
+  String get nicknamePrefix238 => '沉思';
+
+  @override
+  String get nicknamePrefix239 => '徘徊';
+
+  @override
+  String get nicknamePrefix240 => '徘徊';
+
+  @override
+  String get nicknamePrefix241 => '醒';
+
+  @override
+  String get nicknamePrefix242 => '睡著了';
+
+  @override
+  String get nicknamePrefix243 => '做夢';
+
+  @override
+  String get nicknamePrefix244 => '做白日夢';
+
+  @override
+  String get nicknamePrefix245 => '妄想的';
+
+  @override
+  String get nicknamePrefix246 => '祈禱';
+
+  @override
+  String get nicknamePrefix247 => '認真';
+
+  @override
+  String get nicknamePrefix248 => '悲傷';
+
+  @override
+  String get nicknamePrefix249 => '悲慘的';
+
+  @override
+  String get nicknamePrefix250 => '昇華';
+
+  @override
+  String get nicknamePrefix251 => '邪惡';
+
+  @override
+  String get nicknamePrefix252 => '意思是';
+
+  @override
+  String get nicknamePrefix253 => '傲慢的';
+
+  @override
+  String get nicknamePrefix254 => '謙虛的';
+
+  @override
+  String get nicknamePrefix255 => '喜歡';
+
+  @override
+  String get nicknamePrefix256 => '溫暖的';
+
+  @override
+  String get nicknamePrefix257 => '涼爽的';
+
+  @override
+  String get nicknamePrefix258 => '寒冷';
+
+  @override
+  String get nicknamePrefix259 => '奇異的';
+
+  @override
+  String get nicknamePrefix260 => '不可思議的';
+
+  @override
+  String get nicknamePrefix261 => '全神貫注';
+
+  @override
+  String get nicknamePrefix262 => '迷人';
+
+  @override
+  String get nicknamePrefix263 => '令人目眩的';
+
+  @override
+  String get nicknamePrefix264 => '甜甜的';
+
+  @override
+  String get nicknamePrefix265 => '苦的';
+
+  @override
+  String get nicknamePrefix266 => '苦澀的';
+
+  @override
+  String get nicknamePrefix267 => '有刺的';
+
+  @override
+  String get nicknamePrefix268 => '鋒利的';
+
+  @override
+  String get nicknamePrefix269 => '乏味的';
+
+  @override
+  String get nicknamePrefix270 => '殘酷的';
+
+  @override
+  String get nicknamePrefix271 => '柔軟的';
+
+  @override
+  String get nicknamePrefix272 => '舒適';
+
+  @override
+  String get nicknamePrefix273 => '舒服的';
+
+  @override
+  String get nicknamePrefix274 => '不穩定的';
+
+  @override
+  String get nicknamePrefix275 => '不安';
+
+  @override
+  String get nicknamePrefix276 => '冷靜的';
+
+  @override
+  String get nicknamePrefix277 => '冷靜的';
+
+  @override
+  String get nicknamePrefix278 => '昏昏欲睡';
+
+  @override
+  String get nicknamePrefix279 => '無聊的';
+
+  @override
+  String get nicknamePrefix280 => '熱情的';
+
+  @override
+  String get nicknamePrefix281 => '漫不經心的';
+
+  @override
+  String get nicknamePrefix282 => '寧靜';
+
+  @override
+  String get nicknamePrefix283 => '暴力';
+
+  @override
+  String get nicknamePrefix284 => '兇猛的';
+
+  @override
+  String get nicknamePrefix285 => '瘋狂的';
+
+  @override
+  String get nicknamePrefix286 => '瘋了';
+
+  @override
+  String get nicknamePrefix287 => '合理的';
+
+  @override
+  String get nicknamePrefix288 => '情緒化的';
+
+  @override
+  String get nicknamePrefix289 => '冷靜的';
+
+  @override
+  String get nicknamePrefix290 => '明智的';
+
+  @override
+  String get nicknamePrefix291 => '愚蠢的';
+
+  @override
+  String get nicknamePrefix292 => '清白的';
+
+  @override
+  String get nicknamePrefix293 => '狡猾';
+
+  @override
+  String get nicknamePrefix294 => '蛇紋石';
+
+  @override
+  String get nicknamePrefix295 => '純白色';
+
+  @override
+  String get nicknamePrefix296 => '烏黑';
+
+  @override
+  String get nicknamePrefix297 => '金的';
+
+  @override
+  String get nicknamePrefix298 => '銀色';
+
+  @override
+  String get nicknamePrefix299 => '血腥';
+
+  @override
+  String get nicknameSuffix101 => '探索者';
+
+  @override
+  String get nicknameSuffix102 => '朝聖';
+
+  @override
+  String get nicknameSuffix103 => '流浪漢';
+
+  @override
+  String get nicknameSuffix104 => '隱士';
+
+  @override
+  String get nicknameSuffix105 => '伊森';
+
+  @override
+  String get nicknameSuffix106 => '叛徒';
+
+  @override
+  String get nicknameSuffix107 => '先鋒';
+
+  @override
+  String get nicknameSuffix108 => '征服者';
+
+  @override
+  String get nicknameSuffix109 => '統治者';
+
+  @override
+  String get nicknameSuffix110 => '協調者';
+
+  @override
+  String get nicknameSuffix111 => '監護人';
+
+  @override
+  String get nicknameSuffix112 => '觀察者';
+
+  @override
+  String get nicknameSuffix113 => '觀察者';
+
+  @override
+  String get nicknameSuffix114 => '錄音機';
+
+  @override
+  String get nicknameSuffix115 => '通訊器';
+
+  @override
+  String get nicknameSuffix116 => '指導';
+
+  @override
+  String get nicknameSuffix117 => '領導者';
+
+  @override
+  String get nicknameSuffix118 => '儲蓄者';
+
+  @override
+  String get nicknameSuffix119 => '驅逐艦';
+
+  @override
+  String get nicknameSuffix120 => '創造者';
+
+  @override
+  String get nicknameSuffix121 => '陰影';
+
+  @override
+  String get nicknameSuffix122 => '鬼';
+
+  @override
+  String get nicknameSuffix123 => '鬼';
+
+  @override
+  String get nicknameSuffix124 => '邪靈';
+
+  @override
+  String get nicknameSuffix125 => '政府法令';
+
+  @override
+  String get nicknameSuffix126 => '仙女';
+
+  @override
+  String get nicknameSuffix127 => '妖獸';
+
+  @override
+  String get nicknameSuffix128 => '聖水';
+
+  @override
+  String get nicknameSuffix129 => '退款';
+
+  @override
+  String get nicknameSuffix130 => '信水';
+
+  @override
+  String get nicknameSuffix131 => '測試';
+
+  @override
+  String get nicknameSuffix132 => '文章';
+
+  @override
+  String get nicknameSuffix133 => '射手';
+
+  @override
+  String get nicknameSuffix134 => '賊';
+
+  @override
+  String get nicknameSuffix135 => '刺客';
+
+  @override
+  String get nicknameSuffix136 => '嚮導';
+
+  @override
+  String get nicknameSuffix137 => '哇';
+
+  @override
+  String get nicknameSuffix138 => '煉金術士';
+
+  @override
+  String get nicknameSuffix139 => '死靈法師';
+
+  @override
+  String get nicknameSuffix140 => '牧師';
+
+  @override
+  String get nicknameSuffix141 => '學者';
+
+  @override
+  String get nicknameSuffix142 => '研究員';
+
+  @override
+  String get nicknameSuffix143 => '探險家';
+
+  @override
+  String get nicknameSuffix144 => '遊客';
+
+  @override
+  String get nicknameSuffix145 => '藝術家';
+
+  @override
+  String get nicknameSuffix146 => '小丑';
+
+  @override
+  String get nicknameSuffix147 => '詩人';
+
+  @override
+  String get nicknameSuffix148 => '商人';
+
+  @override
+  String get nicknameSuffix149 => '工匠';
+
+  @override
+  String get nicknameSuffix150 => '農民';
+
+  @override
+  String get nicknameSuffix151 => '烏鴉';
+
+  @override
+  String get nicknameSuffix152 => '貓頭鷹';
+
+  @override
+  String get nicknameSuffix153 => '貓頭鷹';
+
+  @override
+  String get nicknameSuffix154 => '鷹';
+
+  @override
+  String get nicknameSuffix155 => '鷹';
+
+  @override
+  String get nicknameSuffix156 => '狼';
+
+  @override
+  String get nicknameSuffix157 => '狐狸';
+
+  @override
+  String get nicknameSuffix158 => '熊';
+
+  @override
+  String get nicknameSuffix159 => '獅子';
+
+  @override
+  String get nicknameSuffix160 => '老虎';
+
+  @override
+  String get nicknameSuffix161 => '豹';
+
+  @override
+  String get nicknameSuffix162 => '黑豹';
+
+  @override
+  String get nicknameSuffix163 => '莎草';
+
+  @override
+  String get nicknameSuffix164 => '貓';
+
+  @override
+  String get nicknameSuffix165 => '小狗';
+
+  @override
+  String get nicknameSuffix166 => '蛇';
+
+  @override
+  String get nicknameSuffix167 => '蜥蜴';
+
+  @override
+  String get nicknameSuffix168 => '龜';
+
+  @override
+  String get nicknameSuffix169 => '鱷魚';
+
+  @override
+  String get nicknameSuffix170 => '龍';
+
+  @override
+  String get nicknameSuffix171 => '獨角獸';
+
+  @override
+  String get nicknameSuffix172 => '飛馬座';
+
+  @override
+  String get nicknameSuffix173 => '獅鷲';
+
+  @override
+  String get nicknameSuffix174 => '石像鬼';
+
+  @override
+  String get nicknameSuffix175 => '妖精';
+
+  @override
+  String get nicknameSuffix176 => '橡木';
+
+  @override
+  String get nicknameSuffix177 => '巨魔';
+
+  @override
+  String get nicknameSuffix178 => '螺旋鑽';
+
+  @override
+  String get nicknameSuffix179 => '黏液';
+
+  @override
+  String get nicknameSuffix180 => '骨骼';
+
+  @override
+  String get nicknameSuffix181 => '殭屍';
+
+  @override
+  String get nicknameSuffix182 => '食屍鬼';
+
+  @override
+  String get nicknameSuffix183 => '吸血鬼';
+
+  @override
+  String get nicknameSuffix184 => '狼人';
+
+  @override
+  String get nicknameSuffix185 => '牛頭怪';
+
+  @override
+  String get nicknameSuffix186 => '半人馬座';
+
+  @override
+  String get nicknameSuffix187 => '鷹身女妖';
+
+  @override
+  String get nicknameSuffix188 => '警笛';
+
+  @override
+  String get nicknameSuffix189 => '克拉肯';
+
+  @override
+  String get nicknameSuffix190 => '利維坦';
+
+  @override
+  String get nicknameSuffix191 => '刀';
+
+  @override
+  String get nicknameSuffix192 => '盾';
+
+  @override
+  String get nicknameSuffix193 => '窗戶';
+
+  @override
+  String get nicknameSuffix194 => '弓';
+
+  @override
+  String get nicknameSuffix195 => '甘蔗';
+
+  @override
+  String get nicknameSuffix196 => '戒指';
+
+  @override
+  String get nicknameSuffix197 => '項鍊';
+
+  @override
+  String get nicknameSuffix198 => '王冠';
+
+  @override
+  String get nicknameSuffix199 => '聖杯';
+
+  @override
+  String get themeFree => '免費主題';
+
+  @override
+  String get themePaid => '付費主題';
 }

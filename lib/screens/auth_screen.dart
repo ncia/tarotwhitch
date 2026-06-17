@@ -41,11 +41,18 @@ class _AuthScreenState extends State<AuthScreen> {
     super.dispose();
   }
 
+  int? _prefixIndex;
+  int? _suffixIndex;
+  bool _isCustomNickname = false;
+
   void _generateRandomNickname() {
     final random = Random();
-    final prefix = nicknamePrefixes[random.nextInt(nicknamePrefixes.length)];
-    final suffix = nicknameSuffixes[random.nextInt(nicknameSuffixes.length)];
+    _prefixIndex = random.nextInt(nicknamePrefixes.length);
+    _suffixIndex = random.nextInt(nicknameSuffixes.length);
+    final prefix = nicknamePrefixes[_prefixIndex!];
+    final suffix = nicknameSuffixes[_suffixIndex!];
     _nicknameController.text = '$prefix $suffix';
+    _isCustomNickname = false;
   }
 
   void _showTermsDialog() {
@@ -154,12 +161,17 @@ class _AuthScreenState extends State<AuthScreen> {
         final docSnapshot = await FirebaseFirestore.instance.collection('users').doc(user.uid).get();
         if (!docSnapshot.exists) {
           final random = Random();
-          final prefix = nicknamePrefixes[random.nextInt(nicknamePrefixes.length)];
-          final suffix = nicknameSuffixes[random.nextInt(nicknameSuffixes.length)];
+          final prefixIndex = random.nextInt(nicknamePrefixes.length);
+          final suffixIndex = random.nextInt(nicknameSuffixes.length);
+          final prefix = nicknamePrefixes[prefixIndex];
+          final suffix = nicknameSuffixes[suffixIndex];
           
           await FirebaseFirestore.instance.collection('users').doc(user.uid).set({
             'email': user.email,
             'nickname': '$prefix $suffix',
+            'nicknamePrefixIndex': prefixIndex,
+            'nicknameSuffixIndex': suffixIndex,
+            'isCustomNickname': false,
             'role': 'user',
             'pushEnabled': _agreedToPush,
             'createdAt': FieldValue.serverTimestamp(),
@@ -273,9 +285,12 @@ class _AuthScreenState extends State<AuthScreen> {
         final user = userCredential.user;
         if (user != null) {
           // Firestore에 유저 정보 및 권한(role) 저장
-          await FirebaseFirestore.instance.collection('users').doc(user.uid).set({
-            'email': user.email,
+          await FirebaseFirestore.instance.collection('users').doc(userCredential.user!.uid).set({
+            'email': _emailController.text.trim(),
             'nickname': _nicknameController.text.trim(),
+            'nicknamePrefixIndex': _isCustomNickname ? null : _prefixIndex,
+            'nicknameSuffixIndex': _isCustomNickname ? null : _suffixIndex,
+            'isCustomNickname': _isCustomNickname,
             'role': _isAdmin ? 'admin' : 'user', // 관리자 여부에 따라 role 부여
             'pushEnabled': _agreedToPush,
             'createdAt': FieldValue.serverTimestamp(),
@@ -339,9 +354,14 @@ class _AuthScreenState extends State<AuthScreen> {
                   ),
                   const SizedBox(height: 24),
                   if (!_isLogin) ...[
-                    TextField(
+                    TextFormField(
                       controller: _nicknameController,
                       style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                      onChanged: (val) {
+                        setState(() {
+                          _isCustomNickname = true;
+                        });
+                      },
                       decoration: InputDecoration(
                         labelText: '타로 세계의 닉네임',
                         labelStyle: const TextStyle(color: Colors.amberAccent),

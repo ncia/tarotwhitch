@@ -9,143 +9,143 @@ class AppLocalizationsTr extends AppLocalizations {
   AppLocalizationsTr([String locale = 'tr']) : super(locale);
 
   @override
-  String get appTitle => 'Tarot Reading';
+  String get appTitle => 'Tarot Okuması';
 
   @override
-  String get spreadSelectionTitle => 'Select a Spread';
+  String get spreadSelectionTitle => 'Bir Forma Seçin';
 
   @override
   String get spreadSelectionSubtitle =>
-      'Choose a tarot spread that fits your question';
+      'Sorunuzla eşleşen tarot açılımını seçin';
 
   @override
-  String get spreadOneCardName => 'One Card';
+  String get spreadOneCardName => 'Tek Kart';
 
   @override
   String get spreadOneCardDesc =>
-      'A single card for a quick answer or daily guidance.';
+      'Hızlı yanıt veya günlük rehberlik için tek bir kart.';
 
   @override
-  String get spreadTwoCardName => 'Two Card';
+  String get spreadTwoCardName => 'İki Kart';
 
   @override
   String get spreadTwoCardDesc =>
-      'A 2-card spread to simply grasp the current situation and advice.';
+      'Mevcut durumu ve tavsiyeleri basitçe kavramak için 2 kartlı bir dağılım.';
 
   @override
-  String get spreadThreeCardName => 'Three Card';
+  String get spreadThreeCardName => 'Üç Kart';
 
   @override
   String get spreadThreeCardDesc =>
-      'A 3-card spread to understand the flow of past, present, and future.';
+      'Geçmişin, bugünün ve geleceğin akışını anlamak için 3 kartlı bir seri.';
 
   @override
-  String get spreadFourCardName => 'Four Card';
+  String get spreadFourCardName => 'Dört Kart';
 
   @override
   String get spreadFourCardDesc =>
-      'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.';
+      'Bir sorunun nedenini net bir şekilde teşhis etmek, tavsiye almak ve sonucu görmek için 4 kartlı bir dağılım.';
 
   @override
-  String get spreadFiveCardName => 'Five Card';
+  String get spreadFiveCardName => 'Beş Kart';
 
   @override
   String get spreadFiveCardDesc =>
-      'A 5-card spread examining the core of the situation, its causes, and potential outcomes.';
+      'Durumun özünü, nedenlerini ve potansiyel sonuçlarını inceleyen 5 kartlı bir dağılım.';
 
   @override
-  String get spreadCelticCrossName => 'Celtic Cross';
+  String get spreadCelticCrossName => 'Kelt Haçı';
 
   @override
   String get spreadCelticCrossDesc =>
-      '10 cards for an in-depth analysis of a complex problem.';
+      'Karmaşık bir problemin derinlemesine analizi için 10 kart.';
 
   @override
-  String get positionOneCard => 'Today\'s Card';
+  String get positionOneCard => 'Bugünün Kartı';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '1. Durum';
 
   @override
-  String get positionTwoCard2 => '2. Advice';
+  String get positionTwoCard2 => '2. Tavsiye';
 
   @override
-  String get positionThreeCard1 => 'Past';
+  String get positionThreeCard1 => 'Geçmiş';
 
   @override
-  String get positionThreeCard2 => 'Present';
+  String get positionThreeCard2 => 'Sunmak';
 
   @override
-  String get positionThreeCard3 => 'Future';
+  String get positionThreeCard3 => 'Gelecek';
 
   @override
-  String get positionFourCard1 => '1. Problem';
+  String get positionFourCard1 => '1. Sorun';
 
   @override
-  String get positionFourCard2 => '2. Cause';
+  String get positionFourCard2 => '2. Sebep';
 
   @override
-  String get positionFourCard3 => '3. Advice';
+  String get positionFourCard3 => '3. Tavsiye';
 
   @override
-  String get positionFourCard4 => '4. Outcome';
+  String get positionFourCard4 => '4. Sonuç';
 
   @override
-  String get positionFiveCard1 => '1. Present';
+  String get positionFiveCard1 => '1. Mevcut';
 
   @override
-  String get positionFiveCard2 => '2. Past Influences';
+  String get positionFiveCard2 => '2. Geçmiş Etkiler';
 
   @override
-  String get positionFiveCard3 => '3. Future Direction';
+  String get positionFiveCard3 => '3. Gelecek Yönü';
 
   @override
-  String get positionFiveCard4 => '4. Core Reason';
+  String get positionFiveCard4 => '4. Temel Neden';
 
   @override
-  String get positionFiveCard5 => '5. Potential Outcome';
+  String get positionFiveCard5 => '5. Potansiyel Sonuç';
 
   @override
-  String get positionCelticCross1 => '1. Present (Querent)';
+  String get positionCelticCross1 => '1. Mevcut (Soru)';
 
   @override
-  String get positionCelticCross2 => '2. The Challenge';
+  String get positionCelticCross2 => '2. Mücadele';
 
   @override
-  String get positionCelticCross3 => '3. The Past';
+  String get positionCelticCross3 => '3. Geçmiş';
 
   @override
-  String get positionCelticCross4 => '4. The Future';
+  String get positionCelticCross4 => '4. Gelecek';
 
   @override
-  String get positionCelticCross5 => '5. Conscious';
+  String get positionCelticCross5 => '5. Bilinçli';
 
   @override
-  String get positionCelticCross6 => '6. Subconscious';
+  String get positionCelticCross6 => '6. Bilinçaltı';
 
   @override
-  String get positionCelticCross7 => '7. Advice';
+  String get positionCelticCross7 => '7. Tavsiye';
 
   @override
-  String get positionCelticCross8 => '8. External Influences';
+  String get positionCelticCross8 => '8. Dış Etkiler';
 
   @override
-  String get positionCelticCross9 => '9. Hopes and Fears';
+  String get positionCelticCross9 => '9. Umutlar ve Korkular';
 
   @override
-  String get positionCelticCross10 => '10. Outcome';
+  String get positionCelticCross10 => '10. Sonuç';
 
   @override
-  String get navReading => 'Tarot Okuması';
+  String get navReading => 'tarot okuması';
 
   @override
-  String get navChat => 'Tarot Sohbeti';
+  String get navChat => 'tarot sohbeti';
 
   @override
-  String get navMeanings => 'Anlamlar';
+  String get navMeanings => 'kart anlamı';
 
   @override
-  String get navMyMenu => 'My Menu';
+  String get navMyMenu => 'benim menüm';
 
   @override
   String get readingIntroTitle => 'Kaderin\nFısıltıları';
@@ -1205,4 +1205,1717 @@ class AppLocalizationsTr extends AppLocalizations {
   @override
   String get chatProfileTapHint =>
       'Detayları görmek için profil resmine dokunun';
+
+  @override
+  String get themeName1 => 'Tema 1';
+
+  @override
+  String get themeName2 => 'Tema 2';
+
+  @override
+  String get themeName3 => 'Tema 3';
+
+  @override
+  String get themeMagicBook => 'Sihirli Kitap';
+
+  @override
+  String get themeBlackCat => 'Kara Kedi';
+
+  @override
+  String get themeEmptyPaidThemes =>
+      'Mağazadan tema satın alın\nbu alanı doldurmak için!';
+
+  @override
+  String get shopThemePurchaseTitle => 'Satın Alma Teması';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return '$skinName jeton karşılığında $cost temasını satın almak ister misiniz?';
+  }
+
+  @override
+  String get shopCancel => 'İptal etmek';
+
+  @override
+  String get shopPurchase => 'Satın almak';
+
+  @override
+  String get shopAlreadyOwned =>
+      'Zaten sahip olunan. Tema ayarlarında uygulamayı deneyin!';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return '$skinName başarıyla satın alındı! Tema ayarlarını kontrol edin.';
+  }
+
+  @override
+  String get shopNotEnoughCoins => 'Yeterli para yok.';
+
+  @override
+  String get shopOwned => 'Sahip olunan';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost jeton';
+  }
+
+  @override
+  String get navDiary => 'tarot günlüğü';
+
+  @override
+  String get myMenuFirebaseNotConnected => 'Firebase Bağlı Değil';
+
+  @override
+  String get myMenuWindowsSetupNeeded =>
+      'Windows Kurulumu Gerekiyor (Önizleme)';
+
+  @override
+  String get myMenuTouchToViewLogin =>
+      'Oturum Açma Kullanıcı Arayüzünü görüntülemek için dokunun';
+
+  @override
+  String get myMenuNoName => 'İsim Yok';
+
+  @override
+  String get myMenuPleaseLogin => 'Lütfen Giriş Yapın';
+
+  @override
+  String get myMenuTouchToSignupLogin =>
+      'Kaydolmak ve Giriş Yapmak için Dokunun';
+
+  @override
+  String get myMenuSectionMyRecords => 'Kayıtlarım';
+
+  @override
+  String get myMenuDiaryStorage => 'Günlük Depolama';
+
+  @override
+  String get myMenuCheckSavedDiary => 'Kayıtlı günlüklerinizi kontrol edin.';
+
+  @override
+  String get myMenuFavoriteCards => 'Favori Kartlar';
+
+  @override
+  String get myMenuMyFavoriteCardsList => 'Favori kartlarımın listesi';
+
+  @override
+  String get myMenuSectionAppSettings => 'Uygulama Ayarları';
+
+  @override
+  String get myMenuPushNotifications => 'Anında Bildirimler';
+
+  @override
+  String get myMenuPushNotificationsDesc => 'Yeni burçlar ve etkinlikler';
+
+  @override
+  String get myMenuLanguageSettings => 'Dil Ayarları';
+
+  @override
+  String get myMenuThemeSettings => 'Tema Ayarları';
+
+  @override
+  String get myMenuChangeBackground => 'Arka plan resmini değiştir';
+
+  @override
+  String get myMenuSectionCustomerSupport => 'Müşteri Desteği';
+
+  @override
+  String get myMenuFaq => 'SSS';
+
+  @override
+  String get myMenuAppInfo => 'Uygulama Bilgisi';
+
+  @override
+  String get myMenuSectionAccountManagement => 'Hesap Yönetimi';
+
+  @override
+  String get myMenuLogout => 'Oturumu Kapat';
+
+  @override
+  String get myMenuLogoutDesc => 'Geçerli cihazdan çıkış yapın.';
+
+  @override
+  String get myMenuEmailVerifiedMsg => 'E-posta doğrulaması onaylandı! ✨';
+
+  @override
+  String get myMenuEmailSendTitle => 'Doğrulama E-postası Gönder';
+
+  @override
+  String get myMenuEmailSendContent =>
+      'Doğrulama e-postası gönderildi.\nLütfen gelen kutunuzu kontrol edin, bağlantıya tıklayın ve bu düğmeye tekrar basın!';
+
+  @override
+  String get myMenuConfirm => 'Onaylamak';
+
+  @override
+  String get myMenuEmailErrorMsg => 'Çok fazla istek veya bir hata oluştu.';
+
+  @override
+  String get myMenuEmailVerified => 'E-posta Doğrulandı';
+
+  @override
+  String get myMenuEmailNotVerified =>
+      'E-posta Doğrulanmadı (Doğrulamak için dokunun)';
+
+  @override
+  String get languageSystemDefault => 'Sistem Varsayılanı';
+
+  @override
+  String get shopTitle => 'Mağaza';
+
+  @override
+  String get shopSubtitle => 'Coin ve Tema Satın Alın';
+
+  @override
+  String get shopTabCoin => 'Madeni para';
+
+  @override
+  String get shopTabTheme => 'Tema';
+
+  @override
+  String get shopPayButton => 'Ödemek';
+
+  @override
+  String get themeOriginalDeck => 'Orijinal Klasik Deste';
+
+  @override
+  String get themeGoldenSunDeck => 'Altın Güneş Güvertesi';
+
+  @override
+  String get themeDarkAbyssDeck => 'Karanlık Uçurum Güvertesi';
+
+  @override
+  String get themeSpringSpiritDeck => 'Bahar Ruhu Destesi';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return '$coins jeton için ödeme yakında yapılacak.';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return '$name için satın alma/başvuru çok yakında gerçekleşecek.';
+  }
+
+  @override
+  String get readingIntroSelectWitch => 'Kaderinizi görmek için bir cadı seçin';
+
+  @override
+  String get readingIntroGreeting =>
+      'Hangi kadere bakacağız?\nGeleceğinizi merak ediyorum.';
+
+  @override
+  String get readingIntroStart => 'Forma\'yı seçin';
+
+  @override
+  String get tabMajorArcana => 'Binbaşı Arcana';
+
+  @override
+  String get tabMinorArcana => 'Küçük Gizem';
+
+  @override
+  String get nicknamePrefix0 => 'gizli';
+
+  @override
+  String get nicknamePrefix1 => 'sakin';
+
+  @override
+  String get nicknamePrefix2 => 'kutsal';
+
+  @override
+  String get nicknamePrefix3 => 'karanlık';
+
+  @override
+  String get nicknamePrefix4 => 'parlayan';
+
+  @override
+  String get nicknamePrefix5 => 'kasvetli';
+
+  @override
+  String get nicknamePrefix6 => 'sıcak';
+
+  @override
+  String get nicknamePrefix7 => 'büyüleyici';
+
+  @override
+  String get nicknamePrefix8 => 'acımasız';
+
+  @override
+  String get nicknamePrefix9 => 'saf';
+
+  @override
+  String get nicknamePrefix10 => 'sert';
+
+  @override
+  String get nicknamePrefix11 => 'yumuşak';
+
+  @override
+  String get nicknamePrefix12 => 'Güzel';
+
+  @override
+  String get nicknamePrefix13 => 'garip';
+
+  @override
+  String get nicknamePrefix14 => 'büyük';
+
+  @override
+  String get nicknamePrefix15 => 'eski püskü';
+
+  @override
+  String get nicknamePrefix16 => 'sonsuz';
+
+  @override
+  String get nicknamePrefix17 => 'unutulmuş';
+
+  @override
+  String get nicknamePrefix18 => 'muhteşem';
+
+  @override
+  String get nicknamePrefix19 => 'üzgün';
+
+  @override
+  String get nicknamePrefix20 => 'memnun';
+
+  @override
+  String get nicknamePrefix21 => 'rüya gibi';
+
+  @override
+  String get nicknamePrefix22 => 'düşmüş';
+
+  @override
+  String get nicknamePrefix23 => 'saf beyaz';
+
+  @override
+  String get nicknamePrefix24 => 'simsiyah';
+
+  @override
+  String get nicknamePrefix25 => 'kanlı';
+
+  @override
+  String get nicknamePrefix26 => 'grimsi';
+
+  @override
+  String get nicknamePrefix27 => 'altın';
+
+  @override
+  String get nicknamePrefix28 => 'Arjantin';
+
+  @override
+  String get nicknamePrefix29 => 'mavi';
+
+  @override
+  String get nicknamePrefix30 => 'kırmızı';
+
+  @override
+  String get nicknamePrefix31 => 'sarı';
+
+  @override
+  String get nicknamePrefix32 => 'siyah';
+
+  @override
+  String get nicknamePrefix33 => 'beyaz';
+
+  @override
+  String get nicknamePrefix34 => 'şeffaf';
+
+  @override
+  String get nicknamePrefix35 => 'yalnız';
+
+  @override
+  String get nicknamePrefix36 => 'gürültülü';
+
+  @override
+  String get nicknamePrefix37 => 'sessizlik';
+
+  @override
+  String get nicknamePrefix38 => 'ılık';
+
+  @override
+  String get nicknamePrefix39 => 'buz gibi';
+
+  @override
+  String get nicknamePrefix40 => 'yalnız';
+
+  @override
+  String get nicknamePrefix41 => 'yalnız';
+
+  @override
+  String get nicknamePrefix42 => 'mutlu';
+
+  @override
+  String get nicknamePrefix43 => 'mutlu';
+
+  @override
+  String get nicknamePrefix44 => 'kasvetli';
+
+  @override
+  String get nicknamePrefix45 => 'çaresiz';
+
+  @override
+  String get nicknamePrefix46 => 'umutlu';
+
+  @override
+  String get nicknamePrefix47 => 'göz kamaştırıcı';
+
+  @override
+  String get nicknamePrefix48 => 'esmer';
+
+  @override
+  String get nicknamePrefix49 => 'gece yarısı';
+
+  @override
+  String get nicknamePrefix50 => 'ıssız';
+
+  @override
+  String get nicknamePrefix51 => 'gizli';
+
+  @override
+  String get nicknamePrefix52 => 'gizli';
+
+  @override
+  String get nicknamePrefix53 => 'kutsal';
+
+  @override
+  String get nicknamePrefix54 => 'saygısız';
+
+  @override
+  String get nicknamePrefix55 => 'üst';
+
+  @override
+  String get nicknamePrefix56 => 'mütevazı';
+
+  @override
+  String get nicknamePrefix57 => 'bilge';
+
+  @override
+  String get nicknamePrefix58 => 'aptalca';
+
+  @override
+  String get nicknamePrefix59 => 'zorlu';
+
+  @override
+  String get nicknamePrefix60 => 'zayıf';
+
+  @override
+  String get nicknamePrefix61 => 'cesur';
+
+  @override
+  String get nicknamePrefix62 => 'alçakça';
+
+  @override
+  String get nicknamePrefix63 => 'Mesafe';
+
+  @override
+  String get nicknamePrefix64 => 'yakın';
+
+  @override
+  String get nicknamePrefix65 => 'uzaklaşmak';
+
+  @override
+  String get nicknamePrefix66 => 'yaklaşan';
+
+  @override
+  String get nicknamePrefix67 => 'kayboluyor';
+
+  @override
+  String get nicknamePrefix68 => 'acil';
+
+  @override
+  String get nicknamePrefix69 => 'uyandı';
+
+  @override
+  String get nicknamePrefix70 => 'uyuya kalmak';
+
+  @override
+  String get nicknamePrefix71 => 'rüya görmek';
+
+  @override
+  String get nicknamePrefix72 => 'Gezinmek';
+
+  @override
+  String get nicknamePrefix73 => 'Gezinmek';
+
+  @override
+  String get nicknamePrefix74 => 'Kalmak';
+
+  @override
+  String get nicknamePrefix75 => 'ayrılmak';
+
+  @override
+  String get nicknamePrefix76 => 'geri geliyor';
+
+  @override
+  String get nicknamePrefix77 => 'beklemek';
+
+  @override
+  String get nicknamePrefix78 => 'arıyor';
+
+  @override
+  String get nicknamePrefix79 => 'gizemli';
+
+  @override
+  String get nicknamePrefix80 => 'maruz';
+
+  @override
+  String get nicknamePrefix81 => 'terk edilmiş';
+
+  @override
+  String get nicknamePrefix82 => 'seçilmiş';
+
+  @override
+  String get nicknamePrefix83 => 'kutsanmış';
+
+  @override
+  String get nicknamePrefix84 => 'lanetli';
+
+  @override
+  String get nicknamePrefix85 => 'sevilen';
+
+  @override
+  String get nicknamePrefix86 => 'nefret edilen';
+
+  @override
+  String get nicknamePrefix87 => 'Unutma';
+
+  @override
+  String get nicknamePrefix88 => 'habersiz';
+
+  @override
+  String get nicknamePrefix89 => 'yıldız ışığı';
+
+  @override
+  String get nicknamePrefix90 => 'ay ışığı';
+
+  @override
+  String get nicknamePrefix91 => 'güneş ışığının';
+
+  @override
+  String get nicknamePrefix92 => 'kozmik';
+
+  @override
+  String get nicknamePrefix93 => 'dünyanın';
+
+  @override
+  String get nicknamePrefix94 => 'denizin';
+
+  @override
+  String get nicknamePrefix95 => 'göksel';
+
+  @override
+  String get nicknamePrefix96 => 'bulutların';
+
+  @override
+  String get nicknamePrefix97 => 'rüzgarın';
+
+  @override
+  String get nicknamePrefix98 => 'yağmur';
+
+  @override
+  String get nicknamePrefix99 => 'gözün';
+
+  @override
+  String get nicknamePrefix100 => 'buzlu';
+
+  @override
+  String get nicknamePrefix101 => 'ateşli';
+
+  @override
+  String get nicknamePrefix102 => 'su';
+
+  @override
+  String get nicknamePrefix103 => 'toprak';
+
+  @override
+  String get nicknamePrefix104 => 'ahşap';
+
+  @override
+  String get nicknamePrefix105 => 'orman';
+
+  @override
+  String get nicknamePrefix106 => 'dağlık';
+
+  @override
+  String get nicknamePrefix107 => 'ders';
+
+  @override
+  String get nicknamePrefix108 => 'gölün';
+
+  @override
+  String get nicknamePrefix109 => 'zamanın';
+
+  @override
+  String get nicknamePrefix110 => 'uzayın';
+
+  @override
+  String get nicknamePrefix111 => 'boyut';
+
+  @override
+  String get nicknamePrefix112 => 'kader';
+
+  @override
+  String get nicknamePrefix113 => 'kader';
+
+  @override
+  String get nicknamePrefix114 => 'mucizevi';
+
+  @override
+  String get nicknamePrefix115 => 'büyülü';
+
+  @override
+  String get nicknamePrefix116 => 'efsanevi';
+
+  @override
+  String get nicknamePrefix117 => 'efsanevi';
+
+  @override
+  String get nicknamePrefix118 => 'gerçeğin';
+
+  @override
+  String get nicknamePrefix119 => 'YANLIŞ';
+
+  @override
+  String get nicknamePrefix120 => 'fantezi';
+
+  @override
+  String get nicknamePrefix121 => 'rüya';
+
+  @override
+  String get nicknamePrefix122 => 'kabus';
+
+  @override
+  String get nicknamePrefix123 => 'mahvetmek';
+
+  @override
+  String get nicknamePrefix124 => 'yaratılışın';
+
+  @override
+  String get nicknamePrefix125 => 'hayatın';
+
+  @override
+  String get nicknamePrefix126 => 'ölümün';
+
+  @override
+  String get nicknamePrefix127 => 'ruh';
+
+  @override
+  String get nicknamePrefix128 => 'fiziksel';
+
+  @override
+  String get nicknamePrefix129 => 'aklın';
+
+  @override
+  String get nicknamePrefix130 => 'duygusal';
+
+  @override
+  String get nicknamePrefix131 => 'aşk';
+
+  @override
+  String get nicknamePrefix132 => 'nefret';
+
+  @override
+  String get nicknamePrefix133 => 'üzüntünün';
+
+  @override
+  String get nicknamePrefix134 => 'sevinç';
+
+  @override
+  String get nicknamePrefix135 => 'sinirli';
+
+  @override
+  String get nicknamePrefix136 => 'barış';
+
+  @override
+  String get nicknamePrefix137 => 'savaşın';
+
+  @override
+  String get nicknamePrefix138 => 'kaos';
+
+  @override
+  String get nicknamePrefix139 => 'düzenli';
+
+  @override
+  String get nicknamePrefix140 => 'ışık';
+
+  @override
+  String get nicknamePrefix141 => 'karanlık';
+
+  @override
+  String get nicknamePrefix142 => 'alacakaranlık';
+
+  @override
+  String get nicknamePrefix143 => 'şafak';
+
+  @override
+  String get nicknamePrefix144 => 'öğlen';
+
+  @override
+  String get nicknamePrefix145 => 'gece yarısı';
+
+  @override
+  String get nicknamePrefix146 => 'geçmiş';
+
+  @override
+  String get nicknamePrefix147 => 'Sunmak';
+
+  @override
+  String get nicknamePrefix148 => 'gelecek';
+
+  @override
+  String get nicknamePrefix149 => 'kökenli';
+
+  @override
+  String get nicknamePrefix150 => 'kıyametle ilgili';
+
+  @override
+  String get nicknamePrefix151 => 'sonsuz';
+
+  @override
+  String get nicknamePrefix152 => 'sonlu';
+
+  @override
+  String get nicknamePrefix153 => 'sessiz';
+
+  @override
+  String get nicknamePrefix154 => 'gürültü';
+
+  @override
+  String get nicknamePrefix155 => 'şarkı söylemek';
+
+  @override
+  String get nicknamePrefix156 => 'dans';
+
+  @override
+  String get nicknamePrefix157 => 'ağlamak';
+
+  @override
+  String get nicknamePrefix158 => 'gülümseyen';
+
+  @override
+  String get nicknamePrefix159 => 'Fısıldayan';
+
+  @override
+  String get nicknamePrefix160 => 'ağlamak';
+
+  @override
+  String get nicknamePrefix161 => 'dua etmek';
+
+  @override
+  String get nicknamePrefix162 => 'yalvaran';
+
+  @override
+  String get nicknamePrefix163 => 'komuta';
+
+  @override
+  String get nicknamePrefix164 => 'itaatkâr';
+
+  @override
+  String get nicknamePrefix165 => 'karar';
+
+  @override
+  String get nicknamePrefix166 => 'hizmet';
+
+  @override
+  String get nicknamePrefix167 => 'yol gösterici';
+
+  @override
+  String get nicknamePrefix168 => 'Eşlik eden';
+
+  @override
+  String get nicknamePrefix169 => 'öğretim';
+
+  @override
+  String get nicknamePrefix170 => 'öğrenme';
+
+  @override
+  String get nicknamePrefix171 => 'hafızanın';
+
+  @override
+  String get nicknamePrefix172 => 'anıların';
+
+  @override
+  String get nicknamePrefix173 => 'yaraların';
+
+  @override
+  String get nicknamePrefix174 => 'iyileştirme';
+
+  @override
+  String get nicknamePrefix175 => 'zehirli';
+
+  @override
+  String get nicknamePrefix176 => 'ilaç';
+
+  @override
+  String get nicknamePrefix177 => 'Hoş geldin';
+
+  @override
+  String get nicknamePrefix178 => 'maddenin';
+
+  @override
+  String get nicknamePrefix179 => 'ideal';
+
+  @override
+  String get nicknamePrefix180 => 'gerçek';
+
+  @override
+  String get nicknamePrefix181 => 'hayali';
+
+  @override
+  String get nicknamePrefix182 => 'doğal';
+
+  @override
+  String get nicknamePrefix183 => 'yapay';
+
+  @override
+  String get nicknamePrefix184 => 'başlangıçta';
+
+  @override
+  String get nicknamePrefix185 => 'sonsuzluk';
+
+  @override
+  String get nicknamePrefix186 => 'şu anın';
+
+  @override
+  String get nicknamePrefix187 => 'geçici';
+
+  @override
+  String get nicknamePrefix188 => 'sonsuz';
+
+  @override
+  String get nicknamePrefix189 => 'değişimin';
+
+  @override
+  String get nicknamePrefix190 => 'Hala';
+
+  @override
+  String get nicknamePrefix191 => 'akan';
+
+  @override
+  String get nicknamePrefix192 => 'bitkin';
+
+  @override
+  String get nicknamePrefix193 => 'alevli';
+
+  @override
+  String get nicknamePrefix194 => 'soğuyor';
+
+  @override
+  String get nicknamePrefix195 => 'çiçeklenme';
+
+  @override
+  String get nicknamePrefix196 => 'solduran';
+
+  @override
+  String get nicknamePrefix197 => 'büyümek';
+
+  @override
+  String get nicknamePrefix198 => 'ölme';
+
+  @override
+  String get nicknamePrefix199 => 'nefes almak';
+
+  @override
+  String get nicknamePrefix200 => 'boğucu';
+
+  @override
+  String get nicknameSuffix0 => 'peygamber';
+
+  @override
+  String get nicknameSuffix1 => 'sihirbaz';
+
+  @override
+  String get nicknameSuffix2 => 'cadı';
+
+  @override
+  String get nicknameSuffix3 => 'madde';
+
+  @override
+  String get nicknameSuffix4 => 'savaşçı';
+
+  @override
+  String get nicknameSuffix5 => 'Okçu';
+
+  @override
+  String get nicknameSuffix6 => 'hırsız';
+
+  @override
+  String get nicknameSuffix7 => 'suikastçı';
+
+  @override
+  String get nicknameSuffix8 => 'şövalye';
+
+  @override
+  String get nicknameSuffix9 => 'rahip';
+
+  @override
+  String get nicknameSuffix10 => 'rahibe';
+
+  @override
+  String get nicknameSuffix11 => 'keşiş';
+
+  @override
+  String get nicknameSuffix12 => 'güç gösterisi';
+
+  @override
+  String get nicknameSuffix13 => 'simyacı';
+
+  @override
+  String get nicknameSuffix14 => 'büyücü';
+
+  @override
+  String get nicknameSuffix15 => 'ruhçu';
+
+  @override
+  String get nicknameSuffix16 => 'çağıran';
+
+  @override
+  String get nicknameSuffix17 => 'illüzyonist';
+
+  @override
+  String get nicknameSuffix18 => 'şifacı';
+
+  @override
+  String get nicknameSuffix19 => 'bilge adam';
+
+  @override
+  String get nicknameSuffix20 => 'bilim adamı';
+
+  @override
+  String get nicknameSuffix21 => 'araştırmacı';
+
+  @override
+  String get nicknameSuffix22 => 'kaşif';
+
+  @override
+  String get nicknameSuffix23 => 'gezgin';
+
+  @override
+  String get nicknameSuffix24 => 'serseri';
+
+  @override
+  String get nicknameSuffix25 => 'serseri';
+
+  @override
+  String get nicknameSuffix26 => 'hacı';
+
+  @override
+  String get nicknameSuffix27 => 'arayıcı';
+
+  @override
+  String get nicknameSuffix28 => 'gözlemci';
+
+  @override
+  String get nicknameSuffix29 => 'kaydedici';
+
+  @override
+  String get nicknameSuffix30 => 'iletişimci';
+
+  @override
+  String get nicknameSuffix31 => 'vasi';
+
+  @override
+  String get nicknameSuffix32 => 'gardiyan';
+
+  @override
+  String get nicknameSuffix33 => 'koruma';
+
+  @override
+  String get nicknameSuffix34 => 'bekçi';
+
+  @override
+  String get nicknameSuffix35 => 'yargıç';
+
+  @override
+  String get nicknameSuffix36 => 'icra memuru';
+
+  @override
+  String get nicknameSuffix37 => 'Vali';
+
+  @override
+  String get nicknameSuffix38 => 'cetvel';
+
+  @override
+  String get nicknameSuffix39 => 'kral';
+
+  @override
+  String get nicknameSuffix40 => 'kraliçe';
+
+  @override
+  String get nicknameSuffix41 => 'imparator';
+
+  @override
+  String get nicknameSuffix42 => 'imparatoriçe';
+
+  @override
+  String get nicknameSuffix43 => 'asalet';
+
+  @override
+  String get nicknameSuffix44 => 'daimi ikamet';
+
+  @override
+  String get nicknameSuffix45 => 'şövalye komutanı';
+
+  @override
+  String get nicknameSuffix46 => 'paralı';
+
+  @override
+  String get nicknameSuffix47 => 'korsan';
+
+  @override
+  String get nicknameSuffix48 => 'hırsız';
+
+  @override
+  String get nicknameSuffix49 => 'sahtekar';
+
+  @override
+  String get nicknameSuffix50 => 'soytarı';
+
+  @override
+  String get nicknameSuffix51 => 'aptal';
+
+  @override
+  String get nicknameSuffix52 => 'keşiş';
+
+  @override
+  String get nicknameSuffix53 => 'sapkın';
+
+  @override
+  String get nicknameSuffix54 => 'hain';
+
+  @override
+  String get nicknameSuffix55 => 'hain';
+
+  @override
+  String get nicknameSuffix56 => 'kahraman';
+
+  @override
+  String get nicknameSuffix57 => 'koruyucu';
+
+  @override
+  String get nicknameSuffix58 => 'kurtarıcı';
+
+  @override
+  String get nicknameSuffix59 => 'destroyer';
+
+  @override
+  String get nicknameSuffix60 => 'yaratıcı';
+
+  @override
+  String get nicknameSuffix61 => 'Tanrı';
+
+  @override
+  String get nicknameSuffix62 => 'tanrıça';
+
+  @override
+  String get nicknameSuffix63 => 'melek';
+
+  @override
+  String get nicknameSuffix64 => 'şeytan';
+
+  @override
+  String get nicknameSuffix65 => 'hükümet yönetmeliği';
+
+  @override
+  String get nicknameSuffix66 => 'peri';
+
+  @override
+  String get nicknameSuffix67 => 'canavar';
+
+  @override
+  String get nicknameSuffix68 => 'şeytan canavarı';
+
+  @override
+  String get nicknameSuffix69 => 'ejderha';
+
+  @override
+  String get nicknameSuffix70 => 'hayalet';
+
+  @override
+  String get nicknameSuffix71 => 'gölge';
+
+  @override
+  String get nicknameSuffix72 => 'ölümsüz';
+
+  @override
+  String get nicknameSuffix73 => 'vampir';
+
+  @override
+  String get nicknameSuffix74 => 'kurt adam';
+
+  @override
+  String get nicknameSuffix75 => 'deniz kızı';
+
+  @override
+  String get nicknameSuffix76 => 'siren';
+
+  @override
+  String get nicknameSuffix77 => 'perisi';
+
+  @override
+  String get nicknameSuffix78 => 'goblin';
+
+  @override
+  String get nicknameSuffix79 => 'meşe';
+
+  @override
+  String get nicknameSuffix80 => 'trol';
+
+  @override
+  String get nicknameSuffix81 => 'elf';
+
+  @override
+  String get nicknameSuffix82 => 'cüce';
+
+  @override
+  String get nicknameSuffix83 => 'devasa';
+
+  @override
+  String get nicknameSuffix84 => 'posta damgası';
+
+  @override
+  String get nicknameSuffix85 => 'insanoğlu';
+
+  @override
+  String get nicknameSuffix86 => 'mahkum';
+
+  @override
+  String get nicknameSuffix87 => 'imza';
+
+  @override
+  String get nicknameSuffix88 => 'Balıkadam';
+
+  @override
+  String get nicknameSuffix89 => 'çalışan';
+
+  @override
+  String get nicknameSuffix90 => 'kötü ruh';
+
+  @override
+  String get nicknameSuffix91 => 'Sure';
+
+  @override
+  String get nicknameSuffix92 => 'cehennem';
+
+  @override
+  String get nicknameSuffix93 => 'cennet';
+
+  @override
+  String get nicknameSuffix94 => 'yeraltı dünyası';
+
+  @override
+  String get nicknameSuffix95 => 'Diğer dünya';
+
+  @override
+  String get nicknameSuffix96 => 'uçurum';
+
+  @override
+  String get nicknameSuffix97 => 'kaos';
+
+  @override
+  String get nicknameSuffix98 => 'emir';
+
+  @override
+  String get nicknameSuffix99 => 'ışık';
+
+  @override
+  String get nicknameSuffix100 => 'karanlık';
+
+  @override
+  String get nicknamePrefix201 => 'muhteşem';
+
+  @override
+  String get nicknamePrefix202 => 'hemen göze çarpmayan';
+
+  @override
+  String get nicknamePrefix203 => 'puslu';
+
+  @override
+  String get nicknamePrefix204 => 'bayılmak';
+
+  @override
+  String get nicknamePrefix205 => 'şeffaf';
+
+  @override
+  String get nicknamePrefix206 => 'bayılmak';
+
+  @override
+  String get nicknamePrefix207 => 'göz kamaştırıcı';
+
+  @override
+  String get nicknamePrefix208 => 'garip';
+
+  @override
+  String get nicknamePrefix209 => 'özel eşya';
+
+  @override
+  String get nicknamePrefix210 => 'özel';
+
+  @override
+  String get nicknamePrefix211 => 'soylu';
+
+  @override
+  String get nicknamePrefix212 => 'saf';
+
+  @override
+  String get nicknamePrefix213 => 'düşmüş';
+
+  @override
+  String get nicknamePrefix214 => 'yalnız';
+
+  @override
+  String get nicknamePrefix215 => 'lonesome';
+
+  @override
+  String get nicknamePrefix216 => 'ıssız';
+
+  @override
+  String get nicknamePrefix217 => 'Mesafe';
+
+  @override
+  String get nicknamePrefix218 => 'sert';
+
+  @override
+  String get nicknamePrefix219 => 'acımasız';
+
+  @override
+  String get nicknamePrefix220 => 'acımasız';
+
+  @override
+  String get nicknamePrefix221 => 'büyük';
+
+  @override
+  String get nicknamePrefix222 => 'zorlu';
+
+  @override
+  String get nicknamePrefix223 => 'firma';
+
+  @override
+  String get nicknamePrefix224 => 'kıvrımlı';
+
+  @override
+  String get nicknamePrefix225 => 'hızlı';
+
+  @override
+  String get nicknamePrefix226 => 'yavaş';
+
+  @override
+  String get nicknamePrefix227 => 'sessizce';
+
+  @override
+  String get nicknamePrefix228 => 'kaos içinde';
+
+  @override
+  String get nicknamePrefix229 => 'hafızada';
+
+  @override
+  String get nicknamePrefix230 => 'hayali';
+
+  @override
+  String get nicknamePrefix231 => 'sessiz';
+
+  @override
+  String get nicknamePrefix232 => 'Fısıldayan';
+
+  @override
+  String get nicknamePrefix233 => 'şarkı söylemek';
+
+  @override
+  String get nicknamePrefix234 => 'dans';
+
+  @override
+  String get nicknamePrefix235 => 'hıçkırarak ağlayan';
+
+  @override
+  String get nicknamePrefix236 => 'gülümseyen';
+
+  @override
+  String get nicknamePrefix237 => 'alaycı';
+
+  @override
+  String get nicknamePrefix238 => 'düşünmek';
+
+  @override
+  String get nicknamePrefix239 => 'Gezinmek';
+
+  @override
+  String get nicknamePrefix240 => 'Gezinmek';
+
+  @override
+  String get nicknamePrefix241 => 'uyanmak';
+
+  @override
+  String get nicknamePrefix242 => 'uyuya kalmak';
+
+  @override
+  String get nicknamePrefix243 => 'rüya görmek';
+
+  @override
+  String get nicknamePrefix244 => 'hayal kurmak';
+
+  @override
+  String get nicknamePrefix245 => 'sanrısal';
+
+  @override
+  String get nicknamePrefix246 => 'dua etmek';
+
+  @override
+  String get nicknamePrefix247 => 'ciddi';
+
+  @override
+  String get nicknamePrefix248 => 'kederli';
+
+  @override
+  String get nicknamePrefix249 => 'acınası';
+
+  @override
+  String get nicknamePrefix250 => 'yüce';
+
+  @override
+  String get nicknamePrefix251 => 'kötü';
+
+  @override
+  String get nicknamePrefix252 => 'Anlam';
+
+  @override
+  String get nicknamePrefix253 => 'kibirli';
+
+  @override
+  String get nicknamePrefix254 => 'mütevazı';
+
+  @override
+  String get nicknamePrefix255 => 'düşkün';
+
+  @override
+  String get nicknamePrefix256 => 'ılık';
+
+  @override
+  String get nicknamePrefix257 => 'Serin';
+
+  @override
+  String get nicknamePrefix258 => 'serin';
+
+  @override
+  String get nicknamePrefix259 => 'tuhaf';
+
+  @override
+  String get nicknamePrefix260 => 'esrarengiz';
+
+  @override
+  String get nicknamePrefix261 => 'kendinden geçmiş';
+
+  @override
+  String get nicknamePrefix262 => 'büyüleyici';
+
+  @override
+  String get nicknamePrefix263 => 'baş döndürücü';
+
+  @override
+  String get nicknamePrefix264 => 'tatlımsı';
+
+  @override
+  String get nicknamePrefix265 => 'acı';
+
+  @override
+  String get nicknamePrefix266 => 'acımsı';
+
+  @override
+  String get nicknamePrefix267 => 'dikenli';
+
+  @override
+  String get nicknamePrefix268 => 'keskin';
+
+  @override
+  String get nicknamePrefix269 => 'sıkıcı';
+
+  @override
+  String get nicknamePrefix270 => 'sert';
+
+  @override
+  String get nicknamePrefix271 => 'yumuşak';
+
+  @override
+  String get nicknamePrefix272 => 'samimi';
+
+  @override
+  String get nicknamePrefix273 => 'rahat';
+
+  @override
+  String get nicknamePrefix274 => 'güvencesiz';
+
+  @override
+  String get nicknamePrefix275 => 'huzursuz';
+
+  @override
+  String get nicknamePrefix276 => 'sakinlik';
+
+  @override
+  String get nicknamePrefix277 => 'sakinlik';
+
+  @override
+  String get nicknamePrefix278 => 'uykulu';
+
+  @override
+  String get nicknamePrefix279 => 'sıkılmış';
+
+  @override
+  String get nicknamePrefix280 => 'tutkulu';
+
+  @override
+  String get nicknamePrefix281 => 'soğukkanlı';
+
+  @override
+  String get nicknamePrefix282 => 'sakin';
+
+  @override
+  String get nicknamePrefix283 => 'şiddetli';
+
+  @override
+  String get nicknamePrefix284 => 'şiddetli';
+
+  @override
+  String get nicknamePrefix285 => 'deli';
+
+  @override
+  String get nicknamePrefix286 => 'çıldırdı';
+
+  @override
+  String get nicknamePrefix287 => 'akılcı';
+
+  @override
+  String get nicknamePrefix288 => 'duygusal';
+
+  @override
+  String get nicknamePrefix289 => 'soğukkanlı';
+
+  @override
+  String get nicknamePrefix290 => 'mantıklı';
+
+  @override
+  String get nicknamePrefix291 => 'aptalca';
+
+  @override
+  String get nicknamePrefix292 => 'masum';
+
+  @override
+  String get nicknamePrefix293 => 'kurnaz';
+
+  @override
+  String get nicknamePrefix294 => 'serpantin';
+
+  @override
+  String get nicknamePrefix295 => 'saf beyaz';
+
+  @override
+  String get nicknamePrefix296 => 'simsiyah';
+
+  @override
+  String get nicknamePrefix297 => 'altın';
+
+  @override
+  String get nicknamePrefix298 => 'Arjantin';
+
+  @override
+  String get nicknamePrefix299 => 'kanlı';
+
+  @override
+  String get nicknameSuffix101 => 'arayıcı';
+
+  @override
+  String get nicknameSuffix102 => 'hacı';
+
+  @override
+  String get nicknameSuffix103 => 'serseri';
+
+  @override
+  String get nicknameSuffix104 => 'keşiş';
+
+  @override
+  String get nicknameSuffix105 => 'Ethan';
+
+  @override
+  String get nicknameSuffix106 => 'hain';
+
+  @override
+  String get nicknameSuffix107 => 'öncü';
+
+  @override
+  String get nicknameSuffix108 => 'fatih';
+
+  @override
+  String get nicknameSuffix109 => 'cetvel';
+
+  @override
+  String get nicknameSuffix110 => 'orkestratör';
+
+  @override
+  String get nicknameSuffix111 => 'vasi';
+
+  @override
+  String get nicknameSuffix112 => 'gözlemci';
+
+  @override
+  String get nicknameSuffix113 => 'gözlemci';
+
+  @override
+  String get nicknameSuffix114 => 'kaydedici';
+
+  @override
+  String get nicknameSuffix115 => 'iletişimci';
+
+  @override
+  String get nicknameSuffix116 => 'rehber';
+
+  @override
+  String get nicknameSuffix117 => 'lider';
+
+  @override
+  String get nicknameSuffix118 => 'koruyucu';
+
+  @override
+  String get nicknameSuffix119 => 'destroyer';
+
+  @override
+  String get nicknameSuffix120 => 'yaratıcı';
+
+  @override
+  String get nicknameSuffix121 => 'gölge';
+
+  @override
+  String get nicknameSuffix122 => 'hayalet';
+
+  @override
+  String get nicknameSuffix123 => 'hayalet';
+
+  @override
+  String get nicknameSuffix124 => 'kötü ruh';
+
+  @override
+  String get nicknameSuffix125 => 'hükümet yönetmeliği';
+
+  @override
+  String get nicknameSuffix126 => 'peri';
+
+  @override
+  String get nicknameSuffix127 => 'şeytan canavarı';
+
+  @override
+  String get nicknameSuffix128 => 'kutsal su';
+
+  @override
+  String get nicknameSuffix129 => 'geri ödemek';
+
+  @override
+  String get nicknameSuffix130 => 'Şinsu';
+
+  @override
+  String get nicknameSuffix131 => 'test';
+
+  @override
+  String get nicknameSuffix132 => 'madde';
+
+  @override
+  String get nicknameSuffix133 => 'Okçu';
+
+  @override
+  String get nicknameSuffix134 => 'hırsız';
+
+  @override
+  String get nicknameSuffix135 => 'suikastçı';
+
+  @override
+  String get nicknameSuffix136 => 'sihirbaz';
+
+  @override
+  String get nicknameSuffix137 => 'güç gösterisi';
+
+  @override
+  String get nicknameSuffix138 => 'simyacı';
+
+  @override
+  String get nicknameSuffix139 => 'büyücü';
+
+  @override
+  String get nicknameSuffix140 => 'rahip';
+
+  @override
+  String get nicknameSuffix141 => 'bilim adamı';
+
+  @override
+  String get nicknameSuffix142 => 'araştırmacı';
+
+  @override
+  String get nicknameSuffix143 => 'kaşif';
+
+  @override
+  String get nicknameSuffix144 => 'gezgin';
+
+  @override
+  String get nicknameSuffix145 => 'sanatçı';
+
+  @override
+  String get nicknameSuffix146 => 'soytarı';
+
+  @override
+  String get nicknameSuffix147 => 'ozan';
+
+  @override
+  String get nicknameSuffix148 => 'tüccar';
+
+  @override
+  String get nicknameSuffix149 => 'zanaatkar';
+
+  @override
+  String get nicknameSuffix150 => 'köylü';
+
+  @override
+  String get nicknameSuffix151 => 'karga';
+
+  @override
+  String get nicknameSuffix152 => 'baykuş';
+
+  @override
+  String get nicknameSuffix153 => 'baykuş';
+
+  @override
+  String get nicknameSuffix154 => 'kartal';
+
+  @override
+  String get nicknameSuffix155 => 'şahin';
+
+  @override
+  String get nicknameSuffix156 => 'kurt';
+
+  @override
+  String get nicknameSuffix157 => 'tilki';
+
+  @override
+  String get nicknameSuffix158 => 'ayı';
+
+  @override
+  String get nicknameSuffix159 => 'aslan';
+
+  @override
+  String get nicknameSuffix160 => 'kaplan';
+
+  @override
+  String get nicknameSuffix161 => 'leopar';
+
+  @override
+  String get nicknameSuffix162 => 'kara panter';
+
+  @override
+  String get nicknameSuffix163 => 'Salsop';
+
+  @override
+  String get nicknameSuffix164 => 'kedi';
+
+  @override
+  String get nicknameSuffix165 => 'köpek yavrusu';
+
+  @override
+  String get nicknameSuffix166 => 'yılan';
+
+  @override
+  String get nicknameSuffix167 => 'kertenkele';
+
+  @override
+  String get nicknameSuffix168 => 'kaplumbağa';
+
+  @override
+  String get nicknameSuffix169 => 'timsah';
+
+  @override
+  String get nicknameSuffix170 => 'ejderha';
+
+  @override
+  String get nicknameSuffix171 => 'tek boynuzlu at';
+
+  @override
+  String get nicknameSuffix172 => 'Pegasus';
+
+  @override
+  String get nicknameSuffix173 => 'griffon';
+
+  @override
+  String get nicknameSuffix174 => 'çirkin yaratık';
+
+  @override
+  String get nicknameSuffix175 => 'goblin';
+
+  @override
+  String get nicknameSuffix176 => 'meşe';
+
+  @override
+  String get nicknameSuffix177 => 'trol';
+
+  @override
+  String get nicknameSuffix178 => 'burgu';
+
+  @override
+  String get nicknameSuffix179 => 'balçık';
+
+  @override
+  String get nicknameSuffix180 => 'iskelet';
+
+  @override
+  String get nicknameSuffix181 => 'zombi';
+
+  @override
+  String get nicknameSuffix182 => 'gulyabani';
+
+  @override
+  String get nicknameSuffix183 => 'vampir';
+
+  @override
+  String get nicknameSuffix184 => 'kurt adam';
+
+  @override
+  String get nicknameSuffix185 => 'minotor';
+
+  @override
+  String get nicknameSuffix186 => 'centaur';
+
+  @override
+  String get nicknameSuffix187 => 'fahişe';
+
+  @override
+  String get nicknameSuffix188 => 'siren';
+
+  @override
+  String get nicknameSuffix189 => 'Kraken';
+
+  @override
+  String get nicknameSuffix190 => 'Leviathan';
+
+  @override
+  String get nicknameSuffix191 => 'bıçak';
+
+  @override
+  String get nicknameSuffix192 => 'kalkan';
+
+  @override
+  String get nicknameSuffix193 => 'pencere';
+
+  @override
+  String get nicknameSuffix194 => 'yay';
+
+  @override
+  String get nicknameSuffix195 => 'baston';
+
+  @override
+  String get nicknameSuffix196 => 'yüzük';
+
+  @override
+  String get nicknameSuffix197 => 'kolye';
+
+  @override
+  String get nicknameSuffix198 => 'taç';
+
+  @override
+  String get nicknameSuffix199 => 'Kutsal Kase';
+
+  @override
+  String get themeFree => 'Ücretsiz Tema';
+
+  @override
+  String get themePaid => 'Ücretli Tema';
 }

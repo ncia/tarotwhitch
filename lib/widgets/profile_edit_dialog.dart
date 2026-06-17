@@ -7,12 +7,18 @@ class ProfileEditDialog extends StatefulWidget {
   final User user;
   final String currentNickname;
   final String currentProfileImage;
+  final bool isCustomNickname;
+  final int? nicknamePrefixIndex;
+  final int? nicknameSuffixIndex;
 
   const ProfileEditDialog({
     super.key,
     required this.user,
     required this.currentNickname,
     required this.currentProfileImage,
+    required this.isCustomNickname,
+    this.nicknamePrefixIndex,
+    this.nicknameSuffixIndex,
   });
 
   @override
@@ -28,6 +34,9 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
   bool _isLoading = false;
   bool _isSocialLoginUser = false;
   bool _isEmailEditing = false;
+  bool _isCustomNickname = false;
+  int? _prefixIndex;
+  int? _suffixIndex;
   
   final List<String> _availableAvatars = [
     'assets/images/witch_morgan.jpg',
@@ -44,6 +53,9 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
     _nicknameController = TextEditingController(text: widget.currentNickname);
     _emailController = TextEditingController(text: widget.user.email);
     _passwordController = TextEditingController();
+    _isCustomNickname = widget.isCustomNickname;
+    _prefixIndex = widget.nicknamePrefixIndex;
+    _suffixIndex = widget.nicknameSuffixIndex;
     
     // 기본 이미지가 목록에 없으면 morgan으로
     _selectedImage = _availableAvatars.contains(widget.currentProfileImage) 
@@ -98,6 +110,9 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
       await FirebaseFirestore.instance.collection('users').doc(widget.user.uid).update({
         'nickname': newNickname,
         'profileImage': _selectedImage,
+        'nicknamePrefixIndex': _isCustomNickname ? null : _prefixIndex,
+        'nicknameSuffixIndex': _isCustomNickname ? null : _suffixIndex,
+        'isCustomNickname': _isCustomNickname,
       });
 
       // 2. 이메일 변경 처리 (소셜 로그인이 아니며, 기존 이메일과 다르고, 비어있지 않을 때)
@@ -197,9 +212,14 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
               const SizedBox(height: 24),
 
               // 닉네임 입력
-              TextField(
+              TextFormField(
                 controller: _nicknameController,
                 style: const TextStyle(color: Colors.white),
+                onChanged: (val) {
+                  if (!_isCustomNickname) {
+                    setState(() => _isCustomNickname = true);
+                  }
+                },
                 decoration: const InputDecoration(
                   labelText: '닉네임',
                   labelStyle: TextStyle(color: Colors.white70),

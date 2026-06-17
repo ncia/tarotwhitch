@@ -9,143 +9,143 @@ class AppLocalizationsTl extends AppLocalizations {
   AppLocalizationsTl([String locale = 'tl']) : super(locale);
 
   @override
-  String get appTitle => 'Tarot Reading';
+  String get appTitle => 'Pagbasa ng Tarot';
 
   @override
-  String get spreadSelectionTitle => 'Select a Spread';
+  String get spreadSelectionTitle => 'Pumili ng Spread';
 
   @override
   String get spreadSelectionSubtitle =>
-      'Choose a tarot spread that fits your question';
+      'Pumili ng tarot spread na akma sa iyong tanong';
 
   @override
-  String get spreadOneCardName => 'One Card';
+  String get spreadOneCardName => 'Isang Card';
 
   @override
   String get spreadOneCardDesc =>
-      'A single card for a quick answer or daily guidance.';
+      'Isang card para sa isang mabilis na sagot o pang-araw-araw na gabay.';
 
   @override
-  String get spreadTwoCardName => 'Two Card';
+  String get spreadTwoCardName => 'Dalawang Card';
 
   @override
   String get spreadTwoCardDesc =>
-      'A 2-card spread to simply grasp the current situation and advice.';
+      'Isang 2-card na kumalat upang maunawaan lamang ang kasalukuyang sitwasyon at payo.';
 
   @override
-  String get spreadThreeCardName => 'Three Card';
+  String get spreadThreeCardName => 'Tatlong Card';
 
   @override
   String get spreadThreeCardDesc =>
-      'A 3-card spread to understand the flow of past, present, and future.';
+      'Isang 3-card spread para maunawaan ang daloy ng nakaraan, kasalukuyan, at hinaharap.';
 
   @override
-  String get spreadFourCardName => 'Four Card';
+  String get spreadFourCardName => 'Apat na Card';
 
   @override
   String get spreadFourCardDesc =>
-      'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.';
+      'Isang 4-card na kumakalat upang malinaw na masuri ang sanhi ng isang problema, makakuha ng payo, at makita ang kinalabasan.';
 
   @override
-  String get spreadFiveCardName => 'Five Card';
+  String get spreadFiveCardName => 'Limang Card';
 
   @override
   String get spreadFiveCardDesc =>
-      'A 5-card spread examining the core of the situation, its causes, and potential outcomes.';
+      'Isang 5-card spread na sumusuri sa core ng sitwasyon, mga sanhi nito, at mga potensyal na resulta.';
 
   @override
   String get spreadCelticCrossName => 'Celtic Cross';
 
   @override
   String get spreadCelticCrossDesc =>
-      '10 cards for an in-depth analysis of a complex problem.';
+      '10 card para sa isang malalim na pagsusuri ng isang kumplikadong problema.';
 
   @override
-  String get positionOneCard => 'Today\'s Card';
+  String get positionOneCard => 'Kard ngayon';
 
   @override
   String get positionTwoCard1 => '1. Situation';
 
   @override
-  String get positionTwoCard2 => '2. Advice';
+  String get positionTwoCard2 => '2. Payo';
 
   @override
-  String get positionThreeCard1 => 'Past';
+  String get positionThreeCard1 => 'nakaraan';
 
   @override
   String get positionThreeCard2 => 'Present';
 
   @override
-  String get positionThreeCard3 => 'Future';
+  String get positionThreeCard3 => 'kinabukasan';
 
   @override
-  String get positionFourCard1 => '1. Problem';
+  String get positionFourCard1 => '1. Problema';
 
   @override
-  String get positionFourCard2 => '2. Cause';
+  String get positionFourCard2 => '2. Dahilan';
 
   @override
-  String get positionFourCard3 => '3. Advice';
+  String get positionFourCard3 => '3. Payo';
 
   @override
-  String get positionFourCard4 => '4. Outcome';
+  String get positionFourCard4 => '4. Kinalabasan';
 
   @override
-  String get positionFiveCard1 => '1. Present';
+  String get positionFiveCard1 => '1. Kasalukuyan';
 
   @override
-  String get positionFiveCard2 => '2. Past Influences';
+  String get positionFiveCard2 => '2. Mga Nakaraang Impluwensya';
 
   @override
-  String get positionFiveCard3 => '3. Future Direction';
+  String get positionFiveCard3 => '3. Direksyon sa Hinaharap';
 
   @override
-  String get positionFiveCard4 => '4. Core Reason';
+  String get positionFiveCard4 => '4. Pangunahing Dahilan';
 
   @override
-  String get positionFiveCard5 => '5. Potential Outcome';
+  String get positionFiveCard5 => '5. Potensyal na Resulta';
 
   @override
-  String get positionCelticCross1 => '1. Present (Querent)';
+  String get positionCelticCross1 => '1. Kasalukuyan (Querent)';
 
   @override
-  String get positionCelticCross2 => '2. The Challenge';
+  String get positionCelticCross2 => '2. Ang Hamon';
 
   @override
-  String get positionCelticCross3 => '3. The Past';
+  String get positionCelticCross3 => '3. Ang Nakaraan';
 
   @override
-  String get positionCelticCross4 => '4. The Future';
+  String get positionCelticCross4 => '4. Ang Kinabukasan';
 
   @override
-  String get positionCelticCross5 => '5. Conscious';
+  String get positionCelticCross5 => '5. May kamalayan';
 
   @override
   String get positionCelticCross6 => '6. Subconscious';
 
   @override
-  String get positionCelticCross7 => '7. Advice';
+  String get positionCelticCross7 => '7. Payo';
 
   @override
-  String get positionCelticCross8 => '8. External Influences';
+  String get positionCelticCross8 => '8. Mga Panlabas na Impluwensiya';
 
   @override
-  String get positionCelticCross9 => '9. Hopes and Fears';
+  String get positionCelticCross9 => '9. Pag-asa at Takot';
 
   @override
-  String get positionCelticCross10 => '10. Outcome';
+  String get positionCelticCross10 => '10. Kinalabasan';
 
   @override
-  String get navReading => 'Pagbasa ng Tarot';
+  String get navReading => 'pagbabasa ng tarot';
 
   @override
-  String get navChat => 'Tarot Chat';
+  String get navChat => 'tarot chat';
 
   @override
-  String get navMeanings => 'Mga Kahulugan';
+  String get navMeanings => 'kahulugan ng card';
 
   @override
-  String get navMyMenu => 'My Menu';
+  String get navMyMenu => 'ang menu ko';
 
   @override
   String get readingIntroTitle => 'Mga Bulong\nng Tadhana';
@@ -1222,4 +1222,1718 @@ class AppLocalizationsTl extends AppLocalizations {
   @override
   String get chatProfileTapHint =>
       'I-tap ang larawan sa profile upang tingnan ang mga detalye';
+
+  @override
+  String get themeName1 => 'Tema 1';
+
+  @override
+  String get themeName2 => 'Tema 2';
+
+  @override
+  String get themeName3 => 'Tema 3';
+
+  @override
+  String get themeMagicBook => 'Magic Book';
+
+  @override
+  String get themeBlackCat => 'Itim na Pusa';
+
+  @override
+  String get themeEmptyPaidThemes =>
+      'Bumili ng mga tema sa shop\nupang punan ang puwang na ito!';
+
+  @override
+  String get shopThemePurchaseTitle => 'Bumili ng Tema';
+
+  @override
+  String shopThemePurchaseContent(String skinName, int cost) {
+    return 'Gusto mo bang bilhin ang $skinName na tema para sa $cost coin?';
+  }
+
+  @override
+  String get shopCancel => 'Kanselahin';
+
+  @override
+  String get shopPurchase => 'Bumili';
+
+  @override
+  String get shopAlreadyOwned =>
+      'Pag-aari na. Subukang ilapat ito sa mga setting ng tema!';
+
+  @override
+  String shopPurchaseSuccess(String skinName) {
+    return 'Matagumpay na nabili ang $skinName! Suriin ang mga setting ng tema.';
+  }
+
+  @override
+  String get shopNotEnoughCoins => 'Hindi sapat ang mga barya.';
+
+  @override
+  String get shopOwned => 'Pagmamay-ari';
+
+  @override
+  String shopCoinPrice(int cost) {
+    return '$cost na mga barya';
+  }
+
+  @override
+  String get navDiary => 'talaarawan ng tarot';
+
+  @override
+  String get myMenuFirebaseNotConnected => 'Hindi Nakakonekta ang Firebase';
+
+  @override
+  String get myMenuWindowsSetupNeeded => 'Kailangan ng Windows Setup (Preview)';
+
+  @override
+  String get myMenuTouchToViewLogin => 'I-tap para tingnan ang Login UI';
+
+  @override
+  String get myMenuNoName => 'Walang Pangalan';
+
+  @override
+  String get myMenuPleaseLogin => 'Mangyaring Mag-log In';
+
+  @override
+  String get myMenuTouchToSignupLogin => 'I-tap para Mag-sign Up at Mag-log In';
+
+  @override
+  String get myMenuSectionMyRecords => 'Aking Mga Tala';
+
+  @override
+  String get myMenuDiaryStorage => 'Imbakan ng talaarawan';
+
+  @override
+  String get myMenuCheckSavedDiary =>
+      'Suriin ang iyong mga naka-save na diary.';
+
+  @override
+  String get myMenuFavoriteCards => 'Mga Paboritong Card';
+
+  @override
+  String get myMenuMyFavoriteCardsList =>
+      'Listahan ng aking mga paboritong card';
+
+  @override
+  String get myMenuSectionAppSettings => 'Mga Setting ng App';
+
+  @override
+  String get myMenuPushNotifications => 'Mga Push Notification';
+
+  @override
+  String get myMenuPushNotificationsDesc => 'Mga bagong horoscope at kaganapan';
+
+  @override
+  String get myMenuLanguageSettings => 'Mga Setting ng Wika';
+
+  @override
+  String get myMenuThemeSettings => 'Mga Setting ng Tema';
+
+  @override
+  String get myMenuChangeBackground => 'Baguhin ang larawan sa background';
+
+  @override
+  String get myMenuSectionCustomerSupport => 'Suporta sa Customer';
+
+  @override
+  String get myMenuFaq => 'FAQ';
+
+  @override
+  String get myMenuAppInfo => 'Impormasyon ng App';
+
+  @override
+  String get myMenuSectionAccountManagement => 'Pamamahala ng Account';
+
+  @override
+  String get myMenuLogout => 'Log Out';
+
+  @override
+  String get myMenuLogoutDesc => 'Mag-log out mula sa kasalukuyang device.';
+
+  @override
+  String get myMenuEmailVerifiedMsg => 'Nakumpirma ang pag-verify sa email! ✨';
+
+  @override
+  String get myMenuEmailSendTitle => 'Magpadala ng Verification Email';
+
+  @override
+  String get myMenuEmailSendContent =>
+      'Naipadala na ang email ng pagpapatunay.\nMangyaring suriin ang iyong inbox, i-click ang link, at pindutin muli ang button na ito!';
+
+  @override
+  String get myMenuConfirm => 'Kumpirmahin';
+
+  @override
+  String get myMenuEmailErrorMsg =>
+      'Masyadong maraming mga kahilingan o isang error ang naganap.';
+
+  @override
+  String get myMenuEmailVerified => 'Na-verify ang Email';
+
+  @override
+  String get myMenuEmailNotVerified =>
+      'Hindi Na-verify ang Email (I-tap para i-verify)';
+
+  @override
+  String get languageSystemDefault => 'System Default';
+
+  @override
+  String get shopTitle => 'Mamili';
+
+  @override
+  String get shopSubtitle => 'Bumili ng mga Barya at Tema';
+
+  @override
+  String get shopTabCoin => 'barya';
+
+  @override
+  String get shopTabTheme => 'Tema';
+
+  @override
+  String get shopPayButton => 'Magbayad';
+
+  @override
+  String get themeOriginalDeck => 'Orihinal na Classic Deck';
+
+  @override
+  String get themeGoldenSunDeck => 'Golden Sun Deck';
+
+  @override
+  String get themeDarkAbyssDeck => 'Dark Abyss Deck';
+
+  @override
+  String get themeSpringSpiritDeck => 'Spring Spirit Deck';
+
+  @override
+  String shopCoinNotReady(int coins) {
+    return 'Malapit na ang pagbabayad para sa $coins coin.';
+  }
+
+  @override
+  String shopThemeNotReady(String name) {
+    return 'Malapit nang bumili/mag-apply para kay $name.';
+  }
+
+  @override
+  String get readingIntroSelectWitch =>
+      'Pumili ng isang mangkukulam upang makita ang iyong kapalaran';
+
+  @override
+  String get readingIntroGreeting =>
+      'Anong tadhana ang ating titignan?\nCurious ako sa future mo.';
+
+  @override
+  String get readingIntroStart => 'Piliin ang Spread';
+
+  @override
+  String get tabMajorArcana => 'Major Arcana';
+
+  @override
+  String get tabMinorArcana => 'Minor Arcana';
+
+  @override
+  String get nicknamePrefix0 => 'okultismo';
+
+  @override
+  String get nicknamePrefix1 => 'matahimik';
+
+  @override
+  String get nicknamePrefix2 => 'banal';
+
+  @override
+  String get nicknamePrefix3 => 'madilim';
+
+  @override
+  String get nicknamePrefix4 => 'nagniningning';
+
+  @override
+  String get nicknamePrefix5 => 'madilim';
+
+  @override
+  String get nicknamePrefix6 => 'mainit';
+
+  @override
+  String get nicknamePrefix7 => 'kaakit-akit';
+
+  @override
+  String get nicknamePrefix8 => 'malupit';
+
+  @override
+  String get nicknamePrefix9 => 'dalisay';
+
+  @override
+  String get nicknamePrefix10 => 'malupit';
+
+  @override
+  String get nicknamePrefix11 => 'malambot';
+
+  @override
+  String get nicknamePrefix12 => 'maganda';
+
+  @override
+  String get nicknamePrefix13 => 'kakaiba';
+
+  @override
+  String get nicknamePrefix14 => 'malaki';
+
+  @override
+  String get nicknamePrefix15 => 'malabo';
+
+  @override
+  String get nicknamePrefix16 => 'walang hanggan';
+
+  @override
+  String get nicknamePrefix17 => 'nakalimutan';
+
+  @override
+  String get nicknamePrefix18 => 'makinang';
+
+  @override
+  String get nicknamePrefix19 => 'malungkot';
+
+  @override
+  String get nicknamePrefix20 => 'natutuwa';
+
+  @override
+  String get nicknamePrefix21 => 'mapangarapin';
+
+  @override
+  String get nicknamePrefix22 => 'nahulog';
+
+  @override
+  String get nicknamePrefix23 => 'purong puti';
+
+  @override
+  String get nicknamePrefix24 => 'itim na itim';
+
+  @override
+  String get nicknamePrefix25 => 'duguan';
+
+  @override
+  String get nicknamePrefix26 => 'kulay abo';
+
+  @override
+  String get nicknamePrefix27 => 'ginto';
+
+  @override
+  String get nicknamePrefix28 => 'argent';
+
+  @override
+  String get nicknamePrefix29 => 'asul';
+
+  @override
+  String get nicknamePrefix30 => 'pula';
+
+  @override
+  String get nicknamePrefix31 => 'dilaw';
+
+  @override
+  String get nicknamePrefix32 => 'itim';
+
+  @override
+  String get nicknamePrefix33 => 'puti';
+
+  @override
+  String get nicknamePrefix34 => 'transparent';
+
+  @override
+  String get nicknamePrefix35 => 'nag-iisa';
+
+  @override
+  String get nicknamePrefix36 => 'maingay';
+
+  @override
+  String get nicknamePrefix37 => 'tahimik';
+
+  @override
+  String get nicknamePrefix38 => 'mainit-init';
+
+  @override
+  String get nicknamePrefix39 => 'nagyelo';
+
+  @override
+  String get nicknamePrefix40 => 'nag-iisa';
+
+  @override
+  String get nicknamePrefix41 => 'nag-iisa';
+
+  @override
+  String get nicknamePrefix42 => 'masaya';
+
+  @override
+  String get nicknamePrefix43 => 'masaya';
+
+  @override
+  String get nicknamePrefix44 => 'madilim';
+
+  @override
+  String get nicknamePrefix45 => 'desperado';
+
+  @override
+  String get nicknamePrefix46 => 'umaasa';
+
+  @override
+  String get nicknamePrefix47 => 'nakakasilaw';
+
+  @override
+  String get nicknamePrefix48 => 'madilim na';
+
+  @override
+  String get nicknamePrefix49 => 'hatinggabi';
+
+  @override
+  String get nicknamePrefix50 => 'mapanglaw';
+
+  @override
+  String get nicknamePrefix51 => 'sikreto';
+
+  @override
+  String get nicknamePrefix52 => 'sikreto';
+
+  @override
+  String get nicknamePrefix53 => 'sagrado';
+
+  @override
+  String get nicknamePrefix54 => 'bastos';
+
+  @override
+  String get nicknamePrefix55 => 'nakatataas';
+
+  @override
+  String get nicknamePrefix56 => 'mahinhin';
+
+  @override
+  String get nicknamePrefix57 => 'matalino';
+
+  @override
+  String get nicknamePrefix58 => 'tanga';
+
+  @override
+  String get nicknamePrefix59 => 'matigas';
+
+  @override
+  String get nicknamePrefix60 => 'mahina';
+
+  @override
+  String get nicknamePrefix61 => 'matapang';
+
+  @override
+  String get nicknamePrefix62 => 'tuso';
+
+  @override
+  String get nicknamePrefix63 => 'Malayo';
+
+  @override
+  String get nicknamePrefix64 => 'malapit na';
+
+  @override
+  String get nicknamePrefix65 => 'lumalayo';
+
+  @override
+  String get nicknamePrefix66 => 'paparating';
+
+  @override
+  String get nicknamePrefix67 => 'nawawala';
+
+  @override
+  String get nicknamePrefix68 => 'lumilitaw';
+
+  @override
+  String get nicknamePrefix69 => 'nagising';
+
+  @override
+  String get nicknamePrefix70 => 'natutulog';
+
+  @override
+  String get nicknamePrefix71 => 'nangangarap';
+
+  @override
+  String get nicknamePrefix72 => 'gumagala';
+
+  @override
+  String get nicknamePrefix73 => 'gumagala';
+
+  @override
+  String get nicknamePrefix74 => 'nananatili';
+
+  @override
+  String get nicknamePrefix75 => 'aalis';
+
+  @override
+  String get nicknamePrefix76 => 'bumabalik';
+
+  @override
+  String get nicknamePrefix77 => 'naghihintay';
+
+  @override
+  String get nicknamePrefix78 => 'naghahanap ng';
+
+  @override
+  String get nicknamePrefix79 => 'misteryoso';
+
+  @override
+  String get nicknamePrefix80 => 'nakalantad';
+
+  @override
+  String get nicknamePrefix81 => 'inabandona';
+
+  @override
+  String get nicknamePrefix82 => 'pinili';
+
+  @override
+  String get nicknamePrefix83 => 'pinagpala';
+
+  @override
+  String get nicknamePrefix84 => 'isinumpa';
+
+  @override
+  String get nicknamePrefix85 => 'minamahal';
+
+  @override
+  String get nicknamePrefix86 => 'kinasusuklaman';
+
+  @override
+  String get nicknamePrefix87 => 'tandaan mo';
+
+  @override
+  String get nicknamePrefix88 => 'nakakalimot';
+
+  @override
+  String get nicknamePrefix89 => 'liwanag ng bituin';
+
+  @override
+  String get nicknamePrefix90 => 'liwanag ng buwan';
+
+  @override
+  String get nicknamePrefix91 => 'ng sikat ng araw';
+
+  @override
+  String get nicknamePrefix92 => 'kosmiko';
+
+  @override
+  String get nicknamePrefix93 => 'ng lupa';
+
+  @override
+  String get nicknamePrefix94 => 'ng dagat';
+
+  @override
+  String get nicknamePrefix95 => 'makalangit';
+
+  @override
+  String get nicknamePrefix96 => 'ng mga ulap';
+
+  @override
+  String get nicknamePrefix97 => 'ng hangin';
+
+  @override
+  String get nicknamePrefix98 => 'ulan';
+
+  @override
+  String get nicknamePrefix99 => 'ng mata';
+
+  @override
+  String get nicknamePrefix100 => 'nagyeyelo';
+
+  @override
+  String get nicknamePrefix101 => 'nagniningas';
+
+  @override
+  String get nicknamePrefix102 => 'tubig';
+
+  @override
+  String get nicknamePrefix103 => 'lupa';
+
+  @override
+  String get nicknamePrefix104 => 'kahoy';
+
+  @override
+  String get nicknamePrefix105 => 'kagubatan';
+
+  @override
+  String get nicknamePrefix106 => 'bulubundukin';
+
+  @override
+  String get nicknamePrefix107 => 'panayam';
+
+  @override
+  String get nicknamePrefix108 => 'ng lawa';
+
+  @override
+  String get nicknamePrefix109 => 'ng oras';
+
+  @override
+  String get nicknamePrefix110 => 'ng espasyo';
+
+  @override
+  String get nicknamePrefix111 => 'sukat';
+
+  @override
+  String get nicknamePrefix112 => 'nakamamatay';
+
+  @override
+  String get nicknamePrefix113 => 'nakamamatay';
+
+  @override
+  String get nicknamePrefix114 => 'mapaghimala';
+
+  @override
+  String get nicknamePrefix115 => 'mahiwaga';
+
+  @override
+  String get nicknamePrefix116 => 'gawa-gawa';
+
+  @override
+  String get nicknamePrefix117 => 'maalamat';
+
+  @override
+  String get nicknamePrefix118 => 'ng katotohanan';
+
+  @override
+  String get nicknamePrefix119 => 'mali';
+
+  @override
+  String get nicknamePrefix120 => 'pantasya';
+
+  @override
+  String get nicknamePrefix121 => 'pangarap';
+
+  @override
+  String get nicknamePrefix122 => 'bangungot';
+
+  @override
+  String get nicknamePrefix123 => 'pagkasira';
+
+  @override
+  String get nicknamePrefix124 => 'ng paglikha';
+
+  @override
+  String get nicknamePrefix125 => 'ng buhay';
+
+  @override
+  String get nicknamePrefix126 => 'ng kamatayan';
+
+  @override
+  String get nicknamePrefix127 => 'kaluluwa';
+
+  @override
+  String get nicknamePrefix128 => 'pisikal';
+
+  @override
+  String get nicknamePrefix129 => 'ng katwiran';
+
+  @override
+  String get nicknamePrefix130 => 'emosyonal';
+
+  @override
+  String get nicknamePrefix131 => 'ng pag-ibig';
+
+  @override
+  String get nicknamePrefix132 => 'ng poot';
+
+  @override
+  String get nicknamePrefix133 => 'ng kalungkutan';
+
+  @override
+  String get nicknamePrefix134 => 'ng kagalakan';
+
+  @override
+  String get nicknamePrefix135 => 'galit';
+
+  @override
+  String get nicknamePrefix136 => 'ng kapayapaan';
+
+  @override
+  String get nicknamePrefix137 => 'ng digmaan';
+
+  @override
+  String get nicknamePrefix138 => 'kaguluhan';
+
+  @override
+  String get nicknamePrefix139 => 'maayos';
+
+  @override
+  String get nicknamePrefix140 => 'ng liwanag';
+
+  @override
+  String get nicknamePrefix141 => 'madilim';
+
+  @override
+  String get nicknamePrefix142 => 'takipsilim';
+
+  @override
+  String get nicknamePrefix143 => 'madaling araw';
+
+  @override
+  String get nicknamePrefix144 => 'tanghali';
+
+  @override
+  String get nicknamePrefix145 => 'hatinggabi';
+
+  @override
+  String get nicknamePrefix146 => 'nakaraan';
+
+  @override
+  String get nicknamePrefix147 => 'kasalukuyan';
+
+  @override
+  String get nicknamePrefix148 => 'kinabukasan';
+
+  @override
+  String get nicknamePrefix149 => 'ng pinanggalingan';
+
+  @override
+  String get nicknamePrefix150 => 'apocalyptic';
+
+  @override
+  String get nicknamePrefix151 => 'walang hanggan';
+
+  @override
+  String get nicknamePrefix152 => 'may hangganan';
+
+  @override
+  String get nicknamePrefix153 => 'tahimik';
+
+  @override
+  String get nicknamePrefix154 => 'ng ingay';
+
+  @override
+  String get nicknamePrefix155 => 'pagkanta';
+
+  @override
+  String get nicknamePrefix156 => 'pagsasayaw';
+
+  @override
+  String get nicknamePrefix157 => 'umiiyak';
+
+  @override
+  String get nicknamePrefix158 => 'nakangiti';
+
+  @override
+  String get nicknamePrefix159 => 'pabulong';
+
+  @override
+  String get nicknamePrefix160 => 'umiiyak';
+
+  @override
+  String get nicknamePrefix161 => 'nagdarasal';
+
+  @override
+  String get nicknamePrefix162 => 'nagsusumamo';
+
+  @override
+  String get nicknamePrefix163 => 'nag-uutos';
+
+  @override
+  String get nicknamePrefix164 => 'sunud-sunuran';
+
+  @override
+  String get nicknamePrefix165 => 'naghahari';
+
+  @override
+  String get nicknamePrefix166 => 'nagsisilbi';
+
+  @override
+  String get nicknamePrefix167 => 'paggabay';
+
+  @override
+  String get nicknamePrefix168 => 'kasama';
+
+  @override
+  String get nicknamePrefix169 => 'pagtuturo';
+
+  @override
+  String get nicknamePrefix170 => 'pag-aaral';
+
+  @override
+  String get nicknamePrefix171 => 'ng memorya';
+
+  @override
+  String get nicknamePrefix172 => 'ng mga alaala';
+
+  @override
+  String get nicknamePrefix173 => 'ng mga sugat';
+
+  @override
+  String get nicknamePrefix174 => 'pagpapagaling';
+
+  @override
+  String get nicknamePrefix175 => 'nakakalason';
+
+  @override
+  String get nicknamePrefix176 => 'gamot';
+
+  @override
+  String get nicknamePrefix177 => 'maligayang pagdating';
+
+  @override
+  String get nicknamePrefix178 => 'ng sangkap';
+
+  @override
+  String get nicknamePrefix179 => 'perpekto';
+
+  @override
+  String get nicknamePrefix180 => 'totoo';
+
+  @override
+  String get nicknamePrefix181 => 'haka-haka';
+
+  @override
+  String get nicknamePrefix182 => 'natural';
+
+  @override
+  String get nicknamePrefix183 => 'artipisyal';
+
+  @override
+  String get nicknamePrefix184 => 'sa simula';
+
+  @override
+  String get nicknamePrefix185 => 'kawalang-hanggan';
+
+  @override
+  String get nicknamePrefix186 => 'ng sandali';
+
+  @override
+  String get nicknamePrefix187 => 'panandalian';
+
+  @override
+  String get nicknamePrefix188 => 'walang hanggan';
+
+  @override
+  String get nicknamePrefix189 => 'ng pagbabago';
+
+  @override
+  String get nicknamePrefix190 => 'pa rin';
+
+  @override
+  String get nicknamePrefix191 => 'umaagos';
+
+  @override
+  String get nicknamePrefix192 => 'rundown';
+
+  @override
+  String get nicknamePrefix193 => 'nagliliyab';
+
+  @override
+  String get nicknamePrefix194 => 'nagpapalamig';
+
+  @override
+  String get nicknamePrefix195 => 'namumulaklak';
+
+  @override
+  String get nicknamePrefix196 => 'nalalanta';
+
+  @override
+  String get nicknamePrefix197 => 'paglaki';
+
+  @override
+  String get nicknamePrefix198 => 'namamatay';
+
+  @override
+  String get nicknamePrefix199 => 'paghinga';
+
+  @override
+  String get nicknamePrefix200 => 'nakakasakal';
+
+  @override
+  String get nicknameSuffix0 => 'propeta';
+
+  @override
+  String get nicknameSuffix1 => 'wizard';
+
+  @override
+  String get nicknameSuffix2 => 'mangkukulam';
+
+  @override
+  String get nicknameSuffix3 => 'artikulo';
+
+  @override
+  String get nicknameSuffix4 => 'mandirigma';
+
+  @override
+  String get nicknameSuffix5 => 'mamamana';
+
+  @override
+  String get nicknameSuffix6 => 'magnanakaw';
+
+  @override
+  String get nicknameSuffix7 => 'mamamatay-tao';
+
+  @override
+  String get nicknameSuffix8 => 'paladin';
+
+  @override
+  String get nicknameSuffix9 => 'pari';
+
+  @override
+  String get nicknameSuffix10 => 'pari';
+
+  @override
+  String get nicknameSuffix11 => 'monghe';
+
+  @override
+  String get nicknameSuffix12 => 'powwow';
+
+  @override
+  String get nicknameSuffix13 => 'alchemist';
+
+  @override
+  String get nicknameSuffix14 => 'necromancer';
+
+  @override
+  String get nicknameSuffix15 => 'espiritista';
+
+  @override
+  String get nicknameSuffix16 => 'summoner';
+
+  @override
+  String get nicknameSuffix17 => 'ilusyonista';
+
+  @override
+  String get nicknameSuffix18 => 'manggagamot';
+
+  @override
+  String get nicknameSuffix19 => 'matalinong tao';
+
+  @override
+  String get nicknameSuffix20 => 'iskolar';
+
+  @override
+  String get nicknameSuffix21 => 'mananaliksik';
+
+  @override
+  String get nicknameSuffix22 => 'explorer';
+
+  @override
+  String get nicknameSuffix23 => 'manlalakbay';
+
+  @override
+  String get nicknameSuffix24 => 'palaboy';
+
+  @override
+  String get nicknameSuffix25 => 'palaboy';
+
+  @override
+  String get nicknameSuffix26 => 'pilgrim';
+
+  @override
+  String get nicknameSuffix27 => 'naghahanap';
+
+  @override
+  String get nicknameSuffix28 => 'tagamasid';
+
+  @override
+  String get nicknameSuffix29 => 'tagapagtala';
+
+  @override
+  String get nicknameSuffix30 => 'tagapagbalita';
+
+  @override
+  String get nicknameSuffix31 => 'tutelar';
+
+  @override
+  String get nicknameSuffix32 => 'warden';
+
+  @override
+  String get nicknameSuffix33 => 'bantay';
+
+  @override
+  String get nicknameSuffix34 => 'bantay-pinto';
+
+  @override
+  String get nicknameSuffix35 => 'hukom';
+
+  @override
+  String get nicknameSuffix36 => 'bailiff';
+
+  @override
+  String get nicknameSuffix37 => 'gobernador';
+
+  @override
+  String get nicknameSuffix38 => 'tagapamahala';
+
+  @override
+  String get nicknameSuffix39 => 'hari';
+
+  @override
+  String get nicknameSuffix40 => 'reyna';
+
+  @override
+  String get nicknameSuffix41 => 'emperador';
+
+  @override
+  String get nicknameSuffix42 => 'empress';
+
+  @override
+  String get nicknameSuffix43 => 'maharlika';
+
+  @override
+  String get nicknameSuffix44 => 'permanenteng paninirahan';
+
+  @override
+  String get nicknameSuffix45 => 'kumander ng kabalyero';
+
+  @override
+  String get nicknameSuffix46 => 'mersenaryo';
+
+  @override
+  String get nicknameSuffix47 => 'pirata';
+
+  @override
+  String get nicknameSuffix48 => 'magnanakaw';
+
+  @override
+  String get nicknameSuffix49 => 'panloloko';
+
+  @override
+  String get nicknameSuffix50 => 'jester';
+
+  @override
+  String get nicknameSuffix51 => 'tanga';
+
+  @override
+  String get nicknameSuffix52 => 'ermitanyo';
+
+  @override
+  String get nicknameSuffix53 => 'erehe';
+
+  @override
+  String get nicknameSuffix54 => 'taksil';
+
+  @override
+  String get nicknameSuffix55 => 'taksil';
+
+  @override
+  String get nicknameSuffix56 => 'bayani';
+
+  @override
+  String get nicknameSuffix57 => 'saver';
+
+  @override
+  String get nicknameSuffix58 => 'tagapagpalaya';
+
+  @override
+  String get nicknameSuffix59 => 'maninira';
+
+  @override
+  String get nicknameSuffix60 => 'manlilikha';
+
+  @override
+  String get nicknameSuffix61 => 'diyos';
+
+  @override
+  String get nicknameSuffix62 => 'diyosa';
+
+  @override
+  String get nicknameSuffix63 => 'anghel';
+
+  @override
+  String get nicknameSuffix64 => 'demonyo';
+
+  @override
+  String get nicknameSuffix65 => 'ordinansa ng pamahalaan';
+
+  @override
+  String get nicknameSuffix66 => 'diwata';
+
+  @override
+  String get nicknameSuffix67 => 'halimaw';
+
+  @override
+  String get nicknameSuffix68 => 'demonyong halimaw';
+
+  @override
+  String get nicknameSuffix69 => 'dragon';
+
+  @override
+  String get nicknameSuffix70 => 'multo';
+
+  @override
+  String get nicknameSuffix71 => 'lilim';
+
+  @override
+  String get nicknameSuffix72 => 'undead';
+
+  @override
+  String get nicknameSuffix73 => 'bampira';
+
+  @override
+  String get nicknameSuffix74 => 'taong lobo';
+
+  @override
+  String get nicknameSuffix75 => 'sirena';
+
+  @override
+  String get nicknameSuffix76 => 'sirena';
+
+  @override
+  String get nicknameSuffix77 => 'diwata';
+
+  @override
+  String get nicknameSuffix78 => 'duwende';
+
+  @override
+  String get nicknameSuffix79 => 'oak';
+
+  @override
+  String get nicknameSuffix80 => 'troll';
+
+  @override
+  String get nicknameSuffix81 => 'duwende';
+
+  @override
+  String get nicknameSuffix82 => 'duwende';
+
+  @override
+  String get nicknameSuffix83 => 'higante';
+
+  @override
+  String get nicknameSuffix84 => 'tatak-koreo';
+
+  @override
+  String get nicknameSuffix85 => 'tao';
+
+  @override
+  String get nicknameSuffix86 => 'bilanggo';
+
+  @override
+  String get nicknameSuffix87 => 'pirma';
+
+  @override
+  String get nicknameSuffix88 => 'Mangingisda';
+
+  @override
+  String get nicknameSuffix89 => 'empleyado';
+
+  @override
+  String get nicknameSuffix90 => 'masamang espiritu';
+
+  @override
+  String get nicknameSuffix91 => 'Sura';
+
+  @override
+  String get nicknameSuffix92 => 'impiyerno';
+
+  @override
+  String get nicknameSuffix93 => 'langit';
+
+  @override
+  String get nicknameSuffix94 => 'underworld';
+
+  @override
+  String get nicknameSuffix95 => 'Otherworld';
+
+  @override
+  String get nicknameSuffix96 => 'bangin';
+
+  @override
+  String get nicknameSuffix97 => 'kaguluhan';
+
+  @override
+  String get nicknameSuffix98 => 'utos';
+
+  @override
+  String get nicknameSuffix99 => 'liwanag';
+
+  @override
+  String get nicknameSuffix100 => 'madilim';
+
+  @override
+  String get nicknamePrefix201 => 'makinang';
+
+  @override
+  String get nicknamePrefix202 => 'banayad';
+
+  @override
+  String get nicknamePrefix203 => 'malabo';
+
+  @override
+  String get nicknamePrefix204 => 'nanghihina';
+
+  @override
+  String get nicknamePrefix205 => 'transparent';
+
+  @override
+  String get nicknamePrefix206 => 'nanghihina';
+
+  @override
+  String get nicknamePrefix207 => 'nakakasilaw';
+
+  @override
+  String get nicknamePrefix208 => 'kakaiba';
+
+  @override
+  String get nicknamePrefix209 => 'kakaiba';
+
+  @override
+  String get nicknamePrefix210 => 'espesyal';
+
+  @override
+  String get nicknamePrefix211 => 'marangal';
+
+  @override
+  String get nicknamePrefix212 => 'dalisay';
+
+  @override
+  String get nicknamePrefix213 => 'nahulog';
+
+  @override
+  String get nicknamePrefix214 => 'nag-iisa';
+
+  @override
+  String get nicknamePrefix215 => 'nag-iisa';
+
+  @override
+  String get nicknamePrefix216 => 'mapanglaw';
+
+  @override
+  String get nicknamePrefix217 => 'Malayo';
+
+  @override
+  String get nicknamePrefix218 => 'malupit';
+
+  @override
+  String get nicknamePrefix219 => 'walang awa';
+
+  @override
+  String get nicknamePrefix220 => 'malupit';
+
+  @override
+  String get nicknamePrefix221 => 'malaki';
+
+  @override
+  String get nicknamePrefix222 => 'matigas';
+
+  @override
+  String get nicknamePrefix223 => 'matatag';
+
+  @override
+  String get nicknamePrefix224 => 'malikot';
+
+  @override
+  String get nicknamePrefix225 => 'mabilis';
+
+  @override
+  String get nicknamePrefix226 => 'mabagal';
+
+  @override
+  String get nicknamePrefix227 => 'sa katahimikan';
+
+  @override
+  String get nicknamePrefix228 => 'sa kaguluhan';
+
+  @override
+  String get nicknamePrefix229 => 'sa alaala';
+
+  @override
+  String get nicknamePrefix230 => 'haka-haka';
+
+  @override
+  String get nicknamePrefix231 => 'tahimik';
+
+  @override
+  String get nicknamePrefix232 => 'pabulong';
+
+  @override
+  String get nicknamePrefix233 => 'pagkanta';
+
+  @override
+  String get nicknamePrefix234 => 'pagsasayaw';
+
+  @override
+  String get nicknamePrefix235 => 'humihikbi';
+
+  @override
+  String get nicknamePrefix236 => 'nakangiti';
+
+  @override
+  String get nicknamePrefix237 => 'nanunuya';
+
+  @override
+  String get nicknamePrefix238 => 'nagmumuni-muni';
+
+  @override
+  String get nicknamePrefix239 => 'gumagala';
+
+  @override
+  String get nicknamePrefix240 => 'gumagala';
+
+  @override
+  String get nicknamePrefix241 => 'gising';
+
+  @override
+  String get nicknamePrefix242 => 'natutulog';
+
+  @override
+  String get nicknamePrefix243 => 'nangangarap';
+
+  @override
+  String get nicknamePrefix244 => 'nangangarap ng gising';
+
+  @override
+  String get nicknamePrefix245 => 'maling akala';
+
+  @override
+  String get nicknamePrefix246 => 'nagdarasal';
+
+  @override
+  String get nicknamePrefix247 => 'maalab';
+
+  @override
+  String get nicknamePrefix248 => 'nalulungkot';
+
+  @override
+  String get nicknamePrefix249 => 'miserable';
+
+  @override
+  String get nicknamePrefix250 => 'dakila';
+
+  @override
+  String get nicknamePrefix251 => 'masama';
+
+  @override
+  String get nicknamePrefix252 => 'ibig sabihin';
+
+  @override
+  String get nicknamePrefix253 => 'mayabang';
+
+  @override
+  String get nicknamePrefix254 => 'mahinhin';
+
+  @override
+  String get nicknamePrefix255 => 'mahilig';
+
+  @override
+  String get nicknamePrefix256 => 'mainit-init';
+
+  @override
+  String get nicknamePrefix257 => 'astig';
+
+  @override
+  String get nicknamePrefix258 => 'malamig';
+
+  @override
+  String get nicknamePrefix259 => 'kakaiba';
+
+  @override
+  String get nicknamePrefix260 => 'kataka-taka';
+
+  @override
+  String get nicknamePrefix261 => 'rapt';
+
+  @override
+  String get nicknamePrefix262 => 'kaakit-akit';
+
+  @override
+  String get nicknamePrefix263 => 'nakakahilo';
+
+  @override
+  String get nicknamePrefix264 => 'matamis';
+
+  @override
+  String get nicknamePrefix265 => 'mapait';
+
+  @override
+  String get nicknamePrefix266 => 'mapait';
+
+  @override
+  String get nicknamePrefix267 => 'may tinik';
+
+  @override
+  String get nicknamePrefix268 => 'matalas';
+
+  @override
+  String get nicknamePrefix269 => 'mapurol';
+
+  @override
+  String get nicknamePrefix270 => 'malupit';
+
+  @override
+  String get nicknamePrefix271 => 'malambot';
+
+  @override
+  String get nicknamePrefix272 => 'maaliwalas';
+
+  @override
+  String get nicknamePrefix273 => 'komportable';
+
+  @override
+  String get nicknamePrefix274 => 'walang katiyakan';
+
+  @override
+  String get nicknamePrefix275 => 'hindi mapalagay';
+
+  @override
+  String get nicknamePrefix276 => 'kalmado';
+
+  @override
+  String get nicknamePrefix277 => 'kalmado';
+
+  @override
+  String get nicknamePrefix278 => 'nakakaantok';
+
+  @override
+  String get nicknamePrefix279 => 'naiinip';
+
+  @override
+  String get nicknamePrefix280 => 'madamdamin';
+
+  @override
+  String get nicknamePrefix281 => 'walang pakialam';
+
+  @override
+  String get nicknamePrefix282 => 'tahimik';
+
+  @override
+  String get nicknamePrefix283 => 'marahas';
+
+  @override
+  String get nicknamePrefix284 => 'mabangis';
+
+  @override
+  String get nicknamePrefix285 => 'baliw';
+
+  @override
+  String get nicknamePrefix286 => 'nabaliw';
+
+  @override
+  String get nicknamePrefix287 => 'makatwiran';
+
+  @override
+  String get nicknamePrefix288 => 'emosyonal';
+
+  @override
+  String get nicknamePrefix289 => 'malamig ang ulo';
+
+  @override
+  String get nicknamePrefix290 => 'matino';
+
+  @override
+  String get nicknamePrefix291 => 'tanga';
+
+  @override
+  String get nicknamePrefix292 => 'inosente';
+
+  @override
+  String get nicknamePrefix293 => 'tuso';
+
+  @override
+  String get nicknamePrefix294 => 'ahas';
+
+  @override
+  String get nicknamePrefix295 => 'purong puti';
+
+  @override
+  String get nicknamePrefix296 => 'itim na itim';
+
+  @override
+  String get nicknamePrefix297 => 'ginto';
+
+  @override
+  String get nicknamePrefix298 => 'argent';
+
+  @override
+  String get nicknamePrefix299 => 'duguan';
+
+  @override
+  String get nicknameSuffix101 => 'naghahanap';
+
+  @override
+  String get nicknameSuffix102 => 'pilgrim';
+
+  @override
+  String get nicknameSuffix103 => 'palaboy';
+
+  @override
+  String get nicknameSuffix104 => 'ermitanyo';
+
+  @override
+  String get nicknameSuffix105 => 'Ethan';
+
+  @override
+  String get nicknameSuffix106 => 'taksil';
+
+  @override
+  String get nicknameSuffix107 => 'pioneer';
+
+  @override
+  String get nicknameSuffix108 => 'mananakop';
+
+  @override
+  String get nicknameSuffix109 => 'tagapamahala';
+
+  @override
+  String get nicknameSuffix110 => 'orkestra';
+
+  @override
+  String get nicknameSuffix111 => 'tutelar';
+
+  @override
+  String get nicknameSuffix112 => 'tagamasid';
+
+  @override
+  String get nicknameSuffix113 => 'tagamasid';
+
+  @override
+  String get nicknameSuffix114 => 'tagapagtala';
+
+  @override
+  String get nicknameSuffix115 => 'tagapagbalita';
+
+  @override
+  String get nicknameSuffix116 => 'gabay';
+
+  @override
+  String get nicknameSuffix117 => 'pinuno';
+
+  @override
+  String get nicknameSuffix118 => 'saver';
+
+  @override
+  String get nicknameSuffix119 => 'maninira';
+
+  @override
+  String get nicknameSuffix120 => 'manlilikha';
+
+  @override
+  String get nicknameSuffix121 => 'lilim';
+
+  @override
+  String get nicknameSuffix122 => 'multo';
+
+  @override
+  String get nicknameSuffix123 => 'multo';
+
+  @override
+  String get nicknameSuffix124 => 'masamang espiritu';
+
+  @override
+  String get nicknameSuffix125 => 'ordinansa ng pamahalaan';
+
+  @override
+  String get nicknameSuffix126 => 'diwata';
+
+  @override
+  String get nicknameSuffix127 => 'demonyong halimaw';
+
+  @override
+  String get nicknameSuffix128 => 'banal na tubig';
+
+  @override
+  String get nicknameSuffix129 => 'refund';
+
+  @override
+  String get nicknameSuffix130 => 'Shinsu';
+
+  @override
+  String get nicknameSuffix131 => 'pagsubok';
+
+  @override
+  String get nicknameSuffix132 => 'artikulo';
+
+  @override
+  String get nicknameSuffix133 => 'mamamana';
+
+  @override
+  String get nicknameSuffix134 => 'magnanakaw';
+
+  @override
+  String get nicknameSuffix135 => 'mamamatay-tao';
+
+  @override
+  String get nicknameSuffix136 => 'wizard';
+
+  @override
+  String get nicknameSuffix137 => 'powwow';
+
+  @override
+  String get nicknameSuffix138 => 'alchemist';
+
+  @override
+  String get nicknameSuffix139 => 'necromancer';
+
+  @override
+  String get nicknameSuffix140 => 'pari';
+
+  @override
+  String get nicknameSuffix141 => 'iskolar';
+
+  @override
+  String get nicknameSuffix142 => 'mananaliksik';
+
+  @override
+  String get nicknameSuffix143 => 'explorer';
+
+  @override
+  String get nicknameSuffix144 => 'manlalakbay';
+
+  @override
+  String get nicknameSuffix145 => 'artista';
+
+  @override
+  String get nicknameSuffix146 => 'jester';
+
+  @override
+  String get nicknameSuffix147 => 'bard';
+
+  @override
+  String get nicknameSuffix148 => 'mangangalakal';
+
+  @override
+  String get nicknameSuffix149 => 'manggagawa';
+
+  @override
+  String get nicknameSuffix150 => 'magsasaka';
+
+  @override
+  String get nicknameSuffix151 => 'uwak';
+
+  @override
+  String get nicknameSuffix152 => 'kuwago';
+
+  @override
+  String get nicknameSuffix153 => 'kuwago';
+
+  @override
+  String get nicknameSuffix154 => 'agila';
+
+  @override
+  String get nicknameSuffix155 => 'lawin';
+
+  @override
+  String get nicknameSuffix156 => 'lobo';
+
+  @override
+  String get nicknameSuffix157 => 'soro';
+
+  @override
+  String get nicknameSuffix158 => 'oso';
+
+  @override
+  String get nicknameSuffix159 => 'leon';
+
+  @override
+  String get nicknameSuffix160 => 'tigre';
+
+  @override
+  String get nicknameSuffix161 => 'leopardo';
+
+  @override
+  String get nicknameSuffix162 => 'itim na panter';
+
+  @override
+  String get nicknameSuffix163 => 'Salsssop';
+
+  @override
+  String get nicknameSuffix164 => 'pusa';
+
+  @override
+  String get nicknameSuffix165 => 'tuta';
+
+  @override
+  String get nicknameSuffix166 => 'ahas';
+
+  @override
+  String get nicknameSuffix167 => 'butiki';
+
+  @override
+  String get nicknameSuffix168 => 'pagong';
+
+  @override
+  String get nicknameSuffix169 => 'buwaya';
+
+  @override
+  String get nicknameSuffix170 => 'dragon';
+
+  @override
+  String get nicknameSuffix171 => 'kabayong may sungay';
+
+  @override
+  String get nicknameSuffix172 => 'Pegasus';
+
+  @override
+  String get nicknameSuffix173 => 'griffon';
+
+  @override
+  String get nicknameSuffix174 => 'gargoyle';
+
+  @override
+  String get nicknameSuffix175 => 'duwende';
+
+  @override
+  String get nicknameSuffix176 => 'oak';
+
+  @override
+  String get nicknameSuffix177 => 'troll';
+
+  @override
+  String get nicknameSuffix178 => 'auger';
+
+  @override
+  String get nicknameSuffix179 => 'putik';
+
+  @override
+  String get nicknameSuffix180 => 'kalansay';
+
+  @override
+  String get nicknameSuffix181 => 'zombie';
+
+  @override
+  String get nicknameSuffix182 => 'masamang espiritu';
+
+  @override
+  String get nicknameSuffix183 => 'bampira';
+
+  @override
+  String get nicknameSuffix184 => 'taong lobo';
+
+  @override
+  String get nicknameSuffix185 => 'minotaur';
+
+  @override
+  String get nicknameSuffix186 => 'centaur';
+
+  @override
+  String get nicknameSuffix187 => 'harpy';
+
+  @override
+  String get nicknameSuffix188 => 'sirena';
+
+  @override
+  String get nicknameSuffix189 => 'Kraken';
+
+  @override
+  String get nicknameSuffix190 => 'leviathan';
+
+  @override
+  String get nicknameSuffix191 => 'kutsilyo';
+
+  @override
+  String get nicknameSuffix192 => 'kalasag';
+
+  @override
+  String get nicknameSuffix193 => 'bintana';
+
+  @override
+  String get nicknameSuffix194 => 'yumuko';
+
+  @override
+  String get nicknameSuffix195 => 'tungkod';
+
+  @override
+  String get nicknameSuffix196 => 'singsing';
+
+  @override
+  String get nicknameSuffix197 => 'kuwintas';
+
+  @override
+  String get nicknameSuffix198 => 'korona';
+
+  @override
+  String get nicknameSuffix199 => 'Banal na Kopita';
+
+  @override
+  String get themeFree => 'Libreng Tema';
+
+  @override
+  String get themePaid => 'Bayad na Tema';
 }

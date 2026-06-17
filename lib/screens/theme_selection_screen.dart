@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
 import '../services/theme_manager.dart';
+import 'package:flutter_tarot/l10n/app_localizations.dart';
 
 class ThemeSelectionScreen extends StatelessWidget {
   const ThemeSelectionScreen({super.key});
@@ -14,10 +15,21 @@ class ThemeSelectionScreen extends StatelessWidget {
         extendBodyBehindAppBar: true,
         appBar: AppBar(
           automaticallyImplyLeading: false,
-          toolbarHeight: 90,
-          title: const Padding(
-            padding: EdgeInsets.only(top: 40.0),
-            child: Text('테마 설정', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
+          toolbarHeight: 110,
+          leading: Padding(
+            padding: const EdgeInsets.only(top: 60.0, left: 16.0),
+            child: Align(
+              alignment: Alignment.centerLeft,
+              child: IconButton(
+                splashRadius: 24,
+                icon: const Icon(Icons.arrow_back, color: Colors.white),
+                onPressed: () => Navigator.pop(context),
+              ),
+            ),
+          ),
+          title: Padding(
+            padding: const EdgeInsets.only(top: 60.0),
+            child: Text(AppLocalizations.of(context)!.myMenuThemeSettings, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
           ),
           centerTitle: true,
           backgroundColor: Colors.transparent,
@@ -30,7 +42,7 @@ class ThemeSelectionScreen extends StatelessWidget {
                   bottom: BorderSide(color: Colors.white, width: 1.0),
                 ),
               ),
-              child: const TabBar(
+              child: TabBar(
                 indicatorColor: Colors.amberAccent,
                 indicatorWeight: 3.0,
                 labelColor: Colors.amberAccent,
@@ -41,9 +53,9 @@ class ThemeSelectionScreen extends StatelessWidget {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.card_giftcard, size: 18),
-                        SizedBox(width: 8),
-                        Text('무료 테마', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+                        const Icon(Icons.card_giftcard, size: 18),
+                        const SizedBox(width: 8),
+                        Text(AppLocalizations.of(context)!.themeFree, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
                       ],
                     ),
                   ),
@@ -51,9 +63,9 @@ class ThemeSelectionScreen extends StatelessWidget {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.diamond, size: 18),
-                        SizedBox(width: 8),
-                        Text('유료 테마', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+                        const Icon(Icons.diamond, size: 18),
+                        const SizedBox(width: 8),
+                        Text(AppLocalizations.of(context)!.themePaid, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
                       ],
                     ),
                   ),
@@ -90,11 +102,11 @@ class ThemeSelectionScreen extends StatelessWidget {
                       _buildThemeGrid(freeIndices, currentTheme, context),
                       // 유료 테마 탭
                       unlockedPaidIndices.isEmpty
-                          ? const Center(
+                          ? Center(
                               child: Text(
-                                '상점에서 테마를 구매하여\n이곳을 채워보세요!',
+                                AppLocalizations.of(context)!.themeEmptyPaidThemes,
                                 textAlign: TextAlign.center,
-                                style: TextStyle(color: Colors.white70, fontSize: 16),
+                                style: const TextStyle(color: Colors.white70, fontSize: 16),
                               ),
                             )
                           : _buildThemeGrid(unlockedPaidIndices, currentTheme, context),
@@ -126,7 +138,7 @@ class ThemeSelectionScreen extends StatelessWidget {
         
         final themePath = ThemeManager.instance.availableThemes[originalIndex];
         final isSelected = themePath == currentTheme;
-        final themeName = _getThemeName(originalIndex);
+        final themeName = _getThemeName(originalIndex, context);
 
         return GestureDetector(
           onTap: () {
@@ -187,20 +199,19 @@ class ThemeSelectionScreen extends StatelessWidget {
     );
   }
 
-  String _getThemeName(int index) {
+  String _getThemeName(int index, BuildContext context) {
     switch (index) {
       case 0:
-        return '기본 테마';
       case 1:
-        return '테마 1';
+        return AppLocalizations.of(context)!.themeName1;
       case 2:
-        return '테마 2';
+        return AppLocalizations.of(context)!.themeName2;
       case 3:
-        return '테마 3';
+        return AppLocalizations.of(context)!.themeName3;
       case 4:
-        return '마법책';
+        return AppLocalizations.of(context)!.themeMagicBook;
       case 5:
-        return '검은 고양이';
+        return AppLocalizations.of(context)!.themeBlackCat;
       default:
         return '테마 $index';
     }
