@@ -5,6 +5,8 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_tarot/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'theme/app_theme.dart';
 import 'screens/main_screen.dart';
 import 'services/economy_service.dart';
@@ -23,6 +25,15 @@ void main() async {
       options: DefaultFirebaseOptions.currentPlatform,
     );
     final auth = FirebaseAuth.instance;
+    
+    // 자동 로그인 해제 상태인지 확인
+    final prefs = await SharedPreferences.getInstance();
+    final keepLoggedIn = prefs.getBool('keepLoggedIn') ?? true;
+    
+    if (!keepLoggedIn && auth.currentUser != null && !auth.currentUser!.isAnonymous) {
+      await auth.signOut(); // 로그인 유지를 끈 경우 명시적 로그아웃 (이후 익명 전환됨)
+    }
+
     if (auth.currentUser == null) {
       await auth.signInAnonymously();
     }

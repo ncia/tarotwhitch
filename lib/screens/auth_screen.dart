@@ -8,6 +8,7 @@ import 'dart:math';
 import '../data/nickname_data.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:flutter/foundation.dart' show kIsWeb, defaultTargetPlatform, TargetPlatform;
+import 'package:shared_preferences/shared_preferences.dart';
 
 class AuthScreen extends StatefulWidget {
   final bool isInline;
@@ -25,6 +26,8 @@ class _AuthScreenState extends State<AuthScreen> {
   bool _isLoading = false;
   bool _isAdmin = false; // 관리자 가입 여부
   bool _obscurePassword = true; // 비밀번호 숨김 여부
+  bool _agreedToTerms = false; // 약관 동의 여부
+  bool _keepLoggedIn = true; // 자동 로그인 유지 여부
 
   @override
   void dispose() {
@@ -41,11 +44,56 @@ class _AuthScreenState extends State<AuthScreen> {
     _nicknameController.text = '$prefix $suffix';
   }
 
+  void _showTermsDialog() {
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          backgroundColor: Colors.grey[900],
+          title: const Text('최종 사용자 라이선스 계약 (EULA)', style: TextStyle(color: Colors.white, fontSize: 18)),
+          content: const SingleChildScrollView(
+            child: Text(
+              '제1조 (라이선스 허여)\n'
+              '본 앱("타로마녀")은 개인적, 비상업적 용도에 한해 사용 권한을 부여하며, 앱의 소유권이나 지적재산권은 이전되지 않습니다.\n\n'
+              '제2조 (금지된 사용)\n'
+              '사용자는 본 서비스를 불법적이거나 타인의 권리를 침해하는 목적으로 사용할 수 없으며, 시스템이나 데이터를 임의로 조작하거나 리버스 엔지니어링할 수 없습니다.\n\n'
+              '제3조 (데이터 수집 및 보관 기간)\n'
+              '원활한 서비스 제공을 위해 사용자가 작성한 타로 일기 및 관련 점괘 데이터는 작성일로부터 기본 3년간 안전하게 보관됩니다.\n\n'
+              '제4조 (장기 미접속 휴면 계정 처리)\n'
+              '사용자가 1년(365일) 이상 서비스에 접속하지 않을 경우 휴면 계정으로 전환되며, 개인정보 보호 및 원활한 서버 환경 유지를 위해 해당 사용자의 모든 데이터는 사전 고지 없이 자동 삭제 처리됩니다.\n\n'
+              '제5조 (데이터 파기 및 복구 불가)\n'
+              '제3조의 보관 기간이 경과하거나 제4조에 의해 삭제된 데이터는 영구 파기되며 어떠한 경우에도 복구할 수 없습니다.\n\n'
+              '제6조 (보증 부인 및 면책)\n'
+              '본 앱이 제공하는 타로 점괘 및 해석은 오락 목적으로만 제공되며, 법적, 의학적, 재정적 조언을 대체하지 않습니다. 서비스 이용으로 인해 발생하는 어떠한 직간접적인 손해에 대해서도 개발자는 책임을 지지 않습니다.\n\n'
+              '위 EULA 내용 및 데이터 관리 정책은 앱 사용을 위해 필수적으로 동의해야 하는 항목입니다.',
+              style: TextStyle(color: Colors.white70, height: 1.5, fontSize: 13),
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('동의 후 닫기', style: TextStyle(color: Colors.amberAccent)),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
   Future<void> _signInWithGoogle() async {
     if (!kIsWeb && defaultTargetPlatform == TargetPlatform.windows) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(content: Text('미리보기 환경(Windows)에서는 구글 로그인을 지원하지 않습니다. 안드로이드 기기나 웹을 이용해주세요.')),
+        );
+      }
+      return;
+    }
+
+    if (!_isLogin && !_agreedToTerms) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('회원가입을 진행하려면 데이터 보관 약관에 동의해야 합니다.')),
         );
       }
       return;
@@ -82,6 +130,11 @@ class _AuthScreenState extends State<AuthScreen> {
             'createdAt': FieldValue.serverTimestamp(),
           });
         }
+        
+        // 로그인 성공 시 유지 여부 저장
+        final prefs = await SharedPreferences.getInstance();
+        await prefs.setBool('keepLoggedIn', _keepLoggedIn);
+
         if (mounted) {
           if (!widget.isInline) {
             Navigator.pop(context);
@@ -145,7 +198,21 @@ class _AuthScreenState extends State<AuthScreen> {
           await FirebaseAuth.instance.signOut(); // 인증 안되었으므로 강제 로그아웃
           return;
         }
+
+        // 로그인 성공 시 유지 여부 저장
+        final prefs = await SharedPreferences.getInstance();
+        await prefs.setBool('keepLoggedIn', _keepLoggedIn);
       } else {
+        if (!_agreedToTerms) {
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(content: Text('회원가입을 진행하려면 데이터 보관 약관에 동의해야 합니다.')),
+            );
+          }
+          setState(() => _isLoading = false);
+          return;
+        }
+
         final userCredential = await FirebaseAuth.instance.createUserWithEmailAndPassword(
           email: _emailController.text.trim(),
           password: _passwordController.text,
@@ -264,6 +331,68 @@ class _AuthScreenState extends State<AuthScreen> {
                     obscureText: _obscurePassword,
                   ),
                   const SizedBox(height: 16),
+
+                  if (_isLogin) ...[
+                    Row(
+                      children: [
+                        Checkbox(
+                          value: _keepLoggedIn,
+                          onChanged: (val) {
+                            setState(() => _keepLoggedIn = val ?? true);
+                          },
+                          activeColor: Colors.amberAccent,
+                          checkColor: Colors.black,
+                        ),
+                        Expanded(
+                          child: GestureDetector(
+                            onTap: () {
+                              setState(() => _keepLoggedIn = !_keepLoggedIn);
+                            },
+                            child: const Text(
+                              '로그인 상태 유지',
+                              style: TextStyle(color: Colors.white70, fontSize: 14),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 16),
+                  ],
+
+                  if (!_isLogin) ...[
+                    Row(
+                      children: [
+                        Checkbox(
+                          value: _agreedToTerms,
+                          onChanged: (val) {
+                            setState(() => _agreedToTerms = val ?? false);
+                          },
+                          activeColor: Colors.amberAccent,
+                          checkColor: Colors.black,
+                        ),
+                        Expanded(
+                          child: GestureDetector(
+                            onTap: () {
+                              setState(() => _agreedToTerms = !_agreedToTerms);
+                            },
+                            child: const Text(
+                              '최종 사용자 라이선스 계약(EULA)에 동의합니다. (필수)',
+                              style: TextStyle(color: Colors.white70, fontSize: 13),
+                            ),
+                          ),
+                        ),
+                        TextButton(
+                          onPressed: _showTermsDialog,
+                          style: TextButton.styleFrom(
+                            padding: const EdgeInsets.symmetric(horizontal: 4),
+                            minimumSize: Size.zero,
+                          ),
+                          child: const Text('[내용 보기]', style: TextStyle(color: Colors.amberAccent, fontSize: 12)),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 16),
+                  ],
 
                   if (_isLoading)
                     const CircularProgressIndicator(color: Colors.amberAccent)
