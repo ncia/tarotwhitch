@@ -351,18 +351,52 @@ class ShopScreen extends StatelessWidget {
                       }
 
                       if (skin['isTheme'] == true) {
-                        // 실제 구매 로직
                         final int cost = skin['cost'];
-                        final success = await EconomyService().deductCoin(cost);
-                        if (success) {
-                          await ThemeManager.instance.unlockTheme(skin['image']);
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            SnackBar(content: Text('${skin['name']} 구매 성공! 테마 설정에서 확인하세요.')),
-                          );
-                        } else {
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(content: Text('코인이 부족합니다.')),
-                          );
+                        final bool? confirm = await showDialog<bool>(
+                          context: context,
+                          builder: (context) {
+                            return AlertDialog(
+                              backgroundColor: const Color(0xFF2D1B4E),
+                              title: const Text('테마 구매', style: TextStyle(color: Colors.white)),
+                              content: Text(
+                                '${skin['name']} 테마를 $cost 코인으로 구매하시겠습니까?',
+                                style: const TextStyle(color: Colors.white70),
+                              ),
+                              actions: [
+                                TextButton(
+                                  onPressed: () => Navigator.of(context).pop(false),
+                                  child: const Text('취소', style: TextStyle(color: Colors.white60)),
+                                ),
+                                ElevatedButton(
+                                  onPressed: () => Navigator.of(context).pop(true),
+                                  style: ElevatedButton.styleFrom(
+                                    backgroundColor: Colors.amber.shade700,
+                                    foregroundColor: Colors.white,
+                                  ),
+                                  child: const Text('구매'),
+                                ),
+                              ],
+                            );
+                          },
+                        );
+
+                        if (confirm == true) {
+                          // 실제 구매 로직
+                          final success = await EconomyService().deductCoin(cost);
+                          if (success) {
+                            await ThemeManager.instance.unlockTheme(skin['image']);
+                            if (context.mounted) {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                SnackBar(content: Text('${skin['name']} 구매 성공! 테마 설정에서 확인하세요.')),
+                              );
+                            }
+                          } else {
+                            if (context.mounted) {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                const SnackBar(content: Text('코인이 부족합니다.')),
+                              );
+                            }
+                          }
                         }
                       } else {
                         ScaffoldMessenger.of(context).showSnackBar(

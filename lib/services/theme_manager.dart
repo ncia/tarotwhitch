@@ -1,10 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class ThemeManager {
   static final ThemeManager instance = ThemeManager._internal();
   factory ThemeManager() => instance;
-  ThemeManager._internal();
+  ThemeManager._internal() {
+    FirebaseAuth.instance.authStateChanges().listen((user) {
+      if (user != null) {
+        syncCloudThemes();
+      }
+    });
+  }
 
   static const String _themePrefKey = 'selected_theme_path';
   
@@ -50,6 +58,36 @@ class ThemeManager {
     } else {
       themeNotifier.value = _defaultTheme;
     }
+
+    // Try to sync with cloud if already logged in
+    await syncCloudThemes();
+  }
+
+  Future<void> syncCloudThemes() async {
+    final user = FirebaseAuth.instance.currentUser;
+    if (user != null) {
+      final docRef = FirebaseFirestore.instance.collection('users').doc(user.uid);
+      final doc = await docRef.get();
+      if (doc.exists) {
+        final data = doc.data()!;
+        if (data.containsKey('unlockedThemes')) {
+          final cloudThemes = List<String>.from(data['unlockedThemes']);
+          final localThemes = unlockedThemesNotifier.value;
+          final mergedThemes = {...localThemes, ...cloudThemes}.toList();
+          
+          if (mergedThemes.length > localThemes.length) {
+            unlockedThemesNotifier.value = mergedThemes;
+            final prefs = await SharedPreferences.getInstance();
+            await prefs.setStringList(_unlockedThemesKey, mergedThemes);
+          }
+          if (mergedThemes.length > cloudThemes.length) {
+            await docRef.set({'unlockedThemes': mergedThemes}, SetOptions(merge: true));
+          }
+        } else {
+          await docRef.set({'unlockedThemes': unlockedThemesNotifier.value}, SetOptions(merge: true));
+        }
+      }
+    }
   }
 
   Future<void> setTheme(String themePath) async {
@@ -66,6 +104,13 @@ class ThemeManager {
       unlockedThemesNotifier.value = updatedList;
       final prefs = await SharedPreferences.getInstance();
       await prefs.setStringList(_unlockedThemesKey, updatedList);
+
+      final user = FirebaseAuth.instance.currentUser;
+      if (user != null) {
+        await FirebaseFirestore.instance.collection('users').doc(user.uid).set({
+          'unlockedThemes': FieldValue.arrayUnion([themePath])
+        }, SetOptions(merge: true));
+      }
       return true;
     }
     return false;
