@@ -135,43 +135,6 @@ class TarotApp extends StatelessWidget {
         return const Locale('en');
       },
       navigatorKey: globalNavigatorKey,
-      builder: (context, child) {
-        return Overlay(
-          initialEntries: [
-            OverlayEntry(
-              builder: (context) => Stack(
-                children: [
-                  if (child != null) child,
-                  Positioned(
-                    top: 0,
-                    left: 0,
-                    right: 0,
-                    child: Material(
-                      type: MaterialType.transparency,
-                      child: TopFloatingIcons(
-                        onShop: () {
-                          if (globalNavigatorKey.currentContext == null) return;
-                          Navigator.push(
-                            globalNavigatorKey.currentContext!,
-                            MaterialPageRoute(builder: (context) => const ShopScreen()),
-                          );
-                        },
-                        onGrowth: () {
-                          if (globalNavigatorKey.currentContext == null) return;
-                          Navigator.push(
-                            globalNavigatorKey.currentContext!,
-                            MaterialPageRoute(builder: (context) => const GrowthScreen()),
-                          );
-                        },
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ],
-        );
-      },
       home: MainScreen(),
     );
   }

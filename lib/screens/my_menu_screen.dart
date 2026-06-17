@@ -7,6 +7,7 @@ import '../widgets/glass_container.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import 'auth_screen.dart'; // AuthScreen 임포트 추가
 import 'package:firebase_messaging/firebase_messaging.dart';
+import '../widgets/profile_edit_dialog.dart';
 
 class MyMenuScreen extends StatelessWidget {
   const MyMenuScreen({super.key});
@@ -95,9 +96,78 @@ class MyMenuScreen extends StatelessWidget {
               ),
             ),
           )
+        else if (isLoggedIn)
+          StreamBuilder<DocumentSnapshot>(
+            stream: FirebaseFirestore.instance.collection('users').doc(user!.uid).snapshots(),
+            builder: (context, docSnapshot) {
+              String displayName = user.email ?? '이름 없음';
+              String profileImage = 'assets/images/witch_morgan.jpg';
+              if (docSnapshot.hasData && docSnapshot.data!.exists) {
+                final data = docSnapshot.data!.data() as Map<String, dynamic>;
+                displayName = data['nickname'] ?? displayName;
+                profileImage = data['profileImage'] ?? profileImage;
+              }
+              
+              return InkWell(
+                onTap: () {
+                  showDialog(
+                    context: context,
+                    builder: (context) => ProfileEditDialog(
+                      user: user,
+                      currentNickname: displayName,
+                      currentProfileImage: profileImage,
+                    ),
+                  );
+                },
+                borderRadius: BorderRadius.circular(20),
+                child: GlassContainer(
+                  padding: const EdgeInsets.all(20),
+                  borderRadius: 20,
+                  child: Row(
+                    children: [
+                      Container(
+                        width: 70,
+                        height: 70,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Colors.indigo.shade900,
+                          image: DecorationImage(
+                            image: AssetImage(profileImage),
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                      const SizedBox(width: 20),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              displayName,
+                              style: const TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.bold),
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                            const SizedBox(height: 4),
+                            Text(
+                              user.email ?? '',
+                              style: TextStyle(color: Colors.white.withOpacity(0.6), fontSize: 12),
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                            const SizedBox(height: 8),
+                            _EmailVerificationBadge(user: user),
+                          ],
+                        ),
+                      ),
+                      const Icon(Icons.edit, color: Colors.white54),
+                    ],
+                  ),
+                ),
+              );
+            },
+          )
         else
           InkWell(
-            onTap: isLoggedIn ? null : () {
+            onTap: () {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => const AuthScreen()),
@@ -114,7 +184,7 @@ class MyMenuScreen extends StatelessWidget {
                     height: 70,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: isLoggedIn ? Colors.indigo.shade900 : Colors.grey.shade800,
+                      color: Colors.grey.shade800,
                       image: const DecorationImage(
                         image: AssetImage('assets/images/witch_morgan.jpg'),
                         fit: BoxFit.cover,
@@ -122,52 +192,23 @@ class MyMenuScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(width: 20),
-                  Expanded(
+                  const Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        if (isLoggedIn)
-                          StreamBuilder<DocumentSnapshot>(
-                            stream: FirebaseFirestore.instance.collection('users').doc(user!.uid).snapshots(),
-                            builder: (context, docSnapshot) {
-                              String displayName = '이름 없음';
-                              if (docSnapshot.hasData && docSnapshot.data!.exists) {
-                                final data = docSnapshot.data!.data() as Map<String, dynamic>;
-                                displayName = data['nickname'] ?? user.email ?? '이름 없음';
-                              }
-                              return Text(
-                                displayName,
-                                style: const TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.bold),
-                                overflow: TextOverflow.ellipsis,
-                              );
-                            },
-                          )
-                        else
-                          const Text(
-                            '로그인해주세요',
-                            style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        const SizedBox(height: 4),
-                        if (isLoggedIn)
-                          Text(
-                            user!.email ?? '',
-                            style: TextStyle(color: Colors.white.withOpacity(0.6), fontSize: 12),
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        const SizedBox(height: 8),
-                        if (isLoggedIn)
-                          _EmailVerificationBadge(user: user!)
-                        else
-                          const Text(
-                            '터치하여 회원가입 및 로그인',
-                            style: TextStyle(color: Colors.amberAccent, fontSize: 12),
-                          ),
+                        Text(
+                          '로그인해주세요',
+                          style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                        SizedBox(height: 12),
+                        Text(
+                          '터치하여 회원가입 및 로그인',
+                          style: TextStyle(color: Colors.amberAccent, fontSize: 12),
+                        ),
                       ],
                     ),
                   ),
-                  if (isLoggedIn) 
-                    const Icon(Icons.edit, color: Colors.white54),
                 ],
               ),
             ),

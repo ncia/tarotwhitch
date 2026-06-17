@@ -22,6 +22,7 @@ class AuthScreen extends StatefulWidget {
 class _AuthScreenState extends State<AuthScreen> {
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
+  final _confirmPasswordController = TextEditingController();
   final _nicknameController = TextEditingController();
   bool _isLogin = true;
   bool _isLoading = false;
@@ -35,6 +36,7 @@ class _AuthScreenState extends State<AuthScreen> {
   void dispose() {
     _emailController.dispose();
     _passwordController.dispose();
+    _confirmPasswordController.dispose();
     _nicknameController.dispose();
     super.dispose();
   }
@@ -243,6 +245,16 @@ class _AuthScreenState extends State<AuthScreen> {
         final prefs = await SharedPreferences.getInstance();
         await prefs.setBool('keepLoggedIn', _keepLoggedIn);
       } else {
+        if (_passwordController.text != _confirmPasswordController.text) {
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(content: Text('비밀번호가 일치하지 않습니다. 다시 확인해 주세요.')),
+            );
+          }
+          setState(() => _isLoading = false);
+          return;
+        }
+
         if (!_agreedToTerms) {
           if (mounted) {
             ScaffoldMessenger.of(context).showSnackBar(
@@ -380,6 +392,32 @@ class _AuthScreenState extends State<AuthScreen> {
                   ),
                   const SizedBox(height: 16),
 
+                  if (!_isLogin) ...[
+                    TextField(
+                      controller: _confirmPasswordController,
+                      style: const TextStyle(color: Colors.white),
+                      decoration: InputDecoration(
+                        labelText: '비밀번호 확인',
+                        labelStyle: const TextStyle(color: Colors.white70),
+                        enabledBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.white30)),
+                        focusedBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
+                        suffixIcon: IconButton(
+                          icon: Icon(
+                            _obscurePassword ? Icons.visibility_off : Icons.visibility,
+                            color: Colors.white70,
+                          ),
+                          onPressed: () {
+                            setState(() {
+                              _obscurePassword = !_obscurePassword;
+                            });
+                          },
+                        ),
+                      ),
+                      obscureText: _obscurePassword,
+                    ),
+                    const SizedBox(height: 16),
+                  ],
+
                   if (_isLogin) ...[
                     Row(
                       children: [
@@ -455,7 +493,7 @@ class _AuthScreenState extends State<AuthScreen> {
                               setState(() => _agreedToPush = !_agreedToPush);
                             },
                             child: const Text(
-                              '새로운 운세 및 이벤트 알림 수신에 동의합니다. (선택)',
+                              '새로운 타로점 및 이벤터 알림수신에 동의합니다. (선택)',
                               style: TextStyle(color: Colors.white70, fontSize: 13),
                             ),
                           ),

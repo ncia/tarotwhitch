@@ -73,6 +73,27 @@ class MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
       body: Stack(
         children: [
           _screens[_currentIndex],
+          Positioned(
+            top: 0,
+            left: 0,
+            right: 0,
+            child: SafeArea(
+              child: TopFloatingIcons(
+                onShop: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const ShopScreen()),
+                  );
+                },
+                onGrowth: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const GrowthScreen()),
+                  );
+                },
+              ),
+            ),
+          ),
         ],
       ),
       bottomNavigationBar: SharedBottomNavBar(
