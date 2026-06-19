@@ -4140,4 +4140,17 @@ class AppLocalizationsRm extends AppLocalizations {
 
   @override
   String get spreadReversed => 'Reversed (Reversed)';
+
+  @override
+  String get buttonShare => 'Share';
+
+  @override
+  String get buttonSelectSpread => 'Select Spread';
+
+  @override
+  String get buttonSelectOtherWitch => 'Select Other Witch';
+
+  @override
+  String get shareResultText =>
+      '🔮 Check out my Tarot reading results!\\n\\nIf you want to know the detailed reading, install the Tarot Witch app and check your tarot reading yourself!\\n👉 Download: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

@@ -4136,4 +4136,17 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get spreadReversed => '역성향 (กลับด้าน) (Reversed)';
+
+  @override
+  String get buttonShare => 'แบ่งปัน';
+
+  @override
+  String get buttonSelectSpread => 'เลือกสเปรด';
+
+  @override
+  String get buttonSelectOtherWitch => 'เลือกแม่มดอื่น ๆ';
+
+  @override
+  String get shareResultText =>
+      '🔮 ตรวจสอบผลการอ่านไพ่ยิปซีของฉัน!\\n\\nหากคุณต้องการทราบการอ่านโดยละเอียด ให้ติดตั้งแอป Tarot Witch และตรวจสอบการอ่านไพ่ยิปซีของคุณด้วยตัวเอง!\\n👉 ดาวน์โหลด:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

@@ -7931,6 +7931,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Reversed'**
   String get spreadReversed;
+
+  /// No description provided for @buttonShare.
+  ///
+  /// In en, this message translates to:
+  /// **'Share'**
+  String get buttonShare;
+
+  /// No description provided for @buttonSelectSpread.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Spread'**
+  String get buttonSelectSpread;
+
+  /// No description provided for @buttonSelectOtherWitch.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Other Witch'**
+  String get buttonSelectOtherWitch;
+
+  /// No description provided for @shareResultText.
+  ///
+  /// In en, this message translates to:
+  /// **'🔮 Check out my Tarot reading results!\\n\\nIf you want to know the detailed reading, install the Tarot Witch app and check your tarot reading yourself!\\n👉 Download: https://play.google.com/store/apps/details?id=com.ncia.tarot_card'**
+  String get shareResultText;
 }
 
 class _AppLocalizationsDelegate

@@ -4144,4 +4144,18 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get spreadReversed => 'fordítva (Reversed)';
+
+  @override
+  String get buttonShare => 'Részesedés';
+
+  @override
+  String get buttonSelectSpread => 'Válassza a Spread lehetőséget';
+
+  @override
+  String get buttonSelectOtherWitch =>
+      'Válassza a Másik boszorkány lehetőséget';
+
+  @override
+  String get shareResultText =>
+      '🔮 Tekintse meg Tarot olvasási eredményeimet!\\n\\nHa meg szeretné tudni a részletes olvasmányt, telepítse a Tarot Witch alkalmazást, és ellenőrizze saját maga a tarot olvasását!\\n👉 Letöltés:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

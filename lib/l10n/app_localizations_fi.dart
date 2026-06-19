@@ -4311,4 +4311,17 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get spreadReversed => 'Käännettynä (Reversed)';
+
+  @override
+  String get buttonShare => 'Jakaa';
+
+  @override
+  String get buttonSelectSpread => 'Valitse Levitä';
+
+  @override
+  String get buttonSelectOtherWitch => 'Valitse Muu noita';
+
+  @override
+  String get shareResultText =>
+      '🔮 Katso Tarot-lukutulokseni!\\n\\nJos haluat tietää tarkan lukeman, asenna Tarot Witch -sovellus ja tarkista tarot-lukemasi itse!\\n👉 Lataa:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

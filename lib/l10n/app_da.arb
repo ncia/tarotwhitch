@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (opretstående)",
-  "cardDetailTabReversed": "역방향 (omvendt)",
+  "cardDetailTabUpright": "Opret (Upright)",
+  "cardDetailTabReversed": "Omvendt (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1407,5 +1407,14 @@
   "profileEditCancel": "Ophæve",
   "profileEditSave": "Spare",
   "spreadUpright": "opretstående (Upright)",
-  "spreadReversed": "omvendt (Reversed)"
+  "spreadReversed": "omvendt (Reversed)",
+  "buttonShare": "Dele",
+  "buttonSelectSpread": "Vælg Spredning",
+  "buttonSelectOtherWitch": "Vælg Anden heks",
+  "shareResultText": "✨ Se mit tarotlæsningsresultat!\\n\\nHvis du vil vide mere om din læsning, så installer Tarot Witch-appen og se din tarotlæsning selv!\\n👉 Download: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Træk {count} kort",
+  "layoutFan": "Vifte",
+  "layoutStacked": "Stablet",
+  "readingFateFragments": "Læser skæbnens fragmenter.",
+  "magicDustObtained": "Modtog magisk støv +{amount}! ✨"
 }

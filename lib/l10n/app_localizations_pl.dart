@@ -4147,4 +4147,17 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get spreadReversed => 'odwrócony (Reversed)';
+
+  @override
+  String get buttonShare => 'Udział';
+
+  @override
+  String get buttonSelectSpread => 'Wybierz opcję Rozłóż';
+
+  @override
+  String get buttonSelectOtherWitch => 'Wybierz Inną Czarownicę';
+
+  @override
+  String get shareResultText =>
+      '🔮 Sprawdź moje wyniki czytania Tarota!\\n\\nJeśli chcesz poznać szczegółowe odczyty, zainstaluj aplikację Tarot Witch i sam sprawdź swoje czytanie Tarota!\\n👉 Pobierz:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

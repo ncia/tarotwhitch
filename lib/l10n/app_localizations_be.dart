@@ -4151,4 +4151,17 @@ class AppLocalizationsBe extends AppLocalizations {
 
   @override
   String get spreadReversed => 'перавернуты (Reversed)';
+
+  @override
+  String get buttonShare => 'падзяліцца';
+
+  @override
+  String get buttonSelectSpread => 'Выберыце Распаўсюджванне';
+
+  @override
+  String get buttonSelectOtherWitch => 'Абярыце \"Іншая ведзьма\".';
+
+  @override
+  String get shareResultText =>
+      '🔮 Праверце мае вынікі чытання Таро!\\n\\nКалі вы хочаце даведацца падрабязнае чытанне, усталюйце праграму Tarot Witch і праверце сваё чытанне Таро самастойна!\\n👉 Спампуйце:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

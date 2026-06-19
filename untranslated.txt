@@ -428,7 +428,11 @@
     "layoutStacked",
     "readingFateFragments",
     "witchTarotReading",
-    "magicDustObtained"
+    "magicDustObtained",
+    "buttonShare",
+    "buttonSelectSpread",
+    "buttonSelectOtherWitch",
+    "shareResultText"
   ],
 
   "ro": [

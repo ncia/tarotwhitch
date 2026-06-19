@@ -4322,4 +4322,17 @@ class AppLocalizationsMl extends AppLocalizations {
 
   @override
   String get spreadReversed => 'വിപരീത (Reversed)';
+
+  @override
+  String get buttonShare => 'പങ്കിടുക';
+
+  @override
+  String get buttonSelectSpread => 'സ്പ്രെഡ് തിരഞ്ഞെടുക്കുക';
+
+  @override
+  String get buttonSelectOtherWitch => 'മറ്റ് മന്ത്രവാദിനി തിരഞ്ഞെടുക്കുക';
+
+  @override
+  String get shareResultText =>
+      '🔮 എൻ്റെ ടാരറ്റ് റീഡിംഗ് ഫലങ്ങൾ പരിശോധിക്കുക!\\n\\nനിങ്ങൾക്ക് വിശദമായ വായന അറിയണമെങ്കിൽ, Tarot Witch ആപ്പ് ഇൻസ്റ്റാൾ ചെയ്ത് നിങ്ങളുടെ ടാരറ്റ് റീഡിംഗ് സ്വയം പരിശോധിക്കുക!\\n👉 ഡൗൺലോഡ്:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

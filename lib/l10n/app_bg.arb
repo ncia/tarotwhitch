@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (изправен)",
-  "cardDetailTabReversed": "역방향 (обърнат)",
+  "cardDetailTabUpright": "Изправена (Upright)",
+  "cardDetailTabReversed": "Обърната (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1407,5 +1407,14 @@
   "profileEditCancel": "Отказ",
   "profileEditSave": "Запазване",
   "spreadUpright": "изправен (Upright)",
-  "spreadReversed": "обърнат (Reversed)"
+  "spreadReversed": "обърнат (Reversed)",
+  "buttonShare": "Споделете",
+  "buttonSelectSpread": "Изберете Разпръскване",
+  "buttonSelectOtherWitch": "Изберете Друга вещица",
+  "shareResultText": "✨ Вижте резултата от моето таро гадание!\\n\\nАко искате да разберете подробностите, инсталирайте приложението Tarot Witch и проверете своето таро гадание сами!\\n👉 Изтеглете: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Изтеглете {count} карти",
+  "layoutFan": "Ветрило",
+  "layoutStacked": "Насложени",
+  "readingFateFragments": "Чета фрагменти от съдбата.",
+  "magicDustObtained": "Получихте магически прах +{amount}! ✨"
 }

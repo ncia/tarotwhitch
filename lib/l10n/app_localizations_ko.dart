@@ -3955,4 +3955,17 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get spreadReversed => '역방향 (Reversed)';
+
+  @override
+  String get buttonShare => '공유하기';
+
+  @override
+  String get buttonSelectSpread => '스프레드 선택';
+
+  @override
+  String get buttonSelectOtherWitch => '다른 마녀 선택';
+
+  @override
+  String get shareResultText =>
+      '🔮 내 타로 점괘 결과를 확인해보세요!\\n\\n자세한 점괘 내용이 궁금하다면 타로마녀 앱을 설치해서 직접 타로 점을 확인해 보세요!\\n👉 다운로드: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

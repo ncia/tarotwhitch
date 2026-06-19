@@ -1407,5 +1407,9 @@
   "profileEditCancel": "Mégsem",
   "profileEditSave": "Megtakarítás",
   "spreadUpright": "felálló (Upright)",
-  "spreadReversed": "fordítva (Reversed)"
+  "spreadReversed": "fordítva (Reversed)",
+  "buttonShare": "Részesedés",
+  "buttonSelectSpread": "Válassza a Spread lehetőséget",
+  "buttonSelectOtherWitch": "Válassza a Másik boszorkány lehetőséget",
+  "shareResultText": "🔮 Tekintse meg Tarot olvasási eredményeimet!\\n\\nHa meg szeretné tudni a részletes olvasmányt, telepítse a Tarot Witch alkalmazást, és ellenőrizze saját maga a tarot olvasását!\\n👉 Letöltés:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
 }

@@ -1407,5 +1407,9 @@
   "profileEditCancel": "Hủy bỏ",
   "profileEditSave": "Cứu",
   "spreadUpright": "Đứng thẳng (Upright)",
-  "spreadReversed": "Đảo ngược (Reversed)"
+  "spreadReversed": "Đảo ngược (Reversed)",
+  "buttonShare": "Chia sẻ",
+  "buttonSelectSpread": "Chọn mức chênh lệch",
+  "buttonSelectOtherWitch": "Chọn phù thủy khác",
+  "shareResultText": "🔮 Xem kết quả đọc tarot của tôi!\\n\\nNếu bạn muốn biết kết quả đọc chi tiết, hãy cài đặt ứng dụng Tarot Witch và tự mình kiểm tra kết quả đọc tarot của mình!\\n 👉 Tải xuống:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
 }

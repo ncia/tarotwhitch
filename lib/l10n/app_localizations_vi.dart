@@ -4141,4 +4141,17 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get spreadReversed => 'Đảo ngược (Reversed)';
+
+  @override
+  String get buttonShare => 'Chia sẻ';
+
+  @override
+  String get buttonSelectSpread => 'Chọn mức chênh lệch';
+
+  @override
+  String get buttonSelectOtherWitch => 'Chọn phù thủy khác';
+
+  @override
+  String get shareResultText =>
+      '🔮 Xem kết quả đọc tarot của tôi!\\n\\nNếu bạn muốn biết kết quả đọc chi tiết, hãy cài đặt ứng dụng Tarot Witch và tự mình kiểm tra kết quả đọc tarot của mình!\\n 👉 Tải xuống:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

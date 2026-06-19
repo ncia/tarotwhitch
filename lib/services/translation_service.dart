@@ -35,7 +35,7 @@ class TranslationService {
       }
 
       // 없으면 Gemini를 이용해 번역
-      final translatedText = await _translateText(text, targetLocale);
+      final translatedText = await translateText(text, targetLocale);
 
       // 번역 성공 시 Firestore에 업데이트 (캐싱)
       translations[targetLocale] = translatedText;
@@ -48,7 +48,7 @@ class TranslationService {
     }
   }
 
-  Future<String> _translateText(String text, String targetLanguage) async {
+  Future<String> translateText(String text, String targetLanguage) async {
     final prompt = '''
 Translate the following text into the language with the locale code: "$targetLanguage".
 Provide ONLY the translated text without any extra conversational filler, markdown formatting, or quotes.

@@ -1407,5 +1407,9 @@
   "profileEditCancel": "Cancelar",
   "profileEditSave": "Salvar",
   "spreadUpright": "vertical (Upright)",
-  "spreadReversed": "invertido (Reversed)"
+  "spreadReversed": "invertido (Reversed)",
+  "buttonShare": "Compartilhar",
+  "buttonSelectSpread": "Selecione Espalhar",
+  "buttonSelectOtherWitch": "Selecione outra bruxa",
+  "shareResultText": "🔮 Confira meus resultados de leitura de tarô!\\n\\nSe você quiser saber a leitura detalhada, instale o aplicativo Tarot Witch e verifique você mesmo sua leitura de tarô!\\n👉 Baixe:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
 }

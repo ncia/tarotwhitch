@@ -4151,4 +4151,17 @@ class AppLocalizationsLv extends AppLocalizations {
 
   @override
   String get spreadReversed => 'apgriezts (Reversed)';
+
+  @override
+  String get buttonShare => 'Dalīties';
+
+  @override
+  String get buttonSelectSpread => 'Atlasiet Spread';
+
+  @override
+  String get buttonSelectOtherWitch => 'Izvēlieties Cita ragana';
+
+  @override
+  String get shareResultText =>
+      '🔮 Apskatiet manus Tarot nolasīšanas rezultātus!\\n\\nJa vēlaties uzzināt detalizētu informāciju, instalējiet Tarot Witch lietotni un pārbaudiet Tarot lasījumu pats!\\n👉 Lejupielādējiet:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

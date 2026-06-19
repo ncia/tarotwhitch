@@ -4144,4 +4144,17 @@ class AppLocalizationsDa extends AppLocalizations {
 
   @override
   String get spreadReversed => 'omvendt (Reversed)';
+
+  @override
+  String get buttonShare => 'Dele';
+
+  @override
+  String get buttonSelectSpread => 'Vælg Spredning';
+
+  @override
+  String get buttonSelectOtherWitch => 'Vælg Anden heks';
+
+  @override
+  String get shareResultText =>
+      '🔮 Tjek mine Tarot-læsningsresultater!\\n\\nHvis du vil vide den detaljerede læsning, skal du installere Tarot Witch-appen og tjekke din tarotlæsning selv!\\n👉 Download:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

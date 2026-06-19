@@ -4146,4 +4146,17 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get spreadReversed => 'Tersine çevrilmiş (Reversed)';
+
+  @override
+  String get buttonShare => 'Paylaşmak';
+
+  @override
+  String get buttonSelectSpread => 'Forma\'yı seçin';
+
+  @override
+  String get buttonSelectOtherWitch => 'Diğer Cadıyı Seç';
+
+  @override
+  String get shareResultText =>
+      '🔮 Tarot falı sonuçlarıma göz atın!\\n\\nDetaylı falı öğrenmek istiyorsanız Tarot Cadısı uygulamasını yükleyin ve tarot falınızı kendiniz kontrol edin!\\n👉 İndirin:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

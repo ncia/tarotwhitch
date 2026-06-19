@@ -4163,4 +4163,17 @@ class AppLocalizationsTl extends AppLocalizations {
 
   @override
   String get spreadReversed => 'Baliktad (Reversed)';
+
+  @override
+  String get buttonShare => 'Ibahagi';
+
+  @override
+  String get buttonSelectSpread => 'Piliin ang Spread';
+
+  @override
+  String get buttonSelectOtherWitch => 'Piliin ang Iba pang mangkukulam';
+
+  @override
+  String get shareResultText =>
+      '🔮 Tingnan ang aking mga resulta sa pagbabasa ng Tarot!\\n\\nKung gusto mong malaman ang detalyadong pagbabasa, i-install ang Tarot Witch app at suriin ang iyong pagbabasa ng tarot!\\n👉 I-download:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

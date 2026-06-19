@@ -1441,5 +1441,9 @@
     }
   },
   "spreadUpright": "直立 (Upright)",
-  "spreadReversed": "反転 (Reversed)"
+  "spreadReversed": "反転 (Reversed)",
+  "buttonShare": "共有",
+  "buttonSelectSpread": "スプレッドを選択",
+  "buttonSelectOtherWitch": "他の魔女を選択",
+  "shareResultText": "🔮 私のタロット リーディング結果をチェックしてください!\\n\\n詳細なリーディングを知りたい場合は、タロット ウィッチ アプリをインストールして、自分のタロット リーディングをチェックしてください!\\n👉 ダウンロード:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
 }

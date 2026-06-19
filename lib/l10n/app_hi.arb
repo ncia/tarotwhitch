@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google से संपर्क करें",
   "cardDetailNotReady": "यह आपके लिए एक अच्छा विकल्प है।",
   "cardDetailLoadError": "मेरे पास एक नया उत्पाद है।",
-  "cardDetailTabUpright": "정방향 (ईमानदार)",
-  "cardDetailTabReversed": "역방향 (उलट)",
+  "cardDetailTabUpright": "सीधा (Upright)",
+  "cardDetailTabReversed": "उलटा (Reversed)",
   "cardDetailNoInterpretation": "यह एक अच्छा विचार है।",
   "cardDetailSectionKeywords": "बहुत बढ़िया",
   "cardDetailSectionGeneral": "ठीक है",
@@ -1407,5 +1407,14 @@
   "profileEditCancel": "रद्द करना",
   "profileEditSave": "बचाना",
   "spreadUpright": "ईमानदार (Upright)",
-  "spreadReversed": "उलट (Reversed)"
+  "spreadReversed": "उलट (Reversed)",
+  "buttonShare": "शेयर करना",
+  "buttonSelectSpread": "स्प्रेड का चयन करें",
+  "buttonSelectOtherWitch": "अन्य चुड़ैल का चयन करें",
+  "shareResultText": "✨ मेरे टैरो रीडिंग के परिणाम देखें!\\n\\nयदि आप विस्तृत भविष्यवाणी जानना चाहते हैं, तो टैरो विच ऐप इंस्टॉल करें और अपनी टैरो रीडिंग स्वयं देखें!\\n👉 डाउनलोड करें: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "{count} कार्ड चुनें",
+  "layoutFan": "पंखे का आकार",
+  "layoutStacked": "ढेर का आकार",
+  "readingFateFragments": "नियति के अंश पढ़ रहा हूँ।",
+  "magicDustObtained": "जादुई धूल +{amount} प्राप्त हुई! ✨"
 }

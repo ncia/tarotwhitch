@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (vzpřímený)",
-  "cardDetailTabReversed": "역방향 (obráceno)",
+  "cardDetailTabUpright": "Vzpřímená (Upright)",
+  "cardDetailTabReversed": "Obrácená (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1407,5 +1407,14 @@
   "profileEditCancel": "Zrušit",
   "profileEditSave": "Uložit",
   "spreadUpright": "vzpřímený (Upright)",
-  "spreadReversed": "obráceno (Reversed)"
+  "spreadReversed": "obráceno (Reversed)",
+  "buttonShare": "Podíl",
+  "buttonSelectSpread": "Vyberte Rozložit",
+  "buttonSelectOtherWitch": "Vyberte Jiná čarodějnice",
+  "shareResultText": "✨ Podívejte se na můj výsledek tarotového čtení!\\n\\nPokud chcete znát podrobný výklad, nainstalujte si aplikaci Tarotová čarodějnice a sami si přečtěte tarot!\\n👉 Stáhnout: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Vytáhněte {count} karet",
+  "layoutFan": "Vějíř",
+  "layoutStacked": "Naskládané",
+  "readingFateFragments": "Čtu úlomky osudu.",
+  "magicDustObtained": "Získáno magického prachu +{amount}! ✨"
 }

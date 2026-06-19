@@ -4182,4 +4182,17 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get spreadReversed => 'उलट (Reversed)';
+
+  @override
+  String get buttonShare => 'शेयर करना';
+
+  @override
+  String get buttonSelectSpread => 'स्प्रेड का चयन करें';
+
+  @override
+  String get buttonSelectOtherWitch => 'अन्य चुड़ैल का चयन करें';
+
+  @override
+  String get shareResultText =>
+      '🔮 मेरे टैरो रीडिंग परिणाम देखें!\\n\\nयदि आप विस्तृत रीडिंग जानना चाहते हैं, तो टैरो विच ऐप इंस्टॉल करें और अपनी टैरो रीडिंग स्वयं जांचें!\\n👉 डाउनलोड करें:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

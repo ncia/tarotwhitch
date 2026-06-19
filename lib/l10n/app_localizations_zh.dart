@@ -3950,6 +3950,19 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get spreadReversed => '逆位 (Reversed)';
+
+  @override
+  String get buttonShare => '分享';
+
+  @override
+  String get buttonSelectSpread => '选择点差';
+
+  @override
+  String get buttonSelectOtherWitch => '选择其他女巫';
+
+  @override
+  String get shareResultText =>
+      '🔮 查看我的塔罗牌占卜结果！\\n\\n如果你想了解详细占卜结果，请安装塔罗女巫应用程序，亲自查看你的塔罗占卜结果！\\n👉 下载：https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hans`).
@@ -7856,6 +7869,19 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
 
   @override
   String get spreadReversed => '逆位 (Reversed)';
+
+  @override
+  String get buttonShare => '分享';
+
+  @override
+  String get buttonSelectSpread => '选择点差';
+
+  @override
+  String get buttonSelectOtherWitch => '选择其他女巫';
+
+  @override
+  String get shareResultText =>
+      '🔮 查看我的塔罗牌占卜结果！\\n\\n如果你想了解详细占卜结果，请安装塔罗女巫应用程序，亲自查看你的塔罗占卜结果！\\n👉 下载：https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -11758,4 +11784,17 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get spreadReversed => '逆位 (Reversed)';
+
+  @override
+  String get buttonShare => '分享';
+
+  @override
+  String get buttonSelectSpread => '選擇點差';
+
+  @override
+  String get buttonSelectOtherWitch => '選擇其他女巫';
+
+  @override
+  String get shareResultText =>
+      '🔮 看看我的塔羅牌占卜結果！ \\n\\n如果你想了解詳細占卜結果，請安裝塔羅女巫應用程序，親自查看你的塔羅占卜結果！ \\n👉 下載：https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

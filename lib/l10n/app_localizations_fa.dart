@@ -4134,4 +4134,17 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get spreadReversed => 'معکوس (Reversed)';
+
+  @override
+  String get buttonShare => 'به اشتراک بگذارید';
+
+  @override
+  String get buttonSelectSpread => 'Spread را انتخاب کنید';
+
+  @override
+  String get buttonSelectOtherWitch => 'Other Witch را انتخاب کنید';
+
+  @override
+  String get shareResultText =>
+      '🔮 نتایج خواندن تاروت من را بررسی کنید!\\n\\nاگر می‌خواهید جزئیات خواندن را بدانید، برنامه Tarot Witch را نصب کنید و خودتان خواندن تاروت خود را بررسی کنید!\\n👉 دانلود کنید:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

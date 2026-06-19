@@ -4144,4 +4144,17 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get spreadReversed => 'tagurpidi (Reversed)';
+
+  @override
+  String get buttonShare => 'Jaga';
+
+  @override
+  String get buttonSelectSpread => 'Valige Spread';
+
+  @override
+  String get buttonSelectOtherWitch => 'Valige Muu nõid';
+
+  @override
+  String get shareResultText =>
+      '🔮 Vaadake minu Taro lugemise tulemusi!\\n\\nKui soovite täpsemat lugemist teada, installige rakendus Tarot Witch ja kontrollige oma taro lugemist ise!\\n👉 Laadige alla:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "جوجل 로 시작하기",
   "cardDetailNotReady": "تم إنشاء هذا التطبيق من قبل 않았 습니다.",
   "cardDetailLoadError": "هذا هو ما يحدث الآن.",
-  "cardDetailTabUpright": "정방향 (تستقيم)",
-  "cardDetailTabReversed": "역방향 (معكوس)",
+  "cardDetailTabUpright": "وضع مستقيم (Upright)",
+  "cardDetailTabReversed": "وضع معكوس (Reversed)",
   "cardDetailNoInterpretation": "شكرا جزيلا.",
   "cardDetailSectionKeywords": "شكرا لك",
   "cardDetailSectionGeneral": "شكرا لك",
@@ -1407,5 +1407,14 @@
   "profileEditCancel": "يلغي",
   "profileEditSave": "يحفظ",
   "spreadUpright": "تستقيم (Upright)",
-  "spreadReversed": "معكوس (Reversed)"
+  "spreadReversed": "معكوس (Reversed)",
+  "buttonShare": "يشارك",
+  "buttonSelectSpread": "حدد الانتشار",
+  "buttonSelectOtherWitch": "حدد ساحرة أخرى",
+  "shareResultText": "✨ تحقق من نتيجة قراءة التاروت الخاصة بي!\\n\\nإذا كنت ترغب في معرفة المزيد من التفاصيل حول قراءتك، قم بتثبيت تطبيق ساحرة التاروت وتحقق من قراءة التاروت بنفسك!\\n👉 تحميل: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "اسحب {count} بطاقة",
+  "layoutFan": "مروحة",
+  "layoutStacked": "مكدس",
+  "readingFateFragments": "جاري قراءة شظايا القدر.",
+  "magicDustObtained": "تم الحصول على غبار سحري +{amount}! ✨"
 }

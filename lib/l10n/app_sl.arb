@@ -1407,5 +1407,9 @@
   "profileEditCancel": "Prekliči",
   "profileEditSave": "Shrani",
   "spreadUpright": "pokončno (Upright)",
-  "spreadReversed": "obrnjeno (Reversed)"
+  "spreadReversed": "obrnjeno (Reversed)",
+  "buttonShare": "Delite",
+  "buttonSelectSpread": "Izberite Razširi",
+  "buttonSelectOtherWitch": "Izberite Druga čarovnica",
+  "shareResultText": "🔮 Oglejte si moje rezultate branja tarota!\\n\\nČe želite izvedeti podrobno branje, namestite aplikacijo Tarot Witch in sami preverite svoje branje tarota!\\n👉 Prenesite:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
 }

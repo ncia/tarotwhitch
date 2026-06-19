@@ -1407,5 +1407,9 @@
   "profileEditCancel": "Atšaukti",
   "profileEditSave": "Išsaugoti",
   "spreadUpright": "stačiai (Upright)",
-  "spreadReversed": "atvirkščiai (Reversed)"
+  "spreadReversed": "atvirkščiai (Reversed)",
+  "buttonShare": "Dalintis",
+  "buttonSelectSpread": "Pasirinkite Skleisti",
+  "buttonSelectOtherWitch": "Pasirinkite Kita ragana",
+  "shareResultText": "🔮 Peržiūrėkite mano Taro skaitymo rezultatus!\\n\\nJei norite sužinoti išsamią informaciją, įdiekite Taro Witch programėlę ir patys patikrinkite savo taro skaitymą!\\n👉 Atsisiųskite:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
 }

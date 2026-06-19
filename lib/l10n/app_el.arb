@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (Όρθιος)",
-  "cardDetailTabReversed": "역방향 (Αντίστροφη)",
+  "cardDetailTabUpright": "Όρθια (Upright)",
+  "cardDetailTabReversed": "Ανεστραμμένη (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1407,5 +1407,14 @@
   "profileEditCancel": "Ματαίωση",
   "profileEditSave": "Εκτός",
   "spreadUpright": "Όρθιος (Upright)",
-  "spreadReversed": "Αντίστροφη (Reversed)"
+  "spreadReversed": "Αντίστροφη (Reversed)",
+  "buttonShare": "Μερίδιο",
+  "buttonSelectSpread": "Επιλέξτε Διάδοση",
+  "buttonSelectOtherWitch": "Επιλέξτε Άλλη μάγισσα",
+  "shareResultText": "✨ Δείτε τα αποτελέσματα της ταρώ μου!\\n\\nΑν θέλετε να μάθετε την αναλυτική πρόβλεψη, εγκαταστήστε την εφαρμογή Tarot Witch και δείτε την ταρώ σας μόνοι σας!\\n👉 Λήψη: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Τραβήξτε {count} κάρτες",
+  "layoutFan": "Βεντάλια",
+  "layoutStacked": "Στοιβαγμένα",
+  "readingFateFragments": "Διαβάζω τα κομμάτια της μοίρας.",
+  "magicDustObtained": "Σκόνη Μαγείας +{amount} αποκτήθηκε! ✨"
 }

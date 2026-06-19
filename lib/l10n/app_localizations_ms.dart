@@ -4144,4 +4144,17 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get spreadReversed => 'Terbalik (Reversed)';
+
+  @override
+  String get buttonShare => 'Kongsi';
+
+  @override
+  String get buttonSelectSpread => 'Pilih Sebarkan';
+
+  @override
+  String get buttonSelectOtherWitch => 'Pilih Penyihir Lain';
+
+  @override
+  String get shareResultText =>
+      '🔮 Lihat hasil bacaan Tarot saya!\\n\\nJika anda ingin mengetahui bacaan terperinci, pasang aplikasi Tarot Witch dan semak bacaan tarot anda sendiri!\\n👉 Muat turun:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

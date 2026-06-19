@@ -1407,5 +1407,9 @@
   "profileEditCancel": "Скасувати",
   "profileEditSave": "зберегти",
   "spreadUpright": "Вертикальний (Upright)",
-  "spreadReversed": "перевернута (Reversed)"
+  "spreadReversed": "перевернута (Reversed)",
+  "buttonShare": "Поділіться",
+  "buttonSelectSpread": "Виберіть Розповсюдити",
+  "buttonSelectOtherWitch": "Виберіть «Інша відьма».",
+  "shareResultText": "🔮 Перегляньте мої результати читання Таро!\\n\\nЯкщо ви хочете знати детальне читання, установіть додаток Tarot Witch і перевірте своє читання Таро самостійно!\\n👉 Завантажте:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
 }

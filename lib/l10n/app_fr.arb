@@ -1407,5 +1407,14 @@
   "profileEditCancel": "Annuler",
   "profileEditSave": "Sauvegarder",
   "spreadUpright": "Droit (Upright)",
-  "spreadReversed": "Inversé (Reversed)"
+  "spreadReversed": "Inversé (Reversed)",
+  "buttonShare": "Partager",
+  "buttonSelectSpread": "Sélectionnez la diffusion",
+  "buttonSelectOtherWitch": "Sélectionnez une autre sorcière",
+  "shareResultText": "✨ Découvrez le résultat de mon tirage de tarot !\\n\\nPour une interprétation détaillée, installez l'application Tarot Witch et consultez votre tirage de tarot !\\n👉 Télécharger : https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Tirez {count} cartes",
+  "layoutFan": "En éventail",
+  "layoutStacked": "Empilé",
+  "readingFateFragments": "Lecture des fragments du destin.",
+  "magicDustObtained": "Poussière magique +{amount} obtenue ! ✨"
 }

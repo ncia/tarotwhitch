@@ -4151,4 +4151,17 @@ class AppLocalizationsSk extends AppLocalizations {
 
   @override
   String get spreadReversed => 'obrátené (Reversed)';
+
+  @override
+  String get buttonShare => 'zdieľať';
+
+  @override
+  String get buttonSelectSpread => 'Vyberte možnosť Rozložiť';
+
+  @override
+  String get buttonSelectOtherWitch => 'Vyberte Iná čarodejnica';
+
+  @override
+  String get shareResultText =>
+      '🔮 Pozrite si moje výsledky čítania tarotov!\\n\\nAk chcete vedieť podrobné čítanie, nainštalujte si aplikáciu Tarot Witch a skontrolujte si čítanie tarotov sami!\\n👉 Stiahnite si:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

@@ -4316,4 +4316,17 @@ class AppLocalizationsHy extends AppLocalizations {
 
   @override
   String get spreadReversed => 'Շրջված (Reversed)';
+
+  @override
+  String get buttonShare => 'Կիսվել';
+
+  @override
+  String get buttonSelectSpread => 'Ընտրեք Տարածել';
+
+  @override
+  String get buttonSelectOtherWitch => 'Ընտրեք Այլ կախարդ';
+
+  @override
+  String get shareResultText =>
+      '🔮 Ստուգեք իմ Tarot-ի ընթերցման արդյունքները:\\n\\nԵթե ցանկանում եք իմանալ մանրամասն ընթերցանությունը, տեղադրեք Tarot Witch հավելվածը և ինքներդ ստուգեք ձեր Tarot-ի ընթերցանությունը:\\n👉 Ներբեռնեք՝https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

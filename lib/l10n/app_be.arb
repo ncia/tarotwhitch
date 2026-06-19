@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (вертыкальна)",
-  "cardDetailTabReversed": "역방향 (перавернуты)",
+  "cardDetailTabUpright": "Прамое становішча (Upright)",
+  "cardDetailTabReversed": "Перавернутае становішча (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1407,5 +1407,14 @@
   "profileEditCancel": "Адмяніць",
   "profileEditSave": "Захаваць",
   "spreadUpright": "вертыкальна (Upright)",
-  "spreadReversed": "перавернуты (Reversed)"
+  "spreadReversed": "перавернуты (Reversed)",
+  "buttonShare": "падзяліцца",
+  "buttonSelectSpread": "Выберыце Распаўсюджванне",
+  "buttonSelectOtherWitch": "Абярыце \"Іншая ведзьма\".",
+  "shareResultText": "✨ Праверце мой вынік варажбы на таро!\\n\\nКалі вы хочаце даведацца падрабязны прагноз, усталюйце праграму «Таро Ведзьма» і праверце варажбу на таро самі!\\n👉 Спампаваць: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Выберыце {count} карт",
+  "layoutFan": "Веер",
+  "layoutStacked": "Наслаенне",
+  "readingFateFragments": "Чытаю фрагменты лёсу.",
+  "magicDustObtained": "Чароўны пыл +{amount} атрымана! ✨"
 }

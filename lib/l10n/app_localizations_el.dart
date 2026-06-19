@@ -4152,4 +4152,17 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String get spreadReversed => 'Αντίστροφη (Reversed)';
+
+  @override
+  String get buttonShare => 'Μερίδιο';
+
+  @override
+  String get buttonSelectSpread => 'Επιλέξτε Διάδοση';
+
+  @override
+  String get buttonSelectOtherWitch => 'Επιλέξτε Άλλη μάγισσα';
+
+  @override
+  String get shareResultText =>
+      '🔮 Δείτε τα αποτελέσματα ανάγνωσης Ταρώ!\\n\\nΕάν θέλετε να μάθετε τη λεπτομερή ανάγνωση, εγκαταστήστε την εφαρμογή Tarot Witch και ελέγξτε μόνοι σας την ανάγνωση των Ταρώ!\\n👉 Λήψη:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

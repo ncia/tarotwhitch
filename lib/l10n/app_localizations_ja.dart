@@ -3956,4 +3956,17 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get spreadReversed => '反転 (Reversed)';
+
+  @override
+  String get buttonShare => '共有';
+
+  @override
+  String get buttonSelectSpread => 'スプレッドを選択';
+
+  @override
+  String get buttonSelectOtherWitch => '他の魔女を選択';
+
+  @override
+  String get shareResultText =>
+      '🔮 私のタロット リーディング結果をチェックしてください!\\n\\n詳細なリーディングを知りたい場合は、タロット ウィッチ アプリをインストールして、自分のタロット リーディングをチェックしてください!\\n👉 ダウンロード:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

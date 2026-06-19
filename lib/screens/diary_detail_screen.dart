@@ -9,6 +9,7 @@ import '../data/tarot_data.dart';
 import '../data/witch_data.dart';
 import '../data/spread_type.dart';
 import '../services/diary_service.dart';
+import '../services/translation_service.dart';
 import 'package:flutter_tarot/l10n/tarot_localizations.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import 'package:intl/intl.dart';
@@ -26,6 +27,11 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
   late TarotDiary _diary;
   final TextEditingController _followUpController = TextEditingController();
   bool _isEditingFollowUp = false;
+
+  bool _isTranslating = false;
+  String? _translatedResultText;
+  String? _translatedMyNote;
+  final TranslationService _translationService = TranslationService();
 
   @override
   void initState() {
@@ -66,6 +72,40 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
     setState(() {
       _diary = updated;
     });
+  }
+
+  void _translateDiary() async {
+    if (_isTranslating) return;
+    setState(() => _isTranslating = true);
+
+    try {
+      final targetLocale = Localizations.localeOf(context).languageCode;
+      
+      String translatedResult = _diary.resultText;
+      if (translatedResult.isEmpty && _diary.cardMeanings.isNotEmpty) {
+        translatedResult = _diary.cardMeanings.join('\n\n');
+      }
+
+      if (translatedResult.isNotEmpty) {
+        translatedResult = await _translationService.translateText(translatedResult, targetLocale);
+      }
+      
+      String translatedNote = _diary.myNote;
+      if (translatedNote.isNotEmpty && translatedNote != '타로 리딩') {
+        translatedNote = await _translationService.translateText(translatedNote, targetLocale);
+      }
+
+      if (mounted) {
+        setState(() {
+          _translatedResultText = translatedResult;
+          _translatedMyNote = translatedNote;
+        });
+      }
+    } catch (e) {
+      if (mounted) ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('번역 실패: $e')));
+    } finally {
+      if (mounted) setState(() => _isTranslating = false);
+    }
   }
 
   @override
@@ -219,7 +259,7 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
                                 fontWeight: FontWeight.bold,
                                 fontSize: 14)),
                         const SizedBox(height: 8),
-                        Text(_diary.myNote,
+                        Text(_translatedMyNote ?? _diary.myNote,
                             style: const TextStyle(
                                 color: Colors.white, fontSize: 16)),
                       ],
@@ -279,14 +319,26 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
                       ),
                       const SizedBox(height: 12),
                       Text(
-                        _diary.resultText.isNotEmpty
+                        _translatedResultText ?? (_diary.resultText.isNotEmpty
                             ? _diary.resultText
                             : (_diary.cardMeanings.isNotEmpty
                                 ? _diary.cardMeanings.join('\n\n')
-                                : AppLocalizations.of(context)!.diaryNoResult),
+                                : AppLocalizations.of(context)!.diaryNoResult)),
                         style: const TextStyle(
                             color: Colors.white, fontSize: 15, height: 1.5),
                       ),
+                      const SizedBox(height: 12),
+                      if (_translatedResultText == null)
+                        Align(
+                          alignment: Alignment.centerRight,
+                          child: TextButton.icon(
+                            onPressed: _translateDiary,
+                            icon: _isTranslating
+                                ? const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.cyanAccent))
+                                : const Icon(Icons.translate, color: Colors.cyanAccent, size: 18),
+                            label: Text('번역 보기', style: const TextStyle(color: Colors.cyanAccent, fontSize: 13)),
+                          ),
+                        ),
                     ],
                   ),
                 ),

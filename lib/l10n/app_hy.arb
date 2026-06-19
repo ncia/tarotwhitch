@@ -1407,5 +1407,9 @@
   "profileEditCancel": "Չեղարկել",
   "profileEditSave": "Պահպանել",
   "spreadUpright": "Ուղիղ (Upright)",
-  "spreadReversed": "Շրջված (Reversed)"
+  "spreadReversed": "Շրջված (Reversed)",
+  "buttonShare": "Կիսվել",
+  "buttonSelectSpread": "Ընտրեք Տարածել",
+  "buttonSelectOtherWitch": "Ընտրեք Այլ կախարդ",
+  "shareResultText": "🔮 Ստուգեք իմ Tarot-ի ընթերցման արդյունքները:\\n\\nԵթե ցանկանում եք իմանալ մանրամասն ընթերցանությունը, տեղադրեք Tarot Witch հավելվածը և ինքներդ ստուգեք ձեր Tarot-ի ընթերցանությունը:\\n👉 Ներբեռնեք՝https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
 }

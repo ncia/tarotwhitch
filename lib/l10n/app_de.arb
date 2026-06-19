@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google-Suche",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (aufrecht)",
-  "cardDetailTabReversed": "역방향 (Umgekehrt)",
+  "cardDetailTabUpright": "Aufrecht (Upright)",
+  "cardDetailTabReversed": "Umgekehrt (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1407,5 +1407,14 @@
   "profileEditCancel": "Stornieren",
   "profileEditSave": "Speichern",
   "spreadUpright": "aufrecht (Upright)",
-  "spreadReversed": "Umgekehrt (Reversed)"
+  "spreadReversed": "Umgekehrt (Reversed)",
+  "buttonShare": "Aktie",
+  "buttonSelectSpread": "Wählen Sie „Spread“.",
+  "buttonSelectOtherWitch": "Wählen Sie „Andere Hexe“.",
+  "shareResultText": "✨ Sieh dir mein Tarot-Ergebnis an!\\n\\nWenn du eine detaillierte Vorhersage möchtest, installiere die Tarot-Hexe-App und sieh dir dein Tarot-Ergebnis selbst an!\\n👉 Download: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "{count} Karten ziehen",
+  "layoutFan": "Fächer",
+  "layoutStacked": "Gestapelt",
+  "readingFateFragments": "Lese die Fragmente des Schicksals.",
+  "magicDustObtained": "Magischer Staub +{amount} erhalten! ✨"
 }

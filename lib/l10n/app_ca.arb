@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (Vertical)",
-  "cardDetailTabReversed": "역방향 (invertit)",
+  "cardDetailTabUpright": "Dret (Upright)",
+  "cardDetailTabReversed": "Invertit (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1407,5 +1407,14 @@
   "profileEditCancel": "Cancel·la",
   "profileEditSave": "Desa",
   "spreadUpright": "Vertical (Upright)",
-  "spreadReversed": "invertit (Reversed)"
+  "spreadReversed": "invertit (Reversed)",
+  "buttonShare": "Comparteix",
+  "buttonSelectSpread": "Seleccioneu Spread",
+  "buttonSelectOtherWitch": "Seleccioneu una altra bruixa",
+  "shareResultText": "✨ Consulta el meu resultat de la lectura de tarot!\\n\\nSi vols saber la predicció detallada, instal·la l'aplicació Tarot Witch i consulta el tarot tu mateix!\\n👉 Descàrrega: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Tria {count} cartes",
+  "layoutFan": "Ventall",
+  "layoutStacked": "Apilat",
+  "readingFateFragments": "Llegint fragments del destí.",
+  "magicDustObtained": "Pols màgica +{amount} obtinguda! ✨"
 }

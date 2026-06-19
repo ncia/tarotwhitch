@@ -1407,5 +1407,9 @@
   "profileEditCancel": "Atcelt",
   "profileEditSave": "Saglabāt",
   "spreadUpright": "stāvus (Upright)",
-  "spreadReversed": "apgriezts (Reversed)"
+  "spreadReversed": "apgriezts (Reversed)",
+  "buttonShare": "Dalīties",
+  "buttonSelectSpread": "Atlasiet Spread",
+  "buttonSelectOtherWitch": "Izvēlieties Cita ragana",
+  "shareResultText": "🔮 Apskatiet manus Tarot nolasīšanas rezultātus!\\n\\nJa vēlaties uzzināt detalizētu informāciju, instalējiet Tarot Witch lietotni un pārbaudiet Tarot lasījumu pats!\\n👉 Lejupielādējiet:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
 }

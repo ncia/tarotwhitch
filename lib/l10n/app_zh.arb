@@ -1407,5 +1407,9 @@
   "profileEditCancel": "取消",
   "profileEditSave": "节省",
   "spreadUpright": "正位 (Upright)",
-  "spreadReversed": "逆位 (Reversed)"
+  "spreadReversed": "逆位 (Reversed)",
+  "buttonShare": "分享",
+  "buttonSelectSpread": "选择点差",
+  "buttonSelectOtherWitch": "选择其他女巫",
+  "shareResultText": "🔮 查看我的塔罗牌占卜结果！\\n\\n如果你想了解详细占卜结果，请安装塔罗女巫应用程序，亲自查看你的塔罗占卜结果！\\n👉 下载：https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
 }

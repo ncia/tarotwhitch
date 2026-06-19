@@ -1407,5 +1407,9 @@
   "profileEditCancel": "Avboka",
   "profileEditSave": "Spara",
   "spreadUpright": "upprätt (Upright)",
-  "spreadReversed": "omvänt (Reversed)"
+  "spreadReversed": "omvänt (Reversed)",
+  "buttonShare": "Dela",
+  "buttonSelectSpread": "Välj Sprid",
+  "buttonSelectOtherWitch": "Välj Annan häxa",
+  "shareResultText": "🔮 Kolla in mina tarotläsningsresultat!\\n\\nOm du vill veta den detaljerade läsningen, installera Tarot Witch-appen och kontrollera din tarotläsning själv!\\n👉 Ladda ner:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
 }

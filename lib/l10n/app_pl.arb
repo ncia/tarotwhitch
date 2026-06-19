@@ -1407,5 +1407,9 @@
   "profileEditCancel": "Anulować",
   "profileEditSave": "Ratować",
   "spreadUpright": "pionowo (Upright)",
-  "spreadReversed": "odwrócony (Reversed)"
+  "spreadReversed": "odwrócony (Reversed)",
+  "buttonShare": "Udział",
+  "buttonSelectSpread": "Wybierz opcję Rozłóż",
+  "buttonSelectOtherWitch": "Wybierz Inną Czarownicę",
+  "shareResultText": "🔮 Sprawdź moje wyniki czytania Tarota!\\n\\nJeśli chcesz poznać szczegółowe odczyty, zainstaluj aplikację Tarot Witch i sam sprawdź swoje czytanie Tarota!\\n👉 Pobierz:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
 }

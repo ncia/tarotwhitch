@@ -705,7 +705,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                         _shareReadingResult();
                       },
                       icon: const Icon(Icons.share, size: 18),
-                      label: const Text('공유하기'),
+                      label: Text(AppLocalizations.of(context)!.buttonShare),
                       style: OutlinedButton.styleFrom(
                         foregroundColor: Colors.amberAccent,
                         side: const BorderSide(color: Colors.amberAccent),
@@ -722,7 +722,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                         side: const BorderSide(color: Colors.white54),
                         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
                       ),
-                      child: const Text('스프레드 선택'),
+                      child: Text(AppLocalizations.of(context)!.buttonSelectSpread),
                     ),
                     const SizedBox(width: 12),
                     ElevatedButton(
@@ -734,7 +734,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                         foregroundColor: Colors.white,
                         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
                       ),
-                      child: const Text('다른 마녀 선택'),
+                      child: Text(AppLocalizations.of(context)!.buttonSelectOtherWitch),
                     ),
                   ],
                 ),
@@ -747,7 +747,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
 
   void _shareReadingResult() async {
     try {
-      final text = '🔮 내 타로 점괘 결과를 확인해보세요!\n\n자세한 점괘 내용이 궁금하다면 타로마녀 앱을 설치해서 직접 타로 점을 확인해 보세요!\n👉 다운로드: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      final text = AppLocalizations.of(context)!.shareResultText;
 
       if (kIsWeb) {
         // 웹에서는 파일 시스템 접근이 불가능하므로 텍스트만 공유

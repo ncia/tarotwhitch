@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (ایستاده)",
-  "cardDetailTabReversed": "역방향 (معکوس)",
+  "cardDetailTabUpright": "مستقیم (Upright)",
+  "cardDetailTabReversed": "معکوس (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1407,5 +1407,14 @@
   "profileEditCancel": "لغو کنید",
   "profileEditSave": "ذخیره کنید",
   "spreadUpright": "ایستاده (Upright)",
-  "spreadReversed": "معکوس (Reversed)"
+  "spreadReversed": "معکوس (Reversed)",
+  "buttonShare": "به اشتراک بگذارید",
+  "buttonSelectSpread": "Spread را انتخاب کنید",
+  "buttonSelectOtherWitch": "Other Witch را انتخاب کنید",
+  "shareResultText": "✨ نتایج فال تاروت من را بررسی کنید!\\n\\nاگر می‌خواهید فال دقیق را بدانید، برنامه جادوگر تاروت را نصب کنید و فال تاروت خود را مستقیماً بررسی کنید!\\n👉 دانلود: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "{count} کارت را انتخاب کنید",
+  "layoutFan": "بادبزنی",
+  "layoutStacked": "روی هم چیده شده",
+  "readingFateFragments": "در حال خواندن تکه‌های سرنوشت هستم.",
+  "magicDustObtained": "غبار جادویی +{amount} به دست آمد! ✨"
 }

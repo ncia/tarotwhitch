@@ -4147,4 +4147,17 @@ class AppLocalizationsSr extends AppLocalizations {
 
   @override
   String get spreadReversed => 'обрнуто (Reversed)';
+
+  @override
+  String get buttonShare => 'Схаре';
+
+  @override
+  String get buttonSelectSpread => 'Изаберите Спреад';
+
+  @override
+  String get buttonSelectOtherWitch => 'Изаберите Друга вештица';
+
+  @override
+  String get shareResultText =>
+      '🔮 Погледајте моје резултате читања тарота!\\н\\нАко желите да сазнате детаљније читање, инсталирајте апликацију Тарот вештица и сами проверите своје читање тарота!\\н👉 Преузмите: хттпс://плаи.гоогле.цом/сторе/аппс/детаилс?ид=цом.нциа.тарот_цард';
 }

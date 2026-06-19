@@ -1407,5 +1407,9 @@
   "profileEditCancel": "Отмена",
   "profileEditSave": "Сохранять",
   "spreadUpright": "вертикальный (Upright)",
-  "spreadReversed": "перевернутый (Reversed)"
+  "spreadReversed": "перевернутый (Reversed)",
+  "buttonShare": "Делиться",
+  "buttonSelectSpread": "Выберите Спред",
+  "buttonSelectOtherWitch": "Выбрать другую ведьму",
+  "shareResultText": "🔮 Посмотрите мои результаты чтения Таро!\\n\\nЕсли вы хотите узнать подробности, установите приложение Tarot Witch и проверьте свое чтение Таро самостоятельно!\\n👉 Скачать:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
 }

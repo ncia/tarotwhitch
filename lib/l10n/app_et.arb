@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (püsti)",
-  "cardDetailTabReversed": "역방향 (tagurpidi)",
+  "cardDetailTabUpright": "Püstine (Upright)",
+  "cardDetailTabReversed": "Tagurpidi (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1407,5 +1407,14 @@
   "profileEditCancel": "Tühista",
   "profileEditSave": "Salvesta",
   "spreadUpright": "püsti (Upright)",
-  "spreadReversed": "tagurpidi (Reversed)"
+  "spreadReversed": "tagurpidi (Reversed)",
+  "buttonShare": "Jaga",
+  "buttonSelectSpread": "Valige Spread",
+  "buttonSelectOtherWitch": "Valige Muu nõid",
+  "shareResultText": "✨ Vaata minu tarokaardi ennustuse tulemusi!\\n\\nKui soovid teada üksikasjalikku ennustust, installi Tarot Nõia rakendus ja vaata oma tarokaardi ennustust ise!\\n👉 Laadi alla: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Tõmmake {count} kaarti",
+  "layoutFan": "Lehvik",
+  "layoutStacked": "Virnastatud",
+  "readingFateFragments": "Loen saatuse kilde.",
+  "magicDustObtained": "Maagilist tolmu +{amount} saadud! ✨"
 }

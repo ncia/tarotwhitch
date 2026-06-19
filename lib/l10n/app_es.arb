@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (vertical)",
-  "cardDetailTabReversed": "역방향 (invertido)",
+  "cardDetailTabUpright": "Derecha (Upright)",
+  "cardDetailTabReversed": "Invertida (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1407,5 +1407,14 @@
   "profileEditCancel": "Cancelar",
   "profileEditSave": "Ahorrar",
   "spreadUpright": "vertical (Upright)",
-  "spreadReversed": "invertido (Reversed)"
+  "spreadReversed": "invertido (Reversed)",
+  "buttonShare": "Compartir",
+  "buttonSelectSpread": "Seleccionar propagación",
+  "buttonSelectOtherWitch": "Seleccionar otra bruja",
+  "shareResultText": "✨ ¡Mira los resultados de mi lectura de tarot!\\n\\nSi quieres una lectura detallada, instala la aplicación Tarot Witch y consulta tu tarot directamente.\\n👉 Descargar: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Elige {count} cartas",
+  "layoutFan": "Abanico",
+  "layoutStacked": "Apilado",
+  "readingFateFragments": "Leyendo los fragmentos del destino.",
+  "magicDustObtained": "¡Polvo mágico +{amount} obtenido! ✨"
 }

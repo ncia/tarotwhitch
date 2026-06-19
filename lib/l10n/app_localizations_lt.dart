@@ -4145,4 +4145,17 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String get spreadReversed => 'atvirkščiai (Reversed)';
+
+  @override
+  String get buttonShare => 'Dalintis';
+
+  @override
+  String get buttonSelectSpread => 'Pasirinkite Skleisti';
+
+  @override
+  String get buttonSelectOtherWitch => 'Pasirinkite Kita ragana';
+
+  @override
+  String get shareResultText =>
+      '🔮 Peržiūrėkite mano Taro skaitymo rezultatus!\\n\\nJei norite sužinoti išsamią informaciją, įdiekite Taro Witch programėlę ir patys patikrinkite savo taro skaitymą!\\n👉 Atsisiųskite:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 }

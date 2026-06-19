@@ -1407,5 +1407,9 @@
   "profileEditCancel": "Membatalkan",
   "profileEditSave": "Menyimpan",
   "spreadUpright": "Tegak (Upright)",
-  "spreadReversed": "Terbalik (Reversed)"
+  "spreadReversed": "Terbalik (Reversed)",
+  "buttonShare": "Membagikan",
+  "buttonSelectSpread": "Pilih Penyebaran",
+  "buttonSelectOtherWitch": "Pilih Penyihir Lainnya",
+  "shareResultText": "🔮 Lihat hasil pembacaan Tarot saya!\\n\\nJika Anda ingin mengetahui pembacaan detailnya, instal aplikasi Tarot Witch dan periksa sendiri pembacaan tarot Anda!\\n👉 Unduh:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
 }

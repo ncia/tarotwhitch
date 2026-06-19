@@ -1408,5 +1408,9 @@
   "profileEditCancel": "ยกเลิก",
   "profileEditSave": "บันทึก",
   "spreadUpright": "정정향 (ตรง) (Upright)",
-  "spreadReversed": "역성향 (กลับด้าน) (Reversed)"
+  "spreadReversed": "역성향 (กลับด้าน) (Reversed)",
+  "buttonShare": "แบ่งปัน",
+  "buttonSelectSpread": "เลือกสเปรด",
+  "buttonSelectOtherWitch": "เลือกแม่มดอื่น ๆ",
+  "shareResultText": "🔮 ตรวจสอบผลการอ่านไพ่ยิปซีของฉัน!\\n\\nหากคุณต้องการทราบการอ่านโดยละเอียด ให้ติดตั้งแอป Tarot Witch และตรวจสอบการอ่านไพ่ยิปซีของคุณด้วยตัวเอง!\\n👉 ดาวน์โหลด:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
 }

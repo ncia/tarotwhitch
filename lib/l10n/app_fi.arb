@@ -1407,5 +1407,14 @@
   "profileEditCancel": "Peruuttaa",
   "profileEditSave": "Tallentaa",
   "spreadUpright": "Oikein päin (Upright)",
-  "spreadReversed": "Käännettynä (Reversed)"
+  "spreadReversed": "Käännettynä (Reversed)",
+  "buttonShare": "Jakaa",
+  "buttonSelectSpread": "Valitse Levitä",
+  "buttonSelectOtherWitch": "Valitse Muu noita",
+  "shareResultText": "✨ Katso tarot-tulkintani tulos!\\n\\nJos haluat tietää yksityiskohtaisen ennustuksen, asenna Tarot-noita-sovellus ja tarkista tarot-tulkintasi itse!\\n👉 Lataa: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Vedä {count} korttia",
+  "layoutFan": "Viuhka",
+  "layoutStacked": "Pinottu",
+  "readingFateFragments": "Luetaan kohtalon sirpaleita.",
+  "magicDustObtained": "Saimme taikapölyä +{amount}! ✨"
 }
