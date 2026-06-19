@@ -209,8 +209,8 @@ class _ChatScreenState extends State<ChatScreen> {
         context: context,
         builder: (ctx) => AlertDialog(
           backgroundColor: Colors.deepPurple.shade900,
-          title: const Text('코인 부족', style: TextStyle(color: Colors.white)),
-          content: const Text('코인이 부족합니다. 타로 상담에는 코인 1개가 필요합니다.', style: TextStyle(color: Colors.white70)),
+          title: Text(AppLocalizations.of(context)!.coinShortageTitle, style: const TextStyle(color: Colors.white)),
+          content: Text(AppLocalizations.of(context)!.coinShortageContent, style: const TextStyle(color: Colors.white70)),
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(ctx),
@@ -226,8 +226,8 @@ class _ChatScreenState extends State<ChatScreen> {
       context: context,
       builder: (ctx) => AlertDialog(
         backgroundColor: Colors.deepPurple.shade900,
-        title: const Text('타로 상담 진행', style: TextStyle(color: Colors.white)),
-        content: const Text('코인 1개를 소모하여 상담을 진행하시겠습니까?', style: TextStyle(color: Colors.white70)),
+        title: Text(AppLocalizations.of(context)!.proceedReadingTitle, style: const TextStyle(color: Colors.white)),
+        content: Text(AppLocalizations.of(context)!.proceedReadingContent, style: const TextStyle(color: Colors.white70)),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(ctx, false),
@@ -236,7 +236,7 @@ class _ChatScreenState extends State<ChatScreen> {
           ElevatedButton(
             onPressed: () => Navigator.pop(ctx, true),
             style: ElevatedButton.styleFrom(backgroundColor: Colors.purpleAccent),
-            child: const Text('진행', style: TextStyle(color: Colors.white)),
+            child: Text(AppLocalizations.of(context)!.dialogProceed, style: const TextStyle(color: Colors.white)),
           ),
         ],
       ),
@@ -328,8 +328,8 @@ class _ChatScreenState extends State<ChatScreen> {
       await EconomyService().addMagicDust(10);
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('마력의 가루 +10 획득! ✨', style: TextStyle(fontWeight: FontWeight.bold)),
+          SnackBar(
+            content: Text(AppLocalizations.of(context)!.magicDustObtained(10), style: const TextStyle(fontWeight: FontWeight.bold)),
             backgroundColor: Colors.purple,
             duration: Duration(seconds: 3),
           ),

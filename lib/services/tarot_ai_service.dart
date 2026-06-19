@@ -30,7 +30,7 @@ ${cards.asMap().entries.map((e) => '${e.key + 1}. ${e.value}').join('\n')}
 * 정통 라이더 웨이트 해석(정방향/역방향)을 기반으로 하되, **반드시 당신의 페르소나 성격에 맞는 방식**으로 결과를 전달하세요. (예: 다정한 성격이면 부드러운 위로를, 차가운 성격이면 객관적이고 따끔한 팩트폭격을, 늙은 마녀면 연륜이 묻어나는 옛스러운 비유를 사용 등)
 * 역방향이 나왔더라도 각 캐릭터의 성향에 맞는 방식(위로, 호통, 현실적 대안 등)으로 조언을 덧붙여 주세요.
 * 답변은 3~4문단 정도로 작성하며, 마크다운 기호(*, # 등)를 최대한 자제하고 온전히 캐릭터에 빙의하여 자연스러운 대화체로 작성해 주세요.
-* IMPORTANT: You MUST answer strictly in the language represented by the ISO 639-1 locale code '$localeCode'. Do not mix languages.
+* **CRITICAL INSTRUCTION**: Your entire response MUST be translated into the language corresponding to the locale code '$localeCode' (e.g. if 'ja', use Japanese. if 'th', use Thai. if 'ko', use Korean. if 'en', use English). DO NOT respond in English or Korean unless the locale matches.
 ''';
 
     try {

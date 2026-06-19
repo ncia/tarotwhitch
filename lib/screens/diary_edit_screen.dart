@@ -5,6 +5,7 @@ import '../data/tarot_data.dart';
 import '../data/tarot_diary.dart';
 import '../services/diary_service.dart';
 import 'package:flutter_tarot/l10n/tarot_localizations.dart';
+import 'package:flutter_tarot/l10n/app_localizations.dart';
 
 class DiaryEditScreen extends StatefulWidget {
   final List<TarotCardData> cards;

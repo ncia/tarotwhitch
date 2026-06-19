@@ -235,7 +235,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
     }
     
     String spreadName = widget.spreadType.name;
-    String prompt = "사용자가 질문 없이 $spreadName 배열법으로 타로 카드를 뽑았습니다. 뽑힌 카드들을 배열법의 각 위치에 맞게 해석하고 전반적인 운세와 조언을 해주세요. 답변은 반드시 타이틀 없이 '네, 뽑으신 카드들을 보죠.' 라는 문장으로 바로 시작해주세요.";
+    String prompt = "사용자가 질문 없이 $spreadName 배열법으로 타로카드를 뽑았습니다. 뽑힌 카드들을 배열법의 각 위치에 맞게 해석하고 전반적인 운세와 조언을 해주세요. 답변은 반드시 당신의 페르소나 톤으로 바로 시작해주세요.";
     
     final stream = _aiService.getTarotReadingStream(prompt, pickedCards, widget.selectedWitch!.personalityPrompt, Localizations.localeOf(context).languageCode);
     
