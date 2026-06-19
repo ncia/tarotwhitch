@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로시작하기",
   "cardDetailNotReady": "앴석은 아직 준비되지 않았습니다。",
   "cardDetailLoadError": "请注意，请注意以下事项。",
-  "cardDetailTabUpright": "정방향 (直立)",
-  "cardDetailTabReversed": "역방향 (逆位)",
+  "cardDetailTabUpright": "正位 (Upright)",
+  "cardDetailTabReversed": "逆位 (Reversed)",
   "cardDetailNoInterpretation": "해석없습니다。",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1411,5 +1411,10 @@
   "buttonShare": "分享",
   "buttonSelectSpread": "选择点差",
   "buttonSelectOtherWitch": "选择其他女巫",
-  "shareResultText": "🔮 查看我的塔罗牌占卜结果！\\n\\n如果你想了解详细占卜结果，请安装塔罗女巫应用程序，亲自查看你的塔罗占卜结果！\\n👉 下载：https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
+  "shareResultText": "✨ 查看我的塔罗占卜结果！\\n\\n想了解详细的占卜结果，请安装塔罗女巫应用，亲自查看塔罗占卜！\\n👉 下载：https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "抽取 {count} 张牌",
+  "layoutFan": "扇形",
+  "layoutStacked": "堆叠",
+  "readingFateFragments": "正在解读命运碎片。",
+  "magicDustObtained": "获得魔力尘埃 +{amount}！✨"
 }

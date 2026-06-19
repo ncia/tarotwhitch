@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (Verticale)",
-  "cardDetailTabReversed": "역방향 (invertito)",
+  "cardDetailTabUpright": "Dritto (Upright)",
+  "cardDetailTabReversed": "Rovesciato (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1411,5 +1411,10 @@
   "buttonShare": "Condividere",
   "buttonSelectSpread": "Seleziona Distribuisci",
   "buttonSelectOtherWitch": "Seleziona Altra strega",
-  "shareResultText": "🔮 Dai un'occhiata ai risultati della mia lettura dei tarocchi!\\n\\nSe vuoi conoscere la lettura dettagliata, installa l'app Tarot Witch e controlla tu stesso la lettura dei tarocchi!\\n👉 Scarica:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
+  "shareResultText": "✨ Scopri il risultato della mia lettura dei tarocchi!\\n\\nSe vuoi conoscere la divinazione dettagliata, installa l'app Tarot Witch e controlla tu stesso la lettura dei tarocchi!\\n👉 Scarica: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Pesca {count} carte",
+  "layoutFan": "Ventaglio",
+  "layoutStacked": "Impilato",
+  "readingFateFragments": "Sto leggendo i frammenti del destino.",
+  "magicDustObtained": "Polvere magica +{amount} ottenuta! ✨"
 }

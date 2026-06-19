@@ -1411,5 +1411,10 @@
   "buttonShare": "Membagikan",
   "buttonSelectSpread": "Pilih Penyebaran",
   "buttonSelectOtherWitch": "Pilih Penyihir Lainnya",
-  "shareResultText": "🔮 Lihat hasil pembacaan Tarot saya!\\n\\nJika Anda ingin mengetahui pembacaan detailnya, instal aplikasi Tarot Witch dan periksa sendiri pembacaan tarot Anda!\\n👉 Unduh:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
+  "shareResultText": "✨ Lihat hasil ramalan tarot saya!\\n\\nJika Anda ingin tahu ramalan lengkapnya, instal aplikasi Tarot Witch dan lihat ramalan tarotnya sendiri!\\n👉 Unduh: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Pilih {count} kartu",
+  "layoutFan": "Kipas",
+  "layoutStacked": "Bertumpuk",
+  "readingFateFragments": "Sedang membaca fragmen takdir.",
+  "magicDustObtained": "Mendapatkan Debu Sihir +{amount}! ✨"
 }

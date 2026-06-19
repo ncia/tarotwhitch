@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (vertical)",
-  "cardDetailTabReversed": "역방향 (invertido)",
+  "cardDetailTabUpright": "Direita (Upright)",
+  "cardDetailTabReversed": "Invertida (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1411,5 +1411,10 @@
   "buttonShare": "Compartilhar",
   "buttonSelectSpread": "Selecione Espalhar",
   "buttonSelectOtherWitch": "Selecione outra bruxa",
-  "shareResultText": "🔮 Confira meus resultados de leitura de tarô!\\n\\nSe você quiser saber a leitura detalhada, instale o aplicativo Tarot Witch e verifique você mesmo sua leitura de tarô!\\n👉 Baixe:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
+  "shareResultText": "✨ Confira o resultado da minha leitura de Tarot!\\n\\nPara uma leitura detalhada, instale o aplicativo Tarot Witch e confira sua própria leitura de Tarot!\\n👉 Baixar: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Escolha {count} cartas",
+  "layoutFan": "Leque",
+  "layoutStacked": "Empilhado",
+  "readingFateFragments": "Lendo fragmentos do destino.",
+  "magicDustObtained": "Pó Mágico +{amount} obtido! ✨"
 }

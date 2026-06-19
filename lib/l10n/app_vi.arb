@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "Bạn có thể làm điều đó.",
-  "cardDetailTabUpright": "정방향 (Đứng thẳng)",
-  "cardDetailTabReversed": "역방향 (Đảo ngược)",
+  "cardDetailTabUpright": "Chính chiều (Upright)",
+  "cardDetailTabReversed": "Ngược chiều (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1411,5 +1411,10 @@
   "buttonShare": "Chia sẻ",
   "buttonSelectSpread": "Chọn mức chênh lệch",
   "buttonSelectOtherWitch": "Chọn phù thủy khác",
-  "shareResultText": "🔮 Xem kết quả đọc tarot của tôi!\\n\\nNếu bạn muốn biết kết quả đọc chi tiết, hãy cài đặt ứng dụng Tarot Witch và tự mình kiểm tra kết quả đọc tarot của mình!\\n 👉 Tải xuống:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
+  "shareResultText": "✨ Hãy xem kết quả bói bài Tarot của tôi!\\n\\nNếu bạn muốn biết chi tiết hơn về vận mệnh, hãy cài đặt ứng dụng Tarot Witch và tự mình xem bói Tarot!\\n👉 Tải xuống: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Rút {count} lá bài",
+  "layoutFan": "Hình quạt",
+  "layoutStacked": "Xếp chồng",
+  "readingFateFragments": "Đang đọc các mảnh ghép số phận.",
+  "magicDustObtained": "Nhận được Bụi phép thuật +{amount}! ✨"
 }

@@ -1411,5 +1411,10 @@
   "buttonShare": "Կիսվել",
   "buttonSelectSpread": "Ընտրեք Տարածել",
   "buttonSelectOtherWitch": "Ընտրեք Այլ կախարդ",
-  "shareResultText": "🔮 Ստուգեք իմ Tarot-ի ընթերցման արդյունքները:\\n\\nԵթե ցանկանում եք իմանալ մանրամասն ընթերցանությունը, տեղադրեք Tarot Witch հավելվածը և ինքներդ ստուգեք ձեր Tarot-ի ընթերցանությունը:\\n👉 Ներբեռնեք՝https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
+  "shareResultText": "✨ Դիտեք իմ թարոյի գուշակության արդյունքները!\\n\\nԵթե ցանկանում եք իմանալ մանրամասն գուշակությունը, տեղադրեք «Թարոյի կախարդուհի» հավելվածը և ինքներդ ստուգեք թարոյի գուշակությունը:\\n👉 Ներբեռնել: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "{count} քարտ ընտրեք",
+  "layoutFan": "Հովհարաձև",
+  "layoutStacked": "Կույտաձև",
+  "readingFateFragments": "Կարդում եմ ճակատագրի բեկորները։",
+  "magicDustObtained": "Կախարդական փոշի +{amount} ստացված է! ✨"
 }

@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (Tegak)",
-  "cardDetailTabReversed": "역방향 (Terbalik)",
+  "cardDetailTabUpright": "Tegak (Upright)",
+  "cardDetailTabReversed": "Terbalik (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1411,5 +1411,10 @@
   "buttonShare": "Kongsi",
   "buttonSelectSpread": "Pilih Sebarkan",
   "buttonSelectOtherWitch": "Pilih Penyihir Lain",
-  "shareResultText": "🔮 Lihat hasil bacaan Tarot saya!\\n\\nJika anda ingin mengetahui bacaan terperinci, pasang aplikasi Tarot Witch dan semak bacaan tarot anda sendiri!\\n👉 Muat turun:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
+  "shareResultText": "✨ Semak keputusan ramalan tarot saya!\\n\\nJika anda ingin mengetahui ramalan yang lebih terperinci, pasang aplikasi Tarot Witch dan semak ramalan tarot sendiri!\\n👉 Muat turun: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Pilih {count} kad",
+  "layoutFan": "Bentuk Kipas",
+  "layoutStacked": "Bentuk Bertindan",
+  "readingFateFragments": "Sedang membaca serpihan takdir.",
+  "magicDustObtained": "Debu Ajaib +{amount} diperoleh! ✨"
 }

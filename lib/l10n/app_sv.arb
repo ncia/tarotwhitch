@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (upprätt)",
-  "cardDetailTabReversed": "역방향 (omvänt)",
+  "cardDetailTabUpright": "Rättvänd (Upright)",
+  "cardDetailTabReversed": "Omvänd (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1411,5 +1411,10 @@
   "buttonShare": "Dela",
   "buttonSelectSpread": "Välj Sprid",
   "buttonSelectOtherWitch": "Välj Annan häxa",
-  "shareResultText": "🔮 Kolla in mina tarotläsningsresultat!\\n\\nOm du vill veta den detaljerade läsningen, installera Tarot Witch-appen och kontrollera din tarotläsning själv!\\n👉 Ladda ner:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
+  "shareResultText": "✨ Kolla in mitt tarotresultat!\\n\\nOm du vill veta den detaljerade spådomen, installera appen Tarot Witch och kolla din tarotläsning själv!\\n👉 Ladda ner: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Dra {count} kort",
+  "layoutFan": "Solfjäder",
+  "layoutStacked": "Staplad",
+  "readingFateFragments": "Läser ödets fragment.",
+  "magicDustObtained": "Fick magiskt damm +{amount}! ✨"
 }

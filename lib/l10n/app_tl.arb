@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (Tumayo)",
-  "cardDetailTabReversed": "역방향 (Baliktad)",
+  "cardDetailTabUpright": "Tuwid (Upright)",
+  "cardDetailTabReversed": "Baliktad (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1411,5 +1411,10 @@
   "buttonShare": "Ibahagi",
   "buttonSelectSpread": "Piliin ang Spread",
   "buttonSelectOtherWitch": "Piliin ang Iba pang mangkukulam",
-  "shareResultText": "🔮 Tingnan ang aking mga resulta sa pagbabasa ng Tarot!\\n\\nKung gusto mong malaman ang detalyadong pagbabasa, i-install ang Tarot Witch app at suriin ang iyong pagbabasa ng tarot!\\n👉 I-download:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
+  "shareResultText": "✨ Tingnan ang resulta ng aking tarot reading!\\n\\nKung gusto mong malaman ang detalyadong hula, i-install ang Tarot Witch app at tingnan mismo ang iyong tarot reading!\\n👉 I-download: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Pumili ng {count} na card",
+  "layoutFan": "Hugis Pamaypay",
+  "layoutStacked": "Nakasalansan",
+  "readingFateFragments": "Binabasa ang mga piraso ng kapalaran.",
+  "magicDustObtained": "Nakakuha ng Magic Dust +{amount}! ✨"
 }

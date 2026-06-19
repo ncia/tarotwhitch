@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (Drept)",
-  "cardDetailTabReversed": "역방향 (inversat)",
+  "cardDetailTabUpright": "Drept (Upright)",
+  "cardDetailTabReversed": "Răsturnat (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1411,5 +1411,10 @@
   "buttonShare": "Distribuie",
   "buttonSelectSpread": "Selectați Spread",
   "buttonSelectOtherWitch": "Selectați Altă vrăjitoare",
-  "shareResultText": "🔮 Consultați rezultatele citirii mele Tarot!\\n\\nDacă doriți să aflați citirea detaliată, instalați aplicația Tarot Witch și verificați-vă citirea tarotului!\\n👉 Descărcați:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
+  "shareResultText": "✨ Verifică rezultatele citirii mele de tarot!\\n\\nDacă vrei să afli o predicție detaliată, instalează aplicația Vrăjitoarea Tarotului și verifică-ți singur citirea de tarot!\\n👉 Descarcă: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Trageți {count} cărți",
+  "layoutFan": "Evantai",
+  "layoutStacked": "Suprapus",
+  "readingFateFragments": "Citesc fragmentele destinului.",
+  "magicDustObtained": "Praf magic +{amount} obținut! ✨"
 }

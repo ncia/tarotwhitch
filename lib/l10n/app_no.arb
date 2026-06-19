@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (oppreist)",
-  "cardDetailTabReversed": "역방향 (omvendt)",
+  "cardDetailTabUpright": "Oppreist (Upright)",
+  "cardDetailTabReversed": "Reversert (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1411,5 +1411,10 @@
   "buttonShare": "Dele",
   "buttonSelectSpread": "Velg Spredning",
   "buttonSelectOtherWitch": "Velg Annen heks",
-  "shareResultText": "🔮 Sjekk tarotleseresultatene mine!\\n\\nHvis du vil vite den detaljerte lesingen, installer Tarot Witch-appen og sjekk tarotlesingen din selv!\\n👉 Last ned:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
+  "shareResultText": "✨ Sjekk ut mitt tarotresultat!\\n\\nHvis du vil vite mer om spådommen, installer Tarot Witch-appen og sjekk tarotspådommen selv!\\n👉 Last ned: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "Trekk {count} kort",
+  "layoutFan": "Vifteform",
+  "layoutStacked": "Stablet",
+  "readingFateFragments": "Leser skjebnens fragmenter.",
+  "magicDustObtained": "Magiestøv +{amount} mottatt! ✨"
 }

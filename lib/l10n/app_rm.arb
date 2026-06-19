@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (Upright)",
-  "cardDetailTabReversed": "역방향 (Reversed)",
+  "cardDetailTabUpright": "Dretg (Upright)",
+  "cardDetailTabReversed": "Invertì (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1407,5 +1407,14 @@
   "profileEditCancel": "Cancel",
   "profileEditSave": "Save",
   "spreadUpright": "Upright (Upright)",
-  "spreadReversed": "Reversed (Reversed)"
+  "spreadReversed": "Reversed (Reversed)",
+  "pickCardsText": "Tira {count} cartas",
+  "layoutFan": "A ventagl",
+  "layoutStacked": "Stivà",
+  "readingFateFragments": "Legia ils fragments dal destin.",
+  "magicDustObtained": "Pulvra magica +{amount} obtegnida! ✨",
+  "shareResultText": "✨ Guarda mes resultats da la lectura da tarot!\\n\\nSche ti vul savair dapli davart la lectura, installescha l'app Tarot Witch e controlla la lectura da tarot per te sez!\\n👉 Telechargiar: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "buttonShare": "Partir",
+  "buttonSelectSpread": "Tschernir la spredgia",
+  "buttonSelectOtherWitch": "Tschernir in'autra striegn"
 }

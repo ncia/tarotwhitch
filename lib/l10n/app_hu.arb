@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google로 시작하기",
   "cardDetailNotReady": "이 해석은 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다.",
-  "cardDetailTabUpright": "정방향 (felálló)",
-  "cardDetailTabReversed": "역방향 (fordítva)",
+  "cardDetailTabUpright": "Felfelé (Upright)",
+  "cardDetailTabReversed": "Fordított (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1411,5 +1411,10 @@
   "buttonShare": "Részesedés",
   "buttonSelectSpread": "Válassza a Spread lehetőséget",
   "buttonSelectOtherWitch": "Válassza a Másik boszorkány lehetőséget",
-  "shareResultText": "🔮 Tekintse meg Tarot olvasási eredményeimet!\\n\\nHa meg szeretné tudni a részletes olvasmányt, telepítse a Tarot Witch alkalmazást, és ellenőrizze saját maga a tarot olvasását!\\n👉 Letöltés:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
+  "shareResultText": "✨ Nézd meg a tarot jóslatom eredményét!\\n\\nHa szeretnéd tudni a részletes jóslatot, telepítsd a Tarot Boszorkány alkalmazást, és nézd meg magad a tarot jóslatodat!\\n👉 Letöltés: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "{count} kártyát húzzon",
+  "layoutFan": "Legyező",
+  "layoutStacked": "Halmozott",
+  "readingFateFragments": "A sors töredékeit olvasom.",
+  "magicDustObtained": "Varázspor +{amount} szerezve! ✨"
 }

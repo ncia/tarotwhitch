@@ -1356,8 +1356,8 @@
   "authGoogleSignIn": "Google โดย 시작하기",
   "cardDetailNotReady": "이 해석의 아직 준비되지 않았습니다.",
   "cardDetailLoadError": "데이터를 불러Oh는 중 Oh류가 발생했습니다.",
-  "cardDetailTabUpright": "정정향 (ตรง)",
-  "cardDetailTabReversed": "역성향 (กลับด้าน)",
+  "cardDetailTabUpright": "ตั้งตรง (Upright)",
+  "cardDetailTabReversed": "กลับหัว (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습นีดา.",
   "cardDetailSectionKeywords": "핵심 키워dragon",
   "cardDetailSectionGeneral": "일반 해석",
@@ -1412,5 +1412,10 @@
   "buttonShare": "แบ่งปัน",
   "buttonSelectSpread": "เลือกสเปรด",
   "buttonSelectOtherWitch": "เลือกแม่มดอื่น ๆ",
-  "shareResultText": "🔮 ตรวจสอบผลการอ่านไพ่ยิปซีของฉัน!\\n\\nหากคุณต้องการทราบการอ่านโดยละเอียด ให้ติดตั้งแอป Tarot Witch และตรวจสอบการอ่านไพ่ยิปซีของคุณด้วยตัวเอง!\\n👉 ดาวน์โหลด:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
+  "shareResultText": "✨ ตรวจสอบผลการทำนายไพ่ทาโรต์ของฉัน!\\n\\nหากต้องการทราบคำทำนายโดยละเอียด โปรดติดตั้งแอปแม่มดไพ่ทาโรต์และตรวจสอบคำทำนายไพ่ทาโรต์ด้วยตัวคุณเอง!\\n👉 ดาวน์โหลด: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "เลือกไพ่ {count} ใบ",
+  "layoutFan": "รูปพัด",
+  "layoutStacked": "แบบซ้อน",
+  "readingFateFragments": "กำลังอ่านเศษเสี้ยวแห่งโชคชะตา",
+  "magicDustObtained": "ได้รับผงเวทมนตร์ +{amount}! ✨"
 }

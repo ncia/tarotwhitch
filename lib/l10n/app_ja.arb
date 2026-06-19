@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google 検索",
   "cardDetailNotReady": "해석은 아직 준비되지 않았습니다。",
   "cardDetailLoadError": "데이터를 불러오는 중 오류가 발생했습니다。",
-  "cardDetailTabUpright": "정방향 (直立)",
-  "cardDetailTabReversed": "역방향 (反転)",
+  "cardDetailTabUpright": "正位置 (Upright)",
+  "cardDetailTabReversed": "逆位置 (Reversed)",
   "cardDetailNoInterpretation": "해석이 없습니다。",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "반 해석",
@@ -1445,5 +1445,5 @@
   "buttonShare": "共有",
   "buttonSelectSpread": "スプレッドを選択",
   "buttonSelectOtherWitch": "他の魔女を選択",
-  "shareResultText": "🔮 私のタロット リーディング結果をチェックしてください!\\n\\n詳細なリーディングを知りたい場合は、タロット ウィッチ アプリをインストールして、自分のタロット リーディングをチェックしてください!\\n👉 ダウンロード:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
+  "shareResultText": "✨ 私のタロット占いの結果をチェックしてください！\\n\\n詳細な占い結果を知りたい場合は、タロット魔女アプリをインストールして、直接タロット占いをチェックしてください！\\n👉 ダウンロード: https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
 }

@@ -1355,8 +1355,8 @@
   "authGoogleSignIn": "Google'ın Kullanımı",
   "cardDetailNotReady": "Bu çok önemli.",
   "cardDetailLoadError": "Bu çok önemli.",
-  "cardDetailTabUpright": "정방향 (Dik)",
-  "cardDetailTabReversed": "역방향 (Tersine çevrilmiş)",
+  "cardDetailTabUpright": "Düz (Upright)",
+  "cardDetailTabReversed": "Ters (Reversed)",
   "cardDetailNoInterpretation": "bu çok önemli.",
   "cardDetailSectionKeywords": "핵심 키워드",
   "cardDetailSectionGeneral": "bu bir gerçek",
@@ -1411,5 +1411,10 @@
   "buttonShare": "Paylaşmak",
   "buttonSelectSpread": "Forma'yı seçin",
   "buttonSelectOtherWitch": "Diğer Cadıyı Seç",
-  "shareResultText": "🔮 Tarot falı sonuçlarıma göz atın!\\n\\nDetaylı falı öğrenmek istiyorsanız Tarot Cadısı uygulamasını yükleyin ve tarot falınızı kendiniz kontrol edin!\\n👉 İndirin:https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
+  "shareResultText": "✨ Tarot falı sonucuma göz atın!\\n\\nDetaylı falı öğrenmek isterseniz, Tarot Cadısı uygulamasını yükleyin ve tarot falınızı kendiniz kontrol edin!\\n👉 İndir: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "{count} kart çekin",
+  "layoutFan": "Yelpaze",
+  "layoutStacked": "Üst Üste",
+  "readingFateFragments": "Kaderin parçalarını okuyorum.",
+  "magicDustObtained": "Sihirli Toz +{amount} kazanıldı! ✨"
 }

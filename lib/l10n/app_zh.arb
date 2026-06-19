@@ -1411,5 +1411,10 @@
   "buttonShare": "分享",
   "buttonSelectSpread": "选择点差",
   "buttonSelectOtherWitch": "选择其他女巫",
-  "shareResultText": "🔮 查看我的塔罗牌占卜结果！\\n\\n如果你想了解详细占卜结果，请安装塔罗女巫应用程序，亲自查看你的塔罗占卜结果！\\n👉 下载：https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
+  "shareResultText": "✨ 查看我的塔罗占卜结果！\\n\\n想了解详细的占卜结果，请安装塔罗女巫应用，亲自查看塔罗占卜！\\n👉 下载：https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "pickCardsText": "抽取{count}张牌",
+  "layoutFan": "扇形",
+  "layoutStacked": "堆叠式",
+  "readingFateFragments": "正在解读命运碎片。",
+  "magicDustObtained": "获得魔尘 +{amount}！✨"
 }
