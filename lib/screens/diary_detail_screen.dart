@@ -144,66 +144,73 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
         orElse: () => witches.first);
 
     return Scaffold(
-      extendBodyBehindAppBar: true,
-      appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        elevation: 0,
-        iconTheme: const IconThemeData(color: Colors.white),
-        title: Text(
-          DateFormat('yyyy.MM.dd HH:mm').format(_diary.date),
-          style: const TextStyle(color: Colors.white, fontSize: 16),
-        ),
-        actions: [
-          // 삭제 버튼
-          IconButton(
-            icon: const Icon(Icons.delete_outline, color: Colors.white54),
-            onPressed: () async {
-              final confirm = await showDialog<bool>(
-                context: context,
-                builder: (ctx) => AlertDialog(
-                  backgroundColor: Colors.deepPurple.shade900,
-                  title: Text(
-                    AppLocalizations.of(context)!.diaryDeleteTitle,
-                    style: const TextStyle(color: Colors.white),
-                  ),
-                  content: Text(
-                    AppLocalizations.of(context)!.diaryDeleteConfirm,
-                    style: const TextStyle(color: Colors.white70),
-                  ),
-                  actions: [
-                    TextButton(
-                      onPressed: () => Navigator.pop(ctx, false),
-                      child: Text(
-                        AppLocalizations.of(context)!.myMenuConfirm,
-                        style: const TextStyle(color: Colors.white54),
-                      ),
+      body: GradientBackground(
+        child: SafeArea(
+          child: Column(
+            children: [
+              const SizedBox(height: 50),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 8.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    IconButton(
+                      icon: const Icon(Icons.arrow_back, color: Colors.white),
+                      onPressed: () => Navigator.pop(context),
                     ),
-                    TextButton(
-                      onPressed: () => Navigator.pop(ctx, true),
-                      child: Text(
-                        AppLocalizations.of(context)!.diaryTagDelete,
-                        style: const TextStyle(color: Colors.redAccent),
-                      ),
+                    Text(
+                      DateFormat('yyyy.MM.dd HH:mm').format(_diary.date),
+                      style: const TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
+                    ),
+                    IconButton(
+                      icon: const Icon(Icons.delete_outline, color: Colors.white54),
+                      onPressed: () async {
+                        final confirm = await showDialog<bool>(
+                          context: context,
+                          builder: (ctx) => AlertDialog(
+                            backgroundColor: Colors.deepPurple.shade900,
+                            title: Text(
+                              AppLocalizations.of(context)!.diaryDeleteTitle,
+                              style: const TextStyle(color: Colors.white),
+                            ),
+                            content: Text(
+                              AppLocalizations.of(context)!.diaryDeleteConfirm,
+                              style: const TextStyle(color: Colors.white70),
+                            ),
+                            actions: [
+                              TextButton(
+                                onPressed: () => Navigator.pop(ctx, false),
+                                child: Text(
+                                  AppLocalizations.of(context)!.myMenuConfirm,
+                                  style: const TextStyle(color: Colors.white54),
+                                ),
+                              ),
+                              TextButton(
+                                onPressed: () => Navigator.pop(ctx, true),
+                                child: Text(
+                                  AppLocalizations.of(context)!.diaryTagDelete,
+                                  style: const TextStyle(color: Colors.redAccent),
+                                ),
+                              ),
+                            ],
+                          ),
+                        );
+                        if (confirm == true && mounted) {
+                          await DiaryService.instance.deleteDiary(_diary.id);
+                          Navigator.pop(context);
+                        }
+                      },
                     ),
                   ],
                 ),
-              );
-              if (confirm == true && mounted) {
-                await DiaryService.instance.deleteDiary(_diary.id);
-                Navigator.pop(context);
-              }
-            },
-          ),
-        ],
-      ),
-      body: GradientBackground(
-        child: SafeArea(
-          child: SingleChildScrollView(
-            padding: const EdgeInsets.all(20),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                // 커뮤니티 공개 여부 설정
+              ),
+              Expanded(
+                child: SingleChildScrollView(
+                  padding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      // 커뮤니티 공개 여부 설정
                 GlassContainer(
                   padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                   borderRadius: 16,
@@ -452,6 +459,9 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
                 const SizedBox(height: 40),
               ],
             ),
+          ),
+        ),
+            ],
           ),
         ),
       ),

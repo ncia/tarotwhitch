@@ -4,7 +4,7 @@ import 'chat_screen.dart';
 import 'meanings_screen.dart';
 import 'my_menu_screen.dart';
 import 'my_menu_tab_navigator.dart';
-import 'diary_screen.dart';
+import 'diary_tab_navigator.dart';
 import 'growth_screen.dart';
 import 'shop_screen.dart';
 import '../widgets/custom_image_icon.dart';
@@ -37,7 +37,7 @@ class MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
   final List<Widget> _screens = [
     const ReadingTabNavigator(),
     const ChatScreen(),
-    DiaryScreen(),
+    const DiaryTabNavigator(),
     const MeaningsScreen(),
     const MyMenuTabNavigator(),
   ];
