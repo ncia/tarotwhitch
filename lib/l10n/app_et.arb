@@ -1416,5 +1416,14 @@
   "layoutFan": "Lehvik",
   "layoutStacked": "Virnastatud",
   "readingFateFragments": "Loen saatuse kilde.",
-  "magicDustObtained": "Maagilist tolmu +{amount} saadud! ✨"
+  "magicDustObtained": "Maagilist tolmu +{amount} saadud! ✨",
+  "buttonTranslate": "Tõlgi",
+  "translateFailed": "Tõlge ebaõnnestus: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

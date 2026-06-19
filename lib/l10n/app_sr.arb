@@ -1416,5 +1416,14 @@
   "layoutFan": "Lepeza",
   "layoutStacked": "Naslagano",
   "readingFateFragments": "Čitam fragmente sudbine.",
-  "magicDustObtained": "Dobijeno magične prašine +{amount}! ✨"
+  "magicDustObtained": "Dobijeno magične prašine +{amount}! ✨",
+  "buttonTranslate": "Prevedi",
+  "translateFailed": "Prevođenje nije uspelo: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

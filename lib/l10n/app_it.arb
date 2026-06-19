@@ -1416,5 +1416,14 @@
   "layoutFan": "Ventaglio",
   "layoutStacked": "Impilato",
   "readingFateFragments": "Sto leggendo i frammenti del destino.",
-  "magicDustObtained": "Polvere magica +{amount} ottenuta! ✨"
+  "magicDustObtained": "Polvere magica +{amount} ottenuta! ✨",
+  "buttonTranslate": "Traduci",
+  "translateFailed": "Traduzione fallita: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

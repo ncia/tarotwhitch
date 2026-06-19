@@ -102,7 +102,7 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
         });
       }
     } catch (e) {
-      if (mounted) ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('번역 실패: $e')));
+      if (mounted) ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(AppLocalizations.of(context)!.translateFailed(e.toString()))));
     } finally {
       if (mounted) setState(() => _isTranslating = false);
     }
@@ -336,7 +336,7 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
                             icon: _isTranslating
                                 ? const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.cyanAccent))
                                 : const Icon(Icons.translate, color: Colors.cyanAccent, size: 18),
-                            label: Text('번역 보기', style: const TextStyle(color: Colors.cyanAccent, fontSize: 13)),
+                            label: Text(AppLocalizations.of(context)!.buttonTranslate, style: const TextStyle(color: Colors.cyanAccent, fontSize: 13)),
                           ),
                         ),
                     ],

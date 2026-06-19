@@ -1416,5 +1416,14 @@
   "layoutFan": "Ветрило",
   "layoutStacked": "Насложени",
   "readingFateFragments": "Чета фрагменти от съдбата.",
-  "magicDustObtained": "Получихте магически прах +{amount}! ✨"
+  "magicDustObtained": "Получихте магически прах +{amount}! ✨",
+  "buttonTranslate": "Преведи",
+  "translateFailed": "Преводът не бе успешен: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

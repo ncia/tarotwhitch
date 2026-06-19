@@ -1416,5 +1416,14 @@
   "layoutFan": "Vejár",
   "layoutStacked": "Naskladané",
   "readingFateFragments": "Čítam úlomky osudu.",
-  "magicDustObtained": "Získali ste magický prach +{amount}! ✨"
+  "magicDustObtained": "Získali ste magický prach +{amount}! ✨",
+  "buttonTranslate": "Preložiť",
+  "translateFailed": "Preklad zlyhal: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

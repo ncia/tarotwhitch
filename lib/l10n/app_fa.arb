@@ -1416,5 +1416,14 @@
   "layoutFan": "بادبزنی",
   "layoutStacked": "روی هم چیده شده",
   "readingFateFragments": "در حال خواندن تکه‌های سرنوشت هستم.",
-  "magicDustObtained": "غبار جادویی +{amount} به دست آمد! ✨"
+  "magicDustObtained": "غبار جادویی +{amount} به دست آمد! ✨",
+  "buttonTranslate": "ترجمه",
+  "translateFailed": "ترجمه ناموفق بود: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

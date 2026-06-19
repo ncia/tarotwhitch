@@ -1416,5 +1416,14 @@
   "layoutFan": "Веер",
   "layoutStacked": "Наслаенне",
   "readingFateFragments": "Чытаю фрагменты лёсу.",
-  "magicDustObtained": "Чароўны пыл +{amount} атрымана! ✨"
+  "magicDustObtained": "Чароўны пыл +{amount} атрымана! ✨",
+  "buttonTranslate": "Перакласці",
+  "translateFailed": "Пераклад не атрымаўся: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

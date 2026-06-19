@@ -1416,5 +1416,7 @@
   "layoutFan": "Vifteform",
   "layoutStacked": "Stablet",
   "readingFateFragments": "Leser skjebnens fragmenter.",
-  "magicDustObtained": "Magiestøv +{amount} mottatt! ✨"
+  "magicDustObtained": "Magiestøv +{amount} mottatt! ✨",
+  "buttonTranslate": "no",
+  "translateFailed": "no"
 }

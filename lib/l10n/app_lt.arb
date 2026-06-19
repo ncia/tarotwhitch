@@ -1416,5 +1416,14 @@
   "layoutFan": "Vėduoklė",
   "layoutStacked": "Sukrauta",
   "readingFateFragments": "Skaitomi likimo fragmentai.",
-  "magicDustObtained": "Gauta magijos dulkių +{amount}! ✨"
+  "magicDustObtained": "Gauta magijos dulkių +{amount}! ✨",
+  "buttonTranslate": "Versti",
+  "translateFailed": "Vertimas nepavyko: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

@@ -1416,5 +1416,14 @@
   "layoutFan": "Fächer",
   "layoutStacked": "Gestapelt",
   "readingFateFragments": "Lese die Fragmente des Schicksals.",
-  "magicDustObtained": "Magischer Staub +{amount} erhalten! ✨"
+  "magicDustObtained": "Magischer Staub +{amount} erhalten! ✨",
+  "buttonTranslate": "Übersetzen",
+  "translateFailed": "Übersetzung fehlgeschlagen: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

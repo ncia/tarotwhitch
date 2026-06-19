@@ -1416,5 +1416,14 @@
   "layoutFan": "Vifte",
   "layoutStacked": "Stablet",
   "readingFateFragments": "Læser skæbnens fragmenter.",
-  "magicDustObtained": "Modtog magisk støv +{amount}! ✨"
+  "magicDustObtained": "Modtog magisk støv +{amount}! ✨",
+  "buttonTranslate": "Oversæt",
+  "translateFailed": "Oversættelse mislykkedes: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

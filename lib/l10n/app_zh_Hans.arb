@@ -1416,5 +1416,14 @@
   "layoutFan": "扇形",
   "layoutStacked": "堆叠",
   "readingFateFragments": "正在解读命运碎片。",
-  "magicDustObtained": "获得魔力尘埃 +{amount}！✨"
+  "magicDustObtained": "获得魔力尘埃 +{amount}！✨",
+  "buttonTranslate": "翻译",
+  "translateFailed": "翻译失败：{error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

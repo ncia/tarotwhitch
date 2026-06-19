@@ -1416,5 +1416,14 @@
   "layoutFan": "Viuhka",
   "layoutStacked": "Pinottu",
   "readingFateFragments": "Luetaan kohtalon sirpaleita.",
-  "magicDustObtained": "Saimme taikapölyä +{amount}! ✨"
+  "magicDustObtained": "Saimme taikapölyä +{amount}! ✨",
+  "buttonTranslate": "Käännä",
+  "translateFailed": "Käännös epäonnistui: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

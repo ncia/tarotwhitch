@@ -1416,5 +1416,14 @@
   "layoutFan": "Веер",
   "layoutStacked": "Стопка",
   "readingFateFragments": "Читаю фрагменты судьбы.",
-  "magicDustObtained": "Получено магической пыли +{amount}! ✨"
+  "magicDustObtained": "Получено магической пыли +{amount}! ✨",
+  "buttonTranslate": "Перевести",
+  "translateFailed": "Перевод не удался: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

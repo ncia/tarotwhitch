@@ -1416,5 +1416,14 @@
   "layoutFan": "Abanico",
   "layoutStacked": "Apilado",
   "readingFateFragments": "Leyendo los fragmentos del destino.",
-  "magicDustObtained": "¡Polvo mágico +{amount} obtenido! ✨"
+  "magicDustObtained": "¡Polvo mágico +{amount} obtenido! ✨",
+  "buttonTranslate": "Traducir",
+  "translateFailed": "Error en la traducción: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

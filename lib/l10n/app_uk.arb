@@ -1416,5 +1416,14 @@
   "layoutFan": "Віяло",
   "layoutStacked": "Стопка",
   "readingFateFragments": "Читаю фрагменти долі.",
-  "magicDustObtained": "Магічний пил +{amount} отримано! ✨"
+  "magicDustObtained": "Магічний пил +{amount} отримано! ✨",
+  "buttonTranslate": "Перекласти",
+  "translateFailed": "Переклад не вдався: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

@@ -1416,5 +1416,14 @@
   "layoutFan": "En éventail",
   "layoutStacked": "Empilé",
   "readingFateFragments": "Lecture des fragments du destin.",
-  "magicDustObtained": "Poussière magique +{amount} obtenue ! ✨"
+  "magicDustObtained": "Poussière magique +{amount} obtenue ! ✨",
+  "buttonTranslate": "Traduire",
+  "translateFailed": "Échec de la traduction : {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

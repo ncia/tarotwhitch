@@ -1416,5 +1416,14 @@
   "layoutFan": "Hình quạt",
   "layoutStacked": "Xếp chồng",
   "readingFateFragments": "Đang đọc các mảnh ghép số phận.",
-  "magicDustObtained": "Nhận được Bụi phép thuật +{amount}! ✨"
+  "magicDustObtained": "Nhận được Bụi phép thuật +{amount}! ✨",
+  "buttonTranslate": "Dịch",
+  "translateFailed": "Dịch thất bại: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

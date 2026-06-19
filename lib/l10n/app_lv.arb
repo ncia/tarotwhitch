@@ -1416,5 +1416,14 @@
   "layoutFan": "Vēdeklis",
   "layoutStacked": "Saliktas kaudzē",
   "readingFateFragments": "Lasu likteņa fragmentus.",
-  "magicDustObtained": "Iegūti maģiskie putekļi +{amount}! ✨"
+  "magicDustObtained": "Iegūti maģiskie putekļi +{amount}! ✨",
+  "buttonTranslate": "Tulkot",
+  "translateFailed": "Tulkošana neizdevās: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

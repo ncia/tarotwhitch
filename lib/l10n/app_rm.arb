@@ -1416,5 +1416,14 @@
   "shareResultText": "✨ Guarda mes resultats da la lectura da tarot!\\n\\nSche ti vul savair dapli davart la lectura, installescha l'app Tarot Witch e controlla la lectura da tarot per te sez!\\n👉 Telechargiar: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
   "buttonShare": "Partir",
   "buttonSelectSpread": "Tschernir la spredgia",
-  "buttonSelectOtherWitch": "Tschernir in'autra striegn"
+  "buttonSelectOtherWitch": "Tschernir in'autra striegn",
+  "buttonTranslate": "Traducir",
+  "translateFailed": "La traducziun è fallada: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

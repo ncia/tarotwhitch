@@ -1416,5 +1416,14 @@
   "layoutFan": "Ventall",
   "layoutStacked": "Apilat",
   "readingFateFragments": "Llegint fragments del destí.",
-  "magicDustObtained": "Pols màgica +{amount} obtinguda! ✨"
+  "magicDustObtained": "Pols màgica +{amount} obtinguda! ✨",
+  "buttonTranslate": "Tradueix",
+  "translateFailed": "La traducció ha fallat: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

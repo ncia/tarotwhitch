@@ -1416,5 +1416,14 @@
   "layoutFan": "Leque",
   "layoutStacked": "Empilhado",
   "readingFateFragments": "Lendo fragmentos do destino.",
-  "magicDustObtained": "Pó Mágico +{amount} obtido! ✨"
+  "magicDustObtained": "Pó Mágico +{amount} obtido! ✨",
+  "buttonTranslate": "Traduzir",
+  "translateFailed": "A tradução falhou: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

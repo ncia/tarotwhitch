@@ -1417,5 +1417,14 @@
   "layoutFan": "รูปพัด",
   "layoutStacked": "แบบซ้อน",
   "readingFateFragments": "กำลังอ่านเศษเสี้ยวแห่งโชคชะตา",
-  "magicDustObtained": "ได้รับผงเวทมนตร์ +{amount}! ✨"
+  "magicDustObtained": "ได้รับผงเวทมนตร์ +{amount}! ✨",
+  "buttonTranslate": "แปล",
+  "translateFailed": "การแปลล้มเหลว: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

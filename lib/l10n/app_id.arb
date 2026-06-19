@@ -1416,5 +1416,14 @@
   "layoutFan": "Kipas",
   "layoutStacked": "Bertumpuk",
   "readingFateFragments": "Sedang membaca fragmen takdir.",
-  "magicDustObtained": "Mendapatkan Debu Sihir +{amount}! ✨"
+  "magicDustObtained": "Mendapatkan Debu Sihir +{amount}! ✨",
+  "buttonTranslate": "Terjemahkan",
+  "translateFailed": "Terjemahan gagal: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

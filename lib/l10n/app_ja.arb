@@ -1445,5 +1445,14 @@
   "buttonShare": "共有",
   "buttonSelectSpread": "スプレッドを選択",
   "buttonSelectOtherWitch": "他の魔女を選択",
-  "shareResultText": "✨ 私のタロット占いの結果をチェックしてください！\\n\\n詳細な占い結果を知りたい場合は、タロット魔女アプリをインストールして、直接タロット占いをチェックしてください！\\n👉 ダウンロード: https://play.google.com/store/apps/details?id=com.ncia.tarot_card"
+  "shareResultText": "✨ 私のタロット占いの結果をチェックしてください！\\n\\n詳細な占い結果を知りたい場合は、タロット魔女アプリをインストールして、直接タロット占いをチェックしてください！\\n👉 ダウンロード: https://play.google.com/store/apps/details?id=com.ncia.tarot_card",
+  "buttonTranslate": "翻訳",
+  "translateFailed": "翻訳に失敗しました: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

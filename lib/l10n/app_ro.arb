@@ -1416,5 +1416,14 @@
   "layoutFan": "Evantai",
   "layoutStacked": "Suprapus",
   "readingFateFragments": "Citesc fragmentele destinului.",
-  "magicDustObtained": "Praf magic +{amount} obținut! ✨"
+  "magicDustObtained": "Praf magic +{amount} obținut! ✨",
+  "buttonTranslate": "Traduceți",
+  "translateFailed": "Traducerea a eșuat: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

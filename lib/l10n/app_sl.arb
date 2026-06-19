@@ -1416,5 +1416,14 @@
   "layoutFan": "Pahljača",
   "layoutStacked": "Naloženo",
   "readingFateFragments": "Berem fragmente usode.",
-  "magicDustObtained": "Čarobni prah +{amount} pridobljen! ✨"
+  "magicDustObtained": "Čarobni prah +{amount} pridobljen! ✨",
+  "buttonTranslate": "Prevedi",
+  "translateFailed": "Prevod ni uspel: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

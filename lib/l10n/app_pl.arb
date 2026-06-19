@@ -1416,5 +1416,14 @@
   "layoutFan": "Wachlarz",
   "layoutStacked": "Ułożone w stos",
   "readingFateFragments": "Odczytuję fragmenty przeznaczenia.",
-  "magicDustObtained": "Otrzymano magiczny pył +{amount}! ✨"
+  "magicDustObtained": "Otrzymano magiczny pył +{amount}! ✨",
+  "buttonTranslate": "Tłumacz",
+  "translateFailed": "Tłumaczenie nie powiodło się: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

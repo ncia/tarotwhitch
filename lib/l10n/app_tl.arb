@@ -1416,5 +1416,14 @@
   "layoutFan": "Hugis Pamaypay",
   "layoutStacked": "Nakasalansan",
   "readingFateFragments": "Binabasa ang mga piraso ng kapalaran.",
-  "magicDustObtained": "Nakakuha ng Magic Dust +{amount}! ✨"
+  "magicDustObtained": "Nakakuha ng Magic Dust +{amount}! ✨",
+  "buttonTranslate": "Isalin",
+  "translateFailed": "Nabigo ang pagsasalin: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

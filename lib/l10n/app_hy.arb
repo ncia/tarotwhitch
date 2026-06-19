@@ -1416,5 +1416,14 @@
   "layoutFan": "Հովհարաձև",
   "layoutStacked": "Կույտաձև",
   "readingFateFragments": "Կարդում եմ ճակատագրի բեկորները։",
-  "magicDustObtained": "Կախարդական փոշի +{amount} ստացված է! ✨"
+  "magicDustObtained": "Կախարդական փոշի +{amount} ստացված է! ✨",
+  "buttonTranslate": "Թարգմանել",
+  "translateFailed": "Թարգմանությունը ձախողվեց: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

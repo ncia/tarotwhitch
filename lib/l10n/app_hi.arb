@@ -1416,5 +1416,14 @@
   "layoutFan": "पंखे का आकार",
   "layoutStacked": "ढेर का आकार",
   "readingFateFragments": "नियति के अंश पढ़ रहा हूँ।",
-  "magicDustObtained": "जादुई धूल +{amount} प्राप्त हुई! ✨"
+  "magicDustObtained": "जादुई धूल +{amount} प्राप्त हुई! ✨",
+  "buttonTranslate": "अनुवाद करें",
+  "translateFailed": "अनुवाद विफल रहा: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

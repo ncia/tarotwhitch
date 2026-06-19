@@ -1416,5 +1416,14 @@
   "layoutFan": "Βεντάλια",
   "layoutStacked": "Στοιβαγμένα",
   "readingFateFragments": "Διαβάζω τα κομμάτια της μοίρας.",
-  "magicDustObtained": "Σκόνη Μαγείας +{amount} αποκτήθηκε! ✨"
+  "magicDustObtained": "Σκόνη Μαγείας +{amount} αποκτήθηκε! ✨",
+  "buttonTranslate": "Μετάφραση",
+  "translateFailed": "Η μετάφραση απέτυχε: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

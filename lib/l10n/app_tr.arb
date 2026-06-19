@@ -1416,5 +1416,14 @@
   "layoutFan": "Yelpaze",
   "layoutStacked": "Üst Üste",
   "readingFateFragments": "Kaderin parçalarını okuyorum.",
-  "magicDustObtained": "Sihirli Toz +{amount} kazanıldı! ✨"
+  "magicDustObtained": "Sihirli Toz +{amount} kazanıldı! ✨",
+  "buttonTranslate": "Çevir",
+  "translateFailed": "Çeviri başarısız oldu: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

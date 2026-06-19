@@ -1416,5 +1416,14 @@
   "layoutFan": "Solfjäder",
   "layoutStacked": "Staplad",
   "readingFateFragments": "Läser ödets fragment.",
-  "magicDustObtained": "Fick magiskt damm +{amount}! ✨"
+  "magicDustObtained": "Fick magiskt damm +{amount}! ✨",
+  "buttonTranslate": "Översätt",
+  "translateFailed": "Översättning misslyckades: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }

@@ -1416,5 +1416,14 @@
   "layoutFan": "Bentuk Kipas",
   "layoutStacked": "Bentuk Bertindan",
   "readingFateFragments": "Sedang membaca serpihan takdir.",
-  "magicDustObtained": "Debu Ajaib +{amount} diperoleh! ✨"
+  "magicDustObtained": "Debu Ajaib +{amount} diperoleh! ✨",
+  "buttonTranslate": "Terjemah",
+  "translateFailed": "Terjemahan gagal: {error}",
+  "@translateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }
