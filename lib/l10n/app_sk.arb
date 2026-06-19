@@ -1425,5 +1425,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "Láska",
+  "tagMoney": "Bohatstvo",
+  "tagHealth": "Zdravie",
+  "tagCareer": "Kariéra",
+  "tagToday": "Dnes",
+  "tagRelationship": "Vzťahy",
+  "tagSelfReflection": "Sebareflexia"
 }

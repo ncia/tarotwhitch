@@ -1425,5 +1425,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "Pag-ibig",
+  "tagMoney": "Yaman",
+  "tagHealth": "Kalusugan",
+  "tagCareer": "Karera",
+  "tagToday": "Kapalaran Ngayon",
+  "tagRelationship": "Relasyon",
+  "tagSelfReflection": "Pagninilay"
 }

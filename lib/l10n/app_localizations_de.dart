@@ -3982,10 +3982,10 @@ class AppLocalizationsDe extends AppLocalizations {
   String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (aufrecht)';
+  String get cardDetailTabUpright => 'Aufrecht (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (Umgekehrt)';
+  String get cardDetailTabReversed => 'Umgekehrt (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습니다.';
@@ -4129,17 +4129,17 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return '$count Karten ziehen';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Fächer';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Gestapelt';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Lese die Fragmente des Schicksals.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4148,7 +4148,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Magischer Staub +$amount erhalten! ✨';
   }
 
   @override
@@ -4168,5 +4168,13 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Schauen Sie sich meine Tarot-Lesungsergebnisse an!\\n\\nWenn Sie die detaillierte Lesung erfahren möchten, installieren Sie die Tarot Witch-App und überprüfen Sie Ihre Tarot-Lesung selbst!\\n👉 Download:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Sieh dir mein Tarot-Ergebnis an!\\n\\nWenn du eine detaillierte Vorhersage möchtest, installiere die Tarot-Hexe-App und sieh dir dein Tarot-Ergebnis selbst an!\\n👉 Download: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Übersetzen';
+
+  @override
+  String translateFailed(String error) {
+    return 'Übersetzung fehlgeschlagen: $error';
+  }
 }

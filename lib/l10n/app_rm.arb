@@ -1425,5 +1425,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "Amur",
+  "tagMoney": "Bain",
+  "tagHealth": "Salid",
+  "tagCareer": "Carriera",
+  "tagToday": "Oz",
+  "tagRelationship": "Relaziuns",
+  "tagSelfReflection": "Reflexiun"
 }

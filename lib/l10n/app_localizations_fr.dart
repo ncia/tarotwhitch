@@ -4292,17 +4292,17 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'Tirez $count cartes';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'En éventail';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Empilé';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Lecture des fragments du destin.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4311,7 +4311,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Poussière magique +$amount obtenue ! ✨';
   }
 
   @override
@@ -4331,5 +4331,13 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Consultez mes résultats de lecture de Tarot !\\n\\nSi vous souhaitez connaître la lecture détaillée, installez l\'application Tarot Witch et vérifiez vous-même votre lecture de tarot !\\n👉 Téléchargement :https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Découvrez le résultat de mon tirage de tarot !\\n\\nPour une interprétation détaillée, installez l\'application Tarot Witch et consultez votre tirage de tarot !\\n👉 Télécharger : https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Traduire';
+
+  @override
+  String translateFailed(String error) {
+    return 'Échec de la traduction : $error';
+  }
 }

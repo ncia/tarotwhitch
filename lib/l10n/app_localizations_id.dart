@@ -4282,17 +4282,17 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'Pilih $count kartu';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Kipas';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Bertumpuk';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Sedang membaca fragmen takdir.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4301,7 +4301,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Mendapatkan Debu Sihir +$amount! ✨';
   }
 
   @override
@@ -4321,5 +4321,13 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Lihat hasil pembacaan Tarot saya!\\n\\nJika Anda ingin mengetahui pembacaan detailnya, instal aplikasi Tarot Witch dan periksa sendiri pembacaan tarot Anda!\\n👉 Unduh:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Lihat hasil ramalan tarot saya!\\n\\nJika Anda ingin tahu ramalan lengkapnya, instal aplikasi Tarot Witch dan lihat ramalan tarotnya sendiri!\\n👉 Unduh: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Terjemahkan';
+
+  @override
+  String translateFailed(String error) {
+    return 'Terjemahan gagal: $error';
+  }
 }

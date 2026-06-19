@@ -1454,5 +1454,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "愛",
+  "tagMoney": "金運",
+  "tagHealth": "健康",
+  "tagCareer": "仕事",
+  "tagToday": "今日の運勢",
+  "tagRelationship": "人間関係",
+  "tagSelfReflection": "内省"
 }

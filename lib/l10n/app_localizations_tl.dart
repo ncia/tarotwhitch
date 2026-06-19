@@ -3990,10 +3990,10 @@ class AppLocalizationsTl extends AppLocalizations {
   String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (Tumayo)';
+  String get cardDetailTabUpright => 'Tuwid (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (Baliktad)';
+  String get cardDetailTabReversed => 'Baliktad (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습니다.';
@@ -4136,17 +4136,17 @@ class AppLocalizationsTl extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'Pumili ng $count na card';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Hugis Pamaypay';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Nakasalansan';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Binabasa ang mga piraso ng kapalaran.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4155,7 +4155,7 @@ class AppLocalizationsTl extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Nakakuha ng Magic Dust +$amount! ✨';
   }
 
   @override
@@ -4175,5 +4175,13 @@ class AppLocalizationsTl extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Tingnan ang aking mga resulta sa pagbabasa ng Tarot!\\n\\nKung gusto mong malaman ang detalyadong pagbabasa, i-install ang Tarot Witch app at suriin ang iyong pagbabasa ng tarot!\\n👉 I-download:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Tingnan ang resulta ng aking tarot reading!\\n\\nKung gusto mong malaman ang detalyadong hula, i-install ang Tarot Witch app at tingnan mismo ang iyong tarot reading!\\n👉 I-download: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Isalin';
+
+  @override
+  String translateFailed(String error) {
+    return 'Nabigo ang pagsasalin: $error';
+  }
 }

@@ -3963,10 +3963,10 @@ class AppLocalizationsTh extends AppLocalizations {
   String get cardDetailLoadError => '데이터를 불러Oh는 중 Oh류가 발생했습니다.';
 
   @override
-  String get cardDetailTabUpright => '정정향 (ตรง)';
+  String get cardDetailTabUpright => 'ตั้งตรง (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역성향 (กลับด้าน)';
+  String get cardDetailTabReversed => 'กลับหัว (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습นีดา.';
@@ -4109,17 +4109,17 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'เลือกไพ่ $count ใบ';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'รูปพัด';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'แบบซ้อน';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'กำลังอ่านเศษเสี้ยวแห่งโชคชะตา';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4128,7 +4128,7 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'ได้รับผงเวทมนตร์ +$amount! ✨';
   }
 
   @override
@@ -4148,5 +4148,13 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 ตรวจสอบผลการอ่านไพ่ยิปซีของฉัน!\\n\\nหากคุณต้องการทราบการอ่านโดยละเอียด ให้ติดตั้งแอป Tarot Witch และตรวจสอบการอ่านไพ่ยิปซีของคุณด้วยตัวเอง!\\n👉 ดาวน์โหลด:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ ตรวจสอบผลการทำนายไพ่ทาโรต์ของฉัน!\\n\\nหากต้องการทราบคำทำนายโดยละเอียด โปรดติดตั้งแอปแม่มดไพ่ทาโรต์และตรวจสอบคำทำนายไพ่ทาโรต์ด้วยตัวคุณเอง!\\n👉 ดาวน์โหลด: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'แปล';
+
+  @override
+  String translateFailed(String error) {
+    return 'การแปลล้มเหลว: $error';
+  }
 }

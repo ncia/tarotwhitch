@@ -5,6 +5,7 @@ import '../data/tarot_data.dart';
 import '../data/witch_data.dart';
 import '../widgets/glass_container.dart';
 import '../widgets/witch_profile_dialog.dart';
+import '../utils/tag_localization.dart';
 import '../services/diary_service.dart';
 import 'diary_detail_screen.dart';
 import 'package:flutter_tarot/l10n/tarot_localizations.dart';
@@ -234,7 +235,7 @@ class _DiaryCalendarScreenState extends State<DiaryCalendarScreen> {
                             Wrap(
                               spacing: 4,
                               children: diary.tags
-                                  .map((tag) => Text('#$tag',
+                                  .map((tag) => Text('#${getLocalizedTag(context, tag)}',
                                       style: const TextStyle(
                                           color: Colors.pinkAccent,
                                           fontSize: 10)))

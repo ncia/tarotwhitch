@@ -3968,10 +3968,10 @@ class AppLocalizationsVi extends AppLocalizations {
   String get cardDetailLoadError => 'Bạn có thể làm điều đó.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (Đứng thẳng)';
+  String get cardDetailTabUpright => 'Chính chiều (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (Đảo ngược)';
+  String get cardDetailTabReversed => 'Ngược chiều (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습니다.';
@@ -4114,17 +4114,17 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'Rút $count lá bài';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Hình quạt';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Xếp chồng';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Đang đọc các mảnh ghép số phận.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4133,7 +4133,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Nhận được Bụi phép thuật +$amount! ✨';
   }
 
   @override
@@ -4153,5 +4153,13 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Xem kết quả đọc tarot của tôi!\\n\\nNếu bạn muốn biết kết quả đọc chi tiết, hãy cài đặt ứng dụng Tarot Witch và tự mình kiểm tra kết quả đọc tarot của mình!\\n 👉 Tải xuống:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Hãy xem kết quả bói bài Tarot của tôi!\\n\\nNếu bạn muốn biết chi tiết hơn về vận mệnh, hãy cài đặt ứng dụng Tarot Witch và tự mình xem bói Tarot!\\n👉 Tải xuống: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Dịch';
+
+  @override
+  String translateFailed(String error) {
+    return 'Dịch thất bại: $error';
+  }
 }

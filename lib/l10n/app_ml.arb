@@ -1425,5 +1425,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "സ്നേഹം",
+  "tagMoney": "സമ്പത്ത്",
+  "tagHealth": "ആരോഗ്യം",
+  "tagCareer": "തൊഴിൽ",
+  "tagToday": "ഭാഗ്യം",
+  "tagRelationship": "ബന്ധം",
+  "tagSelfReflection": "ആത്മചിന്ത"
 }

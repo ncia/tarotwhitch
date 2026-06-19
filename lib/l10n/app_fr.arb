@@ -1425,5 +1425,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "Amour",
+  "tagMoney": "Argent",
+  "tagHealth": "Santé",
+  "tagCareer": "Carrière",
+  "tagToday": "Aujourd'hui",
+  "tagRelationship": "Relations",
+  "tagSelfReflection": "Réflexion"
 }

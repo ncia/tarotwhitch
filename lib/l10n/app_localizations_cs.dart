@@ -3974,10 +3974,10 @@ class AppLocalizationsCs extends AppLocalizations {
   String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (vzpřímený)';
+  String get cardDetailTabUpright => 'Vzpřímená (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (obráceno)';
+  String get cardDetailTabReversed => 'Obrácená (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습니다.';
@@ -4120,17 +4120,17 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'Vytáhněte $count karet';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Vějíř';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Naskládané';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Čtu úlomky osudu.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4139,7 +4139,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Získáno magického prachu +$amount! ✨';
   }
 
   @override
@@ -4159,5 +4159,13 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Podívejte se na mé výsledky čtení tarotu!\\n\\nPokud chcete znát podrobné čtení, nainstalujte si aplikaci Tarot Witch a sami si zkontrolujte čtení tarotu!\\n👉 Stáhněte si:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Podívejte se na můj výsledek tarotového čtení!\\n\\nPokud chcete znát podrobný výklad, nainstalujte si aplikaci Tarotová čarodějnice a sami si přečtěte tarot!\\n👉 Stáhnout: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Přeložit';
+
+  @override
+  String translateFailed(String error) {
+    return 'Překlad se nezdařil: $error';
+  }
 }

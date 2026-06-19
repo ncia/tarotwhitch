@@ -1425,5 +1425,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "Ljubav",
+  "tagMoney": "Bogatstvo",
+  "tagHealth": "Zdravlje",
+  "tagCareer": "Karijera",
+  "tagToday": "Danas",
+  "tagRelationship": "Odnosi",
+  "tagSelfReflection": "Samorefleksija"
 }

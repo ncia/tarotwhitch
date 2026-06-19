@@ -3961,10 +3961,10 @@ class AppLocalizationsFa extends AppLocalizations {
   String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (ایستاده)';
+  String get cardDetailTabUpright => 'مستقیم (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (معکوس)';
+  String get cardDetailTabReversed => 'معکوس (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습니다.';
@@ -4107,17 +4107,17 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return '$count کارت را انتخاب کنید';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'بادبزنی';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'روی هم چیده شده';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'در حال خواندن تکه‌های سرنوشت هستم.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4126,7 +4126,7 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'غبار جادویی +$amount به دست آمد! ✨';
   }
 
   @override
@@ -4146,5 +4146,13 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 نتایج خواندن تاروت من را بررسی کنید!\\n\\nاگر می‌خواهید جزئیات خواندن را بدانید، برنامه Tarot Witch را نصب کنید و خودتان خواندن تاروت خود را بررسی کنید!\\n👉 دانلود کنید:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ نتایج فال تاروت من را بررسی کنید!\\n\\nاگر می‌خواهید فال دقیق را بدانید، برنامه جادوگر تاروت را نصب کنید و فال تاروت خود را مستقیماً بررسی کنید!\\n👉 دانلود: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'ترجمه';
+
+  @override
+  String translateFailed(String error) {
+    return 'ترجمه ناموفق بود: $error';
+  }
 }

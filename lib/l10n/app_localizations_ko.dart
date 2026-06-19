@@ -3968,4 +3968,12 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get shareResultText =>
       '🔮 내 타로 점괘 결과를 확인해보세요!\\n\\n자세한 점괘 내용이 궁금하다면 타로마녀 앱을 설치해서 직접 타로 점을 확인해 보세요!\\n👉 다운로드: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => '번역 보기';
+
+  @override
+  String translateFailed(String error) {
+    return '번역 실패: $error';
+  }
 }

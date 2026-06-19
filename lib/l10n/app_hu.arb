@@ -1425,5 +1425,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "Szerelem",
+  "tagMoney": "Pénz",
+  "tagHealth": "Egészség",
+  "tagCareer": "Karrier",
+  "tagToday": "Mai szerencse",
+  "tagRelationship": "Kapcsolatok",
+  "tagSelfReflection": "Önreflexió"
 }

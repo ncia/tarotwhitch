@@ -4289,17 +4289,17 @@ class AppLocalizationsHy extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return '$count քարտ ընտրեք';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Հովհարաձև';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Կույտաձև';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Կարդում եմ ճակատագրի բեկորները։';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4308,7 +4308,7 @@ class AppLocalizationsHy extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Կախարդական փոշի +$amount ստացված է! ✨';
   }
 
   @override
@@ -4328,5 +4328,13 @@ class AppLocalizationsHy extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Ստուգեք իմ Tarot-ի ընթերցման արդյունքները:\\n\\nԵթե ցանկանում եք իմանալ մանրամասն ընթերցանությունը, տեղադրեք Tarot Witch հավելվածը և ինքներդ ստուգեք ձեր Tarot-ի ընթերցանությունը:\\n👉 Ներբեռնեք՝https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Դիտեք իմ թարոյի գուշակության արդյունքները!\\n\\nԵթե ցանկանում եք իմանալ մանրամասն գուշակությունը, տեղադրեք «Թարոյի կախարդուհի» հավելվածը և ինքներդ ստուգեք թարոյի գուշակությունը:\\n👉 Ներբեռնել: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Թարգմանել';
+
+  @override
+  String translateFailed(String error) {
+    return 'Թարգմանությունը ձախողվեց: $error';
+  }
 }

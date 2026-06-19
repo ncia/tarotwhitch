@@ -1425,5 +1425,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "愛情",
+  "tagMoney": "財富",
+  "tagHealth": "健康",
+  "tagCareer": "事業",
+  "tagToday": "今日運勢",
+  "tagRelationship": "人際關係",
+  "tagSelfReflection": "自我反思"
 }

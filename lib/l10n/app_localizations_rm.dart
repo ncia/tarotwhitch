@@ -3967,10 +3967,10 @@ class AppLocalizationsRm extends AppLocalizations {
   String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (Upright)';
+  String get cardDetailTabUpright => 'Dretg (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (Reversed)';
+  String get cardDetailTabReversed => 'Invertì (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습니다.';
@@ -4113,17 +4113,17 @@ class AppLocalizationsRm extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'Tira $count cartas';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'A ventagl';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Stivà';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Legia ils fragments dal destin.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4132,7 +4132,7 @@ class AppLocalizationsRm extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Pulvra magica +$amount obtegnida! ✨';
   }
 
   @override
@@ -4142,15 +4142,23 @@ class AppLocalizationsRm extends AppLocalizations {
   String get spreadReversed => 'Reversed (Reversed)';
 
   @override
-  String get buttonShare => 'Share';
+  String get buttonShare => 'Partir';
 
   @override
-  String get buttonSelectSpread => 'Select Spread';
+  String get buttonSelectSpread => 'Tschernir la spredgia';
 
   @override
-  String get buttonSelectOtherWitch => 'Select Other Witch';
+  String get buttonSelectOtherWitch => 'Tschernir in\'autra striegn';
 
   @override
   String get shareResultText =>
-      '🔮 Check out my Tarot reading results!\\n\\nIf you want to know the detailed reading, install the Tarot Witch app and check your tarot reading yourself!\\n👉 Download: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Guarda mes resultats da la lectura da tarot!\\n\\nSche ti vul savair dapli davart la lectura, installescha l\'app Tarot Witch e controlla la lectura da tarot per te sez!\\n👉 Telechargiar: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Traducir';
+
+  @override
+  String translateFailed(String error) {
+    return 'La traducziun è fallada: $error';
+  }
 }

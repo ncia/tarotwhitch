@@ -1425,5 +1425,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "Aşk",
+  "tagMoney": "Para",
+  "tagHealth": "Sağlık",
+  "tagCareer": "Kariyer",
+  "tagToday": "Günlük Fal",
+  "tagRelationship": "İlişkiler",
+  "tagSelfReflection": "Öz Yansıma"
 }

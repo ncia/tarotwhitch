@@ -1425,5 +1425,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "Kärlek",
+  "tagMoney": "Pengar",
+  "tagHealth": "Hälsa",
+  "tagCareer": "Karriär",
+  "tagToday": "Dagens tur",
+  "tagRelationship": "Relationer",
+  "tagSelfReflection": "Självreflektion"
 }

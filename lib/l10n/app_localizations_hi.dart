@@ -4009,10 +4009,10 @@ class AppLocalizationsHi extends AppLocalizations {
   String get cardDetailLoadError => 'मेरे पास एक नया उत्पाद है।';
 
   @override
-  String get cardDetailTabUpright => '정방향 (ईमानदार)';
+  String get cardDetailTabUpright => 'सीधा (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (उलट)';
+  String get cardDetailTabReversed => 'उलटा (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => 'यह एक अच्छा विचार है।';
@@ -4155,17 +4155,17 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return '$count कार्ड चुनें';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'पंखे का आकार';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'ढेर का आकार';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'नियति के अंश पढ़ रहा हूँ।';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4174,7 +4174,7 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'जादुई धूल +$amount प्राप्त हुई! ✨';
   }
 
   @override
@@ -4194,5 +4194,13 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 मेरे टैरो रीडिंग परिणाम देखें!\\n\\nयदि आप विस्तृत रीडिंग जानना चाहते हैं, तो टैरो विच ऐप इंस्टॉल करें और अपनी टैरो रीडिंग स्वयं जांचें!\\n👉 डाउनलोड करें:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ मेरे टैरो रीडिंग के परिणाम देखें!\\n\\nयदि आप विस्तृत भविष्यवाणी जानना चाहते हैं, तो टैरो विच ऐप इंस्टॉल करें और अपनी टैरो रीडिंग स्वयं देखें!\\n👉 डाउनलोड करें: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'अनुवाद करें';
+
+  @override
+  String translateFailed(String error) {
+    return 'अनुवाद विफल रहा: $error';
+  }
 }

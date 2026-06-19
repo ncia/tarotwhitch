@@ -1,20 +1,4 @@
 {
-  "ar": [
-    "coinShortageTitle",
-    "coinShortageContent",
-    "dialogOk",
-    "proceedReadingTitle",
-    "proceedReadingContent",
-    "dialogCancel",
-    "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
-  ],
-
   "be": [
     "coinShortageTitle",
     "coinShortageContent",
@@ -23,12 +7,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "bg": [
@@ -39,12 +18,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "ca": [
@@ -55,12 +29,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "cs": [
@@ -71,12 +40,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "da": [
@@ -87,12 +51,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "de": [
@@ -103,12 +62,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "el": [
@@ -119,12 +73,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "es": [
@@ -135,12 +84,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "et": [
@@ -151,12 +95,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "fa": [
@@ -167,12 +106,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "fi": [
@@ -183,12 +117,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "fr": [
@@ -199,12 +128,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "hi": [
@@ -215,12 +139,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "hr": [
@@ -231,12 +150,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "hu": [
@@ -247,12 +161,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "hy": [
@@ -263,12 +172,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "id": [
@@ -279,12 +183,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "it": [
@@ -295,12 +194,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "lt": [
@@ -311,12 +205,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "lv": [
@@ -327,12 +216,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "ml": [
@@ -343,12 +227,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "ms": [
@@ -359,12 +238,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "no": [
@@ -375,12 +249,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "pl": [
@@ -391,12 +260,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "pt": [
@@ -407,12 +271,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "rm": [
@@ -423,16 +282,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained",
-    "buttonShare",
-    "buttonSelectSpread",
-    "buttonSelectOtherWitch",
-    "shareResultText"
+    "witchTarotReading"
   ],
 
   "ro": [
@@ -443,12 +293,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "ru": [
@@ -459,12 +304,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "sk": [
@@ -475,12 +315,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "sl": [
@@ -491,12 +326,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "sr": [
@@ -507,12 +337,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "sv": [
@@ -523,12 +348,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "th": [
@@ -539,12 +359,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "tl": [
@@ -555,12 +370,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "tr": [
@@ -571,12 +381,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "uk": [
@@ -587,12 +392,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "vi": [
@@ -603,12 +403,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "zh": [
@@ -619,12 +414,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "zh_Hans": [
@@ -635,12 +425,7 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ],
 
   "zh_Hant": [
@@ -651,11 +436,6 @@
     "proceedReadingContent",
     "dialogCancel",
     "dialogProceed",
-    "pickCardsText",
-    "layoutFan",
-    "layoutStacked",
-    "readingFateFragments",
-    "witchTarotReading",
-    "magicDustObtained"
+    "witchTarotReading"
   ]
 }

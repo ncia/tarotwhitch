@@ -3923,17 +3923,17 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return '抽取$count张牌';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => '扇形';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => '堆叠式';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => '正在解读命运碎片。';
 
   @override
   String witchTarotReading(String witchName) {
@@ -3942,7 +3942,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return '获得魔尘 +$amount！✨';
   }
 
   @override
@@ -3962,7 +3962,15 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 查看我的塔罗牌占卜结果！\\n\\n如果你想了解详细占卜结果，请安装塔罗女巫应用程序，亲自查看你的塔罗占卜结果！\\n👉 下载：https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ 查看我的塔罗占卜结果！\\n\\n想了解详细的占卜结果，请安装塔罗女巫应用，亲自查看塔罗占卜！\\n👉 下载：https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => '翻译';
+
+  @override
+  String translateFailed(String error) {
+    return '翻译失败：$error';
+  }
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hans`).
@@ -7752,10 +7760,10 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
   String get cardDetailLoadError => '请注意，请注意以下事项。';
 
   @override
-  String get cardDetailTabUpright => '정방향 (直立)';
+  String get cardDetailTabUpright => '正位 (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (逆位)';
+  String get cardDetailTabReversed => '逆位 (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석없습니다。';
@@ -7865,6 +7873,25 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
   String get profileEditSave => '节省';
 
   @override
+  String pickCardsText(int count) {
+    return '抽取 $count 张牌';
+  }
+
+  @override
+  String get layoutFan => '扇形';
+
+  @override
+  String get layoutStacked => '堆叠';
+
+  @override
+  String get readingFateFragments => '正在解读命运碎片。';
+
+  @override
+  String magicDustObtained(int amount) {
+    return '获得魔力尘埃 +$amount！✨';
+  }
+
+  @override
   String get spreadUpright => '直立 (Upright)';
 
   @override
@@ -7881,7 +7908,15 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
 
   @override
   String get shareResultText =>
-      '🔮 查看我的塔罗牌占卜结果！\\n\\n如果你想了解详细占卜结果，请安装塔罗女巫应用程序，亲自查看你的塔罗占卜结果！\\n👉 下载：https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ 查看我的塔罗占卜结果！\\n\\n想了解详细的占卜结果，请安装塔罗女巫应用，亲自查看塔罗占卜！\\n👉 下载：https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => '翻译';
+
+  @override
+  String translateFailed(String error) {
+    return '翻译失败：$error';
+  }
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -11780,6 +11815,25 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get profileEditSave => '節省';
 
   @override
+  String pickCardsText(int count) {
+    return '抽取$count張卡牌';
+  }
+
+  @override
+  String get layoutFan => '扇形';
+
+  @override
+  String get layoutStacked => '堆疊';
+
+  @override
+  String get readingFateFragments => '正在解讀命運碎片。';
+
+  @override
+  String magicDustObtained(int amount) {
+    return '獲得魔力塵埃 +$amount! ✨';
+  }
+
+  @override
   String get spreadUpright => '正位 (Upright)';
 
   @override
@@ -11796,5 +11850,13 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get shareResultText =>
-      '🔮 看看我的塔羅牌占卜結果！ \\n\\n如果你想了解詳細占卜結果，請安裝塔羅女巫應用程序，親自查看你的塔羅占卜結果！ \\n👉 下載：https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ 查看我的塔羅占卜結果！\\n\\n如果想知道詳細的占卜結果，請安裝塔羅女巫應用程式，親自查看塔羅占卜！\\n👉 下載: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => '翻譯';
+
+  @override
+  String translateFailed(String error) {
+    return '翻譯失敗：$error';
+  }
 }

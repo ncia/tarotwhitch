@@ -13,6 +13,7 @@ import 'diary_detail_screen.dart';
 import 'diary_calendar_screen.dart';
 import 'package:flutter_tarot/l10n/tarot_localizations.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
+import '../utils/tag_localization.dart';
 import 'package:intl/intl.dart';
 import 'auth_screen.dart';
 import '../screens/diary_edit_screen.dart';
@@ -182,7 +183,7 @@ class _DiaryListView extends StatelessWidget {
                                   children: diary.tags.map((tag) => Container(
                                     padding: EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                                     decoration: BoxDecoration(color: Colors.purpleAccent.withOpacity(0.3), borderRadius: BorderRadius.circular(10)),
-                                    child: Text('#$tag', style: TextStyle(color: Colors.pinkAccent, fontSize: 10)),
+                                    child: Text('#${getLocalizedTag(context, tag)}', style: TextStyle(color: Colors.pinkAccent, fontSize: 10)),
                                   )).toList(),
                                 ),
                               ],

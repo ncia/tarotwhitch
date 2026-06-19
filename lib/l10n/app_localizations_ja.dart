@@ -3791,10 +3791,10 @@ class AppLocalizationsJa extends AppLocalizations {
   String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다。';
 
   @override
-  String get cardDetailTabUpright => '정방향 (直立)';
+  String get cardDetailTabUpright => '正位置 (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (反転)';
+  String get cardDetailTabReversed => '逆位置 (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습니다。';
@@ -3968,5 +3968,13 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 私のタロット リーディング結果をチェックしてください!\\n\\n詳細なリーディングを知りたい場合は、タロット ウィッチ アプリをインストールして、自分のタロット リーディングをチェックしてください!\\n👉 ダウンロード:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ 私のタロット占いの結果をチェックしてください！\\n\\n詳細な占い結果を知りたい場合は、タロット魔女アプリをインストールして、直接タロット占いをチェックしてください！\\n👉 ダウンロード: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => '翻訳';
+
+  @override
+  String translateFailed(String error) {
+    return '翻訳に失敗しました: $error';
+  }
 }

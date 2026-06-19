@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../services/diary_service.dart';
 import '../widgets/glass_container.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
+import '../utils/tag_localization.dart';
 
 /// 태그 선택 다이얼로그 (기본 태그 + 커스텀 태그 추가/삭제)
 class DiaryTagSelector extends StatefulWidget {
@@ -150,7 +151,7 @@ class _DiaryTagSelectorState extends State<DiaryTagSelector> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      '#$tag',
+                      '#${getLocalizedTag(context, tag)}',
                       style: TextStyle(
                         color: isSelected ? Colors.white : Colors.white70,
                         fontSize: 13,

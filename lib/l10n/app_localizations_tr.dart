@@ -3973,10 +3973,10 @@ class AppLocalizationsTr extends AppLocalizations {
   String get cardDetailLoadError => 'Bu çok önemli.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (Dik)';
+  String get cardDetailTabUpright => 'Düz (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (Tersine çevrilmiş)';
+  String get cardDetailTabReversed => 'Ters (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => 'bu çok önemli.';
@@ -4119,17 +4119,17 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return '$count kart çekin';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Yelpaze';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Üst Üste';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Kaderin parçalarını okuyorum.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4138,7 +4138,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Sihirli Toz +$amount kazanıldı! ✨';
   }
 
   @override
@@ -4158,5 +4158,13 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Tarot falı sonuçlarıma göz atın!\\n\\nDetaylı falı öğrenmek istiyorsanız Tarot Cadısı uygulamasını yükleyin ve tarot falınızı kendiniz kontrol edin!\\n👉 İndirin:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Tarot falı sonucuma göz atın!\\n\\nDetaylı falı öğrenmek isterseniz, Tarot Cadısı uygulamasını yükleyin ve tarot falınızı kendiniz kontrol edin!\\n👉 İndir: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Çevir';
+
+  @override
+  String translateFailed(String error) {
+    return 'Çeviri başarısız oldu: $error';
+  }
 }

@@ -3972,10 +3972,10 @@ class AppLocalizationsLt extends AppLocalizations {
   String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (stačiai)';
+  String get cardDetailTabUpright => 'Tiesioji (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (atvirkščiai)';
+  String get cardDetailTabReversed => 'Atvirkštinė (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습니다.';
@@ -4118,17 +4118,17 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'Ištraukite $count kortas';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Vėduoklė';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Sukrauta';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Skaitomi likimo fragmentai.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4137,7 +4137,7 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Gauta magijos dulkių +$amount! ✨';
   }
 
   @override
@@ -4157,5 +4157,13 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Peržiūrėkite mano Taro skaitymo rezultatus!\\n\\nJei norite sužinoti išsamią informaciją, įdiekite Taro Witch programėlę ir patys patikrinkite savo taro skaitymą!\\n👉 Atsisiųskite:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Peržiūrėkite mano taro skaitymo rezultatus!\\n\\nJei norite sužinoti išsamesnį skaitymą, įdiekite „Taro raganos“ programėlę ir patys patikrinkite taro skaitymą!\\n👉 Atsisiųsti: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Versti';
+
+  @override
+  String translateFailed(String error) {
+    return 'Vertimas nepavyko: $error';
+  }
 }

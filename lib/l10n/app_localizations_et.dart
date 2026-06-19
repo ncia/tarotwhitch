@@ -3971,10 +3971,10 @@ class AppLocalizationsEt extends AppLocalizations {
   String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (püsti)';
+  String get cardDetailTabUpright => 'Püstine (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (tagurpidi)';
+  String get cardDetailTabReversed => 'Tagurpidi (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습니다.';
@@ -4117,17 +4117,17 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'Tõmmake $count kaarti';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Lehvik';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Virnastatud';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Loen saatuse kilde.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4136,7 +4136,7 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Maagilist tolmu +$amount saadud! ✨';
   }
 
   @override
@@ -4156,5 +4156,13 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Vaadake minu Taro lugemise tulemusi!\\n\\nKui soovite täpsemat lugemist teada, installige rakendus Tarot Witch ja kontrollige oma taro lugemist ise!\\n👉 Laadige alla:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Vaata minu tarokaardi ennustuse tulemusi!\\n\\nKui soovid teada üksikasjalikku ennustust, installi Tarot Nõia rakendus ja vaata oma tarokaardi ennustust ise!\\n👉 Laadi alla: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Tõlgi';
+
+  @override
+  String translateFailed(String error) {
+    return 'Tõlge ebaõnnestus: $error';
+  }
 }

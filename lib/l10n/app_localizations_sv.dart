@@ -3972,10 +3972,10 @@ class AppLocalizationsSv extends AppLocalizations {
   String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (upprätt)';
+  String get cardDetailTabUpright => 'Rättvänd (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (omvänt)';
+  String get cardDetailTabReversed => 'Omvänd (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습니다.';
@@ -4118,17 +4118,17 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'Dra $count kort';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Solfjäder';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Staplad';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Läser ödets fragment.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4137,7 +4137,7 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Fick magiskt damm +$amount! ✨';
   }
 
   @override
@@ -4157,5 +4157,13 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Kolla in mina tarotläsningsresultat!\\n\\nOm du vill veta den detaljerade läsningen, installera Tarot Witch-appen och kontrollera din tarotläsning själv!\\n👉 Ladda ner:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Kolla in mitt tarotresultat!\\n\\nOm du vill veta den detaljerade spådomen, installera appen Tarot Witch och kolla din tarotläsning själv!\\n👉 Ladda ner: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Översätt';
+
+  @override
+  String translateFailed(String error) {
+    return 'Översättning misslyckades: $error';
+  }
 }

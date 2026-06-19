@@ -3981,10 +3981,10 @@ class AppLocalizationsCa extends AppLocalizations {
   String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (Vertical)';
+  String get cardDetailTabUpright => 'Dret (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (invertit)';
+  String get cardDetailTabReversed => 'Invertit (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습니다.';
@@ -4129,17 +4129,17 @@ class AppLocalizationsCa extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'Tria $count cartes';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Ventall';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Apilat';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Llegint fragments del destí.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4148,7 +4148,7 @@ class AppLocalizationsCa extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Pols màgica +$amount obtinguda! ✨';
   }
 
   @override
@@ -4168,5 +4168,13 @@ class AppLocalizationsCa extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Fes una ullada als meus resultats de lectura del tarot!\\n\\nSi vols conèixer la lectura detallada, instal·la l\'aplicació Tarot Witch i comprova tu mateix la lectura del tarot!\\n👉 Descarrega:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Consulta el meu resultat de la lectura de tarot!\\n\\nSi vols saber la predicció detallada, instal·la l\'aplicació Tarot Witch i consulta el tarot tu mateix!\\n👉 Descàrrega: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Tradueix';
+
+  @override
+  String translateFailed(String error) {
+    return 'La traducció ha fallat: $error';
+  }
 }

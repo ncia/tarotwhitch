@@ -1425,5 +1425,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "प्यार",
+  "tagMoney": "धन",
+  "tagHealth": "स्वास्थ्य",
+  "tagCareer": "करियर",
+  "tagToday": "आज का भाग्य",
+  "tagRelationship": "रिश्ते",
+  "tagSelfReflection": "आत्म-चिंतन"
 }

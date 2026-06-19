@@ -1532,754 +1532,754 @@ class AppLocalizationsAr extends AppLocalizations {
   String get nicknamePrefix49 => 'منتصف الليل';
 
   @override
-  String get nicknamePrefix50 => 'desolate';
+  String get nicknamePrefix50 => 'صامت';
 
   @override
-  String get nicknamePrefix51 => 'secret';
+  String get nicknamePrefix51 => 'سري';
 
   @override
-  String get nicknamePrefix52 => 'secret';
+  String get nicknamePrefix52 => 'غامض';
 
   @override
-  String get nicknamePrefix53 => 'sacred';
+  String get nicknamePrefix53 => 'مقدس';
 
   @override
-  String get nicknamePrefix54 => 'profane';
+  String get nicknamePrefix54 => 'مدنس';
 
   @override
-  String get nicknamePrefix55 => 'superior';
+  String get nicknamePrefix55 => 'متغطرس';
 
   @override
-  String get nicknamePrefix56 => 'modest';
+  String get nicknamePrefix56 => 'متواضع';
 
   @override
-  String get nicknamePrefix57 => 'wise';
+  String get nicknamePrefix57 => 'حكيم';
 
   @override
-  String get nicknamePrefix58 => 'foolish';
+  String get nicknamePrefix58 => 'أحمق';
 
   @override
-  String get nicknamePrefix59 => 'tough';
+  String get nicknamePrefix59 => 'قوي';
 
   @override
-  String get nicknamePrefix60 => 'weak';
+  String get nicknamePrefix60 => 'ضعيف';
 
   @override
-  String get nicknamePrefix61 => 'brave';
+  String get nicknamePrefix61 => 'شجاع';
 
   @override
-  String get nicknamePrefix62 => 'dastardly';
+  String get nicknamePrefix62 => 'جبان';
 
   @override
-  String get nicknamePrefix63 => 'Distant';
+  String get nicknamePrefix63 => 'بعيد';
 
   @override
-  String get nicknamePrefix64 => 'near';
+  String get nicknamePrefix64 => 'قريب';
 
   @override
-  String get nicknamePrefix65 => 'moving away';
+  String get nicknamePrefix65 => 'مبتعد';
 
   @override
-  String get nicknamePrefix66 => 'oncoming';
+  String get nicknamePrefix66 => 'قادم';
 
   @override
-  String get nicknamePrefix67 => 'disappearing';
+  String get nicknamePrefix67 => 'متلاشي';
 
   @override
-  String get nicknamePrefix68 => 'emergent';
+  String get nicknamePrefix68 => 'ظاهر';
 
   @override
-  String get nicknamePrefix69 => 'awakened';
+  String get nicknamePrefix69 => 'مستيقظ';
 
   @override
-  String get nicknamePrefix70 => 'asleep';
+  String get nicknamePrefix70 => 'نائم';
 
   @override
-  String get nicknamePrefix71 => 'dreaming';
+  String get nicknamePrefix71 => 'حالم';
 
   @override
-  String get nicknamePrefix72 => 'wandering';
+  String get nicknamePrefix72 => 'متجول';
 
   @override
-  String get nicknamePrefix73 => 'wandering';
+  String get nicknamePrefix73 => 'ضائع';
 
   @override
-  String get nicknamePrefix74 => 'staying';
+  String get nicknamePrefix74 => 'مقيم';
 
   @override
-  String get nicknamePrefix75 => 'leaving';
+  String get nicknamePrefix75 => 'مغادر';
 
   @override
-  String get nicknamePrefix76 => 'coming back';
+  String get nicknamePrefix76 => 'عائد';
 
   @override
-  String get nicknamePrefix77 => 'waiting';
+  String get nicknamePrefix77 => 'منتظر';
 
   @override
-  String get nicknamePrefix78 => 'looking for';
+  String get nicknamePrefix78 => 'باحث';
 
   @override
-  String get nicknamePrefix79 => 'cryptic';
+  String get nicknamePrefix79 => 'مختبئ';
 
   @override
-  String get nicknamePrefix80 => 'exposed';
+  String get nicknamePrefix80 => 'مكشوف';
 
   @override
-  String get nicknamePrefix81 => 'abandoned';
+  String get nicknamePrefix81 => 'مهجور';
 
   @override
-  String get nicknamePrefix82 => 'selected';
+  String get nicknamePrefix82 => 'مختار';
 
   @override
-  String get nicknamePrefix83 => 'blessed';
+  String get nicknamePrefix83 => 'مبارك';
 
   @override
-  String get nicknamePrefix84 => 'cursed';
+  String get nicknamePrefix84 => 'ملعون';
 
   @override
-  String get nicknamePrefix85 => 'loved';
+  String get nicknamePrefix85 => 'محبوب';
 
   @override
-  String get nicknamePrefix86 => 'hated';
+  String get nicknamePrefix86 => 'مكروه';
 
   @override
-  String get nicknamePrefix87 => 'remember';
+  String get nicknamePrefix87 => 'متذكر';
 
   @override
-  String get nicknamePrefix88 => 'oblivious';
+  String get nicknamePrefix88 => 'ناسي';
 
   @override
-  String get nicknamePrefix89 => 'starlight';
+  String get nicknamePrefix89 => 'ضوء النجوم';
 
   @override
-  String get nicknamePrefix90 => 'moonlight';
+  String get nicknamePrefix90 => 'ضوء القمر';
 
   @override
-  String get nicknamePrefix91 => 'of sunlight';
+  String get nicknamePrefix91 => 'ضوء الشمس';
 
   @override
-  String get nicknamePrefix92 => 'cosmic';
+  String get nicknamePrefix92 => 'كوني';
 
   @override
-  String get nicknamePrefix93 => 'of the earth';
+  String get nicknamePrefix93 => 'الأرضي';
 
   @override
-  String get nicknamePrefix94 => 'of the sea';
+  String get nicknamePrefix94 => 'البحري';
 
   @override
-  String get nicknamePrefix95 => 'heavenly';
+  String get nicknamePrefix95 => 'السمائي';
 
   @override
-  String get nicknamePrefix96 => 'of the clouds';
+  String get nicknamePrefix96 => 'الغيوم';
 
   @override
-  String get nicknamePrefix97 => 'of the wind';
+  String get nicknamePrefix97 => 'الرياح';
 
   @override
-  String get nicknamePrefix98 => 'rain';
+  String get nicknamePrefix98 => 'المطر';
 
   @override
-  String get nicknamePrefix99 => 'of the eye';
+  String get nicknamePrefix99 => 'الثلج';
 
   @override
-  String get nicknamePrefix100 => 'icy';
+  String get nicknamePrefix100 => 'الجليد';
 
   @override
-  String get nicknamePrefix101 => 'fiery';
+  String get nicknamePrefix101 => 'النار';
 
   @override
-  String get nicknamePrefix102 => 'water';
+  String get nicknamePrefix102 => 'الماء';
 
   @override
-  String get nicknamePrefix103 => 'earthen';
+  String get nicknamePrefix103 => 'التراب';
 
   @override
-  String get nicknamePrefix104 => 'wooden';
+  String get nicknamePrefix104 => 'الشجر';
 
   @override
-  String get nicknamePrefix105 => 'forest';
+  String get nicknamePrefix105 => 'الغابة';
 
   @override
-  String get nicknamePrefix106 => 'mountainous';
+  String get nicknamePrefix106 => 'الجبل';
 
   @override
-  String get nicknamePrefix107 => 'lecture';
+  String get nicknamePrefix107 => 'النهر';
 
   @override
-  String get nicknamePrefix108 => 'of the lake';
+  String get nicknamePrefix108 => 'البحيرة';
 
   @override
-  String get nicknamePrefix109 => 'of time';
+  String get nicknamePrefix109 => 'الزمن';
 
   @override
-  String get nicknamePrefix110 => 'of space';
+  String get nicknamePrefix110 => 'الفضاء';
 
   @override
-  String get nicknamePrefix111 => 'dimension';
+  String get nicknamePrefix111 => 'البعد';
 
   @override
-  String get nicknamePrefix112 => 'fateful';
+  String get nicknamePrefix112 => 'القدر';
 
   @override
-  String get nicknamePrefix113 => 'fateful';
+  String get nicknamePrefix113 => 'المصير';
 
   @override
-  String get nicknamePrefix114 => 'miraculous';
+  String get nicknamePrefix114 => 'المعجزة';
 
   @override
-  String get nicknamePrefix115 => 'magical';
+  String get nicknamePrefix115 => 'السحر';
 
   @override
-  String get nicknamePrefix116 => 'mythical';
+  String get nicknamePrefix116 => 'الأسطورة';
 
   @override
-  String get nicknamePrefix117 => 'legendary';
+  String get nicknamePrefix117 => 'الخرافة';
 
   @override
-  String get nicknamePrefix118 => 'of truth';
+  String get nicknamePrefix118 => 'الحقيقة';
 
   @override
-  String get nicknamePrefix119 => 'false';
+  String get nicknamePrefix119 => 'الكذب';
 
   @override
-  String get nicknamePrefix120 => 'fantasy';
+  String get nicknamePrefix120 => 'الوهم';
 
   @override
-  String get nicknamePrefix121 => 'dream';
+  String get nicknamePrefix121 => 'الحلم';
 
   @override
-  String get nicknamePrefix122 => 'nightmare';
+  String get nicknamePrefix122 => 'الكابوس';
 
   @override
-  String get nicknamePrefix123 => 'ruin';
+  String get nicknamePrefix123 => 'الدمار';
 
   @override
-  String get nicknamePrefix124 => 'of creation';
+  String get nicknamePrefix124 => 'الخلق';
 
   @override
-  String get nicknamePrefix125 => 'of life';
+  String get nicknamePrefix125 => 'الحياة';
 
   @override
-  String get nicknamePrefix126 => 'of death';
+  String get nicknamePrefix126 => 'الموت';
 
   @override
-  String get nicknamePrefix127 => 'soul';
+  String get nicknamePrefix127 => 'الروح';
 
   @override
-  String get nicknamePrefix128 => 'physical';
+  String get nicknamePrefix128 => 'الجسد';
 
   @override
-  String get nicknamePrefix129 => 'of reason';
+  String get nicknamePrefix129 => 'العقل';
 
   @override
-  String get nicknamePrefix130 => 'emotional';
+  String get nicknamePrefix130 => 'العاطفة';
 
   @override
-  String get nicknamePrefix131 => 'of love';
+  String get nicknamePrefix131 => 'الحب';
 
   @override
-  String get nicknamePrefix132 => 'of hate';
+  String get nicknamePrefix132 => 'الكراهية';
 
   @override
-  String get nicknamePrefix133 => 'of sadness';
+  String get nicknamePrefix133 => 'الحزن';
 
   @override
-  String get nicknamePrefix134 => 'of joy';
+  String get nicknamePrefix134 => 'الفرح';
 
   @override
-  String get nicknamePrefix135 => 'angry';
+  String get nicknamePrefix135 => 'الغضب';
 
   @override
-  String get nicknamePrefix136 => 'of peace';
+  String get nicknamePrefix136 => 'السلام';
 
   @override
-  String get nicknamePrefix137 => 'of war';
+  String get nicknamePrefix137 => 'الحرب';
 
   @override
-  String get nicknamePrefix138 => 'chaos';
+  String get nicknamePrefix138 => 'الفوضى';
 
   @override
-  String get nicknamePrefix139 => 'orderly';
+  String get nicknamePrefix139 => 'النظام';
 
   @override
-  String get nicknamePrefix140 => 'of light';
+  String get nicknamePrefix140 => 'الضوء';
 
   @override
-  String get nicknamePrefix141 => 'dark';
+  String get nicknamePrefix141 => 'الظلام';
 
   @override
-  String get nicknamePrefix142 => 'twilight';
+  String get nicknamePrefix142 => 'الغسق';
 
   @override
-  String get nicknamePrefix143 => 'dawn';
+  String get nicknamePrefix143 => 'الفجر';
 
   @override
-  String get nicknamePrefix144 => 'noon';
+  String get nicknamePrefix144 => 'الظهيرة';
 
   @override
-  String get nicknamePrefix145 => 'midnight';
+  String get nicknamePrefix145 => 'منتصف الليل';
 
   @override
-  String get nicknamePrefix146 => 'past';
+  String get nicknamePrefix146 => 'الماضي';
 
   @override
-  String get nicknamePrefix147 => 'present';
+  String get nicknamePrefix147 => 'الحاضر';
 
   @override
-  String get nicknamePrefix148 => 'future';
+  String get nicknamePrefix148 => 'المستقبل';
 
   @override
-  String get nicknamePrefix149 => 'of origin';
+  String get nicknamePrefix149 => 'الأصل';
 
   @override
-  String get nicknamePrefix150 => 'apocalyptic';
+  String get nicknamePrefix150 => 'النهاية';
 
   @override
-  String get nicknamePrefix151 => 'infinite';
+  String get nicknamePrefix151 => 'اللانهاية';
 
   @override
-  String get nicknamePrefix152 => 'finite';
+  String get nicknamePrefix152 => 'المحدود';
 
   @override
-  String get nicknamePrefix153 => 'silent';
+  String get nicknamePrefix153 => 'الصمت';
 
   @override
-  String get nicknamePrefix154 => 'of noise';
+  String get nicknamePrefix154 => 'الضوضاء';
 
   @override
-  String get nicknamePrefix155 => 'singing';
+  String get nicknamePrefix155 => 'مغني';
 
   @override
-  String get nicknamePrefix156 => 'dancing';
+  String get nicknamePrefix156 => 'راقص';
 
   @override
-  String get nicknamePrefix157 => 'crying';
+  String get nicknamePrefix157 => 'باكي';
 
   @override
-  String get nicknamePrefix158 => 'smiling';
+  String get nicknamePrefix158 => 'ضاحك';
 
   @override
-  String get nicknamePrefix159 => 'whispering';
+  String get nicknamePrefix159 => 'هامس';
 
   @override
-  String get nicknamePrefix160 => 'crying';
+  String get nicknamePrefix160 => 'صارخ';
 
   @override
-  String get nicknamePrefix161 => 'praying';
+  String get nicknamePrefix161 => 'مصلي';
 
   @override
-  String get nicknamePrefix162 => 'pleading';
+  String get nicknamePrefix162 => 'متوسل';
 
   @override
-  String get nicknamePrefix163 => 'commanding';
+  String get nicknamePrefix163 => 'آمر';
 
   @override
-  String get nicknamePrefix164 => 'submissive';
+  String get nicknamePrefix164 => 'مطيع';
 
   @override
-  String get nicknamePrefix165 => 'ruling';
+  String get nicknamePrefix165 => 'مسيطر';
 
   @override
-  String get nicknamePrefix166 => 'serving';
+  String get nicknamePrefix166 => 'خادم';
 
   @override
-  String get nicknamePrefix167 => 'guiding';
+  String get nicknamePrefix167 => 'مرشد';
 
   @override
-  String get nicknamePrefix168 => 'accompanying';
+  String get nicknamePrefix168 => 'تابع';
 
   @override
-  String get nicknamePrefix169 => 'teaching';
+  String get nicknamePrefix169 => 'معلم';
 
   @override
-  String get nicknamePrefix170 => 'learning';
+  String get nicknamePrefix170 => 'متعلم';
 
   @override
-  String get nicknamePrefix171 => 'of memory';
+  String get nicknamePrefix171 => 'الذاكرة';
 
   @override
-  String get nicknamePrefix172 => 'of memories';
+  String get nicknamePrefix172 => 'الذكريات';
 
   @override
-  String get nicknamePrefix173 => 'of wounds';
+  String get nicknamePrefix173 => 'الجرح';
 
   @override
-  String get nicknamePrefix174 => 'healing';
+  String get nicknamePrefix174 => 'الشفاء';
 
   @override
-  String get nicknamePrefix175 => 'poisonous';
+  String get nicknamePrefix175 => 'السم';
 
   @override
-  String get nicknamePrefix176 => 'medicine';
+  String get nicknamePrefix176 => 'الدواء';
 
   @override
-  String get nicknamePrefix177 => 'welcome';
+  String get nicknamePrefix177 => 'الوهم';
 
   @override
-  String get nicknamePrefix178 => 'of substance';
+  String get nicknamePrefix178 => 'الواقع';
 
   @override
-  String get nicknamePrefix179 => 'ideal';
+  String get nicknamePrefix179 => 'المثالي';
 
   @override
-  String get nicknamePrefix180 => 'real';
+  String get nicknamePrefix180 => 'الواقعي';
 
   @override
-  String get nicknamePrefix181 => 'imaginary';
+  String get nicknamePrefix181 => 'الافتراضي';
 
   @override
-  String get nicknamePrefix182 => 'natural';
+  String get nicknamePrefix182 => 'الطبيعة';
 
   @override
-  String get nicknamePrefix183 => 'artificial';
+  String get nicknamePrefix183 => 'الصناعي';
 
   @override
-  String get nicknamePrefix184 => 'in the beginning';
+  String get nicknamePrefix184 => 'البداية';
 
   @override
-  String get nicknamePrefix185 => 'eternity';
+  String get nicknamePrefix185 => 'الأبدية';
 
   @override
-  String get nicknamePrefix186 => 'of the moment';
+  String get nicknamePrefix186 => 'اللحظة';
 
   @override
-  String get nicknamePrefix187 => 'fleeting';
+  String get nicknamePrefix187 => 'البرهة';
 
   @override
-  String get nicknamePrefix188 => 'eternal';
+  String get nicknamePrefix188 => 'الاستمرارية';
 
   @override
-  String get nicknamePrefix189 => 'of change';
+  String get nicknamePrefix189 => 'التغيير';
 
   @override
-  String get nicknamePrefix190 => 'still';
+  String get nicknamePrefix190 => 'التوقف';
 
   @override
-  String get nicknamePrefix191 => 'flowing';
+  String get nicknamePrefix191 => 'متدفق';
 
   @override
-  String get nicknamePrefix192 => 'rundown';
+  String get nicknamePrefix192 => 'متوقف';
 
   @override
-  String get nicknamePrefix193 => 'blazing';
+  String get nicknamePrefix193 => 'مشتعل';
 
   @override
-  String get nicknamePrefix194 => 'cooling down';
+  String get nicknamePrefix194 => 'يبرد';
 
   @override
-  String get nicknamePrefix195 => 'blooming';
+  String get nicknamePrefix195 => 'مزهر';
 
   @override
-  String get nicknamePrefix196 => 'withering';
+  String get nicknamePrefix196 => 'ذابل';
 
   @override
-  String get nicknamePrefix197 => 'growing up';
+  String get nicknamePrefix197 => 'نامي';
 
   @override
-  String get nicknamePrefix198 => 'dying';
+  String get nicknamePrefix198 => 'محتضر';
 
   @override
-  String get nicknamePrefix199 => 'breathing';
+  String get nicknamePrefix199 => 'متنفس';
 
   @override
-  String get nicknamePrefix200 => 'suffocating';
+  String get nicknamePrefix200 => 'مختنق';
 
   @override
-  String get nicknameSuffix0 => 'prophet';
+  String get nicknameSuffix0 => 'نبي';
 
   @override
-  String get nicknameSuffix1 => 'wizard';
+  String get nicknameSuffix1 => 'ساحر';
 
   @override
-  String get nicknameSuffix2 => 'witch';
+  String get nicknameSuffix2 => 'ساحرة';
 
   @override
-  String get nicknameSuffix3 => 'article';
+  String get nicknameSuffix3 => 'فارس';
 
   @override
-  String get nicknameSuffix4 => 'warrior';
+  String get nicknameSuffix4 => 'محارب';
 
   @override
-  String get nicknameSuffix5 => 'Archer';
+  String get nicknameSuffix5 => 'رامي سهام';
 
   @override
-  String get nicknameSuffix6 => 'thief';
+  String get nicknameSuffix6 => 'لص';
 
   @override
-  String get nicknameSuffix7 => 'assassin';
+  String get nicknameSuffix7 => 'قاتل';
 
   @override
-  String get nicknameSuffix8 => 'paladin';
+  String get nicknameSuffix8 => 'فارس مقدس';
 
   @override
-  String get nicknameSuffix9 => 'priest';
+  String get nicknameSuffix9 => 'كاهن';
 
   @override
-  String get nicknameSuffix10 => 'priestess';
+  String get nicknameSuffix10 => 'كاهنة';
 
   @override
-  String get nicknameSuffix11 => 'monk';
+  String get nicknameSuffix11 => 'راهب';
 
   @override
-  String get nicknameSuffix12 => 'powwow';
+  String get nicknameSuffix12 => 'شامان';
 
   @override
-  String get nicknameSuffix13 => 'alchemist';
+  String get nicknameSuffix13 => 'خيميائي';
 
   @override
-  String get nicknameSuffix14 => 'necromancer';
+  String get nicknameSuffix14 => 'مستحضر أرواح';
 
   @override
-  String get nicknameSuffix15 => 'spiritist';
+  String get nicknameSuffix15 => 'سيد الأرواح';
 
   @override
-  String get nicknameSuffix16 => 'summoner';
+  String get nicknameSuffix16 => 'مستدعي';
 
   @override
-  String get nicknameSuffix17 => 'illusionist';
+  String get nicknameSuffix17 => 'خادع';
 
   @override
-  String get nicknameSuffix18 => 'healer';
+  String get nicknameSuffix18 => 'معالج';
 
   @override
-  String get nicknameSuffix19 => 'wise man';
+  String get nicknameSuffix19 => 'حكيم';
 
   @override
-  String get nicknameSuffix20 => 'scholar';
+  String get nicknameSuffix20 => 'عالم';
 
   @override
-  String get nicknameSuffix21 => 'researcher';
+  String get nicknameSuffix21 => 'باحث';
 
   @override
-  String get nicknameSuffix22 => 'explorer';
+  String get nicknameSuffix22 => 'مستكشف';
 
   @override
-  String get nicknameSuffix23 => 'traveler';
+  String get nicknameSuffix23 => 'مسافر';
 
   @override
-  String get nicknameSuffix24 => 'vagabond';
+  String get nicknameSuffix24 => 'متجول';
 
   @override
-  String get nicknameSuffix25 => 'vagabond';
+  String get nicknameSuffix25 => 'رحالة';
 
   @override
-  String get nicknameSuffix26 => 'pilgrim';
+  String get nicknameSuffix26 => 'حاج';
 
   @override
-  String get nicknameSuffix27 => 'seeker';
+  String get nicknameSuffix27 => 'باحث';
 
   @override
-  String get nicknameSuffix28 => 'observer';
+  String get nicknameSuffix28 => 'مراقب';
 
   @override
-  String get nicknameSuffix29 => 'recorder';
+  String get nicknameSuffix29 => 'مسجل';
 
   @override
-  String get nicknameSuffix30 => 'communicator';
+  String get nicknameSuffix30 => 'ناقل';
 
   @override
-  String get nicknameSuffix31 => 'tutelar';
+  String get nicknameSuffix31 => 'حارس';
 
   @override
-  String get nicknameSuffix32 => 'warden';
+  String get nicknameSuffix32 => 'حارس';
 
   @override
-  String get nicknameSuffix33 => 'guard';
+  String get nicknameSuffix33 => 'حارس';
 
   @override
-  String get nicknameSuffix34 => 'gatekeeper';
+  String get nicknameSuffix34 => 'بواب';
 
   @override
-  String get nicknameSuffix35 => 'judge';
+  String get nicknameSuffix35 => 'قاضي';
 
   @override
-  String get nicknameSuffix36 => 'bailiff';
+  String get nicknameSuffix36 => 'منفذ';
 
   @override
-  String get nicknameSuffix37 => 'governor';
+  String get nicknameSuffix37 => 'حاكم';
 
   @override
-  String get nicknameSuffix38 => 'ruler';
+  String get nicknameSuffix38 => 'سيد';
 
   @override
-  String get nicknameSuffix39 => 'king';
+  String get nicknameSuffix39 => 'ملك';
 
   @override
-  String get nicknameSuffix40 => 'queen';
+  String get nicknameSuffix40 => 'ملكة';
 
   @override
-  String get nicknameSuffix41 => 'emperor';
+  String get nicknameSuffix41 => 'إمبراطور';
 
   @override
-  String get nicknameSuffix42 => 'empress';
+  String get nicknameSuffix42 => 'إمبراطورة';
 
   @override
-  String get nicknameSuffix43 => 'nobility';
+  String get nicknameSuffix43 => 'نبيل';
 
   @override
-  String get nicknameSuffix44 => 'permanent residence';
+  String get nicknameSuffix44 => 'لورد';
 
   @override
-  String get nicknameSuffix45 => 'knight commander';
+  String get nicknameSuffix45 => 'قائد الفرسان';
 
   @override
-  String get nicknameSuffix46 => 'mercenary';
+  String get nicknameSuffix46 => 'مرتزق';
 
   @override
-  String get nicknameSuffix47 => 'pirate';
+  String get nicknameSuffix47 => 'قرصان';
 
   @override
-  String get nicknameSuffix48 => 'thief';
+  String get nicknameSuffix48 => 'لص';
 
   @override
-  String get nicknameSuffix49 => 'fraud';
+  String get nicknameSuffix49 => 'محتال';
 
   @override
-  String get nicknameSuffix50 => 'jester';
+  String get nicknameSuffix50 => 'مهرج';
 
   @override
-  String get nicknameSuffix51 => 'fool';
+  String get nicknameSuffix51 => 'أحمق';
 
   @override
-  String get nicknameSuffix52 => 'hermit';
+  String get nicknameSuffix52 => 'ناسك';
 
   @override
-  String get nicknameSuffix53 => 'heretic';
+  String get nicknameSuffix53 => 'زنديق';
 
   @override
-  String get nicknameSuffix54 => 'betrayer';
+  String get nicknameSuffix54 => 'خائن';
 
   @override
-  String get nicknameSuffix55 => 'traitor';
+  String get nicknameSuffix55 => 'متمرد';
 
   @override
-  String get nicknameSuffix56 => 'hero';
+  String get nicknameSuffix56 => 'بطل';
 
   @override
-  String get nicknameSuffix57 => 'saver';
+  String get nicknameSuffix57 => 'منقذ';
 
   @override
-  String get nicknameSuffix58 => 'liberator';
+  String get nicknameSuffix58 => 'محرر';
 
   @override
-  String get nicknameSuffix59 => 'destroyer';
+  String get nicknameSuffix59 => 'مدمر';
 
   @override
-  String get nicknameSuffix60 => 'creator';
+  String get nicknameSuffix60 => 'خالق';
 
   @override
-  String get nicknameSuffix61 => 'god';
+  String get nicknameSuffix61 => 'إله';
 
   @override
-  String get nicknameSuffix62 => 'goddess';
+  String get nicknameSuffix62 => 'إلهة';
 
   @override
-  String get nicknameSuffix63 => 'angel';
+  String get nicknameSuffix63 => 'ملاك';
 
   @override
-  String get nicknameSuffix64 => 'devil';
+  String get nicknameSuffix64 => 'شيطان';
 
   @override
-  String get nicknameSuffix65 => 'government ordinance';
+  String get nicknameSuffix65 => 'روح';
 
   @override
-  String get nicknameSuffix66 => 'fairy';
+  String get nicknameSuffix66 => 'جنية';
 
   @override
-  String get nicknameSuffix67 => 'monster';
+  String get nicknameSuffix67 => 'وحش';
 
   @override
-  String get nicknameSuffix68 => 'demon beast';
+  String get nicknameSuffix68 => 'وحش سحري';
 
   @override
-  String get nicknameSuffix69 => 'dragon';
+  String get nicknameSuffix69 => 'تنين';
 
   @override
-  String get nicknameSuffix70 => 'ghost';
+  String get nicknameSuffix70 => 'شبح';
 
   @override
-  String get nicknameSuffix71 => 'shade';
+  String get nicknameSuffix71 => 'شبح';
 
   @override
-  String get nicknameSuffix72 => 'undead';
+  String get nicknameSuffix72 => 'موتى أحياء';
 
   @override
-  String get nicknameSuffix73 => 'vampire';
+  String get nicknameSuffix73 => 'مصاص دماء';
 
   @override
-  String get nicknameSuffix74 => 'werewolf';
+  String get nicknameSuffix74 => 'مستذئب';
 
   @override
-  String get nicknameSuffix75 => 'mermaid';
+  String get nicknameSuffix75 => 'حورية بحر';
 
   @override
-  String get nicknameSuffix76 => 'siren';
+  String get nicknameSuffix76 => 'سيرين';
 
   @override
-  String get nicknameSuffix77 => 'nymph';
+  String get nicknameSuffix77 => 'حورية';
 
   @override
-  String get nicknameSuffix78 => 'goblin';
+  String get nicknameSuffix78 => 'عفريت';
 
   @override
-  String get nicknameSuffix79 => 'oak';
+  String get nicknameSuffix79 => 'أورك';
 
   @override
-  String get nicknameSuffix80 => 'troll';
+  String get nicknameSuffix80 => 'ترول';
 
   @override
-  String get nicknameSuffix81 => 'elf';
+  String get nicknameSuffix81 => 'إلف';
 
   @override
-  String get nicknameSuffix82 => 'dwarf';
+  String get nicknameSuffix82 => 'قزم';
 
   @override
-  String get nicknameSuffix83 => 'giant';
+  String get nicknameSuffix83 => 'عملاق';
 
   @override
-  String get nicknameSuffix84 => 'postmark';
+  String get nicknameSuffix84 => 'قزم';
 
   @override
-  String get nicknameSuffix85 => 'human being';
+  String get nicknameSuffix85 => 'إنسان';
 
   @override
-  String get nicknameSuffix86 => 'prisoner';
+  String get nicknameSuffix86 => 'وحش بشري';
 
   @override
-  String get nicknameSuffix87 => 'signature';
+  String get nicknameSuffix87 => 'رجل طائر';
 
   @override
-  String get nicknameSuffix88 => 'Fishman';
+  String get nicknameSuffix88 => 'رجل سمكة';
 
   @override
-  String get nicknameSuffix89 => 'employee';
+  String get nicknameSuffix89 => 'رجل تنين';
 
   @override
-  String get nicknameSuffix90 => 'evil spirit';
+  String get nicknameSuffix90 => 'روح شريرة';
 
   @override
-  String get nicknameSuffix91 => 'Sura';
+  String get nicknameSuffix91 => 'أسورا';
 
   @override
-  String get nicknameSuffix92 => 'hell';
+  String get nicknameSuffix92 => 'الهاوية';
 
   @override
-  String get nicknameSuffix93 => 'heaven';
+  String get nicknameSuffix93 => 'السماء';
 
   @override
-  String get nicknameSuffix94 => 'underworld';
+  String get nicknameSuffix94 => 'العالم السفلي';
 
   @override
-  String get nicknameSuffix95 => 'Otherworld';
+  String get nicknameSuffix95 => 'عالم آخر';
 
   @override
-  String get nicknameSuffix96 => 'abyss';
+  String get nicknameSuffix96 => 'الهاوية';
 
   @override
-  String get nicknameSuffix97 => 'chaos';
+  String get nicknameSuffix97 => 'الفوضى';
 
   @override
-  String get nicknameSuffix98 => 'order';
+  String get nicknameSuffix98 => 'النظام';
 
   @override
   String get nicknameSuffix99 => 'ضوء';
@@ -3119,13 +3119,15 @@ class AppLocalizationsAr extends AppLocalizations {
       'هانغتشو، هانغتشو، هانغتشو، هانغتشو، هانغتشو، هانغتشو';
 
   @override
-  String get tarotMajor03Reversed => '과잉보호، 의존성، 창조적 결핍، 으름، 정체기';
+  String get tarotMajor03Reversed =>
+      'الحماية المفرطة، التبعية، نقص الإبداع، الكسل، الركود';
 
   @override
   String get tarotMajor04Name => 'الامبراطور';
 
   @override
-  String get tarotMajor04Upright => '권위، 구조، 안정، 부성애، 통제력، 책임감';
+  String get tarotMajor04Upright =>
+      'السلطة، الهيكل، الاستقرار، الأبوة، السيطرة، المسؤولية';
 
   @override
   String get tarotMajor04Reversed => 'شكرا لك';
@@ -3147,7 +3149,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotMajor06Upright => 'نعم، نعم، نعم، نعم، نعم، نعم';
 
   @override
-  String get tarotMajor06Reversed => '불못된 선택، 신뢰 상실، 유혹، 불균형';
+  String get tarotMajor06Reversed =>
+      'الخلاف، الاختيار الخاطئ، فقدان الثقة، الإغراء، عدم التوازن';
 
   @override
   String get tarotMajor07Name => 'العربة';
@@ -3196,13 +3199,15 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotMajor11Upright => 'السفر، السفر، السفر، السفر، السفر';
 
   @override
-  String get tarotMajor11Reversed => '불공평، 편견، 부정직، 피할 없는 처벌، 불균형';
+  String get tarotMajor11Reversed =>
+      'الظلم، التحيز، عدم الأمانة، العقاب الحتمي، عدم التوازن';
 
   @override
   String get tarotMajor12Name => 'الرجل المشنوق';
 
   @override
-  String get tarotMajor12Upright => '희생، 새로운 시각، 다림، 통찰، 일시적 정지';
+  String get tarotMajor12Upright =>
+      'التضحية، منظور جديد، انتظار، بصيرة، توقف مؤقت';
 
   @override
   String get tarotMajor12Reversed => 'مستلزمات شخصية';
@@ -3211,7 +3216,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotMajor13Name => 'موت';
 
   @override
-  String get tarotMajor13Upright => '끝과 새로운 시작، 변화، 전환기، 과거 청산';
+  String get tarotMajor13Upright =>
+      'النهاية وبداية جديدة، التغيير، فترة انتقالية، تصفية الماضي';
 
   @override
   String get tarotMajor13Reversed =>
@@ -3221,7 +3227,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotMajor14Name => 'الاعتدال';
 
   @override
-  String get tarotMajor14Upright => '조화، 균형، 중용، 치유، 목적 의식';
+  String get tarotMajor14Upright =>
+      'الانسجام، التوازن، الاعتدال، الشفاء، الشعور بالهدف';
 
   @override
   String get tarotMajor14Reversed =>
@@ -3234,7 +3241,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotMajor15Upright => 'شكرا لك';
 
   @override
-  String get tarotMajor15Reversed => '해방، 속박에서 벗어남، 독립، 깨달음، 자유';
+  String get tarotMajor15Reversed =>
+      'التحرر، التخلص من القيود، الاستقلال، التنوير، الحرية';
 
   @override
   String get tarotMajor16Name => 'البرج';
@@ -3263,7 +3271,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotMajor18Upright => 'نعم، نعم، نعم، نعم، نعم';
 
   @override
-  String get tarotMajor18Reversed => '두려움의 극복، 비밀의 발견، 불안 해소، 진실 규명';
+  String get tarotMajor18Reversed =>
+      'التغلب على الخوف، اكتشاف الأسرار، تبديد القلق، كشف الحقيقة';
 
   @override
   String get tarotMajor19Name => 'الشمس';
@@ -3284,7 +3293,8 @@ class AppLocalizationsAr extends AppLocalizations {
       'في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق';
 
   @override
-  String get tarotMajor20Reversed => '후회, 자기 의심, 변화에 대한 두려움, 미련, 형벌';
+  String get tarotMajor20Reversed =>
+      'الندم، الشك الذاتي، الخوف من التغيير، التشبث بالماضي، العقاب';
 
   @override
   String get tarotMajor21Name => 'العالم';
@@ -3310,10 +3320,12 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotCups02Name => 'اثنان من الكؤوس';
 
   @override
-  String get tarotCups02Upright => '관계의 조화، 결합، 사랑، 상호 존중، 협력';
+  String get tarotCups02Upright =>
+      'انسجام العلاقة، الاتحاد، الحب، الاحترام المتبادل، التعاون';
 
   @override
-  String get tarotCups02Reversed => '관계의 불화، 이별، 오해، 불균형، 짝사랑';
+  String get tarotCups02Reversed =>
+      'خلاف العلاقة، الانفصال، سوء الفهم، عدم التوازن، الحب من طرف واحد';
 
   @override
   String get tarotCups03Name => 'ثلاث كؤوس';
@@ -3323,7 +3335,8 @@ class AppLocalizationsAr extends AppLocalizations {
       'في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق';
 
   @override
-  String get tarotCups03Reversed => '과음، 소외، 파벌، 삼각관계، 축제의 취소';
+  String get tarotCups03Reversed =>
+      'الإفراط في الشرب، التهميش، الفصائل، علاقة ثلاثية، إلغاء الاحتفال';
 
   @override
   String get tarotCups04Name => 'أربعة من الكؤوس';
@@ -3349,10 +3362,12 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotCups06Name => 'ستة أكواب';
 
   @override
-  String get tarotCups06Upright => '과거의 향수، 어린 시절، 순수함، 옛 친구، 추억';
+  String get tarotCups06Upright =>
+      'الحنين إلى الماضي، الطفولة، البراءة، الأصدقاء القدامى، الذكريات';
 
   @override
-  String get tarotCups06Reversed => '과거에 얽매임، 미래를 면함، 독립، 성장';
+  String get tarotCups06Reversed =>
+      'التمسك بالماضي، تجاهل المستقبل، الاستقلال، النمو';
 
   @override
   String get tarotCups07Name => 'سبعة أكواب';
@@ -3428,7 +3443,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotCups14Name => 'ملك الكؤوس';
 
   @override
-  String get tarotCups14Upright => '감정적 통제، 균형، 외교، 관용، 지혜로운 조언';
+  String get tarotCups14Upright =>
+      'التحكم العاطفي، التوازن، الدبلوماسية، التسامح، النصيحة الحكيمة';
 
   @override
   String get tarotCups14Reversed => 'كل شيء, أفضل, أفضل, أفضل, أفضل';
@@ -3448,7 +3464,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotPentacles02Name => 'اثنان من الخماسي';
 
   @override
-  String get tarotPentacles02Upright => '균형، 적응력، 시간/재정 관리، 유연성';
+  String get tarotPentacles02Upright =>
+      'التوازن، القدرة على التكيف، إدارة الوقت/المال، المرونة';
 
   @override
   String get tarotPentacles02Reversed =>
@@ -3458,7 +3475,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotPentacles03Name => 'ثلاثة من الخماسي';
 
   @override
-  String get tarotPentacles03Upright => '팀워크، 협업، 기술، 인정받는 노력، 건축';
+  String get tarotPentacles03Upright =>
+      'العمل الجماعي، التعاون، المهارة، الجهد المعترف به، البناء';
 
   @override
   String get tarotPentacles03Reversed => 'أفضل, أفضل, أفضل, أفضل, أفضل';
@@ -3467,7 +3485,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotPentacles04Name => 'أربعة من الخماسي';
 
   @override
-  String get tarotPentacles04Upright => '안정، 소유욕، 보수성، 인색함، 축적';
+  String get tarotPentacles04Upright =>
+      'الاستقرار، حب التملك، المحافظة، البخل، التراكم';
 
   @override
   String get tarotPentacles04Reversed => 'كل شيء, أفضل, أفضل, أفضل';
@@ -3476,7 +3495,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotPentacles05Name => 'خمسة من الخماسي';
 
   @override
-  String get tarotPentacles05Upright => '궁핍, 재정적/정서적 결핍, 소외, 역경';
+  String get tarotPentacles05Upright =>
+      'الفقر، النقص المالي/العاطفي، التهميش، الشدائد';
 
   @override
   String get tarotPentacles05Reversed =>
@@ -3526,7 +3546,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotPentacles10Name => 'عشرة من الخماسي';
 
   @override
-  String get tarotPentacles10Upright => '가업، 부의 축적، 유산، 안정된 삶، 전통';
+  String get tarotPentacles10Upright =>
+      'الأعمال العائلية، تراكم الثروة، الميراث، الحياة المستقرة، التقاليد';
 
   @override
   String get tarotPentacles10Reversed =>
@@ -3560,7 +3581,8 @@ class AppLocalizationsAr extends AppLocalizations {
       'مستلزمات شخصية, مستلزمات شخصية, مستلزمات, مستلزمات, رعاية';
 
   @override
-  String get tarotPentacles13Reversed => '과잉 통제، 소유욕، 이기심، 재정적 불안، 과소비';
+  String get tarotPentacles13Reversed =>
+      'التحكم المفرط، حب التملك، الأنانية، عدم الاستقرار المالي، الإسراف';
 
   @override
   String get tarotPentacles14Name => 'ملك الخماسي';
@@ -3570,7 +3592,8 @@ class AppLocalizationsAr extends AppLocalizations {
       'مرحبا بكم في المنزل, في الخارج, في الهواء الطلق, في الهواء الطلق';
 
   @override
-  String get tarotPentacles14Reversed => '물질주의، 부패، 탐욕، 고집불통، 억압적 권위';
+  String get tarotPentacles14Reversed =>
+      'المادية، الفساد، الجشع، العناد، السلطة القمعية';
 
   @override
   String get tarotSwords01Name => 'الآس السيوف';
@@ -3619,7 +3642,8 @@ class AppLocalizationsAr extends AppLocalizations {
       'مغامرات، مغامرات، مغامرات، مغامرات، مغامرات';
 
   @override
-  String get tarotSwords05Reversed => '갈등 해결، 화해، 타협، 패배 인정، 복수 포기';
+  String get tarotSwords05Reversed =>
+      'حل النزاعات، المصالحة، التسوية، الاعتراف بالهزيمة، التخلي عن الانتقام';
 
   @override
   String get tarotSwords06Name => 'ستة من السيوف';
@@ -3659,7 +3683,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotSwords09Upright => 'نعم، نعم، نعم، نعم، نعم';
 
   @override
-  String get tarotSwords09Reversed => '공포 극복, 희망의 빛, 불면증 해소, 사망의 빛';
+  String get tarotSwords09Reversed =>
+      'التغلب على الخوف، بصيص الأمل، التخلص من الأرق، مواجهة الحقائق';
 
   @override
   String get tarotSwords10Name => 'عشرة من السيوف';
@@ -3696,16 +3721,19 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotSwords13Upright => 'مرحباً بكم في هذا الموقع';
 
   @override
-  String get tarotSwords13Reversed => '비정함، 냉혹함، 과도한 비판، 원한، 고립';
+  String get tarotSwords13Reversed =>
+      'القسوة، القسوة، النقد المفرط، الضغينة، العزلة';
 
   @override
   String get tarotSwords14Name => 'ملك السيوف';
 
   @override
-  String get tarotSwords14Upright => '권위، 지적 통찰، 논리، 공정함، 원칙، 전문가';
+  String get tarotSwords14Upright =>
+      'السلطة، البصيرة الفكرية، المنطق، العدالة، المبادئ، الخبير';
 
   @override
-  String get tarotSwords14Reversed => '권력 남용، 비합리성، 잔인함، 통제욕، 독재';
+  String get tarotSwords14Reversed =>
+      'إساءة استخدام السلطة، اللاعقلانية، القسوة، الرغبة في السيطرة، الديكتاتورية';
 
   @override
   String get tarotWands01Name => 'الآس الصولجانات';
@@ -3722,7 +3750,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotWands02Name => 'اثنان من الصولجانات';
 
   @override
-  String get tarotWands02Upright => '계획، 비전، 목표، 결단력، 탐험';
+  String get tarotWands02Upright =>
+      'التخطيط، الرؤية، الأهداف طويلة المدى، العزيمة، الاستكشاف';
 
   @override
   String get tarotWands02Reversed =>
@@ -3757,7 +3786,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotWands05Upright => 'نعم، نعم، نعم، نعم، نعم';
 
   @override
-  String get tarotWands05Reversed => '타협, 갈등의 회피, 협력, 평화 추구, 혼란 진정';
+  String get tarotWands05Reversed =>
+      'التسوية، تجنب الصراع، التعاون، السعي للسلام، تهدئة الفوضى';
 
   @override
   String get tarotWands06Name => 'ستة من الصولجانات';
@@ -3796,13 +3826,15 @@ class AppLocalizationsAr extends AppLocalizations {
       'مغامرات، مغامرات، مغامرات، مغامرات، مغامرات';
 
   @override
-  String get tarotWands09Reversed => '불필요한 저항';
+  String get tarotWands09Reversed =>
+      'الإرهاق، جنون الارتياب، الاستسلام، العناد، المقاومة غير الضرورية';
 
   @override
   String get tarotWands10Name => 'عشرة من الصولجانات';
 
   @override
-  String get tarotWands10Upright => '과도한 짐، 부담، 책임감، 압박، 한계점';
+  String get tarotWands10Upright =>
+      'العبء الزائد، الضغط الشديد، المسؤولية، الضغط، نقطة الانهيار';
 
   @override
   String get tarotWands10Reversed => 'مستلزمات شخصية في الرياض مستلزمات رياضية';
@@ -3811,7 +3843,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotWands11Name => 'صفحة الصولجانات';
 
   @override
-  String get tarotWands11Upright => '탐험, 발견, 열정적인 아이디어, 에너지, 매력';
+  String get tarotWands11Upright =>
+      'الاستكشاف، الاكتشاف، الأفكار الشغوفة، الطاقة، الجاذبية';
 
   @override
   String get tarotWands11Reversed => 'مستلزمات شخصية';
@@ -3823,7 +3856,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tarotWands12Upright => 'مستلزمات شخصية';
 
   @override
-  String get tarotWands12Reversed => '충동적 행동، 변덕، 분노، 무계획';
+  String get tarotWands12Reversed =>
+      'السلوك الاندفاعي، الغطرسة، التقلب، الغضب، عدم التخطيط';
 
   @override
   String get tarotWands13Name => 'ملكة الصولجانات';
@@ -3847,11 +3881,11 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get nicknamePrefixes =>
-      '신비한,고요한,거룩한,어두운,빛나는,차가운,뜨거운,매혹적인,잔혹한,순 فصول دراسية ,슬픈,기쁜,몽환적인,타락한,순백의,칠흑의,핏빛의,잿빛의,황금빛,은빛 ,푸른,붉은,노란,검은,하얀,투명한,고독한,시끄러운,조용한,따뜻한,싸늘 한,외로운,쓸쓸한,즐거운,행복한,우울한,절망적인,희망찬,눈부신,어스름 한,캄캄한,적막한,은밀한,비밀스러운,성스러운,불경한,오만한,겸손한,지혜 شكرا لك 가오는, 사라지는, 나타나는, 깨어난, 잠든, 꿈꾸는, 헤매는, 방황하는, 머무는, 떠 나는، 돌아 오는، 기다리는، 찾는، 숨 은، 드러난، 버려진، 선택된، 축복받은، 저주 받은,사랑받는,미움받는,기억하는,망각하는,별빛의,달빛의,햇빛의,우주의, شكرا لك ,나무의,숲의,산의,강의,호수의,시간의,공간의,차원의,운명의,숙명의,기 적의,마법의,신화의,전설의,진실의,거짓의,환상의,꿈의,악몽의,파멸의, معلومات عنا ,기쁨의,분노의,평화의,전쟁의,혼돈의,질서의,빛의,어둠의,황혼의,새벽의 ,정오의,자정의,과거의,현재의,미래의,기원의,종말의,무한의,유한의,침묵 مساعدة أو, أو, أو, أو, أو, أو, أو, أو, أو, أو, أو, أو, 기억의,추억의,상처의,치유의,독의,약의,환영의,실체의,이상의,현실의, 가상의، 자 연의، 인공의، 태초의، 영겁의، 순간의، 찰나 의، 영속의، 변화의، 정지의 ,흐르는,멈춘,타오르는,식어가는,피어나는,시드는,자라나는,죽어가는,숨 쉬는، 질식하는، 찬란한، 은은한، 아 스라한، 아련한، 투명한، 희미한، 눈부신، 기묘 한,독특한,특별한,고귀한,순수한,타락한,고독한,쓸쓸한,적막한,아득한,가 혹한، 냉혹한، 잔인한، 위대한، 강인한، 굳건한، 유연한، 재빠른، 느릿한، 고요속의 ,혼돈속의,기억속의,상상속의,침묵하는,속삭이는,노래하는,춤추는,흐느끼 미소짓는، 비웃는، 관조 하는، 방황하는، 헤매는، 깨어 있는، 잠든، 꿈꾸는، 몽상 하는,망상하는,기도하는,간절한,애절한,처절한,숭고한,사악한,비열한,거 만한,겸손한,다정한,따뜻한,서늘한,오싹한,기괴한,섬뜩한,황홀한,매혹적인 ,아찔한,달콤한,쌉싸름한,씁쓸한,가시돋친,날카로운,무딘,거친,부드러운 ,포근한,안락한,위태로운,불안한,평온한,안온한,나른한,권태로운,열정적인 ,무심한,차분한,격렬한,맹렬한,광적인,미쳐버린,이 성적인,감성적인,냉철한 ,현명한,어리석은,순진한,교활한,음흉한,순백의,칠흑의,황금빛,은빛,핏빛';
+      'غامض,هادئ,مقدس,مظلم,مشرق,بارد,ساخن,ساحر,قاس,نقي,خشن,ناعم,جميل,غريب,عظيم,حقير,أبدي,منسي,متألق,حزين,سعيد,خيالي,فاسد,أبيض نقي,أسود فاحم,بلون الدم,رمادي,ذهبي,فضي,أزرق,أحمر,أصفر,أسود,أبيض,شفاف,وحيد,صاخب,هادئ,دافئ,بارد,منعزل,كئيب,ممتع,سعيد,كئيب,يائس,مليء بالأمل,مبهر,غائم,مظلم تمامًا,صامت,سري,غامض,مقدس,مدنس,متغطرس,متواضع,حكيم,أحمق,قوي,ضعيف,شجاع,جبان,بعيد,قريب,مبتعد,قادم,متلاشي,ظاهر,مستيقظ,نائم,حالم,متجول,ضائع,مقيم,مغادر,عائد,منتظر,باحث,مختبئ,مكشوف,مهجور,مختار,مبارك,ملعون,محبوب,مكروه,متذكر,ناسي,ضوء النجوم,ضوء القمر,ضوء الشمس,كوني,الأرضي,البحري,السمائي,الغيوم,الرياح,المطر,الثلج,الجليد,النار,الماء,التراب,الشجر,الغابة,الجبل,النهر,البحيرة,الزمن,الفضاء,البعد,القدر,المصير,المعجزة,السحر,الأسطورة,الخرافة,الحقيقة,الكذب,الوهم,الحلم,الكابوس,الدمار,الخلق,الحياة,الموت,الروح,الجسد,العقل,العاطفة,الحب,الكراهية,الحزن,الفرح,الغضب,السلام,الحرب,الفوضى,النظام,الضوء,الظلام,الغسق,الفجر,الظهيرة,منتصف الليل,الماضي,الحاضر,المستقبل,الأصل,النهاية,اللانهاية,المحدود,الصمت,الضوضاء,مغني,راقص,باكي,ضاحك,هامس,صارخ,مصلي,متوسل,آمر,مطيع,مسيطر,خادم,مرشد,تابع,معلم,متعلم,الذاكرة,الذكريات,الجرح,الشفاء,السم,الدواء,الوهم,الواقع,المثالي,الواقعي,الافتراضي,الطبيعة,الصناعي,البداية,الأبدية,اللحظة,البرهة,الاستمرارية,التغيير,التوقف,متدفق,متوقف,مشتعل,يبرد,مزهر,ذابل,نامي,محتضر,متنفس,مختنق,متألق,خافت,بعيد,غامض,شفاف,باهت,مبهر,غريب,فريد,خاص,نبيل,نقي,فاسد,وحيد,كئيب,صامت,بعيد,قاس,قاس,وحشي,عظيم,قوي,ثابت,مرن,سريع,بطيء,في هدوء,في فوضى,في الذاكرة,في الخيال,صامت,هامس,مغني,راقص,باكي,مبتسم,ساخر,متأمل,متجول,ضائع,مستيقظ,نائم,حالم,حالم,متوهم,مصلي,ملح,مؤثر,يائس,سامي,شرير,حقير,متعجرف,متواضع,لطيف,دافئ,بارد,مخيف,غريب,مرعب,مبهج,ساحر,مذهل,حلو,مرير حلو,مرير,شائك,حاد,بليد,خشن,ناعم,مريح,مريح,خطير,قلق,هادئ,آمن,كسول,ملل,عاطفي,غير مبال,هادئ,عنيف,شرس,جنوني,مجنون,عقلاني,عاطفي,هادئ,حكيم,أحمق,ساذج,ماكر,مخادع,أبيض نقي,أسود فاحم,ذهبي,فضي,بلون الدم';
 
   @override
   String get nicknameSuffixes =>
-      '예언자، 마법사، 마녀، 기사، 전사، 궁수، 도적، 암살자، 성기사، 사제، 여사제، 수도사، 주술 사,연금술사,강령술사,정령사,소환사,환술사,치유사,현자,학자,연구자,탐험가,여행 자، 방랑자، 유랑자، 순례자، 구도자، 관찰자، 기록자، 전달자، 수호자، 파수꾼، 병، 문지 기,심판관,집행관,통치자,지배자,왕,여왕,황제,여제,귀족,영주,기사단장,용병,해적 ,도둑,사기꾼,광대,바보,은둔자,이단자,배신자,반역자,영웅,구원자,해방자,파괴자 ,창조자,신,여신,천사,악마,정령,요정,괴물,마수,드래곤,유령,망령,언데드,흡혈귀 ,늑대인간,인어,세이렌,님프,고블린,오크,트롤,엘프,드워프,거인,소인,인간,수인 ,조인,어인,용인,악령,수라,나락,천상,명계,이계,심연,혼돈,질서,빛,어둠,구도자 ,순례자، 방랑자، 은둔자، 이단아، 반역자، 개척자، 정복자، 지배자، 조율자، 수호자، 감시자 ,관찰자,기록자,전달자,안내자,인도자,구원자,파괴자,창조자,망령,유령,원혼,악령 ,정령,요정,마수,성수,환수,신수,검사,기사,궁수,도적,암살자,마법사,주술사,연 금술사، 강령술사، 사제، 학자، 연구자، 탐험가، 여행가، 예술가، 광대، 음유시인، 상인، 장인، 농부, 까마귀, 부엉이, 올빼미, 독수리, 매, 늑대, 여우, 곰, 사자, 호랑이, 표범, 흑표범, 살 쏅، 양이، 강아 지، 뱀، 도마뱀، 거북이، 악어، 용، 유니콘، 페가 수스، 그리폰، 가고일، 고블린 ,오크,트롤,오거,슬라임,스켈레톤,좀비,구울,뱀파이어,웨 어울프,미노타우로스,켄타 معلومات عنا';
+      'نبي,ساحر,ساحرة,فارس,محارب,رامي سهام,لص,قاتل,فارس مقدس,كاهن,كاهنة,راهب,شامان,خيميائي,مستحضر أرواح,سيد الأرواح,مستدعي,خادع,معالج,حكيم,عالم,باحث,مستكشف,مسافر,متجول,رحالة,حاج,باحث,مراقب,مسجل,ناقل,حارس,حارس,حارس,بواب,قاضي,منفذ,حاكم,سيد,ملك,ملكة,إمبراطور,إمبراطورة,نبيل,لورد,قائد الفرسان,مرتزق,قرصان,لص,محتال,مهرج,أحمق,ناسك,زنديق,خائن,متمرد,بطل,منقذ,محرر,مدمر,خالق,إله,إلهة,ملاك,شيطان,روح,جنية,وحش,وحش سحري,تنين,شبح,شبح,موتى أحياء,مصاص دماء,مستذئب,حورية بحر,سيرين,حورية,عفريت,أورك,ترول,إلف,قزم,عملاق,قزم,إنسان,وحش بشري,رجل طائر,رجل سمكة,رجل تنين,روح شريرة,أسورا,الهاوية,السماء,العالم السفلي,عالم آخر,الهاوية,الفوضى,النظام,ضوء,ظلام,باحث,حاج,متجول,ناسك,زنديق,متمرد,رائد,فاتح,حاكم,منظم,حارس,مراقب,مراقب,مسجل,ناقل,مرشد,مرشد,منقذ,مدمر,خالق,شبح,شبح,روح شريرة,روح شريرة,روح,جنية,وحش سحري,وحش مقدس,وحش أسطوري,وحش إلهي,سياف,فارس,رامي سهام,لص,قاتل,ساحر,شامان,خيميائي,مستحضر أرواح,كاهن,عالم,باحث,مستكشف,مسافر,فنان,مهرج,شاعر,تاجر,حرفي,مزارع,غراب,بومة,بومة,نسر,صقر,ذئب,ثعلب,دب,أسد,نمر,فهد,فهد أسود,قط,قطة,كلب,ثعبان,سحلية,سلحفاة,تمساح,تنين,يونيكورن,بيغاسوس,غريفون,غارغول,عفريت,أورك,ترول,أوغر,سلايم,هيكل عظمي,زومبي,غول,مصاص دماء,مستذئب,مينوتور,قنطور,هاربي,سيرين,كراكن,ليفيathan,سيف,درع,رمح,قوس,عصا,خاتم,قلادة,تاج,كأس مقدس';
 
   @override
   String get eulaTitle =>
@@ -3859,27 +3893,27 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get eulaArticle1 =>
-      '제1조 (라이선스 허여)\n본 앱(\"타로마녀\") هذا هو السبب في أن هذا هو ما يحدث.';
+      'المادة 1 (منح الترخيص)\nيمنح هذا التطبيق (\"ساحرة التاروت\") حق الاستخدام للأغراض الشخصية وغير التجارية فقط، ولا يتم نقل ملكية التطبيق أو حقوق الملكية الفكرية.\n\n';
 
   @override
   String get eulaArticle2 =>
-      '제2조 (금지된 사용)\nقم بتمديد الوقت الذي ستستغرقه في الحصول على بطاقة الائتمان الخاصة بك في الحقيقة, هناك الكثير من الأشياء التي يجب عليك القيام بها.';
+      'المادة 2 (الاستخدام المحظور)\nلا يجوز للمستخدم استخدام هذه الخدمة لأغراض غير قانونية أو تنتهك حقوق الآخرين، ولا يجوز التلاعب بالنظام أو البيانات بشكل تعسفي أو إجراء هندسة عكسية.\n\n';
 
   @override
   String get eulaArticle3 =>
-      '제3조 (تم اختياره من قبل 및 보관 기간)\nيجب أن تكون قادرًا على الحصول على بطاقة الائتمان الخاصة بك تم تطويره على مدار 3 سنوات.';
+      'المادة 3 (جمع البيانات وفترة الاحتفاظ)\nلتقديم خدمة سلسة، يتم الاحتفاظ ببيانات يوميات التاروت وقراءات التاروت ذات الصلة التي يكتبها المستخدم بأمان لمدة 3 سنوات أساسية من تاريخ الإنشاء.\n\n';
 
   @override
   String get eulaArticle4 =>
-      '제4조 (장기 미접속 휴면 계정 처리)\nالرقم 1 (365 일) هو رقم قياسي للرقم 1 في عداد المفقودين, يجب أن تكون على دراية بكيفية التعامل مع هذه المشكلة هذا هو السبب في أن هذا هو ما يحدث.';
+      'المادة 4 (معالجة الحسابات الخاملة بسبب عدم النشاط طويل الأمد)\nإذا لم يقم المستخدم بتسجيل الدخول إلى الخدمة لمدة تزيد عن سنة (365 يومًا)، فسيتم تحويل حسابه إلى حساب خامل، وسيتم حذف جميع بيانات المستخدم تلقائيًا دون إشعار مسبق لحماية المعلومات الشخصية والحفاظ على بيئة خادم سلسة.\n\n';
 
   @override
   String get eulaArticle5 =>
-      '제5조 (데이터 파기 및 복구 불가)\nيمكن أن يكون هناك 3 أنواع من المفاجآت في 4 أنواع من المغامرات التي لا يمكن التغلب عليها. هذا أمر طبيعي.';
+      'المادة 5 (تدمير البيانات وعدم إمكانية استعادتها)\nيتم تدمير البيانات التي تجاوزت فترة الاحتفاظ المذكورة في المادة 3 أو التي تم حذفها بموجب المادة 4 بشكل دائم ولا يمكن استعادتها بأي حال من الأحوال.\n\n';
 
   @override
   String get eulaArticle6 =>
-      '제6조 (보증 부인 및 면책)\nتم تطوير هذا التطبيق من قبل شركة ناشئة ومبتكرة ومبتكرة, هذا هو السبب في أن هذا هو ما يحدث. ما عليك فعله هو الحصول على بطاقة الائتمان الخاصة بك من خلال شراء بطاقة الائتمان الخاصة بك تم تطوير هذا التطبيق.';
+      'المادة 6 (إخلاء المسؤولية والضمان)\nيتم توفير قراءات وتفسيرات التاروت التي يقدمها هذا التطبيق لأغراض الترفيه فقط، ولا تحل محل أي نصيحة قانونية أو طبية أو مالية. لا يتحمل المطور أي مسؤولية عن أي أضرار مباشرة أو غير مباشرة تنشأ عن استخدام الخدمة.\n\n';
 
   @override
   String get eulaAgreement =>
@@ -3893,15 +3927,15 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get pushArticle1 =>
-      '제1조 (목적)\nأفضل ما في الأمر هو أن تكون على دراية بالأشياء التي تحتاجها, من الأفضل أن تكون قادرًا على ذلك هذا هو السبب في أن هذا هو ما يحدث الآن.';
+      'المادة 1 (الغرض)\nيهدف هذا الاتفاق إلى السماح لخدمة ساحرة التاروت بإرسال معلومات إعلانية مفيدة للمستخدمين، مثل الأحداث والعروض الترويجية وتحديثات الأبراج الجديدة، عبر إشعارات الدفع.\n\n';
 
   @override
   String get pushArticle2 =>
-      '제2조 (수신 철회)\nتم إنشاء هذا التطبيق من قبل شركة [내 메뉴 > 앱 설정] من خلال تطبيق 철회할. هذا هو السبب في أن هذا هو ما يحدث في المستقبل.';
+      'المادة 2 (سحب الموافقة)\nيمكن للمستخدم سحب موافقته على تلقي الإشعارات في أي وقت من [قائمتي > إعدادات التطبيق] داخل التطبيق. حتى عند سحب الموافقة، ستظل الوظائف الأساسية للخدمة (الخدمات الأساسية) متاحة للاستخدام بشكل طبيعي.\n\n';
 
   @override
   String get pushArticle3 =>
-      '제3조 (알림의 내용)\nقم بزيارة موقع الويب الخاص بك, قم بزيارة موقع الويب الخاص بك, قم بزيارة موقع الويب الخاص بك هذا هو ما يحدث الآن.';
+      'المادة 3 (محتوى الإشعارات)\nقد تتضمن الإشعارات المرسلة محتوى إعلانيًا وتسويقيًا، مثل عروض الخصم الخاصة داخل التطبيق، والأحداث محدودة الوقت، وتوصيات الأبراج المخصصة.\n\n';
 
   @override
   String get pushAgreement =>
@@ -3928,7 +3962,8 @@ class AppLocalizationsAr extends AppLocalizations {
       'يعمل هذا البرنامج على نظام التشغيل Windows (Windows).';
 
   @override
-  String get emailVerificationRequired => 'شكرا جزيلا. 가입하신 이메일함을 확인해주세요.';
+  String get emailVerificationRequired =>
+      'مطلوب التحقق من البريد الإلكتروني. يرجى التحقق من صندوق البريد الإلكتروني الذي سجلت به.';
 
   @override
   String get resendEmail => 'شكرا';
@@ -3971,13 +4006,14 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get authAgreeEula =>
-      'تم إلغاء اتفاقية ترخيص المستخدم النهائي (اتفاقية ترخيص المستخدم النهائي) (EULA). (필수)';
+      'أوافق على اتفاقية ترخيص المستخدم النهائي (EULA). (مطلوب)';
 
   @override
-  String get authViewContent => '[내용 보기]';
+  String get authViewContent => '[عرض المحتوى]';
 
   @override
-  String get authAgreePush => 'هذا هو السبب في أن هذا هو ما يحدث. (선택)';
+  String get authAgreePush =>
+      'أوافق على تلقي إشعارات التاروت والأحداث الجديدة. (اختياري)';
 
   @override
   String get authBtnLogin => 'شكرا جزيلا';
@@ -3992,19 +4028,19 @@ class AppLocalizationsAr extends AppLocalizations {
   String get authSwitchToLogin => 'ما الذي تبحث عنه؟ شكرا';
 
   @override
-  String get authGoogleSignIn => 'جوجل 로 시작하기';
+  String get authGoogleSignIn => 'البدء باستخدام Google';
 
   @override
-  String get cardDetailNotReady => 'تم إنشاء هذا التطبيق من قبل 않았 습니다.';
+  String get cardDetailNotReady => 'هذا التفسير غير جاهز بعد.';
 
   @override
   String get cardDetailLoadError => 'هذا هو ما يحدث الآن.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (تستقيم)';
+  String get cardDetailTabUpright => 'وضع مستقيم (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (معكوس)';
+  String get cardDetailTabReversed => 'وضع معكوس (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => 'شكرا جزيلا.';
@@ -4022,7 +4058,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get cardDetailSectionCareer => 'هذا هو الحال';
 
   @override
-  String get cardDetailSectionHealth => '건강';
+  String get cardDetailSectionHealth => 'الصحة';
 
   @override
   String get cardDetailSectionSpirituality => 'هذا هو الحال';
@@ -4125,50 +4161,50 @@ class AppLocalizationsAr extends AppLocalizations {
   String get profileEditSave => 'يحفظ';
 
   @override
-  String get coinShortageTitle => 'Not Enough Coins';
+  String get coinShortageTitle => 'نقص العملات';
 
   @override
   String get coinShortageContent =>
-      'You don\'t have enough coins. 1 coin is required for a tarot reading.';
+      'العملات غير كافية. تتطلب قراءة التاروت عملة واحدة.';
 
   @override
-  String get dialogOk => 'OK';
+  String get dialogOk => 'تأكيد';
 
   @override
-  String get proceedReadingTitle => 'Proceed Tarot Reading';
+  String get proceedReadingTitle => 'متابعة قراءة التاروت';
 
   @override
   String get proceedReadingContent =>
-      'Do you want to consume 1 coin to proceed with the reading?';
+      'هل ترغب في متابعة القراءة باستهلاك عملة واحدة؟';
 
   @override
-  String get dialogCancel => 'Cancel';
+  String get dialogCancel => 'إلغاء';
 
   @override
-  String get dialogProceed => 'Proceed';
+  String get dialogProceed => 'متابعة';
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'اسحب $count بطاقة';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'مروحة';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'مكدس';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'جاري قراءة شظايا القدر.';
 
   @override
   String witchTarotReading(String witchName) {
-    return '$witchName\'s Tarot Reading';
+    return 'قراءة تاروت $witchName';
   }
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'تم الحصول على غبار سحري +$amount! ✨';
   }
 
   @override
@@ -4188,5 +4224,13 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 تحقق من نتائج قراءة التارو الخاصة بي!\\n\\nإذا كنت تريد معرفة القراءة التفصيلية، فقم بتثبيت تطبيق Tarot Witch وتحقق من قراءة التارو بنفسك!\\n👉 التنزيل:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ تحقق من نتيجة قراءة التاروت الخاصة بي!\\n\\nإذا كنت ترغب في معرفة المزيد من التفاصيل حول قراءتك، قم بتثبيت تطبيق ساحرة التاروت وتحقق من قراءة التاروت بنفسك!\\n👉 تحميل: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'ترجمة';
+
+  @override
+  String translateFailed(String error) {
+    return 'فشل الترجمة: $error';
+  }
 }

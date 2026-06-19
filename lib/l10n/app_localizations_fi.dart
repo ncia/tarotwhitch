@@ -4284,17 +4284,17 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'Vedä $count korttia';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Viuhka';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Pinottu';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Luetaan kohtalon sirpaleita.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4303,7 +4303,7 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Saimme taikapölyä +$amount! ✨';
   }
 
   @override
@@ -4323,5 +4323,13 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Katso Tarot-lukutulokseni!\\n\\nJos haluat tietää tarkan lukeman, asenna Tarot Witch -sovellus ja tarkista tarot-lukemasi itse!\\n👉 Lataa:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Katso tarot-tulkintani tulos!\\n\\nJos haluat tietää yksityiskohtaisen ennustuksen, asenna Tarot-noita-sovellus ja tarkista tarot-tulkintasi itse!\\n👉 Lataa: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Käännä';
+
+  @override
+  String translateFailed(String error) {
+    return 'Käännös epäonnistui: $error';
+  }
 }

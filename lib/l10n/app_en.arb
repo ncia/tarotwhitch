@@ -1454,5 +1454,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "Love",
+  "tagMoney": "Wealth",
+  "tagHealth": "Health",
+  "tagCareer": "Career",
+  "tagToday": "Today's Fortune",
+  "tagRelationship": "Relationships",
+  "tagSelfReflection": "Self-Reflection"
 }

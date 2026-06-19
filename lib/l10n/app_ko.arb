@@ -1427,5 +1427,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "연애운",
+  "tagMoney": "금전운",
+  "tagHealth": "건강운",
+  "tagCareer": "직장운",
+  "tagToday": "오늘운세",
+  "tagRelationship": "인간관계",
+  "tagSelfReflection": "자기성찰"
 }

@@ -1426,5 +1426,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "ความรัก",
+  "tagMoney": "การเงิน",
+  "tagHealth": "สุขภาพ",
+  "tagCareer": "การงาน",
+  "tagToday": "ดวงวันนี้",
+  "tagRelationship": "ความสัมพันธ์",
+  "tagSelfReflection": "การใคร่ครวญ"
 }

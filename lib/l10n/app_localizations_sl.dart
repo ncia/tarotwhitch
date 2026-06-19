@@ -3971,10 +3971,10 @@ class AppLocalizationsSl extends AppLocalizations {
   String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (pokončno)';
+  String get cardDetailTabUpright => 'Pokončno (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (obrnjeno)';
+  String get cardDetailTabReversed => 'Obrnjeno (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습니다.';
@@ -4118,17 +4118,17 @@ class AppLocalizationsSl extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'Izvlecite $count kart';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Pahljača';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Naloženo';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Berem fragmente usode.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4137,7 +4137,7 @@ class AppLocalizationsSl extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Čarobni prah +$amount pridobljen! ✨';
   }
 
   @override
@@ -4157,5 +4157,13 @@ class AppLocalizationsSl extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Oglejte si moje rezultate branja tarota!\\n\\nČe želite izvedeti podrobno branje, namestite aplikacijo Tarot Witch in sami preverite svoje branje tarota!\\n👉 Prenesite:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Preverite moje rezultate branja tarota!\\n\\nČe želite izvedeti podrobno prerokbo, namestite aplikacijo Tarot Čarovnica in si sami preverite branje tarota!\\n👉 Prenesite: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Prevedi';
+
+  @override
+  String translateFailed(String error) {
+    return 'Prevod ni uspel: $error';
+  }
 }

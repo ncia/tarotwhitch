@@ -3970,10 +3970,10 @@ class AppLocalizationsNo extends AppLocalizations {
   String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (oppreist)';
+  String get cardDetailTabUpright => 'Oppreist (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (omvendt)';
+  String get cardDetailTabReversed => 'Reversert (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습니다.';
@@ -4115,17 +4115,17 @@ class AppLocalizationsNo extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'Trekk $count kort';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Vifteform';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Stablet';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Leser skjebnens fragmenter.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4134,7 +4134,7 @@ class AppLocalizationsNo extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Magiestøv +$amount mottatt! ✨';
   }
 
   @override
@@ -4154,5 +4154,13 @@ class AppLocalizationsNo extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Sjekk tarotleseresultatene mine!\\n\\nHvis du vil vite den detaljerte lesingen, installer Tarot Witch-appen og sjekk tarotlesingen din selv!\\n👉 Last ned:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Sjekk ut mitt tarotresultat!\\n\\nHvis du vil vite mer om spådommen, installer Tarot Witch-appen og sjekk tarotspådommen selv!\\n👉 Last ned: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'no';
+
+  @override
+  String translateFailed(String error) {
+    return 'no';
+  }
 }

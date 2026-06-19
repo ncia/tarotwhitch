@@ -1425,5 +1425,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "Dragoste",
+  "tagMoney": "Bogație",
+  "tagHealth": "Sănătate",
+  "tagCareer": "Carieră",
+  "tagToday": "Norocul Zilei",
+  "tagRelationship": "Relații",
+  "tagSelfReflection": "Auto-reflecție"
 }

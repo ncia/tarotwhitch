@@ -3977,10 +3977,10 @@ class AppLocalizationsUk extends AppLocalizations {
   String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (Вертикальний)';
+  String get cardDetailTabUpright => 'Пряме положення (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (перевернута)';
+  String get cardDetailTabReversed => 'Перевернуте положення (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습니다.';
@@ -4125,17 +4125,17 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'Виберіть $count карт';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Віяло';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Стопка';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Читаю фрагменти долі.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4144,7 +4144,7 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Магічний пил +$amount отримано! ✨';
   }
 
   @override
@@ -4164,5 +4164,13 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Перегляньте мої результати читання Таро!\\n\\nЯкщо ви хочете знати детальне читання, установіть додаток Tarot Witch і перевірте своє читання Таро самостійно!\\n👉 Завантажте:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Перегляньте мій результат ворожіння на Таро!\\n\\nЯкщо ви хочете дізнатися детальне ворожіння, встановіть додаток «Таро Відьми» і перевірте своє ворожіння на Таро самі!\\n👉 Завантажити: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Перекласти';
+
+  @override
+  String translateFailed(String error) {
+    return 'Переклад не вдався: $error';
+  }
 }

@@ -1425,5 +1425,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "Любовь",
+  "tagMoney": "Деньги",
+  "tagHealth": "Здоровье",
+  "tagCareer": "Карьера",
+  "tagToday": "Сегодня",
+  "tagRelationship": "Отношения",
+  "tagSelfReflection": "Самоанализ"
 }

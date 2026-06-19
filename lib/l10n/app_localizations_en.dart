@@ -4314,4 +4314,12 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get shareResultText =>
       '🔮 Check out my Tarot reading results!\\n\\nIf you want to know the detailed reading, install the Tarot Witch app and check your tarot reading yourself!\\n👉 Download: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Translate';
+
+  @override
+  String translateFailed(String error) {
+    return 'Translation failed: $error';
+  }
 }

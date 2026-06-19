@@ -4295,17 +4295,17 @@ class AppLocalizationsMl extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return '$count കാർഡുകൾ തിരഞ്ഞെടുക്കുക';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'വിശറി രൂപം';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'അടുക്കിയ രൂപം';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'വിധി ശകലങ്ങൾ വായിക്കുന്നു.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4314,7 +4314,7 @@ class AppLocalizationsMl extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'മാന്ത്രിക പൊടി +$amount ലഭിച്ചു! ✨';
   }
 
   @override
@@ -4334,5 +4334,13 @@ class AppLocalizationsMl extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 എൻ്റെ ടാരറ്റ് റീഡിംഗ് ഫലങ്ങൾ പരിശോധിക്കുക!\\n\\nനിങ്ങൾക്ക് വിശദമായ വായന അറിയണമെങ്കിൽ, Tarot Witch ആപ്പ് ഇൻസ്റ്റാൾ ചെയ്ത് നിങ്ങളുടെ ടാരറ്റ് റീഡിംഗ് സ്വയം പരിശോധിക്കുക!\\n👉 ഡൗൺലോഡ്:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ എന്റെ ടാരോട്ട് ഫലം പരിശോധിക്കുക!\\n\\nവിശദമായ ഫലം അറിയണമെങ്കിൽ, ടാരോട്ട് വിച്ച് ആപ്പ് ഇൻസ്റ്റാൾ ചെയ്ത് നിങ്ങളുടെ ടാരോട്ട് ഫലം നേരിട്ട് പരിശോധിക്കുക!\\n👉 ഡൗൺലോഡ്: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'පරිවර්තනය කරන්න';
+
+  @override
+  String translateFailed(String error) {
+    return 'පරිවර්තනය අසාර්ථක විය: $error';
+  }
 }

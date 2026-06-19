@@ -3971,10 +3971,10 @@ class AppLocalizationsBg extends AppLocalizations {
   String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (изправен)';
+  String get cardDetailTabUpright => 'Изправена (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (обърнат)';
+  String get cardDetailTabReversed => 'Обърната (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습니다.';
@@ -4117,17 +4117,17 @@ class AppLocalizationsBg extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'Изтеглете $count карти';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Ветрило';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Насложени';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Чета фрагменти от съдбата.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4136,7 +4136,7 @@ class AppLocalizationsBg extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Получихте магически прах +$amount! ✨';
   }
 
   @override
@@ -4156,5 +4156,13 @@ class AppLocalizationsBg extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Вижте моите резултати от четене на Таро!\\n\\nАко искате да знаете подробното четене, инсталирайте приложението Tarot Witch и проверете сами четенето си на Таро!\\n👉 Изтеглете:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Вижте резултата от моето таро гадание!\\n\\nАко искате да разберете подробностите, инсталирайте приложението Tarot Witch и проверете своето таро гадание сами!\\n👉 Изтеглете: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Преведи';
+
+  @override
+  String translateFailed(String error) {
+    return 'Преводът не бе успешен: $error';
+  }
 }

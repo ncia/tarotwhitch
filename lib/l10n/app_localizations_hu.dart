@@ -3971,10 +3971,10 @@ class AppLocalizationsHu extends AppLocalizations {
   String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (felálló)';
+  String get cardDetailTabUpright => 'Felfelé (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (fordítva)';
+  String get cardDetailTabReversed => 'Fordított (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습니다.';
@@ -4117,17 +4117,17 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return '$count kártyát húzzon';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Legyező';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Halmozott';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'A sors töredékeit olvasom.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4136,7 +4136,7 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Varázspor +$amount szerezve! ✨';
   }
 
   @override
@@ -4157,5 +4157,13 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Tekintse meg Tarot olvasási eredményeimet!\\n\\nHa meg szeretné tudni a részletes olvasmányt, telepítse a Tarot Witch alkalmazást, és ellenőrizze saját maga a tarot olvasását!\\n👉 Letöltés:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Nézd meg a tarot jóslatom eredményét!\\n\\nHa szeretnéd tudni a részletes jóslatot, telepítsd a Tarot Boszorkány alkalmazást, és nézd meg magad a tarot jóslatodat!\\n👉 Letöltés: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Fordítás';
+
+  @override
+  String translateFailed(String error) {
+    return 'Fordítás sikertelen: $error';
+  }
 }

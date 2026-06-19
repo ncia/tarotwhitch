@@ -3979,10 +3979,10 @@ class AppLocalizationsEl extends AppLocalizations {
   String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
 
   @override
-  String get cardDetailTabUpright => '정방향 (Όρθιος)';
+  String get cardDetailTabUpright => 'Όρθια (Upright)';
 
   @override
-  String get cardDetailTabReversed => '역방향 (Αντίστροφη)';
+  String get cardDetailTabReversed => 'Ανεστραμμένη (Reversed)';
 
   @override
   String get cardDetailNoInterpretation => '해석이 없습니다.';
@@ -4125,17 +4125,17 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String pickCardsText(int count) {
-    return 'Pick $count cards';
+    return 'Τραβήξτε $count κάρτες';
   }
 
   @override
-  String get layoutFan => 'Fan Shape';
+  String get layoutFan => 'Βεντάλια';
 
   @override
-  String get layoutStacked => 'Stacked';
+  String get layoutStacked => 'Στοιβαγμένα';
 
   @override
-  String get readingFateFragments => 'Reading the fragments of destiny.';
+  String get readingFateFragments => 'Διαβάζω τα κομμάτια της μοίρας.';
 
   @override
   String witchTarotReading(String witchName) {
@@ -4144,7 +4144,7 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String magicDustObtained(int amount) {
-    return 'Obtained +$amount Magic Dust! ✨';
+    return 'Σκόνη Μαγείας +$amount αποκτήθηκε! ✨';
   }
 
   @override
@@ -4164,5 +4164,13 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String get shareResultText =>
-      '🔮 Δείτε τα αποτελέσματα ανάγνωσης Ταρώ!\\n\\nΕάν θέλετε να μάθετε τη λεπτομερή ανάγνωση, εγκαταστήστε την εφαρμογή Tarot Witch και ελέγξτε μόνοι σας την ανάγνωση των Ταρώ!\\n👉 Λήψη:https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      '✨ Δείτε τα αποτελέσματα της ταρώ μου!\\n\\nΑν θέλετε να μάθετε την αναλυτική πρόβλεψη, εγκαταστήστε την εφαρμογή Tarot Witch και δείτε την ταρώ σας μόνοι σας!\\n👉 Λήψη: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+  @override
+  String get buttonTranslate => 'Μετάφραση';
+
+  @override
+  String translateFailed(String error) {
+    return 'Η μετάφραση απέτυχε: $error';
+  }
 }

@@ -1425,5 +1425,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "Cinta",
+  "tagMoney": "Uang",
+  "tagHealth": "Kesehatan",
+  "tagCareer": "Karier",
+  "tagToday": "Hari Ini",
+  "tagRelationship": "Hubungan",
+  "tagSelfReflection": "Refleksi Diri"
 }

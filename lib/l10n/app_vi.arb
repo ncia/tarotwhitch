@@ -1425,5 +1425,12 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tagLove": "Tình yêu",
+  "tagMoney": "Tài lộc",
+  "tagHealth": "Sức khỏe",
+  "tagCareer": "Sự nghiệp",
+  "tagToday": "Vận may hôm nay",
+  "tagRelationship": "Mối quan hệ",
+  "tagSelfReflection": "Tự vấn"
 }

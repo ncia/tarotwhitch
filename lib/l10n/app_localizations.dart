@@ -7955,6 +7955,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'🔮 Check out my Tarot reading results!\\n\\nIf you want to know the detailed reading, install the Tarot Witch app and check your tarot reading yourself!\\n👉 Download: https://play.google.com/store/apps/details?id=com.ncia.tarot_card'**
   String get shareResultText;
+
+  /// No description provided for @buttonTranslate.
+  ///
+  /// In en, this message translates to:
+  /// **'Translate'**
+  String get buttonTranslate;
+
+  /// No description provided for @translateFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Translation failed: {error}'**
+  String translateFailed(String error);
 }
 
 class _AppLocalizationsDelegate

@@ -1418,5 +1418,12 @@
   "readingFateFragments": "Leser skjebnens fragmenter.",
   "magicDustObtained": "Magiestøv +{amount} mottatt! ✨",
   "buttonTranslate": "no",
-  "translateFailed": "no"
+  "translateFailed": "no",
+  "tagLove": "Kjærlighet",
+  "tagMoney": "Penger",
+  "tagHealth": "Helse",
+  "tagCareer": "Karriere",
+  "tagToday": "I dag",
+  "tagRelationship": "Forhold",
+  "tagSelfReflection": "Selvrefleksjon"
 }
