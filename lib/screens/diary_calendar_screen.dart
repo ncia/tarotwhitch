@@ -77,6 +77,29 @@ class _DiaryCalendarScreenState extends State<DiaryCalendarScreen> {
               onPageChanged: (focusedDay) {
                 _focusedDay = focusedDay;
               },
+              calendarBuilders: CalendarBuilders(
+                markerBuilder: (context, date, events) {
+                  if (events.isEmpty) return const SizedBox();
+                  return Positioned(
+                    bottom: 2,
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 1),
+                      decoration: BoxDecoration(
+                        color: Colors.pinkAccent,
+                        borderRadius: BorderRadius.circular(4),
+                      ),
+                      child: Text(
+                        '${events.length}',
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  );
+                },
+              ),
               calendarStyle: CalendarStyle(
                 defaultTextStyle: const TextStyle(color: Colors.white),
                 weekendTextStyle: const TextStyle(color: Colors.white70),
@@ -89,12 +112,6 @@ class _DiaryCalendarScreenState extends State<DiaryCalendarScreen> {
                   color: Colors.purpleAccent,
                   shape: BoxShape.circle,
                 ),
-                markerDecoration: const BoxDecoration(
-                  color: Colors.amberAccent,
-                  shape: BoxShape.circle,
-                ),
-                markerSize: 6,
-                markersMaxCount: 3,
                 todayTextStyle: const TextStyle(
                     color: Colors.white, fontWeight: FontWeight.bold),
                 selectedTextStyle: const TextStyle(

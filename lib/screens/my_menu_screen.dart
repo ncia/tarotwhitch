@@ -18,6 +18,8 @@ import 'theme_selection_screen.dart';
 import 'language_selection_screen.dart';
 import '../services/language_manager.dart';
 import 'favorite_cards_screen.dart';
+import '../widgets/mailbox_dialog.dart';
+import '../services/mail_service.dart';
 
 class MyMenuScreen extends StatelessWidget {
   const MyMenuScreen({super.key});
@@ -263,6 +265,48 @@ class MyMenuScreen extends StatelessWidget {
           ),
         const SizedBox(height: 30),
         // Menu Items
+        _buildSectionTitle('소식 및 알림'),
+        ListenableBuilder(
+          listenable: MailService(),
+          builder: (context, _) {
+            final unreadCount = MailService().unreadCount;
+            return _buildMenuItem(
+              Icons.mail_outline,
+              '우편함',
+              '새로운 소식과 선물을 확인하세요',
+              onTap: () {
+                showDialog(
+                  context: context,
+                  builder: (context) => const MailboxDialog(),
+                );
+              },
+              trailing: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  if (unreadCount > 0)
+                    Container(
+                      margin: const EdgeInsets.only(right: 8),
+                      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                      decoration: BoxDecoration(
+                        color: Colors.redAccent,
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      child: Text(
+                        unreadCount > 99 ? '99+' : '$unreadCount',
+                        style: const TextStyle(color: Colors.white, fontSize: 10, fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                  const Icon(Icons.chevron_right, color: Colors.white54),
+                ],
+              ),
+            );
+          },
+        ),
+        _buildMenuItem(Icons.notifications_none, '알림 센터', '최신 알림 내역', onTap: () {
+          // TODO: 알림 센터 열기
+        }),
+        
+        const SizedBox(height: 20),
         _buildSectionTitle(AppLocalizations.of(context)!.myMenuSectionMyRecords),
         _buildMenuItem(Icons.history_edu, AppLocalizations.of(context)!.myMenuDiaryStorage, AppLocalizations.of(context)!.myMenuCheckSavedDiary, onTap: () {
           mainScreenKey.currentState?.switchTab(2);
@@ -387,14 +431,14 @@ class MyMenuScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildMenuItem(IconData icon, String title, String? subtitle, {VoidCallback? onTap}) {
+  Widget _buildMenuItem(IconData icon, String title, String? subtitle, {VoidCallback? onTap, Widget? trailing}) {
     return Container(
       margin: const EdgeInsets.only(bottom: 12),
       child: GlassContainer(
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         borderRadius: 16,
         child: Material(
-          color: Colors.black12,
+          type: MaterialType.transparency,
           child: ListTile(
             contentPadding: EdgeInsets.zero,
             leading: Container(
@@ -415,7 +459,7 @@ class MyMenuScreen extends StatelessWidget {
                     style: TextStyle(color: Colors.white.withOpacity(0.6), fontSize: 12),
                   )
                 : null,
-            trailing: const Icon(Icons.chevron_right, color: Colors.white54),
+            trailing: trailing ?? const Icon(Icons.chevron_right, color: Colors.white54),
             onTap: onTap ?? () {},
           ),
         ),
@@ -487,7 +531,7 @@ class _PushSettingsTileState extends State<_PushSettingsTile> {
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         borderRadius: 16,
         child: Material(
-          color: Colors.black12,
+          type: MaterialType.transparency,
           child: ListTile(
             contentPadding: EdgeInsets.zero,
             leading: Container(

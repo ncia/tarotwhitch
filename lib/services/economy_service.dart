@@ -112,6 +112,15 @@ class EconomyService extends ChangeNotifier {
     }
   }
 
+  Future<void> addCoins(int amount) async {
+    final user = FirebaseAuth.instance.currentUser;
+    if (user != null) {
+      await FirebaseFirestore.instance.collection('users').doc(user.uid).update({
+        'coins': FieldValue.increment(amount),
+      });
+    }
+  }
+
   Future<void> addWorldTreeExp(int amount) async {
     final user = FirebaseAuth.instance.currentUser;
     if (user != null) {

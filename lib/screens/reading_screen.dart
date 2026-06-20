@@ -636,15 +636,35 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                 ),
                 child: Column(
                   children: [
-                    Text(
-                      AppLocalizations.of(context)!.readingSpreadTitle,
-                      textAlign: TextAlign.center,
-                      style: Theme.of(context).textTheme.displayLarge,
-                    ),
-                    const SizedBox(height: 8),
-                    Text(
-                      AppLocalizations.of(context)!.readingSpreadSubtitle,
-                      style: Theme.of(context).textTheme.bodyMedium,
+                    Stack(
+                      alignment: Alignment.topCenter,
+                      children: [
+                        Align(
+                          alignment: Alignment.center,
+                          child: Column(
+                            children: [
+                              Text(
+                                AppLocalizations.of(context)!.readingSpreadTitle,
+                                textAlign: TextAlign.center,
+                                style: Theme.of(context).textTheme.displayLarge?.copyWith(fontSize: 32),
+                              ),
+                              const SizedBox(height: 8),
+                              Text(
+                                AppLocalizations.of(context)!.readingSpreadSubtitle,
+                                style: Theme.of(context).textTheme.bodyMedium,
+                              ),
+                            ],
+                          ),
+                        ),
+                        Positioned(
+                          right: 0,
+                          top: 0,
+                          child: IconButton(
+                            icon: const Icon(Icons.arrow_back, color: Colors.white, size: 28),
+                            onPressed: () => Navigator.pop(context),
+                          ),
+                        ),
+                      ],
                     ),
                     const SizedBox(height: 30),
                     SpreadLayoutBuilder(

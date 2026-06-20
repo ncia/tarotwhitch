@@ -29,6 +29,17 @@ class _MagicDustWidgetState extends State<MagicDustWidget> {
     }
   }
 
+  String _formatNumber(int number) {
+    if (number >= 1000000000) {
+      return (number / 1000000000).toStringAsFixed(1).replaceAll(RegExp(r'\.0$'), '') + 'B';
+    } else if (number >= 1000000) {
+      return (number / 1000000).toStringAsFixed(1).replaceAll(RegExp(r'\.0$'), '') + 'M';
+    } else if (number >= 1000) {
+      return (number / 1000).toStringAsFixed(1).replaceAll(RegExp(r'\.0$'), '') + 'K';
+    }
+    return number.toString();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -46,7 +57,7 @@ class _MagicDustWidgetState extends State<MagicDustWidget> {
           const Icon(Icons.blur_on, color: Colors.purpleAccent, size: 20),
           const SizedBox(width: 4),
           Text(
-            '${_economyService.magicDust}',
+            _formatNumber(_economyService.magicDust),
             style: const TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,

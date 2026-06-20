@@ -29,6 +29,17 @@ class _CoinWidgetState extends State<CoinWidget> {
     }
   }
 
+  String _formatNumber(int number) {
+    if (number >= 1000000000) {
+      return (number / 1000000000).toStringAsFixed(1).replaceAll(RegExp(r'\.0$'), '') + 'B';
+    } else if (number >= 1000000) {
+      return (number / 1000000).toStringAsFixed(1).replaceAll(RegExp(r'\.0$'), '') + 'M';
+    } else if (number >= 1000) {
+      return (number / 1000).toStringAsFixed(1).replaceAll(RegExp(r'\.0$'), '') + 'K';
+    }
+    return number.toString();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -46,7 +57,7 @@ class _CoinWidgetState extends State<CoinWidget> {
           const Icon(Icons.monetization_on, color: Colors.amberAccent, size: 20),
           const SizedBox(width: 4),
           Text(
-            '${_economyService.coins}',
+            _formatNumber(_economyService.coins),
             style: const TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
