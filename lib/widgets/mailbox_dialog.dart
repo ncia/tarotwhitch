@@ -3,6 +3,7 @@ import '../models/mail_model.dart';
 import '../services/mail_service.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
+import '../widgets/glass_container.dart';
 
 class MailboxDialog extends StatefulWidget {
   const MailboxDialog({super.key});
@@ -39,15 +40,13 @@ class _MailboxDialogState extends State<MailboxDialog> {
     return Dialog(
       backgroundColor: Colors.transparent,
       insetPadding: const EdgeInsets.all(16),
-      child: Container(
-        width: double.infinity,
+      child: ConstrainedBox(
         constraints: const BoxConstraints(maxHeight: 600),
-        decoration: BoxDecoration(
-          color: const Color(0xFF2D1B4E),
-          borderRadius: BorderRadius.circular(24),
-          border: Border.all(color: Colors.purpleAccent.withOpacity(0.5)),
-        ),
-        child: Column(
+        child: GlassContainer(
+          borderRadius: 16,
+          padding: EdgeInsets.zero,
+          width: double.infinity,
+          child: Column(
           children: [
             // Header
             Padding(
@@ -114,6 +113,7 @@ class _MailboxDialogState extends State<MailboxDialog> {
             ),
           ],
         ),
+      ),
       ),
     );
   }
