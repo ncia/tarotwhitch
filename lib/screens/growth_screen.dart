@@ -170,6 +170,27 @@ class _MagicBookTabState extends State<_MagicBookTab> {
         final level = (exp / 100).floor() + 1;
         final progress = (exp % 100) / 100.0;
 
+        final phaseIndex = ((level - 1) / 100).floor();
+        final phases = [
+          '견습생의 필기구',
+          '기초 마법 입문서',
+          '고대 룬 문법',
+          '원소술의 이해',
+          '별빛의 조화',
+          '아티팩트 해독',
+          '현자의 금서',
+          '정령과의 교감',
+          '진리의 마도서',
+          '전지전능한 기록'
+        ];
+        final currentPhaseName = phaseIndex < phases.length ? phases[phaseIndex] : '초월';
+        final phaseNumber = phaseIndex + 1;
+
+        final double hue = (220.0 + (exp * 3.0)) % 360.0;
+        final double lightness = (0.5 + (exp / 100000.0) * 0.5).clamp(0.5, 1.0);
+        final titleColor = HSLColor.fromAHSL(1.0, hue, 0.8, lightness).toColor();
+
+
         return LayoutBuilder(
           builder: (context, constraints) {
             return SingleChildScrollView(
@@ -179,6 +200,8 @@ class _MagicBookTabState extends State<_MagicBookTab> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
+                      Text('[$phaseNumber단계: $currentPhaseName]', style: Theme.of(context).textTheme.titleMedium?.copyWith(color: titleColor, fontWeight: FontWeight.bold)),
+                      const SizedBox(height: 4),
                       Text('마법책 레벨 $level', style: Theme.of(context).textTheme.titleLarge),
                       const SizedBox(height: 10),
                       Padding(
@@ -224,7 +247,7 @@ class _MagicBookTabState extends State<_MagicBookTab> {
                       ElevatedButton.icon(
                         onPressed: _isEnhancing ? null : _enhanceBook,
                         icon: const Icon(Icons.auto_awesome),
-                        label: const Text('마법책 읽기 (가루 10개)'),
+                        label: const Text('마법책 강화 (가루 10개)'),
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.indigoAccent,
                           foregroundColor: Colors.white,
