@@ -4354,4 +4354,76 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Itsereflektio';
+
+  @override
+  String get myMenuDeleteAccount => 'Poista tili';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Poista tilini ja tietoni';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Varoitus tilin poistamisesta';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Kun poistat tilisi, myös kaikki älypuhelimeesi tallennetut tiedot poistetaan. Haluatko jatkaa?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Poistaa';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Peruuttaa';
+
+  @override
+  String get emailVerificationRequiredTitle => 'Sähköpostivahvistus vaaditaan';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Sinun on vahvistettava sähköpostiosoitteesi, jotta voit käyttää pääominaisuuksia, kuten Tarot-lukemista ja maksuja. Suorita vahvistus Omassa valikossa.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Siirry kohtaan Oma valikko';
+
+  @override
+  String get profileEditBio => 'Bio';
+
+  @override
+  String get profileEditSnsIntegration => 'SNS-integrointi (valinnainen)';
+
+  @override
+  String get profileEditSnsInsta => 'Instagramin URL-osoite (tai tunnus)';
+
+  @override
+  String get profileEditSnsFb => 'Facebookin URL-osoite';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) URL-osoite';
+
+  @override
+  String get btnClose => 'Lähellä';
+
+  @override
+  String get cardDetailAddFavorite => 'Lisätty suosikkeihin';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Poistettu suosikeista';
+
+  @override
+  String get favoriteCardsTitle => 'Suosikkikortit';
+
+  @override
+  String get favoriteCardsEmpty => 'Ei vielä suosikkikortteja.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Yksityiskohtaiset tulkintatiedot eivät ole vielä valmiita.';
+
+  @override
+  String get cardDetailNoData => 'Tietoja ei ole saatavilla.';
+
+  @override
+  String get buttonSaveReading => 'Tallenna Tarot-lukeminen';
+
+  @override
+  String get readingSavedToDevice => 'Tallennettu laitteelle.';
 }

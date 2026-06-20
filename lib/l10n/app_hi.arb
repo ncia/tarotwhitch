@@ -385,8 +385,8 @@
   },
   "shopCancel": "रद्द करना",
   "shopPurchase": "खरीदना",
-  "shopAlreadyOwned": "पहले से ही स्वामित्व में है. इसे थीम सेटिंग में लागू करने का प्रयास करें!",
-  "shopPurchaseSuccess": "{skinName} सफलतापूर्वक खरीदा गया! थीम सेटिंग जांचें.",
+  "shopAlreadyOwned": "पहले से ही स्वामित्व में है। इसे त्वचा सेटिंग में लगाने का प्रयास करें!",
+  "shopPurchaseSuccess": "{skinName} सफलतापूर्वक खरीदा गया! त्वचा सेटिंग्स की जाँच करें.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -420,7 +420,7 @@
   "myMenuPushNotifications": "सूचनाएं धक्का",
   "myMenuPushNotificationsDesc": "नई राशिफल और घटनाएँ",
   "myMenuLanguageSettings": "भाषा सेटिंग्स",
-  "myMenuThemeSettings": "थीम सेटिंग्स",
+  "myMenuThemeSettings": "त्वचा सेटिंग्स",
   "myMenuChangeBackground": "पृष्ठभूमि छवि बदलें",
   "myMenuSectionCustomerSupport": "ग्राहक सहेयता",
   "myMenuFaq": "अक्सर पूछे जाने वाले प्रश्न",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "खाता हटा दो",
+  "myMenuDeleteAccountDesc": "मेरा खाता और जानकारी हटा दें",
+  "myMenuDeleteAccountWarnTitle": "खाता हटाने की चेतावनी",
+  "myMenuDeleteAccountWarnDesc": "आपका अकाउंट डिलीट करने पर आपके स्मार्टफोन पर सेव सारा डेटा भी डिलीट हो जाएगा। क्या आप जारी रखना चाहते हैं?",
+  "myMenuDeleteAccountConfirm": "मिटाना",
+  "myMenuDeleteAccountCancel": "रद्द करना",
+  "emailVerificationRequiredTitle": "ईमेल सत्यापन आवश्यक है",
+  "emailVerificationRequiredDesc": "टैरो रीडिंग और भुगतान जैसी मुख्य सुविधाओं का उपयोग करने के लिए आपको अपना ईमेल सत्यापित करना होगा। कृपया माई मेनू में सत्यापन पूरा करें।",
+  "emailVerificationGoToMenu": "मेरे मेनू पर जाएँ",
+  "profileEditBio": "जैव",
+  "profileEditSnsIntegration": "एसएनएस एकीकरण (वैकल्पिक)",
+  "profileEditSnsInsta": "इंस्टाग्राम यूआरएल (या आईडी)",
+  "profileEditSnsFb": "फेसबुक यूआरएल",
+  "profileEditSnsX": "एक्स (ट्विटर) यूआरएल",
+  "btnClose": "बंद करना",
+  "cardDetailAddFavorite": "पसंदीदा में जोड़ा गया",
+  "cardDetailRemoveFavorite": "पसंदीदा से हटाया गया",
+  "favoriteCardsTitle": "पसंदीदा कार्ड",
+  "favoriteCardsEmpty": "अभी तक कोई पसंदीदा कार्ड नहीं.",
+  "cardDetailDataNotReady": "विस्तृत व्याख्या डेटा अभी तैयार नहीं है.",
+  "cardDetailNoData": "कोई डेटा मौजूद नहीं।",
+  "buttonSaveReading": "टैरो रीडिंग सहेजें",
+  "readingSavedToDevice": "डिवाइस में सहेजा गया."
 }

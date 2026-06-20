@@ -61,6 +61,16 @@ class DiaryService {
     await _syncSingleToCloud(diary);
   }
 
+  /// 클라우드(Firestore)에만 자동 저장 (모바일 기기 저장 안 함)
+  Future<void> saveToCloudOnly(TarotDiary diary) async {
+    await _syncSingleToCloud(diary);
+  }
+
+  /// 모바일 기기(Hive)에만 수동 저장 (이미 클라우드에 있다고 가정하거나, 로컬 단독 사용)
+  Future<void> saveToLocalOnly(TarotDiary diary) async {
+    await diaryBox.put(diary.id, diary);
+  }
+
   /// 일기 삭제
   Future<void> deleteDiary(String diaryId) async {
     await diaryBox.delete(diaryId);

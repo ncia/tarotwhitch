@@ -4353,4 +4353,76 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Önreflexió';
+
+  @override
+  String get myMenuDeleteAccount => 'Fiók törlése lehetőségre';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Törölje a fiókomat és az adataimat';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Figyelmeztetés a fiók törlésére';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Fiókja törlésekor az okostelefonon mentett összes adat is törlődik. Szeretné folytatni?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Töröl';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Mégsem';
+
+  @override
+  String get emailVerificationRequiredTitle => 'E-mail ellenőrzés szükséges';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'A főbb funkciók, például a Tarot-olvasás és a fizetés használatához igazolnia kell e-mail-címét. Kérjük, fejezze be az ellenőrzést a Saját menüben.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Lépjen a Saját menübe';
+
+  @override
+  String get profileEditBio => 'Bio';
+
+  @override
+  String get profileEditSnsIntegration => 'SNS-integráció (opcionális)';
+
+  @override
+  String get profileEditSnsInsta => 'Instagram URL (vagy azonosító)';
+
+  @override
+  String get profileEditSnsFb => 'Facebook URL';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) URL';
+
+  @override
+  String get btnClose => 'Közeli';
+
+  @override
+  String get cardDetailAddFavorite => 'Hozzáadva a Kedvencekhez';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Eltávolítva a Kedvencek közül';
+
+  @override
+  String get favoriteCardsTitle => 'Kedvenc kártyák';
+
+  @override
+  String get favoriteCardsEmpty => 'Még nincsenek kedvenc kártyák.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'A részletes értelmezési adatok még nem állnak rendelkezésre.';
+
+  @override
+  String get cardDetailNoData => 'Nincs adat.';
+
+  @override
+  String get buttonSaveReading => 'Mentse el a Tarot-olvasást';
+
+  @override
+  String get readingSavedToDevice => 'Mentve az eszközre.';
 }

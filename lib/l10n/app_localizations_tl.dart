@@ -4372,4 +4372,78 @@ class AppLocalizationsTl extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Pagninilay';
+
+  @override
+  String get myMenuDeleteAccount => 'Tanggalin ang Account';
+
+  @override
+  String get myMenuDeleteAccountDesc =>
+      'Tanggalin ang aking account at impormasyon';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Babala sa Pagtanggal ng Account';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Sa pagtanggal ng iyong account, ang lahat ng data na naka-save sa iyong smartphone ay tatanggalin din. Gusto mo bang magpatuloy?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Tanggalin';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Kanselahin';
+
+  @override
+  String get emailVerificationRequiredTitle =>
+      'Kinakailangan ang Pag-verify ng Email';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Kailangan mong i-verify ang iyong email para magamit ang mga pangunahing feature tulad ng pagbabasa ng Tarot at mga pagbabayad. Mangyaring kumpletuhin ang pag-verify sa Aking Menu.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Pumunta sa My Menu';
+
+  @override
+  String get profileEditBio => 'Bio';
+
+  @override
+  String get profileEditSnsIntegration => 'Pagsasama ng SNS (Opsyonal)';
+
+  @override
+  String get profileEditSnsInsta => 'URL ng Instagram (o ID)';
+
+  @override
+  String get profileEditSnsFb => 'URL ng Facebook';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) URL';
+
+  @override
+  String get btnClose => 'Isara';
+
+  @override
+  String get cardDetailAddFavorite => 'Idinagdag sa Mga Paborito';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Inalis sa Mga Paborito';
+
+  @override
+  String get favoriteCardsTitle => 'Mga Paboritong Card';
+
+  @override
+  String get favoriteCardsEmpty => 'Wala pang paboritong card.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Hindi pa handa ang detalyadong data ng interpretasyon.';
+
+  @override
+  String get cardDetailNoData => 'Walang available na data.';
+
+  @override
+  String get buttonSaveReading => 'I-save ang Pagbasa ng Tarot';
+
+  @override
+  String get readingSavedToDevice => 'Na-save sa device.';
 }

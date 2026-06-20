@@ -4345,4 +4345,76 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Öz Yansıma';
+
+  @override
+  String get myMenuDeleteAccount => 'Hesabı Sil';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Hesabımı ve bilgilerimi sil';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Hesap Silme Uyarısı';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Hesabınızı sildikten sonra akıllı telefonunuzda kayıtlı tüm veriler de silinecektir. Devam etmek istiyor musunuz?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Silmek';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'İptal etmek';
+
+  @override
+  String get emailVerificationRequiredTitle => 'E-posta Doğrulaması Gerekli';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Tarot okuma ve ödemeler gibi temel özellikleri kullanabilmek için e-posta adresinizi doğrulamanız gerekmektedir. Lütfen Menüm bölümündeki doğrulamayı tamamlayın.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Menüm\'e git';
+
+  @override
+  String get profileEditBio => 'Biyografi';
+
+  @override
+  String get profileEditSnsIntegration => 'SNS Entegrasyonu (Opsiyonel)';
+
+  @override
+  String get profileEditSnsInsta => 'Instagram URL\'si (veya kimliği)';
+
+  @override
+  String get profileEditSnsFb => 'Facebook URL\'si';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) URL\'si';
+
+  @override
+  String get btnClose => 'Kapalı';
+
+  @override
+  String get cardDetailAddFavorite => 'Favorilere eklendi';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Favorilerden kaldırıldı';
+
+  @override
+  String get favoriteCardsTitle => 'Favori Kartlar';
+
+  @override
+  String get favoriteCardsEmpty => 'Henüz favori kart yok.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Detaylı yorumlama verileri henüz hazır değil.';
+
+  @override
+  String get cardDetailNoData => 'Veri yok.';
+
+  @override
+  String get buttonSaveReading => 'Tarot Okumasını Kaydet';
+
+  @override
+  String get readingSavedToDevice => 'Cihaza kaydedildi.';
 }

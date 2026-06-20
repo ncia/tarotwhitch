@@ -3997,4 +3997,75 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get tagSelfReflection => '内省';
+
+  @override
+  String get myMenuDeleteAccount => 'アカウントの削除';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'アカウントと情報を削除する';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'アカウント削除の警告';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'アカウントを削除すると、スマートフォンに保存されていたデータもすべて削除されます。続行しますか?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => '消去';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'キャンセル';
+
+  @override
+  String get emailVerificationRequiredTitle => 'メール認証が必要です';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'タロット占いや支払いなどの主な機能を使用するには、メールアドレスを認証する必要があります。マイメニューより認証を完了してください。';
+
+  @override
+  String get emailVerificationGoToMenu => 'マイメニューへ';
+
+  @override
+  String get profileEditBio => 'バイオ';
+
+  @override
+  String get profileEditSnsIntegration => 'SNS連携（オプション）';
+
+  @override
+  String get profileEditSnsInsta => 'インスタグラムのURL（またはID）';
+
+  @override
+  String get profileEditSnsFb => 'フェイスブックのURL';
+
+  @override
+  String get profileEditSnsX => 'X（ツイッター）URL';
+
+  @override
+  String get btnClose => '近い';
+
+  @override
+  String get cardDetailAddFavorite => 'お気に入りに追加されました';
+
+  @override
+  String get cardDetailRemoveFavorite => 'お気に入りから削除されました';
+
+  @override
+  String get favoriteCardsTitle => 'お気に入りのカード';
+
+  @override
+  String get favoriteCardsEmpty => 'お気に入りのカードはまだありません。';
+
+  @override
+  String get cardDetailDataNotReady => '詳細な解釈データはまだ準備されていません。';
+
+  @override
+  String get cardDetailNoData => '利用可能なデータはありません。';
+
+  @override
+  String get buttonSaveReading => 'タロットリーディングを保存';
+
+  @override
+  String get readingSavedToDevice => 'デバイスに保存されました。';
 }

@@ -385,8 +385,8 @@
   },
   "shopCancel": "لغو کنید",
   "shopPurchase": "خرید",
-  "shopAlreadyOwned": "قبلاً متعلق به سعی کنید آن را در تنظیمات تم اعمال کنید!",
-  "shopPurchaseSuccess": "{skinName} با موفقیت خریداری شد! تنظیمات تم را بررسی کنید.",
+  "shopAlreadyOwned": "قبلاً متعلق به سعی کنید آن را در تنظیمات پوست اعمال کنید!",
+  "shopPurchaseSuccess": "{skinName} با موفقیت خریداری شد! تنظیمات پوست را بررسی کنید.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -420,7 +420,7 @@
   "myMenuPushNotifications": "دریافت اعلان‌های فشاری",
   "myMenuPushNotificationsDesc": "طالع بینی و رویدادهای جدید",
   "myMenuLanguageSettings": "تنظیمات زبان",
-  "myMenuThemeSettings": "تنظیمات تم",
+  "myMenuThemeSettings": "تنظیمات پوست",
   "myMenuChangeBackground": "تغییر تصویر پس زمینه",
   "myMenuSectionCustomerSupport": "پشتیبانی مشتری",
   "myMenuFaq": "سوالات متداول",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "حذف اکانت",
+  "myMenuDeleteAccountDesc": "اکانت و اطلاعات من را حذف کنید",
+  "myMenuDeleteAccountWarnTitle": "هشدار حذف اکانت",
+  "myMenuDeleteAccountWarnDesc": "پس از حذف اکانت، تمامی داده های ذخیره شده در گوشی هوشمند شما نیز حذف خواهند شد. آیا می خواهید ادامه دهید؟",
+  "myMenuDeleteAccountConfirm": "حذف کنید",
+  "myMenuDeleteAccountCancel": "لغو کنید",
+  "emailVerificationRequiredTitle": "تایید ایمیل مورد نیاز است",
+  "emailVerificationRequiredDesc": "برای استفاده از ویژگی های اصلی مانند خواندن تاروت و پرداخت، باید ایمیل خود را تأیید کنید. لطفاً تأیید را در منوی من تکمیل کنید.",
+  "emailVerificationGoToMenu": "به منوی من بروید",
+  "profileEditBio": "بیوگرافی",
+  "profileEditSnsIntegration": "یکپارچه سازی SNS (اختیاری)",
+  "profileEditSnsInsta": "آدرس اینستاگرام (یا آیدی)",
+  "profileEditSnsFb": "آدرس فیس بوک",
+  "profileEditSnsX": "آدرس اینترنتی X (توئیتر).",
+  "btnClose": "بستن",
+  "cardDetailAddFavorite": "به موارد دلخواه اضافه شد",
+  "cardDetailRemoveFavorite": "از موارد دلخواه حذف شد",
+  "favoriteCardsTitle": "کارت های مورد علاقه",
+  "favoriteCardsEmpty": "هنوز کارت مورد علاقه ای وجود ندارد.",
+  "cardDetailDataNotReady": "داده های تفسیر دقیق هنوز آماده نیست.",
+  "cardDetailNoData": "هیچ داده ای در دسترس نیست.",
+  "buttonSaveReading": "خواندن تاروت را ذخیره کنید",
+  "readingSavedToDevice": "در دستگاه ذخیره شد."
 }

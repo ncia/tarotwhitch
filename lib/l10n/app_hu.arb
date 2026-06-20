@@ -385,8 +385,8 @@
   },
   "shopCancel": "Mégse",
   "shopPurchase": "Vásárlás",
-  "shopAlreadyOwned": "Már birtokolt. Próbálja meg alkalmazni a témabeállításokban!",
-  "shopPurchaseSuccess": "{skinName} sikeresen megvásárolta! Ellenőrizze a témabeállításokat.",
+  "shopAlreadyOwned": "Már birtokolt. Próbáld bőrbeállításokban alkalmazni!",
+  "shopPurchaseSuccess": "{skinName} sikeresen megvásárolta! Ellenőrizze a bőrbeállításokat.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -420,7 +420,7 @@
   "myMenuPushNotifications": "Push értesítések",
   "myMenuPushNotificationsDesc": "Új horoszkópok és események",
   "myMenuLanguageSettings": "Nyelvi beállítások",
-  "myMenuThemeSettings": "Téma beállításai",
+  "myMenuThemeSettings": "Bőrbeállítások",
   "myMenuChangeBackground": "Háttérkép módosítása",
   "myMenuSectionCustomerSupport": "Ügyfélszolgálat",
   "myMenuFaq": "GYIK",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Fiók törlése lehetőségre",
+  "myMenuDeleteAccountDesc": "Törölje a fiókomat és az adataimat",
+  "myMenuDeleteAccountWarnTitle": "Figyelmeztetés a fiók törlésére",
+  "myMenuDeleteAccountWarnDesc": "Fiókja törlésekor az okostelefonon mentett összes adat is törlődik. Szeretné folytatni?",
+  "myMenuDeleteAccountConfirm": "Töröl",
+  "myMenuDeleteAccountCancel": "Mégsem",
+  "emailVerificationRequiredTitle": "E-mail ellenőrzés szükséges",
+  "emailVerificationRequiredDesc": "A főbb funkciók, például a Tarot-olvasás és a fizetés használatához igazolnia kell e-mail-címét. Kérjük, fejezze be az ellenőrzést a Saját menüben.",
+  "emailVerificationGoToMenu": "Lépjen a Saját menübe",
+  "profileEditBio": "Bio",
+  "profileEditSnsIntegration": "SNS-integráció (opcionális)",
+  "profileEditSnsInsta": "Instagram URL (vagy azonosító)",
+  "profileEditSnsFb": "Facebook URL",
+  "profileEditSnsX": "X (Twitter) URL",
+  "btnClose": "Közeli",
+  "cardDetailAddFavorite": "Hozzáadva a Kedvencekhez",
+  "cardDetailRemoveFavorite": "Eltávolítva a Kedvencek közül",
+  "favoriteCardsTitle": "Kedvenc kártyák",
+  "favoriteCardsEmpty": "Még nincsenek kedvenc kártyák.",
+  "cardDetailDataNotReady": "A részletes értelmezési adatok még nem állnak rendelkezésre.",
+  "cardDetailNoData": "Nincs adat.",
+  "buttonSaveReading": "Mentse el a Tarot-olvasást",
+  "readingSavedToDevice": "Mentve az eszközre."
 }

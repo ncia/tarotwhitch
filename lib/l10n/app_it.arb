@@ -385,8 +385,8 @@
   },
   "shopCancel": "Cancellare",
   "shopPurchase": "Acquistare",
-  "shopAlreadyOwned": "Già posseduto. Prova ad applicarlo nelle impostazioni del tema!",
-  "shopPurchaseSuccess": "{skinName} acquistato con successo! Controlla le impostazioni del tema.",
+  "shopAlreadyOwned": "Già posseduto. Prova ad applicarlo nelle impostazioni della pelle!",
+  "shopPurchaseSuccess": "{skinName} acquistato con successo! Controlla le impostazioni della pelle.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -420,7 +420,7 @@
   "myMenuPushNotifications": "Notifiche push",
   "myMenuPushNotificationsDesc": "Nuovi oroscopi ed eventi",
   "myMenuLanguageSettings": "Impostazioni della lingua",
-  "myMenuThemeSettings": "Impostazioni del tema",
+  "myMenuThemeSettings": "Impostazioni della pelle",
   "myMenuChangeBackground": "Cambia l'immagine di sfondo",
   "myMenuSectionCustomerSupport": "Assistenza clienti",
   "myMenuFaq": "Domande frequenti",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Elimina account",
+  "myMenuDeleteAccountDesc": "Elimina il mio account e le mie informazioni",
+  "myMenuDeleteAccountWarnTitle": "Avviso di cancellazione dell'account",
+  "myMenuDeleteAccountWarnDesc": "Cancellando il tuo account verranno cancellati anche tutti i dati salvati sul tuo smartphone. Desideri continuare?",
+  "myMenuDeleteAccountConfirm": "Eliminare",
+  "myMenuDeleteAccountCancel": "Cancellare",
+  "emailVerificationRequiredTitle": "Verifica e-mail obbligatoria",
+  "emailVerificationRequiredDesc": "Devi verificare la tua email per utilizzare le funzionalità principali come la lettura dei Tarocchi e i pagamenti. Completa la verifica in Il mio menu.",
+  "emailVerificationGoToMenu": "Vai al mio menu",
+  "profileEditBio": "Bio",
+  "profileEditSnsIntegration": "Integrazione SNS (facoltativa)",
+  "profileEditSnsInsta": "URL (o ID) di Instagram",
+  "profileEditSnsFb": "URL di Facebook",
+  "profileEditSnsX": "URL X (Twitter).",
+  "btnClose": "Vicino",
+  "cardDetailAddFavorite": "Aggiunto ai preferiti",
+  "cardDetailRemoveFavorite": "Rimosso dai preferiti",
+  "favoriteCardsTitle": "Carte preferite",
+  "favoriteCardsEmpty": "Nessuna carta preferita ancora.",
+  "cardDetailDataNotReady": "I dati interpretativi dettagliati non sono ancora pronti.",
+  "cardDetailNoData": "Nessun dato disponibile.",
+  "buttonSaveReading": "Salva Lettura dei Tarocchi",
+  "readingSavedToDevice": "Salvato sul dispositivo."
 }

@@ -8009,6 +8009,144 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Self-Reflection'**
   String get tagSelfReflection;
+
+  /// No description provided for @myMenuDeleteAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete Account'**
+  String get myMenuDeleteAccount;
+
+  /// No description provided for @myMenuDeleteAccountDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete my account and information'**
+  String get myMenuDeleteAccountDesc;
+
+  /// No description provided for @myMenuDeleteAccountWarnTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Account Deletion Warning'**
+  String get myMenuDeleteAccountWarnTitle;
+
+  /// No description provided for @myMenuDeleteAccountWarnDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Upon deleting your account, all data saved on your smartphone will also be deleted. Do you wish to continue?'**
+  String get myMenuDeleteAccountWarnDesc;
+
+  /// No description provided for @myMenuDeleteAccountConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete'**
+  String get myMenuDeleteAccountConfirm;
+
+  /// No description provided for @myMenuDeleteAccountCancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get myMenuDeleteAccountCancel;
+
+  /// No description provided for @emailVerificationRequiredTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Email Verification Required'**
+  String get emailVerificationRequiredTitle;
+
+  /// No description provided for @emailVerificationRequiredDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'You need to verify your email to use main features like Tarot reading and payments. Please complete the verification in My Menu.'**
+  String get emailVerificationRequiredDesc;
+
+  /// No description provided for @emailVerificationGoToMenu.
+  ///
+  /// In en, this message translates to:
+  /// **'Go to My Menu'**
+  String get emailVerificationGoToMenu;
+
+  /// No description provided for @profileEditBio.
+  ///
+  /// In en, this message translates to:
+  /// **'Bio'**
+  String get profileEditBio;
+
+  /// No description provided for @profileEditSnsIntegration.
+  ///
+  /// In en, this message translates to:
+  /// **'SNS Integration (Optional)'**
+  String get profileEditSnsIntegration;
+
+  /// No description provided for @profileEditSnsInsta.
+  ///
+  /// In en, this message translates to:
+  /// **'Instagram URL (or ID)'**
+  String get profileEditSnsInsta;
+
+  /// No description provided for @profileEditSnsFb.
+  ///
+  /// In en, this message translates to:
+  /// **'Facebook URL'**
+  String get profileEditSnsFb;
+
+  /// No description provided for @profileEditSnsX.
+  ///
+  /// In en, this message translates to:
+  /// **'X (Twitter) URL'**
+  String get profileEditSnsX;
+
+  /// No description provided for @btnClose.
+  ///
+  /// In en, this message translates to:
+  /// **'Close'**
+  String get btnClose;
+
+  /// No description provided for @cardDetailAddFavorite.
+  ///
+  /// In en, this message translates to:
+  /// **'Added to Favorites'**
+  String get cardDetailAddFavorite;
+
+  /// No description provided for @cardDetailRemoveFavorite.
+  ///
+  /// In en, this message translates to:
+  /// **'Removed from Favorites'**
+  String get cardDetailRemoveFavorite;
+
+  /// No description provided for @favoriteCardsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Favorite Cards'**
+  String get favoriteCardsTitle;
+
+  /// No description provided for @favoriteCardsEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No favorite cards yet.'**
+  String get favoriteCardsEmpty;
+
+  /// No description provided for @cardDetailDataNotReady.
+  ///
+  /// In en, this message translates to:
+  /// **'Detailed interpretation data is not yet ready.'**
+  String get cardDetailDataNotReady;
+
+  /// No description provided for @cardDetailNoData.
+  ///
+  /// In en, this message translates to:
+  /// **'No data available.'**
+  String get cardDetailNoData;
+
+  /// No description provided for @buttonSaveReading.
+  ///
+  /// In en, this message translates to:
+  /// **'Save Tarot Reading'**
+  String get buttonSaveReading;
+
+  /// No description provided for @readingSavedToDevice.
+  ///
+  /// In en, this message translates to:
+  /// **'Saved to device.'**
+  String get readingSavedToDevice;
 }
 
 class _AppLocalizationsDelegate

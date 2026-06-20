@@ -4352,4 +4352,76 @@ class AppLocalizationsHr extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Samorefleksija';
+
+  @override
+  String get myMenuDeleteAccount => 'Izbriši račun';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Izbriši moj račun i podatke';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Upozorenje o brisanju računa';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Nakon brisanja računa, izbrisat će se i svi podaci spremljeni na vašem pametnom telefonu. Želite li nastaviti?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Izbrisati';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Otkazati';
+
+  @override
+  String get emailVerificationRequiredTitle => 'Obavezna potvrda e-pošte';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Morate potvrditi svoju e-poštu da biste koristili glavne značajke kao što su čitanje tarota i plaćanja. Dovršite provjeru u Mojem izborniku.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Idite na Moj izbornik';
+
+  @override
+  String get profileEditBio => 'Bio';
+
+  @override
+  String get profileEditSnsIntegration => 'SNS integracija (izborno)';
+
+  @override
+  String get profileEditSnsInsta => 'Instagram URL (ili ID)';
+
+  @override
+  String get profileEditSnsFb => 'Facebook URL';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) URL';
+
+  @override
+  String get btnClose => 'Zatvoriti';
+
+  @override
+  String get cardDetailAddFavorite => 'Dodano u favorite';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Uklonjeno iz Favorita';
+
+  @override
+  String get favoriteCardsTitle => 'Omiljene karte';
+
+  @override
+  String get favoriteCardsEmpty => 'Još nema omiljenih karata.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Detaljni podaci o tumačenju još nisu spremni.';
+
+  @override
+  String get cardDetailNoData => 'Nema dostupnih podataka.';
+
+  @override
+  String get buttonSaveReading => 'Spremite čitanje tarota';
+
+  @override
+  String get readingSavedToDevice => 'Spremljeno na uređaj.';
 }

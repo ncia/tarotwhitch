@@ -4360,4 +4360,78 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Auto-reflecție';
+
+  @override
+  String get myMenuDeleteAccount => 'Șterge contul';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Ștergeți contul și informațiile mele';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle =>
+      'Avertisment de ștergere a contului';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'După ștergerea contului, toate datele salvate pe smartphone vor fi, de asemenea, șterse. Doriți să continuați?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Şterge';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Anula';
+
+  @override
+  String get emailVerificationRequiredTitle =>
+      'Este necesară verificarea e-mailului';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Trebuie să vă verificați e-mailul pentru a utiliza funcții principale, cum ar fi citirea tarotului și plățile. Vă rugăm să finalizați verificarea în Meniul meu.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Accesați Meniul meu';
+
+  @override
+  String get profileEditBio => 'bio';
+
+  @override
+  String get profileEditSnsIntegration => 'Integrare SNS (Opțional)';
+
+  @override
+  String get profileEditSnsInsta => 'URL (sau ID) Instagram';
+
+  @override
+  String get profileEditSnsFb => 'URL Facebook';
+
+  @override
+  String get profileEditSnsX => 'Adresa URL X (Twitter).';
+
+  @override
+  String get btnClose => 'Aproape';
+
+  @override
+  String get cardDetailAddFavorite => 'Adăugat la Favorite';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Eliminat din Favorite';
+
+  @override
+  String get favoriteCardsTitle => 'Cărți preferate';
+
+  @override
+  String get favoriteCardsEmpty => 'Nicio carte preferată încă.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Datele detaliate de interpretare nu sunt încă gata.';
+
+  @override
+  String get cardDetailNoData => 'Nu există date disponibile.';
+
+  @override
+  String get buttonSaveReading => 'Salvați citirea tarotului';
+
+  @override
+  String get readingSavedToDevice => 'Salvat pe dispozitiv.';
 }

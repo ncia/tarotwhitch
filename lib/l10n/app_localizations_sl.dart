@@ -4354,4 +4354,76 @@ class AppLocalizationsSl extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Samorefleksija';
+
+  @override
+  String get myMenuDeleteAccount => 'Izbriši račun';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Izbriši moj račun in podatke';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Opozorilo o izbrisu računa';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Z izbrisom računa se izbrišejo tudi vsi podatki, shranjeni na vašem pametnem telefonu. Želite nadaljevati?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Izbriši';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Prekliči';
+
+  @override
+  String get emailVerificationRequiredTitle => 'Zahtevano preverjanje e-pošte';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Če želite uporabljati glavne funkcije, kot sta branje tarota in plačila, morate potrditi svoj e-poštni naslov. Prosimo, dokončajte preverjanje v Mojem meniju.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Pojdite na Moj meni';
+
+  @override
+  String get profileEditBio => 'Bio';
+
+  @override
+  String get profileEditSnsIntegration => 'Integracija SNS (izbirno)';
+
+  @override
+  String get profileEditSnsInsta => 'Instagram URL (ali ID)';
+
+  @override
+  String get profileEditSnsFb => 'Facebook URL';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) URL';
+
+  @override
+  String get btnClose => 'Zapri';
+
+  @override
+  String get cardDetailAddFavorite => 'Dodano med priljubljene';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Odstranjeno iz priljubljenih';
+
+  @override
+  String get favoriteCardsTitle => 'Priljubljene kartice';
+
+  @override
+  String get favoriteCardsEmpty => 'Ni še priljubljenih kart.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Podrobni podatki o interpretaciji še niso pripravljeni.';
+
+  @override
+  String get cardDetailNoData => 'Ni podatkov.';
+
+  @override
+  String get buttonSaveReading => 'Shranite branje tarota';
+
+  @override
+  String get readingSavedToDevice => 'Shranjeno v napravo.';
 }

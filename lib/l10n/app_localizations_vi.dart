@@ -4346,4 +4346,76 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Tự vấn';
+
+  @override
+  String get myMenuDeleteAccount => 'Xóa tài khoản';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Xóa tài khoản và thông tin của tôi';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Cảnh báo xóa tài khoản';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Sau khi xóa tài khoản của bạn, tất cả dữ liệu được lưu trên điện thoại thông minh của bạn cũng sẽ bị xóa. Bạn có muốn tiếp tục không?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Xóa bỏ';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Hủy bỏ';
+
+  @override
+  String get emailVerificationRequiredTitle => 'Yêu cầu xác minh email';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Bạn cần xác minh email của mình để sử dụng các tính năng chính như đọc Tarot và thanh toán. Vui lòng hoàn tất xác minh trong Menu của tôi.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Đi tới Menu của tôi';
+
+  @override
+  String get profileEditBio => 'Tiểu sử';
+
+  @override
+  String get profileEditSnsIntegration => 'Tích hợp SNS (Tùy chọn)';
+
+  @override
+  String get profileEditSnsInsta => 'URL Instagram (hoặc ID)';
+
+  @override
+  String get profileEditSnsFb => 'URL Facebook';
+
+  @override
+  String get profileEditSnsX => 'URL X (Twitter)';
+
+  @override
+  String get btnClose => 'Đóng';
+
+  @override
+  String get cardDetailAddFavorite => 'Đã thêm vào mục yêu thích';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Đã xóa khỏi Mục yêu thích';
+
+  @override
+  String get favoriteCardsTitle => 'Thẻ yêu thích';
+
+  @override
+  String get favoriteCardsEmpty => 'Chưa có thẻ yêu thích nào.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Dữ liệu diễn giải chi tiết vẫn chưa sẵn sàng.';
+
+  @override
+  String get cardDetailNoData => 'Không có dữ liệu có sẵn.';
+
+  @override
+  String get buttonSaveReading => 'Lưu Đọc Tarot';
+
+  @override
+  String get readingSavedToDevice => 'Đã lưu vào thiết bị.';
 }

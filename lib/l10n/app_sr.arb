@@ -385,8 +385,8 @@
   },
   "shopCancel": "Откажи",
   "shopPurchase": "Куповина",
-  "shopAlreadyOwned": "Већ у власништву. Покушајте да га примените у подешавањима теме!",
-  "shopPurchaseSuccess": "{skinName} је успешно купљен! Проверите подешавања теме.",
+  "shopAlreadyOwned": "Већ у власништву. Покушајте да га примените у подешавањима коже!",
+  "shopPurchaseSuccess": "{скинНаме} је успешно купљен! Проверите подешавања коже.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -422,7 +422,7 @@
   "myMenuPushNotifications": "Пусх обавештења",
   "myMenuPushNotificationsDesc": "Нови хороскопи и догађаји",
   "myMenuLanguageSettings": "Подешавања језика",
-  "myMenuThemeSettings": "Подешавања теме",
+  "myMenuThemeSettings": "Подешавања коже",
   "myMenuChangeBackground": "Промените слику у позадини",
   "myMenuSectionCustomerSupport": "Корисничка подршка",
   "myMenuFaq": "ФАК",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Избриши налог",
+  "myMenuDeleteAccountDesc": "Избриши мој налог и информације",
+  "myMenuDeleteAccountWarnTitle": "Упозорење о брисању налога",
+  "myMenuDeleteAccountWarnDesc": "Након брисања налога, сви подаци сачувани на вашем паметном телефону ће такође бити избрисани. Да ли желите да наставите?",
+  "myMenuDeleteAccountConfirm": "Избриши",
+  "myMenuDeleteAccountCancel": "Откажи",
+  "emailVerificationRequiredTitle": "Потребна је верификација е-поште",
+  "emailVerificationRequiredDesc": "Морате да верификујете своју е-пошту да бисте користили главне функције као што су читање тарота и плаћања. Завршите верификацију у мом менију.",
+  "emailVerificationGoToMenu": "Идите на Мој мени",
+  "profileEditBio": "Био",
+  "profileEditSnsIntegration": "СНС интеграција (опционо)",
+  "profileEditSnsInsta": "Инстаграм УРЛ (или ИД)",
+  "profileEditSnsFb": "Фацебоок УРЛ",
+  "profileEditSnsX": "Кс (Твитер) УРЛ",
+  "btnClose": "Затвори",
+  "cardDetailAddFavorite": "Додато у фаворите",
+  "cardDetailRemoveFavorite": "Уклоњено из омиљених",
+  "favoriteCardsTitle": "Фаворите Цардс",
+  "favoriteCardsEmpty": "Још нема омиљених картица.",
+  "cardDetailDataNotReady": "Детаљни подаци о тумачењу још нису спремни.",
+  "cardDetailNoData": "Нема доступних података.",
+  "buttonSaveReading": "Сачувај читање тарота",
+  "readingSavedToDevice": "Сачувано на уређају."
 }

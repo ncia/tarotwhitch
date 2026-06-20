@@ -3992,6 +3992,76 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get tagSelfReflection => '反思';
+
+  @override
+  String get myMenuDeleteAccount => '删除帐户';
+
+  @override
+  String get myMenuDeleteAccountDesc => '删除我的帐户和信息';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => '帐户删除警告';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc => '删除您的帐户后，智能手机上保存的所有数据也将被删除。您想继续吗？';
+
+  @override
+  String get myMenuDeleteAccountConfirm => '删除';
+
+  @override
+  String get myMenuDeleteAccountCancel => '取消';
+
+  @override
+  String get emailVerificationRequiredTitle => '需要验证电子邮件';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      '您需要验证您的电子邮件才能使用塔罗牌占卜和付款等主要功能。请在我的菜单中完成验证。';
+
+  @override
+  String get emailVerificationGoToMenu => '前往我的菜单';
+
+  @override
+  String get profileEditBio => '简介';
+
+  @override
+  String get profileEditSnsIntegration => 'SNS 集成（可选）';
+
+  @override
+  String get profileEditSnsInsta => 'Instagram 网址（或 ID）';
+
+  @override
+  String get profileEditSnsFb => '脸书网址';
+
+  @override
+  String get profileEditSnsX => 'X（推特）网址';
+
+  @override
+  String get btnClose => '关闭';
+
+  @override
+  String get cardDetailAddFavorite => '已添加至收藏夹';
+
+  @override
+  String get cardDetailRemoveFavorite => '从收藏夹中删除';
+
+  @override
+  String get favoriteCardsTitle => '最喜欢的卡片';
+
+  @override
+  String get favoriteCardsEmpty => '还没有最喜欢的卡片。';
+
+  @override
+  String get cardDetailDataNotReady => '详细的解释数据尚未准备好。';
+
+  @override
+  String get cardDetailNoData => '无可用数据。';
+
+  @override
+  String get buttonSaveReading => '保存塔罗占卜';
+
+  @override
+  String get readingSavedToDevice => '保存到设备。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hans`).
@@ -7980,6 +8050,76 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
 
   @override
   String get tagSelfReflection => '自我反思';
+
+  @override
+  String get myMenuDeleteAccount => '删除帐户';
+
+  @override
+  String get myMenuDeleteAccountDesc => '删除我的帐户和信息';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => '帐户删除警告';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc => '删除您的帐户后，智能手机上保存的所有数据也将被删除。您想继续吗？';
+
+  @override
+  String get myMenuDeleteAccountConfirm => '删除';
+
+  @override
+  String get myMenuDeleteAccountCancel => '取消';
+
+  @override
+  String get emailVerificationRequiredTitle => '需要验证电子邮件';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      '您需要验证您的电子邮件才能使用塔罗牌占卜和付款等主要功能。请在我的菜单中完成验证。';
+
+  @override
+  String get emailVerificationGoToMenu => '前往我的菜单';
+
+  @override
+  String get profileEditBio => '简介';
+
+  @override
+  String get profileEditSnsIntegration => 'SNS 集成（可选）';
+
+  @override
+  String get profileEditSnsInsta => 'Instagram 网址（或 ID）';
+
+  @override
+  String get profileEditSnsFb => '脸书网址';
+
+  @override
+  String get profileEditSnsX => 'X（推特）网址';
+
+  @override
+  String get btnClose => '关闭';
+
+  @override
+  String get cardDetailAddFavorite => '已添加至收藏夹';
+
+  @override
+  String get cardDetailRemoveFavorite => '从收藏夹中删除';
+
+  @override
+  String get favoriteCardsTitle => '最喜欢的卡片';
+
+  @override
+  String get favoriteCardsEmpty => '还没有最喜欢的卡片。';
+
+  @override
+  String get cardDetailDataNotReady => '详细的解释数据尚未准备好。';
+
+  @override
+  String get cardDetailNoData => '无可用数据。';
+
+  @override
+  String get buttonSaveReading => '保存塔罗占卜';
+
+  @override
+  String get readingSavedToDevice => '保存到设备。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -11969,4 +12109,74 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get tagSelfReflection => '自我反思';
+
+  @override
+  String get myMenuDeleteAccount => '刪除帳戶';
+
+  @override
+  String get myMenuDeleteAccountDesc => '刪除我的帳戶和訊息';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => '帳戶刪除警告';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc => '刪除您的帳戶後，智慧型手機上保存的所有資料也將被刪除。您想繼續嗎？';
+
+  @override
+  String get myMenuDeleteAccountConfirm => '刪除';
+
+  @override
+  String get myMenuDeleteAccountCancel => '取消';
+
+  @override
+  String get emailVerificationRequiredTitle => '需要驗證電子郵件';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      '您需要驗證您的電子郵件才能使用塔羅牌占卜和付款等主要功能。請在我的菜單中完成驗證。';
+
+  @override
+  String get emailVerificationGoToMenu => '前往我的菜單';
+
+  @override
+  String get profileEditBio => '簡介';
+
+  @override
+  String get profileEditSnsIntegration => 'SNS 整合（可選）';
+
+  @override
+  String get profileEditSnsInsta => 'Instagram 網址（或 ID）';
+
+  @override
+  String get profileEditSnsFb => '臉書網址';
+
+  @override
+  String get profileEditSnsX => 'X（推特）網址';
+
+  @override
+  String get btnClose => '關閉';
+
+  @override
+  String get cardDetailAddFavorite => '已加入至收藏夾';
+
+  @override
+  String get cardDetailRemoveFavorite => '從收藏夾中刪除';
+
+  @override
+  String get favoriteCardsTitle => '最喜歡的卡片';
+
+  @override
+  String get favoriteCardsEmpty => '還沒有最喜歡的卡片。';
+
+  @override
+  String get cardDetailDataNotReady => '詳細的解釋數據尚未準備好。';
+
+  @override
+  String get cardDetailNoData => '無可用數據。';
+
+  @override
+  String get buttonSaveReading => '保存塔羅占卜';
+
+  @override
+  String get readingSavedToDevice => '儲存到設備。';
 }

@@ -385,8 +385,8 @@
   },
   "shopCancel": "Kanselahin",
   "shopPurchase": "Bumili",
-  "shopAlreadyOwned": "Pag-aari na. Subukang ilapat ito sa mga setting ng tema!",
-  "shopPurchaseSuccess": "Matagumpay na nabili ang {skinName}! Suriin ang mga setting ng tema.",
+  "shopAlreadyOwned": "pagmamay-ari na. Subukang ilapat ito sa mga setting ng balat!",
+  "shopPurchaseSuccess": "Matagumpay na nabili ang {skinName}! Suriin ang mga setting ng balat.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -422,7 +422,7 @@
   "myMenuPushNotifications": "Mga Push Notification",
   "myMenuPushNotificationsDesc": "Mga bagong horoscope at kaganapan",
   "myMenuLanguageSettings": "Mga Setting ng Wika",
-  "myMenuThemeSettings": "Mga Setting ng Tema",
+  "myMenuThemeSettings": "Mga Setting ng Balat",
   "myMenuChangeBackground": "Baguhin ang larawan sa background",
   "myMenuSectionCustomerSupport": "Suporta sa Customer",
   "myMenuFaq": "Mga Madalas Itanong (FAQ)",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Tanggalin ang Account",
+  "myMenuDeleteAccountDesc": "Tanggalin ang aking account at impormasyon",
+  "myMenuDeleteAccountWarnTitle": "Babala sa Pagtanggal ng Account",
+  "myMenuDeleteAccountWarnDesc": "Sa pagtanggal ng iyong account, ang lahat ng data na naka-save sa iyong smartphone ay tatanggalin din. Gusto mo bang magpatuloy?",
+  "myMenuDeleteAccountConfirm": "Tanggalin",
+  "myMenuDeleteAccountCancel": "Kanselahin",
+  "emailVerificationRequiredTitle": "Kinakailangan ang Pag-verify ng Email",
+  "emailVerificationRequiredDesc": "Kailangan mong i-verify ang iyong email para magamit ang mga pangunahing feature tulad ng pagbabasa ng Tarot at mga pagbabayad. Mangyaring kumpletuhin ang pag-verify sa Aking Menu.",
+  "emailVerificationGoToMenu": "Pumunta sa My Menu",
+  "profileEditBio": "Bio",
+  "profileEditSnsIntegration": "Pagsasama ng SNS (Opsyonal)",
+  "profileEditSnsInsta": "URL ng Instagram (o ID)",
+  "profileEditSnsFb": "URL ng Facebook",
+  "profileEditSnsX": "X (Twitter) URL",
+  "btnClose": "Isara",
+  "cardDetailAddFavorite": "Idinagdag sa Mga Paborito",
+  "cardDetailRemoveFavorite": "Inalis sa Mga Paborito",
+  "favoriteCardsTitle": "Mga Paboritong Card",
+  "favoriteCardsEmpty": "Wala pang paboritong card.",
+  "cardDetailDataNotReady": "Hindi pa handa ang detalyadong data ng interpretasyon.",
+  "cardDetailNoData": "Walang available na data.",
+  "buttonSaveReading": "I-save ang Pagbasa ng Tarot",
+  "readingSavedToDevice": "Na-save sa device."
 }

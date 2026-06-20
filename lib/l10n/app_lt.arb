@@ -385,8 +385,8 @@
   },
   "shopCancel": "Atšaukti",
   "shopPurchase": "Pirkimas",
-  "shopAlreadyOwned": "Jau priklauso. Pabandykite jį pritaikyti temos nustatymuose!",
-  "shopPurchaseSuccess": "{skinName} sėkmingai įsigytas! Patikrinkite temos nustatymus.",
+  "shopAlreadyOwned": "Jau priklauso. Pabandykite jį pritaikyti odos nustatymuose!",
+  "shopPurchaseSuccess": "{skinName} sėkmingai įsigytas! Patikrinkite odos nustatymus.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -420,7 +420,7 @@
   "myMenuPushNotifications": "Push pranešimai",
   "myMenuPushNotificationsDesc": "Nauji horoskopai ir įvykiai",
   "myMenuLanguageSettings": "Kalbos nustatymai",
-  "myMenuThemeSettings": "Temos nustatymai",
+  "myMenuThemeSettings": "Odos nustatymai",
   "myMenuChangeBackground": "Pakeiskite fono paveikslėlį",
   "myMenuSectionCustomerSupport": "Pagalba klientams",
   "myMenuFaq": "DUK",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Ištrinti paskyrą",
+  "myMenuDeleteAccountDesc": "Ištrinti mano paskyrą ir informaciją",
+  "myMenuDeleteAccountWarnTitle": "Įspėjimas apie paskyros ištrynimą",
+  "myMenuDeleteAccountWarnDesc": "Ištrynus paskyrą, visi išmaniajame telefone išsaugoti duomenys taip pat bus ištrinti. Ar norite tęsti?",
+  "myMenuDeleteAccountConfirm": "Ištrinti",
+  "myMenuDeleteAccountCancel": "Atšaukti",
+  "emailVerificationRequiredTitle": "Būtinas el. pašto patvirtinimas",
+  "emailVerificationRequiredDesc": "Turite patvirtinti savo el. paštą, kad galėtumėte naudotis pagrindinėmis funkcijomis, pvz., Taro skaitymu ir mokėjimais. Užbaikite patvirtinimą Mano meniu.",
+  "emailVerificationGoToMenu": "Eikite į Mano meniu",
+  "profileEditBio": "Biografija",
+  "profileEditSnsIntegration": "SNS integravimas (pasirinktinai)",
+  "profileEditSnsInsta": "„Instagram“ URL (arba ID)",
+  "profileEditSnsFb": "Facebook URL",
+  "profileEditSnsX": "X („Twitter“) URL",
+  "btnClose": "Uždaryti",
+  "cardDetailAddFavorite": "Pridėta prie mėgstamiausių",
+  "cardDetailRemoveFavorite": "Pašalinta iš mėgstamiausių",
+  "favoriteCardsTitle": "Mėgstamiausios kortelės",
+  "favoriteCardsEmpty": "Mėgstamiausių kortelių dar nėra.",
+  "cardDetailDataNotReady": "Išsamūs interpretavimo duomenys dar neparengti.",
+  "cardDetailNoData": "Nėra duomenų.",
+  "buttonSaveReading": "Išsaugokite Taro skaitymą",
+  "readingSavedToDevice": "Išsaugota įrenginyje."
 }

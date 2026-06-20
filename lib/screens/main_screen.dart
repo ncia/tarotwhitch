@@ -14,6 +14,7 @@ import 'package:flutter_tarot/l10n/app_localizations.dart';
 import '../services/audio_service.dart';
 import '../widgets/top_floating_icons.dart';
 import '../widgets/shared_bottom_nav_bar.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 final GlobalKey<MainScreenState> mainScreenKey = GlobalKey<MainScreenState>();
 
@@ -28,7 +29,40 @@ class MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
   int _currentIndex = 0;
   int get currentIndex => _currentIndex;
 
+  bool _checkEmailVerification() {
+    final user = FirebaseAuth.instance.currentUser;
+    if (user != null && !user.emailVerified) {
+      showDialog(
+        context: context,
+        builder: (ctx) => AlertDialog(
+          backgroundColor: Colors.deepPurple.shade900,
+          title: Text(AppLocalizations.of(context)!.emailVerificationRequiredTitle, style: const TextStyle(color: Colors.white)),
+          content: Text(
+            AppLocalizations.of(context)!.emailVerificationRequiredDesc,
+            style: const TextStyle(color: Colors.white70),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.pop(ctx);
+                setState(() {
+                  _currentIndex = 4;
+                });
+              },
+              child: Text(AppLocalizations.of(context)!.emailVerificationGoToMenu, style: const TextStyle(color: Colors.amberAccent)),
+            ),
+          ],
+        ),
+      );
+      return false;
+    }
+    return true;
+  }
+
   void switchTab(int index) {
+    if (index != 4) {
+      if (!_checkEmailVerification()) return;
+    }
     setState(() {
       _currentIndex = index;
     });
@@ -81,12 +115,14 @@ class MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
             child: SafeArea(
               child: TopFloatingIcons(
                 onShop: () {
+                  if (!_checkEmailVerification()) return;
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => const ShopScreen()),
                   );
                 },
                 onGrowth: () {
+                  if (!_checkEmailVerification()) return;
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => const GrowthScreen()),

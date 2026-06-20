@@ -4317,4 +4317,75 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'تامل';
+
+  @override
+  String get myMenuDeleteAccount => 'حذف اکانت';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'اکانت و اطلاعات من را حذف کنید';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'هشدار حذف اکانت';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'پس از حذف اکانت، تمامی داده های ذخیره شده در گوشی هوشمند شما نیز حذف خواهند شد. آیا می خواهید ادامه دهید؟';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'حذف کنید';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'لغو کنید';
+
+  @override
+  String get emailVerificationRequiredTitle => 'تایید ایمیل مورد نیاز است';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'برای استفاده از ویژگی های اصلی مانند خواندن تاروت و پرداخت، باید ایمیل خود را تأیید کنید. لطفاً تأیید را در منوی من تکمیل کنید.';
+
+  @override
+  String get emailVerificationGoToMenu => 'به منوی من بروید';
+
+  @override
+  String get profileEditBio => 'بیوگرافی';
+
+  @override
+  String get profileEditSnsIntegration => 'یکپارچه سازی SNS (اختیاری)';
+
+  @override
+  String get profileEditSnsInsta => 'آدرس اینستاگرام (یا آیدی)';
+
+  @override
+  String get profileEditSnsFb => 'آدرس فیس بوک';
+
+  @override
+  String get profileEditSnsX => 'آدرس اینترنتی X (توئیتر).';
+
+  @override
+  String get btnClose => 'بستن';
+
+  @override
+  String get cardDetailAddFavorite => 'به موارد دلخواه اضافه شد';
+
+  @override
+  String get cardDetailRemoveFavorite => 'از موارد دلخواه حذف شد';
+
+  @override
+  String get favoriteCardsTitle => 'کارت های مورد علاقه';
+
+  @override
+  String get favoriteCardsEmpty => 'هنوز کارت مورد علاقه ای وجود ندارد.';
+
+  @override
+  String get cardDetailDataNotReady => 'داده های تفسیر دقیق هنوز آماده نیست.';
+
+  @override
+  String get cardDetailNoData => 'هیچ داده ای در دسترس نیست.';
+
+  @override
+  String get buttonSaveReading => 'خواندن تاروت را ذخیره کنید';
+
+  @override
+  String get readingSavedToDevice => 'در دستگاه ذخیره شد.';
 }

@@ -385,8 +385,8 @@
   },
   "shopCancel": "Peruuttaa",
   "shopPurchase": "Ostaa",
-  "shopAlreadyOwned": "Jo omistettu. Kokeile ottaa se käyttöön teemaasetuksissa!",
-  "shopPurchaseSuccess": "{skinName} ostettu onnistuneesti! Tarkista teemaasetukset.",
+  "shopAlreadyOwned": "Jo omistettu. Kokeile levittää sitä ihoasetuksiin!",
+  "shopPurchaseSuccess": "{skinName} ostettu onnistuneesti! Tarkista ihon asetukset.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -420,7 +420,7 @@
   "myMenuPushNotifications": "Push-ilmoitukset",
   "myMenuPushNotificationsDesc": "Uusia horoskooppeja ja tapahtumia",
   "myMenuLanguageSettings": "Kieliasetukset",
-  "myMenuThemeSettings": "Teeman asetukset",
+  "myMenuThemeSettings": "Ihon asetukset",
   "myMenuChangeBackground": "Vaihda taustakuvaa",
   "myMenuSectionCustomerSupport": "Asiakastuki",
   "myMenuFaq": "Usein kysytyt kysymykset (UKK)",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Poista tili",
+  "myMenuDeleteAccountDesc": "Poista tilini ja tietoni",
+  "myMenuDeleteAccountWarnTitle": "Varoitus tilin poistamisesta",
+  "myMenuDeleteAccountWarnDesc": "Kun poistat tilisi, myös kaikki älypuhelimeesi tallennetut tiedot poistetaan. Haluatko jatkaa?",
+  "myMenuDeleteAccountConfirm": "Poistaa",
+  "myMenuDeleteAccountCancel": "Peruuttaa",
+  "emailVerificationRequiredTitle": "Sähköpostivahvistus vaaditaan",
+  "emailVerificationRequiredDesc": "Sinun on vahvistettava sähköpostiosoitteesi, jotta voit käyttää pääominaisuuksia, kuten Tarot-lukemista ja maksuja. Suorita vahvistus Omassa valikossa.",
+  "emailVerificationGoToMenu": "Siirry kohtaan Oma valikko",
+  "profileEditBio": "Bio",
+  "profileEditSnsIntegration": "SNS-integrointi (valinnainen)",
+  "profileEditSnsInsta": "Instagramin URL-osoite (tai tunnus)",
+  "profileEditSnsFb": "Facebookin URL-osoite",
+  "profileEditSnsX": "X (Twitter) URL-osoite",
+  "btnClose": "Lähellä",
+  "cardDetailAddFavorite": "Lisätty suosikkeihin",
+  "cardDetailRemoveFavorite": "Poistettu suosikeista",
+  "favoriteCardsTitle": "Suosikkikortit",
+  "favoriteCardsEmpty": "Ei vielä suosikkikortteja.",
+  "cardDetailDataNotReady": "Yksityiskohtaiset tulkintatiedot eivät ole vielä valmiita.",
+  "cardDetailNoData": "Tietoja ei ole saatavilla.",
+  "buttonSaveReading": "Tallenna Tarot-lukeminen",
+  "readingSavedToDevice": "Tallennettu laitteelle."
 }

@@ -385,8 +385,8 @@
   },
   "shopCancel": "Cancelar",
   "shopPurchase": "Comprar",
-  "shopAlreadyOwned": "Já possuído. Tente aplicá-lo nas configurações do tema!",
-  "shopPurchaseSuccess": "{skinName} comprado com sucesso! Verifique as configurações do tema.",
+  "shopAlreadyOwned": "Já possuído. Experimente aplicá-lo nas configurações da pele!",
+  "shopPurchaseSuccess": "{skinName} comprado com sucesso! Verifique as configurações da pele.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -422,7 +422,7 @@
   "myMenuPushNotifications": "Notificações push",
   "myMenuPushNotificationsDesc": "Novos horóscopos e eventos",
   "myMenuLanguageSettings": "Configurações de idioma",
-  "myMenuThemeSettings": "Configurações de tema",
+  "myMenuThemeSettings": "Configurações de pele",
   "myMenuChangeBackground": "Alterar imagem de fundo",
   "myMenuSectionCustomerSupport": "Suporte ao Cliente",
   "myMenuFaq": "Perguntas frequentes",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Excluir conta",
+  "myMenuDeleteAccountDesc": "Excluir minha conta e informações",
+  "myMenuDeleteAccountWarnTitle": "Aviso de exclusão de conta",
+  "myMenuDeleteAccountWarnDesc": "Ao excluir sua conta, todos os dados salvos em seu smartphone também serão excluídos. Você deseja continuar?",
+  "myMenuDeleteAccountConfirm": "Excluir",
+  "myMenuDeleteAccountCancel": "Cancelar",
+  "emailVerificationRequiredTitle": "Verificação de e-mail necessária",
+  "emailVerificationRequiredDesc": "Você precisa verificar seu e-mail para usar os principais recursos, como leitura de tarô e pagamentos. Por favor, complete a verificação em Meu Menu.",
+  "emailVerificationGoToMenu": "Vá para Meu Menu",
+  "profileEditBio": "Biografia",
+  "profileEditSnsIntegration": "Integração SNS (opcional)",
+  "profileEditSnsInsta": "URL do Instagram (ou ID)",
+  "profileEditSnsFb": "URL do Facebook",
+  "profileEditSnsX": "URL X (Twitter)",
+  "btnClose": "Fechar",
+  "cardDetailAddFavorite": "Adicionado aos Favoritos",
+  "cardDetailRemoveFavorite": "Removido dos Favoritos",
+  "favoriteCardsTitle": "Cartões favoritos",
+  "favoriteCardsEmpty": "Ainda não há cartas favoritas.",
+  "cardDetailDataNotReady": "Os dados detalhados de interpretação ainda não estão prontos.",
+  "cardDetailNoData": "Não há dados disponíveis.",
+  "buttonSaveReading": "Salvar leitura de tarô",
+  "readingSavedToDevice": "Salvo no dispositivo."
 }

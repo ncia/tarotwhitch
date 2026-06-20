@@ -4351,4 +4351,75 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Refleksi Diri';
+
+  @override
+  String get myMenuDeleteAccount => 'Hapus Akun';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Hapus akun dan informasi saya';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Peringatan Penghapusan Akun';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Setelah menghapus akun Anda, semua data yang tersimpan di ponsel cerdas Anda juga akan terhapus. Apakah Anda ingin melanjutkan?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Menghapus';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Membatalkan';
+
+  @override
+  String get emailVerificationRequiredTitle => 'Verifikasi Email Diperlukan';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Anda perlu memverifikasi email Anda untuk menggunakan fitur utama seperti pembacaan Tarot dan pembayaran. Silakan selesaikan verifikasi di Menu Saya.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Buka Menu Saya';
+
+  @override
+  String get profileEditBio => 'Biografi';
+
+  @override
+  String get profileEditSnsIntegration => 'Integrasi SNS (Opsional)';
+
+  @override
+  String get profileEditSnsInsta => 'URL Instagram (atau ID)';
+
+  @override
+  String get profileEditSnsFb => 'URL Facebook';
+
+  @override
+  String get profileEditSnsX => 'URL X (Twitter).';
+
+  @override
+  String get btnClose => 'Menutup';
+
+  @override
+  String get cardDetailAddFavorite => 'Ditambahkan ke Favorit';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Dihapus dari Favorit';
+
+  @override
+  String get favoriteCardsTitle => 'Kartu Favorit';
+
+  @override
+  String get favoriteCardsEmpty => 'Belum ada kartu favorit.';
+
+  @override
+  String get cardDetailDataNotReady => 'Data interpretasi rinci belum siap.';
+
+  @override
+  String get cardDetailNoData => 'Tidak ada data yang tersedia.';
+
+  @override
+  String get buttonSaveReading => 'Simpan Bacaan Tarot';
+
+  @override
+  String get readingSavedToDevice => 'Disimpan ke perangkat.';
 }

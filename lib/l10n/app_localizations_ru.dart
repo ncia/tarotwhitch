@@ -4360,4 +4360,80 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Самоанализ';
+
+  @override
+  String get myMenuDeleteAccount => 'Удалить аккаунт';
+
+  @override
+  String get myMenuDeleteAccountDesc =>
+      'Удалить мою учетную запись и информацию';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle =>
+      'Предупреждение об удалении учетной записи';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'При удалении вашей учетной записи все данные, сохраненные на вашем смартфоне, также будут удалены. Хотите продолжить?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Удалить';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Отмена';
+
+  @override
+  String get emailVerificationRequiredTitle =>
+      'Требуется подтверждение электронной почты';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Вам необходимо подтвердить свой адрес электронной почты, чтобы использовать основные функции, такие как чтение Таро и платежи. Пожалуйста, завершите проверку в Моем меню.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Перейти в Мое Меню';
+
+  @override
+  String get profileEditBio => 'Био';
+
+  @override
+  String get profileEditSnsIntegration =>
+      'Интеграция с социальными сетями (опционально)';
+
+  @override
+  String get profileEditSnsInsta => 'URL-адрес Instagram (или идентификатор)';
+
+  @override
+  String get profileEditSnsFb => 'URL-адрес Facebook';
+
+  @override
+  String get profileEditSnsX => 'X (Твиттер) URL';
+
+  @override
+  String get btnClose => 'Закрывать';
+
+  @override
+  String get cardDetailAddFavorite => 'Добавлено в избранное';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Удалено из избранного';
+
+  @override
+  String get favoriteCardsTitle => 'Любимые карты';
+
+  @override
+  String get favoriteCardsEmpty => 'Любимых карт пока нет.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Подробные данные интерпретации еще не готовы.';
+
+  @override
+  String get cardDetailNoData => 'Данные отсутствуют.';
+
+  @override
+  String get buttonSaveReading => 'Сохранить чтение Таро';
+
+  @override
+  String get readingSavedToDevice => 'Сохранено на устройстве.';
 }

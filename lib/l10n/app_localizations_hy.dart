@@ -4358,4 +4358,76 @@ class AppLocalizationsHy extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Ինքնաքննություն';
+
+  @override
+  String get myMenuDeleteAccount => 'Ջնջել հաշիվը';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Ջնջել իմ հաշիվը և տեղեկությունները';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Հաշվի ջնջման նախազգուշացում';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Ձեր հաշիվը ջնջելուց հետո ձեր սմարթֆոնում պահված բոլոր տվյալները նույնպես կջնջվեն: Ցանկանու՞մ եք շարունակել։';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Ջնջել';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Չեղարկել';
+
+  @override
+  String get emailVerificationRequiredTitle => 'Պահանջվում է էլփոստի հաստատում';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Դուք պետք է հաստատեք ձեր էլ.փոստը, որպեսզի օգտագործեք հիմնական գործառույթները, ինչպիսիք են Tarot ընթերցումը և վճարումները: Խնդրում ենք լրացնել ստուգումը Իմ ընտրացանկում:';
+
+  @override
+  String get emailVerificationGoToMenu => 'Գնացեք Իմ ընտրացանկ';
+
+  @override
+  String get profileEditBio => 'Կենսագրություն';
+
+  @override
+  String get profileEditSnsIntegration => 'SNS ինտեգրում (ըստ ցանկության)';
+
+  @override
+  String get profileEditSnsInsta => 'Instagram URL (կամ ID)';
+
+  @override
+  String get profileEditSnsFb => 'Facebook URL';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) URL';
+
+  @override
+  String get btnClose => 'Փակել';
+
+  @override
+  String get cardDetailAddFavorite => 'Ավելացվեց ընտրյալների մեջ';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Հեռացված է ընտրյալներից';
+
+  @override
+  String get favoriteCardsTitle => 'Սիրված քարտեր';
+
+  @override
+  String get favoriteCardsEmpty => 'Սիրված քարտեր դեռ չկան:';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Մանրամասն մեկնաբանության տվյալները դեռ պատրաստ չեն:';
+
+  @override
+  String get cardDetailNoData => 'Տվյալներ չկան:';
+
+  @override
+  String get buttonSaveReading => 'Պահպանեք Tarot ընթերցանությունը';
+
+  @override
+  String get readingSavedToDevice => 'Պահված է սարքում:';
 }

@@ -4363,4 +4363,78 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Reflexión';
+
+  @override
+  String get myMenuDeleteAccount => 'Eliminar cuenta';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Eliminar mi cuenta e información';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle =>
+      'Advertencia de eliminación de cuenta';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Al eliminar su cuenta, también se eliminarán todos los datos guardados en su teléfono inteligente. ¿Quieres continuar?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Borrar';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Cancelar';
+
+  @override
+  String get emailVerificationRequiredTitle =>
+      'Se requiere verificación de correo electrónico';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Debe verificar su correo electrónico para utilizar funciones principales como lectura de Tarot y pagos. Por favor complete la verificación en Mi Menú.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Ir a mi menú';
+
+  @override
+  String get profileEditBio => 'Biografía';
+
+  @override
+  String get profileEditSnsIntegration => 'Integración SNS (opcional)';
+
+  @override
+  String get profileEditSnsInsta => 'URL (o ID) de Instagram';
+
+  @override
+  String get profileEditSnsFb => 'URL de Facebook';
+
+  @override
+  String get profileEditSnsX => 'URL X (Twitter)';
+
+  @override
+  String get btnClose => 'Cerca';
+
+  @override
+  String get cardDetailAddFavorite => 'Agregado a favoritos';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Eliminado de favoritos';
+
+  @override
+  String get favoriteCardsTitle => 'Tarjetas favoritas';
+
+  @override
+  String get favoriteCardsEmpty => 'Aún no hay cartas favoritas.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Los datos de interpretación detallados aún no están listos.';
+
+  @override
+  String get cardDetailNoData => 'No hay datos disponibles.';
+
+  @override
+  String get buttonSaveReading => 'Guardar lectura de tarot';
+
+  @override
+  String get readingSavedToDevice => 'Guardado en el dispositivo.';
 }

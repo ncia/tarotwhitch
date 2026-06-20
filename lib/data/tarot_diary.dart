@@ -129,6 +129,7 @@ class TarotDiary extends HiveObject {
       'followUpDate':
           followUpDate != null ? Timestamp.fromDate(followUpDate!) : null,
       'isPublic': isPublic,
+      'expireAt': Timestamp.fromDate(DateTime.now().add(const Duration(days: 365 * 3))),
     };
   }
 

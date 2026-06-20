@@ -4352,4 +4352,78 @@ class AppLocalizationsBg extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Самоанализ';
+
+  @override
+  String get myMenuDeleteAccount => 'Изтриване на акаунт';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Изтрий моя акаунт и информация';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle =>
+      'Предупреждение за изтриване на акаунт';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'При изтриване на вашия акаунт всички данни, записани на вашия смартфон, също ще бъдат изтрити. Искате ли да продължите?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Изтриване';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Отказ';
+
+  @override
+  String get emailVerificationRequiredTitle =>
+      'Изисква се потвърждение на имейл';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Трябва да потвърдите своя имейл, за да използвате основни функции като четене на Таро и плащания. Моля, завършете проверката в Моето меню.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Отидете на Моето меню';
+
+  @override
+  String get profileEditBio => 'био';
+
+  @override
+  String get profileEditSnsIntegration => 'Интегриране на SNS (по избор)';
+
+  @override
+  String get profileEditSnsInsta => 'URL адрес на Instagram (или ID)';
+
+  @override
+  String get profileEditSnsFb => 'URL във Facebook';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) URL';
+
+  @override
+  String get btnClose => 'затвори';
+
+  @override
+  String get cardDetailAddFavorite => 'Добавено към любими';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Премахнато от Любими';
+
+  @override
+  String get favoriteCardsTitle => 'Любими карти';
+
+  @override
+  String get favoriteCardsEmpty => 'Все още няма любими карти.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Подробните данни за тълкуване все още не са готови.';
+
+  @override
+  String get cardDetailNoData => 'Няма налични данни.';
+
+  @override
+  String get buttonSaveReading => 'Запазете четенето на Таро';
+
+  @override
+  String get readingSavedToDevice => 'Запазено в устройството.';
 }

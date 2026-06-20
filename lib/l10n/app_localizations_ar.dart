@@ -4254,4 +4254,77 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'تأمل ذاتي';
+
+  @override
+  String get myMenuDeleteAccount => 'حذف الحساب';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'حذف حسابي والمعلومات';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'تحذير بشأن حذف الحساب';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'عند حذف حسابك، سيتم أيضًا حذف جميع البيانات المحفوظة على هاتفك الذكي. هل ترغب في الاستمرار؟';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'يمسح';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'يلغي';
+
+  @override
+  String get emailVerificationRequiredTitle =>
+      'التحقق من البريد الإلكتروني مطلوب';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'تحتاج إلى التحقق من بريدك الإلكتروني لاستخدام الميزات الرئيسية مثل قراءة التاروت والمدفوعات. يرجى إكمال عملية التحقق في قائمتي.';
+
+  @override
+  String get emailVerificationGoToMenu => 'اذهب إلى القائمة الخاصة بي';
+
+  @override
+  String get profileEditBio => 'السيرة الذاتية';
+
+  @override
+  String get profileEditSnsIntegration => 'تكامل SNS (اختياري)';
+
+  @override
+  String get profileEditSnsInsta => 'عنوان URL لـ Instagram (أو المعرف)';
+
+  @override
+  String get profileEditSnsFb => 'رابط الفيسبوك';
+
+  @override
+  String get profileEditSnsX => 'عنوان URL X (تويتر).';
+
+  @override
+  String get btnClose => 'يغلق';
+
+  @override
+  String get cardDetailAddFavorite => 'تمت الإضافة إلى المفضلة';
+
+  @override
+  String get cardDetailRemoveFavorite => 'تمت الإزالة من المفضلة';
+
+  @override
+  String get favoriteCardsTitle => 'البطاقات المفضلة';
+
+  @override
+  String get favoriteCardsEmpty => 'لا توجد بطاقات مفضلة حتى الآن.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'بيانات التفسير التفصيلية ليست جاهزة بعد.';
+
+  @override
+  String get cardDetailNoData => 'لا توجد بيانات متاحة.';
+
+  @override
+  String get buttonSaveReading => 'حفظ قراءة التارو';
+
+  @override
+  String get readingSavedToDevice => 'تم الحفظ على الجهاز.';
 }

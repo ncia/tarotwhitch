@@ -4353,4 +4353,78 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Savirefleksija';
+
+  @override
+  String get myMenuDeleteAccount => 'Ištrinti paskyrą';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Ištrinti mano paskyrą ir informaciją';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle =>
+      'Įspėjimas apie paskyros ištrynimą';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Ištrynus paskyrą, visi išmaniajame telefone išsaugoti duomenys taip pat bus ištrinti. Ar norite tęsti?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Ištrinti';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Atšaukti';
+
+  @override
+  String get emailVerificationRequiredTitle =>
+      'Būtinas el. pašto patvirtinimas';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Turite patvirtinti savo el. paštą, kad galėtumėte naudotis pagrindinėmis funkcijomis, pvz., Taro skaitymu ir mokėjimais. Užbaikite patvirtinimą Mano meniu.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Eikite į Mano meniu';
+
+  @override
+  String get profileEditBio => 'Biografija';
+
+  @override
+  String get profileEditSnsIntegration => 'SNS integravimas (pasirinktinai)';
+
+  @override
+  String get profileEditSnsInsta => '„Instagram“ URL (arba ID)';
+
+  @override
+  String get profileEditSnsFb => 'Facebook URL';
+
+  @override
+  String get profileEditSnsX => 'X („Twitter“) URL';
+
+  @override
+  String get btnClose => 'Uždaryti';
+
+  @override
+  String get cardDetailAddFavorite => 'Pridėta prie mėgstamiausių';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Pašalinta iš mėgstamiausių';
+
+  @override
+  String get favoriteCardsTitle => 'Mėgstamiausios kortelės';
+
+  @override
+  String get favoriteCardsEmpty => 'Mėgstamiausių kortelių dar nėra.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Išsamūs interpretavimo duomenys dar neparengti.';
+
+  @override
+  String get cardDetailNoData => 'Nėra duomenų.';
+
+  @override
+  String get buttonSaveReading => 'Išsaugokite Taro skaitymą';
+
+  @override
+  String get readingSavedToDevice => 'Išsaugota įrenginyje.';
 }

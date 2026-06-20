@@ -4357,4 +4357,76 @@ class AppLocalizationsSk extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Sebareflexia';
+
+  @override
+  String get myMenuDeleteAccount => 'Odstrániť účet';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Odstrániť môj účet a informácie';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Upozornenie na vymazanie účtu';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Po odstránení účtu sa vymažú aj všetky údaje uložené vo vašom smartfóne. Chcete pokračovať?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Odstrániť';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Zrušiť';
+
+  @override
+  String get emailVerificationRequiredTitle => 'Vyžaduje sa overenie e-mailom';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Ak chcete používať hlavné funkcie, ako je čítanie tarotov a platby, musíte si overiť svoj e-mail. Dokončite overenie v časti Moje menu.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Prejdite do Moje menu';
+
+  @override
+  String get profileEditBio => 'Bio';
+
+  @override
+  String get profileEditSnsIntegration => 'Integrácia SNS (voliteľné)';
+
+  @override
+  String get profileEditSnsInsta => 'Adresa URL Instagramu (alebo ID)';
+
+  @override
+  String get profileEditSnsFb => 'Facebook URL';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) URL';
+
+  @override
+  String get btnClose => 'Zavrieť';
+
+  @override
+  String get cardDetailAddFavorite => 'Pridané medzi obľúbené';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Odstránené z obľúbených';
+
+  @override
+  String get favoriteCardsTitle => 'Obľúbené karty';
+
+  @override
+  String get favoriteCardsEmpty => 'Zatiaľ žiadne obľúbené karty.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Podrobné interpretačné údaje ešte nie sú pripravené.';
+
+  @override
+  String get cardDetailNoData => 'Nie sú k dispozícii žiadne údaje.';
+
+  @override
+  String get buttonSaveReading => 'Uložiť čítanie tarotu';
+
+  @override
+  String get readingSavedToDevice => 'Uložené do zariadenia.';
 }

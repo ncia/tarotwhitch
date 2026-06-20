@@ -385,8 +385,8 @@
   },
   "shopCancel": "取消",
   "shopPurchase": "购买",
-  "shopAlreadyOwned": "您已拥有此主题。请在主题设置中应用！",
-  "shopPurchaseSuccess": "{skinName}购买成功！请在主题设置中查看。",
+  "shopAlreadyOwned": "已经拥有了。尝试在皮肤设置中应用它！",
+  "shopPurchaseSuccess": "{skinName}购买成功！检查皮肤设置。",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -422,7 +422,7 @@
   "myMenuPushNotifications": "接收推送通知",
   "myMenuPushNotificationsDesc": "新运势及活动通知",
   "myMenuLanguageSettings": "语言设置",
-  "myMenuThemeSettings": "主题设置",
+  "myMenuThemeSettings": "皮肤设置",
   "myMenuChangeBackground": "更改背景图片",
   "myMenuSectionCustomerSupport": "客户支持",
   "myMenuFaq": "常见问题 (FAQ)",
@@ -1462,5 +1462,28 @@
         "type": "int"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "删除帐户",
+  "myMenuDeleteAccountDesc": "删除我的帐户和信息",
+  "myMenuDeleteAccountWarnTitle": "帐户删除警告",
+  "myMenuDeleteAccountWarnDesc": "删除您的帐户后，智能手机上保存的所有数据也将被删除。您想继续吗？",
+  "myMenuDeleteAccountConfirm": "删除",
+  "myMenuDeleteAccountCancel": "取消",
+  "emailVerificationRequiredTitle": "需要验证电子邮件",
+  "emailVerificationRequiredDesc": "您需要验证您的电子邮件才能使用塔罗牌占卜和付款等主要功能。请在我的菜单中完成验证。",
+  "emailVerificationGoToMenu": "前往我的菜单",
+  "profileEditBio": "简介",
+  "profileEditSnsIntegration": "SNS 集成（可选）",
+  "profileEditSnsInsta": "Instagram 网址（或 ID）",
+  "profileEditSnsFb": "脸书网址",
+  "profileEditSnsX": "X（推特）网址",
+  "btnClose": "关闭",
+  "cardDetailAddFavorite": "已添加至收藏夹",
+  "cardDetailRemoveFavorite": "从收藏夹中删除",
+  "favoriteCardsTitle": "最喜欢的卡片",
+  "favoriteCardsEmpty": "还没有最喜欢的卡片。",
+  "cardDetailDataNotReady": "详细的解释数据尚未准备好。",
+  "cardDetailNoData": "无可用数据。",
+  "buttonSaveReading": "保存塔罗占卜",
+  "readingSavedToDevice": "保存到设备。"
 }

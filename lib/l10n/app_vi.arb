@@ -385,8 +385,8 @@
   },
   "shopCancel": "Hủy bỏ",
   "shopPurchase": "Mua",
-  "shopAlreadyOwned": "Đã sở hữu rồi. Hãy thử áp dụng nó trong cài đặt chủ đề!",
-  "shopPurchaseSuccess": "{skinName} đã mua thành công! Kiểm tra cài đặt chủ đề.",
+  "shopAlreadyOwned": "Đã sở hữu rồi. Hãy thử áp dụng nó trong cài đặt da!",
+  "shopPurchaseSuccess": "{skinName} đã mua thành công! Kiểm tra cài đặt da.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -422,7 +422,7 @@
   "myMenuPushNotifications": "Thông báo đẩy",
   "myMenuPushNotificationsDesc": "Tử vi và sự kiện mới",
   "myMenuLanguageSettings": "Cài đặt ngôn ngữ",
-  "myMenuThemeSettings": "Cài đặt chủ đề",
+  "myMenuThemeSettings": "Cài đặt da",
   "myMenuChangeBackground": "Thay đổi hình nền",
   "myMenuSectionCustomerSupport": "Hỗ trợ khách hàng",
   "myMenuFaq": "Câu hỏi thường gặp",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Xóa tài khoản",
+  "myMenuDeleteAccountDesc": "Xóa tài khoản và thông tin của tôi",
+  "myMenuDeleteAccountWarnTitle": "Cảnh báo xóa tài khoản",
+  "myMenuDeleteAccountWarnDesc": "Sau khi xóa tài khoản của bạn, tất cả dữ liệu được lưu trên điện thoại thông minh của bạn cũng sẽ bị xóa. Bạn có muốn tiếp tục không?",
+  "myMenuDeleteAccountConfirm": "Xóa bỏ",
+  "myMenuDeleteAccountCancel": "Hủy bỏ",
+  "emailVerificationRequiredTitle": "Yêu cầu xác minh email",
+  "emailVerificationRequiredDesc": "Bạn cần xác minh email của mình để sử dụng các tính năng chính như đọc Tarot và thanh toán. Vui lòng hoàn tất xác minh trong Menu của tôi.",
+  "emailVerificationGoToMenu": "Đi tới Menu của tôi",
+  "profileEditBio": "Tiểu sử",
+  "profileEditSnsIntegration": "Tích hợp SNS (Tùy chọn)",
+  "profileEditSnsInsta": "URL Instagram (hoặc ID)",
+  "profileEditSnsFb": "URL Facebook",
+  "profileEditSnsX": "URL X (Twitter)",
+  "btnClose": "Đóng",
+  "cardDetailAddFavorite": "Đã thêm vào mục yêu thích",
+  "cardDetailRemoveFavorite": "Đã xóa khỏi Mục yêu thích",
+  "favoriteCardsTitle": "Thẻ yêu thích",
+  "favoriteCardsEmpty": "Chưa có thẻ yêu thích nào.",
+  "cardDetailDataNotReady": "Dữ liệu diễn giải chi tiết vẫn chưa sẵn sàng.",
+  "cardDetailNoData": "Không có dữ liệu có sẵn.",
+  "buttonSaveReading": "Lưu Đọc Tarot",
+  "readingSavedToDevice": "Đã lưu vào thiết bị."
 }

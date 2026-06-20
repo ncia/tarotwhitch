@@ -4341,4 +4341,76 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'आत्म-चिंतन';
+
+  @override
+  String get myMenuDeleteAccount => 'खाता हटा दो';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'मेरा खाता और जानकारी हटा दें';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'खाता हटाने की चेतावनी';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'आपका अकाउंट डिलीट करने पर आपके स्मार्टफोन पर सेव सारा डेटा भी डिलीट हो जाएगा। क्या आप जारी रखना चाहते हैं?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'मिटाना';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'रद्द करना';
+
+  @override
+  String get emailVerificationRequiredTitle => 'ईमेल सत्यापन आवश्यक है';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'टैरो रीडिंग और भुगतान जैसी मुख्य सुविधाओं का उपयोग करने के लिए आपको अपना ईमेल सत्यापित करना होगा। कृपया माई मेनू में सत्यापन पूरा करें।';
+
+  @override
+  String get emailVerificationGoToMenu => 'मेरे मेनू पर जाएँ';
+
+  @override
+  String get profileEditBio => 'जैव';
+
+  @override
+  String get profileEditSnsIntegration => 'एसएनएस एकीकरण (वैकल्पिक)';
+
+  @override
+  String get profileEditSnsInsta => 'इंस्टाग्राम यूआरएल (या आईडी)';
+
+  @override
+  String get profileEditSnsFb => 'फेसबुक यूआरएल';
+
+  @override
+  String get profileEditSnsX => 'एक्स (ट्विटर) यूआरएल';
+
+  @override
+  String get btnClose => 'बंद करना';
+
+  @override
+  String get cardDetailAddFavorite => 'पसंदीदा में जोड़ा गया';
+
+  @override
+  String get cardDetailRemoveFavorite => 'पसंदीदा से हटाया गया';
+
+  @override
+  String get favoriteCardsTitle => 'पसंदीदा कार्ड';
+
+  @override
+  String get favoriteCardsEmpty => 'अभी तक कोई पसंदीदा कार्ड नहीं.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'विस्तृत व्याख्या डेटा अभी तैयार नहीं है.';
+
+  @override
+  String get cardDetailNoData => 'कोई डेटा मौजूद नहीं।';
+
+  @override
+  String get buttonSaveReading => 'टैरो रीडिंग सहेजें';
+
+  @override
+  String get readingSavedToDevice => 'डिवाइस में सहेजा गया.';
 }

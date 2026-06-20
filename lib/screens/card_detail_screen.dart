@@ -9,6 +9,7 @@ import '../widgets/top_floating_icons.dart';
 import '../widgets/shared_bottom_nav_bar.dart';
 import 'main_screen.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
+import '../services/favorite_service.dart';
 class CardDetailScreen extends StatefulWidget {
   final TarotCardData card;
   final bool initialIsReversed;
@@ -30,11 +31,40 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
   bool _isLoading = true;
   String? _error;
   int _currentTabIndex = 0;
+  bool _isFavorite = false;
 
   @override
   void initState() {
     super.initState();
     _currentTabIndex = widget.initialIsReversed ? 1 : 0;
+    _checkFavorite();
+  }
+
+  Future<void> _checkFavorite() async {
+    final isFav = await FavoriteService.isFavorite(widget.card.id);
+    if (mounted) {
+      setState(() {
+        _isFavorite = isFav;
+      });
+    }
+  }
+
+  Future<void> _toggleFavorite() async {
+    final isNowFav = await FavoriteService.toggleFavorite(widget.card.id);
+    if (mounted) {
+      setState(() {
+        _isFavorite = isNowFav;
+      });
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(isNowFav 
+            ? AppLocalizations.of(context)!.cardDetailAddFavorite 
+            : AppLocalizations.of(context)!.cardDetailRemoveFavorite),
+          duration: const Duration(seconds: 2),
+          backgroundColor: Colors.deepPurple.shade900,
+        ),
+      );
+    }
   }
 
   @override
@@ -63,7 +93,7 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
         });
       } else {
         setState(() {
-          _error = '상세 해석 데이터가 아직 준비되지 않았습니다.';
+          _error = AppLocalizations.of(context)!.cardDetailDataNotReady;
           _isLoading = false;
         });
       }
@@ -89,6 +119,19 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
               title: Text(widget.card.name),
               backgroundColor: Colors.transparent,
               elevation: 0,
+              actions: [
+                Padding(
+                  padding: const EdgeInsets.only(right: 16.0),
+                  child: IconButton(
+                    splashRadius: 24, // 스플래시 반경을 명시하여 클릭 효과의 크기를 고정
+                    icon: Icon(
+                      _isFavorite ? Icons.star : Icons.star_border,
+                      color: _isFavorite ? Colors.amberAccent : Colors.white,
+                    ),
+                    onPressed: _toggleFavorite,
+                  ),
+                ),
+              ],
             ),
           ],
         ),
@@ -185,10 +228,10 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
             ),
       ),
       bottomNavigationBar: SharedBottomNavBar(
-        currentIndex: 3,
+        currentIndex: mainScreenKey.currentState?.currentIndex ?? 0,
         onTap: (index) {
-          mainScreenKey.currentState?.switchTab(index);
           Navigator.popUntil(context, (route) => route.isFirst);
+          mainScreenKey.currentState?.switchTab(index);
         },
       ),
     );
@@ -199,7 +242,7 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
       return Center(child: Text(_error!, style: const TextStyle(color: Colors.white)));
     }
     if (detail == null) {
-      return const Center(child: Text('데이터가 없습니다.', style: TextStyle(color: Colors.white)));
+      return Center(child: Text(AppLocalizations.of(context)!.cardDetailNoData, style: const TextStyle(color: Colors.white)));
     }
 
     return Padding(

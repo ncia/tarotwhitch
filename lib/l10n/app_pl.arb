@@ -385,8 +385,8 @@
   },
   "shopCancel": "Anulować",
   "shopPurchase": "Zakup",
-  "shopAlreadyOwned": "Już posiadany. Spróbuj zastosować go w ustawieniach motywu!",
-  "shopPurchaseSuccess": "{skinName} zakupił pomyślnie! Sprawdź ustawienia motywu.",
+  "shopAlreadyOwned": "Już posiadane. Spróbuj zastosować go w ustawieniach skóry!",
+  "shopPurchaseSuccess": "Produkt {skinName} zakupił pomyślnie! Sprawdź ustawienia skórki.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -422,7 +422,7 @@
   "myMenuPushNotifications": "Powiadomienia push",
   "myMenuPushNotificationsDesc": "Nowe horoskopy i wydarzenia",
   "myMenuLanguageSettings": "Ustawienia językowe",
-  "myMenuThemeSettings": "Ustawienia motywu",
+  "myMenuThemeSettings": "Ustawienia skórki",
   "myMenuChangeBackground": "Zmień obraz tła",
   "myMenuSectionCustomerSupport": "Obsługa klienta",
   "myMenuFaq": "Często zadawane pytania",
@@ -1449,5 +1449,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Usuń konto",
+  "myMenuDeleteAccountDesc": "Usuń moje konto i informacje",
+  "myMenuDeleteAccountWarnTitle": "Ostrzeżenie o usunięciu konta",
+  "myMenuDeleteAccountWarnDesc": "Po usunięciu konta wszystkie dane zapisane na Twoim smartfonie również zostaną usunięte. Czy chcesz kontynuować?",
+  "myMenuDeleteAccountConfirm": "Usuwać",
+  "myMenuDeleteAccountCancel": "Anulować",
+  "emailVerificationRequiredTitle": "Wymagana weryfikacja adresu e-mail",
+  "emailVerificationRequiredDesc": "Aby korzystać z głównych funkcji, takich jak czytanie Tarota i płatności, musisz zweryfikować swój adres e-mail. Dokończ weryfikację w Moim Menu.",
+  "emailVerificationGoToMenu": "Przejdź do Mojego menu",
+  "profileEditBio": "Życiorys",
+  "profileEditSnsIntegration": "Integracja z SNS (opcjonalnie)",
+  "profileEditSnsInsta": "Adres URL (lub identyfikator) na Instagramie",
+  "profileEditSnsFb": "Adres URL Facebooka",
+  "profileEditSnsX": "Adres URL X (Twitter).",
+  "btnClose": "Zamknąć",
+  "cardDetailAddFavorite": "Dodano do ulubionych",
+  "cardDetailRemoveFavorite": "Usunięto z Ulubionych",
+  "favoriteCardsTitle": "Ulubione karty",
+  "favoriteCardsEmpty": "Nie ma jeszcze ulubionych kart.",
+  "cardDetailDataNotReady": "Szczegółowe dane interpretacyjne nie są jeszcze gotowe.",
+  "cardDetailNoData": "Brak dostępnych danych.",
+  "buttonSaveReading": "Zapisz czytanie Tarota",
+  "readingSavedToDevice": "Zapisano na urządzeniu."
 }

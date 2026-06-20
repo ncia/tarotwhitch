@@ -14,8 +14,10 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import '../widgets/profile_edit_dialog.dart';
 import 'main_screen.dart';
 import 'theme_selection_screen.dart';
+import 'theme_selection_screen.dart';
 import 'language_selection_screen.dart';
 import '../services/language_manager.dart';
+import 'favorite_cards_screen.dart';
 
 class MyMenuScreen extends StatelessWidget {
   const MyMenuScreen({super.key});
@@ -113,12 +115,20 @@ class MyMenuScreen extends StatelessWidget {
               bool isCustomNickname = true;
               int? prefixIndex;
               int? suffixIndex;
+              String? instagramUrl;
+              String? facebookUrl;
+              String? xUrl;
+              String? bio;
 
               if (docSnapshot.hasData && docSnapshot.data!.exists) {
                 final data = docSnapshot.data!.data() as Map<String, dynamic>;
                 isCustomNickname = data['isCustomNickname'] ?? true;
                 prefixIndex = data['nicknamePrefixIndex'];
                 suffixIndex = data['nicknameSuffixIndex'];
+                instagramUrl = data['instagramUrl'];
+                facebookUrl = data['facebookUrl'];
+                xUrl = data['xUrl'];
+                bio = data['bio'];
                 
                 if (!isCustomNickname && prefixIndex != null && suffixIndex != null) {
                   final prefix = NicknameLocalizations.getPrefix(context, prefixIndex);
@@ -181,6 +191,10 @@ class MyMenuScreen extends StatelessWidget {
                               isCustomNickname: isCustomNickname,
                               nicknamePrefixIndex: prefixIndex,
                               nicknameSuffixIndex: suffixIndex,
+                              instagramUrl: instagramUrl,
+                              facebookUrl: facebookUrl,
+                              xUrl: xUrl,
+                              bio: bio,
                             ),
                           );
                         },
@@ -253,7 +267,12 @@ class MyMenuScreen extends StatelessWidget {
         _buildMenuItem(Icons.history_edu, AppLocalizations.of(context)!.myMenuDiaryStorage, AppLocalizations.of(context)!.myMenuCheckSavedDiary, onTap: () {
           mainScreenKey.currentState?.switchTab(2);
         }),
-        _buildMenuItem(Icons.star_border, AppLocalizations.of(context)!.myMenuFavoriteCards, AppLocalizations.of(context)!.myMenuMyFavoriteCardsList),
+        _buildMenuItem(Icons.star_border, AppLocalizations.of(context)!.myMenuFavoriteCards, AppLocalizations.of(context)!.myMenuMyFavoriteCardsList, onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const FavoriteCardsScreen()),
+          );
+        }),
         
         const SizedBox(height: 20),
         _buildSectionTitle(AppLocalizations.of(context)!.myMenuSectionAppSettings),
@@ -300,6 +319,53 @@ class MyMenuScreen extends StatelessWidget {
           _buildSectionTitle(AppLocalizations.of(context)!.myMenuSectionAccountManagement),
           _buildMenuItem(Icons.logout, AppLocalizations.of(context)!.myMenuLogout, AppLocalizations.of(context)!.myMenuLogoutDesc, onTap: () async {
             await FirebaseAuth.instance.signOut();
+          }),
+          _buildMenuItem(Icons.person_remove, AppLocalizations.of(context)!.myMenuDeleteAccount, AppLocalizations.of(context)!.myMenuDeleteAccountDesc, onTap: () {
+            showDialog(
+              context: context,
+              builder: (ctx) => AlertDialog(
+                backgroundColor: Colors.deepPurple.shade900,
+                title: Text(AppLocalizations.of(context)!.myMenuDeleteAccountWarnTitle, style: const TextStyle(color: Colors.redAccent)),
+                content: Text(
+                  AppLocalizations.of(context)!.myMenuDeleteAccountWarnDesc,
+                  style: const TextStyle(color: Colors.white70),
+                ),
+                actions: [
+                  TextButton(
+                    onPressed: () => Navigator.pop(ctx),
+                    child: Text(AppLocalizations.of(context)!.myMenuDeleteAccountCancel, style: const TextStyle(color: Colors.white54)),
+                  ),
+                  TextButton(
+                    onPressed: () async {
+                      Navigator.pop(ctx);
+                      try {
+                        final user = FirebaseAuth.instance.currentUser;
+                        if (user != null) {
+                          final uid = user.uid;
+                          // Delete diaries
+                          final diaries = await FirebaseFirestore.instance.collection('tarot_diary').where('userId', isEqualTo: uid).get();
+                          for (var doc in diaries.docs) {
+                            await doc.reference.delete();
+                          }
+                          // Delete user profile
+                          await FirebaseFirestore.instance.collection('users').doc(uid).delete();
+                          // Delete auth account
+                          await user.delete();
+                        }
+                      } catch (e) {
+                        if (context.mounted) {
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            SnackBar(content: Text(AppLocalizations.of(context)!.profileEditErrorRecentLogin)),
+                          );
+                          await FirebaseAuth.instance.signOut();
+                        }
+                      }
+                    },
+                    child: Text(AppLocalizations.of(context)!.myMenuDeleteAccountConfirm, style: const TextStyle(color: Colors.redAccent, fontWeight: FontWeight.bold)),
+                  ),
+                ],
+              ),
+            );
           }),
         ],
       ],

@@ -385,8 +385,8 @@
   },
   "shopCancel": "Prekliči",
   "shopPurchase": "Nakup",
-  "shopAlreadyOwned": "Že v lasti. Poskusite ga uporabiti v nastavitvah teme!",
-  "shopPurchaseSuccess": "{skinName} uspešno opravljen nakup! Preverite nastavitve teme.",
+  "shopAlreadyOwned": "Že v lasti. Poskusite ga uporabiti v nastavitvah kože!",
+  "shopPurchaseSuccess": "{skinName} uspešno opravljen nakup! Preverite nastavitve kože.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -422,7 +422,7 @@
   "myMenuPushNotifications": "Potisna obvestila",
   "myMenuPushNotificationsDesc": "Novi horoskopi in dogodki",
   "myMenuLanguageSettings": "Jezikovne nastavitve",
-  "myMenuThemeSettings": "Nastavitve teme",
+  "myMenuThemeSettings": "Nastavitve kože",
   "myMenuChangeBackground": "Spremeni sliko ozadja",
   "myMenuSectionCustomerSupport": "Podpora uporabnikom",
   "myMenuFaq": "pogosta vprašanja",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Izbriši račun",
+  "myMenuDeleteAccountDesc": "Izbriši moj račun in podatke",
+  "myMenuDeleteAccountWarnTitle": "Opozorilo o izbrisu računa",
+  "myMenuDeleteAccountWarnDesc": "Z izbrisom računa se izbrišejo tudi vsi podatki, shranjeni na vašem pametnem telefonu. Želite nadaljevati?",
+  "myMenuDeleteAccountConfirm": "Izbriši",
+  "myMenuDeleteAccountCancel": "Prekliči",
+  "emailVerificationRequiredTitle": "Zahtevano preverjanje e-pošte",
+  "emailVerificationRequiredDesc": "Če želite uporabljati glavne funkcije, kot sta branje tarota in plačila, morate potrditi svoj e-poštni naslov. Prosimo, dokončajte preverjanje v Mojem meniju.",
+  "emailVerificationGoToMenu": "Pojdite na Moj meni",
+  "profileEditBio": "Bio",
+  "profileEditSnsIntegration": "Integracija SNS (izbirno)",
+  "profileEditSnsInsta": "Instagram URL (ali ID)",
+  "profileEditSnsFb": "Facebook URL",
+  "profileEditSnsX": "X (Twitter) URL",
+  "btnClose": "Zapri",
+  "cardDetailAddFavorite": "Dodano med priljubljene",
+  "cardDetailRemoveFavorite": "Odstranjeno iz priljubljenih",
+  "favoriteCardsTitle": "Priljubljene kartice",
+  "favoriteCardsEmpty": "Ni še priljubljenih kart.",
+  "cardDetailDataNotReady": "Podrobni podatki o interpretaciji še niso pripravljeni.",
+  "cardDetailNoData": "Ni podatkov.",
+  "buttonSaveReading": "Shranite branje tarota",
+  "readingSavedToDevice": "Shranjeno v napravo."
 }

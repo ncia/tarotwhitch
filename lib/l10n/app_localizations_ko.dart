@@ -3997,4 +3997,75 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get tagSelfReflection => '자기성찰';
+
+  @override
+  String get myMenuDeleteAccount => '회원 탈퇴';
+
+  @override
+  String get myMenuDeleteAccountDesc => '내 계정 및 정보 삭제';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => '회원 탈퇴 및 데이터 삭제 경고';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      '앱 삭제 및 회원 탈퇴 시, 스마트폰에 저장되어 있는 데이터까지 모두 삭제됩니다. 정말 탈퇴하시겠습니까?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => '탈퇴하기';
+
+  @override
+  String get myMenuDeleteAccountCancel => '취소';
+
+  @override
+  String get emailVerificationRequiredTitle => '이메일 인증 필요';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      '점보기 및 결제 등 앱의 주요 기능을 이용하려면 이메일 인증이 필요합니다. 내 메뉴에서 이메일 인증을 완료해 주세요.';
+
+  @override
+  String get emailVerificationGoToMenu => '내 메뉴로 이동';
+
+  @override
+  String get profileEditBio => '자기 소개';
+
+  @override
+  String get profileEditSnsIntegration => 'SNS 연동 (선택)';
+
+  @override
+  String get profileEditSnsInsta => 'Instagram 주소 (또는 아이디)';
+
+  @override
+  String get profileEditSnsFb => 'Facebook 주소';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) 주소';
+
+  @override
+  String get btnClose => '닫기';
+
+  @override
+  String get cardDetailAddFavorite => '즐겨찾기에 추가되었습니다.';
+
+  @override
+  String get cardDetailRemoveFavorite => '즐겨찾기에서 제거되었습니다.';
+
+  @override
+  String get favoriteCardsTitle => '즐겨찾는 카드';
+
+  @override
+  String get favoriteCardsEmpty => '아직 즐겨찾는 카드가 없습니다.';
+
+  @override
+  String get cardDetailDataNotReady => '상세 해석 데이터가 아직 준비되지 않았습니다.';
+
+  @override
+  String get cardDetailNoData => '데이터가 없습니다.';
+
+  @override
+  String get buttonSaveReading => '타로점 저장하기';
+
+  @override
+  String get readingSavedToDevice => '기기에 저장되었습니다.';
 }

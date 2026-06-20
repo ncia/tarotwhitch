@@ -385,8 +385,8 @@
   },
   "shopCancel": "Zrušiť",
   "shopPurchase": "Nákup",
-  "shopAlreadyOwned": "Už vo vlastníctve. Skúste to použiť v nastaveniach témy!",
-  "shopPurchaseSuccess": "Produkt {skinName} bol úspešne zakúpený! Skontrolujte nastavenia témy.",
+  "shopAlreadyOwned": "Už vo vlastníctve. Skúste ho aplikovať v nastaveniach pleti!",
+  "shopPurchaseSuccess": "Produkt {skinName} bol úspešne zakúpený! Skontrolujte nastavenia pokožky.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -422,7 +422,7 @@
   "myMenuPushNotifications": "Upozornenia push",
   "myMenuPushNotificationsDesc": "Nové horoskopy a udalosti",
   "myMenuLanguageSettings": "Nastavenia jazyka",
-  "myMenuThemeSettings": "Nastavenia témy",
+  "myMenuThemeSettings": "Nastavenia pleti",
   "myMenuChangeBackground": "Zmeniť obrázok na pozadí",
   "myMenuSectionCustomerSupport": "Zákaznícka podpora",
   "myMenuFaq": "Často kladené otázky (FAQ)",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Odstrániť účet",
+  "myMenuDeleteAccountDesc": "Odstrániť môj účet a informácie",
+  "myMenuDeleteAccountWarnTitle": "Upozornenie na vymazanie účtu",
+  "myMenuDeleteAccountWarnDesc": "Po odstránení účtu sa vymažú aj všetky údaje uložené vo vašom smartfóne. Chcete pokračovať?",
+  "myMenuDeleteAccountConfirm": "Odstrániť",
+  "myMenuDeleteAccountCancel": "Zrušiť",
+  "emailVerificationRequiredTitle": "Vyžaduje sa overenie e-mailom",
+  "emailVerificationRequiredDesc": "Ak chcete používať hlavné funkcie, ako je čítanie tarotov a platby, musíte si overiť svoj e-mail. Dokončite overenie v časti Moje menu.",
+  "emailVerificationGoToMenu": "Prejdite do Moje menu",
+  "profileEditBio": "Bio",
+  "profileEditSnsIntegration": "Integrácia SNS (voliteľné)",
+  "profileEditSnsInsta": "Adresa URL Instagramu (alebo ID)",
+  "profileEditSnsFb": "Facebook URL",
+  "profileEditSnsX": "X (Twitter) URL",
+  "btnClose": "Zavrieť",
+  "cardDetailAddFavorite": "Pridané medzi obľúbené",
+  "cardDetailRemoveFavorite": "Odstránené z obľúbených",
+  "favoriteCardsTitle": "Obľúbené karty",
+  "favoriteCardsEmpty": "Zatiaľ žiadne obľúbené karty.",
+  "cardDetailDataNotReady": "Podrobné interpretačné údaje ešte nie sú pripravené.",
+  "cardDetailNoData": "Nie sú k dispozícii žiadne údaje.",
+  "buttonSaveReading": "Uložiť čítanie tarotu",
+  "readingSavedToDevice": "Uložené do zariadenia."
 }

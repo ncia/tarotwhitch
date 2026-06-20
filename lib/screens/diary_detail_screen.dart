@@ -349,12 +349,16 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
                       if (_translatedResultText == null)
                         Align(
                           alignment: Alignment.centerRight,
-                          child: TextButton.icon(
+                          child: OutlinedButton(
                             onPressed: _translateDiary,
-                            icon: _isTranslating
-                                ? const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.cyanAccent))
-                                : const Icon(Icons.translate, color: Colors.cyanAccent, size: 18),
-                            label: Text(AppLocalizations.of(context)!.buttonTranslate, style: const TextStyle(color: Colors.cyanAccent, fontSize: 13)),
+                            style: OutlinedButton.styleFrom(
+                              foregroundColor: Colors.white,
+                              side: const BorderSide(color: Colors.orange),
+                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                            ),
+                            child: _isTranslating
+                                ? const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.orange))
+                                : const Text('번역하기', style: TextStyle(fontSize: 13, color: Colors.white)),
                           ),
                         ),
                     ],

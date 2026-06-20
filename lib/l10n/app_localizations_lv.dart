@@ -4358,4 +4358,76 @@ class AppLocalizationsLv extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Pašrefleksija';
+
+  @override
+  String get myMenuDeleteAccount => 'Dzēst kontu';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Dzēst manu kontu un informāciju';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Brīdinājums par konta dzēšanu';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Dzēšot kontu, tiks dzēsti arī visi viedtālrunī saglabātie dati. Vai vēlaties turpināt?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Dzēst';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Atcelt';
+
+  @override
+  String get emailVerificationRequiredTitle => 'Nepieciešama e-pasta pārbaude';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Lai izmantotu galvenās funkcijas, piemēram, Tarot lasīšanu un maksājumus, jums ir jāverificē savs e-pasts. Lūdzu, pabeidziet verifikāciju sadaļā Mana izvēlne.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Dodieties uz Manu izvēlni';
+
+  @override
+  String get profileEditBio => 'Bio';
+
+  @override
+  String get profileEditSnsIntegration => 'SNS integrācija (pēc izvēles)';
+
+  @override
+  String get profileEditSnsInsta => 'Instagram URL (vai ID)';
+
+  @override
+  String get profileEditSnsFb => 'Facebook URL';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) URL';
+
+  @override
+  String get btnClose => 'Aizvērt';
+
+  @override
+  String get cardDetailAddFavorite => 'Pievienots izlasei';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Noņemts no izlases';
+
+  @override
+  String get favoriteCardsTitle => 'Mīļākās kartes';
+
+  @override
+  String get favoriteCardsEmpty => 'Vēl nav iecienītāko kartīšu.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Detalizēti interpretācijas dati vēl nav gatavi.';
+
+  @override
+  String get cardDetailNoData => 'Nav pieejami dati.';
+
+  @override
+  String get buttonSaveReading => 'Saglabājiet Taro lasīšanu';
+
+  @override
+  String get readingSavedToDevice => 'Saglabāts ierīcē.';
 }

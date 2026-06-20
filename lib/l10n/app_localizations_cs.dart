@@ -4353,4 +4353,76 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Sebereflexe';
+
+  @override
+  String get myMenuDeleteAccount => 'Smazat účet';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Smazat můj účet a informace';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Upozornění na smazání účtu';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Po smazání účtu budou smazána také všechna data uložená ve vašem smartphonu. Přejete si pokračovat?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Vymazat';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Zrušit';
+
+  @override
+  String get emailVerificationRequiredTitle => 'Vyžaduje se ověření e-mailem';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Chcete-li používat hlavní funkce, jako je čtení tarotů a platby, musíte ověřit svůj e-mail. Dokončete ověření v části Moje nabídka.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Přejděte na Moje menu';
+
+  @override
+  String get profileEditBio => 'Bio';
+
+  @override
+  String get profileEditSnsIntegration => 'Integrace SNS (volitelné)';
+
+  @override
+  String get profileEditSnsInsta => 'Instagram URL (nebo ID)';
+
+  @override
+  String get profileEditSnsFb => 'Facebook URL';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) URL';
+
+  @override
+  String get btnClose => 'Blízko';
+
+  @override
+  String get cardDetailAddFavorite => 'Přidáno do oblíbených';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Odebráno z oblíbených';
+
+  @override
+  String get favoriteCardsTitle => 'Oblíbené karty';
+
+  @override
+  String get favoriteCardsEmpty => 'Zatím žádné oblíbené karty.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Detailní interpretační data ještě nejsou připravena.';
+
+  @override
+  String get cardDetailNoData => 'Nejsou k dispozici žádné údaje.';
+
+  @override
+  String get buttonSaveReading => 'Uložit tarotové čtení';
+
+  @override
+  String get readingSavedToDevice => 'Uloženo do zařízení.';
 }

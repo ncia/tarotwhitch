@@ -385,8 +385,8 @@
   },
   "shopCancel": "Anula",
   "shopPurchase": "Cumpărare",
-  "shopAlreadyOwned": "Deja deținut. Încercați să îl aplicați în setările temei!",
-  "shopPurchaseSuccess": "{skinName} a fost achiziționat cu succes! Verificați setările temei.",
+  "shopAlreadyOwned": "Deja deținut. Încercați să-l aplicați în setările pielii!",
+  "shopPurchaseSuccess": "{skinName} a fost achiziționat cu succes! Verificați setările pielii.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -422,7 +422,7 @@
   "myMenuPushNotifications": "Notificări push",
   "myMenuPushNotificationsDesc": "Noi horoscoape și evenimente",
   "myMenuLanguageSettings": "Setări de limbă",
-  "myMenuThemeSettings": "Setări teme",
+  "myMenuThemeSettings": "Setări pentru piele",
   "myMenuChangeBackground": "Schimbați imaginea de fundal",
   "myMenuSectionCustomerSupport": "Asistență pentru clienți",
   "myMenuFaq": "Întrebări frecvente (FAQ)",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Șterge contul",
+  "myMenuDeleteAccountDesc": "Ștergeți contul și informațiile mele",
+  "myMenuDeleteAccountWarnTitle": "Avertisment de ștergere a contului",
+  "myMenuDeleteAccountWarnDesc": "După ștergerea contului, toate datele salvate pe smartphone vor fi, de asemenea, șterse. Doriți să continuați?",
+  "myMenuDeleteAccountConfirm": "Şterge",
+  "myMenuDeleteAccountCancel": "Anula",
+  "emailVerificationRequiredTitle": "Este necesară verificarea e-mailului",
+  "emailVerificationRequiredDesc": "Trebuie să vă verificați e-mailul pentru a utiliza funcții principale, cum ar fi citirea tarotului și plățile. Vă rugăm să finalizați verificarea în Meniul meu.",
+  "emailVerificationGoToMenu": "Accesați Meniul meu",
+  "profileEditBio": "bio",
+  "profileEditSnsIntegration": "Integrare SNS (Opțional)",
+  "profileEditSnsInsta": "URL (sau ID) Instagram",
+  "profileEditSnsFb": "URL Facebook",
+  "profileEditSnsX": "Adresa URL X (Twitter).",
+  "btnClose": "Aproape",
+  "cardDetailAddFavorite": "Adăugat la Favorite",
+  "cardDetailRemoveFavorite": "Eliminat din Favorite",
+  "favoriteCardsTitle": "Cărți preferate",
+  "favoriteCardsEmpty": "Nicio carte preferată încă.",
+  "cardDetailDataNotReady": "Datele detaliate de interpretare nu sunt încă gata.",
+  "cardDetailNoData": "Nu există date disponibile.",
+  "buttonSaveReading": "Salvați citirea tarotului",
+  "readingSavedToDevice": "Salvat pe dispozitiv."
 }

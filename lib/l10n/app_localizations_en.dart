@@ -4343,4 +4343,76 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Self-Reflection';
+
+  @override
+  String get myMenuDeleteAccount => 'Delete Account';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Delete my account and information';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Account Deletion Warning';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Upon deleting your account, all data saved on your smartphone will also be deleted. Do you wish to continue?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Delete';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Cancel';
+
+  @override
+  String get emailVerificationRequiredTitle => 'Email Verification Required';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'You need to verify your email to use main features like Tarot reading and payments. Please complete the verification in My Menu.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Go to My Menu';
+
+  @override
+  String get profileEditBio => 'Bio';
+
+  @override
+  String get profileEditSnsIntegration => 'SNS Integration (Optional)';
+
+  @override
+  String get profileEditSnsInsta => 'Instagram URL (or ID)';
+
+  @override
+  String get profileEditSnsFb => 'Facebook URL';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) URL';
+
+  @override
+  String get btnClose => 'Close';
+
+  @override
+  String get cardDetailAddFavorite => 'Added to Favorites';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Removed from Favorites';
+
+  @override
+  String get favoriteCardsTitle => 'Favorite Cards';
+
+  @override
+  String get favoriteCardsEmpty => 'No favorite cards yet.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Detailed interpretation data is not yet ready.';
+
+  @override
+  String get cardDetailNoData => 'No data available.';
+
+  @override
+  String get buttonSaveReading => 'Save Tarot Reading';
+
+  @override
+  String get readingSavedToDevice => 'Saved to device.';
 }

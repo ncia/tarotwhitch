@@ -4361,4 +4361,79 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Саморефлексія';
+
+  @override
+  String get myMenuDeleteAccount => 'Видалити акаунт';
+
+  @override
+  String get myMenuDeleteAccountDesc =>
+      'Видалити мій обліковий запис і інформацію';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle =>
+      'Попередження про видалення облікового запису';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Після видалення облікового запису всі дані, збережені на вашому смартфоні, також будуть видалені. Ви бажаєте продовжити?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Видалити';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Скасувати';
+
+  @override
+  String get emailVerificationRequiredTitle =>
+      'Потрібна перевірка електронної пошти';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Вам потрібно підтвердити свою електронну адресу, щоб користуватися такими основними функціями, як читання таро та платежі. Пройдіть перевірку в Моєму меню.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Перейдіть до «Моє меню».';
+
+  @override
+  String get profileEditBio => 'біографія';
+
+  @override
+  String get profileEditSnsIntegration => 'Інтеграція SNS (необов\'язково)';
+
+  @override
+  String get profileEditSnsInsta => 'URL-адреса Instagram (або ID)';
+
+  @override
+  String get profileEditSnsFb => 'URL-адреса Facebook';
+
+  @override
+  String get profileEditSnsX => 'URL-адреса X (Twitter).';
+
+  @override
+  String get btnClose => 'Закрити';
+
+  @override
+  String get cardDetailAddFavorite => 'Додано до вибраного';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Видалено з вибраного';
+
+  @override
+  String get favoriteCardsTitle => 'Улюблені картки';
+
+  @override
+  String get favoriteCardsEmpty => 'Ще немає улюблених карток.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Дані детальної інтерпретації ще не готові.';
+
+  @override
+  String get cardDetailNoData => 'Немає даних.';
+
+  @override
+  String get buttonSaveReading => 'Зберегти читання Таро';
+
+  @override
+  String get readingSavedToDevice => 'Збережено на пристрої.';
 }

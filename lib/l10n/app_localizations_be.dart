@@ -4357,4 +4357,79 @@ class AppLocalizationsBe extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Самарэфлексія';
+
+  @override
+  String get myMenuDeleteAccount => 'Выдаліць уліковы запіс';
+
+  @override
+  String get myMenuDeleteAccountDesc =>
+      'Выдаліць мой уліковы запіс і інфармацыю';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle =>
+      'Папярэджанне аб выдаленні акаўнта';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Пасля выдалення ўліковага запісу ўсе даныя, захаваныя на вашым смартфоне, таксама будуць выдалены. Вы хочаце працягнуць?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Выдаліць';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Адмяніць';
+
+  @override
+  String get emailVerificationRequiredTitle =>
+      'Патрабуецца праверка электроннай пошты';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Каб карыстацца такімі асноўнымі функцыямі, як чытанне Таро і плацяжы, вам неабходна спраўдзіць электронную пошту. Прайдзіце праверку ў Маім меню.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Перайдзіце ў Маё меню';
+
+  @override
+  String get profileEditBio => 'Біяграфія';
+
+  @override
+  String get profileEditSnsIntegration => 'Інтэграцыя SNS (неабавязкова)';
+
+  @override
+  String get profileEditSnsInsta => 'URL-адрас Instagram (або ID)';
+
+  @override
+  String get profileEditSnsFb => 'URL у Facebook';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) URL';
+
+  @override
+  String get btnClose => 'Блізка';
+
+  @override
+  String get cardDetailAddFavorite => 'Дададзена ў абранае';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Выдалена з абранага';
+
+  @override
+  String get favoriteCardsTitle => 'Любімыя карты';
+
+  @override
+  String get favoriteCardsEmpty => 'Пакуль няма любімых карт.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Дадзеныя дэталёвай інтэрпрэтацыі пакуль не гатовыя.';
+
+  @override
+  String get cardDetailNoData => 'Дадзеных няма.';
+
+  @override
+  String get buttonSaveReading => 'Захаваць чытанне таро';
+
+  @override
+  String get readingSavedToDevice => 'Захавана на прыладзе.';
 }

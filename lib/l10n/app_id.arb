@@ -385,8 +385,8 @@
   },
   "shopCancel": "Membatalkan",
   "shopPurchase": "Pembelian",
-  "shopAlreadyOwned": "Sudah dimiliki. Coba terapkan di pengaturan tema!",
-  "shopPurchaseSuccess": "{skinName} berhasil dibeli! Periksa pengaturan tema.",
+  "shopAlreadyOwned": "Sudah dimiliki. Coba terapkan di pengaturan kulit!",
+  "shopPurchaseSuccess": "{skinName} berhasil dibeli! Periksa pengaturan kulit.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -420,7 +420,7 @@
   "myMenuPushNotifications": "Pemberitahuan Dorong",
   "myMenuPushNotificationsDesc": "Horoskop dan acara baru",
   "myMenuLanguageSettings": "Pengaturan Bahasa",
-  "myMenuThemeSettings": "Pengaturan Tema",
+  "myMenuThemeSettings": "Pengaturan Kulit",
   "myMenuChangeBackground": "Ubah gambar latar belakang",
   "myMenuSectionCustomerSupport": "Dukungan Pelanggan",
   "myMenuFaq": "Pertanyaan Umum",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Hapus Akun",
+  "myMenuDeleteAccountDesc": "Hapus akun dan informasi saya",
+  "myMenuDeleteAccountWarnTitle": "Peringatan Penghapusan Akun",
+  "myMenuDeleteAccountWarnDesc": "Setelah menghapus akun Anda, semua data yang tersimpan di ponsel cerdas Anda juga akan terhapus. Apakah Anda ingin melanjutkan?",
+  "myMenuDeleteAccountConfirm": "Menghapus",
+  "myMenuDeleteAccountCancel": "Membatalkan",
+  "emailVerificationRequiredTitle": "Verifikasi Email Diperlukan",
+  "emailVerificationRequiredDesc": "Anda perlu memverifikasi email Anda untuk menggunakan fitur utama seperti pembacaan Tarot dan pembayaran. Silakan selesaikan verifikasi di Menu Saya.",
+  "emailVerificationGoToMenu": "Buka Menu Saya",
+  "profileEditBio": "Biografi",
+  "profileEditSnsIntegration": "Integrasi SNS (Opsional)",
+  "profileEditSnsInsta": "URL Instagram (atau ID)",
+  "profileEditSnsFb": "URL Facebook",
+  "profileEditSnsX": "URL X (Twitter).",
+  "btnClose": "Menutup",
+  "cardDetailAddFavorite": "Ditambahkan ke Favorit",
+  "cardDetailRemoveFavorite": "Dihapus dari Favorit",
+  "favoriteCardsTitle": "Kartu Favorit",
+  "favoriteCardsEmpty": "Belum ada kartu favorit.",
+  "cardDetailDataNotReady": "Data interpretasi rinci belum siap.",
+  "cardDetailNoData": "Tidak ada data yang tersedia.",
+  "buttonSaveReading": "Simpan Bacaan Tarot",
+  "readingSavedToDevice": "Disimpan ke perangkat."
 }

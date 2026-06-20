@@ -16,8 +16,9 @@ class ChatMessage {
   final String text;
   final bool isUser;
   final bool isButton;
+  final TarotDiary? attachedDiary;
 
-  ChatMessage({required this.text, required this.isUser, this.isButton = false});
+  ChatMessage({required this.text, required this.isUser, this.isButton = false, this.attachedDiary});
 }
 
 class ChatScreen extends StatefulWidget {
@@ -354,7 +355,19 @@ class _ChatScreenState extends State<ChatScreen> {
         witchId: _selectedWitch.id,
       );
 
-      await DiaryService.instance.saveDiary(diary);
+      await DiaryService.instance.saveToCloudOnly(diary);
+
+      // 말풍선에 저장 버튼을 달기 위해 마지막 메시지 교체
+      if (mounted) {
+        setState(() {
+          final lastMsg = _messages.last;
+          _messages[_messages.length - 1] = ChatMessage(
+            text: lastMsg.text,
+            isUser: false,
+            attachedDiary: diary,
+          );
+        });
+      }
     } catch (e) {
       debugPrint('Error auto-saving diary: $e');
     }
@@ -381,21 +394,51 @@ class _ChatScreenState extends State<ChatScreen> {
 
     return Align(
       alignment: message.isUser ? Alignment.centerRight : Alignment.centerLeft,
-      child: Container(
-        margin: const EdgeInsets.symmetric(vertical: 4.0),
-        padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
-        decoration: BoxDecoration(
-          color: message.isUser ? Colors.purple.withOpacity(0.6) : Colors.white12,
-          borderRadius: BorderRadius.circular(20).copyWith(
-            bottomRight: message.isUser ? const Radius.circular(0) : null,
-            bottomLeft: !message.isUser ? const Radius.circular(0) : null,
+      child: Column(
+        crossAxisAlignment: message.isUser ? CrossAxisAlignment.end : CrossAxisAlignment.start,
+        children: [
+          Container(
+            margin: const EdgeInsets.symmetric(vertical: 4.0),
+            padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
+            decoration: BoxDecoration(
+              color: message.isUser ? Colors.purple.withOpacity(0.6) : Colors.white12,
+              borderRadius: BorderRadius.circular(20).copyWith(
+                bottomRight: message.isUser ? const Radius.circular(0) : null,
+                bottomLeft: !message.isUser ? const Radius.circular(0) : null,
+              ),
+            ),
+            child: Text(
+              message.text,
+              style: const TextStyle(color: Colors.white, fontSize: 15, height: 1.4),
+            ),
           ),
-        ),
-        // constraints removed so it can expand to full width of the parent
-        child: Text(
-          message.text,
-          style: const TextStyle(color: Colors.white, fontSize: 15, height: 1.4),
-        ),
+          if (message.attachedDiary != null)
+            Padding(
+              padding: const EdgeInsets.only(top: 4.0, bottom: 8.0),
+              child: OutlinedButton.icon(
+                onPressed: () async {
+                  await DiaryService.instance.saveToLocalOnly(message.attachedDiary!);
+                  if (mounted) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text(AppLocalizations.of(context)!.readingSavedToDevice, style: const TextStyle(fontWeight: FontWeight.bold)),
+                        backgroundColor: Colors.green,
+                        duration: const Duration(seconds: 2),
+                      ),
+                    );
+                  }
+                },
+                icon: const Icon(Icons.save_alt, size: 16),
+                label: Text(AppLocalizations.of(context)!.buttonSaveReading, style: const TextStyle(fontSize: 12)),
+                style: OutlinedButton.styleFrom(
+                  foregroundColor: Colors.lightGreenAccent,
+                  side: const BorderSide(color: Colors.lightGreenAccent),
+                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                  minimumSize: const Size(0, 32),
+                ),
+              ),
+            ),
+        ],
       ),
     );
   }

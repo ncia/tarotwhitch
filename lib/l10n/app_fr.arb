@@ -385,8 +385,8 @@
   },
   "shopCancel": "Annuler",
   "shopPurchase": "Achat",
-  "shopAlreadyOwned": "Déjà possédé. Essayez de l'appliquer dans les paramètres du thème !",
-  "shopPurchaseSuccess": "{skinName} acheté avec succès ! Vérifiez les paramètres du thème.",
+  "shopAlreadyOwned": "Déjà possédé. Essayez de l'appliquer dans les paramètres de la peau !",
+  "shopPurchaseSuccess": "{skinName} acheté avec succès ! Vérifiez les paramètres de peau.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -420,7 +420,7 @@
   "myMenuPushNotifications": "Notifications poussées",
   "myMenuPushNotificationsDesc": "Nouveaux horoscopes et événements",
   "myMenuLanguageSettings": "Paramètres de langue",
-  "myMenuThemeSettings": "Paramètres du thème",
+  "myMenuThemeSettings": "Paramètres de peau",
   "myMenuChangeBackground": "Changer l'image d'arrière-plan",
   "myMenuSectionCustomerSupport": "Assistance client",
   "myMenuFaq": "Foire aux questions (FAQ)",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Supprimer le compte",
+  "myMenuDeleteAccountDesc": "Supprimer mon compte et mes informations",
+  "myMenuDeleteAccountWarnTitle": "Avertissement de suppression de compte",
+  "myMenuDeleteAccountWarnDesc": "Lors de la suppression de votre compte, toutes les données enregistrées sur votre smartphone seront également supprimées. Souhaitez-vous continuer ?",
+  "myMenuDeleteAccountConfirm": "Supprimer",
+  "myMenuDeleteAccountCancel": "Annuler",
+  "emailVerificationRequiredTitle": "Vérification de l'e-mail requise",
+  "emailVerificationRequiredDesc": "Vous devez vérifier votre e-mail pour utiliser les principales fonctionnalités telles que la lecture du Tarot et les paiements. Veuillez compléter la vérification dans Mon menu.",
+  "emailVerificationGoToMenu": "Allez dans Mon menu",
+  "profileEditBio": "Biographie",
+  "profileEditSnsIntegration": "Intégration SNS (facultatif)",
+  "profileEditSnsInsta": "URL (ou identifiant) Instagram",
+  "profileEditSnsFb": "URL Facebook",
+  "profileEditSnsX": "URL X (Twitter)",
+  "btnClose": "Fermer",
+  "cardDetailAddFavorite": "Ajouté aux favoris",
+  "cardDetailRemoveFavorite": "Supprimé des favoris",
+  "favoriteCardsTitle": "Cartes préférées",
+  "favoriteCardsEmpty": "Aucune carte favorite pour l'instant.",
+  "cardDetailDataNotReady": "Les données d’interprétation détaillées ne sont pas encore prêtes.",
+  "cardDetailNoData": "Aucune donnée disponible.",
+  "buttonSaveReading": "Enregistrer la lecture du Tarot",
+  "readingSavedToDevice": "Enregistré sur l'appareil."
 }

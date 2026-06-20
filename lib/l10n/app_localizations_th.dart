@@ -4333,4 +4333,75 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'การใคร่ครวญ';
+
+  @override
+  String get myMenuDeleteAccount => 'ลบบัญชี';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'ลบบัญชีและข้อมูลของฉัน';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'คำเตือนการลบบัญชี';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'เมื่อลบบัญชีของคุณ ข้อมูลทั้งหมดที่บันทึกไว้ในสมาร์ทโฟนของคุณก็จะถูกลบเช่นกัน คุณต้องการดำเนินการต่อหรือไม่?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'ลบ';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'ยกเลิก';
+
+  @override
+  String get emailVerificationRequiredTitle => 'ต้องมีการยืนยันอีเมล';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'คุณต้องยืนยันอีเมลของคุณเพื่อใช้คุณสมบัติหลัก เช่น การอ่านไพ่ยิปซีและการชำระเงิน กรุณาทำการยืนยันให้เสร็จสิ้นในเมนูของฉัน';
+
+  @override
+  String get emailVerificationGoToMenu => 'ไปที่เมนูของฉัน';
+
+  @override
+  String get profileEditBio => 'ไบโอ';
+
+  @override
+  String get profileEditSnsIntegration => 'บูรณาการ SNS (ไม่บังคับ)';
+
+  @override
+  String get profileEditSnsInsta => 'URL ของ Instagram (หรือ ID)';
+
+  @override
+  String get profileEditSnsFb => 'URL ของเฟซบุ๊ก';
+
+  @override
+  String get profileEditSnsX => 'URL X (ทวิตเตอร์)';
+
+  @override
+  String get btnClose => 'ปิด';
+
+  @override
+  String get cardDetailAddFavorite => 'เพิ่มในรายการโปรดแล้ว';
+
+  @override
+  String get cardDetailRemoveFavorite => 'ลบออกจากรายการโปรดแล้ว';
+
+  @override
+  String get favoriteCardsTitle => 'การ์ดใบโปรด';
+
+  @override
+  String get favoriteCardsEmpty => 'ยังไม่มีการ์ดที่ชื่นชอบ';
+
+  @override
+  String get cardDetailDataNotReady => 'ข้อมูลการตีความโดยละเอียดยังไม่พร้อม';
+
+  @override
+  String get cardDetailNoData => 'ไม่มีข้อมูล';
+
+  @override
+  String get buttonSaveReading => 'บันทึกการอ่านไพ่ทาโรต์';
+
+  @override
+  String get readingSavedToDevice => 'บันทึกลงในอุปกรณ์แล้ว';
 }

@@ -4354,4 +4354,77 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Reflexão';
+
+  @override
+  String get myMenuDeleteAccount => 'Excluir conta';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Excluir minha conta e informações';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Aviso de exclusão de conta';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Ao excluir sua conta, todos os dados salvos em seu smartphone também serão excluídos. Você deseja continuar?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Excluir';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Cancelar';
+
+  @override
+  String get emailVerificationRequiredTitle =>
+      'Verificação de e-mail necessária';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Você precisa verificar seu e-mail para usar os principais recursos, como leitura de tarô e pagamentos. Por favor, complete a verificação em Meu Menu.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Vá para Meu Menu';
+
+  @override
+  String get profileEditBio => 'Biografia';
+
+  @override
+  String get profileEditSnsIntegration => 'Integração SNS (opcional)';
+
+  @override
+  String get profileEditSnsInsta => 'URL do Instagram (ou ID)';
+
+  @override
+  String get profileEditSnsFb => 'URL do Facebook';
+
+  @override
+  String get profileEditSnsX => 'URL X (Twitter)';
+
+  @override
+  String get btnClose => 'Fechar';
+
+  @override
+  String get cardDetailAddFavorite => 'Adicionado aos Favoritos';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Removido dos Favoritos';
+
+  @override
+  String get favoriteCardsTitle => 'Cartões favoritos';
+
+  @override
+  String get favoriteCardsEmpty => 'Ainda não há cartas favoritas.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Os dados detalhados de interpretação ainda não estão prontos.';
+
+  @override
+  String get cardDetailNoData => 'Não há dados disponíveis.';
+
+  @override
+  String get buttonSaveReading => 'Salvar leitura de tarô';
+
+  @override
+  String get readingSavedToDevice => 'Salvo no dispositivo.';
 }

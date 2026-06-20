@@ -4352,4 +4352,76 @@ class AppLocalizationsDa extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Selvrefleksion';
+
+  @override
+  String get myMenuDeleteAccount => 'Slet konto';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Slet min konto og mine oplysninger';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Advarsel om sletning af konto';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Når du sletter din konto, vil alle data, der er gemt på din smartphone, også blive slettet. Ønsker du at fortsætte?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Slet';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Ophæve';
+
+  @override
+  String get emailVerificationRequiredTitle => 'E-mailbekræftelse påkrævet';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Du skal bekræfte din e-mail for at bruge hovedfunktioner som tarotlæsning og betalinger. Udfyld venligst bekræftelsen i Min menu.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Gå til Min menu';
+
+  @override
+  String get profileEditBio => 'Bio';
+
+  @override
+  String get profileEditSnsIntegration => 'SNS-integration (valgfrit)';
+
+  @override
+  String get profileEditSnsInsta => 'Instagram URL (eller ID)';
+
+  @override
+  String get profileEditSnsFb => 'Facebook URL';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) URL';
+
+  @override
+  String get btnClose => 'Tæt';
+
+  @override
+  String get cardDetailAddFavorite => 'Tilføjet til favoritter';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Fjernet fra favoritter';
+
+  @override
+  String get favoriteCardsTitle => 'Yndlingskort';
+
+  @override
+  String get favoriteCardsEmpty => 'Ingen favoritkort endnu.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Detaljerede fortolkningsdata er endnu ikke klar.';
+
+  @override
+  String get cardDetailNoData => 'Ingen tilgængelige data.';
+
+  @override
+  String get buttonSaveReading => 'Gem Tarot-læsning';
+
+  @override
+  String get readingSavedToDevice => 'Gemt på enhed.';
 }

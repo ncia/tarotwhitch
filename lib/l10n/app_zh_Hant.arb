@@ -385,8 +385,8 @@
   },
   "shopCancel": "取消",
   "shopPurchase": "購買",
-  "shopAlreadyOwned": "您已擁有此主題。請在主題設定中應用！",
-  "shopPurchaseSuccess": "{skinName} 購買成功！請在主題設定中查看。",
+  "shopAlreadyOwned": "已經擁有了。嘗試在皮膚設定中應用它！",
+  "shopPurchaseSuccess": "{skinName}購買成功！檢查皮膚設定。",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -422,7 +422,7 @@
   "myMenuPushNotifications": "接收推播通知",
   "myMenuPushNotificationsDesc": "新運勢及活動通知",
   "myMenuLanguageSettings": "語言設定",
-  "myMenuThemeSettings": "主題設定",
+  "myMenuThemeSettings": "皮膚設定",
   "myMenuChangeBackground": "更改背景圖片",
   "myMenuSectionCustomerSupport": "客戶支援",
   "myMenuFaq": "常見問題 (FAQ)",
@@ -1462,5 +1462,28 @@
         "type": "int"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "刪除帳戶",
+  "myMenuDeleteAccountDesc": "刪除我的帳戶和訊息",
+  "myMenuDeleteAccountWarnTitle": "帳戶刪除警告",
+  "myMenuDeleteAccountWarnDesc": "刪除您的帳戶後，智慧型手機上保存的所有資料也將被刪除。您想繼續嗎？",
+  "myMenuDeleteAccountConfirm": "刪除",
+  "myMenuDeleteAccountCancel": "取消",
+  "emailVerificationRequiredTitle": "需要驗證電子郵件",
+  "emailVerificationRequiredDesc": "您需要驗證您的電子郵件才能使用塔羅牌占卜和付款等主要功能。請在我的菜單中完成驗證。",
+  "emailVerificationGoToMenu": "前往我的菜單",
+  "profileEditBio": "簡介",
+  "profileEditSnsIntegration": "SNS 整合（可選）",
+  "profileEditSnsInsta": "Instagram 網址（或 ID）",
+  "profileEditSnsFb": "臉書網址",
+  "profileEditSnsX": "X（推特）網址",
+  "btnClose": "關閉",
+  "cardDetailAddFavorite": "已加入至收藏夾",
+  "cardDetailRemoveFavorite": "從收藏夾中刪除",
+  "favoriteCardsTitle": "最喜歡的卡片",
+  "favoriteCardsEmpty": "還沒有最喜歡的卡片。",
+  "cardDetailDataNotReady": "詳細的解釋數據尚未準備好。",
+  "cardDetailNoData": "無可用數據。",
+  "buttonSaveReading": "保存塔羅占卜",
+  "readingSavedToDevice": "儲存到設備。"
 }

@@ -386,8 +386,8 @@
   },
   "shopCancel": "ยกเลิก",
   "shopPurchase": "ซื้อ",
-  "shopAlreadyOwned": "เป็นเจ้าของแล้ว ลองนำไปใช้ในการตั้งค่าธีม!",
-  "shopPurchaseSuccess": "ซื้อ {skinName} สำเร็จแล้ว! ตรวจสอบการตั้งค่าธีม",
+  "shopAlreadyOwned": "เป็นเจ้าของแล้ว ลองใช้มันในการตั้งค่าสกิน!",
+  "shopPurchaseSuccess": "ซื้อ {skinName} สำเร็จแล้ว! ตรวจสอบการตั้งค่าสกิน",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -423,7 +423,7 @@
   "myMenuPushNotifications": "การแจ้งเตือนแบบพุช",
   "myMenuPushNotificationsDesc": "ดวงชะตาและเหตุการณ์ใหม่",
   "myMenuLanguageSettings": "การตั้งค่าภาษา",
-  "myMenuThemeSettings": "การตั้งค่าธีม",
+  "myMenuThemeSettings": "การตั้งค่าสกิน",
   "myMenuChangeBackground": "เปลี่ยนภาพพื้นหลัง",
   "myMenuSectionCustomerSupport": "การสนับสนุนลูกค้า",
   "myMenuFaq": "คำถามที่พบบ่อย",
@@ -1449,5 +1449,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "ลบบัญชี",
+  "myMenuDeleteAccountDesc": "ลบบัญชีและข้อมูลของฉัน",
+  "myMenuDeleteAccountWarnTitle": "คำเตือนการลบบัญชี",
+  "myMenuDeleteAccountWarnDesc": "เมื่อลบบัญชีของคุณ ข้อมูลทั้งหมดที่บันทึกไว้ในสมาร์ทโฟนของคุณก็จะถูกลบเช่นกัน คุณต้องการดำเนินการต่อหรือไม่?",
+  "myMenuDeleteAccountConfirm": "ลบ",
+  "myMenuDeleteAccountCancel": "ยกเลิก",
+  "emailVerificationRequiredTitle": "ต้องมีการยืนยันอีเมล",
+  "emailVerificationRequiredDesc": "คุณต้องยืนยันอีเมลของคุณเพื่อใช้คุณสมบัติหลัก เช่น การอ่านไพ่ยิปซีและการชำระเงิน กรุณาทำการยืนยันให้เสร็จสิ้นในเมนูของฉัน",
+  "emailVerificationGoToMenu": "ไปที่เมนูของฉัน",
+  "profileEditBio": "ไบโอ",
+  "profileEditSnsIntegration": "บูรณาการ SNS (ไม่บังคับ)",
+  "profileEditSnsInsta": "URL ของ Instagram (หรือ ID)",
+  "profileEditSnsFb": "URL ของเฟซบุ๊ก",
+  "profileEditSnsX": "URL X (ทวิตเตอร์)",
+  "btnClose": "ปิด",
+  "cardDetailAddFavorite": "เพิ่มในรายการโปรดแล้ว",
+  "cardDetailRemoveFavorite": "ลบออกจากรายการโปรดแล้ว",
+  "favoriteCardsTitle": "การ์ดใบโปรด",
+  "favoriteCardsEmpty": "ยังไม่มีการ์ดที่ชื่นชอบ",
+  "cardDetailDataNotReady": "ข้อมูลการตีความโดยละเอียดยังไม่พร้อม",
+  "cardDetailNoData": "ไม่มีข้อมูล",
+  "buttonSaveReading": "บันทึกการอ่านไพ่ทาโรต์",
+  "readingSavedToDevice": "บันทึกลงในอุปกรณ์แล้ว"
 }

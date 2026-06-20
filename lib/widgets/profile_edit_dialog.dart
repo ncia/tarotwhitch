@@ -16,6 +16,10 @@ class ProfileEditDialog extends StatefulWidget {
   final bool isCustomNickname;
   final int? nicknamePrefixIndex;
   final int? nicknameSuffixIndex;
+  final String? instagramUrl;
+  final String? facebookUrl;
+  final String? xUrl;
+  final String? bio;
 
   const ProfileEditDialog({
     super.key,
@@ -25,6 +29,10 @@ class ProfileEditDialog extends StatefulWidget {
     required this.isCustomNickname,
     this.nicknamePrefixIndex,
     this.nicknameSuffixIndex,
+    this.instagramUrl,
+    this.facebookUrl,
+    this.xUrl,
+    this.bio,
   });
 
   @override
@@ -35,6 +43,10 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
   late TextEditingController _nicknameController;
   late TextEditingController _emailController;
   late TextEditingController _passwordController;
+  late TextEditingController _instagramController;
+  late TextEditingController _facebookController;
+  late TextEditingController _xController;
+  late TextEditingController _bioController;
   
   late String _selectedImage;
   bool _isLoading = false;
@@ -63,6 +75,10 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
     _isCustomNickname = widget.isCustomNickname;
     _prefixIndex = widget.nicknamePrefixIndex;
     _suffixIndex = widget.nicknameSuffixIndex;
+    _instagramController = TextEditingController(text: widget.instagramUrl);
+    _facebookController = TextEditingController(text: widget.facebookUrl);
+    _xController = TextEditingController(text: widget.xUrl);
+    _bioController = TextEditingController(text: widget.bio);
     
     
     if (widget.currentProfileImage.startsWith('data:image')) {
@@ -85,6 +101,10 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
     _nicknameController.dispose();
     _emailController.dispose();
     _passwordController.dispose();
+    _instagramController.dispose();
+    _facebookController.dispose();
+    _xController.dispose();
+    _bioController.dispose();
     super.dispose();
   }
 
@@ -161,6 +181,10 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
         'nicknamePrefixIndex': _isCustomNickname ? null : _prefixIndex,
         'nicknameSuffixIndex': _isCustomNickname ? null : _suffixIndex,
         'isCustomNickname': _isCustomNickname,
+        'instagramUrl': _instagramController.text.trim(),
+        'facebookUrl': _facebookController.text.trim(),
+        'xUrl': _xController.text.trim(),
+        'bio': _bioController.text.trim(),
       });
 
       // 2. 이메일 변경 처리 (소셜 로그인이 아니며, 기존 이메일과 다르고, 비어있지 않을 때)
@@ -324,6 +348,21 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
               ),
               const SizedBox(height: 16),
 
+              // 자기 소개 입력
+              TextField(
+                controller: _bioController,
+                style: const TextStyle(color: Colors.white),
+                maxLength: 50,
+                decoration: InputDecoration(
+                  labelText: AppLocalizations.of(context)!.profileEditBio,
+                  labelStyle: const TextStyle(color: Colors.white70),
+                  enabledBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.white30)),
+                  focusedBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
+                  counterStyle: TextStyle(color: Colors.white54),
+                ),
+              ),
+              const SizedBox(height: 16),
+
               // 이메일 입력
               TextField(
                 controller: _emailController,
@@ -360,6 +399,51 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
                   ),
                 ),
               ],
+              
+              const SizedBox(height: 16),
+              const Divider(color: Colors.white24),
+              const SizedBox(height: 8),
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Text(AppLocalizations.of(context)!.profileEditSnsIntegration, style: const TextStyle(color: Colors.white70, fontSize: 12)),
+              ),
+              const SizedBox(height: 12),
+              
+              TextField(
+                controller: _instagramController,
+                style: const TextStyle(color: Colors.white),
+                decoration: InputDecoration(
+                  labelText: AppLocalizations.of(context)!.profileEditSnsInsta,
+                  labelStyle: const TextStyle(color: Colors.white70),
+                  enabledBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.white30)),
+                  focusedBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
+                  prefixIcon: Icon(Icons.camera_alt_outlined, color: Colors.white54, size: 20),
+                ),
+              ),
+              const SizedBox(height: 12),
+              TextField(
+                controller: _facebookController,
+                style: const TextStyle(color: Colors.white),
+                decoration: InputDecoration(
+                  labelText: AppLocalizations.of(context)!.profileEditSnsFb,
+                  labelStyle: const TextStyle(color: Colors.white70),
+                  enabledBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.white30)),
+                  focusedBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
+                  prefixIcon: Icon(Icons.facebook, color: Colors.white54, size: 20),
+                ),
+              ),
+              const SizedBox(height: 12),
+              TextField(
+                controller: _xController,
+                style: const TextStyle(color: Colors.white),
+                decoration: InputDecoration(
+                  labelText: AppLocalizations.of(context)!.profileEditSnsX,
+                  labelStyle: const TextStyle(color: Colors.white70),
+                  enabledBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.white30)),
+                  focusedBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
+                  prefixIcon: Icon(Icons.alternate_email, color: Colors.white54, size: 20),
+                ),
+              ),
               
               const SizedBox(height: 32),
 

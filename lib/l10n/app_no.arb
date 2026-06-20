@@ -385,8 +385,8 @@
   },
   "shopCancel": "Kansellere",
   "shopPurchase": "Kjøpe",
-  "shopAlreadyOwned": "Allerede eid. Prøv å bruke det i temainnstillinger!",
-  "shopPurchaseSuccess": "{skinName} ble kjøpt! Sjekk temainnstillingene.",
+  "shopAlreadyOwned": "Allerede eid. Prøv å bruke den i hudinnstillinger!",
+  "shopPurchaseSuccess": "{skinName} ble kjøpt! Sjekk hudinnstillingene.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -422,7 +422,7 @@
   "myMenuPushNotifications": "Push-varsler",
   "myMenuPushNotificationsDesc": "Nye horoskoper og hendelser",
   "myMenuLanguageSettings": "Språkinnstillinger",
-  "myMenuThemeSettings": "Temainnstillinger",
+  "myMenuThemeSettings": "Hudinnstillinger",
   "myMenuChangeBackground": "Endre bakgrunnsbilde",
   "myMenuSectionCustomerSupport": "Kundestøtte",
   "myMenuFaq": "Frequently Asked Questions (FAQ)",
@@ -1441,5 +1441,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Slett konto",
+  "myMenuDeleteAccountDesc": "Slett kontoen min og informasjonen min",
+  "myMenuDeleteAccountWarnTitle": "Advarsel om kontosletting",
+  "myMenuDeleteAccountWarnDesc": "Når du sletter kontoen din, vil alle data som er lagret på smarttelefonen også bli slettet. Ønsker du å fortsette?",
+  "myMenuDeleteAccountConfirm": "Slett",
+  "myMenuDeleteAccountCancel": "Kansellere",
+  "emailVerificationRequiredTitle": "E-postbekreftelse kreves",
+  "emailVerificationRequiredDesc": "Du må bekrefte e-posten din for å bruke hovedfunksjoner som tarotlesing og betalinger. Vennligst fullfør bekreftelsen i Min meny.",
+  "emailVerificationGoToMenu": "Gå til Min meny",
+  "profileEditBio": "Bio",
+  "profileEditSnsIntegration": "SNS-integrasjon (valgfritt)",
+  "profileEditSnsInsta": "Instagram URL (eller ID)",
+  "profileEditSnsFb": "Facebook URL",
+  "profileEditSnsX": "X (Twitter) URL",
+  "btnClose": "Lukke",
+  "cardDetailAddFavorite": "Lagt til i favoritter",
+  "cardDetailRemoveFavorite": "Fjernet fra favoritter",
+  "favoriteCardsTitle": "Favoritt kort",
+  "favoriteCardsEmpty": "Ingen favorittkort ennå.",
+  "cardDetailDataNotReady": "Detaljerte tolkningsdata er ennå ikke klare.",
+  "cardDetailNoData": "Ingen data tilgjengelig.",
+  "buttonSaveReading": "Lagre tarotlesing",
+  "readingSavedToDevice": "Lagret på enheten."
 }

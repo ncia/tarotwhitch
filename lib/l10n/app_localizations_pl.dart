@@ -4353,4 +4353,78 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Refleksja';
+
+  @override
+  String get myMenuDeleteAccount => 'Usuń konto';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Usuń moje konto i informacje';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Ostrzeżenie o usunięciu konta';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Po usunięciu konta wszystkie dane zapisane na Twoim smartfonie również zostaną usunięte. Czy chcesz kontynuować?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Usuwać';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Anulować';
+
+  @override
+  String get emailVerificationRequiredTitle =>
+      'Wymagana weryfikacja adresu e-mail';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Aby korzystać z głównych funkcji, takich jak czytanie Tarota i płatności, musisz zweryfikować swój adres e-mail. Dokończ weryfikację w Moim Menu.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Przejdź do Mojego menu';
+
+  @override
+  String get profileEditBio => 'Życiorys';
+
+  @override
+  String get profileEditSnsIntegration => 'Integracja z SNS (opcjonalnie)';
+
+  @override
+  String get profileEditSnsInsta =>
+      'Adres URL (lub identyfikator) na Instagramie';
+
+  @override
+  String get profileEditSnsFb => 'Adres URL Facebooka';
+
+  @override
+  String get profileEditSnsX => 'Adres URL X (Twitter).';
+
+  @override
+  String get btnClose => 'Zamknąć';
+
+  @override
+  String get cardDetailAddFavorite => 'Dodano do ulubionych';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Usunięto z Ulubionych';
+
+  @override
+  String get favoriteCardsTitle => 'Ulubione karty';
+
+  @override
+  String get favoriteCardsEmpty => 'Nie ma jeszcze ulubionych kart.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Szczegółowe dane interpretacyjne nie są jeszcze gotowe.';
+
+  @override
+  String get cardDetailNoData => 'Brak dostępnych danych.';
+
+  @override
+  String get buttonSaveReading => 'Zapisz czytanie Tarota';
+
+  @override
+  String get readingSavedToDevice => 'Zapisano na urządzeniu.';
 }

@@ -385,8 +385,8 @@
   },
   "shopCancel": "Tühista",
   "shopPurchase": "ostma",
-  "shopAlreadyOwned": "Juba omatud. Proovige seda teema seadetes rakendada!",
-  "shopPurchaseSuccess": "{skinName} ostmine õnnestus! Kontrollige teema seadeid.",
+  "shopAlreadyOwned": "Juba omatud. Proovige seda nahaseadetes rakendada!",
+  "shopPurchaseSuccess": "{skinName} ostmine õnnestus! Kontrollige naha sätteid.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -420,7 +420,7 @@
   "myMenuPushNotifications": "Tõukemärguanded",
   "myMenuPushNotificationsDesc": "Uued horoskoobid ja sündmused",
   "myMenuLanguageSettings": "Keeleseaded",
-  "myMenuThemeSettings": "Teema seaded",
+  "myMenuThemeSettings": "Naha sätted",
   "myMenuChangeBackground": "Muutke taustpilti",
   "myMenuSectionCustomerSupport": "Klienditugi",
   "myMenuFaq": "KKK",
@@ -1441,5 +1441,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Kustuta konto",
+  "myMenuDeleteAccountDesc": "Kustuta minu konto ja teave",
+  "myMenuDeleteAccountWarnTitle": "Konto kustutamise hoiatus",
+  "myMenuDeleteAccountWarnDesc": "Konto kustutamisel kustutatakse ka kõik nutitelefoni salvestatud andmed. Kas soovite jätkata?",
+  "myMenuDeleteAccountConfirm": "Kustuta",
+  "myMenuDeleteAccountCancel": "Tühista",
+  "emailVerificationRequiredTitle": "Vajalik e-posti kinnitus",
+  "emailVerificationRequiredDesc": "Peate oma e-posti aadressi kinnitama, et kasutada selliseid põhifunktsioone nagu Taro lugemine ja maksed. Lõpetage kinnitus Minu menüüs.",
+  "emailVerificationGoToMenu": "Avage Minu menüü",
+  "profileEditBio": "Bio",
+  "profileEditSnsIntegration": "SNS-i integreerimine (valikuline)",
+  "profileEditSnsInsta": "Instagrami URL (või ID)",
+  "profileEditSnsFb": "Facebooki URL",
+  "profileEditSnsX": "X (Twitteri) URL",
+  "btnClose": "Sule",
+  "cardDetailAddFavorite": "Lisatud lemmikute hulka",
+  "cardDetailRemoveFavorite": "Lemmikutest eemaldatud",
+  "favoriteCardsTitle": "Lemmikkaardid",
+  "favoriteCardsEmpty": "Lemmikkaarte pole veel.",
+  "cardDetailDataNotReady": "Üksikasjalikud tõlgendusandmed pole veel valmis.",
+  "cardDetailNoData": "Andmed puuduvad.",
+  "buttonSaveReading": "Salvestage Taro lugemine",
+  "readingSavedToDevice": "Salvestatud seadmesse."
 }

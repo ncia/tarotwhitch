@@ -4353,4 +4353,77 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Självreflektion';
+
+  @override
+  String get myMenuDeleteAccount => 'Ta bort konto';
+
+  @override
+  String get myMenuDeleteAccountDesc =>
+      'Ta bort mitt konto och min information';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Varning för borttagning av konto';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'När du raderar ditt konto kommer även all data som sparats på din smartphone att raderas. Vill du fortsätta?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Radera';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Avboka';
+
+  @override
+  String get emailVerificationRequiredTitle => 'E-postverifiering krävs';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Du måste verifiera din e-post för att använda huvudfunktioner som tarotläsning och betalningar. Vänligen slutför verifieringen i Min meny.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Gå till Min meny';
+
+  @override
+  String get profileEditBio => 'Bio';
+
+  @override
+  String get profileEditSnsIntegration => 'SNS-integration (valfritt)';
+
+  @override
+  String get profileEditSnsInsta => 'Instagram URL (eller ID)';
+
+  @override
+  String get profileEditSnsFb => 'Facebook URL';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) URL';
+
+  @override
+  String get btnClose => 'Nära';
+
+  @override
+  String get cardDetailAddFavorite => 'Lades till i Favoriter';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Borttagen från Favoriter';
+
+  @override
+  String get favoriteCardsTitle => 'Favoritkort';
+
+  @override
+  String get favoriteCardsEmpty => 'Inga favoritkort än.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Detaljerade tolkningsdata är ännu inte klara.';
+
+  @override
+  String get cardDetailNoData => 'Inga data tillgängliga.';
+
+  @override
+  String get buttonSaveReading => 'Spara tarotläsning';
+
+  @override
+  String get readingSavedToDevice => 'Sparad på enheten.';
 }

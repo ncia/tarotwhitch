@@ -4351,4 +4351,76 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Self-Reflection';
+
+  @override
+  String get myMenuDeleteAccount => 'Kustuta konto';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Kustuta minu konto ja teave';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Konto kustutamise hoiatus';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Konto kustutamisel kustutatakse ka kõik nutitelefoni salvestatud andmed. Kas soovite jätkata?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Kustuta';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Tühista';
+
+  @override
+  String get emailVerificationRequiredTitle => 'Vajalik e-posti kinnitus';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Peate oma e-posti aadressi kinnitama, et kasutada selliseid põhifunktsioone nagu Taro lugemine ja maksed. Lõpetage kinnitus Minu menüüs.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Avage Minu menüü';
+
+  @override
+  String get profileEditBio => 'Bio';
+
+  @override
+  String get profileEditSnsIntegration => 'SNS-i integreerimine (valikuline)';
+
+  @override
+  String get profileEditSnsInsta => 'Instagrami URL (või ID)';
+
+  @override
+  String get profileEditSnsFb => 'Facebooki URL';
+
+  @override
+  String get profileEditSnsX => 'X (Twitteri) URL';
+
+  @override
+  String get btnClose => 'Sule';
+
+  @override
+  String get cardDetailAddFavorite => 'Lisatud lemmikute hulka';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Lemmikutest eemaldatud';
+
+  @override
+  String get favoriteCardsTitle => 'Lemmikkaardid';
+
+  @override
+  String get favoriteCardsEmpty => 'Lemmikkaarte pole veel.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Üksikasjalikud tõlgendusandmed pole veel valmis.';
+
+  @override
+  String get cardDetailNoData => 'Andmed puuduvad.';
+
+  @override
+  String get buttonSaveReading => 'Salvestage Taro lugemine';
+
+  @override
+  String get readingSavedToDevice => 'Salvestatud seadmesse.';
 }

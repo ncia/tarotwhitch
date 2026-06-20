@@ -385,8 +385,8 @@
   },
   "shopCancel": "Atcelt",
   "shopPurchase": "Pirkums",
-  "shopAlreadyOwned": "Jau pieder. Mēģiniet to lietot motīva iestatījumos!",
-  "shopPurchaseSuccess": "{skinName} ir veiksmīgi iegādāts! Pārbaudiet motīva iestatījumus.",
+  "shopAlreadyOwned": "Jau pieder. Mēģiniet to lietot ādas iestatījumos!",
+  "shopPurchaseSuccess": "{skinName} ir veiksmīgi iegādāts! Pārbaudiet ādas iestatījumus.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -422,7 +422,7 @@
   "myMenuPushNotifications": "Push paziņojumi",
   "myMenuPushNotificationsDesc": "Jauni horoskopi un notikumi",
   "myMenuLanguageSettings": "Valodas iestatījumi",
-  "myMenuThemeSettings": "Motīvu iestatījumi",
+  "myMenuThemeSettings": "Ādas iestatījumi",
   "myMenuChangeBackground": "Mainiet fona attēlu",
   "myMenuSectionCustomerSupport": "Klientu atbalsts",
   "myMenuFaq": "Bieži uzdotie jautājumi (FAQ)",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Dzēst kontu",
+  "myMenuDeleteAccountDesc": "Dzēst manu kontu un informāciju",
+  "myMenuDeleteAccountWarnTitle": "Brīdinājums par konta dzēšanu",
+  "myMenuDeleteAccountWarnDesc": "Dzēšot kontu, tiks dzēsti arī visi viedtālrunī saglabātie dati. Vai vēlaties turpināt?",
+  "myMenuDeleteAccountConfirm": "Dzēst",
+  "myMenuDeleteAccountCancel": "Atcelt",
+  "emailVerificationRequiredTitle": "Nepieciešama e-pasta pārbaude",
+  "emailVerificationRequiredDesc": "Lai izmantotu galvenās funkcijas, piemēram, Tarot lasīšanu un maksājumus, jums ir jāverificē savs e-pasts. Lūdzu, pabeidziet verifikāciju sadaļā Mana izvēlne.",
+  "emailVerificationGoToMenu": "Dodieties uz Manu izvēlni",
+  "profileEditBio": "Bio",
+  "profileEditSnsIntegration": "SNS integrācija (pēc izvēles)",
+  "profileEditSnsInsta": "Instagram URL (vai ID)",
+  "profileEditSnsFb": "Facebook URL",
+  "profileEditSnsX": "X (Twitter) URL",
+  "btnClose": "Aizvērt",
+  "cardDetailAddFavorite": "Pievienots izlasei",
+  "cardDetailRemoveFavorite": "Noņemts no izlases",
+  "favoriteCardsTitle": "Mīļākās kartes",
+  "favoriteCardsEmpty": "Vēl nav iecienītāko kartīšu.",
+  "cardDetailDataNotReady": "Detalizēti interpretācijas dati vēl nav gatavi.",
+  "cardDetailNoData": "Nav pieejami dati.",
+  "buttonSaveReading": "Saglabājiet Taro lasīšanu",
+  "readingSavedToDevice": "Saglabāts ierīcē."
 }

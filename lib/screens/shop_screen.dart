@@ -43,14 +43,34 @@ class ShopScreen extends StatelessWidget {
                           ),
                           const SizedBox(height: 24),
                           TabBar(
-                            isScrollable: true,
-                            tabAlignment: TabAlignment.center,
                             indicatorColor: Colors.amberAccent,
                             labelColor: Colors.amberAccent,
                             unselectedLabelColor: Colors.white54,
                             tabs: [
-                              Tab(text: AppLocalizations.of(context)!.shopTabCoin),
-                              Tab(text: AppLocalizations.of(context)!.shopTabTheme),
+                              Tab(
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.min,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    const Icon(Icons.monetization_on, size: 18),
+                                    const SizedBox(width: 6),
+                                    Text(AppLocalizations.of(context)!.shopTabCoin),
+                                    const SizedBox(width: 24),
+                                  ],
+                                ),
+                              ),
+                              Tab(
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.min,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    const Icon(Icons.palette, size: 18),
+                                    const SizedBox(width: 6),
+                                    Text(AppLocalizations.of(context)!.shopTabTheme),
+                                    const SizedBox(width: 24),
+                                  ],
+                                ),
+                              ),
                             ],
                           ),
                         ],

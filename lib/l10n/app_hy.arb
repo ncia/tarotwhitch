@@ -385,8 +385,8 @@
   },
   "shopCancel": "Չեղարկել",
   "shopPurchase": "Գնել",
-  "shopAlreadyOwned": "Արդեն պատկանող: Փորձեք կիրառել այն թեմայի կարգավորումներում:",
-  "shopPurchaseSuccess": "{skinName}-ը հաջողությամբ գնվեց: Ստուգեք թեմայի կարգավորումները:",
+  "shopAlreadyOwned": "Արդեն պատկանող: Փորձեք կիրառել այն մաշկի պարամետրերում:",
+  "shopPurchaseSuccess": "{skinName}-ը հաջողությամբ գնվեց: Ստուգեք մաշկի կարգավորումները:",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -420,7 +420,7 @@
   "myMenuPushNotifications": "Ստանալ ծանուցումներ",
   "myMenuPushNotificationsDesc": "Նոր հորոսկոպներ և իրադարձություններ",
   "myMenuLanguageSettings": "Լեզվի կարգավորումներ",
-  "myMenuThemeSettings": "Թեմայի կարգավորումներ",
+  "myMenuThemeSettings": "Մաշկի կարգավորումներ",
   "myMenuChangeBackground": "Փոխել ֆոնային պատկերը",
   "myMenuSectionCustomerSupport": "Հաճախորդների աջակցություն",
   "myMenuFaq": "ՀՏՀ",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Ջնջել հաշիվը",
+  "myMenuDeleteAccountDesc": "Ջնջել իմ հաշիվը և տեղեկությունները",
+  "myMenuDeleteAccountWarnTitle": "Հաշվի ջնջման նախազգուշացում",
+  "myMenuDeleteAccountWarnDesc": "Ձեր հաշիվը ջնջելուց հետո ձեր սմարթֆոնում պահված բոլոր տվյալները նույնպես կջնջվեն: Ցանկանու՞մ եք շարունակել։",
+  "myMenuDeleteAccountConfirm": "Ջնջել",
+  "myMenuDeleteAccountCancel": "Չեղարկել",
+  "emailVerificationRequiredTitle": "Պահանջվում է էլփոստի հաստատում",
+  "emailVerificationRequiredDesc": "Դուք պետք է հաստատեք ձեր էլ.փոստը, որպեսզի օգտագործեք հիմնական գործառույթները, ինչպիսիք են Tarot ընթերցումը և վճարումները: Խնդրում ենք լրացնել ստուգումը Իմ ընտրացանկում:",
+  "emailVerificationGoToMenu": "Գնացեք Իմ ընտրացանկ",
+  "profileEditBio": "Կենսագրություն",
+  "profileEditSnsIntegration": "SNS ինտեգրում (ըստ ցանկության)",
+  "profileEditSnsInsta": "Instagram URL (կամ ID)",
+  "profileEditSnsFb": "Facebook URL",
+  "profileEditSnsX": "X (Twitter) URL",
+  "btnClose": "Փակել",
+  "cardDetailAddFavorite": "Ավելացվեց ընտրյալների մեջ",
+  "cardDetailRemoveFavorite": "Հեռացված է ընտրյալներից",
+  "favoriteCardsTitle": "Սիրված քարտեր",
+  "favoriteCardsEmpty": "Սիրված քարտեր դեռ չկան:",
+  "cardDetailDataNotReady": "Մանրամասն մեկնաբանության տվյալները դեռ պատրաստ չեն:",
+  "cardDetailNoData": "Տվյալներ չկան:",
+  "buttonSaveReading": "Պահպանեք Tarot ընթերցանությունը",
+  "readingSavedToDevice": "Պահված է սարքում:"
 }

@@ -385,8 +385,8 @@
   },
   "shopCancel": "İptal etmek",
   "shopPurchase": "Satın almak",
-  "shopAlreadyOwned": "Zaten sahip olunan. Tema ayarlarında uygulamayı deneyin!",
-  "shopPurchaseSuccess": "{skinName} başarıyla satın alındı! Tema ayarlarını kontrol edin.",
+  "shopAlreadyOwned": "Zaten sahip olunan. Cilt ayarlarında uygulamayı deneyin!",
+  "shopPurchaseSuccess": "{skinName} başarıyla satın alındı! Dış görünüm ayarlarını kontrol edin.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -422,7 +422,7 @@
   "myMenuPushNotifications": "Anında Bildirimler",
   "myMenuPushNotificationsDesc": "Yeni burçlar ve etkinlikler",
   "myMenuLanguageSettings": "Dil Ayarları",
-  "myMenuThemeSettings": "Tema Ayarları",
+  "myMenuThemeSettings": "Dış Görünüm Ayarları",
   "myMenuChangeBackground": "Arka plan resmini değiştir",
   "myMenuSectionCustomerSupport": "Müşteri Desteği",
   "myMenuFaq": "SSS",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Hesabı Sil",
+  "myMenuDeleteAccountDesc": "Hesabımı ve bilgilerimi sil",
+  "myMenuDeleteAccountWarnTitle": "Hesap Silme Uyarısı",
+  "myMenuDeleteAccountWarnDesc": "Hesabınızı sildikten sonra akıllı telefonunuzda kayıtlı tüm veriler de silinecektir. Devam etmek istiyor musunuz?",
+  "myMenuDeleteAccountConfirm": "Silmek",
+  "myMenuDeleteAccountCancel": "İptal etmek",
+  "emailVerificationRequiredTitle": "E-posta Doğrulaması Gerekli",
+  "emailVerificationRequiredDesc": "Tarot okuma ve ödemeler gibi temel özellikleri kullanabilmek için e-posta adresinizi doğrulamanız gerekmektedir. Lütfen Menüm bölümündeki doğrulamayı tamamlayın.",
+  "emailVerificationGoToMenu": "Menüm'e git",
+  "profileEditBio": "Biyografi",
+  "profileEditSnsIntegration": "SNS Entegrasyonu (Opsiyonel)",
+  "profileEditSnsInsta": "Instagram URL'si (veya kimliği)",
+  "profileEditSnsFb": "Facebook URL'si",
+  "profileEditSnsX": "X (Twitter) URL'si",
+  "btnClose": "Kapalı",
+  "cardDetailAddFavorite": "Favorilere eklendi",
+  "cardDetailRemoveFavorite": "Favorilerden kaldırıldı",
+  "favoriteCardsTitle": "Favori Kartlar",
+  "favoriteCardsEmpty": "Henüz favori kart yok.",
+  "cardDetailDataNotReady": "Detaylı yorumlama verileri henüz hazır değil.",
+  "cardDetailNoData": "Veri yok.",
+  "buttonSaveReading": "Tarot Okumasını Kaydet",
+  "readingSavedToDevice": "Cihaza kaydedildi."
 }

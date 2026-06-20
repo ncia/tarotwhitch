@@ -4363,4 +4363,79 @@ class AppLocalizationsMl extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'ആത്മചിന്ത';
+
+  @override
+  String get myMenuDeleteAccount => 'അക്കൗണ്ട് ഇല്ലാതാക്കുക';
+
+  @override
+  String get myMenuDeleteAccountDesc =>
+      'എൻ്റെ അക്കൗണ്ടും വിവരങ്ങളും ഇല്ലാതാക്കുക';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle =>
+      'അക്കൗണ്ട് ഇല്ലാതാക്കൽ മുന്നറിയിപ്പ്';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'നിങ്ങളുടെ അക്കൗണ്ട് ഇല്ലാതാക്കുമ്പോൾ, നിങ്ങളുടെ സ്മാർട്ട്ഫോണിൽ സംരക്ഷിച്ചിരിക്കുന്ന എല്ലാ ഡാറ്റയും ഇല്ലാതാക്കപ്പെടും. നിങ്ങൾക്ക് തുടരാൻ താൽപ്പര്യമുണ്ടോ?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'ഇല്ലാതാക്കുക';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'റദ്ദാക്കുക';
+
+  @override
+  String get emailVerificationRequiredTitle => 'ഇമെയിൽ പരിശോധന ആവശ്യമാണ്';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'ടാരറ്റ് വായനയും പേയ്‌മെൻ്റുകളും പോലുള്ള പ്രധാന ഫീച്ചറുകൾ ഉപയോഗിക്കുന്നതിന് നിങ്ങളുടെ ഇമെയിൽ പരിശോധിച്ചുറപ്പിക്കേണ്ടതുണ്ട്. എൻ്റെ മെനുവിൽ പരിശോധിച്ചുറപ്പിക്കൽ പൂർത്തിയാക്കുക.';
+
+  @override
+  String get emailVerificationGoToMenu => 'എൻ്റെ മെനുവിലേക്ക് പോകുക';
+
+  @override
+  String get profileEditBio => 'ബയോ';
+
+  @override
+  String get profileEditSnsIntegration => 'SNS ഇൻ്റഗ്രേഷൻ (ഓപ്ഷണൽ)';
+
+  @override
+  String get profileEditSnsInsta => 'Instagram URL (അല്ലെങ്കിൽ ഐഡി)';
+
+  @override
+  String get profileEditSnsFb => 'Facebook URL';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) URL';
+
+  @override
+  String get btnClose => 'അടയ്ക്കുക';
+
+  @override
+  String get cardDetailAddFavorite => 'പ്രിയപ്പെട്ടവയിലേക്ക് ചേർത്തു';
+
+  @override
+  String get cardDetailRemoveFavorite =>
+      'പ്രിയപ്പെട്ടവയിൽ നിന്ന് നീക്കംചെയ്‌തു';
+
+  @override
+  String get favoriteCardsTitle => 'പ്രിയപ്പെട്ട കാർഡുകൾ';
+
+  @override
+  String get favoriteCardsEmpty => 'ഇതുവരെ പ്രിയപ്പെട്ട കാർഡുകളൊന്നുമില്ല.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'വിശദമായ വ്യാഖ്യാന ഡാറ്റ ഇതുവരെ തയ്യാറായിട്ടില്ല.';
+
+  @override
+  String get cardDetailNoData => 'വിവരങ്ങളൊന്നും ലഭ്യമല്ല.';
+
+  @override
+  String get buttonSaveReading => 'ടാരറ്റ് വായന സംരക്ഷിക്കുക';
+
+  @override
+  String get readingSavedToDevice => 'ഉപകരണത്തിൽ സംരക്ഷിച്ചു.';
 }

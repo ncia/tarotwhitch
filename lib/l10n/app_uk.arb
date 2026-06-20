@@ -385,8 +385,8 @@
   },
   "shopCancel": "Скасувати",
   "shopPurchase": "Купівля",
-  "shopAlreadyOwned": "Вже у власності. Спробуйте застосувати це в налаштуваннях теми!",
-  "shopPurchaseSuccess": "{skinName} успішно придбано! Перевірте налаштування теми.",
+  "shopAlreadyOwned": "Вже у власності. Спробуйте застосувати це в налаштуваннях шкіри!",
+  "shopPurchaseSuccess": "{skinName} успішно придбано! Перевірте налаштування шкіри.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -422,7 +422,7 @@
   "myMenuPushNotifications": "Push-сповіщення",
   "myMenuPushNotificationsDesc": "Нові гороскопи та події",
   "myMenuLanguageSettings": "Налаштування мови",
-  "myMenuThemeSettings": "Налаштування теми",
+  "myMenuThemeSettings": "Налаштування шкіри",
   "myMenuChangeBackground": "Змінити фонове зображення",
   "myMenuSectionCustomerSupport": "Підтримка клієнтів",
   "myMenuFaq": "Часті запитання (FAQ)",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Видалити акаунт",
+  "myMenuDeleteAccountDesc": "Видалити мій обліковий запис і інформацію",
+  "myMenuDeleteAccountWarnTitle": "Попередження про видалення облікового запису",
+  "myMenuDeleteAccountWarnDesc": "Після видалення облікового запису всі дані, збережені на вашому смартфоні, також будуть видалені. Ви бажаєте продовжити?",
+  "myMenuDeleteAccountConfirm": "Видалити",
+  "myMenuDeleteAccountCancel": "Скасувати",
+  "emailVerificationRequiredTitle": "Потрібна перевірка електронної пошти",
+  "emailVerificationRequiredDesc": "Вам потрібно підтвердити свою електронну адресу, щоб користуватися такими основними функціями, як читання таро та платежі. Пройдіть перевірку в Моєму меню.",
+  "emailVerificationGoToMenu": "Перейдіть до «Моє меню».",
+  "profileEditBio": "біографія",
+  "profileEditSnsIntegration": "Інтеграція SNS (необов'язково)",
+  "profileEditSnsInsta": "URL-адреса Instagram (або ID)",
+  "profileEditSnsFb": "URL-адреса Facebook",
+  "profileEditSnsX": "URL-адреса X (Twitter).",
+  "btnClose": "Закрити",
+  "cardDetailAddFavorite": "Додано до вибраного",
+  "cardDetailRemoveFavorite": "Видалено з вибраного",
+  "favoriteCardsTitle": "Улюблені картки",
+  "favoriteCardsEmpty": "Ще немає улюблених карток.",
+  "cardDetailDataNotReady": "Дані детальної інтерпретації ще не готові.",
+  "cardDetailNoData": "Немає даних.",
+  "buttonSaveReading": "Зберегти читання Таро",
+  "readingSavedToDevice": "Збережено на пристрої."
 }

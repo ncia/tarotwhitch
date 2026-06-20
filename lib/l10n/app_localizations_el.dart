@@ -4361,4 +4361,78 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Αυτοστοχασμός';
+
+  @override
+  String get myMenuDeleteAccount => 'Διαγραφή λογαριασμού';
+
+  @override
+  String get myMenuDeleteAccountDesc =>
+      'Διαγραφή του λογαριασμού και των πληροφοριών μου';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle =>
+      'Προειδοποίηση διαγραφής λογαριασμού';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Με τη διαγραφή του λογαριασμού σας, όλα τα δεδομένα που είναι αποθηκευμένα στο smartphone σας θα διαγραφούν επίσης. Θέλετε να συνεχίσετε;';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Διαγράφω';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Ματαίωση';
+
+  @override
+  String get emailVerificationRequiredTitle => 'Απαιτείται επαλήθευση email';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Πρέπει να επαληθεύσετε το email σας για να χρησιμοποιήσετε κύριες λειτουργίες όπως η ανάγνωση Ταρώ και οι πληρωμές. Ολοκληρώστε την επαλήθευση στο Μενού μου.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Μεταβείτε στο Μενού μου';
+
+  @override
+  String get profileEditBio => 'Bio';
+
+  @override
+  String get profileEditSnsIntegration => 'Ενσωμάτωση SNS (Προαιρετικό)';
+
+  @override
+  String get profileEditSnsInsta => 'URL (ή αναγνωριστικό) του Instagram';
+
+  @override
+  String get profileEditSnsFb => 'Διεύθυνση URL στο Facebook';
+
+  @override
+  String get profileEditSnsX => 'X (Twitter) URL';
+
+  @override
+  String get btnClose => 'Κοντά';
+
+  @override
+  String get cardDetailAddFavorite => 'Προστέθηκε στα Αγαπημένα';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Καταργήθηκε από τα Αγαπημένα';
+
+  @override
+  String get favoriteCardsTitle => 'Αγαπημένες κάρτες';
+
+  @override
+  String get favoriteCardsEmpty => 'Δεν υπάρχουν αγαπημένες κάρτες ακόμα.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Τα λεπτομερή δεδομένα ερμηνείας δεν είναι ακόμη έτοιμα.';
+
+  @override
+  String get cardDetailNoData => 'Δεν υπάρχουν διαθέσιμα δεδομένα.';
+
+  @override
+  String get buttonSaveReading => 'Αποθήκευση ανάγνωσης Ταρώ';
+
+  @override
+  String get readingSavedToDevice => 'Αποθηκεύτηκε στη συσκευή.';
 }

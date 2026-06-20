@@ -4355,4 +4355,77 @@ class AppLocalizationsSr extends AppLocalizations {
 
   @override
   String get tagSelfReflection => 'Samorefleksija';
+
+  @override
+  String get myMenuDeleteAccount => 'Избриши налог';
+
+  @override
+  String get myMenuDeleteAccountDesc => 'Избриши мој налог и информације';
+
+  @override
+  String get myMenuDeleteAccountWarnTitle => 'Упозорење о брисању налога';
+
+  @override
+  String get myMenuDeleteAccountWarnDesc =>
+      'Након брисања налога, сви подаци сачувани на вашем паметном телефону ће такође бити избрисани. Да ли желите да наставите?';
+
+  @override
+  String get myMenuDeleteAccountConfirm => 'Избриши';
+
+  @override
+  String get myMenuDeleteAccountCancel => 'Откажи';
+
+  @override
+  String get emailVerificationRequiredTitle =>
+      'Потребна је верификација е-поште';
+
+  @override
+  String get emailVerificationRequiredDesc =>
+      'Морате да верификујете своју е-пошту да бисте користили главне функције као што су читање тарота и плаћања. Завршите верификацију у мом менију.';
+
+  @override
+  String get emailVerificationGoToMenu => 'Идите на Мој мени';
+
+  @override
+  String get profileEditBio => 'Био';
+
+  @override
+  String get profileEditSnsIntegration => 'СНС интеграција (опционо)';
+
+  @override
+  String get profileEditSnsInsta => 'Инстаграм УРЛ (или ИД)';
+
+  @override
+  String get profileEditSnsFb => 'Фацебоок УРЛ';
+
+  @override
+  String get profileEditSnsX => 'Кс (Твитер) УРЛ';
+
+  @override
+  String get btnClose => 'Затвори';
+
+  @override
+  String get cardDetailAddFavorite => 'Додато у фаворите';
+
+  @override
+  String get cardDetailRemoveFavorite => 'Уклоњено из омиљених';
+
+  @override
+  String get favoriteCardsTitle => 'Фаворите Цардс';
+
+  @override
+  String get favoriteCardsEmpty => 'Још нема омиљених картица.';
+
+  @override
+  String get cardDetailDataNotReady =>
+      'Детаљни подаци о тумачењу још нису спремни.';
+
+  @override
+  String get cardDetailNoData => 'Нема доступних података.';
+
+  @override
+  String get buttonSaveReading => 'Сачувај читање тарота';
+
+  @override
+  String get readingSavedToDevice => 'Сачувано на уређају.';
 }

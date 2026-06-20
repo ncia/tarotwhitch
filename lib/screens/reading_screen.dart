@@ -74,6 +74,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
   final TtsService _ttsService = TtsService();
   String _aiReadingText = '';
   bool _isAiTyping = false;
+  TarotDiary? _currentDiary;
 
   @override
   void initState() {
@@ -303,7 +304,13 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
         witchId: widget.selectedWitch?.id,
       );
 
-      await DiaryService.instance.saveDiary(diary);
+      if (mounted) {
+        setState(() {
+          _currentDiary = diary;
+        });
+      }
+
+      await DiaryService.instance.saveToCloudOnly(diary);
     } catch (e) {
       debugPrint('Error auto-saving diary: $e');
     }
@@ -712,6 +719,31 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
                       ),
                     ),
+                    const SizedBox(width: 12),
+                    if (_currentDiary != null)
+                      OutlinedButton.icon(
+                        onPressed: () async {
+                          if (_currentDiary != null) {
+                            await DiaryService.instance.saveToLocalOnly(_currentDiary!);
+                            if (mounted) {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                SnackBar(
+                                  content: Text(AppLocalizations.of(context)!.readingSavedToDevice, style: const TextStyle(fontWeight: FontWeight.bold)),
+                                  backgroundColor: Colors.green,
+                                  duration: const Duration(seconds: 2),
+                                ),
+                              );
+                            }
+                          }
+                        },
+                        icon: const Icon(Icons.save_alt, size: 18),
+                        label: Text(AppLocalizations.of(context)!.buttonSaveReading),
+                        style: OutlinedButton.styleFrom(
+                          foregroundColor: Colors.lightGreenAccent,
+                          side: const BorderSide(color: Colors.lightGreenAccent),
+                          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                        ),
+                      ),
                     const SizedBox(width: 12),
                     OutlinedButton(
                       onPressed: () {

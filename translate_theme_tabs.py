@@ -37,7 +37,34 @@ def main():
     with open('lib/l10n/app_en.arb', 'r', encoding='utf-8') as f:
         en_data = json.load(f)
 
-    keys = ['themeFree', 'themePaid']
+    keys = [
+        'myMenuDeleteAccount',
+        'myMenuDeleteAccountDesc',
+        'myMenuDeleteAccountWarnTitle',
+        'myMenuDeleteAccountWarnDesc',
+        'myMenuDeleteAccountConfirm',
+        'myMenuDeleteAccountCancel',
+        'emailVerificationRequiredTitle',
+        'emailVerificationRequiredDesc',
+        'emailVerificationGoToMenu',
+        'profileEditBio',
+        'profileEditSnsIntegration',
+        'profileEditSnsInsta',
+        'profileEditSnsFb',
+        'profileEditSnsX',
+        'btnClose',
+        'cardDetailAddFavorite',
+        'cardDetailRemoveFavorite',
+        'favoriteCardsTitle',
+        'favoriteCardsEmpty',
+        'cardDetailDataNotReady',
+        'cardDetailNoData',
+        'buttonSaveReading',
+        'readingSavedToDevice',
+        'myMenuThemeSettings',
+        'shopAlreadyOwned',
+        'shopPurchaseSuccess'
+    ]
     files = glob.glob('lib/l10n/app_*.arb')
     files = [f for f in files if not f.endswith('app_en.arb') and not f.endswith('app_ko.arb')]
 

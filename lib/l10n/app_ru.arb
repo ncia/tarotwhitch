@@ -385,8 +385,8 @@
   },
   "shopCancel": "Отмена",
   "shopPurchase": "Покупка",
-  "shopAlreadyOwned": "Уже в собственности. Попробуйте применить это в настройках темы!",
-  "shopPurchaseSuccess": "{skinName} успешно куплен! Проверьте настройки темы.",
+  "shopAlreadyOwned": "Уже в собственности. Попробуйте применить его в настройках скина!",
+  "shopPurchaseSuccess": "{skinName} успешно куплен! Проверьте настройки скина.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -422,7 +422,7 @@
   "myMenuPushNotifications": "Push-уведомления",
   "myMenuPushNotificationsDesc": "Новые гороскопы и события",
   "myMenuLanguageSettings": "Языковые настройки",
-  "myMenuThemeSettings": "Настройки темы",
+  "myMenuThemeSettings": "Настройки скина",
   "myMenuChangeBackground": "Изменить фоновое изображение",
   "myMenuSectionCustomerSupport": "Служба поддержки клиентов",
   "myMenuFaq": "Часто задаваемые вопросы",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Удалить аккаунт",
+  "myMenuDeleteAccountDesc": "Удалить мою учетную запись и информацию",
+  "myMenuDeleteAccountWarnTitle": "Предупреждение об удалении учетной записи",
+  "myMenuDeleteAccountWarnDesc": "При удалении вашей учетной записи все данные, сохраненные на вашем смартфоне, также будут удалены. Хотите продолжить?",
+  "myMenuDeleteAccountConfirm": "Удалить",
+  "myMenuDeleteAccountCancel": "Отмена",
+  "emailVerificationRequiredTitle": "Требуется подтверждение электронной почты",
+  "emailVerificationRequiredDesc": "Вам необходимо подтвердить свой адрес электронной почты, чтобы использовать основные функции, такие как чтение Таро и платежи. Пожалуйста, завершите проверку в Моем меню.",
+  "emailVerificationGoToMenu": "Перейти в Мое Меню",
+  "profileEditBio": "Био",
+  "profileEditSnsIntegration": "Интеграция с социальными сетями (опционально)",
+  "profileEditSnsInsta": "URL-адрес Instagram (или идентификатор)",
+  "profileEditSnsFb": "URL-адрес Facebook",
+  "profileEditSnsX": "X (Твиттер) URL",
+  "btnClose": "Закрывать",
+  "cardDetailAddFavorite": "Добавлено в избранное",
+  "cardDetailRemoveFavorite": "Удалено из избранного",
+  "favoriteCardsTitle": "Любимые карты",
+  "favoriteCardsEmpty": "Любимых карт пока нет.",
+  "cardDetailDataNotReady": "Подробные данные интерпретации еще не готовы.",
+  "cardDetailNoData": "Данные отсутствуют.",
+  "buttonSaveReading": "Сохранить чтение Таро",
+  "readingSavedToDevice": "Сохранено на устройстве."
 }

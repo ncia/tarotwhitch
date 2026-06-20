@@ -385,8 +385,8 @@
   },
   "shopCancel": "Batal",
   "shopPurchase": "Belian",
-  "shopAlreadyOwned": "Sudah dimiliki. Cuba gunakannya dalam tetapan tema!",
-  "shopPurchaseSuccess": "{skinName} berjaya dibeli! Semak tetapan tema.",
+  "shopAlreadyOwned": "Sudah dimiliki. Cuba gunakan dalam tetapan kulit!",
+  "shopPurchaseSuccess": "{skinName} berjaya dibeli! Semak tetapan kulit.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -422,7 +422,7 @@
   "myMenuPushNotifications": "Pemberitahuan Tolak",
   "myMenuPushNotificationsDesc": "Horoskop dan acara baharu",
   "myMenuLanguageSettings": "Tetapan Bahasa",
-  "myMenuThemeSettings": "Tetapan Tema",
+  "myMenuThemeSettings": "Tetapan Kulit",
   "myMenuChangeBackground": "Tukar imej latar belakang",
   "myMenuSectionCustomerSupport": "Sokongan Pelanggan",
   "myMenuFaq": "Soalan Lazim",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Padam Akaun",
+  "myMenuDeleteAccountDesc": "Padamkan akaun dan maklumat saya",
+  "myMenuDeleteAccountWarnTitle": "Amaran Pemadaman Akaun",
+  "myMenuDeleteAccountWarnDesc": "Selepas memadamkan akaun anda, semua data yang disimpan pada telefon pintar anda juga akan dipadamkan. Adakah anda ingin meneruskan?",
+  "myMenuDeleteAccountConfirm": "Padam",
+  "myMenuDeleteAccountCancel": "Batal",
+  "emailVerificationRequiredTitle": "Pengesahan E-mel Diperlukan",
+  "emailVerificationRequiredDesc": "Anda perlu mengesahkan e-mel anda untuk menggunakan ciri utama seperti membaca Tarot dan pembayaran. Sila lengkapkan pengesahan dalam Menu Saya.",
+  "emailVerificationGoToMenu": "Pergi ke Menu Saya",
+  "profileEditBio": "Bio",
+  "profileEditSnsIntegration": "Integrasi SNS (Pilihan)",
+  "profileEditSnsInsta": "URL Instagram (atau ID)",
+  "profileEditSnsFb": "URL Facebook",
+  "profileEditSnsX": "URL X (Twitter).",
+  "btnClose": "tutup",
+  "cardDetailAddFavorite": "Ditambah pada Kegemaran",
+  "cardDetailRemoveFavorite": "Dialih keluar daripada Kegemaran",
+  "favoriteCardsTitle": "Kad Kegemaran",
+  "favoriteCardsEmpty": "Tiada kad kegemaran lagi.",
+  "cardDetailDataNotReady": "Data tafsiran terperinci belum lagi sedia.",
+  "cardDetailNoData": "Tiada data tersedia.",
+  "buttonSaveReading": "Simpan Bacaan Tarot",
+  "readingSavedToDevice": "Disimpan pada peranti."
 }

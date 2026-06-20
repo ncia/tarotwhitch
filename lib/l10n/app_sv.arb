@@ -385,8 +385,8 @@
   },
   "shopCancel": "Avboka",
   "shopPurchase": "Köpa",
-  "shopAlreadyOwned": "Redan ägd. Testa att använda det i temainställningar!",
-  "shopPurchaseSuccess": "{skinName} har köpts! Kontrollera temainställningarna.",
+  "shopAlreadyOwned": "Ägs redan. Testa att applicera den i hudinställningar!",
+  "shopPurchaseSuccess": "{skinName} har köpts! Kontrollera hudinställningarna.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -422,7 +422,7 @@
   "myMenuPushNotifications": "Push-meddelanden",
   "myMenuPushNotificationsDesc": "Nya horoskop och händelser",
   "myMenuLanguageSettings": "Språkinställningar",
-  "myMenuThemeSettings": "Temainställningar",
+  "myMenuThemeSettings": "Hudinställningar",
   "myMenuChangeBackground": "Ändra bakgrundsbild",
   "myMenuSectionCustomerSupport": "Kundsupport",
   "myMenuFaq": "Vanliga frågor (FAQ)",
@@ -1448,5 +1448,28 @@
         "type": "String"
       }
     }
-  }
+  },
+  "myMenuDeleteAccount": "Ta bort konto",
+  "myMenuDeleteAccountDesc": "Ta bort mitt konto och min information",
+  "myMenuDeleteAccountWarnTitle": "Varning för borttagning av konto",
+  "myMenuDeleteAccountWarnDesc": "När du raderar ditt konto kommer även all data som sparats på din smartphone att raderas. Vill du fortsätta?",
+  "myMenuDeleteAccountConfirm": "Radera",
+  "myMenuDeleteAccountCancel": "Avboka",
+  "emailVerificationRequiredTitle": "E-postverifiering krävs",
+  "emailVerificationRequiredDesc": "Du måste verifiera din e-post för att använda huvudfunktioner som tarotläsning och betalningar. Vänligen slutför verifieringen i Min meny.",
+  "emailVerificationGoToMenu": "Gå till Min meny",
+  "profileEditBio": "Bio",
+  "profileEditSnsIntegration": "SNS-integration (valfritt)",
+  "profileEditSnsInsta": "Instagram URL (eller ID)",
+  "profileEditSnsFb": "Facebook URL",
+  "profileEditSnsX": "X (Twitter) URL",
+  "btnClose": "Nära",
+  "cardDetailAddFavorite": "Lades till i Favoriter",
+  "cardDetailRemoveFavorite": "Borttagen från Favoriter",
+  "favoriteCardsTitle": "Favoritkort",
+  "favoriteCardsEmpty": "Inga favoritkort än.",
+  "cardDetailDataNotReady": "Detaljerade tolkningsdata är ännu inte klara.",
+  "cardDetailNoData": "Inga data tillgängliga.",
+  "buttonSaveReading": "Spara tarotläsning",
+  "readingSavedToDevice": "Sparad på enheten."
 }
