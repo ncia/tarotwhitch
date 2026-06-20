@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'dart:convert';
 
 class UserProfileAvatar extends StatelessWidget {
   final String userId;
@@ -29,10 +30,16 @@ class UserProfileAvatar extends StatelessWidget {
           final profileImage = data['profileImage'] as String?;
           
           if (profileImage != null && profileImage.isNotEmpty) {
+            ImageProvider imageProvider;
+            if (profileImage.startsWith('data:image')) {
+              imageProvider = MemoryImage(base64Decode(profileImage.split(',').last));
+            } else {
+              imageProvider = AssetImage(profileImage);
+            }
             return CircleAvatar(
               radius: radius,
               backgroundColor: Colors.indigo.shade900,
-              backgroundImage: AssetImage(profileImage),
+              backgroundImage: imageProvider,
             );
           }
         }

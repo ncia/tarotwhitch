@@ -59,6 +59,8 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
                         const SizedBox(height: 24),
                         TabBar(
                           controller: _tabController,
+                          isScrollable: true,
+                          tabAlignment: TabAlignment.center,
                           indicatorColor: Colors.amberAccent,
                           labelColor: Colors.amberAccent,
                           unselectedLabelColor: Colors.white54,

@@ -13,22 +13,18 @@ class CommunityFeedItem extends StatelessWidget {
 
   const CommunityFeedItem({super.key, required this.post});
 
-  String _getTimeAgo(DateTime date) {
+  String _getTimeAgo(DateTime date, BuildContext context) {
     final now = DateTime.now();
     final difference = now.difference(date);
 
-    if (difference.inDays >= 365) {
-      return '${(difference.inDays / 365).floor()}년 전';
-    } else if (difference.inDays >= 30) {
-      return '${(difference.inDays / 30).floor()}개월 전';
-    } else if (difference.inDays > 0) {
-      return '${difference.inDays}일 전';
+    if (difference.inDays > 0) {
+      return AppLocalizations.of(context)!.diaryDaysAgo(difference.inDays);
     } else if (difference.inHours > 0) {
-      return '${difference.inHours}시간 전';
+      return AppLocalizations.of(context)!.diaryHoursAgo(difference.inHours);
     } else if (difference.inMinutes > 0) {
-      return '${difference.inMinutes}분 전';
+      return AppLocalizations.of(context)!.diaryMinutesAgo(difference.inMinutes);
     } else {
-      return '방금 전';
+      return AppLocalizations.of(context)!.diaryJustNow;
     }
   }
 
@@ -36,6 +32,9 @@ class CommunityFeedItem extends StatelessWidget {
   Widget build(BuildContext context) {
     final nickname = post.authorNickname.isNotEmpty ? post.authorNickname : AppLocalizations.of(context)!.communityNoName;
     final formattedDate = DateFormat('yyyy.MM.dd HH:mm').format(post.createdAt);
+    final targetLocale = Localizations.localeOf(context).languageCode;
+    final displayContent = post.translations[targetLocale] as String? ?? post.content;
+    final displayQuestion = post.translations['${targetLocale}_q'] as String? ?? post.question;
     
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
@@ -85,7 +84,7 @@ class CommunityFeedItem extends StatelessWidget {
                                   ),
                                 ),
                                 TextSpan(
-                                  text: '  ${_getTimeAgo(post.createdAt)}',
+                                  text: '  ${_getTimeAgo(post.createdAt, context)}',
                                   style: const TextStyle(
                                     color: Colors.white70,
                                     fontSize: 11,
@@ -113,9 +112,9 @@ class CommunityFeedItem extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          if (post.question.isNotEmpty && post.question != '타로 리딩') ...[
+                          if (displayQuestion.isNotEmpty && displayQuestion != '타로 리딩') ...[
                             Text(
-                              'Q. ${post.question}',
+                              'Q. $displayQuestion',
                               style: const TextStyle(
                                 color: Colors.amberAccent,
                                 fontWeight: FontWeight.bold,
@@ -127,7 +126,7 @@ class CommunityFeedItem extends StatelessWidget {
                             const SizedBox(height: 4),
                           ],
                           Text(
-                            post.content,
+                            displayContent,
                             style: const TextStyle(
                               color: Colors.white,
                               fontSize: 13,

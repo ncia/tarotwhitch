@@ -3,6 +3,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import 'dart:math';
+import 'dart:ui';
+import 'dart:convert';
+import 'package:image_picker/image_picker.dart';
 import '../data/nickname_data.dart';
 import 'glass_container.dart';
 
@@ -40,6 +43,7 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
   bool _isCustomNickname = false;
   int? _prefixIndex;
   int? _suffixIndex;
+  String? _customImageData;
   
   final List<String> _availableAvatars = [
     'assets/images/witch_morgan.jpg',
@@ -60,10 +64,15 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
     _prefixIndex = widget.nicknamePrefixIndex;
     _suffixIndex = widget.nicknameSuffixIndex;
     
-    // 기본 이미지가 목록에 없으면 morgan으로
-    _selectedImage = _availableAvatars.contains(widget.currentProfileImage) 
-        ? widget.currentProfileImage 
-        : 'assets/images/witch_morgan.jpg';
+    
+    if (widget.currentProfileImage.startsWith('data:image')) {
+      _customImageData = widget.currentProfileImage;
+      _selectedImage = _customImageData!;
+    } else {
+      _selectedImage = _availableAvatars.contains(widget.currentProfileImage) 
+          ? widget.currentProfileImage 
+          : 'assets/images/witch_morgan.jpg';
+    }
         
     // 구글/애플 가입 여부 확인 (소셜 가입자는 이메일 변경 불가)
     _isSocialLoginUser = widget.user.providerData.any(
@@ -77,6 +86,28 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
     _emailController.dispose();
     _passwordController.dispose();
     super.dispose();
+  }
+
+  Future<void> _pickImage() async {
+    try {
+      final picker = ImagePicker();
+      final pickedFile = await picker.pickImage(
+        source: ImageSource.gallery,
+        maxWidth: 200,
+        maxHeight: 200,
+        imageQuality: 70,
+      );
+      if (pickedFile != null) {
+        final bytes = await pickedFile.readAsBytes();
+        final base64String = 'data:image/jpeg;base64,${base64Encode(bytes)}';
+        setState(() {
+          _customImageData = base64String;
+          _selectedImage = base64String;
+        });
+      }
+    } catch (e) {
+      debugPrint('Image pick error: $e');
+    }
   }
 
   void _generateRandomNickname() {
@@ -203,27 +234,70 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
               const SizedBox(height: 12),
               SizedBox(
                 height: 80,
-                child: ListView.builder(
-                  scrollDirection: Axis.horizontal,
-                  itemCount: _availableAvatars.length,
-                  itemBuilder: (context, index) {
-                    final avatar = _availableAvatars[index];
-                    final isSelected = avatar == _selectedImage;
-                    return GestureDetector(
-                      onTap: () => setState(() => _selectedImage = avatar),
-                      child: Container(
-                        margin: const EdgeInsets.only(right: 12),
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          border: Border.all(color: isSelected ? Colors.amberAccent : Colors.transparent, width: 3),
+                child: ScrollConfiguration(
+                  behavior: ScrollConfiguration.of(context).copyWith(
+                    dragDevices: {
+                      PointerDeviceKind.touch,
+                      PointerDeviceKind.mouse,
+                      PointerDeviceKind.trackpad,
+                    },
+                  ),
+                  child: ListView.builder(
+                    scrollDirection: Axis.horizontal,
+                    itemCount: _availableAvatars.length + 1,
+                    itemBuilder: (context, index) {
+                      if (index == 0) {
+                        final isSelected = _selectedImage.startsWith('data:image');
+                        return GestureDetector(
+                          onTap: () async {
+                            if (isSelected) {
+                              await _pickImage();
+                            } else {
+                              if (_customImageData != null) {
+                                setState(() => _selectedImage = _customImageData!);
+                              } else {
+                                await _pickImage();
+                              }
+                            }
+                          },
+                          child: Container(
+                            margin: const EdgeInsets.only(right: 12),
+                            decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                              border: Border.all(color: isSelected ? Colors.amberAccent : Colors.transparent, width: 3),
+                            ),
+                            child: CircleAvatar(
+                              radius: 35,
+                              backgroundColor: Colors.white10,
+                              backgroundImage: _customImageData != null 
+                                  ? MemoryImage(base64Decode(_customImageData!.split(',').last)) 
+                                  : null,
+                              child: _customImageData == null 
+                                  ? const Icon(Icons.add_a_photo, color: Colors.white) 
+                                  : null,
+                            ),
+                          ),
+                        );
+                      }
+                      
+                      final avatar = _availableAvatars[index - 1];
+                      final isSelected = avatar == _selectedImage;
+                      return GestureDetector(
+                        onTap: () => setState(() => _selectedImage = avatar),
+                        child: Container(
+                          margin: const EdgeInsets.only(right: 12),
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            border: Border.all(color: isSelected ? Colors.amberAccent : Colors.transparent, width: 3),
+                          ),
+                          child: CircleAvatar(
+                            radius: 35,
+                            backgroundImage: AssetImage(avatar),
+                          ),
                         ),
-                        child: CircleAvatar(
-                          radius: 35,
-                          backgroundImage: AssetImage(avatar),
-                        ),
-                      ),
-                    );
-                  },
+                      );
+                    },
+                  ),
                 ),
               ),
               const SizedBox(height: 24),

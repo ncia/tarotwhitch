@@ -36,6 +36,8 @@ class MeaningsScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 16),
                     TabBar(
+                      isScrollable: true,
+                      tabAlignment: TabAlignment.center,
                       indicatorColor: Colors.white,
                       labelColor: Colors.white,
                       unselectedLabelColor: Colors.white54,

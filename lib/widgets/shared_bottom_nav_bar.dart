@@ -15,8 +15,8 @@ class SharedBottomNavBar extends StatelessWidget {
       selectedItemColor: Colors.white,
       unselectedItemColor: Colors.white54,
       type: BottomNavigationBarType.fixed,
-      showSelectedLabels: false,
-      showUnselectedLabels: false,
+      showSelectedLabels: true,
+      showUnselectedLabels: true,
       currentIndex: currentIndex,
       onTap: onTap,
       items: [

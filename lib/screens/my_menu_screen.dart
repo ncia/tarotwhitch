@@ -6,7 +6,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
+import 'package:flutter_tarot/data/nickname_data.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
+import 'dart:convert';
 import 'auth_screen.dart'; // AuthScreen 임포트 추가
 import 'package:firebase_messaging/firebase_messaging.dart';
 import '../widgets/profile_edit_dialog.dart';
@@ -140,7 +142,9 @@ class MyMenuScreen extends StatelessWidget {
                         shape: BoxShape.circle,
                         color: Colors.indigo.shade900,
                         image: DecorationImage(
-                          image: AssetImage(profileImage),
+                          image: profileImage.startsWith('data:image')
+                              ? MemoryImage(base64Decode(profileImage.split(',').last)) as ImageProvider
+                              : AssetImage(profileImage),
                           fit: BoxFit.cover,
                         ),
                       ),

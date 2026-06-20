@@ -43,6 +43,8 @@ class ShopScreen extends StatelessWidget {
                           ),
                           const SizedBox(height: 24),
                           TabBar(
+                            isScrollable: true,
+                            tabAlignment: TabAlignment.center,
                             indicatorColor: Colors.amberAccent,
                             labelColor: Colors.amberAccent,
                             unselectedLabelColor: Colors.white54,

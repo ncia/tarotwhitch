@@ -13,6 +13,10 @@ import '../services/community_service.dart';
 import '../services/translation_service.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import '../widgets/user_profile_avatar.dart';
+import '../widgets/emoji_picker_widget.dart';
+import '../widgets/top_floating_icons.dart';
+import '../widgets/shared_bottom_nav_bar.dart';
+import 'main_screen.dart';
 
 class CommunityDetailScreen extends StatefulWidget {
   final CommunityPost post;
@@ -202,8 +206,12 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
     final nickname = post.authorNickname.isNotEmpty ? post.authorNickname : AppLocalizations.of(context)!.communityNoName;
     
     // 번역된 텍스트가 있으면 그걸 보여주고 아니면 원문
-    final displayContent = _translatedPostContent ?? post.content;
-    final displayQuestion = _translatedPostQuestion ?? post.question;
+    final targetLocale = Localizations.localeOf(context).languageCode;
+    final autoTranslatedContent = post.translations[targetLocale] as String?;
+    final autoTranslatedQuestion = post.translations['${targetLocale}_q'] as String?;
+
+    final displayContent = _translatedPostContent ?? autoTranslatedContent ?? post.content;
+    final displayQuestion = _translatedPostQuestion ?? autoTranslatedQuestion ?? post.question;
 
     final cardIds = post.cardIds;
     final cardReversals = post.cardReversals.isNotEmpty ? post.cardReversals : List.generate(cardIds.length, (_) => false);
@@ -237,24 +245,40 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
         final isLiked = currentUserId != null && likes.contains(currentUserId);
 
         return Scaffold(
-          extendBodyBehindAppBar: true,
-          appBar: AppBar(
-            backgroundColor: Colors.transparent,
-            elevation: 0,
-            iconTheme: const IconThemeData(color: Colors.white),
-            title: Text(nickname, style: const TextStyle(color: Colors.white, fontSize: 16)),
-            actions: [
-              IconButton(
-                icon: const Icon(Icons.report_problem_outlined, color: Colors.white54),
-                onPressed: _report,
-              ),
-            ],
+          bottomNavigationBar: SharedBottomNavBar(
+            currentIndex: 2, // 커뮤니티는 2번 인덱스
+            onTap: (index) {
+              if (index != 2) {
+                Navigator.popUntil(context, (route) => route.isFirst);
+                mainScreenKey.currentState?.switchTab(index);
+              }
+            },
           ),
-          body: GradientBackground(
-            child: SafeArea(
-              child: Column(
-                children: [
-                  Expanded(
+          body: Stack(
+            children: [
+              GradientBackground(
+                child: SafeArea(
+                  child: Column(
+                    children: [
+                      const SizedBox(height: 50),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            IconButton(
+                              icon: const Icon(Icons.arrow_back, color: Colors.white),
+                              onPressed: () => Navigator.pop(context),
+                            ),
+                            Text(nickname, style: const TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold)),
+                            IconButton(
+                              icon: const Icon(Icons.report_problem_outlined, color: Colors.white54),
+                              onPressed: _report,
+                            ),
+                          ],
+                        ),
+                      ),
+                      Expanded(
                     child: SingleChildScrollView(
                       padding: const EdgeInsets.all(20),
                       child: Column(
@@ -303,12 +327,15 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
                                 if (_translatedPostContent == null)
                                   Align(
                                     alignment: Alignment.centerRight,
-                                    child: TextButton.icon(
+                                    child: OutlinedButton(
                                       onPressed: _translatePost,
-                                      icon: _isPostTranslating
-                                          ? const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.cyanAccent))
-                                          : const Icon(Icons.translate, color: Colors.cyanAccent, size: 18),
-                                      label: Text('번역 보기', style: const TextStyle(color: Colors.cyanAccent, fontSize: 13)),
+                                      style: OutlinedButton.styleFrom(
+                                        side: const BorderSide(color: Colors.orange),
+                                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                                      ),
+                                      child: _isPostTranslating
+                                          ? const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.orange))
+                                          : Text(AppLocalizations.of(context)!.buttonTranslate, style: const TextStyle(color: Colors.white, fontSize: 13)),
                                     ),
                                   ),
                               ],
@@ -396,7 +423,7 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
                                                         if (isTranslating)
                                                           const SizedBox(width: 10, height: 10, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.cyanAccent))
                                                         else
-                                                          const Text('번역 보기', style: TextStyle(color: Colors.cyanAccent, fontSize: 11, fontWeight: FontWeight.bold)),
+                                                          Text(AppLocalizations.of(context)!.buttonTranslate, style: const TextStyle(color: Colors.white, fontSize: 11, fontWeight: FontWeight.bold)),
                                                       ],
                                                     ),
                                                   ),
@@ -476,7 +503,15 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
               ),
             ),
           ),
-        );
+          const Positioned(
+            top: 0,
+            left: 0,
+            right: 0,
+            child: TopFloatingIcons(),
+          ),
+        ],
+      ),
+    );
       }
     );
   }

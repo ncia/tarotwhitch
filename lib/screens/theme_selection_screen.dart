@@ -43,6 +43,8 @@ class ThemeSelectionScreen extends StatelessWidget {
                 ),
               ),
               child: TabBar(
+                isScrollable: true,
+                tabAlignment: TabAlignment.center,
                 indicatorColor: Colors.amberAccent,
                 indicatorWeight: 3.0,
                 labelColor: Colors.amberAccent,
