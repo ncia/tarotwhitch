@@ -8,6 +8,7 @@ import 'main_screen.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import '../widgets/sliver_tab_bar_delegate.dart';
 
 class GrowthScreen extends StatefulWidget {
   const GrowthScreen({super.key});
@@ -38,27 +39,36 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
         children: [
           GradientBackground(
             child: SafeArea(
-              child: Column(
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.fromLTRB(16, 60, 16, 10),
-                    child: Column(
-                      children: [
-                        Text(
-                          AppLocalizations.of(context)!.growthTitle,
-                          textAlign: TextAlign.center,
-                          style: const TextStyle(
-                            color: Colors.white,
-                            fontSize: 24,
-                            fontWeight: FontWeight.bold,
-                          ),
+              child: NestedScrollView(
+                headerSliverBuilder: (context, innerBoxIsScrolled) {
+                  return [
+                    SliverToBoxAdapter(
+                      child: Padding(
+                        padding: const EdgeInsets.fromLTRB(16, 60, 16, 10),
+                        child: Column(
+                          children: [
+                            Text(
+                              AppLocalizations.of(context)!.growthTitle,
+                              textAlign: TextAlign.center,
+                              style: const TextStyle(
+                                color: Colors.white,
+                                fontSize: 24,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            const SizedBox(height: 8),
+                            Text(
+                              AppLocalizations.of(context)!.growthSubtitle,
+                              style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: Colors.white70),
+                            ),
+                            const SizedBox(height: 24),
+                          ],
                         ),
-                        const SizedBox(height: 8),
-                        Text(
-                          AppLocalizations.of(context)!.growthSubtitle,
-                          style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: Colors.white70),
-                        ),
-                        const SizedBox(height: 24),
+                      ),
+                    ),
+                    SliverPersistentHeader(
+                      pinned: true,
+                      delegate: SliverTabBarDelegate(
                         TabBar(
                           controller: _tabController,
                           indicatorColor: Colors.amberAccent,
@@ -89,19 +99,17 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
                             ),
                           ],
                         ),
-                      ],
+                      ),
                     ),
-                  ),
-                  Expanded(
-                    child: TabBarView(
-                      controller: _tabController,
-                      children: const [
-                        _CrystalBallTab(),
-                        _MagicBookTab(),
-                      ],
-                    ),
-                  ),
-                ],
+                  ];
+                },
+                body: TabBarView(
+                  controller: _tabController,
+                  children: const [
+                    _CrystalBallTab(),
+                    _MagicBookTab(),
+                  ],
+                ),
               ),
             ),
           ),
@@ -159,8 +167,8 @@ class _MagicBookTabState extends State<_MagicBookTab> {
       listenable: EconomyService(),
       builder: (context, _) {
         final exp = EconomyService().worldTreeExp;
-        final level = (exp / 50).floor() + 1;
-        final progress = (exp % 50) / 50.0;
+        final level = (exp / 100).floor() + 1;
+        final progress = (exp % 100) / 100.0;
 
         return LayoutBuilder(
           builder: (context, constraints) {
@@ -172,14 +180,7 @@ class _MagicBookTabState extends State<_MagicBookTab> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text('마법책 레벨 $level', style: Theme.of(context).textTheme.titleLarge),
-                      const SizedBox(height: 20),
-                      Image.asset(
-                        'assets/images/magic_book.png',
-                        width: 150 + (level * 5).clamp(0, 100).toDouble(),
-                        height: 150 + (level * 5).clamp(0, 100).toDouble(),
-                        fit: BoxFit.contain,
-                      ),
-                      const SizedBox(height: 40),
+                      const SizedBox(height: 10),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 40),
                         child: Column(
@@ -192,15 +193,38 @@ class _MagicBookTabState extends State<_MagicBookTab> {
                               borderRadius: BorderRadius.circular(6),
                             ),
                             const SizedBox(height: 8),
-                            Text('지식: ${exp % 50} / 50', style: const TextStyle(color: Colors.white70)),
+                            Text('지식: ${exp % 100} / 100', style: const TextStyle(color: Colors.white70)),
                           ],
+                        ),
+                      ),
+                      const SizedBox(height: 20),
+                      Image.asset(
+                        'assets/images/magic_book.png',
+                        width: 300,
+                        height: 300,
+                        fit: BoxFit.contain,
+                      ),
+                      const SizedBox(height: 40),
+                      GestureDetector(
+                        onTap: () {
+                          // 개발 테스트용: 마력의 가루 1000개 충전
+                          EconomyService().addMagicDust(1000);
+                          ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('개발용: 마력의 가루 1000개 충전 완료!')));
+                        },
+                        child: GlassContainer(
+                          padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 12),
+                          borderRadius: 20,
+                          child: Text(
+                            AppLocalizations.of(context)!.growthDustOwned(exp * 10),
+                            style: const TextStyle(color: Colors.indigoAccent, fontSize: 18, fontWeight: FontWeight.bold),
+                          ),
                         ),
                       ),
                       const SizedBox(height: 40),
                       ElevatedButton.icon(
                         onPressed: _isEnhancing ? null : _enhanceBook,
                         icon: const Icon(Icons.auto_awesome),
-                        label: const Text('마법책 읽기 (무료)'),
+                        label: const Text('마법책 읽기 (가루 10개)'),
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.indigoAccent,
                           foregroundColor: Colors.white,
@@ -254,10 +278,28 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
       builder: (context, _) {
         final exp = EconomyService().crystalBallExp;
         final dust = EconomyService().magicDust;
-        final displayLevel = (exp / 50).floor() + 1;
-        final progress = (exp % 50) / 50.0;
-        final hexColor = Color(0xFF000000 + exp);
-        final hexString = '#${exp.toRadixString(16).padLeft(6, '0').toUpperCase()}';
+        final displayLevel = (exp / 100).floor() + 1;
+        final progress = (exp % 100) / 100.0;
+        
+        final phaseIndex = ((displayLevel - 1) / 100).floor();
+        final phases = [
+          '심연의 마력',
+          '영안의 개방',
+          '대자연의 지혜',
+          '태양의 정수',
+          '천공의 오로라',
+          '신의 경지',
+          '창조의 마력',
+          '우주의 숨결',
+          '영원의 빛',
+          '순백의 각성'
+        ];
+        final currentPhaseName = phaseIndex < phases.length ? phases[phaseIndex] : '초월';
+        final phaseNumber = phaseIndex + 1;
+
+        final double hue = (exp * 3.0) % 360.0;
+        final double lightness = (0.1 + (exp / 100000.0) * 0.9).clamp(0.1, 1.0);
+        final overlayColor = HSLColor.fromAHSL(1.0, hue, 1.0, lightness).toColor();
 
         return LayoutBuilder(
           builder: (context, constraints) {
@@ -268,6 +310,8 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Text('[$phaseNumber단계: $currentPhaseName]', style: Theme.of(context).textTheme.titleMedium?.copyWith(color: overlayColor, fontWeight: FontWeight.bold)),
+              const SizedBox(height: 4),
               Text(AppLocalizations.of(context)!.growthCrystalBallLevel(displayLevel), style: Theme.of(context).textTheme.titleLarge),
               const SizedBox(height: 10),
               Padding(
@@ -282,7 +326,7 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
                       borderRadius: BorderRadius.circular(6),
                     ),
                     const SizedBox(height: 8),
-                    Text('마력: ${exp % 50} / 50', style: const TextStyle(color: Colors.white70)),
+                    Text('마력: ${exp % 100} / 100', style: const TextStyle(color: Colors.white70)),
                   ],
                 ),
               ),
@@ -302,7 +346,7 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
                           height: 122,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
-                            color: hexColor.withOpacity(0.8), // 그림자 렌더링으로 인해 삐져나오는 현상 방지를 위해 그림자 완전 제거
+                            color: overlayColor.withOpacity(0.8), // 그림자 렌더링으로 인해 삐져나오는 현상 방지를 위해 그림자 완전 제거
                           ),
                         ),
                       ),
