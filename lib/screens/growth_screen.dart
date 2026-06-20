@@ -250,8 +250,10 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
     return ListenableBuilder(
       listenable: EconomyService(),
       builder: (context, _) {
-        final level = EconomyService().crystalBallExp + 1;
+        final level = EconomyService().crystalBallExp;
         final dust = EconomyService().magicDust;
+        final hexColor = Color(0xFF000000 + level);
+        final hexString = '#${level.toRadixString(16).padLeft(6, '0').toUpperCase()}';
 
         return LayoutBuilder(
           builder: (context, constraints) {
@@ -262,22 +264,57 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              GlassContainer(
-                padding: const EdgeInsets.all(16),
-                borderRadius: 20,
-                child: Text(
-                  AppLocalizations.of(context)!.growthDustOwned(dust),
-                  style: const TextStyle(color: Colors.purpleAccent, fontSize: 18, fontWeight: FontWeight.bold),
+              GestureDetector(
+                onTap: () {
+                  // 테스트용: 마력의 가루 1000개 지급 (추후 삭제)
+                  EconomyService().addMagicDust(1000);
+                  ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('테스트용 마력의 가루 1000개 지급!')));
+                },
+                child: GlassContainer(
+                  padding: const EdgeInsets.all(16),
+                  borderRadius: 20,
+                  child: Text(
+                    AppLocalizations.of(context)!.growthDustOwned(dust),
+                    style: const TextStyle(color: Colors.purpleAccent, fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
                 ),
               ),
-              const SizedBox(height: 40),
-              Text(AppLocalizations.of(context)!.growthCrystalBallLevel(level), style: Theme.of(context).textTheme.displayLarge),
-              const SizedBox(height: 30),
-              Image.asset(
-                'assets/images/crystal_ball.png',
-                width: 300,
-                height: 300,
-                fit: BoxFit.contain,
+              const SizedBox(height: 10),
+              GestureDetector(
+                onTap: _isUpgrading ? null : _upgradeBall,
+                child: Stack(
+                  alignment: Alignment.center,
+                  children: [
+                    // 색상 오버레이를 이미지 뒤에 배치하여 유리 반사 효과를 살림
+                    Positioned(
+                      top: 42, // 실제 구슬 안쪽에 맞게 위에서 아래로 더 내림
+                      child: IgnorePointer(
+                        child: AnimatedContainer(
+                          duration: const Duration(milliseconds: 300),
+                          width: 125, // 구슬 실제 지름에 맞게 축소
+                          height: 125,
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            color: hexColor.withOpacity(0.8), // 뒤에 배치되므로 불투명도 증가
+                            boxShadow: [
+                              BoxShadow(
+                                color: hexColor.withOpacity(0.5),
+                                blurRadius: 20,
+                                spreadRadius: 5,
+                              ),
+                            ]
+                          ),
+                        ),
+                      ),
+                    ),
+                    Image.asset(
+                      'assets/images/crystal_ball.png',
+                      width: 300,
+                      height: 300,
+                      fit: BoxFit.contain,
+                    ),
+                  ],
+                ),
               ),
               const SizedBox(height: 60),
               ElevatedButton.icon(
