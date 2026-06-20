@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Detaljerede fortolkningsdata er endnu ikke klar.",
   "cardDetailNoData": "Ingen tilgængelige data.",
   "buttonSaveReading": "Gem Tarot-læsning",
-  "readingSavedToDevice": "Gemt på enhed."
+  "readingSavedToDevice": "Gemt på enhed.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} fase: {name}]",
+  "growthTabMagicBook": "Opgradering af magisk bog",
+  "growthPhaseCrystal0": "Afgrundsmagi",
+  "growthPhaseCrystal1": "Åbning af åndens øje",
+  "growthPhaseCrystal2": "Moder Naturs visdom",
+  "growthPhaseCrystal3": "Solens essens",
+  "growthPhaseCrystal4": "Himmelsk aurora",
+  "growthPhaseCrystal5": "Guddommeligt rige",
+  "growthPhaseCrystal6": "Skabelsens magi",
+  "growthPhaseCrystal7": "Universets ånde",
+  "growthPhaseCrystal8": "Evigt lys",
+  "growthPhaseCrystal9": "Ren hvid opvågning",
+  "growthPhaseCrystal10": "Transcendens",
+  "growthPhaseBook0": "Lærlingens skriveredskaber",
+  "growthPhaseBook1": "Grundlæggende magisk grundbog",
+  "growthPhaseBook2": "Gammel runegrammatik",
+  "growthPhaseBook3": "Forståelse af elementærmagi",
+  "growthPhaseBook4": "Stjernelysets harmoni",
+  "growthPhaseBook5": "Aflæsning af artefakter",
+  "growthPhaseBook6": "Visdomsmandens forbudte bog",
+  "growthPhaseBook7": "Fællesskab med ånder",
+  "growthPhaseBook8": "Sandhedens grimoire",
+  "growthPhaseBook9": "Almægtig optegnelse",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Magibogs niveau {level}",
+  "growthMagicBookKnowledge": "Viden: {current} / {max}",
+  "growthCrystalBallMana": "Mana: {current} / {max}",
+  "growthMagicBookExpGained": "Magibogens viden er blevet dybere! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "Opgrader Magibog ({amount} støv)",
+  "devDustCharged": "Dev: 1000 magisk støv opladet!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Nyheder og meddelelser",
+  "menuMailboxTitle": "Postkasse",
+  "menuMailboxSubtitle": "Tjek nye opdateringer og gaver",
+  "mailboxTitle": "Postkasse",
+  "mailboxAllRewardsClaimed": "Alle belønninger hævdet.",
+  "mailboxClaimAll": "Gør krav på alle",
+  "mailboxEmpty": "Postkassen er tom.",
+  "mailboxSenderAndDate": "Fra: {sender} • {date}",
+  "mailboxClaimed": "Påstået",
+  "mailboxClaim": "Påstand",
+  "mailboxAttachedRewards": "Vedhæftede belønninger",
+  "mailboxRewardClaimed": "Belønning hævdet.",
+  "mailboxClaimReward": "Gør krav på belønning",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Notifikationscenter",
+  "menuNotificationCenterSubtitle": "Check latest notifications and announcements",
+  "authSignupComplete": "Tilmeldingen er fuldført. Tjek venligst den e-mail, der er sendt til dig, for at bekræfte.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Translation failed: {error}",
+  "diarySelectDate": "Vælg en dato",
+  "diarySavedSuccess": "Dagbogen blev gemt!",
+  "diarySaveFailed": "Dagbogen kunne ikke gemmes.",
+  "diaryWriteTitle": "Skriv dagbog",
+  "diaryWriteHint": "Skriv gerne dine tanker eller følelser om dagens læsning.",
+  "diarySaveButton": "Gem i dagbog",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "Dagens Fortune",
+  "readingSpreadLabelPast1": "1. Fortid",
+  "readingSpreadLabelPresent2": "2. Tilstede",
+  "readingSpreadLabelFuture3": "3. Fremtid",
+  "readingSpreadLabelCurrent1": "1. Nuværende",
+  "readingSpreadLabelPast2": "2. Fortid",
+  "readingSpreadLabelFuture3Alt": "3. Fremtid",
+  "readingSpreadLabelCause4": "4. Årsag",
+  "readingSpreadLabelPotential5": "5. Potentiale",
+  "readingSpreadLabelCurrentSituation1": "1. Nuværende situation og problem",
+  "readingSpreadLabelCauseOfProblem2": "2. Årsag til problemet",
+  "readingSpreadLabelAdviceForResolution3": "3. Råd til løsning",
+  "readingSpreadLabelExpectedResult4": "4. Forventet resultat",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Nuværende situation",
+  "readingSpreadLabelObstacle2": "2. Forhindring",
+  "readingSpreadLabelUnconscious3": "3. Bevidstløs",
+  "readingSpreadLabelPast4": "4. Fortid",
+  "readingSpreadLabelConsciousGoal5": "5. Bevidst mål",
+  "readingSpreadLabelNearFuture6": "6. Nær fremtid",
+  "readingSpreadLabelAttitude7": "7. Attitude",
+  "readingSpreadLabelExternalEnvironment8": "8. Eksternt miljø",
+  "readingSpreadLabelHopesAndFears9": "9. Håb og frygt",
+  "readingSpreadLabelFinalResult10": "10. Endeligt resultat",
+  "readingSpreadLabelAdvice4": "4. Rådgivning",
+  "readingSpreadLabelSurroundings5": "5. Omgivelser",
+  "readingSpreadLabelResult6": "6. Resultat",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} mønter",
+  "serviceLoginRequired": "Login er påkrævet.",
+  "serviceDefaultNickname": "Navnløs heks",
+  "serviceTarotReadingError": "Der opstod en fejl under læsning af formuen: {error}",
+  "defaultUserDisplayName": "Bruger",
+  "listenToInterpretation": "Lyt til fortolkning",
+  "faqQ1": "Kan jeg læse tarot hver dag?",
+  "faqA1": "Ja, det er godt at læse dagens flow med let hjerte. Det anbefales dog ikke at trække kort gentagne gange for det samme spørgsmål.",
+  "faqQ2": "Hvordan får jeg tryllestøv?",
+  "faqA2": "Du kan få magisk støv gennem appdeltagelse, fællesskabsaktiviteter eller køb i butikken.",
+  "faqQ3": "Hvad skal jeg gøre, hvis resultatet er dårligt?",
+  "faqA3": "Tarot er ikke en fast fremtid, men et råd. Brug et dårligt resultat som en milepæl for at advare dig om risici, du skal undgå.",
+  "faqQ4": "Hvordan kan jeg se mine tidligere tarotlæsninger?",
+  "faqA4": "Du kan til enhver tid gennemgå dine gemte læseposter efter dato i fanen 'Dagbog' (Kalender) i den nederste menu.",
+  "faqQ5": "Hvordan deler jeg med fællesskabet?",
+  "faqA5": "Slå knappen 'Del til fællesskab' til på skærmen med dagbogsdetaljer, der er gemt i dagbogen, for at dele din læsning med andre brugere.",
+  "faqQ6": "Hvordan kan jeg ændre mit kaldenavn eller min profil?",
+  "faqA6": "Du kan til enhver tid ændre dit kaldenavn og ikon ved at trykke på profilområdet øverst på fanen 'Min menu'.",
+  "faqQ7": "Hvor kan jeg slå notifikationer til og fra?",
+  "faqA7": "Du kan styre notifikationer fra din enheds indstillingsapp eller fra præferencemenuen for at blive opdateret i fremtiden.",
+  "faqQ8": "Kan jeg se andres tarot-dagbøger?",
+  "faqA8": "Ja, du kan se og heppe på interessante tarotlæsninger, som andre guider (brugere) har offentliggjort på fanen 'Fællesskab' nederst.",
+  "faqQ9": "Hvor kan jeg tjekke mit premium-abonnement eller betalingshistorik?",
+  "faqA9": "Hvis du vælger 'Betalingshistorik' på fanen [Mine oplysninger] i den nederste menu, kan du tjekke din møntbetalingshistorik og erhvervet magisk støv i detaljer.",
+  "faqQ10": "Jeg vil personligt studere betydningen af ​​tarotkort. Hvordan kan jeg gøre det?",
+  "faqA10": "Hvis du går til fanen [Card Encyclopedia] i den nederste menu, kan du frit se de opretstående og omvendte betydninger, symboler og dybdegående forklaringer af alle 78 kort.",
+  "faqQ11": "Hvordan kan jeg slette min konto eller hæve?",
+  "faqA11": "Du kan finde knappen 'Slet konto' ved at gå til menuen Kontoindstillinger via tandhjulsikonet øverst til højre på fanen [Mine oplysninger]. Alle dagbøger og data slettes permanent ved tilbagetrækning.",
+  "faqQ12": "Hvor kontakter jeg, hvis jeg støder på en fejl eller har forslag?",
+  "faqA12": "Hvis du sender detaljer via 'Kontakt kundeservice', som er ved at blive udarbejdet nederst på den aktuelle skærm eller via officiel e-mail, vil vi hurtigt tjekke og på magisk vis løse det for dig.",
+  "myMenuContactUs": "Kontakt os",
+  "myMenuContactUsSubtitle": "Forespørgsler og forslag",
+  "contactDialogTitle": "Kontakt os",
+  "contactTypeBug": "Fejlrapport",
+  "contactTypeFeature": "Funktionsforslag",
+  "contactTypePayment": "Betalingsproblem",
+  "contactTypeOther": "Anden forespørgsel",
+  "contactHint": "Skriv venligst din forespørgsel i detaljer.",
+  "contactSend": "Sende",
+  "contactCancel": "Ophæve",
+  "contactEmptyErrorTitle": "Meddelelse",
+  "contactEmptyErrorMessage": "Indtast venligst dit forespørgselsindhold."
 }

@@ -1485,5 +1485,199 @@
   "cardDetailDataNotReady": "詳細的解釋數據尚未準備好。",
   "cardDetailNoData": "無可用數據。",
   "buttonSaveReading": "保存塔羅占卜",
-  "readingSavedToDevice": "儲存到設備。"
+  "readingSavedToDevice": "儲存到設備。",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level}階段: {name}]",
+  "growthTabMagicBook": "魔法書升級",
+  "growthPhaseCrystal0": "深淵魔力",
+  "growthPhaseCrystal1": "開啟靈眼",
+  "growthPhaseCrystal2": "大自然智慧",
+  "growthPhaseCrystal3": "太陽精華",
+  "growthPhaseCrystal4": "天界極光",
+  "growthPhaseCrystal5": "神聖領域",
+  "growthPhaseCrystal6": "創造魔法",
+  "growthPhaseCrystal7": "宇宙氣息",
+  "growthPhaseCrystal8": "永恆之光",
+  "growthPhaseCrystal9": "純白覺醒",
+  "growthPhaseCrystal10": "超脫",
+  "growthPhaseBook0": "學徒書寫工具",
+  "growthPhaseBook1": "基礎魔法入門",
+  "growthPhaseBook2": "古老符文語法",
+  "growthPhaseBook3": "元素魔法理解",
+  "growthPhaseBook4": "星光和諧",
+  "growthPhaseBook5": "神器解讀",
+  "growthPhaseBook6": "賢者禁書",
+  "growthPhaseBook7": "與靈魂溝通",
+  "growthPhaseBook8": "真理魔典",
+  "growthPhaseBook9": "全能紀錄",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "魔法書等級 {level}",
+  "growthMagicBookKnowledge": "知識: {current} / {max}",
+  "growthCrystalBallMana": "魔力: {current} / {max}",
+  "growthMagicBookExpGained": "魔法書的知識更深了！經驗值 +{amount}",
+  "growthUpgradeMagicBookButton": "強化魔法書 ({amount} 個魔塵)",
+  "devDustCharged": "開發用: 1000 個魔塵已充能！",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "新聞與通知",
+  "menuMailboxTitle": "信箱",
+  "menuMailboxSubtitle": "查看新的更新和禮物",
+  "mailboxTitle": "信箱",
+  "mailboxAllRewardsClaimed": "所有獎勵均已領取。",
+  "mailboxClaimAll": "索取全部",
+  "mailboxEmpty": "郵箱是空的。",
+  "mailboxSenderAndDate": "寄件者：{sender} • {date}",
+  "mailboxClaimed": "聲稱",
+  "mailboxClaim": "宣稱",
+  "mailboxAttachedRewards": "附贈獎勵",
+  "mailboxRewardClaimed": "獎勵已領。",
+  "mailboxClaimReward": "領取獎勵",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "通知中心",
+  "menuNotificationCenterSubtitle": "查看最新通知和公告",
+  "authSignupComplete": "註冊完成。請檢查發送給您的電子郵件以進行驗證。",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Translation failed: {error}",
+  "diarySelectDate": "選擇日期",
+  "diarySavedSuccess": "日記保存成功！",
+  "diarySaveFailed": "保存日記失敗。",
+  "diaryWriteTitle": "寫日記",
+  "diaryWriteHint": "請隨意寫下您對今天的閱讀的想法或感受。",
+  "diarySaveButton": "儲存到日記",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "今日財運",
+  "readingSpreadLabelPast1": "1. 過去",
+  "readingSpreadLabelPresent2": "2. 禮物",
+  "readingSpreadLabelFuture3": "3. 未來",
+  "readingSpreadLabelCurrent1": "1. 目前",
+  "readingSpreadLabelPast2": "2. 過去",
+  "readingSpreadLabelFuture3Alt": "3. 未來",
+  "readingSpreadLabelCause4": "4. 原因",
+  "readingSpreadLabelPotential5": "5. 潛力",
+  "readingSpreadLabelCurrentSituation1": "一、現狀及問題",
+  "readingSpreadLabelCauseOfProblem2": "2. 問題原因",
+  "readingSpreadLabelAdviceForResolution3": "3. 解決建議",
+  "readingSpreadLabelExpectedResult4": "4. 預期結果",
+  "readingSpreadLabelCurrentSituation1Alt": "一、現狀",
+  "readingSpreadLabelObstacle2": "2. 障礙物",
+  "readingSpreadLabelUnconscious3": "3.無意識",
+  "readingSpreadLabelPast4": "4. 過去",
+  "readingSpreadLabelConsciousGoal5": "5. 有意識的目標",
+  "readingSpreadLabelNearFuture6": "6. 不久的將來",
+  "readingSpreadLabelAttitude7": "7. 態度",
+  "readingSpreadLabelExternalEnvironment8": "八、外在環境",
+  "readingSpreadLabelHopesAndFears9": "9.希望與恐懼",
+  "readingSpreadLabelFinalResult10": "10. 最終結果",
+  "readingSpreadLabelAdvice4": "4.建議",
+  "readingSpreadLabelSurroundings5": "5. 周圍環境",
+  "readingSpreadLabelResult6": "6. 結果",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Coins",
+  "serviceLoginRequired": "需要登入。",
+  "serviceDefaultNickname": "無名女巫",
+  "serviceTarotReadingError": "算命時發生錯誤：{error}",
+  "defaultUserDisplayName": "使用者",
+  "listenToInterpretation": "聆聽口譯",
+  "faqQ1": "塔羅牌可以每天看嗎？",
+  "faqA1": "是的，以輕鬆的心情閱讀今天的流程是件好事。但不建議同一題重複抽卡。",
+  "faqQ2": "魔法粉塵如何獲得？",
+  "faqA2": "您可以透過應用程式參與、社區活動或商店購買來獲得魔法塵埃。",
+  "faqQ3": "如果結果不好怎麼辦？",
+  "faqA3": "塔羅牌不是一個固定的未來，而是一個建議。使用糟糕的結果作為里程碑來警告您要避免的風險。",
+  "faqQ4": "如何查看我過去的塔羅牌占卜？",
+  "faqA4": "您可以隨時在底部選單的「日記」（日曆）標籤中按日期查看已儲存的閱讀記錄。",
+  "faqQ5": "我如何分享到社區？",
+  "faqA5": "打開日記中儲存的日記詳細資訊畫面上的「分享到社群」開關，即可將您的閱讀內容分享給其他使用者。",
+  "faqQ6": "如何更改我的暱稱或個人資料？",
+  "faqA6": "您可以隨時透過觸摸「我的選單」標籤頂部的個人資料區域來更改您的暱稱和圖示。",
+  "faqQ7": "在哪裡可以開啟和關閉通知？",
+  "faqA7": "您可以透過裝置的設定應用程式或將來更新的首選項選單來控制通知。",
+  "faqQ8": "我可以看別人的塔羅日記嗎？",
+  "faqA8": "是的，您可以在底部的“社區”選項卡中查看其他巫師（用戶）公開的有趣塔羅牌占卜並為之喝采。",
+  "faqQ9": "我可以在哪裡查看我的高級訂閱或付款記錄？",
+  "faqA9": "如果您在底部選單的[我的資訊]標籤中選擇“付款歷史記錄”，您可以詳細查看您的金幣支付歷史記錄和獲得的魔法塵埃。",
+  "faqQ10": "我想親自研究一下塔羅牌的意思。我怎樣才能做到這一點？",
+  "faqA10": "進入底部選單的【卡片百科】選項卡，您可以自由查看全部78張卡片的正反含義、符號以及深入解釋。",
+  "faqQ11": "我該如何刪除我的帳戶或提款？",
+  "faqA11": "您可以透過[我的資訊]標籤右上角的齒輪圖示進入帳戶設定選單，找到「刪除帳戶」按鈕。退出後所有日記和資料將永久刪除。",
+  "faqQ12": "如果遇到錯誤或有建議，應該與哪裡聯絡？",
+  "faqA12": "如果您透過目前螢幕底部正在準備的「聯絡客服」或透過官方電子郵件發送詳細訊息，我們將快速檢查並神奇地為您解決。",
+  "myMenuContactUs": "聯絡我們",
+  "myMenuContactUsSubtitle": "查詢及建議",
+  "contactDialogTitle": "聯絡我們",
+  "contactTypeBug": "錯誤報告",
+  "contactTypeFeature": "功能建議",
+  "contactTypePayment": "付款問題",
+  "contactTypeOther": "其他查詢",
+  "contactHint": "請詳細寫下您的詢問。",
+  "contactSend": "傳送",
+  "contactCancel": "取消",
+  "contactEmptyErrorTitle": "注意",
+  "contactEmptyErrorMessage": "請輸入您的詢問內容。"
 }

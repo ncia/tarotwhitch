@@ -4062,6 +4062,436 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => '保存到设备。';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level阶段: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => '魔法书升级';
+
+  @override
+  String get growthPhaseCrystal0 => '深渊魔法';
+
+  @override
+  String get growthPhaseCrystal1 => '开启灵眼';
+
+  @override
+  String get growthPhaseCrystal2 => '大自然智慧';
+
+  @override
+  String get growthPhaseCrystal3 => '太阳精华';
+
+  @override
+  String get growthPhaseCrystal4 => '天界极光';
+
+  @override
+  String get growthPhaseCrystal5 => '神圣领域';
+
+  @override
+  String get growthPhaseCrystal6 => '创造魔法';
+
+  @override
+  String get growthPhaseCrystal7 => '宇宙气息';
+
+  @override
+  String get growthPhaseCrystal8 => '永恒之光';
+
+  @override
+  String get growthPhaseCrystal9 => '纯白觉醒';
+
+  @override
+  String get growthPhaseCrystal10 => '超越';
+
+  @override
+  String get growthPhaseBook0 => '学徒书写工具';
+
+  @override
+  String get growthPhaseBook1 => '基础魔法入门';
+
+  @override
+  String get growthPhaseBook2 => '古代符文语法';
+
+  @override
+  String get growthPhaseBook3 => '元素魔法理解';
+
+  @override
+  String get growthPhaseBook4 => '星光和谐';
+
+  @override
+  String get growthPhaseBook5 => '神器解读';
+
+  @override
+  String get growthPhaseBook6 => '贤者禁书';
+
+  @override
+  String get growthPhaseBook7 => '与精灵沟通';
+
+  @override
+  String get growthPhaseBook8 => '真理魔典';
+
+  @override
+  String get growthPhaseBook9 => '全能记录';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return '魔法书等级 $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return '知识: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return '魔力: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return '魔法书的知识加深了！ Exp +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return '强化魔法书 (魔尘 $amount个)';
+  }
+
+  @override
+  String get devDustCharged => '开发用: 1000 魔尘充能完成！';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => '新闻与通知';
+
+  @override
+  String get menuMailboxTitle => '邮箱';
+
+  @override
+  String get menuMailboxSubtitle => '查看新的更新和礼物';
+
+  @override
+  String get mailboxTitle => '邮箱';
+
+  @override
+  String get mailboxAllRewardsClaimed => '所有奖励均已领取。';
+
+  @override
+  String get mailboxClaimAll => '索取全部';
+
+  @override
+  String get mailboxEmpty => '邮箱是空的。';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return '发件人：$sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => '声称';
+
+  @override
+  String get mailboxClaim => '宣称';
+
+  @override
+  String get mailboxAttachedRewards => '附赠奖励';
+
+  @override
+  String get mailboxRewardClaimed => '奖励已领取。';
+
+  @override
+  String get mailboxClaimReward => '领取奖励';
+
+  @override
+  String get menuNotificationCenterTitle => '通知中心';
+
+  @override
+  String get menuNotificationCenterSubtitle => '查看最新通知和公告';
+
+  @override
+  String get authSignupComplete =>
+      'Sign up is complete. Please check the email sent to you to verify.';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initialization error occurred:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Error occurred:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Translation failed: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'Select a date';
+
+  @override
+  String get diarySavedSuccess => 'Diary saved successfully!';
+
+  @override
+  String get diarySaveFailed => 'Failed to save diary.';
+
+  @override
+  String get diaryWriteTitle => 'Write Diary';
+
+  @override
+  String get diaryWriteHint =>
+      'Feel free to write your thoughts or feelings about today\'s reading.';
+
+  @override
+  String get diarySaveButton => 'Save to Diary';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'Today\'s Fortune';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. Past';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. Present';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. Future';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. Current';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. Past';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. Future';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. Cause';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. Potential';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 =>
+      '1. Current situation and problem';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. Cause of problem';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 =>
+      '3. Advice for resolution';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. Expected result';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. Current situation';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. Obstacle';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. Unconscious';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. Past';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. Conscious Goal';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. Near Future';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. Attitude';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 =>
+      '8. External Environment';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. Hopes and Fears';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. Final Result';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. Advice';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. Surroundings';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. Result';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount Coins';
+  }
+
+  @override
+  String get serviceLoginRequired => 'Login is required.';
+
+  @override
+  String get serviceDefaultNickname => 'Nameless Witch';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'An error occurred while reading the fortune: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'User';
+
+  @override
+  String get listenToInterpretation => 'Listen to Interpretation';
+
+  @override
+  String get faqQ1 => 'Can I read tarot every day?';
+
+  @override
+  String get faqA1 =>
+      'Yes, it is good to read the flow of today with a light heart. However, it is not recommended to keep drawing cards repeatedly for the same question.';
+
+  @override
+  String get faqQ2 => 'How do I get magic dust?';
+
+  @override
+  String get faqA2 =>
+      'You can get magic dust through app attendance, community activities, or purchasing in the shop.';
+
+  @override
+  String get faqQ3 => 'What should I do if the result is bad?';
+
+  @override
+  String get faqA3 =>
+      'Tarot is not a fixed future, but an advice. Use a bad result as a milestone to warn you of risks to avoid.';
+
+  @override
+  String get faqQ4 => 'How can I see my past tarot readings?';
+
+  @override
+  String get faqA4 =>
+      'You can review your saved reading records by date in the \'Diary\' (Calendar) tab at the bottom menu anytime.';
+
+  @override
+  String get faqQ5 => 'How do I share to the community?';
+
+  @override
+  String get faqA5 =>
+      'Turn on the \'Share to Community\' switch on the diary detail screen saved in the diary to share your reading with other users.';
+
+  @override
+  String get faqQ6 => 'How can I change my nickname or profile?';
+
+  @override
+  String get faqA6 =>
+      'You can change your nickname and icon anytime by touching the profile area at the top of the \'My Menu\' tab.';
+
+  @override
+  String get faqQ7 => 'Where can I turn notifications on and off?';
+
+  @override
+  String get faqA7 =>
+      'You can control notifications from your device\'s settings app, or from the preferences menu to be updated in the future.';
+
+  @override
+  String get faqQ8 => 'Can I see other people\'s tarot diaries?';
+
+  @override
+  String get faqA8 =>
+      'Yes, you can view and cheer for interesting tarot readings that other wizards (users) have made public in the \'Community\' tab at the bottom.';
+
+  @override
+  String get faqQ9 =>
+      'Where can I check my premium subscription or payment history?';
+
+  @override
+  String get faqA9 =>
+      'If you select \'Payment History\' in the [My Info] tab of the bottom menu, you can check your coin payment history and acquired magic dust in detail.';
+
+  @override
+  String get faqQ10 =>
+      'I want to study the meaning of Tarot cards personally. How can I do that?';
+
+  @override
+  String get faqA10 =>
+      'If you go to the [Card Encyclopedia] tab in the bottom menu, you can freely view the upright and reversed meanings, symbols, and in-depth explanations of all 78 cards.';
+
+  @override
+  String get faqQ11 => 'How can I delete my account or withdraw?';
+
+  @override
+  String get faqA11 =>
+      'You can find the \'Delete Account\' button by going to the Account Settings menu via the gear icon on the top right of the [My Info] tab. All diaries and data will be permanently deleted upon withdrawal.';
+
+  @override
+  String get faqQ12 =>
+      'Where do I contact if I encounter an error or have suggestions?';
+
+  @override
+  String get faqA12 =>
+      'If you send details through \'Contact Customer Service\' which is being prepared at the bottom of the current screen or via official email, we will quickly check and magically solve it for you.';
+
+  @override
+  String get myMenuContactUs => 'Contact Us';
+
+  @override
+  String get myMenuContactUsSubtitle => 'Inquiries and suggestions';
+
+  @override
+  String get contactDialogTitle => 'Contact Us';
+
+  @override
+  String get contactTypeBug => 'Bug Report';
+
+  @override
+  String get contactTypeFeature => 'Feature Suggestion';
+
+  @override
+  String get contactTypePayment => 'Payment Issue';
+
+  @override
+  String get contactTypeOther => 'Other Inquiry';
+
+  @override
+  String get contactHint => 'Please write your inquiry in detail.';
+
+  @override
+  String get contactSend => 'Send';
+
+  @override
+  String get contactCancel => 'Cancel';
+
+  @override
+  String get contactEmptyErrorTitle => 'Notice';
+
+  @override
+  String get contactEmptyErrorMessage => 'Please enter your inquiry content.';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hans`).
@@ -8120,6 +8550,418 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
 
   @override
   String get readingSavedToDevice => '保存到设备。';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level阶段: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => '魔法书升级';
+
+  @override
+  String get growthPhaseCrystal0 => '深渊魔法';
+
+  @override
+  String get growthPhaseCrystal1 => '开启灵眼';
+
+  @override
+  String get growthPhaseCrystal2 => '大自然的智慧';
+
+  @override
+  String get growthPhaseCrystal3 => '太阳的精华';
+
+  @override
+  String get growthPhaseCrystal4 => '天界极光';
+
+  @override
+  String get growthPhaseCrystal5 => '神圣领域';
+
+  @override
+  String get growthPhaseCrystal6 => '创造魔法';
+
+  @override
+  String get growthPhaseCrystal7 => '宇宙之息';
+
+  @override
+  String get growthPhaseCrystal8 => '永恒之光';
+
+  @override
+  String get growthPhaseCrystal9 => '纯白觉醒';
+
+  @override
+  String get growthPhaseCrystal10 => '超越';
+
+  @override
+  String get growthPhaseBook0 => '学徒的写作工具';
+
+  @override
+  String get growthPhaseBook1 => '基础魔法入门';
+
+  @override
+  String get growthPhaseBook2 => '古代符文语法';
+
+  @override
+  String get growthPhaseBook3 => '元素魔法理解';
+
+  @override
+  String get growthPhaseBook4 => '星光和谐';
+
+  @override
+  String get growthPhaseBook5 => '神器解读';
+
+  @override
+  String get growthPhaseBook6 => '贤者禁书';
+
+  @override
+  String get growthPhaseBook7 => '与灵魂沟通';
+
+  @override
+  String get growthPhaseBook8 => '真理魔典';
+
+  @override
+  String get growthPhaseBook9 => '全能记录';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return '魔法书等级 $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return '知识: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return '魔力: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return '魔法书的知识加深了！经验 +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return '强化魔法书 (魔尘 $amount个)';
+  }
+
+  @override
+  String get devDustCharged => '开发: 1000点魔尘已充能！';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => '新闻与通知';
+
+  @override
+  String get menuMailboxTitle => '邮箱';
+
+  @override
+  String get menuMailboxSubtitle => '查看新的更新和礼物';
+
+  @override
+  String get mailboxTitle => '邮箱';
+
+  @override
+  String get mailboxAllRewardsClaimed => '所有奖励均已领取。';
+
+  @override
+  String get mailboxClaimAll => '索取全部';
+
+  @override
+  String get mailboxEmpty => '邮箱是空的。';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return '发件人：$sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => '声称';
+
+  @override
+  String get mailboxClaim => '宣称';
+
+  @override
+  String get mailboxAttachedRewards => '附赠奖励';
+
+  @override
+  String get mailboxRewardClaimed => '奖励已领取。';
+
+  @override
+  String get mailboxClaimReward => '领取奖励';
+
+  @override
+  String get menuNotificationCenterTitle => '通知中心';
+
+  @override
+  String get menuNotificationCenterSubtitle => '查看最新通知和公告';
+
+  @override
+  String get authSignupComplete => '注册完成。请检查发送给您的电子邮件以进行验证。';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initialization error occurred:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Error occurred:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Translation failed: $error';
+  }
+
+  @override
+  String get diarySelectDate => '选择日期';
+
+  @override
+  String get diarySavedSuccess => '日记保存成功！';
+
+  @override
+  String get diarySaveFailed => '保存日记失败。';
+
+  @override
+  String get diaryWriteTitle => '写日记';
+
+  @override
+  String get diaryWriteHint => '请随意写下您对今天的阅读的想法或感受。';
+
+  @override
+  String get diarySaveButton => '保存到日记';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => '今日财运';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. 过去';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. 礼物';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. 未来';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. 目前';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. 过去';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. 未来';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. 原因';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. 潜力';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 => '一、现状及问题';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. 问题原因';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 => '3. 解决建议';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. 预期结果';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '一、现状';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. 障碍物';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3.无意识';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. 过去';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. 有意识的目标';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. 不久的将来';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. 态度';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 => '八、外部环境';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9.希望与恐惧';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. 最终结果';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4.建议';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. 周围环境';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. 结果';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount Coins';
+  }
+
+  @override
+  String get serviceLoginRequired => '需要登录。';
+
+  @override
+  String get serviceDefaultNickname => '无名女巫';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return '算命时发生错误：$error';
+  }
+
+  @override
+  String get defaultUserDisplayName => '用户';
+
+  @override
+  String get listenToInterpretation => '聆听口译';
+
+  @override
+  String get faqQ1 => '塔罗牌可以每天看吗？';
+
+  @override
+  String get faqA1 => '是的，以轻松的心情阅读今天的流程是件好事。但不建议同一题重复抽卡。';
+
+  @override
+  String get faqQ2 => '魔法粉尘如何获得？';
+
+  @override
+  String get faqA2 => '您可以通过应用程序参与、社区活动或商店购买来获得魔法尘埃。';
+
+  @override
+  String get faqQ3 => '如果结果不好怎么办？';
+
+  @override
+  String get faqA3 => '塔罗牌不是一个固定的未来，而是一个建议。使用糟糕的结果作为里程碑来警告您要避免的风险。';
+
+  @override
+  String get faqQ4 => '如何查看我过去的塔罗牌占卜？';
+
+  @override
+  String get faqA4 => '您可以随时在底部菜单的“日记”（日历）选项卡中按日期查看已保存的阅读记录。';
+
+  @override
+  String get faqQ5 => '我如何分享到社区？';
+
+  @override
+  String get faqA5 => '打开日记中保存的日记详细信息屏幕上的“分享到社区”开关，即可将您的阅读内容分享给其他用户。';
+
+  @override
+  String get faqQ6 => '如何更改我的昵称或个人资料？';
+
+  @override
+  String get faqA6 => '您可以随时通过触摸“我的菜单”选项卡顶部的个人资料区域来更改您的昵称和图标。';
+
+  @override
+  String get faqQ7 => '在哪里可以打开和关闭通知？';
+
+  @override
+  String get faqA7 => '您可以通过设备的设置应用程序或将来更新的首选项菜单来控制通知。';
+
+  @override
+  String get faqQ8 => '我可以看别人的塔罗日记吗？';
+
+  @override
+  String get faqA8 => '是的，您可以在底部的“社区”选项卡中查看其他巫师（用户）公开的有趣塔罗牌占卜并为之喝彩。';
+
+  @override
+  String get faqQ9 => '我在哪里可以查看我的高级订阅或付款历史记录？';
+
+  @override
+  String get faqA9 =>
+      '如果您在底部菜单的[我的信息]选项卡中选择“支付历史记录”，您可以详细查看您的金币支付历史记录和获得的魔法尘埃。';
+
+  @override
+  String get faqQ10 => '我想亲自研究一下塔罗牌的含义。我怎样才能做到这一点？';
+
+  @override
+  String get faqA10 => '进入底部菜单的【卡片百科】选项卡，您可以自由查看全部78张卡片的正反含义、符号以及深入解释。';
+
+  @override
+  String get faqQ11 => '我如何删除我的帐户或提款？';
+
+  @override
+  String get faqA11 =>
+      '您可以通过[我的信息]选项卡右上角的齿轮图标进入帐户设置菜单，找到“删除帐户”按钮。退出后所有日记和数据将被永久删除。';
+
+  @override
+  String get faqQ12 => '如果遇到错误或有建议，应该与哪里联系？';
+
+  @override
+  String get faqA12 => '如果您通过当前屏幕底部正在准备的“联系客服”或通过官方电子邮件发送详细信息，我们将快速检查并神奇地为您解决。';
+
+  @override
+  String get myMenuContactUs => '联系我们';
+
+  @override
+  String get myMenuContactUsSubtitle => '查询及建议';
+
+  @override
+  String get contactDialogTitle => '联系我们';
+
+  @override
+  String get contactTypeBug => '错误报告';
+
+  @override
+  String get contactTypeFeature => '功能建议';
+
+  @override
+  String get contactTypePayment => '付款问题';
+
+  @override
+  String get contactTypeOther => '其他查询';
+
+  @override
+  String get contactHint => '请详细写下您的询问。';
+
+  @override
+  String get contactSend => '发送';
+
+  @override
+  String get contactCancel => '取消';
+
+  @override
+  String get contactEmptyErrorTitle => '注意';
+
+  @override
+  String get contactEmptyErrorMessage => '请输入您的询问内容。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -12179,4 +13021,415 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get readingSavedToDevice => '儲存到設備。';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level階段: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => '魔法書升級';
+
+  @override
+  String get growthPhaseCrystal0 => '深淵魔力';
+
+  @override
+  String get growthPhaseCrystal1 => '開啟靈眼';
+
+  @override
+  String get growthPhaseCrystal2 => '大自然智慧';
+
+  @override
+  String get growthPhaseCrystal3 => '太陽精華';
+
+  @override
+  String get growthPhaseCrystal4 => '天界極光';
+
+  @override
+  String get growthPhaseCrystal5 => '神聖領域';
+
+  @override
+  String get growthPhaseCrystal6 => '創造魔法';
+
+  @override
+  String get growthPhaseCrystal7 => '宇宙氣息';
+
+  @override
+  String get growthPhaseCrystal8 => '永恆之光';
+
+  @override
+  String get growthPhaseCrystal9 => '純白覺醒';
+
+  @override
+  String get growthPhaseCrystal10 => '超脫';
+
+  @override
+  String get growthPhaseBook0 => '學徒書寫工具';
+
+  @override
+  String get growthPhaseBook1 => '基礎魔法入門';
+
+  @override
+  String get growthPhaseBook2 => '古老符文語法';
+
+  @override
+  String get growthPhaseBook3 => '元素魔法理解';
+
+  @override
+  String get growthPhaseBook4 => '星光和諧';
+
+  @override
+  String get growthPhaseBook5 => '神器解讀';
+
+  @override
+  String get growthPhaseBook6 => '賢者禁書';
+
+  @override
+  String get growthPhaseBook7 => '與靈魂溝通';
+
+  @override
+  String get growthPhaseBook8 => '真理魔典';
+
+  @override
+  String get growthPhaseBook9 => '全能紀錄';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return '魔法書等級 $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return '知識: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return '魔力: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return '魔法書的知識更深了！經驗值 +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return '強化魔法書 ($amount 個魔塵)';
+  }
+
+  @override
+  String get devDustCharged => '開發用: 1000 個魔塵已充能！';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => '新聞與通知';
+
+  @override
+  String get menuMailboxTitle => '信箱';
+
+  @override
+  String get menuMailboxSubtitle => '查看新的更新和禮物';
+
+  @override
+  String get mailboxTitle => '信箱';
+
+  @override
+  String get mailboxAllRewardsClaimed => '所有獎勵均已領取。';
+
+  @override
+  String get mailboxClaimAll => '索取全部';
+
+  @override
+  String get mailboxEmpty => '郵箱是空的。';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return '寄件者：$sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => '聲稱';
+
+  @override
+  String get mailboxClaim => '宣稱';
+
+  @override
+  String get mailboxAttachedRewards => '附贈獎勵';
+
+  @override
+  String get mailboxRewardClaimed => '獎勵已領。';
+
+  @override
+  String get mailboxClaimReward => '領取獎勵';
+
+  @override
+  String get menuNotificationCenterTitle => '通知中心';
+
+  @override
+  String get menuNotificationCenterSubtitle => '查看最新通知和公告';
+
+  @override
+  String get authSignupComplete => '註冊完成。請檢查發送給您的電子郵件以進行驗證。';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initialization error occurred:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Error occurred:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Translation failed: $error';
+  }
+
+  @override
+  String get diarySelectDate => '選擇日期';
+
+  @override
+  String get diarySavedSuccess => '日記保存成功！';
+
+  @override
+  String get diarySaveFailed => '保存日記失敗。';
+
+  @override
+  String get diaryWriteTitle => '寫日記';
+
+  @override
+  String get diaryWriteHint => '請隨意寫下您對今天的閱讀的想法或感受。';
+
+  @override
+  String get diarySaveButton => '儲存到日記';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => '今日財運';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. 過去';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. 禮物';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. 未來';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. 目前';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. 過去';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. 未來';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. 原因';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. 潛力';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 => '一、現狀及問題';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. 問題原因';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 => '3. 解決建議';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. 預期結果';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '一、現狀';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. 障礙物';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3.無意識';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. 過去';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. 有意識的目標';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. 不久的將來';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. 態度';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 => '八、外在環境';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9.希望與恐懼';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. 最終結果';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4.建議';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. 周圍環境';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. 結果';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount Coins';
+  }
+
+  @override
+  String get serviceLoginRequired => '需要登入。';
+
+  @override
+  String get serviceDefaultNickname => '無名女巫';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return '算命時發生錯誤：$error';
+  }
+
+  @override
+  String get defaultUserDisplayName => '使用者';
+
+  @override
+  String get listenToInterpretation => '聆聽口譯';
+
+  @override
+  String get faqQ1 => '塔羅牌可以每天看嗎？';
+
+  @override
+  String get faqA1 => '是的，以輕鬆的心情閱讀今天的流程是件好事。但不建議同一題重複抽卡。';
+
+  @override
+  String get faqQ2 => '魔法粉塵如何獲得？';
+
+  @override
+  String get faqA2 => '您可以透過應用程式參與、社區活動或商店購買來獲得魔法塵埃。';
+
+  @override
+  String get faqQ3 => '如果結果不好怎麼辦？';
+
+  @override
+  String get faqA3 => '塔羅牌不是一個固定的未來，而是一個建議。使用糟糕的結果作為里程碑來警告您要避免的風險。';
+
+  @override
+  String get faqQ4 => '如何查看我過去的塔羅牌占卜？';
+
+  @override
+  String get faqA4 => '您可以隨時在底部選單的「日記」（日曆）標籤中按日期查看已儲存的閱讀記錄。';
+
+  @override
+  String get faqQ5 => '我如何分享到社區？';
+
+  @override
+  String get faqA5 => '打開日記中儲存的日記詳細資訊畫面上的「分享到社群」開關，即可將您的閱讀內容分享給其他使用者。';
+
+  @override
+  String get faqQ6 => '如何更改我的暱稱或個人資料？';
+
+  @override
+  String get faqA6 => '您可以隨時透過觸摸「我的選單」標籤頂部的個人資料區域來更改您的暱稱和圖示。';
+
+  @override
+  String get faqQ7 => '在哪裡可以開啟和關閉通知？';
+
+  @override
+  String get faqA7 => '您可以透過裝置的設定應用程式或將來更新的首選項選單來控制通知。';
+
+  @override
+  String get faqQ8 => '我可以看別人的塔羅日記嗎？';
+
+  @override
+  String get faqA8 => '是的，您可以在底部的“社區”選項卡中查看其他巫師（用戶）公開的有趣塔羅牌占卜並為之喝采。';
+
+  @override
+  String get faqQ9 => '我可以在哪裡查看我的高級訂閱或付款記錄？';
+
+  @override
+  String get faqA9 => '如果您在底部選單的[我的資訊]標籤中選擇“付款歷史記錄”，您可以詳細查看您的金幣支付歷史記錄和獲得的魔法塵埃。';
+
+  @override
+  String get faqQ10 => '我想親自研究一下塔羅牌的意思。我怎樣才能做到這一點？';
+
+  @override
+  String get faqA10 => '進入底部選單的【卡片百科】選項卡，您可以自由查看全部78張卡片的正反含義、符號以及深入解釋。';
+
+  @override
+  String get faqQ11 => '我該如何刪除我的帳戶或提款？';
+
+  @override
+  String get faqA11 =>
+      '您可以透過[我的資訊]標籤右上角的齒輪圖示進入帳戶設定選單，找到「刪除帳戶」按鈕。退出後所有日記和資料將永久刪除。';
+
+  @override
+  String get faqQ12 => '如果遇到錯誤或有建議，應該與哪裡聯絡？';
+
+  @override
+  String get faqA12 => '如果您透過目前螢幕底部正在準備的「聯絡客服」或透過官方電子郵件發送詳細訊息，我們將快速檢查並神奇地為您解決。';
+
+  @override
+  String get myMenuContactUs => '聯絡我們';
+
+  @override
+  String get myMenuContactUsSubtitle => '查詢及建議';
+
+  @override
+  String get contactDialogTitle => '聯絡我們';
+
+  @override
+  String get contactTypeBug => '錯誤報告';
+
+  @override
+  String get contactTypeFeature => '功能建議';
+
+  @override
+  String get contactTypePayment => '付款問題';
+
+  @override
+  String get contactTypeOther => '其他查詢';
+
+  @override
+  String get contactHint => '請詳細寫下您的詢問。';
+
+  @override
+  String get contactSend => '傳送';
+
+  @override
+  String get contactCancel => '取消';
+
+  @override
+  String get contactEmptyErrorTitle => '注意';
+
+  @override
+  String get contactEmptyErrorMessage => '請輸入您的詢問內容。';
 }

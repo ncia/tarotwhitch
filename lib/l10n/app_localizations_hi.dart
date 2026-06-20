@@ -4413,4 +4413,433 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'डिवाइस में सहेजा गया.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level चरण: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'जादुई किताब अपग्रेड';
+
+  @override
+  String get growthPhaseCrystal0 => 'अगाध जादू';
+
+  @override
+  String get growthPhaseCrystal1 => 'आत्मिक नेत्र का उद्घाटन';
+
+  @override
+  String get growthPhaseCrystal2 => 'प्रकृति की बुद्धिमत्ता';
+
+  @override
+  String get growthPhaseCrystal3 => 'सूर्य का सार';
+
+  @override
+  String get growthPhaseCrystal4 => 'आकाशीय अरोरा';
+
+  @override
+  String get growthPhaseCrystal5 => 'दिव्य क्षेत्र';
+
+  @override
+  String get growthPhaseCrystal6 => 'सृष्टि का जादू';
+
+  @override
+  String get growthPhaseCrystal7 => 'ब्रह्मांड का श्वास';
+
+  @override
+  String get growthPhaseCrystal8 => 'शाश्वत प्रकाश';
+
+  @override
+  String get growthPhaseCrystal9 => 'शुद्ध श्वेत जागरण';
+
+  @override
+  String get growthPhaseCrystal10 => 'पराकाष्ठा';
+
+  @override
+  String get growthPhaseBook0 => 'शिक्षु के लेखन उपकरण';
+
+  @override
+  String get growthPhaseBook1 => 'बुनियादी जादू की पोथी';
+
+  @override
+  String get growthPhaseBook2 => 'प्राचीन रुण व्याकरण';
+
+  @override
+  String get growthPhaseBook3 => 'तात्विक जादू को समझना';
+
+  @override
+  String get growthPhaseBook4 => 'तारकीय प्रकाश का सामंजस्य';
+
+  @override
+  String get growthPhaseBook5 => 'कलाकृति का गूढ़ार्थ निकालना';
+
+  @override
+  String get growthPhaseBook6 => 'ऋषि की निषिद्ध पुस्तक';
+
+  @override
+  String get growthPhaseBook7 => 'आत्माओं के साथ संवाद';
+
+  @override
+  String get growthPhaseBook8 => 'सत्य का ग्रिमोयर';
+
+  @override
+  String get growthPhaseBook9 => 'सर्वशक्तिमान अभिलेख';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'जादुई किताब का स्तर $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'ज्ञान: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'माना: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'जादुई किताब का ज्ञान गहरा हो गया है! एक्सपी +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'जादुई किताब अपग्रेड करें ($amount धूल)';
+  }
+
+  @override
+  String get devDustCharged => 'देव: 1000 जादुई धूल चार्ज की गई!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'समाचार एवं सूचनाएं';
+
+  @override
+  String get menuMailboxTitle => 'मेलबॉक्स';
+
+  @override
+  String get menuMailboxSubtitle => 'नए अपडेट और उपहार जांचें';
+
+  @override
+  String get mailboxTitle => 'मेलबॉक्स';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'सभी पुरस्कारों का दावा किया गया.';
+
+  @override
+  String get mailboxClaimAll => 'सभी का दावा करें';
+
+  @override
+  String get mailboxEmpty => 'मेलबॉक्स खाली है.';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'प्रेषक: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'दावा किया';
+
+  @override
+  String get mailboxClaim => 'दावा';
+
+  @override
+  String get mailboxAttachedRewards => 'संलग्न पुरस्कार';
+
+  @override
+  String get mailboxRewardClaimed => 'इनाम का दावा किया गया.';
+
+  @override
+  String get mailboxClaimReward => 'इनाम का दावा करें';
+
+  @override
+  String get menuNotificationCenterTitle => 'अधिसूचना केंद्र';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'नवीनतम अधिसूचनाएँ और घोषणाएँ जाँचें';
+
+  @override
+  String get authSignupComplete =>
+      'साइन अप पूरा हो गया है. कृपया सत्यापित करने के लिए आपको भेजा गया ईमेल जांचें।';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initialization error occurred:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Error occurred:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Translation failed: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'एक तारीख चुनें';
+
+  @override
+  String get diarySavedSuccess => 'डायरी सफलतापूर्वक सहेजी गई!';
+
+  @override
+  String get diarySaveFailed => 'डायरी सहेजने में विफल.';
+
+  @override
+  String get diaryWriteTitle => 'डायरी लिखें';
+
+  @override
+  String get diaryWriteHint =>
+      'आज की पढ़ाई के बारे में बेझिझक अपने विचार या भावनाएँ लिखें।';
+
+  @override
+  String get diarySaveButton => 'डायरी में सहेजें';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'आज का भाग्य';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. अतीत';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. वर्तमान';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. भविष्य';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. वर्तमान';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. अतीत';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. भविष्य';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. कारण';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. क्षमता';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 =>
+      '1. वर्तमान स्थिति एवं समस्या';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. समस्या का कारण';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 => '3. समाधान हेतु सलाह';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. अपेक्षित परिणाम';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. वर्तमान स्थिति';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. बाधा';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. अचेतन';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. अतीत';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. सचेत लक्ष्य';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. निकट भविष्य';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. मनोवृत्ति';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 => '8. बाहरी वातावरण';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. आशाएँ और भय';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. अंतिम परिणाम';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. सलाह';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. परिवेश';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. परिणाम';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount Coins';
+  }
+
+  @override
+  String get serviceLoginRequired => 'लॉगिन आवश्यक है.';
+
+  @override
+  String get serviceDefaultNickname => 'नामहीन चुड़ैल';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'An error occurred while reading the fortune: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'उपयोगकर्ता';
+
+  @override
+  String get listenToInterpretation => 'व्याख्या सुनें';
+
+  @override
+  String get faqQ1 => 'क्या मैं हर दिन टैरो पढ़ सकता हूँ?';
+
+  @override
+  String get faqA1 =>
+      'हां, आज के प्रवाह को हल्के दिल से पढ़ना अच्छा है। हालाँकि, एक ही प्रश्न के लिए बार-बार कार्ड बनाते रहने की अनुशंसा नहीं की जाती है।';
+
+  @override
+  String get faqQ2 => 'मुझे जादुई धूल कैसे मिलेगी?';
+
+  @override
+  String get faqA2 =>
+      'आप ऐप उपस्थिति, सामुदायिक गतिविधियों या दुकान में खरीदारी के माध्यम से जादुई धूल प्राप्त कर सकते हैं।';
+
+  @override
+  String get faqQ3 => 'यदि परिणाम ख़राब हो तो मुझे क्या करना चाहिए?';
+
+  @override
+  String get faqA3 =>
+      'टैरो कोई निश्चित भविष्य नहीं, बल्कि एक सलाह है। किसी बुरे परिणाम को एक मील के पत्थर के रूप में उपयोग करें ताकि आपको बचने के जोखिमों से आगाह किया जा सके।';
+
+  @override
+  String get faqQ4 => 'मैं अपनी पिछली टैरो रीडिंग कैसे देख सकता हूँ?';
+
+  @override
+  String get faqA4 =>
+      'आप किसी भी समय निचले मेनू पर \'डायरी\' (कैलेंडर) टैब में तारीख के अनुसार अपने सहेजे गए रीडिंग रिकॉर्ड की समीक्षा कर सकते हैं।';
+
+  @override
+  String get faqQ5 => 'मैं समुदाय के साथ कैसे साझा करूं?';
+
+  @override
+  String get faqA5 =>
+      'अपने पढ़ने को अन्य उपयोगकर्ताओं के साथ साझा करने के लिए डायरी में सहेजी गई डायरी विवरण स्क्रीन पर \'साझा करें समुदाय\' स्विच चालू करें।';
+
+  @override
+  String get faqQ6 => 'How can I change my nickname or profile?';
+
+  @override
+  String get faqA6 =>
+      'आप \'मेरा मेनू\' टैब के शीर्ष पर प्रोफ़ाइल क्षेत्र को स्पर्श करके किसी भी समय अपना उपनाम और आइकन बदल सकते हैं।';
+
+  @override
+  String get faqQ7 => 'मैं सूचनाएं कहां चालू और बंद कर सकता हूं?';
+
+  @override
+  String get faqA7 =>
+      'आप अपने डिवाइस के सेटिंग ऐप से, या भविष्य में अपडेट किए जाने वाले प्राथमिकता मेनू से सूचनाओं को नियंत्रित कर सकते हैं।';
+
+  @override
+  String get faqQ8 => 'क्या मैं अन्य लोगों की टैरो डायरियाँ देख सकता हूँ?';
+
+  @override
+  String get faqA8 =>
+      'हां, आप नीचे \'समुदाय\' टैब में अन्य जादूगरों (उपयोगकर्ताओं) द्वारा सार्वजनिक की गई दिलचस्प टैरो रीडिंग को देख सकते हैं और उसका आनंद उठा सकते हैं।';
+
+  @override
+  String get faqQ9 =>
+      'मैं अपनी प्रीमियम सदस्यता या भुगतान इतिहास कहाँ देख सकता हूँ?';
+
+  @override
+  String get faqA9 =>
+      'यदि आप निचले मेनू के [मेरी जानकारी] टैब में \'भुगतान इतिहास\' चुनते हैं, तो आप अपने सिक्के के भुगतान इतिहास और प्राप्त जादुई धूल की विस्तार से जांच कर सकते हैं।';
+
+  @override
+  String get faqQ10 =>
+      'मैं व्यक्तिगत रूप से टैरो कार्ड के अर्थ का अध्ययन करना चाहता हूं। मेरे द्वारा ऐसा कैसे किया जा सकता है?';
+
+  @override
+  String get faqA10 =>
+      'यदि आप नीचे मेनू में [कार्ड इनसाइक्लोपीडिया] टैब पर जाते हैं, तो आप सभी 78 कार्डों के सीधे और उल्टे अर्थ, प्रतीक और गहन स्पष्टीकरण को स्वतंत्र रूप से देख सकते हैं।';
+
+  @override
+  String get faqQ11 => 'मैं अपना खाता कैसे हटा सकता हूँ या निकाल सकता हूँ?';
+
+  @override
+  String get faqA11 =>
+      'आप [मेरी जानकारी] टैब के शीर्ष दाईं ओर स्थित गियर आइकन के माध्यम से खाता सेटिंग्स मेनू पर जाकर \'खाता हटाएं\' बटन पा सकते हैं। वापसी पर सभी डायरियाँ और डेटा स्थायी रूप से हटा दिए जाएंगे।';
+
+  @override
+  String get faqQ12 =>
+      'यदि मुझे कोई त्रुटि आती है या कोई सुझाव है तो मैं कहां संपर्क करूं?';
+
+  @override
+  String get faqA12 =>
+      'यदि आप \'संपर्क ग्राहक सेवा\' के माध्यम से विवरण भेजते हैं जो वर्तमान स्क्रीन के नीचे तैयार किया जा रहा है या आधिकारिक ईमेल के माध्यम से, हम तुरंत जांच करेंगे और आपके लिए इसे जादुई तरीके से हल करेंगे।';
+
+  @override
+  String get myMenuContactUs => 'हमसे संपर्क करें';
+
+  @override
+  String get myMenuContactUsSubtitle => 'पूछताछ और सुझाव';
+
+  @override
+  String get contactDialogTitle => 'हमसे संपर्क करें';
+
+  @override
+  String get contactTypeBug => 'बग रिपोर्ट';
+
+  @override
+  String get contactTypeFeature => 'फ़ीचर सुझाव';
+
+  @override
+  String get contactTypePayment => 'भुगतान मुद्दा';
+
+  @override
+  String get contactTypeOther => 'अन्य पूछताछ';
+
+  @override
+  String get contactHint => 'कृपया अपनी पूछताछ विस्तार से लिखें.';
+
+  @override
+  String get contactSend => 'भेजना';
+
+  @override
+  String get contactCancel => 'रद्द करना';
+
+  @override
+  String get contactEmptyErrorTitle => 'सूचना';
+
+  @override
+  String get contactEmptyErrorMessage => 'कृपया अपनी पूछताछ सामग्री दर्ज करें।';
 }

@@ -4438,4 +4438,436 @@ class AppLocalizationsMl extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'ഉപകരണത്തിൽ സംരക്ഷിച്ചു.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level ഘട്ടം: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'മാന്ത്രിക പുസ്തക നവീകരണം';
+
+  @override
+  String get growthPhaseCrystal0 => 'അഗാധമായ മാന്ത്രികത';
+
+  @override
+  String get growthPhaseCrystal1 => 'ആത്മാവിന്റെ കണ്ണ് തുറക്കുന്നു';
+
+  @override
+  String get growthPhaseCrystal2 => 'പ്രകൃതി മാതാവിന്റെ ജ്ഞാനം';
+
+  @override
+  String get growthPhaseCrystal3 => 'സൂര്യന്റെ സാരം';
+
+  @override
+  String get growthPhaseCrystal4 => 'സ്വർഗ്ഗീയ അറോറ';
+
+  @override
+  String get growthPhaseCrystal5 => 'ദിവ്യ മണ്ഡലം';
+
+  @override
+  String get growthPhaseCrystal6 => 'സൃഷ്ടിയുടെ മാന്ത്രികത';
+
+  @override
+  String get growthPhaseCrystal7 => 'പ്രപഞ്ചത്തിന്റെ ശ്വാസം';
+
+  @override
+  String get growthPhaseCrystal8 => 'നിത്യപ്രകാശം';
+
+  @override
+  String get growthPhaseCrystal9 => 'ശുദ്ധമായ വെള്ള ഉണർവ്വ്';
+
+  @override
+  String get growthPhaseCrystal10 => 'അതിശ്രേഷ്ഠത';
+
+  @override
+  String get growthPhaseBook0 => 'അപ്രന്റീസിന്റെ എഴുത്ത് ഉപകരണങ്ങൾ';
+
+  @override
+  String get growthPhaseBook1 => 'അടിസ്ഥാന മാന്ത്രിക പ്രൈമർ';
+
+  @override
+  String get growthPhaseBook2 => 'പുരാതന റൂൺ വ്യാകരണം';
+
+  @override
+  String get growthPhaseBook3 => 'മൂലക മാന്ത്രികത മനസ്സിലാക്കുന്നു';
+
+  @override
+  String get growthPhaseBook4 => 'നക്ഷത്രപ്രകാശത്തിന്റെ ഐക്യം';
+
+  @override
+  String get growthPhaseBook5 => 'പുരാവസ്തു വ്യാഖ്യാനം';
+
+  @override
+  String get growthPhaseBook6 => 'മുനിയുടെ നിരോധിത പുസ്തകം';
+
+  @override
+  String get growthPhaseBook7 => 'ആത്മാക്കളുമായുള്ള സംസർഗ്ഗം';
+
+  @override
+  String get growthPhaseBook8 => 'സത്യത്തിന്റെ ഗ്രിമോയർ';
+
+  @override
+  String get growthPhaseBook9 => 'സർവ്വശക്തമായ രേഖ';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'മാന്ത്രിക പുസ്തക നില $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'അറിവ്: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'മാന: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'മാന്ത്രിക പുസ്തകത്തിന്റെ അറിവ് വർദ്ധിച്ചു! Exp +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'മാന്ത്രിക പുസ്തകം നവീകരിക്കുക ($amount പൊടി)';
+  }
+
+  @override
+  String get devDustCharged => 'ഡെവ്: 1000 മാന്ത്രിക പൊടി ചാർജ്ജ് ചെയ്തു!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'വാർത്തകളും അറിയിപ്പുകളും';
+
+  @override
+  String get menuMailboxTitle => 'മെയിൽബോക്സ്';
+
+  @override
+  String get menuMailboxSubtitle =>
+      'പുതിയ അപ്ഡേറ്റുകളും സമ്മാനങ്ങളും പരിശോധിക്കുക';
+
+  @override
+  String get mailboxTitle => 'മെയിൽബോക്സ്';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'എല്ലാ റിവാർഡുകളും ക്ലെയിം ചെയ്തു.';
+
+  @override
+  String get mailboxClaimAll => 'എല്ലാം ക്ലെയിം ചെയ്യുക';
+
+  @override
+  String get mailboxEmpty => 'മെയിൽബോക്സ് ശൂന്യമാണ്.';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'അയച്ചത്: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'അവകാശപ്പെട്ടു';
+
+  @override
+  String get mailboxClaim => 'അവകാശം';
+
+  @override
+  String get mailboxAttachedRewards => 'അറ്റാച്ച് ചെയ്ത റിവാർഡുകൾ';
+
+  @override
+  String get mailboxRewardClaimed => 'റിവാർഡ് അവകാശപ്പെട്ടു.';
+
+  @override
+  String get mailboxClaimReward => 'റിവാർഡ് ക്ലെയിം ചെയ്യുക';
+
+  @override
+  String get menuNotificationCenterTitle => 'അറിയിപ്പ് കേന്ദ്രം';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'ഏറ്റവും പുതിയ അറിയിപ്പുകളും അറിയിപ്പുകളും പരിശോധിക്കുക';
+
+  @override
+  String get authSignupComplete =>
+      'സൈൻ അപ്പ് പൂർത്തിയായി. സ്ഥിരീകരിക്കാൻ നിങ്ങൾക്ക് അയച്ച ഇമെയിൽ പരിശോധിക്കുക.';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initialization error occurred:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Error occurred:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'വിവർത്തനം പരാജയപ്പെട്ടു: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'ഒരു തീയതി തിരഞ്ഞെടുക്കുക';
+
+  @override
+  String get diarySavedSuccess => 'ഡയറി സംരക്ഷിച്ചു!';
+
+  @override
+  String get diarySaveFailed => 'ഡയറി സംരക്ഷിക്കുന്നതിൽ പരാജയപ്പെട്ടു.';
+
+  @override
+  String get diaryWriteTitle => 'ഡയറി എഴുതുക';
+
+  @override
+  String get diaryWriteHint =>
+      'ഇന്നത്തെ വായനയെക്കുറിച്ചുള്ള നിങ്ങളുടെ ചിന്തകളും വികാരങ്ങളും എഴുതാൻ മടിക്കേണ്ടതില്ല.';
+
+  @override
+  String get diarySaveButton => 'ഡയറിയിൽ സംരക്ഷിക്കുക';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'പതിപ്പ് $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'ഇന്നത്തെ ഭാഗ്യം';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. കഴിഞ്ഞത്';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. അവതരിപ്പിക്കുക';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. ഭാവി';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. നിലവിലെ';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. കഴിഞ്ഞത്';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. ഭാവി';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. കാരണം';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. സാധ്യത';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 =>
+      '1. നിലവിലെ സാഹചര്യവും പ്രശ്നവും';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. പ്രശ്നത്തിൻ്റെ കാരണം';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 =>
+      '3. പരിഹാരത്തിനുള്ള ഉപദേശം';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. പ്രതീക്ഷിച്ച ഫലം';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. നിലവിലെ സാഹചര്യം';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. തടസ്സം';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. അബോധാവസ്ഥ';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. കഴിഞ്ഞത്';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. ബോധപൂർവമായ ലക്ഷ്യം';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. സമീപ ഭാവി';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. മനോഭാവം';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 => '8. ബാഹ്യ പരിസ്ഥിതി';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. പ്രതീക്ഷകളും ഭയവും';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. അന്തിമ ഫലം';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. ഉപദേശം';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. ചുറ്റുപാടുകൾ';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. ഫലം';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount നാണയങ്ങൾ';
+  }
+
+  @override
+  String get serviceLoginRequired => 'ലോഗിൻ ചെയ്യേണ്ടതുണ്ട്.';
+
+  @override
+  String get serviceDefaultNickname => 'പേരില്ലാത്ത മന്ത്രവാദിനി';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'ഫോർച്യൂൺ വായിക്കുമ്പോൾ ഒരു പിശക് സംഭവിച്ചു: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'ഉപയോക്താവ്';
+
+  @override
+  String get listenToInterpretation => 'വ്യാഖ്യാനം ശ്രദ്ധിക്കുക';
+
+  @override
+  String get faqQ1 => 'എനിക്ക് എല്ലാ ദിവസവും ടാരറ്റ് വായിക്കാൻ കഴിയുമോ?';
+
+  @override
+  String get faqA1 =>
+      'അതെ, ഇന്നിൻ്റെ ഒഴുക്ക് ഹൃദയം തുറന്ന് വായിക്കുന്നത് നല്ലതാണ്. എന്നിരുന്നാലും, ഒരേ ചോദ്യത്തിന് ആവർത്തിച്ച് കാർഡുകൾ വരയ്ക്കുന്നത് ശുപാർശ ചെയ്യുന്നില്ല.';
+
+  @override
+  String get faqQ2 => 'എനിക്ക് എങ്ങനെ മാന്ത്രിക പൊടി ലഭിക്കും?';
+
+  @override
+  String get faqA2 =>
+      'ആപ്പ് ഹാജർ, കമ്മ്യൂണിറ്റി ആക്റ്റിവിറ്റികൾ, അല്ലെങ്കിൽ ഷോപ്പിൽ നിന്ന് വാങ്ങൽ എന്നിവയിലൂടെ നിങ്ങൾക്ക് മാന്ത്രിക പൊടി ലഭിക്കും.';
+
+  @override
+  String get faqQ3 => 'ഫലം മോശമാണെങ്കിൽ ഞാൻ എന്തുചെയ്യണം?';
+
+  @override
+  String get faqA3 =>
+      'ടാരറ്റ് ഒരു നിശ്ചിത ഭാവിയല്ല, മറിച്ച് ഒരു ഉപദേശമാണ്. ഒഴിവാക്കേണ്ട അപകടസാധ്യതകളെക്കുറിച്ച് മുന്നറിയിപ്പ് നൽകുന്നതിന് ഒരു നാഴികക്കല്ലായി ഒരു മോശം ഫലം ഉപയോഗിക്കുക.';
+
+  @override
+  String get faqQ4 => 'എൻ്റെ മുൻകാല ടാരറ്റ് റീഡിംഗുകൾ എങ്ങനെ കാണാനാകും?';
+
+  @override
+  String get faqA4 =>
+      'എപ്പോൾ വേണമെങ്കിലും ചുവടെയുള്ള മെനുവിലെ \'ഡയറി\' (കലണ്ടർ) ടാബിൽ നിങ്ങളുടെ സംരക്ഷിച്ച വായനാ റെക്കോർഡുകൾ തീയതി പ്രകാരം അവലോകനം ചെയ്യാം.';
+
+  @override
+  String get faqQ5 => 'ഞാൻ എങ്ങനെയാണ് കമ്മ്യൂണിറ്റിയിൽ പങ്കിടുക?';
+
+  @override
+  String get faqA5 =>
+      'നിങ്ങളുടെ വായന മറ്റ് ഉപയോക്താക്കളുമായി പങ്കിടുന്നതിന് ഡയറിയിൽ സംരക്ഷിച്ചിരിക്കുന്ന ഡയറി വിശദാംശ സ്‌ക്രീനിലെ \'കമ്മ്യൂണിറ്റിയിലേക്ക് പങ്കിടുക\' സ്വിച്ച് ഓണാക്കുക.';
+
+  @override
+  String get faqQ6 => 'എനിക്ക് എങ്ങനെ എൻ്റെ വിളിപ്പേരോ പ്രൊഫൈലോ മാറ്റാനാകും?';
+
+  @override
+  String get faqA6 =>
+      '\'എൻ്റെ മെനു\' ടാബിൻ്റെ മുകളിലുള്ള പ്രൊഫൈൽ ഏരിയയിൽ സ്‌പർശിച്ചുകൊണ്ട് നിങ്ങൾക്ക് എപ്പോൾ വേണമെങ്കിലും വിളിപ്പേരും ഐക്കണും മാറ്റാം.';
+
+  @override
+  String get faqQ7 => 'എനിക്ക് എവിടെ അറിയിപ്പുകൾ ഓണാക്കാനും ഓഫാക്കാനും കഴിയും?';
+
+  @override
+  String get faqA7 =>
+      'നിങ്ങളുടെ ഉപകരണത്തിൻ്റെ ക്രമീകരണ ആപ്പിൽ നിന്നോ ഭാവിയിൽ അപ്‌ഡേറ്റ് ചെയ്യേണ്ട മുൻഗണനാ മെനുവിൽ നിന്നോ നിങ്ങൾക്ക് അറിയിപ്പുകൾ നിയന്ത്രിക്കാനാകും.';
+
+  @override
+  String get faqQ8 => 'എനിക്ക് മറ്റുള്ളവരുടെ ടാരറ്റ് ഡയറികൾ കാണാൻ കഴിയുമോ?';
+
+  @override
+  String get faqA8 =>
+      'അതെ, ചുവടെയുള്ള \'കമ്മ്യൂണിറ്റി\' ടാബിൽ മറ്റ് മാന്ത്രികന്മാർ (ഉപയോക്താക്കൾ) പരസ്യമാക്കിയ രസകരമായ ടാരറ്റ് റീഡിംഗുകൾ നിങ്ങൾക്ക് കാണാനും സന്തോഷിപ്പിക്കാനും കഴിയും.';
+
+  @override
+  String get faqQ9 =>
+      'എൻ്റെ പ്രീമിയം സബ്‌സ്‌ക്രിപ്‌ഷനോ പേയ്‌മെൻ്റ് ചരിത്രമോ എനിക്ക് എവിടെ പരിശോധിക്കാനാകും?';
+
+  @override
+  String get faqA9 =>
+      'ചുവടെയുള്ള മെനുവിലെ [എൻ്റെ വിവരം] ടാബിൽ നിങ്ങൾ \'പേയ്‌മെൻ്റ് ചരിത്രം\' തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ, നിങ്ങളുടെ കോയിൻ പേയ്‌മെൻ്റ് ചരിത്രവും നേടിയെടുത്ത മാജിക് പൊടിയും വിശദമായി പരിശോധിക്കാം.';
+
+  @override
+  String get faqQ10 =>
+      'ടാരറ്റ് കാർഡുകളുടെ അർത്ഥം വ്യക്തിപരമായി പഠിക്കാൻ ഞാൻ ആഗ്രഹിക്കുന്നു. എനിക്കത് എങ്ങനെ ചെയ്യാം?';
+
+  @override
+  String get faqA10 =>
+      'ചുവടെയുള്ള മെനുവിലെ [കാർഡ് എൻസൈക്ലോപീഡിയ] ടാബിലേക്ക് നിങ്ങൾ പോയാൽ, എല്ലാ 78 കാർഡുകളുടെയും നേരായതും വിപരീതവുമായ അർത്ഥങ്ങളും ചിഹ്നങ്ങളും ആഴത്തിലുള്ള വിശദീകരണങ്ങളും നിങ്ങൾക്ക് സ്വതന്ത്രമായി കാണാൻ കഴിയും.';
+
+  @override
+  String get faqQ11 =>
+      'എനിക്ക് എങ്ങനെ എൻ്റെ അക്കൗണ്ട് ഡിലീറ്റ് ചെയ്യാം അല്ലെങ്കിൽ പിൻവലിക്കാം?';
+
+  @override
+  String get faqA11 =>
+      '[എൻ്റെ വിവരം] ടാബിൻ്റെ മുകളിൽ വലതുവശത്തുള്ള ഗിയർ ഐക്കൺ വഴി അക്കൗണ്ട് ക്രമീകരണ മെനുവിലേക്ക് പോയി \'അക്കൗണ്ട് ഇല്ലാതാക്കുക\' ബട്ടൺ നിങ്ങൾക്ക് കണ്ടെത്താനാകും. പിൻവലിക്കുമ്പോൾ എല്ലാ ഡയറികളും ഡാറ്റയും ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.';
+
+  @override
+  String get faqQ12 =>
+      'എനിക്ക് ഒരു പിശക് നേരിടുകയോ നിർദ്ദേശങ്ങൾ ഉണ്ടെങ്കിലോ ഞാൻ എവിടെയാണ് ബന്ധപ്പെടേണ്ടത്?';
+
+  @override
+  String get faqA12 =>
+      'നിലവിലെ സ്‌ക്രീനിൻ്റെ ചുവടെ തയ്യാറാക്കിക്കൊണ്ടിരിക്കുന്ന \'കോൺടാക്റ്റ് കസ്റ്റമർ സർവീസ്\' വഴിയോ ഔദ്യോഗിക ഇമെയിൽ വഴിയോ നിങ്ങൾ വിശദാംശങ്ങൾ അയയ്‌ക്കുകയാണെങ്കിൽ, ഞങ്ങൾ അത് നിങ്ങൾക്കായി വേഗത്തിൽ പരിശോധിച്ച് മാന്ത്രികമായി പരിഹരിക്കും.';
+
+  @override
+  String get myMenuContactUs => 'ഞങ്ങളെ സമീപിക്കുക';
+
+  @override
+  String get myMenuContactUsSubtitle => 'അന്വേഷണങ്ങളും നിർദ്ദേശങ്ങളും';
+
+  @override
+  String get contactDialogTitle => 'ഞങ്ങളെ സമീപിക്കുക';
+
+  @override
+  String get contactTypeBug => 'ബഗ് റിപ്പോർട്ട്';
+
+  @override
+  String get contactTypeFeature => 'ഫീച്ചർ നിർദ്ദേശം';
+
+  @override
+  String get contactTypePayment => 'പേയ്മെൻ്റ് പ്രശ്നം';
+
+  @override
+  String get contactTypeOther => 'മറ്റ് അന്വേഷണം';
+
+  @override
+  String get contactHint => 'നിങ്ങളുടെ അന്വേഷണം വിശദമായി എഴുതുക.';
+
+  @override
+  String get contactSend => 'അയക്കുക';
+
+  @override
+  String get contactCancel => 'റദ്ദാക്കുക';
+
+  @override
+  String get contactEmptyErrorTitle => 'ശ്രദ്ധിക്കുക';
+
+  @override
+  String get contactEmptyErrorMessage => 'നിങ്ങളുടെ അന്വേഷണ ഉള്ളടക്കം നൽകുക.';
 }

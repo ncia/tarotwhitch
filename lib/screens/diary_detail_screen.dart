@@ -102,7 +102,7 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
       }
       
       String translatedNote = _diary.myNote;
-      if (translatedNote.isNotEmpty && translatedNote != '타로 리딩') {
+      if (translatedNote.isNotEmpty && translatedNote != '타로 리딩' && translatedNote != AppLocalizations.of(context)!.diaryTarotReading) {
         translatedNote = await _translationService.translateText(translatedNote, targetLocale);
       }
 
@@ -123,7 +123,7 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
   Widget build(BuildContext context) {
     // SpreadType 복원
     SpreadType spreadType;
-    if (_diary.spreadType == '타로 상담') {
+    if (_diary.spreadType == '타로 상담' || _diary.spreadType == AppLocalizations.of(context)!.diaryTarotConsult) {
       if (_diary.cardIds.length == 1) spreadType = SpreadType.oneCard;
       else if (_diary.cardIds.length == 2) spreadType = SpreadType.twoCard;
       else if (_diary.cardIds.length == 3) spreadType = SpreadType.threeCard;
@@ -264,7 +264,7 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
                 const SizedBox(height: 20),
 
                 // 질문
-                if (_diary.myNote.isNotEmpty && _diary.myNote != '타로 리딩') ...[
+                if (_diary.myNote.isNotEmpty && _diary.myNote != AppLocalizations.of(context)!.diaryTarotReading) ...[
                   GlassContainer(
                     padding: const EdgeInsets.all(16),
                     borderRadius: 16,
@@ -358,7 +358,7 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
                             ),
                             child: _isTranslating
                                 ? const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.orange))
-                                : const Text('번역하기', style: TextStyle(fontSize: 13, color: Colors.white)),
+                                : Text(AppLocalizations.of(context)!.buttonTranslate, style: const TextStyle(fontSize: 13, color: Colors.white)),
                           ),
                         ),
                     ],

@@ -4068,4 +4068,424 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => '기기에 저장되었습니다.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level단계: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => '마법책 강화';
+
+  @override
+  String get growthPhaseCrystal0 => '심연의 마력';
+
+  @override
+  String get growthPhaseCrystal1 => '영안 개방';
+
+  @override
+  String get growthPhaseCrystal2 => '대자연의 지혜';
+
+  @override
+  String get growthPhaseCrystal3 => '태양의 정수';
+
+  @override
+  String get growthPhaseCrystal4 => '천상의 오로라';
+
+  @override
+  String get growthPhaseCrystal5 => '신성한 영역';
+
+  @override
+  String get growthPhaseCrystal6 => '창조의 마법';
+
+  @override
+  String get growthPhaseCrystal7 => '우주의 숨결';
+
+  @override
+  String get growthPhaseCrystal8 => '영원한 빛';
+
+  @override
+  String get growthPhaseCrystal9 => '순백의 각성';
+
+  @override
+  String get growthPhaseCrystal10 => '초월';
+
+  @override
+  String get growthPhaseBook0 => '수습생의 필기구';
+
+  @override
+  String get growthPhaseBook1 => '기초 마법 입문서';
+
+  @override
+  String get growthPhaseBook2 => '고대 룬 문법';
+
+  @override
+  String get growthPhaseBook3 => '원소 마법의 이해';
+
+  @override
+  String get growthPhaseBook4 => '별빛의 조화';
+
+  @override
+  String get growthPhaseBook5 => '유물 해독';
+
+  @override
+  String get growthPhaseBook6 => '현자의 금서';
+
+  @override
+  String get growthPhaseBook7 => '정령과의 교감';
+
+  @override
+  String get growthPhaseBook8 => '진실의 마도서';
+
+  @override
+  String get growthPhaseBook9 => '전능의 기록';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return '신비의 마법책 레벨 $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return '지식: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return '마력: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return '마법책의 지식이 깊어졌습니다! Exp +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return '마법책 강화 (가루 $amount개)';
+  }
+
+  @override
+  String get devDustCharged => '개발용: 마력의 가루 1000개 충전 완료!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return '수정구 강화 (가루 $amount개)';
+  }
+
+  @override
+  String get menuSectionNews => '소식 및 알림';
+
+  @override
+  String get menuMailboxTitle => '우편함';
+
+  @override
+  String get menuMailboxSubtitle => '새로운 소식과 선물을 확인하세요';
+
+  @override
+  String get mailboxTitle => '우편함';
+
+  @override
+  String get mailboxAllRewardsClaimed => '모든 보상을 수령했습니다.';
+
+  @override
+  String get mailboxClaimAll => '모두 받기';
+
+  @override
+  String get mailboxEmpty => '우편함이 비어있습니다.';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return '보낸사람: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => '수령 완료';
+
+  @override
+  String get mailboxClaim => '받기';
+
+  @override
+  String get mailboxAttachedRewards => '첨부 보상';
+
+  @override
+  String get mailboxRewardClaimed => '보상을 수령했습니다.';
+
+  @override
+  String get mailboxClaimReward => '보상 받기';
+
+  @override
+  String get menuNotificationCenterTitle => '알림 센터';
+
+  @override
+  String get menuNotificationCenterSubtitle => '최신 알림 및 공지사항을 확인하세요';
+
+  @override
+  String get authSignupComplete => '회원가입이 완료되었습니다. 발송된 이메일을 확인하여 인증을 완료해주세요.';
+
+  @override
+  String chatInitError(String error) {
+    return '초기화 오류 발생:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return '오류 발생:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return '포지션 $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return '번역 실패: $error';
+  }
+
+  @override
+  String get diarySelectDate => '날짜를 선택하세요';
+
+  @override
+  String get diarySavedSuccess => '일기가 저장되었습니다!';
+
+  @override
+  String get diarySaveFailed => '저장에 실패했습니다.';
+
+  @override
+  String get diaryWriteTitle => '일기 쓰기';
+
+  @override
+  String get diaryWriteHint => '오늘의 점괘에 대한 나의 생각이나 느낌을 자유롭게 적어보세요.';
+
+  @override
+  String get diarySaveButton => '일기에 저장하기';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return '버전 $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => '오늘의 점괘';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. 과거';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. 현재';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. 미래';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. 현재';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. 과거';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. 미래';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. 원인';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. 잠재력';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 => '1. 현재 상황 및 문제';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. 문제의 원인';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 => '3. 해결을 위한 조언';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. 예상되는 결과';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. 현재 상황';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. 방해물';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. 무의식';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. 과거';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. 의식적 목표';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. 가까운 미래';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. 태도';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 => '8. 외부 환경';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. 희망과 두려움';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. 최종 결과';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. 조언';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. 주변 환경';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. 결과';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return '보너스 $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount 코인';
+  }
+
+  @override
+  String get serviceLoginRequired => '로그인이 필요합니다.';
+
+  @override
+  String get serviceDefaultNickname => '이름 없는 마녀';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return '점괘를 읽는 도중 오류가 발생했습니다: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => '사용자';
+
+  @override
+  String get listenToInterpretation => '해석 듣기';
+
+  @override
+  String get faqQ1 => '매일 타로를 봐도 되나요?';
+
+  @override
+  String get faqA1 =>
+      '네, 가벼운 마음으로 오늘의 흐름을 읽는 것은 좋습니다. 다만 같은 질문으로 계속 반복해서 뽑는 것은 권장하지 않아요.';
+
+  @override
+  String get faqQ2 => '마력의 가루는 어떻게 획득하나요?';
+
+  @override
+  String get faqA2 => '앱 출석, 커뮤니티 활동, 혹은 상점 구매를 통해 얻을 수 있습니다.';
+
+  @override
+  String get faqQ3 => '결과가 안 좋게 나오면 어떻게 해야 하나요?';
+
+  @override
+  String get faqA3 =>
+      '타로는 정해진 미래가 아닌 조언일 뿐입니다. 안 좋은 결과는 오히려 피해야 할 위험을 미리 알려주는 이정표로 삼으세요.';
+
+  @override
+  String get faqQ4 => '과거의 타로 리딩 기록은 어떻게 보나요?';
+
+  @override
+  String get faqA4 =>
+      '하단 메뉴의 \'다이어리(달력)\' 탭에서 날짜별로 저장된 리딩 기록을 언제든 다시 볼 수 있습니다.';
+
+  @override
+  String get faqQ5 => '커뮤니티 공유는 어떻게 하나요?';
+
+  @override
+  String get faqA5 =>
+      '다이어리에 저장된 일기 상세 화면에서 \'커뮤니티 공개\' 스위치를 켜면 다른 사용자들과 리딩을 나눌 수 있습니다.';
+
+  @override
+  String get faqQ6 => '내 닉네임이나 프로필은 어떻게 변경하나요?';
+
+  @override
+  String get faqA6 =>
+      '\'마이 메뉴\' 탭 상단의 프로필 영역을 터치하시면 언제든지 닉네임과 아이콘을 변경할 수 있습니다.';
+
+  @override
+  String get faqQ7 => '알림 설정은 어디서 끄고 켤 수 있나요?';
+
+  @override
+  String get faqA7 => '기기의 설정 앱에서 알림을 제어하거나, 향후 업데이트될 환경설정 메뉴에서 제어할 수 있습니다.';
+
+  @override
+  String get faqQ8 => '다른 사람의 타로 일기도 볼 수 있나요?';
+
+  @override
+  String get faqA8 =>
+      '네, 하단의 \'커뮤니티\' 탭에서 다른 마법사(사용자)들이 공개 설정한 흥미로운 타로 리딩들을 구경하고 응원할 수 있습니다.';
+
+  @override
+  String get faqQ9 => '프리미엄 구독이나 결제 내역은 어디서 확인하나요?';
+
+  @override
+  String get faqA9 =>
+      '하단 메뉴의 [내 정보] 탭에서 \'결제 내역\'을 선택하시면 지금까지 결제하신 코인 내역과 획득한 마력의 가루를 상세하게 확인하실 수 있습니다.';
+
+  @override
+  String get faqQ10 => '타로 카드의 의미를 개인적으로 공부하고 싶은데, 어떻게 하나요?';
+
+  @override
+  String get faqA10 =>
+      '하단 메뉴 중 [카드 도감] 탭으로 이동하시면 78장 모든 카드의 정방향/역방향 의미와 상징, 상황별 심층적인 해설을 자유롭게 열람하실 수 있습니다.';
+
+  @override
+  String get faqQ11 => '탈퇴하거나 계정을 삭제하고 싶으면 어떻게 하나요?';
+
+  @override
+  String get faqA11 =>
+      '[내 정보] 탭의 우측 상단 톱니바퀴(설정) 아이콘을 눌러 계정 설정 메뉴로 진입하시면 \'회원 탈퇴\' 버튼을 찾으실 수 있습니다. 탈퇴 시 모든 일기와 데이터는 영구적으로 삭제됩니다.';
+
+  @override
+  String get faqQ12 => '앱 사용 중 오류가 발생하거나 건의사항이 있으면 어디로 연락하나요?';
+
+  @override
+  String get faqA12 =>
+      '현재 화면 하단에 준비 중인 \'고객센터 문의하기\'나 공식 이메일을 통해 상세한 내용을 보내주시면 신속하게 확인하여 마법처럼 해결해 드리겠습니다.';
+
+  @override
+  String get myMenuContactUs => '문의 하기';
+
+  @override
+  String get myMenuContactUsSubtitle => '앱 관련 문의 및 건의사항';
+
+  @override
+  String get contactDialogTitle => '문의하기';
+
+  @override
+  String get contactTypeBug => '버그 신고';
+
+  @override
+  String get contactTypeFeature => '기능 건의';
+
+  @override
+  String get contactTypePayment => '결제 관련';
+
+  @override
+  String get contactTypeOther => '기타 문의';
+
+  @override
+  String get contactHint => '문의하실 내용을 상세히 적어주세요.';
+
+  @override
+  String get contactSend => '전송하기';
+
+  @override
+  String get contactCancel => '취소';
+
+  @override
+  String get contactEmptyErrorTitle => '알림';
+
+  @override
+  String get contactEmptyErrorMessage => '문의 내용을 입력해주세요.';
 }

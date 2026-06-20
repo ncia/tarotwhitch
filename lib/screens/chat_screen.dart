@@ -344,13 +344,13 @@ class _ChatScreenState extends State<ChatScreen> {
       final diary = TarotDiary(
         id: DateTime.now().millisecondsSinceEpoch.toString(),
         cardId: pickedCards.isNotEmpty ? pickedCards[0] : '',
-        spreadType: '타로 상담',
+        spreadType: AppLocalizations.of(context)!.diaryTarotConsult,
         myNote: _currentQuestion,
         resultText: cleanText,
         date: DateTime.now(),
         cardIds: pickedCards,
         cardReversals: List.generate(pickedCards.length, (_) => false),
-        positionLabels: List.generate(pickedCards.length, (i) => '포지션 ${i + 1}'),
+        positionLabels: List.generate(pickedCards.length, (i) => AppLocalizations.of(context)!.chatPositionLabel(i + 1)),
         cardMeanings: List.generate(pickedCards.length, (_) => ''),
         witchId: _selectedWitch.id,
       );
@@ -453,7 +453,7 @@ class _ChatScreenState extends State<ChatScreen> {
             child: Padding(
               padding: const EdgeInsets.all(16.0),
               child: Text(
-                '초기화 오류 발생:\n$_initError',
+                AppLocalizations.of(context)!.chatInitError(_initError!),
                 style: const TextStyle(color: Colors.red, fontSize: 14),
               ),
             ),
@@ -620,7 +620,7 @@ class _ChatScreenState extends State<ChatScreen> {
             child: Padding(
               padding: const EdgeInsets.all(16.0),
               child: Text(
-                '오류 발생:\n$e\n\n$stackTrace',
+                AppLocalizations.of(context)!.chatError(e.toString(), stackTrace.toString()),
                 style: const TextStyle(color: Colors.red, fontSize: 14),
               ),
             ),

@@ -1471,5 +1471,93 @@
   "cardDetailDataNotReady": "Detailed interpretation data is not yet ready.",
   "cardDetailNoData": "No data available.",
   "buttonSaveReading": "Save Tarot Reading",
-  "readingSavedToDevice": "Saved to device."
+  "readingSavedToDevice": "Saved to device.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Fasa: {name}]",
+  "growthTabMagicBook": "Mezra dal cudesch da magia",
+  "growthPhaseCrystal0": "Magia abissala",
+  "growthPhaseCrystal1": "Avertura da l'egl dal spiert",
+  "growthPhaseCrystal2": "Sapientscha da la Mamma Natira",
+  "growthPhaseCrystal3": "Essenza dal sulegl",
+  "growthPhaseCrystal4": "Aurora tschielesta",
+  "growthPhaseCrystal5": "Reginavel divin",
+  "growthPhaseCrystal6": "Magia da la creaziun",
+  "growthPhaseCrystal7": "Flad da l'univers",
+  "growthPhaseCrystal8": "Glisch eterna",
+  "growthPhaseCrystal9": "Svegl alv pur",
+  "growthPhaseCrystal10": "Trascendenza",
+  "growthPhaseBook0": "Utensils da scriver da l'aprendist",
+  "growthPhaseBook1": "Primer da magia basal",
+  "growthPhaseBook2": "Grammatica da runas anzianas",
+  "growthPhaseBook3": "Chapientscha da la magia elementara",
+  "growthPhaseBook4": "Armonia da la glisch da stailas",
+  "growthPhaseBook5": "Decifraziun d'artefacts",
+  "growthPhaseBook6": "Cudesch prohibì dal Sagent",
+  "growthPhaseBook7": "Communiun cun spierts",
+  "growthPhaseBook8": "Grimori da la vardad",
+  "growthPhaseBook9": "Registraziun omnipotenta",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Nivel dal cudesch magic {level}",
+  "growthMagicBookKnowledge": "Enconuschientscha: {current} / {max}",
+  "growthCrystalBallMana": "Mana: {current} / {max}",
+  "growthMagicBookExpGained": "L'enconuschientscha dal cudesch magic è s'approfundada! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "Meziorar il cudesch magic ({amount} Pulvra)",
+  "devDustCharged": "Dev: 1000 Pulvra magica chargiada!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  }
 }

@@ -1484,5 +1484,258 @@
   "cardDetailDataNotReady": "Detailed interpretation data is not yet ready.",
   "cardDetailNoData": "No data available.",
   "buttonSaveReading": "Save Tarot Reading",
-  "readingSavedToDevice": "Saved to device."
+  "readingSavedToDevice": "Saved to device.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Phase: {name}]",
+  "growthTabMagicBook": "Magic Book Upgrade",
+  "growthPhaseCrystal0": "Abyssal Magic",
+  "growthPhaseCrystal1": "Opening the Spirit Eye",
+  "growthPhaseCrystal2": "Wisdom of Mother Nature",
+  "growthPhaseCrystal3": "Essence of the Sun",
+  "growthPhaseCrystal4": "Celestial Aurora",
+  "growthPhaseCrystal5": "Divine Realm",
+  "growthPhaseCrystal6": "Magic of Creation",
+  "growthPhaseCrystal7": "Breath of the Universe",
+  "growthPhaseCrystal8": "Eternal Light",
+  "growthPhaseCrystal9": "Pure White Awakening",
+  "growthPhaseCrystal10": "Transcendence",
+  "growthPhaseBook0": "Apprentice's Writing Tools",
+  "growthPhaseBook1": "Basic Magic Primer",
+  "growthPhaseBook2": "Ancient Rune Grammar",
+  "growthPhaseBook3": "Understanding Elemental Magic",
+  "growthPhaseBook4": "Harmony of Starlight",
+  "growthPhaseBook5": "Artifact Deciphering",
+  "growthPhaseBook6": "Forbidden Book of the Sage",
+  "growthPhaseBook7": "Communion with Spirits",
+  "growthPhaseBook8": "Grimoire of Truth",
+  "growthPhaseBook9": "Omnipotent Record",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Magic Book Level {level}",
+  "growthMagicBookKnowledge": "Knowledge: {current} / {max}",
+  "growthCrystalBallMana": "Mana: {current} / {max}",
+  "growthMagicBookExpGained": "The magic book's knowledge has deepened! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "Upgrade Magic Book ({amount} Dust)",
+  "devDustCharged": "Dev: 1000 Magic Dust charged!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "News & Notifications",
+  "menuMailboxTitle": "Mailbox",
+  "menuMailboxSubtitle": "Check new updates and gifts",
+  "mailboxTitle": "Mailbox",
+  "mailboxAllRewardsClaimed": "All rewards claimed.",
+  "mailboxClaimAll": "Claim All",
+  "mailboxEmpty": "Mailbox is empty.",
+  "mailboxSenderAndDate": "From: {sender} • {date}",
+  "mailboxClaimed": "Claimed",
+  "mailboxClaim": "Claim",
+  "mailboxAttachedRewards": "Attached Rewards",
+  "mailboxRewardClaimed": "Reward claimed.",
+  "mailboxClaimReward": "Claim Reward",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Notification Center",
+  "menuNotificationCenterSubtitle": "Check latest notifications and announcements",
+  "authSignupComplete": "Sign up is complete. Please check the email sent to you to verify.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Translation failed: {error}",
+  "diarySelectDate": "Select a date",
+  "diarySavedSuccess": "Diary saved successfully!",
+  "diarySaveFailed": "Failed to save diary.",
+  "diaryWriteTitle": "Write Diary",
+  "diaryWriteHint": "Feel free to write your thoughts or feelings about today's reading.",
+  "diarySaveButton": "Save to Diary",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "Today's Fortune",
+  "readingSpreadLabelPast1": "1. Past",
+  "readingSpreadLabelPresent2": "2. Present",
+  "readingSpreadLabelFuture3": "3. Future",
+  "readingSpreadLabelCurrent1": "1. Current",
+  "readingSpreadLabelPast2": "2. Past",
+  "readingSpreadLabelFuture3Alt": "3. Future",
+  "readingSpreadLabelCause4": "4. Cause",
+  "readingSpreadLabelPotential5": "5. Potential",
+  "readingSpreadLabelCurrentSituation1": "1. Current situation and problem",
+  "readingSpreadLabelCauseOfProblem2": "2. Cause of problem",
+  "readingSpreadLabelAdviceForResolution3": "3. Advice for resolution",
+  "readingSpreadLabelExpectedResult4": "4. Expected result",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Current situation",
+  "readingSpreadLabelObstacle2": "2. Obstacle",
+  "readingSpreadLabelUnconscious3": "3. Unconscious",
+  "readingSpreadLabelPast4": "4. Past",
+  "readingSpreadLabelConsciousGoal5": "5. Conscious Goal",
+  "readingSpreadLabelNearFuture6": "6. Near Future",
+  "readingSpreadLabelAttitude7": "7. Attitude",
+  "readingSpreadLabelExternalEnvironment8": "8. External Environment",
+  "readingSpreadLabelHopesAndFears9": "9. Hopes and Fears",
+  "readingSpreadLabelFinalResult10": "10. Final Result",
+  "readingSpreadLabelAdvice4": "4. Advice",
+  "readingSpreadLabelSurroundings5": "5. Surroundings",
+  "readingSpreadLabelResult6": "6. Result",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Coins",
+  "serviceLoginRequired": "Login is required.",
+  "serviceDefaultNickname": "Nameless Witch",
+  "serviceTarotReadingError": "An error occurred while reading the fortune: {error}",
+  "defaultUserDisplayName": "User",
+  "listenToInterpretation": "Listen to Interpretation",
+  "@chatInitError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      },
+      "stackTrace": {
+        "type": "String"
+      }
+    }
+  },
+  "@chatPositionLabel": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@communityTranslationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@myMenuAppVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@shopBonusCoins": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "@shopCoins": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@serviceTarotReadingError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "faqQ1": "Can I read tarot every day?",
+  "faqA1": "Yes, it is good to read the flow of today with a light heart. However, it is not recommended to keep drawing cards repeatedly for the same question.",
+  "faqQ2": "How do I get magic dust?",
+  "faqA2": "You can get magic dust through app attendance, community activities, or purchasing in the shop.",
+  "faqQ3": "What should I do if the result is bad?",
+  "faqA3": "Tarot is not a fixed future, but an advice. Use a bad result as a milestone to warn you of risks to avoid.",
+  "faqQ4": "How can I see my past tarot readings?",
+  "faqA4": "You can review your saved reading records by date in the 'Diary' (Calendar) tab at the bottom menu anytime.",
+  "faqQ5": "How do I share to the community?",
+  "faqA5": "Turn on the 'Share to Community' switch on the diary detail screen saved in the diary to share your reading with other users.",
+  "faqQ6": "How can I change my nickname or profile?",
+  "faqA6": "You can change your nickname and icon anytime by touching the profile area at the top of the 'My Menu' tab.",
+  "faqQ7": "Where can I turn notifications on and off?",
+  "faqA7": "You can control notifications from your device's settings app, or from the preferences menu to be updated in the future.",
+  "faqQ8": "Can I see other people's tarot diaries?",
+  "faqA8": "Yes, you can view and cheer for interesting tarot readings that other wizards (users) have made public in the 'Community' tab at the bottom.",
+  "faqQ9": "Where can I check my premium subscription or payment history?",
+  "faqA9": "If you select 'Payment History' in the [My Info] tab of the bottom menu, you can check your coin payment history and acquired magic dust in detail.",
+  "faqQ10": "I want to study the meaning of Tarot cards personally. How can I do that?",
+  "faqA10": "If you go to the [Card Encyclopedia] tab in the bottom menu, you can freely view the upright and reversed meanings, symbols, and in-depth explanations of all 78 cards.",
+  "faqQ11": "How can I delete my account or withdraw?",
+  "faqA11": "You can find the 'Delete Account' button by going to the Account Settings menu via the gear icon on the top right of the [My Info] tab. All diaries and data will be permanently deleted upon withdrawal.",
+  "faqQ12": "Where do I contact if I encounter an error or have suggestions?",
+  "faqA12": "If you send details through 'Contact Customer Service' which is being prepared at the bottom of the current screen or via official email, we will quickly check and magically solve it for you.",
+  "myMenuContactUs": "Contact Us",
+  "myMenuContactUsSubtitle": "Inquiries and suggestions",
+  "contactDialogTitle": "Contact Us",
+  "contactTypeBug": "Bug Report",
+  "contactTypeFeature": "Feature Suggestion",
+  "contactTypePayment": "Payment Issue",
+  "contactTypeOther": "Other Inquiry",
+  "contactHint": "Please write your inquiry in detail.",
+  "contactSend": "Send",
+  "contactCancel": "Cancel",
+  "contactEmptyErrorTitle": "Notice",
+  "contactEmptyErrorMessage": "Please enter your inquiry content."
 }

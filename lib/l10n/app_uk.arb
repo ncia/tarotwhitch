@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Дані детальної інтерпретації ще не готові.",
   "cardDetailNoData": "Немає даних.",
   "buttonSaveReading": "Зберегти читання Таро",
-  "readingSavedToDevice": "Збережено на пристрої."
+  "readingSavedToDevice": "Збережено на пристрої.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Фаза: {name}]",
+  "growthTabMagicBook": "Покращення магічної книги",
+  "growthPhaseCrystal0": "Магія Безодні",
+  "growthPhaseCrystal1": "Відкриття Духовного Ока",
+  "growthPhaseCrystal2": "Мудрість Матері-Природи",
+  "growthPhaseCrystal3": "Сутність Сонця",
+  "growthPhaseCrystal4": "Небесна Аврора",
+  "growthPhaseCrystal5": "Божественне Царство",
+  "growthPhaseCrystal6": "Магія Створення",
+  "growthPhaseCrystal7": "Подих Всесвіту",
+  "growthPhaseCrystal8": "Вічне Світло",
+  "growthPhaseCrystal9": "Чисте Біле Пробудження",
+  "growthPhaseCrystal10": "Трансцендентність",
+  "growthPhaseBook0": "Письмові Інструменти Учня",
+  "growthPhaseBook1": "Базовий Магічний Буквар",
+  "growthPhaseBook2": "Граматика Стародавніх Рун",
+  "growthPhaseBook3": "Розуміння Стихійної Магії",
+  "growthPhaseBook4": "Гармонія Зоряного Світла",
+  "growthPhaseBook5": "Розшифровка Артефактів",
+  "growthPhaseBook6": "Заборонена Книга Мудреця",
+  "growthPhaseBook7": "Єднання з Духами",
+  "growthPhaseBook8": "Гримуар Істини",
+  "growthPhaseBook9": "Всемогутній Літопис",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Рівень магічної книги {level}",
+  "growthMagicBookKnowledge": "Знання: {current} / {max}",
+  "growthCrystalBallMana": "Мана: {current} / {max}",
+  "growthMagicBookExpGained": "Знання магічної книги поглибилися! Досвід +{amount}",
+  "growthUpgradeMagicBookButton": "Покращити магічну книгу ({amount} пилу)",
+  "devDustCharged": "Розроб.: 1000 магічного пилу заряджено!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Новини та сповіщення",
+  "menuMailboxTitle": "Поштова скринька",
+  "menuMailboxSubtitle": "Перевірте нові оновлення та подарунки",
+  "mailboxTitle": "Поштова скринька",
+  "mailboxAllRewardsClaimed": "Усі нагороди витребувані.",
+  "mailboxClaimAll": "Вимагати всіх",
+  "mailboxEmpty": "Поштова скринька порожня.",
+  "mailboxSenderAndDate": "Від: {sender} • {date}",
+  "mailboxClaimed": "Заявлено",
+  "mailboxClaim": "Претензія",
+  "mailboxAttachedRewards": "Прикріплені нагороди",
+  "mailboxRewardClaimed": "Заявка на винагороду.",
+  "mailboxClaimReward": "Вимагайте винагороду",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Центр сповіщень",
+  "menuNotificationCenterSubtitle": "Перевірте останні сповіщення та оголошення",
+  "authSignupComplete": "Реєстрацію завершено. Будь ласка, перевірте електронний лист, надісланий вам, щоб підтвердити.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Translation failed: {error}",
+  "diarySelectDate": "Виберіть дату",
+  "diarySavedSuccess": "Щоденник успішно збережено!",
+  "diarySaveFailed": "Не вдалося зберегти щоденник.",
+  "diaryWriteTitle": "Написати щоденник",
+  "diaryWriteHint": "Не соромтеся написати свої думки чи почуття щодо сьогоднішнього прочитаного.",
+  "diarySaveButton": "Зберегти в щоденник",
+  "myMenuAppVersion": "Версія {version}",
+  "readingSpreadLabelToday": "Сьогоднішня Фортуна",
+  "readingSpreadLabelPast1": "1. Минуле",
+  "readingSpreadLabelPresent2": "2. Присутній",
+  "readingSpreadLabelFuture3": "3. Майбутнє",
+  "readingSpreadLabelCurrent1": "1. Поточний",
+  "readingSpreadLabelPast2": "2. Минуле",
+  "readingSpreadLabelFuture3Alt": "3. Майбутнє",
+  "readingSpreadLabelCause4": "4. Причина",
+  "readingSpreadLabelPotential5": "5. Потенціал",
+  "readingSpreadLabelCurrentSituation1": "1. Сучасна ситуація та проблема",
+  "readingSpreadLabelCauseOfProblem2": "2. Причина проблеми",
+  "readingSpreadLabelAdviceForResolution3": "3. Порада для вирішення",
+  "readingSpreadLabelExpectedResult4": "4. Очікуваний результат",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Поточна ситуація",
+  "readingSpreadLabelObstacle2": "2. Перешкода",
+  "readingSpreadLabelUnconscious3": "3. Несвідомий",
+  "readingSpreadLabelPast4": "4. Минуле",
+  "readingSpreadLabelConsciousGoal5": "5. Усвідомлена мета",
+  "readingSpreadLabelNearFuture6": "6. Недалеке майбутнє",
+  "readingSpreadLabelAttitude7": "7. Ставлення",
+  "readingSpreadLabelExternalEnvironment8": "8. Зовнішнє середовище",
+  "readingSpreadLabelHopesAndFears9": "9. Надії та страхи",
+  "readingSpreadLabelFinalResult10": "10. Кінцевий результат",
+  "readingSpreadLabelAdvice4": "4. Порада",
+  "readingSpreadLabelSurroundings5": "5. Оточення",
+  "readingSpreadLabelResult6": "6. Результат",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Монети",
+  "serviceLoginRequired": "Необхідно ввійти.",
+  "serviceDefaultNickname": "Безіменна Відьма",
+  "serviceTarotReadingError": "Під час зчитування ворожіння сталася помилка: {error}",
+  "defaultUserDisplayName": "Користувач",
+  "listenToInterpretation": "Слухайте тлумачення",
+  "faqQ1": "Чи можу я читати Таро щодня?",
+  "faqA1": "Так, добре читати течію сьогоднішнього дня з легким серцем. Однак не рекомендується повторно витягувати картки для одного і того ж питання.",
+  "faqQ2": "Як отримати магічний пил?",
+  "faqA2": "Ви можете отримати чарівний пил, відвідуючи програму, заходи спільноти або купуючи в магазині.",
+  "faqQ3": "Що робити, якщо результат поганий?",
+  "faqA3": "Таро - це не фіксоване майбутнє, а порада. Використовуйте поганий результат як віху, щоб попередити вас про ризики, яких слід уникнути.",
+  "faqQ4": "Як я можу переглянути свої минулі показання Таро?",
+  "faqA4": "Ви можете будь-коли переглянути збережені записи читання за датою на вкладці «Щоденник» (Календар) у нижньому меню.",
+  "faqQ5": "Як поділитися зі спільнотою?",
+  "faqA5": "Увімкніть перемикач «Поділитися зі спільнотою» на екрані щоденника, збереженому в щоденнику, щоб поділитися прочитаним з іншими користувачами.",
+  "faqQ6": "Як я можу змінити свій псевдонім або профіль?",
+  "faqA6": "Ви можете будь-коли змінити свій псевдонім та піктограму, торкнувшись області профілю у верхній частині вкладки «Моє меню».",
+  "faqQ7": "Де я можу ввімкнути та вимкнути сповіщення?",
+  "faqA7": "Ви можете керувати сповіщеннями з додатка налаштувань вашого пристрою або з меню налаштувань, яке буде оновлено в майбутньому.",
+  "faqQ8": "Чи можу я побачити щоденники Таро інших людей?",
+  "faqA8": "Так, ви можете переглядати та вболівати за цікаві читання таро, які інші майстри (користувачі) опублікували у вкладці «Спільнота» внизу.",
+  "faqQ9": "Де я можу перевірити свою преміум-підписку чи історію платежів?",
+  "faqA9": "Якщо ви виберете «Історію платежів» на вкладці [Моя інформація] у нижньому меню, ви зможете детально перевірити історію платежів монетами та придбаний магічний пил.",
+  "faqQ10": "Я хочу особисто вивчити значення карт Таро. Як я можу це зробити?",
+  "faqA10": "Якщо ви перейдете на вкладку [Енциклопедія карток] у нижньому меню, ви зможете вільно переглядати вертикальні та перевернуті значення, символи та докладні пояснення всіх 78 карток.",
+  "faqQ11": "Як я можу видалити свій обліковий запис або вийти?",
+  "faqA11": "Ви можете знайти кнопку «Видалити обліковий запис», перейшовши до меню «Параметри облікового запису» за допомогою значка шестірні у верхньому правому куті вкладки [Моя інформація]. Усі щоденники та дані будуть остаточно видалені після виходу.",
+  "faqQ12": "Куди мені звернутися, якщо я зіткнувся з помилкою або маю пропозиції?",
+  "faqA12": "Якщо ви надішлете деталі через «Зв’язатися зі службою підтримки клієнтів», яка готується внизу поточного екрана, або через офіційну електронну пошту, ми швидко перевіримо та чарівним чином вирішимо це за вас.",
+  "myMenuContactUs": "Зв'яжіться з нами",
+  "myMenuContactUsSubtitle": "Запити та пропозиції",
+  "contactDialogTitle": "Зв'яжіться з нами",
+  "contactTypeBug": "Звіт про помилку",
+  "contactTypeFeature": "Пропозиція функції",
+  "contactTypePayment": "Проблема з оплатою",
+  "contactTypeOther": "Інший запит",
+  "contactHint": "Будь ласка, детально напишіть свій запит.",
+  "contactSend": "Надіслати",
+  "contactCancel": "Скасувати",
+  "contactEmptyErrorTitle": "Повідомлення",
+  "contactEmptyErrorMessage": "Будь ласка, введіть вміст запиту."
 }

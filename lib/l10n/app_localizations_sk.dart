@@ -4429,4 +4429,434 @@ class AppLocalizationsSk extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'Uložené do zariadenia.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level Fáza: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'Vylepšenie kúzelnej knihy';
+
+  @override
+  String get growthPhaseCrystal0 => 'Mágia priepasti';
+
+  @override
+  String get growthPhaseCrystal1 => 'Otvorenie duchovného oka';
+
+  @override
+  String get growthPhaseCrystal2 => 'Múdrosť Matky Prírody';
+
+  @override
+  String get growthPhaseCrystal3 => 'Esencia Slnka';
+
+  @override
+  String get growthPhaseCrystal4 => 'Nebeská polárna žiara';
+
+  @override
+  String get growthPhaseCrystal5 => 'Božská ríša';
+
+  @override
+  String get growthPhaseCrystal6 => 'Mágia stvorenia';
+
+  @override
+  String get growthPhaseCrystal7 => 'Dych vesmíru';
+
+  @override
+  String get growthPhaseCrystal8 => 'Večné svetlo';
+
+  @override
+  String get growthPhaseCrystal9 => 'Čisté biele prebudenie';
+
+  @override
+  String get growthPhaseCrystal10 => 'Transcendencia';
+
+  @override
+  String get growthPhaseBook0 => 'Písacie nástroje učňa';
+
+  @override
+  String get growthPhaseBook1 => 'Základný magický úvod';
+
+  @override
+  String get growthPhaseBook2 => 'Gramatika starovekých rún';
+
+  @override
+  String get growthPhaseBook3 => 'Pochopenie elementárnej mágie';
+
+  @override
+  String get growthPhaseBook4 => 'Harmónia hviezdneho svetla';
+
+  @override
+  String get growthPhaseBook5 => 'Dešifrovanie artefaktov';
+
+  @override
+  String get growthPhaseBook6 => 'Zakázaná kniha mudrca';
+
+  @override
+  String get growthPhaseBook7 => 'Spoločenstvo s duchmi';
+
+  @override
+  String get growthPhaseBook8 => 'Grimoár pravdy';
+
+  @override
+  String get growthPhaseBook9 => 'Všemocný záznam';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'Úroveň magickej knihy $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'Vedomosti: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'Mana: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'Vedomosti magickej knihy sa prehĺbili! Exp +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'Vylepšiť magickú knihu ($amount prachu)';
+  }
+
+  @override
+  String get devDustCharged => 'Vývoj: 1000 kúzelného prachu nabitých!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'Novinky a upozornenia';
+
+  @override
+  String get menuMailboxTitle => 'Poštová schránka';
+
+  @override
+  String get menuMailboxSubtitle => 'Pozrite si nové aktualizácie a darčeky';
+
+  @override
+  String get mailboxTitle => 'Poštová schránka';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'Všetky nárokované odmeny.';
+
+  @override
+  String get mailboxClaimAll => 'Nárokovať všetko';
+
+  @override
+  String get mailboxEmpty => 'Poštová schránka je prázdna.';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'Od: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'Nárokované';
+
+  @override
+  String get mailboxClaim => 'Nárokovať';
+
+  @override
+  String get mailboxAttachedRewards => 'Priložené odmeny';
+
+  @override
+  String get mailboxRewardClaimed => 'Nárokovaná odmena.';
+
+  @override
+  String get mailboxClaimReward => 'Nárokovať si odmenu';
+
+  @override
+  String get menuNotificationCenterTitle => 'Centrum upozornení';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'Skontrolujte najnovšie upozornenia a oznámenia';
+
+  @override
+  String get authSignupComplete =>
+      'Registrácia je dokončená. Overte si e-mail, ktorý vám bol zaslaný.';
+
+  @override
+  String chatInitError(String error) {
+    return 'Vyskytla sa chyba inicializácie:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Vyskytla sa chyba:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Preklad zlyhal: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'Vyberte dátum';
+
+  @override
+  String get diarySavedSuccess => 'Denník bol úspešne uložený!';
+
+  @override
+  String get diarySaveFailed => 'Denník sa nepodarilo uložiť.';
+
+  @override
+  String get diaryWriteTitle => 'Píšte si denník';
+
+  @override
+  String get diaryWriteHint =>
+      'Pokojne napíšte svoje myšlienky či pocity z dnešného čítania.';
+
+  @override
+  String get diarySaveButton => 'Uložiť do denníka';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Verzia $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'Dnešné bohatstvo';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. Minulosť';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. Prítomný';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. Budúcnosť';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. Aktuálny';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. Minulosť';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. Budúcnosť';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. Príčina';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. Potenciál';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 =>
+      '1. Aktuálny stav a problém';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. Príčina problému';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 => '3. Rady na riešenie';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. Očakávaný výsledok';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. Aktuálna situácia';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. Prekážka';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. Bezvedomie';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. Minulosť';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. Vedomý cieľ';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. Blízka budúcnosť';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. Postoj';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 =>
+      '8. Vonkajšie prostredie';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. Nádeje a obavy';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. Konečný výsledok';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. Poradenstvo';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. Okolie';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. Výsledok';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount mince';
+  }
+
+  @override
+  String get serviceLoginRequired => 'Vyžaduje sa prihlásenie.';
+
+  @override
+  String get serviceDefaultNickname => 'Bezmenná čarodejnica';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'Pri čítaní šťastia sa vyskytla chyba: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'Používateľ';
+
+  @override
+  String get listenToInterpretation => 'Vypočujte si výklad';
+
+  @override
+  String get faqQ1 => 'Môžem čítať tarot každý deň?';
+
+  @override
+  String get faqA1 =>
+      'Áno, tok dneška je dobré čítať s ľahkým srdcom. Neodporúča sa však opakovane ťahať karty na tú istú otázku.';
+
+  @override
+  String get faqQ2 => 'Ako získam magický prach?';
+
+  @override
+  String get faqA2 =>
+      'Magický prach môžete získať návštevou aplikácie, komunitnými aktivitami alebo nákupom v obchode.';
+
+  @override
+  String get faqQ3 => 'Čo mám robiť, ak je výsledok zlý?';
+
+  @override
+  String get faqA3 =>
+      'Tarot nie je pevná budúcnosť, ale rada. Použite zlý výsledok ako míľnik, ktorý vás upozorní na riziká, ktorým sa treba vyhnúť.';
+
+  @override
+  String get faqQ4 => 'Ako môžem vidieť svoje minulé čítania tarotov?';
+
+  @override
+  String get faqA4 =>
+      'Svoje uložené záznamy o čítaní môžete kedykoľvek skontrolovať podľa dátumu na karte \'Denník\' (Kalendár) v spodnej ponuke.';
+
+  @override
+  String get faqQ5 => 'Ako môžem zdieľať s komunitou?';
+
+  @override
+  String get faqA5 =>
+      'Zapnite prepínač „Zdieľať v komunite“ na obrazovke podrobností denníka uloženej v denníku, aby ste mohli zdieľať svoje čítanie s ostatnými používateľmi.';
+
+  @override
+  String get faqQ6 => 'Ako môžem zmeniť svoju prezývku alebo profil?';
+
+  @override
+  String get faqA6 =>
+      'Svoju prezývku a ikonu môžete kedykoľvek zmeniť dotknutím sa oblasti profilu v hornej časti karty „Moja ponuka“.';
+
+  @override
+  String get faqQ7 => 'Kde môžem zapnúť a vypnúť upozornenia?';
+
+  @override
+  String get faqA7 =>
+      'Upozornenia môžete ovládať z aplikácie nastavení vášho zariadenia alebo z ponuky predvolieb, ktorá sa má v budúcnosti aktualizovať.';
+
+  @override
+  String get faqQ8 => 'Môžem vidieť tarotové denníky iných ľudí?';
+
+  @override
+  String get faqA8 =>
+      'Áno, na karte „Komunita“ v dolnej časti si môžete pozrieť zaujímavé výklady tarotov, ktoré zverejnili iní čarodejníci (používatelia), a povzbudzovať ich.';
+
+  @override
+  String get faqQ9 =>
+      'Kde si môžem skontrolovať svoje prémiové predplatné alebo históriu platieb?';
+
+  @override
+  String get faqA9 =>
+      'Ak vyberiete \'História platieb\' na karte [Moje informácie] v spodnom menu, môžete si podrobne skontrolovať históriu platieb mincami a získaný magický prach.';
+
+  @override
+  String get faqQ10 =>
+      'Chcem študovať význam tarotových kariet osobne. Ako to môžem urobiť?';
+
+  @override
+  String get faqA10 =>
+      'Ak prejdete na kartu [Encyklopédia kariet] v spodnej ponuke, môžete si voľne prezerať zvislé a prevrátené významy, symboly a podrobné vysvetlenia všetkých 78 kariet.';
+
+  @override
+  String get faqQ11 => 'Ako môžem odstrániť svoj účet alebo vybrať?';
+
+  @override
+  String get faqA11 =>
+      'Tlačidlo „Odstrániť účet“ nájdete tak, že prejdete do ponuky Nastavenia účtu prostredníctvom ikony ozubeného kolieska v pravej hornej časti karty [Moje informácie]. Všetky denníky a údaje budú po stiahnutí natrvalo vymazané.';
+
+  @override
+  String get faqQ12 =>
+      'Kam sa mám obrátiť, ak narazím na chybu alebo mám návrhy?';
+
+  @override
+  String get faqA12 =>
+      'Ak pošlete podrobnosti prostredníctvom \'Kontaktovať zákaznícky servis\', ktorý sa pripravuje v spodnej časti aktuálnej obrazovky alebo prostredníctvom oficiálneho e-mailu, rýchlo to skontrolujeme a magicky to za vás vyriešime.';
+
+  @override
+  String get myMenuContactUs => 'Kontaktujte nás';
+
+  @override
+  String get myMenuContactUsSubtitle => 'Dopyty a návrhy';
+
+  @override
+  String get contactDialogTitle => 'Kontaktujte nás';
+
+  @override
+  String get contactTypeBug => 'Hlásenie o chybe';
+
+  @override
+  String get contactTypeFeature => 'Návrh funkcie';
+
+  @override
+  String get contactTypePayment => 'Problém s platbou';
+
+  @override
+  String get contactTypeOther => 'Iný dopyt';
+
+  @override
+  String get contactHint => 'Prosím napíšte svoj dopyt podrobne.';
+
+  @override
+  String get contactSend => 'Odoslať';
+
+  @override
+  String get contactCancel => 'Zrušiť';
+
+  @override
+  String get contactEmptyErrorTitle => 'Všimnite si';
+
+  @override
+  String get contactEmptyErrorMessage => 'Zadajte obsah dopytu.';
 }

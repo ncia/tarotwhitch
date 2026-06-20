@@ -76,25 +76,29 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
                           unselectedLabelColor: Colors.white54,
                           tabs: [
                             Tab(
-                              child: Row(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  const Icon(Icons.lens_blur),
-                                  const SizedBox(width: 8),
-                                  Text(AppLocalizations.of(context)!.growthTabCrystalBall),
-                                  const SizedBox(width: 32),
-                                ],
+                              child: FittedBox(
+                                fit: BoxFit.scaleDown,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    const Icon(Icons.lens_blur),
+                                    const SizedBox(width: 8),
+                                    Text(AppLocalizations.of(context)!.growthTabCrystalBall),
+                                  ],
+                                ),
                               ),
                             ),
                             Tab(
-                              child: Row(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  const Icon(Icons.menu_book),
-                                  const SizedBox(width: 8),
-                                  const Text('마법책 강화'), // AppLocalizations.of(context)!.growthTabWorldTree 대신 하드코딩
-                                  const SizedBox(width: 32),
-                                ],
+                              child: FittedBox(
+                                fit: BoxFit.scaleDown,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    const Icon(Icons.menu_book),
+                                    const SizedBox(width: 8),
+                                    Text(AppLocalizations.of(context)!.growthTabMagicBook),
+                                  ],
+                                ),
                               ),
                             ),
                           ],
@@ -147,14 +151,40 @@ class _MagicBookTabState extends State<_MagicBookTab> {
   bool _isEnhancing = false;
 
   void _enhanceBook() async {
+    final totalExp = EconomyService().worldTreeExp;
+    final level = EconomyService().getLevelFromTotalExp(totalExp);
+    if (level >= 100) return;
+    
+    final currentExp = EconomyService().getCurrentLevelExp(totalExp);
+    final requiredExp = EconomyService().getRequiredExpForLevel(level);
+    final needed = requiredExp - currentExp;
+
+    int amountToInject = 10;
+    if (needed < amountToInject) amountToInject = needed;
+    
+    // 보유 가루가 부족하지만 조금이라도 있다면 있는 만큼만 주입
+    final ownedDust = EconomyService().magicDust;
+    if (ownedDust > 0 && ownedDust < amountToInject) {
+      amountToInject = ownedDust;
+    }
+    // 만약 보유 가루가 0이라면 버튼 텍스트 표시를 위해 10(또는 needed) 유지 (클릭 시 부족 메시지 발생)
+    if (amountToInject == 0) amountToInject = needed < 10 ? needed : 10;
+
     setState(() {
       _isEnhancing = true;
     });
-    await EconomyService().addWorldTreeExp(10); // 임시로 worldTreeExp를 사용합니다.
+    
+    bool success = await EconomyService().levelUpWorldTree(amountToInject);
     if (mounted) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('마법책의 지식이 깊어졌습니다! Exp +10')),
-      );
+      if (success) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text(AppLocalizations.of(context)!.growthUpgradeSuccess)),
+        );
+      } else {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text(AppLocalizations.of(context)!.growthUpgradeNotEnough)),
+        );
+      }
       setState(() {
         _isEnhancing = false;
       });
@@ -166,28 +196,31 @@ class _MagicBookTabState extends State<_MagicBookTab> {
     return ListenableBuilder(
       listenable: EconomyService(),
       builder: (context, _) {
-        final exp = EconomyService().worldTreeExp;
-        final level = (exp / 100).floor() + 1;
-        final progress = (exp % 100) / 100.0;
+        final totalExp = EconomyService().worldTreeExp;
+        final level = EconomyService().getLevelFromTotalExp(totalExp);
+        final currentExp = EconomyService().getCurrentLevelExp(totalExp);
+        final requiredExp = EconomyService().getRequiredExpForLevel(level);
+        final progress = level >= 100 ? 1.0 : currentExp / requiredExp;
 
-        final phaseIndex = ((level - 1) / 100).floor();
+        final phaseIndex = ((level - 1) / 10).floor().clamp(0, 9);
         final phases = [
-          '견습생의 필기구',
-          '기초 마법 입문서',
-          '고대 룬 문법',
-          '원소술의 이해',
-          '별빛의 조화',
-          '아티팩트 해독',
-          '현자의 금서',
-          '정령과의 교감',
-          '진리의 마도서',
-          '전지전능한 기록'
+          AppLocalizations.of(context)!.growthPhaseBook0,
+          AppLocalizations.of(context)!.growthPhaseBook1,
+          AppLocalizations.of(context)!.growthPhaseBook2,
+          AppLocalizations.of(context)!.growthPhaseBook3,
+          AppLocalizations.of(context)!.growthPhaseBook4,
+          AppLocalizations.of(context)!.growthPhaseBook5,
+          AppLocalizations.of(context)!.growthPhaseBook6,
+          AppLocalizations.of(context)!.growthPhaseBook7,
+          AppLocalizations.of(context)!.growthPhaseBook8,
+          AppLocalizations.of(context)!.growthPhaseBook9,
         ];
-        final currentPhaseName = phaseIndex < phases.length ? phases[phaseIndex] : '초월';
+        final currentPhaseName = phaseIndex < phases.length ? phases[phaseIndex] : AppLocalizations.of(context)!.growthPhaseCrystal10;
         final phaseNumber = phaseIndex + 1;
 
-        final double hue = (40.0 + (exp * 3.0)) % 360.0;
-        final double lightness = (0.5 + (exp / 100000.0) * 0.5).clamp(0.5, 1.0);
+        // 100만 EXP에 도달하는 동안 색상이 3번(1080도) 부드럽게 순환합니다.
+        final double hue = (40.0 + (totalExp / 1000000.0 * 1080.0)) % 360.0;
+        final double lightness = (0.5 + (totalExp / 1000000.0) * 0.5).clamp(0.5, 1.0);
         final titleColor = HSLColor.fromAHSL(1.0, hue, 0.8, lightness).toColor();
 
 
@@ -200,9 +233,9 @@ class _MagicBookTabState extends State<_MagicBookTab> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text('[$phaseNumber단계: $currentPhaseName]', style: Theme.of(context).textTheme.titleMedium?.copyWith(color: titleColor, fontWeight: FontWeight.bold)),
+                      Text(AppLocalizations.of(context)!.growthPhaseFormat(phaseNumber, currentPhaseName), style: Theme.of(context).textTheme.titleMedium?.copyWith(color: titleColor, fontWeight: FontWeight.bold)),
                       const SizedBox(height: 4),
-                      Text('마법책 레벨 $level', style: Theme.of(context).textTheme.titleLarge),
+                      Text(AppLocalizations.of(context)!.growthMagicBookLevel(level), style: Theme.of(context).textTheme.titleLarge),
                       const SizedBox(height: 10),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 40),
@@ -216,38 +249,53 @@ class _MagicBookTabState extends State<_MagicBookTab> {
                               borderRadius: BorderRadius.circular(6),
                             ),
                             const SizedBox(height: 8),
-                            Text('지식: ${exp % 100} / 100', style: const TextStyle(color: Colors.white70)),
+                            Text(AppLocalizations.of(context)!.growthMagicBookKnowledge(currentExp, requiredExp), style: const TextStyle(color: Colors.white70)),
                           ],
                         ),
                       ),
                       const SizedBox(height: 20),
-                      Image.asset(
-                        'assets/images/magic_book.png',
-                        width: 300,
-                        height: 300,
-                        fit: BoxFit.contain,
+                      Container(
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          boxShadow: [
+                            BoxShadow(
+                              color: titleColor.withOpacity(0.5),
+                              blurRadius: 100,
+                              spreadRadius: 20,
+                            ),
+                          ],
+                        ),
+                        child: Image.asset(
+                          'assets/images/magic_book.png',
+                          width: 300,
+                          height: 300,
+                          fit: BoxFit.contain,
+                        ),
                       ),
                       const SizedBox(height: 40),
-                      GestureDetector(
-                        onTap: () {
-                          // 개발 테스트용: 마력의 가루 1000개 충전
-                          EconomyService().addMagicDust(1000);
-                          ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('개발용: 마력의 가루 1000개 충전 완료!')));
-                        },
-                        child: GlassContainer(
-                          padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 12),
-                          borderRadius: 20,
-                          child: Text(
-                            AppLocalizations.of(context)!.growthDustOwned(exp * 10),
-                            style: const TextStyle(color: Colors.amber, fontSize: 18, fontWeight: FontWeight.bold),
-                          ),
+                      GlassContainer(
+                        padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 12),
+                        borderRadius: 20,
+                        child: Text(
+                          AppLocalizations.of(context)!.growthDustOwned(totalExp),
+                          style: const TextStyle(color: Colors.amber, fontSize: 18, fontWeight: FontWeight.bold),
                         ),
                       ),
                       const SizedBox(height: 40),
                       ElevatedButton.icon(
-                        onPressed: _isEnhancing ? null : _enhanceBook,
+                        onPressed: _isEnhancing || level >= 100 ? null : _enhanceBook,
                         icon: const Icon(Icons.auto_awesome),
-                        label: const Text('마법책 강화 (가루 10개)'),
+                        label: Builder(
+                          builder: (context) {
+                            int amount = 10;
+                            final needed = requiredExp - currentExp;
+                            if (needed < amount) amount = needed;
+                            final owned = EconomyService().magicDust;
+                            if (owned > 0 && owned < amount) amount = owned;
+                            if (amount == 0) amount = needed < 10 ? needed : 10;
+                            return Text(AppLocalizations.of(context)!.growthUpgradeMagicBookButton(amount));
+                          }
+                        ),
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.amber[800],
                           foregroundColor: Colors.white,
@@ -278,19 +326,41 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
   bool _isUpgrading = false;
 
   void _upgradeBall() async {
-    final success = await EconomyService().upgradeCrystalBall(10);
-    if (success) {
-      if (mounted) {
+    final totalExp = EconomyService().crystalBallExp;
+    final displayLevel = EconomyService().getLevelFromTotalExp(totalExp);
+    if (displayLevel >= 100) return;
+    
+    final currentExp = EconomyService().getCurrentLevelExp(totalExp);
+    final requiredExp = EconomyService().getRequiredExpForLevel(displayLevel);
+    final needed = requiredExp - currentExp;
+
+    int amountToInject = 10;
+    if (needed < amountToInject) amountToInject = needed;
+    
+    final ownedDust = EconomyService().magicDust;
+    if (ownedDust > 0 && ownedDust < amountToInject) {
+      amountToInject = ownedDust;
+    }
+    if (amountToInject == 0) amountToInject = needed < 10 ? needed : 10;
+
+    setState(() {
+      _isUpgrading = true;
+    });
+
+    final success = await EconomyService().upgradeCrystalBall(amountToInject);
+    if (mounted) {
+      if (success) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text(AppLocalizations.of(context)!.growthUpgradeSuccess)),
         );
-      }
-    } else {
-      if (mounted) {
+      } else {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text(AppLocalizations.of(context)!.growthUpgradeNotEnough)),
         );
       }
+      setState(() {
+        _isUpgrading = false;
+      });
     }
   }
 
@@ -299,29 +369,32 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
     return ListenableBuilder(
       listenable: EconomyService(),
       builder: (context, _) {
-        final exp = EconomyService().crystalBallExp;
+        final totalExp = EconomyService().crystalBallExp;
         final dust = EconomyService().magicDust;
-        final displayLevel = (exp / 100).floor() + 1;
-        final progress = (exp % 100) / 100.0;
+        final displayLevel = EconomyService().getLevelFromTotalExp(totalExp);
+        final currentExp = EconomyService().getCurrentLevelExp(totalExp);
+        final requiredExp = EconomyService().getRequiredExpForLevel(displayLevel);
+        final progress = displayLevel >= 100 ? 1.0 : currentExp / requiredExp;
         
-        final phaseIndex = ((displayLevel - 1) / 100).floor();
+        final phaseIndex = ((displayLevel - 1) / 10).floor().clamp(0, 9);
         final phases = [
-          '심연의 마력',
-          '영안의 개방',
-          '대자연의 지혜',
-          '태양의 정수',
-          '천공의 오로라',
-          '신의 경지',
-          '창조의 마력',
-          '우주의 숨결',
-          '영원의 빛',
-          '순백의 각성'
+          AppLocalizations.of(context)!.growthPhaseCrystal0,
+          AppLocalizations.of(context)!.growthPhaseCrystal1,
+          AppLocalizations.of(context)!.growthPhaseCrystal2,
+          AppLocalizations.of(context)!.growthPhaseCrystal3,
+          AppLocalizations.of(context)!.growthPhaseCrystal4,
+          AppLocalizations.of(context)!.growthPhaseCrystal5,
+          AppLocalizations.of(context)!.growthPhaseCrystal6,
+          AppLocalizations.of(context)!.growthPhaseCrystal7,
+          AppLocalizations.of(context)!.growthPhaseCrystal8,
+          AppLocalizations.of(context)!.growthPhaseCrystal9,
         ];
-        final currentPhaseName = phaseIndex < phases.length ? phases[phaseIndex] : '초월';
+        final currentPhaseName = phaseIndex < phases.length ? phases[phaseIndex] : AppLocalizations.of(context)!.growthPhaseCrystal10;
         final phaseNumber = phaseIndex + 1;
 
-        final double hue = (exp * 3.0) % 360.0;
-        final double lightness = (0.1 + (exp / 100000.0) * 0.9).clamp(0.1, 1.0);
+        // 수정구도 100만 EXP 동안 색상이 3번 부드럽게 순환합니다.
+        final double hue = ((totalExp / 1000000.0) * 1080.0) % 360.0;
+        final double lightness = (0.1 + (totalExp / 1000000.0) * 0.9).clamp(0.1, 1.0);
         final overlayColor = HSLColor.fromAHSL(1.0, hue, 1.0, lightness).toColor();
 
         return LayoutBuilder(
@@ -333,7 +406,7 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('[$phaseNumber단계: $currentPhaseName]', style: Theme.of(context).textTheme.titleMedium?.copyWith(color: Colors.purpleAccent, fontWeight: FontWeight.bold)),
+              Text(AppLocalizations.of(context)!.growthPhaseFormat(phaseNumber, currentPhaseName), style: Theme.of(context).textTheme.titleMedium?.copyWith(color: Colors.purpleAccent, fontWeight: FontWeight.bold)),
               const SizedBox(height: 4),
               Text(AppLocalizations.of(context)!.growthCrystalBallLevel(displayLevel), style: Theme.of(context).textTheme.titleLarge),
               const SizedBox(height: 10),
@@ -349,61 +422,76 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
                       borderRadius: BorderRadius.circular(6),
                     ),
                     const SizedBox(height: 8),
-                    Text('마력: ${exp % 100} / 100', style: const TextStyle(color: Colors.white70)),
+                    Text(AppLocalizations.of(context)!.growthCrystalBallMana(currentExp, requiredExp), style: const TextStyle(color: Colors.white70)),
                   ],
                 ),
               ),
               const SizedBox(height: 20),
               GestureDetector(
                 onTap: _isUpgrading ? null : _upgradeBall,
-                child: Stack(
-                  alignment: Alignment.center,
-                  children: [
-                    // 색상 오버레이를 이미지 뒤에 배치하여 유리 반사 효과를 살림
-                    Positioned(
-                      top: 44, // 윗부분 1픽셀 추가 축소를 위해 내림
-                      child: IgnorePointer(
-                        child: AnimatedContainer(
-                          duration: const Duration(milliseconds: 300),
-                          width: 122, // 1픽셀 추가 축소
-                          height: 122,
-                          decoration: BoxDecoration(
-                            shape: BoxShape.circle,
-                            color: overlayColor.withOpacity(0.8), // 그림자 렌더링으로 인해 삐져나오는 현상 방지를 위해 그림자 완전 제거
+                child: Container(
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    boxShadow: [
+                      BoxShadow(
+                        color: HSLColor.fromAHSL(1.0, hue, 1.0, 0.7).toColor().withOpacity(0.5),
+                        blurRadius: 100,
+                        spreadRadius: 20,
+                      ),
+                    ],
+                  ),
+                  child: Stack(
+                    alignment: Alignment.center,
+                    children: [
+                      // 색상 오버레이를 이미지 뒤에 배치하여 유리 반사 효과를 살림
+                      Positioned(
+                        top: 44, // 윗부분 1픽셀 추가 축소를 위해 내림
+                        child: IgnorePointer(
+                          child: AnimatedContainer(
+                            duration: const Duration(milliseconds: 300),
+                            width: 122, // 1픽셀 추가 축소
+                            height: 122,
+                            decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                              color: overlayColor.withOpacity(0.8), // 그림자 렌더링으로 인해 삐져나오는 현상 방지를 위해 그림자 완전 제거
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                    Image.asset(
-                      'assets/images/crystal_ball.png',
-                      width: 300,
-                      height: 300,
-                      fit: BoxFit.contain,
-                    ),
-                  ],
-                ),
-              ),
-              const SizedBox(height: 40),
-              GestureDetector(
-                onTap: () {
-                  // 개발 테스트용: 마력의 가루 1000개 충전
-                  EconomyService().addMagicDust(1000);
-                  ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('개발용: 마력의 가루 1000개 충전 완료!')));
-                },
-                child: GlassContainer(
-                  padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 12),
-                  borderRadius: 20,
-                  child: Text(
-                    AppLocalizations.of(context)!.growthDustOwned(exp * 10),
-                    style: const TextStyle(color: Colors.purpleAccent, fontSize: 18, fontWeight: FontWeight.bold),
+                      Image.asset(
+                        'assets/images/crystal_ball.png',
+                        width: 300,
+                        height: 300,
+                        fit: BoxFit.contain,
+                      ),
+                    ],
                   ),
                 ),
               ),
               const SizedBox(height: 40),
+              GlassContainer(
+                padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 12),
+                borderRadius: 20,
+                child: Text(
+                  AppLocalizations.of(context)!.growthDustOwned(totalExp),
+                  style: const TextStyle(color: Colors.purpleAccent, fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+              ),
+              const SizedBox(height: 40),
               ElevatedButton.icon(
-                onPressed: _isUpgrading ? null : _upgradeBall,
+                onPressed: _isUpgrading || displayLevel >= 100 ? null : _upgradeBall,
                 icon: const Icon(Icons.auto_awesome),
-                label: Text(AppLocalizations.of(context)!.growthUpgradeButton),
+                label: Builder(
+                  builder: (context) {
+                    int amount = 10;
+                    final needed = requiredExp - currentExp;
+                    if (needed < amount) amount = needed;
+                    final owned = EconomyService().magicDust;
+                    if (owned > 0 && owned < amount) amount = owned;
+                    if (amount == 0) amount = needed < 10 ? needed : 10;
+                    return Text(AppLocalizations.of(context)!.growthUpgradeButtonCost(amount));
+                  }
+                ),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.purple,
                   foregroundColor: Colors.white,

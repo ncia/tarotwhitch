@@ -4430,4 +4430,434 @@ class AppLocalizationsHy extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'Պահված է սարքում:';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level Փուլ: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'Կախարդական Գրքի Թարմացում';
+
+  @override
+  String get growthPhaseCrystal0 => 'Անդունդային Մոգություն';
+
+  @override
+  String get growthPhaseCrystal1 => 'Հոգու Աչքի Բացում';
+
+  @override
+  String get growthPhaseCrystal2 => 'Մայր Բնության Իմաստություն';
+
+  @override
+  String get growthPhaseCrystal3 => 'Արևի Էություն';
+
+  @override
+  String get growthPhaseCrystal4 => 'Երկնային Ավրորա';
+
+  @override
+  String get growthPhaseCrystal5 => 'Աստվածային Տիրույթ';
+
+  @override
+  String get growthPhaseCrystal6 => 'Արարման Մոգություն';
+
+  @override
+  String get growthPhaseCrystal7 => 'Տիեզերքի Շունչ';
+
+  @override
+  String get growthPhaseCrystal8 => 'Հավերժական Լույս';
+
+  @override
+  String get growthPhaseCrystal9 => 'Մաքուր Սպիտակ Զարթոնք';
+
+  @override
+  String get growthPhaseCrystal10 => 'Գերազանցում';
+
+  @override
+  String get growthPhaseBook0 => 'Աշակերտի Գրելու Գործիքներ';
+
+  @override
+  String get growthPhaseBook1 => 'Հիմնական Մոգական Նախնական Դասագիրք';
+
+  @override
+  String get growthPhaseBook2 => 'Հնագույն Ռունի Քերականություն';
+
+  @override
+  String get growthPhaseBook3 => 'Տարրական Մոգության Ըմբռնում';
+
+  @override
+  String get growthPhaseBook4 => 'Աստղալույսի Հարմոնիա';
+
+  @override
+  String get growthPhaseBook5 => 'Արտեֆակտների Վերծանում';
+
+  @override
+  String get growthPhaseBook6 => 'Իմաստունի Արգելված Գիրքը';
+
+  @override
+  String get growthPhaseBook7 => 'Հաղորդակցություն Հոգիների Հետ';
+
+  @override
+  String get growthPhaseBook8 => 'Ճշմարտության Գրիմուար';
+
+  @override
+  String get growthPhaseBook9 => 'Ամենակարող Գրառում';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'Մոգական գրքի մակարդակ $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'Գիտելիք: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'Մանա: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'Մոգական գրքի գիտելիքները խորացել են: Փորձ +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'Բարելավել մոգական գիրքը ($amount փոշի)';
+  }
+
+  @override
+  String get devDustCharged => 'Dev: 1000 մոգական փոշի լիցքավորված է!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'Նորություններ և ծանուցումներ';
+
+  @override
+  String get menuMailboxTitle => 'Փոստարկղ';
+
+  @override
+  String get menuMailboxSubtitle => 'Ստուգեք նոր թարմացումներն ու նվերները';
+
+  @override
+  String get mailboxTitle => 'Փոստարկղ';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'Բոլոր պարգևները պահանջվում են:';
+
+  @override
+  String get mailboxClaimAll => 'Պահանջել բոլորը';
+
+  @override
+  String get mailboxEmpty => 'Փոստարկղը դատարկ է:';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'Ումից՝ $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'Պնդեց';
+
+  @override
+  String get mailboxClaim => 'Հայց';
+
+  @override
+  String get mailboxAttachedRewards => 'Կցված պարգևներ';
+
+  @override
+  String get mailboxRewardClaimed => 'Պարգևատրվել է:';
+
+  @override
+  String get mailboxClaimReward => 'Պահանջեք պարգև';
+
+  @override
+  String get menuNotificationCenterTitle => 'Ծանուցման կենտրոն';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'Ստուգեք վերջին ծանուցումները և հայտարարությունները';
+
+  @override
+  String get authSignupComplete =>
+      'Գրանցումն ավարտված է։ Խնդրում ենք ստուգել ձեզ ուղարկված էլ․ հասցեն՝ ստուգելու համար։';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initialization error occurred:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Error occurred:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Translation failed: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'Ընտրեք ամսաթիվ';
+
+  @override
+  String get diarySavedSuccess => 'Օրագիրը հաջողությամբ պահպանվեց:';
+
+  @override
+  String get diarySaveFailed => 'Չհաջողվեց պահել օրագիրը:';
+
+  @override
+  String get diaryWriteTitle => 'Գրել օրագիր';
+
+  @override
+  String get diaryWriteHint =>
+      'Ազատորեն գրեք ձեր մտքերը կամ զգացմունքները այսօրվա ընթերցանության վերաբերյալ:';
+
+  @override
+  String get diarySaveButton => 'Պահել օրագրում';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Տարբերակ $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'Այսօրվա Fortune';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. Անցյալ';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. Ներկա';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. Ապագա';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. Ընթացիկ';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. Անցյալ';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. Ապագա';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. Պատճառը';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. Ներուժ';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 => '1. Ներկա իրավիճակ և խնդիր';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. Խնդրի պատճառ';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 =>
+      '3. Խորհուրդ լուծման համար';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. Ակնկալվող արդյունք';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. Ներկա իրավիճակը';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. Խոչընդոտ';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. Անգիտակից վիճակում';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. Անցյալ';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. Գիտակից նպատակ';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. Մոտ ապագա';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. Վերաբերմունք';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 => '8. Արտաքին միջավայր';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. Հույսեր և վախեր';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. Վերջնական արդյունք';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. Խորհուրդ';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. Շրջապատը';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. Արդյունք';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount Մետաղադրամներ';
+  }
+
+  @override
+  String get serviceLoginRequired => 'Մուտք գործելը պարտադիր է:';
+
+  @override
+  String get serviceDefaultNickname => 'Անանուն կախարդ';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'Բախտը կարդալիս սխալ է տեղի ունեցել՝ $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'Օգտատեր';
+
+  @override
+  String get listenToInterpretation => 'Լսեք մեկնաբանություն';
+
+  @override
+  String get faqQ1 => 'Կարո՞ղ եմ ամեն օր կարդալ tarot:';
+
+  @override
+  String get faqA1 =>
+      'Այո՛, լավ է թեթեւ սրտով կարդալ այսօրվա հոսքը։ Այնուամենայնիվ, խորհուրդ չի տրվում նույն հարցի համար բազմիցս նկարել քարտերը:';
+
+  @override
+  String get faqQ2 => 'Ինչպե՞ս կարող եմ կախարդական փոշի ստանալ:';
+
+  @override
+  String get faqA2 =>
+      'Դուք կարող եք կախարդական փոշի ստանալ հավելվածների հաճախումների, համայնքային գործունեության կամ խանութից գնումների միջոցով:';
+
+  @override
+  String get faqQ3 => 'Ի՞նչ պետք է անեմ, եթե արդյունքը վատ է:';
+
+  @override
+  String get faqA3 =>
+      'Տարոտը ֆիքսված ապագա չէ, այլ խորհուրդ։ Օգտագործեք վատ արդյունքը որպես ուղենիշ, որպեսզի զգուշացնեք ձեզ խուսափելու ռիսկերի մասին:';
+
+  @override
+  String get faqQ4 => 'Ինչպե՞ս կարող եմ տեսնել իմ անցած tarot ընթերցումները:';
+
+  @override
+  String get faqA4 =>
+      'Դուք ցանկացած պահի կարող եք դիտել ձեր պահված ընթերցանության գրառումներն ըստ ամսաթվի «Օրագիր» (Օրացույց) ներդիրում՝ ներքևի ընտրացանկում:';
+
+  @override
+  String get faqQ5 => 'Ինչպե՞ս կարող եմ կիսվել համայնքի հետ:';
+
+  @override
+  String get faqA5 =>
+      'Օրագրում պահված օրագրի մանրամասների էկրանին միացրեք «Կիսվել համայնքին» անջատիչը՝ ձեր ընթերցումները այլ օգտատերերի հետ կիսելու համար:';
+
+  @override
+  String get faqQ6 => 'Ինչպե՞ս կարող եմ փոխել իմ մականունը կամ պրոֆիլը:';
+
+  @override
+  String get faqA6 =>
+      'Դուք ցանկացած ժամանակ կարող եք փոխել ձեր մականունը և պատկերակը` հպելով «Իմ ընտրացանկը» ներդիրի վերևի պրոֆիլի տարածքին:';
+
+  @override
+  String get faqQ7 => 'Որտե՞ղ կարող եմ միացնել և անջատել ծանուցումները:';
+
+  @override
+  String get faqA7 =>
+      'Դուք կարող եք կառավարել ծանուցումները ձեր սարքի կարգավորումների հավելվածից կամ ապագայում թարմացվող նախընտրությունների ցանկից:';
+
+  @override
+  String get faqQ8 => 'Կարո՞ղ եմ տեսնել այլ մարդկանց tarot օրագրերը:';
+
+  @override
+  String get faqA8 =>
+      'Այո, դուք կարող եք դիտել և ուրախացնել հետաքրքիր Tarot-ի ընթերցումները, որոնք այլ կախարդներ (օգտատերեր) հրապարակել են ներքևի «Համայնք» ներդիրում:';
+
+  @override
+  String get faqQ9 =>
+      'Որտեղ կարող եմ ստուգել իմ պրեմիում բաժանորդագրությունների կամ վճարումների պատմությունը:';
+
+  @override
+  String get faqA9 =>
+      'Եթե ​​ներքևի ընտրացանկի [Իմ տեղեկությունները] ներդիրում ընտրեք «Վճարման պատմություն», կարող եք մանրամասնորեն ստուգել ձեր մետաղադրամի վճարումների պատմությունը և ձեռք բերված կախարդական փոշին:';
+
+  @override
+  String get faqQ10 =>
+      'Ես ուզում եմ անձամբ ուսումնասիրել Tarot քարտերի իմաստը: Ինչպե՞ս կարող եմ դա անել:';
+
+  @override
+  String get faqA10 =>
+      'Եթե ​​ներքևի ընտրացանկում մտնեք [Քարտային հանրագիտարան] ներդիր, կարող եք ազատորեն դիտել բոլոր 78 քարտերի ուղիղ և հակադարձ իմաստները, խորհրդանիշները և խորը բացատրությունները:';
+
+  @override
+  String get faqQ11 => 'Ինչպե՞ս կարող եմ ջնջել իմ հաշիվը կամ հանել:';
+
+  @override
+  String get faqA11 =>
+      'Դուք կարող եք գտնել «Ջնջել հաշիվը» կոճակը՝ անցնելով «Հաշվի կարգավորումների» ընտրացանկ՝ [Իմ տեղեկությունները] ներդիրի վերևի աջ մասում գտնվող հանդերձի պատկերակի միջոցով: Բոլոր օրագրերը և տվյալները ընդմիշտ կջնջվեն դուրս գալուց հետո:';
+
+  @override
+  String get faqQ12 =>
+      'Որտե՞ղ կապվեմ, եթե հանդիպեմ սխալի կամ առաջարկներ ունեմ:';
+
+  @override
+  String get faqA12 =>
+      'Եթե ​​մանրամասները ուղարկեք «Կապ հաճախորդների սպասարկման» միջոցով, որը պատրաստվում է ընթացիկ էկրանի ներքևում կամ պաշտոնական էլ.փոստի միջոցով, մենք արագ կստուգենք և կախարդական կերպով կլուծենք այն ձեզ փոխարեն:';
+
+  @override
+  String get myMenuContactUs => 'Կապ մեզ հետ';
+
+  @override
+  String get myMenuContactUsSubtitle => 'Հարցումներ և առաջարկություններ';
+
+  @override
+  String get contactDialogTitle => 'Կապ մեզ հետ';
+
+  @override
+  String get contactTypeBug => 'Սխալների հաշվետվություն';
+
+  @override
+  String get contactTypeFeature => 'Հատկանիշի առաջարկ';
+
+  @override
+  String get contactTypePayment => 'Վճարման խնդիր';
+
+  @override
+  String get contactTypeOther => 'Այլ հարցում';
+
+  @override
+  String get contactHint => 'Խնդրում ենք մանրամասն գրել ձեր հարցումը։';
+
+  @override
+  String get contactSend => 'Ուղարկել';
+
+  @override
+  String get contactCancel => 'Չեղարկել';
+
+  @override
+  String get contactEmptyErrorTitle => 'Ծանուցում';
+
+  @override
+  String get contactEmptyErrorMessage =>
+      'Խնդրում ենք մուտքագրել ձեր հարցման բովանդակությունը:';
 }

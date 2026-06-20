@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Detailní interpretační data ještě nejsou připravena.",
   "cardDetailNoData": "Nejsou k dispozici žádné údaje.",
   "buttonSaveReading": "Uložit tarotové čtení",
-  "readingSavedToDevice": "Uloženo do zařízení."
+  "readingSavedToDevice": "Uloženo do zařízení.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Fáze: {name}]",
+  "growthTabMagicBook": "Vylepšení kouzelné knihy",
+  "growthPhaseCrystal0": "Propastná magie",
+  "growthPhaseCrystal1": "Otevření duchovního oka",
+  "growthPhaseCrystal2": "Moudrost Matky přírody",
+  "growthPhaseCrystal3": "Esence Slunce",
+  "growthPhaseCrystal4": "Nebeská polární záře",
+  "growthPhaseCrystal5": "Božská říše",
+  "growthPhaseCrystal6": "Magie stvoření",
+  "growthPhaseCrystal7": "Dech vesmíru",
+  "growthPhaseCrystal8": "Věčné světlo",
+  "growthPhaseCrystal9": "Čistě bílé probuzení",
+  "growthPhaseCrystal10": "Transcendence",
+  "growthPhaseBook0": "Učednické psací nástroje",
+  "growthPhaseBook1": "Základní kouzelnický slabikář",
+  "growthPhaseBook2": "Gramatika starověkých run",
+  "growthPhaseBook3": "Porozumění elementární magii",
+  "growthPhaseBook4": "Harmonie hvězdného světla",
+  "growthPhaseBook5": "Dešifrování artefaktů",
+  "growthPhaseBook6": "Zakázaná kniha mudrce",
+  "growthPhaseBook7": "Spojení s duchy",
+  "growthPhaseBook8": "Grimoár pravdy",
+  "growthPhaseBook9": "Všemocný záznam",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Úroveň kouzelné knihy {level}",
+  "growthMagicBookKnowledge": "Znalosti: {current} / {max}",
+  "growthCrystalBallMana": "Mana: {current} / {max}",
+  "growthMagicBookExpGained": "Znalosti kouzelné knihy se prohloubily! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "Vylepšit kouzelnou knihu ({amount} prachu)",
+  "devDustCharged": "Vývoj: 1000 magického prachu nabito!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Novinky a upozornění",
+  "menuMailboxTitle": "Poštovní schránka",
+  "menuMailboxSubtitle": "Podívejte se na nové aktualizace a dárky",
+  "mailboxTitle": "Poštovní schránka",
+  "mailboxAllRewardsClaimed": "Všechny odměny nárokovány.",
+  "mailboxClaimAll": "Nárokovat vše",
+  "mailboxEmpty": "Schránka je prázdná.",
+  "mailboxSenderAndDate": "Od: {sender} • {date}",
+  "mailboxClaimed": "Nárokováno",
+  "mailboxClaim": "Tvrzení",
+  "mailboxAttachedRewards": "Přiložené odměny",
+  "mailboxRewardClaimed": "Odměna nárokována.",
+  "mailboxClaimReward": "Nárokujte si odměnu",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Oznamovací centrum",
+  "menuNotificationCenterSubtitle": "Zkontrolujte nejnovější oznámení a oznámení",
+  "authSignupComplete": "Registrace je dokončena. Pro ověření zkontrolujte e-mail, který vám byl zaslán.",
+  "chatInitError": "Došlo k chybě inicializace:\n{error}",
+  "chatError": "Došlo k chybě:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Překlad se nezdařil: {error}",
+  "diarySelectDate": "Vyberte datum",
+  "diarySavedSuccess": "Deník byl úspěšně uložen!",
+  "diarySaveFailed": "Deník se nepodařilo uložit.",
+  "diaryWriteTitle": "Pište Deník",
+  "diaryWriteHint": "Neváhejte napsat své myšlenky nebo pocity z dnešního čtení.",
+  "diarySaveButton": "Uložit do deníku",
+  "myMenuAppVersion": "Verze {version}",
+  "readingSpreadLabelToday": "Dnešní Fortune",
+  "readingSpreadLabelPast1": "1. Minulost",
+  "readingSpreadLabelPresent2": "2. Přítomnost",
+  "readingSpreadLabelFuture3": "3. Budoucnost",
+  "readingSpreadLabelCurrent1": "1. Aktuální",
+  "readingSpreadLabelPast2": "2. Minulost",
+  "readingSpreadLabelFuture3Alt": "3. Budoucnost",
+  "readingSpreadLabelCause4": "4. Příčina",
+  "readingSpreadLabelPotential5": "5. Potenciál",
+  "readingSpreadLabelCurrentSituation1": "1. Současný stav a problém",
+  "readingSpreadLabelCauseOfProblem2": "2. Příčina problému",
+  "readingSpreadLabelAdviceForResolution3": "3. Rady pro řešení",
+  "readingSpreadLabelExpectedResult4": "4. Očekávaný výsledek",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Současná situace",
+  "readingSpreadLabelObstacle2": "2. Překážka",
+  "readingSpreadLabelUnconscious3": "3. Bezvědomí",
+  "readingSpreadLabelPast4": "4. Minulost",
+  "readingSpreadLabelConsciousGoal5": "5. Vědomý cíl",
+  "readingSpreadLabelNearFuture6": "6. Blízká budoucnost",
+  "readingSpreadLabelAttitude7": "7. Postoj",
+  "readingSpreadLabelExternalEnvironment8": "8. Vnější prostředí",
+  "readingSpreadLabelHopesAndFears9": "9. Naděje a obavy",
+  "readingSpreadLabelFinalResult10": "10. Konečný výsledek",
+  "readingSpreadLabelAdvice4": "4. Rada",
+  "readingSpreadLabelSurroundings5": "5. Okolí",
+  "readingSpreadLabelResult6": "6. Výsledek",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} mince",
+  "serviceLoginRequired": "Je vyžadováno přihlášení.",
+  "serviceDefaultNickname": "Bezejmenná čarodějnice",
+  "serviceTarotReadingError": "Při čtení věštění došlo k chybě: {error}",
+  "defaultUserDisplayName": "Uživatel",
+  "listenToInterpretation": "Poslechněte si výklad",
+  "faqQ1": "Mohu číst tarot každý den?",
+  "faqA1": "Ano, je dobré číst tok dneška s lehkým srdcem. Nedoporučuje se však táhnout karty opakovaně na stejnou otázku.",
+  "faqQ2": "Jak získám magický prach?",
+  "faqA2": "Kouzelný prach můžete získat návštěvou aplikace, komunitními aktivitami nebo nákupem v obchodě.",
+  "faqQ3": "Co mám dělat, když je výsledek špatný?",
+  "faqA3": "Tarot není pevná budoucnost, ale rada. Použijte špatný výsledek jako milník, který vás varuje před riziky, kterým je třeba se vyhnout.",
+  "faqQ4": "Jak mohu vidět svá minulá tarotová čtení?",
+  "faqA4": "Uložené záznamy o čtení si můžete kdykoli prohlédnout podle data v záložce 'Denník' (Kalendář) ve spodním menu.",
+  "faqQ5": "Jak mohu sdílet s komunitou?",
+  "faqA5": "Zapněte přepínač „Sdílet do komunity“ na obrazovce podrobností deníku uloženého v deníku, abyste mohli sdílet své čtení s ostatními uživateli.",
+  "faqQ6": "Jak mohu změnit svou přezdívku nebo profil?",
+  "faqA6": "Svou přezdívku a ikonu můžete kdykoli změnit klepnutím na oblast profilu v horní části karty „Moje nabídka“.",
+  "faqQ7": "Kde mohu zapnout a vypnout oznámení?",
+  "faqA7": "Oznámení můžete ovládat z aplikace nastavení vašeho zařízení nebo z nabídky předvoleb, která budou v budoucnu aktualizována.",
+  "faqQ8": "Mohu vidět tarotové deníky jiných lidí?",
+  "faqA8": "Ano, na záložce 'Komunita' ve spodní části si můžete prohlédnout a povzbudit zajímavá tarotová čtení, která zveřejnili jiní mágové (uživatelé).",
+  "faqQ9": "Kde mohu zkontrolovat své prémiové předplatné nebo historii plateb?",
+  "faqA9": "Pokud na záložce [Moje informace] ve spodním menu vyberete 'Historie plateb', můžete si podrobně zkontrolovat historii plateb za mince a získaný magický prach.",
+  "faqQ10": "Chci si význam tarotových karet nastudovat osobně. Jak to mohu udělat?",
+  "faqA10": "Pokud přejdete na záložku [Encyklopedie karet] ve spodním menu, můžete si volně prohlížet svislé a obrácené významy, symboly a podrobné vysvětlení všech 78 karet.",
+  "faqQ11": "Jak mohu smazat svůj účet nebo vybrat?",
+  "faqA11": "Tlačítko 'Smazat účet' najdete v nabídce Nastavení účtu pomocí ikony ozubeného kola v pravém horním rohu karty [Moje informace]. Všechny deníky a data budou po odstoupení trvale smazána.",
+  "faqQ12": "Kam se mám obrátit, pokud narazím na chybu nebo mám návrhy?",
+  "faqA12": "Pokud zašlete podrobnosti prostřednictvím 'Kontaktujte zákaznický servis', který se připravuje ve spodní části aktuální obrazovky nebo prostřednictvím oficiálního e-mailu, rychle to zkontrolujeme a magicky to za vás vyřešíme.",
+  "myMenuContactUs": "Kontaktujte nás",
+  "myMenuContactUsSubtitle": "Dotazy a návrhy",
+  "contactDialogTitle": "Kontaktujte nás",
+  "contactTypeBug": "Zpráva o chybě",
+  "contactTypeFeature": "Návrh funkce",
+  "contactTypePayment": "Problém s platbou",
+  "contactTypeOther": "Další dotaz",
+  "contactHint": "Napište prosím podrobně svůj dotaz.",
+  "contactSend": "Poslat",
+  "contactCancel": "Zrušit",
+  "contactEmptyErrorTitle": "Oznámení",
+  "contactEmptyErrorMessage": "Zadejte prosím obsah vašeho dotazu."
 }

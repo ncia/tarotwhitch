@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Մանրամասն մեկնաբանության տվյալները դեռ պատրաստ չեն:",
   "cardDetailNoData": "Տվյալներ չկան:",
   "buttonSaveReading": "Պահպանեք Tarot ընթերցանությունը",
-  "readingSavedToDevice": "Պահված է սարքում:"
+  "readingSavedToDevice": "Պահված է սարքում:",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Փուլ: {name}]",
+  "growthTabMagicBook": "Կախարդական Գրքի Թարմացում",
+  "growthPhaseCrystal0": "Անդունդային Մոգություն",
+  "growthPhaseCrystal1": "Հոգու Աչքի Բացում",
+  "growthPhaseCrystal2": "Մայր Բնության Իմաստություն",
+  "growthPhaseCrystal3": "Արևի Էություն",
+  "growthPhaseCrystal4": "Երկնային Ավրորա",
+  "growthPhaseCrystal5": "Աստվածային Տիրույթ",
+  "growthPhaseCrystal6": "Արարման Մոգություն",
+  "growthPhaseCrystal7": "Տիեզերքի Շունչ",
+  "growthPhaseCrystal8": "Հավերժական Լույս",
+  "growthPhaseCrystal9": "Մաքուր Սպիտակ Զարթոնք",
+  "growthPhaseCrystal10": "Գերազանցում",
+  "growthPhaseBook0": "Աշակերտի Գրելու Գործիքներ",
+  "growthPhaseBook1": "Հիմնական Մոգական Նախնական Դասագիրք",
+  "growthPhaseBook2": "Հնագույն Ռունի Քերականություն",
+  "growthPhaseBook3": "Տարրական Մոգության Ըմբռնում",
+  "growthPhaseBook4": "Աստղալույսի Հարմոնիա",
+  "growthPhaseBook5": "Արտեֆակտների Վերծանում",
+  "growthPhaseBook6": "Իմաստունի Արգելված Գիրքը",
+  "growthPhaseBook7": "Հաղորդակցություն Հոգիների Հետ",
+  "growthPhaseBook8": "Ճշմարտության Գրիմուար",
+  "growthPhaseBook9": "Ամենակարող Գրառում",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Մոգական գրքի մակարդակ {level}",
+  "growthMagicBookKnowledge": "Գիտելիք: {current} / {max}",
+  "growthCrystalBallMana": "Մանա: {current} / {max}",
+  "growthMagicBookExpGained": "Մոգական գրքի գիտելիքները խորացել են: Փորձ +{amount}",
+  "growthUpgradeMagicBookButton": "Բարելավել մոգական գիրքը ({amount} փոշի)",
+  "devDustCharged": "Dev: 1000 մոգական փոշի լիցքավորված է!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Նորություններ և ծանուցումներ",
+  "menuMailboxTitle": "Փոստարկղ",
+  "menuMailboxSubtitle": "Ստուգեք նոր թարմացումներն ու նվերները",
+  "mailboxTitle": "Փոստարկղ",
+  "mailboxAllRewardsClaimed": "Բոլոր պարգևները պահանջվում են:",
+  "mailboxClaimAll": "Պահանջել բոլորը",
+  "mailboxEmpty": "Փոստարկղը դատարկ է:",
+  "mailboxSenderAndDate": "Ումից՝ {sender} • {date}",
+  "mailboxClaimed": "Պնդեց",
+  "mailboxClaim": "Հայց",
+  "mailboxAttachedRewards": "Կցված պարգևներ",
+  "mailboxRewardClaimed": "Պարգևատրվել է:",
+  "mailboxClaimReward": "Պահանջեք պարգև",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Ծանուցման կենտրոն",
+  "menuNotificationCenterSubtitle": "Ստուգեք վերջին ծանուցումները և հայտարարությունները",
+  "authSignupComplete": "Գրանցումն ավարտված է։ Խնդրում ենք ստուգել ձեզ ուղարկված էլ․ հասցեն՝ ստուգելու համար։",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Translation failed: {error}",
+  "diarySelectDate": "Ընտրեք ամսաթիվ",
+  "diarySavedSuccess": "Օրագիրը հաջողությամբ պահպանվեց:",
+  "diarySaveFailed": "Չհաջողվեց պահել օրագիրը:",
+  "diaryWriteTitle": "Գրել օրագիր",
+  "diaryWriteHint": "Ազատորեն գրեք ձեր մտքերը կամ զգացմունքները այսօրվա ընթերցանության վերաբերյալ:",
+  "diarySaveButton": "Պահել օրագրում",
+  "myMenuAppVersion": "Տարբերակ {version}",
+  "readingSpreadLabelToday": "Այսօրվա Fortune",
+  "readingSpreadLabelPast1": "1. Անցյալ",
+  "readingSpreadLabelPresent2": "2. Ներկա",
+  "readingSpreadLabelFuture3": "3. Ապագա",
+  "readingSpreadLabelCurrent1": "1. Ընթացիկ",
+  "readingSpreadLabelPast2": "2. Անցյալ",
+  "readingSpreadLabelFuture3Alt": "3. Ապագա",
+  "readingSpreadLabelCause4": "4. Պատճառը",
+  "readingSpreadLabelPotential5": "5. Ներուժ",
+  "readingSpreadLabelCurrentSituation1": "1. Ներկա իրավիճակ և խնդիր",
+  "readingSpreadLabelCauseOfProblem2": "2. Խնդրի պատճառ",
+  "readingSpreadLabelAdviceForResolution3": "3. Խորհուրդ լուծման համար",
+  "readingSpreadLabelExpectedResult4": "4. Ակնկալվող արդյունք",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Ներկա իրավիճակը",
+  "readingSpreadLabelObstacle2": "2. Խոչընդոտ",
+  "readingSpreadLabelUnconscious3": "3. Անգիտակից վիճակում",
+  "readingSpreadLabelPast4": "4. Անցյալ",
+  "readingSpreadLabelConsciousGoal5": "5. Գիտակից նպատակ",
+  "readingSpreadLabelNearFuture6": "6. Մոտ ապագա",
+  "readingSpreadLabelAttitude7": "7. Վերաբերմունք",
+  "readingSpreadLabelExternalEnvironment8": "8. Արտաքին միջավայր",
+  "readingSpreadLabelHopesAndFears9": "9. Հույսեր և վախեր",
+  "readingSpreadLabelFinalResult10": "10. Վերջնական արդյունք",
+  "readingSpreadLabelAdvice4": "4. Խորհուրդ",
+  "readingSpreadLabelSurroundings5": "5. Շրջապատը",
+  "readingSpreadLabelResult6": "6. Արդյունք",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Մետաղադրամներ",
+  "serviceLoginRequired": "Մուտք գործելը պարտադիր է:",
+  "serviceDefaultNickname": "Անանուն կախարդ",
+  "serviceTarotReadingError": "Բախտը կարդալիս սխալ է տեղի ունեցել՝ {error}",
+  "defaultUserDisplayName": "Օգտատեր",
+  "listenToInterpretation": "Լսեք մեկնաբանություն",
+  "faqQ1": "Կարո՞ղ եմ ամեն օր կարդալ tarot:",
+  "faqA1": "Այո՛, լավ է թեթեւ սրտով կարդալ այսօրվա հոսքը։ Այնուամենայնիվ, խորհուրդ չի տրվում նույն հարցի համար բազմիցս նկարել քարտերը:",
+  "faqQ2": "Ինչպե՞ս կարող եմ կախարդական փոշի ստանալ:",
+  "faqA2": "Դուք կարող եք կախարդական փոշի ստանալ հավելվածների հաճախումների, համայնքային գործունեության կամ խանութից գնումների միջոցով:",
+  "faqQ3": "Ի՞նչ պետք է անեմ, եթե արդյունքը վատ է:",
+  "faqA3": "Տարոտը ֆիքսված ապագա չէ, այլ խորհուրդ։ Օգտագործեք վատ արդյունքը որպես ուղենիշ, որպեսզի զգուշացնեք ձեզ խուսափելու ռիսկերի մասին:",
+  "faqQ4": "Ինչպե՞ս կարող եմ տեսնել իմ անցած tarot ընթերցումները:",
+  "faqA4": "Դուք ցանկացած պահի կարող եք դիտել ձեր պահված ընթերցանության գրառումներն ըստ ամսաթվի «Օրագիր» (Օրացույց) ներդիրում՝ ներքևի ընտրացանկում:",
+  "faqQ5": "Ինչպե՞ս կարող եմ կիսվել համայնքի հետ:",
+  "faqA5": "Օրագրում պահված օրագրի մանրամասների էկրանին միացրեք «Կիսվել համայնքին» անջատիչը՝ ձեր ընթերցումները այլ օգտատերերի հետ կիսելու համար:",
+  "faqQ6": "Ինչպե՞ս կարող եմ փոխել իմ մականունը կամ պրոֆիլը:",
+  "faqA6": "Դուք ցանկացած ժամանակ կարող եք փոխել ձեր մականունը և պատկերակը` հպելով «Իմ ընտրացանկը» ներդիրի վերևի պրոֆիլի տարածքին:",
+  "faqQ7": "Որտե՞ղ կարող եմ միացնել և անջատել ծանուցումները:",
+  "faqA7": "Դուք կարող եք կառավարել ծանուցումները ձեր սարքի կարգավորումների հավելվածից կամ ապագայում թարմացվող նախընտրությունների ցանկից:",
+  "faqQ8": "Կարո՞ղ եմ տեսնել այլ մարդկանց tarot օրագրերը:",
+  "faqA8": "Այո, դուք կարող եք դիտել և ուրախացնել հետաքրքիր Tarot-ի ընթերցումները, որոնք այլ կախարդներ (օգտատերեր) հրապարակել են ներքևի «Համայնք» ներդիրում:",
+  "faqQ9": "Որտեղ կարող եմ ստուգել իմ պրեմիում բաժանորդագրությունների կամ վճարումների պատմությունը:",
+  "faqA9": "Եթե ​​ներքևի ընտրացանկի [Իմ տեղեկությունները] ներդիրում ընտրեք «Վճարման պատմություն», կարող եք մանրամասնորեն ստուգել ձեր մետաղադրամի վճարումների պատմությունը և ձեռք բերված կախարդական փոշին:",
+  "faqQ10": "Ես ուզում եմ անձամբ ուսումնասիրել Tarot քարտերի իմաստը: Ինչպե՞ս կարող եմ դա անել:",
+  "faqA10": "Եթե ​​ներքևի ընտրացանկում մտնեք [Քարտային հանրագիտարան] ներդիր, կարող եք ազատորեն դիտել բոլոր 78 քարտերի ուղիղ և հակադարձ իմաստները, խորհրդանիշները և խորը բացատրությունները:",
+  "faqQ11": "Ինչպե՞ս կարող եմ ջնջել իմ հաշիվը կամ հանել:",
+  "faqA11": "Դուք կարող եք գտնել «Ջնջել հաշիվը» կոճակը՝ անցնելով «Հաշվի կարգավորումների» ընտրացանկ՝ [Իմ տեղեկությունները] ներդիրի վերևի աջ մասում գտնվող հանդերձի պատկերակի միջոցով: Բոլոր օրագրերը և տվյալները ընդմիշտ կջնջվեն դուրս գալուց հետո:",
+  "faqQ12": "Որտե՞ղ կապվեմ, եթե հանդիպեմ սխալի կամ առաջարկներ ունեմ:",
+  "faqA12": "Եթե ​​մանրամասները ուղարկեք «Կապ հաճախորդների սպասարկման» միջոցով, որը պատրաստվում է ընթացիկ էկրանի ներքևում կամ պաշտոնական էլ.փոստի միջոցով, մենք արագ կստուգենք և կախարդական կերպով կլուծենք այն ձեզ փոխարեն:",
+  "myMenuContactUs": "Կապ մեզ հետ",
+  "myMenuContactUsSubtitle": "Հարցումներ և առաջարկություններ",
+  "contactDialogTitle": "Կապ մեզ հետ",
+  "contactTypeBug": "Սխալների հաշվետվություն",
+  "contactTypeFeature": "Հատկանիշի առաջարկ",
+  "contactTypePayment": "Վճարման խնդիր",
+  "contactTypeOther": "Այլ հարցում",
+  "contactHint": "Խնդրում ենք մանրամասն գրել ձեր հարցումը։",
+  "contactSend": "Ուղարկել",
+  "contactCancel": "Չեղարկել",
+  "contactEmptyErrorTitle": "Ծանուցում",
+  "contactEmptyErrorMessage": "Խնդրում ենք մուտքագրել ձեր հարցման բովանդակությունը:"
 }

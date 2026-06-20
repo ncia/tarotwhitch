@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Data interpretasi rinci belum siap.",
   "cardDetailNoData": "Tidak ada data yang tersedia.",
   "buttonSaveReading": "Simpan Bacaan Tarot",
-  "readingSavedToDevice": "Disimpan ke perangkat."
+  "readingSavedToDevice": "Disimpan ke perangkat.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[Fase {level}: {name}]",
+  "growthTabMagicBook": "Peningkatan Buku Sihir",
+  "growthPhaseCrystal0": "Sihir Abyss",
+  "growthPhaseCrystal1": "Membuka Mata Roh",
+  "growthPhaseCrystal2": "Kebijaksanaan Ibu Pertiwi",
+  "growthPhaseCrystal3": "Esensi Matahari",
+  "growthPhaseCrystal4": "Aurora Langit",
+  "growthPhaseCrystal5": "Alam Ilahi",
+  "growthPhaseCrystal6": "Sihir Penciptaan",
+  "growthPhaseCrystal7": "Napas Semesta",
+  "growthPhaseCrystal8": "Cahaya Abadi",
+  "growthPhaseCrystal9": "Kebangkitan Putih Murni",
+  "growthPhaseCrystal10": "Transendensi",
+  "growthPhaseBook0": "Alat Tulis Magang",
+  "growthPhaseBook1": "Dasar-dasar Sihir",
+  "growthPhaseBook2": "Tata Bahasa Rune Kuno",
+  "growthPhaseBook3": "Memahami Sihir Elemen",
+  "growthPhaseBook4": "Harmoni Cahaya Bintang",
+  "growthPhaseBook5": "Menguraikan Artefak",
+  "growthPhaseBook6": "Buku Terlarang Sang Bijak",
+  "growthPhaseBook7": "Komuni dengan Roh",
+  "growthPhaseBook8": "Grimoire Kebenaran",
+  "growthPhaseBook9": "Catatan Mahakuasa",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Level Buku Sihir {level}",
+  "growthMagicBookKnowledge": "Pengetahuan: {current} / {max}",
+  "growthCrystalBallMana": "Mana: {current} / {max}",
+  "growthMagicBookExpGained": "Pengetahuan buku sihir semakin mendalam! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "Tingkatkan Buku Sihir ({amount} Debu)",
+  "devDustCharged": "Dev: 1000 Debu Sihir terisi!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Berita & Pemberitahuan",
+  "menuMailboxTitle": "Kotak surat",
+  "menuMailboxSubtitle": "Periksa pembaruan dan hadiah baru",
+  "mailboxTitle": "Kotak surat",
+  "mailboxAllRewardsClaimed": "Semua hadiah diklaim.",
+  "mailboxClaimAll": "Klaim Semua",
+  "mailboxEmpty": "Kotak surat kosong.",
+  "mailboxSenderAndDate": "Dari: {sender} • {date}",
+  "mailboxClaimed": "Diklaim",
+  "mailboxClaim": "Mengeklaim",
+  "mailboxAttachedRewards": "Hadiah Terlampir",
+  "mailboxRewardClaimed": "Hadiah diklaim.",
+  "mailboxClaimReward": "Klaim Hadiah",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Pusat Pemberitahuan",
+  "menuNotificationCenterSubtitle": "Periksa pemberitahuan dan pengumuman terbaru",
+  "authSignupComplete": "Pendaftaran selesai. Silakan periksa email yang dikirimkan kepada Anda untuk memverifikasi.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Terjemahan gagal: {error}",
+  "diarySelectDate": "Pilih tanggal",
+  "diarySavedSuccess": "Buku harian berhasil disimpan!",
+  "diarySaveFailed": "Gagal menyimpan buku harian.",
+  "diaryWriteTitle": "Tulis Buku Harian",
+  "diaryWriteHint": "Jangan ragu untuk menuliskan pemikiran atau perasaan Anda tentang bacaan hari ini.",
+  "diarySaveButton": "Simpan ke Buku Harian",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "Keberuntungan hari ini",
+  "readingSpreadLabelPast1": "1. Masa lalu",
+  "readingSpreadLabelPresent2": "2. Sekarang",
+  "readingSpreadLabelFuture3": "3. Masa Depan",
+  "readingSpreadLabelCurrent1": "1. Saat ini",
+  "readingSpreadLabelPast2": "2. Masa lalu",
+  "readingSpreadLabelFuture3Alt": "3. Masa Depan",
+  "readingSpreadLabelCause4": "4. Penyebab",
+  "readingSpreadLabelPotential5": "5. Potensi",
+  "readingSpreadLabelCurrentSituation1": "1. Situasi dan permasalahan saat ini",
+  "readingSpreadLabelCauseOfProblem2": "2. Penyebab masalah",
+  "readingSpreadLabelAdviceForResolution3": "3. Saran untuk resolusi",
+  "readingSpreadLabelExpectedResult4": "4. Hasil yang diharapkan",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Situasi saat ini",
+  "readingSpreadLabelObstacle2": "2. Hambatan",
+  "readingSpreadLabelUnconscious3": "3. Tidak sadar",
+  "readingSpreadLabelPast4": "4. Masa lalu",
+  "readingSpreadLabelConsciousGoal5": "5. Tujuan Sadar",
+  "readingSpreadLabelNearFuture6": "6. Masa Depan Dekat",
+  "readingSpreadLabelAttitude7": "7. Sikap",
+  "readingSpreadLabelExternalEnvironment8": "8. Lingkungan Eksternal",
+  "readingSpreadLabelHopesAndFears9": "9. Harapan dan Ketakutan",
+  "readingSpreadLabelFinalResult10": "10. Hasil Akhir",
+  "readingSpreadLabelAdvice4": "4. Saran",
+  "readingSpreadLabelSurroundings5": "5. Lingkungan sekitar",
+  "readingSpreadLabelResult6": "6. Hasil",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Coins",
+  "serviceLoginRequired": "Diperlukan login.",
+  "serviceDefaultNickname": "Penyihir Tanpa Nama",
+  "serviceTarotReadingError": "Terjadi kesalahan saat membaca ramalan: {error}",
+  "defaultUserDisplayName": "Pengguna",
+  "listenToInterpretation": "Dengarkan Interpretasi",
+  "faqQ1": "Bisakah saya membaca tarot setiap hari?",
+  "faqA1": "Ya, alangkah baiknya membaca alur hari ini dengan hati yang ringan. Namun, tidak disarankan untuk terus menggambar kartu berulang kali untuk soal yang sama.",
+  "faqQ2": "Bagaimana cara mendapatkan debu ajaib?",
+  "faqA2": "Anda bisa mendapatkan debu ajaib melalui kehadiran aplikasi, aktivitas komunitas, atau pembelian di toko.",
+  "faqQ3": "Apa yang harus saya lakukan jika hasilnya buruk?",
+  "faqA3": "Tarot bukanlah masa depan yang pasti, tapi sebuah nasehat. Gunakan hasil buruk sebagai tonggak sejarah untuk memperingatkan Anda tentang risiko yang harus dihindari.",
+  "faqQ4": "Bagaimana saya bisa melihat pembacaan tarot saya sebelumnya?",
+  "faqA4": "Anda dapat meninjau catatan bacaan yang disimpan berdasarkan tanggal di tab 'Diary' (Kalender) di menu bawah kapan saja.",
+  "faqQ5": "Bagaimana cara saya berbagi ke komunitas?",
+  "faqA5": "Aktifkan tombol 'Bagikan ke Komunitas' pada layar detail buku harian yang disimpan dalam buku harian untuk membagikan bacaan Anda dengan pengguna lain.",
+  "faqQ6": "Bagaimana cara mengubah nama panggilan atau profil saya?",
+  "faqA6": "Anda dapat mengubah nama panggilan dan ikon kapan saja dengan menyentuh area profil di bagian atas tab 'Menu Saya'.",
+  "faqQ7": "Di mana saya dapat mengaktifkan dan menonaktifkan notifikasi?",
+  "faqA7": "Anda dapat mengontrol notifikasi dari aplikasi pengaturan perangkat Anda, atau dari menu preferensi untuk diperbarui di masa mendatang.",
+  "faqQ8": "Bisakah saya melihat buku harian tarot orang lain?",
+  "faqA8": "Ya, Anda dapat melihat dan mendukung pembacaan tarot menarik yang telah dipublikasikan oleh penyihir lain (pengguna) di tab 'Komunitas' di bagian bawah.",
+  "faqQ9": "Di mana saya dapat memeriksa langganan premium atau riwayat pembayaran saya?",
+  "faqA9": "Jika Anda memilih 'Riwayat Pembayaran' di tab [Info Saya] di menu bawah, Anda dapat memeriksa riwayat pembayaran koin Anda dan memperoleh debu ajaib secara detail.",
+  "faqQ10": "Saya ingin mempelajari arti kartu Tarot secara pribadi. Bagaimana saya bisa melakukan itu?",
+  "faqA10": "Jika Anda membuka tab [Ensiklopedia Kartu] di menu bawah, Anda dapat dengan bebas melihat makna tegak dan terbalik, simbol, dan penjelasan mendalam dari seluruh 78 kartu.",
+  "faqQ11": "Bagaimana cara menghapus akun saya atau menariknya?",
+  "faqA11": "Anda dapat menemukan tombol 'Hapus Akun' dengan masuk ke menu Pengaturan Akun melalui ikon roda gigi di kanan atas tab [Info Saya]. Semua buku harian dan data akan dihapus secara permanen setelah penarikan.",
+  "faqQ12": "Di mana saya dapat menghubungi jika saya mengalami kesalahan atau mempunyai saran?",
+  "faqA12": "Jika Anda mengirimkan detailnya melalui 'Hubungi Layanan Pelanggan' yang disiapkan di bagian bawah layar saat ini atau melalui email resmi, kami akan segera memeriksa dan secara ajaib menyelesaikannya untuk Anda.",
+  "myMenuContactUs": "Hubungi kami",
+  "myMenuContactUsSubtitle": "Pertanyaan dan saran",
+  "contactDialogTitle": "Hubungi kami",
+  "contactTypeBug": "Laporan Bug",
+  "contactTypeFeature": "Saran Fitur",
+  "contactTypePayment": "Masalah Pembayaran",
+  "contactTypeOther": "Pertanyaan Lainnya",
+  "contactHint": "Silakan tulis pertanyaan Anda secara detail.",
+  "contactSend": "Mengirim",
+  "contactCancel": "Membatalkan",
+  "contactEmptyErrorTitle": "Melihat",
+  "contactEmptyErrorMessage": "Silakan masukkan konten pertanyaan Anda."
 }

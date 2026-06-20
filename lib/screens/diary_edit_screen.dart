@@ -71,12 +71,12 @@ class _DiaryEditScreenState extends State<DiaryEditScreen> {
 
       await DiaryService.instance.saveDiary(diary);
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('일기가 저장되었습니다!')));
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(AppLocalizations.of(context)!.diarySavedSuccess)));
         Navigator.pop(context);
       }
     } catch (e) {
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('저장에 실패했습니다.')));
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(AppLocalizations.of(context)!.diarySaveFailed)));
       }
     } finally {
       if (mounted) setState(() => _isSaving = false);
@@ -87,7 +87,7 @@ class _DiaryEditScreenState extends State<DiaryEditScreen> {
     return Column(
       children: List.generate(widget.cards.length, (index) {
         final card = widget.cards[index];
-        final label = widget.positionLabels.length > index ? widget.positionLabels[index] : '포지션 $index';
+        final label = widget.positionLabels.length > index ? widget.positionLabels[index] : AppLocalizations.of(context)!.chatPositionLabel(index + 1);
         final meaning = widget.cardMeanings.length > index ? widget.cardMeanings[index] : '';
         final isRev = widget.cardReversals.length > index ? widget.cardReversals[index] : false;
         final revText = isRev ? AppLocalizations.of(context)!.spreadReversed : AppLocalizations.of(context)!.spreadUpright;
@@ -152,7 +152,7 @@ class _DiaryEditScreenState extends State<DiaryEditScreen> {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
-        title: const Text('일기 쓰기', style: TextStyle(color: Colors.white)),
+        title: Text(AppLocalizations.of(context)!.diaryWriteTitle, style: const TextStyle(color: Colors.white)),
         iconTheme: const IconThemeData(color: Colors.white),
       ),
       body: GradientBackground(
@@ -175,7 +175,7 @@ class _DiaryEditScreenState extends State<DiaryEditScreen> {
                         style: const TextStyle(color: Colors.white),
                         maxLines: 5,
                         decoration: InputDecoration(
-                          hintText: '오늘의 점괘에 대한 나의 생각이나 느낌을 자유롭게 적어보세요.',
+                          hintText: AppLocalizations.of(context)!.diaryWriteHint,
                           hintStyle: const TextStyle(color: Colors.white30),
                           border: InputBorder.none,
                           suffixIcon: IconButton(
@@ -212,7 +212,7 @@ class _DiaryEditScreenState extends State<DiaryEditScreen> {
                       minimumSize: const Size.fromHeight(50),
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                     ),
-                    child: const Text('일기에 저장하기', style: TextStyle(fontSize: 16)),
+                    child: Text(AppLocalizations.of(context)!.diarySaveButton, style: const TextStyle(fontSize: 16)),
                   ),
               ],
             ),

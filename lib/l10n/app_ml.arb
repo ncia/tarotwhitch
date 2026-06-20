@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "വിശദമായ വ്യാഖ്യാന ഡാറ്റ ഇതുവരെ തയ്യാറായിട്ടില്ല.",
   "cardDetailNoData": "വിവരങ്ങളൊന്നും ലഭ്യമല്ല.",
   "buttonSaveReading": "ടാരറ്റ് വായന സംരക്ഷിക്കുക",
-  "readingSavedToDevice": "ഉപകരണത്തിൽ സംരക്ഷിച്ചു."
+  "readingSavedToDevice": "ഉപകരണത്തിൽ സംരക്ഷിച്ചു.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} ഘട്ടം: {name}]",
+  "growthTabMagicBook": "മാന്ത്രിക പുസ്തക നവീകരണം",
+  "growthPhaseCrystal0": "അഗാധമായ മാന്ത്രികത",
+  "growthPhaseCrystal1": "ആത്മാവിന്റെ കണ്ണ് തുറക്കുന്നു",
+  "growthPhaseCrystal2": "പ്രകൃതി മാതാവിന്റെ ജ്ഞാനം",
+  "growthPhaseCrystal3": "സൂര്യന്റെ സാരം",
+  "growthPhaseCrystal4": "സ്വർഗ്ഗീയ അറോറ",
+  "growthPhaseCrystal5": "ദിവ്യ മണ്ഡലം",
+  "growthPhaseCrystal6": "സൃഷ്ടിയുടെ മാന്ത്രികത",
+  "growthPhaseCrystal7": "പ്രപഞ്ചത്തിന്റെ ശ്വാസം",
+  "growthPhaseCrystal8": "നിത്യപ്രകാശം",
+  "growthPhaseCrystal9": "ശുദ്ധമായ വെള്ള ഉണർവ്വ്",
+  "growthPhaseCrystal10": "അതിശ്രേഷ്ഠത",
+  "growthPhaseBook0": "അപ്രന്റീസിന്റെ എഴുത്ത് ഉപകരണങ്ങൾ",
+  "growthPhaseBook1": "അടിസ്ഥാന മാന്ത്രിക പ്രൈമർ",
+  "growthPhaseBook2": "പുരാതന റൂൺ വ്യാകരണം",
+  "growthPhaseBook3": "മൂലക മാന്ത്രികത മനസ്സിലാക്കുന്നു",
+  "growthPhaseBook4": "നക്ഷത്രപ്രകാശത്തിന്റെ ഐക്യം",
+  "growthPhaseBook5": "പുരാവസ്തു വ്യാഖ്യാനം",
+  "growthPhaseBook6": "മുനിയുടെ നിരോധിത പുസ്തകം",
+  "growthPhaseBook7": "ആത്മാക്കളുമായുള്ള സംസർഗ്ഗം",
+  "growthPhaseBook8": "സത്യത്തിന്റെ ഗ്രിമോയർ",
+  "growthPhaseBook9": "സർവ്വശക്തമായ രേഖ",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "മാന്ത്രിക പുസ്തക നില {level}",
+  "growthMagicBookKnowledge": "അറിവ്: {current} / {max}",
+  "growthCrystalBallMana": "മാന: {current} / {max}",
+  "growthMagicBookExpGained": "മാന്ത്രിക പുസ്തകത്തിന്റെ അറിവ് വർദ്ധിച്ചു! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "മാന്ത്രിക പുസ്തകം നവീകരിക്കുക ({amount} പൊടി)",
+  "devDustCharged": "ഡെവ്: 1000 മാന്ത്രിക പൊടി ചാർജ്ജ് ചെയ്തു!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "വാർത്തകളും അറിയിപ്പുകളും",
+  "menuMailboxTitle": "മെയിൽബോക്സ്",
+  "menuMailboxSubtitle": "പുതിയ അപ്ഡേറ്റുകളും സമ്മാനങ്ങളും പരിശോധിക്കുക",
+  "mailboxTitle": "മെയിൽബോക്സ്",
+  "mailboxAllRewardsClaimed": "എല്ലാ റിവാർഡുകളും ക്ലെയിം ചെയ്തു.",
+  "mailboxClaimAll": "എല്ലാം ക്ലെയിം ചെയ്യുക",
+  "mailboxEmpty": "മെയിൽബോക്സ് ശൂന്യമാണ്.",
+  "mailboxSenderAndDate": "അയച്ചത്: {sender} • {date}",
+  "mailboxClaimed": "അവകാശപ്പെട്ടു",
+  "mailboxClaim": "അവകാശം",
+  "mailboxAttachedRewards": "അറ്റാച്ച് ചെയ്ത റിവാർഡുകൾ",
+  "mailboxRewardClaimed": "റിവാർഡ് അവകാശപ്പെട്ടു.",
+  "mailboxClaimReward": "റിവാർഡ് ക്ലെയിം ചെയ്യുക",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "അറിയിപ്പ് കേന്ദ്രം",
+  "menuNotificationCenterSubtitle": "ഏറ്റവും പുതിയ അറിയിപ്പുകളും അറിയിപ്പുകളും പരിശോധിക്കുക",
+  "authSignupComplete": "സൈൻ അപ്പ് പൂർത്തിയായി. സ്ഥിരീകരിക്കാൻ നിങ്ങൾക്ക് അയച്ച ഇമെയിൽ പരിശോധിക്കുക.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "വിവർത്തനം പരാജയപ്പെട്ടു: {error}",
+  "diarySelectDate": "ഒരു തീയതി തിരഞ്ഞെടുക്കുക",
+  "diarySavedSuccess": "ഡയറി സംരക്ഷിച്ചു!",
+  "diarySaveFailed": "ഡയറി സംരക്ഷിക്കുന്നതിൽ പരാജയപ്പെട്ടു.",
+  "diaryWriteTitle": "ഡയറി എഴുതുക",
+  "diaryWriteHint": "ഇന്നത്തെ വായനയെക്കുറിച്ചുള്ള നിങ്ങളുടെ ചിന്തകളും വികാരങ്ങളും എഴുതാൻ മടിക്കേണ്ടതില്ല.",
+  "diarySaveButton": "ഡയറിയിൽ സംരക്ഷിക്കുക",
+  "myMenuAppVersion": "പതിപ്പ് {version}",
+  "readingSpreadLabelToday": "ഇന്നത്തെ ഭാഗ്യം",
+  "readingSpreadLabelPast1": "1. കഴിഞ്ഞത്",
+  "readingSpreadLabelPresent2": "2. അവതരിപ്പിക്കുക",
+  "readingSpreadLabelFuture3": "3. ഭാവി",
+  "readingSpreadLabelCurrent1": "1. നിലവിലെ",
+  "readingSpreadLabelPast2": "2. കഴിഞ്ഞത്",
+  "readingSpreadLabelFuture3Alt": "3. ഭാവി",
+  "readingSpreadLabelCause4": "4. കാരണം",
+  "readingSpreadLabelPotential5": "5. സാധ്യത",
+  "readingSpreadLabelCurrentSituation1": "1. നിലവിലെ സാഹചര്യവും പ്രശ്നവും",
+  "readingSpreadLabelCauseOfProblem2": "2. പ്രശ്നത്തിൻ്റെ കാരണം",
+  "readingSpreadLabelAdviceForResolution3": "3. പരിഹാരത്തിനുള്ള ഉപദേശം",
+  "readingSpreadLabelExpectedResult4": "4. പ്രതീക്ഷിച്ച ഫലം",
+  "readingSpreadLabelCurrentSituation1Alt": "1. നിലവിലെ സാഹചര്യം",
+  "readingSpreadLabelObstacle2": "2. തടസ്സം",
+  "readingSpreadLabelUnconscious3": "3. അബോധാവസ്ഥ",
+  "readingSpreadLabelPast4": "4. കഴിഞ്ഞത്",
+  "readingSpreadLabelConsciousGoal5": "5. ബോധപൂർവമായ ലക്ഷ്യം",
+  "readingSpreadLabelNearFuture6": "6. സമീപ ഭാവി",
+  "readingSpreadLabelAttitude7": "7. മനോഭാവം",
+  "readingSpreadLabelExternalEnvironment8": "8. ബാഹ്യ പരിസ്ഥിതി",
+  "readingSpreadLabelHopesAndFears9": "9. പ്രതീക്ഷകളും ഭയവും",
+  "readingSpreadLabelFinalResult10": "10. അന്തിമ ഫലം",
+  "readingSpreadLabelAdvice4": "4. ഉപദേശം",
+  "readingSpreadLabelSurroundings5": "5. ചുറ്റുപാടുകൾ",
+  "readingSpreadLabelResult6": "6. ഫലം",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} നാണയങ്ങൾ",
+  "serviceLoginRequired": "ലോഗിൻ ചെയ്യേണ്ടതുണ്ട്.",
+  "serviceDefaultNickname": "പേരില്ലാത്ത മന്ത്രവാദിനി",
+  "serviceTarotReadingError": "ഫോർച്യൂൺ വായിക്കുമ്പോൾ ഒരു പിശക് സംഭവിച്ചു: {error}",
+  "defaultUserDisplayName": "ഉപയോക്താവ്",
+  "listenToInterpretation": "വ്യാഖ്യാനം ശ്രദ്ധിക്കുക",
+  "faqQ1": "എനിക്ക് എല്ലാ ദിവസവും ടാരറ്റ് വായിക്കാൻ കഴിയുമോ?",
+  "faqA1": "അതെ, ഇന്നിൻ്റെ ഒഴുക്ക് ഹൃദയം തുറന്ന് വായിക്കുന്നത് നല്ലതാണ്. എന്നിരുന്നാലും, ഒരേ ചോദ്യത്തിന് ആവർത്തിച്ച് കാർഡുകൾ വരയ്ക്കുന്നത് ശുപാർശ ചെയ്യുന്നില്ല.",
+  "faqQ2": "എനിക്ക് എങ്ങനെ മാന്ത്രിക പൊടി ലഭിക്കും?",
+  "faqA2": "ആപ്പ് ഹാജർ, കമ്മ്യൂണിറ്റി ആക്റ്റിവിറ്റികൾ, അല്ലെങ്കിൽ ഷോപ്പിൽ നിന്ന് വാങ്ങൽ എന്നിവയിലൂടെ നിങ്ങൾക്ക് മാന്ത്രിക പൊടി ലഭിക്കും.",
+  "faqQ3": "ഫലം മോശമാണെങ്കിൽ ഞാൻ എന്തുചെയ്യണം?",
+  "faqA3": "ടാരറ്റ് ഒരു നിശ്ചിത ഭാവിയല്ല, മറിച്ച് ഒരു ഉപദേശമാണ്. ഒഴിവാക്കേണ്ട അപകടസാധ്യതകളെക്കുറിച്ച് മുന്നറിയിപ്പ് നൽകുന്നതിന് ഒരു നാഴികക്കല്ലായി ഒരു മോശം ഫലം ഉപയോഗിക്കുക.",
+  "faqQ4": "എൻ്റെ മുൻകാല ടാരറ്റ് റീഡിംഗുകൾ എങ്ങനെ കാണാനാകും?",
+  "faqA4": "എപ്പോൾ വേണമെങ്കിലും ചുവടെയുള്ള മെനുവിലെ 'ഡയറി' (കലണ്ടർ) ടാബിൽ നിങ്ങളുടെ സംരക്ഷിച്ച വായനാ റെക്കോർഡുകൾ തീയതി പ്രകാരം അവലോകനം ചെയ്യാം.",
+  "faqQ5": "ഞാൻ എങ്ങനെയാണ് കമ്മ്യൂണിറ്റിയിൽ പങ്കിടുക?",
+  "faqA5": "നിങ്ങളുടെ വായന മറ്റ് ഉപയോക്താക്കളുമായി പങ്കിടുന്നതിന് ഡയറിയിൽ സംരക്ഷിച്ചിരിക്കുന്ന ഡയറി വിശദാംശ സ്‌ക്രീനിലെ 'കമ്മ്യൂണിറ്റിയിലേക്ക് പങ്കിടുക' സ്വിച്ച് ഓണാക്കുക.",
+  "faqQ6": "എനിക്ക് എങ്ങനെ എൻ്റെ വിളിപ്പേരോ പ്രൊഫൈലോ മാറ്റാനാകും?",
+  "faqA6": "'എൻ്റെ മെനു' ടാബിൻ്റെ മുകളിലുള്ള പ്രൊഫൈൽ ഏരിയയിൽ സ്‌പർശിച്ചുകൊണ്ട് നിങ്ങൾക്ക് എപ്പോൾ വേണമെങ്കിലും വിളിപ്പേരും ഐക്കണും മാറ്റാം.",
+  "faqQ7": "എനിക്ക് എവിടെ അറിയിപ്പുകൾ ഓണാക്കാനും ഓഫാക്കാനും കഴിയും?",
+  "faqA7": "നിങ്ങളുടെ ഉപകരണത്തിൻ്റെ ക്രമീകരണ ആപ്പിൽ നിന്നോ ഭാവിയിൽ അപ്‌ഡേറ്റ് ചെയ്യേണ്ട മുൻഗണനാ മെനുവിൽ നിന്നോ നിങ്ങൾക്ക് അറിയിപ്പുകൾ നിയന്ത്രിക്കാനാകും.",
+  "faqQ8": "എനിക്ക് മറ്റുള്ളവരുടെ ടാരറ്റ് ഡയറികൾ കാണാൻ കഴിയുമോ?",
+  "faqA8": "അതെ, ചുവടെയുള്ള 'കമ്മ്യൂണിറ്റി' ടാബിൽ മറ്റ് മാന്ത്രികന്മാർ (ഉപയോക്താക്കൾ) പരസ്യമാക്കിയ രസകരമായ ടാരറ്റ് റീഡിംഗുകൾ നിങ്ങൾക്ക് കാണാനും സന്തോഷിപ്പിക്കാനും കഴിയും.",
+  "faqQ9": "എൻ്റെ പ്രീമിയം സബ്‌സ്‌ക്രിപ്‌ഷനോ പേയ്‌മെൻ്റ് ചരിത്രമോ എനിക്ക് എവിടെ പരിശോധിക്കാനാകും?",
+  "faqA9": "ചുവടെയുള്ള മെനുവിലെ [എൻ്റെ വിവരം] ടാബിൽ നിങ്ങൾ 'പേയ്‌മെൻ്റ് ചരിത്രം' തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ, നിങ്ങളുടെ കോയിൻ പേയ്‌മെൻ്റ് ചരിത്രവും നേടിയെടുത്ത മാജിക് പൊടിയും വിശദമായി പരിശോധിക്കാം.",
+  "faqQ10": "ടാരറ്റ് കാർഡുകളുടെ അർത്ഥം വ്യക്തിപരമായി പഠിക്കാൻ ഞാൻ ആഗ്രഹിക്കുന്നു. എനിക്കത് എങ്ങനെ ചെയ്യാം?",
+  "faqA10": "ചുവടെയുള്ള മെനുവിലെ [കാർഡ് എൻസൈക്ലോപീഡിയ] ടാബിലേക്ക് നിങ്ങൾ പോയാൽ, എല്ലാ 78 കാർഡുകളുടെയും നേരായതും വിപരീതവുമായ അർത്ഥങ്ങളും ചിഹ്നങ്ങളും ആഴത്തിലുള്ള വിശദീകരണങ്ങളും നിങ്ങൾക്ക് സ്വതന്ത്രമായി കാണാൻ കഴിയും.",
+  "faqQ11": "എനിക്ക് എങ്ങനെ എൻ്റെ അക്കൗണ്ട് ഡിലീറ്റ് ചെയ്യാം അല്ലെങ്കിൽ പിൻവലിക്കാം?",
+  "faqA11": "[എൻ്റെ വിവരം] ടാബിൻ്റെ മുകളിൽ വലതുവശത്തുള്ള ഗിയർ ഐക്കൺ വഴി അക്കൗണ്ട് ക്രമീകരണ മെനുവിലേക്ക് പോയി 'അക്കൗണ്ട് ഇല്ലാതാക്കുക' ബട്ടൺ നിങ്ങൾക്ക് കണ്ടെത്താനാകും. പിൻവലിക്കുമ്പോൾ എല്ലാ ഡയറികളും ഡാറ്റയും ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.",
+  "faqQ12": "എനിക്ക് ഒരു പിശക് നേരിടുകയോ നിർദ്ദേശങ്ങൾ ഉണ്ടെങ്കിലോ ഞാൻ എവിടെയാണ് ബന്ധപ്പെടേണ്ടത്?",
+  "faqA12": "നിലവിലെ സ്‌ക്രീനിൻ്റെ ചുവടെ തയ്യാറാക്കിക്കൊണ്ടിരിക്കുന്ന 'കോൺടാക്റ്റ് കസ്റ്റമർ സർവീസ്' വഴിയോ ഔദ്യോഗിക ഇമെയിൽ വഴിയോ നിങ്ങൾ വിശദാംശങ്ങൾ അയയ്‌ക്കുകയാണെങ്കിൽ, ഞങ്ങൾ അത് നിങ്ങൾക്കായി വേഗത്തിൽ പരിശോധിച്ച് മാന്ത്രികമായി പരിഹരിക്കും.",
+  "myMenuContactUs": "ഞങ്ങളെ സമീപിക്കുക",
+  "myMenuContactUsSubtitle": "അന്വേഷണങ്ങളും നിർദ്ദേശങ്ങളും",
+  "contactDialogTitle": "ഞങ്ങളെ സമീപിക്കുക",
+  "contactTypeBug": "ബഗ് റിപ്പോർട്ട്",
+  "contactTypeFeature": "ഫീച്ചർ നിർദ്ദേശം",
+  "contactTypePayment": "പേയ്മെൻ്റ് പ്രശ്നം",
+  "contactTypeOther": "മറ്റ് അന്വേഷണം",
+  "contactHint": "നിങ്ങളുടെ അന്വേഷണം വിശദമായി എഴുതുക.",
+  "contactSend": "അയക്കുക",
+  "contactCancel": "റദ്ദാക്കുക",
+  "contactEmptyErrorTitle": "ശ്രദ്ധിക്കുക",
+  "contactEmptyErrorMessage": "നിങ്ങളുടെ അന്വേഷണ ഉള്ളടക്കം നൽകുക."
 }

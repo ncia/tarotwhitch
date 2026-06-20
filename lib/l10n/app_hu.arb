@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "A részletes értelmezési adatok még nem állnak rendelkezésre.",
   "cardDetailNoData": "Nincs adat.",
   "buttonSaveReading": "Mentse el a Tarot-olvasást",
-  "readingSavedToDevice": "Mentve az eszközre."
+  "readingSavedToDevice": "Mentve az eszközre.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Fázis: {name}]",
+  "growthTabMagicBook": "Varázskönyv fejlesztés",
+  "growthPhaseCrystal0": "Abisszális mágia",
+  "growthPhaseCrystal1": "A Szellem Szemének megnyitása",
+  "growthPhaseCrystal2": "Az Anya Természet Bölcsessége",
+  "growthPhaseCrystal3": "A Nap Esszenciája",
+  "growthPhaseCrystal4": "Égi Aurora",
+  "growthPhaseCrystal5": "Isteni Birodalom",
+  "growthPhaseCrystal6": "A Teremtés Mágiája",
+  "growthPhaseCrystal7": "Az Univerzum Lehelete",
+  "growthPhaseCrystal8": "Örök Fény",
+  "growthPhaseCrystal9": "Tiszta Fehér Ébredés",
+  "growthPhaseCrystal10": "Transzcendencia",
+  "growthPhaseBook0": "Tanuló Íróeszközei",
+  "growthPhaseBook1": "Alapvető Mágia Tankönyv",
+  "growthPhaseBook2": "Ősi Rúna Nyelvtan",
+  "growthPhaseBook3": "Az Elemi Mágia Megértése",
+  "growthPhaseBook4": "Csillagfény Harmóniája",
+  "growthPhaseBook5": "Artefaktum Fejtés",
+  "growthPhaseBook6": "A Bölcs Tiltott Könyve",
+  "growthPhaseBook7": "Közösség a Szellemekkel",
+  "growthPhaseBook8": "Az Igazság Grimoire-ja",
+  "growthPhaseBook9": "Mindenható Feljegyzés",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Varázskönyv szint {level}",
+  "growthMagicBookKnowledge": "Tudás: {current} / {max}",
+  "growthCrystalBallMana": "Mana: {current} / {max}",
+  "growthMagicBookExpGained": "A varázskönyv tudása elmélyült! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "Varázskönyv fejlesztése ({amount} por)",
+  "devDustCharged": "Fejlesztői: 1000 varázspor feltöltve!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Hírek és értesítések",
+  "menuMailboxTitle": "Postafiók",
+  "menuMailboxSubtitle": "Nézze meg az új frissítéseket és ajándékokat",
+  "mailboxTitle": "Postafiók",
+  "mailboxAllRewardsClaimed": "Minden jutalmat igényeltek.",
+  "mailboxClaimAll": "Mindent igényel",
+  "mailboxEmpty": "A postafiók üres.",
+  "mailboxSenderAndDate": "Feladó: {sender} • {date}",
+  "mailboxClaimed": "Azt állította",
+  "mailboxClaim": "Követelés",
+  "mailboxAttachedRewards": "Mellékelt jutalmak",
+  "mailboxRewardClaimed": "Jutalom igényelt.",
+  "mailboxClaimReward": "Jutalom igénylése",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Értesítési Központ",
+  "menuNotificationCenterSubtitle": "Tekintse meg a legújabb értesítéseket és közleményeket",
+  "authSignupComplete": "A regisztráció befejeződött. Kérjük, ellenőrizze az Önnek küldött e-mailt az ellenőrzéshez.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Sikertelen fordítás: {error}",
+  "diarySelectDate": "Válasszon egy dátumot",
+  "diarySavedSuccess": "A napló sikeresen elmentve!",
+  "diarySaveFailed": "Nem sikerült menteni a naplót.",
+  "diaryWriteTitle": "Írj naplót",
+  "diaryWriteHint": "Nyugodtan írja le gondolatait vagy érzéseit a mai olvasással kapcsolatban.",
+  "diarySaveButton": "Mentés a Naplóba",
+  "myMenuAppVersion": "Verzió: {version}",
+  "readingSpreadLabelToday": "A mai szerencse",
+  "readingSpreadLabelPast1": "1. Múlt",
+  "readingSpreadLabelPresent2": "2. Jelen",
+  "readingSpreadLabelFuture3": "3. Jövő",
+  "readingSpreadLabelCurrent1": "1. Aktuális",
+  "readingSpreadLabelPast2": "2. Múlt",
+  "readingSpreadLabelFuture3Alt": "3. Jövő",
+  "readingSpreadLabelCause4": "4. Ok",
+  "readingSpreadLabelPotential5": "5. Potenciális",
+  "readingSpreadLabelCurrentSituation1": "1. Jelenlegi helyzet és probléma",
+  "readingSpreadLabelCauseOfProblem2": "2. A probléma oka",
+  "readingSpreadLabelAdviceForResolution3": "3. Tanács a megoldáshoz",
+  "readingSpreadLabelExpectedResult4": "4. Várható eredmény",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Jelenlegi helyzet",
+  "readingSpreadLabelObstacle2": "2. Akadály",
+  "readingSpreadLabelUnconscious3": "3. Eszméletlen",
+  "readingSpreadLabelPast4": "4. Múlt",
+  "readingSpreadLabelConsciousGoal5": "5. Tudatos Cél",
+  "readingSpreadLabelNearFuture6": "6. Közeljövő",
+  "readingSpreadLabelAttitude7": "7. Hozzáállás",
+  "readingSpreadLabelExternalEnvironment8": "8. Külső környezet",
+  "readingSpreadLabelHopesAndFears9": "9. Remények és félelmek",
+  "readingSpreadLabelFinalResult10": "10. Végső eredmény",
+  "readingSpreadLabelAdvice4": "4. Tanács",
+  "readingSpreadLabelSurroundings5": "5. Környék",
+  "readingSpreadLabelResult6": "6. Eredmény",
+  "shopBonusCoins": "Bónusz {amount}",
+  "shopCoins": "{amount} érmék",
+  "serviceLoginRequired": "Bejelentkezés szükséges.",
+  "serviceDefaultNickname": "Névtelen Boszorkány",
+  "serviceTarotReadingError": "Hiba történt a szerencse olvasása közben: {error}",
+  "defaultUserDisplayName": "Felhasználó",
+  "listenToInterpretation": "Hallgassa meg az értelmezést",
+  "faqQ1": "Olvashatok tarot minden nap?",
+  "faqA1": "Igen, jó könnyű szívvel olvasni a mai nap folyását. Nem ajánlott azonban ismételten megtartani a rajzkártyákat ugyanarra a kérdésre.",
+  "faqQ2": "Hogyan szerezhetek varázsport?",
+  "faqA2": "Varázsporhoz juthat az alkalmazásokban való részvétel, a közösségi tevékenységek vagy az üzletben történő vásárlás révén.",
+  "faqQ3": "Mit tegyek, ha rossz az eredmény?",
+  "faqA3": "A Tarot nem fix jövő, hanem tanács. A rossz eredményt mérföldkőként használja, hogy figyelmeztesse az elkerülendő kockázatokra.",
+  "faqQ4": "Hogyan láthatom a korábbi tarot olvasmányaimat?",
+  "faqA4": "A mentett olvasási rekordokat dátum szerint bármikor megtekintheti az alsó menü \"Naptár\" (Naptár) lapján.",
+  "faqQ5": "Hogyan oszthatom meg a közösséggel?",
+  "faqA5": "Kapcsolja be a „Megosztás a közösséggel” kapcsolót a naplóba mentett naplórészletes képernyőn, hogy megoszthassa olvasmányait más felhasználókkal.",
+  "faqQ6": "Hogyan tudom megváltoztatni a becenevemet vagy a profilomat?",
+  "faqA6": "Becenevét és ikonját bármikor megváltoztathatja, ha megérinti a profilterületet a „Saját menü” lap tetején.",
+  "faqQ7": "Hol tudom be- és kikapcsolni az értesítéseket?",
+  "faqA7": "Az értesítéseket az eszköz beállítási alkalmazásából vagy a jövőben frissítendő beállítások menüből irányíthatja.",
+  "faqQ8": "Megnézhetem mások tarot naplóit?",
+  "faqA8": "Igen, megtekintheti és szurkolhat az érdekes tarot olvasmányoknak, amelyeket más varázslók (felhasználók) tettek nyilvánosságra az alul található „Közösség” lapon.",
+  "faqQ9": "Hol nézhetem meg prémium előfizetésemet vagy fizetési előzményeimet?",
+  "faqA9": "Ha az alsó menü [Saját adatok] lapján a „Fizetési előzmények” lehetőséget választja, részletesen ellenőrizheti érmefizetési előzményeit és a szerzett varázsporát.",
+  "faqQ10": "Személyesen szeretném tanulmányozni a Tarot kártyák jelentését. Hogyan tudom ezt megtenni?",
+  "faqA10": "Ha az alsó menüben a [Card Encyclopedia] fülre lép, szabadon megtekintheti mind a 78 kártya függőleges és fordított jelentését, szimbólumait és részletes magyarázatát.",
+  "faqQ11": "Hogyan tudom törölni vagy visszavonni a fiókomat?",
+  "faqA11": "A „Fiók törlése” gombot a Fiókbeállítások menüben találja meg a [Saját adatok] lap jobb felső sarkában található fogaskerék ikon segítségével. Elálláskor minden napló és adat véglegesen törlődik.",
+  "faqQ12": "Hova fordulhatok, ha hibát találok, vagy javaslataim vannak?",
+  "faqA12": "Ha az aktuális képernyő alján készülő „Kapcsolatfelvétel az ügyfélszolgálattal” menüponton keresztül vagy hivatalos e-mailben küldi el a részleteket, mi gyorsan ellenőrizzük és varázslatosan megoldjuk Önnek.",
+  "myMenuContactUs": "Lépjen kapcsolatba velünk",
+  "myMenuContactUsSubtitle": "Kérdések és javaslatok",
+  "contactDialogTitle": "Lépjen kapcsolatba velünk",
+  "contactTypeBug": "Hibajelentés",
+  "contactTypeFeature": "Funkciójavaslat",
+  "contactTypePayment": "Fizetési probléma",
+  "contactTypeOther": "Egyéb megkeresés",
+  "contactHint": "Kérem írja meg érdeklődését részletesen.",
+  "contactSend": "Elküld",
+  "contactCancel": "Mégsem",
+  "contactEmptyErrorTitle": "Értesítés",
+  "contactEmptyErrorMessage": "Kérjük, adja meg a megkeresés tartalmát."
 }

@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Išsamūs interpretavimo duomenys dar neparengti.",
   "cardDetailNoData": "Nėra duomenų.",
   "buttonSaveReading": "Išsaugokite Taro skaitymą",
-  "readingSavedToDevice": "Išsaugota įrenginyje."
+  "readingSavedToDevice": "Išsaugota įrenginyje.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Etapas: {name}]",
+  "growthTabMagicBook": "Magijos knygos patobulinimas",
+  "growthPhaseCrystal0": "Bedugnės magija",
+  "growthPhaseCrystal1": "Dvasios akies atvėrimas",
+  "growthPhaseCrystal2": "Motinos Gamtos išmintis",
+  "growthPhaseCrystal3": "Saulės esencija",
+  "growthPhaseCrystal4": "Dangiškoji Aurora",
+  "growthPhaseCrystal5": "Dieviškoji karalystė",
+  "growthPhaseCrystal6": "Kūrybos magija",
+  "growthPhaseCrystal7": "Visatos kvėpavimas",
+  "growthPhaseCrystal8": "Amžinoji šviesa",
+  "growthPhaseCrystal9": "Tyras baltas pabudimas",
+  "growthPhaseCrystal10": "Transcendencija",
+  "growthPhaseBook0": "Mokinio rašymo įrankiai",
+  "growthPhaseBook1": "Pagrindinis magijos pradžiamokslis",
+  "growthPhaseBook2": "Senovinė runų gramatika",
+  "growthPhaseBook3": "Elementų magijos supratimas",
+  "growthPhaseBook4": "Žvaigždžių šviesos harmonija",
+  "growthPhaseBook5": "Artefaktų iššifravimas",
+  "growthPhaseBook6": "Išminčiaus uždrausta knyga",
+  "growthPhaseBook7": "Bendravimas su dvasiomis",
+  "growthPhaseBook8": "Tiesos grimuaras",
+  "growthPhaseBook9": "Visagalis metraštis",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Magijos knygos lygis {level}",
+  "growthMagicBookKnowledge": "Žinios: {current} / {max}",
+  "growthCrystalBallMana": "Mana: {current} / {max}",
+  "growthMagicBookExpGained": "Magijos knygos žinios pagilėjo! Patirtis +{amount}",
+  "growthUpgradeMagicBookButton": "Patobulinti magijos knygą ({amount} dulkių)",
+  "devDustCharged": "Dev: 1000 magijos dulkių įkrauta!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Naujienos ir pranešimai",
+  "menuMailboxTitle": "Pašto dėžutė",
+  "menuMailboxSubtitle": "Patikrinkite naujus atnaujinimus ir dovanas",
+  "mailboxTitle": "Pašto dėžutė",
+  "mailboxAllRewardsClaimed": "Visi apdovanojimai buvo gauti.",
+  "mailboxClaimAll": "Reikalauti visų",
+  "mailboxEmpty": "Pašto dėžutė tuščia.",
+  "mailboxSenderAndDate": "Nuo: {sender} • {date}",
+  "mailboxClaimed": "Teigė",
+  "mailboxClaim": "Reikalauti",
+  "mailboxAttachedRewards": "Pridedami apdovanojimai",
+  "mailboxRewardClaimed": "Reikalavo atlygį.",
+  "mailboxClaimReward": "Reikalaukite premijos",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Pranešimų centras",
+  "menuNotificationCenterSubtitle": "Patikrinkite naujausius pranešimus ir pranešimus",
+  "authSignupComplete": "Registracija baigta. Patikrinkite jums atsiųstą el. laišką, kad patvirtintumėte.",
+  "chatInitError": "Įvyko inicijavimo klaida:\n{error}",
+  "chatError": "Įvyko klaida:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Pozicija {number}",
+  "communityTranslationFailed": "Vertimas nepavyko: {error}",
+  "diarySelectDate": "Pasirinkite datą",
+  "diarySavedSuccess": "Dienoraštis sėkmingai išsaugotas!",
+  "diarySaveFailed": "Nepavyko išsaugoti dienoraščio.",
+  "diaryWriteTitle": "Rašyti dienoraštį",
+  "diaryWriteHint": "Nedvejodami parašykite savo mintis ar jausmus apie šiandienos skaitymą.",
+  "diarySaveButton": "Išsaugoti dienoraštyje",
+  "myMenuAppVersion": "Versija {version}",
+  "readingSpreadLabelToday": "Šiandienos Fortūna",
+  "readingSpreadLabelPast1": "1. Praeitis",
+  "readingSpreadLabelPresent2": "2. Pateikti",
+  "readingSpreadLabelFuture3": "3. Ateitis",
+  "readingSpreadLabelCurrent1": "1. Srovės",
+  "readingSpreadLabelPast2": "2. Praeitis",
+  "readingSpreadLabelFuture3Alt": "3. Ateitis",
+  "readingSpreadLabelCause4": "4. Priežastis",
+  "readingSpreadLabelPotential5": "5. Potencialas",
+  "readingSpreadLabelCurrentSituation1": "1. Esama situacija ir problema",
+  "readingSpreadLabelCauseOfProblem2": "2. Problemos priežastis",
+  "readingSpreadLabelAdviceForResolution3": "3. Patarimas dėl sprendimo",
+  "readingSpreadLabelExpectedResult4": "4. Laukiamas rezultatas",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Dabartinė situacija",
+  "readingSpreadLabelObstacle2": "2. Kliūtis",
+  "readingSpreadLabelUnconscious3": "3. Nesąmoningas",
+  "readingSpreadLabelPast4": "4. Praeitis",
+  "readingSpreadLabelConsciousGoal5": "5. Sąmoningas tikslas",
+  "readingSpreadLabelNearFuture6": "6. Artimiausia ateitis",
+  "readingSpreadLabelAttitude7": "7. Požiūris",
+  "readingSpreadLabelExternalEnvironment8": "8. Išorinė aplinka",
+  "readingSpreadLabelHopesAndFears9": "9. Viltys ir baimės",
+  "readingSpreadLabelFinalResult10": "10. Galutinis rezultatas",
+  "readingSpreadLabelAdvice4": "4. Patarimas",
+  "readingSpreadLabelSurroundings5": "5. Aplinka",
+  "readingSpreadLabelResult6": "6. Rezultatas",
+  "shopBonusCoins": "Premija {amount}",
+  "shopCoins": "{amount} Monetos",
+  "serviceLoginRequired": "Reikalingas prisijungimas.",
+  "serviceDefaultNickname": "Bevardė Ragana",
+  "serviceTarotReadingError": "Skaitant likimą įvyko klaida: {error}",
+  "defaultUserDisplayName": "Vartotojas",
+  "listenToInterpretation": "Klausykite interpretacijos",
+  "faqQ1": "Ar galiu skaityti taro kiekvieną dieną?",
+  "faqA1": "Taip, gera lengva širdimi skaityti šiandienos tėkmę. Tačiau tam pačiam klausimui kartoti piešimo kortelių nerekomenduojama.",
+  "faqQ2": "Kaip gauti stebuklingų dulkių?",
+  "faqA2": "Stebuklingų dulkių galite gauti lankydamiesi programoje, bendruomenės veikloje arba pirkdami parduotuvėje.",
+  "faqQ3": "Ką daryti, jei rezultatas blogas?",
+  "faqA3": "Taro nėra fiksuota ateitis, o patarimas. Naudokite blogą rezultatą kaip etapą, kad įspėtumėte apie riziką, kurios reikia vengti.",
+  "faqQ4": "Kaip galiu pamatyti savo ankstesnius taro rodmenis?",
+  "faqA4": "Galite bet kada peržiūrėti išsaugotus skaitymo įrašus pagal datą apatiniame meniu esančiame skirtuke „Dienoraštis“ (Kalendorius).",
+  "faqQ5": "Kaip galiu pasidalinti su bendruomene?",
+  "faqA5": "Įjunkite dienoraštyje išsaugoto dienoraščio informacijos ekrano jungiklį „Bendrinti su bendruomene“, kad pasidalintumėte savo skaitymu su kitais naudotojais.",
+  "faqQ6": "Kaip galiu pakeisti savo slapyvardį arba profilį?",
+  "faqA6": "Savo slapyvardį ir piktogramą galite bet kada pakeisti paliesdami profilio sritį skirtuko „Mano meniu“ viršuje.",
+  "faqQ7": "Kur galiu įjungti ir išjungti pranešimus?",
+  "faqA7": "Pranešimus galite valdyti įrenginio nustatymų programoje arba nustatymų meniu, kurie bus atnaujinami ateityje.",
+  "faqQ8": "Ar galiu pamatyti kitų žmonių taro dienoraščius?",
+  "faqA8": "Taip, apačioje esančiame skirtuke „Bendruomenė“ galite peržiūrėti ir pasidžiaugti įdomiais taro skaitiniais, kuriuos kiti vedliai (vartotojai) paskelbė viešai.",
+  "faqQ9": "Kur galiu patikrinti savo aukščiausios kokybės prenumeratą arba mokėjimų istoriją?",
+  "faqA9": "Jei apatiniame meniu skirtuke [Mano informacija] pasirinksite „Mokėjimų istorija“, galėsite išsamiai patikrinti savo mokėjimų monetomis istoriją ir įgytas magiškas dulkes.",
+  "faqQ10": "Noriu asmeniškai ištirti Taro kortų reikšmę. Kaip aš galiu tai padaryti?",
+  "faqA10": "Jei eisite į skirtuką [Kortelių enciklopedija] apatiniame meniu, galėsite laisvai peržiūrėti visų 78 kortelių vertikalias ir atvirkštines reikšmes, simbolius ir išsamius paaiškinimus.",
+  "faqQ11": "Kaip galiu ištrinti savo sąskaitą arba atsiimti?",
+  "faqA11": "Mygtuką „Ištrinti paskyrą“ rasite nuėję į Paskyros nustatymų meniu naudodami krumpliaračio piktogramą, esančią skirtuko [Mano informacija] viršuje, dešinėje. Atsiėmus visi dienoraščiai ir duomenys bus visam laikui ištrinti.",
+  "faqQ12": "Kur kreiptis, jei aptiksiu klaidą arba turiu pasiūlymų?",
+  "faqA12": "Jei išsiųsite išsamią informaciją per „Susisiekite su klientų aptarnavimo tarnyba“, kuri ruošiama dabartinio ekrano apačioje arba oficialiu el. paštu, mes greitai patikrinsime ir stebuklingai išspręsime tai už jus.",
+  "myMenuContactUs": "Susisiekite su mumis",
+  "myMenuContactUsSubtitle": "Klausimai ir pasiūlymai",
+  "contactDialogTitle": "Susisiekite su mumis",
+  "contactTypeBug": "Pranešimas apie klaidas",
+  "contactTypeFeature": "Funkcijos pasiūlymas",
+  "contactTypePayment": "Mokėjimo problema",
+  "contactTypeOther": "Kita apklausa",
+  "contactHint": "Prašome parašyti savo užklausą išsamiai.",
+  "contactSend": "Siųsti",
+  "contactCancel": "Atšaukti",
+  "contactEmptyErrorTitle": "Pastaba",
+  "contactEmptyErrorMessage": "Įveskite savo užklausos turinį."
 }

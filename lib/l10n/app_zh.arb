@@ -1455,5 +1455,118 @@
   "cardDetailDataNotReady": "详细的解释数据尚未准备好。",
   "cardDetailNoData": "无可用数据。",
   "buttonSaveReading": "保存塔罗占卜",
-  "readingSavedToDevice": "保存到设备。"
+  "readingSavedToDevice": "保存到设备。",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level}阶段: {name}]",
+  "growthTabMagicBook": "魔法书升级",
+  "growthPhaseCrystal0": "深渊魔法",
+  "growthPhaseCrystal1": "开启灵眼",
+  "growthPhaseCrystal2": "大自然智慧",
+  "growthPhaseCrystal3": "太阳精华",
+  "growthPhaseCrystal4": "天界极光",
+  "growthPhaseCrystal5": "神圣领域",
+  "growthPhaseCrystal6": "创造魔法",
+  "growthPhaseCrystal7": "宇宙气息",
+  "growthPhaseCrystal8": "永恒之光",
+  "growthPhaseCrystal9": "纯白觉醒",
+  "growthPhaseCrystal10": "超越",
+  "growthPhaseBook0": "学徒书写工具",
+  "growthPhaseBook1": "基础魔法入门",
+  "growthPhaseBook2": "古代符文语法",
+  "growthPhaseBook3": "元素魔法理解",
+  "growthPhaseBook4": "星光和谐",
+  "growthPhaseBook5": "神器解读",
+  "growthPhaseBook6": "贤者禁书",
+  "growthPhaseBook7": "与精灵沟通",
+  "growthPhaseBook8": "真理魔典",
+  "growthPhaseBook9": "全能记录",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "魔法书等级 {level}",
+  "growthMagicBookKnowledge": "知识: {current} / {max}",
+  "growthCrystalBallMana": "魔力: {current} / {max}",
+  "growthMagicBookExpGained": "魔法书的知识加深了！ Exp +{amount}",
+  "growthUpgradeMagicBookButton": "强化魔法书 (魔尘 {amount}个)",
+  "devDustCharged": "开发用: 1000 魔尘充能完成！",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "新闻与通知",
+  "menuMailboxTitle": "邮箱",
+  "menuMailboxSubtitle": "查看新的更新和礼物",
+  "mailboxTitle": "邮箱",
+  "mailboxAllRewardsClaimed": "所有奖励均已领取。",
+  "mailboxClaimAll": "索取全部",
+  "mailboxEmpty": "邮箱是空的。",
+  "mailboxSenderAndDate": "发件人：{sender} • {date}",
+  "mailboxClaimed": "声称",
+  "mailboxClaim": "宣称",
+  "mailboxAttachedRewards": "附赠奖励",
+  "mailboxRewardClaimed": "奖励已领取。",
+  "mailboxClaimReward": "领取奖励",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "通知中心",
+  "menuNotificationCenterSubtitle": "查看最新通知和公告"
 }

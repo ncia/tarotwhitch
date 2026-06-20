@@ -100,7 +100,7 @@ class SpreadLayoutBuilder extends StatelessWidget {
                 borderRadius: 30,
                 child: Center(
                   child: Text(
-                    '해석 듣기',
+                    AppLocalizations.of(context)!.listenToInterpretation,
                     style: Theme.of(context).textTheme.titleLarge?.copyWith(fontSize: 20),
                   ),
                 ),

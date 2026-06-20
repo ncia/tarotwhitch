@@ -268,25 +268,25 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
       
       List<String> spreadLabels = [];
       if (widget.spreadType.name == 'oneCard') {
-        spreadLabels = ['오늘의 점괘'];
+        spreadLabels = [AppLocalizations.of(context)!.readingSpreadLabelToday];
       } else if (widget.spreadType.name == 'threeCard') {
-        spreadLabels = ['1. 과거', '2. 현재', '3. 미래'];
+        spreadLabels = [AppLocalizations.of(context)!.readingSpreadLabelPast1, AppLocalizations.of(context)!.readingSpreadLabelPresent2, AppLocalizations.of(context)!.readingSpreadLabelFuture3];
       } else if (widget.spreadType.name == 'fourCard') {
-        spreadLabels = ['1. 현재 상황 및 문제', '2. 문제의 원인', '3. 해결을 위한 조언', '4. 예상되는 결과'];
+        spreadLabels = [AppLocalizations.of(context)!.readingSpreadLabelCurrentSituation1, AppLocalizations.of(context)!.readingSpreadLabelCauseOfProblem2, AppLocalizations.of(context)!.readingSpreadLabelAdviceForResolution3, AppLocalizations.of(context)!.readingSpreadLabelExpectedResult4];
       } else if (widget.spreadType.name == 'fiveCard') {
-        spreadLabels = ['1. 현재', '2. 과거', '3. 미래', '4. 원인', '5. 잠재력'];
+        spreadLabels = [AppLocalizations.of(context)!.readingSpreadLabelCurrent1, AppLocalizations.of(context)!.readingSpreadLabelPast2, AppLocalizations.of(context)!.readingSpreadLabelFuture3Alt, AppLocalizations.of(context)!.readingSpreadLabelCause4, AppLocalizations.of(context)!.readingSpreadLabelPotential5];
       } else if (widget.spreadType.name == 'celticCross') {
-        spreadLabels = ['1. 현재 상황', '2. 방해물', '3. 무의식', '4. 과거', '5. 의식적 목표', '6. 가까운 미래', '7. 태도', '8. 외부 환경', '9. 희망과 두려움', '10. 최종 결과'];
+        spreadLabels = [AppLocalizations.of(context)!.readingSpreadLabelCurrentSituation1Alt, AppLocalizations.of(context)!.readingSpreadLabelObstacle2, AppLocalizations.of(context)!.readingSpreadLabelUnconscious3, AppLocalizations.of(context)!.readingSpreadLabelPast4, AppLocalizations.of(context)!.readingSpreadLabelConsciousGoal5, AppLocalizations.of(context)!.readingSpreadLabelNearFuture6, AppLocalizations.of(context)!.readingSpreadLabelAttitude7, AppLocalizations.of(context)!.readingSpreadLabelExternalEnvironment8, AppLocalizations.of(context)!.readingSpreadLabelHopesAndFears9, AppLocalizations.of(context)!.readingSpreadLabelFinalResult10];
       } else if (widget.spreadType.name == 'hexagram') {
-        spreadLabels = ['1. 과거', '2. 현재', '3. 미래', '4. 조언', '5. 주변 환경', '6. 결과'];
+        spreadLabels = [AppLocalizations.of(context)!.readingSpreadLabelPast1, AppLocalizations.of(context)!.readingSpreadLabelPresent2, AppLocalizations.of(context)!.readingSpreadLabelFuture3, AppLocalizations.of(context)!.readingSpreadLabelAdvice4, AppLocalizations.of(context)!.readingSpreadLabelSurroundings5, AppLocalizations.of(context)!.readingSpreadLabelResult6];
       } else {
-        spreadLabels = List.generate(widget.spreadType.cardCount, (i) => '포지션 ${i + 1}');
+        spreadLabels = List.generate(widget.spreadType.cardCount, (i) => AppLocalizations.of(context)!.chatPositionLabel(i + 1));
       }
       
       for (int i = 0; i < widget.spreadType.cardCount; i++) {
         final idx = _selectedCardIndices[i];
         reversals.add(_shuffledReversed[idx]);
-        labels.add(spreadLabels.length > i ? spreadLabels[i] : '포지션 ${i + 1}');
+        labels.add(spreadLabels.length > i ? spreadLabels[i] : AppLocalizations.of(context)!.chatPositionLabel(i + 1));
         meanings.add(!_shuffledReversed[idx] ? _shuffledDeck[idx].uprightDesc : _shuffledDeck[idx].reversedDesc);
       }
 
@@ -294,7 +294,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
         id: DateTime.now().millisecondsSinceEpoch.toString(),
         cardId: pickedCards.isNotEmpty ? pickedCards[0] : '',
         spreadType: widget.spreadType.name,
-        myNote: '타로 리딩',
+        myNote: AppLocalizations.of(context)!.diaryTarotReading,
         resultText: cleanText,
         date: DateTime.now(),
         cardIds: pickedCards,

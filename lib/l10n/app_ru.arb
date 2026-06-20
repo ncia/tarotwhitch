@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Подробные данные интерпретации еще не готовы.",
   "cardDetailNoData": "Данные отсутствуют.",
   "buttonSaveReading": "Сохранить чтение Таро",
-  "readingSavedToDevice": "Сохранено на устройстве."
+  "readingSavedToDevice": "Сохранено на устройстве.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Фаза: {name}]",
+  "growthTabMagicBook": "Улучшение магической книги",
+  "growthPhaseCrystal0": "Магия Бездны",
+  "growthPhaseCrystal1": "Открытие Духовного Ока",
+  "growthPhaseCrystal2": "Мудрость Матери-Природы",
+  "growthPhaseCrystal3": "Сущность Солнца",
+  "growthPhaseCrystal4": "Небесное Сияние",
+  "growthPhaseCrystal5": "Божественное Царство",
+  "growthPhaseCrystal6": "Магия Созидания",
+  "growthPhaseCrystal7": "Дыхание Вселенной",
+  "growthPhaseCrystal8": "Вечный Свет",
+  "growthPhaseCrystal9": "Пробуждение Чистой Белизны",
+  "growthPhaseCrystal10": "Трансцендентность",
+  "growthPhaseBook0": "Письменные Принадлежности Ученика",
+  "growthPhaseBook1": "Базовый Магический Букварь",
+  "growthPhaseBook2": "Грамматика Древних Рун",
+  "growthPhaseBook3": "Понимание Стихийной Магии",
+  "growthPhaseBook4": "Гармония Звездного Света",
+  "growthPhaseBook5": "Расшифровка Артефактов",
+  "growthPhaseBook6": "Запретная Книга Мудреца",
+  "growthPhaseBook7": "Общение с Духами",
+  "growthPhaseBook8": "Гримуар Истины",
+  "growthPhaseBook9": "Всемогущая Летопись",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Уровень магической книги {level}",
+  "growthMagicBookKnowledge": "Знания: {current} / {max}",
+  "growthCrystalBallMana": "Мана: {current} / {max}",
+  "growthMagicBookExpGained": "Знания магической книги углубились! Опыт +{amount}",
+  "growthUpgradeMagicBookButton": "Улучшить магическую книгу ({amount} Пыли)",
+  "devDustCharged": "Разр.: 1000 магической пыли заряжено!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Новости и уведомления",
+  "menuMailboxTitle": "Почтовый ящик",
+  "menuMailboxSubtitle": "Следите за новыми обновлениями и подарками",
+  "mailboxTitle": "Почтовый ящик",
+  "mailboxAllRewardsClaimed": "Все награды заявлены.",
+  "mailboxClaimAll": "Претендовать на все",
+  "mailboxEmpty": "Почтовый ящик пуст.",
+  "mailboxSenderAndDate": "От: {sender} • {date}",
+  "mailboxClaimed": "Заявлено",
+  "mailboxClaim": "Требовать",
+  "mailboxAttachedRewards": "Прикрепленные награды",
+  "mailboxRewardClaimed": "Награда заявлена.",
+  "mailboxClaimReward": "Получить награду",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Центр уведомлений",
+  "menuNotificationCenterSubtitle": "Проверьте последние уведомления и объявления",
+  "authSignupComplete": "Регистрация завершена. Пожалуйста, проверьте отправленное вам электронное письмо для подтверждения.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Translation failed: {error}",
+  "diarySelectDate": "Выберите дату",
+  "diarySavedSuccess": "Дневник успешно сохранен!",
+  "diarySaveFailed": "Не удалось сохранить дневник.",
+  "diaryWriteTitle": "Написать дневник",
+  "diaryWriteHint": "Не стесняйтесь писать свои мысли или чувства по поводу сегодняшнего чтения.",
+  "diarySaveButton": "Сохранить в дневник",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "Сегодняшняя удача",
+  "readingSpreadLabelPast1": "1. Прошлое",
+  "readingSpreadLabelPresent2": "2. Настоящее время",
+  "readingSpreadLabelFuture3": "3. Будущее",
+  "readingSpreadLabelCurrent1": "1. Текущий",
+  "readingSpreadLabelPast2": "2. Прошлое",
+  "readingSpreadLabelFuture3Alt": "3. Будущее",
+  "readingSpreadLabelCause4": "4. Причина",
+  "readingSpreadLabelPotential5": "5. Потенциал",
+  "readingSpreadLabelCurrentSituation1": "1. Текущая ситуация и проблема",
+  "readingSpreadLabelCauseOfProblem2": "2. Причина проблемы",
+  "readingSpreadLabelAdviceForResolution3": "3. Рекомендации по разрешению проблемы",
+  "readingSpreadLabelExpectedResult4": "4. Ожидаемый результат",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Текущая ситуация",
+  "readingSpreadLabelObstacle2": "2. Препятствие",
+  "readingSpreadLabelUnconscious3": "3. Бессознательное",
+  "readingSpreadLabelPast4": "4. Прошлое",
+  "readingSpreadLabelConsciousGoal5": "5. Сознательная цель",
+  "readingSpreadLabelNearFuture6": "6. Ближайшее будущее",
+  "readingSpreadLabelAttitude7": "7. Отношение",
+  "readingSpreadLabelExternalEnvironment8": "8. Внешняя среда",
+  "readingSpreadLabelHopesAndFears9": "9. Надежды и страхи",
+  "readingSpreadLabelFinalResult10": "10. Окончательный результат",
+  "readingSpreadLabelAdvice4": "4. Совет",
+  "readingSpreadLabelSurroundings5": "5. Окружение",
+  "readingSpreadLabelResult6": "6. Результат",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Coins",
+  "serviceLoginRequired": "Требуется вход.",
+  "serviceDefaultNickname": "Безымянная Ведьма",
+  "serviceTarotReadingError": "Произошла ошибка при чтении предсказания: {error}",
+  "defaultUserDisplayName": "Пользователь",
+  "listenToInterpretation": "Слушайте интерпретацию",
+  "faqQ1": "Можно ли читать Таро каждый день?",
+  "faqA1": "Да, приятно с лёгким сердцем читать течение сегодняшнего дня. Однако не рекомендуется повторно вытягивать карточки для одного и того же вопроса.",
+  "faqQ2": "Как получить волшебную пыль?",
+  "faqA2": "Вы можете получить волшебную пыль, посещая приложение, проводя общественные мероприятия или совершая покупки в магазине.",
+  "faqQ3": "Что делать, если результат плохой?",
+  "faqA3": "Таро – это не фиксированное будущее, а совет. Используйте плохой результат как веху, чтобы предупредить вас о рисках, которых следует избегать.",
+  "faqQ4": "Как я могу увидеть свои прошлые чтения Таро?",
+  "faqA4": "Вы можете в любое время просмотреть сохраненные записи о прочтении по дате на вкладке «Дневник» (Календарь) в нижнем меню.",
+  "faqQ5": "Как поделиться с сообществом?",
+  "faqA5": "Включите переключатель «Поделиться в сообществе» на экране сведений о дневнике, сохраненном в дневнике, чтобы поделиться своим чтением с другими пользователями.",
+  "faqQ6": "Как я могу изменить свой никнейм или профиль?",
+  "faqA6": "Вы можете изменить свой псевдоним и значок в любое время, коснувшись области профиля в верхней части вкладки «Мое меню».",
+  "faqQ7": "Где я могу включить и отключить уведомления?",
+  "faqA7": "Вы можете управлять уведомлениями из приложения настроек вашего устройства или из меню настроек, которое будет обновляться в будущем.",
+  "faqQ8": "Могу ли я посмотреть дневники Таро других людей?",
+  "faqA8": "Да, вы можете просмотреть и поддержать интересные расклады Таро, которые другие волшебники (пользователи) опубликовали на вкладке «Сообщество» внизу.",
+  "faqQ9": "Где я могу проверить свою премиум-подписку или историю платежей?",
+  "faqA9": "Если вы выберете «История платежей» на вкладке [Моя информация] в нижнем меню, вы сможете подробно проверить историю платежей своих монет и приобретенную волшебную пыль.",
+  "faqQ10": "Хочу изучить значение карт Таро лично. Как я могу это сделать?",
+  "faqA10": "Если вы перейдете на вкладку [Энциклопедия карт] в нижнем меню, вы сможете свободно просматривать прямые и перевернутые значения, символы и подробные объяснения всех 78 карт.",
+  "faqQ11": "Как я могу удалить свою учетную запись или вывести средства?",
+  "faqA11": "Вы можете найти кнопку «Удалить учетную запись», перейдя в меню «Настройки учетной записи» с помощью значка шестеренки в правом верхнем углу вкладки [Моя информация]. Все дневники и данные будут безвозвратно удалены при выходе.",
+  "faqQ12": "Куда мне обратиться, если я столкнусь с ошибкой или у меня есть предложения?",
+  "faqA12": "Если вы отправите подробную информацию через «Связаться со службой поддержки клиентов», которая готовится внизу текущего экрана, или по официальному электронному письму, мы быстро проверим и волшебным образом решим эту проблему за вас.",
+  "myMenuContactUs": "Связаться с нами",
+  "myMenuContactUsSubtitle": "Запросы и предложения",
+  "contactDialogTitle": "Связаться с нами",
+  "contactTypeBug": "Отчет об ошибке",
+  "contactTypeFeature": "Предложение функции",
+  "contactTypePayment": "Проблема с оплатой",
+  "contactTypeOther": "Другой запрос",
+  "contactHint": "Пожалуйста, напишите ваш запрос подробно.",
+  "contactSend": "Отправлять",
+  "contactCancel": "Отмена",
+  "contactEmptyErrorTitle": "Уведомление",
+  "contactEmptyErrorMessage": "Пожалуйста, введите содержание вашего запроса."
 }

@@ -113,10 +113,10 @@ class ShopScreen extends StatelessWidget {
 
   Widget _buildCoinGrid(BuildContext context) {
     final List<Map<String, dynamic>> coinPackages = [
-      {'coins': 5, 'price': '₩5,000', 'bonus': '보너스 1개'},
-      {'coins': 10, 'price': '₩10,000', 'bonus': '보너스 2개'},
-      {'coins': 50, 'price': '₩50,000', 'bonus': '보너스 15개'},
-      {'coins': 100, 'price': '₩100,000', 'bonus': '보너스 50개'},
+      {'coins': 5, 'price': '₩5,000', 'bonus': 1},
+      {'coins': 10, 'price': '₩10,000', 'bonus': 2},
+      {'coins': 50, 'price': '₩50,000', 'bonus': 15},
+      {'coins': 100, 'price': '₩100,000', 'bonus': 50},
     ];
 
     return GridView.builder(
@@ -139,7 +139,7 @@ class ShopScreen extends StatelessWidget {
               _buildCoinImage(pkg['coins']),
               const SizedBox(height: 12),
               Text(
-                '${pkg['coins']} 코인',
+                AppLocalizations.of(context)!.shopCoins(pkg['coins'] as int),
                 style: const TextStyle(
                   color: Colors.white,
                   fontSize: 20,
@@ -149,7 +149,7 @@ class ShopScreen extends StatelessWidget {
               if (pkg['bonus'] != null) ...[
                 const SizedBox(height: 4),
                 Text(
-                  pkg['bonus'],
+                  AppLocalizations.of(context)!.shopBonusCoins(pkg['bonus'].toString()),
                   style: const TextStyle(
                     color: Colors.lightGreenAccent,
                     fontSize: 12,

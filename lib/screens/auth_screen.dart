@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import '../widgets/gradient_background.dart';
@@ -296,9 +297,9 @@ class _AuthScreenState extends State<AuthScreen> {
           
           if (mounted) {
             ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(
-                content: Text('회원가입이 완료되었습니다. 발송된 이메일을 확인하여 인증을 완료해주세요.'),
-                duration: Duration(seconds: 5),
+              SnackBar(
+                content: Text(AppLocalizations.of(context)!.authSignupComplete),
+                duration: const Duration(seconds: 5),
               ),
             );
             setState(() {

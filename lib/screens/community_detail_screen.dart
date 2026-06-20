@@ -161,7 +161,7 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
         });
       }
     } catch (e) {
-      if (mounted) ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('번역 실패: $e')));
+      if (mounted) ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('${AppLocalizations.of(context)!.communityTranslationFailed('')} $e')));
     } finally {
       if (mounted) setState(() => _translatingComments[comment.id] = false);
     }
@@ -285,7 +285,7 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
                         crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
                           // 질문
-                          if (displayQuestion.isNotEmpty && displayQuestion != '타로 리딩') ...[
+                          if (displayQuestion.isNotEmpty && displayQuestion != '타로 리딩' && displayQuestion != AppLocalizations.of(context)!.diaryTarotReading) ...[
                             GlassContainer(
                               padding: const EdgeInsets.all(16),
                               borderRadius: 16,

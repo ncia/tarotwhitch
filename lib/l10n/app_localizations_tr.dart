@@ -4417,4 +4417,435 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'Cihaza kaydedildi.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level Aşama: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'Büyü Kitabı Yükseltme';
+
+  @override
+  String get growthPhaseCrystal0 => 'Uçurum Büyüsü';
+
+  @override
+  String get growthPhaseCrystal1 => 'Ruh Gözünü Açma';
+
+  @override
+  String get growthPhaseCrystal2 => 'Doğa Ana\'nın Bilgeliği';
+
+  @override
+  String get growthPhaseCrystal3 => 'Güneşin Özü';
+
+  @override
+  String get growthPhaseCrystal4 => 'Göksel Aurora';
+
+  @override
+  String get growthPhaseCrystal5 => 'İlahi Diyar';
+
+  @override
+  String get growthPhaseCrystal6 => 'Yaratılış Büyüsü';
+
+  @override
+  String get growthPhaseCrystal7 => 'Evrenin Nefesi';
+
+  @override
+  String get growthPhaseCrystal8 => 'Ebedi Işık';
+
+  @override
+  String get growthPhaseCrystal9 => 'Saf Beyaz Uyanış';
+
+  @override
+  String get growthPhaseCrystal10 => 'Aşkınlık';
+
+  @override
+  String get growthPhaseBook0 => 'Çırağın Yazı Araçları';
+
+  @override
+  String get growthPhaseBook1 => 'Temel Büyü El Kitabı';
+
+  @override
+  String get growthPhaseBook2 => 'Antik Rün Dilbilgisi';
+
+  @override
+  String get growthPhaseBook3 => 'Element Büyüsünü Anlama';
+
+  @override
+  String get growthPhaseBook4 => 'Yıldız Işığının Armonisi';
+
+  @override
+  String get growthPhaseBook5 => 'Eser Çözümleme';
+
+  @override
+  String get growthPhaseBook6 => 'Bilgenin Yasak Kitabı';
+
+  @override
+  String get growthPhaseBook7 => 'Ruhlarla İletişim';
+
+  @override
+  String get growthPhaseBook8 => 'Gerçeğin Büyü Kitabı';
+
+  @override
+  String get growthPhaseBook9 => 'Her Şeye Gücü Yeten Kayıt';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'Büyü Kitabı Seviyesi $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'Bilgi: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'Mana: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'Büyü kitabının bilgisi derinleşti! Tecrübe +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'Büyü Kitabını Yükselt ($amount Toz)';
+  }
+
+  @override
+  String get devDustCharged => 'Geliştirici: 1000 Büyü Tozu yüklendi!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'Haberler ve Bildirimler';
+
+  @override
+  String get menuMailboxTitle => 'Posta kutusu';
+
+  @override
+  String get menuMailboxSubtitle =>
+      'Yeni güncellemeleri ve hediyeleri kontrol edin';
+
+  @override
+  String get mailboxTitle => 'Posta kutusu';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'Tüm ödüller talep edildi.';
+
+  @override
+  String get mailboxClaimAll => 'Tümünü Talep Et';
+
+  @override
+  String get mailboxEmpty => 'Posta kutusu boş.';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'Gönderen: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'Hak talebinde bulunuldu';
+
+  @override
+  String get mailboxClaim => 'İddia';
+
+  @override
+  String get mailboxAttachedRewards => 'Ekli Ödüller';
+
+  @override
+  String get mailboxRewardClaimed => 'Ödül talep edildi.';
+
+  @override
+  String get mailboxClaimReward => 'Ödül Talebi';
+
+  @override
+  String get menuNotificationCenterTitle => 'Bildirim Merkezi';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'En son bildirimleri ve duyuruları kontrol edin';
+
+  @override
+  String get authSignupComplete =>
+      'Kayıt işlemi tamamlandı. Lütfen doğrulamak için size gönderilen e-postayı kontrol edin.';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initialization error occurred:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Error occurred:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Çeviri başarısız oldu: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'Bir tarih seçin';
+
+  @override
+  String get diarySavedSuccess => 'Günlük başarıyla kaydedildi!';
+
+  @override
+  String get diarySaveFailed => 'Günlük kaydedilemedi.';
+
+  @override
+  String get diaryWriteTitle => 'Günlük Yaz';
+
+  @override
+  String get diaryWriteHint =>
+      'Bugünkü okumanızla ilgili düşüncelerinizi veya duygularınızı yazmaktan çekinmeyin.';
+
+  @override
+  String get diarySaveButton => 'Günlüğe Kaydet';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'Bugünün Şansı';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. Geçmiş';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. Mevcut';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. Gelecek';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. Güncel';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. Geçmiş';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. Gelecek';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. Sebep';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. Potansiyel';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 => '1. Mevcut durum ve sorun';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. Sorunun nedeni';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 =>
+      '3. Çözüm için tavsiyeler';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. Beklenen sonuç';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. Mevcut durum';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. Engel';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. Bilinçdışı';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. Geçmiş';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. Bilinçli Hedef';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. Yakın Gelecek';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. Tutum';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 => '8. Dış Çevre';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. Umutlar ve Korkular';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. Nihai Sonuç';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. Tavsiye';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. Çevre';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. Sonuç';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount Para';
+  }
+
+  @override
+  String get serviceLoginRequired => 'Oturum açmanız gerekiyor.';
+
+  @override
+  String get serviceDefaultNickname => 'İsimsiz Cadı';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'Fal okunurken bir hata oluştu: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'Kullanıcı';
+
+  @override
+  String get listenToInterpretation => 'Yorumlamayı dinle';
+
+  @override
+  String get faqQ1 => 'Her gün tarot okuyabilir miyim?';
+
+  @override
+  String get faqA1 =>
+      'Evet, bugünün akışını hafif bir yürekle okumakta fayda var. Ancak aynı soru için tekrar tekrar kart çekmeye devam edilmesi önerilmez.';
+
+  @override
+  String get faqQ2 => 'Büyü tozunu nasıl elde ederim?';
+
+  @override
+  String get faqA2 =>
+      'Uygulamaya katılım, topluluk etkinlikleri veya mağazadan satın alma yoluyla sihirli toz elde edebilirsiniz.';
+
+  @override
+  String get faqQ3 => 'Sonuç kötü ise ne yapmalıyım?';
+
+  @override
+  String get faqA3 =>
+      'Tarot sabit bir gelecek değil, bir tavsiyedir. Kötü bir sonucu, kaçınılması gereken riskler konusunda sizi uyarmak için bir dönüm noktası olarak kullanın.';
+
+  @override
+  String get faqQ4 => 'Geçmiş tarot okumalarımı nasıl görebilirim?';
+
+  @override
+  String get faqA4 =>
+      'Kaydedilen okuma kayıtlarınızı istediğiniz zaman alt menüdeki \'Günlük\' (Takvim) sekmesinden tarihe göre inceleyebilirsiniz.';
+
+  @override
+  String get faqQ5 => 'Toplulukla nasıl paylaşırım?';
+
+  @override
+  String get faqA5 =>
+      'Okumalarınızı diğer kullanıcılarla paylaşmak için günlüğe kaydedilen günlük ayrıntıları ekranında \'Toplulukta Paylaş\' anahtarını açın.';
+
+  @override
+  String get faqQ6 => 'Takma adımı veya profilimi nasıl değiştirebilirim?';
+
+  @override
+  String get faqA6 =>
+      '\'Menüm\' sekmesinin üst kısmındaki profil alanına dokunarak takma adınızı ve simgenizi istediğiniz zaman değiştirebilirsiniz.';
+
+  @override
+  String get faqQ7 => 'Bildirimleri nereden açıp kapatabilirim?';
+
+  @override
+  String get faqA7 =>
+      'Bildirimleri cihazınızın ayarlar uygulamasından veya gelecekte güncellenecek tercihler menüsünden kontrol edebilirsiniz.';
+
+  @override
+  String get faqQ8 => 'Başkalarının tarot günlüklerini görebilir miyim?';
+
+  @override
+  String get faqA8 =>
+      'Evet, alt kısımdaki \'Topluluk\' sekmesinde diğer sihirbazların (kullanıcıların) halka açıkladığı ilginç tarot okumalarını görüntüleyebilir ve tezahürat yapabilirsiniz.';
+
+  @override
+  String get faqQ9 =>
+      'Premium aboneliğimi veya ödeme geçmişimi nereden kontrol edebilirim?';
+
+  @override
+  String get faqA9 =>
+      'Alt menünün [Bilgilerim] sekmesinden \'Ödeme Geçmişi\'ni seçerseniz, coin ödeme geçmişinizi ve edindiğiniz sihirli tozu detaylı olarak kontrol edebilirsiniz.';
+
+  @override
+  String get faqQ10 =>
+      'Tarot kartlarının anlamını kişisel olarak incelemek istiyorum. Bunu nasıl yapabilirim?';
+
+  @override
+  String get faqA10 =>
+      'Alt menüdeki [Kart Ansiklopedisi] sekmesine giderseniz 78 kartın tamamının dik ve ters anlamlarını, sembollerini ve detaylı açıklamalarını özgürce görüntüleyebilirsiniz.';
+
+  @override
+  String get faqQ11 => 'Hesabımı nasıl silebilir veya para çekebilirim?';
+
+  @override
+  String get faqA11 =>
+      '[Bilgilerim] sekmesinin sağ üst köşesindeki dişli çark simgesinden Hesap Ayarları menüsüne giderek \'Hesabı Sil\' düğmesini bulabilirsiniz. Geri çekilme sonrasında tüm günlükler ve veriler kalıcı olarak silinecektir.';
+
+  @override
+  String get faqQ12 =>
+      'Bir hatayla karşılaşırsam veya önerilerim olursa nereye başvurabilirim?';
+
+  @override
+  String get faqA12 =>
+      'Mevcut ekranın alt kısmında hazırlanan \'Müşteri Hizmetleriyle İletişime Geçin\' veya resmi e-posta yoluyla ayrıntıları gönderirseniz, hızlı bir şekilde kontrol edip sizin için sihirli bir şekilde çözeceğiz.';
+
+  @override
+  String get myMenuContactUs => 'Bize Ulaşın';
+
+  @override
+  String get myMenuContactUsSubtitle => 'Sorular ve öneriler';
+
+  @override
+  String get contactDialogTitle => 'Bize Ulaşın';
+
+  @override
+  String get contactTypeBug => 'Hata Raporu';
+
+  @override
+  String get contactTypeFeature => 'Özellik Önerisi';
+
+  @override
+  String get contactTypePayment => 'Ödeme Sorunu';
+
+  @override
+  String get contactTypeOther => 'Diğer Sorgulama';
+
+  @override
+  String get contactHint => 'Lütfen sorunuzu ayrıntılı olarak yazınız.';
+
+  @override
+  String get contactSend => 'Göndermek';
+
+  @override
+  String get contactCancel => 'İptal etmek';
+
+  @override
+  String get contactEmptyErrorTitle => 'Fark etme';
+
+  @override
+  String get contactEmptyErrorMessage =>
+      'Lütfen sorgulama içeriğinizi giriniz.';
 }

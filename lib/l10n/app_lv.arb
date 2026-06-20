@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Detalizēti interpretācijas dati vēl nav gatavi.",
   "cardDetailNoData": "Nav pieejami dati.",
   "buttonSaveReading": "Saglabājiet Taro lasīšanu",
-  "readingSavedToDevice": "Saglabāts ierīcē."
+  "readingSavedToDevice": "Saglabāts ierīcē.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Fāze: {name}]",
+  "growthTabMagicBook": "Burvju grāmatas uzlabošana",
+  "growthPhaseCrystal0": "Bezgalīgā maģija",
+  "growthPhaseCrystal1": "Gara acs atvēršana",
+  "growthPhaseCrystal2": "Mātes Dabas gudrība",
+  "growthPhaseCrystal3": "Saules esence",
+  "growthPhaseCrystal4": "Debesu aurora",
+  "growthPhaseCrystal5": "Dievišķā valstība",
+  "growthPhaseCrystal6": "Radīšanas maģija",
+  "growthPhaseCrystal7": "Visuma elpa",
+  "growthPhaseCrystal8": "Mūžīgā gaisma",
+  "growthPhaseCrystal9": "Tīra baltā atmoda",
+  "growthPhaseCrystal10": "Transcendence",
+  "growthPhaseBook0": "Mācekļa rakstīšanas rīki",
+  "growthPhaseBook1": "Pamata maģijas pamācība",
+  "growthPhaseBook2": "Seno rūnu gramatika",
+  "growthPhaseBook3": "Elementārās maģijas izpratne",
+  "growthPhaseBook4": "Zvaigžņu gaismas harmonija",
+  "growthPhaseBook5": "Artefaktu atšifrēšana",
+  "growthPhaseBook6": "Gudrā aizliegtā grāmata",
+  "growthPhaseBook7": "Saziņa ar gariem",
+  "growthPhaseBook8": "Patiesības grimoārs",
+  "growthPhaseBook9": "Visvarenais ieraksts",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Burvju grāmatas līmenis {level}",
+  "growthMagicBookKnowledge": "Zināšanas: {current} / {max}",
+  "growthCrystalBallMana": "Mana: {current} / {max}",
+  "growthMagicBookExpGained": "Burvju grāmatas zināšanas ir padziļinājušās! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "Uzlabot burvju grāmatu ({amount} putekļi)",
+  "devDustCharged": "Izstr.: 1000 maģisko putekļu uzlādēti!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Ziņas un paziņojumi",
+  "menuMailboxTitle": "Pastkaste",
+  "menuMailboxSubtitle": "Pārbaudiet jaunumus un dāvanas",
+  "mailboxTitle": "Pastkaste",
+  "mailboxAllRewardsClaimed": "Visas balvas ir pieprasītas.",
+  "mailboxClaimAll": "Pieprasīt visu",
+  "mailboxEmpty": "Pastkaste ir tukša.",
+  "mailboxSenderAndDate": "No: {sender} • {date}",
+  "mailboxClaimed": "Pretenzija",
+  "mailboxClaim": "Pretenzija",
+  "mailboxAttachedRewards": "Pievienotās balvas",
+  "mailboxRewardClaimed": "Atlīdzība pieprasīta.",
+  "mailboxClaimReward": "Pieprasiet atlīdzību",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Paziņojumu centrs",
+  "menuNotificationCenterSubtitle": "Pārbaudiet jaunākos paziņojumus un paziņojumus",
+  "authSignupComplete": "Reģistrācija ir pabeigta. Lūdzu, pārbaudiet jums nosūtīto e-pastu, lai apstiprinātu.",
+  "chatInitError": "Radās inicializācijas kļūda:\n{error}",
+  "chatError": "Radās kļūda:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Pozīcija {number}",
+  "communityTranslationFailed": "Tulkošana neizdevās: {error}",
+  "diarySelectDate": "Izvēlieties datumu",
+  "diarySavedSuccess": "Dienasgrāmata veiksmīgi saglabāta!",
+  "diarySaveFailed": "Neizdevās saglabāt dienasgrāmatu.",
+  "diaryWriteTitle": "Rakstīt dienasgrāmatu",
+  "diaryWriteHint": "Droši rakstiet savas domas vai sajūtas par šodienas lasīšanu.",
+  "diarySaveButton": "Saglabāt dienasgrāmatā",
+  "myMenuAppVersion": "Versija {version}",
+  "readingSpreadLabelToday": "Šodienas Fortūna",
+  "readingSpreadLabelPast1": "1. Pagātne",
+  "readingSpreadLabelPresent2": "2. Klāt",
+  "readingSpreadLabelFuture3": "3. Nākotne",
+  "readingSpreadLabelCurrent1": "1. Pašreizējais",
+  "readingSpreadLabelPast2": "2. Pagātne",
+  "readingSpreadLabelFuture3Alt": "3. Nākotne",
+  "readingSpreadLabelCause4": "4. Cēlonis",
+  "readingSpreadLabelPotential5": "5. Potenciāls",
+  "readingSpreadLabelCurrentSituation1": "1. Pašreizējā situācija un problēma",
+  "readingSpreadLabelCauseOfProblem2": "2. Problēmas cēlonis",
+  "readingSpreadLabelAdviceForResolution3": "3. Padoms risinājumam",
+  "readingSpreadLabelExpectedResult4": "4. Paredzamais rezultāts",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Pašreizējā situācija",
+  "readingSpreadLabelObstacle2": "2. Šķērslis",
+  "readingSpreadLabelUnconscious3": "3. Bezsamaņā",
+  "readingSpreadLabelPast4": "4. Pagātne",
+  "readingSpreadLabelConsciousGoal5": "5. Apzināts mērķis",
+  "readingSpreadLabelNearFuture6": "6. Tuvākā nākotne",
+  "readingSpreadLabelAttitude7": "7. Attieksme",
+  "readingSpreadLabelExternalEnvironment8": "8. Ārējā vide",
+  "readingSpreadLabelHopesAndFears9": "9. Cerības un bailes",
+  "readingSpreadLabelFinalResult10": "10. Gala rezultāts",
+  "readingSpreadLabelAdvice4": "4. Padoms",
+  "readingSpreadLabelSurroundings5": "5. Apkārtne",
+  "readingSpreadLabelResult6": "6. Rezultāts",
+  "shopBonusCoins": "Bonuss {amount}",
+  "shopCoins": "{amount} Monētas",
+  "serviceLoginRequired": "Pieteikšanās ir nepieciešama.",
+  "serviceDefaultNickname": "Bezvārda ragana",
+  "serviceTarotReadingError": "Lasot laimi, radās kļūda: {error}",
+  "defaultUserDisplayName": "Lietotājs",
+  "listenToInterpretation": "Klausieties interpretāciju",
+  "faqQ1": "Vai es varu lasīt taro katru dienu?",
+  "faqA1": "Jā, ir labi ar vieglu sirdi lasīt šodienas plūdumu. Tomēr nav ieteicams atkārtoti glabāt zīmēšanas kartītes vienam un tam pašam jautājumam.",
+  "faqQ2": "Kā iegūt burvju putekļus?",
+  "faqA2": "Jūs varat iegūt burvju putekļus, apmeklējot lietotnes, veicot kopienas aktivitātes vai iepērkoties veikalā.",
+  "faqQ3": "Ko darīt, ja rezultāts ir slikts?",
+  "faqA3": "Taro nav noteikta nākotne, bet gan padoms. Izmantojiet sliktu rezultātu kā atskaites punktu, lai brīdinātu par riskiem, no kuriem jāizvairās.",
+  "faqQ4": "Kā es varu redzēt savus iepriekšējos Tarot rādījumus?",
+  "faqA4": "Jebkurā laikā varat pārskatīt savus saglabātos lasīšanas ierakstus pēc datuma apakšējās izvēlnes cilnē \"Dienasgrāmata\" (Kalendārs).",
+  "faqQ5": "Kā es varu kopīgot saturu ar kopienu?",
+  "faqA5": "Dienasgrāmatā saglabātajā dienasgrāmatas informācijas ekrānā ieslēdziet slēdzi Kopīgot ar kopienu, lai dalītos ar citiem lietotājiem.",
+  "faqQ6": "Kā es varu mainīt savu segvārdu vai profilu?",
+  "faqA6": "Jebkurā laikā varat mainīt savu segvārdu un ikonu, pieskaroties profila apgabalam cilnes Mana izvēlne augšdaļā.",
+  "faqQ7": "Kur varu ieslēgt un izslēgt paziņojumus?",
+  "faqA7": "Paziņojumus varat kontrolēt ierīces iestatījumu lietotnē vai preferenču izvēlnē, kas tiks atjaunināta nākotnē.",
+  "faqQ8": "Vai es varu redzēt citu cilvēku taro dienasgrāmatas?",
+  "faqA8": "Jā, jūs varat skatīt un priecāties par interesantiem tarot lasījumiem, ko citi burvji (lietotāji) ir publiskojuši cilnē \"Kopiena\" apakšā.",
+  "faqQ9": "Kur es varu pārbaudīt savu premium abonementu vai maksājumu vēsturi?",
+  "faqA9": "Ja apakšējās izvēlnes cilnē [Mana informācija] atlasāt “Maksājumu vēsture”, varat detalizēti pārbaudīt savu monētu maksājumu vēsturi un iegūtos burvju putekļus.",
+  "faqQ10": "Es vēlos personīgi izpētīt Taro kāršu nozīmi. Kā es to varu izdarīt?",
+  "faqA10": "Ja apakšējā izvēlnē atverat cilni [Kartīšu enciklopēdija], varat brīvi skatīt visu 78 kartīšu vertikālās un apgrieztās nozīmes, simbolus un padziļinātus skaidrojumus.",
+  "faqQ11": "Kā es varu izdzēst savu kontu vai izņemt to?",
+  "faqA11": "Pogu “Dzēst kontu” varat atrast, atverot izvēlni Konta iestatījumi, izmantojot zobrata ikonu cilnes [Mana informācija] augšējā labajā stūrī. Visas dienasgrāmatas un dati tiks neatgriezeniski dzēsti pēc atsaukšanas.",
+  "faqQ12": "Kur sazināties, ja rodas kļūda vai ir ieteikumi?",
+  "faqA12": "Ja nosūtāt informāciju, izmantojot “Sazināties ar klientu apkalpošanas dienestu”, kas tiek sagatavota pašreizējā ekrāna apakšdaļā vai oficiālā e-pastā, mēs ātri pārbaudīsim un maģiski atrisināsim to jūsu vietā.",
+  "myMenuContactUs": "Sazinieties ar mums",
+  "myMenuContactUsSubtitle": "Uzziņas un ieteikumi",
+  "contactDialogTitle": "Sazinieties ar mums",
+  "contactTypeBug": "Kļūdu ziņojums",
+  "contactTypeFeature": "Funkcijas ieteikums",
+  "contactTypePayment": "Maksājumu problēma",
+  "contactTypeOther": "Cita aptauja",
+  "contactHint": "Lūdzu, uzrakstiet savu pieprasījumu detalizēti.",
+  "contactSend": "Sūtīt",
+  "contactCancel": "Atcelt",
+  "contactEmptyErrorTitle": "Paziņojums",
+  "contactEmptyErrorMessage": "Lūdzu, ievadiet pieprasījuma saturu."
 }

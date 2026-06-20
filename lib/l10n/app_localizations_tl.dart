@@ -4446,4 +4446,439 @@ class AppLocalizationsTl extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'Na-save sa device.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level Yugto: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'Pagpapahusay ng Aklat ng Mahika';
+
+  @override
+  String get growthPhaseCrystal0 => 'Mahika ng Kailaliman';
+
+  @override
+  String get growthPhaseCrystal1 => 'Pagbubukas ng Mata ng Espiritu';
+
+  @override
+  String get growthPhaseCrystal2 => 'Karunungan ng Inang Kalikasan';
+
+  @override
+  String get growthPhaseCrystal3 => 'Diwa ng Araw';
+
+  @override
+  String get growthPhaseCrystal4 => 'Makalangit na Aurora';
+
+  @override
+  String get growthPhaseCrystal5 => 'Banal na Kaharian';
+
+  @override
+  String get growthPhaseCrystal6 => 'Mahika ng Paglikha';
+
+  @override
+  String get growthPhaseCrystal7 => 'Hininga ng Uniberso';
+
+  @override
+  String get growthPhaseCrystal8 => 'Walang Hanggang Liwanag';
+
+  @override
+  String get growthPhaseCrystal9 => 'Pagkamulat ng Dalisay na Puti';
+
+  @override
+  String get growthPhaseCrystal10 => 'Transendensya';
+
+  @override
+  String get growthPhaseBook0 => 'Mga Kagamitan sa Pagsusulat ng Baguhan';
+
+  @override
+  String get growthPhaseBook1 => 'Batayang Panimulang Aklat ng Mahika';
+
+  @override
+  String get growthPhaseBook2 => 'Sinaunang Gramatika ng Rune';
+
+  @override
+  String get growthPhaseBook3 => 'Pag-unawa sa Mahika ng Elemento';
+
+  @override
+  String get growthPhaseBook4 => 'Harmonya ng Liwanag ng Bituin';
+
+  @override
+  String get growthPhaseBook5 => 'Pagde-decipher ng Artifact';
+
+  @override
+  String get growthPhaseBook6 => 'Ipinagbabawal na Aklat ng Pantas';
+
+  @override
+  String get growthPhaseBook7 => 'Pakikipag-ugnayan sa Mga Espiritu';
+
+  @override
+  String get growthPhaseBook8 => 'Grimoire ng Katotohanan';
+
+  @override
+  String get growthPhaseBook9 => 'Tala ng Makapangyarihan sa Lahat';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'Antas ng Mahiwagang Aklat $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'Kaalaman: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'Mana: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'Ang kaalaman ng mahiwagang aklat ay lumalim! Exp +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'I-upgrade ang Mahiwagang Aklat ($amount Pulbos)';
+  }
+
+  @override
+  String get devDustCharged => 'Dev: 1000 Mahiwagang Pulbos na-charge!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'Mga Balita at Notification';
+
+  @override
+  String get menuMailboxTitle => 'Mailbox';
+
+  @override
+  String get menuMailboxSubtitle => 'Tingnan ang mga bagong update at regalo';
+
+  @override
+  String get mailboxTitle => 'Mailbox';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'Na-claim ang lahat ng reward.';
+
+  @override
+  String get mailboxClaimAll => 'I-claim Lahat';
+
+  @override
+  String get mailboxEmpty => 'Walang laman ang mailbox.';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'Mula kay: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'Inangkin';
+
+  @override
+  String get mailboxClaim => 'Claim';
+
+  @override
+  String get mailboxAttachedRewards => 'Naka-attach na Mga Gantimpala';
+
+  @override
+  String get mailboxRewardClaimed => 'Na-claim ang reward.';
+
+  @override
+  String get mailboxClaimReward => 'Mag-claim ng Gantimpala';
+
+  @override
+  String get menuNotificationCenterTitle => 'Notification Center';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'Tingnan ang mga pinakabagong notification at anunsyo';
+
+  @override
+  String get authSignupComplete =>
+      'Kumpleto na ang pag-sign up. Pakisuri ang email na ipinadala sa iyo upang i-verify.';
+
+  @override
+  String chatInitError(String error) {
+    return 'Nagkaroon ng error sa pagsisimula:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Nagkaroon ng error:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Posisyon $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Nabigo ang pagsasalin: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'Pumili ng petsa';
+
+  @override
+  String get diarySavedSuccess => 'Matagumpay na na-save ang talaarawan!';
+
+  @override
+  String get diarySaveFailed => 'Nabigong i-save ang diary.';
+
+  @override
+  String get diaryWriteTitle => 'Sumulat ng Diary';
+
+  @override
+  String get diaryWriteHint =>
+      'Huwag mag-atubiling isulat ang iyong mga saloobin o damdamin tungkol sa pagbabasa ngayon.';
+
+  @override
+  String get diarySaveButton => 'I-save sa Diary';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'Ang Fortune Ngayon';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. Nakaraan';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. Kasalukuyan';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. Kinabukasan';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. Kasalukuyan';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. Nakaraan';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. Kinabukasan';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. Dahilan';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. Potensyal';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 =>
+      '1. Kasalukuyang sitwasyon at problema';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. Dahilan ng problema';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 =>
+      '3. Payo para sa paglutas';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. Inaasahang resulta';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt =>
+      '1. Kasalukuyang sitwasyon';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. Balakid';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. Walang malay';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. Nakaraan';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. Malay na Layunin';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. Malapit na Hinaharap';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. Saloobin';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 =>
+      '8. Panlabas na Kapaligiran';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. Pag-asa at Takot';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. Pangwakas na Resulta';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. Payo';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. Kapaligiran';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. Resulta';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount Mga barya';
+  }
+
+  @override
+  String get serviceLoginRequired => 'Kinakailangan ang pag-login.';
+
+  @override
+  String get serviceDefaultNickname => 'Witch na walang pangalan';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'May naganap na error habang binabasa ang kapalaran: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'Gumagamit';
+
+  @override
+  String get listenToInterpretation => 'Makinig sa Interpretasyon';
+
+  @override
+  String get faqQ1 => 'Maaari ba akong magbasa ng tarot araw-araw?';
+
+  @override
+  String get faqA1 =>
+      'Oo, magandang basahin ang daloy ng ngayon na may magaan na puso. Gayunpaman, hindi inirerekomenda na panatilihing paulit-ulit ang pagguhit ng mga card para sa parehong tanong.';
+
+  @override
+  String get faqQ2 => 'Paano ako makakakuha ng magic dust?';
+
+  @override
+  String get faqA2 =>
+      'Maaari kang makakuha ng magic dust sa pamamagitan ng pagdalo sa app, mga aktibidad sa komunidad, o pagbili sa shop.';
+
+  @override
+  String get faqQ3 => 'Ano ang dapat kong gawin kung masama ang resulta?';
+
+  @override
+  String get faqA3 =>
+      'Ang Tarot ay hindi isang nakapirming hinaharap, ngunit isang payo. Gumamit ng masamang resulta bilang isang milestone upang balaan ka sa mga panganib na iiwasan.';
+
+  @override
+  String get faqQ4 =>
+      'Paano ko makikita ang aking mga nakaraang pagbabasa ng tarot?';
+
+  @override
+  String get faqA4 =>
+      'Maaari mong suriin ang iyong mga naka-save na tala sa pagbasa ayon sa petsa sa tab na \'Diary\' (Calendar) sa ibabang menu anumang oras.';
+
+  @override
+  String get faqQ5 => 'Paano ako magbabahagi sa komunidad?';
+
+  @override
+  String get faqA5 =>
+      'I-on ang switch na \'Ibahagi sa Komunidad\' sa screen ng detalye ng talaarawan na naka-save sa talaarawan upang ibahagi ang iyong pagbabasa sa ibang mga user.';
+
+  @override
+  String get faqQ6 => 'Paano ko mapapalitan ang aking palayaw o profile?';
+
+  @override
+  String get faqA6 =>
+      'Maaari mong baguhin ang iyong palayaw at icon anumang oras sa pamamagitan ng pagpindot sa lugar ng profile sa tuktok ng tab na \'Aking Menu\'.';
+
+  @override
+  String get faqQ7 => 'Saan ko maaaring i-on at i-off ang mga notification?';
+
+  @override
+  String get faqA7 =>
+      'Makokontrol mo ang mga notification mula sa app ng mga setting ng iyong device, o mula sa menu ng mga kagustuhan na ia-update sa hinaharap.';
+
+  @override
+  String get faqQ8 => 'Maaari ko bang makita ang mga tarot diary ng ibang tao?';
+
+  @override
+  String get faqA8 =>
+      'Oo, maaari mong tingnan at i-cheer ang mga kawili-wiling pagbabasa ng tarot na isinapubliko ng ibang mga wizard (mga user) sa tab na \'Komunidad\' sa ibaba.';
+
+  @override
+  String get faqQ9 =>
+      'Saan ko masusuri ang aking premium na subscription o kasaysayan ng pagbabayad?';
+
+  @override
+  String get faqA9 =>
+      'Kung pipiliin mo ang \'Kasaysayan ng Pagbabayad\' sa tab na [Aking Impormasyon] sa ibabang menu, maaari mong tingnan ang iyong kasaysayan ng pagbabayad ng barya at nakuha ang magic dust nang detalyado.';
+
+  @override
+  String get faqQ10 =>
+      'Gusto kong pag-aralan ang kahulugan ng mga Tarot card nang personal. Paano ko magagawa iyon?';
+
+  @override
+  String get faqA10 =>
+      'Kung pupunta ka sa tab na [Card Encyclopedia] sa ibabang menu, maaari mong malayang tingnan ang patayo at baligtad na mga kahulugan, simbolo, at malalalim na pagpapaliwanag ng lahat ng 78 card.';
+
+  @override
+  String get faqQ11 => 'Paano ko matatanggal ang aking account o mag-withdraw?';
+
+  @override
+  String get faqA11 =>
+      'Mahahanap mo ang button na \'Delete Account\' sa pamamagitan ng pagpunta sa menu ng Mga Setting ng Account sa pamamagitan ng icon na gear sa kanang tuktok ng tab na [Aking Impormasyon]. Ang lahat ng mga talaarawan at data ay permanenteng tatanggalin sa pag-withdraw.';
+
+  @override
+  String get faqQ12 =>
+      'Saan ako makikipag-ugnayan kung nakatagpo ako ng error o may mga mungkahi?';
+
+  @override
+  String get faqA12 =>
+      'Kung magpapadala ka ng mga detalye sa pamamagitan ng \'Contact Customer Service\' na inihahanda sa ibaba ng kasalukuyang screen o sa pamamagitan ng opisyal na email, mabilis naming susuriin at mahiwagang lutasin ito para sa iyo.';
+
+  @override
+  String get myMenuContactUs => 'Makipag-ugnayan sa Amin';
+
+  @override
+  String get myMenuContactUsSubtitle => 'Mga katanungan at mungkahi';
+
+  @override
+  String get contactDialogTitle => 'Makipag-ugnayan sa Amin';
+
+  @override
+  String get contactTypeBug => 'Ulat ng Bug';
+
+  @override
+  String get contactTypeFeature => 'Mungkahi sa Tampok';
+
+  @override
+  String get contactTypePayment => 'Isyu sa Pagbabayad';
+
+  @override
+  String get contactTypeOther => 'Iba Pang Pagtatanong';
+
+  @override
+  String get contactHint =>
+      'Mangyaring isulat ang iyong pagtatanong nang detalyado.';
+
+  @override
+  String get contactSend => 'Ipadala';
+
+  @override
+  String get contactCancel => 'Kanselahin';
+
+  @override
+  String get contactEmptyErrorTitle => 'Pansinin';
+
+  @override
+  String get contactEmptyErrorMessage =>
+      'Pakipasok ang nilalaman ng iyong pagtatanong.';
 }

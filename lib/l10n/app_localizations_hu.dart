@@ -4425,4 +4425,437 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'Mentve az eszközre.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level Fázis: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'Varázskönyv fejlesztés';
+
+  @override
+  String get growthPhaseCrystal0 => 'Abisszális mágia';
+
+  @override
+  String get growthPhaseCrystal1 => 'A Szellem Szemének megnyitása';
+
+  @override
+  String get growthPhaseCrystal2 => 'Az Anya Természet Bölcsessége';
+
+  @override
+  String get growthPhaseCrystal3 => 'A Nap Esszenciája';
+
+  @override
+  String get growthPhaseCrystal4 => 'Égi Aurora';
+
+  @override
+  String get growthPhaseCrystal5 => 'Isteni Birodalom';
+
+  @override
+  String get growthPhaseCrystal6 => 'A Teremtés Mágiája';
+
+  @override
+  String get growthPhaseCrystal7 => 'Az Univerzum Lehelete';
+
+  @override
+  String get growthPhaseCrystal8 => 'Örök Fény';
+
+  @override
+  String get growthPhaseCrystal9 => 'Tiszta Fehér Ébredés';
+
+  @override
+  String get growthPhaseCrystal10 => 'Transzcendencia';
+
+  @override
+  String get growthPhaseBook0 => 'Tanuló Íróeszközei';
+
+  @override
+  String get growthPhaseBook1 => 'Alapvető Mágia Tankönyv';
+
+  @override
+  String get growthPhaseBook2 => 'Ősi Rúna Nyelvtan';
+
+  @override
+  String get growthPhaseBook3 => 'Az Elemi Mágia Megértése';
+
+  @override
+  String get growthPhaseBook4 => 'Csillagfény Harmóniája';
+
+  @override
+  String get growthPhaseBook5 => 'Artefaktum Fejtés';
+
+  @override
+  String get growthPhaseBook6 => 'A Bölcs Tiltott Könyve';
+
+  @override
+  String get growthPhaseBook7 => 'Közösség a Szellemekkel';
+
+  @override
+  String get growthPhaseBook8 => 'Az Igazság Grimoire-ja';
+
+  @override
+  String get growthPhaseBook9 => 'Mindenható Feljegyzés';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'Varázskönyv szint $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'Tudás: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'Mana: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'A varázskönyv tudása elmélyült! Exp +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'Varázskönyv fejlesztése ($amount por)';
+  }
+
+  @override
+  String get devDustCharged => 'Fejlesztői: 1000 varázspor feltöltve!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'Hírek és értesítések';
+
+  @override
+  String get menuMailboxTitle => 'Postafiók';
+
+  @override
+  String get menuMailboxSubtitle =>
+      'Nézze meg az új frissítéseket és ajándékokat';
+
+  @override
+  String get mailboxTitle => 'Postafiók';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'Minden jutalmat igényeltek.';
+
+  @override
+  String get mailboxClaimAll => 'Mindent igényel';
+
+  @override
+  String get mailboxEmpty => 'A postafiók üres.';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'Feladó: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'Azt állította';
+
+  @override
+  String get mailboxClaim => 'Követelés';
+
+  @override
+  String get mailboxAttachedRewards => 'Mellékelt jutalmak';
+
+  @override
+  String get mailboxRewardClaimed => 'Jutalom igényelt.';
+
+  @override
+  String get mailboxClaimReward => 'Jutalom igénylése';
+
+  @override
+  String get menuNotificationCenterTitle => 'Értesítési Központ';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'Tekintse meg a legújabb értesítéseket és közleményeket';
+
+  @override
+  String get authSignupComplete =>
+      'A regisztráció befejeződött. Kérjük, ellenőrizze az Önnek küldött e-mailt az ellenőrzéshez.';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initialization error occurred:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Error occurred:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Sikertelen fordítás: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'Válasszon egy dátumot';
+
+  @override
+  String get diarySavedSuccess => 'A napló sikeresen elmentve!';
+
+  @override
+  String get diarySaveFailed => 'Nem sikerült menteni a naplót.';
+
+  @override
+  String get diaryWriteTitle => 'Írj naplót';
+
+  @override
+  String get diaryWriteHint =>
+      'Nyugodtan írja le gondolatait vagy érzéseit a mai olvasással kapcsolatban.';
+
+  @override
+  String get diarySaveButton => 'Mentés a Naplóba';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Verzió: $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'A mai szerencse';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. Múlt';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. Jelen';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. Jövő';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. Aktuális';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. Múlt';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. Jövő';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. Ok';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. Potenciális';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 =>
+      '1. Jelenlegi helyzet és probléma';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. A probléma oka';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 =>
+      '3. Tanács a megoldáshoz';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. Várható eredmény';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. Jelenlegi helyzet';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. Akadály';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. Eszméletlen';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. Múlt';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. Tudatos Cél';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. Közeljövő';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. Hozzáállás';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 => '8. Külső környezet';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. Remények és félelmek';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. Végső eredmény';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. Tanács';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. Környék';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. Eredmény';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bónusz $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount érmék';
+  }
+
+  @override
+  String get serviceLoginRequired => 'Bejelentkezés szükséges.';
+
+  @override
+  String get serviceDefaultNickname => 'Névtelen Boszorkány';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'Hiba történt a szerencse olvasása közben: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'Felhasználó';
+
+  @override
+  String get listenToInterpretation => 'Hallgassa meg az értelmezést';
+
+  @override
+  String get faqQ1 => 'Olvashatok tarot minden nap?';
+
+  @override
+  String get faqA1 =>
+      'Igen, jó könnyű szívvel olvasni a mai nap folyását. Nem ajánlott azonban ismételten megtartani a rajzkártyákat ugyanarra a kérdésre.';
+
+  @override
+  String get faqQ2 => 'Hogyan szerezhetek varázsport?';
+
+  @override
+  String get faqA2 =>
+      'Varázsporhoz juthat az alkalmazásokban való részvétel, a közösségi tevékenységek vagy az üzletben történő vásárlás révén.';
+
+  @override
+  String get faqQ3 => 'Mit tegyek, ha rossz az eredmény?';
+
+  @override
+  String get faqA3 =>
+      'A Tarot nem fix jövő, hanem tanács. A rossz eredményt mérföldkőként használja, hogy figyelmeztesse az elkerülendő kockázatokra.';
+
+  @override
+  String get faqQ4 => 'Hogyan láthatom a korábbi tarot olvasmányaimat?';
+
+  @override
+  String get faqA4 =>
+      'A mentett olvasási rekordokat dátum szerint bármikor megtekintheti az alsó menü \"Naptár\" (Naptár) lapján.';
+
+  @override
+  String get faqQ5 => 'Hogyan oszthatom meg a közösséggel?';
+
+  @override
+  String get faqA5 =>
+      'Kapcsolja be a „Megosztás a közösséggel” kapcsolót a naplóba mentett naplórészletes képernyőn, hogy megoszthassa olvasmányait más felhasználókkal.';
+
+  @override
+  String get faqQ6 =>
+      'Hogyan tudom megváltoztatni a becenevemet vagy a profilomat?';
+
+  @override
+  String get faqA6 =>
+      'Becenevét és ikonját bármikor megváltoztathatja, ha megérinti a profilterületet a „Saját menü” lap tetején.';
+
+  @override
+  String get faqQ7 => 'Hol tudom be- és kikapcsolni az értesítéseket?';
+
+  @override
+  String get faqA7 =>
+      'Az értesítéseket az eszköz beállítási alkalmazásából vagy a jövőben frissítendő beállítások menüből irányíthatja.';
+
+  @override
+  String get faqQ8 => 'Megnézhetem mások tarot naplóit?';
+
+  @override
+  String get faqA8 =>
+      'Igen, megtekintheti és szurkolhat az érdekes tarot olvasmányoknak, amelyeket más varázslók (felhasználók) tettek nyilvánosságra az alul található „Közösség” lapon.';
+
+  @override
+  String get faqQ9 =>
+      'Hol nézhetem meg prémium előfizetésemet vagy fizetési előzményeimet?';
+
+  @override
+  String get faqA9 =>
+      'Ha az alsó menü [Saját adatok] lapján a „Fizetési előzmények” lehetőséget választja, részletesen ellenőrizheti érmefizetési előzményeit és a szerzett varázsporát.';
+
+  @override
+  String get faqQ10 =>
+      'Személyesen szeretném tanulmányozni a Tarot kártyák jelentését. Hogyan tudom ezt megtenni?';
+
+  @override
+  String get faqA10 =>
+      'Ha az alsó menüben a [Card Encyclopedia] fülre lép, szabadon megtekintheti mind a 78 kártya függőleges és fordított jelentését, szimbólumait és részletes magyarázatát.';
+
+  @override
+  String get faqQ11 => 'Hogyan tudom törölni vagy visszavonni a fiókomat?';
+
+  @override
+  String get faqA11 =>
+      'A „Fiók törlése” gombot a Fiókbeállítások menüben találja meg a [Saját adatok] lap jobb felső sarkában található fogaskerék ikon segítségével. Elálláskor minden napló és adat véglegesen törlődik.';
+
+  @override
+  String get faqQ12 =>
+      'Hova fordulhatok, ha hibát találok, vagy javaslataim vannak?';
+
+  @override
+  String get faqA12 =>
+      'Ha az aktuális képernyő alján készülő „Kapcsolatfelvétel az ügyfélszolgálattal” menüponton keresztül vagy hivatalos e-mailben küldi el a részleteket, mi gyorsan ellenőrizzük és varázslatosan megoldjuk Önnek.';
+
+  @override
+  String get myMenuContactUs => 'Lépjen kapcsolatba velünk';
+
+  @override
+  String get myMenuContactUsSubtitle => 'Kérdések és javaslatok';
+
+  @override
+  String get contactDialogTitle => 'Lépjen kapcsolatba velünk';
+
+  @override
+  String get contactTypeBug => 'Hibajelentés';
+
+  @override
+  String get contactTypeFeature => 'Funkciójavaslat';
+
+  @override
+  String get contactTypePayment => 'Fizetési probléma';
+
+  @override
+  String get contactTypeOther => 'Egyéb megkeresés';
+
+  @override
+  String get contactHint => 'Kérem írja meg érdeklődését részletesen.';
+
+  @override
+  String get contactSend => 'Elküld';
+
+  @override
+  String get contactCancel => 'Mégsem';
+
+  @override
+  String get contactEmptyErrorTitle => 'Értesítés';
+
+  @override
+  String get contactEmptyErrorMessage =>
+      'Kérjük, adja meg a megkeresés tartalmát.';
 }

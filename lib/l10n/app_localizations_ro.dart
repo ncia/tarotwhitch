@@ -4434,4 +4434,435 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'Salvat pe dispozitiv.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level Fază: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'Îmbunătățire Carte Magică';
+
+  @override
+  String get growthPhaseCrystal0 => 'Magie Abisală';
+
+  @override
+  String get growthPhaseCrystal1 => 'Deschiderea Ochiului Spiritului';
+
+  @override
+  String get growthPhaseCrystal2 => 'Înțelepciunea Mamei Naturi';
+
+  @override
+  String get growthPhaseCrystal3 => 'Esența Soarelui';
+
+  @override
+  String get growthPhaseCrystal4 => 'Auroră Celestă';
+
+  @override
+  String get growthPhaseCrystal5 => 'Tărâm Divin';
+
+  @override
+  String get growthPhaseCrystal6 => 'Magia Creației';
+
+  @override
+  String get growthPhaseCrystal7 => 'Suflul Universului';
+
+  @override
+  String get growthPhaseCrystal8 => 'Lumină Eternă';
+
+  @override
+  String get growthPhaseCrystal9 => 'Trezire Alb Pură';
+
+  @override
+  String get growthPhaseCrystal10 => 'Transcendență';
+
+  @override
+  String get growthPhaseBook0 => 'Instrumente de Scris ale Ucenicului';
+
+  @override
+  String get growthPhaseBook1 => 'Manual de Magie de Bază';
+
+  @override
+  String get growthPhaseBook2 => 'Gramatica Runelor Antice';
+
+  @override
+  String get growthPhaseBook3 => 'Înțelegerea Magiei Elementale';
+
+  @override
+  String get growthPhaseBook4 => 'Armonia Luminii Stelare';
+
+  @override
+  String get growthPhaseBook5 => 'Descifrarea Artefactelor';
+
+  @override
+  String get growthPhaseBook6 => 'Cartea Interzisă a Înțeleptului';
+
+  @override
+  String get growthPhaseBook7 => 'Comuniune cu Spiritele';
+
+  @override
+  String get growthPhaseBook8 => 'Grimoriul Adevărului';
+
+  @override
+  String get growthPhaseBook9 => 'Cronică Omnipotentă';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'Nivelul Cărții Magice $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'Cunoștințe: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'Mană: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'Cunoștințele cărții magice s-au aprofundat! Exp +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'Îmbunătățește Cartea Magică ($amount Praf)';
+  }
+
+  @override
+  String get devDustCharged => 'Dev: 1000 Praf Magic încărcat!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'Știri și notificări';
+
+  @override
+  String get menuMailboxTitle => 'Cutia poștală';
+
+  @override
+  String get menuMailboxSubtitle => 'Verificați noile actualizări și cadouri';
+
+  @override
+  String get mailboxTitle => 'Cutia poștală';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'Toate recompensele revendicate.';
+
+  @override
+  String get mailboxClaimAll => 'Revendicați totul';
+
+  @override
+  String get mailboxEmpty => 'Cutia poștală este goală.';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'De la: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'Revendicat';
+
+  @override
+  String get mailboxClaim => 'Revendicare';
+
+  @override
+  String get mailboxAttachedRewards => 'Recompense atasate';
+
+  @override
+  String get mailboxRewardClaimed => 'Recompensa revendicată.';
+
+  @override
+  String get mailboxClaimReward => 'Solicitați recompensa';
+
+  @override
+  String get menuNotificationCenterTitle => 'Centru de notificare';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'Verificați cele mai recente notificări și anunțuri';
+
+  @override
+  String get authSignupComplete =>
+      'Înregistrarea este completă. Vă rugăm să verificați e-mailul trimis pentru a verifica.';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initialization error occurred:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Error occurred:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Translation failed: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'Selectați o dată';
+
+  @override
+  String get diarySavedSuccess => 'Jurnalul salvat cu succes!';
+
+  @override
+  String get diarySaveFailed => 'Nu s-a salvat jurnalul.';
+
+  @override
+  String get diaryWriteTitle => 'Scrie Jurnal';
+
+  @override
+  String get diaryWriteHint =>
+      'Simțiți-vă liber să vă scrieți gândurile sau sentimentele despre lectura de astăzi.';
+
+  @override
+  String get diarySaveButton => 'Salvați în jurnal';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'Averea de azi';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. Trecut';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. Prezent';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. Viitorul';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. Curent';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. Trecut';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. Viitorul';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. Cauza';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. Potenţial';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 =>
+      '1. Situația actuală și problema';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. Cauza problemei';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 =>
+      '3. Sfaturi pentru rezolvare';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. Rezultatul așteptat';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. Situația actuală';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. Obstacol';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. Inconștient';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. Trecut';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. Scopul conștient';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. Viitorul Apropiat';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. Atitudine';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 => '8. Mediul extern';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. Speranțe și temeri';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. Rezultatul final';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. Sfaturi';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. Împrejurimi';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. Rezultat';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount monede';
+  }
+
+  @override
+  String get serviceLoginRequired => 'Este necesară autentificarea.';
+
+  @override
+  String get serviceDefaultNickname => 'Vrăjitoare fără nume';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'An error occurred while reading the fortune: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'Utilizator';
+
+  @override
+  String get listenToInterpretation => 'Ascultă Interpretarea';
+
+  @override
+  String get faqQ1 => 'Pot să citesc tarot în fiecare zi?';
+
+  @override
+  String get faqA1 =>
+      'Da, este bine să citești fluxul de azi cu o inimă ușoară. Cu toate acestea, nu este recomandat să continuați să desenați cărți în mod repetat pentru aceeași întrebare.';
+
+  @override
+  String get faqQ2 => 'Cum obțin praf magic?';
+
+  @override
+  String get faqA2 =>
+      'Puteți obține praf magic prin participarea la aplicații, activități în comunitate sau achiziționarea din magazin.';
+
+  @override
+  String get faqQ3 => 'Ce ar trebui să fac dacă rezultatul este rău?';
+
+  @override
+  String get faqA3 =>
+      'Tarotul nu este un viitor fix, ci un sfat. Folosiți un rezultat prost ca piatră de hotar pentru a vă avertiza asupra riscurilor de evitat.';
+
+  @override
+  String get faqQ4 => 'Cum pot să văd lecturile mele anterioare de tarot?';
+
+  @override
+  String get faqA4 =>
+      'Puteți examina oricând înregistrările de lectură salvate în funcție de dată în fila „Jurnal” (Calendar) din meniul de jos.';
+
+  @override
+  String get faqQ5 => 'Cum împărtășesc comunității?';
+
+  @override
+  String get faqA5 =>
+      'Activați comutatorul „Partajare în comunitate” de pe ecranul cu detalii ale jurnalului salvat în jurnal pentru a partaja citirea dvs. cu alți utilizatori.';
+
+  @override
+  String get faqQ6 => 'Cum îmi pot schimba porecla sau profilul?';
+
+  @override
+  String get faqA6 =>
+      'Îți poți schimba porecla și pictograma oricând atingând zona de profil din partea de sus a filei „Meniul meu”.';
+
+  @override
+  String get faqQ7 => 'Unde pot activa și dezactiva notificările?';
+
+  @override
+  String get faqA7 =>
+      'Puteți controla notificările din aplicația de setări a dispozitivului sau din meniul de preferințe pentru a fi actualizate în viitor.';
+
+  @override
+  String get faqQ8 => 'Pot vedea jurnalele de tarot ale altora?';
+
+  @override
+  String get faqA8 =>
+      'Da, puteți vedea și încuraja lecturile interesante de tarot pe care alți vrăjitori (utilizatori) le-au făcut publice în fila „Comunitate” din partea de jos.';
+
+  @override
+  String get faqQ9 =>
+      'Unde îmi pot verifica abonamentul premium sau istoricul plăților?';
+
+  @override
+  String get faqA9 =>
+      'Dacă selectați „Istoricul plăților” în fila [Informațiile mele] din meniul de jos, puteți verifica istoricul plăților cu monede și praful magic dobândit în detaliu.';
+
+  @override
+  String get faqQ10 =>
+      'Vreau să studiez personal semnificația cărților de Tarot. Cum pot face asta?';
+
+  @override
+  String get faqA10 =>
+      'Dacă accesați fila [Card Encyclopedia] din meniul de jos, puteți vizualiza liber semnificațiile verticale și inversate, simbolurile și explicațiile aprofundate ale tuturor celor 78 de carduri.';
+
+  @override
+  String get faqQ11 => 'Cum îmi pot șterge contul sau retrag?';
+
+  @override
+  String get faqA11 =>
+      'Puteți găsi butonul „Ștergeți contul” accesând meniul Setări cont prin pictograma roată din dreapta sus a filei [Informațiile mele]. Toate agendele și datele vor fi șterse definitiv la retragere.';
+
+  @override
+  String get faqQ12 =>
+      'Unde pot contacta dacă întâmpin o eroare sau am sugestii?';
+
+  @override
+  String get faqA12 =>
+      'Dacă trimiteți detalii prin „Contactați Serviciul Clienți”, care este în curs de pregătire în partea de jos a ecranului curent sau prin e-mail oficial, vom verifica rapid și o vom rezolva magic pentru dvs.';
+
+  @override
+  String get myMenuContactUs => 'Contactaţi-ne';
+
+  @override
+  String get myMenuContactUsSubtitle => 'Întrebări și sugestii';
+
+  @override
+  String get contactDialogTitle => 'Contactaţi-ne';
+
+  @override
+  String get contactTypeBug => 'Raport de eroare';
+
+  @override
+  String get contactTypeFeature => 'Sugestie de caracteristici';
+
+  @override
+  String get contactTypePayment => 'Problemă de plată';
+
+  @override
+  String get contactTypeOther => 'Altă anchetă';
+
+  @override
+  String get contactHint => 'Vă rugăm să scrieți întrebarea dvs. în detaliu.';
+
+  @override
+  String get contactSend => 'Trimite';
+
+  @override
+  String get contactCancel => 'Anula';
+
+  @override
+  String get contactEmptyErrorTitle => 'Observa';
+
+  @override
+  String get contactEmptyErrorMessage =>
+      'Vă rugăm să introduceți conținutul întrebării dvs.';
 }

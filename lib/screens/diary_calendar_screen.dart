@@ -239,7 +239,7 @@ class _DiaryCalendarScreenState extends State<DiaryCalendarScreen> {
                           ),
                           const SizedBox(height: 4),
                           Text(
-                            '${diary.spreadType == '타로 상담' ? AppLocalizations.of(context)!.diaryTarotConsult : AppLocalizations.of(context)!.diaryTarotReading} - ${TarotLocalizations.getName(context, card.id)}',
+                            '${(diary.spreadType == '타로 상담' || diary.spreadType == AppLocalizations.of(context)!.diaryTarotConsult) ? AppLocalizations.of(context)!.diaryTarotConsult : AppLocalizations.of(context)!.diaryTarotReading} - ${TarotLocalizations.getName(context, card.id)}',
                             style: const TextStyle(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,

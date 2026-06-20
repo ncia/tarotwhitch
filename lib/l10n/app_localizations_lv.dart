@@ -4430,4 +4430,433 @@ class AppLocalizationsLv extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'Saglabāts ierīcē.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level Fāze: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'Burvju grāmatas uzlabošana';
+
+  @override
+  String get growthPhaseCrystal0 => 'Bezgalīgā maģija';
+
+  @override
+  String get growthPhaseCrystal1 => 'Gara acs atvēršana';
+
+  @override
+  String get growthPhaseCrystal2 => 'Mātes Dabas gudrība';
+
+  @override
+  String get growthPhaseCrystal3 => 'Saules esence';
+
+  @override
+  String get growthPhaseCrystal4 => 'Debesu aurora';
+
+  @override
+  String get growthPhaseCrystal5 => 'Dievišķā valstība';
+
+  @override
+  String get growthPhaseCrystal6 => 'Radīšanas maģija';
+
+  @override
+  String get growthPhaseCrystal7 => 'Visuma elpa';
+
+  @override
+  String get growthPhaseCrystal8 => 'Mūžīgā gaisma';
+
+  @override
+  String get growthPhaseCrystal9 => 'Tīra baltā atmoda';
+
+  @override
+  String get growthPhaseCrystal10 => 'Transcendence';
+
+  @override
+  String get growthPhaseBook0 => 'Mācekļa rakstīšanas rīki';
+
+  @override
+  String get growthPhaseBook1 => 'Pamata maģijas pamācība';
+
+  @override
+  String get growthPhaseBook2 => 'Seno rūnu gramatika';
+
+  @override
+  String get growthPhaseBook3 => 'Elementārās maģijas izpratne';
+
+  @override
+  String get growthPhaseBook4 => 'Zvaigžņu gaismas harmonija';
+
+  @override
+  String get growthPhaseBook5 => 'Artefaktu atšifrēšana';
+
+  @override
+  String get growthPhaseBook6 => 'Gudrā aizliegtā grāmata';
+
+  @override
+  String get growthPhaseBook7 => 'Saziņa ar gariem';
+
+  @override
+  String get growthPhaseBook8 => 'Patiesības grimoārs';
+
+  @override
+  String get growthPhaseBook9 => 'Visvarenais ieraksts';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'Burvju grāmatas līmenis $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'Zināšanas: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'Mana: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'Burvju grāmatas zināšanas ir padziļinājušās! Exp +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'Uzlabot burvju grāmatu ($amount putekļi)';
+  }
+
+  @override
+  String get devDustCharged => 'Izstr.: 1000 maģisko putekļu uzlādēti!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'Ziņas un paziņojumi';
+
+  @override
+  String get menuMailboxTitle => 'Pastkaste';
+
+  @override
+  String get menuMailboxSubtitle => 'Pārbaudiet jaunumus un dāvanas';
+
+  @override
+  String get mailboxTitle => 'Pastkaste';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'Visas balvas ir pieprasītas.';
+
+  @override
+  String get mailboxClaimAll => 'Pieprasīt visu';
+
+  @override
+  String get mailboxEmpty => 'Pastkaste ir tukša.';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'No: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'Pretenzija';
+
+  @override
+  String get mailboxClaim => 'Pretenzija';
+
+  @override
+  String get mailboxAttachedRewards => 'Pievienotās balvas';
+
+  @override
+  String get mailboxRewardClaimed => 'Atlīdzība pieprasīta.';
+
+  @override
+  String get mailboxClaimReward => 'Pieprasiet atlīdzību';
+
+  @override
+  String get menuNotificationCenterTitle => 'Paziņojumu centrs';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'Pārbaudiet jaunākos paziņojumus un paziņojumus';
+
+  @override
+  String get authSignupComplete =>
+      'Reģistrācija ir pabeigta. Lūdzu, pārbaudiet jums nosūtīto e-pastu, lai apstiprinātu.';
+
+  @override
+  String chatInitError(String error) {
+    return 'Radās inicializācijas kļūda:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Radās kļūda:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Pozīcija $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Tulkošana neizdevās: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'Izvēlieties datumu';
+
+  @override
+  String get diarySavedSuccess => 'Dienasgrāmata veiksmīgi saglabāta!';
+
+  @override
+  String get diarySaveFailed => 'Neizdevās saglabāt dienasgrāmatu.';
+
+  @override
+  String get diaryWriteTitle => 'Rakstīt dienasgrāmatu';
+
+  @override
+  String get diaryWriteHint =>
+      'Droši rakstiet savas domas vai sajūtas par šodienas lasīšanu.';
+
+  @override
+  String get diarySaveButton => 'Saglabāt dienasgrāmatā';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Versija $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'Šodienas Fortūna';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. Pagātne';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. Klāt';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. Nākotne';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. Pašreizējais';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. Pagātne';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. Nākotne';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. Cēlonis';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. Potenciāls';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 =>
+      '1. Pašreizējā situācija un problēma';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. Problēmas cēlonis';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 => '3. Padoms risinājumam';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. Paredzamais rezultāts';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt =>
+      '1. Pašreizējā situācija';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. Šķērslis';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. Bezsamaņā';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. Pagātne';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. Apzināts mērķis';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. Tuvākā nākotne';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. Attieksme';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 => '8. Ārējā vide';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. Cerības un bailes';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. Gala rezultāts';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. Padoms';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. Apkārtne';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. Rezultāts';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonuss $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount Monētas';
+  }
+
+  @override
+  String get serviceLoginRequired => 'Pieteikšanās ir nepieciešama.';
+
+  @override
+  String get serviceDefaultNickname => 'Bezvārda ragana';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'Lasot laimi, radās kļūda: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'Lietotājs';
+
+  @override
+  String get listenToInterpretation => 'Klausieties interpretāciju';
+
+  @override
+  String get faqQ1 => 'Vai es varu lasīt taro katru dienu?';
+
+  @override
+  String get faqA1 =>
+      'Jā, ir labi ar vieglu sirdi lasīt šodienas plūdumu. Tomēr nav ieteicams atkārtoti glabāt zīmēšanas kartītes vienam un tam pašam jautājumam.';
+
+  @override
+  String get faqQ2 => 'Kā iegūt burvju putekļus?';
+
+  @override
+  String get faqA2 =>
+      'Jūs varat iegūt burvju putekļus, apmeklējot lietotnes, veicot kopienas aktivitātes vai iepērkoties veikalā.';
+
+  @override
+  String get faqQ3 => 'Ko darīt, ja rezultāts ir slikts?';
+
+  @override
+  String get faqA3 =>
+      'Taro nav noteikta nākotne, bet gan padoms. Izmantojiet sliktu rezultātu kā atskaites punktu, lai brīdinātu par riskiem, no kuriem jāizvairās.';
+
+  @override
+  String get faqQ4 => 'Kā es varu redzēt savus iepriekšējos Tarot rādījumus?';
+
+  @override
+  String get faqA4 =>
+      'Jebkurā laikā varat pārskatīt savus saglabātos lasīšanas ierakstus pēc datuma apakšējās izvēlnes cilnē \"Dienasgrāmata\" (Kalendārs).';
+
+  @override
+  String get faqQ5 => 'Kā es varu kopīgot saturu ar kopienu?';
+
+  @override
+  String get faqA5 =>
+      'Dienasgrāmatā saglabātajā dienasgrāmatas informācijas ekrānā ieslēdziet slēdzi Kopīgot ar kopienu, lai dalītos ar citiem lietotājiem.';
+
+  @override
+  String get faqQ6 => 'Kā es varu mainīt savu segvārdu vai profilu?';
+
+  @override
+  String get faqA6 =>
+      'Jebkurā laikā varat mainīt savu segvārdu un ikonu, pieskaroties profila apgabalam cilnes Mana izvēlne augšdaļā.';
+
+  @override
+  String get faqQ7 => 'Kur varu ieslēgt un izslēgt paziņojumus?';
+
+  @override
+  String get faqA7 =>
+      'Paziņojumus varat kontrolēt ierīces iestatījumu lietotnē vai preferenču izvēlnē, kas tiks atjaunināta nākotnē.';
+
+  @override
+  String get faqQ8 => 'Vai es varu redzēt citu cilvēku taro dienasgrāmatas?';
+
+  @override
+  String get faqA8 =>
+      'Jā, jūs varat skatīt un priecāties par interesantiem tarot lasījumiem, ko citi burvji (lietotāji) ir publiskojuši cilnē \"Kopiena\" apakšā.';
+
+  @override
+  String get faqQ9 =>
+      'Kur es varu pārbaudīt savu premium abonementu vai maksājumu vēsturi?';
+
+  @override
+  String get faqA9 =>
+      'Ja apakšējās izvēlnes cilnē [Mana informācija] atlasāt “Maksājumu vēsture”, varat detalizēti pārbaudīt savu monētu maksājumu vēsturi un iegūtos burvju putekļus.';
+
+  @override
+  String get faqQ10 =>
+      'Es vēlos personīgi izpētīt Taro kāršu nozīmi. Kā es to varu izdarīt?';
+
+  @override
+  String get faqA10 =>
+      'Ja apakšējā izvēlnē atverat cilni [Kartīšu enciklopēdija], varat brīvi skatīt visu 78 kartīšu vertikālās un apgrieztās nozīmes, simbolus un padziļinātus skaidrojumus.';
+
+  @override
+  String get faqQ11 => 'Kā es varu izdzēst savu kontu vai izņemt to?';
+
+  @override
+  String get faqA11 =>
+      'Pogu “Dzēst kontu” varat atrast, atverot izvēlni Konta iestatījumi, izmantojot zobrata ikonu cilnes [Mana informācija] augšējā labajā stūrī. Visas dienasgrāmatas un dati tiks neatgriezeniski dzēsti pēc atsaukšanas.';
+
+  @override
+  String get faqQ12 => 'Kur sazināties, ja rodas kļūda vai ir ieteikumi?';
+
+  @override
+  String get faqA12 =>
+      'Ja nosūtāt informāciju, izmantojot “Sazināties ar klientu apkalpošanas dienestu”, kas tiek sagatavota pašreizējā ekrāna apakšdaļā vai oficiālā e-pastā, mēs ātri pārbaudīsim un maģiski atrisināsim to jūsu vietā.';
+
+  @override
+  String get myMenuContactUs => 'Sazinieties ar mums';
+
+  @override
+  String get myMenuContactUsSubtitle => 'Uzziņas un ieteikumi';
+
+  @override
+  String get contactDialogTitle => 'Sazinieties ar mums';
+
+  @override
+  String get contactTypeBug => 'Kļūdu ziņojums';
+
+  @override
+  String get contactTypeFeature => 'Funkcijas ieteikums';
+
+  @override
+  String get contactTypePayment => 'Maksājumu problēma';
+
+  @override
+  String get contactTypeOther => 'Cita aptauja';
+
+  @override
+  String get contactHint => 'Lūdzu, uzrakstiet savu pieprasījumu detalizēti.';
+
+  @override
+  String get contactSend => 'Sūtīt';
+
+  @override
+  String get contactCancel => 'Atcelt';
+
+  @override
+  String get contactEmptyErrorTitle => 'Paziņojums';
+
+  @override
+  String get contactEmptyErrorMessage => 'Lūdzu, ievadiet pieprasījuma saturu.';
 }

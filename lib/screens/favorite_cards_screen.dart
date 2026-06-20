@@ -4,6 +4,8 @@ import '../data/tarot_data.dart';
 import '../services/favorite_service.dart';
 import '../widgets/gradient_background.dart';
 import '../widgets/tarot_card.dart';
+import '../widgets/glass_container.dart';
+import '../widgets/top_floating_icons.dart';
 import 'card_detail_screen.dart';
 
 class FavoriteCardsScreen extends StatefulWidget {
@@ -40,10 +42,19 @@ class _FavoriteCardsScreenState extends State<FavoriteCardsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       extendBodyBehindAppBar: true,
-      appBar: AppBar(
-        title: Text(AppLocalizations.of(context)!.favoriteCardsTitle),
-        backgroundColor: Colors.transparent,
-        elevation: 0,
+      appBar: PreferredSize(
+        preferredSize: const Size.fromHeight(kToolbarHeight + 65),
+        child: Column(
+          children: [
+            const TopFloatingIcons(),
+            AppBar(
+              title: Text(AppLocalizations.of(context)!.favoriteCardsTitle),
+              centerTitle: true,
+              backgroundColor: Colors.transparent,
+              elevation: 0,
+            ),
+          ],
+        ),
       ),
       body: GradientBackground(
         child: _isLoading
@@ -55,15 +66,10 @@ class _FavoriteCardsScreenState extends State<FavoriteCardsScreen> {
                       style: const TextStyle(color: Colors.white70, fontSize: 16),
                     ),
                   )
-                : GridView.builder(
-                    padding: const EdgeInsets.fromLTRB(16, kToolbarHeight + 40, 16, 20),
-                    gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: 2,
-                      childAspectRatio: 0.6,
-                      crossAxisSpacing: 16,
-                      mainAxisSpacing: 16,
-                    ),
+                : ListView.separated(
+                    padding: const EdgeInsets.fromLTRB(16, 0, 16, 20),
                     itemCount: _favoriteCards.length,
+                    separatorBuilder: (context, index) => const SizedBox(height: 16),
                     itemBuilder: (context, index) {
                       final card = _favoriteCards[index];
                       return GestureDetector(
@@ -74,13 +80,47 @@ class _FavoriteCardsScreenState extends State<FavoriteCardsScreen> {
                               builder: (context) => CardDetailScreen(card: card),
                             ),
                           );
-                          // 돌아왔을 때 즐겨찾기 상태 변경될 수 있으므로 다시 로드
                           _loadFavorites();
                         },
-                        child: TarotCardWidget(
-                          imagePath: card.imagePath,
-                          width: double.infinity,
-                          height: double.infinity,
+                        child: GlassContainer(
+                          padding: const EdgeInsets.all(12),
+                          borderRadius: 16,
+                          child: Row(
+                            children: [
+                              TarotCardWidget(
+                                imagePath: card.imagePath,
+                                width: 70,
+                                height: 112,
+                              ),
+                              const SizedBox(width: 16),
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      card.name,
+                                      style: const TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 18,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                    const SizedBox(height: 8),
+                                    Text(
+                                      card.uprightDesc,
+                                      maxLines: 2,
+                                      overflow: TextOverflow.ellipsis,
+                                      style: const TextStyle(
+                                        color: Colors.white70,
+                                        fontSize: 13,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              const Icon(Icons.arrow_forward_ios, color: Colors.white54, size: 16),
+                            ],
+                          ),
                         ),
                       );
                     },

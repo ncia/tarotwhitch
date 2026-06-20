@@ -4435,4 +4435,438 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'Αποθηκεύτηκε στη συσκευή.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level Φάση: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'Αναβάθμιση Μαγικού Βιβλίου';
+
+  @override
+  String get growthPhaseCrystal0 => 'Μαγεία της Αβύσσου';
+
+  @override
+  String get growthPhaseCrystal1 => 'Άνοιγμα του Πνευματικού Ματιού';
+
+  @override
+  String get growthPhaseCrystal2 => 'Σοφία της Μητέρας Φύσης';
+
+  @override
+  String get growthPhaseCrystal3 => 'Ουσία του Ήλιου';
+
+  @override
+  String get growthPhaseCrystal4 => 'Ουράνια Αυγή';
+
+  @override
+  String get growthPhaseCrystal5 => 'Θείο Βασίλειο';
+
+  @override
+  String get growthPhaseCrystal6 => 'Μαγεία της Δημιουργίας';
+
+  @override
+  String get growthPhaseCrystal7 => 'Πνοή του Σύμπαντος';
+
+  @override
+  String get growthPhaseCrystal8 => 'Αιώνιο Φως';
+
+  @override
+  String get growthPhaseCrystal9 => 'Αγνή Λευκή Αφύπνιση';
+
+  @override
+  String get growthPhaseCrystal10 => 'Υπέρβαση';
+
+  @override
+  String get growthPhaseBook0 => 'Εργαλεία Γραφής του Μαθητευόμενου';
+
+  @override
+  String get growthPhaseBook1 => 'Βασικό Εγχειρίδιο Μαγείας';
+
+  @override
+  String get growthPhaseBook2 => 'Γραμματική Αρχαίων Ρούνων';
+
+  @override
+  String get growthPhaseBook3 => 'Κατανόηση της Στοιχειακής Μαγείας';
+
+  @override
+  String get growthPhaseBook4 => 'Αρμονία του Φωτός των Άστρων';
+
+  @override
+  String get growthPhaseBook5 => 'Αποκρυπτογράφηση Τεχνουργημάτων';
+
+  @override
+  String get growthPhaseBook6 => 'Απαγορευμένο Βιβλίο του Σοφού';
+
+  @override
+  String get growthPhaseBook7 => 'Κοινωνία με τα Πνεύματα';
+
+  @override
+  String get growthPhaseBook8 => 'Γριμόριο της Αλήθειας';
+
+  @override
+  String get growthPhaseBook9 => 'Παντοδύναμο Αρχείο';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'Επίπεδο Μαγικού Βιβλίου $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'Γνώση: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'Μάνα: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'Η γνώση του μαγικού βιβλίου έχει εμβαθύνει! Εμπ +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'Αναβάθμιση Μαγικού Βιβλίου ($amount Σκόνη)';
+  }
+
+  @override
+  String get devDustCharged => 'Dev: 1000 Μαγική Σκόνη φορτίστηκε!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'Ειδήσεις & Ειδοποιήσεις';
+
+  @override
+  String get menuMailboxTitle => 'Γραμματοκιβώτιο';
+
+  @override
+  String get menuMailboxSubtitle => 'Ελέγξτε τις νέες ενημερώσεις και τα δώρα';
+
+  @override
+  String get mailboxTitle => 'Γραμματοκιβώτιο';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'Όλες οι ανταμοιβές διεκδικήθηκαν.';
+
+  @override
+  String get mailboxClaimAll => 'Αξίωση όλων';
+
+  @override
+  String get mailboxEmpty => 'Το γραμματοκιβώτιο είναι άδειο.';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'Από: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'Διεκδικήθηκε';
+
+  @override
+  String get mailboxClaim => 'Αξίωση';
+
+  @override
+  String get mailboxAttachedRewards => 'Συνημμένες ανταμοιβές';
+
+  @override
+  String get mailboxRewardClaimed => 'Η ανταμοιβή διεκδικήθηκε.';
+
+  @override
+  String get mailboxClaimReward => 'Διεκδίκηση ανταμοιβής';
+
+  @override
+  String get menuNotificationCenterTitle => 'Κέντρο ειδοποιήσεων';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'Ελέγξτε τις τελευταίες ειδοποιήσεις και ανακοινώσεις';
+
+  @override
+  String get authSignupComplete =>
+      'Η εγγραφή έχει ολοκληρωθεί. Ελέγξτε το email που σας εστάλη για επαλήθευση.';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initialization error occurred:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Error occurred:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Η μετάφραση απέτυχε: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'Επιλέξτε μια ημερομηνία';
+
+  @override
+  String get diarySavedSuccess => 'Το ημερολόγιο αποθηκεύτηκε με επιτυχία!';
+
+  @override
+  String get diarySaveFailed => 'Αποτυχία αποθήκευσης ημερολογίου.';
+
+  @override
+  String get diaryWriteTitle => 'Γράψε Ημερολόγιο';
+
+  @override
+  String get diaryWriteHint =>
+      'Μη διστάσετε να γράψετε τις σκέψεις ή τα συναισθήματά σας για τη σημερινή ανάγνωση.';
+
+  @override
+  String get diarySaveButton => 'Αποθήκευση στο Ημερολόγιο';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'Το σημερινό Fortune';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. Παρελθόν';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. Παρών';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. Μέλλον';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. Τρέχον';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. Παρελθόν';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. Μέλλον';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. Αιτία';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. Δυνατότητα';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 =>
+      '1. Τρέχουσα κατάσταση και πρόβλημα';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. Αιτία προβλήματος';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 =>
+      '3. Συμβουλές για επίλυση';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. Αναμενόμενο αποτέλεσμα';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. Τρέχουσα κατάσταση';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. Εμπόδιο';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. Αναίσθητος';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. Παρελθόν';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. Συνειδητός στόχος';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. Εγγύς μέλλον';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. Στάση';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 =>
+      '8. Εξωτερικό Περιβάλλον';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. Ελπίδες και φόβοι';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. Τελικό αποτέλεσμα';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. Συμβουλές';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. Περιβάλλον';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. Αποτέλεσμα';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Μπόνους $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount Νομίσματα';
+  }
+
+  @override
+  String get serviceLoginRequired => 'Απαιτείται σύνδεση.';
+
+  @override
+  String get serviceDefaultNickname => 'Ανώνυμη μάγισσα';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'Παρουσιάστηκε σφάλμα κατά την ανάγνωση της τύχης: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'Μεταχειριζόμενος';
+
+  @override
+  String get listenToInterpretation => 'Ακούστε το Interpretation';
+
+  @override
+  String get faqQ1 => 'Μπορώ να διαβάζω ταρώ κάθε μέρα;';
+
+  @override
+  String get faqA1 =>
+      'Ναι, καλό είναι να διαβάζουμε τη ροή του σήμερα με ανάλαφρη καρδιά. Ωστόσο, δεν συνιστάται να συνεχίζετε να τραβάτε κάρτες επανειλημμένα για την ίδια ερώτηση.';
+
+  @override
+  String get faqQ2 => 'Πώς μπορώ να πάρω μαγική σκόνη;';
+
+  @override
+  String get faqA2 =>
+      'Μπορείτε να αποκτήσετε μαγική σκόνη μέσω της παρακολούθησης εφαρμογών, των κοινοτικών δραστηριοτήτων ή των αγορών στο κατάστημα.';
+
+  @override
+  String get faqQ3 => 'Τι πρέπει να κάνω εάν το αποτέλεσμα είναι κακό;';
+
+  @override
+  String get faqA3 =>
+      'Το Ταρώ δεν είναι ένα σταθερό μέλλον, αλλά μια συμβουλή. Χρησιμοποιήστε ένα κακό αποτέλεσμα ως ορόσημο για να σας προειδοποιήσει για κινδύνους που πρέπει να αποφύγετε.';
+
+  @override
+  String get faqQ4 => 'Πώς μπορώ να δω τις προηγούμενες αναγνώσεις ταρώ μου;';
+
+  @override
+  String get faqA4 =>
+      'Μπορείτε να ελέγξετε τις αποθηκευμένες εγγραφές ανάγνωσης ανά ημερομηνία στην καρτέλα «Ημερολόγιο» (Ημερολόγιο) στο κάτω μενού ανά πάσα στιγμή.';
+
+  @override
+  String get faqQ5 => 'Πώς μοιράζομαι την κοινότητα;';
+
+  @override
+  String get faqA5 =>
+      'Ενεργοποιήστε τον διακόπτη \"Κοινή χρήση στην Κοινότητα\" στην οθόνη λεπτομερειών ημερολογίου που είναι αποθηκευμένη στο ημερολόγιο για να μοιραστείτε την ανάγνωση με άλλους χρήστες.';
+
+  @override
+  String get faqQ6 => 'Πώς μπορώ να αλλάξω το ψευδώνυμο ή το προφίλ μου;';
+
+  @override
+  String get faqA6 =>
+      'Μπορείτε να αλλάξετε το ψευδώνυμό σας και το εικονίδιο σας ανά πάσα στιγμή αγγίζοντας την περιοχή προφίλ στο επάνω μέρος της καρτέλας «Το μενού μου».';
+
+  @override
+  String get faqQ7 =>
+      'Πού μπορώ να ενεργοποιήσω και να απενεργοποιήσω τις ειδοποιήσεις;';
+
+  @override
+  String get faqA7 =>
+      'Μπορείτε να ελέγξετε τις ειδοποιήσεις από την εφαρμογή ρυθμίσεων της συσκευής σας ή από το μενού προτιμήσεων που πρόκειται να ενημερωθούν στο μέλλον.';
+
+  @override
+  String get faqQ8 => 'Μπορώ να δω τα ημερολόγια ταρώ άλλων ανθρώπων;';
+
+  @override
+  String get faqA8 =>
+      'Ναι, μπορείτε να δείτε και να ζητωκραυγάζετε για ενδιαφέρουσες αναγνώσεις ταρώ που άλλοι μάγοι (χρήστες) έχουν δημοσιοποιήσει στην καρτέλα \"Κοινότητα\" στο κάτω μέρος.';
+
+  @override
+  String get faqQ9 =>
+      'Πού μπορώ να ελέγξω τη συνδρομή premium ή το ιστορικό πληρωμών μου;';
+
+  @override
+  String get faqA9 =>
+      'Εάν επιλέξετε \"Ιστορικό πληρωμών\" στην καρτέλα [Οι πληροφορίες μου] στο κάτω μενού, μπορείτε να ελέγξετε λεπτομερώς το ιστορικό πληρωμών νομισμάτων και την αποκτηθείσα μαγική σκόνη.';
+
+  @override
+  String get faqQ10 =>
+      'Θέλω να μελετήσω προσωπικά την έννοια των καρτών Ταρώ. Πώς μπορώ να το κάνω αυτό;';
+
+  @override
+  String get faqA10 =>
+      'Εάν μεταβείτε στην καρτέλα [Card Encyclopedia] στο κάτω μενού, μπορείτε να δείτε ελεύθερα τις όρθιες και αντίστροφες έννοιες, τα σύμβολα και τις σε βάθος επεξηγήσεις και των 78 καρτών.';
+
+  @override
+  String get faqQ11 =>
+      'Πώς μπορώ να διαγράψω τον λογαριασμό μου ή να κάνω ανάληψη;';
+
+  @override
+  String get faqA11 =>
+      'Μπορείτε να βρείτε το κουμπί «Διαγραφή λογαριασμού» μεταβαίνοντας στο μενού Ρυθμίσεις λογαριασμού μέσω του εικονιδίου με το γρανάζι στην επάνω δεξιά γωνία της καρτέλας [Οι πληροφορίες μου]. Όλα τα ημερολόγια και τα δεδομένα θα διαγραφούν οριστικά με την απόσυρση.';
+
+  @override
+  String get faqQ12 =>
+      'Πού μπορώ να επικοινωνήσω εάν αντιμετωπίσω κάποιο σφάλμα ή έχω προτάσεις;';
+
+  @override
+  String get faqA12 =>
+      'Εάν στείλετε λεπτομέρειες μέσω της «Επικοινωνίας με την Εξυπηρέτηση Πελατών» που προετοιμάζεται στο κάτω μέρος της τρέχουσας οθόνης ή μέσω επίσημου email, θα ελέγξουμε γρήγορα και θα σας το λύσουμε ως δια μαγείας.';
+
+  @override
+  String get myMenuContactUs => 'Επικοινωνήστε μαζί μας';
+
+  @override
+  String get myMenuContactUsSubtitle => 'ncia@daum.net';
+
+  @override
+  String get contactDialogTitle => 'Επικοινωνήστε μαζί μας';
+
+  @override
+  String get contactTypeBug => 'Αναφορά σφάλματος';
+
+  @override
+  String get contactTypeFeature => 'Πρόταση χαρακτηριστικών';
+
+  @override
+  String get contactTypePayment => 'Θέμα πληρωμής';
+
+  @override
+  String get contactTypeOther => 'Άλλη έρευνα';
+
+  @override
+  String get contactHint => 'Γράψτε το ερώτημά σας αναλυτικά.';
+
+  @override
+  String get contactSend => 'Στέλνω';
+
+  @override
+  String get contactCancel => 'Ματαίωση';
+
+  @override
+  String get contactEmptyErrorTitle => 'Ανακοίνωση';
+
+  @override
+  String get contactEmptyErrorMessage =>
+      'Εισαγάγετε το περιεχόμενο της ερώτησής σας.';
 }

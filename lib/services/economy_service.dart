@@ -25,6 +25,40 @@ class EconomyService extends ChangeNotifier {
   int get worldTreeExp => _worldTreeExp;
   int get crystalBallExp => _crystalBallExp;
 
+  // 매 레벨별 세분화 기하급수적 성장 알고리즘 (총합 1,000,000, 끝자리 항상 0, 중복 없음)
+  static const List<int> _expTable = [
+    100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 250, 300, 350, 410, 480, 550, 630, 710, 800, 890, 1000, 1100, 1220, 1340, 1470, 1600, 1750, 1900, 2050, 2220, 2390, 2570, 2760, 2960, 3160, 3370, 3590, 3820, 4060, 4310, 4560, 4830, 5100, 5380, 5680, 5980, 6290, 6610, 6940, 7270, 7620, 7980, 8350, 8730, 9110, 9500, 9910, 10330, 10760, 11200, 11650, 12110, 12590, 13070, 13560, 14070, 14580, 15110, 15650, 16200, 16760, 17330, 17920, 18510, 19120, 19740, 20370, 21010, 21670, 22340, 23020, 23710, 24410, 25130, 25860, 26600, 27350, 28120, 28900, 29690, 30500, 31310, 32140, 32990, 33850, 34610
+  ];
+
+  int getRequiredExpForLevel(int level) {
+    if (level >= 100 || level < 1) return 0; // 만렙
+    return _expTable[level - 1];
+  }
+
+  int getLevelFromTotalExp(int totalExp) {
+    int level = 1;
+    int expNeeded = getRequiredExpForLevel(level);
+    int currentExp = totalExp;
+    while (currentExp >= expNeeded && level < 100) {
+      currentExp -= expNeeded;
+      level++;
+      expNeeded = getRequiredExpForLevel(level);
+    }
+    return level;
+  }
+
+  int getCurrentLevelExp(int totalExp) {
+    int level = 1;
+    int expNeeded = getRequiredExpForLevel(level);
+    int currentExp = totalExp;
+    while (currentExp >= expNeeded && level < 100) {
+      currentExp -= expNeeded;
+      level++;
+      expNeeded = getRequiredExpForLevel(level);
+    }
+    return currentExp;
+  }
+
   void _initListener(User? user) {
     _firestoreSubscription?.cancel();
     if (user != null) {
@@ -121,14 +155,19 @@ class EconomyService extends ChangeNotifier {
     }
   }
 
-  Future<void> addWorldTreeExp(int amount) async {
+  Future<bool> levelUpWorldTree(int cost) async {
     final user = FirebaseAuth.instance.currentUser;
-    if (user != null) {
+    if (user == null) return false;
+
+    if (_magicDust >= cost) {
       await FirebaseFirestore.instance.collection('users').doc(user.uid).update({
-        'worldTreeExp': FieldValue.increment(amount),
+        'magicDust': FieldValue.increment(-cost),
+        'worldTreeExp': FieldValue.increment(cost),
         'lastWateredAt': FieldValue.serverTimestamp(),
       });
+      return true;
     }
+    return false;
   }
 
   Future<bool> upgradeCrystalBall(int cost) async {
@@ -138,7 +177,7 @@ class EconomyService extends ChangeNotifier {
     if (_magicDust >= cost) {
       await FirebaseFirestore.instance.collection('users').doc(user.uid).update({
         'magicDust': FieldValue.increment(-cost),
-        'crystalBallExp': FieldValue.increment(1),
+        'crystalBallExp': FieldValue.increment(cost),
       });
       return true;
     }

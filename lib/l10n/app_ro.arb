@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Datele detaliate de interpretare nu sunt încă gata.",
   "cardDetailNoData": "Nu există date disponibile.",
   "buttonSaveReading": "Salvați citirea tarotului",
-  "readingSavedToDevice": "Salvat pe dispozitiv."
+  "readingSavedToDevice": "Salvat pe dispozitiv.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Fază: {name}]",
+  "growthTabMagicBook": "Îmbunătățire Carte Magică",
+  "growthPhaseCrystal0": "Magie Abisală",
+  "growthPhaseCrystal1": "Deschiderea Ochiului Spiritului",
+  "growthPhaseCrystal2": "Înțelepciunea Mamei Naturi",
+  "growthPhaseCrystal3": "Esența Soarelui",
+  "growthPhaseCrystal4": "Auroră Celestă",
+  "growthPhaseCrystal5": "Tărâm Divin",
+  "growthPhaseCrystal6": "Magia Creației",
+  "growthPhaseCrystal7": "Suflul Universului",
+  "growthPhaseCrystal8": "Lumină Eternă",
+  "growthPhaseCrystal9": "Trezire Alb Pură",
+  "growthPhaseCrystal10": "Transcendență",
+  "growthPhaseBook0": "Instrumente de Scris ale Ucenicului",
+  "growthPhaseBook1": "Manual de Magie de Bază",
+  "growthPhaseBook2": "Gramatica Runelor Antice",
+  "growthPhaseBook3": "Înțelegerea Magiei Elementale",
+  "growthPhaseBook4": "Armonia Luminii Stelare",
+  "growthPhaseBook5": "Descifrarea Artefactelor",
+  "growthPhaseBook6": "Cartea Interzisă a Înțeleptului",
+  "growthPhaseBook7": "Comuniune cu Spiritele",
+  "growthPhaseBook8": "Grimoriul Adevărului",
+  "growthPhaseBook9": "Cronică Omnipotentă",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Nivelul Cărții Magice {level}",
+  "growthMagicBookKnowledge": "Cunoștințe: {current} / {max}",
+  "growthCrystalBallMana": "Mană: {current} / {max}",
+  "growthMagicBookExpGained": "Cunoștințele cărții magice s-au aprofundat! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "Îmbunătățește Cartea Magică ({amount} Praf)",
+  "devDustCharged": "Dev: 1000 Praf Magic încărcat!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Știri și notificări",
+  "menuMailboxTitle": "Cutia poștală",
+  "menuMailboxSubtitle": "Verificați noile actualizări și cadouri",
+  "mailboxTitle": "Cutia poștală",
+  "mailboxAllRewardsClaimed": "Toate recompensele revendicate.",
+  "mailboxClaimAll": "Revendicați totul",
+  "mailboxEmpty": "Cutia poștală este goală.",
+  "mailboxSenderAndDate": "De la: {sender} • {date}",
+  "mailboxClaimed": "Revendicat",
+  "mailboxClaim": "Revendicare",
+  "mailboxAttachedRewards": "Recompense atasate",
+  "mailboxRewardClaimed": "Recompensa revendicată.",
+  "mailboxClaimReward": "Solicitați recompensa",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Centru de notificare",
+  "menuNotificationCenterSubtitle": "Verificați cele mai recente notificări și anunțuri",
+  "authSignupComplete": "Înregistrarea este completă. Vă rugăm să verificați e-mailul trimis pentru a verifica.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Translation failed: {error}",
+  "diarySelectDate": "Selectați o dată",
+  "diarySavedSuccess": "Jurnalul salvat cu succes!",
+  "diarySaveFailed": "Nu s-a salvat jurnalul.",
+  "diaryWriteTitle": "Scrie Jurnal",
+  "diaryWriteHint": "Simțiți-vă liber să vă scrieți gândurile sau sentimentele despre lectura de astăzi.",
+  "diarySaveButton": "Salvați în jurnal",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "Averea de azi",
+  "readingSpreadLabelPast1": "1. Trecut",
+  "readingSpreadLabelPresent2": "2. Prezent",
+  "readingSpreadLabelFuture3": "3. Viitorul",
+  "readingSpreadLabelCurrent1": "1. Curent",
+  "readingSpreadLabelPast2": "2. Trecut",
+  "readingSpreadLabelFuture3Alt": "3. Viitorul",
+  "readingSpreadLabelCause4": "4. Cauza",
+  "readingSpreadLabelPotential5": "5. Potenţial",
+  "readingSpreadLabelCurrentSituation1": "1. Situația actuală și problema",
+  "readingSpreadLabelCauseOfProblem2": "2. Cauza problemei",
+  "readingSpreadLabelAdviceForResolution3": "3. Sfaturi pentru rezolvare",
+  "readingSpreadLabelExpectedResult4": "4. Rezultatul așteptat",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Situația actuală",
+  "readingSpreadLabelObstacle2": "2. Obstacol",
+  "readingSpreadLabelUnconscious3": "3. Inconștient",
+  "readingSpreadLabelPast4": "4. Trecut",
+  "readingSpreadLabelConsciousGoal5": "5. Scopul conștient",
+  "readingSpreadLabelNearFuture6": "6. Viitorul Apropiat",
+  "readingSpreadLabelAttitude7": "7. Atitudine",
+  "readingSpreadLabelExternalEnvironment8": "8. Mediul extern",
+  "readingSpreadLabelHopesAndFears9": "9. Speranțe și temeri",
+  "readingSpreadLabelFinalResult10": "10. Rezultatul final",
+  "readingSpreadLabelAdvice4": "4. Sfaturi",
+  "readingSpreadLabelSurroundings5": "5. Împrejurimi",
+  "readingSpreadLabelResult6": "6. Rezultat",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} monede",
+  "serviceLoginRequired": "Este necesară autentificarea.",
+  "serviceDefaultNickname": "Vrăjitoare fără nume",
+  "serviceTarotReadingError": "An error occurred while reading the fortune: {error}",
+  "defaultUserDisplayName": "Utilizator",
+  "listenToInterpretation": "Ascultă Interpretarea",
+  "faqQ1": "Pot să citesc tarot în fiecare zi?",
+  "faqA1": "Da, este bine să citești fluxul de azi cu o inimă ușoară. Cu toate acestea, nu este recomandat să continuați să desenați cărți în mod repetat pentru aceeași întrebare.",
+  "faqQ2": "Cum obțin praf magic?",
+  "faqA2": "Puteți obține praf magic prin participarea la aplicații, activități în comunitate sau achiziționarea din magazin.",
+  "faqQ3": "Ce ar trebui să fac dacă rezultatul este rău?",
+  "faqA3": "Tarotul nu este un viitor fix, ci un sfat. Folosiți un rezultat prost ca piatră de hotar pentru a vă avertiza asupra riscurilor de evitat.",
+  "faqQ4": "Cum pot să văd lecturile mele anterioare de tarot?",
+  "faqA4": "Puteți examina oricând înregistrările de lectură salvate în funcție de dată în fila „Jurnal” (Calendar) din meniul de jos.",
+  "faqQ5": "Cum împărtășesc comunității?",
+  "faqA5": "Activați comutatorul „Partajare în comunitate” de pe ecranul cu detalii ale jurnalului salvat în jurnal pentru a partaja citirea dvs. cu alți utilizatori.",
+  "faqQ6": "Cum îmi pot schimba porecla sau profilul?",
+  "faqA6": "Îți poți schimba porecla și pictograma oricând atingând zona de profil din partea de sus a filei „Meniul meu”.",
+  "faqQ7": "Unde pot activa și dezactiva notificările?",
+  "faqA7": "Puteți controla notificările din aplicația de setări a dispozitivului sau din meniul de preferințe pentru a fi actualizate în viitor.",
+  "faqQ8": "Pot vedea jurnalele de tarot ale altora?",
+  "faqA8": "Da, puteți vedea și încuraja lecturile interesante de tarot pe care alți vrăjitori (utilizatori) le-au făcut publice în fila „Comunitate” din partea de jos.",
+  "faqQ9": "Unde îmi pot verifica abonamentul premium sau istoricul plăților?",
+  "faqA9": "Dacă selectați „Istoricul plăților” în fila [Informațiile mele] din meniul de jos, puteți verifica istoricul plăților cu monede și praful magic dobândit în detaliu.",
+  "faqQ10": "Vreau să studiez personal semnificația cărților de Tarot. Cum pot face asta?",
+  "faqA10": "Dacă accesați fila [Card Encyclopedia] din meniul de jos, puteți vizualiza liber semnificațiile verticale și inversate, simbolurile și explicațiile aprofundate ale tuturor celor 78 de carduri.",
+  "faqQ11": "Cum îmi pot șterge contul sau retrag?",
+  "faqA11": "Puteți găsi butonul „Ștergeți contul” accesând meniul Setări cont prin pictograma roată din dreapta sus a filei [Informațiile mele]. Toate agendele și datele vor fi șterse definitiv la retragere.",
+  "faqQ12": "Unde pot contacta dacă întâmpin o eroare sau am sugestii?",
+  "faqA12": "Dacă trimiteți detalii prin „Contactați Serviciul Clienți”, care este în curs de pregătire în partea de jos a ecranului curent sau prin e-mail oficial, vom verifica rapid și o vom rezolva magic pentru dvs.",
+  "myMenuContactUs": "Contactaţi-ne",
+  "myMenuContactUsSubtitle": "Întrebări și sugestii",
+  "contactDialogTitle": "Contactaţi-ne",
+  "contactTypeBug": "Raport de eroare",
+  "contactTypeFeature": "Sugestie de caracteristici",
+  "contactTypePayment": "Problemă de plată",
+  "contactTypeOther": "Altă anchetă",
+  "contactHint": "Vă rugăm să scrieți întrebarea dvs. în detaliu.",
+  "contactSend": "Trimite",
+  "contactCancel": "Anula",
+  "contactEmptyErrorTitle": "Observa",
+  "contactEmptyErrorMessage": "Vă rugăm să introduceți conținutul întrebării dvs."
 }

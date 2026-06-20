@@ -4418,4 +4418,434 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'Đã lưu vào thiết bị.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[Giai đoạn $level: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'Nâng cấp Sách Phép';
+
+  @override
+  String get growthPhaseCrystal0 => 'Ma thuật Vực thẳm';
+
+  @override
+  String get growthPhaseCrystal1 => 'Khai mở Linh Nhãn';
+
+  @override
+  String get growthPhaseCrystal2 => 'Trí tuệ của Mẹ Thiên nhiên';
+
+  @override
+  String get growthPhaseCrystal3 => 'Tinh hoa Mặt trời';
+
+  @override
+  String get growthPhaseCrystal4 => 'Cực quang Thiên giới';
+
+  @override
+  String get growthPhaseCrystal5 => 'Cảnh giới Thần thánh';
+
+  @override
+  String get growthPhaseCrystal6 => 'Ma thuật Sáng tạo';
+
+  @override
+  String get growthPhaseCrystal7 => 'Hơi thở của Vũ trụ';
+
+  @override
+  String get growthPhaseCrystal8 => 'Ánh sáng Vĩnh cửu';
+
+  @override
+  String get growthPhaseCrystal9 => 'Thức tỉnh Thuần khiết';
+
+  @override
+  String get growthPhaseCrystal10 => 'Siêu việt';
+
+  @override
+  String get growthPhaseBook0 => 'Công cụ Viết của Học việc';
+
+  @override
+  String get growthPhaseBook1 => 'Sách giáo khoa Ma thuật Cơ bản';
+
+  @override
+  String get growthPhaseBook2 => 'Ngữ pháp Rune Cổ đại';
+
+  @override
+  String get growthPhaseBook3 => 'Hiểu biết Ma thuật Nguyên tố';
+
+  @override
+  String get growthPhaseBook4 => 'Hòa âm Tinh tú';
+
+  @override
+  String get growthPhaseBook5 => 'Giải mã Cổ vật';
+
+  @override
+  String get growthPhaseBook6 => 'Sách Cấm của Hiền nhân';
+
+  @override
+  String get growthPhaseBook7 => 'Giao cảm với Linh hồn';
+
+  @override
+  String get growthPhaseBook8 => 'Sách Phép Chân lý';
+
+  @override
+  String get growthPhaseBook9 => 'Biên niên Toàn năng';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'Cấp độ Sách Phép $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'Kiến thức: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'Năng lượng: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'Kiến thức sách phép đã sâu sắc hơn! Exp +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'Nâng cấp Sách Phép ($amount Bụi)';
+  }
+
+  @override
+  String get devDustCharged => 'Dev: Đã nạp 1000 Bụi Phép!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'Tin tức & Thông báo';
+
+  @override
+  String get menuMailboxTitle => 'Hộp thư';
+
+  @override
+  String get menuMailboxSubtitle => 'Kiểm tra cập nhật mới và quà tặng';
+
+  @override
+  String get mailboxTitle => 'Hộp thư';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'Tất cả các phần thưởng được yêu cầu.';
+
+  @override
+  String get mailboxClaimAll => 'Yêu cầu tất cả';
+
+  @override
+  String get mailboxEmpty => 'Hộp thư trống rỗng.';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'Từ: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'Đã xác nhận quyền sở hữu';
+
+  @override
+  String get mailboxClaim => 'Khẳng định';
+
+  @override
+  String get mailboxAttachedRewards => 'Phần thưởng đính kèm';
+
+  @override
+  String get mailboxRewardClaimed => 'Đã yêu cầu phần thưởng.';
+
+  @override
+  String get mailboxClaimReward => 'Yêu cầu phần thưởng';
+
+  @override
+  String get menuNotificationCenterTitle => 'Trung tâm thông báo';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'Kiểm tra thông báo và thông báo mới nhất';
+
+  @override
+  String get authSignupComplete =>
+      'Đăng ký đã hoàn tất. Vui lòng kiểm tra email được gửi tới bạn để xác minh.';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initialization error occurred:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Error occurred:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Bản dịch không thành công: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'Chọn một ngày';
+
+  @override
+  String get diarySavedSuccess => 'Nhật ký đã được lưu thành công!';
+
+  @override
+  String get diarySaveFailed => 'Không lưu được nhật ký.';
+
+  @override
+  String get diaryWriteTitle => 'Viết nhật ký';
+
+  @override
+  String get diaryWriteHint =>
+      'Hãy thoải mái viết ra những suy nghĩ hoặc cảm xúc của bạn về bài đọc hôm nay.';
+
+  @override
+  String get diarySaveButton => 'Lưu vào nhật ký';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'Vận may hôm nay';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. Quá khứ';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. Hiện tại';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. Tương lai';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. Hiện tại';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. Quá khứ';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. Tương lai';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. Nguyên nhân';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. Tiềm năng';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 => '1. Thực trạng và vấn đề';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. Nguyên nhân sự cố';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 => '3. Tư vấn giải quyết';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. Kết quả mong đợi';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. Hiện trạng';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. Trở ngại';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. Vô thức';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. Quá khứ';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. Mục tiêu có ý thức';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. Tương lai gần';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. Thái độ';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 =>
+      '8. Môi trường bên ngoài';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. Hy vọng và sợ hãi';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. Kết quả cuối cùng';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. Lời khuyên';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. Môi trường xung quanh';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. Kết quả';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount Coins';
+  }
+
+  @override
+  String get serviceLoginRequired => 'Đăng nhập là bắt buộc.';
+
+  @override
+  String get serviceDefaultNickname => 'Phù thủy vô danh';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'Đã xảy ra lỗi khi xem bói: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'người dùng';
+
+  @override
+  String get listenToInterpretation => 'Nghe giải thích';
+
+  @override
+  String get faqQ1 => 'Tôi có thể đọc tarot mỗi ngày không?';
+
+  @override
+  String get faqA1 =>
+      'Vâng, thật tốt khi đọc dòng chảy của ngày hôm nay với trái tim nhẹ nhàng. Tuy nhiên, không nên rút thẻ nhiều lần cho cùng một câu hỏi.';
+
+  @override
+  String get faqQ2 => 'Làm thế nào để có được bụi ma thuật?';
+
+  @override
+  String get faqA2 =>
+      'Bạn có thể nhận được bụi ma thuật thông qua việc tham gia ứng dụng, hoạt động cộng đồng hoặc mua hàng trong cửa hàng.';
+
+  @override
+  String get faqQ3 => 'Tôi nên làm gì nếu kết quả không tốt?';
+
+  @override
+  String get faqA3 =>
+      'Tarot không phải là một tương lai cố định mà là một lời khuyên. Hãy lấy một kết quả tồi tệ làm cột mốc cảnh báo bạn về những rủi ro cần tránh.';
+
+  @override
+  String get faqQ4 =>
+      'Làm cách nào tôi có thể xem các bài đọc tarot trước đây của mình?';
+
+  @override
+  String get faqA4 =>
+      'Bạn có thể xem lại hồ sơ đọc đã lưu của mình theo ngày trong tab \'Nhật ký\' (Lịch) ở menu dưới cùng bất cứ lúc nào.';
+
+  @override
+  String get faqQ5 => 'Làm cách nào để chia sẻ với cộng đồng?';
+
+  @override
+  String get faqA5 =>
+      'Bật nút \'Chia sẻ lên cộng đồng\' trên màn hình chi tiết nhật ký được lưu trong nhật ký để chia sẻ bài đọc của bạn với những người dùng khác.';
+
+  @override
+  String get faqQ6 => 'Làm cách nào để thay đổi biệt danh hoặc hồ sơ của tôi?';
+
+  @override
+  String get faqA6 =>
+      'Bạn có thể thay đổi biệt hiệu và biểu tượng của mình bất kỳ lúc nào bằng cách chạm vào khu vực hồ sơ ở đầu tab \'Menu của tôi\'.';
+
+  @override
+  String get faqQ7 => 'Tôi có thể bật và tắt thông báo ở đâu?';
+
+  @override
+  String get faqA7 =>
+      'Bạn có thể kiểm soát thông báo từ ứng dụng cài đặt trên thiết bị của mình hoặc từ menu tùy chọn sẽ được cập nhật trong tương lai.';
+
+  @override
+  String get faqQ8 => 'Tôi có thể xem nhật ký tarot của người khác không?';
+
+  @override
+  String get faqA8 =>
+      'Có, bạn có thể xem và cổ vũ cho những bài đọc tarot thú vị mà các pháp sư (người dùng) khác đã công khai trong tab \'Cộng đồng\' ở phía dưới.';
+
+  @override
+  String get faqQ9 =>
+      'Tôi có thể kiểm tra lịch sử thanh toán hoặc đăng ký trả phí của mình ở đâu?';
+
+  @override
+  String get faqA9 =>
+      'Nếu bạn chọn \'Lịch sử thanh toán\' trong tab [Thông tin của tôi] ở menu dưới cùng, bạn có thể kiểm tra chi tiết lịch sử thanh toán tiền xu và thu được bụi ma thuật của mình.';
+
+  @override
+  String get faqQ10 =>
+      'Tôi muốn tự mình nghiên cứu ý nghĩa của các lá bài Tarot. Làm thế nào tôi có thể làm điều đó?';
+
+  @override
+  String get faqA10 =>
+      'Nếu bạn vào tab [Bách khoa toàn thư về thẻ] ở menu dưới cùng, bạn có thể thoải mái xem ý nghĩa, ký hiệu xuôi và ngược cũng như giải thích sâu sắc của tất cả 78 lá bài.';
+
+  @override
+  String get faqQ11 => 'Làm cách nào để xóa tài khoản của tôi hoặc rút tiền?';
+
+  @override
+  String get faqA11 =>
+      'Bạn có thể tìm thấy nút \'Xóa tài khoản\' bằng cách đi tới menu Cài đặt tài khoản thông qua biểu tượng bánh răng ở phía trên bên phải của tab [Thông tin của tôi]. Tất cả nhật ký và dữ liệu sẽ bị xóa vĩnh viễn sau khi rút tiền.';
+
+  @override
+  String get faqQ12 => 'Tôi phải liên hệ ở đâu nếu gặp lỗi hoặc có góp ý?';
+
+  @override
+  String get faqA12 =>
+      'Nếu bạn gửi thông tin chi tiết qua \'Liên hệ bộ phận dịch vụ khách hàng\' đang được chuẩn bị ở cuối màn hình hiện tại hoặc qua email chính thức, chúng tôi sẽ nhanh chóng kiểm tra và giải quyết một cách kỳ diệu cho bạn.';
+
+  @override
+  String get myMenuContactUs => 'Liên hệ với chúng tôi';
+
+  @override
+  String get myMenuContactUsSubtitle => 'Thắc mắc và đề xuất';
+
+  @override
+  String get contactDialogTitle => 'Liên hệ với chúng tôi';
+
+  @override
+  String get contactTypeBug => 'Báo cáo lỗi';
+
+  @override
+  String get contactTypeFeature => 'Đề xuất tính năng';
+
+  @override
+  String get contactTypePayment => 'Vấn đề thanh toán';
+
+  @override
+  String get contactTypeOther => 'Yêu cầu khác';
+
+  @override
+  String get contactHint => 'Hãy viết yêu cầu của bạn một cách chi tiết.';
+
+  @override
+  String get contactSend => 'Gửi';
+
+  @override
+  String get contactCancel => 'Hủy bỏ';
+
+  @override
+  String get contactEmptyErrorTitle => 'Để ý';
+
+  @override
+  String get contactEmptyErrorMessage =>
+      'Vui lòng nhập nội dung yêu cầu của bạn.';
 }

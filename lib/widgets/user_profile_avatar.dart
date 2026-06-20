@@ -3,6 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'dart:convert';
 import 'package:flutter_tarot/data/nickname_data.dart';
 import 'user_profile_dialog.dart';
+import 'package:flutter_tarot/l10n/app_localizations.dart';
 
 class UserProfileAvatar extends StatelessWidget {
   final String userId;
@@ -62,7 +63,7 @@ class UserProfileAvatar extends StatelessWidget {
   }
 
   void _showProfileDialog(BuildContext context, Map<String, dynamic> data, String fallbackImage) {
-    String displayName = '사용자';
+    String displayName = AppLocalizations.of(context)!.defaultUserDisplayName;
     bool isCustomNickname = data['isCustomNickname'] ?? true;
     int? prefixIndex = data['nicknamePrefixIndex'];
     int? suffixIndex = data['nicknameSuffixIndex'];

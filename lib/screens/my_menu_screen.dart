@@ -8,6 +8,9 @@ import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
 import 'package:flutter_tarot/data/nickname_data.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
+import 'package:flutter_tarot/screens/theme_selection_screen.dart';
+import 'package:flutter_tarot/screens/faq_screen.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'dart:convert';
 import 'auth_screen.dart'; // AuthScreen 임포트 추가
 import 'package:firebase_messaging/firebase_messaging.dart';
@@ -265,15 +268,15 @@ class MyMenuScreen extends StatelessWidget {
           ),
         const SizedBox(height: 30),
         // Menu Items
-        _buildSectionTitle('소식 및 알림'),
+        _buildSectionTitle(AppLocalizations.of(context)!.menuSectionNews),
         ListenableBuilder(
           listenable: MailService(),
           builder: (context, _) {
             final unreadCount = MailService().unreadCount;
             return _buildMenuItem(
               Icons.mail_outline,
-              '우편함',
-              '새로운 소식과 선물을 확인하세요',
+              AppLocalizations.of(context)!.menuMailboxTitle,
+              AppLocalizations.of(context)!.menuMailboxSubtitle,
               onTap: () {
                 showDialog(
                   context: context,
@@ -302,7 +305,7 @@ class MyMenuScreen extends StatelessWidget {
             );
           },
         ),
-        _buildMenuItem(Icons.notifications_none, '알림 센터', '최신 알림 내역', onTap: () {
+        _buildMenuItem(Icons.notifications_none, AppLocalizations.of(context)!.menuNotificationCenterTitle, AppLocalizations.of(context)!.menuNotificationCenterSubtitle, onTap: () {
           // TODO: 알림 센터 열기
         }),
         
@@ -355,8 +358,16 @@ class MyMenuScreen extends StatelessWidget {
         
         const SizedBox(height: 20),
         _buildSectionTitle(AppLocalizations.of(context)!.myMenuSectionCustomerSupport),
-        _buildMenuItem(Icons.help_outline, AppLocalizations.of(context)!.myMenuFaq, null),
-        _buildMenuItem(Icons.info_outline, AppLocalizations.of(context)!.myMenuAppInfo, '버전 1.0.0'),
+        _buildMenuItem(Icons.email_outlined, AppLocalizations.of(context)!.myMenuContactUs, AppLocalizations.of(context)!.myMenuContactUsSubtitle, onTap: () {
+          _showContactDialog(context);
+        }),
+        _buildMenuItem(Icons.help_outline, AppLocalizations.of(context)!.myMenuFaq, null, onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const FaqScreen()),
+          );
+        }),
+        _buildMenuItem(Icons.info_outline, AppLocalizations.of(context)!.myMenuAppInfo, AppLocalizations.of(context)!.myMenuAppVersion('1.2.4')),
         
         if (isLoggedIn) ...[
           const SizedBox(height: 20),
@@ -413,6 +424,173 @@ class MyMenuScreen extends StatelessWidget {
           }),
         ],
       ],
+    );
+  }
+
+  String? _encodeQueryParameters(Map<String, String> params) {
+    return params.entries
+        .map((MapEntry<String, String> e) =>
+            '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
+        .join('&');
+  }
+
+  void _showContactDialog(BuildContext context) {
+    final localizations = AppLocalizations.of(context)!;
+    String selectedType = localizations.contactTypeBug;
+    final List<String> types = [
+      localizations.contactTypeBug,
+      localizations.contactTypeFeature,
+      localizations.contactTypePayment,
+      localizations.contactTypeOther,
+    ];
+    final TextEditingController contentController = TextEditingController();
+
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return StatefulBuilder(
+          builder: (context, setState) {
+            return Dialog(
+              backgroundColor: Colors.transparent,
+              child: GlassContainer(
+                borderRadius: 16,
+                padding: const EdgeInsets.all(20),
+                child: SingleChildScrollView(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      Text(
+                        localizations.contactDialogTitle,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                      const SizedBox(height: 20),
+                      Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 12),
+                        decoration: BoxDecoration(
+                          color: Colors.white.withOpacity(0.1),
+                          borderRadius: BorderRadius.circular(8),
+                          border: Border.all(color: Colors.white24),
+                        ),
+                        child: DropdownButtonHideUnderline(
+                          child: DropdownButton<String>(
+                            dropdownColor: const Color(0xFF2C2C4E),
+                            value: selectedType,
+                            isExpanded: true,
+                            icon: const Icon(Icons.arrow_drop_down, color: Colors.white),
+                            style: const TextStyle(color: Colors.white, fontSize: 16),
+                            onChanged: (String? newValue) {
+                              if (newValue != null) {
+                                setState(() {
+                                  selectedType = newValue;
+                                });
+                              }
+                            },
+                            items: types.map<DropdownMenuItem<String>>((String value) {
+                              return DropdownMenuItem<String>(
+                                value: value,
+                                child: Text(value),
+                              );
+                            }).toList(),
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 16),
+                      TextField(
+                        controller: contentController,
+                        maxLines: 5,
+                        style: const TextStyle(color: Colors.white),
+                        decoration: InputDecoration(
+                          hintText: localizations.contactHint,
+                          hintStyle: const TextStyle(color: Colors.white54),
+                          filled: true,
+                          fillColor: Colors.white.withOpacity(0.1),
+                          border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(8),
+                            borderSide: const BorderSide(color: Colors.white24),
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(8),
+                            borderSide: const BorderSide(color: Colors.white24),
+                          ),
+                          focusedBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(8),
+                            borderSide: const BorderSide(color: Colors.amberAccent),
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 20),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          TextButton(
+                            onPressed: () => Navigator.of(context).pop(),
+                            child: Text(
+                              localizations.contactCancel,
+                              style: const TextStyle(color: Colors.white54),
+                            ),
+                          ),
+                          ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.amberAccent,
+                              foregroundColor: Colors.black87,
+                            ),
+                            onPressed: () async {
+                              if (contentController.text.trim().isEmpty) {
+                                _showEmptyWarning(context);
+                                return;
+                              }
+                              
+                              final Uri emailLaunchUri = Uri(
+                                scheme: 'mailto',
+                                path: 'ncia@daum.net',
+                                query: _encodeQueryParameters(<String, String>{
+                                  'subject': '[$selectedType] ${localizations.contactDialogTitle}',
+                                  'body': contentController.text,
+                                }),
+                              );
+                              if (await canLaunchUrl(emailLaunchUri)) {
+                                await launchUrl(emailLaunchUri);
+                                if (context.mounted) Navigator.of(context).pop();
+                              }
+                            },
+                            child: Text(localizations.contactSend),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            );
+          },
+        );
+      },
+    );
+  }
+
+  void _showEmptyWarning(BuildContext context) {
+    final localizations = AppLocalizations.of(context)!;
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          backgroundColor: const Color(0xFF2C2C4E),
+          title: Text(localizations.contactEmptyErrorTitle, style: const TextStyle(color: Colors.white)),
+          content: Text(localizations.contactEmptyErrorMessage, style: const TextStyle(color: Colors.white70)),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(),
+              child: const Text('OK', style: TextStyle(color: Colors.amberAccent)),
+            ),
+          ],
+        );
+      },
     );
   }
 

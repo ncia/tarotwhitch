@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/mail_model.dart';
 import '../services/mail_service.dart';
 import 'package:intl/intl.dart';
+import 'package:flutter_tarot/l10n/app_localizations.dart';
 
 class MailboxDialog extends StatefulWidget {
   const MailboxDialog({super.key});
@@ -54,9 +55,9 @@ class _MailboxDialogState extends State<MailboxDialog> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  const Text(
-                    '우편함',
-                    style: TextStyle(
+                  Text(
+                    AppLocalizations.of(context)!.mailboxTitle,
+                    style: const TextStyle(
                       color: Colors.white,
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
@@ -70,7 +71,7 @@ class _MailboxDialogState extends State<MailboxDialog> {
                             await _mailService.claimAll();
                             if (context.mounted) {
                               ScaffoldMessenger.of(context).showSnackBar(
-                                const SnackBar(content: Text('모든 보상을 수령했습니다.')),
+                                SnackBar(content: Text(AppLocalizations.of(context)!.mailboxAllRewardsClaimed)),
                               );
                             }
                           },
@@ -80,7 +81,7 @@ class _MailboxDialogState extends State<MailboxDialog> {
                             padding: const EdgeInsets.symmetric(horizontal: 12),
                             minimumSize: const Size(0, 32),
                           ),
-                          child: const Text('모두 받기'),
+                          child: Text(AppLocalizations.of(context)!.mailboxClaimAll),
                         ),
                       const SizedBox(width: 8),
                       IconButton(
@@ -96,10 +97,10 @@ class _MailboxDialogState extends State<MailboxDialog> {
             // Mail List
             Expanded(
               child: mails.isEmpty
-                  ? const Center(
+                  ? Center(
                       child: Text(
-                        '우편함이 비어있습니다.',
-                        style: TextStyle(color: Colors.white54, fontSize: 16),
+                        AppLocalizations.of(context)!.mailboxEmpty,
+                        style: const TextStyle(color: Colors.white54, fontSize: 16),
                       ),
                     )
                   : ListView.separated(
@@ -167,7 +168,7 @@ class _MailboxDialogState extends State<MailboxDialog> {
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    '보낸사람: ${mail.sender} • ${dateFormat.format(mail.timestamp)}',
+                    AppLocalizations.of(context)!.mailboxSenderAndDate(mail.sender, dateFormat.format(mail.timestamp)),
                     style: const TextStyle(color: Colors.white54, fontSize: 12),
                   ),
                 ],
@@ -178,9 +179,9 @@ class _MailboxDialogState extends State<MailboxDialog> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   if (mail.isClaimed)
-                    const Text(
-                      '수령 완료',
-                      style: TextStyle(color: Colors.white54, fontSize: 12),
+                    Text(
+                      AppLocalizations.of(context)!.mailboxClaimed,
+                      style: const TextStyle(color: Colors.white54, fontSize: 12),
                     )
                   else
                     ElevatedButton(
@@ -193,7 +194,7 @@ class _MailboxDialogState extends State<MailboxDialog> {
                         padding: const EdgeInsets.symmetric(horizontal: 12),
                         minimumSize: const Size(0, 32),
                       ),
-                      child: const Text('받기'),
+                      child: Text(AppLocalizations.of(context)!.mailboxClaim),
                     ),
                 ],
               ),
@@ -239,7 +240,7 @@ class _MailDetailDialog extends StatelessWidget {
               ],
             ),
             Text(
-              '보낸사람: ${mail.sender} • ${dateFormat.format(mail.timestamp)}',
+              AppLocalizations.of(context)!.mailboxSenderAndDate(mail.sender, dateFormat.format(mail.timestamp)),
               style: const TextStyle(color: Colors.white54, fontSize: 12),
             ),
             const SizedBox(height: 16),
@@ -254,7 +255,7 @@ class _MailDetailDialog extends StatelessWidget {
             ),
             if (hasRewards) ...[
               const SizedBox(height: 24),
-              const Text('첨부 보상', style: TextStyle(color: Colors.amberAccent, fontWeight: FontWeight.bold)),
+              Text(AppLocalizations.of(context)!.mailboxAttachedRewards, style: const TextStyle(color: Colors.amberAccent, fontWeight: FontWeight.bold)),
               const SizedBox(height: 8),
               Row(
                 children: mail.rewards.entries.map((entry) {
@@ -295,7 +296,7 @@ class _MailDetailDialog extends StatelessWidget {
                     if (context.mounted) {
                       Navigator.of(context).pop();
                       ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(content: Text('보상을 수령했습니다.')),
+                        SnackBar(content: Text(AppLocalizations.of(context)!.mailboxRewardClaimed)),
                       );
                     }
                   },
@@ -304,7 +305,7 @@ class _MailDetailDialog extends StatelessWidget {
                     foregroundColor: Colors.white,
                     minimumSize: const Size(double.infinity, 44),
                   ),
-                  child: const Text('보상 받기', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+                  child: Text(AppLocalizations.of(context)!.mailboxClaimReward, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
                 )
               else
                 Container(
@@ -315,7 +316,7 @@ class _MailDetailDialog extends StatelessWidget {
                     color: Colors.white12,
                     borderRadius: BorderRadius.circular(22),
                   ),
-                  child: const Text('수령 완료', style: TextStyle(color: Colors.white54, fontWeight: FontWeight.bold)),
+                  child: Text(AppLocalizations.of(context)!.mailboxClaimed, style: const TextStyle(color: Colors.white54, fontWeight: FontWeight.bold)),
                 ),
             ],
           ],

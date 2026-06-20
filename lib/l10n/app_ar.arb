@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "بيانات التفسير التفصيلية ليست جاهزة بعد.",
   "cardDetailNoData": "لا توجد بيانات متاحة.",
   "buttonSaveReading": "حفظ قراءة التارو",
-  "readingSavedToDevice": "تم الحفظ على الجهاز."
+  "readingSavedToDevice": "تم الحفظ على الجهاز.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} مرحلة: {name}]",
+  "growthTabMagicBook": "ترقية الكتاب السحري",
+  "growthPhaseCrystal0": "السحر الأبدي",
+  "growthPhaseCrystal1": "فتح عين الروح",
+  "growthPhaseCrystal2": "حكمة الطبيعة الأم",
+  "growthPhaseCrystal3": "جوهر الشمس",
+  "growthPhaseCrystal4": "الشفق السماوي",
+  "growthPhaseCrystal5": "العالم الإلهي",
+  "growthPhaseCrystal6": "سحر الخلق",
+  "growthPhaseCrystal7": "نفس الكون",
+  "growthPhaseCrystal8": "النور الأبدي",
+  "growthPhaseCrystal9": "الصحوة البيضاء النقية",
+  "growthPhaseCrystal10": "التسامي",
+  "growthPhaseBook0": "أدوات كتابة المتدرب",
+  "growthPhaseBook1": "مبادئ السحر الأساسية",
+  "growthPhaseBook2": "قواعد الرون القديمة",
+  "growthPhaseBook3": "فهم السحر العنصري",
+  "growthPhaseBook4": "انسجام ضوء النجوم",
+  "growthPhaseBook5": "فك رموز القطع الأثرية",
+  "growthPhaseBook6": "كتاب الحكيم المحظور",
+  "growthPhaseBook7": "التواصل مع الأرواح",
+  "growthPhaseBook8": "كتاب الحقيقة السحري",
+  "growthPhaseBook9": "سجل القدرة المطلقة",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "مستوى كتاب السحر {level}",
+  "growthMagicBookKnowledge": "المعرفة: {current} / {max}",
+  "growthCrystalBallMana": "المانا: {current} / {max}",
+  "growthMagicBookExpGained": "تعمقت معرفة الكتاب السحري! خبرة +{amount}",
+  "growthUpgradeMagicBookButton": "ترقية كتاب السحر ({amount} غبار)",
+  "devDustCharged": "تطوير: تم شحن 1000 غبار سحري!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "الأخبار والإخطارات",
+  "menuMailboxTitle": "صندوق البريد",
+  "menuMailboxSubtitle": "تحقق من التحديثات والهدايا الجديدة",
+  "mailboxTitle": "صندوق البريد",
+  "mailboxAllRewardsClaimed": "تمت المطالبة بجميع المكافآت.",
+  "mailboxClaimAll": "المطالبة بالكل",
+  "mailboxEmpty": "صندوق البريد فارغ.",
+  "mailboxSenderAndDate": "من: {sender} • {date}",
+  "mailboxClaimed": "ادعى",
+  "mailboxClaim": "مطالبة",
+  "mailboxAttachedRewards": "المكافآت المرفقة",
+  "mailboxRewardClaimed": "تم المطالبة بالمكافأة.",
+  "mailboxClaimReward": "المطالبة بالمكافأة",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "مركز الإخطار",
+  "menuNotificationCenterSubtitle": "تحقق من أحدث الإخطارات والإعلانات",
+  "authSignupComplete": "اكتمل التسجيل. يرجى التحقق من البريد الإلكتروني المرسل إليك للتحقق.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Translation failed: {error}",
+  "diarySelectDate": "حدد تاريخا",
+  "diarySavedSuccess": "تم حفظ اليوميات بنجاح!",
+  "diarySaveFailed": "فشل حفظ اليوميات.",
+  "diaryWriteTitle": "اكتب مذكرات",
+  "diaryWriteHint": "لا تتردد في كتابة أفكارك أو مشاعرك حول قراءة اليوم.",
+  "diarySaveButton": "حفظ في اليوميات",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "ثروة اليوم",
+  "readingSpreadLabelPast1": "1. الماضي",
+  "readingSpreadLabelPresent2": "2. الحاضر",
+  "readingSpreadLabelFuture3": "3. المستقبل",
+  "readingSpreadLabelCurrent1": "1. الحالي",
+  "readingSpreadLabelPast2": "2. الماضي",
+  "readingSpreadLabelFuture3Alt": "3. المستقبل",
+  "readingSpreadLabelCause4": "4. السبب",
+  "readingSpreadLabelPotential5": "5. المحتملة",
+  "readingSpreadLabelCurrentSituation1": "1. الوضع الحالي والمشكلة",
+  "readingSpreadLabelCauseOfProblem2": "2. سبب المشكلة",
+  "readingSpreadLabelAdviceForResolution3": "3. نصيحة للحل",
+  "readingSpreadLabelExpectedResult4": "4. النتيجة المتوقعة",
+  "readingSpreadLabelCurrentSituation1Alt": "1. الوضع الحالي",
+  "readingSpreadLabelObstacle2": "2. العائق",
+  "readingSpreadLabelUnconscious3": "3. فاقد الوعي",
+  "readingSpreadLabelPast4": "4. الماضي",
+  "readingSpreadLabelConsciousGoal5": "5. الهدف الواعي",
+  "readingSpreadLabelNearFuture6": "6. المستقبل القريب",
+  "readingSpreadLabelAttitude7": "7. الموقف",
+  "readingSpreadLabelExternalEnvironment8": "8. البيئة الخارجية",
+  "readingSpreadLabelHopesAndFears9": "9. الآمال والمخاوف",
+  "readingSpreadLabelFinalResult10": "10. النتيجة النهائية",
+  "readingSpreadLabelAdvice4": "4. النصيحة",
+  "readingSpreadLabelSurroundings5": "5. المناطق المحيطة",
+  "readingSpreadLabelResult6": "6. النتيجة",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Coins",
+  "serviceLoginRequired": "مطلوب تسجيل الدخول.",
+  "serviceDefaultNickname": "ساحرة بلا اسم",
+  "serviceTarotReadingError": "An error occurred while reading the fortune: {error}",
+  "defaultUserDisplayName": "مستخدم",
+  "listenToInterpretation": "استمع للتفسير",
+  "faqQ1": "هل يمكنني قراءة التارو كل يوم؟",
+  "faqA1": "نعم، من الجيد أن نقرأ سير اليوم بقلبٍ خفيف. ومع ذلك، لا ينصح بالاستمرار في رسم البطاقات بشكل متكرر لنفس السؤال.",
+  "faqQ2": "كيف أحصل على الغبار السحري؟",
+  "faqA2": "يمكنك الحصول على الغبار السحري من خلال حضور التطبيق أو الأنشطة المجتمعية أو الشراء في المتجر.",
+  "faqQ3": "ماذا علي أن أفعل إذا كانت النتيجة سيئة؟",
+  "faqA3": "التارو ليس مستقبلًا ثابتًا، بل نصيحة. استخدم النتيجة السيئة كعلامة فارقة لتحذيرك من المخاطر التي يجب تجنبها.",
+  "faqQ4": "كيف يمكنني رؤية قراءات التارو السابقة؟",
+  "faqA4": "يمكنك مراجعة سجلات القراءة المحفوظة حسب التاريخ في علامة التبويب \"اليوميات\" (التقويم) في القائمة السفلية في أي وقت.",
+  "faqQ5": "كيف يمكنني المشاركة مع المجتمع؟",
+  "faqA5": "قم بتشغيل مفتاح \"المشاركة مع المجتمع\" في شاشة تفاصيل اليوميات المحفوظة في اليوميات لمشاركة قراءتك مع مستخدمين آخرين.",
+  "faqQ6": "كيف يمكنني تغيير لقبي أو ملفي الشخصي؟",
+  "faqA6": "يمكنك تغيير لقبك وأيقونتك في أي وقت عن طريق لمس منطقة الملف الشخصي أعلى علامة التبويب \"قائمتي\".",
+  "faqQ7": "أين يمكنني تشغيل وإيقاف الإشعارات؟",
+  "faqA7": "يمكنك التحكم في الإشعارات من تطبيق إعدادات جهازك، أو من قائمة التفضيلات ليتم تحديثها في المستقبل.",
+  "faqQ8": "هل يمكنني رؤية مذكرات التارو الخاصة بالأشخاص الآخرين؟",
+  "faqA8": "نعم، يمكنك عرض قراءات التاروت المثيرة للاهتمام والتشجيع عليها والتي نشرها السحرة الآخرون (المستخدمون) للعامة في علامة التبويب \"المجتمع\" في الأسفل.",
+  "faqQ9": "أين يمكنني التحقق من اشتراكي المميز أو سجل الدفع؟",
+  "faqA9": "إذا قمت بتحديد \"سجل الدفع\" في علامة التبويب [معلوماتي] في القائمة السفلية، فيمكنك التحقق من سجل دفع العملات المعدنية والغبار السحري المكتسب بالتفصيل.",
+  "faqQ10": "أريد أن أدرس معنى بطاقات التارو شخصيًا. كيف يمكنني أن أفعل ذلك؟",
+  "faqA10": "إذا ذهبت إلى علامة التبويب [Card Encyclopedia] في القائمة السفلية، فيمكنك عرض المعاني والرموز والشروحات المتعمقة لجميع البطاقات الـ 78 بحرية.",
+  "faqQ11": "كيف يمكنني حذف حسابي أو الانسحاب؟",
+  "faqA11": "يمكنك العثور على زر \"حذف الحساب\" بالانتقال إلى قائمة \"إعدادات الحساب\" عبر رمز الترس الموجود أعلى يمين علامة التبويب [معلوماتي]. سيتم حذف كافة اليوميات والبيانات بشكل دائم عند الانسحاب.",
+  "faqQ12": "أين أتصل إذا واجهت خطأ أو كان لدي اقتراحات؟",
+  "faqA12": "إذا قمت بإرسال التفاصيل من خلال \"اتصل بخدمة العملاء\" التي يتم إعدادها في أسفل الشاشة الحالية أو عبر البريد الإلكتروني الرسمي، فسوف نتحقق منها بسرعة ونحلها لك بطريقة سحرية.",
+  "myMenuContactUs": "اتصل بنا",
+  "myMenuContactUsSubtitle": "الاستفسارات والاقتراحات",
+  "contactDialogTitle": "اتصل بنا",
+  "contactTypeBug": "تقرير الأخطاء",
+  "contactTypeFeature": "اقتراح الميزة",
+  "contactTypePayment": "مشكلة الدفع",
+  "contactTypeOther": "استفسار آخر",
+  "contactHint": "يرجى كتابة استفسارك بالتفصيل.",
+  "contactSend": "يرسل",
+  "contactCancel": "يلغي",
+  "contactEmptyErrorTitle": "يلاحظ",
+  "contactEmptyErrorMessage": "الرجاء إدخال محتوى استفسارك."
 }

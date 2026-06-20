@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Hindi pa handa ang detalyadong data ng interpretasyon.",
   "cardDetailNoData": "Walang available na data.",
   "buttonSaveReading": "I-save ang Pagbasa ng Tarot",
-  "readingSavedToDevice": "Na-save sa device."
+  "readingSavedToDevice": "Na-save sa device.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Yugto: {name}]",
+  "growthTabMagicBook": "Pagpapahusay ng Aklat ng Mahika",
+  "growthPhaseCrystal0": "Mahika ng Kailaliman",
+  "growthPhaseCrystal1": "Pagbubukas ng Mata ng Espiritu",
+  "growthPhaseCrystal2": "Karunungan ng Inang Kalikasan",
+  "growthPhaseCrystal3": "Diwa ng Araw",
+  "growthPhaseCrystal4": "Makalangit na Aurora",
+  "growthPhaseCrystal5": "Banal na Kaharian",
+  "growthPhaseCrystal6": "Mahika ng Paglikha",
+  "growthPhaseCrystal7": "Hininga ng Uniberso",
+  "growthPhaseCrystal8": "Walang Hanggang Liwanag",
+  "growthPhaseCrystal9": "Pagkamulat ng Dalisay na Puti",
+  "growthPhaseCrystal10": "Transendensya",
+  "growthPhaseBook0": "Mga Kagamitan sa Pagsusulat ng Baguhan",
+  "growthPhaseBook1": "Batayang Panimulang Aklat ng Mahika",
+  "growthPhaseBook2": "Sinaunang Gramatika ng Rune",
+  "growthPhaseBook3": "Pag-unawa sa Mahika ng Elemento",
+  "growthPhaseBook4": "Harmonya ng Liwanag ng Bituin",
+  "growthPhaseBook5": "Pagde-decipher ng Artifact",
+  "growthPhaseBook6": "Ipinagbabawal na Aklat ng Pantas",
+  "growthPhaseBook7": "Pakikipag-ugnayan sa Mga Espiritu",
+  "growthPhaseBook8": "Grimoire ng Katotohanan",
+  "growthPhaseBook9": "Tala ng Makapangyarihan sa Lahat",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Antas ng Mahiwagang Aklat {level}",
+  "growthMagicBookKnowledge": "Kaalaman: {current} / {max}",
+  "growthCrystalBallMana": "Mana: {current} / {max}",
+  "growthMagicBookExpGained": "Ang kaalaman ng mahiwagang aklat ay lumalim! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "I-upgrade ang Mahiwagang Aklat ({amount} Pulbos)",
+  "devDustCharged": "Dev: 1000 Mahiwagang Pulbos na-charge!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Mga Balita at Notification",
+  "menuMailboxTitle": "Mailbox",
+  "menuMailboxSubtitle": "Tingnan ang mga bagong update at regalo",
+  "mailboxTitle": "Mailbox",
+  "mailboxAllRewardsClaimed": "Na-claim ang lahat ng reward.",
+  "mailboxClaimAll": "I-claim Lahat",
+  "mailboxEmpty": "Walang laman ang mailbox.",
+  "mailboxSenderAndDate": "Mula kay: {sender} • {date}",
+  "mailboxClaimed": "Inangkin",
+  "mailboxClaim": "Claim",
+  "mailboxAttachedRewards": "Naka-attach na Mga Gantimpala",
+  "mailboxRewardClaimed": "Na-claim ang reward.",
+  "mailboxClaimReward": "Mag-claim ng Gantimpala",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Notification Center",
+  "menuNotificationCenterSubtitle": "Tingnan ang mga pinakabagong notification at anunsyo",
+  "authSignupComplete": "Kumpleto na ang pag-sign up. Pakisuri ang email na ipinadala sa iyo upang i-verify.",
+  "chatInitError": "Nagkaroon ng error sa pagsisimula:\n{error}",
+  "chatError": "Nagkaroon ng error:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Posisyon {number}",
+  "communityTranslationFailed": "Nabigo ang pagsasalin: {error}",
+  "diarySelectDate": "Pumili ng petsa",
+  "diarySavedSuccess": "Matagumpay na na-save ang talaarawan!",
+  "diarySaveFailed": "Nabigong i-save ang diary.",
+  "diaryWriteTitle": "Sumulat ng Diary",
+  "diaryWriteHint": "Huwag mag-atubiling isulat ang iyong mga saloobin o damdamin tungkol sa pagbabasa ngayon.",
+  "diarySaveButton": "I-save sa Diary",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "Ang Fortune Ngayon",
+  "readingSpreadLabelPast1": "1. Nakaraan",
+  "readingSpreadLabelPresent2": "2. Kasalukuyan",
+  "readingSpreadLabelFuture3": "3. Kinabukasan",
+  "readingSpreadLabelCurrent1": "1. Kasalukuyan",
+  "readingSpreadLabelPast2": "2. Nakaraan",
+  "readingSpreadLabelFuture3Alt": "3. Kinabukasan",
+  "readingSpreadLabelCause4": "4. Dahilan",
+  "readingSpreadLabelPotential5": "5. Potensyal",
+  "readingSpreadLabelCurrentSituation1": "1. Kasalukuyang sitwasyon at problema",
+  "readingSpreadLabelCauseOfProblem2": "2. Dahilan ng problema",
+  "readingSpreadLabelAdviceForResolution3": "3. Payo para sa paglutas",
+  "readingSpreadLabelExpectedResult4": "4. Inaasahang resulta",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Kasalukuyang sitwasyon",
+  "readingSpreadLabelObstacle2": "2. Balakid",
+  "readingSpreadLabelUnconscious3": "3. Walang malay",
+  "readingSpreadLabelPast4": "4. Nakaraan",
+  "readingSpreadLabelConsciousGoal5": "5. Malay na Layunin",
+  "readingSpreadLabelNearFuture6": "6. Malapit na Hinaharap",
+  "readingSpreadLabelAttitude7": "7. Saloobin",
+  "readingSpreadLabelExternalEnvironment8": "8. Panlabas na Kapaligiran",
+  "readingSpreadLabelHopesAndFears9": "9. Pag-asa at Takot",
+  "readingSpreadLabelFinalResult10": "10. Pangwakas na Resulta",
+  "readingSpreadLabelAdvice4": "4. Payo",
+  "readingSpreadLabelSurroundings5": "5. Kapaligiran",
+  "readingSpreadLabelResult6": "6. Resulta",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Mga barya",
+  "serviceLoginRequired": "Kinakailangan ang pag-login.",
+  "serviceDefaultNickname": "Witch na walang pangalan",
+  "serviceTarotReadingError": "May naganap na error habang binabasa ang kapalaran: {error}",
+  "defaultUserDisplayName": "Gumagamit",
+  "listenToInterpretation": "Makinig sa Interpretasyon",
+  "faqQ1": "Maaari ba akong magbasa ng tarot araw-araw?",
+  "faqA1": "Oo, magandang basahin ang daloy ng ngayon na may magaan na puso. Gayunpaman, hindi inirerekomenda na panatilihing paulit-ulit ang pagguhit ng mga card para sa parehong tanong.",
+  "faqQ2": "Paano ako makakakuha ng magic dust?",
+  "faqA2": "Maaari kang makakuha ng magic dust sa pamamagitan ng pagdalo sa app, mga aktibidad sa komunidad, o pagbili sa shop.",
+  "faqQ3": "Ano ang dapat kong gawin kung masama ang resulta?",
+  "faqA3": "Ang Tarot ay hindi isang nakapirming hinaharap, ngunit isang payo. Gumamit ng masamang resulta bilang isang milestone upang balaan ka sa mga panganib na iiwasan.",
+  "faqQ4": "Paano ko makikita ang aking mga nakaraang pagbabasa ng tarot?",
+  "faqA4": "Maaari mong suriin ang iyong mga naka-save na tala sa pagbasa ayon sa petsa sa tab na 'Diary' (Calendar) sa ibabang menu anumang oras.",
+  "faqQ5": "Paano ako magbabahagi sa komunidad?",
+  "faqA5": "I-on ang switch na 'Ibahagi sa Komunidad' sa screen ng detalye ng talaarawan na naka-save sa talaarawan upang ibahagi ang iyong pagbabasa sa ibang mga user.",
+  "faqQ6": "Paano ko mapapalitan ang aking palayaw o profile?",
+  "faqA6": "Maaari mong baguhin ang iyong palayaw at icon anumang oras sa pamamagitan ng pagpindot sa lugar ng profile sa tuktok ng tab na 'Aking Menu'.",
+  "faqQ7": "Saan ko maaaring i-on at i-off ang mga notification?",
+  "faqA7": "Makokontrol mo ang mga notification mula sa app ng mga setting ng iyong device, o mula sa menu ng mga kagustuhan na ia-update sa hinaharap.",
+  "faqQ8": "Maaari ko bang makita ang mga tarot diary ng ibang tao?",
+  "faqA8": "Oo, maaari mong tingnan at i-cheer ang mga kawili-wiling pagbabasa ng tarot na isinapubliko ng ibang mga wizard (mga user) sa tab na 'Komunidad' sa ibaba.",
+  "faqQ9": "Saan ko masusuri ang aking premium na subscription o kasaysayan ng pagbabayad?",
+  "faqA9": "Kung pipiliin mo ang 'Kasaysayan ng Pagbabayad' sa tab na [Aking Impormasyon] sa ibabang menu, maaari mong tingnan ang iyong kasaysayan ng pagbabayad ng barya at nakuha ang magic dust nang detalyado.",
+  "faqQ10": "Gusto kong pag-aralan ang kahulugan ng mga Tarot card nang personal. Paano ko magagawa iyon?",
+  "faqA10": "Kung pupunta ka sa tab na [Card Encyclopedia] sa ibabang menu, maaari mong malayang tingnan ang patayo at baligtad na mga kahulugan, simbolo, at malalalim na pagpapaliwanag ng lahat ng 78 card.",
+  "faqQ11": "Paano ko matatanggal ang aking account o mag-withdraw?",
+  "faqA11": "Mahahanap mo ang button na 'Delete Account' sa pamamagitan ng pagpunta sa menu ng Mga Setting ng Account sa pamamagitan ng icon na gear sa kanang tuktok ng tab na [Aking Impormasyon]. Ang lahat ng mga talaarawan at data ay permanenteng tatanggalin sa pag-withdraw.",
+  "faqQ12": "Saan ako makikipag-ugnayan kung nakatagpo ako ng error o may mga mungkahi?",
+  "faqA12": "Kung magpapadala ka ng mga detalye sa pamamagitan ng 'Contact Customer Service' na inihahanda sa ibaba ng kasalukuyang screen o sa pamamagitan ng opisyal na email, mabilis naming susuriin at mahiwagang lutasin ito para sa iyo.",
+  "myMenuContactUs": "Makipag-ugnayan sa Amin",
+  "myMenuContactUsSubtitle": "Mga katanungan at mungkahi",
+  "contactDialogTitle": "Makipag-ugnayan sa Amin",
+  "contactTypeBug": "Ulat ng Bug",
+  "contactTypeFeature": "Mungkahi sa Tampok",
+  "contactTypePayment": "Isyu sa Pagbabayad",
+  "contactTypeOther": "Iba Pang Pagtatanong",
+  "contactHint": "Mangyaring isulat ang iyong pagtatanong nang detalyado.",
+  "contactSend": "Ipadala",
+  "contactCancel": "Kanselahin",
+  "contactEmptyErrorTitle": "Pansinin",
+  "contactEmptyErrorMessage": "Pakipasok ang nilalaman ng iyong pagtatanong."
 }

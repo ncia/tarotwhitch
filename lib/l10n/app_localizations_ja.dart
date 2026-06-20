@@ -4068,4 +4068,423 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'デバイスに保存されました。';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level段階: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => '魔導書強化';
+
+  @override
+  String get growthPhaseCrystal0 => '深淵の魔力';
+
+  @override
+  String get growthPhaseCrystal1 => '霊眼開眼';
+
+  @override
+  String get growthPhaseCrystal2 => '大自然の叡智';
+
+  @override
+  String get growthPhaseCrystal3 => '太陽の精髄';
+
+  @override
+  String get growthPhaseCrystal4 => '天上のオーロラ';
+
+  @override
+  String get growthPhaseCrystal5 => '神聖なる領域';
+
+  @override
+  String get growthPhaseCrystal6 => '創造の魔術';
+
+  @override
+  String get growthPhaseCrystal7 => '宇宙の息吹';
+
+  @override
+  String get growthPhaseCrystal8 => '永遠の光';
+
+  @override
+  String get growthPhaseCrystal9 => '純白の覚醒';
+
+  @override
+  String get growthPhaseCrystal10 => '超越';
+
+  @override
+  String get growthPhaseBook0 => '見習いの筆記具';
+
+  @override
+  String get growthPhaseBook1 => '基礎魔術入門';
+
+  @override
+  String get growthPhaseBook2 => '古代ルーン文法';
+
+  @override
+  String get growthPhaseBook3 => '元素魔法の理解';
+
+  @override
+  String get growthPhaseBook4 => '星光の調和';
+
+  @override
+  String get growthPhaseBook5 => '遺物解読';
+
+  @override
+  String get growthPhaseBook6 => '賢者の禁書';
+
+  @override
+  String get growthPhaseBook7 => '精霊との交感';
+
+  @override
+  String get growthPhaseBook8 => '真実の魔導書';
+
+  @override
+  String get growthPhaseBook9 => '全能の記録';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return '魔法書のレベル $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return '知識: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'マナ: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return '魔法書の知識が深まりました！ 経験値 +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return '魔法書を強化（粉 $amount個）';
+  }
+
+  @override
+  String get devDustCharged => '開発用: 魔力の粉 1000個チャージ完了！';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'ニュースとお知らせ';
+
+  @override
+  String get menuMailboxTitle => 'メールボックス';
+
+  @override
+  String get menuMailboxSubtitle => '新しいアップデートやプレゼントをチェックする';
+
+  @override
+  String get mailboxTitle => 'メールボックス';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'すべての報酬を受け取りました。';
+
+  @override
+  String get mailboxClaimAll => 'すべてを請求する';
+
+  @override
+  String get mailboxEmpty => 'メールボックスが空です。';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return '送信者: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => '主張した';
+
+  @override
+  String get mailboxClaim => '請求';
+
+  @override
+  String get mailboxAttachedRewards => '付属の報酬';
+
+  @override
+  String get mailboxRewardClaimed => '報酬を請求しました。';
+
+  @override
+  String get mailboxClaimReward => '報酬を受け取る';
+
+  @override
+  String get menuNotificationCenterTitle => '通知センター';
+
+  @override
+  String get menuNotificationCenterSubtitle => '最新のお知らせやお知らせを確認する';
+
+  @override
+  String get authSignupComplete => 'サインアップが完了しました。確認のために送信されたメールをご確認ください。';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initialization error occurred:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Error occurred:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Translation failed: $error';
+  }
+
+  @override
+  String get diarySelectDate => '日付を選択してください';
+
+  @override
+  String get diarySavedSuccess => '日記が無事保存されました！';
+
+  @override
+  String get diarySaveFailed => '日記の保存に失敗しました。';
+
+  @override
+  String get diaryWriteTitle => '日記を書く';
+
+  @override
+  String get diaryWriteHint => '今日の読書についての感想や感じたことを自由に書いてください。';
+
+  @override
+  String get diarySaveButton => '日記に保存';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => '今日の運勢';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. 過去';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. プレゼント';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. 未来';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. 現在';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. 過去';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. 未来';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. 原因';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. 可能性';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 => '1. 現状と課題';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. 問題の原因';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 => '3. 解決のためのアドバイス';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. 期待される結果';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. 現状';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. 障害物';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. 意識不明';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. 過去';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. 意識的な目標';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. 近未来';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. 態度';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 => '8. 外部環境';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. 希望と恐怖';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. 最終結果';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. アドバイス';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. 周辺環境';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. 結果';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount Coins';
+  }
+
+  @override
+  String get serviceLoginRequired => 'ログインが必要です。';
+
+  @override
+  String get serviceDefaultNickname => '名前のない魔女';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return '占いの読み取り中にエラーが発生しました: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'ユーザー';
+
+  @override
+  String get listenToInterpretation => '通訳を聞く';
+
+  @override
+  String get faqQ1 => 'タロットを毎日読んでもいいですか？';
+
+  @override
+  String get faqA1 =>
+      'そう、今日の流れを軽い気持ちで読むと良いのです。ただし、同じ質問に対して繰り返しカードを引き続けることはお勧めできません。';
+
+  @override
+  String get faqQ2 => '魔法の粉はどうやって入手できますか？';
+
+  @override
+  String get faqA2 => 'マジックダストは、アプリへの参加、コミュニティ活動、またはショップでの購入を通じて入手できます。';
+
+  @override
+  String get faqQ3 => '結果が悪かった場合はどうすればよいですか?';
+
+  @override
+  String get faqA3 =>
+      'タロットは確定した未来ではなく、アドバイスです。悪い結果をマイルストーンとして使用して、回避すべきリスクを警告します。';
+
+  @override
+  String get faqQ4 => '過去のタロット占いはどうやって見ることができますか？';
+
+  @override
+  String get faqA4 => '保存した読書記録は、下部メニューの「日記」（カレンダー）タブでいつでも日付ごとに確認できます。';
+
+  @override
+  String get faqQ5 => 'コミュニティに共有するにはどうすればよいですか?';
+
+  @override
+  String get faqA5 =>
+      '日記に保存した日記詳細画面の「コミュニティに共有」スイッチをオンにすると、読んだ内容を他のユーザーと共有できます。';
+
+  @override
+  String get faqQ6 => 'ニックネームやプロフィールを変更するにはどうすればよいですか?';
+
+  @override
+  String get faqA6 =>
+      '「マイメニュー」タブの上部にあるプロフィールエリアをタッチすると、いつでもニックネームとアイコンを変更できます。';
+
+  @override
+  String get faqQ7 => '通知のオンとオフはどこで切り替えられますか?';
+
+  @override
+  String get faqA7 => '通知は、デバイスの設定アプリから、または将来更新される設定メニューから制御できます。';
+
+  @override
+  String get faqQ8 => '他の人のタロット日記を見ることはできますか?';
+
+  @override
+  String get faqA8 =>
+      'はい、下部の「コミュニティ」タブで、他の魔法使い（ユーザー）が公開している興味深いタロット占いを閲覧したり、応援したりすることができます。';
+
+  @override
+  String get faqQ9 => 'プレミアム サブスクリプションまたは支払い履歴はどこで確認できますか?';
+
+  @override
+  String get faqA9 =>
+      '下部メニューの[マイ情報]タブにある「支払い履歴」を選択すると、コインの支払い履歴や獲得した魔法の粉を詳細に確認できます。';
+
+  @override
+  String get faqQ10 => '個人的にタロットカードの意味を勉強したいです。どうすればそれができますか？';
+
+  @override
+  String get faqA10 =>
+      '下部メニューの【カード図鑑】タブでは、全78枚のカードの正位置・逆位置の意味やシンボル、詳しい解説を自由に閲覧することができます。';
+
+  @override
+  String get faqQ11 => 'アカウントを削除または退会するにはどうすればよいですか?';
+
+  @override
+  String get faqA11 =>
+      '[アカウントの削除] ボタンは、[個人情報] タブの右上にある歯車アイコンからアカウント設定メニューに移動すると見つかります。すべての日記とデータは退会時に完全に削除されます。';
+
+  @override
+  String get faqQ12 => 'エラーが発生した場合、または提案がある場合はどこに連絡すればよいですか?';
+
+  @override
+  String get faqA12 =>
+      '現在の画面の下部に準備中の「カスタマーサービスに連絡する」または公式メールを通じて詳細を送信していただければ、すぐに確認し、魔法のように解決します。';
+
+  @override
+  String get myMenuContactUs => 'お問い合わせ';
+
+  @override
+  String get myMenuContactUsSubtitle => 'お問い合わせとご提案';
+
+  @override
+  String get contactDialogTitle => 'お問い合わせ';
+
+  @override
+  String get contactTypeBug => 'バグレポート';
+
+  @override
+  String get contactTypeFeature => '機能の提案';
+
+  @override
+  String get contactTypePayment => '支払いの問題';
+
+  @override
+  String get contactTypeOther => 'その他のお問い合わせ';
+
+  @override
+  String get contactHint => 'お問い合わせ内容を詳しくご記入ください。';
+
+  @override
+  String get contactSend => '送信';
+
+  @override
+  String get contactCancel => 'キャンセル';
+
+  @override
+  String get contactEmptyErrorTitle => '知らせ';
+
+  @override
+  String get contactEmptyErrorMessage => 'お問い合わせ内容をご入力ください。';
 }

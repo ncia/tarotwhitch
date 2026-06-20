@@ -4424,4 +4424,434 @@ class AppLocalizationsDa extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'Gemt på enhed.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level fase: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'Opgradering af magisk bog';
+
+  @override
+  String get growthPhaseCrystal0 => 'Afgrundsmagi';
+
+  @override
+  String get growthPhaseCrystal1 => 'Åbning af åndens øje';
+
+  @override
+  String get growthPhaseCrystal2 => 'Moder Naturs visdom';
+
+  @override
+  String get growthPhaseCrystal3 => 'Solens essens';
+
+  @override
+  String get growthPhaseCrystal4 => 'Himmelsk aurora';
+
+  @override
+  String get growthPhaseCrystal5 => 'Guddommeligt rige';
+
+  @override
+  String get growthPhaseCrystal6 => 'Skabelsens magi';
+
+  @override
+  String get growthPhaseCrystal7 => 'Universets ånde';
+
+  @override
+  String get growthPhaseCrystal8 => 'Evigt lys';
+
+  @override
+  String get growthPhaseCrystal9 => 'Ren hvid opvågning';
+
+  @override
+  String get growthPhaseCrystal10 => 'Transcendens';
+
+  @override
+  String get growthPhaseBook0 => 'Lærlingens skriveredskaber';
+
+  @override
+  String get growthPhaseBook1 => 'Grundlæggende magisk grundbog';
+
+  @override
+  String get growthPhaseBook2 => 'Gammel runegrammatik';
+
+  @override
+  String get growthPhaseBook3 => 'Forståelse af elementærmagi';
+
+  @override
+  String get growthPhaseBook4 => 'Stjernelysets harmoni';
+
+  @override
+  String get growthPhaseBook5 => 'Aflæsning af artefakter';
+
+  @override
+  String get growthPhaseBook6 => 'Visdomsmandens forbudte bog';
+
+  @override
+  String get growthPhaseBook7 => 'Fællesskab med ånder';
+
+  @override
+  String get growthPhaseBook8 => 'Sandhedens grimoire';
+
+  @override
+  String get growthPhaseBook9 => 'Almægtig optegnelse';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'Magibogs niveau $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'Viden: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'Mana: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'Magibogens viden er blevet dybere! Exp +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'Opgrader Magibog ($amount støv)';
+  }
+
+  @override
+  String get devDustCharged => 'Dev: 1000 magisk støv opladet!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'Nyheder og meddelelser';
+
+  @override
+  String get menuMailboxTitle => 'Postkasse';
+
+  @override
+  String get menuMailboxSubtitle => 'Tjek nye opdateringer og gaver';
+
+  @override
+  String get mailboxTitle => 'Postkasse';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'Alle belønninger hævdet.';
+
+  @override
+  String get mailboxClaimAll => 'Gør krav på alle';
+
+  @override
+  String get mailboxEmpty => 'Postkassen er tom.';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'Fra: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'Påstået';
+
+  @override
+  String get mailboxClaim => 'Påstand';
+
+  @override
+  String get mailboxAttachedRewards => 'Vedhæftede belønninger';
+
+  @override
+  String get mailboxRewardClaimed => 'Belønning hævdet.';
+
+  @override
+  String get mailboxClaimReward => 'Gør krav på belønning';
+
+  @override
+  String get menuNotificationCenterTitle => 'Notifikationscenter';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'Check latest notifications and announcements';
+
+  @override
+  String get authSignupComplete =>
+      'Tilmeldingen er fuldført. Tjek venligst den e-mail, der er sendt til dig, for at bekræfte.';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initialization error occurred:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Error occurred:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Translation failed: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'Vælg en dato';
+
+  @override
+  String get diarySavedSuccess => 'Dagbogen blev gemt!';
+
+  @override
+  String get diarySaveFailed => 'Dagbogen kunne ikke gemmes.';
+
+  @override
+  String get diaryWriteTitle => 'Skriv dagbog';
+
+  @override
+  String get diaryWriteHint =>
+      'Skriv gerne dine tanker eller følelser om dagens læsning.';
+
+  @override
+  String get diarySaveButton => 'Gem i dagbog';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'Dagens Fortune';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. Fortid';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. Tilstede';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. Fremtid';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. Nuværende';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. Fortid';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. Fremtid';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. Årsag';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. Potentiale';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 =>
+      '1. Nuværende situation og problem';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. Årsag til problemet';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 => '3. Råd til løsning';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. Forventet resultat';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. Nuværende situation';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. Forhindring';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. Bevidstløs';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. Fortid';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. Bevidst mål';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. Nær fremtid';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. Attitude';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 => '8. Eksternt miljø';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. Håb og frygt';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. Endeligt resultat';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. Rådgivning';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. Omgivelser';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. Resultat';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount mønter';
+  }
+
+  @override
+  String get serviceLoginRequired => 'Login er påkrævet.';
+
+  @override
+  String get serviceDefaultNickname => 'Navnløs heks';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'Der opstod en fejl under læsning af formuen: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'Bruger';
+
+  @override
+  String get listenToInterpretation => 'Lyt til fortolkning';
+
+  @override
+  String get faqQ1 => 'Kan jeg læse tarot hver dag?';
+
+  @override
+  String get faqA1 =>
+      'Ja, det er godt at læse dagens flow med let hjerte. Det anbefales dog ikke at trække kort gentagne gange for det samme spørgsmål.';
+
+  @override
+  String get faqQ2 => 'Hvordan får jeg tryllestøv?';
+
+  @override
+  String get faqA2 =>
+      'Du kan få magisk støv gennem appdeltagelse, fællesskabsaktiviteter eller køb i butikken.';
+
+  @override
+  String get faqQ3 => 'Hvad skal jeg gøre, hvis resultatet er dårligt?';
+
+  @override
+  String get faqA3 =>
+      'Tarot er ikke en fast fremtid, men et råd. Brug et dårligt resultat som en milepæl for at advare dig om risici, du skal undgå.';
+
+  @override
+  String get faqQ4 => 'Hvordan kan jeg se mine tidligere tarotlæsninger?';
+
+  @override
+  String get faqA4 =>
+      'Du kan til enhver tid gennemgå dine gemte læseposter efter dato i fanen \'Dagbog\' (Kalender) i den nederste menu.';
+
+  @override
+  String get faqQ5 => 'Hvordan deler jeg med fællesskabet?';
+
+  @override
+  String get faqA5 =>
+      'Slå knappen \'Del til fællesskab\' til på skærmen med dagbogsdetaljer, der er gemt i dagbogen, for at dele din læsning med andre brugere.';
+
+  @override
+  String get faqQ6 => 'Hvordan kan jeg ændre mit kaldenavn eller min profil?';
+
+  @override
+  String get faqA6 =>
+      'Du kan til enhver tid ændre dit kaldenavn og ikon ved at trykke på profilområdet øverst på fanen \'Min menu\'.';
+
+  @override
+  String get faqQ7 => 'Hvor kan jeg slå notifikationer til og fra?';
+
+  @override
+  String get faqA7 =>
+      'Du kan styre notifikationer fra din enheds indstillingsapp eller fra præferencemenuen for at blive opdateret i fremtiden.';
+
+  @override
+  String get faqQ8 => 'Kan jeg se andres tarot-dagbøger?';
+
+  @override
+  String get faqA8 =>
+      'Ja, du kan se og heppe på interessante tarotlæsninger, som andre guider (brugere) har offentliggjort på fanen \'Fællesskab\' nederst.';
+
+  @override
+  String get faqQ9 =>
+      'Hvor kan jeg tjekke mit premium-abonnement eller betalingshistorik?';
+
+  @override
+  String get faqA9 =>
+      'Hvis du vælger \'Betalingshistorik\' på fanen [Mine oplysninger] i den nederste menu, kan du tjekke din møntbetalingshistorik og erhvervet magisk støv i detaljer.';
+
+  @override
+  String get faqQ10 =>
+      'Jeg vil personligt studere betydningen af ​​tarotkort. Hvordan kan jeg gøre det?';
+
+  @override
+  String get faqA10 =>
+      'Hvis du går til fanen [Card Encyclopedia] i den nederste menu, kan du frit se de opretstående og omvendte betydninger, symboler og dybdegående forklaringer af alle 78 kort.';
+
+  @override
+  String get faqQ11 => 'Hvordan kan jeg slette min konto eller hæve?';
+
+  @override
+  String get faqA11 =>
+      'Du kan finde knappen \'Slet konto\' ved at gå til menuen Kontoindstillinger via tandhjulsikonet øverst til højre på fanen [Mine oplysninger]. Alle dagbøger og data slettes permanent ved tilbagetrækning.';
+
+  @override
+  String get faqQ12 =>
+      'Hvor kontakter jeg, hvis jeg støder på en fejl eller har forslag?';
+
+  @override
+  String get faqA12 =>
+      'Hvis du sender detaljer via \'Kontakt kundeservice\', som er ved at blive udarbejdet nederst på den aktuelle skærm eller via officiel e-mail, vil vi hurtigt tjekke og på magisk vis løse det for dig.';
+
+  @override
+  String get myMenuContactUs => 'Kontakt os';
+
+  @override
+  String get myMenuContactUsSubtitle => 'Forespørgsler og forslag';
+
+  @override
+  String get contactDialogTitle => 'Kontakt os';
+
+  @override
+  String get contactTypeBug => 'Fejlrapport';
+
+  @override
+  String get contactTypeFeature => 'Funktionsforslag';
+
+  @override
+  String get contactTypePayment => 'Betalingsproblem';
+
+  @override
+  String get contactTypeOther => 'Anden forespørgsel';
+
+  @override
+  String get contactHint => 'Skriv venligst din forespørgsel i detaljer.';
+
+  @override
+  String get contactSend => 'Sende';
+
+  @override
+  String get contactCancel => 'Ophæve';
+
+  @override
+  String get contactEmptyErrorTitle => 'Meddelelse';
+
+  @override
+  String get contactEmptyErrorMessage =>
+      'Indtast venligst dit forespørgselsindhold.';
 }

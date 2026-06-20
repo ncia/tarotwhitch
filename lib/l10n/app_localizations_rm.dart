@@ -4439,4 +4439,435 @@ class AppLocalizationsRm extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'Saved to device.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level Fasa: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'Mezra dal cudesch da magia';
+
+  @override
+  String get growthPhaseCrystal0 => 'Magia abissala';
+
+  @override
+  String get growthPhaseCrystal1 => 'Avertura da l\'egl dal spiert';
+
+  @override
+  String get growthPhaseCrystal2 => 'Sapientscha da la Mamma Natira';
+
+  @override
+  String get growthPhaseCrystal3 => 'Essenza dal sulegl';
+
+  @override
+  String get growthPhaseCrystal4 => 'Aurora tschielesta';
+
+  @override
+  String get growthPhaseCrystal5 => 'Reginavel divin';
+
+  @override
+  String get growthPhaseCrystal6 => 'Magia da la creaziun';
+
+  @override
+  String get growthPhaseCrystal7 => 'Flad da l\'univers';
+
+  @override
+  String get growthPhaseCrystal8 => 'Glisch eterna';
+
+  @override
+  String get growthPhaseCrystal9 => 'Svegl alv pur';
+
+  @override
+  String get growthPhaseCrystal10 => 'Trascendenza';
+
+  @override
+  String get growthPhaseBook0 => 'Utensils da scriver da l\'aprendist';
+
+  @override
+  String get growthPhaseBook1 => 'Primer da magia basal';
+
+  @override
+  String get growthPhaseBook2 => 'Grammatica da runas anzianas';
+
+  @override
+  String get growthPhaseBook3 => 'Chapientscha da la magia elementara';
+
+  @override
+  String get growthPhaseBook4 => 'Armonia da la glisch da stailas';
+
+  @override
+  String get growthPhaseBook5 => 'Decifraziun d\'artefacts';
+
+  @override
+  String get growthPhaseBook6 => 'Cudesch prohibì dal Sagent';
+
+  @override
+  String get growthPhaseBook7 => 'Communiun cun spierts';
+
+  @override
+  String get growthPhaseBook8 => 'Grimori da la vardad';
+
+  @override
+  String get growthPhaseBook9 => 'Registraziun omnipotenta';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'Nivel dal cudesch magic $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'Enconuschientscha: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'Mana: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'L\'enconuschientscha dal cudesch magic è s\'approfundada! Exp +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'Meziorar il cudesch magic ($amount Pulvra)';
+  }
+
+  @override
+  String get devDustCharged => 'Dev: 1000 Pulvra magica chargiada!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'News & Notifications';
+
+  @override
+  String get menuMailboxTitle => 'Mailbox';
+
+  @override
+  String get menuMailboxSubtitle => 'Check new updates and gifts';
+
+  @override
+  String get mailboxTitle => 'Mailbox';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'All rewards claimed.';
+
+  @override
+  String get mailboxClaimAll => 'Claim All';
+
+  @override
+  String get mailboxEmpty => 'Mailbox is empty.';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'From: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'Claimed';
+
+  @override
+  String get mailboxClaim => 'Claim';
+
+  @override
+  String get mailboxAttachedRewards => 'Attached Rewards';
+
+  @override
+  String get mailboxRewardClaimed => 'Reward claimed.';
+
+  @override
+  String get mailboxClaimReward => 'Claim Reward';
+
+  @override
+  String get menuNotificationCenterTitle => 'Notification Center';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'Check latest notifications and announcements';
+
+  @override
+  String get authSignupComplete =>
+      'Sign up is complete. Please check the email sent to you to verify.';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initialization error occurred:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Error occurred:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Translation failed: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'Select a date';
+
+  @override
+  String get diarySavedSuccess => 'Diary saved successfully!';
+
+  @override
+  String get diarySaveFailed => 'Failed to save diary.';
+
+  @override
+  String get diaryWriteTitle => 'Write Diary';
+
+  @override
+  String get diaryWriteHint =>
+      'Feel free to write your thoughts or feelings about today\'s reading.';
+
+  @override
+  String get diarySaveButton => 'Save to Diary';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'Today\'s Fortune';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. Past';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. Present';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. Future';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. Current';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. Past';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. Future';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. Cause';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. Potential';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 =>
+      '1. Current situation and problem';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. Cause of problem';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 =>
+      '3. Advice for resolution';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. Expected result';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. Current situation';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. Obstacle';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. Unconscious';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. Past';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. Conscious Goal';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. Near Future';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. Attitude';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 =>
+      '8. External Environment';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. Hopes and Fears';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. Final Result';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. Advice';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. Surroundings';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. Result';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount Coins';
+  }
+
+  @override
+  String get serviceLoginRequired => 'Login is required.';
+
+  @override
+  String get serviceDefaultNickname => 'Nameless Witch';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'An error occurred while reading the fortune: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'User';
+
+  @override
+  String get listenToInterpretation => 'Listen to Interpretation';
+
+  @override
+  String get faqQ1 => 'Can I read tarot every day?';
+
+  @override
+  String get faqA1 =>
+      'Yes, it is good to read the flow of today with a light heart. However, it is not recommended to keep drawing cards repeatedly for the same question.';
+
+  @override
+  String get faqQ2 => 'How do I get magic dust?';
+
+  @override
+  String get faqA2 =>
+      'You can get magic dust through app attendance, community activities, or purchasing in the shop.';
+
+  @override
+  String get faqQ3 => 'What should I do if the result is bad?';
+
+  @override
+  String get faqA3 =>
+      'Tarot is not a fixed future, but an advice. Use a bad result as a milestone to warn you of risks to avoid.';
+
+  @override
+  String get faqQ4 => 'How can I see my past tarot readings?';
+
+  @override
+  String get faqA4 =>
+      'You can review your saved reading records by date in the \'Diary\' (Calendar) tab at the bottom menu anytime.';
+
+  @override
+  String get faqQ5 => 'How do I share to the community?';
+
+  @override
+  String get faqA5 =>
+      'Turn on the \'Share to Community\' switch on the diary detail screen saved in the diary to share your reading with other users.';
+
+  @override
+  String get faqQ6 => 'How can I change my nickname or profile?';
+
+  @override
+  String get faqA6 =>
+      'You can change your nickname and icon anytime by touching the profile area at the top of the \'My Menu\' tab.';
+
+  @override
+  String get faqQ7 => 'Where can I turn notifications on and off?';
+
+  @override
+  String get faqA7 =>
+      'You can control notifications from your device\'s settings app, or from the preferences menu to be updated in the future.';
+
+  @override
+  String get faqQ8 => 'Can I see other people\'s tarot diaries?';
+
+  @override
+  String get faqA8 =>
+      'Yes, you can view and cheer for interesting tarot readings that other wizards (users) have made public in the \'Community\' tab at the bottom.';
+
+  @override
+  String get faqQ9 =>
+      'Where can I check my premium subscription or payment history?';
+
+  @override
+  String get faqA9 =>
+      'If you select \'Payment History\' in the [My Info] tab of the bottom menu, you can check your coin payment history and acquired magic dust in detail.';
+
+  @override
+  String get faqQ10 =>
+      'I want to study the meaning of Tarot cards personally. How can I do that?';
+
+  @override
+  String get faqA10 =>
+      'If you go to the [Card Encyclopedia] tab in the bottom menu, you can freely view the upright and reversed meanings, symbols, and in-depth explanations of all 78 cards.';
+
+  @override
+  String get faqQ11 => 'How can I delete my account or withdraw?';
+
+  @override
+  String get faqA11 =>
+      'You can find the \'Delete Account\' button by going to the Account Settings menu via the gear icon on the top right of the [My Info] tab. All diaries and data will be permanently deleted upon withdrawal.';
+
+  @override
+  String get faqQ12 =>
+      'Where do I contact if I encounter an error or have suggestions?';
+
+  @override
+  String get faqA12 =>
+      'If you send details through \'Contact Customer Service\' which is being prepared at the bottom of the current screen or via official email, we will quickly check and magically solve it for you.';
+
+  @override
+  String get myMenuContactUs => 'Contact Us';
+
+  @override
+  String get myMenuContactUsSubtitle => 'Inquiries and suggestions';
+
+  @override
+  String get contactDialogTitle => 'Contact Us';
+
+  @override
+  String get contactTypeBug => 'Bug Report';
+
+  @override
+  String get contactTypeFeature => 'Feature Suggestion';
+
+  @override
+  String get contactTypePayment => 'Payment Issue';
+
+  @override
+  String get contactTypeOther => 'Other Inquiry';
+
+  @override
+  String get contactHint => 'Please write your inquiry in detail.';
+
+  @override
+  String get contactSend => 'Send';
+
+  @override
+  String get contactCancel => 'Cancel';
+
+  @override
+  String get contactEmptyErrorTitle => 'Notice';
+
+  @override
+  String get contactEmptyErrorMessage => 'Please enter your inquiry content.';
 }

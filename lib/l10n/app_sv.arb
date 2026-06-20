@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Detaljerade tolkningsdata är ännu inte klara.",
   "cardDetailNoData": "Inga data tillgängliga.",
   "buttonSaveReading": "Spara tarotläsning",
-  "readingSavedToDevice": "Sparad på enheten."
+  "readingSavedToDevice": "Sparad på enheten.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Fas: {name}]",
+  "growthTabMagicBook": "Magiboksuppgradering",
+  "growthPhaseCrystal0": "Avgrundsmagi",
+  "growthPhaseCrystal1": "Andeögats öppnande",
+  "growthPhaseCrystal2": "Moder Naturs visdom",
+  "growthPhaseCrystal3": "Solens essens",
+  "growthPhaseCrystal4": "Himmelsk aurora",
+  "growthPhaseCrystal5": "Gudomligt rike",
+  "growthPhaseCrystal6": "Skapelsens magi",
+  "growthPhaseCrystal7": "Universums andedräkt",
+  "growthPhaseCrystal8": "Evigt ljus",
+  "growthPhaseCrystal9": "Rent vitt uppvaknande",
+  "growthPhaseCrystal10": "Transcendens",
+  "growthPhaseBook0": "Lärlingens skrivverktyg",
+  "growthPhaseBook1": "Grundläggande magibok",
+  "growthPhaseBook2": "Forntida rungrammatik",
+  "growthPhaseBook3": "Förståelse av elementarmagi",
+  "growthPhaseBook4": "Stjärnljusets harmoni",
+  "growthPhaseBook5": "Artefakttolkning",
+  "growthPhaseBook6": "Den vises förbjudna bok",
+  "growthPhaseBook7": "Gemenskap med andar",
+  "growthPhaseBook8": "Sanningens grimoire",
+  "growthPhaseBook9": "Allsmäktig uppteckning",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Magiboksnivå {level}",
+  "growthMagicBookKnowledge": "Kunskap: {current} / {max}",
+  "growthCrystalBallMana": "Mana: {current} / {max}",
+  "growthMagicBookExpGained": "Magibokens kunskap har fördjupats! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "Uppgradera Magibok ({amount} Damm)",
+  "devDustCharged": "Dev: 1000 magiskt damm laddat!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Nyheter och meddelanden",
+  "menuMailboxTitle": "Brevlåda",
+  "menuMailboxSubtitle": "Kolla nya uppdateringar och gåvor",
+  "mailboxTitle": "Brevlåda",
+  "mailboxAllRewardsClaimed": "Alla belöningar begärda.",
+  "mailboxClaimAll": "Gör anspråk på alla",
+  "mailboxEmpty": "Brevlådan är tom.",
+  "mailboxSenderAndDate": "Från: {sender} • {date}",
+  "mailboxClaimed": "Påstod",
+  "mailboxClaim": "Krav",
+  "mailboxAttachedRewards": "Bifogade belöningar",
+  "mailboxRewardClaimed": "Belöning begärts.",
+  "mailboxClaimReward": "Gör anspråk på belöning",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Aviseringscenter",
+  "menuNotificationCenterSubtitle": "Kontrollera senaste meddelanden och meddelanden",
+  "authSignupComplete": "Registreringen är klar. Kontrollera e-postmeddelandet som skickats till dig för att verifiera.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Översättning misslyckades: {error}",
+  "diarySelectDate": "Välj ett datum",
+  "diarySavedSuccess": "Dagboken har sparats!",
+  "diarySaveFailed": "Det gick inte att spara dagboken.",
+  "diaryWriteTitle": "Skriv dagbok",
+  "diaryWriteHint": "Skriv gärna dina tankar eller känslor kring dagens läsning.",
+  "diarySaveButton": "Spara i dagbok",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "Dagens Fortune",
+  "readingSpreadLabelPast1": "1. Tidigare",
+  "readingSpreadLabelPresent2": "2. Närvarande",
+  "readingSpreadLabelFuture3": "3. Framtid",
+  "readingSpreadLabelCurrent1": "1. Aktuell",
+  "readingSpreadLabelPast2": "2. Tidigare",
+  "readingSpreadLabelFuture3Alt": "3. Framtid",
+  "readingSpreadLabelCause4": "4. Orsak",
+  "readingSpreadLabelPotential5": "5. Potential",
+  "readingSpreadLabelCurrentSituation1": "1. Nuvarande situation och problem",
+  "readingSpreadLabelCauseOfProblem2": "2. Orsak till problemet",
+  "readingSpreadLabelAdviceForResolution3": "3. Råd för lösning",
+  "readingSpreadLabelExpectedResult4": "4. Förväntat resultat",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Nuvarande situation",
+  "readingSpreadLabelObstacle2": "2. Hinder",
+  "readingSpreadLabelUnconscious3": "3. Medvetslös",
+  "readingSpreadLabelPast4": "4. Tidigare",
+  "readingSpreadLabelConsciousGoal5": "5. Medvetet mål",
+  "readingSpreadLabelNearFuture6": "6. Nära framtid",
+  "readingSpreadLabelAttitude7": "7. Attityd",
+  "readingSpreadLabelExternalEnvironment8": "8. Yttre miljö",
+  "readingSpreadLabelHopesAndFears9": "9. Förhoppningar och rädslor",
+  "readingSpreadLabelFinalResult10": "10. Slutresultat",
+  "readingSpreadLabelAdvice4": "4. Råd",
+  "readingSpreadLabelSurroundings5": "5. Omgivningar",
+  "readingSpreadLabelResult6": "6. Resultat",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Mynt",
+  "serviceLoginRequired": "Inloggning krävs.",
+  "serviceDefaultNickname": "Namnlös häxa",
+  "serviceTarotReadingError": "Ett fel uppstod vid läsning av förmögenheten: {error}",
+  "defaultUserDisplayName": "Användare",
+  "listenToInterpretation": "Lyssna på tolkning",
+  "faqQ1": "Kan jag läsa tarot varje dag?",
+  "faqA1": "Ja, det är bra att läsa dagens flöde med lätthet. Det rekommenderas dock inte att fortsätta dra kort upprepade gånger för samma fråga.",
+  "faqQ2": "Hur får jag magiskt damm?",
+  "faqA2": "Du kan få magiskt damm genom appbesök, samhällsaktiviteter eller köp i butiken.",
+  "faqQ3": "Vad ska jag göra om resultatet är dåligt?",
+  "faqA3": "Tarot är inte en fast framtid, utan ett råd. Använd ett dåligt resultat som en milstolpe för att varna dig för risker att undvika.",
+  "faqQ4": "Hur kan jag se mina tidigare tarotläsningar?",
+  "faqA4": "Du kan granska dina sparade läsposter efter datum på fliken \"Dagbok\" (Kalender) längst ned i menyn när som helst.",
+  "faqQ5": "Hur delar jag med gemenskapen?",
+  "faqA5": "Slå på knappen \"Dela med gemenskapen\" på dagboksdetaljskärmen som sparats i dagboken för att dela din läsning med andra användare.",
+  "faqQ6": "Hur kan jag ändra mitt smeknamn eller profil?",
+  "faqA6": "Du kan ändra ditt smeknamn och ikon när som helst genom att trycka på profilområdet högst upp på fliken \"Min meny\".",
+  "faqQ7": "Var kan jag aktivera och inaktivera aviseringar?",
+  "faqA7": "Du kan styra aviseringar från enhetens inställningsapp eller från inställningsmenyn för att uppdateras i framtiden.",
+  "faqQ8": "Kan jag se andras tarotdagböcker?",
+  "faqA8": "Ja, du kan se och heja på intressanta tarotläsningar som andra trollkarlar (användare) har gjort offentliga på fliken \"Community\" längst ner.",
+  "faqQ9": "Var kan jag kontrollera min premiumprenumeration eller betalningshistorik?",
+  "faqA9": "Om du väljer \"Betalningshistorik\" på fliken [Min info] i bottenmenyn, kan du kontrollera din myntbetalningshistorik och inhämtat magiskt damm i detalj.",
+  "faqQ10": "Jag vill studera betydelsen av tarotkort personligen. Hur kan jag göra det?",
+  "faqA10": "Om du går till fliken [Kortuppslagsbok] i bottenmenyn kan du fritt se upprättstående och omvända betydelser, symboler och djupgående förklaringar av alla 78 kort.",
+  "faqQ11": "Hur kan jag ta bort mitt konto eller ta ut mitt konto?",
+  "faqA11": "Du hittar knappen \"Ta bort konto\" genom att gå till menyn Kontoinställningar via kugghjulsikonen uppe till höger på fliken [Min info]. Alla dagböcker och data kommer att raderas permanent vid återkallelse.",
+  "faqQ12": "Vart kontaktar jag om jag stöter på ett fel eller har förslag?",
+  "faqA12": "Om du skickar information via \"Kontakta kundtjänst\" som förbereds längst ner på den aktuella skärmen eller via officiell e-post, kommer vi snabbt att kontrollera och magiskt lösa det åt dig.",
+  "myMenuContactUs": "Kontakta oss",
+  "myMenuContactUsSubtitle": "Förfrågningar och förslag",
+  "contactDialogTitle": "Kontakta oss",
+  "contactTypeBug": "Buggrapport",
+  "contactTypeFeature": "Funktionsförslag",
+  "contactTypePayment": "Betalningsproblem",
+  "contactTypeOther": "Annan förfrågan",
+  "contactHint": "Skriv din förfrågan i detalj.",
+  "contactSend": "Skicka",
+  "contactCancel": "Avboka",
+  "contactEmptyErrorTitle": "Varsel",
+  "contactEmptyErrorMessage": "Ange innehållet i din förfrågan."
 }

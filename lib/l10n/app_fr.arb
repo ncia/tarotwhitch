@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Les données d’interprétation détaillées ne sont pas encore prêtes.",
   "cardDetailNoData": "Aucune donnée disponible.",
   "buttonSaveReading": "Enregistrer la lecture du Tarot",
-  "readingSavedToDevice": "Enregistré sur l'appareil."
+  "readingSavedToDevice": "Enregistré sur l'appareil.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Étape : {name}]",
+  "growthTabMagicBook": "Amélioration du Livre de Magie",
+  "growthPhaseCrystal0": "Magie Abyssale",
+  "growthPhaseCrystal1": "Ouverture de l'Œil Spirituel",
+  "growthPhaseCrystal2": "Sagesse de Mère Nature",
+  "growthPhaseCrystal3": "Essence du Soleil",
+  "growthPhaseCrystal4": "Aurore Céleste",
+  "growthPhaseCrystal5": "Royaume Divin",
+  "growthPhaseCrystal6": "Magie de la Création",
+  "growthPhaseCrystal7": "Souffle de l'Univers",
+  "growthPhaseCrystal8": "Lumière Éternelle",
+  "growthPhaseCrystal9": "Éveil Blanc Pur",
+  "growthPhaseCrystal10": "Transcendance",
+  "growthPhaseBook0": "Outils d'Écriture de l'Apprenti",
+  "growthPhaseBook1": "Manuel de Magie Basique",
+  "growthPhaseBook2": "Grammaire Runique Ancienne",
+  "growthPhaseBook3": "Compréhension de la Magie Élémentaire",
+  "growthPhaseBook4": "Harmonie de la Lumière Stellaire",
+  "growthPhaseBook5": "Déchiffrement d'Artefacts",
+  "growthPhaseBook6": "Livre Interdit du Sage",
+  "growthPhaseBook7": "Communion avec les Esprits",
+  "growthPhaseBook8": "Grimoire de la Vérité",
+  "growthPhaseBook9": "Registre Omnipotent",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Niveau du Livre Magique {level}",
+  "growthMagicBookKnowledge": "Connaissance : {current} / {max}",
+  "growthCrystalBallMana": "Mana : {current} / {max}",
+  "growthMagicBookExpGained": "La connaissance du livre magique s'est approfondie ! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "Améliorer le Livre Magique ({amount} Poussière)",
+  "devDustCharged": "Dev: 1000 Poussière Magique chargée !",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Actualités et notifications",
+  "menuMailboxTitle": "Boîte aux lettres",
+  "menuMailboxSubtitle": "Vérifiez les nouvelles mises à jour et les cadeaux",
+  "mailboxTitle": "Boîte aux lettres",
+  "mailboxAllRewardsClaimed": "Toutes les récompenses réclamées.",
+  "mailboxClaimAll": "Réclamez tout",
+  "mailboxEmpty": "La boîte aux lettres est vide.",
+  "mailboxSenderAndDate": "De : {sender} • {date}",
+  "mailboxClaimed": "Réclamé",
+  "mailboxClaim": "Réclamer",
+  "mailboxAttachedRewards": "Récompenses ci-jointes",
+  "mailboxRewardClaimed": "Récompense réclamée.",
+  "mailboxClaimReward": "Réclamez une récompense",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Centre de notifications",
+  "menuNotificationCenterSubtitle": "Vérifiez les dernières notifications et annonces",
+  "authSignupComplete": "L'inscription est terminée. Veuillez vérifier l'e-mail qui vous a été envoyé pour vérifier.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Translation failed: {error}",
+  "diarySelectDate": "Sélectionnez une date",
+  "diarySavedSuccess": "Journal enregistré avec succès !",
+  "diarySaveFailed": "Échec de la sauvegarde du journal.",
+  "diaryWriteTitle": "Écrire un journal",
+  "diaryWriteHint": "N'hésitez pas à écrire vos pensées ou vos sentiments sur la lecture d'aujourd'hui.",
+  "diarySaveButton": "Enregistrer dans le journal",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "La fortune d'aujourd'hui",
+  "readingSpreadLabelPast1": "1. Passé",
+  "readingSpreadLabelPresent2": "2. Présent",
+  "readingSpreadLabelFuture3": "3. Avenir",
+  "readingSpreadLabelCurrent1": "1. Actuel",
+  "readingSpreadLabelPast2": "2. Passé",
+  "readingSpreadLabelFuture3Alt": "3. Avenir",
+  "readingSpreadLabelCause4": "4. Cause",
+  "readingSpreadLabelPotential5": "5. Potentiel",
+  "readingSpreadLabelCurrentSituation1": "1. Situation actuelle et problème",
+  "readingSpreadLabelCauseOfProblem2": "2. Cause du problème",
+  "readingSpreadLabelAdviceForResolution3": "3. Conseils de résolution",
+  "readingSpreadLabelExpectedResult4": "4. Résultat attendu",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Situation actuelle",
+  "readingSpreadLabelObstacle2": "2. Obstacles",
+  "readingSpreadLabelUnconscious3": "3. Inconscient",
+  "readingSpreadLabelPast4": "4. Passé",
+  "readingSpreadLabelConsciousGoal5": "5. Objectif conscient",
+  "readingSpreadLabelNearFuture6": "6. Futur proche",
+  "readingSpreadLabelAttitude7": "7. Attitude",
+  "readingSpreadLabelExternalEnvironment8": "8. Environnement externe",
+  "readingSpreadLabelHopesAndFears9": "9. Espoirs et craintes",
+  "readingSpreadLabelFinalResult10": "10. Résultat final",
+  "readingSpreadLabelAdvice4": "4. Conseils",
+  "readingSpreadLabelSurroundings5": "5. Environnement",
+  "readingSpreadLabelResult6": "6. Résultat",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Coins",
+  "serviceLoginRequired": "La connexion est requise.",
+  "serviceDefaultNickname": "Sorcière sans nom",
+  "serviceTarotReadingError": "An error occurred while reading the fortune: {error}",
+  "defaultUserDisplayName": "Utilisateur",
+  "listenToInterpretation": "Écouter l'interprétation",
+  "faqQ1": "Puis-je lire le tarot tous les jours ?",
+  "faqA1": "Oui, il fait bon lire le flux d’aujourd’hui avec un cœur léger. Cependant, il n’est pas recommandé de continuer à tirer des cartes à plusieurs reprises pour la même question.",
+  "faqQ2": "Comment obtenir de la poussière magique ?",
+  "faqA2": "Vous pouvez obtenir de la poussière magique en participant à l'application, en participant à des activités communautaires ou en effectuant des achats dans la boutique.",
+  "faqQ3": "Que dois-je faire si le résultat est mauvais ?",
+  "faqA3": "Le Tarot n'est pas un avenir fixe, mais un conseil. Utilisez un mauvais résultat comme un jalon pour vous avertir des risques à éviter.",
+  "faqQ4": "Comment puis-je voir mes lectures de tarot passées ?",
+  "faqA4": "Vous pouvez consulter vos enregistrements de lecture enregistrés par date dans l'onglet « Journal » (Calendrier) dans le menu du bas à tout moment.",
+  "faqQ5": "Comment partager avec la communauté ?",
+  "faqA5": "Activez le bouton « Partager avec la communauté » sur l'écran de détail du journal enregistré dans le journal pour partager votre lecture avec d'autres utilisateurs.",
+  "faqQ6": "Comment puis-je changer mon pseudo ou mon profil ?",
+  "faqA6": "Vous pouvez modifier votre pseudo et votre icône à tout moment en touchant la zone de profil en haut de l'onglet « Mon menu ».",
+  "faqQ7": "Où puis-je activer et désactiver les notifications ?",
+  "faqA7": "Vous pouvez contrôler les notifications depuis l'application des paramètres de votre appareil ou depuis le menu des préférences pour être mis à jour ultérieurement.",
+  "faqQ8": "Puis-je voir les journaux de tarot des autres ?",
+  "faqA8": "Oui, vous pouvez consulter et encourager les lectures de tarot intéressantes que d'autres sorciers (utilisateurs) ont rendues publiques dans l'onglet « Communauté » en bas.",
+  "faqQ9": "Où puis-je consulter mon abonnement premium ou mon historique de paiement ?",
+  "faqA9": "Si vous sélectionnez « Historique des paiements » dans l'onglet [Mes informations] du menu inférieur, vous pouvez vérifier en détail l'historique de vos paiements en pièces et la poussière magique acquise.",
+  "faqQ10": "Je souhaite étudier personnellement la signification des cartes de Tarot. Comment puis-je faire ça ?",
+  "faqA10": "Si vous accédez à l'onglet [Encyclopédie des cartes] dans le menu du bas, vous pouvez librement visualiser les significations verticales et inversées, les symboles et les explications approfondies des 78 cartes.",
+  "faqQ11": "Comment puis-je supprimer mon compte ou me retirer ?",
+  "faqA11": "Vous pouvez trouver le bouton « Supprimer le compte » en accédant au menu Paramètres du compte via l'icône en forme d'engrenage en haut à droite de l'onglet [Mes informations]. Tous les agendas et données seront définitivement supprimés lors du retrait.",
+  "faqQ12": "Où puis-je contacter si je rencontre une erreur ou si j'ai des suggestions ?",
+  "faqA12": "Si vous envoyez des détails via « Contacter le service client » qui est en cours de préparation au bas de l'écran actuel ou par e-mail officiel, nous vérifierons rapidement et résoudrons le problème comme par magie pour vous.",
+  "myMenuContactUs": "Contactez-nous",
+  "myMenuContactUsSubtitle": "Demandes et suggestions",
+  "contactDialogTitle": "Contactez-nous",
+  "contactTypeBug": "Rapport de bug",
+  "contactTypeFeature": "Suggestions de fonctionnalités",
+  "contactTypePayment": "Problème de paiement",
+  "contactTypeOther": "Autre demande",
+  "contactHint": "Veuillez rédiger votre demande en détail.",
+  "contactSend": "Envoyer",
+  "contactCancel": "Annuler",
+  "contactEmptyErrorTitle": "Avis",
+  "contactEmptyErrorMessage": "Veuillez saisir le contenu de votre demande."
 }

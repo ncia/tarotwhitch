@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "विस्तृत व्याख्या डेटा अभी तैयार नहीं है.",
   "cardDetailNoData": "कोई डेटा मौजूद नहीं।",
   "buttonSaveReading": "टैरो रीडिंग सहेजें",
-  "readingSavedToDevice": "डिवाइस में सहेजा गया."
+  "readingSavedToDevice": "डिवाइस में सहेजा गया.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} चरण: {name}]",
+  "growthTabMagicBook": "जादुई किताब अपग्रेड",
+  "growthPhaseCrystal0": "अगाध जादू",
+  "growthPhaseCrystal1": "आत्मिक नेत्र का उद्घाटन",
+  "growthPhaseCrystal2": "प्रकृति की बुद्धिमत्ता",
+  "growthPhaseCrystal3": "सूर्य का सार",
+  "growthPhaseCrystal4": "आकाशीय अरोरा",
+  "growthPhaseCrystal5": "दिव्य क्षेत्र",
+  "growthPhaseCrystal6": "सृष्टि का जादू",
+  "growthPhaseCrystal7": "ब्रह्मांड का श्वास",
+  "growthPhaseCrystal8": "शाश्वत प्रकाश",
+  "growthPhaseCrystal9": "शुद्ध श्वेत जागरण",
+  "growthPhaseCrystal10": "पराकाष्ठा",
+  "growthPhaseBook0": "शिक्षु के लेखन उपकरण",
+  "growthPhaseBook1": "बुनियादी जादू की पोथी",
+  "growthPhaseBook2": "प्राचीन रुण व्याकरण",
+  "growthPhaseBook3": "तात्विक जादू को समझना",
+  "growthPhaseBook4": "तारकीय प्रकाश का सामंजस्य",
+  "growthPhaseBook5": "कलाकृति का गूढ़ार्थ निकालना",
+  "growthPhaseBook6": "ऋषि की निषिद्ध पुस्तक",
+  "growthPhaseBook7": "आत्माओं के साथ संवाद",
+  "growthPhaseBook8": "सत्य का ग्रिमोयर",
+  "growthPhaseBook9": "सर्वशक्तिमान अभिलेख",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "जादुई किताब का स्तर {level}",
+  "growthMagicBookKnowledge": "ज्ञान: {current} / {max}",
+  "growthCrystalBallMana": "माना: {current} / {max}",
+  "growthMagicBookExpGained": "जादुई किताब का ज्ञान गहरा हो गया है! एक्सपी +{amount}",
+  "growthUpgradeMagicBookButton": "जादुई किताब अपग्रेड करें ({amount} धूल)",
+  "devDustCharged": "देव: 1000 जादुई धूल चार्ज की गई!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "समाचार एवं सूचनाएं",
+  "menuMailboxTitle": "मेलबॉक्स",
+  "menuMailboxSubtitle": "नए अपडेट और उपहार जांचें",
+  "mailboxTitle": "मेलबॉक्स",
+  "mailboxAllRewardsClaimed": "सभी पुरस्कारों का दावा किया गया.",
+  "mailboxClaimAll": "सभी का दावा करें",
+  "mailboxEmpty": "मेलबॉक्स खाली है.",
+  "mailboxSenderAndDate": "प्रेषक: {sender} • {date}",
+  "mailboxClaimed": "दावा किया",
+  "mailboxClaim": "दावा",
+  "mailboxAttachedRewards": "संलग्न पुरस्कार",
+  "mailboxRewardClaimed": "इनाम का दावा किया गया.",
+  "mailboxClaimReward": "इनाम का दावा करें",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "अधिसूचना केंद्र",
+  "menuNotificationCenterSubtitle": "नवीनतम अधिसूचनाएँ और घोषणाएँ जाँचें",
+  "authSignupComplete": "साइन अप पूरा हो गया है. कृपया सत्यापित करने के लिए आपको भेजा गया ईमेल जांचें।",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Translation failed: {error}",
+  "diarySelectDate": "एक तारीख चुनें",
+  "diarySavedSuccess": "डायरी सफलतापूर्वक सहेजी गई!",
+  "diarySaveFailed": "डायरी सहेजने में विफल.",
+  "diaryWriteTitle": "डायरी लिखें",
+  "diaryWriteHint": "आज की पढ़ाई के बारे में बेझिझक अपने विचार या भावनाएँ लिखें।",
+  "diarySaveButton": "डायरी में सहेजें",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "आज का भाग्य",
+  "readingSpreadLabelPast1": "1. अतीत",
+  "readingSpreadLabelPresent2": "2. वर्तमान",
+  "readingSpreadLabelFuture3": "3. भविष्य",
+  "readingSpreadLabelCurrent1": "1. वर्तमान",
+  "readingSpreadLabelPast2": "2. अतीत",
+  "readingSpreadLabelFuture3Alt": "3. भविष्य",
+  "readingSpreadLabelCause4": "4. कारण",
+  "readingSpreadLabelPotential5": "5. क्षमता",
+  "readingSpreadLabelCurrentSituation1": "1. वर्तमान स्थिति एवं समस्या",
+  "readingSpreadLabelCauseOfProblem2": "2. समस्या का कारण",
+  "readingSpreadLabelAdviceForResolution3": "3. समाधान हेतु सलाह",
+  "readingSpreadLabelExpectedResult4": "4. अपेक्षित परिणाम",
+  "readingSpreadLabelCurrentSituation1Alt": "1. वर्तमान स्थिति",
+  "readingSpreadLabelObstacle2": "2. बाधा",
+  "readingSpreadLabelUnconscious3": "3. अचेतन",
+  "readingSpreadLabelPast4": "4. अतीत",
+  "readingSpreadLabelConsciousGoal5": "5. सचेत लक्ष्य",
+  "readingSpreadLabelNearFuture6": "6. निकट भविष्य",
+  "readingSpreadLabelAttitude7": "7. मनोवृत्ति",
+  "readingSpreadLabelExternalEnvironment8": "8. बाहरी वातावरण",
+  "readingSpreadLabelHopesAndFears9": "9. आशाएँ और भय",
+  "readingSpreadLabelFinalResult10": "10. अंतिम परिणाम",
+  "readingSpreadLabelAdvice4": "4. सलाह",
+  "readingSpreadLabelSurroundings5": "5. परिवेश",
+  "readingSpreadLabelResult6": "6. परिणाम",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Coins",
+  "serviceLoginRequired": "लॉगिन आवश्यक है.",
+  "serviceDefaultNickname": "नामहीन चुड़ैल",
+  "serviceTarotReadingError": "An error occurred while reading the fortune: {error}",
+  "defaultUserDisplayName": "उपयोगकर्ता",
+  "listenToInterpretation": "व्याख्या सुनें",
+  "faqQ1": "क्या मैं हर दिन टैरो पढ़ सकता हूँ?",
+  "faqA1": "हां, आज के प्रवाह को हल्के दिल से पढ़ना अच्छा है। हालाँकि, एक ही प्रश्न के लिए बार-बार कार्ड बनाते रहने की अनुशंसा नहीं की जाती है।",
+  "faqQ2": "मुझे जादुई धूल कैसे मिलेगी?",
+  "faqA2": "आप ऐप उपस्थिति, सामुदायिक गतिविधियों या दुकान में खरीदारी के माध्यम से जादुई धूल प्राप्त कर सकते हैं।",
+  "faqQ3": "यदि परिणाम ख़राब हो तो मुझे क्या करना चाहिए?",
+  "faqA3": "टैरो कोई निश्चित भविष्य नहीं, बल्कि एक सलाह है। किसी बुरे परिणाम को एक मील के पत्थर के रूप में उपयोग करें ताकि आपको बचने के जोखिमों से आगाह किया जा सके।",
+  "faqQ4": "मैं अपनी पिछली टैरो रीडिंग कैसे देख सकता हूँ?",
+  "faqA4": "आप किसी भी समय निचले मेनू पर 'डायरी' (कैलेंडर) टैब में तारीख के अनुसार अपने सहेजे गए रीडिंग रिकॉर्ड की समीक्षा कर सकते हैं।",
+  "faqQ5": "मैं समुदाय के साथ कैसे साझा करूं?",
+  "faqA5": "अपने पढ़ने को अन्य उपयोगकर्ताओं के साथ साझा करने के लिए डायरी में सहेजी गई डायरी विवरण स्क्रीन पर 'साझा करें समुदाय' स्विच चालू करें।",
+  "faqQ6": "How can I change my nickname or profile?",
+  "faqA6": "आप 'मेरा मेनू' टैब के शीर्ष पर प्रोफ़ाइल क्षेत्र को स्पर्श करके किसी भी समय अपना उपनाम और आइकन बदल सकते हैं।",
+  "faqQ7": "मैं सूचनाएं कहां चालू और बंद कर सकता हूं?",
+  "faqA7": "आप अपने डिवाइस के सेटिंग ऐप से, या भविष्य में अपडेट किए जाने वाले प्राथमिकता मेनू से सूचनाओं को नियंत्रित कर सकते हैं।",
+  "faqQ8": "क्या मैं अन्य लोगों की टैरो डायरियाँ देख सकता हूँ?",
+  "faqA8": "हां, आप नीचे 'समुदाय' टैब में अन्य जादूगरों (उपयोगकर्ताओं) द्वारा सार्वजनिक की गई दिलचस्प टैरो रीडिंग को देख सकते हैं और उसका आनंद उठा सकते हैं।",
+  "faqQ9": "मैं अपनी प्रीमियम सदस्यता या भुगतान इतिहास कहाँ देख सकता हूँ?",
+  "faqA9": "यदि आप निचले मेनू के [मेरी जानकारी] टैब में 'भुगतान इतिहास' चुनते हैं, तो आप अपने सिक्के के भुगतान इतिहास और प्राप्त जादुई धूल की विस्तार से जांच कर सकते हैं।",
+  "faqQ10": "मैं व्यक्तिगत रूप से टैरो कार्ड के अर्थ का अध्ययन करना चाहता हूं। मेरे द्वारा ऐसा कैसे किया जा सकता है?",
+  "faqA10": "यदि आप नीचे मेनू में [कार्ड इनसाइक्लोपीडिया] टैब पर जाते हैं, तो आप सभी 78 कार्डों के सीधे और उल्टे अर्थ, प्रतीक और गहन स्पष्टीकरण को स्वतंत्र रूप से देख सकते हैं।",
+  "faqQ11": "मैं अपना खाता कैसे हटा सकता हूँ या निकाल सकता हूँ?",
+  "faqA11": "आप [मेरी जानकारी] टैब के शीर्ष दाईं ओर स्थित गियर आइकन के माध्यम से खाता सेटिंग्स मेनू पर जाकर 'खाता हटाएं' बटन पा सकते हैं। वापसी पर सभी डायरियाँ और डेटा स्थायी रूप से हटा दिए जाएंगे।",
+  "faqQ12": "यदि मुझे कोई त्रुटि आती है या कोई सुझाव है तो मैं कहां संपर्क करूं?",
+  "faqA12": "यदि आप 'संपर्क ग्राहक सेवा' के माध्यम से विवरण भेजते हैं जो वर्तमान स्क्रीन के नीचे तैयार किया जा रहा है या आधिकारिक ईमेल के माध्यम से, हम तुरंत जांच करेंगे और आपके लिए इसे जादुई तरीके से हल करेंगे।",
+  "myMenuContactUs": "हमसे संपर्क करें",
+  "myMenuContactUsSubtitle": "पूछताछ और सुझाव",
+  "contactDialogTitle": "हमसे संपर्क करें",
+  "contactTypeBug": "बग रिपोर्ट",
+  "contactTypeFeature": "फ़ीचर सुझाव",
+  "contactTypePayment": "भुगतान मुद्दा",
+  "contactTypeOther": "अन्य पूछताछ",
+  "contactHint": "कृपया अपनी पूछताछ विस्तार से लिखें.",
+  "contactSend": "भेजना",
+  "contactCancel": "रद्द करना",
+  "contactEmptyErrorTitle": "सूचना",
+  "contactEmptyErrorMessage": "कृपया अपनी पूछताछ सामग्री दर्ज करें।"
 }

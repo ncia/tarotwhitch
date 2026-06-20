@@ -8147,6 +8147,762 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Saved to device.'**
   String get readingSavedToDevice;
+
+  /// No description provided for @growthPhaseFormat.
+  ///
+  /// In en, this message translates to:
+  /// **'[{level} Phase: {name}]'**
+  String growthPhaseFormat(int level, String name);
+
+  /// No description provided for @growthTabMagicBook.
+  ///
+  /// In en, this message translates to:
+  /// **'Magic Book Upgrade'**
+  String get growthTabMagicBook;
+
+  /// No description provided for @growthPhaseCrystal0.
+  ///
+  /// In en, this message translates to:
+  /// **'Abyssal Magic'**
+  String get growthPhaseCrystal0;
+
+  /// No description provided for @growthPhaseCrystal1.
+  ///
+  /// In en, this message translates to:
+  /// **'Opening the Spirit Eye'**
+  String get growthPhaseCrystal1;
+
+  /// No description provided for @growthPhaseCrystal2.
+  ///
+  /// In en, this message translates to:
+  /// **'Wisdom of Mother Nature'**
+  String get growthPhaseCrystal2;
+
+  /// No description provided for @growthPhaseCrystal3.
+  ///
+  /// In en, this message translates to:
+  /// **'Essence of the Sun'**
+  String get growthPhaseCrystal3;
+
+  /// No description provided for @growthPhaseCrystal4.
+  ///
+  /// In en, this message translates to:
+  /// **'Celestial Aurora'**
+  String get growthPhaseCrystal4;
+
+  /// No description provided for @growthPhaseCrystal5.
+  ///
+  /// In en, this message translates to:
+  /// **'Divine Realm'**
+  String get growthPhaseCrystal5;
+
+  /// No description provided for @growthPhaseCrystal6.
+  ///
+  /// In en, this message translates to:
+  /// **'Magic of Creation'**
+  String get growthPhaseCrystal6;
+
+  /// No description provided for @growthPhaseCrystal7.
+  ///
+  /// In en, this message translates to:
+  /// **'Breath of the Universe'**
+  String get growthPhaseCrystal7;
+
+  /// No description provided for @growthPhaseCrystal8.
+  ///
+  /// In en, this message translates to:
+  /// **'Eternal Light'**
+  String get growthPhaseCrystal8;
+
+  /// No description provided for @growthPhaseCrystal9.
+  ///
+  /// In en, this message translates to:
+  /// **'Pure White Awakening'**
+  String get growthPhaseCrystal9;
+
+  /// No description provided for @growthPhaseCrystal10.
+  ///
+  /// In en, this message translates to:
+  /// **'Transcendence'**
+  String get growthPhaseCrystal10;
+
+  /// No description provided for @growthPhaseBook0.
+  ///
+  /// In en, this message translates to:
+  /// **'Apprentice\'s Writing Tools'**
+  String get growthPhaseBook0;
+
+  /// No description provided for @growthPhaseBook1.
+  ///
+  /// In en, this message translates to:
+  /// **'Basic Magic Primer'**
+  String get growthPhaseBook1;
+
+  /// No description provided for @growthPhaseBook2.
+  ///
+  /// In en, this message translates to:
+  /// **'Ancient Rune Grammar'**
+  String get growthPhaseBook2;
+
+  /// No description provided for @growthPhaseBook3.
+  ///
+  /// In en, this message translates to:
+  /// **'Understanding Elemental Magic'**
+  String get growthPhaseBook3;
+
+  /// No description provided for @growthPhaseBook4.
+  ///
+  /// In en, this message translates to:
+  /// **'Harmony of Starlight'**
+  String get growthPhaseBook4;
+
+  /// No description provided for @growthPhaseBook5.
+  ///
+  /// In en, this message translates to:
+  /// **'Artifact Deciphering'**
+  String get growthPhaseBook5;
+
+  /// No description provided for @growthPhaseBook6.
+  ///
+  /// In en, this message translates to:
+  /// **'Forbidden Book of the Sage'**
+  String get growthPhaseBook6;
+
+  /// No description provided for @growthPhaseBook7.
+  ///
+  /// In en, this message translates to:
+  /// **'Communion with Spirits'**
+  String get growthPhaseBook7;
+
+  /// No description provided for @growthPhaseBook8.
+  ///
+  /// In en, this message translates to:
+  /// **'Grimoire of Truth'**
+  String get growthPhaseBook8;
+
+  /// No description provided for @growthPhaseBook9.
+  ///
+  /// In en, this message translates to:
+  /// **'Omnipotent Record'**
+  String get growthPhaseBook9;
+
+  /// No description provided for @growthMagicBookLevel.
+  ///
+  /// In en, this message translates to:
+  /// **'Magic Book Level {level}'**
+  String growthMagicBookLevel(int level);
+
+  /// No description provided for @growthMagicBookKnowledge.
+  ///
+  /// In en, this message translates to:
+  /// **'Knowledge: {current} / {max}'**
+  String growthMagicBookKnowledge(int current, int max);
+
+  /// No description provided for @growthCrystalBallMana.
+  ///
+  /// In en, this message translates to:
+  /// **'Mana: {current} / {max}'**
+  String growthCrystalBallMana(int current, int max);
+
+  /// No description provided for @growthMagicBookExpGained.
+  ///
+  /// In en, this message translates to:
+  /// **'The magic book\'s knowledge has deepened! Exp +{amount}'**
+  String growthMagicBookExpGained(int amount);
+
+  /// No description provided for @growthUpgradeMagicBookButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Upgrade Magic Book ({amount} Dust)'**
+  String growthUpgradeMagicBookButton(int amount);
+
+  /// No description provided for @devDustCharged.
+  ///
+  /// In en, this message translates to:
+  /// **'Dev: 1000 Magic Dust charged!'**
+  String get devDustCharged;
+
+  /// No description provided for @growthUpgradeButtonCost.
+  ///
+  /// In en, this message translates to:
+  /// **'Upgrade Crystal Ball ({amount} Dust)'**
+  String growthUpgradeButtonCost(int amount);
+
+  /// No description provided for @menuSectionNews.
+  ///
+  /// In en, this message translates to:
+  /// **'News & Notifications'**
+  String get menuSectionNews;
+
+  /// No description provided for @menuMailboxTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Mailbox'**
+  String get menuMailboxTitle;
+
+  /// No description provided for @menuMailboxSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Check new updates and gifts'**
+  String get menuMailboxSubtitle;
+
+  /// No description provided for @mailboxTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Mailbox'**
+  String get mailboxTitle;
+
+  /// No description provided for @mailboxAllRewardsClaimed.
+  ///
+  /// In en, this message translates to:
+  /// **'All rewards claimed.'**
+  String get mailboxAllRewardsClaimed;
+
+  /// No description provided for @mailboxClaimAll.
+  ///
+  /// In en, this message translates to:
+  /// **'Claim All'**
+  String get mailboxClaimAll;
+
+  /// No description provided for @mailboxEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'Mailbox is empty.'**
+  String get mailboxEmpty;
+
+  /// No description provided for @mailboxSenderAndDate.
+  ///
+  /// In en, this message translates to:
+  /// **'From: {sender} • {date}'**
+  String mailboxSenderAndDate(String sender, String date);
+
+  /// No description provided for @mailboxClaimed.
+  ///
+  /// In en, this message translates to:
+  /// **'Claimed'**
+  String get mailboxClaimed;
+
+  /// No description provided for @mailboxClaim.
+  ///
+  /// In en, this message translates to:
+  /// **'Claim'**
+  String get mailboxClaim;
+
+  /// No description provided for @mailboxAttachedRewards.
+  ///
+  /// In en, this message translates to:
+  /// **'Attached Rewards'**
+  String get mailboxAttachedRewards;
+
+  /// No description provided for @mailboxRewardClaimed.
+  ///
+  /// In en, this message translates to:
+  /// **'Reward claimed.'**
+  String get mailboxRewardClaimed;
+
+  /// No description provided for @mailboxClaimReward.
+  ///
+  /// In en, this message translates to:
+  /// **'Claim Reward'**
+  String get mailboxClaimReward;
+
+  /// No description provided for @menuNotificationCenterTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Notification Center'**
+  String get menuNotificationCenterTitle;
+
+  /// No description provided for @menuNotificationCenterSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Check latest notifications and announcements'**
+  String get menuNotificationCenterSubtitle;
+
+  /// No description provided for @authSignupComplete.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign up is complete. Please check the email sent to you to verify.'**
+  String get authSignupComplete;
+
+  /// No description provided for @chatInitError.
+  ///
+  /// In en, this message translates to:
+  /// **'Initialization error occurred:\n{error}'**
+  String chatInitError(String error);
+
+  /// No description provided for @chatError.
+  ///
+  /// In en, this message translates to:
+  /// **'Error occurred:\n{error}\n\n{stackTrace}'**
+  String chatError(String error, String stackTrace);
+
+  /// No description provided for @chatPositionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Position {number}'**
+  String chatPositionLabel(int number);
+
+  /// No description provided for @communityTranslationFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Translation failed: {error}'**
+  String communityTranslationFailed(String error);
+
+  /// No description provided for @diarySelectDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Select a date'**
+  String get diarySelectDate;
+
+  /// No description provided for @diarySavedSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Diary saved successfully!'**
+  String get diarySavedSuccess;
+
+  /// No description provided for @diarySaveFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to save diary.'**
+  String get diarySaveFailed;
+
+  /// No description provided for @diaryWriteTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Write Diary'**
+  String get diaryWriteTitle;
+
+  /// No description provided for @diaryWriteHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Feel free to write your thoughts or feelings about today\'s reading.'**
+  String get diaryWriteHint;
+
+  /// No description provided for @diarySaveButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Save to Diary'**
+  String get diarySaveButton;
+
+  /// No description provided for @myMenuAppVersion.
+  ///
+  /// In en, this message translates to:
+  /// **'Version {version}'**
+  String myMenuAppVersion(String version);
+
+  /// No description provided for @readingSpreadLabelToday.
+  ///
+  /// In en, this message translates to:
+  /// **'Today\'s Fortune'**
+  String get readingSpreadLabelToday;
+
+  /// No description provided for @readingSpreadLabelPast1.
+  ///
+  /// In en, this message translates to:
+  /// **'1. Past'**
+  String get readingSpreadLabelPast1;
+
+  /// No description provided for @readingSpreadLabelPresent2.
+  ///
+  /// In en, this message translates to:
+  /// **'2. Present'**
+  String get readingSpreadLabelPresent2;
+
+  /// No description provided for @readingSpreadLabelFuture3.
+  ///
+  /// In en, this message translates to:
+  /// **'3. Future'**
+  String get readingSpreadLabelFuture3;
+
+  /// No description provided for @readingSpreadLabelCurrent1.
+  ///
+  /// In en, this message translates to:
+  /// **'1. Current'**
+  String get readingSpreadLabelCurrent1;
+
+  /// No description provided for @readingSpreadLabelPast2.
+  ///
+  /// In en, this message translates to:
+  /// **'2. Past'**
+  String get readingSpreadLabelPast2;
+
+  /// No description provided for @readingSpreadLabelFuture3Alt.
+  ///
+  /// In en, this message translates to:
+  /// **'3. Future'**
+  String get readingSpreadLabelFuture3Alt;
+
+  /// No description provided for @readingSpreadLabelCause4.
+  ///
+  /// In en, this message translates to:
+  /// **'4. Cause'**
+  String get readingSpreadLabelCause4;
+
+  /// No description provided for @readingSpreadLabelPotential5.
+  ///
+  /// In en, this message translates to:
+  /// **'5. Potential'**
+  String get readingSpreadLabelPotential5;
+
+  /// No description provided for @readingSpreadLabelCurrentSituation1.
+  ///
+  /// In en, this message translates to:
+  /// **'1. Current situation and problem'**
+  String get readingSpreadLabelCurrentSituation1;
+
+  /// No description provided for @readingSpreadLabelCauseOfProblem2.
+  ///
+  /// In en, this message translates to:
+  /// **'2. Cause of problem'**
+  String get readingSpreadLabelCauseOfProblem2;
+
+  /// No description provided for @readingSpreadLabelAdviceForResolution3.
+  ///
+  /// In en, this message translates to:
+  /// **'3. Advice for resolution'**
+  String get readingSpreadLabelAdviceForResolution3;
+
+  /// No description provided for @readingSpreadLabelExpectedResult4.
+  ///
+  /// In en, this message translates to:
+  /// **'4. Expected result'**
+  String get readingSpreadLabelExpectedResult4;
+
+  /// No description provided for @readingSpreadLabelCurrentSituation1Alt.
+  ///
+  /// In en, this message translates to:
+  /// **'1. Current situation'**
+  String get readingSpreadLabelCurrentSituation1Alt;
+
+  /// No description provided for @readingSpreadLabelObstacle2.
+  ///
+  /// In en, this message translates to:
+  /// **'2. Obstacle'**
+  String get readingSpreadLabelObstacle2;
+
+  /// No description provided for @readingSpreadLabelUnconscious3.
+  ///
+  /// In en, this message translates to:
+  /// **'3. Unconscious'**
+  String get readingSpreadLabelUnconscious3;
+
+  /// No description provided for @readingSpreadLabelPast4.
+  ///
+  /// In en, this message translates to:
+  /// **'4. Past'**
+  String get readingSpreadLabelPast4;
+
+  /// No description provided for @readingSpreadLabelConsciousGoal5.
+  ///
+  /// In en, this message translates to:
+  /// **'5. Conscious Goal'**
+  String get readingSpreadLabelConsciousGoal5;
+
+  /// No description provided for @readingSpreadLabelNearFuture6.
+  ///
+  /// In en, this message translates to:
+  /// **'6. Near Future'**
+  String get readingSpreadLabelNearFuture6;
+
+  /// No description provided for @readingSpreadLabelAttitude7.
+  ///
+  /// In en, this message translates to:
+  /// **'7. Attitude'**
+  String get readingSpreadLabelAttitude7;
+
+  /// No description provided for @readingSpreadLabelExternalEnvironment8.
+  ///
+  /// In en, this message translates to:
+  /// **'8. External Environment'**
+  String get readingSpreadLabelExternalEnvironment8;
+
+  /// No description provided for @readingSpreadLabelHopesAndFears9.
+  ///
+  /// In en, this message translates to:
+  /// **'9. Hopes and Fears'**
+  String get readingSpreadLabelHopesAndFears9;
+
+  /// No description provided for @readingSpreadLabelFinalResult10.
+  ///
+  /// In en, this message translates to:
+  /// **'10. Final Result'**
+  String get readingSpreadLabelFinalResult10;
+
+  /// No description provided for @readingSpreadLabelAdvice4.
+  ///
+  /// In en, this message translates to:
+  /// **'4. Advice'**
+  String get readingSpreadLabelAdvice4;
+
+  /// No description provided for @readingSpreadLabelSurroundings5.
+  ///
+  /// In en, this message translates to:
+  /// **'5. Surroundings'**
+  String get readingSpreadLabelSurroundings5;
+
+  /// No description provided for @readingSpreadLabelResult6.
+  ///
+  /// In en, this message translates to:
+  /// **'6. Result'**
+  String get readingSpreadLabelResult6;
+
+  /// No description provided for @shopBonusCoins.
+  ///
+  /// In en, this message translates to:
+  /// **'Bonus {amount}'**
+  String shopBonusCoins(String amount);
+
+  /// No description provided for @shopCoins.
+  ///
+  /// In en, this message translates to:
+  /// **'{amount} Coins'**
+  String shopCoins(int amount);
+
+  /// No description provided for @serviceLoginRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Login is required.'**
+  String get serviceLoginRequired;
+
+  /// No description provided for @serviceDefaultNickname.
+  ///
+  /// In en, this message translates to:
+  /// **'Nameless Witch'**
+  String get serviceDefaultNickname;
+
+  /// No description provided for @serviceTarotReadingError.
+  ///
+  /// In en, this message translates to:
+  /// **'An error occurred while reading the fortune: {error}'**
+  String serviceTarotReadingError(String error);
+
+  /// No description provided for @defaultUserDisplayName.
+  ///
+  /// In en, this message translates to:
+  /// **'User'**
+  String get defaultUserDisplayName;
+
+  /// No description provided for @listenToInterpretation.
+  ///
+  /// In en, this message translates to:
+  /// **'Listen to Interpretation'**
+  String get listenToInterpretation;
+
+  /// No description provided for @faqQ1.
+  ///
+  /// In en, this message translates to:
+  /// **'Can I read tarot every day?'**
+  String get faqQ1;
+
+  /// No description provided for @faqA1.
+  ///
+  /// In en, this message translates to:
+  /// **'Yes, it is good to read the flow of today with a light heart. However, it is not recommended to keep drawing cards repeatedly for the same question.'**
+  String get faqA1;
+
+  /// No description provided for @faqQ2.
+  ///
+  /// In en, this message translates to:
+  /// **'How do I get magic dust?'**
+  String get faqQ2;
+
+  /// No description provided for @faqA2.
+  ///
+  /// In en, this message translates to:
+  /// **'You can get magic dust through app attendance, community activities, or purchasing in the shop.'**
+  String get faqA2;
+
+  /// No description provided for @faqQ3.
+  ///
+  /// In en, this message translates to:
+  /// **'What should I do if the result is bad?'**
+  String get faqQ3;
+
+  /// No description provided for @faqA3.
+  ///
+  /// In en, this message translates to:
+  /// **'Tarot is not a fixed future, but an advice. Use a bad result as a milestone to warn you of risks to avoid.'**
+  String get faqA3;
+
+  /// No description provided for @faqQ4.
+  ///
+  /// In en, this message translates to:
+  /// **'How can I see my past tarot readings?'**
+  String get faqQ4;
+
+  /// No description provided for @faqA4.
+  ///
+  /// In en, this message translates to:
+  /// **'You can review your saved reading records by date in the \'Diary\' (Calendar) tab at the bottom menu anytime.'**
+  String get faqA4;
+
+  /// No description provided for @faqQ5.
+  ///
+  /// In en, this message translates to:
+  /// **'How do I share to the community?'**
+  String get faqQ5;
+
+  /// No description provided for @faqA5.
+  ///
+  /// In en, this message translates to:
+  /// **'Turn on the \'Share to Community\' switch on the diary detail screen saved in the diary to share your reading with other users.'**
+  String get faqA5;
+
+  /// No description provided for @faqQ6.
+  ///
+  /// In en, this message translates to:
+  /// **'How can I change my nickname or profile?'**
+  String get faqQ6;
+
+  /// No description provided for @faqA6.
+  ///
+  /// In en, this message translates to:
+  /// **'You can change your nickname and icon anytime by touching the profile area at the top of the \'My Menu\' tab.'**
+  String get faqA6;
+
+  /// No description provided for @faqQ7.
+  ///
+  /// In en, this message translates to:
+  /// **'Where can I turn notifications on and off?'**
+  String get faqQ7;
+
+  /// No description provided for @faqA7.
+  ///
+  /// In en, this message translates to:
+  /// **'You can control notifications from your device\'s settings app, or from the preferences menu to be updated in the future.'**
+  String get faqA7;
+
+  /// No description provided for @faqQ8.
+  ///
+  /// In en, this message translates to:
+  /// **'Can I see other people\'s tarot diaries?'**
+  String get faqQ8;
+
+  /// No description provided for @faqA8.
+  ///
+  /// In en, this message translates to:
+  /// **'Yes, you can view and cheer for interesting tarot readings that other wizards (users) have made public in the \'Community\' tab at the bottom.'**
+  String get faqA8;
+
+  /// No description provided for @faqQ9.
+  ///
+  /// In en, this message translates to:
+  /// **'Where can I check my premium subscription or payment history?'**
+  String get faqQ9;
+
+  /// No description provided for @faqA9.
+  ///
+  /// In en, this message translates to:
+  /// **'If you select \'Payment History\' in the [My Info] tab of the bottom menu, you can check your coin payment history and acquired magic dust in detail.'**
+  String get faqA9;
+
+  /// No description provided for @faqQ10.
+  ///
+  /// In en, this message translates to:
+  /// **'I want to study the meaning of Tarot cards personally. How can I do that?'**
+  String get faqQ10;
+
+  /// No description provided for @faqA10.
+  ///
+  /// In en, this message translates to:
+  /// **'If you go to the [Card Encyclopedia] tab in the bottom menu, you can freely view the upright and reversed meanings, symbols, and in-depth explanations of all 78 cards.'**
+  String get faqA10;
+
+  /// No description provided for @faqQ11.
+  ///
+  /// In en, this message translates to:
+  /// **'How can I delete my account or withdraw?'**
+  String get faqQ11;
+
+  /// No description provided for @faqA11.
+  ///
+  /// In en, this message translates to:
+  /// **'You can find the \'Delete Account\' button by going to the Account Settings menu via the gear icon on the top right of the [My Info] tab. All diaries and data will be permanently deleted upon withdrawal.'**
+  String get faqA11;
+
+  /// No description provided for @faqQ12.
+  ///
+  /// In en, this message translates to:
+  /// **'Where do I contact if I encounter an error or have suggestions?'**
+  String get faqQ12;
+
+  /// No description provided for @faqA12.
+  ///
+  /// In en, this message translates to:
+  /// **'If you send details through \'Contact Customer Service\' which is being prepared at the bottom of the current screen or via official email, we will quickly check and magically solve it for you.'**
+  String get faqA12;
+
+  /// No description provided for @myMenuContactUs.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact Us'**
+  String get myMenuContactUs;
+
+  /// No description provided for @myMenuContactUsSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Inquiries and suggestions'**
+  String get myMenuContactUsSubtitle;
+
+  /// No description provided for @contactDialogTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact Us'**
+  String get contactDialogTitle;
+
+  /// No description provided for @contactTypeBug.
+  ///
+  /// In en, this message translates to:
+  /// **'Bug Report'**
+  String get contactTypeBug;
+
+  /// No description provided for @contactTypeFeature.
+  ///
+  /// In en, this message translates to:
+  /// **'Feature Suggestion'**
+  String get contactTypeFeature;
+
+  /// No description provided for @contactTypePayment.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Issue'**
+  String get contactTypePayment;
+
+  /// No description provided for @contactTypeOther.
+  ///
+  /// In en, this message translates to:
+  /// **'Other Inquiry'**
+  String get contactTypeOther;
+
+  /// No description provided for @contactHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Please write your inquiry in detail.'**
+  String get contactHint;
+
+  /// No description provided for @contactSend.
+  ///
+  /// In en, this message translates to:
+  /// **'Send'**
+  String get contactSend;
+
+  /// No description provided for @contactCancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get contactCancel;
+
+  /// No description provided for @contactEmptyErrorTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Notice'**
+  String get contactEmptyErrorTitle;
+
+  /// No description provided for @contactEmptyErrorMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter your inquiry content.'**
+  String get contactEmptyErrorMessage;
 }
 
 class _AppLocalizationsDelegate

@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Los datos de interpretación detallados aún no están listos.",
   "cardDetailNoData": "No hay datos disponibles.",
   "buttonSaveReading": "Guardar lectura de tarot",
-  "readingSavedToDevice": "Guardado en el dispositivo."
+  "readingSavedToDevice": "Guardado en el dispositivo.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[Fase {level}: {name}]",
+  "growthTabMagicBook": "Mejora del Libro Mágico",
+  "growthPhaseCrystal0": "Magia Abisal",
+  "growthPhaseCrystal1": "Apertura del Ojo Espiritual",
+  "growthPhaseCrystal2": "Sabiduría de la Madre Naturaleza",
+  "growthPhaseCrystal3": "Esencia del Sol",
+  "growthPhaseCrystal4": "Aurora Celestial",
+  "growthPhaseCrystal5": "Reino Divino",
+  "growthPhaseCrystal6": "Magia de la Creación",
+  "growthPhaseCrystal7": "Aliento del Universo",
+  "growthPhaseCrystal8": "Luz Eterna",
+  "growthPhaseCrystal9": "Despertar Blanco Puro",
+  "growthPhaseCrystal10": "Trascendencia",
+  "growthPhaseBook0": "Herramientas de Escritura del Aprendiz",
+  "growthPhaseBook1": "Manual Básico de Magia",
+  "growthPhaseBook2": "Gramática de Runas Antiguas",
+  "growthPhaseBook3": "Comprensión de la Magia Elemental",
+  "growthPhaseBook4": "Armonía de la Luz Estelar",
+  "growthPhaseBook5": "Descifrado de Artefactos",
+  "growthPhaseBook6": "Libro Prohibido del Sabio",
+  "growthPhaseBook7": "Comunión con los Espíritus",
+  "growthPhaseBook8": "Grimorio de la Verdad",
+  "growthPhaseBook9": "Registro Omnipotente",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Nivel del Libro Mágico {level}",
+  "growthMagicBookKnowledge": "Conocimiento: {current} / {max}",
+  "growthCrystalBallMana": "Maná: {current} / {max}",
+  "growthMagicBookExpGained": "¡El conocimiento del libro mágico se ha profundizado! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "Mejorar Libro Mágico ({amount} Polvo)",
+  "devDustCharged": "Desarrollo: ¡1000 Polvo Mágico cargado!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Noticias y notificaciones",
+  "menuMailboxTitle": "Buzón",
+  "menuMailboxSubtitle": "Consulta nuevas actualizaciones y regalos.",
+  "mailboxTitle": "Buzón",
+  "mailboxAllRewardsClaimed": "Todas las recompensas reclamadas.",
+  "mailboxClaimAll": "Reclamar todo",
+  "mailboxEmpty": "El buzón está vacío.",
+  "mailboxSenderAndDate": "De: {sender} • {date}",
+  "mailboxClaimed": "Reclamado",
+  "mailboxClaim": "Afirmar",
+  "mailboxAttachedRewards": "Recompensas adjuntas",
+  "mailboxRewardClaimed": "Recompensa reclamada.",
+  "mailboxClaimReward": "Reclamar recompensa",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Centro de notificaciones",
+  "menuNotificationCenterSubtitle": "Consulta las últimas notificaciones y anuncios",
+  "authSignupComplete": "El registro está completo. Por favor revise el correo electrónico que se le envió para verificar.",
+  "chatInitError": "Se produjo un error de inicialización:\n{error}",
+  "chatError": "Se produjo un error:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Error de traducción: {error}",
+  "diarySelectDate": "Selecciona una fecha",
+  "diarySavedSuccess": "¡Diario guardado exitosamente!",
+  "diarySaveFailed": "No se pudo guardar el diario.",
+  "diaryWriteTitle": "escribir diario",
+  "diaryWriteHint": "Siéntete libre de escribir tus pensamientos o sentimientos sobre la lectura de hoy.",
+  "diarySaveButton": "Guardar en el diario",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "La fortuna de hoy",
+  "readingSpreadLabelPast1": "1. Pasado",
+  "readingSpreadLabelPresent2": "2. presente",
+  "readingSpreadLabelFuture3": "3. Futuro",
+  "readingSpreadLabelCurrent1": "1. Actual",
+  "readingSpreadLabelPast2": "2. Pasado",
+  "readingSpreadLabelFuture3Alt": "3. Futuro",
+  "readingSpreadLabelCause4": "4. Causa",
+  "readingSpreadLabelPotential5": "5. Potencial",
+  "readingSpreadLabelCurrentSituation1": "1. Situación actual y problema",
+  "readingSpreadLabelCauseOfProblem2": "2. Causa del problema",
+  "readingSpreadLabelAdviceForResolution3": "3. Consejos para la resolución",
+  "readingSpreadLabelExpectedResult4": "4. Resultado esperado",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Situación actual",
+  "readingSpreadLabelObstacle2": "2. Obstáculo",
+  "readingSpreadLabelUnconscious3": "3. Inconsciente",
+  "readingSpreadLabelPast4": "4. Pasado",
+  "readingSpreadLabelConsciousGoal5": "5. Meta consciente",
+  "readingSpreadLabelNearFuture6": "6. Futuro cercano",
+  "readingSpreadLabelAttitude7": "7. Actitud",
+  "readingSpreadLabelExternalEnvironment8": "8. Entorno externo",
+  "readingSpreadLabelHopesAndFears9": "9. Esperanzas y temores",
+  "readingSpreadLabelFinalResult10": "10. Resultado final",
+  "readingSpreadLabelAdvice4": "4. Consejos",
+  "readingSpreadLabelSurroundings5": "5. Entorno",
+  "readingSpreadLabelResult6": "6. Resultado",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Coins",
+  "serviceLoginRequired": "Es necesario iniciar sesión.",
+  "serviceDefaultNickname": "Bruja sin nombre",
+  "serviceTarotReadingError": "Se produjo un error al leer la fortuna: {error}",
+  "defaultUserDisplayName": "Usuario",
+  "listenToInterpretation": "Escuche la interpretación",
+  "faqQ1": "¿Puedo leer tarot todos los días?",
+  "faqA1": "Sí, es bueno leer el flujo de hoy con tranquilidad. Sin embargo, no se recomienda seguir sacando cartas repetidamente para la misma pregunta.",
+  "faqQ2": "¿Cómo consigo polvo mágico?",
+  "faqA2": "Puede obtener polvo mágico a través de la asistencia a la aplicación, actividades comunitarias o compras en la tienda.",
+  "faqQ3": "¿Qué debo hacer si el resultado es malo?",
+  "faqA3": "El tarot no es un futuro fijo, sino un consejo. Utilice un mal resultado como hito para advertirle de los riesgos que debe evitar.",
+  "faqQ4": "¿Cómo puedo ver mis lecturas de tarot pasadas?",
+  "faqA4": "Puede revisar sus registros de lectura guardados por fecha en la pestaña \"Diario\" (Calendario) en el menú inferior en cualquier momento.",
+  "faqQ5": "¿Cómo comparto con la comunidad?",
+  "faqA5": "Active el interruptor 'Compartir con la comunidad' en la pantalla de detalles del diario guardada en el diario para compartir su lectura con otros usuarios.",
+  "faqQ6": "¿Cómo puedo cambiar mi apodo o perfil?",
+  "faqA6": "Puedes cambiar tu apodo e ícono en cualquier momento tocando el área de perfil en la parte superior de la pestaña \"Mi menú\".",
+  "faqQ7": "¿Dónde puedo activar y desactivar las notificaciones?",
+  "faqA7": "Puede controlar las notificaciones desde la aplicación de configuración de su dispositivo o desde el menú de preferencias para actualizarlas en el futuro.",
+  "faqQ8": "¿Puedo ver los diarios de tarot de otras personas?",
+  "faqA8": "Sí, puedes ver y animar lecturas de tarot interesantes que otros magos (usuarios) han hecho públicas en la pestaña 'Comunidad' en la parte inferior.",
+  "faqQ9": "¿Dónde puedo consultar mi suscripción premium o mi historial de pagos?",
+  "faqA9": "Si selecciona 'Historial de pagos' en la pestaña [Mi información] del menú inferior, puede verificar en detalle su historial de pagos de monedas y el polvo mágico adquirido.",
+  "faqQ10": "Quiero estudiar personalmente el significado de las cartas del Tarot. ¿Cómo puedo hacer eso?",
+  "faqA10": "Si va a la pestaña [Enciclopedia de cartas] en el menú inferior, podrá ver libremente los significados, los símbolos y las explicaciones detalladas en posición vertical e invertida de las 78 cartas.",
+  "faqQ11": "¿Cómo puedo eliminar mi cuenta o retirar dinero?",
+  "faqA11": "Puede encontrar el botón \"Eliminar cuenta\" yendo al menú Configuración de la cuenta a través del ícono de ajustes en la parte superior derecha de la pestaña [Mi información]. Todos los diarios y datos se eliminarán permanentemente al realizar el retiro.",
+  "faqQ12": "¿A dónde me comunico si encuentro un error o tengo sugerencias?",
+  "faqA12": "Si envía los detalles a través de 'Contactar con el servicio de atención al cliente' que se está preparando en la parte inferior de la pantalla actual o por correo electrónico oficial, lo comprobaremos rápidamente y lo resolveremos mágicamente por usted.",
+  "myMenuContactUs": "Contáctenos",
+  "myMenuContactUsSubtitle": "Consultas y sugerencias",
+  "contactDialogTitle": "Contáctenos",
+  "contactTypeBug": "Informe de error",
+  "contactTypeFeature": "Sugerencia de funciones",
+  "contactTypePayment": "Problema de pago",
+  "contactTypeOther": "Otra consulta",
+  "contactHint": "Por favor escriba su consulta detalladamente.",
+  "contactSend": "Enviar",
+  "contactCancel": "Cancelar",
+  "contactEmptyErrorTitle": "Aviso",
+  "contactEmptyErrorMessage": "Por favor ingrese el contenido de su consulta."
 }

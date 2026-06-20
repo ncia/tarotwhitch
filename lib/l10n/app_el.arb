@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Τα λεπτομερή δεδομένα ερμηνείας δεν είναι ακόμη έτοιμα.",
   "cardDetailNoData": "Δεν υπάρχουν διαθέσιμα δεδομένα.",
   "buttonSaveReading": "Αποθήκευση ανάγνωσης Ταρώ",
-  "readingSavedToDevice": "Αποθηκεύτηκε στη συσκευή."
+  "readingSavedToDevice": "Αποθηκεύτηκε στη συσκευή.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Φάση: {name}]",
+  "growthTabMagicBook": "Αναβάθμιση Μαγικού Βιβλίου",
+  "growthPhaseCrystal0": "Μαγεία της Αβύσσου",
+  "growthPhaseCrystal1": "Άνοιγμα του Πνευματικού Ματιού",
+  "growthPhaseCrystal2": "Σοφία της Μητέρας Φύσης",
+  "growthPhaseCrystal3": "Ουσία του Ήλιου",
+  "growthPhaseCrystal4": "Ουράνια Αυγή",
+  "growthPhaseCrystal5": "Θείο Βασίλειο",
+  "growthPhaseCrystal6": "Μαγεία της Δημιουργίας",
+  "growthPhaseCrystal7": "Πνοή του Σύμπαντος",
+  "growthPhaseCrystal8": "Αιώνιο Φως",
+  "growthPhaseCrystal9": "Αγνή Λευκή Αφύπνιση",
+  "growthPhaseCrystal10": "Υπέρβαση",
+  "growthPhaseBook0": "Εργαλεία Γραφής του Μαθητευόμενου",
+  "growthPhaseBook1": "Βασικό Εγχειρίδιο Μαγείας",
+  "growthPhaseBook2": "Γραμματική Αρχαίων Ρούνων",
+  "growthPhaseBook3": "Κατανόηση της Στοιχειακής Μαγείας",
+  "growthPhaseBook4": "Αρμονία του Φωτός των Άστρων",
+  "growthPhaseBook5": "Αποκρυπτογράφηση Τεχνουργημάτων",
+  "growthPhaseBook6": "Απαγορευμένο Βιβλίο του Σοφού",
+  "growthPhaseBook7": "Κοινωνία με τα Πνεύματα",
+  "growthPhaseBook8": "Γριμόριο της Αλήθειας",
+  "growthPhaseBook9": "Παντοδύναμο Αρχείο",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Επίπεδο Μαγικού Βιβλίου {level}",
+  "growthMagicBookKnowledge": "Γνώση: {current} / {max}",
+  "growthCrystalBallMana": "Μάνα: {current} / {max}",
+  "growthMagicBookExpGained": "Η γνώση του μαγικού βιβλίου έχει εμβαθύνει! Εμπ +{amount}",
+  "growthUpgradeMagicBookButton": "Αναβάθμιση Μαγικού Βιβλίου ({amount} Σκόνη)",
+  "devDustCharged": "Dev: 1000 Μαγική Σκόνη φορτίστηκε!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Ειδήσεις & Ειδοποιήσεις",
+  "menuMailboxTitle": "Γραμματοκιβώτιο",
+  "menuMailboxSubtitle": "Ελέγξτε τις νέες ενημερώσεις και τα δώρα",
+  "mailboxTitle": "Γραμματοκιβώτιο",
+  "mailboxAllRewardsClaimed": "Όλες οι ανταμοιβές διεκδικήθηκαν.",
+  "mailboxClaimAll": "Αξίωση όλων",
+  "mailboxEmpty": "Το γραμματοκιβώτιο είναι άδειο.",
+  "mailboxSenderAndDate": "Από: {sender} • {date}",
+  "mailboxClaimed": "Διεκδικήθηκε",
+  "mailboxClaim": "Αξίωση",
+  "mailboxAttachedRewards": "Συνημμένες ανταμοιβές",
+  "mailboxRewardClaimed": "Η ανταμοιβή διεκδικήθηκε.",
+  "mailboxClaimReward": "Διεκδίκηση ανταμοιβής",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Κέντρο ειδοποιήσεων",
+  "menuNotificationCenterSubtitle": "Ελέγξτε τις τελευταίες ειδοποιήσεις και ανακοινώσεις",
+  "authSignupComplete": "Η εγγραφή έχει ολοκληρωθεί. Ελέγξτε το email που σας εστάλη για επαλήθευση.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Η μετάφραση απέτυχε: {error}",
+  "diarySelectDate": "Επιλέξτε μια ημερομηνία",
+  "diarySavedSuccess": "Το ημερολόγιο αποθηκεύτηκε με επιτυχία!",
+  "diarySaveFailed": "Αποτυχία αποθήκευσης ημερολογίου.",
+  "diaryWriteTitle": "Γράψε Ημερολόγιο",
+  "diaryWriteHint": "Μη διστάσετε να γράψετε τις σκέψεις ή τα συναισθήματά σας για τη σημερινή ανάγνωση.",
+  "diarySaveButton": "Αποθήκευση στο Ημερολόγιο",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "Το σημερινό Fortune",
+  "readingSpreadLabelPast1": "1. Παρελθόν",
+  "readingSpreadLabelPresent2": "2. Παρών",
+  "readingSpreadLabelFuture3": "3. Μέλλον",
+  "readingSpreadLabelCurrent1": "1. Τρέχον",
+  "readingSpreadLabelPast2": "2. Παρελθόν",
+  "readingSpreadLabelFuture3Alt": "3. Μέλλον",
+  "readingSpreadLabelCause4": "4. Αιτία",
+  "readingSpreadLabelPotential5": "5. Δυνατότητα",
+  "readingSpreadLabelCurrentSituation1": "1. Τρέχουσα κατάσταση και πρόβλημα",
+  "readingSpreadLabelCauseOfProblem2": "2. Αιτία προβλήματος",
+  "readingSpreadLabelAdviceForResolution3": "3. Συμβουλές για επίλυση",
+  "readingSpreadLabelExpectedResult4": "4. Αναμενόμενο αποτέλεσμα",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Τρέχουσα κατάσταση",
+  "readingSpreadLabelObstacle2": "2. Εμπόδιο",
+  "readingSpreadLabelUnconscious3": "3. Αναίσθητος",
+  "readingSpreadLabelPast4": "4. Παρελθόν",
+  "readingSpreadLabelConsciousGoal5": "5. Συνειδητός στόχος",
+  "readingSpreadLabelNearFuture6": "6. Εγγύς μέλλον",
+  "readingSpreadLabelAttitude7": "7. Στάση",
+  "readingSpreadLabelExternalEnvironment8": "8. Εξωτερικό Περιβάλλον",
+  "readingSpreadLabelHopesAndFears9": "9. Ελπίδες και φόβοι",
+  "readingSpreadLabelFinalResult10": "10. Τελικό αποτέλεσμα",
+  "readingSpreadLabelAdvice4": "4. Συμβουλές",
+  "readingSpreadLabelSurroundings5": "5. Περιβάλλον",
+  "readingSpreadLabelResult6": "6. Αποτέλεσμα",
+  "shopBonusCoins": "Μπόνους {amount}",
+  "shopCoins": "{amount} Νομίσματα",
+  "serviceLoginRequired": "Απαιτείται σύνδεση.",
+  "serviceDefaultNickname": "Ανώνυμη μάγισσα",
+  "serviceTarotReadingError": "Παρουσιάστηκε σφάλμα κατά την ανάγνωση της τύχης: {error}",
+  "defaultUserDisplayName": "Μεταχειριζόμενος",
+  "listenToInterpretation": "Ακούστε το Interpretation",
+  "faqQ1": "Μπορώ να διαβάζω ταρώ κάθε μέρα;",
+  "faqA1": "Ναι, καλό είναι να διαβάζουμε τη ροή του σήμερα με ανάλαφρη καρδιά. Ωστόσο, δεν συνιστάται να συνεχίζετε να τραβάτε κάρτες επανειλημμένα για την ίδια ερώτηση.",
+  "faqQ2": "Πώς μπορώ να πάρω μαγική σκόνη;",
+  "faqA2": "Μπορείτε να αποκτήσετε μαγική σκόνη μέσω της παρακολούθησης εφαρμογών, των κοινοτικών δραστηριοτήτων ή των αγορών στο κατάστημα.",
+  "faqQ3": "Τι πρέπει να κάνω εάν το αποτέλεσμα είναι κακό;",
+  "faqA3": "Το Ταρώ δεν είναι ένα σταθερό μέλλον, αλλά μια συμβουλή. Χρησιμοποιήστε ένα κακό αποτέλεσμα ως ορόσημο για να σας προειδοποιήσει για κινδύνους που πρέπει να αποφύγετε.",
+  "faqQ4": "Πώς μπορώ να δω τις προηγούμενες αναγνώσεις ταρώ μου;",
+  "faqA4": "Μπορείτε να ελέγξετε τις αποθηκευμένες εγγραφές ανάγνωσης ανά ημερομηνία στην καρτέλα «Ημερολόγιο» (Ημερολόγιο) στο κάτω μενού ανά πάσα στιγμή.",
+  "faqQ5": "Πώς μοιράζομαι την κοινότητα;",
+  "faqA5": "Ενεργοποιήστε τον διακόπτη \"Κοινή χρήση στην Κοινότητα\" στην οθόνη λεπτομερειών ημερολογίου που είναι αποθηκευμένη στο ημερολόγιο για να μοιραστείτε την ανάγνωση με άλλους χρήστες.",
+  "faqQ6": "Πώς μπορώ να αλλάξω το ψευδώνυμο ή το προφίλ μου;",
+  "faqA6": "Μπορείτε να αλλάξετε το ψευδώνυμό σας και το εικονίδιο σας ανά πάσα στιγμή αγγίζοντας την περιοχή προφίλ στο επάνω μέρος της καρτέλας «Το μενού μου».",
+  "faqQ7": "Πού μπορώ να ενεργοποιήσω και να απενεργοποιήσω τις ειδοποιήσεις;",
+  "faqA7": "Μπορείτε να ελέγξετε τις ειδοποιήσεις από την εφαρμογή ρυθμίσεων της συσκευής σας ή από το μενού προτιμήσεων που πρόκειται να ενημερωθούν στο μέλλον.",
+  "faqQ8": "Μπορώ να δω τα ημερολόγια ταρώ άλλων ανθρώπων;",
+  "faqA8": "Ναι, μπορείτε να δείτε και να ζητωκραυγάζετε για ενδιαφέρουσες αναγνώσεις ταρώ που άλλοι μάγοι (χρήστες) έχουν δημοσιοποιήσει στην καρτέλα \"Κοινότητα\" στο κάτω μέρος.",
+  "faqQ9": "Πού μπορώ να ελέγξω τη συνδρομή premium ή το ιστορικό πληρωμών μου;",
+  "faqA9": "Εάν επιλέξετε \"Ιστορικό πληρωμών\" στην καρτέλα [Οι πληροφορίες μου] στο κάτω μενού, μπορείτε να ελέγξετε λεπτομερώς το ιστορικό πληρωμών νομισμάτων και την αποκτηθείσα μαγική σκόνη.",
+  "faqQ10": "Θέλω να μελετήσω προσωπικά την έννοια των καρτών Ταρώ. Πώς μπορώ να το κάνω αυτό;",
+  "faqA10": "Εάν μεταβείτε στην καρτέλα [Card Encyclopedia] στο κάτω μενού, μπορείτε να δείτε ελεύθερα τις όρθιες και αντίστροφες έννοιες, τα σύμβολα και τις σε βάθος επεξηγήσεις και των 78 καρτών.",
+  "faqQ11": "Πώς μπορώ να διαγράψω τον λογαριασμό μου ή να κάνω ανάληψη;",
+  "faqA11": "Μπορείτε να βρείτε το κουμπί «Διαγραφή λογαριασμού» μεταβαίνοντας στο μενού Ρυθμίσεις λογαριασμού μέσω του εικονιδίου με το γρανάζι στην επάνω δεξιά γωνία της καρτέλας [Οι πληροφορίες μου]. Όλα τα ημερολόγια και τα δεδομένα θα διαγραφούν οριστικά με την απόσυρση.",
+  "faqQ12": "Πού μπορώ να επικοινωνήσω εάν αντιμετωπίσω κάποιο σφάλμα ή έχω προτάσεις;",
+  "faqA12": "Εάν στείλετε λεπτομέρειες μέσω της «Επικοινωνίας με την Εξυπηρέτηση Πελατών» που προετοιμάζεται στο κάτω μέρος της τρέχουσας οθόνης ή μέσω επίσημου email, θα ελέγξουμε γρήγορα και θα σας το λύσουμε ως δια μαγείας.",
+  "myMenuContactUs": "Επικοινωνήστε μαζί μας",
+  "myMenuContactUsSubtitle": "ncia@daum.net",
+  "contactDialogTitle": "Επικοινωνήστε μαζί μας",
+  "contactTypeBug": "Αναφορά σφάλματος",
+  "contactTypeFeature": "Πρόταση χαρακτηριστικών",
+  "contactTypePayment": "Θέμα πληρωμής",
+  "contactTypeOther": "Άλλη έρευνα",
+  "contactHint": "Γράψτε το ερώτημά σας αναλυτικά.",
+  "contactSend": "Στέλνω",
+  "contactCancel": "Ματαίωση",
+  "contactEmptyErrorTitle": "Ανακοίνωση",
+  "contactEmptyErrorMessage": "Εισαγάγετε το περιεχόμενο της ερώτησής σας."
 }

@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Detaylı yorumlama verileri henüz hazır değil.",
   "cardDetailNoData": "Veri yok.",
   "buttonSaveReading": "Tarot Okumasını Kaydet",
-  "readingSavedToDevice": "Cihaza kaydedildi."
+  "readingSavedToDevice": "Cihaza kaydedildi.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Aşama: {name}]",
+  "growthTabMagicBook": "Büyü Kitabı Yükseltme",
+  "growthPhaseCrystal0": "Uçurum Büyüsü",
+  "growthPhaseCrystal1": "Ruh Gözünü Açma",
+  "growthPhaseCrystal2": "Doğa Ana'nın Bilgeliği",
+  "growthPhaseCrystal3": "Güneşin Özü",
+  "growthPhaseCrystal4": "Göksel Aurora",
+  "growthPhaseCrystal5": "İlahi Diyar",
+  "growthPhaseCrystal6": "Yaratılış Büyüsü",
+  "growthPhaseCrystal7": "Evrenin Nefesi",
+  "growthPhaseCrystal8": "Ebedi Işık",
+  "growthPhaseCrystal9": "Saf Beyaz Uyanış",
+  "growthPhaseCrystal10": "Aşkınlık",
+  "growthPhaseBook0": "Çırağın Yazı Araçları",
+  "growthPhaseBook1": "Temel Büyü El Kitabı",
+  "growthPhaseBook2": "Antik Rün Dilbilgisi",
+  "growthPhaseBook3": "Element Büyüsünü Anlama",
+  "growthPhaseBook4": "Yıldız Işığının Armonisi",
+  "growthPhaseBook5": "Eser Çözümleme",
+  "growthPhaseBook6": "Bilgenin Yasak Kitabı",
+  "growthPhaseBook7": "Ruhlarla İletişim",
+  "growthPhaseBook8": "Gerçeğin Büyü Kitabı",
+  "growthPhaseBook9": "Her Şeye Gücü Yeten Kayıt",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Büyü Kitabı Seviyesi {level}",
+  "growthMagicBookKnowledge": "Bilgi: {current} / {max}",
+  "growthCrystalBallMana": "Mana: {current} / {max}",
+  "growthMagicBookExpGained": "Büyü kitabının bilgisi derinleşti! Tecrübe +{amount}",
+  "growthUpgradeMagicBookButton": "Büyü Kitabını Yükselt ({amount} Toz)",
+  "devDustCharged": "Geliştirici: 1000 Büyü Tozu yüklendi!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Haberler ve Bildirimler",
+  "menuMailboxTitle": "Posta kutusu",
+  "menuMailboxSubtitle": "Yeni güncellemeleri ve hediyeleri kontrol edin",
+  "mailboxTitle": "Posta kutusu",
+  "mailboxAllRewardsClaimed": "Tüm ödüller talep edildi.",
+  "mailboxClaimAll": "Tümünü Talep Et",
+  "mailboxEmpty": "Posta kutusu boş.",
+  "mailboxSenderAndDate": "Gönderen: {sender} • {date}",
+  "mailboxClaimed": "Hak talebinde bulunuldu",
+  "mailboxClaim": "İddia",
+  "mailboxAttachedRewards": "Ekli Ödüller",
+  "mailboxRewardClaimed": "Ödül talep edildi.",
+  "mailboxClaimReward": "Ödül Talebi",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Bildirim Merkezi",
+  "menuNotificationCenterSubtitle": "En son bildirimleri ve duyuruları kontrol edin",
+  "authSignupComplete": "Kayıt işlemi tamamlandı. Lütfen doğrulamak için size gönderilen e-postayı kontrol edin.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Çeviri başarısız oldu: {error}",
+  "diarySelectDate": "Bir tarih seçin",
+  "diarySavedSuccess": "Günlük başarıyla kaydedildi!",
+  "diarySaveFailed": "Günlük kaydedilemedi.",
+  "diaryWriteTitle": "Günlük Yaz",
+  "diaryWriteHint": "Bugünkü okumanızla ilgili düşüncelerinizi veya duygularınızı yazmaktan çekinmeyin.",
+  "diarySaveButton": "Günlüğe Kaydet",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "Bugünün Şansı",
+  "readingSpreadLabelPast1": "1. Geçmiş",
+  "readingSpreadLabelPresent2": "2. Mevcut",
+  "readingSpreadLabelFuture3": "3. Gelecek",
+  "readingSpreadLabelCurrent1": "1. Güncel",
+  "readingSpreadLabelPast2": "2. Geçmiş",
+  "readingSpreadLabelFuture3Alt": "3. Gelecek",
+  "readingSpreadLabelCause4": "4. Sebep",
+  "readingSpreadLabelPotential5": "5. Potansiyel",
+  "readingSpreadLabelCurrentSituation1": "1. Mevcut durum ve sorun",
+  "readingSpreadLabelCauseOfProblem2": "2. Sorunun nedeni",
+  "readingSpreadLabelAdviceForResolution3": "3. Çözüm için tavsiyeler",
+  "readingSpreadLabelExpectedResult4": "4. Beklenen sonuç",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Mevcut durum",
+  "readingSpreadLabelObstacle2": "2. Engel",
+  "readingSpreadLabelUnconscious3": "3. Bilinçdışı",
+  "readingSpreadLabelPast4": "4. Geçmiş",
+  "readingSpreadLabelConsciousGoal5": "5. Bilinçli Hedef",
+  "readingSpreadLabelNearFuture6": "6. Yakın Gelecek",
+  "readingSpreadLabelAttitude7": "7. Tutum",
+  "readingSpreadLabelExternalEnvironment8": "8. Dış Çevre",
+  "readingSpreadLabelHopesAndFears9": "9. Umutlar ve Korkular",
+  "readingSpreadLabelFinalResult10": "10. Nihai Sonuç",
+  "readingSpreadLabelAdvice4": "4. Tavsiye",
+  "readingSpreadLabelSurroundings5": "5. Çevre",
+  "readingSpreadLabelResult6": "6. Sonuç",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Para",
+  "serviceLoginRequired": "Oturum açmanız gerekiyor.",
+  "serviceDefaultNickname": "İsimsiz Cadı",
+  "serviceTarotReadingError": "Fal okunurken bir hata oluştu: {error}",
+  "defaultUserDisplayName": "Kullanıcı",
+  "listenToInterpretation": "Yorumlamayı dinle",
+  "faqQ1": "Her gün tarot okuyabilir miyim?",
+  "faqA1": "Evet, bugünün akışını hafif bir yürekle okumakta fayda var. Ancak aynı soru için tekrar tekrar kart çekmeye devam edilmesi önerilmez.",
+  "faqQ2": "Büyü tozunu nasıl elde ederim?",
+  "faqA2": "Uygulamaya katılım, topluluk etkinlikleri veya mağazadan satın alma yoluyla sihirli toz elde edebilirsiniz.",
+  "faqQ3": "Sonuç kötü ise ne yapmalıyım?",
+  "faqA3": "Tarot sabit bir gelecek değil, bir tavsiyedir. Kötü bir sonucu, kaçınılması gereken riskler konusunda sizi uyarmak için bir dönüm noktası olarak kullanın.",
+  "faqQ4": "Geçmiş tarot okumalarımı nasıl görebilirim?",
+  "faqA4": "Kaydedilen okuma kayıtlarınızı istediğiniz zaman alt menüdeki 'Günlük' (Takvim) sekmesinden tarihe göre inceleyebilirsiniz.",
+  "faqQ5": "Toplulukla nasıl paylaşırım?",
+  "faqA5": "Okumalarınızı diğer kullanıcılarla paylaşmak için günlüğe kaydedilen günlük ayrıntıları ekranında 'Toplulukta Paylaş' anahtarını açın.",
+  "faqQ6": "Takma adımı veya profilimi nasıl değiştirebilirim?",
+  "faqA6": "'Menüm' sekmesinin üst kısmındaki profil alanına dokunarak takma adınızı ve simgenizi istediğiniz zaman değiştirebilirsiniz.",
+  "faqQ7": "Bildirimleri nereden açıp kapatabilirim?",
+  "faqA7": "Bildirimleri cihazınızın ayarlar uygulamasından veya gelecekte güncellenecek tercihler menüsünden kontrol edebilirsiniz.",
+  "faqQ8": "Başkalarının tarot günlüklerini görebilir miyim?",
+  "faqA8": "Evet, alt kısımdaki 'Topluluk' sekmesinde diğer sihirbazların (kullanıcıların) halka açıkladığı ilginç tarot okumalarını görüntüleyebilir ve tezahürat yapabilirsiniz.",
+  "faqQ9": "Premium aboneliğimi veya ödeme geçmişimi nereden kontrol edebilirim?",
+  "faqA9": "Alt menünün [Bilgilerim] sekmesinden 'Ödeme Geçmişi'ni seçerseniz, coin ödeme geçmişinizi ve edindiğiniz sihirli tozu detaylı olarak kontrol edebilirsiniz.",
+  "faqQ10": "Tarot kartlarının anlamını kişisel olarak incelemek istiyorum. Bunu nasıl yapabilirim?",
+  "faqA10": "Alt menüdeki [Kart Ansiklopedisi] sekmesine giderseniz 78 kartın tamamının dik ve ters anlamlarını, sembollerini ve detaylı açıklamalarını özgürce görüntüleyebilirsiniz.",
+  "faqQ11": "Hesabımı nasıl silebilir veya para çekebilirim?",
+  "faqA11": "[Bilgilerim] sekmesinin sağ üst köşesindeki dişli çark simgesinden Hesap Ayarları menüsüne giderek 'Hesabı Sil' düğmesini bulabilirsiniz. Geri çekilme sonrasında tüm günlükler ve veriler kalıcı olarak silinecektir.",
+  "faqQ12": "Bir hatayla karşılaşırsam veya önerilerim olursa nereye başvurabilirim?",
+  "faqA12": "Mevcut ekranın alt kısmında hazırlanan 'Müşteri Hizmetleriyle İletişime Geçin' veya resmi e-posta yoluyla ayrıntıları gönderirseniz, hızlı bir şekilde kontrol edip sizin için sihirli bir şekilde çözeceğiz.",
+  "myMenuContactUs": "Bize Ulaşın",
+  "myMenuContactUsSubtitle": "Sorular ve öneriler",
+  "contactDialogTitle": "Bize Ulaşın",
+  "contactTypeBug": "Hata Raporu",
+  "contactTypeFeature": "Özellik Önerisi",
+  "contactTypePayment": "Ödeme Sorunu",
+  "contactTypeOther": "Diğer Sorgulama",
+  "contactHint": "Lütfen sorunuzu ayrıntılı olarak yazınız.",
+  "contactSend": "Göndermek",
+  "contactCancel": "İptal etmek",
+  "contactEmptyErrorTitle": "Fark etme",
+  "contactEmptyErrorMessage": "Lütfen sorgulama içeriğinizi giriniz."
 }

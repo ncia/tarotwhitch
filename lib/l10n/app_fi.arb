@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Yksityiskohtaiset tulkintatiedot eivät ole vielä valmiita.",
   "cardDetailNoData": "Tietoja ei ole saatavilla.",
   "buttonSaveReading": "Tallenna Tarot-lukeminen",
-  "readingSavedToDevice": "Tallennettu laitteelle."
+  "readingSavedToDevice": "Tallennettu laitteelle.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Vaihe: {name}]",
+  "growthTabMagicBook": "Taikakirjan päivitys",
+  "growthPhaseCrystal0": "Syvyyksien magia",
+  "growthPhaseCrystal1": "Hengen silmän avaus",
+  "growthPhaseCrystal2": "Luontoäidin viisaus",
+  "growthPhaseCrystal3": "Auringon olemus",
+  "growthPhaseCrystal4": "Taivaallinen revontuli",
+  "growthPhaseCrystal5": "Jumalallinen valtakunta",
+  "growthPhaseCrystal6": "Luomisen magia",
+  "growthPhaseCrystal7": "Maailmankaikkeuden henkäys",
+  "growthPhaseCrystal8": "Ikuinen valo",
+  "growthPhaseCrystal9": "Puhtaanvalkoinen herääminen",
+  "growthPhaseCrystal10": "Transsendenssi",
+  "growthPhaseBook0": "Oppipojan kirjoitusvälineet",
+  "growthPhaseBook1": "Perusmagian alkeiskirja",
+  "growthPhaseBook2": "Muinaisten riimujen kielioppi",
+  "growthPhaseBook3": "Elementaalimagian ymmärtäminen",
+  "growthPhaseBook4": "Tähtivalon harmonia",
+  "growthPhaseBook5": "Artefaktien tulkitseminen",
+  "growthPhaseBook6": "Viisaan kielletty kirja",
+  "growthPhaseBook7": "Yhteys henkiin",
+  "growthPhaseBook8": "Totuuden grimoire",
+  "growthPhaseBook9": "Kaikkivoipa kronikka",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Taikakirjan taso {level}",
+  "growthMagicBookKnowledge": "Tieto: {current} / {max}",
+  "growthCrystalBallMana": "Mana: {current} / {max}",
+  "growthMagicBookExpGained": "Taikakirjan tieto on syventynyt! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "Päivitä taikakirja ({amount} pölyä)",
+  "devDustCharged": "Kehitys: 1000 taikapölyä ladattu!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Uutiset ja ilmoitukset",
+  "menuMailboxTitle": "Postilaatikko",
+  "menuMailboxSubtitle": "Tarkista uudet päivitykset ja lahjat",
+  "mailboxTitle": "Postilaatikko",
+  "mailboxAllRewardsClaimed": "Kaikki palkinnot lunastettu.",
+  "mailboxClaimAll": "Lunasta kaikki",
+  "mailboxEmpty": "Postilaatikko on tyhjä.",
+  "mailboxSenderAndDate": "Lähettäjä: {sender} • {date}",
+  "mailboxClaimed": "Väitetty",
+  "mailboxClaim": "Väite",
+  "mailboxAttachedRewards": "Liitteenä palkinnot",
+  "mailboxRewardClaimed": "Palkinto lunastettu.",
+  "mailboxClaimReward": "Lunasta palkinto",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Ilmoituskeskus",
+  "menuNotificationCenterSubtitle": "Tarkista viimeisimmät ilmoitukset ja ilmoitukset",
+  "authSignupComplete": "Ilmoittautuminen on valmis. Tarkista sinulle lähetetty sähköposti vahvistaaksesi.",
+  "chatInitError": "Alustusvirhe:\n{error}",
+  "chatError": "Tapahtui virhe:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Sijainti {number}",
+  "communityTranslationFailed": "Käännös epäonnistui: {error}",
+  "diarySelectDate": "Valitse päivämäärä",
+  "diarySavedSuccess": "Päiväkirjan tallennus onnistui!",
+  "diarySaveFailed": "Päiväkirjan tallentaminen epäonnistui.",
+  "diaryWriteTitle": "Kirjoita päiväkirjaa",
+  "diaryWriteHint": "Voit vapaasti kirjoittaa ajatuksesi tai tunteesi tämän päivän lukemisesta.",
+  "diarySaveButton": "Tallenna päiväkirjaan",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "Tämän päivän Fortune",
+  "readingSpreadLabelPast1": "1. Menneisyys",
+  "readingSpreadLabelPresent2": "2. Esitä",
+  "readingSpreadLabelFuture3": "3. Tulevaisuus",
+  "readingSpreadLabelCurrent1": "1. Nykyinen",
+  "readingSpreadLabelPast2": "2. Menneisyys",
+  "readingSpreadLabelFuture3Alt": "3. Tulevaisuus",
+  "readingSpreadLabelCause4": "4. Syy",
+  "readingSpreadLabelPotential5": "5. Mahdollisuus",
+  "readingSpreadLabelCurrentSituation1": "1. Nykytilanne ja ongelma",
+  "readingSpreadLabelCauseOfProblem2": "2. Ongelman syy",
+  "readingSpreadLabelAdviceForResolution3": "3. Neuvoja ratkaisuun",
+  "readingSpreadLabelExpectedResult4": "4. Odotettu tulos",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Nykytilanne",
+  "readingSpreadLabelObstacle2": "2. Este",
+  "readingSpreadLabelUnconscious3": "3. Tajuton",
+  "readingSpreadLabelPast4": "4. Menneisyys",
+  "readingSpreadLabelConsciousGoal5": "5. Tietoinen tavoite",
+  "readingSpreadLabelNearFuture6": "6. Lähitulevaisuus",
+  "readingSpreadLabelAttitude7": "7. Asenne",
+  "readingSpreadLabelExternalEnvironment8": "8. Ulkoinen ympäristö",
+  "readingSpreadLabelHopesAndFears9": "9. Toivot ja pelot",
+  "readingSpreadLabelFinalResult10": "10. Lopputulos",
+  "readingSpreadLabelAdvice4": "4. Neuvoja",
+  "readingSpreadLabelSurroundings5": "5. Ympäristö",
+  "readingSpreadLabelResult6": "6. Tulos",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} kolikoita",
+  "serviceLoginRequired": "Kirjautuminen vaaditaan.",
+  "serviceDefaultNickname": "Nimetön noita",
+  "serviceTarotReadingError": "Onnista luettaessa tapahtui virhe: {error}",
+  "defaultUserDisplayName": "Käyttäjä",
+  "listenToInterpretation": "Kuuntele tulkinta",
+  "faqQ1": "Voinko lukea tarot joka päivä?",
+  "faqA1": "Kyllä, tämän päivän virtausta on hyvä lukea kevyellä sydämellä. Ei kuitenkaan ole suositeltavaa pitää piirtokortteja toistuvasti samaa kysymystä varten.",
+  "faqQ2": "Miten saan maagisen pölyn?",
+  "faqA2": "Voit saada taikapölyä sovelluksen osallistumisesta, yhteisön toiminnasta tai kaupasta ostamisesta.",
+  "faqQ3": "Mitä minun pitäisi tehdä, jos tulos on huono?",
+  "faqA3": "Tarot ei ole kiinteä tulevaisuus, vaan neuvo. Käytä huonoa tulosta virstanpylvänä varoittaaksesi riskeistä, joita on vältettävä.",
+  "faqQ4": "Kuinka näen aiemmat tarot-lukemani?",
+  "faqA4": "Voit tarkastella tallennettuja lukutietueitasi päivämäärän mukaan milloin tahansa alavalikon Päiväkirja (Kalenteri) -välilehdellä.",
+  "faqQ5": "Kuinka jaan yhteisölle?",
+  "faqA5": "Laita Jaa yhteisöön -kytkin päälle päiväkirjaan tallennetussa päiväkirjan tietonäytössä, jotta voit jakaa lukemasi muiden käyttäjien kanssa.",
+  "faqQ6": "Kuinka voin vaihtaa lempinimeni tai profiilini?",
+  "faqA6": "Voit vaihtaa lempinimeäsi ja kuvakettasi milloin tahansa koskettamalla profiilialuetta Oma valikko -välilehden yläosassa.",
+  "faqQ7": "Missä voin ottaa ilmoitukset käyttöön ja poistaa ne käytöstä?",
+  "faqA7": "Voit hallita ilmoituksia laitteesi asetussovelluksesta tai asetusvalikosta, joka päivitetään tulevaisuudessa.",
+  "faqQ8": "Voinko nähdä muiden ihmisten tarot-päiväkirjoja?",
+  "faqA8": "Kyllä, voit katsella ja hurrata kiinnostavia tarot-lukemia, jotka muut ohjatut velhot (käyttäjät) ovat julkistaneet alareunan \"Yhteisö\"-välilehdellä.",
+  "faqQ9": "Mistä voin tarkistaa premium-tilaukseni tai maksuhistoriani?",
+  "faqA9": "Jos valitset alimman valikon [Omat tiedot] -välilehdestä 'Maksuhistoria', voit tarkistaa kolikkomaksuhistoriasi ja hankitun taikapölyn yksityiskohtaisesti.",
+  "faqQ10": "Haluan tutkia Tarot-korttien merkitystä henkilökohtaisesti. Kuinka voin tehdä sen?",
+  "faqA10": "Jos siirryt alimman valikon [Card Encyclopedia] -välilehdelle, voit vapaasti tarkastella kaikkien 78 kortin pysty- ja käänteisiä merkityksiä, symboleja ja perusteellisia selityksiä.",
+  "faqQ11": "Kuinka voin poistaa tilini tai peruuttaa?",
+  "faqA11": "Löydät Poista tili -painikkeen siirtymällä Tilin asetukset -valikkoon [Omat tiedot] -välilehden oikeassa yläkulmassa olevan rataskuvakkeen kautta. Kaikki päiväkirjat ja tiedot poistetaan pysyvästi peruuttamisen yhteydessä.",
+  "faqQ12": "Mihin voin ottaa yhteyttä, jos huomaan virheen tai minulla on ehdotuksia?",
+  "faqA12": "Jos lähetät tiedot 'Ota yhteyttä asiakaspalveluun' -toiminnon kautta, jota valmistellaan nykyisen näytön alalaidassa tai virallisella sähköpostilla, tarkistamme sen nopeasti ja ratkaisemme sen puolestasi.",
+  "myMenuContactUs": "Ota yhteyttä",
+  "myMenuContactUsSubtitle": "Tiedustelut ja ehdotukset",
+  "contactDialogTitle": "Ota yhteyttä",
+  "contactTypeBug": "Virheraportti",
+  "contactTypeFeature": "Ominaisuusehdotus",
+  "contactTypePayment": "Maksuongelma",
+  "contactTypeOther": "Muu tiedustelu",
+  "contactHint": "Kirjoita kyselysi yksityiskohtaisesti.",
+  "contactSend": "Lähetä",
+  "contactCancel": "Peruuttaa",
+  "contactEmptyErrorTitle": "Huomaa",
+  "contactEmptyErrorMessage": "Anna kyselysi sisältö."
 }

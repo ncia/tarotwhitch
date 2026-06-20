@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Детаљни подаци о тумачењу још нису спремни.",
   "cardDetailNoData": "Нема доступних података.",
   "buttonSaveReading": "Сачувај читање тарота",
-  "readingSavedToDevice": "Сачувано на уређају."
+  "readingSavedToDevice": "Сачувано на уређају.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Faza: {name}]",
+  "growthTabMagicBook": "Nadogradnja magične knjige",
+  "growthPhaseCrystal0": "Magija bezdana",
+  "growthPhaseCrystal1": "Otvaranje duhovnog oka",
+  "growthPhaseCrystal2": "Mudrost Majke Prirode",
+  "growthPhaseCrystal3": "Esencija Sunca",
+  "growthPhaseCrystal4": "Nebeska Aurora",
+  "growthPhaseCrystal5": "Božansko carstvo",
+  "growthPhaseCrystal6": "Magija stvaranja",
+  "growthPhaseCrystal7": "Dah univerzuma",
+  "growthPhaseCrystal8": "Večna svetlost",
+  "growthPhaseCrystal9": "Buđenje čiste beline",
+  "growthPhaseCrystal10": "Transcendencija",
+  "growthPhaseBook0": "Pribor za pisanje šegrta",
+  "growthPhaseBook1": "Osnovni magični priručnik",
+  "growthPhaseBook2": "Gramatika drevnih runa",
+  "growthPhaseBook3": "Razumevanje elementarne magije",
+  "growthPhaseBook4": "Harmonija zvezdane svetlosti",
+  "growthPhaseBook5": "Dešifrovanje artefakata",
+  "growthPhaseBook6": "Zabranjena knjiga mudraca",
+  "growthPhaseBook7": "Komunikacija sa duhovima",
+  "growthPhaseBook8": "Grimorij istine",
+  "growthPhaseBook9": "Svemoćni zapis",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Nivo magične knjige {level}",
+  "growthMagicBookKnowledge": "Znanje: {current} / {max}",
+  "growthCrystalBallMana": "Mana: {current} / {max}",
+  "growthMagicBookExpGained": "Znanje magične knjige se produbilo! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "Nadogradi magičnu knjigu ({amount} prašine)",
+  "devDustCharged": "Dev: 1000 magične prašine napunjeno!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Вести и обавештења",
+  "menuMailboxTitle": "Маилбок",
+  "menuMailboxSubtitle": "Проверите нова ажурирања и поклоне",
+  "mailboxTitle": "Маилбок",
+  "mailboxAllRewardsClaimed": "Све награде тражене.",
+  "mailboxClaimAll": "Захтевај све",
+  "mailboxEmpty": "Поштанско сандуче је празно.",
+  "mailboxSenderAndDate": "Од: {sender} • {date}",
+  "mailboxClaimed": "Захтевано",
+  "mailboxClaim": "Захтев",
+  "mailboxAttachedRewards": "Приложене награде",
+  "mailboxRewardClaimed": "Захтевана награда.",
+  "mailboxClaimReward": "Захтевајте награду",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Центар за обавештења",
+  "menuNotificationCenterSubtitle": "Проверите најновија обавештења и најаве",
+  "authSignupComplete": "Регистрација је завршена. Проверите е-пошту која вам је послата да бисте је потврдили.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Translation failed: {error}",
+  "diarySelectDate": "Изаберите датум",
+  "diarySavedSuccess": "Дневник је успешно сачуван!",
+  "diarySaveFailed": "Чување дневника није успело.",
+  "diaryWriteTitle": "Врите Диари",
+  "diaryWriteHint": "Слободно напишите своје мисли или осећања о данашњем читању.",
+  "diarySaveButton": "Сачувај у дневник",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "Данашња Фортуна",
+  "readingSpreadLabelPast1": "1. Прошлост",
+  "readingSpreadLabelPresent2": "2. Пресент",
+  "readingSpreadLabelFuture3": "3. Будућност",
+  "readingSpreadLabelCurrent1": "1. Цуррент",
+  "readingSpreadLabelPast2": "2. Прошлост",
+  "readingSpreadLabelFuture3Alt": "3. Будућност",
+  "readingSpreadLabelCause4": "4. Узрок",
+  "readingSpreadLabelPotential5": "5. Потенцијал",
+  "readingSpreadLabelCurrentSituation1": "1. Тренутна ситуација и проблем",
+  "readingSpreadLabelCauseOfProblem2": "2. Узрок проблема",
+  "readingSpreadLabelAdviceForResolution3": "3. Савет за решење",
+  "readingSpreadLabelExpectedResult4": "4. Очекивани резултат",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Тренутно стање",
+  "readingSpreadLabelObstacle2": "2. Препрека",
+  "readingSpreadLabelUnconscious3": "3. Несвесно",
+  "readingSpreadLabelPast4": "4. Прошлост",
+  "readingSpreadLabelConsciousGoal5": "5. Свесни циљ",
+  "readingSpreadLabelNearFuture6": "6. Блиска будућност",
+  "readingSpreadLabelAttitude7": "7. Став",
+  "readingSpreadLabelExternalEnvironment8": "8. Спољно окружење",
+  "readingSpreadLabelHopesAndFears9": "9. Наде и страхови",
+  "readingSpreadLabelFinalResult10": "10. Коначни резултат",
+  "readingSpreadLabelAdvice4": "4. Савети",
+  "readingSpreadLabelSurroundings5": "5. Околина",
+  "readingSpreadLabelResult6": "6. Резултат",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Coins",
+  "serviceLoginRequired": "Пријава је обавезна.",
+  "serviceDefaultNickname": "Безимена вештица",
+  "serviceTarotReadingError": "An error occurred while reading the fortune: {error}",
+  "defaultUserDisplayName": "Корисник",
+  "listenToInterpretation": "Слушајте тумачење",
+  "faqQ1": "Могу ли читати тарот сваки дан?",
+  "faqA1": "Да, добро је лаганог срца читати ток данашњице. Међутим, не препоручује се да стално цртате картице за исто питање.",
+  "faqQ2": "Како да добијем магичну прашину?",
+  "faqA2": "Чаробну прашину можете добити кроз посећеност апликацијама, активности у заједници или куповину у продавници.",
+  "faqQ3": "Шта да радим ако је резултат лош?",
+  "faqA3": "Тарот није фиксна будућност, већ савет. Користите лош резултат као прекретницу да вас упозори на ризике које треба избегавати.",
+  "faqQ4": "Како могу да видим своја прошла тарот читања?",
+  "faqA4": "Своје сачуване записе о читању можете прегледати по датуму на картици „Дневник“ (Календар) у доњем менију у било ком тренутку.",
+  "faqQ5": "Како да поделим са заједницом?",
+  "faqA5": "Укључите прекидач „Дели са заједницом“ на екрану са детаљима дневника сачуваном у дневнику да бисте своје читање поделили са другим корисницима.",
+  "faqQ6": "Како могу да променим свој надимак или профил?",
+  "faqA6": "Можете да промените свој надимак и икону у било ком тренутку тако што ћете додирнути област профила на врху картице „Мој мени“.",
+  "faqQ7": "Где могу да укључим и искључим обавештења?",
+  "faqA7": "Можете да контролишете обавештења из апликације за подешавања вашег уређаја или из менија за подешавања која ће се ажурирати у будућности.",
+  "faqQ8": "Могу ли да видим туђе тарот дневнике?",
+  "faqA8": "Да, можете погледати и навијати за занимљива читања тарота која су други чаробњаци (корисници) објавили на картици 'Заједница' на дну.",
+  "faqQ9": "Где могу да проверим своју премиум претплату или историју плаћања?",
+  "faqA9": "Ако изаберете „Историја плаћања“ на картици [Моје информације] доњег менија, можете детаљно да проверите историју плаћања новчића и стечену магичну прашину.",
+  "faqQ10": "Желим лично да проучим значење тарот карата. Како могу то да урадим?",
+  "faqA10": "Ако одете на картицу [Енциклопедија картица] у доњем менију, можете слободно да видите усправно и обрнуто значење, симболе и детаљна објашњења свих 78 картица.",
+  "faqQ11": "Како могу да избришем свој налог или да се повучем?",
+  "faqA11": "Дугме 'Избриши налог' можете пронаћи тако што ћете отићи у мени Подешавања налога преко иконе зупчаника у горњем десном углу картице [Моје информације]. Сви дневници и подаци биће трајно избрисани након повлачења.",
+  "faqQ12": "Где да контактирам ако наиђем на грешку или имам предлоге?",
+  "faqA12": "Ако пошаљете детаље преко 'Контактирајте корисничку подршку' који се припрема на дну тренутног екрана или путем званичне е-поште, ми ћемо то брзо проверити и магично решити уместо вас.",
+  "myMenuContactUs": "Контактирајте нас",
+  "myMenuContactUsSubtitle": "Питања и сугестије",
+  "contactDialogTitle": "Контактирајте нас",
+  "contactTypeBug": "Извештај о грешци",
+  "contactTypeFeature": "Предлози функција",
+  "contactTypePayment": "Питање плаћања",
+  "contactTypeOther": "Отхер Инкуири",
+  "contactHint": "Молимо вас да детаљно напишете свој упит.",
+  "contactSend": "Пошаљи",
+  "contactCancel": "Откажи",
+  "contactEmptyErrorTitle": "Напомена",
+  "contactEmptyErrorMessage": "Унесите садржај вашег упита."
 }

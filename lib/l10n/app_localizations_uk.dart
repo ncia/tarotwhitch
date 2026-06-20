@@ -4436,4 +4436,434 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'Збережено на пристрої.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level Фаза: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'Покращення магічної книги';
+
+  @override
+  String get growthPhaseCrystal0 => 'Магія Безодні';
+
+  @override
+  String get growthPhaseCrystal1 => 'Відкриття Духовного Ока';
+
+  @override
+  String get growthPhaseCrystal2 => 'Мудрість Матері-Природи';
+
+  @override
+  String get growthPhaseCrystal3 => 'Сутність Сонця';
+
+  @override
+  String get growthPhaseCrystal4 => 'Небесна Аврора';
+
+  @override
+  String get growthPhaseCrystal5 => 'Божественне Царство';
+
+  @override
+  String get growthPhaseCrystal6 => 'Магія Створення';
+
+  @override
+  String get growthPhaseCrystal7 => 'Подих Всесвіту';
+
+  @override
+  String get growthPhaseCrystal8 => 'Вічне Світло';
+
+  @override
+  String get growthPhaseCrystal9 => 'Чисте Біле Пробудження';
+
+  @override
+  String get growthPhaseCrystal10 => 'Трансцендентність';
+
+  @override
+  String get growthPhaseBook0 => 'Письмові Інструменти Учня';
+
+  @override
+  String get growthPhaseBook1 => 'Базовий Магічний Буквар';
+
+  @override
+  String get growthPhaseBook2 => 'Граматика Стародавніх Рун';
+
+  @override
+  String get growthPhaseBook3 => 'Розуміння Стихійної Магії';
+
+  @override
+  String get growthPhaseBook4 => 'Гармонія Зоряного Світла';
+
+  @override
+  String get growthPhaseBook5 => 'Розшифровка Артефактів';
+
+  @override
+  String get growthPhaseBook6 => 'Заборонена Книга Мудреця';
+
+  @override
+  String get growthPhaseBook7 => 'Єднання з Духами';
+
+  @override
+  String get growthPhaseBook8 => 'Гримуар Істини';
+
+  @override
+  String get growthPhaseBook9 => 'Всемогутній Літопис';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'Рівень магічної книги $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'Знання: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'Мана: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'Знання магічної книги поглибилися! Досвід +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'Покращити магічну книгу ($amount пилу)';
+  }
+
+  @override
+  String get devDustCharged => 'Розроб.: 1000 магічного пилу заряджено!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'Новини та сповіщення';
+
+  @override
+  String get menuMailboxTitle => 'Поштова скринька';
+
+  @override
+  String get menuMailboxSubtitle => 'Перевірте нові оновлення та подарунки';
+
+  @override
+  String get mailboxTitle => 'Поштова скринька';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'Усі нагороди витребувані.';
+
+  @override
+  String get mailboxClaimAll => 'Вимагати всіх';
+
+  @override
+  String get mailboxEmpty => 'Поштова скринька порожня.';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'Від: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'Заявлено';
+
+  @override
+  String get mailboxClaim => 'Претензія';
+
+  @override
+  String get mailboxAttachedRewards => 'Прикріплені нагороди';
+
+  @override
+  String get mailboxRewardClaimed => 'Заявка на винагороду.';
+
+  @override
+  String get mailboxClaimReward => 'Вимагайте винагороду';
+
+  @override
+  String get menuNotificationCenterTitle => 'Центр сповіщень';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'Перевірте останні сповіщення та оголошення';
+
+  @override
+  String get authSignupComplete =>
+      'Реєстрацію завершено. Будь ласка, перевірте електронний лист, надісланий вам, щоб підтвердити.';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initialization error occurred:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Error occurred:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Translation failed: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'Виберіть дату';
+
+  @override
+  String get diarySavedSuccess => 'Щоденник успішно збережено!';
+
+  @override
+  String get diarySaveFailed => 'Не вдалося зберегти щоденник.';
+
+  @override
+  String get diaryWriteTitle => 'Написати щоденник';
+
+  @override
+  String get diaryWriteHint =>
+      'Не соромтеся написати свої думки чи почуття щодо сьогоднішнього прочитаного.';
+
+  @override
+  String get diarySaveButton => 'Зберегти в щоденник';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Версія $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'Сьогоднішня Фортуна';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. Минуле';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. Присутній';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. Майбутнє';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. Поточний';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. Минуле';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. Майбутнє';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. Причина';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. Потенціал';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 =>
+      '1. Сучасна ситуація та проблема';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. Причина проблеми';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 =>
+      '3. Порада для вирішення';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. Очікуваний результат';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. Поточна ситуація';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. Перешкода';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. Несвідомий';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. Минуле';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. Усвідомлена мета';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. Недалеке майбутнє';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. Ставлення';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 => '8. Зовнішнє середовище';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. Надії та страхи';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. Кінцевий результат';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. Порада';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. Оточення';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. Результат';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount Монети';
+  }
+
+  @override
+  String get serviceLoginRequired => 'Необхідно ввійти.';
+
+  @override
+  String get serviceDefaultNickname => 'Безіменна Відьма';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'Під час зчитування ворожіння сталася помилка: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'Користувач';
+
+  @override
+  String get listenToInterpretation => 'Слухайте тлумачення';
+
+  @override
+  String get faqQ1 => 'Чи можу я читати Таро щодня?';
+
+  @override
+  String get faqA1 =>
+      'Так, добре читати течію сьогоднішнього дня з легким серцем. Однак не рекомендується повторно витягувати картки для одного і того ж питання.';
+
+  @override
+  String get faqQ2 => 'Як отримати магічний пил?';
+
+  @override
+  String get faqA2 =>
+      'Ви можете отримати чарівний пил, відвідуючи програму, заходи спільноти або купуючи в магазині.';
+
+  @override
+  String get faqQ3 => 'Що робити, якщо результат поганий?';
+
+  @override
+  String get faqA3 =>
+      'Таро - це не фіксоване майбутнє, а порада. Використовуйте поганий результат як віху, щоб попередити вас про ризики, яких слід уникнути.';
+
+  @override
+  String get faqQ4 => 'Як я можу переглянути свої минулі показання Таро?';
+
+  @override
+  String get faqA4 =>
+      'Ви можете будь-коли переглянути збережені записи читання за датою на вкладці «Щоденник» (Календар) у нижньому меню.';
+
+  @override
+  String get faqQ5 => 'Як поділитися зі спільнотою?';
+
+  @override
+  String get faqA5 =>
+      'Увімкніть перемикач «Поділитися зі спільнотою» на екрані щоденника, збереженому в щоденнику, щоб поділитися прочитаним з іншими користувачами.';
+
+  @override
+  String get faqQ6 => 'Як я можу змінити свій псевдонім або профіль?';
+
+  @override
+  String get faqA6 =>
+      'Ви можете будь-коли змінити свій псевдонім та піктограму, торкнувшись області профілю у верхній частині вкладки «Моє меню».';
+
+  @override
+  String get faqQ7 => 'Де я можу ввімкнути та вимкнути сповіщення?';
+
+  @override
+  String get faqA7 =>
+      'Ви можете керувати сповіщеннями з додатка налаштувань вашого пристрою або з меню налаштувань, яке буде оновлено в майбутньому.';
+
+  @override
+  String get faqQ8 => 'Чи можу я побачити щоденники Таро інших людей?';
+
+  @override
+  String get faqA8 =>
+      'Так, ви можете переглядати та вболівати за цікаві читання таро, які інші майстри (користувачі) опублікували у вкладці «Спільнота» внизу.';
+
+  @override
+  String get faqQ9 =>
+      'Де я можу перевірити свою преміум-підписку чи історію платежів?';
+
+  @override
+  String get faqA9 =>
+      'Якщо ви виберете «Історію платежів» на вкладці [Моя інформація] у нижньому меню, ви зможете детально перевірити історію платежів монетами та придбаний магічний пил.';
+
+  @override
+  String get faqQ10 =>
+      'Я хочу особисто вивчити значення карт Таро. Як я можу це зробити?';
+
+  @override
+  String get faqA10 =>
+      'Якщо ви перейдете на вкладку [Енциклопедія карток] у нижньому меню, ви зможете вільно переглядати вертикальні та перевернуті значення, символи та докладні пояснення всіх 78 карток.';
+
+  @override
+  String get faqQ11 => 'Як я можу видалити свій обліковий запис або вийти?';
+
+  @override
+  String get faqA11 =>
+      'Ви можете знайти кнопку «Видалити обліковий запис», перейшовши до меню «Параметри облікового запису» за допомогою значка шестірні у верхньому правому куті вкладки [Моя інформація]. Усі щоденники та дані будуть остаточно видалені після виходу.';
+
+  @override
+  String get faqQ12 =>
+      'Куди мені звернутися, якщо я зіткнувся з помилкою або маю пропозиції?';
+
+  @override
+  String get faqA12 =>
+      'Якщо ви надішлете деталі через «Зв’язатися зі службою підтримки клієнтів», яка готується внизу поточного екрана, або через офіційну електронну пошту, ми швидко перевіримо та чарівним чином вирішимо це за вас.';
+
+  @override
+  String get myMenuContactUs => 'Зв\'яжіться з нами';
+
+  @override
+  String get myMenuContactUsSubtitle => 'Запити та пропозиції';
+
+  @override
+  String get contactDialogTitle => 'Зв\'яжіться з нами';
+
+  @override
+  String get contactTypeBug => 'Звіт про помилку';
+
+  @override
+  String get contactTypeFeature => 'Пропозиція функції';
+
+  @override
+  String get contactTypePayment => 'Проблема з оплатою';
+
+  @override
+  String get contactTypeOther => 'Інший запит';
+
+  @override
+  String get contactHint => 'Будь ласка, детально напишіть свій запит.';
+
+  @override
+  String get contactSend => 'Надіслати';
+
+  @override
+  String get contactCancel => 'Скасувати';
+
+  @override
+  String get contactEmptyErrorTitle => 'Повідомлення';
+
+  @override
+  String get contactEmptyErrorMessage => 'Будь ласка, введіть вміст запиту.';
 }

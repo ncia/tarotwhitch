@@ -1472,5 +1472,199 @@
   "cardDetailDataNotReady": "Szczegółowe dane interpretacyjne nie są jeszcze gotowe.",
   "cardDetailNoData": "Brak dostępnych danych.",
   "buttonSaveReading": "Zapisz czytanie Tarota",
-  "readingSavedToDevice": "Zapisano na urządzeniu."
+  "readingSavedToDevice": "Zapisano na urządzeniu.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Faza: {name}]",
+  "growthTabMagicBook": "Ulepszenie Magicznej Księgi",
+  "growthPhaseCrystal0": "Magia Otchłani",
+  "growthPhaseCrystal1": "Otwarcie Oka Ducha",
+  "growthPhaseCrystal2": "Mądrość Matki Natury",
+  "growthPhaseCrystal3": "Esencja Słońca",
+  "growthPhaseCrystal4": "Niebiańska Zorza",
+  "growthPhaseCrystal5": "Boska Kraina",
+  "growthPhaseCrystal6": "Magia Stworzenia",
+  "growthPhaseCrystal7": "Oddech Wszechświata",
+  "growthPhaseCrystal8": "Wieczne Światło",
+  "growthPhaseCrystal9": "Przebudzenie Czystej Bieli",
+  "growthPhaseCrystal10": "Transcendencja",
+  "growthPhaseBook0": "Narzędzia Pisarskie Ucznia",
+  "growthPhaseBook1": "Podstawowy Podręcznik Magii",
+  "growthPhaseBook2": "Gramatyka Starożytnych Run",
+  "growthPhaseBook3": "Zrozumienie Magii Żywiołów",
+  "growthPhaseBook4": "Harmonia Gwiezdnego Światła",
+  "growthPhaseBook5": "Odszyfrowywanie Artefaktów",
+  "growthPhaseBook6": "Zakazana Księga Mędrca",
+  "growthPhaseBook7": "Komunia z Duchami",
+  "growthPhaseBook8": "Grimuar Prawdy",
+  "growthPhaseBook9": "Wszechpotężny Zapis",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Poziom Księgi Magii {level}",
+  "growthMagicBookKnowledge": "Wiedza: {current} / {max}",
+  "growthCrystalBallMana": "Mana: {current} / {max}",
+  "growthMagicBookExpGained": "Wiedza księgi magii pogłębiła się! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "Ulepsz Księgę Magii ({amount} Pyłu)",
+  "devDustCharged": "Deweloperskie: Naładowano 1000 Pyłu Magii!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Wiadomości i powiadomienia",
+  "menuMailboxTitle": "Skrzynka pocztowa",
+  "menuMailboxSubtitle": "Sprawdź nowe aktualizacje i prezenty",
+  "mailboxTitle": "Skrzynka pocztowa",
+  "mailboxAllRewardsClaimed": "Wszystkie nagrody odebrane.",
+  "mailboxClaimAll": "Odbierz wszystko",
+  "mailboxEmpty": "Skrzynka pocztowa jest pusta.",
+  "mailboxSenderAndDate": "Od: {sender} • {date}",
+  "mailboxClaimed": "Zgłoszono",
+  "mailboxClaim": "Prawo",
+  "mailboxAttachedRewards": "Dołączone nagrody",
+  "mailboxRewardClaimed": "Nagroda odebrana.",
+  "mailboxClaimReward": "Odbierz nagrodę",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Centrum powiadomień",
+  "menuNotificationCenterSubtitle": "Sprawdź najnowsze powiadomienia i ogłoszenia",
+  "authSignupComplete": "Rejestracja została ukończona. Aby to zweryfikować, sprawdź przesłaną do Ciebie wiadomość e-mail.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Translation failed: {error}",
+  "diarySelectDate": "Wybierz datę",
+  "diarySavedSuccess": "Dziennik został zapisany pomyślnie!",
+  "diarySaveFailed": "Nie udało się zapisać pamiętnika.",
+  "diaryWriteTitle": "Napisz pamiętnik",
+  "diaryWriteHint": "Zachęcamy do zapisania swoich przemyśleń i uczuć związanych z dzisiejszą lekturą.",
+  "diarySaveButton": "Zapisz w Dzienniku",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "Dzisiejsza fortuna",
+  "readingSpreadLabelPast1": "1. Przeszłość",
+  "readingSpreadLabelPresent2": "2. Obecny",
+  "readingSpreadLabelFuture3": "3. Przyszłość",
+  "readingSpreadLabelCurrent1": "1. Aktualny",
+  "readingSpreadLabelPast2": "2. Przeszłość",
+  "readingSpreadLabelFuture3Alt": "3. Przyszłość",
+  "readingSpreadLabelCause4": "4. Przyczyna",
+  "readingSpreadLabelPotential5": "5. Potencjał",
+  "readingSpreadLabelCurrentSituation1": "1. Obecna sytuacja i problem",
+  "readingSpreadLabelCauseOfProblem2": "2. Przyczyna problemu",
+  "readingSpreadLabelAdviceForResolution3": "3. Porady dotyczące rozwiązania",
+  "readingSpreadLabelExpectedResult4": "4. Oczekiwany wynik",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Obecna sytuacja",
+  "readingSpreadLabelObstacle2": "2. Przeszkoda",
+  "readingSpreadLabelUnconscious3": "3. Nieprzytomny",
+  "readingSpreadLabelPast4": "4. Przeszłość",
+  "readingSpreadLabelConsciousGoal5": "5. Świadomy cel",
+  "readingSpreadLabelNearFuture6": "6. Niedaleka przyszłość",
+  "readingSpreadLabelAttitude7": "7. Postawa",
+  "readingSpreadLabelExternalEnvironment8": "8. Środowisko zewnętrzne",
+  "readingSpreadLabelHopesAndFears9": "9. Nadzieje i obawy",
+  "readingSpreadLabelFinalResult10": "10. Wynik końcowy",
+  "readingSpreadLabelAdvice4": "4. Rada",
+  "readingSpreadLabelSurroundings5": "5. Otoczenie",
+  "readingSpreadLabelResult6": "6. Wynik",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Coins",
+  "serviceLoginRequired": "Wymagane jest zalogowanie się.",
+  "serviceDefaultNickname": "Bezimienna Czarownica",
+  "serviceTarotReadingError": "Wystąpił błąd podczas odczytywania wróżby: {error}",
+  "defaultUserDisplayName": "Użytkownik",
+  "listenToInterpretation": "Posłuchaj interpretacji",
+  "faqQ1": "Czy mogę czytać tarota codziennie?",
+  "faqA1": "Tak, dobrze jest czytać dzisiejszy bieg z lekkim sercem. Nie zaleca się jednak wielokrotnego losowania kart w przypadku tego samego pytania.",
+  "faqQ2": "Jak zdobyć magiczny pył?",
+  "faqA2": "Magiczny pył możesz zdobyć poprzez korzystanie z aplikacji, działania społeczności lub zakupy w sklepie.",
+  "faqQ3": "Co powinienem zrobić, jeśli wynik jest zły?",
+  "faqA3": "Tarot nie jest ustaloną przyszłością, ale radą. Potraktuj zły wynik jako kamień milowy, aby ostrzec Cię o ryzyku, którego należy unikać.",
+  "faqQ4": "Jak mogę zobaczyć moje poprzednie odczyty tarota?",
+  "faqA4": "W dowolnej chwili możesz przejrzeć zapisane zapisy czytelnicze według daty w zakładce „Dziennik” (Kalendarz) w dolnym menu.",
+  "faqQ5": "Jak udostępnić społeczności?",
+  "faqA5": "Włącz przełącznik „Udostępnij społeczności” na ekranie szczegółów dziennika zapisanych w dzienniku, aby udostępnić swoją lekturę innym użytkownikom.",
+  "faqQ6": "Jak mogę zmienić swój pseudonim lub profil?",
+  "faqA6": "Możesz zmienić swój pseudonim i ikonę w dowolnym momencie, dotykając obszaru profilu u góry zakładki „Moje menu”.",
+  "faqQ7": "Gdzie mogę włączyć i wyłączyć powiadomienia?",
+  "faqA7": "Powiadomieniami możesz sterować z poziomu aplikacji ustawień na swoim urządzeniu lub z menu preferencji, które będą aktualizowane w przyszłości.",
+  "faqQ8": "Czy mogę zobaczyć pamiętniki tarota innych osób?",
+  "faqA8": "Tak, możesz przeglądać i kibicować ciekawym odczytom tarota, które inni czarodzieje (użytkownicy) upublicznili w zakładce „Społeczność” na dole.",
+  "faqQ9": "Gdzie mogę sprawdzić moją subskrypcję premium lub historię płatności?",
+  "faqA9": "Jeśli wybierzesz opcję „Historia płatności” w zakładce [Moje informacje] w dolnym menu, możesz szczegółowo sprawdzić historię swoich płatności monetami i zdobytego magicznego pyłu.",
+  "faqQ10": "Chcę osobiście przestudiować znaczenie kart Tarota. Jak mogę to zrobić?",
+  "faqA10": "Jeśli przejdziesz do zakładki [Encyklopedia kart] w dolnym menu, możesz swobodnie przeglądać pionowe i odwrócone znaczenia, symbole i szczegółowe wyjaśnienia wszystkich 78 kart.",
+  "faqQ11": "Jak mogę usunąć swoje konto lub wycofać się?",
+  "faqA11": "Przycisk „Usuń konto” znajdziesz w menu Ustawienia konta za pomocą ikony koła zębatego w prawym górnym rogu karty [Moje informacje]. Po wycofaniu wszystkie pamiętniki i dane zostaną trwale usunięte.",
+  "faqQ12": "Gdzie mogę się skontaktować, jeśli napotkam błąd lub mam sugestie?",
+  "faqA12": "Jeśli wyślesz szczegóły poprzez „Skontaktuj się z obsługą klienta”, która jest przygotowywana na dole bieżącego ekranu lub za pośrednictwem oficjalnego e-maila, szybko sprawdzimy i magicznie rozwiążemy problem.",
+  "myMenuContactUs": "Skontaktuj się z nami",
+  "myMenuContactUsSubtitle": "Zapytania i sugestie",
+  "contactDialogTitle": "Skontaktuj się z nami",
+  "contactTypeBug": "Raport o błędzie",
+  "contactTypeFeature": "Sugestia funkcji",
+  "contactTypePayment": "Problem z płatnością",
+  "contactTypeOther": "Inne zapytanie",
+  "contactHint": "Prosimy o szczegółowe opisanie zapytania.",
+  "contactSend": "Wysłać",
+  "contactCancel": "Anulować",
+  "contactEmptyErrorTitle": "Ogłoszenie",
+  "contactEmptyErrorMessage": "Proszę wpisać treść zapytania."
 }

@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Dữ liệu diễn giải chi tiết vẫn chưa sẵn sàng.",
   "cardDetailNoData": "Không có dữ liệu có sẵn.",
   "buttonSaveReading": "Lưu Đọc Tarot",
-  "readingSavedToDevice": "Đã lưu vào thiết bị."
+  "readingSavedToDevice": "Đã lưu vào thiết bị.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[Giai đoạn {level}: {name}]",
+  "growthTabMagicBook": "Nâng cấp Sách Phép",
+  "growthPhaseCrystal0": "Ma thuật Vực thẳm",
+  "growthPhaseCrystal1": "Khai mở Linh Nhãn",
+  "growthPhaseCrystal2": "Trí tuệ của Mẹ Thiên nhiên",
+  "growthPhaseCrystal3": "Tinh hoa Mặt trời",
+  "growthPhaseCrystal4": "Cực quang Thiên giới",
+  "growthPhaseCrystal5": "Cảnh giới Thần thánh",
+  "growthPhaseCrystal6": "Ma thuật Sáng tạo",
+  "growthPhaseCrystal7": "Hơi thở của Vũ trụ",
+  "growthPhaseCrystal8": "Ánh sáng Vĩnh cửu",
+  "growthPhaseCrystal9": "Thức tỉnh Thuần khiết",
+  "growthPhaseCrystal10": "Siêu việt",
+  "growthPhaseBook0": "Công cụ Viết của Học việc",
+  "growthPhaseBook1": "Sách giáo khoa Ma thuật Cơ bản",
+  "growthPhaseBook2": "Ngữ pháp Rune Cổ đại",
+  "growthPhaseBook3": "Hiểu biết Ma thuật Nguyên tố",
+  "growthPhaseBook4": "Hòa âm Tinh tú",
+  "growthPhaseBook5": "Giải mã Cổ vật",
+  "growthPhaseBook6": "Sách Cấm của Hiền nhân",
+  "growthPhaseBook7": "Giao cảm với Linh hồn",
+  "growthPhaseBook8": "Sách Phép Chân lý",
+  "growthPhaseBook9": "Biên niên Toàn năng",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Cấp độ Sách Phép {level}",
+  "growthMagicBookKnowledge": "Kiến thức: {current} / {max}",
+  "growthCrystalBallMana": "Năng lượng: {current} / {max}",
+  "growthMagicBookExpGained": "Kiến thức sách phép đã sâu sắc hơn! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "Nâng cấp Sách Phép ({amount} Bụi)",
+  "devDustCharged": "Dev: Đã nạp 1000 Bụi Phép!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Tin tức & Thông báo",
+  "menuMailboxTitle": "Hộp thư",
+  "menuMailboxSubtitle": "Kiểm tra cập nhật mới và quà tặng",
+  "mailboxTitle": "Hộp thư",
+  "mailboxAllRewardsClaimed": "Tất cả các phần thưởng được yêu cầu.",
+  "mailboxClaimAll": "Yêu cầu tất cả",
+  "mailboxEmpty": "Hộp thư trống rỗng.",
+  "mailboxSenderAndDate": "Từ: {sender} • {date}",
+  "mailboxClaimed": "Đã xác nhận quyền sở hữu",
+  "mailboxClaim": "Khẳng định",
+  "mailboxAttachedRewards": "Phần thưởng đính kèm",
+  "mailboxRewardClaimed": "Đã yêu cầu phần thưởng.",
+  "mailboxClaimReward": "Yêu cầu phần thưởng",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Trung tâm thông báo",
+  "menuNotificationCenterSubtitle": "Kiểm tra thông báo và thông báo mới nhất",
+  "authSignupComplete": "Đăng ký đã hoàn tất. Vui lòng kiểm tra email được gửi tới bạn để xác minh.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Bản dịch không thành công: {error}",
+  "diarySelectDate": "Chọn một ngày",
+  "diarySavedSuccess": "Nhật ký đã được lưu thành công!",
+  "diarySaveFailed": "Không lưu được nhật ký.",
+  "diaryWriteTitle": "Viết nhật ký",
+  "diaryWriteHint": "Hãy thoải mái viết ra những suy nghĩ hoặc cảm xúc của bạn về bài đọc hôm nay.",
+  "diarySaveButton": "Lưu vào nhật ký",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "Vận may hôm nay",
+  "readingSpreadLabelPast1": "1. Quá khứ",
+  "readingSpreadLabelPresent2": "2. Hiện tại",
+  "readingSpreadLabelFuture3": "3. Tương lai",
+  "readingSpreadLabelCurrent1": "1. Hiện tại",
+  "readingSpreadLabelPast2": "2. Quá khứ",
+  "readingSpreadLabelFuture3Alt": "3. Tương lai",
+  "readingSpreadLabelCause4": "4. Nguyên nhân",
+  "readingSpreadLabelPotential5": "5. Tiềm năng",
+  "readingSpreadLabelCurrentSituation1": "1. Thực trạng và vấn đề",
+  "readingSpreadLabelCauseOfProblem2": "2. Nguyên nhân sự cố",
+  "readingSpreadLabelAdviceForResolution3": "3. Tư vấn giải quyết",
+  "readingSpreadLabelExpectedResult4": "4. Kết quả mong đợi",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Hiện trạng",
+  "readingSpreadLabelObstacle2": "2. Trở ngại",
+  "readingSpreadLabelUnconscious3": "3. Vô thức",
+  "readingSpreadLabelPast4": "4. Quá khứ",
+  "readingSpreadLabelConsciousGoal5": "5. Mục tiêu có ý thức",
+  "readingSpreadLabelNearFuture6": "6. Tương lai gần",
+  "readingSpreadLabelAttitude7": "7. Thái độ",
+  "readingSpreadLabelExternalEnvironment8": "8. Môi trường bên ngoài",
+  "readingSpreadLabelHopesAndFears9": "9. Hy vọng và sợ hãi",
+  "readingSpreadLabelFinalResult10": "10. Kết quả cuối cùng",
+  "readingSpreadLabelAdvice4": "4. Lời khuyên",
+  "readingSpreadLabelSurroundings5": "5. Môi trường xung quanh",
+  "readingSpreadLabelResult6": "6. Kết quả",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Coins",
+  "serviceLoginRequired": "Đăng nhập là bắt buộc.",
+  "serviceDefaultNickname": "Phù thủy vô danh",
+  "serviceTarotReadingError": "Đã xảy ra lỗi khi xem bói: {error}",
+  "defaultUserDisplayName": "người dùng",
+  "listenToInterpretation": "Nghe giải thích",
+  "faqQ1": "Tôi có thể đọc tarot mỗi ngày không?",
+  "faqA1": "Vâng, thật tốt khi đọc dòng chảy của ngày hôm nay với trái tim nhẹ nhàng. Tuy nhiên, không nên rút thẻ nhiều lần cho cùng một câu hỏi.",
+  "faqQ2": "Làm thế nào để có được bụi ma thuật?",
+  "faqA2": "Bạn có thể nhận được bụi ma thuật thông qua việc tham gia ứng dụng, hoạt động cộng đồng hoặc mua hàng trong cửa hàng.",
+  "faqQ3": "Tôi nên làm gì nếu kết quả không tốt?",
+  "faqA3": "Tarot không phải là một tương lai cố định mà là một lời khuyên. Hãy lấy một kết quả tồi tệ làm cột mốc cảnh báo bạn về những rủi ro cần tránh.",
+  "faqQ4": "Làm cách nào tôi có thể xem các bài đọc tarot trước đây của mình?",
+  "faqA4": "Bạn có thể xem lại hồ sơ đọc đã lưu của mình theo ngày trong tab 'Nhật ký' (Lịch) ở menu dưới cùng bất cứ lúc nào.",
+  "faqQ5": "Làm cách nào để chia sẻ với cộng đồng?",
+  "faqA5": "Bật nút 'Chia sẻ lên cộng đồng' trên màn hình chi tiết nhật ký được lưu trong nhật ký để chia sẻ bài đọc của bạn với những người dùng khác.",
+  "faqQ6": "Làm cách nào để thay đổi biệt danh hoặc hồ sơ của tôi?",
+  "faqA6": "Bạn có thể thay đổi biệt hiệu và biểu tượng của mình bất kỳ lúc nào bằng cách chạm vào khu vực hồ sơ ở đầu tab 'Menu của tôi'.",
+  "faqQ7": "Tôi có thể bật và tắt thông báo ở đâu?",
+  "faqA7": "Bạn có thể kiểm soát thông báo từ ứng dụng cài đặt trên thiết bị của mình hoặc từ menu tùy chọn sẽ được cập nhật trong tương lai.",
+  "faqQ8": "Tôi có thể xem nhật ký tarot của người khác không?",
+  "faqA8": "Có, bạn có thể xem và cổ vũ cho những bài đọc tarot thú vị mà các pháp sư (người dùng) khác đã công khai trong tab 'Cộng đồng' ở phía dưới.",
+  "faqQ9": "Tôi có thể kiểm tra lịch sử thanh toán hoặc đăng ký trả phí của mình ở đâu?",
+  "faqA9": "Nếu bạn chọn 'Lịch sử thanh toán' trong tab [Thông tin của tôi] ở menu dưới cùng, bạn có thể kiểm tra chi tiết lịch sử thanh toán tiền xu và thu được bụi ma thuật của mình.",
+  "faqQ10": "Tôi muốn tự mình nghiên cứu ý nghĩa của các lá bài Tarot. Làm thế nào tôi có thể làm điều đó?",
+  "faqA10": "Nếu bạn vào tab [Bách khoa toàn thư về thẻ] ở menu dưới cùng, bạn có thể thoải mái xem ý nghĩa, ký hiệu xuôi và ngược cũng như giải thích sâu sắc của tất cả 78 lá bài.",
+  "faqQ11": "Làm cách nào để xóa tài khoản của tôi hoặc rút tiền?",
+  "faqA11": "Bạn có thể tìm thấy nút 'Xóa tài khoản' bằng cách đi tới menu Cài đặt tài khoản thông qua biểu tượng bánh răng ở phía trên bên phải của tab [Thông tin của tôi]. Tất cả nhật ký và dữ liệu sẽ bị xóa vĩnh viễn sau khi rút tiền.",
+  "faqQ12": "Tôi phải liên hệ ở đâu nếu gặp lỗi hoặc có góp ý?",
+  "faqA12": "Nếu bạn gửi thông tin chi tiết qua 'Liên hệ bộ phận dịch vụ khách hàng' đang được chuẩn bị ở cuối màn hình hiện tại hoặc qua email chính thức, chúng tôi sẽ nhanh chóng kiểm tra và giải quyết một cách kỳ diệu cho bạn.",
+  "myMenuContactUs": "Liên hệ với chúng tôi",
+  "myMenuContactUsSubtitle": "Thắc mắc và đề xuất",
+  "contactDialogTitle": "Liên hệ với chúng tôi",
+  "contactTypeBug": "Báo cáo lỗi",
+  "contactTypeFeature": "Đề xuất tính năng",
+  "contactTypePayment": "Vấn đề thanh toán",
+  "contactTypeOther": "Yêu cầu khác",
+  "contactHint": "Hãy viết yêu cầu của bạn một cách chi tiết.",
+  "contactSend": "Gửi",
+  "contactCancel": "Hủy bỏ",
+  "contactEmptyErrorTitle": "Để ý",
+  "contactEmptyErrorMessage": "Vui lòng nhập nội dung yêu cầu của bạn."
 }

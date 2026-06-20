@@ -4422,4 +4422,439 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'Disimpan ke perangkat.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[Fase $level: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'Peningkatan Buku Sihir';
+
+  @override
+  String get growthPhaseCrystal0 => 'Sihir Abyss';
+
+  @override
+  String get growthPhaseCrystal1 => 'Membuka Mata Roh';
+
+  @override
+  String get growthPhaseCrystal2 => 'Kebijaksanaan Ibu Pertiwi';
+
+  @override
+  String get growthPhaseCrystal3 => 'Esensi Matahari';
+
+  @override
+  String get growthPhaseCrystal4 => 'Aurora Langit';
+
+  @override
+  String get growthPhaseCrystal5 => 'Alam Ilahi';
+
+  @override
+  String get growthPhaseCrystal6 => 'Sihir Penciptaan';
+
+  @override
+  String get growthPhaseCrystal7 => 'Napas Semesta';
+
+  @override
+  String get growthPhaseCrystal8 => 'Cahaya Abadi';
+
+  @override
+  String get growthPhaseCrystal9 => 'Kebangkitan Putih Murni';
+
+  @override
+  String get growthPhaseCrystal10 => 'Transendensi';
+
+  @override
+  String get growthPhaseBook0 => 'Alat Tulis Magang';
+
+  @override
+  String get growthPhaseBook1 => 'Dasar-dasar Sihir';
+
+  @override
+  String get growthPhaseBook2 => 'Tata Bahasa Rune Kuno';
+
+  @override
+  String get growthPhaseBook3 => 'Memahami Sihir Elemen';
+
+  @override
+  String get growthPhaseBook4 => 'Harmoni Cahaya Bintang';
+
+  @override
+  String get growthPhaseBook5 => 'Menguraikan Artefak';
+
+  @override
+  String get growthPhaseBook6 => 'Buku Terlarang Sang Bijak';
+
+  @override
+  String get growthPhaseBook7 => 'Komuni dengan Roh';
+
+  @override
+  String get growthPhaseBook8 => 'Grimoire Kebenaran';
+
+  @override
+  String get growthPhaseBook9 => 'Catatan Mahakuasa';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'Level Buku Sihir $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'Pengetahuan: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'Mana: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'Pengetahuan buku sihir semakin mendalam! Exp +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'Tingkatkan Buku Sihir ($amount Debu)';
+  }
+
+  @override
+  String get devDustCharged => 'Dev: 1000 Debu Sihir terisi!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'Berita & Pemberitahuan';
+
+  @override
+  String get menuMailboxTitle => 'Kotak surat';
+
+  @override
+  String get menuMailboxSubtitle => 'Periksa pembaruan dan hadiah baru';
+
+  @override
+  String get mailboxTitle => 'Kotak surat';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'Semua hadiah diklaim.';
+
+  @override
+  String get mailboxClaimAll => 'Klaim Semua';
+
+  @override
+  String get mailboxEmpty => 'Kotak surat kosong.';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'Dari: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'Diklaim';
+
+  @override
+  String get mailboxClaim => 'Mengeklaim';
+
+  @override
+  String get mailboxAttachedRewards => 'Hadiah Terlampir';
+
+  @override
+  String get mailboxRewardClaimed => 'Hadiah diklaim.';
+
+  @override
+  String get mailboxClaimReward => 'Klaim Hadiah';
+
+  @override
+  String get menuNotificationCenterTitle => 'Pusat Pemberitahuan';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'Periksa pemberitahuan dan pengumuman terbaru';
+
+  @override
+  String get authSignupComplete =>
+      'Pendaftaran selesai. Silakan periksa email yang dikirimkan kepada Anda untuk memverifikasi.';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initialization error occurred:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Error occurred:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Terjemahan gagal: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'Pilih tanggal';
+
+  @override
+  String get diarySavedSuccess => 'Buku harian berhasil disimpan!';
+
+  @override
+  String get diarySaveFailed => 'Gagal menyimpan buku harian.';
+
+  @override
+  String get diaryWriteTitle => 'Tulis Buku Harian';
+
+  @override
+  String get diaryWriteHint =>
+      'Jangan ragu untuk menuliskan pemikiran atau perasaan Anda tentang bacaan hari ini.';
+
+  @override
+  String get diarySaveButton => 'Simpan ke Buku Harian';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'Keberuntungan hari ini';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. Masa lalu';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. Sekarang';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. Masa Depan';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. Saat ini';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. Masa lalu';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. Masa Depan';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. Penyebab';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. Potensi';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 =>
+      '1. Situasi dan permasalahan saat ini';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. Penyebab masalah';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 =>
+      '3. Saran untuk resolusi';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. Hasil yang diharapkan';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. Situasi saat ini';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. Hambatan';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. Tidak sadar';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. Masa lalu';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. Tujuan Sadar';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. Masa Depan Dekat';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. Sikap';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 =>
+      '8. Lingkungan Eksternal';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. Harapan dan Ketakutan';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. Hasil Akhir';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. Saran';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. Lingkungan sekitar';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. Hasil';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount Coins';
+  }
+
+  @override
+  String get serviceLoginRequired => 'Diperlukan login.';
+
+  @override
+  String get serviceDefaultNickname => 'Penyihir Tanpa Nama';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'Terjadi kesalahan saat membaca ramalan: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'Pengguna';
+
+  @override
+  String get listenToInterpretation => 'Dengarkan Interpretasi';
+
+  @override
+  String get faqQ1 => 'Bisakah saya membaca tarot setiap hari?';
+
+  @override
+  String get faqA1 =>
+      'Ya, alangkah baiknya membaca alur hari ini dengan hati yang ringan. Namun, tidak disarankan untuk terus menggambar kartu berulang kali untuk soal yang sama.';
+
+  @override
+  String get faqQ2 => 'Bagaimana cara mendapatkan debu ajaib?';
+
+  @override
+  String get faqA2 =>
+      'Anda bisa mendapatkan debu ajaib melalui kehadiran aplikasi, aktivitas komunitas, atau pembelian di toko.';
+
+  @override
+  String get faqQ3 => 'Apa yang harus saya lakukan jika hasilnya buruk?';
+
+  @override
+  String get faqA3 =>
+      'Tarot bukanlah masa depan yang pasti, tapi sebuah nasehat. Gunakan hasil buruk sebagai tonggak sejarah untuk memperingatkan Anda tentang risiko yang harus dihindari.';
+
+  @override
+  String get faqQ4 =>
+      'Bagaimana saya bisa melihat pembacaan tarot saya sebelumnya?';
+
+  @override
+  String get faqA4 =>
+      'Anda dapat meninjau catatan bacaan yang disimpan berdasarkan tanggal di tab \'Diary\' (Kalender) di menu bawah kapan saja.';
+
+  @override
+  String get faqQ5 => 'Bagaimana cara saya berbagi ke komunitas?';
+
+  @override
+  String get faqA5 =>
+      'Aktifkan tombol \'Bagikan ke Komunitas\' pada layar detail buku harian yang disimpan dalam buku harian untuk membagikan bacaan Anda dengan pengguna lain.';
+
+  @override
+  String get faqQ6 =>
+      'Bagaimana cara mengubah nama panggilan atau profil saya?';
+
+  @override
+  String get faqA6 =>
+      'Anda dapat mengubah nama panggilan dan ikon kapan saja dengan menyentuh area profil di bagian atas tab \'Menu Saya\'.';
+
+  @override
+  String get faqQ7 =>
+      'Di mana saya dapat mengaktifkan dan menonaktifkan notifikasi?';
+
+  @override
+  String get faqA7 =>
+      'Anda dapat mengontrol notifikasi dari aplikasi pengaturan perangkat Anda, atau dari menu preferensi untuk diperbarui di masa mendatang.';
+
+  @override
+  String get faqQ8 => 'Bisakah saya melihat buku harian tarot orang lain?';
+
+  @override
+  String get faqA8 =>
+      'Ya, Anda dapat melihat dan mendukung pembacaan tarot menarik yang telah dipublikasikan oleh penyihir lain (pengguna) di tab \'Komunitas\' di bagian bawah.';
+
+  @override
+  String get faqQ9 =>
+      'Di mana saya dapat memeriksa langganan premium atau riwayat pembayaran saya?';
+
+  @override
+  String get faqA9 =>
+      'Jika Anda memilih \'Riwayat Pembayaran\' di tab [Info Saya] di menu bawah, Anda dapat memeriksa riwayat pembayaran koin Anda dan memperoleh debu ajaib secara detail.';
+
+  @override
+  String get faqQ10 =>
+      'Saya ingin mempelajari arti kartu Tarot secara pribadi. Bagaimana saya bisa melakukan itu?';
+
+  @override
+  String get faqA10 =>
+      'Jika Anda membuka tab [Ensiklopedia Kartu] di menu bawah, Anda dapat dengan bebas melihat makna tegak dan terbalik, simbol, dan penjelasan mendalam dari seluruh 78 kartu.';
+
+  @override
+  String get faqQ11 => 'Bagaimana cara menghapus akun saya atau menariknya?';
+
+  @override
+  String get faqA11 =>
+      'Anda dapat menemukan tombol \'Hapus Akun\' dengan masuk ke menu Pengaturan Akun melalui ikon roda gigi di kanan atas tab [Info Saya]. Semua buku harian dan data akan dihapus secara permanen setelah penarikan.';
+
+  @override
+  String get faqQ12 =>
+      'Di mana saya dapat menghubungi jika saya mengalami kesalahan atau mempunyai saran?';
+
+  @override
+  String get faqA12 =>
+      'Jika Anda mengirimkan detailnya melalui \'Hubungi Layanan Pelanggan\' yang disiapkan di bagian bawah layar saat ini atau melalui email resmi, kami akan segera memeriksa dan secara ajaib menyelesaikannya untuk Anda.';
+
+  @override
+  String get myMenuContactUs => 'Hubungi kami';
+
+  @override
+  String get myMenuContactUsSubtitle => 'Pertanyaan dan saran';
+
+  @override
+  String get contactDialogTitle => 'Hubungi kami';
+
+  @override
+  String get contactTypeBug => 'Laporan Bug';
+
+  @override
+  String get contactTypeFeature => 'Saran Fitur';
+
+  @override
+  String get contactTypePayment => 'Masalah Pembayaran';
+
+  @override
+  String get contactTypeOther => 'Pertanyaan Lainnya';
+
+  @override
+  String get contactHint => 'Silakan tulis pertanyaan Anda secara detail.';
+
+  @override
+  String get contactSend => 'Mengirim';
+
+  @override
+  String get contactCancel => 'Membatalkan';
+
+  @override
+  String get contactEmptyErrorTitle => 'Melihat';
+
+  @override
+  String get contactEmptyErrorMessage =>
+      'Silakan masukkan konten pertanyaan Anda.';
 }

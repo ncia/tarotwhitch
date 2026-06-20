@@ -1485,5 +1485,199 @@
   "cardDetailDataNotReady": "詳細な解釈データはまだ準備されていません。",
   "cardDetailNoData": "利用可能なデータはありません。",
   "buttonSaveReading": "タロットリーディングを保存",
-  "readingSavedToDevice": "デバイスに保存されました。"
+  "readingSavedToDevice": "デバイスに保存されました。",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level}段階: {name}]",
+  "growthTabMagicBook": "魔導書強化",
+  "growthPhaseCrystal0": "深淵の魔力",
+  "growthPhaseCrystal1": "霊眼開眼",
+  "growthPhaseCrystal2": "大自然の叡智",
+  "growthPhaseCrystal3": "太陽の精髄",
+  "growthPhaseCrystal4": "天上のオーロラ",
+  "growthPhaseCrystal5": "神聖なる領域",
+  "growthPhaseCrystal6": "創造の魔術",
+  "growthPhaseCrystal7": "宇宙の息吹",
+  "growthPhaseCrystal8": "永遠の光",
+  "growthPhaseCrystal9": "純白の覚醒",
+  "growthPhaseCrystal10": "超越",
+  "growthPhaseBook0": "見習いの筆記具",
+  "growthPhaseBook1": "基礎魔術入門",
+  "growthPhaseBook2": "古代ルーン文法",
+  "growthPhaseBook3": "元素魔法の理解",
+  "growthPhaseBook4": "星光の調和",
+  "growthPhaseBook5": "遺物解読",
+  "growthPhaseBook6": "賢者の禁書",
+  "growthPhaseBook7": "精霊との交感",
+  "growthPhaseBook8": "真実の魔導書",
+  "growthPhaseBook9": "全能の記録",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "魔法書のレベル {level}",
+  "growthMagicBookKnowledge": "知識: {current} / {max}",
+  "growthCrystalBallMana": "マナ: {current} / {max}",
+  "growthMagicBookExpGained": "魔法書の知識が深まりました！ 経験値 +{amount}",
+  "growthUpgradeMagicBookButton": "魔法書を強化（粉 {amount}個）",
+  "devDustCharged": "開発用: 魔力の粉 1000個チャージ完了！",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "ニュースとお知らせ",
+  "menuMailboxTitle": "メールボックス",
+  "menuMailboxSubtitle": "新しいアップデートやプレゼントをチェックする",
+  "mailboxTitle": "メールボックス",
+  "mailboxAllRewardsClaimed": "すべての報酬を受け取りました。",
+  "mailboxClaimAll": "すべてを請求する",
+  "mailboxEmpty": "メールボックスが空です。",
+  "mailboxSenderAndDate": "送信者: {sender} • {date}",
+  "mailboxClaimed": "主張した",
+  "mailboxClaim": "請求",
+  "mailboxAttachedRewards": "付属の報酬",
+  "mailboxRewardClaimed": "報酬を請求しました。",
+  "mailboxClaimReward": "報酬を受け取る",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "通知センター",
+  "menuNotificationCenterSubtitle": "最新のお知らせやお知らせを確認する",
+  "authSignupComplete": "サインアップが完了しました。確認のために送信されたメールをご確認ください。",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Translation failed: {error}",
+  "diarySelectDate": "日付を選択してください",
+  "diarySavedSuccess": "日記が無事保存されました！",
+  "diarySaveFailed": "日記の保存に失敗しました。",
+  "diaryWriteTitle": "日記を書く",
+  "diaryWriteHint": "今日の読書についての感想や感じたことを自由に書いてください。",
+  "diarySaveButton": "日記に保存",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "今日の運勢",
+  "readingSpreadLabelPast1": "1. 過去",
+  "readingSpreadLabelPresent2": "2. プレゼント",
+  "readingSpreadLabelFuture3": "3. 未来",
+  "readingSpreadLabelCurrent1": "1. 現在",
+  "readingSpreadLabelPast2": "2. 過去",
+  "readingSpreadLabelFuture3Alt": "3. 未来",
+  "readingSpreadLabelCause4": "4. 原因",
+  "readingSpreadLabelPotential5": "5. 可能性",
+  "readingSpreadLabelCurrentSituation1": "1. 現状と課題",
+  "readingSpreadLabelCauseOfProblem2": "2. 問題の原因",
+  "readingSpreadLabelAdviceForResolution3": "3. 解決のためのアドバイス",
+  "readingSpreadLabelExpectedResult4": "4. 期待される結果",
+  "readingSpreadLabelCurrentSituation1Alt": "1. 現状",
+  "readingSpreadLabelObstacle2": "2. 障害物",
+  "readingSpreadLabelUnconscious3": "3. 意識不明",
+  "readingSpreadLabelPast4": "4. 過去",
+  "readingSpreadLabelConsciousGoal5": "5. 意識的な目標",
+  "readingSpreadLabelNearFuture6": "6. 近未来",
+  "readingSpreadLabelAttitude7": "7. 態度",
+  "readingSpreadLabelExternalEnvironment8": "8. 外部環境",
+  "readingSpreadLabelHopesAndFears9": "9. 希望と恐怖",
+  "readingSpreadLabelFinalResult10": "10. 最終結果",
+  "readingSpreadLabelAdvice4": "4. アドバイス",
+  "readingSpreadLabelSurroundings5": "5. 周辺環境",
+  "readingSpreadLabelResult6": "6. 結果",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Coins",
+  "serviceLoginRequired": "ログインが必要です。",
+  "serviceDefaultNickname": "名前のない魔女",
+  "serviceTarotReadingError": "占いの読み取り中にエラーが発生しました: {error}",
+  "defaultUserDisplayName": "ユーザー",
+  "listenToInterpretation": "通訳を聞く",
+  "faqQ1": "タロットを毎日読んでもいいですか？",
+  "faqA1": "そう、今日の流れを軽い気持ちで読むと良いのです。ただし、同じ質問に対して繰り返しカードを引き続けることはお勧めできません。",
+  "faqQ2": "魔法の粉はどうやって入手できますか？",
+  "faqA2": "マジックダストは、アプリへの参加、コミュニティ活動、またはショップでの購入を通じて入手できます。",
+  "faqQ3": "結果が悪かった場合はどうすればよいですか?",
+  "faqA3": "タロットは確定した未来ではなく、アドバイスです。悪い結果をマイルストーンとして使用して、回避すべきリスクを警告します。",
+  "faqQ4": "過去のタロット占いはどうやって見ることができますか？",
+  "faqA4": "保存した読書記録は、下部メニューの「日記」（カレンダー）タブでいつでも日付ごとに確認できます。",
+  "faqQ5": "コミュニティに共有するにはどうすればよいですか?",
+  "faqA5": "日記に保存した日記詳細画面の「コミュニティに共有」スイッチをオンにすると、読んだ内容を他のユーザーと共有できます。",
+  "faqQ6": "ニックネームやプロフィールを変更するにはどうすればよいですか?",
+  "faqA6": "「マイメニュー」タブの上部にあるプロフィールエリアをタッチすると、いつでもニックネームとアイコンを変更できます。",
+  "faqQ7": "通知のオンとオフはどこで切り替えられますか?",
+  "faqA7": "通知は、デバイスの設定アプリから、または将来更新される設定メニューから制御できます。",
+  "faqQ8": "他の人のタロット日記を見ることはできますか?",
+  "faqA8": "はい、下部の「コミュニティ」タブで、他の魔法使い（ユーザー）が公開している興味深いタロット占いを閲覧したり、応援したりすることができます。",
+  "faqQ9": "プレミアム サブスクリプションまたは支払い履歴はどこで確認できますか?",
+  "faqA9": "下部メニューの[マイ情報]タブにある「支払い履歴」を選択すると、コインの支払い履歴や獲得した魔法の粉を詳細に確認できます。",
+  "faqQ10": "個人的にタロットカードの意味を勉強したいです。どうすればそれができますか？",
+  "faqA10": "下部メニューの【カード図鑑】タブでは、全78枚のカードの正位置・逆位置の意味やシンボル、詳しい解説を自由に閲覧することができます。",
+  "faqQ11": "アカウントを削除または退会するにはどうすればよいですか?",
+  "faqA11": "[アカウントの削除] ボタンは、[個人情報] タブの右上にある歯車アイコンからアカウント設定メニューに移動すると見つかります。すべての日記とデータは退会時に完全に削除されます。",
+  "faqQ12": "エラーが発生した場合、または提案がある場合はどこに連絡すればよいですか?",
+  "faqA12": "現在の画面の下部に準備中の「カスタマーサービスに連絡する」または公式メールを通じて詳細を送信していただければ、すぐに確認し、魔法のように解決します。",
+  "myMenuContactUs": "お問い合わせ",
+  "myMenuContactUsSubtitle": "お問い合わせとご提案",
+  "contactDialogTitle": "お問い合わせ",
+  "contactTypeBug": "バグレポート",
+  "contactTypeFeature": "機能の提案",
+  "contactTypePayment": "支払いの問題",
+  "contactTypeOther": "その他のお問い合わせ",
+  "contactHint": "お問い合わせ内容を詳しくご記入ください。",
+  "contactSend": "送信",
+  "contactCancel": "キャンセル",
+  "contactEmptyErrorTitle": "知らせ",
+  "contactEmptyErrorMessage": "お問い合わせ内容をご入力ください。"
 }

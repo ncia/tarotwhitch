@@ -1472,5 +1472,199 @@
   "cardDetailDataNotReady": "ข้อมูลการตีความโดยละเอียดยังไม่พร้อม",
   "cardDetailNoData": "ไม่มีข้อมูล",
   "buttonSaveReading": "บันทึกการอ่านไพ่ทาโรต์",
-  "readingSavedToDevice": "บันทึกลงในอุปกรณ์แล้ว"
+  "readingSavedToDevice": "บันทึกลงในอุปกรณ์แล้ว",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} ขั้น: {name}]",
+  "growthTabMagicBook": "อัปเกรดตำราเวท",
+  "growthPhaseCrystal0": "เวทมนตร์อเวจี",
+  "growthPhaseCrystal1": "เปิดเนตรวิญญาณ",
+  "growthPhaseCrystal2": "ปัญญาแห่งมารดาธรรมชาติ",
+  "growthPhaseCrystal3": "แก่นแท้แห่งดวงตะวัน",
+  "growthPhaseCrystal4": "แสงออโรร่าสวรรค์",
+  "growthPhaseCrystal5": "แดนเทพ",
+  "growthPhaseCrystal6": "เวทมนตร์แห่งการสร้างสรรค์",
+  "growthPhaseCrystal7": "ลมหายใจแห่งจักรวาล",
+  "growthPhaseCrystal8": "แสงนิรันดร์",
+  "growthPhaseCrystal9": "การตื่นรู้สีขาวบริสุทธิ์",
+  "growthPhaseCrystal10": "การก้าวข้าม",
+  "growthPhaseBook0": "อุปกรณ์เขียนของศิษย์ฝึกหัด",
+  "growthPhaseBook1": "ตำราเวทมนตร์พื้นฐาน",
+  "growthPhaseBook2": "ไวยากรณ์รูนโบราณ",
+  "growthPhaseBook3": "ความเข้าใจเวทมนตร์ธาตุ",
+  "growthPhaseBook4": "ความกลมกลืนแห่งแสงดาว",
+  "growthPhaseBook5": "การถอดรหัสสิ่งประดิษฐ์",
+  "growthPhaseBook6": "ตำราต้องห้ามของปราชญ์",
+  "growthPhaseBook7": "การสื่อสารกับวิญญาณ",
+  "growthPhaseBook8": "คัมภีร์แห่งสัจธรรม",
+  "growthPhaseBook9": "บันทึกแห่งสรรพสิ่ง",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "ระดับหนังสือเวทมนตร์ {level}",
+  "growthMagicBookKnowledge": "ความรู้: {current} / {max}",
+  "growthCrystalBallMana": "มานา: {current} / {max}",
+  "growthMagicBookExpGained": "ความรู้ของหนังสือเวทมนตร์ลึกซึ้งขึ้น! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "อัปเกรดหนังสือเวทมนตร์ (ผง {amount} ชิ้น)",
+  "devDustCharged": "Dev: ชาร์จผงเวทมนตร์ 1000 ชิ้นเรียบร้อยแล้ว!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "ข่าวและการแจ้งเตือน",
+  "menuMailboxTitle": "ตู้ไปรษณีย์",
+  "menuMailboxSubtitle": "ตรวจสอบการอัปเดตและของขวัญใหม่",
+  "mailboxTitle": "ตู้ไปรษณีย์",
+  "mailboxAllRewardsClaimed": "รับรางวัลทั้งหมดแล้ว",
+  "mailboxClaimAll": "อ้างสิทธิ์ทั้งหมด",
+  "mailboxEmpty": "กล่องจดหมายว่างเปล่า",
+  "mailboxSenderAndDate": "จาก: {sender} • {date}",
+  "mailboxClaimed": "อ้างสิทธิ์",
+  "mailboxClaim": "เรียกร้อง",
+  "mailboxAttachedRewards": "รางวัลที่แนบมาด้วย",
+  "mailboxRewardClaimed": "รับรางวัลแล้ว",
+  "mailboxClaimReward": "รับรางวัล",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "ศูนย์การแจ้งเตือน",
+  "menuNotificationCenterSubtitle": "ตรวจสอบการแจ้งเตือนและประกาศล่าสุด",
+  "authSignupComplete": "การลงทะเบียนเสร็จสมบูรณ์ โปรดตรวจสอบอีเมลที่ส่งถึงคุณเพื่อยืนยัน",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "การแปลล้มเหลว: {error}",
+  "diarySelectDate": "เลือกวันที่",
+  "diarySavedSuccess": "บันทึกไดอารี่สำเร็จแล้ว!",
+  "diarySaveFailed": "บันทึกไดอารี่ไม่สำเร็จ",
+  "diaryWriteTitle": "เขียนไดอารี่",
+  "diaryWriteHint": "รู้สึกอิสระที่จะเขียนความคิดหรือความรู้สึกของคุณเกี่ยวกับการอ่านวันนี้",
+  "diarySaveButton": "บันทึกลงในไดอารี่",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "โชคลาภวันนี้",
+  "readingSpreadLabelPast1": "1. อดีต",
+  "readingSpreadLabelPresent2": "2. ปัจจุบัน",
+  "readingSpreadLabelFuture3": "3. อนาคต",
+  "readingSpreadLabelCurrent1": "1. ปัจจุบัน",
+  "readingSpreadLabelPast2": "2. อดีต",
+  "readingSpreadLabelFuture3Alt": "3. อนาคต",
+  "readingSpreadLabelCause4": "4. สาเหตุ",
+  "readingSpreadLabelPotential5": "5. ศักยภาพ",
+  "readingSpreadLabelCurrentSituation1": "1. สถานการณ์และปัญหาในปัจจุบัน",
+  "readingSpreadLabelCauseOfProblem2": "2. สาเหตุของปัญหา",
+  "readingSpreadLabelAdviceForResolution3": "3. คำแนะนำในการแก้ปัญหา",
+  "readingSpreadLabelExpectedResult4": "4. ผลที่คาดว่าจะได้รับ",
+  "readingSpreadLabelCurrentSituation1Alt": "1. สถานการณ์ปัจจุบัน",
+  "readingSpreadLabelObstacle2": "2. อุปสรรค",
+  "readingSpreadLabelUnconscious3": "3. หมดสติ",
+  "readingSpreadLabelPast4": "4. อดีต",
+  "readingSpreadLabelConsciousGoal5": "5. เป้าหมายที่มีสติ",
+  "readingSpreadLabelNearFuture6": "6. อนาคตอันใกล้",
+  "readingSpreadLabelAttitude7": "7. ทัศนคติ",
+  "readingSpreadLabelExternalEnvironment8": "8. สภาพแวดล้อมภายนอก",
+  "readingSpreadLabelHopesAndFears9": "9. ความหวังและความกลัว",
+  "readingSpreadLabelFinalResult10": "10. ผลลัพธ์สุดท้าย",
+  "readingSpreadLabelAdvice4": "4. คำแนะนำ",
+  "readingSpreadLabelSurroundings5": "5. สภาพแวดล้อม",
+  "readingSpreadLabelResult6": "6. ผลลัพธ์",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} เหรียญ",
+  "serviceLoginRequired": "จำเป็นต้องเข้าสู่ระบบ",
+  "serviceDefaultNickname": "แม่มดนิรนาม",
+  "serviceTarotReadingError": "เกิดข้อผิดพลาดขณะอ่านดวงชะตา: {error}",
+  "defaultUserDisplayName": "ผู้ใช้",
+  "listenToInterpretation": "ฟังการตีความ",
+  "faqQ1": "ฉันสามารถอ่านไพ่ทาโรต์ทุกวันได้หรือไม่?",
+  "faqA1": "ใช่แล้ว การอ่านกระแสของวันนี้ด้วยหัวใจที่เบาบางถือเป็นเรื่องดี อย่างไรก็ตาม ไม่แนะนำให้เก็บไพ่จั่วซ้ำๆ สำหรับคำถามเดียวกัน",
+  "faqQ2": "ฉันจะได้รับผงวิเศษได้อย่างไร?",
+  "faqA2": "คุณสามารถรับผงวิเศษได้จากการเข้าร่วมแอป กิจกรรมชุมชน หรือการซื้อในร้านค้า",
+  "faqQ3": "ฉันควรทำอย่างไรหากผลลัพธ์ไม่ดี?",
+  "faqA3": "ไพ่ทาโรต์ไม่ใช่อนาคตที่ตายตัว แต่เป็นคำแนะนำ ใช้ผลลัพธ์ที่ไม่ดีเป็นเหตุการณ์สำคัญเพื่อเตือนคุณถึงความเสี่ยงที่ควรหลีกเลี่ยง",
+  "faqQ4": "ฉันจะดูการอ่านไพ่ยิปซีที่ผ่านมาได้อย่างไร",
+  "faqA4": "คุณสามารถตรวจสอบบันทึกการอ่านที่บันทึกไว้ตามวันที่ในแท็บ 'ไดอารี่' (ปฏิทิน) ที่เมนูด้านล่างได้ตลอดเวลา",
+  "faqQ5": "ฉันจะแบ่งปันกับชุมชนได้อย่างไร?",
+  "faqA5": "เปิดสวิตช์ 'แชร์ไปที่ชุมชน' บนหน้าจอรายละเอียดไดอารี่ที่บันทึกไว้ในไดอารี่เพื่อแบ่งปันการอ่านของคุณกับผู้ใช้รายอื่น",
+  "faqQ6": "ฉันจะเปลี่ยนชื่อเล่นหรือโปรไฟล์ของฉันได้อย่างไร?",
+  "faqA6": "คุณสามารถเปลี่ยนชื่อเล่นและไอคอนของคุณได้ตลอดเวลาโดยแตะพื้นที่โปรไฟล์ที่ด้านบนของแท็บ 'เมนูของฉัน'",
+  "faqQ7": "ฉันจะเปิดและปิดการแจ้งเตือนได้ที่ไหน",
+  "faqA7": "คุณสามารถควบคุมการแจ้งเตือนได้จากแอปการตั้งค่าของอุปกรณ์หรือจากเมนูการตั้งค่าที่จะอัปเดตในอนาคต",
+  "faqQ8": "ฉันสามารถดูไดอารี่ไพ่ทาโร่ของคนอื่นได้หรือไม่?",
+  "faqA8": "ใช่ คุณสามารถดูและเชียร์การอ่านไพ่ยิปซีที่น่าสนใจที่พ่อมด (ผู้ใช้) คนอื่นๆ เปิดเผยต่อสาธารณะได้ในแท็บ 'ชุมชน' ที่ด้านล่าง",
+  "faqQ9": "ฉันจะตรวจสอบการสมัครสมาชิกพรีเมียมหรือประวัติการชำระเงินได้ที่ไหน?",
+  "faqA9": "หากคุณเลือก 'ประวัติการชำระเงิน' ในแท็บ [ข้อมูลของฉัน] ของเมนูด้านล่าง คุณสามารถตรวจสอบประวัติการจ่ายเหรียญของคุณและผงเวทมนตร์ที่ได้รับโดยละเอียดได้",
+  "faqQ10": "ฉันต้องการศึกษาความหมายของไพ่ทาโรต์เป็นการส่วนตัว ฉันจะทำเช่นนั้นได้อย่างไร?",
+  "faqA10": "หากคุณไปที่แท็บ [สารานุกรมการ์ด] ในเมนูด้านล่าง คุณสามารถดูความหมาย สัญลักษณ์ และคำอธิบายเชิงลึกของไพ่ทั้ง 78 ใบได้อย่างอิสระ",
+  "faqQ11": "ฉันจะลบบัญชีของฉันหรือถอนตัวได้อย่างไร?",
+  "faqA11": "คุณจะพบปุ่ม 'ลบบัญชี' ได้โดยไปที่เมนูการตั้งค่าบัญชีผ่านไอคอนรูปเฟืองที่ด้านบนขวาของแท็บ [ข้อมูลของฉัน] ไดอารี่และข้อมูลทั้งหมดจะถูกลบอย่างถาวรเมื่อถอนออก",
+  "faqQ12": "ฉันจะติดต่อได้ที่ไหนหากพบข้อผิดพลาดหรือมีข้อเสนอแนะ",
+  "faqA12": "หากคุณส่งรายละเอียดผ่าน 'ติดต่อฝ่ายบริการลูกค้า' ซึ่งเตรียมไว้ที่ด้านล่างของหน้าจอปัจจุบันหรือทางอีเมลอย่างเป็นทางการ เราจะตรวจสอบและแก้ไขปัญหาให้คุณอย่างรวดเร็ว",
+  "myMenuContactUs": "ติดต่อเรา",
+  "myMenuContactUsSubtitle": "สอบถามข้อมูลและข้อเสนอแนะ",
+  "contactDialogTitle": "ติดต่อเรา",
+  "contactTypeBug": "รายงานข้อผิดพลาด",
+  "contactTypeFeature": "ข้อเสนอแนะคุณสมบัติ",
+  "contactTypePayment": "ปัญหาการชำระเงิน",
+  "contactTypeOther": "อื่นๆ สอบถาม",
+  "contactHint": "กรุณาเขียนคำถามของคุณโดยละเอียด",
+  "contactSend": "ส่ง",
+  "contactCancel": "ยกเลิก",
+  "contactEmptyErrorTitle": "สังเกต",
+  "contactEmptyErrorMessage": "กรุณากรอกเนื้อหาคำถามของคุณ"
 }

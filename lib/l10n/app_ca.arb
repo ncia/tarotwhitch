@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Les dades d'interpretació detallades encara no estan preparades.",
   "cardDetailNoData": "No hi ha dades disponibles.",
   "buttonSaveReading": "Desa la lectura del tarot",
-  "readingSavedToDevice": "S'ha desat al dispositiu."
+  "readingSavedToDevice": "S'ha desat al dispositiu.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[Fase {level}: {name}]",
+  "growthTabMagicBook": "Millora del Llibre Màgic",
+  "growthPhaseCrystal0": "Màgia Abissal",
+  "growthPhaseCrystal1": "Obertura de l'Ull Espiritual",
+  "growthPhaseCrystal2": "Saviesa de la Mare Natura",
+  "growthPhaseCrystal3": "Essència del Sol",
+  "growthPhaseCrystal4": "Aurora Celestial",
+  "growthPhaseCrystal5": "Regne Diví",
+  "growthPhaseCrystal6": "Màgia de la Creació",
+  "growthPhaseCrystal7": "Alè de l'Univers",
+  "growthPhaseCrystal8": "Llum Eterna",
+  "growthPhaseCrystal9": "Despertar Blanc Pur",
+  "growthPhaseCrystal10": "Transcendència",
+  "growthPhaseBook0": "Eines d'Escriptura de l'Aprenent",
+  "growthPhaseBook1": "Manual Bàsic de Màgia",
+  "growthPhaseBook2": "Gramàtica de Runes Antigues",
+  "growthPhaseBook3": "Comprensió de la Màgia Elemental",
+  "growthPhaseBook4": "Harmonia de la Llum Estel·lar",
+  "growthPhaseBook5": "Desxiframent d'Artefactes",
+  "growthPhaseBook6": "Llibre Prohibit del Savi",
+  "growthPhaseBook7": "Comunió amb els Esperits",
+  "growthPhaseBook8": "Grimori de la Veritat",
+  "growthPhaseBook9": "Registre Omnipotent",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Nivell del Llibre Màgic {level}",
+  "growthMagicBookKnowledge": "Coneixement: {current} / {max}",
+  "growthCrystalBallMana": "Manà: {current} / {max}",
+  "growthMagicBookExpGained": "El coneixement del llibre màgic s'ha aprofundit! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "Millorar Llibre Màgic ({amount} Pols)",
+  "devDustCharged": "Dev: 1000 Pols Màgica carregada!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Notícies i notificacions",
+  "menuMailboxTitle": "Bústia de correu",
+  "menuMailboxSubtitle": "Consulta les novetats i els regals",
+  "mailboxTitle": "Bústia de correu",
+  "mailboxAllRewardsClaimed": "Totes les recompenses reclamades.",
+  "mailboxClaimAll": "Reclama-ho tot",
+  "mailboxEmpty": "La bústia està buida.",
+  "mailboxSenderAndDate": "De: {sender} • {date}",
+  "mailboxClaimed": "Reclamat",
+  "mailboxClaim": "Reclamació",
+  "mailboxAttachedRewards": "Recompenses adjuntes",
+  "mailboxRewardClaimed": "Recompensa reclamada.",
+  "mailboxClaimReward": "Reclama la recompensa",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Centre de notificacions",
+  "menuNotificationCenterSubtitle": "Comproveu les últimes notificacions i anuncis",
+  "authSignupComplete": "La inscripció s'ha completat. Si us plau, comproveu el correu electrònic que us han enviat per verificar.",
+  "chatInitError": "S'ha produït un error d'inicialització:\n{error}",
+  "chatError": "S'ha produït un error:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "La traducció ha fallat: {error}",
+  "diarySelectDate": "Seleccioneu una data",
+  "diarySavedSuccess": "El diari s'ha desat correctament!",
+  "diarySaveFailed": "No s'ha pogut desar el diari.",
+  "diaryWriteTitle": "Escriure el diari",
+  "diaryWriteHint": "No dubteu a escriure els vostres pensaments o sentiments sobre la lectura d'avui.",
+  "diarySaveButton": "Desa al diari",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "La fortuna d'avui",
+  "readingSpreadLabelPast1": "1. Passat",
+  "readingSpreadLabelPresent2": "2. Present",
+  "readingSpreadLabelFuture3": "3. Futur",
+  "readingSpreadLabelCurrent1": "1. Actual",
+  "readingSpreadLabelPast2": "2. Passat",
+  "readingSpreadLabelFuture3Alt": "3. Futur",
+  "readingSpreadLabelCause4": "4. Causa",
+  "readingSpreadLabelPotential5": "5. Potencial",
+  "readingSpreadLabelCurrentSituation1": "1. Situació actual i problema",
+  "readingSpreadLabelCauseOfProblem2": "2. Causa del problema",
+  "readingSpreadLabelAdviceForResolution3": "3. Assessorament per a la resolució",
+  "readingSpreadLabelExpectedResult4": "4. Resultat esperat",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Situació actual",
+  "readingSpreadLabelObstacle2": "2. Obstacle",
+  "readingSpreadLabelUnconscious3": "3. Inconscient",
+  "readingSpreadLabelPast4": "4. Passat",
+  "readingSpreadLabelConsciousGoal5": "5. Objectiu Conscient",
+  "readingSpreadLabelNearFuture6": "6. Futur proper",
+  "readingSpreadLabelAttitude7": "7. Actitud",
+  "readingSpreadLabelExternalEnvironment8": "8. Medi extern",
+  "readingSpreadLabelHopesAndFears9": "9. Esperances i pors",
+  "readingSpreadLabelFinalResult10": "10. Resultat final",
+  "readingSpreadLabelAdvice4": "4. Assessorament",
+  "readingSpreadLabelSurroundings5": "5. Entorn",
+  "readingSpreadLabelResult6": "6. Resultat",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} monedes",
+  "serviceLoginRequired": "Cal iniciar sessió.",
+  "serviceDefaultNickname": "Bruixa sense nom",
+  "serviceTarotReadingError": "S'ha produït un error en llegir la fortuna: {error}",
+  "defaultUserDisplayName": "Usuari",
+  "listenToInterpretation": "Escolta la interpretació",
+  "faqQ1": "Puc llegir tarot cada dia?",
+  "faqA1": "Sí, és bo llegir el flux d'avui amb un cor lleuger. Tanmateix, no es recomana seguir dibuixant targetes repetidament per a la mateixa pregunta.",
+  "faqQ2": "Com aconsegueixo la pols màgica?",
+  "faqA2": "Podeu obtenir pols màgic mitjançant l'assistència a l'aplicació, activitats de la comunitat o comprant a la botiga.",
+  "faqQ3": "Què he de fer si el resultat és dolent?",
+  "faqA3": "El tarot no és un futur fix, sinó un consell. Utilitzeu un mal resultat com a fita per advertir-vos dels riscos que cal evitar.",
+  "faqQ4": "Com puc veure les meves lectures de tarot anteriors?",
+  "faqA4": "Podeu revisar els vostres registres de lectura desats per data a la pestanya \"Diari\" (Calendari) al menú inferior en qualsevol moment.",
+  "faqQ5": "Com puc compartir amb la comunitat?",
+  "faqA5": "Activa l'interruptor \"Comparteix a la comunitat\" a la pantalla de detalls del diari desat al diari per compartir la teva lectura amb altres usuaris.",
+  "faqQ6": "Com puc canviar el meu àlies o perfil?",
+  "faqA6": "Podeu canviar el vostre àlies i la icona en qualsevol moment tocant l'àrea del perfil a la part superior de la pestanya \"El meu menú\".",
+  "faqQ7": "On puc activar i desactivar les notificacions?",
+  "faqA7": "Pots controlar les notificacions des de l'aplicació de configuració del dispositiu o des del menú de preferències per actualitzar-les en el futur.",
+  "faqQ8": "Puc veure els diaris de tarot d'altres persones?",
+  "faqA8": "Sí, podeu veure i animar les lectures de tarot interessants que altres mags (usuaris) han fet públiques a la pestanya \"Comunitat\" a la part inferior.",
+  "faqQ9": "On puc consultar la meva subscripció premium o l'historial de pagaments?",
+  "faqA9": "Si seleccioneu \"Historial de pagaments\" a la pestanya [La meva informació] del menú inferior, podeu consultar l'historial de pagaments de monedes i la pols màgica adquirida en detall.",
+  "faqQ10": "Vull estudiar personalment el significat de les cartes del Tarot. Com ho puc fer?",
+  "faqA10": "Si aneu a la pestanya [Enciclopèdia de targetes] al menú inferior, podeu veure lliurement els significats verticals i invertits, els símbols i les explicacions en profunditat de les 78 targetes.",
+  "faqQ11": "Com puc esborrar el meu compte o retirar-lo?",
+  "faqA11": "Podeu trobar el botó \"Suprimeix el compte\" si aneu al menú Configuració del compte mitjançant la icona d'engranatge a la part superior dreta de la pestanya [La meva informació]. Tots els diaris i dades s'eliminaran permanentment en retirar-los.",
+  "faqQ12": "On em poso en contacte si trobo un error o tinc suggeriments?",
+  "faqA12": "Si envieu els detalls a través de 'Contacteu amb el servei d'atenció al client' que s'està preparant a la part inferior de la pantalla actual o per correu electrònic oficial, us ho comprovarem ràpidament i ho solucionarem màgicament.",
+  "myMenuContactUs": "Contacta amb nosaltres",
+  "myMenuContactUsSubtitle": "Consultes i suggeriments",
+  "contactDialogTitle": "Contacta amb nosaltres",
+  "contactTypeBug": "Informe d'errors",
+  "contactTypeFeature": "Suggeriment de funcions",
+  "contactTypePayment": "Problema de pagament",
+  "contactTypeOther": "Una altra consulta",
+  "contactHint": "Si us plau, escriviu la vostra consulta amb detall.",
+  "contactSend": "Enviar",
+  "contactCancel": "Cancel·la",
+  "contactEmptyErrorTitle": "Avís",
+  "contactEmptyErrorMessage": "Introduïu el contingut de la vostra consulta."
 }

@@ -4388,4 +4388,435 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'در دستگاه ذخیره شد.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level مرحله: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'ارتقاء کتاب جادو';
+
+  @override
+  String get growthPhaseCrystal0 => 'جادوی اعماق';
+
+  @override
+  String get growthPhaseCrystal1 => 'گشودن چشم روح';
+
+  @override
+  String get growthPhaseCrystal2 => 'خرد مادر طبیعت';
+
+  @override
+  String get growthPhaseCrystal3 => 'عصاره خورشید';
+
+  @override
+  String get growthPhaseCrystal4 => 'شفق آسمانی';
+
+  @override
+  String get growthPhaseCrystal5 => 'قلمرو الهی';
+
+  @override
+  String get growthPhaseCrystal6 => 'جادوی آفرینش';
+
+  @override
+  String get growthPhaseCrystal7 => 'نفس کیهان';
+
+  @override
+  String get growthPhaseCrystal8 => 'نور ابدی';
+
+  @override
+  String get growthPhaseCrystal9 => 'بیداری سپید خالص';
+
+  @override
+  String get growthPhaseCrystal10 => 'تعالی';
+
+  @override
+  String get growthPhaseBook0 => 'ابزار نگارش شاگرد';
+
+  @override
+  String get growthPhaseBook1 => 'مقدمات جادوی پایه';
+
+  @override
+  String get growthPhaseBook2 => 'دستور زبان رون باستانی';
+
+  @override
+  String get growthPhaseBook3 => 'درک جادوی عنصری';
+
+  @override
+  String get growthPhaseBook4 => 'هماهنگی نور ستارگان';
+
+  @override
+  String get growthPhaseBook5 => 'رمزگشایی مصنوعات';
+
+  @override
+  String get growthPhaseBook6 => 'کتاب ممنوعه حکیم';
+
+  @override
+  String get growthPhaseBook7 => 'ارتباط با ارواح';
+
+  @override
+  String get growthPhaseBook8 => 'گریموار حقیقت';
+
+  @override
+  String get growthPhaseBook9 => 'سجل قادر مطلق';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'سطح کتاب جادو $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'دانش: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'مانا: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'دانش کتاب جادو عمیق‌تر شد! Exp +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'ارتقاء کتاب جادو ($amount گرد و غبار)';
+  }
+
+  @override
+  String get devDustCharged => 'توسعه: 1000 گرد و غبار جادویی شارژ شد!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'اخبار و اطلاعیه ها';
+
+  @override
+  String get menuMailboxTitle => 'صندوق پستی';
+
+  @override
+  String get menuMailboxSubtitle =>
+      'به روز رسانی ها و هدایای جدید را بررسی کنید';
+
+  @override
+  String get mailboxTitle => 'صندوق پستی';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'همه جوایز ادعا شده است.';
+
+  @override
+  String get mailboxClaimAll => 'ادعای همه';
+
+  @override
+  String get mailboxEmpty => 'صندوق پست خالی است';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'از: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'ادعا کرد';
+
+  @override
+  String get mailboxClaim => 'ادعا کنید';
+
+  @override
+  String get mailboxAttachedRewards => 'جوایز پیوست شده';
+
+  @override
+  String get mailboxRewardClaimed => 'پاداش ادعا شده است.';
+
+  @override
+  String get mailboxClaimReward => 'ادعای پاداش';
+
+  @override
+  String get menuNotificationCenterTitle => 'مرکز اطلاع رسانی';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'آخرین اطلاعیه ها و اطلاعیه ها را بررسی کنید';
+
+  @override
+  String get authSignupComplete =>
+      'ثبت نام کامل شد لطفا ایمیل ارسال شده برای شما را بررسی کنید تا تایید شود.';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initialization error occurred:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Error occurred:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Position $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Translation failed: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'تاریخ را انتخاب کنید';
+
+  @override
+  String get diarySavedSuccess => 'خاطرات با موفقیت ذخیره شد!';
+
+  @override
+  String get diarySaveFailed => 'خاطرات ذخیره نشد.';
+
+  @override
+  String get diaryWriteTitle => 'دفتر خاطرات بنویس';
+
+  @override
+  String get diaryWriteHint =>
+      'با خیال راحت افکار یا احساسات خود را در مورد مطالعه امروز بنویسید.';
+
+  @override
+  String get diarySaveButton => 'ذخیره در دفتر خاطرات';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'فورچون امروز';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. گذشته';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. ارائه';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. آینده';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. جریان';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. گذشته';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. آینده';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. علت';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. بالقوه';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 => '1. وضعیت فعلی و مشکل';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. علت مشکل';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 =>
+      '3. مشاوره برای حل و فصل';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. نتیجه مورد انتظار';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. وضعیت فعلی';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. مانع';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. ناخودآگاه';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. گذشته';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. هدف آگاهانه';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. آینده نزدیک';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. نگرش';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 => '8. محیط خارجی';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. امیدها و ترس ها';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. نتیجه نهایی';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. مشاوره';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. اطراف';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. نتیجه';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Bonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount سکه';
+  }
+
+  @override
+  String get serviceLoginRequired => 'ورود لازم است.';
+
+  @override
+  String get serviceDefaultNickname => 'جادوگر بی نام';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'هنگام خواندن فال خطایی رخ داد: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'کاربر';
+
+  @override
+  String get listenToInterpretation => 'به تفسیر گوش دهید';
+
+  @override
+  String get faqQ1 => 'آیا می توانم هر روز تاروت بخوانم؟';
+
+  @override
+  String get faqA1 =>
+      'بله خوب است جریان امروز را با دلی سبک بخوانیم. با این حال، توصیه نمی شود که کارت ها را به طور مکرر برای یک سوال یکسان بکشید.';
+
+  @override
+  String get faqQ2 => 'چگونه گرد و غبار جادویی دریافت کنم؟';
+
+  @override
+  String get faqA2 =>
+      'می‌توانید از طریق حضور در برنامه، فعالیت‌های اجتماعی یا خرید در فروشگاه، گرد و غبار جادویی دریافت کنید.';
+
+  @override
+  String get faqQ3 => 'اگر نتیجه بد بود چه کار کنم؟';
+
+  @override
+  String get faqA3 =>
+      'تاروت یک آینده ثابت نیست، بلکه یک توصیه است. از یک نتیجه بد به عنوان نقطه عطف برای هشدار دادن به خطراتی که باید اجتناب کنید استفاده کنید.';
+
+  @override
+  String get faqQ4 => 'چگونه می توانم قرائت های تاروت گذشته خود را ببینم؟';
+
+  @override
+  String get faqA4 =>
+      'می‌توانید سوابق خواندن ذخیره‌شده‌تان را بر اساس تاریخ در برگه «دفتر خاطرات» (تقویم) در منوی پایین در هر زمان بررسی کنید.';
+
+  @override
+  String get faqQ5 => 'چگونه در جامعه به اشتراک بگذارم؟';
+
+  @override
+  String get faqA5 =>
+      'سوئیچ \"اشتراک گذاری در انجمن\" را در صفحه جزئیات خاطرات ذخیره شده در دفترچه خاطرات روشن کنید تا مطالب خود را با سایر کاربران به اشتراک بگذارید.';
+
+  @override
+  String get faqQ6 => 'چگونه می توانم نام مستعار یا نمایه خود را تغییر دهم؟';
+
+  @override
+  String get faqA6 =>
+      'می‌توانید نام مستعار و نماد خود را در هر زمان با لمس کردن قسمت نمایه در بالای برگه «منوی من» تغییر دهید.';
+
+  @override
+  String get faqQ7 => 'کجا می توانم اعلان ها را روشن و خاموش کنم؟';
+
+  @override
+  String get faqA7 =>
+      'می‌توانید اعلان‌ها را از برنامه تنظیمات دستگاهتان یا از منوی تنظیمات برگزیده که در آینده به‌روزرسانی می‌شوند، کنترل کنید.';
+
+  @override
+  String get faqQ8 => 'آیا می توانم خاطرات تاروت دیگران را ببینم؟';
+
+  @override
+  String get faqA8 =>
+      'بله، می‌توانید قرائت‌های جالب تاروت را که جادوگران (کاربران) دیگر در برگه «Community» در پایین منتشر کرده‌اند، مشاهده و تشویق کنید.';
+
+  @override
+  String get faqQ9 =>
+      'از کجا می توانم سابقه اشتراک یا پرداخت حق بیمه خود را بررسی کنم؟';
+
+  @override
+  String get faqA9 =>
+      'اگر «سابقه پرداخت» را در برگه [اطلاعات من] در منوی پایین انتخاب کنید، می توانید تاریخچه پرداخت سکه و گرد و غبار جادویی به دست آمده را با جزئیات بررسی کنید.';
+
+  @override
+  String get faqQ10 =>
+      'من می خواهم معنای کارت های تاروت را شخصاً مطالعه کنم. چگونه می توانم این کار را انجام دهم؟';
+
+  @override
+  String get faqA10 =>
+      'اگر به برگه [دایره المعارف کارت] در منوی پایین بروید، می توانید آزادانه معانی، نمادها، و توضیحات عمیق همه 78 کارت را به طور مستقیم و معکوس مشاهده کنید.';
+
+  @override
+  String get faqQ11 => 'چگونه می توانم حساب خود را حذف یا برداشت کنم؟';
+
+  @override
+  String get faqA11 =>
+      'می‌توانید دکمه «حذف حساب» را با رفتن به منوی تنظیمات حساب از طریق نماد چرخ‌دنده در سمت راست بالای برگه [اطلاعات من] پیدا کنید. همه یادداشت‌ها و داده‌ها پس از برداشت برای همیشه حذف خواهند شد.';
+
+  @override
+  String get faqQ12 =>
+      'اگر با خطایی مواجه شدم یا پیشنهادی داشتم با کجا تماس بگیرم؟';
+
+  @override
+  String get faqA12 =>
+      'اگر جزئیات را از طریق \"تماس با خدمات مشتری\" که در پایین صفحه فعلی آماده می شود یا از طریق ایمیل رسمی ارسال کنید، ما به سرعت آن را بررسی کرده و به شکل جادویی برای شما حل می کنیم.';
+
+  @override
+  String get myMenuContactUs => 'تماس با ما';
+
+  @override
+  String get myMenuContactUsSubtitle => 'سوالات و پیشنهادات';
+
+  @override
+  String get contactDialogTitle => 'تماس با ما';
+
+  @override
+  String get contactTypeBug => 'گزارش اشکال';
+
+  @override
+  String get contactTypeFeature => 'پیشنهاد ویژگی';
+
+  @override
+  String get contactTypePayment => 'موضوع پرداخت';
+
+  @override
+  String get contactTypeOther => 'استعلام دیگر';
+
+  @override
+  String get contactHint => 'لطفا درخواست خود را با جزئیات بنویسید.';
+
+  @override
+  String get contactSend => 'ارسال کنید';
+
+  @override
+  String get contactCancel => 'لغو کنید';
+
+  @override
+  String get contactEmptyErrorTitle => 'توجه کنید';
+
+  @override
+  String get contactEmptyErrorMessage =>
+      'لطفا محتوای درخواست خود را وارد کنید.';
 }

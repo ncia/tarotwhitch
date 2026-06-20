@@ -4427,4 +4427,435 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'Išsaugota įrenginyje.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level Etapas: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'Magijos knygos patobulinimas';
+
+  @override
+  String get growthPhaseCrystal0 => 'Bedugnės magija';
+
+  @override
+  String get growthPhaseCrystal1 => 'Dvasios akies atvėrimas';
+
+  @override
+  String get growthPhaseCrystal2 => 'Motinos Gamtos išmintis';
+
+  @override
+  String get growthPhaseCrystal3 => 'Saulės esencija';
+
+  @override
+  String get growthPhaseCrystal4 => 'Dangiškoji Aurora';
+
+  @override
+  String get growthPhaseCrystal5 => 'Dieviškoji karalystė';
+
+  @override
+  String get growthPhaseCrystal6 => 'Kūrybos magija';
+
+  @override
+  String get growthPhaseCrystal7 => 'Visatos kvėpavimas';
+
+  @override
+  String get growthPhaseCrystal8 => 'Amžinoji šviesa';
+
+  @override
+  String get growthPhaseCrystal9 => 'Tyras baltas pabudimas';
+
+  @override
+  String get growthPhaseCrystal10 => 'Transcendencija';
+
+  @override
+  String get growthPhaseBook0 => 'Mokinio rašymo įrankiai';
+
+  @override
+  String get growthPhaseBook1 => 'Pagrindinis magijos pradžiamokslis';
+
+  @override
+  String get growthPhaseBook2 => 'Senovinė runų gramatika';
+
+  @override
+  String get growthPhaseBook3 => 'Elementų magijos supratimas';
+
+  @override
+  String get growthPhaseBook4 => 'Žvaigždžių šviesos harmonija';
+
+  @override
+  String get growthPhaseBook5 => 'Artefaktų iššifravimas';
+
+  @override
+  String get growthPhaseBook6 => 'Išminčiaus uždrausta knyga';
+
+  @override
+  String get growthPhaseBook7 => 'Bendravimas su dvasiomis';
+
+  @override
+  String get growthPhaseBook8 => 'Tiesos grimuaras';
+
+  @override
+  String get growthPhaseBook9 => 'Visagalis metraštis';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'Magijos knygos lygis $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'Žinios: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'Mana: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'Magijos knygos žinios pagilėjo! Patirtis +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'Patobulinti magijos knygą ($amount dulkių)';
+  }
+
+  @override
+  String get devDustCharged => 'Dev: 1000 magijos dulkių įkrauta!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'Naujienos ir pranešimai';
+
+  @override
+  String get menuMailboxTitle => 'Pašto dėžutė';
+
+  @override
+  String get menuMailboxSubtitle =>
+      'Patikrinkite naujus atnaujinimus ir dovanas';
+
+  @override
+  String get mailboxTitle => 'Pašto dėžutė';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'Visi apdovanojimai buvo gauti.';
+
+  @override
+  String get mailboxClaimAll => 'Reikalauti visų';
+
+  @override
+  String get mailboxEmpty => 'Pašto dėžutė tuščia.';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'Nuo: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'Teigė';
+
+  @override
+  String get mailboxClaim => 'Reikalauti';
+
+  @override
+  String get mailboxAttachedRewards => 'Pridedami apdovanojimai';
+
+  @override
+  String get mailboxRewardClaimed => 'Reikalavo atlygį.';
+
+  @override
+  String get mailboxClaimReward => 'Reikalaukite premijos';
+
+  @override
+  String get menuNotificationCenterTitle => 'Pranešimų centras';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'Patikrinkite naujausius pranešimus ir pranešimus';
+
+  @override
+  String get authSignupComplete =>
+      'Registracija baigta. Patikrinkite jums atsiųstą el. laišką, kad patvirtintumėte.';
+
+  @override
+  String chatInitError(String error) {
+    return 'Įvyko inicijavimo klaida:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Įvyko klaida:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Pozicija $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Vertimas nepavyko: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'Pasirinkite datą';
+
+  @override
+  String get diarySavedSuccess => 'Dienoraštis sėkmingai išsaugotas!';
+
+  @override
+  String get diarySaveFailed => 'Nepavyko išsaugoti dienoraščio.';
+
+  @override
+  String get diaryWriteTitle => 'Rašyti dienoraštį';
+
+  @override
+  String get diaryWriteHint =>
+      'Nedvejodami parašykite savo mintis ar jausmus apie šiandienos skaitymą.';
+
+  @override
+  String get diarySaveButton => 'Išsaugoti dienoraštyje';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Versija $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'Šiandienos Fortūna';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. Praeitis';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. Pateikti';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. Ateitis';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. Srovės';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. Praeitis';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. Ateitis';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. Priežastis';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. Potencialas';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 =>
+      '1. Esama situacija ir problema';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. Problemos priežastis';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 =>
+      '3. Patarimas dėl sprendimo';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. Laukiamas rezultatas';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. Dabartinė situacija';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. Kliūtis';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. Nesąmoningas';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. Praeitis';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. Sąmoningas tikslas';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. Artimiausia ateitis';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. Požiūris';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 => '8. Išorinė aplinka';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. Viltys ir baimės';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. Galutinis rezultatas';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. Patarimas';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. Aplinka';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. Rezultatas';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Premija $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount Monetos';
+  }
+
+  @override
+  String get serviceLoginRequired => 'Reikalingas prisijungimas.';
+
+  @override
+  String get serviceDefaultNickname => 'Bevardė Ragana';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'Skaitant likimą įvyko klaida: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'Vartotojas';
+
+  @override
+  String get listenToInterpretation => 'Klausykite interpretacijos';
+
+  @override
+  String get faqQ1 => 'Ar galiu skaityti taro kiekvieną dieną?';
+
+  @override
+  String get faqA1 =>
+      'Taip, gera lengva širdimi skaityti šiandienos tėkmę. Tačiau tam pačiam klausimui kartoti piešimo kortelių nerekomenduojama.';
+
+  @override
+  String get faqQ2 => 'Kaip gauti stebuklingų dulkių?';
+
+  @override
+  String get faqA2 =>
+      'Stebuklingų dulkių galite gauti lankydamiesi programoje, bendruomenės veikloje arba pirkdami parduotuvėje.';
+
+  @override
+  String get faqQ3 => 'Ką daryti, jei rezultatas blogas?';
+
+  @override
+  String get faqA3 =>
+      'Taro nėra fiksuota ateitis, o patarimas. Naudokite blogą rezultatą kaip etapą, kad įspėtumėte apie riziką, kurios reikia vengti.';
+
+  @override
+  String get faqQ4 => 'Kaip galiu pamatyti savo ankstesnius taro rodmenis?';
+
+  @override
+  String get faqA4 =>
+      'Galite bet kada peržiūrėti išsaugotus skaitymo įrašus pagal datą apatiniame meniu esančiame skirtuke „Dienoraštis“ (Kalendorius).';
+
+  @override
+  String get faqQ5 => 'Kaip galiu pasidalinti su bendruomene?';
+
+  @override
+  String get faqA5 =>
+      'Įjunkite dienoraštyje išsaugoto dienoraščio informacijos ekrano jungiklį „Bendrinti su bendruomene“, kad pasidalintumėte savo skaitymu su kitais naudotojais.';
+
+  @override
+  String get faqQ6 => 'Kaip galiu pakeisti savo slapyvardį arba profilį?';
+
+  @override
+  String get faqA6 =>
+      'Savo slapyvardį ir piktogramą galite bet kada pakeisti paliesdami profilio sritį skirtuko „Mano meniu“ viršuje.';
+
+  @override
+  String get faqQ7 => 'Kur galiu įjungti ir išjungti pranešimus?';
+
+  @override
+  String get faqA7 =>
+      'Pranešimus galite valdyti įrenginio nustatymų programoje arba nustatymų meniu, kurie bus atnaujinami ateityje.';
+
+  @override
+  String get faqQ8 => 'Ar galiu pamatyti kitų žmonių taro dienoraščius?';
+
+  @override
+  String get faqA8 =>
+      'Taip, apačioje esančiame skirtuke „Bendruomenė“ galite peržiūrėti ir pasidžiaugti įdomiais taro skaitiniais, kuriuos kiti vedliai (vartotojai) paskelbė viešai.';
+
+  @override
+  String get faqQ9 =>
+      'Kur galiu patikrinti savo aukščiausios kokybės prenumeratą arba mokėjimų istoriją?';
+
+  @override
+  String get faqA9 =>
+      'Jei apatiniame meniu skirtuke [Mano informacija] pasirinksite „Mokėjimų istorija“, galėsite išsamiai patikrinti savo mokėjimų monetomis istoriją ir įgytas magiškas dulkes.';
+
+  @override
+  String get faqQ10 =>
+      'Noriu asmeniškai ištirti Taro kortų reikšmę. Kaip aš galiu tai padaryti?';
+
+  @override
+  String get faqA10 =>
+      'Jei eisite į skirtuką [Kortelių enciklopedija] apatiniame meniu, galėsite laisvai peržiūrėti visų 78 kortelių vertikalias ir atvirkštines reikšmes, simbolius ir išsamius paaiškinimus.';
+
+  @override
+  String get faqQ11 => 'Kaip galiu ištrinti savo sąskaitą arba atsiimti?';
+
+  @override
+  String get faqA11 =>
+      'Mygtuką „Ištrinti paskyrą“ rasite nuėję į Paskyros nustatymų meniu naudodami krumpliaračio piktogramą, esančią skirtuko [Mano informacija] viršuje, dešinėje. Atsiėmus visi dienoraščiai ir duomenys bus visam laikui ištrinti.';
+
+  @override
+  String get faqQ12 =>
+      'Kur kreiptis, jei aptiksiu klaidą arba turiu pasiūlymų?';
+
+  @override
+  String get faqA12 =>
+      'Jei išsiųsite išsamią informaciją per „Susisiekite su klientų aptarnavimo tarnyba“, kuri ruošiama dabartinio ekrano apačioje arba oficialiu el. paštu, mes greitai patikrinsime ir stebuklingai išspręsime tai už jus.';
+
+  @override
+  String get myMenuContactUs => 'Susisiekite su mumis';
+
+  @override
+  String get myMenuContactUsSubtitle => 'Klausimai ir pasiūlymai';
+
+  @override
+  String get contactDialogTitle => 'Susisiekite su mumis';
+
+  @override
+  String get contactTypeBug => 'Pranešimas apie klaidas';
+
+  @override
+  String get contactTypeFeature => 'Funkcijos pasiūlymas';
+
+  @override
+  String get contactTypePayment => 'Mokėjimo problema';
+
+  @override
+  String get contactTypeOther => 'Kita apklausa';
+
+  @override
+  String get contactHint => 'Prašome parašyti savo užklausą išsamiai.';
+
+  @override
+  String get contactSend => 'Siųsti';
+
+  @override
+  String get contactCancel => 'Atšaukti';
+
+  @override
+  String get contactEmptyErrorTitle => 'Pastaba';
+
+  @override
+  String get contactEmptyErrorMessage => 'Įveskite savo užklausos turinį.';
 }

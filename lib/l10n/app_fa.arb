@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "داده های تفسیر دقیق هنوز آماده نیست.",
   "cardDetailNoData": "هیچ داده ای در دسترس نیست.",
   "buttonSaveReading": "خواندن تاروت را ذخیره کنید",
-  "readingSavedToDevice": "در دستگاه ذخیره شد."
+  "readingSavedToDevice": "در دستگاه ذخیره شد.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} مرحله: {name}]",
+  "growthTabMagicBook": "ارتقاء کتاب جادو",
+  "growthPhaseCrystal0": "جادوی اعماق",
+  "growthPhaseCrystal1": "گشودن چشم روح",
+  "growthPhaseCrystal2": "خرد مادر طبیعت",
+  "growthPhaseCrystal3": "عصاره خورشید",
+  "growthPhaseCrystal4": "شفق آسمانی",
+  "growthPhaseCrystal5": "قلمرو الهی",
+  "growthPhaseCrystal6": "جادوی آفرینش",
+  "growthPhaseCrystal7": "نفس کیهان",
+  "growthPhaseCrystal8": "نور ابدی",
+  "growthPhaseCrystal9": "بیداری سپید خالص",
+  "growthPhaseCrystal10": "تعالی",
+  "growthPhaseBook0": "ابزار نگارش شاگرد",
+  "growthPhaseBook1": "مقدمات جادوی پایه",
+  "growthPhaseBook2": "دستور زبان رون باستانی",
+  "growthPhaseBook3": "درک جادوی عنصری",
+  "growthPhaseBook4": "هماهنگی نور ستارگان",
+  "growthPhaseBook5": "رمزگشایی مصنوعات",
+  "growthPhaseBook6": "کتاب ممنوعه حکیم",
+  "growthPhaseBook7": "ارتباط با ارواح",
+  "growthPhaseBook8": "گریموار حقیقت",
+  "growthPhaseBook9": "سجل قادر مطلق",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "سطح کتاب جادو {level}",
+  "growthMagicBookKnowledge": "دانش: {current} / {max}",
+  "growthCrystalBallMana": "مانا: {current} / {max}",
+  "growthMagicBookExpGained": "دانش کتاب جادو عمیق‌تر شد! Exp +{amount}",
+  "growthUpgradeMagicBookButton": "ارتقاء کتاب جادو ({amount} گرد و غبار)",
+  "devDustCharged": "توسعه: 1000 گرد و غبار جادویی شارژ شد!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "اخبار و اطلاعیه ها",
+  "menuMailboxTitle": "صندوق پستی",
+  "menuMailboxSubtitle": "به روز رسانی ها و هدایای جدید را بررسی کنید",
+  "mailboxTitle": "صندوق پستی",
+  "mailboxAllRewardsClaimed": "همه جوایز ادعا شده است.",
+  "mailboxClaimAll": "ادعای همه",
+  "mailboxEmpty": "صندوق پست خالی است",
+  "mailboxSenderAndDate": "از: {sender} • {date}",
+  "mailboxClaimed": "ادعا کرد",
+  "mailboxClaim": "ادعا کنید",
+  "mailboxAttachedRewards": "جوایز پیوست شده",
+  "mailboxRewardClaimed": "پاداش ادعا شده است.",
+  "mailboxClaimReward": "ادعای پاداش",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "مرکز اطلاع رسانی",
+  "menuNotificationCenterSubtitle": "آخرین اطلاعیه ها و اطلاعیه ها را بررسی کنید",
+  "authSignupComplete": "ثبت نام کامل شد لطفا ایمیل ارسال شده برای شما را بررسی کنید تا تایید شود.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Translation failed: {error}",
+  "diarySelectDate": "تاریخ را انتخاب کنید",
+  "diarySavedSuccess": "خاطرات با موفقیت ذخیره شد!",
+  "diarySaveFailed": "خاطرات ذخیره نشد.",
+  "diaryWriteTitle": "دفتر خاطرات بنویس",
+  "diaryWriteHint": "با خیال راحت افکار یا احساسات خود را در مورد مطالعه امروز بنویسید.",
+  "diarySaveButton": "ذخیره در دفتر خاطرات",
+  "myMenuAppVersion": "Version {version}",
+  "readingSpreadLabelToday": "فورچون امروز",
+  "readingSpreadLabelPast1": "1. گذشته",
+  "readingSpreadLabelPresent2": "2. ارائه",
+  "readingSpreadLabelFuture3": "3. آینده",
+  "readingSpreadLabelCurrent1": "1. جریان",
+  "readingSpreadLabelPast2": "2. گذشته",
+  "readingSpreadLabelFuture3Alt": "3. آینده",
+  "readingSpreadLabelCause4": "4. علت",
+  "readingSpreadLabelPotential5": "5. بالقوه",
+  "readingSpreadLabelCurrentSituation1": "1. وضعیت فعلی و مشکل",
+  "readingSpreadLabelCauseOfProblem2": "2. علت مشکل",
+  "readingSpreadLabelAdviceForResolution3": "3. مشاوره برای حل و فصل",
+  "readingSpreadLabelExpectedResult4": "4. نتیجه مورد انتظار",
+  "readingSpreadLabelCurrentSituation1Alt": "1. وضعیت فعلی",
+  "readingSpreadLabelObstacle2": "2. مانع",
+  "readingSpreadLabelUnconscious3": "3. ناخودآگاه",
+  "readingSpreadLabelPast4": "4. گذشته",
+  "readingSpreadLabelConsciousGoal5": "5. هدف آگاهانه",
+  "readingSpreadLabelNearFuture6": "6. آینده نزدیک",
+  "readingSpreadLabelAttitude7": "7. نگرش",
+  "readingSpreadLabelExternalEnvironment8": "8. محیط خارجی",
+  "readingSpreadLabelHopesAndFears9": "9. امیدها و ترس ها",
+  "readingSpreadLabelFinalResult10": "10. نتیجه نهایی",
+  "readingSpreadLabelAdvice4": "4. مشاوره",
+  "readingSpreadLabelSurroundings5": "5. اطراف",
+  "readingSpreadLabelResult6": "6. نتیجه",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} سکه",
+  "serviceLoginRequired": "ورود لازم است.",
+  "serviceDefaultNickname": "جادوگر بی نام",
+  "serviceTarotReadingError": "هنگام خواندن فال خطایی رخ داد: {error}",
+  "defaultUserDisplayName": "کاربر",
+  "listenToInterpretation": "به تفسیر گوش دهید",
+  "faqQ1": "آیا می توانم هر روز تاروت بخوانم؟",
+  "faqA1": "بله خوب است جریان امروز را با دلی سبک بخوانیم. با این حال، توصیه نمی شود که کارت ها را به طور مکرر برای یک سوال یکسان بکشید.",
+  "faqQ2": "چگونه گرد و غبار جادویی دریافت کنم؟",
+  "faqA2": "می‌توانید از طریق حضور در برنامه، فعالیت‌های اجتماعی یا خرید در فروشگاه، گرد و غبار جادویی دریافت کنید.",
+  "faqQ3": "اگر نتیجه بد بود چه کار کنم؟",
+  "faqA3": "تاروت یک آینده ثابت نیست، بلکه یک توصیه است. از یک نتیجه بد به عنوان نقطه عطف برای هشدار دادن به خطراتی که باید اجتناب کنید استفاده کنید.",
+  "faqQ4": "چگونه می توانم قرائت های تاروت گذشته خود را ببینم؟",
+  "faqA4": "می‌توانید سوابق خواندن ذخیره‌شده‌تان را بر اساس تاریخ در برگه «دفتر خاطرات» (تقویم) در منوی پایین در هر زمان بررسی کنید.",
+  "faqQ5": "چگونه در جامعه به اشتراک بگذارم؟",
+  "faqA5": "سوئیچ \"اشتراک گذاری در انجمن\" را در صفحه جزئیات خاطرات ذخیره شده در دفترچه خاطرات روشن کنید تا مطالب خود را با سایر کاربران به اشتراک بگذارید.",
+  "faqQ6": "چگونه می توانم نام مستعار یا نمایه خود را تغییر دهم؟",
+  "faqA6": "می‌توانید نام مستعار و نماد خود را در هر زمان با لمس کردن قسمت نمایه در بالای برگه «منوی من» تغییر دهید.",
+  "faqQ7": "کجا می توانم اعلان ها را روشن و خاموش کنم؟",
+  "faqA7": "می‌توانید اعلان‌ها را از برنامه تنظیمات دستگاهتان یا از منوی تنظیمات برگزیده که در آینده به‌روزرسانی می‌شوند، کنترل کنید.",
+  "faqQ8": "آیا می توانم خاطرات تاروت دیگران را ببینم؟",
+  "faqA8": "بله، می‌توانید قرائت‌های جالب تاروت را که جادوگران (کاربران) دیگر در برگه «Community» در پایین منتشر کرده‌اند، مشاهده و تشویق کنید.",
+  "faqQ9": "از کجا می توانم سابقه اشتراک یا پرداخت حق بیمه خود را بررسی کنم؟",
+  "faqA9": "اگر «سابقه پرداخت» را در برگه [اطلاعات من] در منوی پایین انتخاب کنید، می توانید تاریخچه پرداخت سکه و گرد و غبار جادویی به دست آمده را با جزئیات بررسی کنید.",
+  "faqQ10": "من می خواهم معنای کارت های تاروت را شخصاً مطالعه کنم. چگونه می توانم این کار را انجام دهم؟",
+  "faqA10": "اگر به برگه [دایره المعارف کارت] در منوی پایین بروید، می توانید آزادانه معانی، نمادها، و توضیحات عمیق همه 78 کارت را به طور مستقیم و معکوس مشاهده کنید.",
+  "faqQ11": "چگونه می توانم حساب خود را حذف یا برداشت کنم؟",
+  "faqA11": "می‌توانید دکمه «حذف حساب» را با رفتن به منوی تنظیمات حساب از طریق نماد چرخ‌دنده در سمت راست بالای برگه [اطلاعات من] پیدا کنید. همه یادداشت‌ها و داده‌ها پس از برداشت برای همیشه حذف خواهند شد.",
+  "faqQ12": "اگر با خطایی مواجه شدم یا پیشنهادی داشتم با کجا تماس بگیرم؟",
+  "faqA12": "اگر جزئیات را از طریق \"تماس با خدمات مشتری\" که در پایین صفحه فعلی آماده می شود یا از طریق ایمیل رسمی ارسال کنید، ما به سرعت آن را بررسی کرده و به شکل جادویی برای شما حل می کنیم.",
+  "myMenuContactUs": "تماس با ما",
+  "myMenuContactUsSubtitle": "سوالات و پیشنهادات",
+  "contactDialogTitle": "تماس با ما",
+  "contactTypeBug": "گزارش اشکال",
+  "contactTypeFeature": "پیشنهاد ویژگی",
+  "contactTypePayment": "موضوع پرداخت",
+  "contactTypeOther": "استعلام دیگر",
+  "contactHint": "لطفا درخواست خود را با جزئیات بنویسید.",
+  "contactSend": "ارسال کنید",
+  "contactCancel": "لغو کنید",
+  "contactEmptyErrorTitle": "توجه کنید",
+  "contactEmptyErrorMessage": "لطفا محتوای درخواست خود را وارد کنید."
 }

@@ -4423,4 +4423,433 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get readingSavedToDevice => 'Salvestatud seadmesse.';
+
+  @override
+  String growthPhaseFormat(int level, String name) {
+    return '[$level Etapp: $name]';
+  }
+
+  @override
+  String get growthTabMagicBook => 'Võluraamatu täiendus';
+
+  @override
+  String get growthPhaseCrystal0 => 'Põhjatuse maagia';
+
+  @override
+  String get growthPhaseCrystal1 => 'Vaimusilma avamine';
+
+  @override
+  String get growthPhaseCrystal2 => 'Emakese looduse tarkus';
+
+  @override
+  String get growthPhaseCrystal3 => 'Päikese olemus';
+
+  @override
+  String get growthPhaseCrystal4 => 'Taevane aurora';
+
+  @override
+  String get growthPhaseCrystal5 => 'Jumalik valdkond';
+
+  @override
+  String get growthPhaseCrystal6 => 'Loomise maagia';
+
+  @override
+  String get growthPhaseCrystal7 => 'Universumi hingus';
+
+  @override
+  String get growthPhaseCrystal8 => 'Igavene valgus';
+
+  @override
+  String get growthPhaseCrystal9 => 'Puhasvalge ärkamine';
+
+  @override
+  String get growthPhaseCrystal10 => 'Transtsendentsus';
+
+  @override
+  String get growthPhaseBook0 => 'Õpipoisi kirjutusvahendid';
+
+  @override
+  String get growthPhaseBook1 => 'Algeline maagia aabits';
+
+  @override
+  String get growthPhaseBook2 => 'Iidne ruunigrammatika';
+
+  @override
+  String get growthPhaseBook3 => 'Elementaalmaagia mõistmine';
+
+  @override
+  String get growthPhaseBook4 => 'Tähevalguse harmoonia';
+
+  @override
+  String get growthPhaseBook5 => 'Artefaktide lahtimõtestamine';
+
+  @override
+  String get growthPhaseBook6 => 'Targa keelatud raamat';
+
+  @override
+  String get growthPhaseBook7 => 'Osadus vaimudega';
+
+  @override
+  String get growthPhaseBook8 => 'Tõe grimuaar';
+
+  @override
+  String get growthPhaseBook9 => 'Kõikvõimas ülestähendus';
+
+  @override
+  String growthMagicBookLevel(int level) {
+    return 'Maagiaraamatu tase $level';
+  }
+
+  @override
+  String growthMagicBookKnowledge(int current, int max) {
+    return 'Teadmised: $current / $max';
+  }
+
+  @override
+  String growthCrystalBallMana(int current, int max) {
+    return 'Mana: $current / $max';
+  }
+
+  @override
+  String growthMagicBookExpGained(int amount) {
+    return 'Maagiaraamatu teadmised on süvenenud! Exp +$amount';
+  }
+
+  @override
+  String growthUpgradeMagicBookButton(int amount) {
+    return 'Uuenda maagiaraamatut ($amount tolmu)';
+  }
+
+  @override
+  String get devDustCharged => 'Arendus: 1000 maagilist tolmu laetud!';
+
+  @override
+  String growthUpgradeButtonCost(int amount) {
+    return 'Upgrade Crystal Ball ($amount Dust)';
+  }
+
+  @override
+  String get menuSectionNews => 'Uudised ja teated';
+
+  @override
+  String get menuMailboxTitle => 'Postkast';
+
+  @override
+  String get menuMailboxSubtitle => 'Vaadake uusi värskendusi ja kingitusi';
+
+  @override
+  String get mailboxTitle => 'Postkast';
+
+  @override
+  String get mailboxAllRewardsClaimed => 'Kõik auhinnad on välja nõutud.';
+
+  @override
+  String get mailboxClaimAll => 'Nõudke kõike';
+
+  @override
+  String get mailboxEmpty => 'Postkast on tühi.';
+
+  @override
+  String mailboxSenderAndDate(String sender, String date) {
+    return 'Saatja: $sender • $date';
+  }
+
+  @override
+  String get mailboxClaimed => 'Väidetud';
+
+  @override
+  String get mailboxClaim => 'Nõue';
+
+  @override
+  String get mailboxAttachedRewards => 'Lisatud auhinnad';
+
+  @override
+  String get mailboxRewardClaimed => 'Preemia nõutud.';
+
+  @override
+  String get mailboxClaimReward => 'Nõudke preemiat';
+
+  @override
+  String get menuNotificationCenterTitle => 'Teavituskeskus';
+
+  @override
+  String get menuNotificationCenterSubtitle =>
+      'Kontrollige viimaseid teateid ja teadaandeid';
+
+  @override
+  String get authSignupComplete =>
+      'Registreerumine on lõppenud. Kontrollige kinnitamiseks teile saadetud meili.';
+
+  @override
+  String chatInitError(String error) {
+    return 'Initsialiseerimisel ilmnes viga:\n$error';
+  }
+
+  @override
+  String chatError(String error, String stackTrace) {
+    return 'Ilmnes viga:\n$error\n\n$stackTrace';
+  }
+
+  @override
+  String chatPositionLabel(int number) {
+    return 'Positsioon $number';
+  }
+
+  @override
+  String communityTranslationFailed(String error) {
+    return 'Tõlge ebaõnnestus: $error';
+  }
+
+  @override
+  String get diarySelectDate => 'Valige kuupäev';
+
+  @override
+  String get diarySavedSuccess => 'Päeviku salvestamine õnnestus!';
+
+  @override
+  String get diarySaveFailed => 'Päeviku salvestamine ebaõnnestus.';
+
+  @override
+  String get diaryWriteTitle => 'Kirjutage päevik';
+
+  @override
+  String get diaryWriteHint =>
+      'Kirjutage julgelt oma mõtteid või tundeid tänase lugemise kohta.';
+
+  @override
+  String get diarySaveButton => 'Salvesta päevikusse';
+
+  @override
+  String myMenuAppVersion(String version) {
+    return 'Versioon $version';
+  }
+
+  @override
+  String get readingSpreadLabelToday => 'Tänane õnn';
+
+  @override
+  String get readingSpreadLabelPast1 => '1. Minevik';
+
+  @override
+  String get readingSpreadLabelPresent2 => '2. Kohal';
+
+  @override
+  String get readingSpreadLabelFuture3 => '3. Tulevik';
+
+  @override
+  String get readingSpreadLabelCurrent1 => '1. Praegune';
+
+  @override
+  String get readingSpreadLabelPast2 => '2. Minevik';
+
+  @override
+  String get readingSpreadLabelFuture3Alt => '3. Tulevik';
+
+  @override
+  String get readingSpreadLabelCause4 => '4. Põhjus';
+
+  @override
+  String get readingSpreadLabelPotential5 => '5. Potentsiaal';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1 => '1. Hetkeseis ja probleem';
+
+  @override
+  String get readingSpreadLabelCauseOfProblem2 => '2. Probleemi põhjus';
+
+  @override
+  String get readingSpreadLabelAdviceForResolution3 =>
+      '3. Nõuanded lahendamiseks';
+
+  @override
+  String get readingSpreadLabelExpectedResult4 => '4. Oodatav tulemus';
+
+  @override
+  String get readingSpreadLabelCurrentSituation1Alt => '1. Hetkeolukord';
+
+  @override
+  String get readingSpreadLabelObstacle2 => '2. Takistus';
+
+  @override
+  String get readingSpreadLabelUnconscious3 => '3. Teadvuseta';
+
+  @override
+  String get readingSpreadLabelPast4 => '4. Minevik';
+
+  @override
+  String get readingSpreadLabelConsciousGoal5 => '5. Teadlik eesmärk';
+
+  @override
+  String get readingSpreadLabelNearFuture6 => '6. Lähitulevik';
+
+  @override
+  String get readingSpreadLabelAttitude7 => '7. Suhtumine';
+
+  @override
+  String get readingSpreadLabelExternalEnvironment8 => '8. Väliskeskkond';
+
+  @override
+  String get readingSpreadLabelHopesAndFears9 => '9. Lootused ja hirmud';
+
+  @override
+  String get readingSpreadLabelFinalResult10 => '10. Lõpptulemus';
+
+  @override
+  String get readingSpreadLabelAdvice4 => '4. Nõuanded';
+
+  @override
+  String get readingSpreadLabelSurroundings5 => '5. Ümbruskond';
+
+  @override
+  String get readingSpreadLabelResult6 => '6. Tulemus';
+
+  @override
+  String shopBonusCoins(String amount) {
+    return 'Boonus $amount';
+  }
+
+  @override
+  String shopCoins(int amount) {
+    return '$amount mündid';
+  }
+
+  @override
+  String get serviceLoginRequired => 'Sisselogimine on vajalik.';
+
+  @override
+  String get serviceDefaultNickname => 'Nimetu nõid';
+
+  @override
+  String serviceTarotReadingError(String error) {
+    return 'Varanduse lugemisel ilmnes viga: $error';
+  }
+
+  @override
+  String get defaultUserDisplayName => 'Kasutaja';
+
+  @override
+  String get listenToInterpretation => 'Kuulake tõlget';
+
+  @override
+  String get faqQ1 => 'Kas ma saan tarot iga päev lugeda?';
+
+  @override
+  String get faqA1 =>
+      'Jah, tänase päeva voolu on hea kerge südamega lugeda. Samas ei ole soovitatav sama küsimuse jaoks joonistuskaarte korduvalt alles hoida.';
+
+  @override
+  String get faqQ2 => 'Kuidas saada maagilist tolmu?';
+
+  @override
+  String get faqA2 =>
+      'Võlutolmu võite hankida rakendustes osalemise, kogukonna tegevuste või poes ostmise kaudu.';
+
+  @override
+  String get faqQ3 => 'Mida teha, kui tulemus on halb?';
+
+  @override
+  String get faqA3 =>
+      'Tarot ei ole kindel tulevik, vaid nõuanne. Kasutage halba tulemust verstapostina, et hoiatada teid riskide eest, mida vältida.';
+
+  @override
+  String get faqQ4 => 'Kuidas ma saan näha oma varasemaid tarotnäite?';
+
+  @override
+  String get faqA4 =>
+      'Saate igal ajal oma salvestatud lugemiskirjeid kuupäeva järgi üle vaadata alumise menüü vahekaardil „Päevik” (Kalender).';
+
+  @override
+  String get faqQ5 => 'Kuidas ma saan kogukonnaga jagada?';
+
+  @override
+  String get faqA5 =>
+      'Lülitage päevikusse salvestatud päeviku üksikasjade ekraanil sisse lüliti „Jaga kogukonnaga”, et jagada oma lugemist teiste kasutajatega.';
+
+  @override
+  String get faqQ6 => 'Kuidas ma saan oma hüüdnime või profiili muuta?';
+
+  @override
+  String get faqA6 =>
+      'Saate oma hüüdnime ja ikooni igal ajal muuta, puudutades vahekaardi Minu menüü ülaosas profiiliala.';
+
+  @override
+  String get faqQ7 => 'Kus saan märguandeid sisse ja välja lülitada?';
+
+  @override
+  String get faqA7 =>
+      'Saate juhtida märguandeid oma seadme seadete rakendusest või eelistuste menüüst, mida edaspidi värskendatakse.';
+
+  @override
+  String get faqQ8 => 'Kas ma saan näha teiste inimeste taropäevikuid?';
+
+  @override
+  String get faqA8 =>
+      'Jah, saate vaadata ja rõõmustada huvitavate tarot lugemistega, mille teised võlurid (kasutajad) on avalikustanud, allosas asuval vahekaardil „Kogukond”.';
+
+  @override
+  String get faqQ9 =>
+      'Kust ma saan kontrollida oma lisatasu tellimust või maksete ajalugu?';
+
+  @override
+  String get faqA9 =>
+      'Kui valite allmenüü vahekaardil [Minu teave] \'Makseajalugu\', saate üksikasjalikult kontrollida oma mündimaksete ajalugu ja omandatud võlutolmu.';
+
+  @override
+  String get faqQ10 =>
+      'Tahan isiklikult uurida Taro kaartide tähendust. Kuidas ma saan seda teha?';
+
+  @override
+  String get faqA10 =>
+      'Kui lähete alumises menüüs vahekaardile [Kaardentsüklopeedia], saate vabalt vaadata kõigi 78 kaardi püstiseid ja vastupidiseid tähendusi, sümboleid ja põhjalikke selgitusi.';
+
+  @override
+  String get faqQ11 => 'Kuidas ma saan oma konto kustutada või välja võtta?';
+
+  @override
+  String get faqA11 =>
+      'Nupu „Kustuta konto” leiate, kui avate menüü Konto sätted vahekaardi [Minu teave] paremas ülanurgas oleva hammasrattaikooni kaudu. Kõik päevikud ja andmed kustutatakse loobumisel jäädavalt.';
+
+  @override
+  String get faqQ12 =>
+      'Kuhu ma peaksin ühendust võtma, kui ilmneb viga või on soovitusi?';
+
+  @override
+  String get faqA12 =>
+      'Kui saadate üksikasju praeguse ekraani allosas ettevalmistamisel oleva „Võtke ühendust klienditeenindusega” või ametliku meili teel, kontrollime seda kiiresti ja lahendame selle teie eest võluväel.';
+
+  @override
+  String get myMenuContactUs => 'Võtke meiega ühendust';
+
+  @override
+  String get myMenuContactUsSubtitle => 'Päringud ja ettepanekud';
+
+  @override
+  String get contactDialogTitle => 'Võtke meiega ühendust';
+
+  @override
+  String get contactTypeBug => 'Veaaruanne';
+
+  @override
+  String get contactTypeFeature => 'Funktsiooni soovitus';
+
+  @override
+  String get contactTypePayment => 'Makseprobleem';
+
+  @override
+  String get contactTypeOther => 'Muu päring';
+
+  @override
+  String get contactHint => 'Palun kirjutage oma päring üksikasjalikult.';
+
+  @override
+  String get contactSend => 'Saada';
+
+  @override
+  String get contactCancel => 'Tühista';
+
+  @override
+  String get contactEmptyErrorTitle => 'Märkus';
+
+  @override
+  String get contactEmptyErrorMessage => 'Palun sisestage oma päringu sisu.';
 }

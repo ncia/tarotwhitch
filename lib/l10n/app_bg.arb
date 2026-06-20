@@ -1471,5 +1471,199 @@
   "cardDetailDataNotReady": "Подробните данни за тълкуване все още не са готови.",
   "cardDetailNoData": "Няма налични данни.",
   "buttonSaveReading": "Запазете четенето на Таро",
-  "readingSavedToDevice": "Запазено в устройството."
+  "readingSavedToDevice": "Запазено в устройството.",
+  "@growthPhaseFormat": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "growthPhaseFormat": "[{level} Фаза: {name}]",
+  "growthTabMagicBook": "Подобряване на магическа книга",
+  "growthPhaseCrystal0": "Бездна магия",
+  "growthPhaseCrystal1": "Отваряне на Духовното око",
+  "growthPhaseCrystal2": "Мъдрост на Майката Природа",
+  "growthPhaseCrystal3": "Същност на Слънцето",
+  "growthPhaseCrystal4": "Небесна Аврора",
+  "growthPhaseCrystal5": "Божествено Царство",
+  "growthPhaseCrystal6": "Магия на Сътворението",
+  "growthPhaseCrystal7": "Дъх на Вселената",
+  "growthPhaseCrystal8": "Вечна Светлина",
+  "growthPhaseCrystal9": "Чисто Бяло Пробуждане",
+  "growthPhaseCrystal10": "Трансцендентност",
+  "growthPhaseBook0": "Писмени инструменти на чирака",
+  "growthPhaseBook1": "Основен магически наръчник",
+  "growthPhaseBook2": "Древна рунна граматика",
+  "growthPhaseBook3": "Разбиране на Елементалната магия",
+  "growthPhaseBook4": "Хармония на Звездната светлина",
+  "growthPhaseBook5": "Разшифроване на артефакти",
+  "growthPhaseBook6": "Забранена книга на Мъдреца",
+  "growthPhaseBook7": "Общуване с Духове",
+  "growthPhaseBook8": "Гримоар на Истината",
+  "growthPhaseBook9": "Всемогъща хроника",
+  "@growthMagicBookLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookKnowledge": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthCrystalBallMana": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthMagicBookExpGained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "@growthUpgradeMagicBookButton": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "growthMagicBookLevel": "Ниво на магическа книга {level}",
+  "growthMagicBookKnowledge": "Знание: {current} / {max}",
+  "growthCrystalBallMana": "Мана: {current} / {max}",
+  "growthMagicBookExpGained": "Знанието на магическата книга се задълбочи! Опит +{amount}",
+  "growthUpgradeMagicBookButton": "Надграждане на магическа книга ({amount} прах)",
+  "devDustCharged": "Разработка: 1000 магически прах заредени!",
+  "growthUpgradeButtonCost": "Upgrade Crystal Ball ({amount} Dust)",
+  "@growthUpgradeButtonCost": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "menuSectionNews": "Новини и известия",
+  "menuMailboxTitle": "Пощенска кутия",
+  "menuMailboxSubtitle": "Проверете нови актуализации и подаръци",
+  "mailboxTitle": "Пощенска кутия",
+  "mailboxAllRewardsClaimed": "Всички награди са поискани.",
+  "mailboxClaimAll": "Искане за всички",
+  "mailboxEmpty": "Пощенската кутия е празна.",
+  "mailboxSenderAndDate": "От: {sender} • {date}",
+  "mailboxClaimed": "Заявено",
+  "mailboxClaim": "Иск",
+  "mailboxAttachedRewards": "Приложени награди",
+  "mailboxRewardClaimed": "Поискана награда.",
+  "mailboxClaimReward": "Поискайте награда",
+  "@mailboxSenderAndDate": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "menuNotificationCenterTitle": "Център за уведомяване",
+  "menuNotificationCenterSubtitle": "Проверете последните известия и съобщения",
+  "authSignupComplete": "Регистрацията приключи. Моля, проверете изпратения ви имейл, за да потвърдите.",
+  "chatInitError": "Initialization error occurred:\n{error}",
+  "chatError": "Error occurred:\n{error}\n\n{stackTrace}",
+  "chatPositionLabel": "Position {number}",
+  "communityTranslationFailed": "Translation failed: {error}",
+  "diarySelectDate": "Изберете дата",
+  "diarySavedSuccess": "Дневникът е запазен успешно!",
+  "diarySaveFailed": "Неуспешно запазване на дневника.",
+  "diaryWriteTitle": "Напиши дневник",
+  "diaryWriteHint": "Чувствайте се свободни да напишете вашите мисли или чувства относно днешното четене.",
+  "diarySaveButton": "Запазване в дневника",
+  "myMenuAppVersion": "Версия {version}",
+  "readingSpreadLabelToday": "Днес Fortune",
+  "readingSpreadLabelPast1": "1. Минало",
+  "readingSpreadLabelPresent2": "2. Настояще",
+  "readingSpreadLabelFuture3": "3. Бъдеще",
+  "readingSpreadLabelCurrent1": "1. Ток",
+  "readingSpreadLabelPast2": "2. Минало",
+  "readingSpreadLabelFuture3Alt": "3. Бъдеще",
+  "readingSpreadLabelCause4": "4. Причина",
+  "readingSpreadLabelPotential5": "5. Потенциал",
+  "readingSpreadLabelCurrentSituation1": "1. Текуща ситуация и проблем",
+  "readingSpreadLabelCauseOfProblem2": "2. Cause of problem",
+  "readingSpreadLabelAdviceForResolution3": "3. Съвет за разрешаване",
+  "readingSpreadLabelExpectedResult4": "4. Очакван резултат",
+  "readingSpreadLabelCurrentSituation1Alt": "1. Текуща ситуация",
+  "readingSpreadLabelObstacle2": "2. Пречка",
+  "readingSpreadLabelUnconscious3": "3. Безсъзнание",
+  "readingSpreadLabelPast4": "4. Past",
+  "readingSpreadLabelConsciousGoal5": "5. Съзнателна цел",
+  "readingSpreadLabelNearFuture6": "6. Близко бъдеще",
+  "readingSpreadLabelAttitude7": "7. Отношение",
+  "readingSpreadLabelExternalEnvironment8": "8. Външна среда",
+  "readingSpreadLabelHopesAndFears9": "9. Надежди и страхове",
+  "readingSpreadLabelFinalResult10": "10. Краен резултат",
+  "readingSpreadLabelAdvice4": "4. Съвети",
+  "readingSpreadLabelSurroundings5": "5. Околна среда",
+  "readingSpreadLabelResult6": "6. Резултат",
+  "shopBonusCoins": "Bonus {amount}",
+  "shopCoins": "{amount} Coins",
+  "serviceLoginRequired": "Изисква се влизане.",
+  "serviceDefaultNickname": "Безименна вещица",
+  "serviceTarotReadingError": "Възникна грешка при четене на предсказанието: {error}",
+  "defaultUserDisplayName": "Потребител",
+  "listenToInterpretation": "Слушайте тълкуване",
+  "faqQ1": "Мога ли да чета таро всеки ден?",
+  "faqA1": "Да, добре е да четеш потока на днешния ден с леко сърце. Не се препоръчва обаче да продължавате да теглите карти многократно за един и същ въпрос.",
+  "faqQ2": "Как да получа магически прах?",
+  "faqA2": "Можете да получите магически прах чрез посещение на приложение, дейности в общността или покупка в магазина.",
+  "faqQ3": "Какво трябва да направя, ако резултатът е лош?",
+  "faqA3": "Таро не е фиксирано бъдеще, а съвет. Използвайте лош резултат като крайъгълен камък, за да ви предупреди за рисковете, които трябва да избягвате.",
+  "faqQ4": "Как мога да видя моите минали показания на таро?",
+  "faqA4": "Можете да прегледате запазените си записи за четене по дата в раздела „Дневник“ (Календар) в долното меню по всяко време.",
+  "faqQ5": "Как да споделя с общността?",
+  "faqA5": "Включете превключвателя „Споделяне в общността“ на екрана с подробности за дневника, записан в дневника, за да споделите четенето си с други потребители.",
+  "faqQ6": "Как мога да сменя моя псевдоним или профил?",
+  "faqA6": "Можете да промените псевдонима и иконата си по всяко време, като докоснете областта на профила в горната част на раздела „Моето меню“.",
+  "faqQ7": "Къде мога да включа и изключа известията?",
+  "faqA7": "Можете да контролирате известията от приложението за настройки на вашето устройство или от менюто с предпочитания, които да бъдат актуализирани в бъдеще.",
+  "faqQ8": "Мога ли да видя дневниците на таро на други хора?",
+  "faqA8": "Да, можете да гледате и да се радвате за интересни четения на таро, които други магьосници (потребители) са направили публични в раздела „Общност“ в долната част.",
+  "faqQ9": "Къде мога да проверя моя премиум абонамент или хронология на плащанията?",
+  "faqA9": "Ако изберете „История на плащанията“ в раздела [Моята информация] в долното меню, можете да проверите подробно историята на плащанията си с монети и придобития магически прах.",
+  "faqQ10": "Искам лично да проуча значението на картите Таро. Как мога да направя това?",
+  "faqA10": "Ако отидете в раздела [Енциклопедия на карти] в долното меню, можете свободно да видите изправените и обърнати значения, символи и задълбочени обяснения на всичките 78 карти.",
+  "faqQ11": "Как мога да изтрия акаунта си или да изтегля?",
+  "faqA11": "Можете да намерите бутона „Изтриване на акаунт“, като отидете в менюто „Настройки на акаунта“ чрез иконата на зъбно колело в горния десен ъгъл на раздела [Моята информация]. Всички дневници и данни ще бъдат изтрити за постоянно при теглене.",
+  "faqQ12": "Къде да се свържа, ако срещна грешка или имам предложения?",
+  "faqA12": "Ако изпратите подробности чрез „Свържете се с обслужването на клиенти“, което се подготвя в долната част на текущия екран, или чрез официален имейл, ние бързо ще проверим и магически ще го разрешим вместо вас.",
+  "myMenuContactUs": "Свържете се с нас",
+  "myMenuContactUsSubtitle": "Запитвания и предложения",
+  "contactDialogTitle": "Свържете се с нас",
+  "contactTypeBug": "Доклад за грешка",
+  "contactTypeFeature": "Предложение за функция",
+  "contactTypePayment": "Проблем с плащането",
+  "contactTypeOther": "Други запитвания",
+  "contactHint": "Моля, напишете подробно вашето запитване.",
+  "contactSend": "Изпратете",
+  "contactCancel": "Отказ",
+  "contactEmptyErrorTitle": "Забележете",
+  "contactEmptyErrorMessage": "Моля, въведете съдържанието на вашето запитване."
 }
