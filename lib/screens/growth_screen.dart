@@ -171,7 +171,7 @@ class _MagicBookTabState extends State<_MagicBookTab> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text('마법책 레벨 $level', style: Theme.of(context).textTheme.displayLarge),
+                      Text('마법책 레벨 $level', style: Theme.of(context).textTheme.titleLarge),
                       const SizedBox(height: 20),
                       Image.asset(
                         'assets/images/magic_book.png',
@@ -252,10 +252,12 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
     return ListenableBuilder(
       listenable: EconomyService(),
       builder: (context, _) {
-        final level = EconomyService().crystalBallExp;
+        final exp = EconomyService().crystalBallExp;
         final dust = EconomyService().magicDust;
-        final hexColor = Color(0xFF000000 + level);
-        final hexString = '#${level.toRadixString(16).padLeft(6, '0').toUpperCase()}';
+        final displayLevel = (exp / 50).floor() + 1;
+        final progress = (exp % 50) / 50.0;
+        final hexColor = Color(0xFF000000 + exp);
+        final hexString = '#${exp.toRadixString(16).padLeft(6, '0').toUpperCase()}';
 
         return LayoutBuilder(
           builder: (context, constraints) {
@@ -266,22 +268,25 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              GestureDetector(
-                onTap: () {
-                  // 개발 테스트용: 마력의 가루 1000개 충전
-                  EconomyService().addMagicDust(1000);
-                  ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('개발용: 마력의 가루 1000개 충전 완료!')));
-                },
-                child: GlassContainer(
-                  padding: const EdgeInsets.all(16),
-                  borderRadius: 20,
-                  child: Text(
-                    AppLocalizations.of(context)!.growthDustOwned(level * 10),
-                    style: const TextStyle(color: Colors.purpleAccent, fontSize: 18, fontWeight: FontWeight.bold),
-                  ),
+              Text(AppLocalizations.of(context)!.growthCrystalBallLevel(displayLevel), style: Theme.of(context).textTheme.titleLarge),
+              const SizedBox(height: 10),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 40),
+                child: Column(
+                  children: [
+                    LinearProgressIndicator(
+                      value: progress,
+                      backgroundColor: Colors.white24,
+                      color: Colors.purpleAccent,
+                      minHeight: 12,
+                      borderRadius: BorderRadius.circular(6),
+                    ),
+                    const SizedBox(height: 8),
+                    Text('마력: ${exp % 50} / 50', style: const TextStyle(color: Colors.white70)),
+                  ],
                 ),
               ),
-              const SizedBox(height: 10),
+              const SizedBox(height: 20),
               GestureDetector(
                 onTap: _isUpgrading ? null : _upgradeBall,
                 child: Stack(
@@ -311,7 +316,23 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
                   ],
                 ),
               ),
-              const SizedBox(height: 60),
+              const SizedBox(height: 40),
+              GestureDetector(
+                onTap: () {
+                  // 개발 테스트용: 마력의 가루 1000개 충전
+                  EconomyService().addMagicDust(1000);
+                  ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('개발용: 마력의 가루 1000개 충전 완료!')));
+                },
+                child: GlassContainer(
+                  padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 12),
+                  borderRadius: 20,
+                  child: Text(
+                    AppLocalizations.of(context)!.growthDustOwned(exp * 10),
+                    style: const TextStyle(color: Colors.purpleAccent, fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                ),
+              ),
+              const SizedBox(height: 40),
               ElevatedButton.icon(
                 onPressed: _isUpgrading ? null : _upgradeBall,
                 icon: const Icon(Icons.auto_awesome),
