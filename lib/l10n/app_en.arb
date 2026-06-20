@@ -1055,7 +1055,7 @@
   "growthExp": "Exp: ",
   "growthWaterFree": "Water for Free",
   "growthWaterSuccess": "Watered the World Tree! Exp +10 💧",
-  "growthDustOwned": "Magic Dust Owned: {dust}",
+  "growthDustOwned": "Magic Dust Used: {dust}",
   "@growthDustOwned": {
     "placeholders": {
       "dust": {

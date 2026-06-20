@@ -6,6 +6,8 @@ import '../widgets/shared_bottom_nav_bar.dart';
 import '../widgets/top_floating_icons.dart';
 import 'main_screen.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class GrowthScreen extends StatefulWidget {
   const GrowthScreen({super.key});
@@ -78,9 +80,9 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
-                                  const Icon(Icons.park),
+                                  const Icon(Icons.menu_book),
                                   const SizedBox(width: 8),
-                                  Text(AppLocalizations.of(context)!.growthTabWorldTree),
+                                  const Text('마법책 강화'), // AppLocalizations.of(context)!.growthTabWorldTree 대신 하드코딩
                                   const SizedBox(width: 32),
                                 ],
                               ),
@@ -95,7 +97,7 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
                       controller: _tabController,
                       children: const [
                         _CrystalBallTab(),
-                        _WorldTreeTab(),
+                        _MagicBookTab(),
                       ],
                     ),
                   ),
@@ -126,27 +128,27 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
   }
 }
 
-class _WorldTreeTab extends StatefulWidget {
-  const _WorldTreeTab();
+class _MagicBookTab extends StatefulWidget {
+  const _MagicBookTab();
 
   @override
-  State<_WorldTreeTab> createState() => _WorldTreeTabState();
+  State<_MagicBookTab> createState() => _MagicBookTabState();
 }
 
-class _WorldTreeTabState extends State<_WorldTreeTab> {
-  bool _isWatering = false;
+class _MagicBookTabState extends State<_MagicBookTab> {
+  bool _isEnhancing = false;
 
-  void _waterTree() async {
+  void _enhanceBook() async {
     setState(() {
-      _isWatering = true;
+      _isEnhancing = true;
     });
-    await EconomyService().addWorldTreeExp(10);
+    await EconomyService().addWorldTreeExp(10); // 임시로 worldTreeExp를 사용합니다.
     if (mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text(AppLocalizations.of(context)!.growthWaterSuccess)),
+        const SnackBar(content: Text('마법책의 지식이 깊어졌습니다! Exp +10')),
       );
       setState(() {
-        _isWatering = false;
+        _isEnhancing = false;
       });
     }
   }
@@ -168,45 +170,45 @@ class _WorldTreeTabState extends State<_WorldTreeTab> {
                 child: Center(
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(AppLocalizations.of(context)!.growthWorldTreeLevel(level), style: Theme.of(context).textTheme.displayLarge),
-              const SizedBox(height: 20),
-              // 세계수 이미지 (레벨에 따라 다른 이미지 등을 보여줄 수 있음)
-              Icon(
-                Icons.park,
-                size: 150 + (level * 10).clamp(0, 100).toDouble(),
-                color: Colors.greenAccent,
-              ),
-              const SizedBox(height: 40),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 40),
-                child: Column(
-                  children: [
-                    LinearProgressIndicator(
-                      value: progress,
-                      backgroundColor: Colors.white24,
-                      color: Colors.greenAccent,
-                      minHeight: 12,
-                      borderRadius: BorderRadius.circular(6),
-                    ),
-                    const SizedBox(height: 8),
-                    Text('${AppLocalizations.of(context)!.growthExp}${exp % 50} / 50', style: const TextStyle(color: Colors.white70)),
-                  ],
-                ),
-              ),
-              const SizedBox(height: 40),
-              ElevatedButton.icon(
-                onPressed: _isWatering ? null : _waterTree,
-                icon: const Icon(Icons.water_drop),
-                label: Text(AppLocalizations.of(context)!.growthWaterFree),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blueAccent,
-                  foregroundColor: Colors.white,
-                  padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-                ),
-              ),
-            ],
+                    children: [
+                      Text('마법책 레벨 $level', style: Theme.of(context).textTheme.displayLarge),
+                      const SizedBox(height: 20),
+                      Image.asset(
+                        'assets/images/magic_book.png',
+                        width: 150 + (level * 5).clamp(0, 100).toDouble(),
+                        height: 150 + (level * 5).clamp(0, 100).toDouble(),
+                        fit: BoxFit.contain,
+                      ),
+                      const SizedBox(height: 40),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 40),
+                        child: Column(
+                          children: [
+                            LinearProgressIndicator(
+                              value: progress,
+                              backgroundColor: Colors.white24,
+                              color: Colors.blueAccent,
+                              minHeight: 12,
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                            const SizedBox(height: 8),
+                            Text('지식: ${exp % 50} / 50', style: const TextStyle(color: Colors.white70)),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(height: 40),
+                      ElevatedButton.icon(
+                        onPressed: _isEnhancing ? null : _enhanceBook,
+                        icon: const Icon(Icons.auto_awesome),
+                        label: const Text('마법책 읽기 (무료)'),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.indigoAccent,
+                          foregroundColor: Colors.white,
+                          padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
@@ -266,15 +268,15 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
             children: [
               GestureDetector(
                 onTap: () {
-                  // 테스트용: 마력의 가루 1000개 지급 (추후 삭제)
+                  // 개발 테스트용: 마력의 가루 1000개 충전
                   EconomyService().addMagicDust(1000);
-                  ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('테스트용 마력의 가루 1000개 지급!')));
+                  ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('개발용: 마력의 가루 1000개 충전 완료!')));
                 },
                 child: GlassContainer(
                   padding: const EdgeInsets.all(16),
                   borderRadius: 20,
                   child: Text(
-                    AppLocalizations.of(context)!.growthDustOwned(dust),
+                    AppLocalizations.of(context)!.growthDustOwned(level * 10),
                     style: const TextStyle(color: Colors.purpleAccent, fontSize: 18, fontWeight: FontWeight.bold),
                   ),
                 ),
@@ -287,22 +289,15 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
                   children: [
                     // 색상 오버레이를 이미지 뒤에 배치하여 유리 반사 효과를 살림
                     Positioned(
-                      top: 42, // 실제 구슬 안쪽에 맞게 위에서 아래로 더 내림
+                      top: 44, // 윗부분 1픽셀 추가 축소를 위해 내림
                       child: IgnorePointer(
                         child: AnimatedContainer(
                           duration: const Duration(milliseconds: 300),
-                          width: 125, // 구슬 실제 지름에 맞게 축소
-                          height: 125,
+                          width: 122, // 1픽셀 추가 축소
+                          height: 122,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
-                            color: hexColor.withOpacity(0.8), // 뒤에 배치되므로 불투명도 증가
-                            boxShadow: [
-                              BoxShadow(
-                                color: hexColor.withOpacity(0.5),
-                                blurRadius: 20,
-                                spreadRadius: 5,
-                              ),
-                            ]
+                            color: hexColor.withOpacity(0.8), // 그림자 렌더링으로 인해 삐져나오는 현상 방지를 위해 그림자 완전 제거
                           ),
                         ),
                       ),

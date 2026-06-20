@@ -2916,7 +2916,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String growthDustOwned(int dust) {
-    return '보유 마력의 가루: $dust 개';
+    return '마력의 가루 사용: $dust 개';
   }
 
   @override

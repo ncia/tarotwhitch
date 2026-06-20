@@ -1028,7 +1028,7 @@
   "growthExp": "경험치: ",
   "growthWaterFree": "무료로 물 주기",
   "growthWaterSuccess": "세계수에 물을 주어 경험치가 10 상승했습니다! 💧",
-  "growthDustOwned": "보유 마력의 가루: {dust} 개",
+  "growthDustOwned": "마력의 가루 사용: {dust} 개",
   "@growthDustOwned": {
     "placeholders": {
       "dust": {

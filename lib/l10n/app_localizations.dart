@@ -5907,7 +5907,7 @@ abstract class AppLocalizations {
   /// No description provided for @growthDustOwned.
   ///
   /// In en, this message translates to:
-  /// **'Magic Dust Owned: {dust}'**
+  /// **'Magic Dust Used: {dust}'**
   String growthDustOwned(int dust);
 
   /// No description provided for @growthCrystalBallLevel.

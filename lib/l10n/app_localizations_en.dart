@@ -3086,7 +3086,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String growthDustOwned(int dust) {
-    return 'Magic Dust Owned: $dust';
+    return 'Magic Dust Used: $dust';
   }
 
   @override
