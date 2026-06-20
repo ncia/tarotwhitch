@@ -64,7 +64,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get positionOneCard => 'Kard ngayon';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '1. Kasalukuyang Sitwasyon';
 
   @override
   String get positionTwoCard2 => '2. Payo';
@@ -73,7 +73,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get positionThreeCard1 => 'nakaraan';
 
   @override
-  String get positionThreeCard2 => 'Present';
+  String get positionThreeCard2 => 'Kasalukuyan';
 
   @override
   String get positionThreeCard3 => 'kinabukasan';
@@ -121,7 +121,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get positionCelticCross5 => '5. May kamalayan';
 
   @override
-  String get positionCelticCross6 => '6. Subconscious';
+  String get positionCelticCross6 => '6. Hindi Malay na Batayan';
 
   @override
   String get positionCelticCross7 => '7. Payo';
@@ -1233,7 +1233,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get themeName3 => 'Tema 3';
 
   @override
-  String get themeMagicBook => 'Magic Book';
+  String get themeMagicBook => 'Aklat ng Salamangka';
 
   @override
   String get themeBlackCat => 'Itim na Pusa';
@@ -1336,7 +1336,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get myMenuSectionCustomerSupport => 'Suporta sa Customer';
 
   @override
-  String get myMenuFaq => 'FAQ';
+  String get myMenuFaq => 'Mga Madalas Itanong (FAQ)';
 
   @override
   String get myMenuAppInfo => 'Impormasyon ng App';
@@ -1345,7 +1345,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get myMenuSectionAccountManagement => 'Pamamahala ng Account';
 
   @override
-  String get myMenuLogout => 'Log Out';
+  String get myMenuLogout => 'Mag-logout';
 
   @override
   String get myMenuLogoutDesc => 'Mag-log out mula sa kasalukuyang device.';
@@ -1375,7 +1375,7 @@ class AppLocalizationsTl extends AppLocalizations {
       'Hindi Na-verify ang Email (I-tap para i-verify)';
 
   @override
-  String get languageSystemDefault => 'System Default';
+  String get languageSystemDefault => 'Default (Mga Setting ng System)';
 
   @override
   String get shopTitle => 'Mamili';
@@ -1516,7 +1516,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknamePrefix27 => 'ginto';
 
   @override
-  String get nicknamePrefix28 => 'argent';
+  String get nicknamePrefix28 => 'Pilak';
 
   @override
   String get nicknamePrefix29 => 'asul';
@@ -1534,7 +1534,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknamePrefix33 => 'puti';
 
   @override
-  String get nicknamePrefix34 => 'transparent';
+  String get nicknamePrefix34 => 'Transparent';
 
   @override
   String get nicknamePrefix35 => 'nag-iisa';
@@ -1882,7 +1882,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknamePrefix149 => 'ng pinanggalingan';
 
   @override
-  String get nicknamePrefix150 => 'apocalyptic';
+  String get nicknamePrefix150 => 'Ng Katapusan';
 
   @override
   String get nicknamePrefix151 => 'walang hanggan';
@@ -1978,7 +1978,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknamePrefix181 => 'haka-haka';
 
   @override
-  String get nicknamePrefix182 => 'natural';
+  String get nicknamePrefix182 => 'Ng Kalikasan';
 
   @override
   String get nicknamePrefix183 => 'artipisyal';
@@ -2008,7 +2008,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknamePrefix191 => 'umaagos';
 
   @override
-  String get nicknamePrefix192 => 'rundown';
+  String get nicknamePrefix192 => 'Huminto';
 
   @override
   String get nicknamePrefix193 => 'nagliliyab';
@@ -2038,7 +2038,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix0 => 'propeta';
 
   @override
-  String get nicknameSuffix1 => 'wizard';
+  String get nicknameSuffix1 => 'Mago';
 
   @override
   String get nicknameSuffix2 => 'mangkukulam';
@@ -2059,7 +2059,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix7 => 'mamamatay-tao';
 
   @override
-  String get nicknameSuffix8 => 'paladin';
+  String get nicknameSuffix8 => 'Paladin';
 
   @override
   String get nicknameSuffix9 => 'pari';
@@ -2071,19 +2071,19 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix11 => 'monghe';
 
   @override
-  String get nicknameSuffix12 => 'powwow';
+  String get nicknameSuffix12 => 'Shaman';
 
   @override
-  String get nicknameSuffix13 => 'alchemist';
+  String get nicknameSuffix13 => 'Alchemist';
 
   @override
-  String get nicknameSuffix14 => 'necromancer';
+  String get nicknameSuffix14 => 'Necromancer';
 
   @override
   String get nicknameSuffix15 => 'espiritista';
 
   @override
-  String get nicknameSuffix16 => 'summoner';
+  String get nicknameSuffix16 => 'Summoner';
 
   @override
   String get nicknameSuffix17 => 'ilusyonista';
@@ -2101,7 +2101,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix21 => 'mananaliksik';
 
   @override
-  String get nicknameSuffix22 => 'explorer';
+  String get nicknameSuffix22 => 'Explorer';
 
   @override
   String get nicknameSuffix23 => 'manlalakbay';
@@ -2113,7 +2113,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix25 => 'palaboy';
 
   @override
-  String get nicknameSuffix26 => 'pilgrim';
+  String get nicknameSuffix26 => 'Pilgrim';
 
   @override
   String get nicknameSuffix27 => 'naghahanap';
@@ -2128,10 +2128,10 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix30 => 'tagapagbalita';
 
   @override
-  String get nicknameSuffix31 => 'tutelar';
+  String get nicknameSuffix31 => 'Tagapagtanggol';
 
   @override
-  String get nicknameSuffix32 => 'warden';
+  String get nicknameSuffix32 => 'Tagapagbantay';
 
   @override
   String get nicknameSuffix33 => 'bantay';
@@ -2143,7 +2143,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix35 => 'hukom';
 
   @override
-  String get nicknameSuffix36 => 'bailiff';
+  String get nicknameSuffix36 => 'Tagapagpatupad';
 
   @override
   String get nicknameSuffix37 => 'gobernador';
@@ -2161,7 +2161,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix41 => 'emperador';
 
   @override
-  String get nicknameSuffix42 => 'empress';
+  String get nicknameSuffix42 => 'Empress';
 
   @override
   String get nicknameSuffix43 => 'maharlika';
@@ -2185,7 +2185,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix49 => 'panloloko';
 
   @override
-  String get nicknameSuffix50 => 'jester';
+  String get nicknameSuffix50 => 'Jester';
 
   @override
   String get nicknameSuffix51 => 'tanga';
@@ -2206,7 +2206,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix56 => 'bayani';
 
   @override
-  String get nicknameSuffix57 => 'saver';
+  String get nicknameSuffix57 => 'Tagapagligtas';
 
   @override
   String get nicknameSuffix58 => 'tagapagpalaya';
@@ -2242,7 +2242,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix68 => 'demonyong halimaw';
 
   @override
-  String get nicknameSuffix69 => 'dragon';
+  String get nicknameSuffix69 => 'Dragon';
 
   @override
   String get nicknameSuffix70 => 'multo';
@@ -2251,7 +2251,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix71 => 'lilim';
 
   @override
-  String get nicknameSuffix72 => 'undead';
+  String get nicknameSuffix72 => 'Undead';
 
   @override
   String get nicknameSuffix73 => 'bampira';
@@ -2272,10 +2272,10 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix78 => 'duwende';
 
   @override
-  String get nicknameSuffix79 => 'oak';
+  String get nicknameSuffix79 => 'Orc';
 
   @override
-  String get nicknameSuffix80 => 'troll';
+  String get nicknameSuffix80 => 'Troll';
 
   @override
   String get nicknameSuffix81 => 'duwende';
@@ -2308,7 +2308,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix90 => 'masamang espiritu';
 
   @override
-  String get nicknameSuffix91 => 'Sura';
+  String get nicknameSuffix91 => 'Asura';
 
   @override
   String get nicknameSuffix92 => 'impiyerno';
@@ -2317,10 +2317,10 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix93 => 'langit';
 
   @override
-  String get nicknameSuffix94 => 'underworld';
+  String get nicknameSuffix94 => 'Underworld';
 
   @override
-  String get nicknameSuffix95 => 'Otherworld';
+  String get nicknameSuffix95 => 'Ibang Mundo';
 
   @override
   String get nicknameSuffix96 => 'bangin';
@@ -2350,7 +2350,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknamePrefix204 => 'nanghihina';
 
   @override
-  String get nicknamePrefix205 => 'transparent';
+  String get nicknamePrefix205 => 'Transparent';
 
   @override
   String get nicknamePrefix206 => 'nanghihina';
@@ -2482,7 +2482,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknamePrefix248 => 'nalulungkot';
 
   @override
-  String get nicknamePrefix249 => 'miserable';
+  String get nicknamePrefix249 => 'Desperado';
 
   @override
   String get nicknamePrefix250 => 'dakila';
@@ -2518,7 +2518,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknamePrefix260 => 'kataka-taka';
 
   @override
-  String get nicknamePrefix261 => 'rapt';
+  String get nicknamePrefix261 => 'Nakakabighani';
 
   @override
   String get nicknamePrefix262 => 'kaakit-akit';
@@ -2629,7 +2629,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknamePrefix297 => 'ginto';
 
   @override
-  String get nicknamePrefix298 => 'argent';
+  String get nicknamePrefix298 => 'Pilak';
 
   @override
   String get nicknamePrefix299 => 'duguan';
@@ -2638,7 +2638,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix101 => 'naghahanap';
 
   @override
-  String get nicknameSuffix102 => 'pilgrim';
+  String get nicknameSuffix102 => 'Pilgrim';
 
   @override
   String get nicknameSuffix103 => 'palaboy';
@@ -2647,13 +2647,13 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix104 => 'ermitanyo';
 
   @override
-  String get nicknameSuffix105 => 'Ethan';
+  String get nicknameSuffix105 => 'Heretic';
 
   @override
   String get nicknameSuffix106 => 'taksil';
 
   @override
-  String get nicknameSuffix107 => 'pioneer';
+  String get nicknameSuffix107 => 'Pioneer';
 
   @override
   String get nicknameSuffix108 => 'mananakop';
@@ -2665,7 +2665,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix110 => 'orkestra';
 
   @override
-  String get nicknameSuffix111 => 'tutelar';
+  String get nicknameSuffix111 => 'Tagapagtanggol';
 
   @override
   String get nicknameSuffix112 => 'tagamasid';
@@ -2686,7 +2686,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix117 => 'pinuno';
 
   @override
-  String get nicknameSuffix118 => 'saver';
+  String get nicknameSuffix118 => 'Tagapagligtas';
 
   @override
   String get nicknameSuffix119 => 'maninira';
@@ -2719,10 +2719,10 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix128 => 'banal na tubig';
 
   @override
-  String get nicknameSuffix129 => 'refund';
+  String get nicknameSuffix129 => 'Mythical Beast';
 
   @override
-  String get nicknameSuffix130 => 'Shinsu';
+  String get nicknameSuffix130 => 'Divine Beast';
 
   @override
   String get nicknameSuffix131 => 'pagsubok';
@@ -2740,16 +2740,16 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix135 => 'mamamatay-tao';
 
   @override
-  String get nicknameSuffix136 => 'wizard';
+  String get nicknameSuffix136 => 'Mago';
 
   @override
-  String get nicknameSuffix137 => 'powwow';
+  String get nicknameSuffix137 => 'Shaman';
 
   @override
-  String get nicknameSuffix138 => 'alchemist';
+  String get nicknameSuffix138 => 'Alchemist';
 
   @override
-  String get nicknameSuffix139 => 'necromancer';
+  String get nicknameSuffix139 => 'Necromancer';
 
   @override
   String get nicknameSuffix140 => 'pari';
@@ -2761,7 +2761,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix142 => 'mananaliksik';
 
   @override
-  String get nicknameSuffix143 => 'explorer';
+  String get nicknameSuffix143 => 'Explorer';
 
   @override
   String get nicknameSuffix144 => 'manlalakbay';
@@ -2770,10 +2770,10 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix145 => 'artista';
 
   @override
-  String get nicknameSuffix146 => 'jester';
+  String get nicknameSuffix146 => 'Jester';
 
   @override
-  String get nicknameSuffix147 => 'bard';
+  String get nicknameSuffix147 => 'Bard';
 
   @override
   String get nicknameSuffix148 => 'mangangalakal';
@@ -2821,7 +2821,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix162 => 'itim na panter';
 
   @override
-  String get nicknameSuffix163 => 'Salsssop';
+  String get nicknameSuffix163 => 'Leopard';
 
   @override
   String get nicknameSuffix164 => 'pusa';
@@ -2842,7 +2842,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix169 => 'buwaya';
 
   @override
-  String get nicknameSuffix170 => 'dragon';
+  String get nicknameSuffix170 => 'Dragon';
 
   @override
   String get nicknameSuffix171 => 'kabayong may sungay';
@@ -2851,22 +2851,22 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix172 => 'Pegasus';
 
   @override
-  String get nicknameSuffix173 => 'griffon';
+  String get nicknameSuffix173 => 'Griffin';
 
   @override
-  String get nicknameSuffix174 => 'gargoyle';
+  String get nicknameSuffix174 => 'Gargoyle';
 
   @override
   String get nicknameSuffix175 => 'duwende';
 
   @override
-  String get nicknameSuffix176 => 'oak';
+  String get nicknameSuffix176 => 'Orc';
 
   @override
-  String get nicknameSuffix177 => 'troll';
+  String get nicknameSuffix177 => 'Troll';
 
   @override
-  String get nicknameSuffix178 => 'auger';
+  String get nicknameSuffix178 => 'Ogre';
 
   @override
   String get nicknameSuffix179 => 'putik';
@@ -2887,13 +2887,13 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix184 => 'taong lobo';
 
   @override
-  String get nicknameSuffix185 => 'minotaur';
+  String get nicknameSuffix185 => 'Minotaur';
 
   @override
-  String get nicknameSuffix186 => 'centaur';
+  String get nicknameSuffix186 => 'Centaur';
 
   @override
-  String get nicknameSuffix187 => 'harpy';
+  String get nicknameSuffix187 => 'Harpy';
 
   @override
   String get nicknameSuffix188 => 'sirena';
@@ -2902,7 +2902,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix189 => 'Kraken';
 
   @override
-  String get nicknameSuffix190 => 'leviathan';
+  String get nicknameSuffix190 => 'Leviathan';
 
   @override
   String get nicknameSuffix191 => 'kutsilyo';
@@ -2984,7 +2984,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get diaryNoResult => 'Walang available na resulta.';
 
   @override
-  String get diaryFollowUpTitle => 'Follow-up Note';
+  String get diaryFollowUpTitle => 'Memo ng Follow-up';
 
   @override
   String get diaryFollowUpHint =>
@@ -3098,7 +3098,7 @@ class AppLocalizationsTl extends AppLocalizations {
 
   @override
   String growthWorldTreeLevel(int level) {
-    return 'World Tree Level $level';
+    return 'Antas ng World Tree $level';
   }
 
   @override
@@ -3117,7 +3117,7 @@ class AppLocalizationsTl extends AppLocalizations {
 
   @override
   String growthCrystalBallLevel(int level) {
-    return 'Mystic Crystal Ball Level $level';
+    return 'Antas ng Crystal Ball ng Misteryo $level';
   }
 
   @override
@@ -3141,853 +3141,1019 @@ class AppLocalizationsTl extends AppLocalizations {
   String get tarotMajor00Name => 'Ang Tanga';
 
   @override
-  String get tarotMajor00Upright => '새로운 시작, 모험, 무한한 가능성, 자유, 순수함';
+  String get tarotMajor00Upright =>
+      'Bagong simula, pakikipagsapalaran, walang hanggang posibilidad, kalayaan, kadalisayan';
 
   @override
-  String get tarotMajor00Reversed => '무모함, 어리석음, 부주의, 너무 큰 위험을 감수함, 비현실성';
+  String get tarotMajor00Reversed =>
+      'Kawalan ng pag-iingat, kahangalan, kapabayaan, pagkuha ng masyadong malaking panganib, kawalan ng katotohanan';
 
   @override
   String get tarotMajor01Name => 'Ang Mago';
 
   @override
-  String get tarotMajor01Upright => '창조력, 의지, 능력, 새로운 시작의 힘, 결단력';
+  String get tarotMajor01Upright =>
+      'Pagkamalikhain, kalooban, kakayahan, kapangyarihan ng bagong simula, pagiging determinado';
 
   @override
-  String get tarotMajor01Reversed => '조작, 재능 낭비, 기만, 자신감 부족, 숨겨진 의도';
+  String get tarotMajor01Reversed =>
+      'Manipulasyon, pag-aaksaya ng talento, panlilinlang, kawalan ng kumpiyansa, nakatagong intensyon';
 
   @override
   String get tarotMajor02Name => 'Ang High Priests';
 
   @override
-  String get tarotMajor02Upright => '직관, 무의식, 신비, 지혜, 내면의 목소리';
+  String get tarotMajor02Upright =>
+      'Intuition, subconscious, misteryo, karunungan, panloob na boses';
 
   @override
-  String get tarotMajor02Reversed => '직관 무시, 얕은 지식, 숨겨진 적, 비밀 누설';
+  String get tarotMajor02Reversed =>
+      'Pagwawalang-bahala sa intuition, mababaw na kaalaman, nakatagong kaaway, pagbubunyag ng lihim';
 
   @override
   String get tarotMajor03Name => 'Ang Empress';
 
   @override
-  String get tarotMajor03Upright => '풍요, 모성애, 아름다움, 자연의 결실, 창조성';
+  String get tarotMajor03Upright =>
+      'Kasaganaan, pagiging ina, kagandahan, bunga ng kalikasan, pagkamalikhain';
 
   @override
-  String get tarotMajor03Reversed => '과잉보호, 의존성, 창조적 결핍, 게으름, 정체기';
+  String get tarotMajor03Reversed =>
+      'Labis na proteksyon, pagiging umaasa, kakulangan sa pagkamalikhain, katamaran, pagtigil';
 
   @override
   String get tarotMajor04Name => 'Ang Emperador';
 
   @override
-  String get tarotMajor04Upright => '권위, 구조, 안정, 부성애, 통제력, 책임감';
+  String get tarotMajor04Upright =>
+      'Awtoridad, istraktura, katatagan, pagiging ama, kontrol, responsibilidad';
 
   @override
-  String get tarotMajor04Reversed => '독재, 지배욕, 융통성 부족, 무능함, 억압';
+  String get tarotMajor04Reversed =>
+      'Diktadura, pagnanais na mangibabaw, kawalan ng flexibility, kawalan ng kakayahan, pang-aapi';
 
   @override
   String get tarotMajor05Name => 'Ang Hierophant';
 
   @override
-  String get tarotMajor05Upright => '전통, 믿음, 교육, 영적인 인도, 보수주의';
+  String get tarotMajor05Upright =>
+      'Tradisyon, pananampalataya, edukasyon, espirituwal na gabay, konserbatismo';
 
   @override
-  String get tarotMajor05Reversed => '반역, 관습 타파, 독단적 태도, 낡은 사상, 나쁜 조언';
+  String get tarotMajor05Reversed =>
+      'Paghihimagsik, paglabag sa kaugalian, dogmatikong saloobin, lumang ideya, masamang payo';
 
   @override
   String get tarotMajor06Name => 'Ang mga Lovers';
 
   @override
-  String get tarotMajor06Upright => '사랑, 조화, 관계, 중요한 선택, 신뢰';
+  String get tarotMajor06Upright =>
+      'Pag-ibig, pagkakaisa, relasyon, mahalagang pagpili, tiwala';
 
   @override
-  String get tarotMajor06Reversed => '불화, 잘못된 선택, 신뢰 상실, 유혹, 불균형';
+  String get tarotMajor06Reversed =>
+      'Pagkakagulo, maling pagpili, pagkawala ng tiwala, tukso, kawalan ng balanse';
 
   @override
   String get tarotMajor07Name => 'Ang Kalesa';
 
   @override
-  String get tarotMajor07Upright => '의지, 승리, 결단력, 방향성, 성공을 향한 추진력';
+  String get tarotMajor07Upright =>
+      'Kalooban, tagumpay, pagiging determinado, direksyon, momentum tungo sa tagumpay';
 
   @override
-  String get tarotMajor07Reversed => '통제 상실, 방향 상실, 무기력, 공격성, 장애물';
+  String get tarotMajor07Reversed =>
+      'Pagkawala ng kontrol, pagkawala ng direksyon, kawalan ng lakas, agresyon, balakid';
 
   @override
   String get tarotMajor08Name => 'Lakas';
 
   @override
-  String get tarotMajor08Upright => '용기, 인내, 내면의 힘, 부드러운 통제, 자비';
+  String get tarotMajor08Upright =>
+      'Tapang, pagtitiis, panloob na lakas, malumanay na kontrol, awa';
 
   @override
-  String get tarotMajor08Reversed => '두려움, 나약함, 자기 통제력 상실, 충동, 자만심';
+  String get tarotMajor08Reversed =>
+      'Takot, kahinaan, pagkawala ng kontrol sa sarili, impulsiveness, pagmamataas';
 
   @override
   String get tarotMajor09Name => 'Ang Ermitanyo';
 
   @override
-  String get tarotMajor09Upright => '내면 탐구, 지혜, 고독, 깨달음, 영적 조언자';
+  String get tarotMajor09Upright =>
+      'Panloob na paggalugad, karunungan, pag-iisa, kaliwanagan, espirituwal na tagapayo';
 
   @override
-  String get tarotMajor09Reversed => '고립, 외로움, 현실 도피, 어리석은 고집, 은둔';
+  String get tarotMajor09Reversed =>
+      'Paghihiwalay, kalungkutan, pagtakas sa realidad, hangal na pagmamatigas, pagiging ermitanyo';
 
   @override
   String get tarotMajor10Name => 'Gulong ng Fortune';
 
   @override
-  String get tarotMajor10Upright => '전환점, 운명, 행운, 끊임없는 변화, 기회';
+  String get tarotMajor10Upright =>
+      'Punto ng pagbabago, kapalaran, suwerte, patuloy na pagbabago, pagkakataon';
 
   @override
-  String get tarotMajor10Reversed => '불운, 저항, 통제할 수 없는 변화, 불행의 반복';
+  String get tarotMajor10Reversed =>
+      'Kamalasan, paglaban, hindi makontrol na pagbabago, pag-ulit ng kamalasan';
 
   @override
   String get tarotMajor11Name => 'Katarungan';
 
   @override
-  String get tarotMajor11Upright => '공정함, 진실, 인과응보, 균형, 합리적 결정';
+  String get tarotMajor11Upright =>
+      'Katarungan, katotohanan, karma, balanse, makatwirang desisyon';
 
   @override
-  String get tarotMajor11Reversed => '불공평, 편견, 부정직, 피할 수 없는 처벌, 불균형';
+  String get tarotMajor11Reversed =>
+      'Kawalan ng katarungan, pagkiling, kawalan ng katapatan, hindi maiiwasang parusa, kawalan ng balanse';
 
   @override
   String get tarotMajor12Name => 'Ang Hanged Man';
 
   @override
-  String get tarotMajor12Upright => '희생, 새로운 시각, 기다림, 통찰, 일시적 정지';
+  String get tarotMajor12Upright =>
+      'Sakripisyo, bagong pananaw, paghihintay, pananaw, pansamantalang paghinto';
 
   @override
-  String get tarotMajor12Reversed => '무의미한 희생, 지연, 발전을 거부함, 이기주의';
+  String get tarotMajor12Reversed =>
+      'Walang kabuluhang sakripisyo, pagkaantala, pagtanggi sa pag-unlad, pagiging makasarili';
 
   @override
   String get tarotMajor13Name => 'Kamatayan';
 
   @override
-  String get tarotMajor13Upright => '끝과 새로운 시작, 변화, 전환기, 과거 청산';
+  String get tarotMajor13Upright =>
+      'Katapusan at bagong simula, pagbabago, transisyon, paglilinis ng nakaraan';
 
   @override
-  String get tarotMajor13Reversed => '변화에 대한 저항, 정체, 낡은 것에 집착, 두려움';
+  String get tarotMajor13Reversed =>
+      'Paglaban sa pagbabago, pagtigil, pagkapit sa luma, takot';
 
   @override
   String get tarotMajor14Name => 'Pagtitimpi';
 
   @override
-  String get tarotMajor14Upright => '조화, 균형, 중용, 치유, 목적 의식';
+  String get tarotMajor14Upright =>
+      'Pagkakaisa, balanse, katamtaman, pagpapagaling, layunin';
 
   @override
-  String get tarotMajor14Reversed => '불균형, 무절제, 극단적인 행동, 부조화, 갈등';
+  String get tarotMajor14Reversed =>
+      'Kawalan ng balanse, kawalan ng pagpipigil, matinding pag-uugali, kawalan ng pagkakaisa, salungatan';
 
   @override
   String get tarotMajor15Name => 'Ang Diyablo';
 
   @override
-  String get tarotMajor15Upright => '집착, 물질주의, 속박, 유혹, 파괴적 욕망';
+  String get tarotMajor15Upright =>
+      'Pagkapit, materyalismo, pagkaalipin, tukso, mapanirang pagnanais';
 
   @override
-  String get tarotMajor15Reversed => '해방, 속박에서 벗어남, 독립, 깨달음, 자유';
+  String get tarotMajor15Reversed =>
+      'Paglaya, pagtakas sa pagkaalipin, kalayaan, kaliwanagan, kalayaan';
 
   @override
   String get tarotMajor16Name => 'Ang Tore';
 
   @override
-  String get tarotMajor16Upright => '갑작스러운 변화, 파괴, 해방, 계시, 붕괴';
+  String get tarotMajor16Upright =>
+      'Biglaang pagbabago, pagkawasak, paglaya, paghahayag, pagbagsak';
 
   @override
-  String get tarotMajor16Reversed => '재난의 회피, 피할 수 없는 변화의 지연, 경고 무시';
+  String get tarotMajor16Reversed =>
+      'Pag-iwas sa sakuna, pagkaantala ng hindi maiiwasang pagbabago, pagwawalang-bahala sa babala';
 
   @override
   String get tarotMajor17Name => 'Ang Bituin';
 
   @override
-  String get tarotMajor17Upright => '희망, 영감, 평온, 치유와 긍정, 영적 인도';
+  String get tarotMajor17Upright =>
+      'Pag-asa, inspirasyon, kapayapaan, pagpapagaling at pagiging positibo, espirituwal na gabay';
 
   @override
-  String get tarotMajor17Reversed => '절망, 실망, 영감 부족, 비관주의, 혼란';
+  String get tarotMajor17Reversed =>
+      'Kawalan ng pag-asa, pagkabigo, kakulangan ng inspirasyon, pesimismo, pagkalito';
 
   @override
   String get tarotMajor18Name => 'Ang Buwan';
 
   @override
-  String get tarotMajor18Upright => '불안, 환상, 직관, 숨겨진 진실, 기만';
+  String get tarotMajor18Upright =>
+      'Pagkabalisa, ilusyon, intuition, nakatagong katotohanan, panlilinlang';
 
   @override
-  String get tarotMajor18Reversed => '두려움의 극복, 비밀의 발견, 불안 해소, 진실 규명';
+  String get tarotMajor18Reversed =>
+      'Pagtagumpay sa takot, pagtuklas ng lihim, paglutas ng pagkabalisa, pagtukoy ng katotohanan';
 
   @override
   String get tarotMajor19Name => 'Ang Araw';
 
   @override
-  String get tarotMajor19Upright => '성공, 긍정, 활력, 행복과 성취, 기쁨';
+  String get tarotMajor19Upright =>
+      'Tagumpay, pagiging positibo, sigla, kaligayahan at tagumpay, kagalakan';
 
   @override
-  String get tarotMajor19Reversed => '지연된 성공, 과장, 활력 저하, 슬픔의 이면';
+  String get tarotMajor19Reversed =>
+      'Naantalang tagumpay, pagmamalabis, pagbaba ng sigla, likod ng kalungkutan';
 
   @override
   String get tarotMajor20Name => 'Paghuhukom';
 
   @override
-  String get tarotMajor20Upright => '부활, 결단, 용서, 새로운 소명, 내적 각성';
+  String get tarotMajor20Upright =>
+      'Muling pagkabuhay, pagiging determinado, pagpapatawad, bagong tawag, panloob na paggising';
 
   @override
-  String get tarotMajor20Reversed => '후회, 자기 의심, 변화에 대한 두려움, 미련, 형벌';
+  String get tarotMajor20Reversed =>
+      'Pagsisisi, pagdududa sa sarili, takot sa pagbabago, pagkapit sa nakaraan, parusa';
 
   @override
   String get tarotMajor21Name => 'Ang Mundo';
 
   @override
-  String get tarotMajor21Upright => '완성, 성취, 통합, 새로운 차원, 성공적인 마무리';
+  String get tarotMajor21Upright =>
+      'Pagkumpleto, tagumpay, integrasyon, bagong dimensyon, matagumpay na pagtatapos';
 
   @override
-  String get tarotMajor21Reversed => '미완성, 연기, 정체, 성공에 대한 두려움, 지연';
+  String get tarotMajor21Reversed =>
+      'Hindi kumpleto, pagkaantala, pagtigil, takot sa tagumpay, pagkaantala';
 
   @override
   String get tarotCups01Name => 'Ace of Cups';
 
   @override
-  String get tarotCups01Upright => '새로운 감정, 사랑의 시작, 직관, 영적 충만함';
+  String get tarotCups01Upright =>
+      'Bagong damdamin, simula ng pag-ibig, intuition, espirituwal na kapunuan';
 
   @override
-  String get tarotCups01Reversed => '감정의 차단, 사랑받지 못함, 공허함, 슬픔';
+  String get tarotCups01Reversed =>
+      'Pagharang sa damdamin, hindi minamahal, kawalan, kalungkutan';
 
   @override
   String get tarotCups02Name => 'Dalawa sa Cups';
 
   @override
-  String get tarotCups02Upright => '관계의 조화, 결합, 사랑, 상호 존중, 협력';
+  String get tarotCups02Upright =>
+      'Pagkakaisa sa relasyon, pagkakaisa, pag-ibig, paggalang sa isa\'t isa, kooperasyon';
 
   @override
-  String get tarotCups02Reversed => '관계의 불화, 이별, 오해, 불균형, 짝사랑';
+  String get tarotCups02Reversed =>
+      'Pagkakagulo sa relasyon, paghihiwalay, hindi pagkakaunawaan, kawalan ng balanse, hindi sinuklian na pag-ibig';
 
   @override
   String get tarotCups03Name => 'Tatlo ng Cups';
 
   @override
-  String get tarotCups03Upright => '축하, 우정, 공동체, 기쁨, 창조적 결실';
+  String get tarotCups03Upright =>
+      'Pagdiriwang, pagkakaibigan, komunidad, kagalakan, malikhaing bunga';
 
   @override
-  String get tarotCups03Reversed => '과음, 소외, 파벌, 삼각관계, 축제의 취소';
+  String get tarotCups03Reversed =>
+      'Labis na pag-inom, pagiging hiwalay, paksyon, love triangle, pagkansela ng pagdiriwang';
 
   @override
   String get tarotCups04Name => 'Apat ng Cups';
 
   @override
-  String get tarotCups04Upright => '무관심, 권태, 명상, 놓쳐버린 기회, 내면 성찰';
+  String get tarotCups04Upright =>
+      'Kawalan ng interes, pagkabagot, pagninilay-nilay, nawawalang pagkakataon, panloob na pagsusuri';
 
   @override
-  String get tarotCups04Reversed => '새로운 인식, 기회를 잡음, 활력 회복, 각성';
+  String get tarotCups04Reversed =>
+      'Bagong kamalayan, pagkuha ng pagkakataon, pagbawi ng sigla, paggising';
 
   @override
   String get tarotCups05Name => 'Limang Tasa';
 
   @override
-  String get tarotCups05Upright => '상실, 슬픔, 과거에 대한 후회, 비관주의';
+  String get tarotCups05Upright =>
+      'Pagkawala, kalungkutan, pagsisisi sa nakaraan, pesimismo';
 
   @override
-  String get tarotCups05Reversed => '상실의 극복, 수용, 치유, 새로운 희망의 발견';
+  String get tarotCups05Reversed =>
+      'Pagtagumpay sa pagkawala, pagtanggap, pagpapagaling, pagtuklas ng bagong pag-asa';
 
   @override
   String get tarotCups06Name => 'Anim na Tasa';
 
   @override
-  String get tarotCups06Upright => '과거의 향수, 어린 시절, 순수함, 옛 친구, 추억';
+  String get tarotCups06Upright =>
+      'Nostalgia sa nakaraan, pagkabata, kadalisayan, lumang kaibigan, alaala';
 
   @override
-  String get tarotCups06Reversed => '과거에 얽매임, 미래를 외면함, 독립, 성장';
+  String get tarotCups06Reversed =>
+      'Pagkapit sa nakaraan, pagwawalang-bahala sa hinaharap, kalayaan, paglago';
 
   @override
   String get tarotCups07Name => 'Pitong ng mga tasa';
 
   @override
-  String get tarotCups07Upright => '환상, 꿈, 선택의 혼란, 현실 도피, 백일몽';
+  String get tarotCups07Upright =>
+      'Ilusyon, pangarap, pagkalito sa pagpili, pagtakas sa realidad, daydream';
 
   @override
-  String get tarotCups07Reversed => '현실 직시, 명확한 목표, 환상에서 깨어남, 결단';
+  String get tarotCups07Reversed =>
+      'Pagharap sa realidad, malinaw na layunin, paggising mula sa ilusyon, pagiging determinado';
 
   @override
   String get tarotCups08Name => 'Eight of Cups';
 
   @override
-  String get tarotCups08Upright => '실망, 떠남, 더 깊은 의미를 찾기 위한 포기, 체념';
+  String get tarotCups08Upright =>
+      'Pagkabigo, pag-alis, pagtalikod upang maghanap ng mas malalim na kahulugan, pagtanggap';
 
   @override
-  String get tarotCups08Reversed => '떠나지 못함, 과거에 집착, 관계 회복, 두려움';
+  String get tarotCups08Reversed =>
+      'Hindi makaalis, pagkapit sa nakaraan, pagbawi ng relasyon, takot';
 
   @override
   String get tarotCups09Name => 'Siyam na Tasa';
 
   @override
-  String get tarotCups09Upright => '소원 성취, 만족감, 감각적 기쁨, 자부심, 행복';
+  String get tarotCups09Upright =>
+      'Katuparan ng hiling, kasiyahan, senswal na kagalakan, pagmamataas, kaligayahan';
 
   @override
-  String get tarotCups09Reversed => '불만족, 허영심, 표면적인 성공, 욕심, 탐욕';
+  String get tarotCups09Reversed =>
+      'Kawalan ng kasiyahan, kahambugan, mababaw na tagumpay, kasakiman, katakawan';
 
   @override
   String get tarotCups10Name => 'Sampung tasa';
 
   @override
-  String get tarotCups10Upright => '가족의 행복, 평화, 정서적 충만, 조화로운 관계';
+  String get tarotCups10Upright =>
+      'Kaligayahan ng pamilya, kapayapaan, emosyonal na kapunuan, maayos na relasyon';
 
   @override
-  String get tarotCups10Reversed => '가족 내 갈등, 깨진 가정, 불화, 평화 상실';
+  String get tarotCups10Reversed =>
+      'Salungatan sa pamilya, sirang tahanan, pagkakagulo, pagkawala ng kapayapaan';
 
   @override
   String get tarotCups11Name => 'Pahina ng Cups';
 
   @override
-  String get tarotCups11Upright => '새로운 영감, 창의성, 감성적인 메시지, 직관력';
+  String get tarotCups11Upright =>
+      'Bagong inspirasyon, pagkamalikhain, emosyonal na mensahe, intuition';
 
   @override
-  String get tarotCups11Reversed => '감정적 미성숙, 창의적 차단, 나쁜 소식, 예민함';
+  String get tarotCups11Reversed =>
+      'Emosyonal na kawalan ng kapanahunan, pagharang sa pagkamalikhain, masamang balita, pagiging sensitibo';
 
   @override
   String get tarotCups12Name => 'Knight of Cups';
 
   @override
-  String get tarotCups12Upright => '로맨스, 매력, 감정적 접근, 상상력, 기사도';
+  String get tarotCups12Upright =>
+      'Romansa, alindog, emosyonal na paglapit, imahinasyon, pagiging maginoo';
 
   @override
-  String get tarotCups12Reversed => '비현실성, 변덕, 질투, 신뢰할 수 없음, 기만';
+  String get tarotCups12Reversed =>
+      'Kawalan ng katotohanan, pagiging pabago-bago, inggit, hindi mapagkakatiwalaan, panlilinlang';
 
   @override
   String get tarotCups13Name => 'Reyna ng mga tasa';
 
   @override
-  String get tarotCups13Upright => '공감, 다정함, 영적 직관, 감성적 안정, 배려';
+  String get tarotCups13Upright =>
+      'Empatiya, kabaitan, espirituwal na intuition, emosyonal na katatagan, pagiging maalalahanin';
 
   @override
-  String get tarotCups13Reversed => '감정 과잉, 불안정, 의존적 성향, 희생자 코스프레';
+  String get tarotCups13Reversed =>
+      'Labis na damdamin, kawalan ng katatagan, pagiging umaasa, pagpapanggap na biktima';
 
   @override
   String get tarotCups14Name => 'Hari ng mga tasa';
 
   @override
-  String get tarotCups14Upright => '감정적 통제, 균형, 외교, 관용, 지혜로운 조언';
+  String get tarotCups14Upright =>
+      'Emosyonal na kontrol, balanse, diplomasya, pagpaparaya, matalinong payo';
 
   @override
-  String get tarotCups14Reversed => '감정적 조작, 냉담함, 불안정성, 기분파, 무자비';
+  String get tarotCups14Reversed =>
+      'Emosyonal na manipulasyon, kawalang-damdamin, kawalan ng katatagan, pabago-bagong kalooban, kawalang-awa';
 
   @override
   String get tarotPentacles01Name => 'Ace ng Pentacles';
 
   @override
-  String get tarotPentacles01Upright => '새로운 기회, 재정적 시작, 풍요, 현실적 성취';
+  String get tarotPentacles01Upright =>
+      'Bagong pagkakataon, pinansyal na simula, kasaganaan, praktikal na tagumpay';
 
   @override
-  String get tarotPentacles01Reversed => '잃어버린 기회, 재정적 손실, 지연, 나쁜 투자';
+  String get tarotPentacles01Reversed =>
+      'Nawawalang pagkakataon, pinansyal na pagkalugi, pagkaantala, masamang pamumuhunan';
 
   @override
   String get tarotPentacles02Name => 'Dalawa sa Pentacles';
 
   @override
-  String get tarotPentacles02Upright => '균형, 적응력, 시간/재정 관리, 유연성';
+  String get tarotPentacles02Upright =>
+      'Balanse, kakayahang umangkop, pamamahala ng oras/pinansyal, flexibility';
 
   @override
-  String get tarotPentacles02Reversed => '불균형, 감당하기 벅참, 재정적 어려움, 스트레스';
+  String get tarotPentacles02Reversed =>
+      'Kawalan ng balanse, labis na pasanin, pinansyal na kahirapan, stress';
 
   @override
   String get tarotPentacles03Name => 'Tatlo ng Pentacles';
 
   @override
-  String get tarotPentacles03Upright => '팀워크, 협업, 기술, 인정받는 노력, 건축';
+  String get tarotPentacles03Upright =>
+      'Pagtutulungan, kooperasyon, kasanayan, kinikilalang pagsisikap, arkitektura';
 
   @override
-  String get tarotPentacles03Reversed => '협업 부족, 기술 부족, 인정받지 못함, 의견 충돌';
+  String get tarotPentacles03Reversed =>
+      'Kakulangan sa kooperasyon, kakulangan sa kasanayan, hindi kinikilala, hindi pagkakasundo';
 
   @override
   String get tarotPentacles04Name => 'Apat ng Pentacles';
 
   @override
-  String get tarotPentacles04Upright => '안정, 소유욕, 보수성, 인색함, 축적';
+  String get tarotPentacles04Upright =>
+      'Katatagan, pagmamay-ari, konserbatismo, pagiging kuripot, pag-iipon';
 
   @override
-  String get tarotPentacles04Reversed => '탐욕의 대가, 손실, 재정 방만, 집착을 버림';
+  String get tarotPentacles04Reversed =>
+      'Kapalit ng kasakiman, pagkalugi, pinansyal na kapabayaan, pagtalikod sa pagkapit';
 
   @override
   String get tarotPentacles05Name => 'Lima sa mga Pentacle';
 
   @override
-  String get tarotPentacles05Upright => '궁핍, 재정적/정서적 결핍, 소외, 역경';
+  String get tarotPentacles05Upright =>
+      'Kahirapan, pinansyal/emosyonal na kakulangan, pagiging hiwalay, pagsubok';
 
   @override
-  String get tarotPentacles05Reversed => '재정 회복, 도움의 손길, 역경 극복, 긍정적 변화';
+  String get tarotPentacles05Reversed =>
+      'Pagbawi ng pinansyal, tulong, pagtagumpay sa pagsubok, positibong pagbabago';
 
   @override
   String get tarotPentacles06Name => 'Anim na Pentacles';
 
   @override
-  String get tarotPentacles06Upright => '자선, 나눔, 후원, 공정함, 베풂과 받음';
+  String get tarotPentacles06Upright =>
+      'Kawanggawa, pagbabahagi, pagsuporta, katarungan, pagbibigay at pagtanggap';
 
   @override
-  String get tarotPentacles06Reversed => '이기심, 채무, 불평등, 생색내기, 착취';
+  String get tarotPentacles06Reversed =>
+      'Pagiging makasarili, utang, kawalan ng pagkakapantay-pantay, pagmamayabang, pagsasamantala';
 
   @override
   String get tarotPentacles07Name => 'Pitong ng Pentacles';
 
   @override
-  String get tarotPentacles07Upright => '인내, 장기적 비전, 노력에 대한 보상 기다림, 평가';
+  String get tarotPentacles07Upright =>
+      'Pagtitiis, pangmatagalang pananaw, paghihintay ng gantimpala sa pagsisikap, pagsusuri';
 
   @override
-  String get tarotPentacles07Reversed => '조바심, 성과 없는 노력, 지연, 좌절, 투자 실패';
+  String get tarotPentacles07Reversed =>
+      'Kawalan ng pasensya, walang bunga na pagsisikap, pagkaantala, pagkabigo, pagkabigo sa pamumuhunan';
 
   @override
   String get tarotPentacles08Name => 'Walo ng Pentacles';
 
   @override
-  String get tarotPentacles08Upright => '장인 정신, 전념, 세부사항에 대한 주의, 숙련';
+  String get tarotPentacles08Upright =>
+      'Kasanayan, dedikasyon, atensyon sa detalye, kasanayan';
 
   @override
-  String get tarotPentacles08Reversed => '지루함, 완벽주의의 함정, 나태, 열정 상실';
+  String get tarotPentacles08Reversed =>
+      'Pagkabagot, bitag ng pagiging perpekto, katamaran, pagkawala ng sigla';
 
   @override
   String get tarotPentacles09Name => 'Siyam sa mga Pentacle';
 
   @override
-  String get tarotPentacles09Upright => '성취, 독립, 여유, 재정적 안락함, 자기 보상';
+  String get tarotPentacles09Upright =>
+      'Tagumpay, kalayaan, kasaganaan, pinansyal na kaginhawaan, paggantimpala sa sarili';
 
   @override
-  String get tarotPentacles09Reversed => '과소비, 겉보기에만 화려함, 의존성, 재정 불안';
+  String get tarotPentacles09Reversed =>
+      'Labis na paggastos, panlabas na kagandahan lamang, pagiging umaasa, pinansyal na kawalan ng katatagan';
 
   @override
   String get tarotPentacles10Name => 'Sampu ng Pentacles';
 
   @override
-  String get tarotPentacles10Upright => '가업, 부의 축적, 유산, 안정된 삶, 전통';
+  String get tarotPentacles10Upright =>
+      'Negosyo ng pamilya, pag-iipon ng yaman, pamana, matatag na buhay, tradisyon';
 
   @override
-  String get tarotPentacles10Reversed => '재산 손실, 가족 분쟁, 전통에 대한 반항, 불안정';
+  String get tarotPentacles10Reversed =>
+      'Pagkalugi ng ari-arian, alitan sa pamilya, paghihimagsik laban sa tradisyon, kawalan ng katatagan';
 
   @override
   String get tarotPentacles11Name => 'Pahina ng Pentacles';
 
   @override
-  String get tarotPentacles11Upright => '현실적인 목표, 새로운 공부, 기회, 실용성, 계획';
+  String get tarotPentacles11Upright =>
+      'Praktikal na layunin, bagong pag-aaral, pagkakataon, pagiging praktikal, plano';
 
   @override
-  String get tarotPentacles11Reversed => '계획의 지연, 실용성 부족, 게으름, 미루는 습관';
+  String get tarotPentacles11Reversed =>
+      'Pagkaantala ng plano, kakulangan sa pagiging praktikal, katamaran, pagpapaliban';
 
   @override
   String get tarotPentacles12Name => 'Knight of Pentacles';
 
   @override
-  String get tarotPentacles12Upright => '성실, 책임감, 끈기, 점진적인 발전, 믿음직함';
+  String get tarotPentacles12Upright =>
+      'Kasipagan, responsibilidad, pagtitiyaga, unti-unting pag-unlad, pagiging mapagkakatiwalaan';
 
   @override
-  String get tarotPentacles12Reversed => '완고함, 무기력, 일 중독, 유연성 부족, 정체';
+  String get tarotPentacles12Reversed =>
+      'Katigasan ng ulo, kawalan ng lakas, workaholic, kakulangan sa flexibility, pagtigil';
 
   @override
   String get tarotPentacles13Name => 'Reyna ng mga Pentacle';
 
   @override
-  String get tarotPentacles13Upright => '현실적 보살핌, 실용적 조언, 풍요, 관대함, 안락함';
+  String get tarotPentacles13Upright =>
+      'Praktikal na pangangalaga, praktikal na payo, kasaganaan, pagiging mapagbigay, kaginhawaan';
 
   @override
-  String get tarotPentacles13Reversed => '과잉 통제, 소유욕, 이기심, 재정적 불안, 과소비';
+  String get tarotPentacles13Reversed =>
+      'Labis na kontrol, pagmamay-ari, pagiging makasarili, pinansyal na kawalan ng katatagan, labis na paggastos';
 
   @override
   String get tarotPentacles14Name => 'Hari ng mga Pentacle';
 
   @override
-  String get tarotPentacles14Upright => '부와 성공, 비즈니스 수완, 권위, 든든한 후원자';
+  String get tarotPentacles14Upright =>
+      'Yaman at tagumpay, galing sa negosyo, awtoridad, matatag na tagasuporta';
 
   @override
-  String get tarotPentacles14Reversed => '물질주의, 부패, 탐욕, 고집불통, 억압적 권위';
+  String get tarotPentacles14Reversed =>
+      'Materyalismo, korapsyon, kasakiman, katigasan ng ulo, mapang-api na awtoridad';
 
   @override
   String get tarotSwords01Name => 'Ace ng mga Espada';
 
   @override
-  String get tarotSwords01Upright => '명확한 통찰, 새로운 생각, 진실, 정신적 돌파구';
+  String get tarotSwords01Upright =>
+      'Malinaw na pananaw, bagong ideya, katotohanan, mental na tagumpay';
 
   @override
-  String get tarotSwords01Reversed => '혼란, 잘못된 정보, 판단력 상실, 소통 부재';
+  String get tarotSwords01Reversed =>
+      'Pagkalito, maling impormasyon, pagkawala ng paghuhusga, kakulangan sa komunikasyon';
 
   @override
   String get tarotSwords02Name => 'Dalawa sa Espada';
 
   @override
-  String get tarotSwords02Upright => '우유부단, 맹목, 감정 차단, 어려운 결정의 회피';
+  String get tarotSwords02Upright =>
+      'Pag-aalinlangan, pagiging bulag, pagharang sa damdamin, pag-iwas sa mahirap na desisyon';
 
   @override
-  String get tarotSwords02Reversed => '결단, 사실을 직시함, 정보 부족으로 인한 실수';
+  String get tarotSwords02Reversed =>
+      'Pagiging determinado, pagharap sa katotohanan, pagkakamali dahil sa kakulangan ng impormasyon';
 
   @override
   String get tarotSwords03Name => 'Tatlo ng Espada';
 
   @override
-  String get tarotSwords03Upright => '상심, 슬픔, 이별, 상처, 고통스러운 진실';
+  String get tarotSwords03Upright =>
+      'Sakit ng puso, kalungkutan, paghihiwalay, sugat, masakit na katotohanan';
 
   @override
-  String get tarotSwords03Reversed => '고통의 극복, 치유, 용서, 슬픔을 떨쳐냄';
+  String get tarotSwords03Reversed =>
+      'Pagtagumpay sa sakit, pagpapagaling, pagpapatawad, pag-alis ng kalungkutan';
 
   @override
   String get tarotSwords04Name => 'Apat ng Espada';
 
   @override
-  String get tarotSwords04Upright => '휴식, 회복, 명상, 스트레스 완화, 내면의 평화';
+  String get tarotSwords04Upright =>
+      'Pahinga, paggaling, pagninilay-nilay, pagpapagaan ng stress, panloob na kapayapaan';
 
   @override
-  String get tarotSwords04Reversed => '탈진, 회복 거부, 강제 휴식, 극심한 스트레스';
+  String get tarotSwords04Reversed =>
+      'Pagkapagod, pagtanggi sa paggaling, sapilitang pahinga, matinding stress';
 
   @override
   String get tarotSwords05Name => 'Limang Espada';
 
   @override
-  String get tarotSwords05Upright => '상처뿐인 승리, 배신, 갈등, 적의감, 비열함';
+  String get tarotSwords05Upright =>
+      'Tagumpay na may sugat, pagtataksil, salungatan, pagkapoot, pagiging duwag';
 
   @override
-  String get tarotSwords05Reversed => '갈등 해결, 화해, 타협, 패배 인정, 복수 포기';
+  String get tarotSwords05Reversed =>
+      'Paglutas ng salungatan, pagkakasundo, kompromiso, pagtanggap ng pagkatalo, pagtalikod sa paghihiganti';
 
   @override
   String get tarotSwords06Name => 'Anim na Espada';
 
   @override
-  String get tarotSwords06Upright => '전환, 고통에서 벗어남, 치유의 여정, 이동, 여행';
+  String get tarotSwords06Upright =>
+      'Transisyon, pagtakas sa sakit, paglalakbay ng pagpapagaling, paglipat, paglalakbay';
 
   @override
-  String get tarotSwords06Reversed => '변화에 대한 저항, 과거의 상처가 발목을 잡음, 지연';
+  String get tarotSwords06Reversed =>
+      'Paglaban sa pagbabago, pagkapit sa nakaraang sugat, pagkaantala';
 
   @override
   String get tarotSwords07Name => 'Pito ng Espada';
 
   @override
-  String get tarotSwords07Upright => '기만, 속임수, 전략, 은밀한 행동, 도주';
+  String get tarotSwords07Upright =>
+      'Panlilinlang, pandaraya, estratehiya, lihim na kilos, pagtakas';
 
   @override
-  String get tarotSwords07Reversed => '자백, 비밀 폭로, 속임수 발각, 죄책감, 정면 돌파';
+  String get tarotSwords07Reversed =>
+      'Pag-amin, pagbubunyag ng lihim, pagtuklas ng panlilinlang, pagkakasala, direktang pagharap';
 
   @override
   String get tarotSwords08Name => 'Walo ng Espada';
 
   @override
-  String get tarotSwords08Upright => '자승자박, 무기력, 제한된 생각, 두려움의 감옥';
+  String get tarotSwords08Upright =>
+      'Pagkabilanggo sa sarili, kawalan ng lakas, limitadong pag-iisip, bilangguan ng takot';
 
   @override
-  String get tarotSwords08Reversed => '해방, 스스로의 감옥에서 벗어남, 새로운 관점';
+  String get tarotSwords08Reversed =>
+      'Paglaya, pagtakas sa sariling bilangguan, bagong pananaw';
 
   @override
   String get tarotSwords09Name => 'Siyam sa mga Espada';
 
   @override
-  String get tarotSwords09Upright => '불안, 절망, 불면증, 죄책감, 내면의 공포';
+  String get tarotSwords09Upright =>
+      'Pagkabalisa, kawalan ng pag-asa, insomnia, pagkakasala, panloob na takot';
 
   @override
-  String get tarotSwords09Reversed => '공포 극복, 희망의 빛, 불면증 해소, 사실 직시';
+  String get tarotSwords09Reversed =>
+      'Pagtagumpay sa takot, liwanag ng pag-asa, paglutas ng insomnia, pagharap sa katotohanan';
 
   @override
   String get tarotSwords10Name => 'Sampu ng Espada';
 
   @override
-  String get tarotSwords10Upright => '파멸, 깊은 상처, 배신, 바닥을 침, 끝의 도래';
+  String get tarotSwords10Upright =>
+      'Kapahamakan, malalim na sugat, pagtataksil, pagbagsak, pagdating ng katapusan';
 
   @override
-  String get tarotSwords10Reversed => '파멸에서의 회복, 최악은 지났음, 생존, 재건';
+  String get tarotSwords10Reversed =>
+      'Pagbawi mula sa kapahamakan, tapos na ang pinakamasama, kaligtasan, muling pagtatayo';
 
   @override
   String get tarotSwords11Name => 'Pahina ng mga Espada';
 
   @override
-  String get tarotSwords11Upright => '호기심, 예리한 분석력, 진실 탐구, 새로운 아이디어';
+  String get tarotSwords11Upright =>
+      'Pagiging mausisa, matalas na pagsusuri, paghahanap ng katotohanan, bagong ideya';
 
   @override
-  String get tarotSwords11Reversed => '경솔함, 조급함, 냉소주의, 근거 없는 소문, 무례';
+  String get tarotSwords11Reversed =>
+      'Kawalan ng pag-iingat, pagmamadali, pagiging mapanukso, walang batayan na tsismis, kawalang-galang';
 
   @override
   String get tarotSwords12Name => 'Knight of Swords';
 
   @override
-  String get tarotSwords12Upright => '돌진, 야망, 지적 추진력, 빠르고 단호한 행동';
+  String get tarotSwords12Upright =>
+      'Pag-atake, ambisyon, intelektwal na pagtulak, mabilis at determinado na kilos';
 
   @override
-  String get tarotSwords12Reversed => '무모함, 공격성, 배려 없는 언행, 충동성, 무자비';
+  String get tarotSwords12Reversed =>
+      'Kawalan ng pag-iingat, agresyon, walang pag-iingat na salita at kilos, impulsiveness, kawalang-awa';
 
   @override
   String get tarotSwords13Name => 'Reyna ng mga Espada';
 
   @override
-  String get tarotSwords13Upright => '독립, 명확한 의사소통, 예리한 판단, 정직함, 객관성';
+  String get tarotSwords13Upright =>
+      'Kalayaan, malinaw na komunikasyon, matalas na paghuhusga, katapatan, pagiging obhetibo';
 
   @override
-  String get tarotSwords13Reversed => '비정함, 냉혹함, 과도한 비판, 원한, 고립';
+  String get tarotSwords13Reversed =>
+      'Kawalan ng damdamin, kalupitan, labis na pagpuna, pagkapoot, paghihiwalay';
 
   @override
   String get tarotSwords14Name => 'Hari ng mga Espada';
 
   @override
-  String get tarotSwords14Upright => '권위, 지적 통찰, 논리, 공정함, 원칙, 전문가';
+  String get tarotSwords14Upright =>
+      'Awtoridad, intelektwal na pananaw, lohika, katarungan, prinsipyo, eksperto';
 
   @override
-  String get tarotSwords14Reversed => '권력 남용, 비합리성, 잔인함, 통제욕, 독재';
+  String get tarotSwords14Reversed =>
+      'Pang-aabuso sa kapangyarihan, kawalan ng katwiran, kalupitan, pagnanais na kontrolin, diktadura';
 
   @override
   String get tarotWands01Name => 'Ace ng Wands';
 
   @override
-  String get tarotWands01Upright => '열정, 영감, 창조적 힘, 새로운 잠재력, 활력';
+  String get tarotWands01Upright =>
+      'Pasyon, inspirasyon, malikhaing lakas, bagong potensyal, sigla';
 
   @override
-  String get tarotWands01Reversed => '열정의 지연, 영감 부족, 의욕 상실, 정체성 혼란';
+  String get tarotWands01Reversed =>
+      'Pagkaantala ng pasyon, kakulangan ng inspirasyon, pagkawala ng motibasyon, pagkalito sa pagkakakilanlan';
 
   @override
   String get tarotWands02Name => 'Dalawa sa Wands';
 
   @override
-  String get tarotWands02Upright => '계획, 비전, 장기적 목표, 결단력, 탐험';
+  String get tarotWands02Upright =>
+      'Plano, pananaw, pangmatagalang layunin, pagiging determinado, paggalugad';
 
   @override
-  String get tarotWands02Reversed => '계획 부족, 미루기, 두려움에 의한 정체, 제한된 비전';
+  String get tarotWands02Reversed =>
+      'Kakulangan sa plano, pagpapaliban, pagtigil dahil sa takot, limitadong pananaw';
 
   @override
   String get tarotWands03Name => 'Tatlo ng Wands';
 
   @override
-  String get tarotWands03Upright => '기대의 실현, 진전, 확장, 선견지명, 리더십';
+  String get tarotWands03Upright =>
+      'Katuparan ng inaasahan, pag-unlad, pagpapalawak, pagiging mapanuri, pamumuno';
 
   @override
-  String get tarotWands03Reversed => '성장의 지연, 좌절, 예상치 못한 장애, 편협함';
+  String get tarotWands03Reversed =>
+      'Pagkaantala ng paglago, pagkabigo, hindi inaasahang balakid, pagiging makitid ang isip';
 
   @override
   String get tarotWands04Name => 'Apat ng Wands';
 
   @override
-  String get tarotWands04Upright => '축하, 안락함, 성취의 기쁨, 환영, 집안의 행사';
+  String get tarotWands04Upright =>
+      'Pagdiriwang, kaginhawaan, kagalakan ng tagumpay, pagtanggap, kaganapan sa bahay';
 
   @override
-  String get tarotWands04Reversed => '취소된 행사, 가정의 불화, 일시적 안정, 지연된 축하';
+  String get tarotWands04Reversed =>
+      'Kinanselang kaganapan, pagkakagulo sa pamilya, pansamantalang katatagan, naantalang pagdiriwang';
 
   @override
   String get tarotWands05Name => 'Lima ng Wands';
 
   @override
-  String get tarotWands05Upright => '경쟁, 갈등, 의견 대립, 다툼, 도전';
+  String get tarotWands05Upright =>
+      'Kompetisyon, salungatan, hindi pagkakasundo, pag-aaway, hamon';
 
   @override
-  String get tarotWands05Reversed => '타협, 갈등의 회피, 협력, 평화 추구, 혼란 진정';
+  String get tarotWands05Reversed =>
+      'Kompromiso, pag-iwas sa salungatan, kooperasyon, paghahanap ng kapayapaan, pagpapatahimik ng kaguluhan';
 
   @override
   String get tarotWands06Name => 'Anim na Wands';
 
   @override
-  String get tarotWands06Upright => '성공, 대중의 인정, 승리, 자신감, 리더의 부상';
+  String get tarotWands06Upright =>
+      'Tagumpay, pagkilala ng publiko, panalo, kumpiyansa, paglitaw ng pinuno';
 
   @override
-  String get tarotWands06Reversed => '패배, 불명예, 인정받지 못함, 교만, 명성 추락';
+  String get tarotWands06Reversed =>
+      'Pagkatalo, kahihiyan, hindi kinikilala, pagmamataas, pagbagsak ng reputasyon';
 
   @override
   String get tarotWands07Name => 'Pitong ng Wands';
 
   @override
-  String get tarotWands07Upright => '용기, 방어, 경쟁에 맞섬, 확고한 신념, 인내';
+  String get tarotWands07Upright =>
+      'Tapang, pagtatanggol, pagharap sa kompetisyon, matatag na paniniwala, pagtitiis';
 
   @override
-  String get tarotWands07Reversed => '포기, 압도됨, 타협, 자신감 상실, 비겁함';
+  String get tarotWands07Reversed =>
+      'Pagtalikod, pagiging labis na nasasaktan, kompromiso, pagkawala ng kumpiyansa, pagiging duwag';
 
   @override
   String get tarotWands08Name => 'Walo ng Wands';
 
   @override
-  String get tarotWands08Upright => '신속한 진행, 빠른 결말, 소식, 민첩함, 속도';
+  String get tarotWands08Upright =>
+      'Mabilis na pag-unlad, mabilis na pagtatapos, balita, bilis, tulin';
 
   @override
-  String get tarotWands08Reversed => '지연, 혼란, 서두름으로 인한 실수, 소통 불능';
+  String get tarotWands08Reversed =>
+      'Pagkaantala, pagkalito, pagkakamali dahil sa pagmamadali, kawalan ng komunikasyon';
 
   @override
   String get tarotWands09Name => 'Siyam ng Wands';
 
   @override
-  String get tarotWands09Upright => '회복력, 방어 태세, 지쳐도 계속함, 경계, 체력 시험';
+  String get tarotWands09Upright =>
+      'Pagiging matatag, depensibong posisyon, pagpapatuloy sa kabila ng pagkapagod, pagbabantay, pagsubok ng tibay';
 
   @override
-  String get tarotWands09Reversed => '피로, 편집증, 포기, 완고함, 불필요한 저항';
+  String get tarotWands09Reversed =>
+      'Pagkapagod, paranoia, pagtalikod, katigasan ng ulo, hindi kinakailangang paglaban';
 
   @override
   String get tarotWands10Name => 'Sampu ng Wands';
 
   @override
-  String get tarotWands10Upright => '과도한 짐, 극심한 부담, 책임감, 압박, 한계점';
+  String get tarotWands10Upright =>
+      'Labis na pasanin, matinding pasanin, responsibilidad, presyon, limitasyon';
 
   @override
-  String get tarotWands10Reversed => '짐을 내려놓음, 책임 회피, 탈진, 위임, 극복';
+  String get tarotWands10Reversed =>
+      'Pagbaba ng pasanin, pag-iwas sa responsibilidad, pagkapagod, delegasyon, pagtagumpay';
 
   @override
   String get tarotWands11Name => 'Pahina ng Wands';
 
   @override
-  String get tarotWands11Upright => '탐험, 발견, 열정적인 아이디어, 에너지, 매력';
+  String get tarotWands11Upright =>
+      'Paggalugad, pagtuklas, masigasig na ideya, enerhiya, alindog';
 
   @override
-  String get tarotWands11Reversed => '방향 상실, 미숙함, 쉽게 싫증냄, 헛된 망상, 무책임';
+  String get tarotWands11Reversed =>
+      'Pagkawala ng direksyon, kawalan ng kapanahunan, madaling magsawa, walang kabuluhang ilusyon, kawalan ng responsibilidad';
 
   @override
   String get tarotWands12Name => 'Knight of Wands';
 
   @override
-  String get tarotWands12Upright => '열정적 전진, 모험심, 행동력, 에너지, 자신감';
+  String get tarotWands12Upright =>
+      'Masigasig na pag-unlad, pagiging mapangahas, pagiging aktibo, enerhiya, kumpiyansa';
 
   @override
-  String get tarotWands12Reversed => '충동적 행동, 오만함, 변덕, 분노, 무계획';
+  String get tarotWands12Reversed =>
+      'Impulsibong kilos, pagmamataas, pagiging pabago-bago, galit, kawalan ng plano';
 
   @override
   String get tarotWands13Name => 'Reyna ng Wands';
 
   @override
-  String get tarotWands13Upright => '카리스마, 용기, 독립, 밝음, 매력, 활기';
+  String get tarotWands13Upright =>
+      'Karisma, tapang, kalayaan, kagalakan, alindog, sigla';
 
   @override
-  String get tarotWands13Reversed => '이기심, 과시욕, 질투, 변덕스러움, 공격성';
+  String get tarotWands13Reversed =>
+      'Pagiging makasarili, pagmamayabang, inggit, pagiging pabago-bago, agresyon';
 
   @override
   String get tarotWands14Name => 'Hari ng Wands';
 
   @override
-  String get tarotWands14Upright => '카리스마적 리더십, 비전, 영감, 대담함, 기업가';
+  String get tarotWands14Upright =>
+      'Karismatikong pamumuno, pananaw, inspirasyon, katapangan, negosyante';
 
   @override
-  String get tarotWands14Reversed => '독재, 충동적 분노, 비현실성, 오만, 가차없음';
+  String get tarotWands14Reversed =>
+      'Diktadura, impulsibong galit, kawalan ng katotohanan, pagmamataas, kawalang-awa';
 
   @override
   String get nicknamePrefixes =>
-      '신비한,고요한,거룩한,어두운,빛나는,차가운,뜨거운,매혹적인,잔혹한,순 수한,거친,부드러운,아름다운,기묘한,위대한,초라한,영원한,잊혀진,찜란 ,슬픈,기쁜,몽환적인,타락한,순백의,칠흑의,핏빛의,잿빛의,황금빛,은빛 ,푸른,붉은,노란,검은,하얀,투명한,고독한,시끄러운,조용한,따뜻한,싸늘 한,외로운,쓸쓸한,즐거운,행복한,우울한,절망적인,희망찬,눈부신,어스름 한,캄캄한,적막한,은밀한,비밀스러운,성스러운,불경한,오만한,겸손한,지,지 로운,어리석은,강인한,나약한,용감한,비겁한,아득한,가까운,멀어지는,다 가오는,사라지는,나타나는,깨어난,잠든,꿈꾸는,헤매는,방황황하는,머무는,떴 나는,돌아오는,기다리는,찾는,숨은,드러난,버려진,선택된,축복받은,저주 받은,사랑받는,미움받는,기억하는,망각하는,별빛의,달빛의,햇빛의,우주의, 대지의,바다의,하늘의,구름의,바람의,비의,눈의,얼음의,불의,물의,흙의 ,나무의,숲의,산의,강의,호수의,시간의,공간의,차원의,운명의,숙명의,기 적의,마법의,신화의,전설의,진실의,거짓의,환상의,꿈의,악몽의,파멸의, 창조의,생명의,죽음의,영혼의,육체의,이성의,감정의,사랑의,증오의,슬픔 ,기쁨의,분노의,평화의,전쟁의,혼돈의,질서의,빛의,어둠의,황혼의,새벽 ,정오의,자정의,과거의,현재의,미래의,기원의,종말의,무한의,유한의,침무 의,소음의,노래하는,춤추는,우는,웃는,속삭이는,외치는,기도하는,간청하 는,명령하는,복종하는,지배하는,섬기는,인도하는,따르는,가르치는,배우는, 기억의,추억의,상처의,치유의,독의,약의,환영의,실체의,이상의,현실의, 가상의,자연의,인공의,태초의,영겁의,순간의,찰나의,영속의,변화의,정지 ,흐르는,멈춘,타오르는,식어가는,피어나는,시드는,자라나는,죽어가는,숨 쉬는,질식하는,찬란한,은은한,아스라한,아련한,투명한,희미한,눈부신,기무 한,독특한,특별한,고귀한,순수한,타락한,고독한,쓸쓸한,적막한,아득한,가 혹한,냉혹한,잔인한,위대한,강인한,굳건한,유연한,재빠른,느릿한,고요속 ,혼돈속의,기억속의,상상속의,침묵하는,속삭이는,노래하는,춤추는,흐느끼 는,미소짓는,비웃는,관조하는,방황하는,헤매는,깨어있는,잠든,꿈꾸는,몽상 하는,망상하는,기도하는,간절한,애절한,처절한,숭고한,사악한,비열한,거 만한,겸손한,다정한,따뜻한,서늘한,오싹한,기괴한,섬뜩한,황홀한,매혹적 ,아찔한,달콤한,쌉싸름한,씁쓸한,가시돋친,날카로운,무딘,거친,부드러운 ,포근한,안락한,위태로운,불안한,평온한,안온한,나른한,권태로운,열정적 ,무심한,차분한,격렬한,맹렬한,광적인,미쳐버린,이성적인,감성적인,냉철핕 ,현명한,어리석은,순진한,교활한,음흉한,순백의,칠흑의,황금빛,은빛,핏빛';
+      'Mahiwaga,Tahimik,Banal,Madilim,Nagniningning,Malamig,Mainit,Kaakit-akit,Malupit,Puro,Magaspang,Malambot,Maganda,Kakaiba,Dakila,Hamak,Walang Hanggan,Nakalimutan,Nagniningning,Malungkot,Masaya,Panaginip,Nahulog,Purong Puti,Maitim na Itim,Kulay Dugo,Kulay Abo,Ginintuan,Pilak,Asul,Pula,Dilaw,Itim,Puti,Transparent,Nag-iisa,Maingay,Tahimik,Mainit,Malamig,Malungkot,Malungkot,Masaya,Masaya,Malungkot,Desperado,Puno ng Pag-asa,Nakakasilaw,Madilim,Madilim,Tahimik,Lihim,Lihim,Banal,Lapastangan,Mayabang,Mapagpakumbaba,Matalino,Hangal,Matatag,Mahina,Matapang,Duwag,Malayo,Malapit,Lumalayo,Lumalapit,Nawawala,Lumilitaw,Nagising,Natutulog,Nangangarap,Naliligaw,Naglalakbay,Nanatili,Umaalis,Bumabalik,Naghihintay,Naghahanap,Nakatago,Nahayag,Abandonado,Pinili,Pinagpala,Sinumpa,Minamahal,Kinamumuhian,Naaalala,Nakalimot,Ng Bituin,Ng Buwan,Ng Araw,Ng Uniberso,Ng Lupa,Ng Dagat,Ng Langit,Ng Ulap,Ng Hangin,Ng Ulan,Ng Niyebe,Ng Yelo,Ng Apoy,Ng Tubig,Ng Lupa,Ng Puno,Ng Kagubatan,Ng Bundok,Ng Ilog,Ng Lawa,Ng Oras,Ng Espasyo,Ng Dimensyon,Ng Tadhana,Ng Kapalaran,Ng Himala,Ng Salamangka,Ng Mito,Ng Alamat,Ng Katotohanan,Ng Kasinungalingan,Ng Ilusyon,Ng Panaginip,Ng Bangungot,Ng Kapahamakan,Ng Paglikha,Ng Buhay,Ng Kamatayan,Ng Kaluluwa,Ng Katawan,Ng Katwiran,Ng Damdamin,Ng Pag-ibig,Ng Pagkamuhi,Ng Kalungkutan,Ng Kagalakan,Ng Galit,Ng Kapayapaan,Ng Digmaan,Ng Kaguluhan,Ng Kaayusan,Ng Liwanag,Ng Dilim,Ng Takipsilim,Ng Bukang-liwayway,Ng Tanghali,Ng Hatinggabi,Ng Nakaraan,Ng Kasalukuyan,Ng Kinabukasan,Ng Pinagmulan,Ng Katapusan,Ng Walang Hanggan,Ng May Hangganan,Ng Katahimikan,Ng Ingay,Umaawit,Sumasayaw,Umiiyak,Tumatawa,Bumubulong,Sumisigaw,Nagdarasal,Nagmamakaawa,Nag-uutos,Sumusunod,Namamahala,Naglilingkod,Gumagabay,Sumusunod,Nagtuturo,Nag-aaral,Ng Alaala,Ng Alaala,Ng Sugat,Ng Pagpapagaling,Ng Lason,Ng Gamot,Ng Ilusyon,Ng Katotohanan,Ng Ideal,Ng Realidad,Ng Virtual,Ng Kalikasan,Ng Artipisyal,Ng Simula,Ng Walang Hanggan,Ng Sandali,Ng Saglit,Ng Walang Hanggan,Ng Pagbabago,Ng Paghinto,Umaagos,Huminto,Nagliliyab,Lumalamig,Namumulaklak,Nalalanta,Lumalaki,Namamatay,Humihinga,Nasasakal,Nagniningning,Banayad,Malabo,Malabo,Transparent,Malabo,Nakakasilaw,Kakaiba,Natatangi,Espesyal,Marangal,Puro,Nahulog,Nag-iisa,Malungkot,Tahimik,Malayo,Malupit,Walang Awa,Malupit,Dakila,Matatag,Matatag,Flexible,Mabilis,Mabagal,Sa Katahimikan,Sa Kaguluhan,Sa Alaala,Sa Imahinasyon,Tahimik,Bumubulong,Umaawit,Sumasayaw,Humihikbi,Ngumingiti,Nangungutya,Nagmamasid,Naglalakbay,Naliligaw,Gising,Natutulog,Nangangarap,Nangangarap,Nagpapantasya,Nagdarasal,Masidhi,Masidhi,Desperado,Marangal,Masama,Duwag,Mayabang,Mapagpakumbaba,Magiliw,Mainit,Malamig,Nakakapanindig-balahibo,Kakaiba,Nakakatakot,Nakakabighani,Kaakit-akit,Nakakahilo,Matamis,Mapait,Mapait,Matinik,Matulis,Mapurol,Magaspang,Malambot,Kumportable,Kumportable,Delikado,Hindi Mapakali,Payapa,Payapa,Antukin,Naiinip,Masigasig,Walang Pakialam,Kalmado,Matindi,Matindi,Baliw,Nabaliw,Makatwiran,Emosyonal,Kalmado,Matalino,Hangal,Inosente,Tuso,Lihim,Purong Puti,Maitim na Itim,Ginintuan,Pilak,Kulay Dugo';
 
   @override
   String get nicknameSuffixes =>
-      '예언자,마법사,마녀,기사,전사,궁수,도적,암살자,성기사,사제,여사전,죬사제,삘,도적 사,연금술사,강령술사,정령사,소환사,환술사,치유사,현자,학자,연교자,탉교,자,탉 자,방랑자,유랑자,순례자,구도자,관찰자,기록자,전달자,수호자,파수,도자,관찰자,기록자,전달자,수호자,파수꾼,곀 기,심판관,집행관,통치자,지배자,왕,여왕,황제,여제,귀족,영주,기사배자,왕,여왕,황제,여제,귀족,영주,기사단장,안장 ,도둑,사기꾼,광대,바보,은둔자,이단자,배신자,반역자,영웅,구원자,해,잌자 ,창조자,신,여신,천사,악마,정령,요정,괴물,마수,드래곤,유령,망령,언,귝퓓 ,늑대인간,인어,세이렌,님프,고블린,오크,트롤,엘프,드워프,거인,소인,인객 ,조인,어인,용인,악령,수라,나락,천상,명계,이계,심연,혼돈,질서,빛,어둠,굞 ,순례자,방랑자,은둔자,이단아,반역자,개척자,정복자,지배자,조율자,싘,자자,수,자자 ,관찰자,기록자,전달자,안내자,인도자,구원자,파괴자,창조자,망령,윐령,원령,원령 ,정령,요정,마수,성수,환수,신수,검사,기사,궁수,도적,암살자,마법사,사,수 금술사,강령술사,사제,학자,연구자,탐험가,여행가,예술가,광대,음유,시인,시인 농부,까마귀,부엉이,올빼미,독수리,매,늑대,여우,곰,사자,호랑이,표범,흑,킜 쏅,고양이,강아지,뱀,도마뱀,거북이,악어,용,유니콘,페가수스,그리폰,가,고의 ,오크,트롤,오거,슬라임,스켈레톤,좀비,구울,뱀파이어,웨어울프,미노타슀타비 우로스,하피,세이렌,크라켄,레비아탄,검,방패,창,활,지팡이,반지,목걸이,왱봀,';
+      'Propeta,Mago,Mangkukulam,Kabalyero,Mandirigma,Mamamana,Magnanakaw,Assassin,Paladin,Pari,Pari,Monghe,Shaman,Alchemist,Necromancer,Elementalist,Summoner,Illusionist,Healer,Sage,Scholar,Mananaliksik,Explorer,Manlalakbay,Wanderer,Nomad,Pilgrim,Seeker,Observer,Recorder,Messenger,Tagapagtanggol,Tagapagbantay,Guard,Gatekeeper,Hukom,Tagapagpatupad,Pinuno,Ruler,Hari,Reyna,Emperador,Empress,Noble,Lord,Knight Commander,Mercenary,Pirata,Magnanakaw,Manloloko,Jester,Hangal,Ermitanyo,Heretic,Traitor,Rebelde,Bayani,Tagapagligtas,Liberator,Destroyer,Creator,Diyos,Diyosa,Anghel,Demons,Espiritu,Diwata,Halimaw,Magic Beast,Dragon,Multo,Specter,Undead,Vampire,Werewolf,Mermaid,Siren,Nymph,Goblin,Orc,Troll,Elf,Dwarf,Giant,Dwarf,Tao,Beastman,Birdman,Fishman,Dragonman,Evil Spirit,Asura,Abyss,Heaven,Underworld,Ibang Mundo,Abyss,Chaos,Order,Liwanag,Dilim,Seeker,Pilgrim,Wanderer,Ermitanyo,Heretic,Rebelde,Pioneer,Conqueror,Ruler,Regulator,Tagapagtanggol,Tagapagbantay,Observer,Recorder,Messenger,Gabay,Tagapagturo,Tagapagligtas,Destroyer,Creator,Specter,Multo,Vengeful Spirit,Evil Spirit,Espiritu,Diwata,Magic Beast,Holy Beast,Mythical Beast,Divine Beast,Swordsman,Kabalyero,Mamamana,Magnanakaw,Assassin,Mago,Shaman,Alchemist,Necromancer,Pari,Scholar,Mananaliksik,Explorer,Manlalakbay,Artista,Jester,Bard,Mangangalakal,Artisan,Magsasaka,Uwak,Kuag,Kuag,Agila,Hawk,Lobo,Fox,Oso,Leon,Tigre,Leopard,Black Panther,Leopard,Pusa,Aso,Ahas,Butiki,Pagong,Buwaya,Dragon,Unicorn,Pegasus,Griffin,Gargoyle,Goblin,Orc,Troll,Ogre,Slime,Skeleton,Zombie,Ghoul,Vampire,Werewolf,Minotaur,Centaur,Harpy,Siren,Kraken,Leviathan,Espada,Shield,Sibat,Bow,Staff,Singsing,Kuwintas,Korona,Holy Grail';
 
   @override
-  String get eulaTitle => '최종 사용자 라이선스 계약 (EULA)';
+  String get eulaTitle => 'Kasunduan sa Lisensya ng End User (EULA)';
 
   @override
   String get eulaArticle1 =>
-      '제1조 (라이선스 허여)\n본 앱(\"타로마녀\")은 개인적, 비상업적 용도에 한해 사용 권한을 부여여쌜을 부여여쌜에 한해 지적재산권은 이전되지 않습니다.';
+      'Artikulo 1 (Pagbibigay ng Lisensya)\nAng app na ito (\"Tarot Witch\") ay nagbibigay ng karapatan sa paggamit para sa personal, hindi pangkomersyal na layunin lamang, at ang pagmamay-ari o karapatan sa intelektwal na ari-arian ng app ay hindi inililipat.\n\n';
 
   @override
   String get eulaArticle2 =>
-      '제2조 (금지된 사용)\n사용자는 본 서비스를 불법적이거나 타인의 권리를 침해는 목적으로 목적으로 사 으로 사 요 시스템이나 데이터를 임의로 조작하거나 리버스 엔지니어링할 수 없습니다.';
+      'Artikulo 2 (Ipinagbabawal na Paggamit)\nHindi maaaring gamitin ng user ang serbisyong ito para sa ilegal na layunin o layunin na lumalabag sa karapatan ng iba, at hindi maaaring manipulahin o i-reverse engineer ang system o data nang walang pahintulot.\n\n';
 
   @override
   String get eulaArticle3 =>
-      '제3조 (데이터 수집 및 보관 기간)\n원활한 서비스 제공을 위해 사용자가 작성한 타로 일기 및 관련 점괘 데이 작성일로부터 기본 3년간 안전하게 보관됩니다.';
+      'Artikulo 3 (Pagkolekta ng Data at Panahon ng Pag-iimbak)\nPara sa maayos na pagbibigay ng serbisyo, ang tarot diary at kaugnay na data ng pagbabasa na isinulat ng user ay ligtas na iimbak sa loob ng 3 taon mula sa petsa ng paglikha.\n\n';
 
   @override
   String get eulaArticle4 =>
-      '제4조 (장기 미접속 휴면 계정 처리)\n사용자가 1년(365일) 이상 서비스에 접속하지 않을 경우 휴면 계정으로 계정으로 쐄뜨왘,로 전봜왘 보호 및 원활한 서버 환경 유지를 위해 해당 사용자의 모든 데이터는 데이터는 사전 사전 삭제 처리됩니다.';
+      'Artikulo 4 (Paghawak ng Dormant Account dahil sa Matagal na Hindi Pag-log-in)\nKung ang user ay hindi mag-log-in sa serbisyo sa loob ng higit sa 1 taon (365 araw), ang account ay magiging dormant, at ang lahat ng data ng user ay awtomatikong tatanggalin nang walang paunang abiso upang maprotektahan ang personal na impormasyon at mapanatili ang maayos na kapaligiran ng server.\n\n';
 
   @override
   String get eulaArticle5 =>
-      '제5조 (데이터 파기 및 복구 불가)\n제3조의 보관 기간이 경과하거나 제4조에 의해 삭제된 데이터는 영구 파기 하 경우에도 복구할 수 없습니다.';
+      'Artikulo 5 (Pagkasira ng Data at Hindi Maibabalik)\nAng data na natanggal dahil sa paglipas ng panahon ng pag-iimbak sa Artikulo 3 o sa pamamagitan ng Artikulo 4 ay permanenteng mawawasak at hindi na maibabalik sa anumang pagkakataon.\n\n';
 
   @override
   String get eulaArticle6 =>
-      '제6조 (보증 부인 및 면책)\n본 앱이 제공하는 타로 점괘 및 해석은 오락 목적으로만 제공되며, 법적, 쁘은 조언을 대체하지 않습니다. 서비스 이용으로 인해 발생하는 어떠한 직간접적인 손해에 대해서도 감는 잝 지지 않습니다.';
+      'Artikulo 6 (Pagtanggi sa Garantiya at Pagpapalaya sa Pananagutan)\nAng tarot reading at interpretasyon na ibinibigay ng app na ito ay para sa layunin ng libangan lamang at hindi kapalit ng legal, medikal, o pinansyal na payo. Ang developer ay hindi mananagot para sa anumang direkta o hindi direktang pinsala na nagmumula sa paggamit ng serbisyo.\n\n';
 
   @override
   String get eulaAgreement =>
-      '위 EULA 내용 및 데이터 관리 정책은 앱 사용을 위해 필수적으로 동의해야 동의해야 은 하몔.';
+      'Ang nilalaman ng EULA at patakaran sa pamamahala ng data sa itaas ay mga item na kailangang kumpirmahin para sa paggamit ng app.';
 
   @override
-  String get closeButton => '닫기';
+  String get closeButton => 'Isara';
 
   @override
-  String get pushTermsTitle => '이벤트 및 마케팅 알림 수신 동의';
+  String get pushTermsTitle =>
+      'Pahintulot na Makatanggap ng Mga Abiso sa Kaganapan at Marketing';
 
   @override
   String get pushArticle1 =>
-      '제1조 (목적)\n본 동의는 타로마녀 서비스가 사용자에게 유익한 이벤트, 프로모션, 새 비션 등의 광고성 정보를 푸시 알림으로 전송하기 위함입니다.';
+      'Artikulo 1 (Layunin)\nAng pahintulot na ito ay para sa serbisyo ng Tarot Witch na magpadala ng mga abiso sa marketing tulad ng mga kapaki-pakinabang na kaganapan, promosyon, at bagong update sa horoscope sa user sa pamamagitan ng push notification.\n\n';
 
   @override
   String get pushArticle2 =>
-      '제2조 (수신 철회)\n사용자는 본 수신 동의를 언제든지 앱 내 [내 메뉴 > 앱 설정]에숄 철회한시 철회한신 동의를 철회하더라도 서비스의 기본 기능(필수 서비스)은 정상적으로 이닩 기능';
+      'Artikulo 2 (Pagbawi ng Pahintulot)\nMaaaring bawiin ng user ang pahintulot na ito anumang oras sa [My Menu > App Settings] sa loob ng app. Kahit bawiin ang pahintulot, ang mga pangunahing function (mahahalagang serbisyo) ng serbisyo ay magagamit pa rin nang normal.\n\n';
 
   @override
   String get pushArticle3 =>
-      '제3조 (알림의 내용)\n전송되는 알림에는 앱 내 특별 할인 혜택, 기간 한정 이벤트, 맞춤형 운첸 및 마케팅 성격의 내용이 포함될 수 있습니다.';
+      'Artikulo 3 (Nilalaman ng Abiso)\nAng mga ipinapadalang abiso ay maaaring maglaman ng mga nilalaman ng advertising at marketing tulad ng mga espesyal na diskwento sa app, limitadong oras na kaganapan, at personalized na rekomendasyon sa horoscope.\n\n';
 
   @override
-  String get pushAgreement => '위 내용은 사용자의 선택적 동의 사항이며, 미동의 시에도 타로 서비스 이슔 없습니다.';
+  String get pushAgreement =>
+      'Ang nilalaman sa itaas ay opsyonal na pahintulot ng user, at walang magiging disadvantage sa paggamit ng serbisyo ng Tarot kahit hindi sumang-ayon.';
 
   @override
   String get windowsNoGoogleLogin =>
-      '미리보기 환경(Windows)에서는 구글 로그인을 지원하지 않습니다. 안드로이드 기기나 웹을 이용해주세요.';
+      'Hindi sinusuportahan ang Google login sa preview environment (Windows). Mangyaring gamitin ang Android device o web.';
 
   @override
-  String get signupTermsRequired => '회원가입을 진행하려면 데이터 보관 약관에 동의해야 합니다.';
+  String get signupTermsRequired =>
+      'Upang magpatuloy sa pagpaparehistro, kailangan mong sumang-ayon sa mga tuntunin ng pag-iimbak ng data.';
 
   @override
   String googleLoginError(String error) {
-    return '구글 로그인 오류: $error';
+    return 'Error sa Google Login: $error';
   }
 
   @override
-  String get googleLoginUnknownError => '구글 로그인 중 알 수 없는 오류가 발생했습니다.';
+  String get googleLoginUnknownError =>
+      'Nagkaroon ng hindi inaasahang error habang nagla-log in sa Google.';
 
   @override
-  String get windowsNoFirebase => '미리보기 환경(Windows)에서는 파이어베이스 로그인을 지원하지 않습니다.';
+  String get windowsNoFirebase =>
+      'Hindi sinusuportahan ang Firebase login sa preview environment (Windows).';
 
   @override
-  String get emailVerificationRequired => '이메일 인증이 필요합니다. 가입하신 이메일함을 확인해주세요.';
+  String get emailVerificationRequired =>
+      'Kailangan ang pag-verify ng email. Pakisuri ang iyong inbox ng email na iyong inirehistro.';
 
   @override
-  String get resendEmail => '재발송';
+  String get resendEmail => 'Ipadala muli';
 
   @override
-  String get verificationEmailSent => '인증 메일이 재발송되었습니다.';
+  String get verificationEmailSent => 'Naipadala muli ang verification email.';
 
   @override
-  String get passwordMismatch => '비밀번호가 일치하지 않습니다. 다시 확인해 주세요.';
+  String get passwordMismatch => 'Hindi tugma ang password. Pakisuri muli.';
 
   @override
-  String get signupSuccess => '회원가입이 완료되었습니다. 발송된 이메일을 확인하여 인증을 완료해주세요.';
+  String get signupSuccess =>
+      'Kumpleto na ang pagpaparehistro. Pakisuri ang ipinadalang email upang makumpleto ang pag-verify.';
 
   @override
-  String get authError => '인증 오류가 발생했습니다.';
+  String get authError => 'Nagkaroon ng error sa authentication.';
 
   @override
-  String get authLoginTitle => '로그인';
+  String get authLoginTitle => 'Mag-login';
 
   @override
-  String get authSignupTitle => '회원가입';
+  String get authSignupTitle => 'Mag-sign up';
 
   @override
-  String get authTarotNickname => '타로 세계의 닉네임';
+  String get authTarotNickname => 'Nickname sa Mundo ng Tarot';
 
   @override
-  String get authRerollNickname => '닉네임 다시 뽑기';
+  String get authRerollNickname => 'I-reroll ang Nickname';
 
   @override
-  String get authEmail => '이메일';
+  String get authEmail => 'Email';
 
   @override
-  String get authPassword => '비밀번호';
+  String get authPassword => 'Password';
 
   @override
-  String get authConfirmPassword => '비밀번호 확인';
+  String get authConfirmPassword => 'Kumpirmahin ang Password';
 
   @override
-  String get authKeepLoggedIn => '로그인 상태 유지';
+  String get authKeepLoggedIn => 'Manatiling naka-log in';
 
   @override
-  String get authAgreeEula => '최종 사용자 라이선스 계약(EULA)에 동의합니다. (필수)';
+  String get authAgreeEula =>
+      'Sumasang-ayon ako sa Kasunduan sa Lisensya ng End User (EULA). (Kinakailangan)';
 
   @override
-  String get authViewContent => '[내용 보기]';
+  String get authViewContent => '[Tingnan ang Nilalaman]';
 
   @override
-  String get authAgreePush => '새로운 타로점 및 이벤터 알림수신에 동의합니다. (선택)';
+  String get authAgreePush =>
+      'Sumasang-ayon ako na makatanggap ng mga abiso para sa bagong tarot reading at mga kaganapan. (Opsyonal)';
 
   @override
-  String get authBtnLogin => '로그인하기';
+  String get authBtnLogin => 'Mag-login';
 
   @override
-  String get authBtnSignup => '가입하기';
+  String get authBtnSignup => 'Mag-sign up';
 
   @override
-  String get authSwitchToSignup => '계정이 없으신가요? 회원가입';
+  String get authSwitchToSignup => 'Wala ka pang account? Mag-sign up';
 
   @override
-  String get authSwitchToLogin => '이미 계정이 있으신가요? 로그인';
+  String get authSwitchToLogin => 'Mayroon ka nang account? Mag-login';
 
   @override
-  String get authGoogleSignIn => 'Google로 시작하기';
+  String get authGoogleSignIn => 'Magpatuloy sa Google';
 
   @override
-  String get cardDetailNotReady => '이 해석은 아직 준비되지 않았습니다.';
+  String get cardDetailNotReady => 'Hindi pa handa ang interpretasyong ito.';
 
   @override
-  String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
+  String get cardDetailLoadError =>
+      'Nagkaroon ng error habang naglo-load ng data.';
 
   @override
   String get cardDetailTabUpright => 'Tuwid (Upright)';
@@ -3996,25 +4162,26 @@ class AppLocalizationsTl extends AppLocalizations {
   String get cardDetailTabReversed => 'Baliktad (Reversed)';
 
   @override
-  String get cardDetailNoInterpretation => '해석이 없습니다.';
+  String get cardDetailNoInterpretation => 'Walang interpretasyon.';
 
   @override
-  String get cardDetailSectionKeywords => '핵심 키워드';
+  String get cardDetailSectionKeywords => 'Mga Pangunahing Keyword';
 
   @override
-  String get cardDetailSectionGeneral => '일반 해석';
+  String get cardDetailSectionGeneral => 'Pangkalahatang Interpretasyon';
 
   @override
-  String get cardDetailSectionLove => '연애 운';
+  String get cardDetailSectionLove => 'Pag-ibig';
 
   @override
-  String get cardDetailSectionCareer => '금전 커리어';
+  String get cardDetailSectionCareer => 'Karera at Pananalapi';
 
   @override
-  String get cardDetailSectionHealth => '건강';
+  String get cardDetailSectionHealth => 'Kalusugan';
 
   @override
-  String get cardDetailSectionSpirituality => '영성 내면';
+  String get cardDetailSectionSpirituality =>
+      'Espirituwalidad at Panloob na Sarili';
 
   @override
   String get chatDustShortageTitle => 'kakulangan ng pulbos';
@@ -4112,27 +4279,27 @@ class AppLocalizationsTl extends AppLocalizations {
   String get profileEditSave => 'I-save';
 
   @override
-  String get coinShortageTitle => 'Not Enough Coins';
+  String get coinShortageTitle => 'Kakulangan sa Coin';
 
   @override
   String get coinShortageContent =>
-      'You don\'t have enough coins. 1 coin is required for a tarot reading.';
+      'Kulang ang iyong coin. Kailangan ng 1 coin para sa tarot reading.';
 
   @override
   String get dialogOk => 'OK';
 
   @override
-  String get proceedReadingTitle => 'Proceed Tarot Reading';
+  String get proceedReadingTitle => 'Magpatuloy sa Tarot Reading';
 
   @override
   String get proceedReadingContent =>
-      'Do you want to consume 1 coin to proceed with the reading?';
+      'Gusto mo bang magpatuloy sa pagbabasa gamit ang 1 coin?';
 
   @override
-  String get dialogCancel => 'Cancel';
+  String get dialogCancel => 'Kanselahin';
 
   @override
-  String get dialogProceed => 'Proceed';
+  String get dialogProceed => 'Magpatuloy';
 
   @override
   String pickCardsText(int count) {
@@ -4150,7 +4317,7 @@ class AppLocalizationsTl extends AppLocalizations {
 
   @override
   String witchTarotReading(String witchName) {
-    return '$witchName\'s Tarot Reading';
+    return 'Tarot Reading ni $witchName';
   }
 
   @override

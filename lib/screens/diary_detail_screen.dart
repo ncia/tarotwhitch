@@ -13,6 +13,7 @@ import '../services/translation_service.dart';
 import 'package:flutter_tarot/l10n/tarot_localizations.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import 'package:intl/intl.dart';
+import '../widgets/emoji_picker_widget.dart';
 
 class DiaryDetailScreen extends StatefulWidget {
   final TarotDiary diary;
@@ -26,7 +27,9 @@ class DiaryDetailScreen extends StatefulWidget {
 class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
   late TarotDiary _diary;
   final TextEditingController _followUpController = TextEditingController();
+  final FocusNode _focusNode = FocusNode();
   bool _isEditingFollowUp = false;
+  bool _showEmojiPicker = false;
 
   bool _isTranslating = false;
   String? _translatedResultText;
@@ -38,11 +41,19 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
     super.initState();
     _diary = widget.diary;
     _followUpController.text = _diary.followUpNote;
+    _focusNode.addListener(() {
+      if (_focusNode.hasFocus) {
+        setState(() {
+          _showEmojiPicker = false;
+        });
+      }
+    });
   }
 
   @override
   void dispose() {
     _followUpController.dispose();
+    _focusNode.dispose();
     super.dispose();
   }
 
@@ -413,6 +424,7 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
                         const SizedBox(height: 8),
                         TextField(
                           controller: _followUpController,
+                          focusNode: _focusNode,
                           style:
                               const TextStyle(color: Colors.white, fontSize: 14),
                           maxLines: 4,
@@ -434,6 +446,19 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
                               borderSide:
                                   const BorderSide(color: Colors.amberAccent),
                             ),
+                            suffixIcon: IconButton(
+                              icon: Icon(_showEmojiPicker ? Icons.keyboard : Icons.emoji_emotions_outlined, color: Colors.white54),
+                              onPressed: () {
+                                setState(() {
+                                  _showEmojiPicker = !_showEmojiPicker;
+                                  if (_showEmojiPicker) {
+                                    FocusScope.of(context).unfocus();
+                                  } else {
+                                    _focusNode.requestFocus();
+                                  }
+                                });
+                              },
+                            ),
                           ),
                         ),
                         const SizedBox(height: 12),
@@ -450,6 +475,10 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
                                   borderRadius: BorderRadius.circular(12)),
                             ),
                           ),
+                        ),
+                        EmojiPickerWidget(
+                          controller: _followUpController,
+                          isVisible: _showEmojiPicker,
                         ),
                       ],
                     ],

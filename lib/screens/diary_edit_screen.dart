@@ -6,6 +6,7 @@ import '../data/tarot_diary.dart';
 import '../services/diary_service.dart';
 import 'package:flutter_tarot/l10n/tarot_localizations.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
+import '../widgets/emoji_picker_widget.dart';
 
 class DiaryEditScreen extends StatefulWidget {
   final List<TarotCardData> cards;
@@ -29,11 +30,26 @@ class DiaryEditScreen extends StatefulWidget {
 
 class _DiaryEditScreenState extends State<DiaryEditScreen> {
   final _noteController = TextEditingController();
+  final FocusNode _focusNode = FocusNode();
   bool _isSaving = false;
+  bool _showEmojiPicker = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _focusNode.addListener(() {
+      if (_focusNode.hasFocus) {
+        setState(() {
+          _showEmojiPicker = false;
+        });
+      }
+    });
+  }
 
   @override
   void dispose() {
     _noteController.dispose();
+    _focusNode.dispose();
     super.dispose();
   }
 
@@ -151,15 +167,37 @@ class _DiaryEditScreenState extends State<DiaryEditScreen> {
                 GlassContainer(
                   padding: const EdgeInsets.all(16),
                   borderRadius: 16,
-                  child: TextField(
-                    controller: _noteController,
-                    style: const TextStyle(color: Colors.white),
-                    maxLines: 5,
-                    decoration: const InputDecoration(
-                      hintText: '오늘의 점괘에 대한 나의 생각이나 느낌을 자유롭게 적어보세요.',
-                      hintStyle: TextStyle(color: Colors.white30),
-                      border: InputBorder.none,
-                    ),
+                  child: Column(
+                    children: [
+                      TextField(
+                        controller: _noteController,
+                        focusNode: _focusNode,
+                        style: const TextStyle(color: Colors.white),
+                        maxLines: 5,
+                        decoration: InputDecoration(
+                          hintText: '오늘의 점괘에 대한 나의 생각이나 느낌을 자유롭게 적어보세요.',
+                          hintStyle: const TextStyle(color: Colors.white30),
+                          border: InputBorder.none,
+                          suffixIcon: IconButton(
+                            icon: Icon(_showEmojiPicker ? Icons.keyboard : Icons.emoji_emotions_outlined, color: Colors.white54),
+                            onPressed: () {
+                              setState(() {
+                                _showEmojiPicker = !_showEmojiPicker;
+                                if (_showEmojiPicker) {
+                                  FocusScope.of(context).unfocus();
+                                } else {
+                                  _focusNode.requestFocus();
+                                }
+                              });
+                            },
+                          ),
+                        ),
+                      ),
+                      EmojiPickerWidget(
+                        controller: _noteController,
+                        isVisible: _showEmojiPicker,
+                      ),
+                    ],
                   ),
                 ),
                 const SizedBox(height: 32),

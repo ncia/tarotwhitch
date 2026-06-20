@@ -1,15 +1,36 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import '../models/community_post.dart';
 import '../data/tarot_data.dart';
 import 'glass_container.dart';
 import '../screens/community_detail_screen.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
+import 'user_profile_avatar.dart';
 
 class CommunityFeedItem extends StatelessWidget {
   final CommunityPost post;
 
   const CommunityFeedItem({super.key, required this.post});
+
+  String _getTimeAgo(DateTime date) {
+    final now = DateTime.now();
+    final difference = now.difference(date);
+
+    if (difference.inDays >= 365) {
+      return '${(difference.inDays / 365).floor()}년 전';
+    } else if (difference.inDays >= 30) {
+      return '${(difference.inDays / 30).floor()}개월 전';
+    } else if (difference.inDays > 0) {
+      return '${difference.inDays}일 전';
+    } else if (difference.inHours > 0) {
+      return '${difference.inHours}시간 전';
+    } else if (difference.inMinutes > 0) {
+      return '${difference.inMinutes}분 전';
+    } else {
+      return '방금 전';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -38,11 +59,7 @@ class CommunityFeedItem extends StatelessWidget {
                 // Header (Nickname & Date)
                 Row(
                   children: [
-                    const CircleAvatar(
-                      backgroundColor: Colors.purple,
-                      radius: 16,
-                      child: Icon(Icons.person, color: Colors.white, size: 18),
-                    ),
+                    UserProfileAvatar(userId: post.authorId, radius: 16),
                     const SizedBox(width: 8),
                     Expanded(
                       child: Column(
@@ -56,11 +73,25 @@ class CommunityFeedItem extends StatelessWidget {
                               fontSize: 14,
                             ),
                           ),
-                          Text(
-                            formattedDate,
-                            style: const TextStyle(
-                              color: Colors.white54,
-                              fontSize: 11,
+                          Text.rich(
+                            TextSpan(
+                              children: [
+                                TextSpan(
+                                  text: formattedDate,
+                                  style: const TextStyle(
+                                    color: Colors.amberAccent,
+                                    fontSize: 11,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '  ${_getTimeAgo(post.createdAt)}',
+                                  style: const TextStyle(
+                                    color: Colors.white70,
+                                    fontSize: 11,
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
                         ],

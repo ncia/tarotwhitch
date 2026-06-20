@@ -5,6 +5,9 @@ import '../data/tarot_data.dart';
 import '../data/tarot_detail_data.dart';
 import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
+import '../widgets/top_floating_icons.dart';
+import '../widgets/shared_bottom_nav_bar.dart';
+import 'main_screen.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 class CardDetailScreen extends StatefulWidget {
   final TarotCardData card;
@@ -26,16 +29,26 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
   TarotDetailData? _detailData;
   bool _isLoading = true;
   String? _error;
+  int _currentTabIndex = 0;
 
   @override
   void initState() {
     super.initState();
-    _loadDetails();
+    _currentTabIndex = widget.initialIsReversed ? 1 : 0;
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (_isLoading && _detailData == null) {
+      _loadDetails();
+    }
   }
 
   Future<void> _loadDetails() async {
     try {
-      final jsonString = await rootBundle.loadString('assets/data/tarot_details_ko.json');
+      final localeCode = Localizations.localeOf(context).languageCode;
+      final jsonString = await rootBundle.loadString('assets/data/tarot_details_$localeCode.json');
       final List<dynamic> jsonList = jsonDecode(jsonString);
       
       final data = jsonList.firstWhere(
@@ -65,12 +78,13 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBody: true,
       extendBodyBehindAppBar: true,
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(kToolbarHeight + 65),
         child: Column(
           children: [
-            const SizedBox(height: 65),
+            const TopFloatingIcons(),
             AppBar(
               title: Text(widget.card.name),
               backgroundColor: Colors.transparent,
@@ -82,15 +96,13 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
       body: GradientBackground(
         child: _isLoading 
           ? const Center(child: CircularProgressIndicator(color: Colors.white))
-          : DefaultTabController(
-              length: 2,
-              initialIndex: widget.initialIsReversed ? 1 : 0,
+          : SingleChildScrollView(
               child: Column(
                 children: [
-                  SizedBox(height: MediaQuery.of(context).padding.top + kToolbarHeight + 20),
+                  SizedBox(height: MediaQuery.of(context).padding.top + kToolbarHeight + 0),
                   // Card Image with Hero
                   Hero(
-                    tag: widget.heroTag ?? 'card_\${widget.card.id}',
+                    tag: widget.heroTag ?? 'card_${widget.card.id}',
                     child: Container(
                       height: 250,
                       decoration: BoxDecoration(
@@ -110,26 +122,74 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
                     ),
                   ),
                   const SizedBox(height: 20),
-                  TabBar(
-                    indicatorColor: Colors.white,
-                    labelColor: Colors.white,
-                    unselectedLabelColor: Colors.white54,
-                    tabs: [
-                      Tab(text: AppLocalizations.of(context)!.cardDetailTabUpright),
-                      Tab(text: AppLocalizations.of(context)!.cardDetailTabReversed),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: InkWell(
+                          onTap: () => setState(() => _currentTabIndex = 0),
+                          child: Container(
+                            padding: const EdgeInsets.symmetric(vertical: 12),
+                            decoration: BoxDecoration(
+                              border: Border(
+                                bottom: BorderSide(
+                                  color: _currentTabIndex == 0 ? Colors.white : Colors.transparent,
+                                  width: 2,
+                                ),
+                              ),
+                            ),
+                            alignment: Alignment.center,
+                            child: Text(
+                              AppLocalizations.of(context)!.cardDetailTabUpright,
+                              style: TextStyle(
+                                color: _currentTabIndex == 0 ? Colors.white : Colors.white54,
+                                fontWeight: _currentTabIndex == 0 ? FontWeight.bold : FontWeight.normal,
+                                fontSize: 16,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                      Expanded(
+                        child: InkWell(
+                          onTap: () => setState(() => _currentTabIndex = 1),
+                          child: Container(
+                            padding: const EdgeInsets.symmetric(vertical: 12),
+                            decoration: BoxDecoration(
+                              border: Border(
+                                bottom: BorderSide(
+                                  color: _currentTabIndex == 1 ? Colors.white : Colors.transparent,
+                                  width: 2,
+                                ),
+                              ),
+                            ),
+                            alignment: Alignment.center,
+                            child: Text(
+                              AppLocalizations.of(context)!.cardDetailTabReversed,
+                              style: TextStyle(
+                                color: _currentTabIndex == 1 ? Colors.white : Colors.white54,
+                                fontWeight: _currentTabIndex == 1 ? FontWeight.bold : FontWeight.normal,
+                                fontSize: 16,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
                     ],
                   ),
-                  Expanded(
-                    child: TabBarView(
-                      children: [
-                        _buildDetailContent(_detailData?.upright, isUpright: true),
-                        _buildDetailContent(_detailData?.reversed, isUpright: false),
-                      ],
-                    ),
-                  ),
+                  _currentTabIndex == 0
+                      ? _buildDetailContent(_detailData?.upright, isUpright: true)
+                      : _buildDetailContent(_detailData?.reversed, isUpright: false),
+                  const SizedBox(height: 20),
                 ],
               ),
             ),
+      ),
+      bottomNavigationBar: SharedBottomNavBar(
+        currentIndex: 3,
+        onTap: (index) {
+          mainScreenKey.currentState?.switchTab(index);
+          Navigator.popUntil(context, (route) => route.isFirst);
+        },
       ),
     );
   }
@@ -142,16 +202,19 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
       return const Center(child: Text('데이터가 없습니다.', style: TextStyle(color: Colors.white)));
     }
 
-    return ListView(
+    return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
-      children: [
-        _buildSection(AppLocalizations.of(context)!.cardDetailSectionKeywords, detail.keyMeanings),
-        _buildSection(AppLocalizations.of(context)!.cardDetailSectionGeneral, detail.general),
-        _buildSection(AppLocalizations.of(context)!.cardDetailSectionLove, detail.love),
-        _buildSection(AppLocalizations.of(context)!.cardDetailSectionCareer, detail.career),
-        _buildSection(AppLocalizations.of(context)!.cardDetailSectionHealth, detail.health),
-        _buildSection(AppLocalizations.of(context)!.cardDetailSectionSpirituality, detail.spirituality),
-      ],
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          _buildSection(AppLocalizations.of(context)!.cardDetailSectionKeywords, detail.keyMeanings),
+          _buildSection(AppLocalizations.of(context)!.cardDetailSectionGeneral, detail.general),
+          _buildSection(AppLocalizations.of(context)!.cardDetailSectionLove, detail.love),
+          _buildSection(AppLocalizations.of(context)!.cardDetailSectionCareer, detail.career),
+          _buildSection(AppLocalizations.of(context)!.cardDetailSectionHealth, detail.health),
+          _buildSection(AppLocalizations.of(context)!.cardDetailSectionSpirituality, detail.spirituality),
+        ],
+      ),
     );
   }
 
@@ -189,3 +252,4 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
     );
   }
 }
+

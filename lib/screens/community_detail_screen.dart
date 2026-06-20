@@ -12,6 +12,7 @@ import '../data/spread_type.dart';
 import '../services/community_service.dart';
 import '../services/translation_service.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
+import '../widgets/user_profile_avatar.dart';
 
 class CommunityDetailScreen extends StatefulWidget {
   final CommunityPost post;
@@ -28,6 +29,10 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
   
   bool _isLiking = false;
   
+  // 이모지 피커 상태
+  bool _showEmojiPicker = false;
+  final FocusNode _focusNode = FocusNode();
+  
   // 번역 상태 저장용
   bool _isPostTranslating = false;
   String? _translatedPostContent;
@@ -38,8 +43,21 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
   final Map<String, String> _translatedComments = {};
 
   @override
+  void initState() {
+    super.initState();
+    _focusNode.addListener(() {
+      if (_focusNode.hasFocus) {
+        setState(() {
+          _showEmojiPicker = false;
+        });
+      }
+    });
+  }
+
+  @override
   void dispose() {
     _commentController.dispose();
+    _focusNode.dispose();
     super.dispose();
   }
 
@@ -347,10 +365,9 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
                                     child: Row(
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
-                                        const CircleAvatar(
+                                        UserProfileAvatar(
+                                          userId: comment.authorId,
                                           radius: 12,
-                                          backgroundColor: Colors.purple,
-                                          child: Icon(Icons.person, size: 14, color: Colors.white),
                                         ),
                                         const SizedBox(width: 8),
                                         Expanded(
@@ -413,9 +430,23 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
                       top: false,
                       child: Row(
                         children: [
+                          IconButton(
+                            icon: Icon(_showEmojiPicker ? Icons.keyboard : Icons.emoji_emotions_outlined, color: Colors.white54),
+                            onPressed: () {
+                              setState(() {
+                                _showEmojiPicker = !_showEmojiPicker;
+                                if (_showEmojiPicker) {
+                                  FocusScope.of(context).unfocus();
+                                } else {
+                                  _focusNode.requestFocus();
+                                }
+                              });
+                            },
+                          ),
                           Expanded(
                             child: TextField(
                               controller: _commentController,
+                              focusNode: _focusNode,
                               style: const TextStyle(color: Colors.white),
                               decoration: InputDecoration(
                                 hintText: AppLocalizations.of(context)!.communityCommentInputHint,
@@ -436,6 +467,10 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
                         ],
                       ),
                     ),
+                  ),
+                  EmojiPickerWidget(
+                    controller: _commentController,
+                    isVisible: _showEmojiPicker,
                   ),
                 ],
               ),
