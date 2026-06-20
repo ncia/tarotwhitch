@@ -186,7 +186,7 @@ class _MagicBookTabState extends State<_MagicBookTab> {
         final currentPhaseName = phaseIndex < phases.length ? phases[phaseIndex] : '초월';
         final phaseNumber = phaseIndex + 1;
 
-        final double hue = (220.0 + (exp * 3.0)) % 360.0;
+        final double hue = (40.0 + (exp * 3.0)) % 360.0;
         final double lightness = (0.5 + (exp / 100000.0) * 0.5).clamp(0.5, 1.0);
         final titleColor = HSLColor.fromAHSL(1.0, hue, 0.8, lightness).toColor();
 
@@ -211,7 +211,7 @@ class _MagicBookTabState extends State<_MagicBookTab> {
                             LinearProgressIndicator(
                               value: progress,
                               backgroundColor: Colors.white24,
-                              color: Colors.blueAccent,
+                              color: Colors.amberAccent,
                               minHeight: 12,
                               borderRadius: BorderRadius.circular(6),
                             ),
@@ -239,7 +239,7 @@ class _MagicBookTabState extends State<_MagicBookTab> {
                           borderRadius: 20,
                           child: Text(
                             AppLocalizations.of(context)!.growthDustOwned(exp * 10),
-                            style: const TextStyle(color: Colors.indigoAccent, fontSize: 18, fontWeight: FontWeight.bold),
+                            style: const TextStyle(color: Colors.amber, fontSize: 18, fontWeight: FontWeight.bold),
                           ),
                         ),
                       ),
@@ -249,7 +249,7 @@ class _MagicBookTabState extends State<_MagicBookTab> {
                         icon: const Icon(Icons.auto_awesome),
                         label: const Text('마법책 강화 (가루 10개)'),
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.indigoAccent,
+                          backgroundColor: Colors.amber[800],
                           foregroundColor: Colors.white,
                           padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
                           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
@@ -333,7 +333,7 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('[$phaseNumber단계: $currentPhaseName]', style: Theme.of(context).textTheme.titleMedium?.copyWith(color: overlayColor, fontWeight: FontWeight.bold)),
+              Text('[$phaseNumber단계: $currentPhaseName]', style: Theme.of(context).textTheme.titleMedium?.copyWith(color: Colors.purpleAccent, fontWeight: FontWeight.bold)),
               const SizedBox(height: 4),
               Text(AppLocalizations.of(context)!.growthCrystalBallLevel(displayLevel), style: Theme.of(context).textTheme.titleLarge),
               const SizedBox(height: 10),
