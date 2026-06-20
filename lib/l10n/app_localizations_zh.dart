@@ -1040,13 +1040,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get chatProfileTapHint => '点击头像查看详情';
 
   @override
-  String get themeName1 => '主题1';
+  String get themeName1 => '皮肤1';
 
   @override
-  String get themeName2 => '主题2';
+  String get themeName2 => '皮肤2';
 
   @override
-  String get themeName3 => '主题3';
+  String get themeName3 => '皮肤3';
 
   @override
   String get themeMagicBook => '魔法书';
@@ -1055,14 +1055,14 @@ class AppLocalizationsZh extends AppLocalizations {
   String get themeBlackCat => '黑猫';
 
   @override
-  String get themeEmptyPaidThemes => '在商店购买主题\n来填补这个空间！';
+  String get themeEmptyPaidThemes => '在商店购买皮肤\n来填补这个空间！';
 
   @override
-  String get shopThemePurchaseTitle => '购买主题';
+  String get shopThemePurchaseTitle => '购买皮肤';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return '您想用 $skinName 枚硬币购买 $cost 主题吗？';
+    return '您想用 $cost 金币购买 $skinName 皮肤吗？';
   }
 
   @override
@@ -1072,11 +1072,11 @@ class AppLocalizationsZh extends AppLocalizations {
   String get shopPurchase => '购买';
 
   @override
-  String get shopAlreadyOwned => '已经拥有了。尝试在主题设置中应用它！';
+  String get shopAlreadyOwned => '已经拥有了。尝试在皮肤设置中应用它！';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName购买成功！检查主题设置。';
+    return '$skinName购买成功！检查皮肤设置。';
   }
 
   @override
@@ -1139,7 +1139,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get myMenuLanguageSettings => '语言设置';
 
   @override
-  String get myMenuThemeSettings => '主题设置';
+  String get myMenuThemeSettings => '皮肤设置';
 
   @override
   String get myMenuChangeBackground => '更改背景图片';
@@ -1190,13 +1190,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get shopTitle => '店铺';
 
   @override
-  String get shopSubtitle => '购买金币和主题';
+  String get shopSubtitle => '购买金币和皮肤';
 
   @override
   String get shopTabCoin => '硬币';
 
   @override
-  String get shopTabTheme => '主题';
+  String get shopTabTheme => '皮肤';
 
   @override
   String get shopPayButton => '支付';
@@ -2739,10 +2739,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get nicknameSuffix199 => '圣杯';
 
   @override
-  String get themeFree => '免费主题';
+  String get themeFree => '免费皮肤';
 
   @override
-  String get themePaid => '付费主题';
+  String get themePaid => '付费皮肤';
 
   @override
   String get diaryEmpty => '還沒有日記條目。\n今天檢查你的運勢並留下日記！';
@@ -5100,13 +5100,13 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
   String get chatProfileTapHint => '点击头像查看详细信息';
 
   @override
-  String get themeName1 => '主题 1';
+  String get themeName1 => '皮肤1';
 
   @override
-  String get themeName2 => '主题 2';
+  String get themeName2 => '皮肤2';
 
   @override
-  String get themeName3 => '主题 3';
+  String get themeName3 => '皮肤3';
 
   @override
   String get themeMagicBook => '魔法书';
@@ -5115,14 +5115,14 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
   String get themeBlackCat => '黑猫';
 
   @override
-  String get themeEmptyPaidThemes => '请在商店购买主题\n来填充这里！';
+  String get themeEmptyPaidThemes => '在商店购买皮肤\n来填补这个空间！';
 
   @override
-  String get shopThemePurchaseTitle => '购买主题';
+  String get shopThemePurchaseTitle => '购买皮肤';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return '您确定要花费$cost金币购买$skinName主题吗？';
+    return '您想用 $cost 金币购买 $skinName 皮肤吗？';
   }
 
   @override
@@ -5132,11 +5132,11 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
   String get shopPurchase => '购买';
 
   @override
-  String get shopAlreadyOwned => '您已拥有此主题。请在主题设置中应用！';
+  String get shopAlreadyOwned => '已经拥有了。尝试在皮肤设置中应用它！';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName购买成功！请在主题设置中查看。';
+    return '$skinName购买成功！检查皮肤设置。';
   }
 
   @override
@@ -5199,7 +5199,7 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
   String get myMenuLanguageSettings => '语言设置';
 
   @override
-  String get myMenuThemeSettings => '主题设置';
+  String get myMenuThemeSettings => '皮肤设置';
 
   @override
   String get myMenuChangeBackground => '更改背景图片';
@@ -5250,13 +5250,13 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
   String get shopTitle => '商店';
 
   @override
-  String get shopSubtitle => '购买金币和主题';
+  String get shopSubtitle => '购买金币和皮肤';
 
   @override
   String get shopTabCoin => '金币';
 
   @override
-  String get shopTabTheme => '主题';
+  String get shopTabTheme => '皮肤';
 
   @override
   String get shopPayButton => '支付';
@@ -6799,10 +6799,10 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
   String get nicknameSuffix199 => '圣杯';
 
   @override
-  String get themeFree => '免费主题';
+  String get themeFree => '免费皮肤';
 
   @override
-  String get themePaid => '付费主题';
+  String get themePaid => '付费皮肤';
 
   @override
   String get diaryEmpty => '还没有日记。\n查看今天的运势并留下日记吧！';
@@ -9158,13 +9158,13 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get chatProfileTapHint => '點擊頭像查看詳細資訊';
 
   @override
-  String get themeName1 => '主題 1';
+  String get themeName1 => '皮膚1';
 
   @override
-  String get themeName2 => '主題 2';
+  String get themeName2 => '皮膚2';
 
   @override
-  String get themeName3 => '主題 3';
+  String get themeName3 => '皮膚3';
 
   @override
   String get themeMagicBook => '魔法書';
@@ -9173,14 +9173,14 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get themeBlackCat => '黑貓';
 
   @override
-  String get themeEmptyPaidThemes => '請在商店購買主題\n來填滿這裡吧！';
+  String get themeEmptyPaidThemes => '在商店購買皮膚\n來填補這個空間！';
 
   @override
-  String get shopThemePurchaseTitle => '購買主題';
+  String get shopThemePurchaseTitle => '購買皮膚';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return '您確定要以 $cost 金幣購買 $skinName 主題嗎？';
+    return '您想用 $cost 金幣購買 $skinName 皮膚嗎？';
   }
 
   @override
@@ -9190,11 +9190,11 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get shopPurchase => '購買';
 
   @override
-  String get shopAlreadyOwned => '您已擁有此主題。請在主題設定中應用！';
+  String get shopAlreadyOwned => '已經擁有了。嘗試在皮膚設定中應用它！';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName 購買成功！請在主題設定中查看。';
+    return '$skinName購買成功！檢查皮膚設定。';
   }
 
   @override
@@ -9257,7 +9257,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get myMenuLanguageSettings => '語言設定';
 
   @override
-  String get myMenuThemeSettings => '主題設定';
+  String get myMenuThemeSettings => '皮膚設定';
 
   @override
   String get myMenuChangeBackground => '更改背景圖片';
@@ -9308,13 +9308,13 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get shopTitle => '商店';
 
   @override
-  String get shopSubtitle => '購買金幣和主題';
+  String get shopSubtitle => '購買金幣和皮膚';
 
   @override
   String get shopTabCoin => '金幣';
 
   @override
-  String get shopTabTheme => '主題';
+  String get shopTabTheme => '皮膚';
 
   @override
   String get shopPayButton => '支付';
@@ -10857,10 +10857,10 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get nicknameSuffix199 => '聖杯';
 
   @override
-  String get themeFree => '免費主題';
+  String get themeFree => '免費皮膚';
 
   @override
-  String get themePaid => '付費主題';
+  String get themePaid => '付費肌膚';
 
   @override
   String get diaryEmpty => '尚未撰寫日記。\n查看今日占卜結果並留下日記吧！';

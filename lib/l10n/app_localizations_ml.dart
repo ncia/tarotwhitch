@@ -1214,13 +1214,13 @@ class AppLocalizationsMl extends AppLocalizations {
       'വിശദാംശങ്ങൾ കാണാൻ പ്രൊഫൈൽ ചിത്രത്തിൽ ടാപ്പ് ചെയ്യുക';
 
   @override
-  String get themeName1 => 'തീം 1';
+  String get themeName1 => 'ചർമ്മം 1';
 
   @override
-  String get themeName2 => 'തീം 2';
+  String get themeName2 => 'ചർമ്മം 2';
 
   @override
-  String get themeName3 => 'തീം 3';
+  String get themeName3 => 'ചർമ്മം 3';
 
   @override
   String get themeMagicBook => 'മാന്ത്രിക പുസ്തകം';
@@ -1229,14 +1229,14 @@ class AppLocalizationsMl extends AppLocalizations {
   String get themeBlackCat => 'കറുത്ത പൂച്ച';
 
   @override
-  String get themeEmptyPaidThemes => 'കടയിൽ തീമുകൾ വാങ്ങുക\nഈ ഇടം നിറയ്ക്കാൻ!';
+  String get themeEmptyPaidThemes => 'കടയിൽ തൊലികൾ വാങ്ങുക\nഈ ഇടം നിറയ്ക്കാൻ!';
 
   @override
-  String get shopThemePurchaseTitle => 'വാങ്ങൽ തീം';
+  String get shopThemePurchaseTitle => 'ചർമ്മം വാങ്ങുക';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return '$skinName നാണയങ്ങൾക്കായി നിങ്ങൾക്ക് $cost തീം വാങ്ങണോ?';
+    return 'നിങ്ങൾക്ക് $skinName സ്‌കിൻ $cost നാണയങ്ങൾക്ക് വാങ്ങണോ?';
   }
 
   @override
@@ -1247,11 +1247,11 @@ class AppLocalizationsMl extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'ഇതിനകം ഉടമസ്ഥതയിലുള്ളത്. തീം ക്രമീകരണങ്ങളിൽ ഇത് പ്രയോഗിക്കാൻ ശ്രമിക്കുക!';
+      'ഇതിനകം ഉടമസ്ഥതയിലുള്ളത്. ചർമ്മ ക്രമീകരണങ്ങളിൽ ഇത് പ്രയോഗിക്കാൻ ശ്രമിക്കുക!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName വിജയകരമായി വാങ്ങി! തീം ക്രമീകരണങ്ങൾ പരിശോധിക്കുക.';
+    return '$skinName വിജയകരമായി വാങ്ങി! ചർമ്മ ക്രമീകരണങ്ങൾ പരിശോധിക്കുക.';
   }
 
   @override
@@ -1318,7 +1318,7 @@ class AppLocalizationsMl extends AppLocalizations {
   String get myMenuLanguageSettings => 'ഭാഷാ ക്രമീകരണങ്ങൾ';
 
   @override
-  String get myMenuThemeSettings => 'തീം ക്രമീകരണങ്ങൾ';
+  String get myMenuThemeSettings => 'ചർമ്മ ക്രമീകരണങ്ങൾ';
 
   @override
   String get myMenuChangeBackground => 'പശ്ചാത്തല ചിത്രം മാറ്റുക';
@@ -1373,13 +1373,13 @@ class AppLocalizationsMl extends AppLocalizations {
   String get shopTitle => 'കട';
 
   @override
-  String get shopSubtitle => 'നാണയങ്ങളും തീമുകളും വാങ്ങുക';
+  String get shopSubtitle => 'നാണയങ്ങളും തൊലികളും വാങ്ങുക';
 
   @override
   String get shopTabCoin => 'നാണയം';
 
   @override
-  String get shopTabTheme => 'തീം';
+  String get shopTabTheme => 'തൊലി';
 
   @override
   String get shopPayButton => 'പണം നൽകുക';
@@ -2924,10 +2924,10 @@ class AppLocalizationsMl extends AppLocalizations {
   String get nicknameSuffix199 => 'ഹോളി ഗ്രെയ്ൽ';
 
   @override
-  String get themeFree => 'സൗജന്യ തീം';
+  String get themeFree => 'സ്വതന്ത്ര ചർമ്മം';
 
   @override
-  String get themePaid => 'പണമടച്ചുള്ള തീം';
+  String get themePaid => 'പെയ്ഡ് സ്കിൻ';
 
   @override
   String get diaryEmpty =>

@@ -1176,13 +1176,13 @@ class AppLocalizationsAr extends AppLocalizations {
   String get chatProfileTapHint => 'انقر على صورة الملف الشخصي لعرض التفاصيل';
 
   @override
-  String get themeName1 => 'الموضوع 1';
+  String get themeName1 => 'الجلد 1';
 
   @override
-  String get themeName2 => 'الموضوع 2';
+  String get themeName2 => 'الجلد 2';
 
   @override
-  String get themeName3 => 'الموضوع 3';
+  String get themeName3 => 'الجلد 3';
 
   @override
   String get themeMagicBook => 'كتاب السحر';
@@ -1191,15 +1191,14 @@ class AppLocalizationsAr extends AppLocalizations {
   String get themeBlackCat => 'القطة السوداء';
 
   @override
-  String get themeEmptyPaidThemes =>
-      'شراء المواضيع في المتجر\nلملء هذا الفضاء!';
+  String get themeEmptyPaidThemes => 'شراء جلود في المتجر\nلملء هذا الفضاء!';
 
   @override
-  String get shopThemePurchaseTitle => 'موضوع الشراء';
+  String get shopThemePurchaseTitle => 'شراء الجلد';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'هل ترغب في شراء سمة $skinName مقابل عملات $cost؟';
+    return 'هل ترغب في شراء المظهر $skinName مقابل عملات $cost المعدنية؟';
   }
 
   @override
@@ -1209,12 +1208,11 @@ class AppLocalizationsAr extends AppLocalizations {
   String get shopPurchase => 'شراء';
 
   @override
-  String get shopAlreadyOwned =>
-      'مملوكة بالفعل. حاول تطبيقه في إعدادات الموضوع!';
+  String get shopAlreadyOwned => 'مملوكة بالفعل. حاول تطبيقه في إعدادات الجلد!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return 'تم شراء $skinName بنجاح! تحقق من إعدادات الموضوع.';
+    return 'تم شراء $skinName بنجاح! تحقق من إعدادات الجلد.';
   }
 
   @override
@@ -1277,7 +1275,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get myMenuLanguageSettings => 'إعدادات اللغة';
 
   @override
-  String get myMenuThemeSettings => 'إعدادات الموضوع';
+  String get myMenuThemeSettings => 'إعدادات الجلد';
 
   @override
   String get myMenuChangeBackground => 'تغيير صورة الخلفية';
@@ -1332,13 +1330,13 @@ class AppLocalizationsAr extends AppLocalizations {
   String get shopTitle => 'محل';
 
   @override
-  String get shopSubtitle => 'شراء العملات المعدنية والموضوعات';
+  String get shopSubtitle => 'شراء العملات المعدنية والجلود';
 
   @override
   String get shopTabCoin => 'عملة';
 
   @override
-  String get shopTabTheme => 'سمة';
+  String get shopTabTheme => 'جلد';
 
   @override
   String get shopPayButton => 'يدفع';
@@ -2882,10 +2880,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get nicknameSuffix199 => 'الكأس المقدسة';
 
   @override
-  String get themeFree => 'موضوع مجاني';
+  String get themeFree => 'بشرة مجانية';
 
   @override
-  String get themePaid => 'الموضوع المدفوع';
+  String get themePaid => 'الجلد المدفوع';
 
   @override
   String get diaryEmpty =>

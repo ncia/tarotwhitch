@@ -36,8 +36,6 @@ class MeaningsScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 16),
                     TabBar(
-                      isScrollable: true,
-                      tabAlignment: TabAlignment.center,
                       indicatorColor: Colors.white,
                       labelColor: Colors.white,
                       unselectedLabelColor: Colors.white54,
@@ -81,7 +79,10 @@ class MeaningsScreen extends StatelessWidget {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => CardDetailScreen(card: card),
+                builder: (context) => CardDetailScreen(
+                  card: card,
+                  showBottomNav: true,
+                ),
               ),
             );
           },

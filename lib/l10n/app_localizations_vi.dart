@@ -1206,13 +1206,13 @@ class AppLocalizationsVi extends AppLocalizations {
   String get chatProfileTapHint => 'Chạm vào ảnh hồ sơ để xem chi tiết';
 
   @override
-  String get themeName1 => 'Chủ đề 1';
+  String get themeName1 => 'Da 1';
 
   @override
-  String get themeName2 => 'Chủ đề 2';
+  String get themeName2 => 'Da 2';
 
   @override
-  String get themeName3 => 'Chủ đề 3';
+  String get themeName3 => 'Da 3';
 
   @override
   String get themeMagicBook => 'Cuốn sách ma thuật';
@@ -1222,14 +1222,14 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Mua chủ đề trong cửa hàng\nđể lấp đầy không gian này!';
+      'Mua skin trong cửa hàng\nđể lấp đầy không gian này!';
 
   @override
-  String get shopThemePurchaseTitle => 'Mua chủ đề';
+  String get shopThemePurchaseTitle => 'Mua da';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Bạn có muốn mua chủ đề $skinName với giá $cost xu không?';
+    return 'Bạn có muốn mua giao diện $skinName với giá $cost xu không?';
   }
 
   @override
@@ -1240,11 +1240,11 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Đã sở hữu rồi. Hãy thử áp dụng nó trong cài đặt chủ đề!';
+      'Đã sở hữu rồi. Hãy thử áp dụng nó trong cài đặt da!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName đã mua thành công! Kiểm tra cài đặt chủ đề.';
+    return '$skinName đã mua thành công! Kiểm tra cài đặt da.';
   }
 
   @override
@@ -1308,7 +1308,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get myMenuLanguageSettings => 'Cài đặt ngôn ngữ';
 
   @override
-  String get myMenuThemeSettings => 'Cài đặt chủ đề';
+  String get myMenuThemeSettings => 'Cài đặt da';
 
   @override
   String get myMenuChangeBackground => 'Thay đổi hình nền';
@@ -1361,13 +1361,13 @@ class AppLocalizationsVi extends AppLocalizations {
   String get shopTitle => 'Cửa hàng';
 
   @override
-  String get shopSubtitle => 'Mua xu và chủ đề';
+  String get shopSubtitle => 'Mua xu và Skin';
 
   @override
   String get shopTabCoin => 'đồng xu';
 
   @override
-  String get shopTabTheme => 'chủ đề';
+  String get shopTabTheme => 'Da';
 
   @override
   String get shopPayButton => 'Chi trả';
@@ -2912,10 +2912,10 @@ class AppLocalizationsVi extends AppLocalizations {
   String get nicknameSuffix199 => 'Chén Thánh';
 
   @override
-  String get themeFree => 'Chủ đề miễn phí';
+  String get themeFree => 'Da miễn phí';
 
   @override
-  String get themePaid => 'Chủ đề trả phí';
+  String get themePaid => 'Da trả phí';
 
   @override
   String get diaryEmpty =>

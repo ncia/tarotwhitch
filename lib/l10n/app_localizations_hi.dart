@@ -1207,13 +1207,13 @@ class AppLocalizationsHi extends AppLocalizations {
       'विवरण देखने के लिए प्रोफाइल पिक्चर पर टैप करें';
 
   @override
-  String get themeName1 => 'थीम 1';
+  String get themeName1 => 'त्वचा 1';
 
   @override
-  String get themeName2 => 'थीम 2';
+  String get themeName2 => 'त्वचा 2';
 
   @override
-  String get themeName3 => 'थीम 3';
+  String get themeName3 => 'त्वचा 3';
 
   @override
   String get themeMagicBook => 'जादुई किताब';
@@ -1223,14 +1223,14 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'दुकान में थीम खरीदें\nइस स्थान को भरने के लिए!';
+      'दुकान में खाल खरीदें\nइस स्थान को भरने के लिए!';
 
   @override
-  String get shopThemePurchaseTitle => 'खरीद थीम';
+  String get shopThemePurchaseTitle => 'त्वचा खरीदें';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'क्या आप $skinName सिक्कों के लिए $cost थीम खरीदना चाहते हैं?';
+    return 'क्या आप $cost सिक्कों के लिए $skinName त्वचा खरीदना चाहते हैं?';
   }
 
   @override
@@ -1241,11 +1241,11 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'पहले से ही स्वामित्व में है. इसे थीम सेटिंग में लागू करने का प्रयास करें!';
+      'पहले से ही स्वामित्व में है। इसे त्वचा सेटिंग में लगाने का प्रयास करें!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName सफलतापूर्वक खरीदा गया! थीम सेटिंग जांचें.';
+    return '$skinName सफलतापूर्वक खरीदा गया! त्वचा सेटिंग्स की जाँच करें.';
   }
 
   @override
@@ -1310,7 +1310,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get myMenuLanguageSettings => 'भाषा सेटिंग्स';
 
   @override
-  String get myMenuThemeSettings => 'थीम सेटिंग्स';
+  String get myMenuThemeSettings => 'त्वचा सेटिंग्स';
 
   @override
   String get myMenuChangeBackground => 'पृष्ठभूमि छवि बदलें';
@@ -1364,13 +1364,13 @@ class AppLocalizationsHi extends AppLocalizations {
   String get shopTitle => 'दुकान';
 
   @override
-  String get shopSubtitle => 'सिक्के और थीम्स खरीदें';
+  String get shopSubtitle => 'सिक्के और खालें खरीदें';
 
   @override
   String get shopTabCoin => 'सिक्का';
 
   @override
-  String get shopTabTheme => 'विषय';
+  String get shopTabTheme => 'त्वचा';
 
   @override
   String get shopPayButton => 'वेतन';
@@ -2916,10 +2916,10 @@ class AppLocalizationsHi extends AppLocalizations {
       'अंतिम भोज में ईसा मसीह द्वारा इस्तेमाल किया प्याला';
 
   @override
-  String get themeFree => 'निःशुल्क थीम';
+  String get themeFree => 'नि:शुल्क त्वचा';
 
   @override
-  String get themePaid => 'सशुल्क थीम';
+  String get themePaid => 'सशुल्क त्वचा';
 
   @override
   String get diaryEmpty =>

@@ -1208,13 +1208,13 @@ class AppLocalizationsDa extends AppLocalizations {
   String get chatProfileTapHint => 'Tryk på profilbilledet for at se detaljer';
 
   @override
-  String get themeName1 => 'Tema 1';
+  String get themeName1 => 'Hud 1';
 
   @override
-  String get themeName2 => 'Tema 2';
+  String get themeName2 => 'Hud 2';
 
   @override
-  String get themeName3 => 'Tema 3';
+  String get themeName3 => 'Hud 3';
 
   @override
   String get themeMagicBook => 'Magisk bog';
@@ -1224,14 +1224,14 @@ class AppLocalizationsDa extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Køb temaer i butikken\nat udfylde denne plads!';
+      'Køb skind i butikken\nat udfylde denne plads!';
 
   @override
-  String get shopThemePurchaseTitle => 'Købstema';
+  String get shopThemePurchaseTitle => 'Køb hud';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Vil du købe $skinName-temaet for $cost-mønter?';
+    return 'Vil du købe $skinName skindet for $cost mønter?';
   }
 
   @override
@@ -1242,11 +1242,11 @@ class AppLocalizationsDa extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Allerede ejet. Prøv at anvende det i temaindstillinger!';
+      'Allerede ejet. Prøv at anvende det i hudindstillinger!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName er købt! Tjek temaindstillinger.';
+    return '$skinName er købt! Tjek hudindstillinger.';
   }
 
   @override
@@ -1311,7 +1311,7 @@ class AppLocalizationsDa extends AppLocalizations {
   String get myMenuLanguageSettings => 'Sprogindstillinger';
 
   @override
-  String get myMenuThemeSettings => 'Temaindstillinger';
+  String get myMenuThemeSettings => 'Hudindstillinger';
 
   @override
   String get myMenuChangeBackground => 'Skift baggrundsbillede';
@@ -1365,13 +1365,13 @@ class AppLocalizationsDa extends AppLocalizations {
   String get shopTitle => 'Butik';
 
   @override
-  String get shopSubtitle => 'Køb mønter og temaer';
+  String get shopSubtitle => 'Køb mønter og skind';
 
   @override
   String get shopTabCoin => 'Mønt';
 
   @override
-  String get shopTabTheme => 'Tema';
+  String get shopTabTheme => 'Hud';
 
   @override
   String get shopPayButton => 'Betale';
@@ -2915,10 +2915,10 @@ class AppLocalizationsDa extends AppLocalizations {
   String get nicknameSuffix199 => 'Den hellige gral';
 
   @override
-  String get themeFree => 'Gratis tema';
+  String get themeFree => 'Fri hud';
 
   @override
-  String get themePaid => 'Betalt tema';
+  String get themePaid => 'Betalt hud';
 
   @override
   String get diaryEmpty =>

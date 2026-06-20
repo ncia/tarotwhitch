@@ -1207,13 +1207,13 @@ class AppLocalizationsEt extends AppLocalizations {
       'Puudutage profiilipilti, et vaadata üksikasju';
 
   @override
-  String get themeName1 => '1. teema';
+  String get themeName1 => 'Nahk 1';
 
   @override
-  String get themeName2 => '2. teema';
+  String get themeName2 => 'Nahk 2';
 
   @override
-  String get themeName3 => '3. teema';
+  String get themeName3 => 'Nahk 3';
 
   @override
   String get themeMagicBook => 'Maagiline raamat';
@@ -1223,14 +1223,14 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Purchase themes in the shop\nselle ruumi täitmiseks!';
+      'Ostke nahad poest\nselle ruumi täitmiseks!';
 
   @override
-  String get shopThemePurchaseTitle => 'Ostu teema';
+  String get shopThemePurchaseTitle => 'Ostke nahk';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Kas soovite osta teema $skinName $cost mündi eest?';
+    return 'Kas soovite osta naha $skinName $cost mündi eest?';
   }
 
   @override
@@ -1241,11 +1241,11 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Juba omatud. Proovige seda teema seadetes rakendada!';
+      'Juba omatud. Proovige seda nahaseadetes rakendada!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName ostmine õnnestus! Kontrollige teema seadeid.';
+    return '$skinName ostmine õnnestus! Kontrollige naha sätteid.';
   }
 
   @override
@@ -1311,7 +1311,7 @@ class AppLocalizationsEt extends AppLocalizations {
   String get myMenuLanguageSettings => 'Keeleseaded';
 
   @override
-  String get myMenuThemeSettings => 'Teema seaded';
+  String get myMenuThemeSettings => 'Naha sätted';
 
   @override
   String get myMenuChangeBackground => 'Muutke taustpilti';
@@ -1365,13 +1365,13 @@ class AppLocalizationsEt extends AppLocalizations {
   String get shopTitle => 'Pood';
 
   @override
-  String get shopSubtitle => 'Ostke münte ja teemasid';
+  String get shopSubtitle => 'Ostke münte ja nahku';
 
   @override
   String get shopTabCoin => 'Münt';
 
   @override
-  String get shopTabTheme => 'Teema';
+  String get shopTabTheme => 'Nahk';
 
   @override
   String get shopPayButton => 'Maksa';
@@ -2915,10 +2915,10 @@ class AppLocalizationsEt extends AppLocalizations {
   String get nicknameSuffix199 => 'Püha Graal';
 
   @override
-  String get themeFree => 'Tasuta teema';
+  String get themeFree => 'Tasuta nahk';
 
   @override
-  String get themePaid => 'Tasuline teema';
+  String get themePaid => 'Tasuline nahk';
 
   @override
   String get diaryEmpty =>

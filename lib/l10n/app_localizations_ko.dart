@@ -1043,13 +1043,13 @@ class AppLocalizationsKo extends AppLocalizations {
   String get chatProfileTapHint => '프로필 사진을 탭하여 상세 정보 보기';
 
   @override
-  String get themeName1 => '테마 1';
+  String get themeName1 => '스킨 1';
 
   @override
-  String get themeName2 => '테마 2';
+  String get themeName2 => '스킨 2';
 
   @override
-  String get themeName3 => '테마 3';
+  String get themeName3 => '스킨 3';
 
   @override
   String get themeMagicBook => '마법책';
@@ -1058,14 +1058,14 @@ class AppLocalizationsKo extends AppLocalizations {
   String get themeBlackCat => '검은 고양이';
 
   @override
-  String get themeEmptyPaidThemes => '상점에서 테마를 구매하여\n이곳을 채워보세요!';
+  String get themeEmptyPaidThemes => '상점에서 스킨을 구매하여\n이곳을 채워보세요!';
 
   @override
-  String get shopThemePurchaseTitle => '테마 구매';
+  String get shopThemePurchaseTitle => '스킨 구매';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return '$skinName 테마를 $cost 코인으로 구매하시겠습니까?';
+    return '$skinName 스킨을 $cost 코인으로 구매하시겠습니까?';
   }
 
   @override
@@ -1075,11 +1075,11 @@ class AppLocalizationsKo extends AppLocalizations {
   String get shopPurchase => '구매';
 
   @override
-  String get shopAlreadyOwned => '이미 보유하고 있습니다. 테마 설정에서 적용해보세요!';
+  String get shopAlreadyOwned => '이미 보유하고 있습니다. 스킨 설정에서 적용해보세요!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName 구매 성공! 테마 설정에서 확인하세요.';
+    return '$skinName 구매 성공! 스킨 설정에서 확인하세요.';
   }
 
   @override
@@ -1142,7 +1142,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get myMenuLanguageSettings => '언어 설정';
 
   @override
-  String get myMenuThemeSettings => '테마 설정';
+  String get myMenuThemeSettings => '스킨 설정';
 
   @override
   String get myMenuChangeBackground => '배경 이미지 변경';
@@ -1194,13 +1194,13 @@ class AppLocalizationsKo extends AppLocalizations {
   String get shopTitle => '상점';
 
   @override
-  String get shopSubtitle => '코인과 테마를 구매하세요';
+  String get shopSubtitle => '코인과 스킨을 구매하세요';
 
   @override
   String get shopTabCoin => '코인';
 
   @override
-  String get shopTabTheme => '테마';
+  String get shopTabTheme => '스킨';
 
   @override
   String get shopPayButton => '결제';
@@ -2743,10 +2743,10 @@ class AppLocalizationsKo extends AppLocalizations {
   String get nicknameSuffix199 => '성배';
 
   @override
-  String get themeFree => '무료 테마';
+  String get themeFree => '무료 스킨';
 
   @override
-  String get themePaid => '유료 테마';
+  String get themePaid => '유료 스킨';
 
   @override
   String get diaryEmpty => '아직 작성된 일기가 없습니다.\n오늘의 점괘를 확인하고 일기를 남겨보세요!';

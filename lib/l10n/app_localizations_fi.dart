@@ -1212,13 +1212,13 @@ class AppLocalizationsFi extends AppLocalizations {
   String get chatProfileTapHint => 'Napauta profiilikuvaa nähdäksesi tiedot';
 
   @override
-  String get themeName1 => 'Teema 1';
+  String get themeName1 => 'Iho 1';
 
   @override
-  String get themeName2 => 'Teema 2';
+  String get themeName2 => 'Iho 2';
 
   @override
-  String get themeName3 => 'Teema 3';
+  String get themeName3 => 'Iho 3';
 
   @override
   String get themeMagicBook => 'Taika kirja';
@@ -1228,14 +1228,14 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Osta teemoja kaupasta\ntäyttämään tämän tilan!';
+      'Osta skinit kaupasta\ntäyttämään tämän tilan!';
 
   @override
-  String get shopThemePurchaseTitle => 'Ostosteema';
+  String get shopThemePurchaseTitle => 'Osta Skin';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Haluatko ostaa teeman $skinName $cost kolikolla?';
+    return 'Haluatko ostaa skinin $skinName $cost kolikolla?';
   }
 
   @override
@@ -1246,11 +1246,11 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Jo omistettu. Kokeile ottaa se käyttöön teemaasetuksissa!';
+      'Jo omistettu. Kokeile levittää sitä ihoasetuksiin!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName ostettu onnistuneesti! Tarkista teemaasetukset.';
+    return '$skinName ostettu onnistuneesti! Tarkista ihon asetukset.';
   }
 
   @override
@@ -1316,7 +1316,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get myMenuLanguageSettings => 'Kieliasetukset';
 
   @override
-  String get myMenuThemeSettings => 'Teeman asetukset';
+  String get myMenuThemeSettings => 'Ihon asetukset';
 
   @override
   String get myMenuChangeBackground => 'Vaihda taustakuvaa';
@@ -1369,13 +1369,13 @@ class AppLocalizationsFi extends AppLocalizations {
   String get shopTitle => 'Kauppa';
 
   @override
-  String get shopSubtitle => 'Osta kolikoita ja teemoja';
+  String get shopSubtitle => 'Osta kolikoita ja skinejä';
 
   @override
   String get shopTabCoin => 'Kolikko';
 
   @override
-  String get shopTabTheme => 'Teema';
+  String get shopTabTheme => 'Iho';
 
   @override
   String get shopPayButton => 'Maksaa';
@@ -2919,10 +2919,10 @@ class AppLocalizationsFi extends AppLocalizations {
   String get nicknameSuffix199 => 'Pyhä Graal';
 
   @override
-  String get themeFree => 'Ilmainen teema';
+  String get themeFree => 'Ilmainen iho';
 
   @override
-  String get themePaid => 'Maksullinen teema';
+  String get themePaid => 'Maksullinen iho';
 
   @override
   String get diaryEmpty =>

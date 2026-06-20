@@ -1210,13 +1210,13 @@ class AppLocalizationsUk extends AppLocalizations {
       'Натисніть на зображення профілю, щоб переглянути деталі';
 
   @override
-  String get themeName1 => 'Тема 1';
+  String get themeName1 => 'Шкіра 1';
 
   @override
-  String get themeName2 => 'Тема 2';
+  String get themeName2 => 'Шкіра 2';
 
   @override
-  String get themeName3 => 'Тема 3';
+  String get themeName3 => 'Шкіра 3';
 
   @override
   String get themeMagicBook => 'Чарівна книга';
@@ -1226,14 +1226,14 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Купуйте теми в магазині\nщоб заповнити цей простір!';
+      'Купуйте шкури в магазині\nщоб заповнити цей простір!';
 
   @override
-  String get shopThemePurchaseTitle => 'Тема покупки';
+  String get shopThemePurchaseTitle => 'Придбання шкіри';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Бажаєте придбати тему $skinName за монети $cost?';
+    return 'Бажаєте придбати скін $skinName за монети $cost?';
   }
 
   @override
@@ -1244,11 +1244,11 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Вже у власності. Спробуйте застосувати це в налаштуваннях теми!';
+      'Вже у власності. Спробуйте застосувати це в налаштуваннях шкіри!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName успішно придбано! Перевірте налаштування теми.';
+    return '$skinName успішно придбано! Перевірте налаштування шкіри.';
   }
 
   @override
@@ -1314,7 +1314,7 @@ class AppLocalizationsUk extends AppLocalizations {
   String get myMenuLanguageSettings => 'Налаштування мови';
 
   @override
-  String get myMenuThemeSettings => 'Налаштування теми';
+  String get myMenuThemeSettings => 'Налаштування шкіри';
 
   @override
   String get myMenuChangeBackground => 'Змінити фонове зображення';
@@ -1369,13 +1369,13 @@ class AppLocalizationsUk extends AppLocalizations {
   String get shopTitle => 'Магазин';
 
   @override
-  String get shopSubtitle => 'Придбайте монети та теми';
+  String get shopSubtitle => 'Купуйте монети та скіни';
 
   @override
   String get shopTabCoin => 'Монета';
 
   @override
-  String get shopTabTheme => 'Тема';
+  String get shopTabTheme => 'Шкіра';
 
   @override
   String get shopPayButton => 'платити';
@@ -2920,10 +2920,10 @@ class AppLocalizationsUk extends AppLocalizations {
   String get nicknameSuffix199 => 'Грааль';
 
   @override
-  String get themeFree => 'Безкоштовна тема';
+  String get themeFree => 'Безкоштовна шкіра';
 
   @override
-  String get themePaid => 'Платна тема';
+  String get themePaid => 'Платний скін';
 
   @override
   String get diaryEmpty =>

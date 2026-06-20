@@ -1209,13 +1209,13 @@ class AppLocalizationsHy extends AppLocalizations {
       'Հպեք պրոֆիլի նկարին՝ մանրամասները դիտելու համար';
 
   @override
-  String get themeName1 => 'Թեմա 1';
+  String get themeName1 => 'Մաշկ 1';
 
   @override
-  String get themeName2 => 'Թեմա 2';
+  String get themeName2 => 'Մաշկ 2';
 
   @override
-  String get themeName3 => 'Թեմա 3';
+  String get themeName3 => 'Մաշկ 3';
 
   @override
   String get themeMagicBook => 'Կախարդական գիրք';
@@ -1225,14 +1225,14 @@ class AppLocalizationsHy extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Գնեք թեմաներ խանութում\nայս տարածքը լրացնելու համար:';
+      'Գնեք կաշի խանութից\nայս տարածքը լրացնելու համար:';
 
   @override
-  String get shopThemePurchaseTitle => 'Գնել թեմա';
+  String get shopThemePurchaseTitle => 'Գնել Skin';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Ցանկանու՞մ եք գնել $skinName թեման $cost մետաղադրամներով:';
+    return 'Ցանկանու՞մ եք գնել $skinName կաշին $cost մետաղադրամներով:';
   }
 
   @override
@@ -1243,11 +1243,11 @@ class AppLocalizationsHy extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Արդեն պատկանող: Փորձեք կիրառել այն թեմայի կարգավորումներում:';
+      'Արդեն պատկանող: Փորձեք կիրառել այն մաշկի պարամետրերում:';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName-ը հաջողությամբ գնվեց: Ստուգեք թեմայի կարգավորումները:';
+    return '$skinName-ը հաջողությամբ գնվեց: Ստուգեք մաշկի կարգավորումները:';
   }
 
   @override
@@ -1314,7 +1314,7 @@ class AppLocalizationsHy extends AppLocalizations {
   String get myMenuLanguageSettings => 'Լեզվի կարգավորումներ';
 
   @override
-  String get myMenuThemeSettings => 'Թեմայի կարգավորումներ';
+  String get myMenuThemeSettings => 'Մաշկի կարգավորումներ';
 
   @override
   String get myMenuChangeBackground => 'Փոխել ֆոնային պատկերը';
@@ -1368,13 +1368,13 @@ class AppLocalizationsHy extends AppLocalizations {
   String get shopTitle => 'Խանութ';
 
   @override
-  String get shopSubtitle => 'Գնեք մետաղադրամներ և թեմաներ';
+  String get shopSubtitle => 'Գնեք մետաղադրամներ և երեսվածքներ';
 
   @override
   String get shopTabCoin => 'Մետաղադրամ';
 
   @override
-  String get shopTabTheme => 'Թեմա';
+  String get shopTabTheme => 'Մաշկ';
 
   @override
   String get shopPayButton => 'Վճարել';
@@ -2919,10 +2919,10 @@ class AppLocalizationsHy extends AppLocalizations {
   String get nicknameSuffix199 => 'Սուրբ Գրաալ';
 
   @override
-  String get themeFree => 'Անվճար թեմա';
+  String get themeFree => 'Ազատ Մաշկ';
 
   @override
-  String get themePaid => 'Վճարովի թեմա';
+  String get themePaid => 'Վճարովի մաշկ';
 
   @override
   String get diaryEmpty =>

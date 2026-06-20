@@ -365,14 +365,14 @@
   "positionCelticCross9": "9. Наде и страхови",
   "positionCelticCross10": "10. Исход",
   "navMyMenu": "мој мени",
-  "themeName1": "Тема 1",
-  "themeName2": "Тема 2",
-  "themeName3": "Тема 3",
+  "themeName1": "Кожа 1",
+  "themeName2": "Кожа 2",
+  "themeName3": "Кожа 3",
   "themeMagicBook": "Магиц Боок",
   "themeBlackCat": "Црна мачка",
-  "themeEmptyPaidThemes": "Купите теме у продавници\nда попуни овај простор!",
-  "shopThemePurchaseTitle": "Пурцхасе Тхеме",
-  "shopThemePurchaseContent": "Да ли желите да купите тему {skinName} за новчиће од {cost}?",
+  "themeEmptyPaidThemes": "Купите коже у продавници\nда попуни овај простор!",
+  "shopThemePurchaseTitle": "Купите кожу",
+  "shopThemePurchaseContent": "Да ли желите да купите маску {skinName} за новчиће од {cost}?",
   "@shopThemePurchaseContent": {
     "placeholders": {
       "skinName": {
@@ -386,7 +386,7 @@
   "shopCancel": "Откажи",
   "shopPurchase": "Куповина",
   "shopAlreadyOwned": "Већ у власништву. Покушајте да га примените у подешавањима коже!",
-  "shopPurchaseSuccess": "{скинНаме} је успешно купљен! Проверите подешавања коже.",
+  "shopPurchaseSuccess": "{skinName} је успешно купљен! Проверите подешавања коже.",
   "@shopPurchaseSuccess": {
     "placeholders": {
       "skinName": {
@@ -439,9 +439,9 @@
   "myMenuEmailNotVerified": "Имејл није верификован (додирните да бисте потврдили)",
   "languageSystemDefault": "Систем Дефаулт",
   "shopTitle": "Схоп",
-  "shopSubtitle": "Купите новчиће и теме",
+  "shopSubtitle": "Купите новчиће и скинове",
   "shopTabCoin": "Новчић",
-  "shopTabTheme": "Тема",
+  "shopTabTheme": "Кожа",
   "shopPayButton": "Плати",
   "themeOriginalDeck": "Оригинална класична палуба",
   "themeGoldenSunDeck": "Голден Сун Децк",
@@ -966,8 +966,8 @@
   "nicknameSuffix98": "ред",
   "nicknameSuffix99": "светлости",
   "nicknameSuffix100": "мрачно",
-  "themeFree": "Фрее Тхеме",
-  "themePaid": "Плаћена тема",
+  "themeFree": "Фрее Скин",
+  "themePaid": "Плаћена кожа",
   "diaryEmpty": "Још нема дневничких записа.\nПроверите своје богатство данас и оставите дневник!",
   "diaryTarotConsult": "Тарот консултације",
   "diaryTarotReading": "Тарот Реадинг",

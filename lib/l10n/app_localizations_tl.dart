@@ -1224,13 +1224,13 @@ class AppLocalizationsTl extends AppLocalizations {
       'I-tap ang larawan sa profile upang tingnan ang mga detalye';
 
   @override
-  String get themeName1 => 'Tema 1';
+  String get themeName1 => 'Balat 1';
 
   @override
-  String get themeName2 => 'Tema 2';
+  String get themeName2 => 'Balat 2';
 
   @override
-  String get themeName3 => 'Tema 3';
+  String get themeName3 => 'Balat 3';
 
   @override
   String get themeMagicBook => 'Aklat ng Salamangka';
@@ -1240,14 +1240,14 @@ class AppLocalizationsTl extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Bumili ng mga tema sa shop\nupang punan ang puwang na ito!';
+      'Bumili ng mga skin sa shop\nupang punan ang puwang na ito!';
 
   @override
-  String get shopThemePurchaseTitle => 'Bumili ng Tema';
+  String get shopThemePurchaseTitle => 'Bumili ng Balat';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Gusto mo bang bilhin ang $skinName na tema para sa $cost coin?';
+    return 'Gusto mo bang bilhin ang $skinName skin para sa $cost coins?';
   }
 
   @override
@@ -1258,11 +1258,11 @@ class AppLocalizationsTl extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Pag-aari na. Subukang ilapat ito sa mga setting ng tema!';
+      'pagmamay-ari na. Subukang ilapat ito sa mga setting ng balat!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return 'Matagumpay na nabili ang $skinName! Suriin ang mga setting ng tema.';
+    return 'Matagumpay na nabili ang $skinName! Suriin ang mga setting ng balat.';
   }
 
   @override
@@ -1327,7 +1327,7 @@ class AppLocalizationsTl extends AppLocalizations {
   String get myMenuLanguageSettings => 'Mga Setting ng Wika';
 
   @override
-  String get myMenuThemeSettings => 'Mga Setting ng Tema';
+  String get myMenuThemeSettings => 'Mga Setting ng Balat';
 
   @override
   String get myMenuChangeBackground => 'Baguhin ang larawan sa background';
@@ -1381,13 +1381,13 @@ class AppLocalizationsTl extends AppLocalizations {
   String get shopTitle => 'Mamili';
 
   @override
-  String get shopSubtitle => 'Bumili ng mga Barya at Tema';
+  String get shopSubtitle => 'Bumili ng mga Barya at Skin';
 
   @override
   String get shopTabCoin => 'barya';
 
   @override
-  String get shopTabTheme => 'Tema';
+  String get shopTabTheme => 'Balat';
 
   @override
   String get shopPayButton => 'Magbayad';
@@ -2932,10 +2932,10 @@ class AppLocalizationsTl extends AppLocalizations {
   String get nicknameSuffix199 => 'Banal na Kopita';
 
   @override
-  String get themeFree => 'Libreng Tema';
+  String get themeFree => 'Libreng Balat';
 
   @override
-  String get themePaid => 'Bayad na Tema';
+  String get themePaid => 'Bayad na Balat';
 
   @override
   String get diaryEmpty =>

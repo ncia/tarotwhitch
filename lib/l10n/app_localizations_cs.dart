@@ -1207,13 +1207,13 @@ class AppLocalizationsCs extends AppLocalizations {
       'Klepnutím na profilový obrázek zobrazíte podrobnosti';
 
   @override
-  String get themeName1 => 'Téma 1';
+  String get themeName1 => 'Kůže 1';
 
   @override
-  String get themeName2 => 'Téma 2';
+  String get themeName2 => 'Kůže 2';
 
   @override
-  String get themeName3 => 'Téma 3';
+  String get themeName3 => 'Kůže 3';
 
   @override
   String get themeMagicBook => 'Magická kniha';
@@ -1223,14 +1223,14 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Nakupujte motivy v obchodě\nzaplnit tento prostor!';
+      'Kupte si skiny v obchodě\nzaplnit tento prostor!';
 
   @override
-  String get shopThemePurchaseTitle => 'Koupit téma';
+  String get shopThemePurchaseTitle => 'Koupit kůži';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Chcete si zakoupit téma $skinName za $cost coiny?';
+    return 'Chcete si koupit vzhled $skinName za $cost coiny?';
   }
 
   @override
@@ -1241,11 +1241,11 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Already owned. Zkuste to použít v nastavení motivu!';
+      'Již ve vlastnictví. Zkuste jej aplikovat v nastavení pleti!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName byl úspěšně zakoupen! Zkontrolujte nastavení motivu.';
+    return '$skinName byl úspěšně zakoupen! Zkontrolujte nastavení vzhledu.';
   }
 
   @override
@@ -1311,7 +1311,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get myMenuLanguageSettings => 'Nastavení jazyka';
 
   @override
-  String get myMenuThemeSettings => 'Nastavení motivu';
+  String get myMenuThemeSettings => 'Nastavení pleti';
 
   @override
   String get myMenuChangeBackground => 'Změnit obrázek na pozadí';
@@ -1365,13 +1365,13 @@ class AppLocalizationsCs extends AppLocalizations {
   String get shopTitle => 'Nakupovat';
 
   @override
-  String get shopSubtitle => 'Nakupujte mince a motivy';
+  String get shopSubtitle => 'Nakupujte mince a skiny';
 
   @override
   String get shopTabCoin => 'Mince';
 
   @override
-  String get shopTabTheme => 'Téma';
+  String get shopTabTheme => 'Kůže';
 
   @override
   String get shopPayButton => 'Platit';
@@ -2916,10 +2916,10 @@ class AppLocalizationsCs extends AppLocalizations {
   String get nicknameSuffix199 => 'Svatý grál';
 
   @override
-  String get themeFree => 'Volné téma';
+  String get themeFree => 'Volná kůže';
 
   @override
-  String get themePaid => 'Placené téma';
+  String get themePaid => 'Placená kůže';
 
   @override
   String get diaryEmpty =>

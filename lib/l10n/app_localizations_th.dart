@@ -1204,13 +1204,13 @@ class AppLocalizationsTh extends AppLocalizations {
   String get chatProfileTapHint => 'แตะรูปโปรไฟล์เพื่อดูรายละเอียด';
 
   @override
-  String get themeName1 => 'ธีม 1';
+  String get themeName1 => 'ผิว 1';
 
   @override
-  String get themeName2 => 'ธีม 2';
+  String get themeName2 => 'ผิว 2';
 
   @override
-  String get themeName3 => 'ธีม 3';
+  String get themeName3 => 'ผิวหนัง 3';
 
   @override
   String get themeMagicBook => 'หนังสือเวทย์มนตร์';
@@ -1220,14 +1220,14 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'ซื้อธีมในร้านค้า\nเพื่อเติมเต็มพื้นที่นี้!';
+      'ซื้อสกินในร้านค้า\nเพื่อเติมเต็มพื้นที่นี้!';
 
   @override
-  String get shopThemePurchaseTitle => 'ซื้อธีม';
+  String get shopThemePurchaseTitle => 'ซื้อสกิน';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'คุณต้องการซื้อธีม $skinName ด้วยราคา $cost เหรียญหรือไม่?';
+    return 'คุณต้องการซื้อสกิน $skinName ในราคา $cost เหรียญหรือไม่?';
   }
 
   @override
@@ -1237,11 +1237,11 @@ class AppLocalizationsTh extends AppLocalizations {
   String get shopPurchase => 'ซื้อ';
 
   @override
-  String get shopAlreadyOwned => 'เป็นเจ้าของแล้ว ลองนำไปใช้ในการตั้งค่าธีม!';
+  String get shopAlreadyOwned => 'เป็นเจ้าของแล้ว ลองใช้มันในการตั้งค่าสกิน!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return 'ซื้อ $skinName สำเร็จแล้ว! ตรวจสอบการตั้งค่าธีม';
+    return 'ซื้อ $skinName สำเร็จแล้ว! ตรวจสอบการตั้งค่าสกิน';
   }
 
   @override
@@ -1305,7 +1305,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get myMenuLanguageSettings => 'การตั้งค่าภาษา';
 
   @override
-  String get myMenuThemeSettings => 'การตั้งค่าธีม';
+  String get myMenuThemeSettings => 'การตั้งค่าสกิน';
 
   @override
   String get myMenuChangeBackground => 'เปลี่ยนภาพพื้นหลัง';
@@ -1358,13 +1358,13 @@ class AppLocalizationsTh extends AppLocalizations {
   String get shopTitle => 'ร้านค้า';
 
   @override
-  String get shopSubtitle => 'ซื้อเหรียญและธีม';
+  String get shopSubtitle => 'ซื้อเหรียญและสกิน';
 
   @override
   String get shopTabCoin => 'เหรียญ';
 
   @override
-  String get shopTabTheme => 'ธีม';
+  String get shopTabTheme => 'ผิว';
 
   @override
   String get shopPayButton => 'จ่าย';
@@ -2908,10 +2908,10 @@ class AppLocalizationsTh extends AppLocalizations {
   String get nicknameSuffix199 => 'จอกศักดิ์สิทธิ์';
 
   @override
-  String get themeFree => 'ธีมฟรี';
+  String get themeFree => 'ฟรีสกิน';
 
   @override
-  String get themePaid => 'ธีมที่ต้องชำระเงิน';
+  String get themePaid => 'สกินแบบชำระเงิน';
 
   @override
   String get diaryEmpty =>

@@ -1207,13 +1207,13 @@ class AppLocalizationsPl extends AppLocalizations {
       'Dotknij zdjęcia profilowego, aby wyświetlić szczegóły';
 
   @override
-  String get themeName1 => 'Temat 1';
+  String get themeName1 => 'Skórka 1';
 
   @override
-  String get themeName2 => 'Temat 2';
+  String get themeName2 => 'Skóra 2';
 
   @override
-  String get themeName3 => 'Temat 3';
+  String get themeName3 => 'Skóra 3';
 
   @override
   String get themeMagicBook => 'Książka Magia';
@@ -1223,14 +1223,14 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Kup motywy w sklepie\nwypełnić tę przestrzeń!';
+      'Kup skórki w sklepie\nwypełnić tę przestrzeń!';
 
   @override
-  String get shopThemePurchaseTitle => 'Motyw zakupu';
+  String get shopThemePurchaseTitle => 'Kup skórkę';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Czy chcesz kupić motyw $skinName za monety $cost?';
+    return 'Czy chcesz kupić skórkę $skinName za monety $cost?';
   }
 
   @override
@@ -1241,11 +1241,11 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Już posiadany. Spróbuj zastosować go w ustawieniach motywu!';
+      'Już posiadane. Spróbuj zastosować go w ustawieniach skóry!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName zakupił pomyślnie! Sprawdź ustawienia motywu.';
+    return 'Produkt $skinName zakupił pomyślnie! Sprawdź ustawienia skórki.';
   }
 
   @override
@@ -1311,7 +1311,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get myMenuLanguageSettings => 'Ustawienia językowe';
 
   @override
-  String get myMenuThemeSettings => 'Ustawienia motywu';
+  String get myMenuThemeSettings => 'Ustawienia skórki';
 
   @override
   String get myMenuChangeBackground => 'Zmień obraz tła';
@@ -1364,13 +1364,13 @@ class AppLocalizationsPl extends AppLocalizations {
   String get shopTitle => 'Sklep';
 
   @override
-  String get shopSubtitle => 'Kup monety i motywy';
+  String get shopSubtitle => 'Kup monety i skórki';
 
   @override
   String get shopTabCoin => 'Moneta';
 
   @override
-  String get shopTabTheme => 'Temat';
+  String get shopTabTheme => 'Skóra';
 
   @override
   String get shopPayButton => 'Płacić';
@@ -2915,10 +2915,10 @@ class AppLocalizationsPl extends AppLocalizations {
   String get nicknameSuffix199 => 'Święty Graal';
 
   @override
-  String get themeFree => 'Darmowy motyw';
+  String get themeFree => 'Darmowa skórka';
 
   @override
-  String get themePaid => 'Płatny motyw';
+  String get themePaid => 'Płatna skórka';
 
   @override
   String get diaryEmpty =>

@@ -62,8 +62,17 @@ def main():
         'buttonSaveReading',
         'readingSavedToDevice',
         'myMenuThemeSettings',
-        'shopAlreadyOwned',
-        'shopPurchaseSuccess'
+        'shopPurchaseSuccess',
+        'themeName1',
+        'themeName2',
+        'themeName3',
+        'themeEmptyPaidThemes',
+        'shopThemePurchaseTitle',
+        'shopThemePurchaseContent',
+        'shopSubtitle',
+        'shopTabTheme',
+        'themeFree',
+        'themePaid'
     ]
     files = glob.glob('lib/l10n/app_*.arb')
     files = [f for f in files if not f.endswith('app_en.arb') and not f.endswith('app_ko.arb')]

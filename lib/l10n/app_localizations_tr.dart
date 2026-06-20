@@ -1207,13 +1207,13 @@ class AppLocalizationsTr extends AppLocalizations {
       'Detayları görmek için profil resmine dokunun';
 
   @override
-  String get themeName1 => 'Tema 1';
+  String get themeName1 => 'Cilt 1';
 
   @override
-  String get themeName2 => 'Tema 2';
+  String get themeName2 => 'Cilt 2';
 
   @override
-  String get themeName3 => 'Tema 3';
+  String get themeName3 => 'Cilt 3';
 
   @override
   String get themeMagicBook => 'Sihirli Kitap';
@@ -1223,14 +1223,14 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Mağazadan tema satın alın\nbu alanı doldurmak için!';
+      'Mağazadan görünüm satın alın\nbu alanı doldurmak için!';
 
   @override
-  String get shopThemePurchaseTitle => 'Satın Alma Teması';
+  String get shopThemePurchaseTitle => 'Görünüm Satın Alın';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return '$skinName jeton karşılığında $cost temasını satın almak ister misiniz?';
+    return '$cost jeton karşılığında $skinName görünümünü satın almak ister misiniz?';
   }
 
   @override
@@ -1241,11 +1241,11 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Zaten sahip olunan. Tema ayarlarında uygulamayı deneyin!';
+      'Zaten sahip olunan. Cilt ayarlarında uygulamayı deneyin!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName başarıyla satın alındı! Tema ayarlarını kontrol edin.';
+    return '$skinName başarıyla satın alındı! Dış görünüm ayarlarını kontrol edin.';
   }
 
   @override
@@ -1311,7 +1311,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get myMenuLanguageSettings => 'Dil Ayarları';
 
   @override
-  String get myMenuThemeSettings => 'Tema Ayarları';
+  String get myMenuThemeSettings => 'Dış Görünüm Ayarları';
 
   @override
   String get myMenuChangeBackground => 'Arka plan resmini değiştir';
@@ -1364,13 +1364,13 @@ class AppLocalizationsTr extends AppLocalizations {
   String get shopTitle => 'Mağaza';
 
   @override
-  String get shopSubtitle => 'Coin ve Tema Satın Alın';
+  String get shopSubtitle => 'Coin ve Görünüm satın alın';
 
   @override
   String get shopTabCoin => 'Madeni para';
 
   @override
-  String get shopTabTheme => 'Tema';
+  String get shopTabTheme => 'Deri';
 
   @override
   String get shopPayButton => 'Ödemek';
@@ -2914,10 +2914,10 @@ class AppLocalizationsTr extends AppLocalizations {
   String get nicknameSuffix199 => 'Kutsal Kase';
 
   @override
-  String get themeFree => 'Ücretsiz Tema';
+  String get themeFree => 'Ücretsiz Görünüm';
 
   @override
-  String get themePaid => 'Ücretli Tema';
+  String get themePaid => 'Ücretli Görünüm';
 
   @override
   String get diaryEmpty =>

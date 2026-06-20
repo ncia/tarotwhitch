@@ -1207,13 +1207,13 @@ class AppLocalizationsHu extends AppLocalizations {
       'Koppintson a profilképre a részletek megtekintéséhez';
 
   @override
-  String get themeName1 => '1. téma';
+  String get themeName1 => 'Bőr 1';
 
   @override
-  String get themeName2 => '2. téma';
+  String get themeName2 => 'Bőr 2';
 
   @override
-  String get themeName3 => '3. téma';
+  String get themeName3 => 'Bőr 3';
 
   @override
   String get themeMagicBook => 'Varázskönyv';
@@ -1223,14 +1223,14 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Vásároljon témákat az üzletben\nhogy betöltse ezt a teret!';
+      'Vásároljon bőröket az üzletben\nhogy betöltse ezt a teret!';
 
   @override
-  String get shopThemePurchaseTitle => 'Vásárlási téma';
+  String get shopThemePurchaseTitle => 'Vásároljon Skin-t';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Szeretné megvásárolni a $skinName témát $cost érméért?';
+    return 'Szeretné megvásárolni a(z) $skinName skint $cost érméért?';
   }
 
   @override
@@ -1241,11 +1241,11 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Már birtokolt. Próbálja meg alkalmazni a témabeállításokban!';
+      'Már birtokolt. Próbáld bőrbeállításokban alkalmazni!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName sikeresen megvásárolta! Ellenőrizze a témabeállításokat.';
+    return '$skinName sikeresen megvásárolta! Ellenőrizze a bőrbeállításokat.';
   }
 
   @override
@@ -1311,7 +1311,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get myMenuLanguageSettings => 'Nyelvi beállítások';
 
   @override
-  String get myMenuThemeSettings => 'Téma beállításai';
+  String get myMenuThemeSettings => 'Bőrbeállítások';
 
   @override
   String get myMenuChangeBackground => 'Háttérkép módosítása';
@@ -1364,13 +1364,13 @@ class AppLocalizationsHu extends AppLocalizations {
   String get shopTitle => 'Üzlet';
 
   @override
-  String get shopSubtitle => 'Vásároljon érméket és témákat';
+  String get shopSubtitle => 'Vásároljon érméket és bőröket';
 
   @override
   String get shopTabCoin => 'Érme';
 
   @override
-  String get shopTabTheme => 'Téma';
+  String get shopTabTheme => 'Bőr';
 
   @override
   String get shopPayButton => 'Fizetés';
@@ -2915,10 +2915,10 @@ class AppLocalizationsHu extends AppLocalizations {
   String get nicknameSuffix199 => 'Szent Grál';
 
   @override
-  String get themeFree => 'Ingyenes téma';
+  String get themeFree => 'Ingyenes bőr';
 
   @override
-  String get themePaid => 'Fizetett téma';
+  String get themePaid => 'Fizetett bőr';
 
   @override
   String get diaryEmpty =>

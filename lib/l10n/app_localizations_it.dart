@@ -1209,13 +1209,13 @@ class AppLocalizationsIt extends AppLocalizations {
       'Tocca l\'immagine del profilo per vedere i dettagli';
 
   @override
-  String get themeName1 => 'Tema 1';
+  String get themeName1 => 'Pelle 1';
 
   @override
-  String get themeName2 => 'Tema 2';
+  String get themeName2 => 'Pelle 2';
 
   @override
-  String get themeName3 => 'Tema 3';
+  String get themeName3 => 'Pelle 3';
 
   @override
   String get themeMagicBook => 'Libro magico';
@@ -1225,14 +1225,14 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Acquista temi nel negozio\nper riempire questo spazio!';
+      'Acquista skin nel negozio\nper riempire questo spazio!';
 
   @override
-  String get shopThemePurchaseTitle => 'Acquista tema';
+  String get shopThemePurchaseTitle => 'Acquista la pelle';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Vuoi acquistare il tema $skinName per $cost monete?';
+    return 'Vuoi acquistare la skin $skinName per $cost monete?';
   }
 
   @override
@@ -1243,11 +1243,11 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Già posseduto. Prova ad applicarlo nelle impostazioni del tema!';
+      'Già posseduto. Prova ad applicarlo nelle impostazioni della pelle!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName acquistato con successo! Controlla le impostazioni del tema.';
+    return '$skinName acquistato con successo! Controlla le impostazioni della pelle.';
   }
 
   @override
@@ -1312,7 +1312,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get myMenuLanguageSettings => 'Impostazioni della lingua';
 
   @override
-  String get myMenuThemeSettings => 'Impostazioni del tema';
+  String get myMenuThemeSettings => 'Impostazioni della pelle';
 
   @override
   String get myMenuChangeBackground => 'Cambia l\'immagine di sfondo';
@@ -1366,13 +1366,13 @@ class AppLocalizationsIt extends AppLocalizations {
   String get shopTitle => 'Negozio';
 
   @override
-  String get shopSubtitle => 'Acquista monete e temi';
+  String get shopSubtitle => 'Acquista monete e skin';
 
   @override
   String get shopTabCoin => 'Coniare';
 
   @override
-  String get shopTabTheme => 'Tema';
+  String get shopTabTheme => 'Pelle';
 
   @override
   String get shopPayButton => 'Paga';
@@ -2917,10 +2917,10 @@ class AppLocalizationsIt extends AppLocalizations {
   String get nicknameSuffix199 => 'Santo Graal';
 
   @override
-  String get themeFree => 'Tema gratuito';
+  String get themeFree => 'Pelle libera';
 
   @override
-  String get themePaid => 'Tema a pagamento';
+  String get themePaid => 'Pelle a pagamento';
 
   @override
   String get diaryEmpty =>

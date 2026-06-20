@@ -1210,13 +1210,13 @@ class AppLocalizationsRm extends AppLocalizations {
       'Tschappai l\'image dal profil per vesair detagls';
 
   @override
-  String get themeName1 => 'Tema 1';
+  String get themeName1 => 'Skin 1';
 
   @override
-  String get themeName2 => 'Tema 2';
+  String get themeName2 => 'Skin 2';
 
   @override
-  String get themeName3 => 'Tema 3';
+  String get themeName3 => 'Skin 3';
 
   @override
   String get themeMagicBook => 'Cudesch magic';
@@ -1226,14 +1226,14 @@ class AppLocalizationsRm extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Cumprà temas en la butia per emplenir quest lieu!';
+      'Purchase skins in the shop\nto fill this space!';
 
   @override
-  String get shopThemePurchaseTitle => 'Cumprar tema';
+  String get shopThemePurchaseTitle => 'Purchase Skin';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Vulais cumprar il tema $skinName per $cost coins?';
+    return 'Do you want to purchase the $skinName skin for $cost coins?';
   }
 
   @override
@@ -1244,11 +1244,11 @@ class AppLocalizationsRm extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Gia en possess. Applitgai en las configuraziuns dal tema!';
+      'Already owned. Try applying it in skin settings!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return 'Cumprà $skinName cun success! Verifitgai en las configuraziuns dal tema.';
+    return '$skinName purchased successfully! Check skin settings.';
   }
 
   @override
@@ -1315,7 +1315,7 @@ class AppLocalizationsRm extends AppLocalizations {
   String get myMenuLanguageSettings => 'Configuraziuns da lingua';
 
   @override
-  String get myMenuThemeSettings => 'Configuraziuns dal tema';
+  String get myMenuThemeSettings => 'Skin Settings';
 
   @override
   String get myMenuChangeBackground => 'Midar l\'image da fund';
@@ -1369,13 +1369,13 @@ class AppLocalizationsRm extends AppLocalizations {
   String get shopTitle => 'Butia';
 
   @override
-  String get shopSubtitle => 'Cumprà coins e temas';
+  String get shopSubtitle => 'Purchase Coins and Skins';
 
   @override
   String get shopTabCoin => 'Coins';
 
   @override
-  String get shopTabTheme => 'Temas';
+  String get shopTabTheme => 'Skin';
 
   @override
   String get shopPayButton => 'Pagar';
@@ -2920,10 +2920,10 @@ class AppLocalizationsRm extends AppLocalizations {
   String get nicknameSuffix199 => 'Sontg Graal';
 
   @override
-  String get themeFree => 'Tema gratuit';
+  String get themeFree => 'Free Skin';
 
   @override
-  String get themePaid => 'Tema a pajament';
+  String get themePaid => 'Paid Skin';
 
   @override
   String get diaryEmpty =>

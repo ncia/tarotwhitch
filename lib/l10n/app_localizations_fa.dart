@@ -1197,13 +1197,13 @@ class AppLocalizationsFa extends AppLocalizations {
       'برای مشاهده جزئیات، روی عکس پروفایل ضربه بزنید';
 
   @override
-  String get themeName1 => 'موضوع 1';
+  String get themeName1 => 'پوست 1';
 
   @override
-  String get themeName2 => 'تم 2';
+  String get themeName2 => 'پوست 2';
 
   @override
-  String get themeName3 => 'موضوع 3';
+  String get themeName3 => 'پوست 3';
 
   @override
   String get themeMagicBook => 'کتاب جادو';
@@ -1213,14 +1213,14 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'تم ها را در فروشگاه خریداری کنید\nبرای پر کردن این فضا!';
+      'پوسته ها را در فروشگاه خریداری کنید\nبرای پر کردن این فضا!';
 
   @override
-  String get shopThemePurchaseTitle => 'خرید تم';
+  String get shopThemePurchaseTitle => 'خرید پوست';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'آیا می خواهید طرح زمینه $skinName را برای سکه های $cost خریداری کنید؟';
+    return 'آیا می خواهید پوسته $skinName را برای سکه های $cost خریداری کنید؟';
   }
 
   @override
@@ -1231,11 +1231,11 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'قبلاً متعلق به سعی کنید آن را در تنظیمات تم اعمال کنید!';
+      'قبلاً متعلق به سعی کنید آن را در تنظیمات پوست اعمال کنید!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName با موفقیت خریداری شد! تنظیمات تم را بررسی کنید.';
+    return '$skinName با موفقیت خریداری شد! تنظیمات پوست را بررسی کنید.';
   }
 
   @override
@@ -1300,7 +1300,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get myMenuLanguageSettings => 'تنظیمات زبان';
 
   @override
-  String get myMenuThemeSettings => 'تنظیمات تم';
+  String get myMenuThemeSettings => 'تنظیمات پوست';
 
   @override
   String get myMenuChangeBackground => 'تغییر تصویر پس زمینه';
@@ -1354,13 +1354,13 @@ class AppLocalizationsFa extends AppLocalizations {
   String get shopTitle => 'خرید کنید';
 
   @override
-  String get shopSubtitle => 'خرید سکه و تم';
+  String get shopSubtitle => 'خرید سکه و پوست';
 
   @override
   String get shopTabCoin => 'سکه';
 
   @override
-  String get shopTabTheme => 'موضوع';
+  String get shopTabTheme => 'پوست';
 
   @override
   String get shopPayButton => 'پرداخت کنید';
@@ -2905,10 +2905,10 @@ class AppLocalizationsFa extends AppLocalizations {
   String get nicknameSuffix199 => 'جام مقدس';
 
   @override
-  String get themeFree => 'تم رایگان';
+  String get themeFree => 'پوست آزاد';
 
   @override
-  String get themePaid => 'تم پولی';
+  String get themePaid => 'پوست پرداخت شده';
 
   @override
   String get diaryEmpty =>

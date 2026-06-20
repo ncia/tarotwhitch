@@ -1212,13 +1212,13 @@ class AppLocalizationsEl extends AppLocalizations {
       'Πατήστε την εικόνα προφίλ για να δείτε λεπτομέρειες';
 
   @override
-  String get themeName1 => 'Θέμα 1';
+  String get themeName1 => 'Δέρμα 1';
 
   @override
-  String get themeName2 => 'Θέμα 2';
+  String get themeName2 => 'Δέρμα 2';
 
   @override
-  String get themeName3 => 'Θέμα 3';
+  String get themeName3 => 'Δέρμα 3';
 
   @override
   String get themeMagicBook => 'Μαγικό Βιβλίο';
@@ -1228,14 +1228,14 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Αγοράστε θέματα στο κατάστημα\nγια να γεμίσει αυτό το χώρο!';
+      'Αγοράστε δέρματα στο κατάστημα\nγια να γεμίσει αυτό το χώρο!';
 
   @override
-  String get shopThemePurchaseTitle => 'Αγορά θέματος';
+  String get shopThemePurchaseTitle => 'Αγορά Skin';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Θέλετε να αγοράσετε το θέμα $skinName για νομίσματα $cost;';
+    return 'Θέλετε να αγοράσετε το δέρμα $skinName για νομίσματα $cost;';
   }
 
   @override
@@ -1246,11 +1246,11 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Ήδη ιδιοκτησία. Δοκιμάστε να το εφαρμόσετε στις ρυθμίσεις θέματος!';
+      'Ήδη ιδιοκτησία. Δοκιμάστε να το εφαρμόσετε σε ρυθμίσεις δέρματος!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return 'Το $skinName αγοράστηκε με επιτυχία! Ελέγξτε τις ρυθμίσεις θέματος.';
+    return 'Το $skinName αγοράστηκε με επιτυχία! Ελέγξτε τις ρυθμίσεις του δέρματος.';
   }
 
   @override
@@ -1315,7 +1315,7 @@ class AppLocalizationsEl extends AppLocalizations {
   String get myMenuLanguageSettings => 'Ρυθμίσεις γλώσσας';
 
   @override
-  String get myMenuThemeSettings => 'Ρυθμίσεις θέματος';
+  String get myMenuThemeSettings => 'Ρυθμίσεις δέρματος';
 
   @override
   String get myMenuChangeBackground => 'Αλλαγή εικόνας φόντου';
@@ -1369,13 +1369,13 @@ class AppLocalizationsEl extends AppLocalizations {
   String get shopTitle => 'Κατάστημα';
 
   @override
-  String get shopSubtitle => 'Αγοράστε νομίσματα και θέματα';
+  String get shopSubtitle => 'Αγοράστε νομίσματα και δέρματα';
 
   @override
   String get shopTabCoin => 'Κέρμα';
 
   @override
-  String get shopTabTheme => 'Θέμα';
+  String get shopTabTheme => 'Δέρμα';
 
   @override
   String get shopPayButton => 'Πληρωμή';
@@ -2920,10 +2920,10 @@ class AppLocalizationsEl extends AppLocalizations {
   String get nicknameSuffix199 => 'άγιο ποτήριο';
 
   @override
-  String get themeFree => 'Δωρεάν θέμα';
+  String get themeFree => 'Ελεύθερο δέρμα';
 
   @override
-  String get themePaid => 'Επί πληρωμή θέμα';
+  String get themePaid => 'Πληρωμένο δέρμα';
 
   @override
   String get diaryEmpty =>

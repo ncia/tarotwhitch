@@ -365,14 +365,14 @@
   "positionCelticCross9": "9. Надії та страхи",
   "positionCelticCross10": "10. Підсумок",
   "navMyMenu": "моє меню",
-  "themeName1": "Тема 1",
-  "themeName2": "Тема 2",
-  "themeName3": "Тема 3",
+  "themeName1": "Шкіра 1",
+  "themeName2": "Шкіра 2",
+  "themeName3": "Шкіра 3",
   "themeMagicBook": "Чарівна книга",
   "themeBlackCat": "Чорний кіт",
-  "themeEmptyPaidThemes": "Купуйте теми в магазині\nщоб заповнити цей простір!",
-  "shopThemePurchaseTitle": "Тема покупки",
-  "shopThemePurchaseContent": "Бажаєте придбати тему {skinName} за монети {cost}?",
+  "themeEmptyPaidThemes": "Купуйте шкури в магазині\nщоб заповнити цей простір!",
+  "shopThemePurchaseTitle": "Придбання шкіри",
+  "shopThemePurchaseContent": "Бажаєте придбати скін {skinName} за монети {cost}?",
   "@shopThemePurchaseContent": {
     "placeholders": {
       "skinName": {
@@ -439,9 +439,9 @@
   "myMenuEmailNotVerified": "Електронна адреса не підтверджена (натисніть, щоб підтвердити)",
   "languageSystemDefault": "Системне за замовчуванням",
   "shopTitle": "Магазин",
-  "shopSubtitle": "Придбайте монети та теми",
+  "shopSubtitle": "Купуйте монети та скіни",
   "shopTabCoin": "Монета",
-  "shopTabTheme": "Тема",
+  "shopTabTheme": "Шкіра",
   "shopPayButton": "платити",
   "themeOriginalDeck": "Оригінальна класична колода",
   "themeGoldenSunDeck": "Колода Золотого Сонця",
@@ -1018,8 +1018,8 @@
       }
     }
   },
-  "themeFree": "Безкоштовна тема",
-  "themePaid": "Платна тема",
+  "themeFree": "Безкоштовна шкіра",
+  "themePaid": "Платний скін",
   "communityTitle": "Спільнота",
   "communityErrorLoading": "Під час завантаження даних сталася помилка.",
   "communityEmptyFeed": "Публічних щоденників Таро ще немає.\nПоділіться своїм щоденником першим!",

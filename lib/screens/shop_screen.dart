@@ -64,7 +64,7 @@ class ShopScreen extends StatelessWidget {
                                   mainAxisSize: MainAxisSize.min,
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    const Icon(Icons.palette, size: 18),
+                                    const Icon(Icons.image, size: 18),
                                     const SizedBox(width: 6),
                                     Text(AppLocalizations.of(context)!.shopTabTheme),
                                     const SizedBox(width: 24),

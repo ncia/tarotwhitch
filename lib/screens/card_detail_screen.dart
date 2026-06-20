@@ -14,12 +14,14 @@ class CardDetailScreen extends StatefulWidget {
   final TarotCardData card;
   final bool initialIsReversed;
   final String? heroTag;
+  final bool showBottomNav;
 
   const CardDetailScreen({
     super.key, 
     required this.card,
     this.initialIsReversed = false,
     this.heroTag,
+    this.showBottomNav = false,
   });
 
   @override
@@ -227,13 +229,13 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
               ),
             ),
       ),
-      bottomNavigationBar: SharedBottomNavBar(
+      bottomNavigationBar: widget.showBottomNav ? SharedBottomNavBar(
         currentIndex: mainScreenKey.currentState?.currentIndex ?? 0,
         onTap: (index) {
           Navigator.popUntil(context, (route) => route.isFirst);
           mainScreenKey.currentState?.switchTab(index);
         },
-      ),
+      ) : null,
     );
   }
 

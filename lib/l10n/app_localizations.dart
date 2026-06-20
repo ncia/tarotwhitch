@@ -2205,19 +2205,19 @@ abstract class AppLocalizations {
   /// No description provided for @themeName1.
   ///
   /// In en, this message translates to:
-  /// **'Theme 1'**
+  /// **'Skin 1'**
   String get themeName1;
 
   /// No description provided for @themeName2.
   ///
   /// In en, this message translates to:
-  /// **'Theme 2'**
+  /// **'Skin 2'**
   String get themeName2;
 
   /// No description provided for @themeName3.
   ///
   /// In en, this message translates to:
-  /// **'Theme 3'**
+  /// **'Skin 3'**
   String get themeName3;
 
   /// No description provided for @themeMagicBook.
@@ -2235,19 +2235,19 @@ abstract class AppLocalizations {
   /// No description provided for @themeEmptyPaidThemes.
   ///
   /// In en, this message translates to:
-  /// **'Purchase themes in the shop\nto fill this space!'**
+  /// **'Purchase skins in the shop\nto fill this space!'**
   String get themeEmptyPaidThemes;
 
   /// No description provided for @shopThemePurchaseTitle.
   ///
   /// In en, this message translates to:
-  /// **'Purchase Theme'**
+  /// **'Purchase Skin'**
   String get shopThemePurchaseTitle;
 
   /// No description provided for @shopThemePurchaseContent.
   ///
   /// In en, this message translates to:
-  /// **'Do you want to purchase the {skinName} theme for {cost} coins?'**
+  /// **'Do you want to purchase the {skinName} skin for {cost} coins?'**
   String shopThemePurchaseContent(String skinName, int cost);
 
   /// No description provided for @shopCancel.
@@ -2265,13 +2265,13 @@ abstract class AppLocalizations {
   /// No description provided for @shopAlreadyOwned.
   ///
   /// In en, this message translates to:
-  /// **'Already owned. Try applying it in theme settings!'**
+  /// **'Already owned. Try applying it in skin settings!'**
   String get shopAlreadyOwned;
 
   /// No description provided for @shopPurchaseSuccess.
   ///
   /// In en, this message translates to:
-  /// **'{skinName} purchased successfully! Check theme settings.'**
+  /// **'{skinName} purchased successfully! Check skin settings.'**
   String shopPurchaseSuccess(String skinName);
 
   /// No description provided for @shopNotEnoughCoins.
@@ -2391,7 +2391,7 @@ abstract class AppLocalizations {
   /// No description provided for @myMenuThemeSettings.
   ///
   /// In en, this message translates to:
-  /// **'Theme Settings'**
+  /// **'Skin Settings'**
   String get myMenuThemeSettings;
 
   /// No description provided for @myMenuChangeBackground.
@@ -2493,7 +2493,7 @@ abstract class AppLocalizations {
   /// No description provided for @shopSubtitle.
   ///
   /// In en, this message translates to:
-  /// **'Purchase Coins and Themes'**
+  /// **'Purchase Coins and Skins'**
   String get shopSubtitle;
 
   /// No description provided for @shopTabCoin.
@@ -2505,7 +2505,7 @@ abstract class AppLocalizations {
   /// No description provided for @shopTabTheme.
   ///
   /// In en, this message translates to:
-  /// **'Theme'**
+  /// **'Skin'**
   String get shopTabTheme;
 
   /// No description provided for @shopPayButton.
@@ -5583,13 +5583,13 @@ abstract class AppLocalizations {
   /// No description provided for @themeFree.
   ///
   /// In en, this message translates to:
-  /// **'Free Theme'**
+  /// **'Free Skin'**
   String get themeFree;
 
   /// No description provided for @themePaid.
   ///
   /// In en, this message translates to:
-  /// **'Paid Theme'**
+  /// **'Paid Skin'**
   String get themePaid;
 
   /// No description provided for @diaryEmpty.

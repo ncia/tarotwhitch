@@ -1209,13 +1209,13 @@ class AppLocalizationsMs extends AppLocalizations {
   String get chatProfileTapHint => 'Ketik gambar profil untuk melihat butiran';
 
   @override
-  String get themeName1 => 'Tema 1';
+  String get themeName1 => 'Kulit 1';
 
   @override
-  String get themeName2 => 'Tema 2';
+  String get themeName2 => 'Kulit 2';
 
   @override
-  String get themeName3 => 'Tema 3';
+  String get themeName3 => 'Kulit 3';
 
   @override
   String get themeMagicBook => 'Buku Ajaib';
@@ -1225,14 +1225,14 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Beli tema di kedai\nuntuk mengisi ruang ini!';
+      'Beli kulit di kedai\nuntuk mengisi ruang ini!';
 
   @override
-  String get shopThemePurchaseTitle => 'Tema Belian';
+  String get shopThemePurchaseTitle => 'Beli Kulit';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Adakah anda ingin membeli tema $skinName untuk syiling $cost?';
+    return 'Adakah anda ingin membeli kulit $skinName untuk syiling $cost?';
   }
 
   @override
@@ -1243,11 +1243,11 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Sudah dimiliki. Cuba gunakannya dalam tetapan tema!';
+      'Sudah dimiliki. Cuba gunakan dalam tetapan kulit!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName berjaya dibeli! Semak tetapan tema.';
+    return '$skinName berjaya dibeli! Semak tetapan kulit.';
   }
 
   @override
@@ -1311,7 +1311,7 @@ class AppLocalizationsMs extends AppLocalizations {
   String get myMenuLanguageSettings => 'Tetapan Bahasa';
 
   @override
-  String get myMenuThemeSettings => 'Tetapan Tema';
+  String get myMenuThemeSettings => 'Tetapan Kulit';
 
   @override
   String get myMenuChangeBackground => 'Tukar imej latar belakang';
@@ -1365,13 +1365,13 @@ class AppLocalizationsMs extends AppLocalizations {
   String get shopTitle => 'Kedai';
 
   @override
-  String get shopSubtitle => 'Beli Syiling dan Tema';
+  String get shopSubtitle => 'Beli Syiling dan Kulit';
 
   @override
   String get shopTabCoin => 'syiling';
 
   @override
-  String get shopTabTheme => 'Tema';
+  String get shopTabTheme => 'kulit';
 
   @override
   String get shopPayButton => 'Bayar';
@@ -2916,10 +2916,10 @@ class AppLocalizationsMs extends AppLocalizations {
   String get nicknameSuffix199 => 'Cawan Suci';
 
   @override
-  String get themeFree => 'Tema Percuma';
+  String get themeFree => 'Kulit Percuma';
 
   @override
-  String get themePaid => 'Tema Berbayar';
+  String get themePaid => 'Kulit Berbayar';
 
   @override
   String get diaryEmpty =>

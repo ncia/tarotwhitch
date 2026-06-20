@@ -1210,13 +1210,13 @@ class AppLocalizationsLv extends AppLocalizations {
       'Pieskarieties profila attēlam, lai skatītu detaļas';
 
   @override
-  String get themeName1 => '1. tēma';
+  String get themeName1 => 'Āda 1';
 
   @override
-  String get themeName2 => '2. tēma';
+  String get themeName2 => 'Āda 2';
 
   @override
-  String get themeName3 => '3. tēma';
+  String get themeName3 => 'Āda 3';
 
   @override
   String get themeMagicBook => 'Burvju grāmata';
@@ -1226,14 +1226,14 @@ class AppLocalizationsLv extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Iegādājieties motīvus veikalā\nlai aizpildītu šo vietu!';
+      'Iegādājieties ādas veikalā\nlai aizpildītu šo vietu!';
 
   @override
-  String get shopThemePurchaseTitle => 'Pirkuma tēma';
+  String get shopThemePurchaseTitle => 'Iegādājieties ādu';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Vai vēlaties iegādāties motīvu $skinName par $cost monētām?';
+    return 'Vai vēlaties iegādāties apvalku $skinName par $cost monētām?';
   }
 
   @override
@@ -1244,11 +1244,11 @@ class AppLocalizationsLv extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Jau pieder. Mēģiniet to lietot motīva iestatījumos!';
+      'Jau pieder. Mēģiniet to lietot ādas iestatījumos!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName ir veiksmīgi iegādāts! Pārbaudiet motīva iestatījumus.';
+    return '$skinName ir veiksmīgi iegādāts! Pārbaudiet ādas iestatījumus.';
   }
 
   @override
@@ -1315,7 +1315,7 @@ class AppLocalizationsLv extends AppLocalizations {
   String get myMenuLanguageSettings => 'Valodas iestatījumi';
 
   @override
-  String get myMenuThemeSettings => 'Motīvu iestatījumi';
+  String get myMenuThemeSettings => 'Ādas iestatījumi';
 
   @override
   String get myMenuChangeBackground => 'Mainiet fona attēlu';
@@ -1368,13 +1368,13 @@ class AppLocalizationsLv extends AppLocalizations {
   String get shopTitle => 'Veikals';
 
   @override
-  String get shopSubtitle => 'Iegādājieties monētas un motīvus';
+  String get shopSubtitle => 'Pērciet monētas un apvalkus';
 
   @override
   String get shopTabCoin => 'Monēta';
 
   @override
-  String get shopTabTheme => 'Tēma';
+  String get shopTabTheme => 'Āda';
 
   @override
   String get shopPayButton => 'Maksājiet';
@@ -2919,10 +2919,10 @@ class AppLocalizationsLv extends AppLocalizations {
   String get nicknameSuffix199 => 'Svētais Grāls';
 
   @override
-  String get themeFree => 'Bezmaksas tēma';
+  String get themeFree => 'Bezmaksas āda';
 
   @override
-  String get themePaid => 'Maksas tēma';
+  String get themePaid => 'Apmaksāta āda';
 
   @override
   String get diaryEmpty =>

@@ -1207,13 +1207,13 @@ class AppLocalizationsSl extends AppLocalizations {
   String get chatProfileTapHint => 'Tapnite sliko profila za ogled podrobnosti';
 
   @override
-  String get themeName1 => 'Tema 1';
+  String get themeName1 => 'Koža 1';
 
   @override
-  String get themeName2 => 'Tema 2';
+  String get themeName2 => 'Koža 2';
 
   @override
-  String get themeName3 => 'Tema 3';
+  String get themeName3 => 'Koža 3';
 
   @override
   String get themeMagicBook => 'Čarobna knjiga';
@@ -1223,14 +1223,14 @@ class AppLocalizationsSl extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Kupite teme v trgovini\nda zapolni ta prostor!';
+      'Kupite kože v trgovini\nda zapolni ta prostor!';
 
   @override
-  String get shopThemePurchaseTitle => 'Tema nakupa';
+  String get shopThemePurchaseTitle => 'Nakup kože';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Ali želite kupiti temo $skinName za kovance $cost?';
+    return 'Ali želite kupiti preobleko $skinName za $cost kovancev?';
   }
 
   @override
@@ -1241,11 +1241,11 @@ class AppLocalizationsSl extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Že v lasti. Poskusite ga uporabiti v nastavitvah teme!';
+      'Že v lasti. Poskusite ga uporabiti v nastavitvah kože!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName uspešno opravljen nakup! Preverite nastavitve teme.';
+    return '$skinName uspešno opravljen nakup! Preverite nastavitve kože.';
   }
 
   @override
@@ -1310,7 +1310,7 @@ class AppLocalizationsSl extends AppLocalizations {
   String get myMenuLanguageSettings => 'Jezikovne nastavitve';
 
   @override
-  String get myMenuThemeSettings => 'Nastavitve teme';
+  String get myMenuThemeSettings => 'Nastavitve kože';
 
   @override
   String get myMenuChangeBackground => 'Spremeni sliko ozadja';
@@ -1363,13 +1363,13 @@ class AppLocalizationsSl extends AppLocalizations {
   String get shopTitle => 'Trgovina';
 
   @override
-  String get shopSubtitle => 'Nakup kovancev in tem';
+  String get shopSubtitle => 'Nakup kovancev in preoblek';
 
   @override
   String get shopTabCoin => 'Kovanec';
 
   @override
-  String get shopTabTheme => 'Tema';
+  String get shopTabTheme => 'koža';
 
   @override
   String get shopPayButton => 'plačaj';
@@ -2914,10 +2914,10 @@ class AppLocalizationsSl extends AppLocalizations {
   String get nicknameSuffix199 => 'Sveti gral';
 
   @override
-  String get themeFree => 'Brezplačna tema';
+  String get themeFree => 'Brezplačna koža';
 
   @override
-  String get themePaid => 'Plačljiva tema';
+  String get themePaid => 'Plačana koža';
 
   @override
   String get diaryEmpty =>

@@ -1207,13 +1207,13 @@ class AppLocalizationsLt extends AppLocalizations {
       'Bakstelėkite profilio nuotrauką, kad peržiūrėtumėte detales';
 
   @override
-  String get themeName1 => '1 tema';
+  String get themeName1 => 'Oda 1';
 
   @override
-  String get themeName2 => '2 tema';
+  String get themeName2 => 'Oda 2';
 
   @override
-  String get themeName3 => '3 tema';
+  String get themeName3 => 'Oda 3';
 
   @override
   String get themeMagicBook => 'Magiška knyga';
@@ -1223,14 +1223,14 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String get themeEmptyPaidThemes =>
-      'Pirkite temas parduotuvėje\nužpildyti šią erdvę!';
+      'Pirkite odas parduotuvėje\nužpildyti šią erdvę!';
 
   @override
-  String get shopThemePurchaseTitle => 'Pirkimo tema';
+  String get shopThemePurchaseTitle => 'Įsigykite odą';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Ar norite įsigyti temą $skinName už $cost monetas?';
+    return 'Ar norite įsigyti „$skinName“ apvalkalą už $cost monetas?';
   }
 
   @override
@@ -1241,11 +1241,11 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String get shopAlreadyOwned =>
-      'Jau priklauso. Pabandykite jį pritaikyti temos nustatymuose!';
+      'Jau priklauso. Pabandykite jį pritaikyti odos nustatymuose!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName sėkmingai įsigytas! Patikrinkite temos nustatymus.';
+    return '$skinName sėkmingai įsigytas! Patikrinkite odos nustatymus.';
   }
 
   @override
@@ -1310,7 +1310,7 @@ class AppLocalizationsLt extends AppLocalizations {
   String get myMenuLanguageSettings => 'Kalbos nustatymai';
 
   @override
-  String get myMenuThemeSettings => 'Temos nustatymai';
+  String get myMenuThemeSettings => 'Odos nustatymai';
 
   @override
   String get myMenuChangeBackground => 'Pakeiskite fono paveikslėlį';
@@ -1365,13 +1365,13 @@ class AppLocalizationsLt extends AppLocalizations {
   String get shopTitle => 'Parduotuvė';
 
   @override
-  String get shopSubtitle => 'Įsigykite monetų ir temų';
+  String get shopSubtitle => 'Įsigykite monetų ir apvalkalų';
 
   @override
   String get shopTabCoin => 'Moneta';
 
   @override
-  String get shopTabTheme => 'tema';
+  String get shopTabTheme => 'Oda';
 
   @override
   String get shopPayButton => 'Mokėti';
@@ -2916,10 +2916,10 @@ class AppLocalizationsLt extends AppLocalizations {
   String get nicknameSuffix199 => 'Šventasis Gralis';
 
   @override
-  String get themeFree => 'Nemokama tema';
+  String get themeFree => 'Nemokama oda';
 
   @override
-  String get themePaid => 'Mokama tema';
+  String get themePaid => 'Mokama oda';
 
   @override
   String get diaryEmpty =>
