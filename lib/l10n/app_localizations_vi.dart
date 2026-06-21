@@ -4737,7 +4737,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Bạn có thể nhận được bụi ma thuật thông qua việc tham gia ứng dụng, hoạt động cộng đồng hoặc mua hàng trong cửa hàng.';
+      'Mỗi khi xem bói tarot huyền bí, bạn có thể nhận được 10 bột ma thuật làm phần thưởng cơ bản cho mỗi lần xem!';
 
   @override
   String get faqQ3 => 'Tôi nên làm gì nếu kết quả không tốt?';
@@ -4752,35 +4752,35 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Bạn có thể xem lại hồ sơ đọc đã lưu của mình theo ngày trong tab \'Nhật ký\' (Lịch) ở menu dưới cùng bất cứ lúc nào.';
+      'Trong tab \'Nhật ký Tarot\' ở menu dưới cùng, bạn có thể xem lại các ghi chú giải bài đã lưu theo danh sách và ngày tháng bất cứ lúc nào.';
 
   @override
   String get faqQ5 => 'Làm cách nào để chia sẻ với cộng đồng?';
 
   @override
   String get faqA5 =>
-      'Bật nút \'Chia sẻ lên cộng đồng\' trên màn hình chi tiết nhật ký được lưu trong nhật ký để chia sẻ bài đọc của bạn với những người dùng khác.';
+      'Trong màn hình chi tiết nhật ký đã lưu trong Nhật ký Tarot, nếu bạn bật công tắc \'Công khai Cộng đồng\', bạn có thể chia sẻ bài giải của mình với những người dùng khác.';
 
   @override
   String get faqQ6 => 'Làm cách nào để thay đổi biệt danh hoặc hồ sơ của tôi?';
 
   @override
   String get faqA6 =>
-      'Bạn có thể thay đổi biệt hiệu và biểu tượng của mình bất kỳ lúc nào bằng cách chạm vào khu vực hồ sơ ở đầu tab \'Menu của tôi\'.';
+      'Nếu bạn chạm vào khu vực hồ sơ ở phía trên tab \'Menu của tôi\', bạn có thể thay đổi biệt danh và biểu tượng bất cứ lúc nào.';
 
   @override
   String get faqQ7 => 'Tôi có thể bật và tắt thông báo ở đâu?';
 
   @override
   String get faqA7 =>
-      'Bạn có thể kiểm soát thông báo từ ứng dụng cài đặt trên thiết bị của mình hoặc từ menu tùy chọn sẽ được cập nhật trong tương lai.';
+      'Trong tab \'Menu của tôi\' ở menu dưới cùng, bạn có thể bật hoặc tắt thông báo bất cứ lúc nào thông qua công tắc \'Nhận thông báo đẩy\'. Để không bỏ lỡ các ưu đãi sự kiện đặc biệt và tin tức tarot mới, chúng tôi khuyên bạn nên bật thông báo.';
 
   @override
   String get faqQ8 => 'Tôi có thể xem nhật ký tarot của người khác không?';
 
   @override
   String get faqA8 =>
-      'Có, bạn có thể xem và cổ vũ cho những bài đọc tarot thú vị mà các pháp sư (người dùng) khác đã công khai trong tab \'Cộng đồng\' ở phía dưới.';
+      'Nếu bạn nhấp vào biểu tượng cộng đồng ở phía trên, bạn có thể xem và ủng hộ các bài giải tarot thú vị mà các phù thủy (người dùng) khác đã công khai.';
 
   @override
   String get faqQ9 =>
@@ -4788,7 +4788,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Nếu bạn chọn \'Lịch sử thanh toán\' trong tab [Thông tin của tôi] ở menu dưới cùng, bạn có thể kiểm tra chi tiết lịch sử thanh toán tiền xu và thu được bụi ma thuật của mình.';
+      'Trong tab [Menu của tôi] ở phía dưới, nếu bạn chọn \'Lịch sử thanh toán\', bạn có thể xem chi tiết lịch sử coin đã thanh toán và bột ma thuật đã nhận cho đến nay.';
 
   @override
   String get faqQ10 =>
@@ -4803,7 +4803,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Bạn có thể tìm thấy nút \'Xóa tài khoản\' bằng cách đi tới menu Cài đặt tài khoản thông qua biểu tượng bánh răng ở phía trên bên phải của tab [Thông tin của tôi]. Tất cả nhật ký và dữ liệu sẽ bị xóa vĩnh viễn sau khi rút tiền.';
+      'Bạn có thể tìm thấy nút \'Rút khỏi thành viên\' ở cuối tab [Menu của tôi] trong menu dưới cùng. Khi rút khỏi thành viên, tất cả nhật ký và dữ liệu sẽ bị xóa vĩnh viễn.';
 
   @override
   String get faqQ12 => 'Tôi phải liên hệ ở đâu nếu gặp lỗi hoặc có góp ý?';
@@ -4811,6 +4811,14 @@ class AppLocalizationsVi extends AppLocalizations {
   @override
   String get faqA12 =>
       'Nếu bạn gửi thông tin chi tiết qua \'Liên hệ bộ phận dịch vụ khách hàng\' đang được chuẩn bị ở cuối màn hình hiện tại hoặc qua email chính thức, chúng tôi sẽ nhanh chóng kiểm tra và giải quyết một cách kỳ diệu cho bạn.';
+
+  @override
+  String get faqQ13 =>
+      'Nếu tôi cố gắng đăng ký bằng một email khác mà cửa sổ cảnh báo hiện ra thì phải làm sao?';
+
+  @override
+  String get faqA13 =>
+      'Hiện tại, để quản lý dữ liệu an toàn, hệ thống chỉ hỗ trợ đăng ký và đăng nhập bằng một địa chỉ email duy nhất cho mỗi thiết bị (ứng dụng). Nếu bạn muốn đăng ký bằng một địa chỉ email khác, vui lòng xóa hoàn toàn ứng dụng và cài đặt lại để tiếp tục.';
 
   @override
   String get myMenuContactUs => 'Liên hệ với chúng tôi';

@@ -4747,7 +4747,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Você pode obter pó mágico participando de aplicativos, atividades comunitárias ou comprando na loja.';
+      'A cada leitura de tarô mística, você recebe 10 Pós de Magia como recompensa básica!';
 
   @override
   String get faqQ3 => 'O que devo fazer se o resultado for ruim?';
@@ -4761,35 +4761,35 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Você pode revisar seus registros de leitura salvos por data na guia \'Diário\' (Calendário) no menu inferior a qualquer momento.';
+      'Você pode rever seus registros de leitura salvos por lista e data a qualquer momento na aba \'Diário de Tarô\' do menu inferior.';
 
   @override
   String get faqQ5 => 'Como faço para compartilhar com a comunidade?';
 
   @override
   String get faqA5 =>
-      'Ative o botão \'Compartilhar com a comunidade\' na tela de detalhes do diário salvo no diário para compartilhar sua leitura com outros usuários.';
+      'Ao ativar o interruptor \'Compartilhar com a Comunidade\' na tela de detalhes do diário, dentro do Diário de Tarô, você pode compartilhar suas leituras com outros usuários.';
 
   @override
   String get faqQ6 => 'Como posso alterar meu apelido ou perfil?';
 
   @override
   String get faqA6 =>
-      'Você pode alterar seu apelido e ícone a qualquer momento tocando na área do perfil na parte superior da guia ‘Meu Menu’.';
+      'Ao tocar na área de perfil no topo da aba \'Meu Menu\', você pode alterar seu apelido e ícone a qualquer momento.';
 
   @override
   String get faqQ7 => 'Onde posso ativar e desativar as notificações?';
 
   @override
   String get faqA7 =>
-      'Você pode controlar as notificações no aplicativo de configurações do seu dispositivo ou no menu de preferências para serem atualizadas no futuro.';
+      'Na aba \'Meu Menu\' do menu inferior, você pode ativar ou desativar as notificações a qualquer momento através do interruptor \'Receber Notificações Push\'. Recomendamos manter as notificações ativadas para não perder os diversos benefícios de eventos especiais e novas notícias sobre tarô.';
 
   @override
   String get faqQ8 => 'Posso ver os diários de tarô de outras pessoas?';
 
   @override
   String get faqA8 =>
-      'Sim, você pode ver e torcer por leituras interessantes de tarô que outros bruxos (usuários) tornaram públicas na aba ‘Comunidade’ na parte inferior.';
+      'Ao clicar no ícone da comunidade na parte superior, você pode explorar e curtir as interessantes leituras de tarô que outros magos (usuários) configuraram como públicas.';
 
   @override
   String get faqQ9 =>
@@ -4797,7 +4797,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Se você selecionar \'Histórico de pagamentos\' na guia [Minhas informações] do menu inferior, poderá verificar detalhadamente seu histórico de pagamentos de moedas e pó mágico adquirido.';
+      'Ao selecionar \'Histórico de Pagamentos\' na aba [Meu Menu] inferior, você pode verificar detalhadamente seu histórico de moedas pagas e Pós de Magia obtidos até o momento.';
 
   @override
   String get faqQ10 =>
@@ -4812,7 +4812,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Você pode encontrar o botão \'Excluir conta\' acessando o menu Configurações da conta através do ícone de engrenagem no canto superior direito da guia [Minhas informações]. Todos os diários e dados serão excluídos permanentemente após a retirada.';
+      'Você pode encontrar o botão \'Excluir Conta\' na parte inferior da aba [Meu Menu] no menu inferior. Ao excluir sua conta, todos os diários e dados serão permanentemente apagados.';
 
   @override
   String get faqQ12 =>
@@ -4821,6 +4821,14 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get faqA12 =>
       'Se você enviar detalhes através de \'Contate o Atendimento ao Cliente\' que está sendo preparado na parte inferior da tela atual ou via e-mail oficial, iremos verificar rapidamente e resolveremos magicamente para você.';
+
+  @override
+  String get faqQ13 =>
+      'O que devo fazer se aparecer um aviso ao tentar se registrar com um e-mail diferente?';
+
+  @override
+  String get faqA13 =>
+      'Atualmente, o sistema suporta registro e login com apenas um endereço de e-mail por dispositivo (aplicativo) para uma gestão de dados segura. Se você deseja se registrar com um endereço de e-mail diferente, por favor, desinstale completamente o aplicativo, reinstale-o e prossiga.';
 
   @override
   String get myMenuContactUs => 'Contate-nos';

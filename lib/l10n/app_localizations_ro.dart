@@ -4754,7 +4754,7 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Puteți obține praf magic prin participarea la aplicații, activități în comunitate sau achiziționarea din magazin.';
+      'De fiecare dată când consultați o lectură misterioasă de tarot, puteți obține 10 Praf de Magie ca recompensă de bază per sesiune!';
 
   @override
   String get faqQ3 => 'Ce ar trebui să fac dacă rezultatul este rău?';
@@ -4768,35 +4768,35 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Puteți examina oricând înregistrările de lectură salvate în funcție de dată în fila „Jurnal” (Calendar) din meniul de jos.';
+      'În fila \'Jurnal Tarot\' din meniul de jos, puteți revedea oricând înregistrările lecturilor salvate, organizate pe listă și pe dată.';
 
   @override
   String get faqQ5 => 'Cum împărtășesc comunității?';
 
   @override
   String get faqA5 =>
-      'Activați comutatorul „Partajare în comunitate” de pe ecranul cu detalii ale jurnalului salvat în jurnal pentru a partaja citirea dvs. cu alți utilizatori.';
+      'În ecranul detaliat al jurnalului salvat în \'Jurnal Tarot\', dacă activați comutatorul \'Public pentru Comunitate\', puteți partaja lectura cu alți utilizatori.';
 
   @override
   String get faqQ6 => 'Cum îmi pot schimba porecla sau profilul?';
 
   @override
   String get faqA6 =>
-      'Îți poți schimba porecla și pictograma oricând atingând zona de profil din partea de sus a filei „Meniul meu”.';
+      'Dacă atingeți zona de profil din partea de sus a filei \'Meniul Meu\', puteți schimba oricând porecla și pictograma.';
 
   @override
   String get faqQ7 => 'Unde pot activa și dezactiva notificările?';
 
   @override
   String get faqA7 =>
-      'Puteți controla notificările din aplicația de setări a dispozitivului sau din meniul de preferințe pentru a fi actualizate în viitor.';
+      'În fila \'Meniul Meu\' din meniul de jos, puteți activa sau dezactiva oricând notificările push prin intermediul comutatorului \'Primește notificări push\'. Vă recomandăm să păstrați notificările activate pentru a nu rata diverse beneficii speciale de evenimente și noutăți despre tarot.';
 
   @override
   String get faqQ8 => 'Pot vedea jurnalele de tarot ale altora?';
 
   @override
   String get faqA8 =>
-      'Da, puteți vedea și încuraja lecturile interesante de tarot pe care alți vrăjitori (utilizatori) le-au făcut publice în fila „Comunitate” din partea de jos.';
+      'Dacă faceți clic pe pictograma Comunitate din partea de sus, puteți vizualiza și susține lecturi de tarot interesante pe care alți magicieni (utilizatori) le-au setat ca publice.';
 
   @override
   String get faqQ9 =>
@@ -4804,7 +4804,7 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Dacă selectați „Istoricul plăților” în fila [Informațiile mele] din meniul de jos, puteți verifica istoricul plăților cu monede și praful magic dobândit în detaliu.';
+      'În fila [Meniul Meu] din partea de jos, dacă selectați \'Istoric plăți\', puteți verifica în detaliu istoricul monedelor plătite și Praful de Magie obținut până acum.';
 
   @override
   String get faqQ10 =>
@@ -4819,7 +4819,7 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Puteți găsi butonul „Ștergeți contul” accesând meniul Setări cont prin pictograma roată din dreapta sus a filei [Informațiile mele]. Toate agendele și datele vor fi șterse definitiv la retragere.';
+      'În meniul de jos, veți găsi butonul \'Retragere membru\' în partea de jos a filei [Meniul Meu]. La retragere, toate jurnalele și datele vor fi șterse definitiv.';
 
   @override
   String get faqQ12 =>
@@ -4828,6 +4828,14 @@ class AppLocalizationsRo extends AppLocalizations {
   @override
   String get faqA12 =>
       'Dacă trimiteți detalii prin „Contactați Serviciul Clienți”, care este în curs de pregătire în partea de jos a ecranului curent sau prin e-mail oficial, vom verifica rapid și o vom rezolva magic pentru dvs.';
+
+  @override
+  String get faqQ13 =>
+      'Ce fac dacă încerc să mă înregistrez cu un alt e-mail și apare o fereastră de avertizare?';
+
+  @override
+  String get faqA13 =>
+      'Sistemul actual acceptă înregistrarea și autentificarea cu o singură adresă de e-mail per dispozitiv (aplicație) pentru o gestionare sigură a datelor. Dacă doriți să vă înregistrați cu o altă adresă de e-mail, vă rugăm să ștergeți complet aplicația, apoi să o reinstalați și să continuați.';
 
   @override
   String get myMenuContactUs => 'Contactaţi-ne';

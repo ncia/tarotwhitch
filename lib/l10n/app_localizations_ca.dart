@@ -4750,91 +4750,101 @@ class AppLocalizationsCa extends AppLocalizations {
   String get listenToInterpretation => 'Escolta la interpretació';
 
   @override
-  String get faqQ1 => 'Puc llegir tarot cada dia?';
+  String get faqQ1 => 'Puc veure el tarot cada dia?';
 
   @override
   String get faqA1 =>
-      'Sí, és bo llegir el flux d\'avui amb un cor lleuger. Tanmateix, no es recomana seguir dibuixant targetes repetidament per a la mateixa pregunta.';
+      'Sí, és bo llegir el flux del dia amb un cor lleuger. Tanmateix, no es recomana consultar repetidament la mateixa pregunta.';
 
   @override
-  String get faqQ2 => 'Com aconsegueixo la pols màgica?';
+  String get faqQ2 => 'Com puc obtenir la Pols Màgica?';
 
   @override
   String get faqA2 =>
-      'Podeu obtenir pols màgic mitjançant l\'assistència a l\'aplicació, activitats de la comunitat o comprant a la botiga.';
+      'Cada vegada que facis una lectura de tarot misteriosa, podràs obtenir 10 pólvores de màgia com a base per lectura!';
 
   @override
-  String get faqQ3 => 'Què he de fer si el resultat és dolent?';
+  String get faqQ3 => 'Què he de fer si el resultat no és bo?';
 
   @override
   String get faqA3 =>
-      'El tarot no és un futur fix, sinó un consell. Utilitzeu un mal resultat com a fita per advertir-vos dels riscos que cal evitar.';
+      'El tarot és només un consell, no un futur escrit. Preneu els mals resultats com un senyal que us alerta de perills a evitar.';
 
   @override
-  String get faqQ4 => 'Com puc veure les meves lectures de tarot anteriors?';
+  String get faqQ4 =>
+      'Com puc veure el meu historial de lectures de tarot passades?';
 
   @override
   String get faqA4 =>
-      'Podeu revisar els vostres registres de lectura desats per data a la pestanya \"Diari\" (Calendari) al menú inferior en qualsevol moment.';
+      'Pots tornar a veure els teus registres de lectura desats per llista i per data en qualsevol moment des de la pestanya \'Diari de Tarot\' del menú inferior.';
 
   @override
   String get faqQ5 => 'Com puc compartir amb la comunitat?';
 
   @override
   String get faqA5 =>
-      'Activa l\'interruptor \"Comparteix a la comunitat\" a la pantalla de detalls del diari desat al diari per compartir la teva lectura amb altres usuaris.';
+      'Si actives l\'interruptor \'Públic a la comunitat\' a la pantalla de detalls del diari guardat al Diari de Tarot, podràs compartir les teves lectures amb altres usuaris.';
 
   @override
-  String get faqQ6 => 'Com puc canviar el meu àlies o perfil?';
+  String get faqQ6 => 'Com puc canviar el meu nom d\'usuari o perfil?';
 
   @override
   String get faqA6 =>
-      'Podeu canviar el vostre àlies i la icona en qualsevol moment tocant l\'àrea del perfil a la part superior de la pestanya \"El meu menú\".';
+      'Pots canviar el teu sobrenom i icona en qualsevol moment tocant l\'àrea del perfil a la part superior de la pestanya \'El meu menú\'.';
 
   @override
-  String get faqQ7 => 'On puc activar i desactivar les notificacions?';
+  String get faqQ7 => 'On puc activar o desactivar les notificacions?';
 
   @override
   String get faqA7 =>
-      'Pots controlar les notificacions des de l\'aplicació de configuració del dispositiu o des del menú de preferències per actualitzar-les en el futur.';
+      'Pots activar o desactivar les notificacions en qualsevol moment mitjançant l\'interruptor \'Rebre notificacions push\' a la pestanya \'El meu menú\' del menú inferior. Et recomanem que mantinguis les notificacions activades per no perdre\'t els avantatges de diversos esdeveniments especials i les noves notícies de tarot.';
 
   @override
   String get faqQ8 => 'Puc veure els diaris de tarot d\'altres persones?';
 
   @override
   String get faqA8 =>
-      'Sí, podeu veure i animar les lectures de tarot interessants que altres mags (usuaris) han fet públiques a la pestanya \"Comunitat\" a la part inferior.';
+      'Si fas clic a la icona de la comunitat a la part superior, podràs veure i animar les interessants lectures de tarot que altres mags (usuaris) han configurat com a públiques.';
 
   @override
   String get faqQ9 =>
-      'On puc consultar la meva subscripció premium o l\'historial de pagaments?';
+      'On puc comprovar la meva subscripció premium o l\'historial de pagaments?';
 
   @override
   String get faqA9 =>
-      'Si seleccioneu \"Historial de pagaments\" a la pestanya [La meva informació] del menú inferior, podeu consultar l\'historial de pagaments de monedes i la pols màgica adquirida en detall.';
+      'A la pestanya [El meu menú] de la part inferior, si selecciones \'Historial de pagaments\', podràs veure detalladament el teu historial de monedes pagades fins ara i la pólvora de màgia obtinguda.';
 
   @override
   String get faqQ10 =>
-      'Vull estudiar personalment el significat de les cartes del Tarot. Com ho puc fer?';
+      'Vull estudiar el significat de les cartes de tarot pel meu compte, com ho faig?';
 
   @override
   String get faqA10 =>
-      'Si aneu a la pestanya [Enciclopèdia de targetes] al menú inferior, podeu veure lliurement els significats verticals i invertits, els símbols i les explicacions en profunditat de les 78 targetes.';
+      'Si aneu a la pestanya [Col·lecció de cartes] del menú inferior, podreu veure lliurement els significats recte/invers de les 78 cartes, els seus símbols i explicacions profundes per a cada situació.';
 
   @override
-  String get faqQ11 => 'Com puc esborrar el meu compte o retirar-lo?';
+  String get faqQ11 =>
+      'Què he de fer si vull donar-me de baixa o eliminar el meu compte?';
 
   @override
   String get faqA11 =>
-      'Podeu trobar el botó \"Suprimeix el compte\" si aneu al menú Configuració del compte mitjançant la icona d\'engranatge a la part superior dreta de la pestanya [La meva informació]. Tots els diaris i dades s\'eliminaran permanentment en retirar-los.';
+      'Pots trobar el botó \'Eliminar compte\' a la part inferior de la pestanya [El meu menú] del menú inferior. Quan et donis de baixa, tots els diaris i dades s\'eliminaran permanentment.';
 
   @override
   String get faqQ12 =>
-      'On em poso en contacte si trobo un error o tinc suggeriments?';
+      'Si es produeix un error durant l\'ús de l\'aplicació o si teniu suggeriments, a qui he de contactar?';
 
   @override
   String get faqA12 =>
-      'Si envieu els detalls a través de \'Contacteu amb el servei d\'atenció al client\' que s\'està preparant a la part inferior de la pantalla actual o per correu electrònic oficial, us ho comprovarem ràpidament i ho solucionarem màgicament.';
+      'Si ens envieu els detalls a través de \'Contactar amb el servei d\'atenció al client\', que s\'està preparant a la part inferior de la pantalla actual, o mitjançant el correu electrònic oficial, ho comprovarem ràpidament i ho resoldrem com per art de màgia.';
+
+  @override
+  String get faqQ13 =>
+      'Què he de fer si intento registrar-me amb un correu electrònic diferent i apareix una finestra d\'advertència?';
+
+  @override
+  String get faqA13 =>
+      'Actualment, el sistema només admet el registre i l\'inici de sessió amb una única adreça de correu electrònic per dispositiu (aplicació) per a una gestió segura de les dades. Si vols registrar-te amb una adreça de correu electrònic diferent, suprimeix l\'aplicació completament i torna a instal·lar-la per continuar.';
 
   @override
   String get myMenuContactUs => 'Contacta amb nosaltres';

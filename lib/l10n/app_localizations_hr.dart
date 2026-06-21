@@ -4743,7 +4743,7 @@ class AppLocalizationsHr extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Čarobnu prašinu možete nabaviti posjećivanjem aplikacije, aktivnostima zajednice ili kupnjom u trgovini.';
+      'Svaki put kada gledate misteriozni tarot, dobivate osnovnih 10 čarobnog praha!';
 
   @override
   String get faqQ3 => 'Što trebam učiniti ako je rezultat loš?';
@@ -4757,35 +4757,35 @@ class AppLocalizationsHr extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Svoje spremljene zapise o čitanju možete pregledati po datumu u kartici \'Dnevnik\' (Kalendar) u donjem izborniku bilo kada.';
+      'U kartici \'Tarot dnevnik\' u donjem izborniku, u bilo kojem trenutku možete ponovno pregledati spremljene zapise čitanja po popisu i datumu.';
 
   @override
   String get faqQ5 => 'Kako mogu podijeliti sa zajednicom?';
 
   @override
   String get faqA5 =>
-      'Uključite prekidač \'Podijeli sa zajednicom\' na zaslonu s detaljima dnevnika koji je spremljen u dnevnik kako biste svoje čitanje podijelili s drugim korisnicima.';
+      'Ako uključite prekidač \'Javno objavljivanje\' na zaslonu s detaljima dnevnika spremljenog u Tarot dnevniku, možete podijeliti čitanje s drugim korisnicima.';
 
   @override
   String get faqQ6 => 'Kako mogu promijeniti svoj nadimak ili profil?';
 
   @override
   String get faqA6 =>
-      'Svoj nadimak i ikonu možete promijeniti u bilo kojem trenutku dodirivanjem područja profila na vrhu kartice \'Moj izbornik\'.';
+      'Dodirivanjem područja profila na vrhu kartice \'Moj izbornik\' možete u bilo kojem trenutku promijeniti svoj nadimak i ikonu.';
 
   @override
   String get faqQ7 => 'Gdje mogu uključiti i isključiti obavijesti?';
 
   @override
   String get faqA7 =>
-      'Obavijestima možete upravljati iz aplikacije postavki vašeg uređaja ili iz izbornika postavki koje će se ažurirati u budućnosti.';
+      'U kartici \'Moj izbornik\' u donjem izborniku, možete u bilo kojem trenutku uključiti ili isključiti obavijesti putem prekidača \'Primanje push obavijesti\'. Preporučujemo da uključite obavijesti kako ne biste propustili razne pogodnosti posebnih događaja i nove tarot vijesti.';
 
   @override
   String get faqQ8 => 'Mogu li vidjeti tarot dnevnike drugih ljudi?';
 
   @override
   String get faqA8 =>
-      'Da, možete pogledati i navijati za zanimljiva tarot čitanja koja su drugi čarobnjaci (korisnici) objavili u kartici \'Zajednica\' na dnu.';
+      'Klikom na ikonu zajednice na vrhu, možete pregledavati i podržavati zanimljiva tarot čitanja koja su drugi čarobnjaci (korisnici) postavili kao javna.';
 
   @override
   String get faqQ9 =>
@@ -4793,7 +4793,7 @@ class AppLocalizationsHr extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Ako odaberete \'Povijest plaćanja\' na kartici [Moje informacije] u donjem izborniku, možete detaljno provjeriti povijest plaćanja novčića i stečenu čarobnu prašinu.';
+      'Odabirom \'Povijest plaćanja\' u kartici [Moj izbornik] na dnu, možete detaljno provjeriti povijest kovanica koje ste do sada platili i prikupljeni čarobni prah.';
 
   @override
   String get faqQ10 =>
@@ -4808,7 +4808,7 @@ class AppLocalizationsHr extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Gumb \'Izbriši račun\' možete pronaći odlaskom na izbornik Postavke računa preko ikone zupčanika u gornjem desnom kutu kartice [Moje informacije]. Svi dnevnici i podaci bit će trajno izbrisani nakon povlačenja.';
+      'Gumb \'Isključi članstvo\' možete pronaći na dnu kartice [Moj izbornik] u donjem izborniku. Prilikom odustajanja od članstva, svi dnevnici i podaci trajno se brišu.';
 
   @override
   String get faqQ12 =>
@@ -4817,6 +4817,14 @@ class AppLocalizationsHr extends AppLocalizations {
   @override
   String get faqA12 =>
       'Ako detalje pošaljete putem \'Kontaktirajte službu za korisnike\' koja se priprema na dnu trenutnog zaslona ili putem službene e-pošte, mi ćemo to brzo provjeriti i čarobno riješiti za vas.';
+
+  @override
+  String get faqQ13 =>
+      'Što da učinim ako se pojavi prozor s upozorenjem prilikom pokušaja registracije s drugom e-poštom?';
+
+  @override
+  String get faqA13 =>
+      'Trenutni sustav podržava registraciju i prijavu samo s jednom e-mail adresom po uređaju (aplikaciji) radi sigurnog upravljanja podacima. Ako se želite registrirati s drugom e-mail adresom, molimo vas da potpuno izbrišete aplikaciju, a zatim je ponovno instalirate i nastavite s postupkom.';
 
   @override
   String get myMenuContactUs => 'Kontaktirajte nas';

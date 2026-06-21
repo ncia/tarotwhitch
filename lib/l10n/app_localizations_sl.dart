@@ -4745,7 +4745,7 @@ class AppLocalizationsSl extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Čarobni prah lahko dobite z obiskom aplikacije, dejavnostmi skupnosti ali nakupom v trgovini.';
+      'Vsakič, ko opravite skrivnostno branje tarota, prejmete 10 delcev čarobnega prahu kot osnovno nagrado!';
 
   @override
   String get faqQ3 => 'Kaj naj storim, če je rezultat slab?';
@@ -4759,35 +4759,35 @@ class AppLocalizationsSl extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Svoje shranjene bralne zapise lahko kadar koli pregledate po datumih v zavihku \'Dnevnik\' (Koledar) v spodnjem meniju.';
+      'V zavihku \'Tarot dnevnik\' v spodnjem meniju si lahko kadar koli znova ogledate shranjene zapise branj, razvrščene po seznamu in datumu.';
 
   @override
   String get faqQ5 => 'Kako delim s skupnostjo?';
 
   @override
   String get faqA5 =>
-      'Vklopite stikalo »Deli s skupnostjo« na zaslonu s podrobnostmi dnevnika, shranjenega v dnevniku, da svoje branje delite z drugimi uporabniki.';
+      'Če na podrobnem zaslonu dnevnika, shranjenega v Tarot dnevniku, vklopite stikalo \'Javno za skupnost\', lahko delite svoja branja z drugimi uporabniki.';
 
   @override
   String get faqQ6 => 'Kako lahko spremenim svoj vzdevek ali profil?';
 
   @override
   String get faqA6 =>
-      'Svoj vzdevek in ikono lahko kadar koli spremenite tako, da se dotaknete področja profila na vrhu zavihka \'Moj meni\'.';
+      'S dotikom profila na vrhu zavihka \'Moj meni\' lahko kadar koli spremenite svoj vzdevek in ikono.';
 
   @override
   String get faqQ7 => 'Kje lahko vklopim in izklopim obvestila?';
 
   @override
   String get faqA7 =>
-      'Obvestila lahko nadzirate v aplikaciji za nastavitve vaše naprave ali v meniju z nastavitvami, ki jih želite posodobiti v prihodnosti.';
+      'Preko stikala \'Prejemanje potisnih obvestil\' v zavihku \'Moj meni\' v spodnjem meniju lahko kadar koli vklopite ali izklopite obvestila. Priporočamo, da obvestila pustite vklopljena, da ne zamudite različnih ugodnosti posebnih dogodkov in novic iz sveta tarota.';
 
   @override
   String get faqQ8 => 'Ali lahko vidim tarot dnevnike drugih ljudi?';
 
   @override
   String get faqA8 =>
-      'Da, lahko si ogledate in navijate za zanimiva branja tarota, ki so jih drugi čarovniki (uporabniki) objavili v zavihku \'Skupnost\' na dnu.';
+      'S klikom na ikono skupnosti na vrhu si lahko ogledate in podprete zanimiva tarot branja, ki so jih drugi čarovniki (uporabniki) nastavili kot javna.';
 
   @override
   String get faqQ9 =>
@@ -4795,7 +4795,7 @@ class AppLocalizationsSl extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Če izberete \'Zgodovina plačil\' v zavihku [Moje informacije] v spodnjem meniju, lahko podrobno preverite zgodovino plačil s kovanci in pridobljeni čarobni prah.';
+      'V zavihku [Moj meni] na dnu lahko z izbiro \'Zgodovina plačil\' podrobno preverite zgodovino plačanih kovancev in pridobljenega čarobnega prahu.';
 
   @override
   String get faqQ10 =>
@@ -4810,7 +4810,7 @@ class AppLocalizationsSl extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Gumb »Izbriši račun« najdete tako, da odprete meni z nastavitvami računa prek ikone zobnika v zgornjem desnem kotu zavihka [Moje informacije]. Vsi dnevniki in podatki bodo ob odstopu trajno izbrisani.';
+      'Gumb \'Izbris računa\' najdete na dnu zavihka [Moj meni] v spodnjem meniju. Ob izbrisu bodo vsi dnevniki in podatki trajno izbrisani.';
 
   @override
   String get faqQ12 =>
@@ -4819,6 +4819,14 @@ class AppLocalizationsSl extends AppLocalizations {
   @override
   String get faqA12 =>
       'Če pošljete podrobnosti prek \'Stik s službo za stranke\', ki je v pripravi na dnu trenutnega zaslona, ​​ali prek uradne e-pošte, bomo hitro preverili in čudežno rešili to namesto vas.';
+
+  @override
+  String get faqQ13 =>
+      'Kaj naj storim, če se prikaže opozorilo, ko se poskušam registrirati z drugim e-poštnim naslovom?';
+
+  @override
+  String get faqA13 =>
+      'Trenutni sistem za varno upravljanje podatkov podpira registracijo in prijavo le z enim e-poštnim naslovom na napravo (aplikacijo). Če se želite registrirati z drugim e-poštnim naslovom, popolnoma izbrišite aplikacijo in jo ponovno namestite.';
 
   @override
   String get myMenuContactUs => 'Kontaktirajte nas';

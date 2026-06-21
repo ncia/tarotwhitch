@@ -8709,7 +8709,7 @@ abstract class AppLocalizations {
   /// No description provided for @faqA2.
   ///
   /// In en, this message translates to:
-  /// **'You can get magic dust through app attendance, community activities, or purchasing in the shop.'**
+  /// **'Each time you get a mystical tarot reading, you will acquire 10 Magic Powder as a basic reward per reading!'**
   String get faqA2;
 
   /// No description provided for @faqQ3.
@@ -8733,7 +8733,7 @@ abstract class AppLocalizations {
   /// No description provided for @faqA4.
   ///
   /// In en, this message translates to:
-  /// **'You can review your saved reading records by date in the \'Diary\' (Calendar) tab at the bottom menu anytime.'**
+  /// **'You can view your saved reading records by list and date at any time in the \'Tarot Diary\' tab of the bottom menu.'**
   String get faqA4;
 
   /// No description provided for @faqQ5.
@@ -8745,7 +8745,7 @@ abstract class AppLocalizations {
   /// No description provided for @faqA5.
   ///
   /// In en, this message translates to:
-  /// **'Turn on the \'Share to Community\' switch on the diary detail screen saved in the diary to share your reading with other users.'**
+  /// **'If you turn on the \'Community Share\' switch on the diary detail screen saved in the Tarot Diary, you can share your readings with other users.'**
   String get faqA5;
 
   /// No description provided for @faqQ6.
@@ -8757,7 +8757,7 @@ abstract class AppLocalizations {
   /// No description provided for @faqA6.
   ///
   /// In en, this message translates to:
-  /// **'You can change your nickname and icon anytime by touching the profile area at the top of the \'My Menu\' tab.'**
+  /// **'You can change your nickname and icon at any time by touching the profile area at the top of the \'My Menu\' tab.'**
   String get faqA6;
 
   /// No description provided for @faqQ7.
@@ -8769,7 +8769,7 @@ abstract class AppLocalizations {
   /// No description provided for @faqA7.
   ///
   /// In en, this message translates to:
-  /// **'You can control notifications from your device\'s settings app, or from the preferences menu to be updated in the future.'**
+  /// **'You can turn push notifications on or off at any time via the \'Receive Push Notifications\' switch in the \'My Menu\' tab of the bottom menu. We recommend keeping notifications on so you don\'t miss out on various special event benefits and new tarot news.'**
   String get faqA7;
 
   /// No description provided for @faqQ8.
@@ -8781,7 +8781,7 @@ abstract class AppLocalizations {
   /// No description provided for @faqA8.
   ///
   /// In en, this message translates to:
-  /// **'Yes, you can view and cheer for interesting tarot readings that other wizards (users) have made public in the \'Community\' tab at the bottom.'**
+  /// **'By clicking the community icon at the top, you can browse and support interesting tarot readings set to public by other wizards (users).'**
   String get faqA8;
 
   /// No description provided for @faqQ9.
@@ -8793,7 +8793,7 @@ abstract class AppLocalizations {
   /// No description provided for @faqA9.
   ///
   /// In en, this message translates to:
-  /// **'If you select \'Payment History\' in the [My Info] tab of the bottom menu, you can check your coin payment history and acquired magic dust in detail.'**
+  /// **'By selecting \'Payment History\' from the [My Menu] tab at the bottom, you can view your coin payment history and acquired Magic Powder in detail.'**
   String get faqA9;
 
   /// No description provided for @faqQ10.
@@ -8817,7 +8817,7 @@ abstract class AppLocalizations {
   /// No description provided for @faqA11.
   ///
   /// In en, this message translates to:
-  /// **'You can find the \'Delete Account\' button by going to the Account Settings menu via the gear icon on the top right of the [My Info] tab. All diaries and data will be permanently deleted upon withdrawal.'**
+  /// **'You can find the \'Account Deletion\' button at the bottom of the [My Menu] tab in the bottom menu. Upon deletion, all diaries and data will be permanently deleted.'**
   String get faqA11;
 
   /// No description provided for @faqQ12.
@@ -8831,6 +8831,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'If you send details through \'Contact Customer Service\' which is being prepared at the bottom of the current screen or via official email, we will quickly check and magically solve it for you.'**
   String get faqA12;
+
+  /// No description provided for @faqQ13.
+  ///
+  /// In en, this message translates to:
+  /// **'What should I do if a warning message appears when I try to sign up with a different email address?'**
+  String get faqQ13;
+
+  /// No description provided for @faqA13.
+  ///
+  /// In en, this message translates to:
+  /// **'For secure data management, the current system supports registration and login with only a single email address per device (app). If you wish to sign up with a different email address, please delete the app completely and then reinstall it to proceed.'**
+  String get faqA13;
 
   /// No description provided for @myMenuContactUs.
   ///

@@ -17,6 +17,8 @@ import '../widgets/emoji_picker_widget.dart';
 import '../widgets/top_floating_icons.dart';
 import '../widgets/shared_bottom_nav_bar.dart';
 import 'main_screen.dart';
+import 'package:url_launcher/url_launcher.dart';
+import '../widgets/spilling_like_button.dart';
 
 class CommunityDetailScreen extends StatefulWidget {
   final CommunityPost post;
@@ -347,13 +349,15 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              ElevatedButton.icon(
-                                onPressed: _isLiking ? null : _toggleLike,
-                                icon: Icon(isLiked ? Icons.favorite : Icons.favorite_border, color: Colors.pinkAccent),
-                                label: Text('${AppLocalizations.of(context)!.communityLike} ${likes.length}', style: const TextStyle(color: Colors.white)),
-                                style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.deepPurple.withOpacity(0.5),
-                                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                              SpillingLikeButton(
+                                child: ElevatedButton.icon(
+                                  onPressed: _isLiking ? null : _toggleLike,
+                                  icon: Icon(isLiked ? Icons.favorite : Icons.favorite_border, color: Colors.pinkAccent),
+                                  label: Text('${AppLocalizations.of(context)!.communityLike} ${likes.length}', style: const TextStyle(color: Colors.white)),
+                                  style: ElevatedButton.styleFrom(
+                                    backgroundColor: Colors.deepPurple.withOpacity(0.5),
+                                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                                  ),
                                 ),
                               ),
                             ],

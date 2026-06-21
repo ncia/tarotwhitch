@@ -4744,7 +4744,7 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Anda boleh mendapatkan habuk ajaib melalui kehadiran aplikasi, aktiviti komuniti atau pembelian di kedai.';
+      'Setiap kali anda melakukan ramalan tarot mistik, anda boleh memperoleh 10 serbuk ajaib sebagai ganjaran asas!';
 
   @override
   String get faqQ3 => 'Apa yang perlu saya lakukan jika hasilnya buruk?';
@@ -4759,14 +4759,14 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Anda boleh menyemak rekod bacaan anda yang disimpan mengikut tarikh dalam tab \'Diari\' (Kalendar) di menu bawah pada bila-bila masa.';
+      'Anda boleh melihat semula rekod pembacaan yang disimpan mengikut senarai dan tarikh pada bila-bila masa di tab \'Diari Tarot\' dalam menu bawah.';
 
   @override
   String get faqQ5 => 'Bagaimanakah cara saya berkongsi kepada komuniti?';
 
   @override
   String get faqA5 =>
-      'Hidupkan suis \'Kongsi ke Komuniti\' pada skrin butiran diari yang disimpan dalam diari untuk berkongsi bacaan anda dengan pengguna lain.';
+      'Anda boleh berkongsi pembacaan dengan pengguna lain dengan menghidupkan suis \'Kongsi kepada Komuniti\' pada skrin butiran diari yang disimpan dalam Diari Tarot.';
 
   @override
   String get faqQ6 =>
@@ -4782,14 +4782,14 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get faqA7 =>
-      'Anda boleh mengawal pemberitahuan daripada apl tetapan peranti anda atau daripada menu pilihan untuk dikemas kini pada masa hadapan.';
+      'Dalam tab \'Menu Saya\' di menu bawah, anda boleh menghidupkan atau mematikan pemberitahuan pada bila-bila masa melalui suis \'Terima Pemberitahuan Tolak\'. Kami mengesyorkan agar anda menghidupkan pemberitahuan agar tidak terlepas pelbagai faedah acara istimewa dan berita tarot baharu.';
 
   @override
   String get faqQ8 => 'Bolehkah saya melihat diari tarot orang lain?';
 
   @override
   String get faqA8 =>
-      'Ya, anda boleh melihat dan bersorak untuk bacaan tarot menarik yang telah didedahkan oleh ahli sihir (pengguna) lain dalam tab \'Komuniti\' di bahagian bawah.';
+      'Dengan mengklik ikon komuniti di bahagian atas, anda boleh melihat dan menyokong pembacaan tarot menarik yang telah ditetapkan secara umum oleh ahli sihir (pengguna) lain.';
 
   @override
   String get faqQ9 =>
@@ -4797,7 +4797,7 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Jika anda memilih \'Sejarah Pembayaran\' dalam tab [Maklumat Saya] pada menu bawah, anda boleh menyemak sejarah pembayaran syiling anda dan memperoleh habuk ajaib secara terperinci.';
+      'Anda boleh menyemak sejarah pembayaran syiling dan serbuk ajaib yang diperoleh secara terperinci dengan memilih \'Sejarah Pembayaran\' di tab [Menu Saya] di bawah.';
 
   @override
   String get faqQ10 =>
@@ -4813,7 +4813,7 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Anda boleh mencari butang \'Padam Akaun\' dengan pergi ke menu Tetapan Akaun melalui ikon gear di bahagian atas sebelah kanan tab [Maklumat Saya]. Semua diari dan data akan dipadamkan secara kekal selepas pengeluaran.';
+      'Anda boleh menemui butang \'Nyahkeahlian\' di bahagian bawah tab [Menu Saya] dalam menu bawah. Selepas nyahkeahlian, semua diari dan data akan dipadamkan secara kekal.';
 
   @override
   String get faqQ12 =>
@@ -4822,6 +4822,14 @@ class AppLocalizationsMs extends AppLocalizations {
   @override
   String get faqA12 =>
       'Jika anda menghantar butiran melalui \'Hubungi Khidmat Pelanggan\' yang sedang disediakan di bahagian bawah skrin semasa atau melalui e-mel rasmi, kami akan segera menyemak dan menyelesaikannya secara ajaib untuk anda.';
+
+  @override
+  String get faqQ13 =>
+      'Apa yang perlu saya lakukan jika tetingkap amaran muncul apabila saya cuba mendaftar dengan e-mel yang berbeza?';
+
+  @override
+  String get faqA13 =>
+      'Pada masa ini, sistem hanya menyokong pendaftaran dan log masuk dengan satu alamat e-mel sahaja bagi setiap peranti (aplikasi) untuk pengurusan data yang selamat. Jika anda ingin mendaftar dengan alamat e-mel yang berbeza, sila padamkan aplikasi sepenuhnya dan pasang semula untuk meneruskan.';
 
   @override
   String get myMenuContactUs => 'Hubungi Kami';

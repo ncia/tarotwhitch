@@ -4382,7 +4382,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get faqQ2 => '마력의 가루는 어떻게 획득하나요?';
 
   @override
-  String get faqA2 => '앱 출석, 커뮤니티 활동, 혹은 상점 구매를 통해 얻을 수 있습니다.';
+  String get faqA2 => '신비로운 타로점을 볼 때마다 1회당 10개의 마력의 가루를 기본으로 획득할 수 있습니다!';
 
   @override
   String get faqQ3 => '결과가 안 좋게 나오면 어떻게 해야 하나요?';
@@ -4396,41 +4396,41 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      '하단 메뉴의 \'다이어리(달력)\' 탭에서 날짜별로 저장된 리딩 기록을 언제든 다시 볼 수 있습니다.';
+      '하단 메뉴의 \'타로 일기\' 탭에서 리스트 및 날짜별로 저장된 리딩 기록을 언제든 다시 볼 수 있습니다.';
 
   @override
   String get faqQ5 => '커뮤니티 공유는 어떻게 하나요?';
 
   @override
   String get faqA5 =>
-      '다이어리에 저장된 일기 상세 화면에서 \'커뮤니티 공개\' 스위치를 켜면 다른 사용자들과 리딩을 나눌 수 있습니다.';
+      '타로 일기에 저장된 일기 상세 화면에서 \'커뮤니티 공개\' 스위치를 켜면 다른 사용자들과 리딩을 나눌 수 있습니다.';
 
   @override
   String get faqQ6 => '내 닉네임이나 프로필은 어떻게 변경하나요?';
 
   @override
-  String get faqA6 =>
-      '\'마이 메뉴\' 탭 상단의 프로필 영역을 터치하시면 언제든지 닉네임과 아이콘을 변경할 수 있습니다.';
+  String get faqA6 => '\'내 메뉴\' 탭 상단의 프로필 영역을 터치하시면 언제든지 닉네임과 아이콘을 변경할 수 있습니다.';
 
   @override
   String get faqQ7 => '알림 설정은 어디서 끄고 켤 수 있나요?';
 
   @override
-  String get faqA7 => '기기의 설정 앱에서 알림을 제어하거나, 향후 업데이트될 환경설정 메뉴에서 제어할 수 있습니다.';
+  String get faqA7 =>
+      '하단 메뉴의 \'내 메뉴\' 탭에서 \'푸시 알림 수신\' 스위치를 통해 언제든 알림을 켜거나 끌 수 있습니다. 다양한 특별 이벤트 혜택과 새로운 타로 소식을 놓치지 않으시려면 알림을 켜두시는 것을 추천 드려요.';
 
   @override
   String get faqQ8 => '다른 사람의 타로 일기도 볼 수 있나요?';
 
   @override
   String get faqA8 =>
-      '네, 하단의 \'커뮤니티\' 탭에서 다른 마법사(사용자)들이 공개 설정한 흥미로운 타로 리딩들을 구경하고 응원할 수 있습니다.';
+      '상단의 커뮤니티 아이콘을 클릭하시면 다른 마법사(사용자)들이 공개 설정한 흥미로운 타로 리딩들을 구경하고 응원할 수 있습니다.';
 
   @override
   String get faqQ9 => '프리미엄 구독이나 결제 내역은 어디서 확인하나요?';
 
   @override
   String get faqA9 =>
-      '하단 메뉴의 [내 정보] 탭에서 \'결제 내역\'을 선택하시면 지금까지 결제하신 코인 내역과 획득한 마력의 가루를 상세하게 확인하실 수 있습니다.';
+      '하단의 [내 메뉴] 탭에서 \'결제 내역\'을 선택하시면 지금까지 결제하신 코인 내역과 획득한 마력의 가루를 상세하게 확인하실 수 있습니다.';
 
   @override
   String get faqQ10 => '타로 카드의 의미를 개인적으로 공부하고 싶은데, 어떻게 하나요?';
@@ -4444,7 +4444,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      '[내 정보] 탭의 우측 상단 톱니바퀴(설정) 아이콘을 눌러 계정 설정 메뉴로 진입하시면 \'회원 탈퇴\' 버튼을 찾으실 수 있습니다. 탈퇴 시 모든 일기와 데이터는 영구적으로 삭제됩니다.';
+      '하단 메뉴 중 [내 메뉴] 탭의 하단에 \'회원 탈퇴\' 버튼을 찾으실 수 있습니다. 탈퇴 시 모든 일기와 데이터는 영구적으로 삭제됩니다.';
 
   @override
   String get faqQ12 => '앱 사용 중 오류가 발생하거나 건의사항이 있으면 어디로 연락하나요?';
@@ -4452,6 +4452,13 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get faqA12 =>
       '현재 화면 하단에 준비 중인 \'고객센터 문의하기\'나 공식 이메일을 통해 상세한 내용을 보내주시면 신속하게 확인하여 마법처럼 해결해 드리겠습니다.';
+
+  @override
+  String get faqQ13 => '다른 이메일로 회원가입을 하려는데 경고창이 뜨면 어떻게 하나요?';
+
+  @override
+  String get faqA13 =>
+      '현재 시스템은 안전한 데이터 관리를 위해 하나의 기기(앱)당 단일 이메일 주소로만 회원가입 및 로그인을 지원하고 있습니다. 다른 이메일 주소로 가입을 원하신다면, 앱을 완전히 삭제하신 후 재설치하여 진행해 주시기 바랍니다.';
 
   @override
   String get myMenuContactUs => '문의 하기';

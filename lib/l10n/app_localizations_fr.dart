@@ -4758,7 +4758,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Vous pouvez obtenir de la poussière magique en participant à l\'application, en participant à des activités communautaires ou en effectuant des achats dans la boutique.';
+      'Chaque fois que vous faites une lecture de tarot mystérieuse, vous pouvez obtenir 10 Poussières de Magie comme récompense de base !';
 
   @override
   String get faqQ3 => 'Que dois-je faire si le résultat est mauvais ?';
@@ -4772,35 +4772,35 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Vous pouvez consulter vos enregistrements de lecture enregistrés par date dans l\'onglet « Journal » (Calendrier) dans le menu du bas à tout moment.';
+      'Dans l\'onglet \'Journal de Tarot\' du menu inférieur, vous pouvez revoir à tout moment les enregistrements de lecture sauvegardés par liste et par date.';
 
   @override
   String get faqQ5 => 'Comment partager avec la communauté ?';
 
   @override
   String get faqA5 =>
-      'Activez le bouton « Partager avec la communauté » sur l\'écran de détail du journal enregistré dans le journal pour partager votre lecture avec d\'autres utilisateurs.';
+      'Dans l\'écran détaillé du journal sauvegardé dans le Journal de Tarot, si vous activez le bouton \'Public pour la Communauté\', vous pouvez partager vos lectures avec d\'autres utilisateurs.';
 
   @override
   String get faqQ6 => 'Comment puis-je changer mon pseudo ou mon profil ?';
 
   @override
   String get faqA6 =>
-      'Vous pouvez modifier votre pseudo et votre icône à tout moment en touchant la zone de profil en haut de l\'onglet « Mon menu ».';
+      'En touchant la zone de profil en haut de l\'onglet \'Mon Menu\', vous pouvez changer votre pseudo et votre icône à tout moment.';
 
   @override
   String get faqQ7 => 'Où puis-je activer et désactiver les notifications ?';
 
   @override
   String get faqA7 =>
-      'Vous pouvez contrôler les notifications depuis l\'application des paramètres de votre appareil ou depuis le menu des préférences pour être mis à jour ultérieurement.';
+      'Dans l\'onglet \'Mon Menu\' du menu inférieur, vous pouvez activer ou désactiver les notifications à tout moment via l\'interrupteur \'Recevoir les notifications push\'. Nous vous recommandons d\'activer les notifications pour ne pas manquer les avantages des événements spéciaux et les nouvelles du tarot.';
 
   @override
   String get faqQ8 => 'Puis-je voir les journaux de tarot des autres ?';
 
   @override
   String get faqA8 =>
-      'Oui, vous pouvez consulter et encourager les lectures de tarot intéressantes que d\'autres sorciers (utilisateurs) ont rendues publiques dans l\'onglet « Communauté » en bas.';
+      'En cliquant sur l\'icône de la communauté en haut, vous pouvez consulter et soutenir les lectures de tarot intéressantes rendues publiques par d\'autres magiciens (utilisateurs).';
 
   @override
   String get faqQ9 =>
@@ -4808,7 +4808,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Si vous sélectionnez « Historique des paiements » dans l\'onglet [Mes informations] du menu inférieur, vous pouvez vérifier en détail l\'historique de vos paiements en pièces et la poussière magique acquise.';
+      'Dans l\'onglet [Mon Menu] en bas, si vous sélectionnez \'Historique des paiements\', vous pouvez vérifier en détail l\'historique des pièces que vous avez payées et la Poussière de Magie que vous avez acquise.';
 
   @override
   String get faqQ10 =>
@@ -4823,7 +4823,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Vous pouvez trouver le bouton « Supprimer le compte » en accédant au menu Paramètres du compte via l\'icône en forme d\'engrenage en haut à droite de l\'onglet [Mes informations]. Tous les agendas et données seront définitivement supprimés lors du retrait.';
+      'Vous trouverez le bouton \'Retirer l\'adhésion\' en bas de l\'onglet [Mon Menu] dans le menu inférieur. Lors du retrait, tous les journaux et données seront supprimés de manière permanente.';
 
   @override
   String get faqQ12 =>
@@ -4832,6 +4832,14 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get faqA12 =>
       'Si vous envoyez des détails via « Contacter le service client » qui est en cours de préparation au bas de l\'écran actuel ou par e-mail officiel, nous vérifierons rapidement et résoudrons le problème comme par magie pour vous.';
+
+  @override
+  String get faqQ13 =>
+      'Que faire si j\'essaie de m\'inscrire avec une autre adresse e-mail et qu\'une fenêtre d\'avertissement apparaît ?';
+
+  @override
+  String get faqA13 =>
+      'Pour une gestion sécurisée des données, le système actuel ne prend en charge l\'inscription et la connexion qu\'avec une seule adresse e-mail par appareil (application). Si vous souhaitez vous inscrire avec une autre adresse e-mail, veuillez désinstaller complètement l\'application, puis la réinstaller pour procéder.';
 
   @override
   String get myMenuContactUs => 'Contactez-nous';

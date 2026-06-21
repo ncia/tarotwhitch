@@ -4745,7 +4745,7 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Du kan få magiskt damm genom appbesök, samhällsaktiviteter eller köp i butiken.';
+      'Varje gång du gör en mystisk tarotläsning får du 10 magiska pulver som grund!';
 
   @override
   String get faqQ3 => 'Vad ska jag göra om resultatet är dåligt?';
@@ -4759,35 +4759,35 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Du kan granska dina sparade läsposter efter datum på fliken \"Dagbok\" (Kalender) längst ned i menyn när som helst.';
+      'Du kan när som helst se dina sparade läsningar, listade efter datum, under fliken \'Tarotdagbok\' i bottenmenyn.';
 
   @override
   String get faqQ5 => 'Hur delar jag med gemenskapen?';
 
   @override
   String get faqA5 =>
-      'Slå på knappen \"Dela med gemenskapen\" på dagboksdetaljskärmen som sparats i dagboken för att dela din läsning med andra användare.';
+      'Om du slår på \'Offentliggör för communityn\'-omkopplaren på detaljskärmen för en dagbok som sparats i din tarotdagbok kan du dela din läsning med andra användare.';
 
   @override
   String get faqQ6 => 'Hur kan jag ändra mitt smeknamn eller profil?';
 
   @override
   String get faqA6 =>
-      'Du kan ändra ditt smeknamn och ikon när som helst genom att trycka på profilområdet högst upp på fliken \"Min meny\".';
+      'Du kan när som helst ändra ditt smeknamn och din ikon genom att trycka på profilområdet högst upp på fliken \'Min meny\'.';
 
   @override
   String get faqQ7 => 'Var kan jag aktivera och inaktivera aviseringar?';
 
   @override
   String get faqA7 =>
-      'Du kan styra aviseringar från enhetens inställningsapp eller från inställningsmenyn för att uppdateras i framtiden.';
+      'Du kan när som helst slå på eller av aviseringar via \'Mottag push-notiser\'-omkopplaren under fliken \'Min meny\' i bottenmenyn. Vi rekommenderar att du håller aviseringar påslagna för att inte missa olika specialerbjudanden och nya taronyheter.';
 
   @override
   String get faqQ8 => 'Kan jag se andras tarotdagböcker?';
 
   @override
   String get faqA8 =>
-      'Ja, du kan se och heja på intressanta tarotläsningar som andra trollkarlar (användare) har gjort offentliga på fliken \"Community\" längst ner.';
+      'Genom att klicka på gemenskapsikonen högst upp kan du bläddra bland och heja på intressanta tarotläsningar som andra trollkarlar (användare) har ställt in som offentliga.';
 
   @override
   String get faqQ9 =>
@@ -4795,7 +4795,7 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Om du väljer \"Betalningshistorik\" på fliken [Min info] i bottenmenyn, kan du kontrollera din myntbetalningshistorik och inhämtat magiskt damm i detalj.';
+      'Under fliken [Min meny] längst ner kan du välja \'Betalningshistorik\' för att se en detaljerad översikt över dina betalda mynt och erhållna magiska pulver.';
 
   @override
   String get faqQ10 =>
@@ -4810,7 +4810,7 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Du hittar knappen \"Ta bort konto\" genom att gå till menyn Kontoinställningar via kugghjulsikonen uppe till höger på fliken [Min info]. Alla dagböcker och data kommer att raderas permanent vid återkallelse.';
+      'Du hittar knappen \'Avsluta medlemskap\' längst ner på fliken [Min meny] i bottenmenyn. Vid utträde raderas alla dagböcker och data permanent.';
 
   @override
   String get faqQ12 =>
@@ -4819,6 +4819,14 @@ class AppLocalizationsSv extends AppLocalizations {
   @override
   String get faqA12 =>
       'Om du skickar information via \"Kontakta kundtjänst\" som förbereds längst ner på den aktuella skärmen eller via officiell e-post, kommer vi snabbt att kontrollera och magiskt lösa det åt dig.';
+
+  @override
+  String get faqQ13 =>
+      'Vad ska jag göra om jag försöker registrera mig med en annan e-postadress och får en varningsruta?';
+
+  @override
+  String get faqA13 =>
+      'Systemet stöder för närvarande registrering och inloggning med endast en e-postadress per enhet (app) för säker datahantering. Om du vill registrera dig med en annan e-postadress, vänligen avinstallera appen helt och installera den sedan igen för att fortsätta.';
 
   @override
   String get myMenuContactUs => 'Kontakta oss';

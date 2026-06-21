@@ -4732,91 +4732,100 @@ class AppLocalizationsDa extends AppLocalizations {
   String get listenToInterpretation => 'Lyt til fortolkning';
 
   @override
-  String get faqQ1 => 'Kan jeg læse tarot hver dag?';
+  String get faqQ1 => 'Må jeg læse tarot hver dag?';
 
   @override
   String get faqA1 =>
-      'Ja, det er godt at læse dagens flow med let hjerte. Det anbefales dog ikke at trække kort gentagne gange for det samme spørgsmål.';
+      'Ja, det er godt at læse dagens strøm med et let hjerte. Vi anbefaler dog ikke at trække kort gentagne gange for det samme spørgsmål.';
 
   @override
-  String get faqQ2 => 'Hvordan får jeg tryllestøv?';
+  String get faqQ2 => 'Hvordan får jeg magisk støv?';
 
   @override
   String get faqA2 =>
-      'Du kan få magisk støv gennem appdeltagelse, fællesskabsaktiviteter eller køb i butikken.';
+      'Hver gang du får en mystisk tarotlæsning, får du som udgangspunkt 10 magiske pulvere pr. gang!';
 
   @override
-  String get faqQ3 => 'Hvad skal jeg gøre, hvis resultatet er dårligt?';
+  String get faqQ3 => 'Hvad skal jeg gøre, hvis resultatet ikke er godt?';
 
   @override
   String get faqA3 =>
-      'Tarot er ikke en fast fremtid, men et råd. Brug et dårligt resultat som en milepæl for at advare dig om risici, du skal undgå.';
+      'Tarot er kun et råd, ikke en fastlagt fremtid. Betragt et dårligt resultat som et vejskilt, der advarer dig om farer, du skal undgå.';
 
   @override
-  String get faqQ4 => 'Hvordan kan jeg se mine tidligere tarotlæsninger?';
+  String get faqQ4 => 'Hvordan ser jeg tidligere tarotlæsninger?';
 
   @override
   String get faqA4 =>
-      'Du kan til enhver tid gennemgå dine gemte læseposter efter dato i fanen \'Dagbog\' (Kalender) i den nederste menu.';
+      'I fanen \'Tarotdagbog\' i bundmenuen kan du altid gense dine gemte læsninger, sorteret efter liste og dato.';
 
   @override
   String get faqQ5 => 'Hvordan deler jeg med fællesskabet?';
 
   @override
   String get faqA5 =>
-      'Slå knappen \'Del til fællesskab\' til på skærmen med dagbogsdetaljer, der er gemt i dagbogen, for at dele din læsning med andre brugere.';
+      'På detaljeskærmen for en gemt dagbog i tarotdagbogen kan du dele læsninger med andre brugere ved at slå \'Offentliggør i fællesskabet\'-kontakten til.';
 
   @override
-  String get faqQ6 => 'Hvordan kan jeg ændre mit kaldenavn eller min profil?';
+  String get faqQ6 => 'Hvordan ændrer jeg mit kaldenavn eller min profil?';
 
   @override
   String get faqA6 =>
-      'Du kan til enhver tid ændre dit kaldenavn og ikon ved at trykke på profilområdet øverst på fanen \'Min menu\'.';
+      'Ved at trykke på profilområdet øverst i \'Min menu\'-fanen kan du når som helst ændre dit kaldenavn og ikon.';
 
   @override
   String get faqQ7 => 'Hvor kan jeg slå notifikationer til og fra?';
 
   @override
   String get faqA7 =>
-      'Du kan styre notifikationer fra din enheds indstillingsapp eller fra præferencemenuen for at blive opdateret i fremtiden.';
+      'I fanen \'Min menu\' i bundmenuen kan du når som helst slå notifikationer til eller fra via kontakten \'Modtag push-notifikationer\'. Vi anbefaler at holde notifikationer slået til for ikke at gå glip af særlige eventfordele og nye tarotnyheder.';
 
   @override
-  String get faqQ8 => 'Kan jeg se andres tarot-dagbøger?';
+  String get faqQ8 => 'Kan jeg også se andres tarotdagbøger?';
 
   @override
   String get faqA8 =>
-      'Ja, du kan se og heppe på interessante tarotlæsninger, som andre guider (brugere) har offentliggjort på fanen \'Fællesskab\' nederst.';
+      'Ved at klikke på fællesskabsikonet øverst kan du se og støtte interessante tarotlæsninger, som andre troldmænd (brugere) har indstillet som offentlige.';
 
   @override
   String get faqQ9 =>
-      'Hvor kan jeg tjekke mit premium-abonnement eller betalingshistorik?';
+      'Hvor kan jeg se mit premium-abonnement eller min betalingshistorik?';
 
   @override
   String get faqA9 =>
-      'Hvis du vælger \'Betalingshistorik\' på fanen [Mine oplysninger] i den nederste menu, kan du tjekke din møntbetalingshistorik og erhvervet magisk støv i detaljer.';
+      'I fanen [Min menu] nederst kan du vælge \'Betalingshistorik\' for at se en detaljeret oversigt over dine købte mønter og erhvervede magiske pulvere.';
 
   @override
   String get faqQ10 =>
-      'Jeg vil personligt studere betydningen af ​​tarotkort. Hvordan kan jeg gøre det?';
+      'Jeg vil gerne studere betydningen af tarotkort personligt, hvordan gør jeg det?';
 
   @override
   String get faqA10 =>
-      'Hvis du går til fanen [Card Encyclopedia] i den nederste menu, kan du frit se de opretstående og omvendte betydninger, symboler og dybdegående forklaringer af alle 78 kort.';
+      'Gå til fanen [Kortgalleri] i bundmenuen, hvor du frit kan se de opretstående/omvendte betydninger, symboler og dybdegående forklaringer for alle 78 kort, opdelt efter situation.';
 
   @override
-  String get faqQ11 => 'Hvordan kan jeg slette min konto eller hæve?';
+  String get faqQ11 =>
+      'Hvad skal jeg gøre, hvis jeg vil trække mig eller slette min konto?';
 
   @override
   String get faqA11 =>
-      'Du kan finde knappen \'Slet konto\' ved at gå til menuen Kontoindstillinger via tandhjulsikonet øverst til højre på fanen [Mine oplysninger]. Alle dagbøger og data slettes permanent ved tilbagetrækning.';
+      'Nederst i fanen [Min menu] i bundmenuen finder du knappen \'Slet konto\'. Ved sletning af kontoen slettes alle dagbøger og data permanent.';
 
   @override
   String get faqQ12 =>
-      'Hvor kontakter jeg, hvis jeg støder på en fejl eller har forslag?';
+      'Hvem skal jeg kontakte, hvis der opstår en fejl under brug af appen, eller hvis jeg har forslag?';
 
   @override
   String get faqA12 =>
-      'Hvis du sender detaljer via \'Kontakt kundeservice\', som er ved at blive udarbejdet nederst på den aktuelle skærm eller via officiel e-mail, vil vi hurtigt tjekke og på magisk vis løse det for dig.';
+      'Hvis du sender os detaljer via \'Kontakt kundeservice\', som er under udarbejdelse nederst på den aktuelle skærm, eller via den officielle e-mail, vil vi hurtigt gennemgå det og løse det som ved magi.';
+
+  @override
+  String get faqQ13 =>
+      'Hvad skal jeg gøre, hvis der vises en advarsel, når jeg forsøger at registrere mig med en anden e-mailadresse?';
+
+  @override
+  String get faqA13 =>
+      'For sikker datahåndtering understøtter systemet i øjeblikket kun registrering og login med én e-mailadresse pr. enhed (app). Hvis du ønsker at registrere dig med en anden e-mailadresse, bedes du slette appen fuldstændigt og derefter geninstallere den for at fortsætte.';
 
   @override
   String get myMenuContactUs => 'Kontakt os';

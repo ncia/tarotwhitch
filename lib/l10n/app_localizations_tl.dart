@@ -4768,7 +4768,7 @@ class AppLocalizationsTl extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Maaari kang makakuha ng magic dust sa pamamagitan ng pagdalo sa app, mga aktibidad sa komunidad, o pagbili sa shop.';
+      'Sa bawat pagbabasa ng misteryosong tarot, makakakuha ka ng 10 alikabok ng mahika bilang default!';
 
   @override
   String get faqQ3 => 'Ano ang dapat kong gawin kung masama ang resulta?';
@@ -4783,35 +4783,35 @@ class AppLocalizationsTl extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Maaari mong suriin ang iyong mga naka-save na tala sa pagbasa ayon sa petsa sa tab na \'Diary\' (Calendar) sa ibabang menu anumang oras.';
+      'Sa tab na \'Tarot Diary\' sa ibabang menu, maaari mong tingnan muli anumang oras ang mga naka-save na talaan ng pagbabasa ayon sa listahan at petsa.';
 
   @override
   String get faqQ5 => 'Paano ako magbabahagi sa komunidad?';
 
   @override
   String get faqA5 =>
-      'I-on ang switch na \'Ibahagi sa Komunidad\' sa screen ng detalye ng talaarawan na naka-save sa talaarawan upang ibahagi ang iyong pagbabasa sa ibang mga user.';
+      'Sa detalyadong screen ng talaarawan na naka-save sa Tarot Diary, kung i-on mo ang switch na \'Pampubliko sa Komunidad\', maaari mong ibahagi ang iyong mga pagbasa sa ibang mga user.';
 
   @override
   String get faqQ6 => 'Paano ko mapapalitan ang aking palayaw o profile?';
 
   @override
   String get faqA6 =>
-      'Maaari mong baguhin ang iyong palayaw at icon anumang oras sa pamamagitan ng pagpindot sa lugar ng profile sa tuktok ng tab na \'Aking Menu\'.';
+      'Kung tatapikin mo ang bahagi ng profile sa itaas ng tab na \'Aking Menu\', maaari mong palitan ang iyong palayaw at icon anumang oras.';
 
   @override
   String get faqQ7 => 'Saan ko maaaring i-on at i-off ang mga notification?';
 
   @override
   String get faqA7 =>
-      'Makokontrol mo ang mga notification mula sa app ng mga setting ng iyong device, o mula sa menu ng mga kagustuhan na ia-update sa hinaharap.';
+      'Sa tab na \'Aking Menu\' sa ibabang menu, maaari mong i-on o i-off ang mga notification anumang oras sa pamamagitan ng switch na \'Tumanggap ng Push Notifications\'. Upang hindi makaligtaan ang iba\'t ibang benepisyo ng espesyal na kaganapan at mga bagong balita sa tarot, inirerekomenda naming panatilihing naka-on ang mga notification.';
 
   @override
   String get faqQ8 => 'Maaari ko bang makita ang mga tarot diary ng ibang tao?';
 
   @override
   String get faqA8 =>
-      'Oo, maaari mong tingnan at i-cheer ang mga kawili-wiling pagbabasa ng tarot na isinapubliko ng ibang mga wizard (mga user) sa tab na \'Komunidad\' sa ibaba.';
+      'Kung iki-click mo ang icon ng komunidad sa itaas, maaari mong tingnan at suportahan ang mga kawili-wiling pagbasa ng tarot na ginawang pampubliko ng ibang mga wizard (user).';
 
   @override
   String get faqQ9 =>
@@ -4819,7 +4819,7 @@ class AppLocalizationsTl extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Kung pipiliin mo ang \'Kasaysayan ng Pagbabayad\' sa tab na [Aking Impormasyon] sa ibabang menu, maaari mong tingnan ang iyong kasaysayan ng pagbabayad ng barya at nakuha ang magic dust nang detalyado.';
+      'Sa tab na [Aking Menu] sa ibaba, kung pipiliin mo ang \'Kasaysayan ng Bayad\', makikita mo nang detalyado ang kasaysayan ng pagbabayad mo ng coin at ang nakuha mong alikabok ng mahika.';
 
   @override
   String get faqQ10 =>
@@ -4834,7 +4834,7 @@ class AppLocalizationsTl extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Mahahanap mo ang button na \'Delete Account\' sa pamamagitan ng pagpunta sa menu ng Mga Setting ng Account sa pamamagitan ng icon na gear sa kanang tuktok ng tab na [Aking Impormasyon]. Ang lahat ng mga talaarawan at data ay permanenteng tatanggalin sa pag-withdraw.';
+      'Sa ibabang bahagi ng tab na [Aking Menu] sa ibabang menu, mahahanap mo ang button na \'Mag-alis ng Account\'. Sa pag-alis, ang lahat ng talaarawan at data ay permanenteng tatanggalin.';
 
   @override
   String get faqQ12 =>
@@ -4843,6 +4843,14 @@ class AppLocalizationsTl extends AppLocalizations {
   @override
   String get faqA12 =>
       'Kung magpapadala ka ng mga detalye sa pamamagitan ng \'Contact Customer Service\' na inihahanda sa ibaba ng kasalukuyang screen o sa pamamagitan ng opisyal na email, mabilis naming susuriin at mahiwagang lutasin ito para sa iyo.';
+
+  @override
+  String get faqQ13 =>
+      'Ano ang gagawin ko kung may lumabas na babala kapag susubukan kong mag-sign up gamit ang ibang email?';
+
+  @override
+  String get faqA13 =>
+      'Kasalukuyang sinusuportahan ng sistema ang pagpaparehistro at pag-log in gamit lamang ang isang email address sa bawat device (app) para sa ligtas na pamamahala ng data. Kung nais mong mag-sign up gamit ang ibang email address, mangyaring ganap na burahin ang app, pagkatapos ay muling i-install at ipagpatuloy.';
 
   @override
   String get myMenuContactUs => 'Makipag-ugnayan sa Amin';

@@ -4746,7 +4746,7 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Varázsporhoz juthat az alkalmazásokban való részvétel, a közösségi tevékenységek vagy az üzletben történő vásárlás révén.';
+      'Minden alkalommal, amikor titokzatos tarot-olvasást végez, alapesetben 10 egység mágikus port szerezhet!';
 
   @override
   String get faqQ3 => 'Mit tegyek, ha rossz az eredmény?';
@@ -4760,14 +4760,14 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'A mentett olvasási rekordokat dátum szerint bármikor megtekintheti az alsó menü \"Naptár\" (Naptár) lapján.';
+      'Az alsó menü \'Tarot napló\' fülén bármikor újra megtekintheti a listában és dátum szerint elmentett olvasási rekordokat.';
 
   @override
   String get faqQ5 => 'Hogyan oszthatom meg a közösséggel?';
 
   @override
   String get faqA5 =>
-      'Kapcsolja be a „Megosztás a közösséggel” kapcsolót a naplóba mentett naplórészletes képernyőn, hogy megoszthassa olvasmányait más felhasználókkal.';
+      'A tarot naplóban elmentett napló részletes képernyőjén, ha bekapcsolja a \'Közösségi megosztás\' kapcsolót, megoszthatja az olvasásokat más felhasználókkal.';
 
   @override
   String get faqQ6 =>
@@ -4775,21 +4775,21 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get faqA6 =>
-      'Becenevét és ikonját bármikor megváltoztathatja, ha megérinti a profilterületet a „Saját menü” lap tetején.';
+      'A \'Saját menü\' fül tetején található profil terület megérintésével bármikor megváltoztathatja becenevét és ikonját.';
 
   @override
   String get faqQ7 => 'Hol tudom be- és kikapcsolni az értesítéseket?';
 
   @override
   String get faqA7 =>
-      'Az értesítéseket az eszköz beállítási alkalmazásából vagy a jövőben frissítendő beállítások menüből irányíthatja.';
+      'Az alsó menü \'Saját menü\' fülén a \'Push értesítések fogadása\' kapcsolóval bármikor be- vagy kikapcsolhatja az értesítéseket. Javasoljuk, hogy tartsa bekapcsolva az értesítéseket, hogy ne maradjon le a különleges eseményekről és az új tarot hírekről.';
 
   @override
   String get faqQ8 => 'Megnézhetem mások tarot naplóit?';
 
   @override
   String get faqA8 =>
-      'Igen, megtekintheti és szurkolhat az érdekes tarot olvasmányoknak, amelyeket más varázslók (felhasználók) tettek nyilvánosságra az alul található „Közösség” lapon.';
+      'A felső közösségi ikonra kattintva megtekintheti és támogathatja más varázslók (felhasználók) által nyilvánossá tett érdekes tarot-olvasásokat.';
 
   @override
   String get faqQ9 =>
@@ -4797,7 +4797,7 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Ha az alsó menü [Saját adatok] lapján a „Fizetési előzmények” lehetőséget választja, részletesen ellenőrizheti érmefizetési előzményeit és a szerzett varázsporát.';
+      'Az alsó [Saját menü] fülön, ha kiválasztja a \'Fizetési előzmények\' opciót, részletesen megtekintheti az eddig befizetett érmék és megszerzett mágikus por történetét.';
 
   @override
   String get faqQ10 =>
@@ -4812,7 +4812,7 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'A „Fiók törlése” gombot a Fiókbeállítások menüben találja meg a [Saját adatok] lap jobb felső sarkában található fogaskerék ikon segítségével. Elálláskor minden napló és adat véglegesen törlődik.';
+      'Az alsó menü [Saját menü] fülének alján találja a \'Fiók törlése\' gombot. A törlés után minden napló és adat véglegesen törlődik.';
 
   @override
   String get faqQ12 =>
@@ -4821,6 +4821,14 @@ class AppLocalizationsHu extends AppLocalizations {
   @override
   String get faqA12 =>
       'Ha az aktuális képernyő alján készülő „Kapcsolatfelvétel az ügyfélszolgálattal” menüponton keresztül vagy hivatalos e-mailben küldi el a részleteket, mi gyorsan ellenőrizzük és varázslatosan megoldjuk Önnek.';
+
+  @override
+  String get faqQ13 =>
+      'Mit tegyek, ha figyelmeztető ablak jelenik meg, amikor másik e-mail címmel próbálok regisztrálni?';
+
+  @override
+  String get faqA13 =>
+      'A jelenlegi rendszer a biztonságos adatkezelés érdekében egy eszközhöz (alkalmazáshoz) csak egyetlen e-mail címmel támogatja a regisztrációt és a bejelentkezést. Ha más e-mail címmel szeretne regisztrálni, kérjük, törölje teljesen az alkalmazást, majd telepítse újra.';
 
   @override
   String get myMenuContactUs => 'Lépjen kapcsolatba velünk';

@@ -4748,7 +4748,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Magiczny pył możesz zdobyć poprzez korzystanie z aplikacji, działania społeczności lub zakupy w sklepie.';
+      'Za każdym razem, gdy czytasz tajemnicze tarota, otrzymujesz 10 magicznych pyłów jako podstawową nagrodę!';
 
   @override
   String get faqQ3 => 'Co powinienem zrobić, jeśli wynik jest zły?';
@@ -4762,35 +4762,35 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'W dowolnej chwili możesz przejrzeć zapisane zapisy czytelnicze według daty w zakładce „Dziennik” (Kalendarz) w dolnym menu.';
+      'W zakładce \'Dziennik Tarota\' w dolnym menu możesz w każdej chwili ponownie przeglądać zapisane odczyty według listy i daty.';
 
   @override
   String get faqQ5 => 'Jak udostępnić społeczności?';
 
   @override
   String get faqA5 =>
-      'Włącz przełącznik „Udostępnij społeczności” na ekranie szczegółów dziennika zapisanych w dzienniku, aby udostępnić swoją lekturę innym użytkownikom.';
+      'Na ekranie szczegółów dziennika zapisanego w Dzienniku Tarota, możesz dzielić się swoimi odczytami z innymi użytkownikami, włączając przełącznik \'Udostępnij społeczności\'.';
 
   @override
   String get faqQ6 => 'Jak mogę zmienić swój pseudonim lub profil?';
 
   @override
   String get faqA6 =>
-      'Możesz zmienić swój pseudonim i ikonę w dowolnym momencie, dotykając obszaru profilu u góry zakładki „Moje menu”.';
+      'Dotykając obszaru profilu na górze zakładki \'Moje Menu\', możesz w każdej chwili zmienić swój pseudonim i ikonę.';
 
   @override
   String get faqQ7 => 'Gdzie mogę włączyć i wyłączyć powiadomienia?';
 
   @override
   String get faqA7 =>
-      'Powiadomieniami możesz sterować z poziomu aplikacji ustawień na swoim urządzeniu lub z menu preferencji, które będą aktualizowane w przyszłości.';
+      'W zakładce \'Moje Menu\' w dolnym menu możesz włączać i wyłączać powiadomienia w dowolnym momencie za pomocą przełącznika \'Otrzymuj powiadomienia push\'. Aby nie przegapić różnych korzyści ze specjalnych wydarzeń i nowych wiadomości tarota, zalecamy włączenie powiadomień.';
 
   @override
   String get faqQ8 => 'Czy mogę zobaczyć pamiętniki tarota innych osób?';
 
   @override
   String get faqA8 =>
-      'Tak, możesz przeglądać i kibicować ciekawym odczytom tarota, które inni czarodzieje (użytkownicy) upublicznili w zakładce „Społeczność” na dole.';
+      'Klikając ikonę społeczności u góry, możesz przeglądać i wspierać interesujące odczyty tarota udostępnione przez innych magów (użytkowników).';
 
   @override
   String get faqQ9 =>
@@ -4798,7 +4798,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Jeśli wybierzesz opcję „Historia płatności” w zakładce [Moje informacje] w dolnym menu, możesz szczegółowo sprawdzić historię swoich płatności monetami i zdobytego magicznego pyłu.';
+      'W zakładce [Moje Menu] na dole, wybierając \'Historia płatności\', możesz szczegółowo sprawdzić historię zapłaconych monet i zdobytego magicznego pyłu.';
 
   @override
   String get faqQ10 =>
@@ -4813,7 +4813,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Przycisk „Usuń konto” znajdziesz w menu Ustawienia konta za pomocą ikony koła zębatego w prawym górnym rogu karty [Moje informacje]. Po wycofaniu wszystkie pamiętniki i dane zostaną trwale usunięte.';
+      'W dolnej części zakładki [Moje Menu] w dolnym menu znajdziesz przycisk \'Wycofanie członkostwa\'. Po wycofaniu członkostwa wszystkie dzienniki i dane zostaną trwale usunięte.';
 
   @override
   String get faqQ12 =>
@@ -4822,6 +4822,14 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get faqA12 =>
       'Jeśli wyślesz szczegóły poprzez „Skontaktuj się z obsługą klienta”, która jest przygotowywana na dole bieżącego ekranu lub za pośrednictwem oficjalnego e-maila, szybko sprawdzimy i magicznie rozwiążemy problem.';
+
+  @override
+  String get faqQ13 =>
+      'Co zrobić, jeśli chcę zarejestrować się z innym adresem e-mail, ale pojawia się okno ostrzeżenia?';
+
+  @override
+  String get faqA13 =>
+      'Obecny system obsługuje rejestrację i logowanie tylko za pomocą jednego adresu e-mail na jedno urządzenie (aplikację) w celu bezpiecznego zarządzania danymi. Jeśli chcesz zarejestrować się z innym adresem e-mail, całkowicie usuń aplikację, a następnie zainstaluj ją ponownie.';
 
   @override
   String get myMenuContactUs => 'Skontaktuj się z nami';

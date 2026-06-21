@@ -4747,7 +4747,7 @@ class AppLocalizationsSr extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Чаробну прашину можете добити кроз посећеност апликацијама, активности у заједници или куповину у продавници.';
+      'Svaki put kada čitate misteriozni tarot, automatski dobijate 10 prahova moći!';
 
   @override
   String get faqQ3 => 'Шта да радим ако је резултат лош?';
@@ -4761,35 +4761,35 @@ class AppLocalizationsSr extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Своје сачуване записе о читању можете прегледати по датуму на картици „Дневник“ (Календар) у доњем менију у било ком тренутку.';
+      'U bilo kom trenutku možete ponovo pregledati sačuvane zapise čitanja, sortirane po listi i datumu, u tabu \'Dnevnik Tarota\' u donjem meniju.';
 
   @override
   String get faqQ5 => 'Како да поделим са заједницом?';
 
   @override
   String get faqA5 =>
-      'Укључите прекидач „Дели са заједницом“ на екрану са детаљима дневника сачуваном у дневнику да бисте своје читање поделили са другим корисницима.';
+      'U detaljnom prikazu dnevnika sačuvanog u Tarot Dnevniku, možete podeliti svoja čitanja sa drugim korisnicima uključivanjem prekidača \'Objavi u zajednici\'.';
 
   @override
   String get faqQ6 => 'Како могу да променим свој надимак или профил?';
 
   @override
   String get faqA6 =>
-      'Можете да промените свој надимак и икону у било ком тренутку тако што ћете додирнути област профила на врху картице „Мој мени“.';
+      'Možete promeniti svoj nadimak i ikonu u bilo kom trenutku dodirom na oblast profila na vrhu taba \'Moj meni\'.';
 
   @override
   String get faqQ7 => 'Где могу да укључим и искључим обавештења?';
 
   @override
   String get faqA7 =>
-      'Можете да контролишете обавештења из апликације за подешавања вашег уређаја или из менија за подешавања која ће се ажурирати у будућности.';
+      'U tabu \'Moj meni\' u donjem meniju možete uključiti ili isključiti obaveštenja u bilo kom trenutku putem prekidača \'Primanje push obaveštenja\'. Preporučujemo da držite obaveštenja uključena kako ne biste propustili razne pogodnosti specijalnih događaja i nove vesti o tarotu.';
 
   @override
   String get faqQ8 => 'Могу ли да видим туђе тарот дневнике?';
 
   @override
   String get faqA8 =>
-      'Да, можете погледати и навијати за занимљива читања тарота која су други чаробњаци (корисници) објавили на картици \'Заједница\' на дну.';
+      'Klikom na ikonu zajednice na vrhu, možete pregledati i podržati zanimljiva tarot čitanja koja su drugi čarobnjaci (korisnici) objavili.';
 
   @override
   String get faqQ9 =>
@@ -4797,7 +4797,7 @@ class AppLocalizationsSr extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Ако изаберете „Историја плаћања“ на картици [Моје информације] доњег менија, можете детаљно да проверите историју плаћања новчића и стечену магичну прашину.';
+      'U tabu [Moj meni] na dnu, odabirom \'Istorija plaćanja\', možete detaljno proveriti istoriju plaćenih novčića i stečene prahove moći.';
 
   @override
   String get faqQ10 =>
@@ -4812,7 +4812,7 @@ class AppLocalizationsSr extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Дугме \'Избриши налог\' можете пронаћи тако што ћете отићи у мени Подешавања налога преко иконе зупчаника у горњем десном углу картице [Моје информације]. Сви дневници и подаци биће трајно избрисани након повлачења.';
+      'Dugme \'Povlačenje članstva\' možete pronaći na dnu taba [Moj meni] u donjem meniju. Svi dnevnici i podaci će biti trajno obrisani po povlačenju članstva.';
 
   @override
   String get faqQ12 =>
@@ -4821,6 +4821,14 @@ class AppLocalizationsSr extends AppLocalizations {
   @override
   String get faqA12 =>
       'Ако пошаљете детаље преко \'Контактирајте корисничку подршку\' који се припрема на дну тренутног екрана или путем званичне е-поште, ми ћемо то брзо проверити и магично решити уместо вас.';
+
+  @override
+  String get faqQ13 =>
+      'Šta da radim ako pokušavam da se registrujem sa drugom e-mail adresom i pojavi se poruka upozorenja?';
+
+  @override
+  String get faqA13 =>
+      'Trenutni sistem podržava registraciju i prijavu sa samo jednom e-mail adresom po uređaju (aplikaciji) radi bezbednog upravljanja podacima. Ako želite da se registrujete sa drugom e-mail adresom, molimo vas da potpuno izbrišete aplikaciju, a zatim je ponovo instalirate da biste nastavili.';
 
   @override
   String get myMenuContactUs => 'Контактирајте нас';

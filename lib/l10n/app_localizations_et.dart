@@ -4742,7 +4742,7 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Võlutolmu võite hankida rakendustes osalemise, kogukonna tegevuste või poes ostmise kaudu.';
+      'Iga kord, kui loete müstilisi tarokaarte, saate vaikimisi 10 maagilist tolmu!';
 
   @override
   String get faqQ3 => 'Mida teha, kui tulemus on halb?';
@@ -4756,35 +4756,35 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Saate igal ajal oma salvestatud lugemiskirjeid kuupäeva järgi üle vaadata alumise menüü vahekaardil „Päevik” (Kalender).';
+      'Alumise menüü vahelehel \'Taro päevik\' saate igal ajal uuesti vaadata salvestatud lugemiste ajalugu nimekirja ja kuupäeva järgi.';
 
   @override
   String get faqQ5 => 'Kuidas ma saan kogukonnaga jagada?';
 
   @override
   String get faqA5 =>
-      'Lülitage päevikusse salvestatud päeviku üksikasjade ekraanil sisse lüliti „Jaga kogukonnaga”, et jagada oma lugemist teiste kasutajatega.';
+      'Taro päevikusse salvestatud päeviku detailvaates saate lugemist teiste kasutajatega jagada, lülitades sisse \'Avalik kogukonnale\' lüliti.';
 
   @override
   String get faqQ6 => 'Kuidas ma saan oma hüüdnime või profiili muuta?';
 
   @override
   String get faqA6 =>
-      'Saate oma hüüdnime ja ikooni igal ajal muuta, puudutades vahekaardi Minu menüü ülaosas profiiliala.';
+      'Puudutades vahelehe \'Minu menüü\' ülemises osas profiiliala, saate igal ajal muuta oma hüüdnime ja ikooni.';
 
   @override
   String get faqQ7 => 'Kus saan märguandeid sisse ja välja lülitada?';
 
   @override
   String get faqA7 =>
-      'Saate juhtida märguandeid oma seadme seadete rakendusest või eelistuste menüüst, mida edaspidi värskendatakse.';
+      'Alumise menüü vahelehel \'Minu menüü\' saate \'Push-teavituste vastuvõtmise\' lüliti kaudu teavitused igal ajal sisse või välja lülitada. Et mitte maha magada erinevaid erisündmuste eeliseid ja uusi taro uudiseid, soovitame teil teavitused sisse lülitada.';
 
   @override
   String get faqQ8 => 'Kas ma saan näha teiste inimeste taropäevikuid?';
 
   @override
   String get faqA8 =>
-      'Jah, saate vaadata ja rõõmustada huvitavate tarot lugemistega, mille teised võlurid (kasutajad) on avalikustanud, allosas asuval vahekaardil „Kogukond”.';
+      'Klõpsates ülemisel kogukonna ikoonil, saate vaadata ja toetada teiste võlurite (kasutajate) avalikult jagatud huvitavaid taro lugemisi.';
 
   @override
   String get faqQ9 =>
@@ -4792,7 +4792,7 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Kui valite allmenüü vahekaardil [Minu teave] \'Makseajalugu\', saate üksikasjalikult kontrollida oma mündimaksete ajalugu ja omandatud võlutolmu.';
+      'Alumise [Minu menüü] vahelehel, valides \'Makseajalugu\', saate üksikasjalikult kontrollida oma seniseid müntide makseajalugu ja teenitud maagilist tolmu.';
 
   @override
   String get faqQ10 =>
@@ -4807,7 +4807,7 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Nupu „Kustuta konto” leiate, kui avate menüü Konto sätted vahekaardi [Minu teave] paremas ülanurgas oleva hammasrattaikooni kaudu. Kõik päevikud ja andmed kustutatakse loobumisel jäädavalt.';
+      'Alumises menüüs, vahelehe [Minu menüü] allosas, leiate nupu \'Konto kustutamine\'. Konto kustutamisel kustutatakse kõik päevikud ja andmed jäädavalt.';
 
   @override
   String get faqQ12 =>
@@ -4816,6 +4816,14 @@ class AppLocalizationsEt extends AppLocalizations {
   @override
   String get faqA12 =>
       'Kui saadate üksikasju praeguse ekraani allosas ettevalmistamisel oleva „Võtke ühendust klienditeenindusega” või ametliku meili teel, kontrollime seda kiiresti ja lahendame selle teie eest võluväel.';
+
+  @override
+  String get faqQ13 =>
+      'Mida teha, kui proovin registreeruda teise e-posti aadressiga ja ilmub hoiatusaken?';
+
+  @override
+  String get faqA13 =>
+      'Praegune süsteem toetab turvalise andmehalduse tagamiseks registreerumist ja sisselogimist ainult ühe e-posti aadressiga seadme (rakenduse) kohta. Kui soovite registreeruda teise e-posti aadressiga, palun desinstallige rakendus täielikult ja seejärel installige see uuesti.';
 
   @override
   String get myMenuContactUs => 'Võtke meiega ühendust';

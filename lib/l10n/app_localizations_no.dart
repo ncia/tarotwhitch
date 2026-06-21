@@ -4740,7 +4740,7 @@ class AppLocalizationsNo extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Du kan få magisk støv gjennom app-oppmøte, fellesskapsaktiviteter eller kjøp i butikken.';
+      'Hver gang du får en mystisk tarolesning, kan du som standard få 10 magiske støv per gang!';
 
   @override
   String get faqQ3 => 'Hva skal jeg gjøre hvis resultatet er dårlig?';
@@ -4754,35 +4754,35 @@ class AppLocalizationsNo extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Du kan når som helst se gjennom de lagrede lesepostene dine etter dato i kategorien \"Dagbok\" (Kalender) på bunnmenyen.';
+      'På \'Tarodagbok\'-fanen i bunnmenyen kan du når som helst se lagrede leseposter sortert etter liste og dato.';
 
   @override
   String get faqQ5 => 'Hvordan deler jeg med fellesskapet?';
 
   @override
   String get faqA5 =>
-      'Slå på \"Del til fellesskap\"-bryteren på dagbokdetaljskjermen som er lagret i dagboken for å dele lesingen din med andre brukere.';
+      'På detaljskjermen for en dagbok som er lagret i tarodagboken, kan du slå på \'Offentliggjør i fellesskapet\'-bryteren for å dele lesningen med andre brukere.';
 
   @override
   String get faqQ6 => 'Hvordan kan jeg endre kallenavnet eller profilen min?';
 
   @override
   String get faqA6 =>
-      'Du kan endre kallenavnet og ikonet ditt når som helst ved å trykke på profilområdet øverst på \"Min meny\"-fanen.';
+      'Hvis du trykker på profilområdet øverst på \'Min meny\'-fanen, kan du når som helst endre kallenavn og ikon.';
 
   @override
   String get faqQ7 => 'Hvor kan jeg slå varsler på og av?';
 
   @override
   String get faqA7 =>
-      'Du kan kontrollere varsler fra enhetens innstillingsapp, eller fra preferansemenyen for å bli oppdatert i fremtiden.';
+      'På \'Min meny\'-fanen i bunnmenyen kan du når som helst slå av eller på varsler via \'Motta push-varsler\'-bryteren. Vi anbefaler å ha varsler på for ikke å gå glipp av ulike spesialarrangementer og nye tarotnyheter.';
 
   @override
   String get faqQ8 => 'Kan jeg se andres tarotdagbøker?';
 
   @override
   String get faqA8 =>
-      'Ja, du kan se og heie på interessante tarotlesninger som andre veivisere (brukere) har offentliggjort i \"Fellesskap\"-fanen nederst.';
+      'Hvis du klikker på fellesskapsikonet øverst, kan du se og heie på interessante tarolesninger som andre magikere (brukere) har gjort offentlige.';
 
   @override
   String get faqQ9 =>
@@ -4790,7 +4790,7 @@ class AppLocalizationsNo extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Hvis du velger \'Betalingshistorikk\' i [Min info]-fanen i bunnmenyen, kan du sjekke myntbetalingshistorikken og skaffet magisk støv i detalj.';
+      'Hvis du velger \'Betalingshistorikk\' på [Min meny]-fanen nederst, kan du se detaljer om mynttransaksjonene dine og det magiske støvet du har fått så langt.';
 
   @override
   String get faqQ10 =>
@@ -4805,7 +4805,7 @@ class AppLocalizationsNo extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Du finner \'Slett konto\'-knappen ved å gå til Kontoinnstillinger-menyen via tannhjulikonet øverst til høyre på fanen [Min info]. Alle dagbøker og data vil bli permanent slettet ved tilbaketrekking.';
+      'Nederst på [Min meny]-fanen i bunnmenyen finner du \'Trekk tilbake medlemskap\'-knappen. Ved utmelding vil alle dagbøker og data slettes permanent.';
 
   @override
   String get faqQ12 =>
@@ -4814,6 +4814,14 @@ class AppLocalizationsNo extends AppLocalizations {
   @override
   String get faqA12 =>
       'Hvis du sender detaljer gjennom \'Kontakt kundeservice\' som forberedes nederst på gjeldende skjermbilde eller via offisiell e-post, vil vi raskt sjekke og løse det på magisk vis for deg.';
+
+  @override
+  String get faqQ13 =>
+      'Hva gjør jeg hvis jeg prøver å registrere meg med en annen e-post og en advarsel vises?';
+
+  @override
+  String get faqA13 =>
+      'For sikker databehandling støtter vårt nåværende system kun registrering og innlogging med én e-postadresse per enhet (app). Hvis du ønsker å registrere deg med en annen e-postadresse, vennligst avinstaller appen helt og installer den på nytt for å fortsette.';
 
   @override
   String get myMenuContactUs => 'Kontakt oss';

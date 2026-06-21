@@ -4737,7 +4737,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Uygulamaya katılım, topluluk etkinlikleri veya mağazadan satın alma yoluyla sihirli toz elde edebilirsiniz.';
+      'Her gizemli tarot falına baktığınızda, her seferinde 10 adet büyülü toz temel olarak kazanabilirsiniz!';
 
   @override
   String get faqQ3 => 'Sonuç kötü ise ne yapmalıyım?';
@@ -4751,35 +4751,35 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Kaydedilen okuma kayıtlarınızı istediğiniz zaman alt menüdeki \'Günlük\' (Takvim) sekmesinden tarihe göre inceleyebilirsiniz.';
+      'Alt menüdeki \'Tarot Günlüğü\' sekmesinden, liste ve tarihe göre kaydedilmiş okuma kayıtlarını istediğiniz zaman tekrar görebilirsiniz.';
 
   @override
   String get faqQ5 => 'Toplulukla nasıl paylaşırım?';
 
   @override
   String get faqA5 =>
-      'Okumalarınızı diğer kullanıcılarla paylaşmak için günlüğe kaydedilen günlük ayrıntıları ekranında \'Toplulukta Paylaş\' anahtarını açın.';
+      'Tarot günlüğüne kaydedilen günlük detay ekranında \'Topluluğa Açık\' düğmesini açtığınızda, diğer kullanıcılarla okumayı paylaşabilirsiniz.';
 
   @override
   String get faqQ6 => 'Takma adımı veya profilimi nasıl değiştirebilirim?';
 
   @override
   String get faqA6 =>
-      '\'Menüm\' sekmesinin üst kısmındaki profil alanına dokunarak takma adınızı ve simgenizi istediğiniz zaman değiştirebilirsiniz.';
+      '\'Menüm\' sekmesinin üst kısmındaki profil alanına dokunduğunuzda, istediğiniz zaman takma adınızı ve simgenizi değiştirebilirsiniz.';
 
   @override
   String get faqQ7 => 'Bildirimleri nereden açıp kapatabilirim?';
 
   @override
   String get faqA7 =>
-      'Bildirimleri cihazınızın ayarlar uygulamasından veya gelecekte güncellenecek tercihler menüsünden kontrol edebilirsiniz.';
+      'Alt menüdeki \'Menüm\' sekmesinde \'Anlık Bildirim Alma\' düğmesini kullanarak istediğiniz zaman bildirimleri açıp kapatabilirsiniz. Çeşitli özel etkinlik avantajlarını ve yeni tarot haberlerini kaçırmamak için bildirimleri açık tutmanızı öneririz.';
 
   @override
   String get faqQ8 => 'Başkalarının tarot günlüklerini görebilir miyim?';
 
   @override
   String get faqA8 =>
-      'Evet, alt kısımdaki \'Topluluk\' sekmesinde diğer sihirbazların (kullanıcıların) halka açıkladığı ilginç tarot okumalarını görüntüleyebilir ve tezahürat yapabilirsiniz.';
+      'Üstteki topluluk simgesine tıkladığınızda, diğer büyücülerin (kullanıcıların) herkese açık olarak ayarladığı ilginç tarot okumalarını inceleyebilir ve destekleyebilirsiniz.';
 
   @override
   String get faqQ9 =>
@@ -4787,7 +4787,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Alt menünün [Bilgilerim] sekmesinden \'Ödeme Geçmişi\'ni seçerseniz, coin ödeme geçmişinizi ve edindiğiniz sihirli tozu detaylı olarak kontrol edebilirsiniz.';
+      'Alt menüdeki [Menüm] sekmesinden \'Ödeme Geçmişi\'ni seçtiğinizde, şimdiye kadar ödediğiniz jeton geçmişini ve kazandığınız büyülü tozları ayrıntılı olarak görüntüleyebilirsiniz.';
 
   @override
   String get faqQ10 =>
@@ -4802,7 +4802,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      '[Bilgilerim] sekmesinin sağ üst köşesindeki dişli çark simgesinden Hesap Ayarları menüsüne giderek \'Hesabı Sil\' düğmesini bulabilirsiniz. Geri çekilme sonrasında tüm günlükler ve veriler kalıcı olarak silinecektir.';
+      'Alt menülerden [Menüm] sekmesinin altında \'Üyeliği Sonlandır\' düğmesini bulabilirsiniz. Üyeliği sonlandırdığınızda, tüm günlükler ve veriler kalıcı olarak silinir.';
 
   @override
   String get faqQ12 =>
@@ -4811,6 +4811,14 @@ class AppLocalizationsTr extends AppLocalizations {
   @override
   String get faqA12 =>
       'Mevcut ekranın alt kısmında hazırlanan \'Müşteri Hizmetleriyle İletişime Geçin\' veya resmi e-posta yoluyla ayrıntıları gönderirseniz, hızlı bir şekilde kontrol edip sizin için sihirli bir şekilde çözeceğiz.';
+
+  @override
+  String get faqQ13 =>
+      'Başka bir e-posta adresiyle üye olmaya çalıştığımda bir uyarı penceresi belirirse ne yapmalıyım?';
+
+  @override
+  String get faqA13 =>
+      'Mevcut sistem, güvenli veri yönetimi için her cihaz (uygulama) başına yalnızca tek bir e-posta adresiyle üyelik ve girişi desteklemektedir. Başka bir e-posta adresiyle kaydolmak isterseniz, lütfen uygulamayı tamamen silip yeniden yükleyerek devam edin.';
 
   @override
   String get myMenuContactUs => 'Bize Ulaşın';

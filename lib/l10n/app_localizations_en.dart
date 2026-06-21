@@ -4736,7 +4736,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'You can get magic dust through app attendance, community activities, or purchasing in the shop.';
+      'Each time you get a mystical tarot reading, you will acquire 10 Magic Powder as a basic reward per reading!';
 
   @override
   String get faqQ3 => 'What should I do if the result is bad?';
@@ -4750,35 +4750,35 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'You can review your saved reading records by date in the \'Diary\' (Calendar) tab at the bottom menu anytime.';
+      'You can view your saved reading records by list and date at any time in the \'Tarot Diary\' tab of the bottom menu.';
 
   @override
   String get faqQ5 => 'How do I share to the community?';
 
   @override
   String get faqA5 =>
-      'Turn on the \'Share to Community\' switch on the diary detail screen saved in the diary to share your reading with other users.';
+      'If you turn on the \'Community Share\' switch on the diary detail screen saved in the Tarot Diary, you can share your readings with other users.';
 
   @override
   String get faqQ6 => 'How can I change my nickname or profile?';
 
   @override
   String get faqA6 =>
-      'You can change your nickname and icon anytime by touching the profile area at the top of the \'My Menu\' tab.';
+      'You can change your nickname and icon at any time by touching the profile area at the top of the \'My Menu\' tab.';
 
   @override
   String get faqQ7 => 'Where can I turn notifications on and off?';
 
   @override
   String get faqA7 =>
-      'You can control notifications from your device\'s settings app, or from the preferences menu to be updated in the future.';
+      'You can turn push notifications on or off at any time via the \'Receive Push Notifications\' switch in the \'My Menu\' tab of the bottom menu. We recommend keeping notifications on so you don\'t miss out on various special event benefits and new tarot news.';
 
   @override
   String get faqQ8 => 'Can I see other people\'s tarot diaries?';
 
   @override
   String get faqA8 =>
-      'Yes, you can view and cheer for interesting tarot readings that other wizards (users) have made public in the \'Community\' tab at the bottom.';
+      'By clicking the community icon at the top, you can browse and support interesting tarot readings set to public by other wizards (users).';
 
   @override
   String get faqQ9 =>
@@ -4786,7 +4786,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'If you select \'Payment History\' in the [My Info] tab of the bottom menu, you can check your coin payment history and acquired magic dust in detail.';
+      'By selecting \'Payment History\' from the [My Menu] tab at the bottom, you can view your coin payment history and acquired Magic Powder in detail.';
 
   @override
   String get faqQ10 =>
@@ -4801,7 +4801,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'You can find the \'Delete Account\' button by going to the Account Settings menu via the gear icon on the top right of the [My Info] tab. All diaries and data will be permanently deleted upon withdrawal.';
+      'You can find the \'Account Deletion\' button at the bottom of the [My Menu] tab in the bottom menu. Upon deletion, all diaries and data will be permanently deleted.';
 
   @override
   String get faqQ12 =>
@@ -4810,6 +4810,14 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get faqA12 =>
       'If you send details through \'Contact Customer Service\' which is being prepared at the bottom of the current screen or via official email, we will quickly check and magically solve it for you.';
+
+  @override
+  String get faqQ13 =>
+      'What should I do if a warning message appears when I try to sign up with a different email address?';
+
+  @override
+  String get faqA13 =>
+      'For secure data management, the current system supports registration and login with only a single email address per device (app). If you wish to sign up with a different email address, please delete the app completely and then reinstall it to proceed.';
 
   @override
   String get myMenuContactUs => 'Contact Us';

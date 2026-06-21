@@ -4758,7 +4758,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Puede obtener polvo mágico a través de la asistencia a la aplicación, actividades comunitarias o compras en la tienda.';
+      '¡Cada vez que realices una lectura de tarot mística, obtendrás 10 polvos de magia como base!';
 
   @override
   String get faqQ3 => '¿Qué debo hacer si el resultado es malo?';
@@ -4772,35 +4772,35 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Puede revisar sus registros de lectura guardados por fecha en la pestaña \"Diario\" (Calendario) en el menú inferior en cualquier momento.';
+      'En la pestaña \'Diario de Tarot\' del menú inferior, podrás volver a ver tus registros de lectura guardados por lista y fecha en cualquier momento.';
 
   @override
   String get faqQ5 => '¿Cómo comparto con la comunidad?';
 
   @override
   String get faqA5 =>
-      'Active el interruptor \'Compartir con la comunidad\' en la pantalla de detalles del diario guardada en el diario para compartir su lectura con otros usuarios.';
+      'En la pantalla de detalles del diario guardado en el Diario de Tarot, si activas el interruptor \'Publicar en la comunidad\', podrás compartir tus lecturas con otros usuarios.';
 
   @override
   String get faqQ6 => '¿Cómo puedo cambiar mi apodo o perfil?';
 
   @override
   String get faqA6 =>
-      'Puedes cambiar tu apodo e ícono en cualquier momento tocando el área de perfil en la parte superior de la pestaña \"Mi menú\".';
+      'Si tocas el área de perfil en la parte superior de la pestaña \'Mi Menú\', podrás cambiar tu apodo e icono en cualquier momento.';
 
   @override
   String get faqQ7 => '¿Dónde puedo activar y desactivar las notificaciones?';
 
   @override
   String get faqA7 =>
-      'Puede controlar las notificaciones desde la aplicación de configuración de su dispositivo o desde el menú de preferencias para actualizarlas en el futuro.';
+      'En la pestaña \'Mi Menú\' del menú inferior, puedes activar o desactivar las notificaciones en cualquier momento a través del interruptor \'Recibir Notificaciones Push\'. Te recomendamos mantener las notificaciones activadas para no perderte las ventajas de diversos eventos especiales y las últimas noticias sobre el tarot.';
 
   @override
   String get faqQ8 => '¿Puedo ver los diarios de tarot de otras personas?';
 
   @override
   String get faqA8 =>
-      'Sí, puedes ver y animar lecturas de tarot interesantes que otros magos (usuarios) han hecho públicas en la pestaña \'Comunidad\' en la parte inferior.';
+      'Si haces clic en el icono de la comunidad en la parte superior, podrás explorar y apoyar las interesantes lecturas de tarot que otros magos (usuarios) han configurado como públicas.';
 
   @override
   String get faqQ9 =>
@@ -4808,7 +4808,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Si selecciona \'Historial de pagos\' en la pestaña [Mi información] del menú inferior, puede verificar en detalle su historial de pagos de monedas y el polvo mágico adquirido.';
+      'En la pestaña [Mi Menú] de la parte inferior, si seleccionas \'Historial de pagos\', podrás verificar detalladamente tu historial de monedas pagadas y los polvos de magia obtenidos hasta el momento.';
 
   @override
   String get faqQ10 =>
@@ -4823,7 +4823,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Puede encontrar el botón \"Eliminar cuenta\" yendo al menú Configuración de la cuenta a través del ícono de ajustes en la parte superior derecha de la pestaña [Mi información]. Todos los diarios y datos se eliminarán permanentemente al realizar el retiro.';
+      'En el menú inferior, en la parte inferior de la pestaña [Mi Menú], encontrarás el botón \'Eliminar cuenta\'. Al darte de baja, todos tus diarios y datos se eliminarán permanentemente.';
 
   @override
   String get faqQ12 =>
@@ -4832,6 +4832,14 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get faqA12 =>
       'Si envía los detalles a través de \'Contactar con el servicio de atención al cliente\' que se está preparando en la parte inferior de la pantalla actual o por correo electrónico oficial, lo comprobaremos rápidamente y lo resolveremos mágicamente por usted.';
+
+  @override
+  String get faqQ13 =>
+      '¿Qué hago si aparece una ventana de advertencia al intentar registrarme con otro correo electrónico?';
+
+  @override
+  String get faqA13 =>
+      'Actualmente, el sistema admite el registro y el inicio de sesión con una única dirección de correo electrónico por dispositivo (aplicación) para una gestión segura de los datos. Si deseas registrarte con una dirección de correo electrónico diferente, por favor, elimina la aplicación por completo y vuelve a instalarla para continuar.';
 
   @override
   String get myMenuContactUs => 'Contáctenos';

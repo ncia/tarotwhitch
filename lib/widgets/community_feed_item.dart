@@ -7,6 +7,7 @@ import 'glass_container.dart';
 import '../screens/community_detail_screen.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import 'user_profile_avatar.dart';
+import 'spilling_like_button.dart';
 
 class CommunityFeedItem extends StatelessWidget {
   final CommunityPost post;
@@ -148,9 +149,16 @@ class CommunityFeedItem extends StatelessWidget {
                 // Footer (Likes & Comments)
                 Row(
                   children: [
-                    const Icon(Icons.favorite, color: Colors.pinkAccent, size: 16),
-                    const SizedBox(width: 4),
-                    Text('${AppLocalizations.of(context)!.communityLike} ${post.likeCount}', style: const TextStyle(color: Colors.white70, fontSize: 13)),
+                    SpillingLikeButton(
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          const Icon(Icons.favorite, color: Colors.pinkAccent, size: 16),
+                          const SizedBox(width: 4),
+                          Text('${AppLocalizations.of(context)!.communityLike} ${post.likeCount}', style: const TextStyle(color: Colors.white70, fontSize: 13)),
+                        ],
+                      ),
+                    ),
                     const SizedBox(width: 16),
                     const Icon(Icons.chat_bubble_outline, color: Colors.white70, size: 16),
                     const SizedBox(width: 4),

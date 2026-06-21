@@ -4381,8 +4381,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get faqQ2 => 'How do I get magic dust?';
 
   @override
-  String get faqA2 =>
-      'You can get magic dust through app attendance, community activities, or purchasing in the shop.';
+  String get faqA2 => '每次进行神秘塔罗占卜，您将获得10份魔力粉尘作为基础奖励！';
 
   @override
   String get faqQ3 => 'What should I do if the result is bad?';
@@ -4395,44 +4394,39 @@ class AppLocalizationsZh extends AppLocalizations {
   String get faqQ4 => 'How can I see my past tarot readings?';
 
   @override
-  String get faqA4 =>
-      'You can review your saved reading records by date in the \'Diary\' (Calendar) tab at the bottom menu anytime.';
+  String get faqA4 => '在底部菜单的“塔罗日记”选项卡中，您可以随时查看按列表和日期保存的解读记录。';
 
   @override
   String get faqQ5 => 'How do I share to the community?';
 
   @override
-  String get faqA5 =>
-      'Turn on the \'Share to Community\' switch on the diary detail screen saved in the diary to share your reading with other users.';
+  String get faqA5 => '在塔罗日记中保存的日记详情界面中，打开“社区公开”开关，即可与其他用户分享解读。';
 
   @override
   String get faqQ6 => 'How can I change my nickname or profile?';
 
   @override
-  String get faqA6 =>
-      'You can change your nickname and icon anytime by touching the profile area at the top of the \'My Menu\' tab.';
+  String get faqA6 => '在“我的菜单”选项卡顶部的个人资料区域，轻触即可随时更改昵称和图标。';
 
   @override
   String get faqQ7 => 'Where can I turn notifications on and off?';
 
   @override
   String get faqA7 =>
-      'You can control notifications from your device\'s settings app, or from the preferences menu to be updated in the future.';
+      '在底部菜单的“我的菜单”选项卡中，您可以通过“接收推送通知”开关随时开启或关闭通知。为了不错过各种特别活动福利和新的塔罗消息，我们建议您保持通知开启。';
 
   @override
   String get faqQ8 => 'Can I see other people\'s tarot diaries?';
 
   @override
-  String get faqA8 =>
-      'Yes, you can view and cheer for interesting tarot readings that other wizards (users) have made public in the \'Community\' tab at the bottom.';
+  String get faqA8 => '点击顶部的社区图标，您可以查看并支持其他巫师（用户）公开的有趣塔罗解读。';
 
   @override
   String get faqQ9 =>
       'Where can I check my premium subscription or payment history?';
 
   @override
-  String get faqA9 =>
-      'If you select \'Payment History\' in the [My Info] tab of the bottom menu, you can check your coin payment history and acquired magic dust in detail.';
+  String get faqA9 => '在底部的[我的菜单]选项卡中，选择“支付记录”，您可以详细查看迄今为止支付的硬币记录和获得的魔力粉尘。';
 
   @override
   String get faqQ10 =>
@@ -4446,8 +4440,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get faqQ11 => 'How can I delete my account or withdraw?';
 
   @override
-  String get faqA11 =>
-      'You can find the \'Delete Account\' button by going to the Account Settings menu via the gear icon on the top right of the [My Info] tab. All diaries and data will be permanently deleted upon withdrawal.';
+  String get faqA11 => '在底部菜单的[我的菜单]选项卡底部，您可以找到“注销会员”按钮。注销时，所有日记和数据都将被永久删除。';
 
   @override
   String get faqQ12 =>
@@ -4456,6 +4449,13 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get faqA12 =>
       'If you send details through \'Contact Customer Service\' which is being prepared at the bottom of the current screen or via official email, we will quickly check and magically solve it for you.';
+
+  @override
+  String get faqQ13 => '如果您尝试使用其他电子邮件进行注册，但弹出了警告窗口，该怎么办？';
+
+  @override
+  String get faqA13 =>
+      '当前系统为了安全的数据管理，仅支持每个设备（应用）使用一个电子邮件地址进行注册和登录。如果您想使用其他电子邮件地址进行注册，请完全删除并重新安装应用后再进行操作。';
 
   @override
   String get myMenuContactUs => 'Contact Us';
@@ -8863,7 +8863,7 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
   String get faqQ2 => '魔法粉尘如何获得？';
 
   @override
-  String get faqA2 => '您可以通过应用程序参与、社区活动或商店购买来获得魔法尘埃。';
+  String get faqA2 => '每次进行神秘塔罗牌占卜，您都可以获得10份魔力粉尘作为基本奖励！';
 
   @override
   String get faqQ3 => '如果结果不好怎么办？';
@@ -8875,38 +8875,38 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
   String get faqQ4 => '如何查看我过去的塔罗牌占卜？';
 
   @override
-  String get faqA4 => '您可以随时在底部菜单的“日记”（日历）选项卡中按日期查看已保存的阅读记录。';
+  String get faqA4 => '您可以随时在底部菜单的“塔罗日记”选项卡中，按列表和日期查看已保存的解读记录。';
 
   @override
   String get faqQ5 => '我如何分享到社区？';
 
   @override
-  String get faqA5 => '打开日记中保存的日记详细信息屏幕上的“分享到社区”开关，即可将您的阅读内容分享给其他用户。';
+  String get faqA5 => '在塔罗日记中保存的日记详情页，开启“社区公开”开关后，即可与其他用户分享解读。';
 
   @override
   String get faqQ6 => '如何更改我的昵称或个人资料？';
 
   @override
-  String get faqA6 => '您可以随时通过触摸“我的菜单”选项卡顶部的个人资料区域来更改您的昵称和图标。';
+  String get faqA6 => '点击“我的菜单”选项卡顶部的个人资料区域，您可以随时更改昵称和图标。';
 
   @override
   String get faqQ7 => '在哪里可以打开和关闭通知？';
 
   @override
-  String get faqA7 => '您可以通过设备的设置应用程序或将来更新的首选项菜单来控制通知。';
+  String get faqA7 =>
+      '您可以随时在底部菜单的“我的菜单”选项卡中，通过“接收推送通知”开关来开启或关闭通知。为了不错过各种特别活动优惠和最新的塔罗资讯，建议您开启通知。';
 
   @override
   String get faqQ8 => '我可以看别人的塔罗日记吗？';
 
   @override
-  String get faqA8 => '是的，您可以在底部的“社区”选项卡中查看其他巫师（用户）公开的有趣塔罗牌占卜并为之喝彩。';
+  String get faqA8 => '点击顶部的社区图标，您可以查看并支持其他巫师（用户）公开的有趣塔罗解读。';
 
   @override
   String get faqQ9 => '我在哪里可以查看我的高级订阅或付款历史记录？';
 
   @override
-  String get faqA9 =>
-      '如果您在底部菜单的[我的信息]选项卡中选择“支付历史记录”，您可以详细查看您的金币支付历史记录和获得的魔法尘埃。';
+  String get faqA9 => '在底部菜单的[我的菜单]选项卡中选择“支付记录”，您可以详细查看至今为止的代币支付记录和获得的魔力粉尘。';
 
   @override
   String get faqQ10 => '我想亲自研究一下塔罗牌的含义。我怎样才能做到这一点？';
@@ -8918,14 +8918,20 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
   String get faqQ11 => '我如何删除我的帐户或提款？';
 
   @override
-  String get faqA11 =>
-      '您可以通过[我的信息]选项卡右上角的齿轮图标进入帐户设置菜单，找到“删除帐户”按钮。退出后所有日记和数据将被永久删除。';
+  String get faqA11 => '在底部菜单的[我的菜单]选项卡底部，您可以找到“会员退出”按钮。退出后，所有日记和数据都将被永久删除。';
 
   @override
   String get faqQ12 => '如果遇到错误或有建议，应该与哪里联系？';
 
   @override
   String get faqA12 => '如果您通过当前屏幕底部正在准备的“联系客服”或通过官方电子邮件发送详细信息，我们将快速检查并神奇地为您解决。';
+
+  @override
+  String get faqQ13 => '如果尝试使用其他邮箱注册时弹出警告窗口，我该怎么办？';
+
+  @override
+  String get faqA13 =>
+      '目前，为了安全管理数据，系统仅支持每个设备（应用）使用单一邮箱地址进行注册和登录。如果您希望使用其他邮箱地址注册，请彻底删除应用程序后重新安装并进行操作。';
 
   @override
   String get myMenuContactUs => '联系我们';
@@ -13334,7 +13340,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get faqQ2 => '魔法粉塵如何獲得？';
 
   @override
-  String get faqA2 => '您可以透過應用程式參與、社區活動或商店購買來獲得魔法塵埃。';
+  String get faqA2 => '每次進行神秘塔羅占卜時，基本可以獲得10個魔力粉末！';
 
   @override
   String get faqQ3 => '如果結果不好怎麼辦？';
@@ -13346,37 +13352,38 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get faqQ4 => '如何查看我過去的塔羅牌占卜？';
 
   @override
-  String get faqA4 => '您可以隨時在底部選單的「日記」（日曆）標籤中按日期查看已儲存的閱讀記錄。';
+  String get faqA4 => '您可以隨時在下方選單的「塔羅日記」分頁中，查看按列表和日期保存的占卜記錄。';
 
   @override
   String get faqQ5 => '我如何分享到社區？';
 
   @override
-  String get faqA5 => '打開日記中儲存的日記詳細資訊畫面上的「分享到社群」開關，即可將您的閱讀內容分享給其他使用者。';
+  String get faqA5 => '在塔羅日記中保存的日記詳細畫面中，開啟「社群公開」開關，即可與其他使用者分享占卜結果。';
 
   @override
   String get faqQ6 => '如何更改我的暱稱或個人資料？';
 
   @override
-  String get faqA6 => '您可以隨時透過觸摸「我的選單」標籤頂部的個人資料區域來更改您的暱稱和圖示。';
+  String get faqA6 => '輕觸「我的選單」分頁上方的個人資料區域，即可隨時變更暱稱和圖示。';
 
   @override
   String get faqQ7 => '在哪裡可以開啟和關閉通知？';
 
   @override
-  String get faqA7 => '您可以透過裝置的設定應用程式或將來更新的首選項選單來控制通知。';
+  String get faqA7 =>
+      '您可以隨時在下方選單的「我的選單」分頁中，透過「接收推播通知」開關開啟或關閉通知。建議您開啟通知，以免錯過各種特別活動優惠和最新的塔羅消息。';
 
   @override
   String get faqQ8 => '我可以看別人的塔羅日記嗎？';
 
   @override
-  String get faqA8 => '是的，您可以在底部的“社區”選項卡中查看其他巫師（用戶）公開的有趣塔羅牌占卜並為之喝采。';
+  String get faqA8 => '點擊上方的社群圖示，即可查看並支持其他魔法師（使用者）公開的有趣塔羅占卜。';
 
   @override
   String get faqQ9 => '我可以在哪裡查看我的高級訂閱或付款記錄？';
 
   @override
-  String get faqA9 => '如果您在底部選單的[我的資訊]標籤中選擇“付款歷史記錄”，您可以詳細查看您的金幣支付歷史記錄和獲得的魔法塵埃。';
+  String get faqA9 => '在下方選單的「我的選單」分頁中，選擇「付款記錄」，即可詳細查看至今為止付款的金幣記錄和獲得的魔力粉末。';
 
   @override
   String get faqQ10 => '我想親自研究一下塔羅牌的意思。我怎樣才能做到這一點？';
@@ -13388,14 +13395,20 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get faqQ11 => '我該如何刪除我的帳戶或提款？';
 
   @override
-  String get faqA11 =>
-      '您可以透過[我的資訊]標籤右上角的齒輪圖示進入帳戶設定選單，找到「刪除帳戶」按鈕。退出後所有日記和資料將永久刪除。';
+  String get faqA11 => '您可以在下方選單的「我的選單」分頁底部找到「會員退會」按鈕。退會時，所有日記和資料將永久刪除。';
 
   @override
   String get faqQ12 => '如果遇到錯誤或有建議，應該與哪裡聯絡？';
 
   @override
   String get faqA12 => '如果您透過目前螢幕底部正在準備的「聯絡客服」或透過官方電子郵件發送詳細訊息，我們將快速檢查並神奇地為您解決。';
+
+  @override
+  String get faqQ13 => '如果我嘗試使用其他電子郵件註冊，但出現警告視窗，該怎麼辦？';
+
+  @override
+  String get faqA13 =>
+      '目前系統為了安全的資料管理，僅支援每個裝置（應用程式）使用單一電子郵件地址進行會員註冊和登入。如果您想使用其他電子郵件地址註冊，請完全刪除應用程式後重新安裝再進行。';
 
   @override
   String get myMenuContactUs => '聯絡我們';

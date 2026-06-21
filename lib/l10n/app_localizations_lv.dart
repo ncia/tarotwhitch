@@ -4750,7 +4750,7 @@ class AppLocalizationsLv extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Jūs varat iegūt burvju putekļus, apmeklējot lietotnes, veicot kopienas aktivitātes vai iepērkoties veikalā.';
+      'Katru reizi, kad zīlējat ar noslēpumainajām tarot kārtīm, katrā reizē kā pamata atlīdzību varat iegūt 10 maģiskās putekļu daļiņas!';
 
   @override
   String get faqQ3 => 'Ko darīt, ja rezultāts ir slikts?';
@@ -4764,35 +4764,35 @@ class AppLocalizationsLv extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Jebkurā laikā varat pārskatīt savus saglabātos lasīšanas ierakstus pēc datuma apakšējās izvēlnes cilnē \"Dienasgrāmata\" (Kalendārs).';
+      'Apakšējās izvēlnes cilnē \'Tarot dienasgrāmata\' jebkurā laikā varat atkārtoti apskatīt sarakstā un pēc datuma saglabātos lasījumu ierakstus.';
 
   @override
   String get faqQ5 => 'Kā es varu kopīgot saturu ar kopienu?';
 
   @override
   String get faqA5 =>
-      'Dienasgrāmatā saglabātajā dienasgrāmatas informācijas ekrānā ieslēdziet slēdzi Kopīgot ar kopienu, lai dalītos ar citiem lietotājiem.';
+      'Tarot dienasgrāmatā saglabātā ieraksta detalizētajā skatā, ieslēdzot slēdzi \'Publiskot kopienai\', varat dalīties ar lasījumu ar citiem lietotājiem.';
 
   @override
   String get faqQ6 => 'Kā es varu mainīt savu segvārdu vai profilu?';
 
   @override
   String get faqA6 =>
-      'Jebkurā laikā varat mainīt savu segvārdu un ikonu, pieskaroties profila apgabalam cilnes Mana izvēlne augšdaļā.';
+      'Pieskaroties profila zonai cilnes \'Mana izvēlne\' augšdaļā, jūs jebkurā laikā varat mainīt savu segvārdu un ikonu.';
 
   @override
   String get faqQ7 => 'Kur varu ieslēgt un izslēgt paziņojumus?';
 
   @override
   String get faqA7 =>
-      'Paziņojumus varat kontrolēt ierīces iestatījumu lietotnē vai preferenču izvēlnē, kas tiks atjaunināta nākotnē.';
+      'Apakšējās izvēlnes cilnē \'Mana izvēlne\', izmantojot slēdzi \'Saņemt paziņojumus\', jūs jebkurā laikā varat ieslēgt vai izslēgt paziņojumus. Lai nepalaistu garām dažādus īpašu notikumu ieguvumus un jaunākās tarot ziņas, iesakām paziņojumus atstāt ieslēgtus.';
 
   @override
   String get faqQ8 => 'Vai es varu redzēt citu cilvēku taro dienasgrāmatas?';
 
   @override
   String get faqA8 =>
-      'Jā, jūs varat skatīt un priecāties par interesantiem tarot lasījumiem, ko citi burvji (lietotāji) ir publiskojuši cilnē \"Kopiena\" apakšā.';
+      'Noklikšķinot uz kopienas ikonas augšdaļā, jūs varat apskatīt un atbalstīt interesantus tarot lasījumus, ko citi burvji (lietotāji) ir publiskojuši.';
 
   @override
   String get faqQ9 =>
@@ -4800,7 +4800,7 @@ class AppLocalizationsLv extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Ja apakšējās izvēlnes cilnē [Mana informācija] atlasāt “Maksājumu vēsture”, varat detalizēti pārbaudīt savu monētu maksājumu vēsturi un iegūtos burvju putekļus.';
+      'Apakšējās cilnē [Mana izvēlne], izvēloties \'Maksājumu vēsture\', jūs varat detalizēti pārbaudīt līdz šim veiktos monētu maksājumus un iegūtās maģiskās putekļu daļiņas.';
 
   @override
   String get faqQ10 =>
@@ -4815,7 +4815,7 @@ class AppLocalizationsLv extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Pogu “Dzēst kontu” varat atrast, atverot izvēlni Konta iestatījumi, izmantojot zobrata ikonu cilnes [Mana informācija] augšējā labajā stūrī. Visas dienasgrāmatas un dati tiks neatgriezeniski dzēsti pēc atsaukšanas.';
+      'Apakšējās izvēlnes cilnes [Mana izvēlne] apakšdaļā jūs atradīsiet pogu \'Anulēt kontu\'. Anulējot kontu, visas dienasgrāmatas un dati tiks neatgriezeniski dzēsti.';
 
   @override
   String get faqQ12 => 'Kur sazināties, ja rodas kļūda vai ir ieteikumi?';
@@ -4823,6 +4823,14 @@ class AppLocalizationsLv extends AppLocalizations {
   @override
   String get faqA12 =>
       'Ja nosūtāt informāciju, izmantojot “Sazināties ar klientu apkalpošanas dienestu”, kas tiek sagatavota pašreizējā ekrāna apakšdaļā vai oficiālā e-pastā, mēs ātri pārbaudīsim un maģiski atrisināsim to jūsu vietā.';
+
+  @override
+  String get faqQ13 =>
+      'Ko darīt, ja mēģinu reģistrēties ar citu e-pasta adresi un parādās brīdinājuma logs?';
+
+  @override
+  String get faqA13 =>
+      'Pašreizējā sistēma datu drošai pārvaldībai atbalsta reģistrāciju un pieteikšanos tikai ar vienu e-pasta adresi katrai ierīcei (lietotnei). Ja vēlaties reģistrēties ar citu e-pasta adresi, lūdzu, pilnībā dzēsiet lietotni un pēc tam to atkārtoti instalējiet, lai turpinātu.';
 
   @override
   String get myMenuContactUs => 'Sazinieties ar mums';

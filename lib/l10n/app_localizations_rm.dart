@@ -4760,7 +4760,7 @@ class AppLocalizationsRm extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'You can get magic dust through app attendance, community activities, or purchasing in the shop.';
+      'Mintga giada che Vus fetschais ina lectura da tarot misteriusa, pudais Vus obtegnair 10 puppergnas da forza magica sco basa per mintga giada!';
 
   @override
   String get faqQ3 => 'What should I do if the result is bad?';
@@ -4774,35 +4774,35 @@ class AppLocalizationsRm extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'You can review your saved reading records by date in the \'Diary\' (Calendar) tab at the bottom menu anytime.';
+      'En la scheda \'Diari da tarot\' dal menu giudim pudais Vus a mintga temp revaiver las registraziuns da lectura memorizadas tenor glista e data.';
 
   @override
   String get faqQ5 => 'How do I share to the community?';
 
   @override
   String get faqA5 =>
-      'Turn on the \'Share to Community\' switch on the diary detail screen saved in the diary to share your reading with other users.';
+      'En la vista detagliada dal diari memorisà en il Diari da tarot, sch\'Vus activais l\'interrupter \'Publicar per la communitad\', pudais Vus partar Vossas lecturas cun auters utilisaders.';
 
   @override
   String get faqQ6 => 'How can I change my nickname or profile?';
 
   @override
   String get faqA6 =>
-      'You can change your nickname and icon anytime by touching the profile area at the top of the \'My Menu\' tab.';
+      'Sch\'Vus tucais l\'area da profil sin la part superiura da la scheda \'Miun menu\', pudais Vus a mintga temp midar Voss surnum ed icona.';
 
   @override
   String get faqQ7 => 'Where can I turn notifications on and off?';
 
   @override
   String get faqA7 =>
-      'You can control notifications from your device\'s settings app, or from the preferences menu to be updated in the future.';
+      'En la scheda \'Miun menu\' dal menu giudim, tras l\'interrupter \'Recepziun d\'avis push\', pudais Vus a mintga temp activar u desactivar avis. Per betg mancar divers benefizis d\'occurrenzas spezialas e novas da tarot, recumandain nus d\'activar ils avis.';
 
   @override
   String get faqQ8 => 'Can I see other people\'s tarot diaries?';
 
   @override
   String get faqA8 =>
-      'Yes, you can view and cheer for interesting tarot readings that other wizards (users) have made public in the \'Community\' tab at the bottom.';
+      'Sch\'Vus cliccais sin l\'icona da communitad sin la part superiura, pudais Vus guardar ed sustegnair las lecturas da tarot interessantas che auters magists (utilisaders) han rendì publicas.';
 
   @override
   String get faqQ9 =>
@@ -4810,7 +4810,7 @@ class AppLocalizationsRm extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'If you select \'Payment History\' in the [My Info] tab of the bottom menu, you can check your coin payment history and acquired magic dust in detail.';
+      'En la scheda [Miun menu] giudim, sch\'Vus selecziunais \'Cronologia da pajaments\', pudais Vus controllar detagliadamain Vossas transacziuns da munaidas e las puppergnas da forza magica obtegnidas fin ussa.';
 
   @override
   String get faqQ10 =>
@@ -4825,7 +4825,7 @@ class AppLocalizationsRm extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'You can find the \'Delete Account\' button by going to the Account Settings menu via the gear icon on the top right of the [My Info] tab. All diaries and data will be permanently deleted upon withdrawal.';
+      'Sin la part giudim da la scheda [Miun menu] dal menu giudim pudais Vus chattar il buttun \'Dezisar da la commembranza\'. Cun la decesiun vegnan tut ils diaris e datas stidadas permanentamain.';
 
   @override
   String get faqQ12 =>
@@ -4834,6 +4834,14 @@ class AppLocalizationsRm extends AppLocalizations {
   @override
   String get faqA12 =>
       'If you send details through \'Contact Customer Service\' which is being prepared at the bottom of the current screen or via official email, we will quickly check and magically solve it for you.';
+
+  @override
+  String get faqQ13 =>
+      'Co agir sch\'jau vuless registrar cun in\'autra e-mail ma ina fenestra d\'avertiment cumpara?';
+
+  @override
+  String get faqA13 =>
+      'Il sistem actual sustegna per ina administraziun da datas segira be l\'enregistraziun e l\'access cun ina singula adressa d\'e-mail per mintga apparat (app). Sch\'Vus vulais registrar cun in\'autra adressa d\'e-mail, stidai per plaschair l\'app cumplettamain e reinstallai ella per cuntinuar.';
 
   @override
   String get myMenuContactUs => 'Contact Us';

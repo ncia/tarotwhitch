@@ -4748,7 +4748,7 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Stebuklingų dulkių galite gauti lankydamiesi programoje, bendruomenės veikloje arba pirkdami parduotuvėje.';
+      'Kiekvieną kartą, kai atliekate mistinį taro skaitymą, gausite 10 magijos dulkių kaip bazinį atlygį!';
 
   @override
   String get faqQ3 => 'Ką daryti, jei rezultatas blogas?';
@@ -4762,35 +4762,35 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Galite bet kada peržiūrėti išsaugotus skaitymo įrašus pagal datą apatiniame meniu esančiame skirtuke „Dienoraštis“ (Kalendorius).';
+      'Apatiniame meniu, skirtuke „Taro dienoraštis“, galite bet kada peržiūrėti išsaugotus skaitymo įrašus sąraše ir pagal datą.';
 
   @override
   String get faqQ5 => 'Kaip galiu pasidalinti su bendruomene?';
 
   @override
   String get faqA5 =>
-      'Įjunkite dienoraštyje išsaugoto dienoraščio informacijos ekrano jungiklį „Bendrinti su bendruomene“, kad pasidalintumėte savo skaitymu su kitais naudotojais.';
+      'Taro dienoraštyje, išsamiame dienoraščio ekrane, įjungus „Bendruomenės viešumo“ jungiklį, galite pasidalinti savo skaitymu su kitais vartotojais.';
 
   @override
   String get faqQ6 => 'Kaip galiu pakeisti savo slapyvardį arba profilį?';
 
   @override
   String get faqA6 =>
-      'Savo slapyvardį ir piktogramą galite bet kada pakeisti paliesdami profilio sritį skirtuko „Mano meniu“ viršuje.';
+      'Palietus profilio sritį, esančią viršutinėje „Mano meniu“ skirtuko dalyje, galite bet kada pakeisti savo slapyvardį ir piktogramą.';
 
   @override
   String get faqQ7 => 'Kur galiu įjungti ir išjungti pranešimus?';
 
   @override
   String get faqA7 =>
-      'Pranešimus galite valdyti įrenginio nustatymų programoje arba nustatymų meniu, kurie bus atnaujinami ateityje.';
+      'Apatiniame meniu, skirtuke „Mano meniu“, naudodami jungiklį „Gauti tiesioginius pranešimus“, galite bet kada įjungti arba išjungti pranešimus. Rekomenduojame įjungti pranešimus, kad nepraleistumėte įvairių specialių renginių privalumų ir naujų taro naujienų.';
 
   @override
   String get faqQ8 => 'Ar galiu pamatyti kitų žmonių taro dienoraščius?';
 
   @override
   String get faqA8 =>
-      'Taip, apačioje esančiame skirtuke „Bendruomenė“ galite peržiūrėti ir pasidžiaugti įdomiais taro skaitiniais, kuriuos kiti vedliai (vartotojai) paskelbė viešai.';
+      'Spustelėję viršuje esančią bendruomenės piktogramą, galite peržiūrėti ir palaikyti įdomius taro skaitymus, kuriuos viešai paskelbė kiti burtininkai (vartotojai).';
 
   @override
   String get faqQ9 =>
@@ -4798,7 +4798,7 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Jei apatiniame meniu skirtuke [Mano informacija] pasirinksite „Mokėjimų istorija“, galėsite išsamiai patikrinti savo mokėjimų monetomis istoriją ir įgytas magiškas dulkes.';
+      'Apatiniame skirtuke [Mano meniu] pasirinkus „Mokėjimų istorija“, galite išsamiai patikrinti iki šiol sumokėtų monetų istoriją ir gautas magijos dulkes.';
 
   @override
   String get faqQ10 =>
@@ -4813,7 +4813,7 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Mygtuką „Ištrinti paskyrą“ rasite nuėję į Paskyros nustatymų meniu naudodami krumpliaračio piktogramą, esančią skirtuko [Mano informacija] viršuje, dešinėje. Atsiėmus visi dienoraščiai ir duomenys bus visam laikui ištrinti.';
+      'Apatiniame meniu, [Mano meniu] skirtuko apačioje, rasite mygtuką „Ištrinti paskyrą“. Ištrynus paskyrą, visi dienoraščiai ir duomenys bus visam laikui ištrinti.';
 
   @override
   String get faqQ12 =>
@@ -4822,6 +4822,14 @@ class AppLocalizationsLt extends AppLocalizations {
   @override
   String get faqA12 =>
       'Jei išsiųsite išsamią informaciją per „Susisiekite su klientų aptarnavimo tarnyba“, kuri ruošiama dabartinio ekrano apačioje arba oficialiu el. paštu, mes greitai patikrinsime ir stebuklingai išspręsime tai už jus.';
+
+  @override
+  String get faqQ13 =>
+      'Ką daryti, jei bandau registruotis su kitu el. paštu, bet pasirodo įspėjamasis langas?';
+
+  @override
+  String get faqA13 =>
+      'Dabartinė sistema, siekiant saugaus duomenų valdymo, palaiko registraciją ir prisijungimą tik su vienu el. pašto adresu vienam įrenginiui (programėlei). Jei norite užsiregistruoti su kitu el. pašto adresu, visiškai ištrinkite programėlę, tada iš naujo ją įdiekite ir tęskite.';
 
   @override
   String get myMenuContactUs => 'Susisiekite su mumis';

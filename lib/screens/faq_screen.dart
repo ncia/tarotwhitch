@@ -31,6 +31,7 @@ class _FaqScreenState extends State<FaqScreen> {
       {'q': localizations.faqQ8, 'a': localizations.faqA8},
       {'q': localizations.faqQ9, 'a': localizations.faqA9},
       {'q': localizations.faqQ10, 'a': localizations.faqA10},
+      {'q': localizations.faqQ13, 'a': localizations.faqA13},
       {'q': localizations.faqQ11, 'a': localizations.faqA11},
       {'q': localizations.faqQ12, 'a': localizations.faqA12},
     ];

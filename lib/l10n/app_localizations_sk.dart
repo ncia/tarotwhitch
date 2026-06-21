@@ -4749,7 +4749,7 @@ class AppLocalizationsSk extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Magický prach môžete získať návštevou aplikácie, komunitnými aktivitami alebo nákupom v obchode.';
+      'Zakaždým, keď si vyložíte záhadný tarot, získate základných 10 kúzelného prachu!';
 
   @override
   String get faqQ3 => 'Čo mám robiť, ak je výsledok zlý?';
@@ -4763,35 +4763,35 @@ class AppLocalizationsSk extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Svoje uložené záznamy o čítaní môžete kedykoľvek skontrolovať podľa dátumu na karte \'Denník\' (Kalendár) v spodnej ponuke.';
+      'Na karte \'Tarotový denník\' v spodnom menu si môžete kedykoľvek znova pozrieť uložené záznamy výkladov, usporiadané podľa zoznamu a dátumu.';
 
   @override
   String get faqQ5 => 'Ako môžem zdieľať s komunitou?';
 
   @override
   String get faqA5 =>
-      'Zapnite prepínač „Zdieľať v komunite“ na obrazovke podrobností denníka uloženej v denníku, aby ste mohli zdieľať svoje čítanie s ostatnými používateľmi.';
+      'Na obrazovke detailov denníka uloženého v tarotovom denníku môžete zapnúť prepínač \'Zverejniť v komunite\' a zdieľať tak výklady s ostatnými používateľmi.';
 
   @override
   String get faqQ6 => 'Ako môžem zmeniť svoju prezývku alebo profil?';
 
   @override
   String get faqA6 =>
-      'Svoju prezývku a ikonu môžete kedykoľvek zmeniť dotknutím sa oblasti profilu v hornej časti karty „Moja ponuka“.';
+      'Dotknutím sa oblasti profilu v hornej časti karty \'Moje menu\' môžete kedykoľvek zmeniť svoju prezývku a ikonu.';
 
   @override
   String get faqQ7 => 'Kde môžem zapnúť a vypnúť upozornenia?';
 
   @override
   String get faqA7 =>
-      'Upozornenia môžete ovládať z aplikácie nastavení vášho zariadenia alebo z ponuky predvolieb, ktorá sa má v budúcnosti aktualizovať.';
+      'Na karte \'Moje menu\' v spodnom menu môžete kedykoľvek zapnúť alebo vypnúť upozornenia pomocou prepínača \'Prijímať push notifikácie\'. Odporúčame ponechať upozornenia zapnuté, aby vám neunikli rôzne špeciálne udalosti a novinky zo sveta tarotu.';
 
   @override
   String get faqQ8 => 'Môžem vidieť tarotové denníky iných ľudí?';
 
   @override
   String get faqA8 =>
-      'Áno, na karte „Komunita“ v dolnej časti si môžete pozrieť zaujímavé výklady tarotov, ktoré zverejnili iní čarodejníci (používatelia), a povzbudzovať ich.';
+      'Kliknutím na ikonu komunity v hornej časti si môžete prezrieť a podporiť zaujímavé tarotové výklady, ktoré zverejnili iní čarodejníci (používatelia).';
 
   @override
   String get faqQ9 =>
@@ -4799,7 +4799,7 @@ class AppLocalizationsSk extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Ak vyberiete \'História platieb\' na karte [Moje informácie] v spodnom menu, môžete si podrobne skontrolovať históriu platieb mincami a získaný magický prach.';
+      'Na karte [Moje menu] v spodnej časti si po výbere \'História platieb\' môžete podrobne skontrolovať históriu zaplatených mincí a získaného kúzelného prachu.';
 
   @override
   String get faqQ10 =>
@@ -4814,7 +4814,7 @@ class AppLocalizationsSk extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Tlačidlo „Odstrániť účet“ nájdete tak, že prejdete do ponuky Nastavenia účtu prostredníctvom ikony ozubeného kolieska v pravej hornej časti karty [Moje informácie]. Všetky denníky a údaje budú po stiahnutí natrvalo vymazané.';
+      'Tlačidlo \'Zrušiť účet\' nájdete v spodnej časti karty [Moje menu] v spodnom menu. Po zrušení účtu budú všetky denníky a údaje natrvalo odstránené.';
 
   @override
   String get faqQ12 =>
@@ -4823,6 +4823,14 @@ class AppLocalizationsSk extends AppLocalizations {
   @override
   String get faqA12 =>
       'Ak pošlete podrobnosti prostredníctvom \'Kontaktovať zákaznícky servis\', ktorý sa pripravuje v spodnej časti aktuálnej obrazovky alebo prostredníctvom oficiálneho e-mailu, rýchlo to skontrolujeme a magicky to za vás vyriešime.';
+
+  @override
+  String get faqQ13 =>
+      'Čo mám robiť, ak sa pokúsim zaregistrovať s iným e-mailom a objaví sa varovné okno?';
+
+  @override
+  String get faqA13 =>
+      'Súčasný systém podporuje registráciu a prihlásenie len s jednou e-mailovou adresou na jedno zariadenie (aplikáciu) pre bezpečnú správu údajov. Ak sa chcete zaregistrovať s inou e-mailovou adresou, prosím, úplne odstráňte aplikáciu, potom ju znova nainštalujte a pokračujte.';
 
   @override
   String get myMenuContactUs => 'Kontaktujte nás';

@@ -4744,7 +4744,7 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Voit saada taikapölyä sovelluksen osallistumisesta, yhteisön toiminnasta tai kaupasta ostamisesta.';
+      'Joka kerta kun luet mystisen tarot-kortin, saat perusmääränä 10 taikajauhetta!';
 
   @override
   String get faqQ3 => 'Mitä minun pitäisi tehdä, jos tulos on huono?';
@@ -4758,21 +4758,21 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Voit tarkastella tallennettuja lukutietueitasi päivämäärän mukaan milloin tahansa alavalikon Päiväkirja (Kalenteri) -välilehdellä.';
+      'Alavalikon \'Tarot-päiväkirja\' -välilehdeltä voit milloin tahansa tarkastella luettelona tai päivämäärän mukaan tallennettuja lukukertoja.';
 
   @override
   String get faqQ5 => 'Kuinka jaan yhteisölle?';
 
   @override
   String get faqA5 =>
-      'Laita Jaa yhteisöön -kytkin päälle päiväkirjaan tallennetussa päiväkirjan tietonäytössä, jotta voit jakaa lukemasi muiden käyttäjien kanssa.';
+      'Tarot-päiväkirjaan tallennetun päiväkirjan yksityiskohtaisella näytöllä, kun laitat \'Julkaise yhteisöön\' -kytkimen päälle, voit jakaa lukukertasi muiden käyttäjien kanssa.';
 
   @override
   String get faqQ6 => 'Kuinka voin vaihtaa lempinimeni tai profiilini?';
 
   @override
   String get faqA6 =>
-      'Voit vaihtaa lempinimeäsi ja kuvakettasi milloin tahansa koskettamalla profiilialuetta Oma valikko -välilehden yläosassa.';
+      'Koskettamalla \'Oma valikko\' -välilehden yläosassa olevaa profiilialuetta voit milloin tahansa muuttaa lempinimeäsi ja kuvakettasi.';
 
   @override
   String get faqQ7 =>
@@ -4780,14 +4780,14 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get faqA7 =>
-      'Voit hallita ilmoituksia laitteesi asetussovelluksesta tai asetusvalikosta, joka päivitetään tulevaisuudessa.';
+      'Alavalikon \'Oma valikko\' -välilehdellä, \'Vastaanota push-ilmoituksia\' -kytkimen kautta voit milloin tahansa ottaa ilmoitukset käyttöön tai poistaa ne käytöstä. Suosittelemme pitämään ilmoitukset päällä, jotta et jää paitsi erilaisista erikoistarjouksista ja uusista tarot-uutisista.';
 
   @override
   String get faqQ8 => 'Voinko nähdä muiden ihmisten tarot-päiväkirjoja?';
 
   @override
   String get faqA8 =>
-      'Kyllä, voit katsella ja hurrata kiinnostavia tarot-lukemia, jotka muut ohjatut velhot (käyttäjät) ovat julkistaneet alareunan \"Yhteisö\"-välilehdellä.';
+      'Klikkaamalla yläreunan yhteisökuvaketta voit katsella ja kannustaa muiden velhojen (käyttäjien) julkaisemia mielenkiintoisia tarot-lukukertoja.';
 
   @override
   String get faqQ9 =>
@@ -4795,7 +4795,7 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Jos valitset alimman valikon [Omat tiedot] -välilehdestä \'Maksuhistoria\', voit tarkistaa kolikkomaksuhistoriasi ja hankitun taikapölyn yksityiskohtaisesti.';
+      'Alaosan [Oma valikko] -välilehdeltä, valitsemalla \'Maksuhistoria\', voit tarkastella yksityiskohtaisesti maksettuja kolikoitasi ja saamiasi taikajauheita.';
 
   @override
   String get faqQ10 =>
@@ -4810,7 +4810,7 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Löydät Poista tili -painikkeen siirtymällä Tilin asetukset -valikkoon [Omat tiedot] -välilehden oikeassa yläkulmassa olevan rataskuvakkeen kautta. Kaikki päiväkirjat ja tiedot poistetaan pysyvästi peruuttamisen yhteydessä.';
+      'Alavalikon [Oma valikko] -välilehden alaosasta löydät \'Poistu jäsenyydestä\' -painikkeen. Jäsenyydestä poistuttaessa kaikki päiväkirjat ja tiedot poistetaan pysyvästi.';
 
   @override
   String get faqQ12 =>
@@ -4819,6 +4819,14 @@ class AppLocalizationsFi extends AppLocalizations {
   @override
   String get faqA12 =>
       'Jos lähetät tiedot \'Ota yhteyttä asiakaspalveluun\' -toiminnon kautta, jota valmistellaan nykyisen näytön alalaidassa tai virallisella sähköpostilla, tarkistamme sen nopeasti ja ratkaisemme sen puolestasi.';
+
+  @override
+  String get faqQ13 =>
+      'Mitä teen, jos saan varoituksen yrittäessäni rekisteröityä toisella sähköpostiosoitteella?';
+
+  @override
+  String get faqA13 =>
+      'Nykyinen järjestelmä tukee turvallisen tiedonhallinnan vuoksi vain yhtä sähköpostiosoitetta per laite (sovellus) rekisteröitymiseen ja kirjautumiseen. Jos haluat rekisteröityä toisella sähköpostiosoitteella, poista sovellus kokonaan ja asenna se uudelleen.';
 
   @override
   String get myMenuContactUs => 'Ota yhteyttä';

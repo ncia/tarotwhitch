@@ -4757,7 +4757,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get faqA2 =>
-      'Sie können magischen Staub durch App-Besuch, Community-Aktivitäten oder den Einkauf im Shop erhalten.';
+      'Bei jedem mystischen Tarot-Reading erhalten Sie standardmäßig 10 magisches Pulver!';
 
   @override
   String get faqQ3 => 'Was soll ich tun, wenn das Ergebnis schlecht ist?';
@@ -4771,35 +4771,35 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get faqA4 =>
-      'Sie können Ihre gespeicherten Leseaufzeichnungen jederzeit nach Datum auf der Registerkarte „Tagebuch“ (Kalender) im unteren Menü überprüfen.';
+      'Im Reiter \'Tarot-Tagebuch\' des unteren Menüs können Sie die gespeicherten Reading-Aufzeichnungen jederzeit nach Liste und Datum einsehen.';
 
   @override
   String get faqQ5 => 'Wie teile ich es mit der Community?';
 
   @override
   String get faqA5 =>
-      'Aktivieren Sie den Schalter „Mit der Community teilen“ auf dem im Tagebuch gespeicherten Detailbildschirm, um Ihre Lektüre mit anderen Benutzern zu teilen.';
+      'Auf dem Detailbildschirm des im Tarot-Tagebuch gespeicherten Eintrags können Sie den Schalter \'Für die Community freigeben\' aktivieren, um Ihre Readings mit anderen Benutzern zu teilen.';
 
   @override
   String get faqQ6 => 'Wie kann ich meinen Spitznamen oder mein Profil ändern?';
 
   @override
   String get faqA6 =>
-      'Sie können Ihren Spitznamen und Ihr Symbol jederzeit ändern, indem Sie den Profilbereich oben auf der Registerkarte „Mein Menü“ berühren.';
+      'Im Profilbereich oben im Reiter \'Mein Menü\' können Sie jederzeit Ihren Spitznamen und Ihr Symbol ändern.';
 
   @override
   String get faqQ7 => 'Wo kann ich Benachrichtigungen ein- und ausschalten?';
 
   @override
   String get faqA7 =>
-      'Sie können Benachrichtigungen über die Einstellungs-App Ihres Geräts oder über das Einstellungsmenü steuern, um sie in Zukunft zu aktualisieren.';
+      'Im Reiter \'Mein Menü\' des unteren Menüs können Sie Benachrichtigungen jederzeit über den Schalter \'Push-Benachrichtigungen empfangen\' ein- oder ausschalten. Wir empfehlen Ihnen, Benachrichtigungen aktiviert zu lassen, um keine Vorteile von besonderen Events und neue Tarot-Nachrichten zu verpassen.';
 
   @override
   String get faqQ8 => 'Kann ich die Tarot-Tagebücher anderer Leute sehen?';
 
   @override
   String get faqA8 =>
-      'Ja, Sie können interessante Tarot-Lesungen, die andere Zauberer (Benutzer) veröffentlicht haben, unten auf der Registerkarte „Community“ ansehen und anfeuern.';
+      'Wenn Sie oben auf das Community-Symbol klicken, können Sie interessante Tarot-Readings ansehen und unterstützen, die andere Magier (Benutzer) öffentlich zugänglich gemacht haben.';
 
   @override
   String get faqQ9 =>
@@ -4807,7 +4807,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Wenn Sie im unteren Menü auf der Registerkarte [Meine Informationen] die Option „Zahlungsverlauf“ auswählen, können Sie Ihren Münzzahlungsverlauf und den erworbenen Zauberstaub im Detail überprüfen.';
+      'Wählen Sie im Reiter [Mein Menü] unten \'Zahlungsverlauf\', um Ihre bisherigen Münzzahlungen und das erhaltene magische Pulver detailliert einzusehen.';
 
   @override
   String get faqQ10 =>
@@ -4822,7 +4822,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get faqA11 =>
-      'Sie finden die Schaltfläche „Konto löschen“, indem Sie über das Zahnradsymbol oben rechts auf der Registerkarte [Meine Informationen] zum Menü „Kontoeinstellungen“ gehen. Alle Tagebücher und Daten werden beim Widerruf dauerhaft gelöscht.';
+      'Am unteren Rand des Reiters [Mein Menü] im unteren Menü finden Sie die Schaltfläche \'Mitgliedschaft beenden\'. Bei einer Beendigung werden alle Tagebucheinträge und Daten dauerhaft gelöscht.';
 
   @override
   String get faqQ12 =>
@@ -4831,6 +4831,14 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get faqA12 =>
       'Wenn Sie Details über „Kundendienst kontaktieren“, das unten auf dem aktuellen Bildschirm vorbereitet wird, oder per offizieller E-Mail senden, werden wir das Problem schnell überprüfen und auf magische Weise für Sie lösen.';
+
+  @override
+  String get faqQ13 =>
+      'Was soll ich tun, wenn eine Warnmeldung erscheint, wenn ich mich mit einer anderen E-Mail-Adresse registrieren möchte?';
+
+  @override
+  String get faqA13 =>
+      'Das aktuelle System unterstützt die Registrierung und Anmeldung nur mit einer einzigen E-Mail-Adresse pro Gerät (App) zur sicheren Datenverwaltung. Wenn Sie sich mit einer anderen E-Mail-Adresse registrieren möchten, löschen Sie die App bitte vollständig und installieren Sie sie dann neu, um fortzufahren.';
 
   @override
   String get myMenuContactUs => 'Kontaktieren Sie uns';

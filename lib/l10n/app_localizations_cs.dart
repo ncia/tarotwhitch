@@ -4733,60 +4733,61 @@ class AppLocalizationsCs extends AppLocalizations {
   String get listenToInterpretation => 'Poslechněte si výklad';
 
   @override
-  String get faqQ1 => 'Mohu číst tarot každý den?';
+  String get faqQ1 => 'Mohu si vykládat tarot každý den?';
 
   @override
   String get faqA1 =>
-      'Ano, je dobré číst tok dneška s lehkým srdcem. Nedoporučuje se však táhnout karty opakovaně na stejnou otázku.';
+      'Ano, je dobré číst dnešní proud s lehkým srdcem. Nedoporučujeme však neustále opakovat stejnou otázku.';
 
   @override
   String get faqQ2 => 'Jak získám magický prach?';
 
   @override
   String get faqA2 =>
-      'Kouzelný prach můžete získat návštěvou aplikace, komunitními aktivitami nebo nákupem v obchodě.';
+      'Pokaždé, když si necháte vyložit mystické tarotové karty, získáte 10 prachů magie jako základní odměnu za jedno vyložení!';
 
   @override
-  String get faqQ3 => 'Co mám dělat, když je výsledek špatný?';
+  String get faqQ3 => 'Co mám dělat, když výsledek není dobrý?';
 
   @override
   String get faqA3 =>
-      'Tarot není pevná budoucnost, ale rada. Použijte špatný výsledek jako milník, který vás varuje před riziky, kterým je třeba se vyhnout.';
+      'Tarot není pevně daná budoucnost, ale pouze rada. Špatný výsledek berte spíše jako ukazatel, který vás předem upozorní na nebezpečí, kterému se máte vyhnout.';
 
   @override
-  String get faqQ4 => 'Jak mohu vidět svá minulá tarotová čtení?';
+  String get faqQ4 =>
+      'Jak si mohu prohlédnout záznamy minulých tarotových výkladů?';
 
   @override
   String get faqA4 =>
-      'Uložené záznamy o čtení si můžete kdykoli prohlédnout podle data v záložce \'Denník\' (Kalendář) ve spodním menu.';
+      'V záložce \'Tarotový deník\' v dolním menu si můžete kdykoli znovu prohlédnout uložené záznamy výkladů seřazené podle seznamu a data.';
 
   @override
-  String get faqQ5 => 'Jak mohu sdílet s komunitou?';
+  String get faqQ5 => 'Jak sdílím s komunitou?';
 
   @override
   String get faqA5 =>
-      'Zapněte přepínač „Sdílet do komunity“ na obrazovce podrobností deníku uloženého v deníku, abyste mohli sdílet své čtení s ostatními uživateli.';
+      'Na obrazovce s detaily deníku uloženého v tarotovém deníku, pokud zapnete přepínač \'Zveřejnit komunitě\', můžete sdílet své výklady s ostatními uživateli.';
 
   @override
-  String get faqQ6 => 'Jak mohu změnit svou přezdívku nebo profil?';
+  String get faqQ6 => 'Jak změním svou přezdívku nebo profil?';
 
   @override
   String get faqA6 =>
-      'Svou přezdívku a ikonu můžete kdykoli změnit klepnutím na oblast profilu v horní části karty „Moje nabídka“.';
+      'Když klepnete na oblast profilu v horní části záložky \'Moje menu\', můžete kdykoli změnit svou přezdívku a ikonu.';
 
   @override
-  String get faqQ7 => 'Kde mohu zapnout a vypnout oznámení?';
+  String get faqQ7 => 'Kde mohu zapnout a vypnout nastavení oznámení?';
 
   @override
   String get faqA7 =>
-      'Oznámení můžete ovládat z aplikace nastavení vašeho zařízení nebo z nabídky předvoleb, která budou v budoucnu aktualizována.';
+      'V záložce \'Moje menu\' v dolním menu můžete kdykoli zapnout nebo vypnout oznámení pomocí přepínače \'Přijímat push oznámení\'. Doporučujeme mít oznámení zapnutá, abyste nezmeškali různé speciální akce a nové tarotové zprávy.';
 
   @override
-  String get faqQ8 => 'Mohu vidět tarotové deníky jiných lidí?';
+  String get faqQ8 => 'Mohu si prohlédnout i tarotové deníky ostatních?';
 
   @override
   String get faqA8 =>
-      'Ano, na záložce \'Komunita\' ve spodní části si můžete prohlédnout a povzbudit zajímavá tarotová čtení, která zveřejnili jiní mágové (uživatelé).';
+      'Pokud kliknete na ikonu komunity v horní části, můžete si prohlédnout a podpořit zajímavé tarotové výklady, které ostatní kouzelníci (uživatelé) zveřejnili.';
 
   @override
   String get faqQ9 =>
@@ -4794,30 +4795,38 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get faqA9 =>
-      'Pokud na záložce [Moje informace] ve spodním menu vyberete \'Historie plateb\', můžete si podrobně zkontrolovat historii plateb za mince a získaný magický prach.';
+      'V záložce [Moje menu] v dolní části, pokud vyberete \'Historie plateb\', můžete podrobně zkontrolovat historii zakoupených mincí a získaného magického prachu.';
 
   @override
   String get faqQ10 =>
-      'Chci si význam tarotových karet nastudovat osobně. Jak to mohu udělat?';
+      'Chtěl bych si soukromě nastudovat význam tarotových karet, jak na to?';
 
   @override
   String get faqA10 =>
-      'Pokud přejdete na záložku [Encyklopedie karet] ve spodním menu, můžete si volně prohlížet svislé a obrácené významy, symboly a podrobné vysvětlení všech 78 karet.';
+      'Přejděte na záložku [Katalog karet] v dolním menu a můžete si volně prohlédnout význam a symboliku všech 78 karet v přímém/obráceném směru a podrobné výklady pro různé situace.';
 
   @override
-  String get faqQ11 => 'Jak mohu smazat svůj účet nebo vybrat?';
+  String get faqQ11 => 'Co mám dělat, když chci odejít nebo smazat svůj účet?';
 
   @override
   String get faqA11 =>
-      'Tlačítko \'Smazat účet\' najdete v nabídce Nastavení účtu pomocí ikony ozubeného kola v pravém horním rohu karty [Moje informace]. Všechny deníky a data budou po odstoupení trvale smazána.';
+      'V dolní části záložky [Moje menu] v dolním menu najdete tlačítko \'Zrušit členství\'. Po zrušení členství budou všechny deníky a data trvale smazány.';
 
   @override
   String get faqQ12 =>
-      'Kam se mám obrátit, pokud narazím na chybu nebo mám návrhy?';
+      'Kam se mám obrátit, pokud se během používání aplikace vyskytne chyba nebo mám návrhy?';
 
   @override
   String get faqA12 =>
-      'Pokud zašlete podrobnosti prostřednictvím \'Kontaktujte zákaznický servis\', který se připravuje ve spodní části aktuální obrazovky nebo prostřednictvím oficiálního e-mailu, rychle to zkontrolujeme a magicky to za vás vyřešíme.';
+      'Pokud nám zašlete podrobnosti prostřednictvím \'Kontaktujte zákaznickou podporu\', která je připravována v dolní části aktuální obrazovky, nebo prostřednictvím oficiálního e-mailu, rychle to prověříme a vyřešíme jako kouzlem.';
+
+  @override
+  String get faqQ13 =>
+      'Co dělat, když se pokouším zaregistrovat s jiným e-mailem a zobrazí se mi varovná zpráva?';
+
+  @override
+  String get faqA13 =>
+      'Současný systém podporuje registraci a přihlášení pouze s jednou e-mailovou adresou na jedno zařízení (aplikaci) pro bezpečné správu dat. Pokud si přejete registrovat se s jinou e-mailovou adresou, prosím, kompletně odinstalujte aplikaci a poté ji znovu nainstalujte.';
 
   @override
   String get myMenuContactUs => 'Kontaktujte nás';
