@@ -3,7 +3,6 @@ import 'package:flutter_tarot/l10n/app_localizations.dart';
 import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
 import '../widgets/top_floating_icons.dart';
-import 'dart:math' as math;
 
 class FaqScreen extends StatefulWidget {
   const FaqScreen({super.key});

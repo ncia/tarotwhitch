@@ -31,11 +31,11 @@ class _MagicDustWidgetState extends State<MagicDustWidget> {
 
   String _formatNumber(int number) {
     if (number >= 1000000000) {
-      return (number / 1000000000).toStringAsFixed(1).replaceAll(RegExp(r'\.0$'), '') + 'B';
+      return '${(number / 1000000000).toStringAsFixed(1).replaceAll(RegExp(r'\.0$'), '')}B';
     } else if (number >= 1000000) {
-      return (number / 1000000).toStringAsFixed(1).replaceAll(RegExp(r'\.0$'), '') + 'M';
+      return '${(number / 1000000).toStringAsFixed(1).replaceAll(RegExp(r'\.0$'), '')}M';
     } else if (number >= 1000) {
-      return (number / 1000).toStringAsFixed(1).replaceAll(RegExp(r'\.0$'), '') + 'K';
+      return '${(number / 1000).toStringAsFixed(1).replaceAll(RegExp(r'\.0$'), '')}K';
     }
     return number.toString();
   }
@@ -47,9 +47,9 @@ class _MagicDustWidgetState extends State<MagicDustWidget> {
       padding: const EdgeInsets.symmetric(horizontal: 12),
       margin: const EdgeInsets.only(left: 12),
       decoration: BoxDecoration(
-        color: Colors.black.withOpacity(0.5),
+        color: Colors.black.withValues(alpha: 0.5),
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: Colors.purpleAccent.withOpacity(0.5)),
+        border: Border.all(color: Colors.purpleAccent.withValues(alpha: 0.5)),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,

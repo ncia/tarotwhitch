@@ -19,7 +19,7 @@ import 'auth_screen.dart';
 import '../screens/diary_edit_screen.dart';
 
 class DiaryScreen extends StatefulWidget {
-  DiaryScreen({super.key});
+  const DiaryScreen({super.key});
 
   @override
   State<DiaryScreen> createState() => _DiaryScreenState();
@@ -48,7 +48,7 @@ class _DiaryScreenState extends State<DiaryScreen> {
                 child: Container(
                   decoration: BoxDecoration(
                     border: Border(
-                      bottom: BorderSide(color: Colors.white.withOpacity(0.2), width: 1),
+                      bottom: BorderSide(color: Colors.white.withValues(alpha: 0.2), width: 1),
                     ),
                   ),
                   child: TabBar(
@@ -102,7 +102,7 @@ class _DiaryScreenState extends State<DiaryScreen> {
 }
 
 class _DiaryListView extends StatelessWidget {
-  const _DiaryListView({Key? key}) : super(key: key);
+  const _DiaryListView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -184,7 +184,7 @@ class _DiaryListView extends StatelessWidget {
                                   runSpacing: 2,
                                   children: diary.tags.map((tag) => Container(
                                     padding: EdgeInsets.symmetric(horizontal: 8, vertical: 2),
-                                    decoration: BoxDecoration(color: Colors.purpleAccent.withOpacity(0.3), borderRadius: BorderRadius.circular(10)),
+                                    decoration: BoxDecoration(color: Colors.purpleAccent.withValues(alpha: 0.3), borderRadius: BorderRadius.circular(10)),
                                     child: Text('#${getLocalizedTag(context, tag)}', style: TextStyle(color: Colors.pinkAccent, fontSize: 10)),
                                   )).toList(),
                                 ),
@@ -209,7 +209,7 @@ class _DiaryListView extends StatelessWidget {
                                 Container(
                                   width: double.infinity,
                                   padding: EdgeInsets.all(8),
-                                  decoration: BoxDecoration(color: Colors.amberAccent.withOpacity(0.1), borderRadius: BorderRadius.circular(8), border: Border.all(color: Colors.amberAccent.withOpacity(0.3))),
+                                  decoration: BoxDecoration(color: Colors.amberAccent.withValues(alpha: 0.1), borderRadius: BorderRadius.circular(8), border: Border.all(color: Colors.amberAccent.withValues(alpha: 0.3))),
                                   child: Row(
                                     children: [
                                       Icon(Icons.edit_note, color: Colors.amberAccent, size: 14),

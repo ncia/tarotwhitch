@@ -105,7 +105,7 @@ class _MailboxDialogState extends State<MailboxDialog> {
                   : ListView.separated(
                       padding: const EdgeInsets.all(16),
                       itemCount: mails.length,
-                      separatorBuilder: (_, __) => const SizedBox(height: 12),
+                      separatorBuilder: (_, _) => const SizedBox(height: 12),
                       itemBuilder: (context, index) {
                         return _buildMailItem(mails[index]);
                       },
@@ -140,7 +140,7 @@ class _MailboxDialogState extends State<MailboxDialog> {
           color: mail.isRead ? Colors.black26 : Colors.black45,
           borderRadius: BorderRadius.circular(16),
           border: Border.all(
-            color: mail.isRead ? Colors.transparent : Colors.purpleAccent.withOpacity(0.5),
+            color: mail.isRead ? Colors.transparent : Colors.purpleAccent.withValues(alpha: 0.5),
           ),
         ),
         child: Row(

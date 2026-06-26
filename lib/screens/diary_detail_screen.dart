@@ -124,8 +124,9 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
     // SpreadType 복원
     SpreadType spreadType;
     if (_diary.spreadType == '타로 상담' || _diary.spreadType == AppLocalizations.of(context)!.diaryTarotConsult) {
-      if (_diary.cardIds.length == 1) spreadType = SpreadType.oneCard;
-      else if (_diary.cardIds.length == 2) spreadType = SpreadType.twoCard;
+      if (_diary.cardIds.length == 1) {
+        spreadType = SpreadType.oneCard;
+      } else if (_diary.cardIds.length == 2) spreadType = SpreadType.twoCard;
       else if (_diary.cardIds.length == 3) spreadType = SpreadType.threeCard;
       else if (_diary.cardIds.length == 4) spreadType = SpreadType.fourCard;
       else if (_diary.cardIds.length == 5) spreadType = SpreadType.fiveCard;
@@ -240,7 +241,7 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
                       ),
                       Switch(
                         value: _diary.isPublic,
-                        activeColor: Colors.cyanAccent,
+                        activeThumbColor: Colors.cyanAccent,
                         onChanged: (value) async {
                           final updated = _diary;
                           updated.isPublic = value;

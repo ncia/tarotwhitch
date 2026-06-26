@@ -105,7 +105,7 @@ class _DiaryCalendarScreenState extends State<DiaryCalendarScreen> {
                 weekendTextStyle: const TextStyle(color: Colors.white70),
                 outsideTextStyle: const TextStyle(color: Colors.white24),
                 todayDecoration: BoxDecoration(
-                  color: Colors.deepPurple.withOpacity(0.5),
+                  color: Colors.deepPurple.withValues(alpha: 0.5),
                   shape: BoxShape.circle,
                 ),
                 selectedDecoration: const BoxDecoration(

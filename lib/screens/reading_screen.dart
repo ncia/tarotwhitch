@@ -399,7 +399,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                   style: Theme.of(context).textTheme.displayLarge?.copyWith(
                     shadows: [
                       Shadow(
-                        color: Colors.black.withOpacity(0.8),
+                        color: Colors.black.withValues(alpha: 0.8),
                         blurRadius: 10,
                         offset: const Offset(0, 4),
                       ),
@@ -553,7 +553,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                           border: Border.all(color: Colors.white24, width: 1.5),
                           boxShadow: [
                             BoxShadow(
-                              color: Colors.black.withOpacity(0.4),
+                              color: Colors.black.withValues(alpha: 0.4),
                               blurRadius: 8,
                               offset: const Offset(0, 4),
                             ),
@@ -583,7 +583,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
               animation: _lightningAnimController,
               builder: (context, child) {
                 return Container(
-                  color: Colors.black.withOpacity(0.85 + (_lightningAnimController.value * 0.15)), // 0.85 ~ 1.0
+                  color: Colors.black.withValues(alpha: 0.85 + (_lightningAnimController.value * 0.15)), // 0.85 ~ 1.0
                 );
               },
             ),
@@ -898,12 +898,12 @@ class LightsPainter extends CustomPainter {
       final double opacity = (math.sin(time * math.pi * 2 * p.speed + p.phase) + 1) / 2;
       
       final paint = Paint()
-        ..color = Colors.purpleAccent.withOpacity(opacity * 0.4)
+        ..color = Colors.purpleAccent.withValues(alpha: opacity * 0.4)
         ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 15);
       canvas.drawCircle(Offset(p.x * size.width, p.y * size.height), p.size, paint);
       
       final innerPaint = Paint()
-        ..color = Colors.white.withOpacity(opacity * 0.6)
+        ..color = Colors.white.withValues(alpha: opacity * 0.6)
         ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 5);
       canvas.drawCircle(Offset(p.x * size.width, p.y * size.height), p.size * 0.3, innerPaint);
     }

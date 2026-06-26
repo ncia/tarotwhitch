@@ -1,49 +1,34 @@
 {
   "project_info": {
-    "project_number": "794860272588",
-    "project_id": "tarot-a5e76",
-    "storage_bucket": "tarot-a5e76.firebasestorage.app"
+    "project_number": "665143840353",
+    "project_id": "tarot-witch-int",
+    "storage_bucket": "tarot-witch-int.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:794860272588:android:3e95367b1c0f782ccabb69",
+        "mobilesdk_app_id": "1:665143840353:android:d7a2385bf29ae29bc2a420",
         "android_client_info": {
           "package_name": "com.example.flutter_tarot"
         }
       },
       "oauth_client": [
         {
-          "client_id": "794860272588-k3nu0fu98lm7u619sk8fntnscfjn96en.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.flutter_tarot",
-            "certificate_hash": "338a107c02370473f59db3f94eb261cc24ce6bb3"
-          }
-        },
-        {
-          "client_id": "794860272588-18nm3n51g81v7h8cfafhdu27o8onslk3.apps.googleusercontent.com",
+          "client_id": "665143840353-9rg52h0lkd1p9o8etigmel0510oes997.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDtibt--mUIKJa2BDqrPBjwzWnqdwwaoGE"
+          "current_key": "AIzaSyCpi1eyIg5VoOh-W2f9cLqn91BIPlxJ3SE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "794860272588-18nm3n51g81v7h8cfafhdu27o8onslk3.apps.googleusercontent.com",
+              "client_id": "665143840353-9rg52h0lkd1p9o8etigmel0510oes997.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "794860272588-jknpcnnt1r5ttv708786nrqvvf2rfleb.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.flutterTarot"
-              }
             }
           ]
         }

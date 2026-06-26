@@ -401,7 +401,7 @@ class _ChatScreenState extends State<ChatScreen> {
             margin: const EdgeInsets.symmetric(vertical: 4.0),
             padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
             decoration: BoxDecoration(
-              color: message.isUser ? Colors.purple.withOpacity(0.6) : Colors.white12,
+              color: message.isUser ? Colors.purple.withValues(alpha: 0.6) : Colors.white12,
               borderRadius: BorderRadius.circular(20).copyWith(
                 bottomRight: message.isUser ? const Radius.circular(0) : null,
                 bottomLeft: !message.isUser ? const Radius.circular(0) : null,
@@ -527,7 +527,7 @@ class _ChatScreenState extends State<ChatScreen> {
                         height: 44,
                         padding: const EdgeInsets.symmetric(horizontal: 16),
                         decoration: BoxDecoration(
-                          color: Colors.white.withOpacity(0.1),
+                          color: Colors.white.withValues(alpha: 0.1),
                           borderRadius: BorderRadius.circular(12),
                           border: Border.all(color: Colors.white24),
                         ),

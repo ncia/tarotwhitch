@@ -257,7 +257,7 @@ class _MagicBookTabState extends State<_MagicBookTab> {
                           shape: BoxShape.circle,
                           boxShadow: [
                             BoxShadow(
-                              color: titleColor.withOpacity(0.5),
+                              color: titleColor.withValues(alpha: 0.5),
                               blurRadius: 100,
                               spreadRadius: 20,
                             ),
@@ -432,7 +432,7 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
                     shape: BoxShape.circle,
                     boxShadow: [
                       BoxShadow(
-                        color: HSLColor.fromAHSL(1.0, hue, 1.0, 0.7).toColor().withOpacity(0.5),
+                        color: HSLColor.fromAHSL(1.0, hue, 1.0, 0.7).toColor().withValues(alpha: 0.5),
                         blurRadius: 100,
                         spreadRadius: 20,
                       ),
@@ -451,7 +451,7 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
                             height: 122,
                             decoration: BoxDecoration(
                               shape: BoxShape.circle,
-                              color: overlayColor.withOpacity(0.8), // 그림자 렌더링으로 인해 삐져나오는 현상 방지를 위해 그림자 완전 제거
+                              color: overlayColor.withValues(alpha: 0.8), // 그림자 렌더링으로 인해 삐져나오는 현상 방지를 위해 그림자 완전 제거
                             ),
                           ),
                         ),

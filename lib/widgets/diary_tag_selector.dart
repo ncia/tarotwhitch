@@ -138,8 +138,8 @@ class _DiaryTagSelectorState extends State<DiaryTagSelector> {
                     const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                 decoration: BoxDecoration(
                   color: isSelected
-                      ? Colors.purpleAccent.withOpacity(0.4)
-                      : Colors.white.withOpacity(0.08),
+                      ? Colors.purpleAccent.withValues(alpha: 0.4)
+                      : Colors.white.withValues(alpha: 0.08),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(
                     color: isSelected
@@ -206,7 +206,7 @@ class _DiaryTagSelectorState extends State<DiaryTagSelector> {
               child: Container(
                 padding: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
-                  color: Colors.purpleAccent.withOpacity(0.3),
+                  color: Colors.purpleAccent.withValues(alpha: 0.3),
                   shape: BoxShape.circle,
                 ),
                 child: const Icon(Icons.add, color: Colors.white, size: 18),

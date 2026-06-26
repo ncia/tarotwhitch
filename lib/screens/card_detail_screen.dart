@@ -154,7 +154,7 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
                         borderRadius: BorderRadius.circular(12),
                         boxShadow: [
                           BoxShadow(
-                            color: Colors.black.withOpacity(0.5),
+                            color: Colors.black.withValues(alpha: 0.5),
                             blurRadius: 15,
                             spreadRadius: 2,
                           )

@@ -105,8 +105,8 @@ class _ReadingIntroScreenState extends State<ReadingIntroScreen> with SingleTick
                     radius: 1.2,
                     colors: [
                       Colors.transparent, // 중앙(마녀)은 투명하게 유지
-                      Colors.purple.withOpacity(_glowAnimation.value), // 주변은 보라색 빛
-                      Colors.deepPurple.withOpacity(_glowAnimation.value * 0.8),
+                      Colors.purple.withValues(alpha: _glowAnimation.value), // 주변은 보라색 빛
+                      Colors.deepPurple.withValues(alpha: _glowAnimation.value * 0.8),
                     ],
                     stops: const [0.35, 0.8, 1.0], // 0.35까지는 투명해서 마녀가 보임
                   ),
@@ -117,7 +117,7 @@ class _ReadingIntroScreenState extends State<ReadingIntroScreen> with SingleTick
           
           // 3. 텍스트 가독성을 위한 아주 옅은 어두운 오버레이
           Container(
-            color: Colors.black.withOpacity(0.3),
+            color: Colors.black.withValues(alpha: 0.3),
           ),
           
           SafeArea(
@@ -184,14 +184,14 @@ class _ReadingIntroScreenState extends State<ReadingIntroScreen> with SingleTick
                           height: 44,
                           padding: const EdgeInsets.symmetric(horizontal: 16),
                           decoration: BoxDecoration(
-                            color: Colors.white.withOpacity(0.1),
+                            color: Colors.white.withValues(alpha: 0.1),
                             borderRadius: BorderRadius.circular(12),
                             border: Border.all(color: Colors.white24),
                           ),
                           child: DropdownButtonHideUnderline(
                             child: DropdownButton<Witch>(
                               value: _selectedWitch,
-                              dropdownColor: Colors.deepPurple.shade900.withOpacity(0.9),
+                              dropdownColor: Colors.deepPurple.shade900.withValues(alpha: 0.9),
                               icon: const Icon(Icons.arrow_drop_down, color: Colors.white54),
                               isExpanded: true,
                               items: _witches.map((Witch witch) {
@@ -224,7 +224,7 @@ class _ReadingIntroScreenState extends State<ReadingIntroScreen> with SingleTick
                   child: Text(
                     AppLocalizations.of(context)!.readingIntroGreeting,
                     style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                      color: Colors.white.withOpacity(0.9),
+                      color: Colors.white.withValues(alpha: 0.9),
                       fontSize: 20,
                       height: 1.4,
                       shadows: [
@@ -254,12 +254,12 @@ class _ReadingIntroScreenState extends State<ReadingIntroScreen> with SingleTick
                       width: double.infinity,
                       padding: const EdgeInsets.symmetric(vertical: 20),
                       decoration: BoxDecoration(
-                        color: Colors.black.withOpacity(0.6),
+                        color: Colors.black.withValues(alpha: 0.6),
                         borderRadius: BorderRadius.circular(16),
-                        border: Border.all(color: Colors.white.withOpacity(0.1)),
+                        border: Border.all(color: Colors.white.withValues(alpha: 0.1)),
                         boxShadow: [
                           BoxShadow(
-                            color: Colors.black.withOpacity(0.3),
+                            color: Colors.black.withValues(alpha: 0.3),
                             blurRadius: 10,
                             offset: const Offset(0, 5),
                           )

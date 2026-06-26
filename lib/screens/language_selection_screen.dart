@@ -147,7 +147,7 @@ class LanguageSelectionScreen extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.only(bottom: 8),
       decoration: BoxDecoration(
-        color: isSelected ? Colors.white.withOpacity(0.2) : Colors.white.withOpacity(0.05),
+        color: isSelected ? Colors.white.withValues(alpha: 0.2) : Colors.white.withValues(alpha: 0.05),
         borderRadius: BorderRadius.circular(12),
         border: isSelected ? Border.all(color: Colors.amber, width: 1.5) : null,
       ),

@@ -220,8 +220,9 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
     final cardReversals = post.cardReversals.isNotEmpty ? post.cardReversals : List.generate(cardIds.length, (_) => false);
     
     SpreadType spreadType;
-    if (cardIds.length == 1) spreadType = SpreadType.oneCard;
-    else if (cardIds.length == 2) spreadType = SpreadType.twoCard;
+    if (cardIds.length == 1) {
+      spreadType = SpreadType.oneCard;
+    } else if (cardIds.length == 2) spreadType = SpreadType.twoCard;
     else if (cardIds.length == 3) spreadType = SpreadType.threeCard;
     else if (cardIds.length == 4) spreadType = SpreadType.fourCard;
     else if (cardIds.length == 5) spreadType = SpreadType.fiveCard;
@@ -366,7 +367,7 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
                                   ),
                                   label: Text('${AppLocalizations.of(context)!.communityLike} ${likes.length}', style: const TextStyle(color: Colors.white)),
                                   style: ElevatedButton.styleFrom(
-                                    backgroundColor: Colors.deepPurple.withOpacity(0.5),
+                                    backgroundColor: Colors.deepPurple.withValues(alpha: 0.5),
                                     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
                                   ),
                                 ),
@@ -467,7 +468,7 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
                   // 댓글 입력창
                   Container(
                     padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                    color: Colors.black.withOpacity(0.3),
+                    color: Colors.black.withValues(alpha: 0.3),
                     child: SafeArea(
                       top: false,
                       child: Row(

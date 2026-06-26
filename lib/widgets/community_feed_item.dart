@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import '../models/community_post.dart';
 import '../data/tarot_data.dart';
 import 'glass_container.dart';

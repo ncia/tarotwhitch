@@ -82,7 +82,7 @@ class _SpillingLikeButtonState extends State<SpillingLikeButton> with TickerProv
         targetX: -20.0 + _random.nextDouble() * 40, 
         targetY: 40 + _random.nextDouble() * 80, 
         size: size,
-        color: Colors.pinkAccent.withOpacity(0.5 + _random.nextDouble() * 0.5), 
+        color: Colors.pinkAccent.withValues(alpha: 0.5 + _random.nextDouble() * 0.5), 
         icon: icon,
       );
       
@@ -131,7 +131,7 @@ class _SpillingLikeButtonState extends State<SpillingLikeButton> with TickerProv
               final x = particle.startX + (particle.targetX * progress) + wobble;
               
               final fadeOpacity = progress > 0.5 ? 1.0 - ((progress - 0.5) * 2) : 1.0;
-              final combinedOpacity = fadeOpacity * particle.color.opacity;
+              final combinedOpacity = fadeOpacity * particle.color.a;
               
               return Positioned(
                 left: x,

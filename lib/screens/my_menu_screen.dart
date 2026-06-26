@@ -177,7 +177,7 @@ class MyMenuScreen extends StatelessWidget {
                           const SizedBox(height: 4),
                           Text(
                             user.email ?? '',
-                            style: TextStyle(color: Colors.white.withOpacity(0.6), fontSize: 12),
+                            style: TextStyle(color: Colors.white.withValues(alpha: 0.6), fontSize: 12),
                             overflow: TextOverflow.ellipsis,
                           ),
                           const SizedBox(height: 8),
@@ -474,7 +474,7 @@ class MyMenuScreen extends StatelessWidget {
                       Container(
                         padding: const EdgeInsets.symmetric(horizontal: 12),
                         decoration: BoxDecoration(
-                          color: Colors.white.withOpacity(0.1),
+                          color: Colors.white.withValues(alpha: 0.1),
                           borderRadius: BorderRadius.circular(8),
                           border: Border.all(color: Colors.white24),
                         ),
@@ -513,7 +513,7 @@ class MyMenuScreen extends StatelessWidget {
                             hintText: localizations.contactHint,
                             hintStyle: const TextStyle(color: Colors.white54),
                             filled: true,
-                            fillColor: Colors.white.withOpacity(0.1),
+                            fillColor: Colors.white.withValues(alpha: 0.1),
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(8),
                               borderSide: const BorderSide(color: Colors.white24),
@@ -627,7 +627,7 @@ class MyMenuScreen extends StatelessWidget {
             leading: Container(
               padding: const EdgeInsets.all(10),
               decoration: BoxDecoration(
-                color: Colors.deepPurpleAccent.withOpacity(0.3),
+                color: Colors.deepPurpleAccent.withValues(alpha: 0.3),
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Icon(icon, color: Colors.amberAccent),
@@ -639,7 +639,7 @@ class MyMenuScreen extends StatelessWidget {
             subtitle: subtitle != null
                 ? Text(
                     subtitle,
-                    style: TextStyle(color: Colors.white.withOpacity(0.6), fontSize: 12),
+                    style: TextStyle(color: Colors.white.withValues(alpha: 0.6), fontSize: 12),
                   )
                 : null,
             trailing: trailing ?? const Icon(Icons.chevron_right, color: Colors.white54),
@@ -720,7 +720,7 @@ class _PushSettingsTileState extends State<_PushSettingsTile> {
             leading: Container(
               padding: const EdgeInsets.all(10),
               decoration: BoxDecoration(
-                color: Colors.deepPurpleAccent.withOpacity(0.3),
+                color: Colors.deepPurpleAccent.withValues(alpha: 0.3),
                 borderRadius: BorderRadius.circular(12),
               ),
               child: const Icon(Icons.notifications_active_outlined, color: Colors.amberAccent),
@@ -731,7 +731,7 @@ class _PushSettingsTileState extends State<_PushSettingsTile> {
             ),
             subtitle: Text(
               AppLocalizations.of(context)!.myMenuPushNotificationsDesc,
-              style: TextStyle(color: Colors.white.withOpacity(0.6), fontSize: 12),
+              style: TextStyle(color: Colors.white.withValues(alpha: 0.6), fontSize: 12),
             ),
             trailing: _isLoading
                 ? const SizedBox(
@@ -742,7 +742,7 @@ class _PushSettingsTileState extends State<_PushSettingsTile> {
                 : Switch(
                     value: _pushEnabled,
                     onChanged: _togglePush,
-                    activeColor: Colors.amberAccent,
+                    activeThumbColor: Colors.amberAccent,
                   ),
           ),
         ),
@@ -818,7 +818,7 @@ class _EmailVerificationBadgeState extends State<_EmailVerificationBadge> {
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
         decoration: BoxDecoration(
-          color: isVerified ? Colors.green.withOpacity(0.2) : Colors.red.withOpacity(0.2),
+          color: isVerified ? Colors.green.withValues(alpha: 0.2) : Colors.red.withValues(alpha: 0.2),
           borderRadius: BorderRadius.circular(12),
           border: Border.all(color: isVerified ? Colors.green : Colors.redAccent),
         ),

@@ -41,32 +41,30 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDPzSj7gblfR6lL1xsuRXOcxgcd_-Nqr9Y',
-    appId: '1:794860272588:web:d850bea42943ae6fcabb69',
-    messagingSenderId: '794860272588',
-    projectId: 'tarot-a5e76',
-    authDomain: 'tarot-a5e76.firebaseapp.com',
-    storageBucket: 'tarot-a5e76.firebasestorage.app',
-    measurementId: 'G-9SVSZL59MX',
+    apiKey: 'AIzaSyDspp15zNiCoMBbc4E3iGPIeuOjS8OYRuk',
+    appId: '1:665143840353:web:f8285e60e8e0f461c2a420',
+    messagingSenderId: '665143840353',
+    projectId: 'tarot-witch-int',
+    authDomain: 'tarot-witch-int.firebaseapp.com',
+    storageBucket: 'tarot-witch-int.firebasestorage.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDtibt--mUIKJa2BDqrPBjwzWnqdwwaoGE',
-    appId: '1:794860272588:android:3e95367b1c0f782ccabb69',
-    messagingSenderId: '794860272588',
-    projectId: 'tarot-a5e76',
-    storageBucket: 'tarot-a5e76.firebasestorage.app',
+    apiKey: 'AIzaSyCpi1eyIg5VoOh-W2f9cLqn91BIPlxJ3SE',
+    appId: '1:665143840353:android:d7a2385bf29ae29bc2a420',
+    messagingSenderId: '665143840353',
+    projectId: 'tarot-witch-int',
+    storageBucket: 'tarot-witch-int.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBcMRSIBGQlQP8AFUH3PfeouqJY7lzQ8Ek',
-    appId: '1:794860272588:ios:de6777f1e3e8fe23cabb69',
-    messagingSenderId: '794860272588',
-    projectId: 'tarot-a5e76',
-    storageBucket: 'tarot-a5e76.firebasestorage.app',
+    apiKey: 'AIzaSyDhCgaThSUJ-r8F2aT2d1AqRkZvBA2dlE0',
+    appId: '1:665143840353:ios:1a98cbde2b3372d4c2a420',
+    messagingSenderId: '665143840353',
+    projectId: 'tarot-witch-int',
+    storageBucket: 'tarot-witch-int.firebasestorage.app',
+    iosClientId: '665143840353-k7t0e1rlld9vq36u6t26vpt7a6m6dikc.apps.googleusercontent.com',
     iosBundleId: 'com.example.flutterTarot',
   );
-
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyBcMRSIBGQlQP8AFUH3PfeouqJY7lzQ8Ek',
     appId: '1:794860272588:ios:de6777f1e3e8fe23cabb69',
@@ -77,12 +75,11 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDPzSj7gblfR6lL1xsuRXOcxgcd_-Nqr9Y',
-    appId: '1:794860272588:web:3ae70063d639d1edcabb69',
-    messagingSenderId: '794860272588',
-    projectId: 'tarot-a5e76',
-    authDomain: 'tarot-a5e76.firebaseapp.com',
-    storageBucket: 'tarot-a5e76.firebasestorage.app',
-    measurementId: 'G-1VRSP7ER0S',
+    apiKey: 'AIzaSyDspp15zNiCoMBbc4E3iGPIeuOjS8OYRuk',
+    appId: '1:665143840353:web:c917544ff18e5357c2a420',
+    messagingSenderId: '665143840353',
+    projectId: 'tarot-witch-int',
+    authDomain: 'tarot-witch-int.firebaseapp.com',
+    storageBucket: 'tarot-witch-int.firebasestorage.app',
   );
 }
