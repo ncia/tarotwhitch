@@ -40,7 +40,6 @@ dependencies:
     sdk: flutter
   google_generative_ai: ^0.4.7
   flutter_dotenv: ^6.0.1
-  audioplayers: ^6.7.1
   share_plus: ^13.1.0
   firebase_core: ^4.10.0
   firebase_auth: ^6.5.2
@@ -60,6 +59,9 @@ dependencies:
   url_launcher: ^6.3.2
   font_awesome_flutter: ^11.0.0
   flutter_native_splash: ^2.4.8
+  just_audio: ^0.10.5
+  just_audio_windows: ^0.2.3
+  flutter_soloud: ^4.0.11
 
 dev_dependencies:
   flutter_test:

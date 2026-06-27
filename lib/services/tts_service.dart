@@ -1,11 +1,12 @@
 import 'dart:convert';
 import 'dart:typed_data';
 import 'package:http/http.dart' as http;
-import 'package:audioplayers/audioplayers.dart';
+import 'package:just_audio/just_audio.dart' hide AudioSource;
 import 'package:path_provider/path_provider.dart';
 import 'dart:io';
-import 'package:flutter/foundation.dart' show kIsWeb;
+import 'package:flutter/foundation.dart';
 import 'package:wakelock_plus/wakelock_plus.dart';
+import 'package:flutter_soloud/flutter_soloud.dart';
 import '../data/witch_data.dart';
 import 'audio_service.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
@@ -14,7 +15,7 @@ class TtsService {
   static final TtsService _instance = TtsService._internal();
   factory TtsService() => _instance;
 
-  final AudioPlayer _audioPlayer = AudioPlayer();
+  AudioPlayer? _audioPlayer;
   String get _apiKey => dotenv.env['SPEECHIFY_API_KEY'] ?? '';
   final String _baseUrl = 'https://api.speechify.ai/v1/audio/speech';
   
@@ -23,10 +24,19 @@ class TtsService {
   Witch? _currentWitch;
   String _currentLocale = 'ko';
 
+  bool get _isWindows => !kIsWeb && defaultTargetPlatform == TargetPlatform.windows;
+
+  SoundHandle? _soloudTtsHandle;
+
   TtsService._internal() {
-    _audioPlayer.onPlayerComplete.listen((event) {
-      _playNextInQueue();
-    });
+    if (!_isWindows) {
+      _audioPlayer = AudioPlayer();
+      _audioPlayer!.playerStateStream.listen((state) {
+        if (state.processingState == ProcessingState.completed) {
+          _playNextInQueue();
+        }
+      });
+    }
   }
 
   Future<void> speak(Witch witch, String text, String localeCode) async {
@@ -111,26 +121,35 @@ class TtsService {
 
         final Uint8List audioBytes = base64Decode(base64Audio);
         
-        // 카르엔(Karen) 마녀일 경우 노파 목소리를 위해 피치/재생속도를 낮춤
+        final tempDir = await getTemporaryDirectory();
+        final String safePath = '${tempDir.path}${Platform.pathSeparator}tts_temp_${DateTime.now().millisecondsSinceEpoch}.mp3';
+        final tempFile = File(safePath);
+        await tempFile.writeAsBytes(audioBytes);
+        
+        print('Saved TTS MP3 to: $safePath, Size: ${audioBytes.length} bytes');
+
+        await AudioService().pauseBgm();
+        final double ttsVolume = AudioService().isMuted ? 0.0 : 0.5;
         final double playbackRate = _currentWitch?.id == 'karen' ? 0.85 : 1.0;
-        await _audioPlayer.setPlaybackRate(playbackRate);
 
-        if (kIsWeb) {
-          await AudioService().pauseBgm();
-          final double ttsVolume = AudioService().isMuted ? 0.0 : 0.5;
-          await _audioPlayer.play(BytesSource(audioBytes), volume: ttsVolume);
-        } else {
-          // Save to temp file to avoid BytesSource crash on Windows
-          final tempDir = await getTemporaryDirectory();
-          final String safePath = '${tempDir.path}${Platform.pathSeparator}tts_temp_${DateTime.now().millisecondsSinceEpoch}.mp3';
-          final tempFile = File(safePath);
-          await tempFile.writeAsBytes(audioBytes);
+        if (_isWindows) {
+          final source = await SoLoud.instance.loadFile(safePath);
+          _soloudTtsHandle = SoLoud.instance.play(source, volume: ttsVolume);
           
-          print('Saved TTS MP3 to: $safePath, Size: ${audioBytes.length} bytes');
-
-          await AudioService().pauseBgm();
-          final double ttsVolume = AudioService().isMuted ? 0.0 : 0.5;
-          await _audioPlayer.play(DeviceFileSource(safePath), volume: ttsVolume);
+          // Wait for completion via length
+          final length = SoLoud.instance.getLength(source);
+          await Future.delayed(length);
+          _playNextInQueue();
+        } else {
+          await _audioPlayer!.setSpeed(playbackRate);
+          if (_currentWitch?.id == 'karen') {
+             await _audioPlayer!.setPitch(0.9);
+          } else {
+             await _audioPlayer!.setPitch(1.0);
+          }
+          await _audioPlayer!.setVolume(ttsVolume);
+          await _audioPlayer!.setFilePath(safePath);
+          await _audioPlayer!.play();
         }
       } else {
         print('Speechify API Error: ${response.statusCode}');
@@ -146,7 +165,15 @@ class TtsService {
   void stop() {
     _textQueue.clear();
     _isPlaying = false;
-    _audioPlayer.stop();
+    
+    if (_isWindows) {
+      if (_soloudTtsHandle != null) {
+        SoLoud.instance.stop(_soloudTtsHandle!);
+      }
+    } else {
+      _audioPlayer?.stop();
+    }
+    
     WakelockPlus.disable();
     AudioService().resumeBgm();
   }
