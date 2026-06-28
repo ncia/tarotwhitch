@@ -99,9 +99,6 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
     }
     
     _lightningAnimController.repeat(reverse: true);
-    
-    _shuffledDeck = List.from(getTarotDeck(context))..shuffle();
-    _shuffledReversed = List.generate(78, (_) => math.Random().nextBool());
   }
 
   @override
@@ -114,6 +111,10 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
         final allowedWitches = getLocalizedWitches(context).where((w) => w.id == 'morgan' || w.id == 'karen').toList();
         _activeWitch = allowedWitches[math.Random().nextInt(allowedWitches.length)];
       }
+      
+      _shuffledDeck = List.from(getTarotDeck(context))..shuffle();
+      _shuffledReversed = List.generate(78, (_) => math.Random().nextBool());
+      
       _isInit = true;
     }
   }
@@ -321,11 +322,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
   Widget build(BuildContext context) {
     return Scaffold(
       extendBodyBehindAppBar: true,
-      appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        elevation: 0,
-        iconTheme: const IconThemeData(color: Colors.white),
-      ),
+      // AppBar removed to avoid overlap with TopFloatingIcons
       body: GradientBackground(
         useSafeArea: false,
         child: AnimatedSwitcher(
@@ -387,25 +384,35 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
           ),
         ),
         SafeArea(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 40.0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                const Spacer(),
-                Text(
-                  AppLocalizations.of(context)!.readingIntroTitle,
-                  textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.displayLarge?.copyWith(
-                    shadows: [
-                      Shadow(
-                        color: Colors.black.withValues(alpha: 0.8),
-                        blurRadius: 10,
-                        offset: const Offset(0, 4),
-                      ),
-                    ]
-                  ),
+          child: Stack(
+            children: [
+              Positioned(
+                top: 60,
+                left: 8,
+                child: IconButton(
+                  icon: const Icon(Icons.arrow_back, color: Colors.white, size: 28),
+                  onPressed: () => Navigator.pop(context),
                 ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 40.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    const Spacer(),
+                    Text(
+                      AppLocalizations.of(context)!.readingIntroTitle,
+                      textAlign: TextAlign.center,
+                      style: Theme.of(context).textTheme.displayLarge?.copyWith(
+                        shadows: [
+                          Shadow(
+                            color: Colors.black.withValues(alpha: 0.8),
+                            blurRadius: 10,
+                            offset: const Offset(0, 4),
+                          ),
+                        ]
+                      ),
+                    ),
                 const SizedBox(height: 16),
                 Text(
                   AppLocalizations.of(context)!.readingIntroSubtitle,
@@ -435,6 +442,8 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
               ],
             ),
           ),
+            ],
+          ),
         ),
       ],
     );
@@ -463,10 +472,15 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
               Column(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(top: 80.0, left: 24.0, right: 24.0),
+                    padding: const EdgeInsets.only(top: 80.0, left: 8.0, right: 24.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
+                        IconButton(
+                          icon: const Icon(Icons.arrow_back, color: Colors.white, size: 28),
+                          onPressed: () => Navigator.pop(context),
+                        ),
+                        const SizedBox(width: 8),
                         Expanded(
                           child: Text(
                             AppLocalizations.of(context)!.pickCardsText(widget.spreadType.cardCount),
@@ -602,7 +616,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage('assets/images/lighting.webp'),
+                            image: AssetImage('assets/images/lighting.png'),
                             fit: BoxFit.contain,
                           ),
                         ),
@@ -657,7 +671,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                           ),
                         ),
                         Positioned(
-                          right: 0,
+                          left: 0,
                           top: 0,
                           child: IconButton(
                             icon: const Icon(Icons.arrow_back, color: Colors.white, size: 28),

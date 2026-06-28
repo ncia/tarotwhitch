@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../services/diary_service.dart';
-import '../widgets/glass_container.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import '../utils/tag_localization.dart';
 

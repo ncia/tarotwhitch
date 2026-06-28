@@ -7,8 +7,6 @@ import '../services/tarot_ai_service.dart';
 import '../services/tts_service.dart';
 import '../services/economy_service.dart';
 import '../data/witch_data.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import '../services/diary_service.dart';
 import '../data/tarot_diary.dart';
 

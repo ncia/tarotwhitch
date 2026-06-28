@@ -4759,4 +4759,31 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get contactEmptyErrorMessage => 'الرجاء إدخال محتوى استفسارك.';
+
+  @override
+  String get authForgotPassword => 'Forgot Password?';
+
+  @override
+  String get authResetPasswordTitle => 'Reset Password';
+
+  @override
+  String get authResetPasswordHint => 'Enter your registered email address.';
+
+  @override
+  String get authResetPasswordSend => 'Send Email';
+
+  @override
+  String get authResetPasswordSuccess =>
+      'Password reset email has been sent. Please check your inbox.';
+
+  @override
+  String get authResetPasswordError =>
+      'Failed to send email. Please try again.';
+
+  @override
+  String get authResetPasswordInvalidEmail =>
+      'Please enter a valid email address.';
+
+  @override
+  String get authResetPasswordCancel => 'Cancel';
 }

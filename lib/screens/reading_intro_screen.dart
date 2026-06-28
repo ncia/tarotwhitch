@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import '../data/witch_data.dart';

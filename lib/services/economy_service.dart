@@ -91,7 +91,7 @@ class EconomyService extends ChangeNotifier {
     }
   }
 
-  // Initialize new user with 3 coins if they don't have the document or fields yet
+  // Initialize new user fields or fix missing fields for existing users
   Future<void> initializeNewUser() async {
     final user = FirebaseAuth.instance.currentUser;
     if (user != null) {
@@ -99,7 +99,7 @@ class EconomyService extends ChangeNotifier {
       final doc = await docRef.get();
       if (!doc.exists) {
         await docRef.set({
-          'coins': 3,
+          'coins': 0,
           'magicDust': 0,
           'worldTreeExp': 0,
           'crystalBallExp': 0,
@@ -107,10 +107,13 @@ class EconomyService extends ChangeNotifier {
           'role': 'user',
         }, SetOptions(merge: true));
       } else {
-        // If doc exists but no coins field, give them 3
+        // 기존 사용자지만 필드가 누락된 경우 0으로 초기화
         final data = doc.data()!;
-        if (!data.containsKey('coins')) {
-          await docRef.update({'coins': 3});
+        final Map<String, dynamic> updates = {};
+        if (!data.containsKey('coins')) updates['coins'] = 0;
+        if (!data.containsKey('magicDust')) updates['magicDust'] = 0;
+        if (updates.isNotEmpty) {
+          await docRef.update(updates);
         }
       }
     }

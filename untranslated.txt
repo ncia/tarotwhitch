@@ -1,4 +1,103 @@
 {
+  "ar": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "be": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "bg": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "ca": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "cs": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "da": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "de": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "el": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "es": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
   "et": [
     "tagLove",
     "tagMoney",
@@ -6,7 +105,202 @@
     "tagCareer",
     "tagToday",
     "tagRelationship",
-    "tagSelfReflection"
+    "tagSelfReflection",
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "fa": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "fi": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "fr": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "hi": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "hr": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "hu": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "hy": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "id": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "it": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "ja": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "lt": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "lv": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "ml": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "ms": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "no": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "pl": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "pt": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
   ],
 
   "rm": [
@@ -97,7 +391,136 @@
     "contactSend",
     "contactCancel",
     "contactEmptyErrorTitle",
-    "contactEmptyErrorMessage"
+    "contactEmptyErrorMessage",
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "ro": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "ru": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "sk": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "sl": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "sr": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "sv": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "th": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "tl": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "tr": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "uk": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "vi": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
   ],
 
   "zh": [
@@ -181,6 +604,36 @@
     "contactSend",
     "contactCancel",
     "contactEmptyErrorTitle",
-    "contactEmptyErrorMessage"
+    "contactEmptyErrorMessage",
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "zh_Hans": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
+  ],
+
+  "zh_Hant": [
+    "authForgotPassword",
+    "authResetPasswordTitle",
+    "authResetPasswordHint",
+    "authResetPasswordSend",
+    "authResetPasswordSuccess",
+    "authResetPasswordError",
+    "authResetPasswordInvalidEmail",
+    "authResetPasswordCancel"
   ]
 }

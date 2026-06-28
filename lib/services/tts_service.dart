@@ -136,9 +136,11 @@ class TtsService {
           final source = await SoLoud.instance.loadFile(safePath);
           _soloudTtsHandle = SoLoud.instance.play(source, volume: ttsVolume);
           
-          // Wait for completion via length
-          final length = SoLoud.instance.getLength(source);
-          await Future.delayed(length);
+          // Wait for completion by checking if the handle is still valid
+          while (_isPlaying && _soloudTtsHandle != null && SoLoud.instance.getIsValidVoiceHandle(_soloudTtsHandle!)) {
+            await Future.delayed(const Duration(milliseconds: 100));
+          }
+          await SoLoud.instance.disposeSource(source);
           _playNextInQueue();
         } else {
           await _audioPlayer!.setSpeed(playbackRate);

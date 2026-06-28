@@ -1739,5 +1739,13 @@
   "contactSend": "Send",
   "contactCancel": "Cancel",
   "contactEmptyErrorTitle": "Notice",
-  "contactEmptyErrorMessage": "Please enter your inquiry content."
+  "contactEmptyErrorMessage": "Please enter your inquiry content.",
+  "authForgotPassword": "Forgot Password?",
+  "authResetPasswordTitle": "Reset Password",
+  "authResetPasswordHint": "Enter your registered email address.",
+  "authResetPasswordSend": "Send Email",
+  "authResetPasswordSuccess": "Password reset email has been sent. Please check your inbox.",
+  "authResetPasswordError": "Failed to send email. Please try again.",
+  "authResetPasswordInvalidEmail": "Please enter a valid email address.",
+  "authResetPasswordCancel": "Cancel"
 }

@@ -27,7 +27,7 @@ class _AuthScreenState extends State<AuthScreen> {
   final _nicknameController = TextEditingController();
   bool _isLogin = true;
   bool _isLoading = false;
-  bool _isAdmin = false; // 관리자 가입 여부
+  final bool _isAdmin = false; // 관리자 가입 여부
   bool _obscurePassword = true; // 비밀번호 숨김 여부
   bool _agreedToTerms = false; // 약관 동의 여부 (기본 체크 해제)
   bool _agreedToPush = false; // 마케팅/푸시 알림 동의 여부 (기본 체크 해제)
@@ -101,6 +101,78 @@ class _AuthScreenState extends State<AuthScreen> {
               child: Text(AppLocalizations.of(context)!.closeButton, style: const TextStyle(color: Colors.amberAccent)),
             ),
           ],
+        );
+      },
+    );
+  }
+
+  void _showForgotPasswordDialog() {
+    final resetEmailController = TextEditingController();
+    bool isResetting = false;
+
+    showDialog(
+      context: context,
+      builder: (context) {
+        return StatefulBuilder(
+          builder: (context, setDialogState) {
+            return AlertDialog(
+              backgroundColor: Colors.grey[900],
+              title: Text(AppLocalizations.of(context)!.authResetPasswordTitle, style: const TextStyle(color: Colors.white, fontSize: 18)),
+              content: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  TextField(
+                    controller: resetEmailController,
+                    style: const TextStyle(color: Colors.white),
+                    keyboardType: TextInputType.emailAddress,
+                    decoration: InputDecoration(
+                      hintText: AppLocalizations.of(context)!.authResetPasswordHint,
+                      hintStyle: const TextStyle(color: Colors.white54),
+                      enabledBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.white30)),
+                      focusedBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
+                    ),
+                  ),
+                ],
+              ),
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.pop(context),
+                  child: Text(AppLocalizations.of(context)!.authResetPasswordCancel, style: const TextStyle(color: Colors.white54)),
+                ),
+                isResetting
+                    ? const Padding(
+                        padding: EdgeInsets.symmetric(horizontal: 16.0),
+                        child: SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.amberAccent)),
+                      )
+                    : TextButton(
+                        onPressed: () async {
+                          final email = resetEmailController.text.trim();
+                          if (email.isEmpty || !email.contains('@')) {
+                            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(AppLocalizations.of(context)!.authResetPasswordInvalidEmail)));
+                            return;
+                          }
+                          setDialogState(() => isResetting = true);
+                          try {
+                            await FirebaseAuth.instance.sendPasswordResetEmail(email: email);
+                            if (context.mounted) {
+                              Navigator.pop(context);
+                              ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(AppLocalizations.of(context)!.authResetPasswordSuccess)));
+                            }
+                          } catch (e) {
+                            if (context.mounted) {
+                              ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(AppLocalizations.of(context)!.authResetPasswordError)));
+                            }
+                          } finally {
+                            if (context.mounted) {
+                              setDialogState(() => isResetting = false);
+                            }
+                          }
+                        },
+                        child: Text(AppLocalizations.of(context)!.authResetPasswordSend, style: const TextStyle(color: Colors.amberAccent)),
+                      ),
+              ],
+            );
+          },
         );
       },
     );
@@ -236,8 +308,7 @@ class _AuthScreenState extends State<AuthScreen> {
               ),
             );
           }
-          await FirebaseAuth.instance.signOut(); // 인증 안되었으므로 강제 로그아웃
-          return;
+          // 강제 로그아웃 제거, 그대로 앱으로 진입하도록 허용
         }
 
         // 로그인 성공 시 유지 여부 저장
@@ -280,6 +351,8 @@ class _AuthScreenState extends State<AuthScreen> {
             'isCustomNickname': _isCustomNickname,
             'role': _isAdmin ? 'admin' : 'user', // 관리자 여부에 따라 role 부여
             'pushEnabled': _agreedToPush,
+            'coins': 0, // 기본 코인 0개로 명시
+            'magicDust': 0, // 기본 마력의 가루 0개로 명시
             'createdAt': FieldValue.serverTimestamp(),
             'lastLoginAt': FieldValue.serverTimestamp(),
             'deleteEligibleAt': Timestamp.fromDate(DateTime.now().add(const Duration(days: 365))), // 1년 뒤 자동 삭제 대상
@@ -292,7 +365,7 @@ class _AuthScreenState extends State<AuthScreen> {
           
           // 인증 메일 발송
           await user.sendEmailVerification();
-          await FirebaseAuth.instance.signOut(); // 가입 직후 로그아웃 처리하여 인증 유도
+          // 강제 로그아웃 제거: 가입 직후 자동 로그인 상태 유지
           
           if (mounted) {
             ScaffoldMessenger.of(context).showSnackBar(
@@ -301,11 +374,14 @@ class _AuthScreenState extends State<AuthScreen> {
                 duration: const Duration(seconds: 5),
               ),
             );
-            setState(() {
-              _isLogin = true; // 로그인 화면으로 전환
-              _passwordController.clear();
-              _isAdmin = false; // 초기화
-            });
+            
+            // 로그인 성공 시 유지 여부 저장
+            final prefs = await SharedPreferences.getInstance();
+            await prefs.setBool('keepLoggedIn', _keepLoggedIn);
+
+            if (!widget.isInline) {
+              Navigator.pop(context);
+            }
             return;
           }
         }
@@ -426,6 +502,21 @@ class _AuthScreenState extends State<AuthScreen> {
                   ],
 
                   if (_isLogin) ...[
+                    Align(
+                      alignment: Alignment.centerRight,
+                      child: TextButton(
+                        onPressed: _showForgotPasswordDialog,
+                        style: TextButton.styleFrom(
+                          padding: const EdgeInsets.symmetric(horizontal: 0, vertical: 8),
+                          minimumSize: Size.zero,
+                          tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                        ),
+                        child: Text(
+                          AppLocalizations.of(context)!.authForgotPassword,
+                          style: const TextStyle(color: Colors.amberAccent, fontSize: 13),
+                        ),
+                      ),
+                    ),
                     Row(
                       children: [
                         Checkbox(

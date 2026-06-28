@@ -29,6 +29,85 @@
             {
               "client_id": "665143840353-9rg52h0lkd1p9o8etigmel0510oes997.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "665143840353-k7t0e1rlld9vq36u6t26vpt7a6m6dikc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterTarot"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665143840353:android:5bd0e48f330e2067c2a420",
+        "android_client_info": {
+          "package_name": "com.ncia.tarot_witch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665143840353-9rg52h0lkd1p9o8etigmel0510oes997.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpi1eyIg5VoOh-W2f9cLqn91BIPlxJ3SE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665143840353-9rg52h0lkd1p9o8etigmel0510oes997.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "665143840353-k7t0e1rlld9vq36u6t26vpt7a6m6dikc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterTarot"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665143840353:android:f6073177e474b685c2a420",
+        "android_client_info": {
+          "package_name": "com.ncia.tarotwitch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665143840353-9rg52h0lkd1p9o8etigmel0510oes997.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpi1eyIg5VoOh-W2f9cLqn91BIPlxJ3SE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665143840353-9rg52h0lkd1p9o8etigmel0510oes997.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "665143840353-k7t0e1rlld9vq36u6t26vpt7a6m6dikc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterTarot"
+              }
             }
           ]
         }

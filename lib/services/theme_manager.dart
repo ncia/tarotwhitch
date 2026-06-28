@@ -60,7 +60,7 @@ class ThemeManager {
     }
 
     // Try to sync with cloud if already logged in
-    await syncCloudThemes();
+    syncCloudThemes();
   }
 
   Future<void> syncCloudThemes() async {

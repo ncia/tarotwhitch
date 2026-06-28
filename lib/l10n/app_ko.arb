@@ -1712,5 +1712,13 @@
   "contactSend": "전송하기",
   "contactCancel": "취소",
   "contactEmptyErrorTitle": "알림",
-  "contactEmptyErrorMessage": "문의 내용을 입력해주세요."
+  "contactEmptyErrorMessage": "문의 내용을 입력해주세요.",
+  "authForgotPassword": "비밀번호를 잊으셨나요?",
+  "authResetPasswordTitle": "비밀번호 재설정",
+  "authResetPasswordHint": "가입하신 이메일 주소를 입력해주세요.",
+  "authResetPasswordSend": "이메일 전송",
+  "authResetPasswordSuccess": "비밀번호 재설정 메일이 전송되었습니다. 메일함을 확인해주세요.",
+  "authResetPasswordError": "이메일 전송에 실패했습니다. 다시 시도해주세요.",
+  "authResetPasswordInvalidEmail": "유효한 이메일 주소를 입력해주세요.",
+  "authResetPasswordCancel": "취소"
 }

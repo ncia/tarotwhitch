@@ -6,8 +6,6 @@ import '../widgets/shared_bottom_nav_bar.dart';
 import '../widgets/top_floating_icons.dart';
 import 'main_screen.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import '../widgets/sliver_tab_bar_delegate.dart';
 
 class GrowthScreen extends StatefulWidget {

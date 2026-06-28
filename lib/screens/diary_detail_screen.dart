@@ -10,7 +10,6 @@ import '../data/witch_data.dart';
 import '../data/spread_type.dart';
 import '../services/diary_service.dart';
 import '../services/translation_service.dart';
-import 'package:flutter_tarot/l10n/tarot_localizations.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import 'package:intl/intl.dart';
 import '../widgets/emoji_picker_widget.dart';

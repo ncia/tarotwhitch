@@ -102,7 +102,7 @@ class _DiaryScreenState extends State<DiaryScreen> {
 }
 
 class _DiaryListView extends StatelessWidget {
-  const _DiaryListView({super.key});
+  const _DiaryListView();
 
   @override
   Widget build(BuildContext context) {

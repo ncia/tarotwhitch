@@ -18,7 +18,6 @@ import '../widgets/emoji_picker_widget.dart';
 import '../widgets/top_floating_icons.dart';
 import '../widgets/shared_bottom_nav_bar.dart';
 import 'main_screen.dart';
-import 'package:url_launcher/url_launcher.dart';
 import '../widgets/spilling_like_button.dart';
 
 class CommunityDetailScreen extends StatefulWidget {

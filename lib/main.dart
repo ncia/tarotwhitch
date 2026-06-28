@@ -21,33 +21,35 @@ void main() async {
   await dotenv.load(fileName: "assets/env");
   
   try {
-    await Firebase.initializeApp(
-      options: DefaultFirebaseOptions.currentPlatform,
-    );
-    final auth = FirebaseAuth.instance;
-    
-    // 자동 로그인 해제 상태인지 확인
-    final prefs = await SharedPreferences.getInstance();
-    final keepLoggedIn = prefs.getBool('keepLoggedIn') ?? true;
-    
-    if (!keepLoggedIn && auth.currentUser != null && !auth.currentUser!.isAnonymous) {
-      await auth.signOut(); // 로그인 유지를 끈 경우 명시적 로그아웃 (이후 익명 전환됨)
-    }
-
-    if (auth.currentUser == null) {
-      await auth.signInAnonymously();
-    } else if (!auth.currentUser!.isAnonymous) {
-      // 일반 회원인 경우 앱 구동(접속) 시 최근 접속일과 자동 삭제 예정일(1년 뒤) 갱신
-      try {
-        await FirebaseFirestore.instance.collection('users').doc(auth.currentUser!.uid).update({
-          'lastLoginAt': FieldValue.serverTimestamp(),
-          'deleteEligibleAt': Timestamp.fromDate(DateTime.now().add(const Duration(days: 365))),
-        });
-      } catch (e) {
-        debugPrint('접속 기록 갱신 실패 (신규 가입 직후일 수 있음): $e');
+    await () async {
+      await Firebase.initializeApp(
+        options: DefaultFirebaseOptions.currentPlatform,
+      );
+      final auth = FirebaseAuth.instance;
+      
+      // 자동 로그인 해제 상태인지 확인
+      final prefs = await SharedPreferences.getInstance();
+      final keepLoggedIn = prefs.getBool('keepLoggedIn') ?? true;
+      
+      if (!keepLoggedIn && auth.currentUser != null && !auth.currentUser!.isAnonymous) {
+        await auth.signOut(); // 로그인 유지를 끈 경우 명시적 로그아웃 (이후 익명 전환됨)
       }
-    }
-    await EconomyService().initializeNewUser();
+
+      if (auth.currentUser == null) {
+        await auth.signInAnonymously();
+      } else if (!auth.currentUser!.isAnonymous) {
+        // 일반 회원인 경우 앱 구동(접속) 시 최근 접속일과 자동 삭제 예정일(1년 뒤) 갱신
+        try {
+          await FirebaseFirestore.instance.collection('users').doc(auth.currentUser!.uid).update({
+            'lastLoginAt': FieldValue.serverTimestamp(),
+            'deleteEligibleAt': Timestamp.fromDate(DateTime.now().add(const Duration(days: 365))),
+          });
+        } catch (e) {
+          debugPrint('접속 기록 갱신 실패 (신규 가입 직후일 수 있음): $e');
+        }
+      }
+      await EconomyService().initializeNewUser();
+    }().timeout(const Duration(seconds: 3));
   } catch (e) {
     debugPrint('Firebase initialization failed (not configured yet?): $e');
   }
@@ -58,10 +60,11 @@ void main() async {
 
   // 로그인 유저면 기존 Firestore 데이터를 로컬로 마이그레이션
   try {
-    final migrated = await DiaryService.instance.migrateFromCloud();
-    if (migrated > 0) {
-      debugPrint('Migrated $migrated diaries from cloud to local.');
-    }
+    DiaryService.instance.migrateFromCloud().then((migrated) {
+      if (migrated > 0) {
+        debugPrint('Migrated $migrated diaries from cloud to local.');
+      }
+    });
   } catch (e) {
     debugPrint('Cloud migration skipped: $e');
   }

@@ -8915,6 +8915,54 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Please enter your inquiry content.'**
   String get contactEmptyErrorMessage;
+
+  /// No description provided for @authForgotPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Forgot Password?'**
+  String get authForgotPassword;
+
+  /// No description provided for @authResetPasswordTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset Password'**
+  String get authResetPasswordTitle;
+
+  /// No description provided for @authResetPasswordHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your registered email address.'**
+  String get authResetPasswordHint;
+
+  /// No description provided for @authResetPasswordSend.
+  ///
+  /// In en, this message translates to:
+  /// **'Send Email'**
+  String get authResetPasswordSend;
+
+  /// No description provided for @authResetPasswordSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Password reset email has been sent. Please check your inbox.'**
+  String get authResetPasswordSuccess;
+
+  /// No description provided for @authResetPasswordError.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to send email. Please try again.'**
+  String get authResetPasswordError;
+
+  /// No description provided for @authResetPasswordInvalidEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid email address.'**
+  String get authResetPasswordInvalidEmail;
+
+  /// No description provided for @authResetPasswordCancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get authResetPasswordCancel;
 }
 
 class _AppLocalizationsDelegate

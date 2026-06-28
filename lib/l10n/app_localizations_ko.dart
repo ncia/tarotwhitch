@@ -4495,4 +4495,28 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get contactEmptyErrorMessage => '문의 내용을 입력해주세요.';
+
+  @override
+  String get authForgotPassword => '비밀번호를 잊으셨나요?';
+
+  @override
+  String get authResetPasswordTitle => '비밀번호 재설정';
+
+  @override
+  String get authResetPasswordHint => '가입하신 이메일 주소를 입력해주세요.';
+
+  @override
+  String get authResetPasswordSend => '이메일 전송';
+
+  @override
+  String get authResetPasswordSuccess => '비밀번호 재설정 메일이 전송되었습니다. 메일함을 확인해주세요.';
+
+  @override
+  String get authResetPasswordError => '이메일 전송에 실패했습니다. 다시 시도해주세요.';
+
+  @override
+  String get authResetPasswordInvalidEmail => '유효한 이메일 주소를 입력해주세요.';
+
+  @override
+  String get authResetPasswordCancel => '취소';
 }

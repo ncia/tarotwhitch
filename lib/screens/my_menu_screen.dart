@@ -1,14 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import '../data/nickname_localizations.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
-import 'package:flutter_tarot/data/nickname_data.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
-import 'package:flutter_tarot/screens/theme_selection_screen.dart';
 import 'package:flutter_tarot/screens/faq_screen.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'dart:convert';
@@ -16,8 +13,6 @@ import 'auth_screen.dart'; // AuthScreen 임포트 추가
 import 'package:firebase_messaging/firebase_messaging.dart';
 import '../widgets/profile_edit_dialog.dart';
 import 'main_screen.dart';
-import 'theme_selection_screen.dart';
-import 'theme_selection_screen.dart';
 import 'language_selection_screen.dart';
 import '../services/language_manager.dart';
 import 'favorite_cards_screen.dart';
