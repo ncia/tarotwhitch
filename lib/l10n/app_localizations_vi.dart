@@ -1308,6 +1308,12 @@ class AppLocalizationsVi extends AppLocalizations {
   String get myMenuLanguageSettings => 'Cài đặt ngôn ngữ';
 
   @override
+  String get myMenuSoundSettings => 'Sound / SFX';
+
+  @override
+  String get myMenuSoundSettingsDesc => 'Turn BGM & SFX on/off';
+
+  @override
   String get myMenuThemeSettings => 'Cài đặt da';
 
   @override

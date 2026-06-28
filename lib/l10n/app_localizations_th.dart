@@ -1305,6 +1305,12 @@ class AppLocalizationsTh extends AppLocalizations {
   String get myMenuLanguageSettings => 'การตั้งค่าภาษา';
 
   @override
+  String get myMenuSoundSettings => 'Sound / SFX';
+
+  @override
+  String get myMenuSoundSettingsDesc => 'Turn BGM & SFX on/off';
+
+  @override
   String get myMenuThemeSettings => 'การตั้งค่าสกิน';
 
   @override

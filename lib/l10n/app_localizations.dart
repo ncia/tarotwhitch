@@ -2388,6 +2388,18 @@ abstract class AppLocalizations {
   /// **'Language Settings'**
   String get myMenuLanguageSettings;
 
+  /// No description provided for @myMenuSoundSettings.
+  ///
+  /// In en, this message translates to:
+  /// **'Sound / SFX'**
+  String get myMenuSoundSettings;
+
+  /// No description provided for @myMenuSoundSettingsDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Turn BGM & SFX on/off'**
+  String get myMenuSoundSettingsDesc;
+
   /// No description provided for @myMenuThemeSettings.
   ///
   /// In en, this message translates to:

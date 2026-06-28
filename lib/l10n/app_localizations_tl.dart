@@ -1327,6 +1327,12 @@ class AppLocalizationsTl extends AppLocalizations {
   String get myMenuLanguageSettings => 'Mga Setting ng Wika';
 
   @override
+  String get myMenuSoundSettings => 'Sound / SFX';
+
+  @override
+  String get myMenuSoundSettingsDesc => 'Turn BGM & SFX on/off';
+
+  @override
   String get myMenuThemeSettings => 'Mga Setting ng Balat';
 
   @override

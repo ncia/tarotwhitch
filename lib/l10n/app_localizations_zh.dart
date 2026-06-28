@@ -1139,6 +1139,12 @@ class AppLocalizationsZh extends AppLocalizations {
   String get myMenuLanguageSettings => '语言设置';
 
   @override
+  String get myMenuSoundSettings => 'Sound / SFX';
+
+  @override
+  String get myMenuSoundSettingsDesc => 'Turn BGM & SFX on/off';
+
+  @override
   String get myMenuThemeSettings => '皮肤设置';
 
   @override

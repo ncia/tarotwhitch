@@ -24,6 +24,22 @@ class AudioService {
 
   bool get _isWindows => !kIsWeb && defaultTargetPlatform == TargetPlatform.windows;
 
+  Future<void> setMute(bool mute) async {
+    _isMuted = mute;
+    isMutedNotifier.value = _isMuted;
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setBool('is_muted', _isMuted);
+
+    final newVolume = _isMuted ? 0.0 : _volume;
+    if (_isWindows) {
+      if (_soloudBgmHandle != null) {
+        SoLoud.instance.setVolume(_soloudBgmHandle!, newVolume);
+      }
+    } else {
+      await _bgmPlayer?.setVolume(newVolume);
+    }
+  }
+
   // SoLoud instances for Windows
   AudioSource? _soloudBgmSource;
   SoundHandle? _soloudBgmHandle;

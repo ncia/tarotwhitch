@@ -420,6 +420,8 @@
   "myMenuPushNotifications": "Push Notifications",
   "myMenuPushNotificationsDesc": "New horoscopes and events",
   "myMenuLanguageSettings": "Language Settings",
+  "myMenuSoundSettings": "Sound / SFX",
+  "myMenuSoundSettingsDesc": "Turn BGM & SFX on/off",
   "myMenuThemeSettings": "Skin Settings",
   "myMenuChangeBackground": "Change background image",
   "myMenuSectionCustomerSupport": "Customer Support",

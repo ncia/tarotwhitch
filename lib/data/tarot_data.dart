@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
+import '../services/deck_manager.dart';
 
 class TarotCardData {
   final String id;
@@ -13,11 +14,15 @@ class TarotCardData {
 
 List<TarotCardData> getTarotDeck(BuildContext context) {
   final loc = AppLocalizations.of(context)!;
+  String deckPath = 'assets/images';
+  if (DeckManager.instance.currentDeck != 'rider_waite') {
+    deckPath = 'assets/images/${DeckManager.instance.currentDeck}';
+  }
   return [
     TarotCardData(
       id: 'major_00',
       name: loc.tarotMajor00Name,
-      imagePath: 'assets/images/00-TheFool.jpg',
+      imagePath: '$deckPath/00-TheFool.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor00Upright,
       reversedDesc: loc.tarotMajor00Reversed,
@@ -25,7 +30,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_01',
       name: loc.tarotMajor01Name,
-      imagePath: 'assets/images/01-TheMagician.jpg',
+      imagePath: '$deckPath/01-TheMagician.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor01Upright,
       reversedDesc: loc.tarotMajor01Reversed,
@@ -33,7 +38,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_02',
       name: loc.tarotMajor02Name,
-      imagePath: 'assets/images/02-TheHighPriestess.jpg',
+      imagePath: '$deckPath/02-TheHighPriestess.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor02Upright,
       reversedDesc: loc.tarotMajor02Reversed,
@@ -41,7 +46,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_03',
       name: loc.tarotMajor03Name,
-      imagePath: 'assets/images/03-TheEmpress.jpg',
+      imagePath: '$deckPath/03-TheEmpress.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor03Upright,
       reversedDesc: loc.tarotMajor03Reversed,
@@ -49,7 +54,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_04',
       name: loc.tarotMajor04Name,
-      imagePath: 'assets/images/04-TheEmperor.jpg',
+      imagePath: '$deckPath/04-TheEmperor.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor04Upright,
       reversedDesc: loc.tarotMajor04Reversed,
@@ -57,7 +62,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_05',
       name: loc.tarotMajor05Name,
-      imagePath: 'assets/images/05-TheHierophant.jpg',
+      imagePath: '$deckPath/05-TheHierophant.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor05Upright,
       reversedDesc: loc.tarotMajor05Reversed,
@@ -65,7 +70,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_06',
       name: loc.tarotMajor06Name,
-      imagePath: 'assets/images/06-TheLovers.jpg',
+      imagePath: '$deckPath/06-TheLovers.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor06Upright,
       reversedDesc: loc.tarotMajor06Reversed,
@@ -73,7 +78,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_07',
       name: loc.tarotMajor07Name,
-      imagePath: 'assets/images/07-TheChariot.jpg',
+      imagePath: '$deckPath/07-TheChariot.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor07Upright,
       reversedDesc: loc.tarotMajor07Reversed,
@@ -81,7 +86,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_08',
       name: loc.tarotMajor08Name,
-      imagePath: 'assets/images/08-Strength.jpg',
+      imagePath: '$deckPath/08-Strength.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor08Upright,
       reversedDesc: loc.tarotMajor08Reversed,
@@ -89,7 +94,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_09',
       name: loc.tarotMajor09Name,
-      imagePath: 'assets/images/09-TheHermit.jpg',
+      imagePath: '$deckPath/09-TheHermit.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor09Upright,
       reversedDesc: loc.tarotMajor09Reversed,
@@ -97,7 +102,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_10',
       name: loc.tarotMajor10Name,
-      imagePath: 'assets/images/10-WheelOfFortune.jpg',
+      imagePath: '$deckPath/10-WheelOfFortune.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor10Upright,
       reversedDesc: loc.tarotMajor10Reversed,
@@ -105,7 +110,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_11',
       name: loc.tarotMajor11Name,
-      imagePath: 'assets/images/11-Justice.jpg',
+      imagePath: '$deckPath/11-Justice.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor11Upright,
       reversedDesc: loc.tarotMajor11Reversed,
@@ -113,7 +118,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_12',
       name: loc.tarotMajor12Name,
-      imagePath: 'assets/images/12-TheHangedMan.jpg',
+      imagePath: '$deckPath/12-TheHangedMan.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor12Upright,
       reversedDesc: loc.tarotMajor12Reversed,
@@ -121,7 +126,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_13',
       name: loc.tarotMajor13Name,
-      imagePath: 'assets/images/13-Death.jpg',
+      imagePath: '$deckPath/13-Death.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor13Upright,
       reversedDesc: loc.tarotMajor13Reversed,
@@ -129,7 +134,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_14',
       name: loc.tarotMajor14Name,
-      imagePath: 'assets/images/14-Temperance.jpg',
+      imagePath: '$deckPath/14-Temperance.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor14Upright,
       reversedDesc: loc.tarotMajor14Reversed,
@@ -137,7 +142,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_15',
       name: loc.tarotMajor15Name,
-      imagePath: 'assets/images/15-TheDevil.jpg',
+      imagePath: '$deckPath/15-TheDevil.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor15Upright,
       reversedDesc: loc.tarotMajor15Reversed,
@@ -145,7 +150,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_16',
       name: loc.tarotMajor16Name,
-      imagePath: 'assets/images/16-TheTower.jpg',
+      imagePath: '$deckPath/16-TheTower.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor16Upright,
       reversedDesc: loc.tarotMajor16Reversed,
@@ -153,7 +158,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_17',
       name: loc.tarotMajor17Name,
-      imagePath: 'assets/images/17-TheStar.jpg',
+      imagePath: '$deckPath/17-TheStar.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor17Upright,
       reversedDesc: loc.tarotMajor17Reversed,
@@ -161,7 +166,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_18',
       name: loc.tarotMajor18Name,
-      imagePath: 'assets/images/18-TheMoon.jpg',
+      imagePath: '$deckPath/18-TheMoon.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor18Upright,
       reversedDesc: loc.tarotMajor18Reversed,
@@ -169,7 +174,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_19',
       name: loc.tarotMajor19Name,
-      imagePath: 'assets/images/19-TheSun.jpg',
+      imagePath: '$deckPath/19-TheSun.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor19Upright,
       reversedDesc: loc.tarotMajor19Reversed,
@@ -177,7 +182,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_20',
       name: loc.tarotMajor20Name,
-      imagePath: 'assets/images/20-Judgement.jpg',
+      imagePath: '$deckPath/20-Judgement.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor20Upright,
       reversedDesc: loc.tarotMajor20Reversed,
@@ -185,7 +190,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'major_21',
       name: loc.tarotMajor21Name,
-      imagePath: 'assets/images/21-TheWorld.jpg',
+      imagePath: '$deckPath/21-TheWorld.jpg',
       isMajor: true,
       uprightDesc: loc.tarotMajor21Upright,
       reversedDesc: loc.tarotMajor21Reversed,
@@ -193,7 +198,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'cups_01',
       name: loc.tarotCups01Name,
-      imagePath: 'assets/images/Cups01.jpg',
+      imagePath: '$deckPath/Cups01.jpg',
       isMajor: false,
       uprightDesc: loc.tarotCups01Upright,
       reversedDesc: loc.tarotCups01Reversed,
@@ -201,7 +206,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'cups_02',
       name: loc.tarotCups02Name,
-      imagePath: 'assets/images/Cups02.jpg',
+      imagePath: '$deckPath/Cups02.jpg',
       isMajor: false,
       uprightDesc: loc.tarotCups02Upright,
       reversedDesc: loc.tarotCups02Reversed,
@@ -209,7 +214,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'cups_03',
       name: loc.tarotCups03Name,
-      imagePath: 'assets/images/Cups03.jpg',
+      imagePath: '$deckPath/Cups03.jpg',
       isMajor: false,
       uprightDesc: loc.tarotCups03Upright,
       reversedDesc: loc.tarotCups03Reversed,
@@ -217,7 +222,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'cups_04',
       name: loc.tarotCups04Name,
-      imagePath: 'assets/images/Cups04.jpg',
+      imagePath: '$deckPath/Cups04.jpg',
       isMajor: false,
       uprightDesc: loc.tarotCups04Upright,
       reversedDesc: loc.tarotCups04Reversed,
@@ -225,7 +230,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'cups_05',
       name: loc.tarotCups05Name,
-      imagePath: 'assets/images/Cups05.jpg',
+      imagePath: '$deckPath/Cups05.jpg',
       isMajor: false,
       uprightDesc: loc.tarotCups05Upright,
       reversedDesc: loc.tarotCups05Reversed,
@@ -233,7 +238,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'cups_06',
       name: loc.tarotCups06Name,
-      imagePath: 'assets/images/Cups06.jpg',
+      imagePath: '$deckPath/Cups06.jpg',
       isMajor: false,
       uprightDesc: loc.tarotCups06Upright,
       reversedDesc: loc.tarotCups06Reversed,
@@ -241,7 +246,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'cups_07',
       name: loc.tarotCups07Name,
-      imagePath: 'assets/images/Cups07.jpg',
+      imagePath: '$deckPath/Cups07.jpg',
       isMajor: false,
       uprightDesc: loc.tarotCups07Upright,
       reversedDesc: loc.tarotCups07Reversed,
@@ -249,7 +254,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'cups_08',
       name: loc.tarotCups08Name,
-      imagePath: 'assets/images/Cups08.jpg',
+      imagePath: '$deckPath/Cups08.jpg',
       isMajor: false,
       uprightDesc: loc.tarotCups08Upright,
       reversedDesc: loc.tarotCups08Reversed,
@@ -257,7 +262,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'cups_09',
       name: loc.tarotCups09Name,
-      imagePath: 'assets/images/Cups09.jpg',
+      imagePath: '$deckPath/Cups09.jpg',
       isMajor: false,
       uprightDesc: loc.tarotCups09Upright,
       reversedDesc: loc.tarotCups09Reversed,
@@ -265,7 +270,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'cups_10',
       name: loc.tarotCups10Name,
-      imagePath: 'assets/images/Cups10.jpg',
+      imagePath: '$deckPath/Cups10.jpg',
       isMajor: false,
       uprightDesc: loc.tarotCups10Upright,
       reversedDesc: loc.tarotCups10Reversed,
@@ -273,7 +278,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'cups_11',
       name: loc.tarotCups11Name,
-      imagePath: 'assets/images/Cups11.jpg',
+      imagePath: '$deckPath/Cups11.jpg',
       isMajor: false,
       uprightDesc: loc.tarotCups11Upright,
       reversedDesc: loc.tarotCups11Reversed,
@@ -281,7 +286,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'cups_12',
       name: loc.tarotCups12Name,
-      imagePath: 'assets/images/Cups12.jpg',
+      imagePath: '$deckPath/Cups12.jpg',
       isMajor: false,
       uprightDesc: loc.tarotCups12Upright,
       reversedDesc: loc.tarotCups12Reversed,
@@ -289,7 +294,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'cups_13',
       name: loc.tarotCups13Name,
-      imagePath: 'assets/images/Cups13.jpg',
+      imagePath: '$deckPath/Cups13.jpg',
       isMajor: false,
       uprightDesc: loc.tarotCups13Upright,
       reversedDesc: loc.tarotCups13Reversed,
@@ -297,7 +302,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'cups_14',
       name: loc.tarotCups14Name,
-      imagePath: 'assets/images/Cups14.jpg',
+      imagePath: '$deckPath/Cups14.jpg',
       isMajor: false,
       uprightDesc: loc.tarotCups14Upright,
       reversedDesc: loc.tarotCups14Reversed,
@@ -305,7 +310,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'pentacles_01',
       name: loc.tarotPentacles01Name,
-      imagePath: 'assets/images/Pentacles01.jpg',
+      imagePath: '$deckPath/Pentacles01.jpg',
       isMajor: false,
       uprightDesc: loc.tarotPentacles01Upright,
       reversedDesc: loc.tarotPentacles01Reversed,
@@ -313,7 +318,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'pentacles_02',
       name: loc.tarotPentacles02Name,
-      imagePath: 'assets/images/Pentacles02.jpg',
+      imagePath: '$deckPath/Pentacles02.jpg',
       isMajor: false,
       uprightDesc: loc.tarotPentacles02Upright,
       reversedDesc: loc.tarotPentacles02Reversed,
@@ -321,7 +326,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'pentacles_03',
       name: loc.tarotPentacles03Name,
-      imagePath: 'assets/images/Pentacles03.jpg',
+      imagePath: '$deckPath/Pentacles03.jpg',
       isMajor: false,
       uprightDesc: loc.tarotPentacles03Upright,
       reversedDesc: loc.tarotPentacles03Reversed,
@@ -329,7 +334,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'pentacles_04',
       name: loc.tarotPentacles04Name,
-      imagePath: 'assets/images/Pentacles04.jpg',
+      imagePath: '$deckPath/Pentacles04.jpg',
       isMajor: false,
       uprightDesc: loc.tarotPentacles04Upright,
       reversedDesc: loc.tarotPentacles04Reversed,
@@ -337,7 +342,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'pentacles_05',
       name: loc.tarotPentacles05Name,
-      imagePath: 'assets/images/Pentacles05.jpg',
+      imagePath: '$deckPath/Pentacles05.jpg',
       isMajor: false,
       uprightDesc: loc.tarotPentacles05Upright,
       reversedDesc: loc.tarotPentacles05Reversed,
@@ -345,7 +350,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'pentacles_06',
       name: loc.tarotPentacles06Name,
-      imagePath: 'assets/images/Pentacles06.jpg',
+      imagePath: '$deckPath/Pentacles06.jpg',
       isMajor: false,
       uprightDesc: loc.tarotPentacles06Upright,
       reversedDesc: loc.tarotPentacles06Reversed,
@@ -353,7 +358,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'pentacles_07',
       name: loc.tarotPentacles07Name,
-      imagePath: 'assets/images/Pentacles07.jpg',
+      imagePath: '$deckPath/Pentacles07.jpg',
       isMajor: false,
       uprightDesc: loc.tarotPentacles07Upright,
       reversedDesc: loc.tarotPentacles07Reversed,
@@ -361,7 +366,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'pentacles_08',
       name: loc.tarotPentacles08Name,
-      imagePath: 'assets/images/Pentacles08.jpg',
+      imagePath: '$deckPath/Pentacles08.jpg',
       isMajor: false,
       uprightDesc: loc.tarotPentacles08Upright,
       reversedDesc: loc.tarotPentacles08Reversed,
@@ -369,7 +374,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'pentacles_09',
       name: loc.tarotPentacles09Name,
-      imagePath: 'assets/images/Pentacles09.jpg',
+      imagePath: '$deckPath/Pentacles09.jpg',
       isMajor: false,
       uprightDesc: loc.tarotPentacles09Upright,
       reversedDesc: loc.tarotPentacles09Reversed,
@@ -377,7 +382,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'pentacles_10',
       name: loc.tarotPentacles10Name,
-      imagePath: 'assets/images/Pentacles10.jpg',
+      imagePath: '$deckPath/Pentacles10.jpg',
       isMajor: false,
       uprightDesc: loc.tarotPentacles10Upright,
       reversedDesc: loc.tarotPentacles10Reversed,
@@ -385,7 +390,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'pentacles_11',
       name: loc.tarotPentacles11Name,
-      imagePath: 'assets/images/Pentacles11.jpg',
+      imagePath: '$deckPath/Pentacles11.jpg',
       isMajor: false,
       uprightDesc: loc.tarotPentacles11Upright,
       reversedDesc: loc.tarotPentacles11Reversed,
@@ -393,7 +398,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'pentacles_12',
       name: loc.tarotPentacles12Name,
-      imagePath: 'assets/images/Pentacles12.jpg',
+      imagePath: '$deckPath/Pentacles12.jpg',
       isMajor: false,
       uprightDesc: loc.tarotPentacles12Upright,
       reversedDesc: loc.tarotPentacles12Reversed,
@@ -401,7 +406,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'pentacles_13',
       name: loc.tarotPentacles13Name,
-      imagePath: 'assets/images/Pentacles13.jpg',
+      imagePath: '$deckPath/Pentacles13.jpg',
       isMajor: false,
       uprightDesc: loc.tarotPentacles13Upright,
       reversedDesc: loc.tarotPentacles13Reversed,
@@ -409,7 +414,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'pentacles_14',
       name: loc.tarotPentacles14Name,
-      imagePath: 'assets/images/Pentacles14.jpg',
+      imagePath: '$deckPath/Pentacles14.jpg',
       isMajor: false,
       uprightDesc: loc.tarotPentacles14Upright,
       reversedDesc: loc.tarotPentacles14Reversed,
@@ -417,7 +422,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'swords_01',
       name: loc.tarotSwords01Name,
-      imagePath: 'assets/images/Swords01.jpg',
+      imagePath: '$deckPath/Swords01.jpg',
       isMajor: false,
       uprightDesc: loc.tarotSwords01Upright,
       reversedDesc: loc.tarotSwords01Reversed,
@@ -425,7 +430,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'swords_02',
       name: loc.tarotSwords02Name,
-      imagePath: 'assets/images/Swords02.jpg',
+      imagePath: '$deckPath/Swords02.jpg',
       isMajor: false,
       uprightDesc: loc.tarotSwords02Upright,
       reversedDesc: loc.tarotSwords02Reversed,
@@ -433,7 +438,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'swords_03',
       name: loc.tarotSwords03Name,
-      imagePath: 'assets/images/Swords03.jpg',
+      imagePath: '$deckPath/Swords03.jpg',
       isMajor: false,
       uprightDesc: loc.tarotSwords03Upright,
       reversedDesc: loc.tarotSwords03Reversed,
@@ -441,7 +446,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'swords_04',
       name: loc.tarotSwords04Name,
-      imagePath: 'assets/images/Swords04.jpg',
+      imagePath: '$deckPath/Swords04.jpg',
       isMajor: false,
       uprightDesc: loc.tarotSwords04Upright,
       reversedDesc: loc.tarotSwords04Reversed,
@@ -449,7 +454,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'swords_05',
       name: loc.tarotSwords05Name,
-      imagePath: 'assets/images/Swords05.jpg',
+      imagePath: '$deckPath/Swords05.jpg',
       isMajor: false,
       uprightDesc: loc.tarotSwords05Upright,
       reversedDesc: loc.tarotSwords05Reversed,
@@ -457,7 +462,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'swords_06',
       name: loc.tarotSwords06Name,
-      imagePath: 'assets/images/Swords06.jpg',
+      imagePath: '$deckPath/Swords06.jpg',
       isMajor: false,
       uprightDesc: loc.tarotSwords06Upright,
       reversedDesc: loc.tarotSwords06Reversed,
@@ -465,7 +470,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'swords_07',
       name: loc.tarotSwords07Name,
-      imagePath: 'assets/images/Swords07.jpg',
+      imagePath: '$deckPath/Swords07.jpg',
       isMajor: false,
       uprightDesc: loc.tarotSwords07Upright,
       reversedDesc: loc.tarotSwords07Reversed,
@@ -473,7 +478,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'swords_08',
       name: loc.tarotSwords08Name,
-      imagePath: 'assets/images/Swords08.jpg',
+      imagePath: '$deckPath/Swords08.jpg',
       isMajor: false,
       uprightDesc: loc.tarotSwords08Upright,
       reversedDesc: loc.tarotSwords08Reversed,
@@ -481,7 +486,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'swords_09',
       name: loc.tarotSwords09Name,
-      imagePath: 'assets/images/Swords09.jpg',
+      imagePath: '$deckPath/Swords09.jpg',
       isMajor: false,
       uprightDesc: loc.tarotSwords09Upright,
       reversedDesc: loc.tarotSwords09Reversed,
@@ -489,7 +494,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'swords_10',
       name: loc.tarotSwords10Name,
-      imagePath: 'assets/images/Swords10.jpg',
+      imagePath: '$deckPath/Swords10.jpg',
       isMajor: false,
       uprightDesc: loc.tarotSwords10Upright,
       reversedDesc: loc.tarotSwords10Reversed,
@@ -497,7 +502,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'swords_11',
       name: loc.tarotSwords11Name,
-      imagePath: 'assets/images/Swords11.jpg',
+      imagePath: '$deckPath/Swords11.jpg',
       isMajor: false,
       uprightDesc: loc.tarotSwords11Upright,
       reversedDesc: loc.tarotSwords11Reversed,
@@ -505,7 +510,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'swords_12',
       name: loc.tarotSwords12Name,
-      imagePath: 'assets/images/Swords12.jpg',
+      imagePath: '$deckPath/Swords12.jpg',
       isMajor: false,
       uprightDesc: loc.tarotSwords12Upright,
       reversedDesc: loc.tarotSwords12Reversed,
@@ -513,7 +518,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'swords_13',
       name: loc.tarotSwords13Name,
-      imagePath: 'assets/images/Swords13.jpg',
+      imagePath: '$deckPath/Swords13.jpg',
       isMajor: false,
       uprightDesc: loc.tarotSwords13Upright,
       reversedDesc: loc.tarotSwords13Reversed,
@@ -521,7 +526,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'swords_14',
       name: loc.tarotSwords14Name,
-      imagePath: 'assets/images/Swords14.jpg',
+      imagePath: '$deckPath/Swords14.jpg',
       isMajor: false,
       uprightDesc: loc.tarotSwords14Upright,
       reversedDesc: loc.tarotSwords14Reversed,
@@ -529,7 +534,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'wands_01',
       name: loc.tarotWands01Name,
-      imagePath: 'assets/images/Wands01.jpg',
+      imagePath: '$deckPath/Wands01.jpg',
       isMajor: false,
       uprightDesc: loc.tarotWands01Upright,
       reversedDesc: loc.tarotWands01Reversed,
@@ -537,7 +542,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'wands_02',
       name: loc.tarotWands02Name,
-      imagePath: 'assets/images/Wands02.jpg',
+      imagePath: '$deckPath/Wands02.jpg',
       isMajor: false,
       uprightDesc: loc.tarotWands02Upright,
       reversedDesc: loc.tarotWands02Reversed,
@@ -545,7 +550,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'wands_03',
       name: loc.tarotWands03Name,
-      imagePath: 'assets/images/Wands03.jpg',
+      imagePath: '$deckPath/Wands03.jpg',
       isMajor: false,
       uprightDesc: loc.tarotWands03Upright,
       reversedDesc: loc.tarotWands03Reversed,
@@ -553,7 +558,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'wands_04',
       name: loc.tarotWands04Name,
-      imagePath: 'assets/images/Wands04.jpg',
+      imagePath: '$deckPath/Wands04.jpg',
       isMajor: false,
       uprightDesc: loc.tarotWands04Upright,
       reversedDesc: loc.tarotWands04Reversed,
@@ -561,7 +566,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'wands_05',
       name: loc.tarotWands05Name,
-      imagePath: 'assets/images/Wands05.jpg',
+      imagePath: '$deckPath/Wands05.jpg',
       isMajor: false,
       uprightDesc: loc.tarotWands05Upright,
       reversedDesc: loc.tarotWands05Reversed,
@@ -569,7 +574,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'wands_06',
       name: loc.tarotWands06Name,
-      imagePath: 'assets/images/Wands06.jpg',
+      imagePath: '$deckPath/Wands06.jpg',
       isMajor: false,
       uprightDesc: loc.tarotWands06Upright,
       reversedDesc: loc.tarotWands06Reversed,
@@ -577,7 +582,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'wands_07',
       name: loc.tarotWands07Name,
-      imagePath: 'assets/images/Wands07.jpg',
+      imagePath: '$deckPath/Wands07.jpg',
       isMajor: false,
       uprightDesc: loc.tarotWands07Upright,
       reversedDesc: loc.tarotWands07Reversed,
@@ -585,7 +590,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'wands_08',
       name: loc.tarotWands08Name,
-      imagePath: 'assets/images/Wands08.jpg',
+      imagePath: '$deckPath/Wands08.jpg',
       isMajor: false,
       uprightDesc: loc.tarotWands08Upright,
       reversedDesc: loc.tarotWands08Reversed,
@@ -593,7 +598,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'wands_09',
       name: loc.tarotWands09Name,
-      imagePath: 'assets/images/Wands09.jpg',
+      imagePath: '$deckPath/Wands09.jpg',
       isMajor: false,
       uprightDesc: loc.tarotWands09Upright,
       reversedDesc: loc.tarotWands09Reversed,
@@ -601,7 +606,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'wands_10',
       name: loc.tarotWands10Name,
-      imagePath: 'assets/images/Wands10.jpg',
+      imagePath: '$deckPath/Wands10.jpg',
       isMajor: false,
       uprightDesc: loc.tarotWands10Upright,
       reversedDesc: loc.tarotWands10Reversed,
@@ -609,7 +614,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'wands_11',
       name: loc.tarotWands11Name,
-      imagePath: 'assets/images/Wands11.jpg',
+      imagePath: '$deckPath/Wands11.jpg',
       isMajor: false,
       uprightDesc: loc.tarotWands11Upright,
       reversedDesc: loc.tarotWands11Reversed,
@@ -617,7 +622,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'wands_12',
       name: loc.tarotWands12Name,
-      imagePath: 'assets/images/Wands12.jpg',
+      imagePath: '$deckPath/Wands12.jpg',
       isMajor: false,
       uprightDesc: loc.tarotWands12Upright,
       reversedDesc: loc.tarotWands12Reversed,
@@ -625,7 +630,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'wands_13',
       name: loc.tarotWands13Name,
-      imagePath: 'assets/images/Wands13.jpg',
+      imagePath: '$deckPath/Wands13.jpg',
       isMajor: false,
       uprightDesc: loc.tarotWands13Upright,
       reversedDesc: loc.tarotWands13Reversed,
@@ -633,7 +638,7 @@ List<TarotCardData> getTarotDeck(BuildContext context) {
     TarotCardData(
       id: 'wands_14',
       name: loc.tarotWands14Name,
-      imagePath: 'assets/images/Wands14.jpg',
+      imagePath: '$deckPath/Wands14.jpg',
       isMajor: false,
       uprightDesc: loc.tarotWands14Upright,
       reversedDesc: loc.tarotWands14Reversed,

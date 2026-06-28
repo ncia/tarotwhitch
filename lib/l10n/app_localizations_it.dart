@@ -1312,6 +1312,12 @@ class AppLocalizationsIt extends AppLocalizations {
   String get myMenuLanguageSettings => 'Impostazioni della lingua';
 
   @override
+  String get myMenuSoundSettings => 'Sound / SFX';
+
+  @override
+  String get myMenuSoundSettingsDesc => 'Turn BGM & SFX on/off';
+
+  @override
   String get myMenuThemeSettings => 'Impostazioni della pelle';
 
   @override

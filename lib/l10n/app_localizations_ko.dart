@@ -1142,6 +1142,12 @@ class AppLocalizationsKo extends AppLocalizations {
   String get myMenuLanguageSettings => '언어 설정';
 
   @override
+  String get myMenuSoundSettings => '사운드 / 효과음';
+
+  @override
+  String get myMenuSoundSettingsDesc => '배경음악 및 효과음 켜기/끄기';
+
+  @override
   String get myMenuThemeSettings => '스킨 설정';
 
   @override

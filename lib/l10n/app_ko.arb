@@ -392,6 +392,8 @@
   "myMenuPushNotifications": "푸시 알림 수신",
   "myMenuPushNotificationsDesc": "새로운 운세 및 이벤트 알림",
   "myMenuLanguageSettings": "언어 설정",
+  "myMenuSoundSettings": "사운드 / 효과음",
+  "myMenuSoundSettingsDesc": "배경음악 및 효과음 켜기/끄기",
   "myMenuThemeSettings": "스킨 설정",
   "myMenuChangeBackground": "배경 이미지 변경",
   "myMenuSectionCustomerSupport": "고객 지원",

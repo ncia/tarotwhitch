@@ -13,6 +13,8 @@ import 'services/economy_service.dart';
 import 'services/theme_manager.dart';
 import 'services/language_manager.dart';
 import 'services/diary_service.dart';
+import 'services/deck_manager.dart';
+import 'services/deck_manager.dart';
 
 final GlobalKey<NavigatorState> globalNavigatorKey = GlobalKey<NavigatorState>();
 
@@ -57,6 +59,7 @@ void main() async {
   await ThemeManager.instance.init();
   await LanguageManager.instance.init();
   await DiaryService.instance.init();
+  await DeckManager.instance.init();
 
   // 로그인 유저면 기존 Firestore 데이터를 로컬로 마이그레이션
   try {

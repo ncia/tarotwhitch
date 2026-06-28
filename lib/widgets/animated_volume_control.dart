@@ -92,7 +92,7 @@ class _AnimatedVolumeControlState extends State<AnimatedVolumeControl> {
                       onChanged: (val) {
                         setState(() {
                           if (isMuted && val > 0) {
-                            AudioService().toggleMute();
+                            AudioService().setMute(false);
                           }
                           AudioService().setVolume(val);
                         });

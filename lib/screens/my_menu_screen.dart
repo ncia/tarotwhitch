@@ -18,6 +18,9 @@ import '../services/language_manager.dart';
 import 'favorite_cards_screen.dart';
 import '../widgets/mailbox_dialog.dart';
 import '../services/mail_service.dart';
+import '../services/audio_service.dart';
+import 'notification_center_screen.dart';
+import 'deck_selection_screen.dart';
 
 class MyMenuScreen extends StatelessWidget {
   const MyMenuScreen({super.key});
@@ -301,7 +304,10 @@ class MyMenuScreen extends StatelessWidget {
           },
         ),
         _buildMenuItem(Icons.notifications_none, AppLocalizations.of(context)!.menuNotificationCenterTitle, AppLocalizations.of(context)!.menuNotificationCenterSubtitle, onTap: () {
-          // TODO: 알림 센터 열기
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const NotificationCenterScreen()),
+          );
         }),
         
         const SizedBox(height: 20),
@@ -319,6 +325,7 @@ class MyMenuScreen extends StatelessWidget {
         const SizedBox(height: 20),
         _buildSectionTitle(AppLocalizations.of(context)!.myMenuSectionAppSettings),
         if (isLoggedIn && user != null) _PushSettingsTile(userId: user.uid),
+        const _SoundSettingsTile(),
         
         ValueListenableBuilder<Locale?>(
           valueListenable: LanguageManager.instance.localeNotifier,
@@ -349,6 +356,12 @@ class MyMenuScreen extends StatelessWidget {
 
         _buildMenuItem(Icons.dark_mode_outlined, AppLocalizations.of(context)!.myMenuThemeSettings, AppLocalizations.of(context)!.myMenuChangeBackground, onTap: () {
           Navigator.pushNamed(context, '/theme_selection');
+        }),
+        _buildMenuItem(Icons.style_outlined, '타로 덱(Deck) 설정', '라이더 웨이트 등 카드 이미지 변경', onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const DeckSelectionScreen()),
+          );
         }),
         
         const SizedBox(height: 20),
@@ -832,3 +845,52 @@ class _EmailVerificationBadgeState extends State<_EmailVerificationBadge> {
   }
 }
 
+
+class _SoundSettingsTile extends StatelessWidget {
+  const _SoundSettingsTile();
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: const EdgeInsets.only(bottom: 12),
+      child: GlassContainer(
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        borderRadius: 16,
+        child: Material(
+          type: MaterialType.transparency,
+          child: ListTile(
+            contentPadding: EdgeInsets.zero,
+            leading: Container(
+              padding: const EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                color: Colors.deepPurpleAccent.withValues(alpha: 0.3),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: const Icon(Icons.volume_up_outlined, color: Colors.amberAccent),
+            ),
+            title: Text(
+              AppLocalizations.of(context)!.myMenuSoundSettings,
+              style: const TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w500),
+            ),
+            subtitle: Text(
+              AppLocalizations.of(context)!.myMenuSoundSettingsDesc,
+              style: TextStyle(color: Colors.white.withValues(alpha: 0.6), fontSize: 12),
+            ),
+            trailing: ValueListenableBuilder<bool>(
+              valueListenable: AudioService().isMutedNotifier,
+              builder: (context, isMuted, child) {
+                return Switch(
+                  value: !isMuted,
+                  onChanged: (value) {
+                    AudioService().setMute(!value);
+                  },
+                  activeThumbColor: Colors.amberAccent,
+                );
+              },
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}

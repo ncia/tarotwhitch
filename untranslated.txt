@@ -1,5 +1,7 @@
 {
   "ar": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -11,6 +13,8 @@
   ],
 
   "be": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -22,6 +26,8 @@
   ],
 
   "bg": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -33,6 +39,8 @@
   ],
 
   "ca": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -44,6 +52,8 @@
   ],
 
   "cs": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -55,6 +65,8 @@
   ],
 
   "da": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -66,6 +78,8 @@
   ],
 
   "de": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -77,6 +91,8 @@
   ],
 
   "el": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -88,6 +104,8 @@
   ],
 
   "es": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -99,6 +117,8 @@
   ],
 
   "et": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "tagLove",
     "tagMoney",
     "tagHealth",
@@ -117,6 +137,8 @@
   ],
 
   "fa": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -128,6 +150,8 @@
   ],
 
   "fi": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -139,6 +163,8 @@
   ],
 
   "fr": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -150,6 +176,8 @@
   ],
 
   "hi": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -161,6 +189,8 @@
   ],
 
   "hr": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -172,6 +202,8 @@
   ],
 
   "hu": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -183,6 +215,8 @@
   ],
 
   "hy": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -194,6 +228,8 @@
   ],
 
   "id": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -205,6 +241,8 @@
   ],
 
   "it": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -216,6 +254,8 @@
   ],
 
   "ja": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -227,6 +267,8 @@
   ],
 
   "lt": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -238,6 +280,8 @@
   ],
 
   "lv": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -249,6 +293,8 @@
   ],
 
   "ml": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -260,6 +306,8 @@
   ],
 
   "ms": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -271,6 +319,8 @@
   ],
 
   "no": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -282,6 +332,8 @@
   ],
 
   "pl": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -293,6 +345,8 @@
   ],
 
   "pt": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -304,6 +358,8 @@
   ],
 
   "rm": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "menuSectionNews",
     "menuMailboxTitle",
     "menuMailboxSubtitle",
@@ -403,6 +459,8 @@
   ],
 
   "ro": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -414,6 +472,8 @@
   ],
 
   "ru": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -425,6 +485,8 @@
   ],
 
   "sk": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -436,6 +498,8 @@
   ],
 
   "sl": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -447,6 +511,8 @@
   ],
 
   "sr": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -458,6 +524,8 @@
   ],
 
   "sv": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -469,6 +537,8 @@
   ],
 
   "th": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -480,6 +550,8 @@
   ],
 
   "tl": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -491,6 +563,8 @@
   ],
 
   "tr": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -502,6 +576,8 @@
   ],
 
   "uk": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -513,6 +589,8 @@
   ],
 
   "vi": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -524,6 +602,8 @@
   ],
 
   "zh": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "coinShortageTitle",
     "coinShortageContent",
     "dialogOk",
@@ -616,6 +696,8 @@
   ],
 
   "zh_Hans": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",
@@ -627,6 +709,8 @@
   ],
 
   "zh_Hant": [
+    "myMenuSoundSettings",
+    "myMenuSoundSettingsDesc",
     "authForgotPassword",
     "authResetPasswordTitle",
     "authResetPasswordHint",

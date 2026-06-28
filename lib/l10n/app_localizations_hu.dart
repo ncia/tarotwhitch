@@ -1311,6 +1311,12 @@ class AppLocalizationsHu extends AppLocalizations {
   String get myMenuLanguageSettings => 'Nyelvi beállítások';
 
   @override
+  String get myMenuSoundSettings => 'Sound / SFX';
+
+  @override
+  String get myMenuSoundSettingsDesc => 'Turn BGM & SFX on/off';
+
+  @override
   String get myMenuThemeSettings => 'Bőrbeállítások';
 
   @override
