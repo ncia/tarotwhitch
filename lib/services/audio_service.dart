@@ -105,7 +105,6 @@ class AudioService {
   }
 
   Future<void> playThunderSound() async {
-    if (_isMuted) return;
     try {
       if (_isWindows) {
         final source = await SoLoud.instance.loadAsset('assets/audio/thunder.ogg');
@@ -193,7 +192,6 @@ class AudioService {
       } else {
         await _bgmPlayer!.setVolume(0.0);
       }
-      TtsService().stop();
     } else {
       if (_isWindows) {
         if (_soloudBgmHandle != null) SoLoud.instance.setVolume(_soloudBgmHandle!, _volume);

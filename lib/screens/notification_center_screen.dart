@@ -26,7 +26,7 @@ class NotificationCenterScreen extends StatelessWidget {
 
   Widget _buildHeader(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
+      padding: const EdgeInsets.only(top: 50.0, left: 16.0, right: 16.0, bottom: 12.0),
       child: Row(
         children: [
           IconButton(

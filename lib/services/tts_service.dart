@@ -74,7 +74,7 @@ class TtsService {
   }
 
   Future<void> _playNextInQueue() async {
-    if (AudioService().isMuted || AudioService().volume == 0) {
+    if (AudioService().volume == 0) {
       _textQueue.clear();
       _isPlaying = false;
       WakelockPlus.disable();
@@ -129,7 +129,7 @@ class TtsService {
         print('Saved TTS MP3 to: $safePath, Size: ${audioBytes.length} bytes');
 
         await AudioService().pauseBgm();
-        final double ttsVolume = AudioService().isMuted ? 0.0 : 0.5;
+        final double ttsVolume = 0.5;
         final double playbackRate = _currentWitch?.id == 'karen' ? 0.85 : 1.0;
 
         if (_isWindows) {
